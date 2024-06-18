@@ -1,0 +1,460 @@
+
+#World generation settings for Mekanism. This config is synced from server to client
+[world_generation]
+	#Allows chunks to retrogen Mekanism ore blocks.
+	enableRegeneration = false
+	#Change this value to cause Mekanism to regen its ore in all loaded chunks.
+	#Range: > 0
+	userWorldGenVersion = 0
+
+	#Generation Settings for tin ore.
+	[world_generation.tin]
+		#Determines if tin ore should be added to world generation.
+		shouldGenerate = false
+
+		#small tin vein Generation Settings.
+		[world_generation.tin.small]
+			#Determines if small tin veins should be added to world generation. Note: Requires generating tin ore to be enabled.
+			shouldGenerate = false
+			#Chance that small tin veins generates in a chunk.
+			#Range: 1 ~ 256
+			perChunk = 14
+			#Maximum number of blocks in a small tin vein.
+			#Range: 1 ~ 64
+			maxVeinSize = 4
+			#Chance that blocks that are directly exposed to air in a small tin vein are not placed.
+			#Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Distribution shape for placing small tin veins.
+			#Allowed Values: TRAPEZOID, UNIFORM
+			shape = "TRAPEZOID"
+			#Half length of short side of trapezoid, only used if shape is TRAPEZOID. A value of zero means the shape is a triangle.
+			plateau = 0
+
+			#Minimum (inclusive) height anchor for small tin veins.
+			[world_generation.tin.small.minInclusive]
+				#Type of anchor.
+				#Absolute -> y = value
+				#Above Bottom -> y = minY + value
+				#Below Top -> y = depth - 1 + minY - value
+				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
+				type = "ABSOLUTE"
+				#Value used for calculating y for the anchor based on the type.
+				value = -20
+
+			#Maximum (inclusive) height anchor for small tin veins.
+			[world_generation.tin.small.maxInclusive]
+				#Type of anchor.
+				#Absolute -> y = value
+				#Above Bottom -> y = minY + value
+				#Below Top -> y = depth - 1 + minY - value
+				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
+				type = "ABSOLUTE"
+				#Value used for calculating y for the anchor based on the type.
+				value = 94
+
+		#large tin vein Generation Settings.
+		[world_generation.tin.large]
+			#Determines if large tin veins should be added to world generation. Note: Requires generating tin ore to be enabled.
+			shouldGenerate = false
+			#Chance that large tin veins generates in a chunk.
+			#Range: 1 ~ 256
+			perChunk = 12
+			#Maximum number of blocks in a large tin vein.
+			#Range: 1 ~ 64
+			maxVeinSize = 9
+			#Chance that blocks that are directly exposed to air in a large tin vein are not placed.
+			#Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Distribution shape for placing large tin veins.
+			#Allowed Values: TRAPEZOID, UNIFORM
+			shape = "TRAPEZOID"
+			#Half length of short side of trapezoid, only used if shape is TRAPEZOID. A value of zero means the shape is a triangle.
+			plateau = 0
+
+			#Minimum (inclusive) height anchor for large tin veins.
+			[world_generation.tin.large.minInclusive]
+				#Type of anchor.
+				#Absolute -> y = value
+				#Above Bottom -> y = minY + value
+				#Below Top -> y = depth - 1 + minY - value
+				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
+				type = "ABSOLUTE"
+				#Value used for calculating y for the anchor based on the type.
+				value = -32
+
+			#Maximum (inclusive) height anchor for large tin veins.
+			[world_generation.tin.large.maxInclusive]
+				#Type of anchor.
+				#Absolute -> y = value
+				#Above Bottom -> y = minY + value
+				#Below Top -> y = depth - 1 + minY - value
+				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
+				type = "ABSOLUTE"
+				#Value used for calculating y for the anchor based on the type.
+				value = 72
+
+	#Generation Settings for osmium ore.
+	[world_generation.osmium]
+		#Determines if osmium ore should be added to world generation.
+		shouldGenerate = false
+
+		#upper osmium vein Generation Settings.
+		[world_generation.osmium.upper]
+			#Determines if upper osmium veins should be added to world generation. Note: Requires generating osmium ore to be enabled.
+			shouldGenerate = false
+			#Chance that upper osmium veins generates in a chunk.
+			#Range: 1 ~ 256
+			perChunk = 65
+			#Maximum number of blocks in a upper osmium vein.
+			#Range: 1 ~ 64
+			maxVeinSize = 7
+			#Chance that blocks that are directly exposed to air in a upper osmium vein are not placed.
+			#Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Distribution shape for placing upper osmium veins.
+			#Allowed Values: TRAPEZOID, UNIFORM
+			shape = "TRAPEZOID"
+			#Half length of short side of trapezoid, only used if shape is TRAPEZOID. A value of zero means the shape is a triangle.
+			plateau = 8
+
+			#Minimum (inclusive) height anchor for upper osmium veins.
+			[world_generation.osmium.upper.minInclusive]
+				#Type of anchor.
+				#Absolute -> y = value
+				#Above Bottom -> y = minY + value
+				#Below Top -> y = depth - 1 + minY - value
+				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
+				type = "ABSOLUTE"
+				#Value used for calculating y for the anchor based on the type.
+				value = 72
+
+			#Maximum (inclusive) height anchor for upper osmium veins.
+			[world_generation.osmium.upper.maxInclusive]
+				#Type of anchor.
+				#Absolute -> y = value
+				#Above Bottom -> y = minY + value
+				#Below Top -> y = depth - 1 + minY - value
+				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
+				type = "BELOW_TOP"
+				#Value used for calculating y for the anchor based on the type.
+				value = -24
+
+		#middle osmium vein Generation Settings.
+		[world_generation.osmium.middle]
+			#Determines if middle osmium veins should be added to world generation. Note: Requires generating osmium ore to be enabled.
+			shouldGenerate = false
+			#Chance that middle osmium veins generates in a chunk.
+			#Range: 1 ~ 256
+			perChunk = 6
+			#Maximum number of blocks in a middle osmium vein.
+			#Range: 1 ~ 64
+			maxVeinSize = 9
+			#Chance that blocks that are directly exposed to air in a middle osmium vein are not placed.
+			#Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Distribution shape for placing middle osmium veins.
+			#Allowed Values: TRAPEZOID, UNIFORM
+			shape = "TRAPEZOID"
+			#Half length of short side of trapezoid, only used if shape is TRAPEZOID. A value of zero means the shape is a triangle.
+			plateau = 0
+
+			#Minimum (inclusive) height anchor for middle osmium veins.
+			[world_generation.osmium.middle.minInclusive]
+				#Type of anchor.
+				#Absolute -> y = value
+				#Above Bottom -> y = minY + value
+				#Below Top -> y = depth - 1 + minY - value
+				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
+				type = "ABSOLUTE"
+				#Value used for calculating y for the anchor based on the type.
+				value = -32
+
+			#Maximum (inclusive) height anchor for middle osmium veins.
+			[world_generation.osmium.middle.maxInclusive]
+				#Type of anchor.
+				#Absolute -> y = value
+				#Above Bottom -> y = minY + value
+				#Below Top -> y = depth - 1 + minY - value
+				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
+				type = "ABSOLUTE"
+				#Value used for calculating y for the anchor based on the type.
+				value = 56
+
+		#small osmium vein Generation Settings.
+		[world_generation.osmium.small]
+			#Determines if small osmium veins should be added to world generation. Note: Requires generating osmium ore to be enabled.
+			shouldGenerate = false
+			#Chance that small osmium veins generates in a chunk.
+			#Range: 1 ~ 256
+			perChunk = 8
+			#Maximum number of blocks in a small osmium vein.
+			#Range: 1 ~ 64
+			maxVeinSize = 4
+			#Chance that blocks that are directly exposed to air in a small osmium vein are not placed.
+			#Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Distribution shape for placing small osmium veins.
+			#Allowed Values: TRAPEZOID, UNIFORM
+			shape = "UNIFORM"
+			#Half length of short side of trapezoid, only used if shape is TRAPEZOID. A value of zero means the shape is a triangle.
+			plateau = 0
+
+			#Minimum (inclusive) height anchor for small osmium veins.
+			[world_generation.osmium.small.minInclusive]
+				#Type of anchor.
+				#Absolute -> y = value
+				#Above Bottom -> y = minY + value
+				#Below Top -> y = depth - 1 + minY - value
+				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
+				type = "ABOVE_BOTTOM"
+				#Value used for calculating y for the anchor based on the type.
+				value = 0
+
+			#Maximum (inclusive) height anchor for small osmium veins.
+			[world_generation.osmium.small.maxInclusive]
+				#Type of anchor.
+				#Absolute -> y = value
+				#Above Bottom -> y = minY + value
+				#Below Top -> y = depth - 1 + minY - value
+				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
+				type = "ABSOLUTE"
+				#Value used for calculating y for the anchor based on the type.
+				value = 64
+
+	#Generation Settings for uranium ore.
+	[world_generation.uranium]
+		#Determines if uranium ore should be added to world generation.
+		shouldGenerate = false
+
+		#small uranium vein Generation Settings.
+		[world_generation.uranium.small]
+			#Determines if small uranium veins should be added to world generation. Note: Requires generating uranium ore to be enabled.
+			shouldGenerate = false
+			#Chance that small uranium veins generates in a chunk.
+			#Range: 1 ~ 256
+			perChunk = 4
+			#Maximum number of blocks in a small uranium vein.
+			#Range: 1 ~ 64
+			maxVeinSize = 4
+			#Chance that blocks that are directly exposed to air in a small uranium vein are not placed.
+			#Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Distribution shape for placing small uranium veins.
+			#Allowed Values: TRAPEZOID, UNIFORM
+			shape = "TRAPEZOID"
+			#Half length of short side of trapezoid, only used if shape is TRAPEZOID. A value of zero means the shape is a triangle.
+			plateau = 0
+
+			#Minimum (inclusive) height anchor for small uranium veins.
+			[world_generation.uranium.small.minInclusive]
+				#Type of anchor.
+				#Absolute -> y = value
+				#Above Bottom -> y = minY + value
+				#Below Top -> y = depth - 1 + minY - value
+				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
+				type = "ABOVE_BOTTOM"
+				#Value used for calculating y for the anchor based on the type.
+				value = 0
+
+			#Maximum (inclusive) height anchor for small uranium veins.
+			[world_generation.uranium.small.maxInclusive]
+				#Type of anchor.
+				#Absolute -> y = value
+				#Above Bottom -> y = minY + value
+				#Below Top -> y = depth - 1 + minY - value
+				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
+				type = "ABSOLUTE"
+				#Value used for calculating y for the anchor based on the type.
+				value = 8
+
+		#buried uranium vein Generation Settings.
+		[world_generation.uranium.buried]
+			#Determines if buried uranium veins should be added to world generation. Note: Requires generating uranium ore to be enabled.
+			shouldGenerate = false
+			#Chance that buried uranium veins generates in a chunk.
+			#Range: 1 ~ 256
+			perChunk = 7
+			#Maximum number of blocks in a buried uranium vein.
+			#Range: 1 ~ 64
+			maxVeinSize = 9
+			#Chance that blocks that are directly exposed to air in a buried uranium vein are not placed.
+			#Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.75
+			#Distribution shape for placing buried uranium veins.
+			#Allowed Values: TRAPEZOID, UNIFORM
+			shape = "TRAPEZOID"
+			#Half length of short side of trapezoid, only used if shape is TRAPEZOID. A value of zero means the shape is a triangle.
+			plateau = 16
+
+			#Minimum (inclusive) height anchor for buried uranium veins.
+			[world_generation.uranium.buried.minInclusive]
+				#Type of anchor.
+				#Absolute -> y = value
+				#Above Bottom -> y = minY + value
+				#Below Top -> y = depth - 1 + minY - value
+				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
+				type = "ABOVE_BOTTOM"
+				#Value used for calculating y for the anchor based on the type.
+				value = -24
+
+			#Maximum (inclusive) height anchor for buried uranium veins.
+			[world_generation.uranium.buried.maxInclusive]
+				#Type of anchor.
+				#Absolute -> y = value
+				#Above Bottom -> y = minY + value
+				#Below Top -> y = depth - 1 + minY - value
+				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
+				type = "ABOVE_BOTTOM"
+				#Value used for calculating y for the anchor based on the type.
+				value = 56
+
+	#Generation Settings for fluorite ore.
+	[world_generation.fluorite]
+		#Determines if fluorite ore should be added to world generation.
+		shouldGenerate = false
+
+		#normal fluorite vein Generation Settings.
+		[world_generation.fluorite.normal]
+			#Determines if normal fluorite veins should be added to world generation. Note: Requires generating fluorite ore to be enabled.
+			shouldGenerate = false
+			#Chance that normal fluorite veins generates in a chunk.
+			#Range: 1 ~ 256
+			perChunk = 5
+			#Maximum number of blocks in a normal fluorite vein.
+			#Range: 1 ~ 64
+			maxVeinSize = 5
+			#Chance that blocks that are directly exposed to air in a normal fluorite vein are not placed.
+			#Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.0
+			#Distribution shape for placing normal fluorite veins.
+			#Allowed Values: TRAPEZOID, UNIFORM
+			shape = "UNIFORM"
+			#Half length of short side of trapezoid, only used if shape is TRAPEZOID. A value of zero means the shape is a triangle.
+			plateau = 0
+
+			#Minimum (inclusive) height anchor for normal fluorite veins.
+			[world_generation.fluorite.normal.minInclusive]
+				#Type of anchor.
+				#Absolute -> y = value
+				#Above Bottom -> y = minY + value
+				#Below Top -> y = depth - 1 + minY - value
+				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
+				type = "ABOVE_BOTTOM"
+				#Value used for calculating y for the anchor based on the type.
+				value = 0
+
+			#Maximum (inclusive) height anchor for normal fluorite veins.
+			[world_generation.fluorite.normal.maxInclusive]
+				#Type of anchor.
+				#Absolute -> y = value
+				#Above Bottom -> y = minY + value
+				#Below Top -> y = depth - 1 + minY - value
+				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
+				type = "ABSOLUTE"
+				#Value used for calculating y for the anchor based on the type.
+				value = 23
+
+		#buried fluorite vein Generation Settings.
+		[world_generation.fluorite.buried]
+			#Determines if buried fluorite veins should be added to world generation. Note: Requires generating fluorite ore to be enabled.
+			shouldGenerate = false
+			#Chance that buried fluorite veins generates in a chunk.
+			#Range: 1 ~ 256
+			perChunk = 3
+			#Maximum number of blocks in a buried fluorite vein.
+			#Range: 1 ~ 64
+			maxVeinSize = 13
+			#Chance that blocks that are directly exposed to air in a buried fluorite vein are not placed.
+			#Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 1.0
+			#Distribution shape for placing buried fluorite veins.
+			#Allowed Values: TRAPEZOID, UNIFORM
+			shape = "TRAPEZOID"
+			#Half length of short side of trapezoid, only used if shape is TRAPEZOID. A value of zero means the shape is a triangle.
+			plateau = 0
+
+			#Minimum (inclusive) height anchor for buried fluorite veins.
+			[world_generation.fluorite.buried.minInclusive]
+				#Type of anchor.
+				#Absolute -> y = value
+				#Above Bottom -> y = minY + value
+				#Below Top -> y = depth - 1 + minY - value
+				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
+				type = "ABOVE_BOTTOM"
+				#Value used for calculating y for the anchor based on the type.
+				value = 0
+
+			#Maximum (inclusive) height anchor for buried fluorite veins.
+			[world_generation.fluorite.buried.maxInclusive]
+				#Type of anchor.
+				#Absolute -> y = value
+				#Above Bottom -> y = minY + value
+				#Below Top -> y = depth - 1 + minY - value
+				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
+				type = "ABSOLUTE"
+				#Value used for calculating y for the anchor based on the type.
+				value = 4
+
+	#Generation Settings for lead ore.
+	[world_generation.lead]
+		#Determines if lead ore should be added to world generation.
+		shouldGenerate = false
+
+		#normal lead vein Generation Settings.
+		[world_generation.lead.normal]
+			#Determines if normal lead veins should be added to world generation. Note: Requires generating lead ore to be enabled.
+			shouldGenerate = false
+			#Chance that normal lead veins generates in a chunk.
+			#Range: 1 ~ 256
+			perChunk = 8
+			#Maximum number of blocks in a normal lead vein.
+			#Range: 1 ~ 64
+			maxVeinSize = 9
+			#Chance that blocks that are directly exposed to air in a normal lead vein are not placed.
+			#Range: 0.0 ~ 1.0
+			discardChanceOnAirExposure = 0.25
+			#Distribution shape for placing normal lead veins.
+			#Allowed Values: TRAPEZOID, UNIFORM
+			shape = "TRAPEZOID"
+			#Half length of short side of trapezoid, only used if shape is TRAPEZOID. A value of zero means the shape is a triangle.
+			plateau = 0
+
+			#Minimum (inclusive) height anchor for normal lead veins.
+			[world_generation.lead.normal.minInclusive]
+				#Type of anchor.
+				#Absolute -> y = value
+				#Above Bottom -> y = minY + value
+				#Below Top -> y = depth - 1 + minY - value
+				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
+				type = "ABOVE_BOTTOM"
+				#Value used for calculating y for the anchor based on the type.
+				value = -24
+
+			#Maximum (inclusive) height anchor for normal lead veins.
+			[world_generation.lead.normal.maxInclusive]
+				#Type of anchor.
+				#Absolute -> y = value
+				#Above Bottom -> y = minY + value
+				#Below Top -> y = depth - 1 + minY - value
+				#Allowed Values: ABSOLUTE, ABOVE_BOTTOM, BELOW_TOP
+				type = "ABSOLUTE"
+				#Value used for calculating y for the anchor based on the type.
+				value = 64
+
+	#Generation Settings for salt.
+	[world_generation.salt]
+		#Determines if salt should be added to world generation.
+		shouldGenerate = false
+		#Chance that salt generates in a chunk.
+		#Range: 1 ~ 256
+		perChunk = 2
+		#Base radius of a vein of salt.
+		#Range: 1 ~ 4
+		minRadius = 2
+		#Extended variability (spread) for the radius in a vein of salt.
+		maxRadius = 3
+		#Number of blocks to extend up and down when placing a vein of salt.
+		#Range: 0 ~ 2031
+		halfHeight = 1
+
