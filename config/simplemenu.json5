@@ -1,0 +1,30 @@
+{
+	// Whether a custom window title should be set. Uses the value set in 'customWindowTitle'.
+	"setCustomWindowTitle": false,
+	// The custom window title that's used when 'setCustomWindowTitle' is enabled.
+	"customWindowTitle": "Custom Window Title",
+	// If a custom window icon should be set. Two files are needed. Both in PNG format. One a 16 pixel square called 'icon_16x16.png', and one a 32 pixel square called 'icon_32x32.png'. Located in './config/simplemenu/icon'.
+	"setCustomWindowIcon": false,
+	// If a custom main menu logo should be rendered. This will replace the 'Minecraft' text. A 'logo.png' file is needed. Located in './config/simplemenu/logo'. By default the image dimensions are 1024x256. To remove it completely, use an empty .png file.
+	"replaceMainMenuLogo": true,
+	// If a custom main menu 'edition' logo should be rendered. This will replace the 'Java Edition' text. An 'edition.png' file is needed. Located in './config/simplemenu/logo'. By default the image dimensions are 512x64. To remove it completely, use an empty .png file.
+	"replaceMainMenuEditionLogo": true,
+	// If a custom background should be rendered. A 'background.png' file is needed. Located in './config/simplemenu/background/'.
+	"setCustomBackground": true,
+	// If the Minecraft Realms button should be hidden from the main menu. Enabled by default, since modded Minecraft is incompatible with it.
+	"hideMinecraftRealmsButton": true,
+	// Whether the Minecraft Realms button should be replaced by a serverhosting promo button.
+	"enableServerPromoButton": true,
+	// The default server promo button text.
+	"serverPromoButtonTextDefault": "Need a Server?",
+	// The server promo button text shown when hovering it.
+	"serverPromoButtonTextOnHover": "Need a Server?",
+	// The URL that's being navigated to when clicking the server promo button.
+	"serverPromoButtonClickURL": "https://www.akliz.net/allthemods",
+	// Whether the splash text should be hidden on the main menu.
+	"hideSplashText": true,
+	// Whether experimental/beta mod loader text should be removed from the main menu.
+	"removeExperimentalModLoaderText": true,
+	// Whether the text in the bottom left should be removed from the main menu.
+	"removeTextBottomLeft": false
+}
