@@ -1,0 +1,15 @@
+
+[General]
+	#Allows a player to teleport to a located structure when in creative mode, opped, or in cheat mode.
+	allowTeleport = false
+	#Allows players to view the precise coordinates and distance of a located structure on the HUD, rather than relying on the direction the compass is pointing.
+	displayCoordinates = true
+	#The maximum radius that will be searched for a structure. Raising this value will increase search accuracy but will potentially make the process more resource intensive.
+	#Range: 0 ~ 1000000
+	maxRadius = 5000
+	#A list of structures that the compass will not display in the GUI and will not be able to search for. Wildcard character * can be used to match any number of characters, and ? can be used to match one character. Ex: ["minecraft:stronghold", "minecraft:endcity", "minecraft:*village*"]
+	structureBlacklist = []
+	#The maximum number of samples to be taken when searching for a structure.
+	#Range: 0 ~ 100000000
+	maxSamples = 50000
+
