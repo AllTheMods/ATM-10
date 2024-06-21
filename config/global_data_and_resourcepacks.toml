@@ -1,0 +1,27 @@
+#This should under no circumstances be set to true in modpacks
+#If set to true, the mod creates a new global folder, that is global for your user on your computer.
+#The created folders will be:
+# <user_home>/.minecraft_global_packs/required_datapacks
+# <user_home>/.minecraft_global_packs/optional_datapacks
+# <user_home>/.minecraft_global_packs/required_resourcepacks
+# <user_home>/.minecraft_global_packs/optional_resourcepacks
+enable_system_global_packs = false
+
+#This config allows you to add or remove folders or single files as Data-/Resourcepacks
+#For that simply specify the file path to the folder/file relative to your .minecraft or instance folder
+#With the current config you can place a Datapack into '.minecraft/global_packs/required_data' to force enable a datapack.
+[resourcepacks]
+required = [
+    #"other_folder/random_pack.zip" # You can also point at specific files!
+    "global_packs/required_resources/"
+]
+
+[datapacks]
+required = [
+    "resourcepacks/",
+    "global_packs/required_data/"
+]
+
+optional = [
+    "global_packs/optional_data/"
+]
