@@ -1,0 +1,54 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: [ Bug ]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Prior to filling out this bug report, please make sure of the following:**
+        - You tried on the latest version of the pack.
+        - You don't have any other mods installed.
+        - You checked the previous issues to see if it's not a duplicate.
+  - type: dropdown
+    id: fixes
+    attributes:
+      label: Possible Fixes
+      description: Have you tried the above mentioned points?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+  - type: input
+    id: pack-version
+    attributes:
+      label: Modpack Version
+      description: What version of the pack are you using?
+      placeholder: Pack version
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Please give a thorough explanation of what happened. Attach/Link relevant images/files in relation to the issue!
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: input
+    id: logs
+    attributes:
+      label: latest.log
+      description: Please upload your 'latest.log' file to  https://gist.github.com/ and leave the link here. . Located in `/<instance name>/logs/`
+      placeholder: https://gist.github.com/
+    validations:
+      required: false
+  - type: input
+    id: link
+    attributes:
+      label: Developer reports
+      description: Can this bug be attributed to a single mod?, if so, please add the link to the Issue on the Mod Developers Github
+      placeholder: https://github.com/
+    validations:
+      required: false

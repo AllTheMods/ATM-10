@@ -1,0 +1,21 @@
+name: Quest issues
+description: Issues relating to quests not completing, typos, inconsistent/incorrect information, or any translation issues in the quests.
+title: "[Quests issues]: "
+labels: [ Quest Bug ]
+body:
+  - type: input
+    id: pack-version
+    attributes:
+      label: Modpack Version
+      description: What version of the pack are you using?
+      placeholder: Pack version
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the issue
+      description: Please give a thorough explanation of what happened. Attach/Link relevant images/files in relation to the issue!
+      placeholder: Tell us what you see!
+    validations:
+      required: true
