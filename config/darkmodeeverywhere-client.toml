@@ -1,0 +1,27 @@
+#A list of class:method strings (render methods) that the dark shader will not be applied to.
+#Each string consists of the class and the method (or any substring) to block the dark shader.
+#For example, 'renderHunger' is sufficient to block 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood' (either will work).
+METHOD_SHADER_BLACKLIST = ["mezz.jei.common.render.FluidTankRenderer:drawTextureWithMasking", "mezz.jei.library.render.FluidTankRenderer:drawTextureWithMasking", "renderCrosshair", "m_93080_", "renderSky", "m_202423_", "renderHotbar", "m_93009_", "m_193837_", "setupOverlayRenderState", "net.minecraftforge.client.gui.overlay.ForgeGui", "renderFood", "renderExperienceBar", "m_93071_", "renderLogo", "m_280037_", "m_280118_", "net.minecraft.client.gui.Gui", "net.minecraft.src.C_3431_", "renderDirtBackground", "m_280039_", "m_280039_"]
+#Enabling this config will (every 5 seconds) dump which methods were used to render GUIs that the dark shader was applied to
+#The dump will consist of a list of class:method strings, e.g. 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood'
+#Use this feature to help find the render method strings of GUIs you would like to blacklist.
+METHOD_SHADER_DUMP = false
+
+["Inventory Button"]
+	#Pixels away from the left of the GUI in the x axis
+	#Range: > 0
+	X = 2
+	#Pixels away from the bottom of the GUI in the y axis
+	#Range: > 0
+	Y = 20
+
+["Main Menu Button"]
+	#Enabled
+	SHOW = false
+	#Pixels away from the left of the GUI in the x axis
+	#Range: > 0
+	MAIN_X = 4
+	#Pixels away from the bottom of the GUI in the y axis
+	#Range: > 0
+	MAIN_Y = 50
+
