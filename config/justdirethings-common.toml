@@ -1,0 +1,144 @@
+
+#General settings
+[general]
+	#The minimum tick speed machines can be set to. Defaults to 1, meaning every tick
+	#Range: 1 ~ 100
+	minimum_machine_tick_speed = 1
+
+#Ability settings: For disabling certain abilities
+[abilities]
+	#mobscanner
+	mobscanner = true
+	#oreminer
+	oreminer = true
+	#orescanner
+	orescanner = false
+	#lawnmower
+	lawnmower = true
+	#skysweeper
+	skysweeper = true
+	#treefeller
+	treefeller = true
+	#leafbreaker
+	leafbreaker = true
+	#runspeed
+	runspeed = true
+	#walkspeed
+	walkspeed = true
+	#stepheight
+	stepheight = true
+	#jumpboost
+	jumpboost = true
+	#mindfog
+	mindfog = true
+	#invulnerability
+	invulnerability = true
+	#smelter
+	smelter = true
+	#smoker
+	smoker = true
+	#hammer
+	hammer = true
+	#lavarepair
+	lavarepair = true
+	#cauterizewounds
+	cauterizewounds = true
+	#airburst
+	airburst = true
+	#dropteleport
+	dropteleport = true
+	#voidshift
+	voidshift = true
+	#orexray
+	orexray = true
+	#glowing
+	glowing = true
+	#instabreak
+	instabreak = true
+	#eclipsegate
+	eclipsegate = true
+
+#Generator T1
+[generator_t1]
+	#The amount of Forge Energy created per burn tick of fuel. Coal has 1600 burn ticks. Sticks have 100 burn ticks.
+	#Range: > 1
+	generator_t1_fe_per_fuel_tick = 15
+	#The multiplier for the burn speed, making the generator run faster. Coal is 1600 ticks to burn, if you set this to 10, it will burn in 160 ticks
+	#Range: 1 ~ 1000
+	generator_t1_burn_speed_multiplier = 4
+	#The maximum amount of Forge Energy the generator can hold in its buffer
+	#Range: > 1
+	generator_t1_max_fe = 1000000
+	#The FE per Tick that the generator outputs
+	#Range: > 1
+	generator_t1_fe_per_tick = 1000
+
+#Fluid Generator T1
+[generator_fluid_t1]
+	#The maximum amount of Forge Energy the generator can hold in its buffer
+	#Range: > 1
+	generator_fluid_t1_max_fe = 5000000
+	#The FE per Tick that the generator outputs
+	#Range: > 1
+	generator_fluid_t1_fe_per_tick = 5000
+	#The FE per produced per MB of Tier 2 fuel (Blaze Ember)
+	#Range: > 1
+	fuel_tier2_fe_per_mb = 450
+	#The FE per produced per MB of Tier 3 fuel (Voidflame)
+	#Range: > 1
+	fuel_tier3_fe_per_mb = 1300
+	#The FE per produced per MB of Tier 4 fuel (Eclipse Ember)
+	#Range: > 1
+	fuel_tier4_fe_per_mb = 4000
+
+#Energy Transmitter T1
+[energy_transmitter_t1]
+	#The maximum energy storage
+	#Range: > 1
+	energy_transmitter_t1_max_rf = 1000000
+	#The maximum RF transmitted per tick to machines and other transmitters
+	#Range: > 1
+	energy_transmitter_t1_rf_per_tick = 1000
+	#The energy loss per block distance in percent
+	#Range: 0.0 ~ 100.0
+	energy_transmitter_t1_loss_per_block = 1.0
+
+#Fuel Canister
+[fuel_canister]
+	#The amount of ticks 'consumed' per operation in the furnace. Lower is more efficient fuel use.
+	#Range: > 100
+	fuel_canister_minimum_ticks_consumed = 200
+	#The maximum amount of fuel (in ticks) permitted in the fuel canister.
+	#Range: > 100
+	fuel_canister_maximum_fuel = 10000000
+
+#Pocket Generator
+[pocket_generator]
+	#The amount of Forge Energy created per burn tick of fuel. Coal has 1600 burn ticks. Sticks have 100 burn ticks.
+	#Range: > 1
+	pocket_gen_fe_per_fuel_tick = 15
+	#The multiplier for the burn speed, making the generator run faster. Coal is 1600 ticks to burn, if you set this to 10, it will burn in 160 ticks
+	#Range: 1 ~ 1000
+	pocket_gen_burn_speed_multiplier = 4
+	#The maximum amount of Forge Energy the generator can hold in its buffer
+	#Range: > 1
+	pocket_gen_max_fe = 1000000
+	#The FE per Tick that the generator charges other items at
+	#Range: > 1
+	pocket_gen_fe_per_tick = 5000
+
+#Portal Guns
+[portal_gun]
+	#The maximum amount of Forge Energy the Portal Gun (V1) can hold in its buffer
+	#Range: > 1
+	portal_gun_v1_rf_capacity = 100000
+	#The Forge Energy cost to fire the Portal Gun (V1) projectile
+	#Range: > 1
+	portal_gun_v1_rf_cost = 1000
+	#The maximum amount of Forge Energy the Portal Gun (V2) can hold in its buffer
+	#Range: > 1
+	portal_gun_v2_rf_capacity = 1000000
+	#The Forge Energy cost to fire the Portal Gun (V2) projectile
+	#Range: > 1
+	portal_gun_v2_rf_cost = 5000
+
