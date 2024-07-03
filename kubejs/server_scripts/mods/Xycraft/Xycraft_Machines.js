@@ -7,6 +7,7 @@ ServerEvents.recipes(allthemods => {
   allthemods.replaceInput({mod: 'xycraft_machines'}, '#c:nuggets/aluminum', '#c:nuggets/osmium')
   allthemods.replaceInput({mod: 'xycraft_machines'}, '#xycraft:plates/aluminum', '#c:plates/osmium')
   allthemods.replaceInput({mod: 'xycraft_world'}, '#c:nuggets/aluminum', '#c:nuggets/osmium')
+  allthemods.replaceInput({mod: 'xycraft_world'}, '#c:ingots/aluminum', '#c:ingots/osmium')
 
 })
 
