@@ -1,0 +1,30 @@
+{
+  "type": "modern_industrialization:quarry",
+  "eu": 128,
+  "duration": 600,
+  "item_inputs": {
+    "item": "modern_industrialization:titanium_drill",
+    "amount": 1,
+    "probability": 0.04
+  },
+  "item_outputs": [
+    {
+      "item": "alltheores:uranium_ore",
+      "amount": 1,
+      "probability": 0.2
+    },
+    {
+      "item": "alltheores:iridium_ore",
+      "amount": 1,
+      "probability": 0.05
+    },
+    {
+      "neoforge:conditions": [
+        { "type": "neoforge:mod_loaded", "modid": "mekanism" }
+      ],
+      "item": "alltheores:fluorite_ore",
+      "amount": 1,
+      "probability": 0.3
+    }
+  ]
+}
