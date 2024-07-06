@@ -1,0 +1,18 @@
+{
+  "id": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "modern_industrialization:superconductor_cable"
+    }
+  ],
+  "result": {
+    "item": "moderndynamics:superconductor_cable",
+    "count": 4
+  },
+  "neoforge:conditions": [
+    {
+      "modid": "modern_industrialization",
+      "id": "neoforge:mod_loaded"
+    }
+  ]
+}
