@@ -1,0 +1,54 @@
+{
+	id: "4F7310810CCDCD00"
+	loot_size: 1
+	order_index: 52
+	rewards: [
+		{ random_bonus: 3, weight: 100.0f }
+		{ random_bonus: 1, weight: 50.0f }
+		{ weight: 10.0f }
+		{ }
+		{ random_bonus: 3, weight: 50.0f }
+		{ weight: 50.0f }
+		{ weight: 50.0f }
+		{ weight: 50.0f }
+		{ weight: 25.0f }
+		{
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:basemonstersoul"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 2
+			weight: 100.0f
+		}
+		{
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:basemonstersoul"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 2
+			weight: 50.0f
+		}
+		{
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:basemonstersoul"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+			random_bonus: 1
+			weight: 10.0f
+		}
+		{ item: { components: { "ftbquests:missing_item": "bloodmagic:basemonstersoul" }, count: 1, id: "ftbquests:missing_item" } }
+		{ weight: 20.0f }
+		{ random_bonus: 3, weight: 25.0f }
+		{ random_bonus: 3, weight: 100.0f }
+	]
+	use_title: true
+}

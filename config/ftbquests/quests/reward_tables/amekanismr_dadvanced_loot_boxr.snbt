@@ -1,0 +1,114 @@
+{
+	id: "74164DBBE7919A3B"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "mekanism_advanced_loot_box"
+	}
+	loot_size: 1
+	order_index: 45
+	rewards: [
+		{
+			count: 4
+			random_bonus: 4
+			weight: 100.0f
+		}
+		{ random_bonus: 1, weight: 75.0f }
+		{ random_bonus: 3, weight: 50.0f }
+		{
+			count: 16
+			random_bonus: 16
+			weight: 50.0f
+		}
+		{ weight: 50.0f }
+		{ weight: 50.0f }
+		{ }
+		{ random_bonus: 2, weight: 5.0f }
+		{
+			count: 4
+			random_bonus: 12
+			weight: 100.0f
+		}
+		{
+			count: 4
+			random_bonus: 12
+			weight: 50.0f
+		}
+		{
+			count: 4
+			random_bonus: 12
+			weight: 25.0f
+		}
+		{ random_bonus: 2, weight: 50.0f }
+		{
+			count: 4
+			random_bonus: 4
+			weight: 75.0f
+		}
+		{
+			count: 4
+			random_bonus: 4
+			weight: 75.0f
+		}
+		{ random_bonus: 1, weight: 50.0f }
+		{ weight: 50.0f }
+		{ weight: 25.0f }
+		{
+			count: 2
+			random_bonus: 2
+			weight: 75.0f
+		}
+		{ random_bonus: 2, weight: 50.0f }
+		{
+			count: 2
+			random_bonus: 3
+			weight: 10.0f
+		}
+		{
+			count: 4
+			random_bonus: 12
+			weight: 50.0f
+		}
+		{ weight: 25.0f }
+		{ item: { count: 1, id: "mekanism:elite_energy_cube" }, weight: 10.0f }
+		{ item: { count: 1, id: "mekanism:ultimate_energy_cube" }, weight: 5.0f }
+		{
+			count: 4
+			random_bonus: 4
+			weight: 50.0f
+		}
+		{
+			count: 4
+			random_bonus: 4
+			weight: 50.0f
+		}
+		{
+			count: 4
+			random_bonus: 4
+			weight: 50.0f
+		}
+		{
+			item: {
+				count: 1
+				id: "mekanismgenerators:advanced_solar_generator"
+			}
+			random_bonus: 2
+			weight: 50.0f
+		}
+		{ random_bonus: 1, weight: 25.0f }
+		{
+			item: {
+				count: 1
+				id: "productivebees:spawn_egg_configurable_bee"
+			}
+			random_bonus: 1
+			weight: 25.0f
+		}
+	]
+	use_title: true
+}

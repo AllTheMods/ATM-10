@@ -1,0 +1,40 @@
+{
+	id: "67D8094B10FAA687"
+	loot_size: 1
+	order_index: 35
+	rewards: [
+		{
+			count: 2
+			random_bonus: 2
+			weight: 100.0f
+		}
+		{ random_bonus: 1, weight: 50.0f }
+		{ weight: 50.0f }
+		{
+			count: 2
+			random_bonus: 4
+			weight: 50.0f
+		}
+		{ item: { components: { "ftbquests:missing_item": "evilcraft:blood_extractor" }, count: 1, id: "ftbquests:missing_item" }, weight: 25.0f }
+		{ item: { components: { "ftbquests:missing_item": "evilcraft:dark_tank" }, count: 1, id: "ftbquests:missing_item" }, weight: 25.0f }
+		{ random_bonus: 1, weight: 25.0f }
+		{ random_bonus: 1, weight: 25.0f }
+		{
+			count: 2
+			random_bonus: 4
+			weight: 100.0f
+		}
+		{ weight: 10.0f }
+		{ weight: 10.0f }
+		{
+			count: 5
+			random_bonus: 10
+			weight: 75.0f
+		}
+		{ weight: 10.0f }
+		{ weight: 10.0f }
+		{ item: { components: { "ftbquests:missing_item": "evilcraft:vengeance_pickaxe" }, count: 1, id: "ftbquests:missing_item" }, weight: 5.0f }
+		{ item: { components: { "ftbquests:missing_item": "evilcraft:vein_sword" }, count: 1, id: "ftbquests:missing_item" }, weight: 5.0f }
+	]
+	use_title: true
+}

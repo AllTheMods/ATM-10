@@ -1,0 +1,39 @@
+{
+	id: "49E8BD91A6A936C5"
+	loot_size: 1
+	order_index: 24
+	rewards: [
+		{
+			count: 8
+			random_bonus: 8
+			weight: 250.0f
+		}
+		{
+			count: 2
+			random_bonus: 2
+			weight: 150.0f
+		}
+		{
+			count: 2
+			random_bonus: 2
+			weight: 50.0f
+		}
+		{
+			count: 2
+			random_bonus: 2
+			weight: 25.0f
+		}
+		{ random_bonus: 1, weight: 5.0f }
+		{
+			count: 5
+			random_bonus: 10
+			weight: 150.0f
+		}
+		{ item: { count: 1, id: "minecraft:enchanted_book" }, weight: 100.0f }
+		{ item: { count: 1, id: "minecraft:enchanted_book" }, weight: 50.0f }
+		{ item: { count: 1, id: "minecraft:enchanted_book" }, weight: 25.0f }
+		{ item: { count: 1, id: "minecraft:enchanted_book" }, weight: 25.0f }
+		{ item: { count: 1, id: "minecraft:enchanted_book" }, weight: 5.0f }
+	]
+	use_title: true
+}
