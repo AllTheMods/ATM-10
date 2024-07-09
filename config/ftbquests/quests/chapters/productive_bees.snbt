@@ -2907,24 +2907,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["29EE878BC8D3A742"]
-			id: "6C9E88A61ECCF898"
-			invisible: true
-			optional: true
-			rewards: [{
-				id: "1471AEAB1BD9E5DB"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "7CB163461B2D1723"
-				item: { components: { "ftbquests:missing_item": "patchouli:guide_book" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -2.5d
-		}
-		{
 			dependencies: ["7C169A4A39F37FAC"]
 			hide_dependency_lines: true
 			id: "419DD6FE84B91749"
@@ -3158,32 +3140,6 @@
 			}]
 			x: -8.0d
 			y: 0.5d
-		}
-		{
-			can_repeat: false
-			disable_toast: true
-			hide: true
-			hide_details_until_startable: true
-			icon: {
-				id: "ftbquests:custom_icon"
-			}
-			id: "23ABDBFC4123E6DC"
-			invisible: true
-			optional: true
-			shape: "octagon"
-			tasks: [
-				{
-					disable_toast: true
-					id: "7B7D16D9A49B8308"
-					type: "checkmark"
-				}
-				{
-					id: "012F21258836AF43"
-					type: "checkmark"
-				}
-			]
-			x: 1.0d
-			y: -7.5d
 		}
 	]
 }

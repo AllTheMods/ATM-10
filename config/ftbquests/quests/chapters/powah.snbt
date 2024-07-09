@@ -334,7 +334,7 @@
 			y: 18.1d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -3248,32 +3248,6 @@
 			}]
 			x: -4.5d
 			y: 17.5d
-		}
-		{
-			can_repeat: false
-			disable_toast: true
-			hide: true
-			hide_details_until_startable: true
-			icon: {
-				id: "ftbquests:custom_icon"
-			}
-			id: "1318BA3E5DA9B50C"
-			invisible: true
-			optional: true
-			shape: "octagon"
-			tasks: [
-				{
-					disable_toast: true
-					id: "0428F19A7F7919A1"
-					type: "checkmark"
-				}
-				{
-					id: "652DD9984C65728A"
-					type: "checkmark"
-				}
-			]
-			x: -0.5d
-			y: 3.0d
 		}
 	]
 }

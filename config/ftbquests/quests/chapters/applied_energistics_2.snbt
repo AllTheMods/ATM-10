@@ -1935,32 +1935,6 @@
 			y: 0.5d
 		}
 		{
-			can_repeat: false
-			disable_toast: true
-			hide: true
-			hide_details_until_startable: true
-			icon: {
-				id: "ftbquests:custom_icon"
-			}
-			id: "0F0FAD595155DF17"
-			invisible: true
-			optional: true
-			shape: "octagon"
-			tasks: [
-				{
-					disable_toast: true
-					id: "613F2A6A0026C685"
-					type: "checkmark"
-				}
-				{
-					id: "26D2701D55A6733B"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 6.0d
-		}
-		{
 			dependencies: [
 				"0B218DD73FE8D985"
 				"16299B9AE87257DC"
