@@ -105,7 +105,7 @@
 			y: -5.5d
 		}
 	]
-	order_index: 1
+	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -470,23 +470,6 @@
 		}
 		{
 			dependencies: ["72717D1135486D7F"]
-			id: "5A51E26D66D1273B"
-			invisible: true
-			rewards: [{
-				id: "6A184032CC7F6E17"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "52030BFD91159DAC"
-				item: { components: { "ftbquests:missing_item": "supplementaries:flax_seeds" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -5.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["72717D1135486D7F"]
 			id: "361DFDB1E1352D6B"
 			rewards: [
 				{
@@ -762,24 +745,6 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["5A51E26D66D1273B"]
-			id: "1CBEB3ABB4260CC2"
-			invisible: true
-			rewards: [{
-				id: "3AE014AE6CF77A06"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				count: 4L
-				id: "35864460DFF78192"
-				item: { count: 1, id: "minecraft:string" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: -1.0d
-		}
-		{
 			id: "1DCAA0310AA55F1C"
 			rewards: [{
 				id: "7BB398F5B3A25045"
@@ -990,89 +955,6 @@
 			}]
 			x: -1.0d
 			y: 8.0d
-		}
-		{
-			id: "01B70A4F230ED036"
-			invisible: true
-			rewards: [
-				{
-					count: 2
-					id: "0AC970B512BC6821"
-					item: {
-						count: 1
-						id: "minecraft:terracotta"
-					}
-					type: "item"
-				}
-				{
-					id: "5E4853D67766A132"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "diamond"
-			size: 1.25d
-			tasks: [{
-				id: "1958DBFE401157E6"
-				item: { components: { "ftbquests:missing_item": "botanypots:terracotta_botany_pot" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: 4.0d
-		}
-		{
-			dependencies: ["01B70A4F230ED036"]
-			id: "2715BECC5E6FFA64"
-			invisible: true
-			rewards: [
-				{
-					id: "3CE68937F914479A"
-					item: {
-						count: 1
-						id: "minecraft:hopper"
-					}
-					type: "item"
-				}
-				{
-					id: "1AC7BCFCCC100F4C"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "gear"
-			tasks: [{
-				id: "572F01124B2232CD"
-				item: { components: { "ftbquests:missing_item": "botanypots:terracotta_hopper_botany_pot" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 3.5d
-			y: 5.0d
-		}
-		{
-			can_repeat: false
-			disable_toast: true
-			hide: true
-			hide_details_until_startable: true
-			icon: {
-				id: "ftbquests:custom_icon"
-			}
-			id: "3EA60EB491270B5F"
-			invisible: true
-			optional: true
-			shape: "octagon"
-			tasks: [
-				{
-					disable_toast: true
-					id: "3807253D85162D5C"
-					type: "checkmark"
-				}
-				{
-					id: "2BAD52B6D293140F"
-					type: "checkmark"
-				}
-			]
-			x: 0.5d
-			y: -1.5d
 		}
 	]
 }

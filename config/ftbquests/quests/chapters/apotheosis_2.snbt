@@ -7,7 +7,7 @@
 		id: "minecraft:spawner"
 	}
 	id: "0E81CBCD6B1D1895"
-	order_index: 0
+	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -389,32 +389,6 @@
 			}]
 			x: 3.0d
 			y: 1.0d
-		}
-		{
-			can_repeat: false
-			disable_toast: true
-			hide: true
-			hide_details_until_startable: true
-			icon: {
-				id: "ftbquests:custom_icon"
-			}
-			id: "7784F866BF65D0C7"
-			invisible: true
-			optional: true
-			shape: "octagon"
-			tasks: [
-				{
-					disable_toast: true
-					id: "6EFFD1AF56A5BD02"
-					type: "checkmark"
-				}
-				{
-					id: "3DD56437ABF3608E"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 6.0d
 		}
 	]
 }

@@ -113,7 +113,7 @@
 				type: "checkmark"
 			}]
 			x: 1.0d
-			y: 5.5d
+			y: 5.0d
 		}
 		{
 			id: "0C856BBB1679A7DD"
@@ -192,49 +192,88 @@
 				id: "2C621D97D1ED56DE"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: 5.5d
+			x: 1.0d
+			y: 6.5d
 		}
 		{
-			id: "600CFCF3612AEE9A"
-			min_width: 370
-			rewards: [{
-				id: "50C8D9EC8D53EB82"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "30F1C1BC1AD18EA5"
-				type: "checkmark"
-			}]
-			x: 3.0d
-			y: 5.5d
-		}
-		{
-			can_repeat: false
-			disable_toast: true
-			hide: true
-			hide_details_until_startable: true
-			icon: {
-				id: "ftbquests:custom_icon"
-			}
-			id: "21492239FE2B6937"
-			invisible: true
-			optional: true
-			shape: "octagon"
-			tasks: [
+			id: "28E60192912BEBAD"
+			rewards: [
 				{
-					disable_toast: true
-					id: "6432B335C250C941"
-					type: "checkmark"
+					id: "6502F8AB0033CC29"
+					type: "xp"
+					xp: 10
 				}
 				{
-					id: "15DB990611A5962E"
-					type: "checkmark"
+					exclude_from_claim_all: true
+					id: "7CCFFBC576CC4D3E"
+					table_id: 487623848494439020L
+					type: "loot"
 				}
 			]
+			shape: "diamond"
+			tasks: [{
+				id: "7F265D92FDA70DFA"
+				item: { count: 1, id: "easy_villagers:villager" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			id: "7A514E27E1A7FE32"
+			optional: true
+			rewards: [
+				{
+					id: "71D231672C274C17"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6D44B1DE7B009082"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "47A1F59A538E3C4B"
+				item: { components: { "ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(buildinggadgets2:gadget_exchanging)item(buildinggadgets2:gadget_copy_paste)item(buildinggadgets2:gadget_cut_paste)item(buildinggadgets2:gadget_destruction))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			id: "5EE945A1185E8336"
+			optional: true
+			rewards: [
+				{
+					id: "2F26494429A38E0C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3650502ECF1ACC45"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "636C3AC34EFAEF52"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3B1F1A7CAC8B7BC7"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(functionalstorage:drawer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: 1.0d
-			y: 4.5d
+			y: 8.5d
 		}
 	]
 }

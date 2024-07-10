@@ -522,7 +522,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["7174A0CEC5CCC53B"]
 			id: "1DE0F289821F55D1"
 			rewards: [{
 				id: "1B9CD287CB41E0E8"
@@ -545,35 +544,6 @@
 			]
 			x: 12.5d
 			y: 6.5d
-		}
-		{
-			dependencies: ["4F35D04721DFC9FF"]
-			hide_dependency_lines: true
-			icon: {
-				id: "ftbquests:custom_icon"
-			}
-			id: "7174A0CEC5CCC53B"
-			progression_mode: "linear"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "79159F5C77200118"
-				table_id: 487623848494439020L
-				type: "loot"
-			}]
-			shape: "rsquare"
-			size: 1.25d
-			tasks: [{
-				icon: {
-					id: "ftbquests:custom_icon"
-				}
-				id: "034F6D98DA7900BD"
-				observe_type: 5
-				timer: 0L
-				to_observe: "occultism:foliot"
-				type: "observation"
-			}]
-			x: 12.5d
-			y: 4.0d
 		}
 		{
 			dependencies: ["1DE0F289821F55D1"]
