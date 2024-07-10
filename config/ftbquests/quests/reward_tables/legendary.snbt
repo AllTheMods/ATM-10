@@ -1,27 +1,16 @@
 {
 	id: "639509C7B28C90DF"
 	loot_size: 1
-	order_index: 16
+	order_index: 7
 	rewards: [
-		{ }
-		{
-			count: 4
-			random_bonus: 8
-			weight: 2.0f
-		}
-		{ random_bonus: 1 }
-		{ }
-		{ }
+		{ item: { count: 1, id: "powah:thermo_generator_nitro" } }
 		{ item: { count: 1, id: "minecraft:spawner" } }
-		{ }
-		{ count: 36 }
+		{ item: { count: 1, id: "powah:solar_panel_nitro" } }
+		{ count: 36, item: { count: 1, id: "powah:reactor_niotic" } }
 		{ item: { count: 1, id: "productivebees:spawn_egg_configurable_bee" } }
 		{ type: "xp_levels", xp_levels: 100 }
 		{ item: { count: 1, id: "productivebees:spawn_egg_configurable_bee" } }
 		{ item: { count: 1, id: "productivebees:spawn_egg_configurable_bee" } }
-		{ item: { components: { "ftbquests:missing_item": "hostilenetworks:data_model" }, count: 1, id: "ftbquests:missing_item" } }
-		{ item: { components: { "ftbquests:missing_item": "hostilenetworks:data_model" }, count: 1, id: "ftbquests:missing_item" } }
-		{ }
 	]
 	use_title: true
 }

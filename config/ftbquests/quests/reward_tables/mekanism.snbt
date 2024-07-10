@@ -1,22 +1,48 @@
 {
 	id: "63E11953DD289422"
 	loot_size: 1
-	order_index: 4
+	order_index: 1
 	rewards: [
 		{
 			count: 2
+			item: {
+				count: 1
+				id: "mekanism:alloy_infused"
+			}
 			random_bonus: 2
 			weight: 4.0f
 		}
 		{
 			count: 2
+			item: {
+				count: 1
+				id: "mekanism:basic_control_circuit"
+			}
 			random_bonus: 2
 			weight: 4.0f
 		}
-		{ random_bonus: 1, weight: 2.0f }
-		{ random_bonus: 1, weight: 2.0f }
+		{
+			item: {
+				count: 1
+				id: "mekanism:alloy_reinforced"
+			}
+			random_bonus: 1
+			weight: 2.0f
+		}
+		{
+			item: {
+				count: 1
+				id: "mekanism:advanced_control_circuit"
+			}
+			random_bonus: 1
+			weight: 2.0f
+		}
 		{
 			count: 4
+			item: {
+				count: 1
+				id: "alltheores:osmium_ingot"
+			}
 			random_bonus: 2
 			weight: 4.0f
 		}
