@@ -873,18 +873,11 @@
 			hide_dependent_lines: true
 			id: "3B6F1BD64C0C570F"
 			optional: true
-			tasks: [
-				{
-					id: "1BFDD899D6CD02B6"
-					item: { count: 1, id: "powah:solar_panel_blazing" }
-					type: "item"
-				}
-				{
-					id: "72B47C5ACFAD537C"
-					item: { count: 1, id: "mekanismgenerators:solar_generator" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "2E49798B39BAA192"
+				item: { components: { "ftbfiltersystem:filter": "or(item(powah:solar_panel_basic)item(mekanismgenerators:solar_generator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: 6.0d
 			y: 9.0d
 		}
@@ -919,18 +912,11 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "18F9F98C7A89F9A5"
-					item: { count: 1, id: "powah:magmator_basic" }
-					type: "item"
-				}
-				{
-					id: "644B2AF9406B7EC5"
-					item: { count: 1, id: "generatorgalore:magmatic_generator" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4DB11C6F180743E9"
+				item: { components: { "ftbfiltersystem:filter": "or(item(powah:magmator_basic)item(powah:magmator_starter)item(generatorgalore:magmatic_generator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: 5.5d
 			y: 7.5d
 		}
@@ -946,23 +932,19 @@
 				}
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "503FAB56A0ACE3A0"
-					item: { count: 1, id: "minecraft:coal" }
-					type: "item"
-				}
-				{
-					id: "668C0B20F73BDF4F"
-					item: { count: 1, id: "minecraft:charcoal" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "5CD2FDE306BF3C0F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:coal)item(minecraft:charcoal)item(justdirethings:coal_t1))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: 2.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["051E0C85E7B71CE0"]
+			icon: {
+				id: "minecraft:lava_bucket"
+			}
 			id: "72E1C19156633391"
 			rewards: [{
 				id: "1D78E2179270F54A"
@@ -973,8 +955,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "45BAE10E1E87FD79"
-				item: { count: 1, id: "minecraft:lava_bucket" }
+				id: "2CE553B282962E01"
+				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:bucket)item(mekanism:basic_fluid_tank))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -1002,28 +984,11 @@
 		{
 			dependencies: ["5792CC9E3AFAB229"]
 			id: "790EC3EDC2DB1FB0"
-			tasks: [
-				{
-					id: "5EE52EF7353F1F43"
-					item: { count: 1, id: "generatorgalore:enchantment_generator" }
-					type: "item"
-				}
-				{
-					id: "3EB6856D83C48CEB"
-					item: { count: 1, id: "generatorgalore:halitosis_generator" }
-					type: "item"
-				}
-				{
-					id: "5E47C1A2F056269B"
-					item: { count: 1, id: "generatorgalore:netherstar_generator" }
-					type: "item"
-				}
-				{
-					id: "0671BDA2157FD164"
-					item: { count: 1, id: "generatorgalore:potion_generator" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "26CDA4EADF919D5C"
+				item: { components: { "ftbfiltersystem:filter": "or(item(generatorgalore:enchantment_generator)item(generatorgalore:halitosis_generator)item(generatorgalore:netherstar_generator)item(generatorgalore:potion_generator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: 3.0d
 			y: 9.0d
 		}

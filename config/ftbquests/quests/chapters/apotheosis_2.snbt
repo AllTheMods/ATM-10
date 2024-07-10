@@ -12,89 +12,12 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7C3968AF39557751"]
-			id: "5B653A45093C56F0"
-			rewards: [{
-				id: "551D3CE25E4DD3EB"
-				item: {
-					count: 1
-					id: "minecraft:enchanted_book"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "2A0D3BDA4C874A43"
-					item: { count: 1, id: "minecraft:anvil" }
-					type: "item"
-				}
-				{
-					id: "5A94111976A96FCC"
-					item: { count: 1, id: "minecraft:shears" }
-					type: "item"
-				}
-			]
-			x: -2.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["7C3968AF39557751"]
-			id: "6184B40362A7B190"
-			rewards: [{
-				count: 32
-				id: "26405F74A6300E73"
-				item: {
-					count: 1
-					id: "minecraft:bone_meal"
-				}
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "01F155EEAC1A8404"
-					item: { count: 1, id: "minecraft:sugar_cane" }
-					type: "item"
-				}
-				{
-					id: "3FE68BCA484CF4BB"
-					item: { count: 1, id: "minecraft:cactus" }
-					type: "item"
-				}
-				{
-					id: "0756DD96D4A479FD"
-					item: { count: 1, id: "minecraft:bamboo" }
-					type: "item"
-				}
-			]
-			x: -2.5d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7C3968AF39557751"]
-			id: "00588B2FDB99874D"
-			rewards: [{
-				count: 8
-				id: "25153229ED21F95C"
-				item: {
-					count: 1
-					id: "minecraft:arrow"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "6CB3873E7BCE06F2"
-				item: { count: 1, id: "minecraft:fletching_table" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["07D875C6BBFF3264"]
 			icon: {
 				id: "minecraft:spawner"
 			}
 			id: "310969B8FE0A94DE"
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				advancement: "apotheosis:spawner/root"
 				criterion: ""
@@ -105,35 +28,13 @@
 			y: 0.0d
 		}
 		{
-			id: "07D875C6BBFF3264"
-			tasks: [{
-				id: "6E24BC7D56597911"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["07D875C6BBFF3264"]
-			id: "7C3968AF39557751"
-			tasks: [{
-				id: "1F3314E76D27E430"
-				type: "checkmark"
-			}]
-			x: -1.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "0F89BFD4A3F63A48"
 			rewards: [{
 				id: "6C85E2CE330363D6"
 				item: {
-					components: {
-						"ftbquests:missing_item": "torchmaster:dreadlamp"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "minecraft:soul_lantern"
 				}
 				type: "item"
 			}]
@@ -142,7 +43,7 @@
 				item: { count: 1, id: "minecraft:soul_lantern" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -161,8 +62,8 @@
 				item: { count: 1, id: "minecraft:fermented_spider_eye" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 1.0d
+			x: 1.2789115646258438d
+			y: 1.5391156462584945d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
@@ -192,13 +93,13 @@
 				id: "1B960A1E13DB5302"
 				item: {
 					count: 1
-					id: "minecraft:golden_apple"
+					id: "minecraft:chorus_fruit"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "7CA847C78EB1B215"
-				item: { count: 1, id: "minecraft:golden_apple" }
+				item: { count: 1, id: "minecraft:chorus_fruit" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -231,13 +132,13 @@
 				id: "0CFDDB194610C1FE"
 				item: {
 					count: 1
-					id: "minecraft:blaze_rod"
+					id: "minecraft:piston"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "5E1D4330184C7E38"
-				item: { count: 1, id: "minecraft:blaze_rod" }
+				item: { count: 1, id: "minecraft:piston" }
 				type: "item"
 			}]
 			x: 4.5d
@@ -260,7 +161,7 @@
 				item: { count: 1, id: "minecraft:comparator" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
@@ -280,8 +181,8 @@
 				item: { count: 1, id: "minecraft:prismarine_crystals" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -1.0d
+			x: 1.3401360544217624d
+			y: -1.5221088435374206d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
@@ -328,16 +229,16 @@
 				id: "4961AE3E3A38253D"
 				item: {
 					count: 1
-					id: "minecraft:conduit"
+					id: "minecraft:nether_star"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "211FBEB0E4FF1FD6"
-				item: { count: 1, id: "minecraft:conduit" }
+				item: { count: 1, id: "minecraft:nether_star" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -347,16 +248,16 @@
 				id: "4D40145162EB9BEC"
 				item: {
 					count: 1
-					id: "minecraft:dragon_egg"
+					id: "minecraft:conduit"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "74B1D74F1C52D05C"
-				item: { count: 1, id: "minecraft:dragon_egg" }
+				item: { count: 1, id: "minecraft:conduit" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 6.0d
 			y: 0.0d
 		}
 		{
@@ -376,7 +277,7 @@
 				item: { count: 1, id: "minecraft:quartz" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -1.0d
 		}
 		{
@@ -387,8 +288,50 @@
 				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:wool)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["310969B8FE0A94DE"]
+			id: "18E0F5A78F696FA3"
+			rewards: [{
+				id: "116A38ACD11D5065"
+				item: {
+					count: 1
+					id: "minecraft:echo_shard"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "457F2333F0FC4029"
+				item: { count: 1, id: "minecraft:echo_shard" }
+				type: "item"
+			}]
+			x: 0.054421768707477725d
+			y: -1.277210884353746d
+		}
+		{
+			dependencies: ["310969B8FE0A94DE"]
+			dependency_requirement: "one_completed"
+			id: "7F6B66566C211735"
+			tasks: [{
+				id: "703ACE135A88F2DB"
+				item: { count: 1, id: "minecraft:pointed_dripstone" }
+				type: "item"
+			}]
+			x: 0.013605442176867655d
+			y: 1.1921768707483054d
+		}
+		{
+			dependencies: ["310969B8FE0A94DE"]
+			id: "4F7F8F4ED1CA0550"
+			tasks: [{
+				id: "227F63C049BD3C6E"
+				item: { count: 1, id: "minecraft:campfire" }
+				type: "item"
+			}]
+			x: -0.7006802721088476d
+			y: 0.008503401360542284d
 		}
 	]
 }

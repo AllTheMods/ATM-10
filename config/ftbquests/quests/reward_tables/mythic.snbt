@@ -1,35 +1,19 @@
 {
 	id: "481E10AEAC95C550"
 	loot_size: 1
-	order_index: 17
+	order_index: 8
 	rewards: [
-		{ }
-		{ random_bonus: 1 }
-		{ weight: 3.0f }
-		{ weight: 3.0f }
-		{ weight: 3.0f }
-		{ random_bonus: 2, weight: 3.0f }
-		{ }
-		{ random_bonus: 1, weight: 3.0f }
-		{ weight: 2.0f }
-		{ weight: 2.0f }
+		{ item: { count: 1, id: "mekanism:pellet_antimatter" } }
+		{ item: { count: 1, id: "mekanism:ultimate_induction_cell" }, weight: 2.0f }
+		{ item: { count: 1, id: "mekanism:ultimate_induction_provider" }, weight: 2.0f }
 		{
-			count: 2
+			count: 36
 			item: {
 				count: 1
-				id: "productivebees:spawn_egg_configurable_bee"
+				id: "powah:reactor_nitro"
 			}
-			random_bonus: 3
-			weight: 3.0f
+			weight: 2.0f
 		}
-		{ weight: 2.0f }
-		{ count: 36, weight: 2.0f }
-		{ item: { components: { "ftbquests:missing_item": "allthemodium:alloy_sword" }, count: 1, id: "ftbquests:missing_item" } }
-		{ item: { components: { "ftbquests:missing_item": "allthemodium:alloy_axe" }, count: 1, id: "ftbquests:missing_item" } }
-		{ item: { components: { "ftbquests:missing_item": "allthemodium:allthemodium_boots" }, count: 1, id: "ftbquests:missing_item" } }
-		{ item: { components: { "ftbquests:missing_item": "allthemodium:allthemodium_leggings" }, count: 1, id: "ftbquests:missing_item" } }
-		{ item: { components: { "ftbquests:missing_item": "allthemodium:allthemodium_chestplate" }, count: 1, id: "ftbquests:missing_item" } }
-		{ item: { components: { "ftbquests:missing_item": "allthemodium:allthemodium_helmet" }, count: 1, id: "ftbquests:missing_item" } }
 	]
 	use_title: true
 }
