@@ -340,19 +340,6 @@
 					type: "item"
 				}
 				{
-					count: 5
-					id: "4A85485A2BF26504"
-					item: {
-						components: {
-							"ftbquests:missing_item": "supplementaries:bomb"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					random_bonus: 5
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "2C419A310D1686C7"
 					table_id: 4196188979167302596L
@@ -411,6 +398,12 @@
 			y: 2.0d
 		}
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/enderdragon/dragon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "728BE1816DA23DC0"
 			rewards: [
 				{
@@ -436,6 +429,12 @@
 			y: 4.5d
 		}
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/wither/wither.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "09C82CDDA800D8C9"
 			rewards: [
 				{
@@ -461,6 +460,12 @@
 			y: 4.5d
 		}
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/guardian_elder.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "08D1CC753F6B4283"
 			rewards: [
 				{
@@ -487,19 +492,8 @@
 		}
 		{
 			id: "56DA46DC82F6665D"
+			invisible: true
 			rewards: [
-				{
-					count: 10
-					id: "4DFA285786102C2B"
-					item: {
-						components: {
-							"ftbquests:missing_item": "ars_nouveau:wilden_spike"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
-				}
 				{
 					id: "20AEE2C8F4472343"
 					type: "xp"
@@ -519,10 +513,16 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 4.550000000000001d
-			y: 6.0d
+			x: 3.0d
+			y: 7.5d
 		}
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/wandering_trader.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
 			id: "0F55D0B4D5094EDB"
 			optional: true
 			rewards: [
@@ -538,17 +538,6 @@
 					id: "2A9810116395C984"
 					type: "xp"
 					xp: 100
-				}
-				{
-					id: "739F0D5CD8C7BA5E"
-					item: {
-						components: {
-							"ftbquests:missing_item": "supplementaries:pedestal"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
@@ -572,7 +561,7 @@
 					value: 2L
 				}
 			]
-			x: 3.0500000000000003d
+			x: 3.75d
 			y: 6.0d
 		}
 		{
@@ -1225,23 +1214,19 @@
 			y: -5.0d
 		}
 		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/warden.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.25d
 			id: "0E20A9B79D1C6637"
 			rewards: [
 				{
 					id: "1A20BD8574954FE2"
 					type: "xp"
 					xp: 1000
-				}
-				{
-					id: "190AE302BBF17638"
-					item: {
-						components: {
-							"ftbquests:missing_item": "allthemodium:allthemodium_ingot"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					type: "item"
 				}
 				{
 					exclude_from_claim_all: true
@@ -1257,7 +1242,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
+			x: 2.25d
 			y: 6.0d
 		}
 	]
