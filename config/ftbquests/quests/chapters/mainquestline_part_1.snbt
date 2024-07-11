@@ -176,6 +176,12 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "09CAD4B958A24BEB"
+					table_id: 487623848494439020L
+					type: "random"
+				}
 			]
 			shape: "square"
 			tasks: [{
@@ -260,6 +266,12 @@
 						id: "minecraft:copper_block"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EB9D9828FE1B815"
+					table_id: 487623848494439020L
+					type: "loot"
 				}
 			]
 			shape: "octagon"
@@ -476,15 +488,23 @@
 			dependencies: ["0F3D51FFD2FE8DCB"]
 			hide: false
 			id: "61C49BC2B384FB80"
-			rewards: [{
-				count: 4
-				id: "2B6D859AC045608E"
-				item: {
-					count: 1
-					id: "minecraft:ender_pearl"
+			rewards: [
+				{
+					count: 4
+					id: "2B6D859AC045608E"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					exclude_from_claim_all: true
+					id: "7F6FD504591238FC"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [
@@ -860,6 +880,12 @@
 			hide_dependent_lines: true
 			id: "2CCAA7C0FEDEB573"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49C98505A02CF9D9"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "211A2C594472A9C4"
 				item: { count: 1, id: "mekanismgenerators:wind_generator" }
@@ -873,6 +899,12 @@
 			hide_dependent_lines: true
 			id: "3B6F1BD64C0C570F"
 			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3515325AD65E431E"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2E49798B39BAA192"
 				item: { components: { "ftbfiltersystem:filter": "or(item(powah:solar_panel_basic)item(mekanismgenerators:solar_generator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -910,6 +942,12 @@
 						id: "minecraft:obsidian"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "67650422D108EDAC"
+					table_id: 487623848494439020L
+					type: "random"
 				}
 			]
 			tasks: [{
@@ -984,6 +1022,12 @@
 		{
 			dependencies: ["5792CC9E3AFAB229"]
 			id: "790EC3EDC2DB1FB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0961A8C338178606"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
 			tasks: [{
 				id: "26CDA4EADF919D5C"
 				item: { components: { "ftbfiltersystem:filter": "or(item(generatorgalore:enchantment_generator)item(generatorgalore:halitosis_generator)item(generatorgalore:netherstar_generator)item(generatorgalore:potion_generator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
