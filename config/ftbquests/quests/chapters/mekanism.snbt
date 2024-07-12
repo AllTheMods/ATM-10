@@ -7,14 +7,6 @@
 		id: "mekanism:steel_casing"
 	}
 	id: "23983F4DC524B14B"
-	images: [{
-		height: 2.0d
-		image: "ftbquests:block/barrier_open"
-		rotation: 45.0d
-		width: 2.0d
-		x: 9.0d
-		y: -5.5d
-	}]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -1611,8 +1603,8 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
-			y: -3.5d
+			x: 8.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["603877AB96321F1A"]
@@ -2539,8 +2531,8 @@
 				item: { count: 1, id: "mekanism:chemical_washer" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: -0.5d
+			x: 10.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4F436770D30D8520"]
@@ -2562,7 +2554,7 @@
 				item: { count: 1, id: "mekanism:chemical_crystallizer" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 10.0d
 			y: -0.5d
 		}
 		{
@@ -2583,8 +2575,8 @@
 				id: "3B3B58C438FD4397"
 				type: "checkmark"
 			}]
-			x: 9.0d
-			y: 1.0d
+			x: 11.0d
+			y: -1.9642857142857153d
 		}
 		{
 			dependencies: ["162CE44400A63575"]
@@ -2611,26 +2603,6 @@
 			}]
 			x: -6.5d
 			y: 2.5d
-		}
-		{
-			dependencies: [
-				"4236B9F071BE18F3"
-				"2E274BEEF2B0B8C7"
-			]
-			id: "7E4A95B6443F23BC"
-			rewards: [{
-				id: "1E16D1CE01AD7052"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "hexagon"
-			size: 2.0d
-			tasks: [{
-				id: "60BF6E0420C91050"
-				type: "checkmark"
-			}]
-			x: 9.0d
-			y: -5.5d
 		}
 	]
 }
