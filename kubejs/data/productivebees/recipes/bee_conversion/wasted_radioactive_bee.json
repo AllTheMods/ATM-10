@@ -1,0 +1,19 @@
+{
+    "type": "productivebees:bee_conversion",
+    "source": "productivebees:radioactive",
+    "result": "productivebees:wasted_radioactive",
+    "item": {
+        "item": "mekanism:pellet_polonium"
+    },
+    "chance": 5,
+    "conditions": [
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:radioactive"
+        },
+        {
+            "type": "productivebees:bee_exists",
+            "bee": "productivebees:wasted_radioactive"
+        }
+    ]
+}
