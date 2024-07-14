@@ -37,15 +37,6 @@ ServerEvents.recipes(allthemods => {
   universalPress('minecraft:gold_ingot', 'ae2:printed_logic_processor', 'printed_logic_processor')
   universalPress('minecraft:iron_block', 'kubejs:universal_press', 'universal_press_duplicate')
 
-  allthemods.shaped('kubejs:universal_press', [' S ', 'LsE', ' C '],
-      {
-          S: 'ae2:silicon_press',
-          L: 'ae2:logic_processor_press',
-          s: 'minecraft:slime_ball',
-          E: 'ae2:engineering_processor_press',
-          C: 'ae2:calculation_processor_press'
-      }
-  ).id('allthemods:ae2/universal_press')
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

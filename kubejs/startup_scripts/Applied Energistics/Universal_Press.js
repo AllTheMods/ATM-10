@@ -5,7 +5,6 @@ StartupEvents.registry('item', allthemods => {
     allthemods.create('universal_press')
         .texture('kubejs:item/universal_press')
         .maxStackSize(64)
-        .tag("ae2:inscriber_presses")
         .displayName('Inscriber Universal Press');
 })
 
