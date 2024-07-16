@@ -1,0 +1,27 @@
+{
+  "neoforge:conditions": [
+  {
+    "type": "neoforge:item_exists",
+    "item": "functionalstorage:oak_1"
+  }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "tag": "c:chests/wooden"
+    },
+    "P": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PCP",
+    "PPP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "functionalstorage:oak_1"
+  }
+}
