@@ -1,0 +1,150 @@
+#Mekanism Generators Config. This config is synced between server and client.
+[generators]
+	#Affects the Injection Rate, Max Temp, and Ignition Temp.
+	energyPerFusionFuel = "10000000"
+	#Peak output for the Solar Generator. Note: It can go higher than this value in some extreme environments.
+	solarGeneration = "50"
+	#Peak output for the Advanced Solar Generator. Note: It can go higher than this value in some extreme environments.
+	advancedSolarGeneration = "300"
+
+	#Bio Generator Settings
+	[generators.bio_generator]
+		#Amount of energy in Joules the Bio Generator produces per tick.
+		bioGeneration = "350"
+		#The capacity in mB of the fluid tank in the Bio Generator.
+		#Range: > 1
+		tankCapacity = 24000
+
+	#Heat Generator Settings
+	[generators.heat_generator]
+		#Amount of energy in Joules the Heat Generator produces per tick. heatGeneration + heatGenerationLava * lavaSides + heatGenerationNether. Note: lavaSides is how many sides are adjacent to lava, this includes the block itself if it is lava logged allowing for a max of 7 "sides".
+		heatGeneration = "200"
+		#Multiplier of effectiveness of Lava that is adjacent to the Heat Generator.
+		heatGenerationLava = "30"
+		#Add this amount of Joules to the energy produced by a heat generator if it is in an 'ultrawarm' dimension, in vanilla this is just the Nether.
+		heatGenerationNether = "100"
+		#The capacity in mB of the fluid tank in the Heat Generator.
+		#Range: > 1
+		tankCapacity = 24000
+		#The amount of lava in mB that gets consumed to transfer heatGeneration Joules to the Heat Generator.
+		heatGenerationFluidRate = 10
+
+	#Gas-Burning Generator Settings
+	[generators.gas_generator]
+		#The capacity in mB of the gas tank in the Gas-Burning Generator.
+		#Range: 1 ~ 9223372036854775807
+		tankCapacity = 18000
+		#The number of ticks each mB of Ethene burns for in the Gas-Burning Generator.
+		#Range: > 1
+		etheneBurnTicks = 40
+		#Multiplier for calculating the energy density of Ethene (1 mB Hydrogen + 2 * bioGeneration * densityMultiplier).
+		etheneDensityMultiplier = "17"
+
+	#Turbine Settings
+	[generators.turbine]
+		#The number of blades on each turbine coil per blade applied.
+		#Range: 1 ~ 12
+		turbineBladesPerCoil = 4
+		#The rate at which steam is vented into the turbine.
+		#Range: 0.1 ~ 1024000.0
+		turbineVentGasFlow = 32000.0
+		#The rate at which steam is dispersed into the turbine.
+		#Range: 0.1 ~ 1024000.0
+		turbineDisperserGasFlow = 1280.0
+		#Amount of energy (J) that each block of the turbine contributes to the total energy capacity. Max = volume * energyCapacityPerVolume
+		energyCapacityPerVolume = "16000000"
+		#Amount of gas (mB) that each block of the turbine's steam cavity contributes to the volume. Max = volume * gasPerTank
+		#Range: 1 ~ 1773043451913643
+		gasPerTank = 64000
+		#The rate at which steam is condensed in the turbine.
+		#Range: 1 ~ 2000000
+		condenserRate = 64000
+
+	#Wind Generator Settings
+	[generators.wind_generator]
+		#Minimum base generation value of the Wind Generator.
+		windGenerationMin = "60"
+		#Maximum base generation value of the Wind Generator.
+		generationMax = "480"
+		#The minimum Y value that affects the Wind Generators Power generation. This value gets clamped at the world's min height.
+		#Range: -2032 ~ 2030
+		minY = 24
+		#The maximum Y value that affects the Wind Generators Power generation. This value gets clamped at the world's logical height.
+		maxY = 2031
+		#The list of dimension ids that the Wind Generator will not generate power in.
+		windGenerationDimBlacklist = []
+
+	#Fusion Settings
+	[generators.fusion_reactor]
+		#The fraction of the heat dissipated from the case that is converted to Joules.
+		#Range: 0.0 ~ 1.0
+		thermocoupleEfficiency = 0.05
+		#The fraction fraction of heat from the casing that can be transferred to all sources that are not water. Will impact max heat, heat transfer to thermodynamic conductors, and power generation.
+		#Range: 0.001 ~ 1.0
+		casingThermalConductivity = 0.1
+		#The fraction of the heat from the casing that is dissipated to water when water cooling is in use. Will impact max heat, and steam generation.
+		#Range: 0.0 ~ 1.0
+		waterHeatingRatio = 0.3
+		#Amount of fuel (mB) that the fusion reactor can store.
+		#Range: 2 ~ 1000000
+		fuelCapacity = 1000
+		#Amount of energy (J) the fusion reactor can store.
+		energyCapacity = "1000000000"
+		#Amount of water (mB) per injection rate that the fusion reactor can store. Max = injectionRate * waterPerInjection
+		#Range: 1 ~ 21913098
+		waterPerInjection = 1000000
+		#Amount of steam (mB) per injection rate that the fusion reactor can store. Max = injectionRate * steamPerInjection
+		#Range: 1 ~ 94116041192395671
+		steamPerInjection = 100000000
+
+	#Hohlraum Settings
+	[generators.hohlraum]
+		#Hohlraum capacity in mB.
+		#Range: 1 ~ 9223372036854775807
+		maxGas = 10
+		#Amount of DT-Fuel Hohlraum can accept per tick.
+		#Range: 1 ~ 9223372036854775807
+		fillRate = 1
+
+	#Fission Reactor Settings
+	[generators.fission_reactor]
+		#Amount of energy created (in heat) from each whole mB of fission fuel.
+		energyPerFissionFuel = "1000000"
+		#The heat capacity added to a Fission Reactor by a single casing block. Increase to require more energy to raise the reactor temperature.
+		#Range: 1.0 ~ 1000000.0
+		casingHeatCapacity = 1000.0
+		#The average surface area of a Fission Reactor's fuel assemblies to reach 100% boil efficiency. Higher values make it harder to cool the reactor.
+		#Range: 1.0 ~ 1.7976931348623157E308
+		surfaceAreaTarget = 4.0
+		#Whether catastrophic meltdowns can occur from Fission Reactors. If disabled instead of melting down the reactor will turn off and not be able to be turned back on until the damage level decreases.
+		meltdownsEnabled = true
+		#The radius of the explosion that occurs from a meltdown.
+		#Range: 1.0 ~ 500.0
+		meltdownRadius = 8.0
+		#The chance of a meltdown occurring once damage passes 100%. Will linearly scale as damage continues increasing.
+		#Range: 0.0 ~ 1.0
+		meltdownChance = 0.001
+		#How much radioactivity of fuel/waste contents are multiplied during a meltdown.
+		#Range: 0.1 ~ 1000000.0
+		meltdownRadiationMultiplier = 50.0
+		#Damage to reset the reactor to after a meltdown.
+		#Range: 0.0 ~ 100.0
+		postMeltdownDamage = 75.0
+		#The default burn rate of the fission reactor.
+		#Range: 0.001 ~ 1.0
+		defaultBurnRate = 0.1
+		#The burn rate increase each fuel assembly provides. Max Burn Rate = fuelAssemblies * burnPerAssembly
+		#Range: 1 ~ 1000000
+		burnPerAssembly = 1
+		#Amount of fuel (mB) that each assembly contributes to the fuel and waste capacity. Max = fuelAssemblies * maxFuelPerAssembly
+		#Range: 1 ~ 2251799813685247
+		maxFuelPerAssembly = 8000
+		#Amount of cooled coolant (mB) that each block of the fission reactor contributes to the volume. Max = volume * cooledCoolantPerTank
+		#Range: 1 ~ 368224
+		cooledCoolantPerTank = 100000
+		#Amount of heated coolant (mB) that each block of the fission reactor contributes to the volume. Max = volume * heatedCoolantPerTank
+		#Range: 1000 ~ 1581510980256305
+		heatedCoolantPerTank = 1000000
+		#The percentage of waste in a fission reactor's output waste tank that is necessary to trigger the excess waste .
+		#Range: 0.001 ~ 1.0
+		excessWaste = 0.9
