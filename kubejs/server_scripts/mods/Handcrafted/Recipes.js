@@ -13,6 +13,12 @@ ServerEvents.recipes(allthemods => {
   allthemods.replaceInput({ id: 'handcrafted:oak_cupboard' }, 'minecraft:oak_planks', 'minecraft:oak_slab')
   allthemods.replaceInput({ id: 'handcrafted:spruce_cupboard' }, 'minecraft:spruce_planks', 'minecraft:spruce_slab')
   allthemods.replaceInput({ id: 'handcrafted:warped_cupboard' }, 'minecraft:warped_planks', 'minecraft:warped_slab')
+  allthemods.forEachRecipe({id: /handcrafted:.*_sheet$/}, (recipe) => {
+    let temp_array = JSON.parse(recipe.json).ingredients
+    temp_array.push(temp_array[0])
+    recipe.set("ingredients", temp_array)
+    recipe.set("result", recipe.get("result").withCount(10))
+  })
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
