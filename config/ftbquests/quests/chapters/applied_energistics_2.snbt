@@ -687,7 +687,6 @@
 				"5F56892CD904C40F"
 			]
 			id: "460A8F17F3ED6CAF"
-			invisible: true
 			rewards: [
 				{
 					id: "006EED7533375FD2"
@@ -708,20 +707,16 @@
 			shape: "diamond"
 			size: 1.5d
 			tasks: [{
-				id: "19BF2D67291056DE"
-				item: { components: { "ftbquests:missing_item": "megacells:cell_component_1m" }, count: 1, id: "ftbquests:missing_item" }
+				id: "1ED54F5BAE0FADE8"
+				item: { count: 1, id: "megacells:cell_component_1m" }
 				type: "item"
 			}]
 			x: 16.5d
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"19BF2D67291056DE"
-				"460A8F17F3ED6CAF"
-			]
+			dependencies: ["460A8F17F3ED6CAF"]
 			id: "25DBA00422301EDC"
-			invisible: true
 			rewards: [
 				{
 					id: "5696B9C3D424839F"
@@ -736,20 +731,16 @@
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "32340AD4F677375F"
-				item: { components: { "ftbquests:missing_item": "megacells:cell_component_4m" }, count: 1, id: "ftbquests:missing_item" }
+				id: "40B37486AA9DD419"
+				item: { count: 1, id: "megacells:cell_component_4m" }
 				type: "item"
 			}]
 			x: 19.0d
 			y: 3.9999999999999996d
 		}
 		{
-			dependencies: [
-				"32340AD4F677375F"
-				"25DBA00422301EDC"
-			]
+			dependencies: ["25DBA00422301EDC"]
 			id: "0E809747193ED3A9"
-			invisible: true
 			rewards: [
 				{
 					id: "2083392434D82627"
@@ -764,20 +755,16 @@
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "76A0C582AECC4702"
-				item: { components: { "ftbquests:missing_item": "megacells:cell_component_16m" }, count: 1, id: "ftbquests:missing_item" }
+				id: "6E2955EC62EA1E37"
+				item: { count: 1, id: "megacells:cell_component_16m" }
 				type: "item"
 			}]
 			x: 19.5d
 			y: 4.499999999999998d
 		}
 		{
-			dependencies: [
-				"76A0C582AECC4702"
-				"0E809747193ED3A9"
-			]
+			dependencies: ["0E809747193ED3A9"]
 			id: "3CE3D9245F8EC005"
-			invisible: true
 			rewards: [
 				{
 					id: "4637E22B312275B1"
@@ -792,20 +779,16 @@
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "50CD83AC904EC47E"
-				item: { components: { "ftbquests:missing_item": "megacells:cell_component_64m" }, count: 1, id: "ftbquests:missing_item" }
+				id: "12DED6DF890F4A1A"
+				item: { count: 1, id: "megacells:cell_component_64m" }
 				type: "item"
 			}]
 			x: 20.0d
 			y: 3.9999999999999996d
 		}
 		{
-			dependencies: [
-				"50CD83AC904EC47E"
-				"3CE3D9245F8EC005"
-			]
+			dependencies: ["3CE3D9245F8EC005"]
 			id: "51A57E142C686C8F"
-			invisible: true
 			rewards: [
 				{
 					id: "3F61E69AB87C08FF"
@@ -820,8 +803,8 @@
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "0D5DA83B0C0665C8"
-				item: { components: { "ftbquests:missing_item": "megacells:cell_component_256m" }, count: 1, id: "ftbquests:missing_item" }
+				id: "13AA316EA6E8CA30"
+				item: { count: 1, id: "megacells:cell_component_256m" }
 				type: "item"
 			}]
 			x: 19.5d
@@ -1929,10 +1912,9 @@
 		{
 			dependencies: ["361CCBD353D6FF34"]
 			id: "0F03E75CF79BADD7"
-			invisible: true
 			tasks: [{
-				id: "4C2F435902156183"
-				item: { components: { "ftbquests:missing_item": "megacells:bulk_item_cell" }, count: 1, id: "ftbquests:missing_item" }
+				id: "700381466CC95F2F"
+				item: { count: 1, id: "megacells:bulk_item_cell" }
 				type: "item"
 			}]
 			x: 17.5d

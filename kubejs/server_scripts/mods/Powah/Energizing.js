@@ -28,6 +28,7 @@ ServerEvents.recipes(allthemods => {
     bulk_energizing('c:gems/certus_quartz', 1, 'ae2:charged_certus_quartz_crystal', 20000, 'charged_certus_quartz_crystal')
     bulk_energizing('c:ices/blue', 2, 'powah:dry_ice', 10000, 'dry_ice')
     bulk_energizing('c:gems/redstone', 1, 'appflux:charged_redstone', 20000, 'charged_redstone')
+    bulk_energizing('c:storage_blocks/redstone', 1, 'appflux:charged_redstone_block', 180000, 'charged_redstone_block')
     bulk_energizing('c:ingots/uranium', 1, 'powah:uraninite', 30000, 'uraninite_from_uranium')
     bulk_energizing('c:raw_materials/uraninite', 1, 'powah:uraninite', 2000, 'uraninite_from_raw')
     bulk_energizing('c:storage_blocks/uranium', 1, 'powah:uraninite_block', 270000, 'uraninite_from_uranium_block')
