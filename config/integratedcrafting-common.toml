@@ -1,0 +1,21 @@
+	[machine.general]
+		#If the crafting interface should validate recipes on insertion.
+		validateRecipesCraftingInterface = true
+		#The maximum amount of crafting jobs that could be scheduled within one crafting interface without being started
+		maxPendingCraftingJobs = 256
+		#Enabling this option will log all recipe validation failures in crafting interfaces into the server logs
+		logRecipeValidationFailures = true
+		#The minimal update frequency in ticks to use for crafting interfaces.
+		minCraftingInterfaceUpdateFreq = 5
+
+	[general.general]
+		#The base energy usage for the crafting interface per crafting job being processed.
+		interfaceCraftingBaseConsumption = 5
+		#The base energy usage for the crafting writer.
+		craftingWriterBaseConsumption = 1
+
+	[core.general]
+		#If an anonymous mod startup analytics request may be sent to our analytics service.
+		analytics = false
+		#If the version checker should be enabled.
+		versionChecker = false

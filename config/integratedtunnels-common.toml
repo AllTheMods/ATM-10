@@ -1,0 +1,71 @@
+	[general.general]
+		#The base energy usage for the energy importer.
+		importerEnergyBaseConsumption = 1
+		#The base energy usage for the item importer.
+		importerItemBaseConsumption = 1
+		#The base energy usage for the world item exporter when it has a variable.
+		exporterWorldItemBaseConsumptionEnabled = 32
+		#The base energy usage for the item interface.
+		interfaceItemBaseConsumption = 0
+		#The base energy usage for the world item importer when it has a variable.
+		importerWorldItemBaseConsumptionEnabled = 32
+		#The base energy usage for the fluid importer.
+		importerFluidBaseConsumption = 1
+		#The base energy usage for the fluid interface.
+		interfaceFluidBaseConsumption = 0
+		#The base energy usage for the player simulator when it does not have a variable.
+		playerSimulatorBaseConsumptionDisabled = 1
+		#The base energy usage for the player simulator when it has a variable.
+		playerSimulatorBaseConsumptionEnabled = 64
+		#The base energy usage for the world block exporter when it does not have a variable.
+		exporterWorldBlockBaseConsumptionDisabled = 1
+		#The base energy usage for the world block importer when it has a variable.
+		importerWorldBlockBaseConsumptionEnabled = 32
+		#The base energy usage for the energy exporter.
+		exporterEnergyBaseConsumption = 1
+		#The base energy usage for the item exporter.
+		exporterItemBaseConsumption = 1
+		#The base energy usage for the world fluid importer when it does not have a variable.
+		importerWorldFluidBaseConsumptionDisabled = 1
+		#The base energy usage for the world energy importer when it has a variable.
+		importerWorldEnergyBaseConsumptionEnabled = 32
+		#The base energy usage for the world item importer when it does not have a variable.
+		importerWorldItemBaseConsumptionDisabled = 1
+		#The base energy usage for the world block importer when it does not have a variable.
+		importerWorldBlockBaseConsumptionDisabled = 1
+		#The base energy usage for the fluid exporter.
+		exporterFluidBaseConsumption = 1
+		#The base energy usage for the world energy exporter when it has a variable.
+		exporterWorldEnergyBaseConsumptionEnabled = 32
+		#The base energy usage for the world fluid exporter when it has a variable.
+		exporterWorldFluidBaseConsumptionEnabled = 32
+		#The base energy usage for the world energy exporter when it does not have a variable.
+		exporterWorldEnergyBaseConsumptionDisabled = 1
+		#The base energy usage for the world fluid importer when it has a variable.
+		importerWorldFluidBaseConsumptionEnabled = 32
+		#The base energy usage for the energy interface.
+		interfaceEnergyBaseConsumption = 0
+		#The base energy usage for the world block exporter when it has a variable.
+		exporterWorldBlockBaseConsumptionEnabled = 32
+		#The base energy usage for the world fluid exporter when it does not have a variable.
+		exporterWorldFluidBaseConsumptionDisabled = 1
+		#The base energy usage for the world energy importer when it does not have a variable.
+		importerWorldEnergyBaseConsumptionDisabled = 1
+		#The base energy usage for the world item exporter when it does not have a variable.
+		exporterWorldItemBaseConsumptionDisabled = 1
+
+	[core.general]
+		#The maximum network fluid transfer rate.
+		fluidRateLimit = 2147483647
+		#If particles should be shown and sounds should be played when tunnels are interacting with the world.
+		worldInteractionEvents = true
+		#If an anonymous mod startup analytics request may be sent to our analytics service.
+		analytics = false
+		#If items should be ejected into the world when a block is broken and not all items fit into the target. Will be voided otherwise.
+		ejectItemsOnBlockDropOverflow = true
+		#How many ticks importers/exporters should sleep until checking targets again when they were previously unchanged.
+		inventoryUnchangedTickTimeout = 10
+		#If items should be ejected into the world when item movement failed due to item handlers declaring inconsistent movement in simulation mode. If disabled, items can be voided.
+		ejectItemsOnInconsistentSimulationMovement = true
+		#If the version checker should be enabled.
+		versionChecker = false

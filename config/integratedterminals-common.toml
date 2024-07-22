@@ -1,0 +1,61 @@
+	[machine.general]
+		#The number of items that should be selected when clicking on an item in the storage terminal.
+		guiStorageItemInitialQuantity = 64
+		#The number of items that should be removed when right-clicking when energy is selected in the storage terminal.
+		guiStorageEnergyIncrementalQuantity = 1000
+		#The update frequency in milliseconds for the crafting jobs gui.
+		guiTerminalCraftingJobsUpdateFrequency = 1000
+		#The number of items that should be removed when right-clicking when an item is selected in the storage terminal.
+		guiStorageItemIncrementalQuantity = 1
+		#The number of items that should be selected when clicking on energy in the storage terminal.
+		guiStorageEnergyInitialQuantity = 100000
+		#The number of items that should be removed when right-clicking when a fluid is selected in the storage terminal.
+		guiStorageFluidIncrementalQuantity = 1000
+		#The number of items that should be selected when clicking on a fluid in the storage terminal.
+		guiStorageFluidInitialQuantity = 100000
+
+	[general.general]
+		#If the crafting grid should always be shown centrally, and not be responsive based on screen size.
+		guiStorageForceCraftingGridCenter = false
+		#The number of rows in the small scale of the storage terminal.
+		guiStorageScaleSmallRows = 5
+		#The number of columns in the height-based scale of the storage terminal.
+		guiStorageScaleHeightColumns = 9
+		#The number of rows in the large scale of the storage terminal.
+		guiStorageScaleLargeRows = 9
+		#The number of rows in the medium scale of the storage terminal.
+		guiStorageScaleMediumRows = 7
+		#The maximum number of columns in when scaling the storage terminal.
+		guiStorageScaleMaxColumns = 32
+		#The base energy usage for the crafting terminal.
+		terminalCraftingBaseConsumption = 1
+		#The number of rows in the width-based scale of the storage terminal.
+		guiStorageScaleWidthRows = 5
+		#The number of columns in the large scale of the storage terminal.
+		guiStorageScaleLargeColumns = 11
+		#The number of columns in the small scale of the storage terminal.
+		guiStorageScaleSmallColumns = 9
+		#The maximum number of rows in when scaling the storage terminal.
+		guiStorageScaleMaxRows = 20
+		#The base energy usage for the storage terminal.
+		terminalStorageBaseConsumption = 2
+		#If shift-clicking on the crafting terminal's crafting result slot should only produce a single result.
+		shiftClickCraftingResultLimit = false
+		#If the search box and button states should be synchronized between the item storage and crafting tabs.
+		syncItemStorageAndCraftingTabStates = true
+		#The number of columns in the medium scale of the storage terminal.
+		guiStorageScaleMediumColumns = 10
+
+	[core.general]
+		#If an anonymous mod startup analytics request may be sent to our analytics service.
+		analytics = false
+		#If the crafting planners can work on separate thread.
+		craftingPlannerEnableMultithreading = false
+		#The maximum number of terminal storage crafting recipes that can be sent in a single packet. Reduce this when you have packet overflows.
+		terminalStoragePacketMaxRecipes = 128
+		#The number of threads that the crafting plan calculator can use.
+		craftingPlannerThreads = 2
+		#The maximum number of terminal storage instances that can be sent in a single packet. Reduce this when you have packet overflows.
+		terminalStoragePacketMaxInstances = 512
+		#If the version checker should be enabled.
+		versionChecker = false
