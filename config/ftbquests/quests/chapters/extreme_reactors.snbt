@@ -49,7 +49,7 @@
 			y: 9.5d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -109,7 +109,7 @@
 		{
 			dependencies: ["75AD0CEBC1335915"]
 			icon: {
-				id: "bigreactors:basic_reactorglass"
+				id: "bigreactors:basic_reactorfuelrod"
 			}
 			id: "4AD8363D7359A072"
 			min_width: 300
@@ -428,32 +428,6 @@
 			]
 			x: -0.5d
 			y: 5.5d
-		}
-		{
-			dependencies: ["4AD8363D7359A072"]
-			id: "73362EDC984B8A0F"
-			min_width: 300
-			progression_mode: "linear"
-			rewards: [
-				{
-					id: "56D7ED254FC3A540"
-					type: "xp"
-					xp: 50
-				}
-				{
-					exclude_from_claim_all: true
-					id: "6150F69F6D20EBFB"
-					table_id: 4196188979167302596L
-					type: "loot"
-				}
-			]
-			tasks: [{
-				id: "0D4AE8FBAA953732"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: 9.0d
 		}
 		{
 			dependencies: [
