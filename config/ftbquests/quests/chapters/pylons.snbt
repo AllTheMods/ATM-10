@@ -1,0 +1,336 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pylons"
+	group: "2B51AC12041E3F89"
+	icon: {
+		id: "pylons:infusion_pylon"
+	}
+	id: "5712300EF4E5E846"
+	images: [
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/pylons/pylon_harvester.png"
+			rotation: 0.0d
+			width: 3.721698113207547d
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/pylons/pylon_beacon.png"
+			rotation: 0.0d
+			width: 2.351585014409222d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/pylons/pylon_zombie.png"
+			rotation: 0.0d
+			width: 1.0702702702702702d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/pylons/pylon_skeleton.png"
+			rotation: 0.0d
+			width: 0.8177339901477833d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			image: "atm:textures/questpics/pylons/pylon_panda.png"
+			rotation: 0.0d
+			width: 1.5126050420168067d
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/pylons/pylon_title.png"
+			rotation: 0.0d
+			width: 3.8596491228070176d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/pylons/pylon_no.png"
+			rotation: 0.0d
+			width: 3.308300395256917d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/pylons/pylon_no.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/pylons/pylon_no.png"
+			rotation: 0.0d
+			width: 1.1027667984189724d
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			height: 1.6d
+			image: "atm:textures/questpics/pylons/pylon_no.png"
+			rotation: 0.0d
+			width: 1.6d
+			x: 5.0d
+			y: 0.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "30B0240543253EFB"
+			rewards: [{
+				id: "2795AB11AF5A08CD"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "576428EF1CDDEF96"
+				item: { count: 1, id: "minecraft:polished_blackstone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"30B0240543253EFB"
+				"403F76908A8A5661"
+			]
+			id: "32E52AD6EF194A60"
+			rewards: [
+				{
+					id: "503EC58A04C10507"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "3CF4155E1C75F1ED"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "3644DD329B1CF04B"
+				item: { count: 1, id: "pylons:expulsion_pylon" }
+				type: "item"
+			}]
+			x: 1.7999999999999998d
+			y: -1.7999999999999998d
+		}
+		{
+			dependencies: [
+				"30B0240543253EFB"
+				"011F787E620DE9E8"
+			]
+			id: "5B5FC539BD1F4A73"
+			rewards: [
+				{
+					id: "2A29175ED2C50B63"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 2
+					id: "353EEB89FCC773A5"
+					item: {
+						count: 1
+						id: "minecraft:netherite_ingot"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "525BAD815438BF4C"
+				item: { count: 1, id: "pylons:interdiction_pylon" }
+				type: "item"
+			}]
+			x: 1.7999999999999998d
+			y: 1.7999999999999998d
+		}
+		{
+			dependencies: [
+				"30B0240543253EFB"
+				"034A9FBCA6D79BB6"
+			]
+			id: "12ED1EE85E146A4B"
+			rewards: [
+				{
+					id: "5DEB117BAE548ED3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 8
+					id: "72253D5B5719D67C"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "2F7ABC9758AAC23E"
+				item: { count: 1, id: "pylons:harvester_pylon" }
+				type: "item"
+			}]
+			x: -1.7999999999999998d
+			y: 1.7999999999999998d
+		}
+		{
+			dependencies: [
+				"30B0240543253EFB"
+				"09D18512037386C1"
+			]
+			id: "18246A48C20B29D8"
+			rewards: [
+				{
+					id: "69C85E9C1C5E0253"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 3
+					id: "76D467DBB82E49FB"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "6C593196779DD911"
+				item: { count: 1, id: "pylons:infusion_pylon" }
+				type: "item"
+			}]
+			x: -1.7999999999999998d
+			y: -1.7999999999999998d
+		}
+		{
+			hide_details_until_startable: false
+			id: "403F76908A8A5661"
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [{
+				id: "13CE484A5B1A097A"
+				item: { count: 1, id: "pylons:player_filter" }
+				type: "item"
+			}]
+			x: 3.15d
+			y: -3.15d
+		}
+		{
+			id: "011F787E620DE9E8"
+			rewards: [{
+				count: 10
+				id: "59E5500081B17596"
+				item: {
+					count: 1
+					id: "minecraft:torch"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [{
+				id: "5A8DC1B4A3A8A7FC"
+				item: { count: 1, id: "pylons:mob_filter" }
+				type: "item"
+			}]
+			x: 3.15d
+			y: 3.15d
+		}
+		{
+			id: "09D18512037386C1"
+			rewards: [
+				{
+					id: "1C3FD71F1EEE4828"
+					item: {
+						count: 1
+						id: "minecraft:brewing_stand"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "79D689AB8042F8DD"
+					item: {
+						count: 1
+						id: "minecraft:blaze_powder"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [{
+				id: "420D062D40DDE5CB"
+				item: { count: 1, id: "pylons:potion_filter" }
+				type: "item"
+			}]
+			x: -3.15d
+			y: -3.15d
+		}
+		{
+			icon: {
+				id: "minecraft:diamond_hoe"
+			}
+			id: "034A9FBCA6D79BB6"
+			rewards: [{
+				id: "42FFCBCEDF641E38"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:unbreaking": 3
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [{
+				id: "616C07AFBAFA7AE4"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:hoes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -3.15d
+			y: 3.15d
+		}
+	]
+}
