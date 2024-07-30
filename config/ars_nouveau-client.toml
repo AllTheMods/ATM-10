@@ -1,0 +1,50 @@
+#Lighting
+[lights]
+	#Show the supporter message. This is set to false after the first time.
+	showSupporterMessage = false
+	#If dynamic lights are enabled
+	lightsEnabled = false
+	#How bright the touch light is
+	#Range: 0 ~ 15
+	touchLightLuminance = 8
+	#How long the touch light lasts in ticks
+	#Range: 0 ~ 40
+	touchLightDuration = 8
+	#Light level an entity should emit when dynamic lights are on
+	#Example entry: minecraft:blaze=15
+	entity_lights = ["minecraft:blaze=10", "ars_nouveau:orbit=15", "ars_nouveau:linger=15", "ars_nouveau:spell_proj=15", "minecraft:magma_cube=8", "ars_nouveau:flying_item=10", "minecraft:spectral_arrow=8", "ars_nouveau:follow_proj=10"]
+	#Light level an item should emit when held when dynamic lights are on
+	#Example entry: minecraft:stick=15
+	item_lights = ["minecraft:redstone_torch=10", "minecraft:soul_lantern=12", "minecraft:glow_ink_sac=10", "minecraft:verdant_froglight=15", "minecraft:blaze_rod=10", "minecraft:shroomlight=10", "minecraft:lantern=14", "minecraft:soul_torch=10", "minecraft:glow_berries=8", "minecraft:glowstone_dust=8", "minecraft:pearlescent_froglight=15", "minecraft:nether_star=14", "minecraft:glowstone=15", "minecraft:torch=14", "minecraft:ochre_froglight=15", "minecraft:lava_bucket=15"]
+
+#Overlay
+[overlays]
+	#X offset for the tooltip
+	#Range: > -2147483648
+	xTooltip = 20
+	#Y offset for the tooltip
+	#Range: > -2147483648
+	yTooltip = 0
+	#X offset for the Mana Bar
+	#Range: > -2147483648
+	xManaBar = 0
+	#Y offset for the Mana Bar
+	#Range: > -2147483648
+	yManaBar = 0
+	#If the Storage Lectern should show the recipe book icon
+	showRecipeBook = true
+	#Inform the player of Dynamic lights once.
+	informLights = false
+
+#Misc
+[misc]
+	#Use simplified renderer for Warp Portals
+	no_end_portal_render = false
+	#Disables the skyweave renderer. Disable if your sky is broken with shaders.
+	disable_skyweave = false
+	#Show spell tooltips with glyphs instead of plain text
+	glyphTooltips = true
+	#Enables transparent/opaque rendering of elements in the book GUI. Disable if it leads to crash with Sodium derivatives
+	gui_transparency = true
+	#Disables translucent particles. Disable if your particles are invisible with shaders.
+	opaque_particles = false
