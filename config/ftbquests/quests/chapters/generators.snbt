@@ -565,6 +565,7 @@
 				"7A615E2A152917AD"
 			]
 			hide: true
+			hide_dependency_lines: true
 			hide_details_until_startable: true
 			id: "2EE8FCB63A338BC4"
 			rewards: [
@@ -1335,6 +1336,7 @@
 				"32C7D8AE859BF89E"
 			]
 			hide: true
+			hide_dependency_lines: true
 			hide_details_until_startable: true
 			id: "0AD2B11565B484E7"
 			rewards: [
@@ -1416,6 +1418,7 @@
 				"32C7D8AE859BF89E"
 			]
 			hide: true
+			hide_dependency_lines: true
 			id: "0ADBE90B33ACC9FB"
 			rewards: [
 				{
@@ -1487,15 +1490,22 @@
 			dependencies: ["618F1434757C8E69"]
 			hide: true
 			id: "7CE86300AF8E9BCA"
-			rewards: [{
-				count: 10
-				id: "59D897D18695FFF0"
-				item: {
-					count: 1
-					id: "minecraft:sculk"
+			rewards: [
+				{
+					count: 10
+					id: "59D897D18695FFF0"
+					item: {
+						count: 1
+						id: "minecraft:sculk"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "73CE993247E65907"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
 			tasks: [{
 				id: "37641D5607F6D00A"
 				item: { components: { "ftbfiltersystem:filter": "or(item(generatorgalore:copper_generator_8x)item(generatorgalore:diamond_generator_8x)item(generatorgalore:emerald_generator_8x)item(generatorgalore:enchantment_generator_8x)item(generatorgalore:ender_generator_8x)item(generatorgalore:gold_generator_8x)item(generatorgalore:halitosis_generator_8x)item(generatorgalore:honey_generator_8x)item(generatorgalore:iron_generator_8x)item(generatorgalore:magmatic_generator_8x)item(generatorgalore:netherite_generator_8x)item(generatorgalore:netherstar_generator_8x)item(generatorgalore:obsidian_generator_8x)item(generatorgalore:potion_generator_8x))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -1503,6 +1513,34 @@
 			}]
 			x: 8.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["7CE86300AF8E9BCA"]
+			hide: true
+			id: "72A287DCAEEFE49F"
+			rewards: [
+				{
+					count: 3
+					id: "52C6D6F0CA122630"
+					item: {
+						count: 1
+						id: "minecraft:heart_of_the_sea"
+					}
+					type: "item"
+				}
+				{
+					id: "3619DAA54EF70655"
+					type: "xp_levels"
+					xp_levels: 8
+				}
+			]
+			tasks: [{
+				id: "31E6FDB712244B72"
+				item: { components: { "ftbfiltersystem:filter": "or(item(generatorgalore:culinary_generator_64x)item(generatorgalore:enchantment_generator_64x)item(generatorgalore:ender_generator_64x)item(generatorgalore:halitosis_generator_64x)item(generatorgalore:honey_generator_64x)item(generatorgalore:magmatic_generator_64x)item(generatorgalore:netherite_generator_64x)item(generatorgalore:potion_generator_8x))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
 		}
 	]
 }

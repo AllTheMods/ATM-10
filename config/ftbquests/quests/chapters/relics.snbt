@@ -139,6 +139,9 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "relics:researching_table"
+			}
 			id: "64141B720662B652"
 			rewards: [{
 				id: "4C83061720AA2F94"
@@ -148,9 +151,10 @@
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
-				id: "5F021B7A45D177E6"
-				item: { count: 1, id: "relics:researching_table" }
-				type: "item"
+				id: "3710D647993D8DE7"
+				points: false
+				type: "xp"
+				value: 1L
 			}]
 			x: 0.0d
 			y: 0.0d
@@ -275,7 +279,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "29D034061C584025"
-				item: { components: { "relics:data": { abilities: { abilities: { anchor: { cooldown: 0, cooldownCap: 0, points: 0, stats: { sinking: { initialValue: 4.43486d }, slowness: { initialValue: 0.25718d } }, ticking: 0b }, pressure: { cooldown: 0, cooldownCap: 0, points: 0, stats: { damage: { initialValue: 1.9302d } }, ticking: 0b }, riptide: { cooldown: 0, cooldownCap: 0, points: 0, stats: { cooldown: { initialValue: 9.25714d } }, ticking: 0b }, slots: { cooldown: 0, cooldownCap: 0, points: 0, stats: { talisman: { initialValue: 0.72432d } }, ticking: 0b } } }, leveling: { experience: 0, level: 0, points: 0 } } }, count: 1, id: "relics:drowned_belt" }
+				item: { components: { "relics:data": { abilities: { abilities: { anchor: { cooldown: 0, cooldownCap: 0, points: 0, stats: { sinking: { initialValue: 4.43486d }, slowness: { initialValue: 0.25718d } }, ticking: 0b }, pressure: { cooldown: 0, cooldownCap: 0, points: 0, stats: { damage: { initialValue: 1.9302d } }, ticking: 0b }, riptide: { cooldown: 0, cooldownCap: 0, points: 0, stats: { cooldown: { initialValue: 9.25714d } }, ticking: 0b }, slots: { cooldown: 0, cooldownCap: 0, points: 0, stats: { charm: { initialValue: 1.34313d }, talisman: { initialValue: 0.72432d } }, ticking: 0b } } }, leveling: { experience: 0, level: 0, points: 0 } } }, count: 1, id: "relics:drowned_belt" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -328,7 +332,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "55FD672217D71A76"
-				item: { components: { "relics:data": { abilities: { abilities: { slots: { cooldown: 0, cooldownCap: 0, points: 0, stats: { talisman: { initialValue: 1.18518d } }, ticking: 0b }, training: { cooldown: 0, cooldownCap: 0, points: 0, stats: { damage: { initialValue: 1.47136d } }, ticking: 0b } } }, leveling: { experience: 0, level: 0, points: 0 } } }, count: 1, id: "relics:hunter_belt" }
+				item: { components: { "relics:data": { abilities: { abilities: { slots: { cooldown: 0, cooldownCap: 0, points: 0, stats: { charm: { initialValue: 1.55746d }, talisman: { initialValue: 1.18518d } }, ticking: 0b }, training: { cooldown: 0, cooldownCap: 0, points: 0, stats: { damage: { initialValue: 1.47136d } }, ticking: 0b } } }, leveling: { experience: 0, level: 0, points: 0 } } }, count: 1, id: "relics:hunter_belt" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -728,7 +732,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "244B401B38A179AF"
-				item: { components: { "relics:data": { abilities: { abilities: { slots: { cooldown: 0, cooldownCap: 0, points: 0, stats: { talisman: { initialValue: 1.99827d } }, ticking: 0b } } }, leveling: { experience: 0, level: 0, points: 0 } } }, count: 1, id: "relics:leather_belt" }
+				item: { components: { "relics:data": { abilities: { abilities: { slots: { cooldown: 0, cooldownCap: 0, points: 0, stats: { charm: { initialValue: 2.72045d }, talisman: { initialValue: 1.99827d } }, ticking: 0b } } }, leveling: { experience: 0, level: 0, points: 0 } } }, count: 1, id: "relics:leather_belt" }
 				type: "item"
 			}]
 			x: 2.0d
