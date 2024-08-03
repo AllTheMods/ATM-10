@@ -1,0 +1,1445 @@
+{
+	autofocus_id: "3E75AFE3482834C5"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "railcraft"
+	group: "2B51AC12041E3F89"
+	icon: {
+		id: "railcraft:steam_locomotive"
+	}
+	id: "2FB24A5A597459FC"
+	images: [
+		{
+			height: 1.5d
+			hover: ["Electric Locomotive"]
+			image: "atm:textures/questpics/railcraft/rail_electric.png"
+			rotation: 0.0d
+			width: 1.8627450980392157d
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			height: 1.5d
+			hover: ["Steam Locomotive"]
+			image: "atm:textures/questpics/railcraft/rail_steam.png"
+			rotation: 0.0d
+			width: 1.4922680412371134d
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			hover: ["Blast Furnace"]
+			image: "atm:textures/questpics/railcraft/rail_furnace.png"
+			rotation: 0.0d
+			width: 1.8454106280193237d
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			height: 2.0d
+			hover: ["Coke Oven"]
+			image: "atm:textures/questpics/railcraft/rail_coke.png"
+			rotation: 0.0d
+			width: 1.9774011299435028d
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			hover: ["Tunnel Bore"]
+			image: "atm:textures/questpics/railcraft/rail_tunnel.png"
+			rotation: 0.0d
+			width: 2.4634146341463414d
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			height: 2.0d
+			hover: ["Water Boiler"]
+			image: "atm:textures/questpics/railcraft/rail_big_boiler.png"
+			rotation: 0.0d
+			width: 1.6754385964912282d
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			hover: ["Steam Turbine"]
+			image: "atm:textures/questpics/railcraft/rail_turbine.png"
+			rotation: 0.0d
+			width: 2.127906976744186d
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			hover: ["Steam Oven"]
+			image: "atm:textures/questpics/railcraft/rail_oven.png"
+			rotation: 0.0d
+			width: 1.9899497487437185d
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			height: 2.0d
+			hover: ["Water Tank"]
+			image: "atm:textures/questpics/railcraft/rail_tank.png"
+			rotation: 0.0d
+			width: 2.0585365853658537d
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			height: 2.0d
+			hover: ["Crusher"]
+			image: "atm:textures/questpics/railcraft/rail_crusher.png"
+			rotation: 0.0d
+			width: 2.179640718562874d
+			x: 12.5d
+			y: 3.0d
+		}
+		{
+			height: 1.5d
+			hover: ["Abandoned Tracks"]
+			image: "atm:textures/questpics/railcraft/rail_abandoned.png"
+			rotation: 0.0d
+			width: 6.086776859504132d
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			height: 1.5d
+			hover: ["Reinforced Tracks"]
+			image: "atm:textures/questpics/railcraft/rail_reinforced4.png"
+			rotation: 0.0d
+			width: 4.557324840764331d
+			x: -7.0d
+			y: 0.5d
+		}
+		{
+			height: 1.5d
+			hover: ["Electric Tracks"]
+			image: "atm:textures/questpics/railcraft/rail_electric_rail.png"
+			rotation: 0.0d
+			width: 4.285714285714286d
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			height: 1.5d
+			hover: ["Strap Iron Tracks"]
+			image: "atm:textures/questpics/railcraft/rail_strap.png"
+			rotation: 0.0d
+			width: 4.25390625d
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			height: 1.0d
+			hover: ["Minecart with Tank"]
+			image: "atm:textures/questpics/railcraft/rail_carttank.png"
+			rotation: 0.0d
+			width: 1.3098591549295775d
+			x: -3.0d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Minecart with Energy Cell"]
+			image: "atm:textures/questpics/railcraft/rail_cartcell.png"
+			rotation: 0.0d
+			width: 1.24822695035461d
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			height: 1.0d
+			hover: ["Track: Remover, Relayer, and Placer"]
+			image: "atm:textures/questpics/railcraft/rail_carttracks.png"
+			rotation: 0.0d
+			width: 3.0225563909774436d
+			x: 4.0d
+			y: 7.5d
+		}
+		{
+			height: 1.5d
+			hover: ["Item Loading"]
+			image: "atm:textures/questpics/railcraft/rail_item.png"
+			rotation: 0.0d
+			width: 1.890995260663507d
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			height: 1.5d
+			hover: ["Item Unloading"]
+			image: "atm:textures/questpics/railcraft/rail_unloader.png"
+			rotation: 0.0d
+			width: 2.2936507936507935d
+			x: -2.0d
+			y: 9.5d
+		}
+		{
+			height: 1.5d
+			hover: ["Cart Dispenser"]
+			image: "atm:textures/questpics/railcraft/rail_cartdispensed.png"
+			rotation: 0.0d
+			width: 2.2033898305084745d
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			height: 1.5d
+			hover: ["Train Dispenser"]
+			image: "atm:textures/questpics/railcraft/rail_traindispens.png"
+			rotation: 0.0d
+			width: 2.2272727272727275d
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/railcraft/railcraft.png"
+			rotation: 0.0d
+			width: 9.076923076923077d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			hover: ["Fluid Loading"]
+			image: "atm:textures/questpics/railcraft/rail_fluid.png"
+			rotation: 0.0d
+			width: 1.6d
+			x: 0.0d
+			y: 9.5d
+		}
+	]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3E75AFE3482834C5"
+			rewards: [
+				{
+					count: 32
+					id: "73B40E05D07E7516"
+					item: {
+						count: 1
+						id: "minecraft:rail"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6753847D74763C19"
+					table_id: 8502370445492231902L
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "37AF49F3A7074892"
+				item: { count: 1, id: "minecraft:rail" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E75AFE3482834C5"]
+			icon: {
+				id: "railcraft:steel_crowbar"
+			}
+			id: "31094CC16E710040"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1AF329A043BCA087"
+				table_id: 8502370445492231902L
+				type: "choice"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "653ED58A9B65C796"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(railcraft:crowbar)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E75AFE3482834C5"]
+			icon: {
+				id: "railcraft:iron_spike_maul"
+			}
+			id: "64C105E1E2F97900"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "50DADD914CBEEA51"
+				table_id: 8502370445492231902L
+				type: "choice"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "19E2DE9D89B89D7B"
+				item: { components: { "ftbfiltersystem:filter": "or(item(railcraft:iron_spike_maul)item(railcraft:steel_spike_maul)item(railcraft:diamond_spike_maul))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3E75AFE3482834C5"]
+			id: "035C52EF63AD23A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "45B11D6CE35D7F3F"
+				table_id: 8502370445492231902L
+				type: "choice"
+			}]
+			shape: "circle"
+			size: 1.3d
+			tasks: [{
+				id: "2A2D77813F3127A6"
+				item: { components: { "ftbfiltersystem:filter": "or(item(railcraft:wooden_rail)item(railcraft:standard_rail)item(railcraft:advanced_rail)item(railcraft:reinforced_rail)item(railcraft:high_speed_rail)item(railcraft:electric_rail))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3E75AFE3482834C5"]
+			id: "068294A7C21DE550"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03020B4EA53E1A8F"
+				table_id: 8502370445492231902L
+				type: "choice"
+			}]
+			shape: "circle"
+			size: 1.3d
+			tasks: [{
+				id: "780E541F1FDDCADC"
+				item: { count: 1, id: "railcraft:track_parts" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["55D7CD0FA8F1AE48"]
+			id: "5128B119DFFF0C4C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B779F6575EEEE81"
+					table_id: 2139753920119531307L
+					type: "choice"
+				}
+				{
+					count: 32
+					id: "215F7C44817838CB"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "6CED23AD56010036"
+				item: { count: 1, id: "railcraft:steam_locomotive" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3E75AFE3482834C5"]
+			id: "55D7CD0FA8F1AE48"
+			rewards: [{
+				count: 3
+				id: "36ACC13BBB4F4798"
+				item: {
+					count: 1
+					id: "minecraft:minecart"
+				}
+				type: "item"
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "1598A523323F0BAB"
+				item: { count: 1, id: "minecraft:minecart" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			id: "6E7C4228CD2B6BB9"
+			invisible: true
+			rewards: [{
+				id: "343A2249A71CEB51"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "569ABDEA0337CA53"
+				item: { count: 1, id: "railcraft:seasons_crowbar" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["035C52EF63AD23A7"]
+			id: "425E375A9EC127EB"
+			rewards: [
+				{
+					count: 32
+					id: "6AC63836B9D8F540"
+					item: {
+						count: 1
+						id: "railcraft:reinforced_track"
+					}
+					type: "item"
+				}
+				{
+					id: "2101A741E908ED14"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "2ECD516444206494"
+				item: { count: 1, id: "railcraft:reinforced_track" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["035C52EF63AD23A7"]
+			id: "75DD345164EE5CD9"
+			rewards: [
+				{
+					count: 32
+					id: "17888ED804CCD833"
+					item: {
+						count: 1
+						id: "railcraft:high_speed_track"
+					}
+					type: "item"
+				}
+				{
+					id: "3F88E1D0A4242594"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "5DFB2079DC0E1669"
+				item: { count: 1, id: "railcraft:high_speed_track" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["035C52EF63AD23A7"]
+			id: "2A30595DC6DDBFF7"
+			rewards: [
+				{
+					count: 32
+					id: "6AB0E699C2AC4FAE"
+					item: {
+						count: 1
+						id: "railcraft:high_speed_electric_track"
+					}
+					type: "item"
+				}
+				{
+					id: "13C545FA444E21C6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "51419C2F98E2F021"
+				item: { count: 1, id: "railcraft:electric_track" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["035C52EF63AD23A7"]
+			id: "4A44623D8A307473"
+			rewards: [
+				{
+					count: 32
+					id: "5380A11064B16A49"
+					item: {
+						count: 1
+						id: "railcraft:high_speed_electric_track"
+					}
+					type: "item"
+				}
+				{
+					id: "3688A4AD2D1D9440"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "027264CA5EC1248C"
+				item: { count: 1, id: "railcraft:high_speed_electric_track" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["035C52EF63AD23A7"]
+			id: "5180CDD196518F64"
+			rewards: [
+				{
+					count: 32
+					id: "538AA088B64A1D3A"
+					item: {
+						count: 1
+						id: "railcraft:strap_iron_track"
+					}
+					type: "item"
+				}
+				{
+					id: "06B2A5B289635901"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "058E8C9D76CB23FB"
+				item: { count: 1, id: "railcraft:strap_iron_track" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["035C52EF63AD23A7"]
+			id: "5820EDEF71340A1A"
+			rewards: [
+				{
+					count: 32
+					id: "4A6201115EA87977"
+					item: {
+						count: 1
+						id: "railcraft:abandoned_track"
+					}
+					type: "item"
+				}
+				{
+					id: "5F38A570EAE4549A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "0F1E723FD636388F"
+				item: { count: 1, id: "railcraft:abandoned_track" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["64C105E1E2F97900"]
+			id: "1698565EBB68DC85"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C84036ACFA15250"
+				table_id: 2139753920119531307L
+				type: "choice"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "025A45B704969EAE"
+				item: { components: { "ftbfiltersystem:filter": "or(item(railcraft:abandoned_wye_track)item(railcraft:iron_wye_track)item(railcraft:strap_iron_wye_track)item(railcraft:reinforced_wye_track)item(railcraft:electric_wye_track)item(railcraft:high_speed_wye_track)item(railcraft:high_speed_electric_wye_track))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64C105E1E2F97900"]
+			id: "5E750DB2244A67A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "219ACDD03719D5E2"
+				table_id: 2139753920119531307L
+				type: "choice"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3490AE43AD653256"
+				item: { components: { "ftbfiltersystem:filter": "or(item(railcraft:abandoned_turnout_track)item(railcraft:iron_turnout_track)item(railcraft:strap_iron_turnout_track)item(railcraft:reinforced_turnout_track)item(railcraft:electric_turnout_track)item(railcraft:high_speed_turnout_track)item(railcraft:high_speed_electric_turnout_track))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64C105E1E2F97900"]
+			id: "170118E3C3C072E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19904DCC5EF0939A"
+				table_id: 2139753920119531307L
+				type: "choice"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "395D321BFFDB098A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(railcraft:abandoned_junction_track)item(railcraft:iron_junction_track)item(railcraft:strap_iron_junction_track)item(railcraft:reinforced_junction_track)item(railcraft:electric_junction_track)item(railcraft:high_speed_junction_track)item(railcraft:high_speed_electric_junction_track))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["55D7CD0FA8F1AE48"]
+			id: "283AB56F81EF03A5"
+			rewards: [{
+				count: 16
+				id: "61C0B256974B33D4"
+				item: {
+					count: 1
+					id: "railcraft:frame"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "7A097BD39D7D64B7"
+				item: { count: 1, id: "railcraft:frame" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"283AB56F81EF03A5"
+				"2A30595DC6DDBFF7"
+			]
+			id: "3E8C2E7769DFBF35"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "323CE7B5DF51379F"
+					table_id: 2139753920119531307L
+					type: "choice"
+				}
+				{
+					id: "47B1663F4FB70941"
+					item: {
+						components: {
+							"mekanism:energy": {
+								energy_containers: [L;4000000L]
+							}
+						}
+						count: 1
+						id: "mekanism:basic_energy_cube"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "4E067D0ECE1D5ACB"
+				item: { count: 1, id: "railcraft:electric_locomotive" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["55D7CD0FA8F1AE48"]
+			id: "2AB0FA084739827A"
+			rewards: [{
+				id: "3339D792B18E6ABC"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:unbreaking": 3
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "382933BEE2BCBD64"
+				item: { components: { "ftbfiltersystem:filter": "or(item(railcraft:iron_tunnel_bore_head)item(railcraft:bronze_tunnel_bore_head)item(railcraft:steel_tunnel_bore_head)item(railcraft:diamond_tunnel_bore_head))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2AB0FA084739827A"]
+			id: "6C14D1B60124C2B2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "056FF5FEB0A7404E"
+					table_id: 2139753920119531307L
+					type: "choice"
+				}
+				{
+					count: 32
+					id: "50F19F411DF037BD"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "00D7C36072456E75"
+				item: { count: 1, id: "railcraft:tunnel_bore" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["55D7CD0FA8F1AE48"]
+			id: "7F4B734CFB0F0306"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2343B5ED2E0CCDC3"
+				table_id: 2139753920119531307L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "3E8F4263F7053EDD"
+				item: { components: { "ftbfiltersystem:filter": "or(item(railcraft:tank_minecart)item(railcraft:energy_minecart))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["55D7CD0FA8F1AE48"]
+			id: "08457BEED799E600"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4407151CF1A35816"
+				table_id: 2139753920119531307L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "15BD622D04888DD8"
+				item: { components: { "ftbfiltersystem:filter": "or(item(railcraft:track_layer)item(railcraft:track_relayer)item(railcraft:track_remover)item(railcraft:track_undercutter))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["55D7CD0FA8F1AE48"]
+			id: "2D00F85379A4D591"
+			rewards: [
+				{
+					id: "229EE83F1EFA7D0A"
+					item: {
+						count: 1
+						id: "minecraft:chest"
+					}
+					type: "item"
+				}
+				{
+					id: "3477C827E4D13499"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2F82FFEF84105940"
+				item: { count: 1, id: "railcraft:item_loader" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["55D7CD0FA8F1AE48"]
+			id: "54F2CB52D3A7BA87"
+			rewards: [
+				{
+					id: "34C36A09B74CCC38"
+					item: {
+						count: 1
+						id: "minecraft:hopper"
+					}
+					type: "item"
+				}
+				{
+					id: "52D66AFF7B56AA2A"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "3CC776700462BD41"
+				item: { count: 1, id: "railcraft:item_unloader" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["55D7CD0FA8F1AE48"]
+			id: "17F7964611D893BE"
+			rewards: [
+				{
+					id: "7579F729BB4B9B15"
+					item: {
+						count: 1
+						id: "utilitarian:fluid_hopper"
+					}
+					type: "item"
+				}
+				{
+					id: "61881DA8EB9F7360"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4108B5EDBF82261A"
+				item: { count: 1, id: "railcraft:fluid_loader" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["55D7CD0FA8F1AE48"]
+			id: "365D4B1DC953D406"
+			rewards: [
+				{
+					id: "6BF246E27523FD30"
+					item: {
+						count: 1
+						id: "minecraft:minecart"
+					}
+					type: "item"
+				}
+				{
+					id: "38EA2C5027B8FDB0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6398A1D0F1D17016"
+				item: { count: 1, id: "railcraft:cart_dispenser" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["365D4B1DC953D406"]
+			id: "4071BBBE12CACD2D"
+			rewards: [
+				{
+					id: "32E4238074779B87"
+					item: {
+						count: 1
+						id: "railcraft:seasons_crowbar"
+					}
+					type: "item"
+				}
+				{
+					id: "784E2DF2C10EBF7B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5E1516768436C2FD"
+				item: { count: 1, id: "railcraft:train_dispenser" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["17F7964611D893BE"]
+			id: "7F187E291C3D5BA7"
+			rewards: [
+				{
+					id: "3C1D1DEBBD29CB2B"
+					item: {
+						count: 1
+						id: "railcraft:tank_minecart"
+					}
+					type: "item"
+				}
+				{
+					id: "0317AB4673C25B5D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D8F946CDFC03CB0"
+				item: { count: 1, id: "railcraft:fluid_unloader" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["54F2CB52D3A7BA87"]
+			id: "53594EBA9F7BA840"
+			rewards: [
+				{
+					id: "3FE8ACB273EF8B99"
+					item: {
+						count: 1
+						id: "minecraft:hopper_minecart"
+					}
+					type: "item"
+				}
+				{
+					id: "5AD52D0F66ED3BA0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "169FA3C67F65DCA2"
+				item: { count: 1, id: "railcraft:advanced_item_unloader" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2D00F85379A4D591"]
+			id: "104049993CC62E7F"
+			rewards: [
+				{
+					id: "5E99D9B1F594709C"
+					item: {
+						count: 1
+						id: "minecraft:chest_minecart"
+					}
+					type: "item"
+				}
+				{
+					id: "487E2D1DDFBADDD7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "6F2AF77CE8241FDC"
+				item: { count: 1, id: "railcraft:advanced_item_loader" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"170118E3C3C072E5"
+				"1698565EBB68DC85"
+				"5E750DB2244A67A1"
+			]
+			id: "541D270451DA4320"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "518035525E94C7EB"
+				table_id: 2139753920119531307L
+				type: "choice"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "11F33753791E7693"
+				item: { count: 1, id: "railcraft:switch_track_lever" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["068294A7C21DE550"]
+			id: "249E5C6893387E15"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40C8BA2A2A078593"
+					table_id: 2139753920119531307L
+					type: "choice"
+				}
+				{
+					id: "320364631C12FC3F"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6C12449632AD53DC"
+				item: { components: { "ftbfiltersystem:filter": "or(item(railcraft:locking_track_kit)item(railcraft:gated_track_kit)item(railcraft:buffer_stop_track_kit))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["068294A7C21DE550"]
+			id: "677C5D35DADA4A42"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "24606933749C5816"
+					table_id: 2139753920119531307L
+					type: "choice"
+				}
+				{
+					id: "6FC3CA5E1A5BA64B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "7CCFCAE31BE4E898"
+				item: { count: 1, id: "railcraft:coupler_track_kit" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["068294A7C21DE550"]
+			id: "6DB65926EE6D6C2E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "09128E943A569BD8"
+					table_id: 2139753920119531307L
+					type: "choice"
+				}
+				{
+					id: "0D56660D63DF2CD3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "03AE084C781CBA31"
+				item: { components: { "ftbfiltersystem:filter": "or(item(railcraft:transition_track_kit)item(railcraft:booster_track_kit)item(railcraft:control_track_kit)item(railcraft:throttle_track_kit)item(railcraft:launcher_track_kit))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["068294A7C21DE550"]
+			id: "2869AB982799CF0C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2437F769E3EED39C"
+					table_id: 2139753920119531307L
+					type: "choice"
+				}
+				{
+					id: "52CC02A89FFF2FC6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0A6770D7249A5126"
+				item: { count: 1, id: "railcraft:one_way_track_kit" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["068294A7C21DE550"]
+			id: "6C163E005351FF6D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "69E8F03B5F4C34AB"
+					table_id: 2139753920119531307L
+					type: "choice"
+				}
+				{
+					id: "2F3B79B5D3866C98"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "25006B4FCB647FDC"
+				item: { count: 1, id: "railcraft:whistle_track_kit" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["068294A7C21DE550"]
+			id: "609CA1ACFA981BD5"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7123B29562EB9333"
+					table_id: 2139753920119531307L
+					type: "choice"
+				}
+				{
+					id: "2BD72C766EF68ADD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "68FBEA8602970A3C"
+				item: { count: 1, id: "railcraft:routing_track_kit" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["068294A7C21DE550"]
+			id: "184F98BE0F6710E2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C80E4C70CC9F5F3"
+					table_id: 2139753920119531307L
+					type: "choice"
+				}
+				{
+					id: "795C8B9BFACC0A37"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6D074E91F5BFC2A8"
+				item: { components: { "ftbfiltersystem:filter": "or(item(railcraft:activator_track_kit)item(railcraft:detector_track_kit))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["068294A7C21DE550"]
+			id: "032B654201E71618"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11F69351DB0EA87E"
+					table_id: 2139753920119531307L
+					type: "choice"
+				}
+				{
+					id: "5C07BB6D051DD3B0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "2606DDF2AE263B42"
+				item: { components: { "ftbfiltersystem:filter": "or(item(railcraft:embarking_track_kit)item(railcraft:disembarking_track_kit)item(railcraft:dumping_track_kit))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["175D943160C10646"]
+			id: "38451B61E3FC075B"
+			rewards: [{
+				count: 32
+				id: "60CD6A4A81A79CF4"
+				item: {
+					count: 1
+					id: "minecraft:coal"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 26L
+				id: "7448F49F4C7F8DBB"
+				item: { count: 26, id: "railcraft:coke_oven_bricks" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["175D943160C10646"]
+			id: "0A43FD0B5C76C1C5"
+			rewards: [{
+				count: 10
+				id: "5CB1108FDFEA8428"
+				item: {
+					count: 1
+					id: "minecraft:iron_ingot"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 34L
+				id: "1671149B2E170E87"
+				item: { count: 34, id: "railcraft:blast_furnace_bricks" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "175D943160C10646"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "62734FEFB35CAA89"
+				table_id: 8502370445492231902L
+				type: "choice"
+			}]
+			size: 1.3d
+			tasks: [{
+				id: "297D80507C3A56E1"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["175D943160C10646"]
+			id: "020E6AF37A0421C8"
+			rewards: [{
+				id: "70B035CD218D0CBF"
+				item: {
+					components: {
+						"minecraft:custom_name": "\"Wooden Bucket\""
+					}
+					count: 1
+					id: "minecraft:bucket"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 26L
+				id: "3274B1F3B0D06465"
+				item: { count: 1, id: "railcraft:water_tank_siding" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["175D943160C10646"]
+			id: "21693C4DE6531D73"
+			rewards: [{
+				count: 10
+				id: "55BD8DECFC4879A5"
+				item: {
+					count: 1
+					id: "minecraft:raw_iron"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 12L
+				id: "2D242F2D86F2DADE"
+				item: { count: 1, id: "railcraft:crusher" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["175D943160C10646"]
+			id: "7D40B80DBBC4E160"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64ED15DE7D08C92E"
+				table_id: 8502370445492231902L
+				type: "choice"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "032FC6ACCA3DE6CD"
+				item: { count: 1, id: "railcraft:manual_rolling_machine" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7D40B80DBBC4E160"]
+			id: "78D8F40AA9568511"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "456831B7D6D2486A"
+					table_id: 8502370445492231902L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E8B50B75DED4AA2"
+					table_id: 8502370445492231902L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C1ED0C7DC7441E8"
+					table_id: 8502370445492231902L
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "5F947E94FE904606"
+				item: { count: 1, id: "railcraft:powered_rolling_machine" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["175D943160C10646"]
+			id: "475E307844E3AF7F"
+			rewards: [{
+				id: "6C3E32DE76C9B3FC"
+				item: {
+					count: 1
+					id: "cookingforblockheads:sink"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "6A4FADC04E1C9DA7"
+					item: { components: { "ftbfiltersystem:filter": "or(item(railcraft:low_pressure_steam_boiler_tank)item(railcraft:high_pressure_steam_boiler_tank))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "1E77B21EA9F2E9A7"
+					item: { components: { "ftbfiltersystem:filter": "or(item(railcraft:solid_fueled_firebox)item(railcraft:fluid_fueled_firebox))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["475E307844E3AF7F"]
+			id: "008D186B4E0ED14F"
+			rewards: [{
+				count: 10
+				id: "435817FDA250F8A6"
+				item: {
+					count: 1
+					id: "minecraft:beef"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				count: 8L
+				id: "40011EE5E5C96FE3"
+				item: { count: 1, id: "railcraft:steam_oven" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["475E307844E3AF7F"]
+			id: "61C93ABE07742DCD"
+			rewards: [{
+				id: "009834038A2A9F5C"
+				item: {
+					count: 1
+					id: "mekanism:basic_energy_cube"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1962F3D4A0B4F465"
+				item: { count: 1, id: "railcraft:turbine_rotor" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			icon_scale: 2.0d
+			id: "50A286C268F38E09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F45F6ACFC0536A4"
+				table_id: 8502370445492231902L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "7B128D5D8D5530A8"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+	]
+}
