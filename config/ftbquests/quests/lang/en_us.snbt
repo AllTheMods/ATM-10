@@ -5,6 +5,7 @@
 	chapter.07210DDF872160BA.title: "Applied Energistics 2"
 	chapter.0A093D8C4429B627.title: "Mekanism: &dReactors&r"
 	chapter.0A52D0932DA3F809.title: "Hostile Neural Networks"
+	chapter.0AB4F9AED808DE48.title: "Modular Router"
 	chapter.0E81CBCD6B1D1895.title: "Apothic Spawners"
 	chapter.100C477F4E63F20A.title: "Create"
 	chapter.11919EBB416B2BD0.title: "Relics"
@@ -131,6 +132,7 @@
 	quest.00C24A7DFEAEE956.quest_subtitle: "Increases AoE Effect"
 	quest.00DB5495C3A44999.quest_subtitle: "Allows the backpack to be emptied."
 	quest.00DB5495C3A44999.title: "Deposit Upgrade"
+	quest.00E1F1279F97557B.quest_desc: ["Similar to the Extruder MK1 but this one is more evolved! Can be used with Patterns so when Blocks are placed they will go in that pattern!"]
 	quest.00EC37E07591FFC4.quest_desc: ["The last thing you need for Replica, obviously involves another Scroll. Scroll of the Mystic Eyes of Death Collection. It will allow you to collect Souls from watchings mobs die. Each death is only a very little bit of souls so you'll need to see a lot of death. Once you have 100 you're ready to get Replica."]
 	quest.00EC37E07591FFC4.title: "Souls"
 	quest.00EFC7B327E79076.quest_desc: [
@@ -209,6 +211,7 @@
 		"The &6Vanishing Blocks&r will disappear when right-clicked, but they don't come back."
 	]
 	quest.019CA0E35F888222.title: "&eAdvanced Restock Upgrade&r"
+	quest.01C5D8357D8B0D62.quest_desc: ["If you know how a Detector Rail works then this Module will be explanatory for you. \\n\\nBasically if a certain Item is in the Router, it will emit a Redstone Signal out of the Router. \\n\\nIn the Module you can set the Item, where the Signal comes from, and how strong a Signal."]
 	quest.01D895369791881A.quest_desc: ["Now we get 2 ZPM processors for each craft! This is a great breakthrough, and will make expanding our machine footprint much easier!"]
 	quest.01D895369791881A.quest_subtitle: "Stacking them up"
 	quest.01E1A7BCDAE8EB9F.quest_desc: [
@@ -621,6 +624,11 @@
 		"To become a Spirit Hunter, you'll need to create the &dVengeance Focus&r first. This is used to &aFreeze Spirits&r in place, then you place a &9Box of Eternal Closure&r near the Spirit. This will then suck the Spirit in for later use."
 	]
 	quest.066438B01655D866.title: "Capturing &dSpirits&r"
+	quest.067AB3E4C4492F0D.quest_desc: [
+		"Don't feel like Mining a bunch of Ores you got? Why not let Routers do it for you? \\n\\nYou can use a Placer to place down the Ores, then let an Enchanted Breaker Mine the Ores. Breaker needs the Pickaxe used to craft it to be Enchanted first, the Module itself can't be Enchanted. \\n\\nYou might need another Router to pick up the dropped Ores."
+		"{image:atm:textures/questpics/router/router_break.png width:150 height:100 align:center}"
+	]
+	quest.067AB3E4C4492F0D.title: "Routers for Mining"
 	quest.068294A7C21DE550.quest_desc: ["&cTrack Kits&r are used to craft with &6rails&r to make special &6rails&r. \\n\\nThese &6rails&r will be helpful for everything &5Train&r wise like: stopping the &5Train&r, moving the &5Train&r, and emitting redstone."]
 	quest.068294A7C21DE550.title: "&c&lTracks&r!"
 	quest.0682DC1F2417DAEB.quest_desc: [
@@ -882,6 +890,7 @@
 	]
 	quest.09D18512037386C1.quest_desc: ["In order to put Potion Effects into you'll need to fill a Potion Filter. To do so: have a Potion Effect on you, then right click with the Potion Filter to remove it from you and add it to the Filter, and repeat until it's filled and active. This also works with modded Potion Effects or ones you can't usually get through Potions like Haste or Resistance."]
 	quest.09D2137B4F42006E.quest_desc: ["Eclipse Ember is a new material added by JDT. Eclipse Ember is aquired by performing Goo Spread on Voidflame Coal Blocks using tier four goo. Eclipse Ember Ore is affected by fortune."]
+	quest.09E25B1CD6CABD5A.quest_desc: ["This upgrade makes the Router similar to a Framed Block. \\n\\nSneak Right Click a Block to change the Routers appearance to it. \\n\\nJust don't lose it!"]
 	quest.09EF804D70C856FB.quest_desc: [
 		"We'll need a &dRail Gun&r from the mod &aImmersive Engineering&r to create the &6Star&r! "
 		""
@@ -1117,6 +1126,7 @@
 		""
 		"Increases the jump height of the player."
 	]
+	quest.0CE236731DF15DFF.quest_desc: ["Why wait? Usually items dropped in Minecraft have a second they need to hit the ground to be picked up again. \\n\\nBut why wait?\\n\\nThis upgrade lets the Vacuum Module not wait and immediately pick up the items. \\n\\nVery good for less lag!"]
 	quest.0CF69DBA9573A7B3.quest_desc: [
 		"The Schematic Table will read and write structures to/from your schematics."
 		""
@@ -1160,6 +1170,11 @@
 	quest.0D4C64DD58567758.title: "Tank Upgrade"
 	quest.0D4FE97640F2CA60.quest_desc: ["Has 36 filter slots and works 6x faster."]
 	quest.0D4FE97640F2CA60.title: "Ultra Destructor"
+	quest.0D5691403AEC25A8.quest_desc: [
+		"Routers can also be used for Farming! \\nFirst start off with a simple Farm. Then you'll need an Activator Module and direct it toward the Crops. After that, put a Vacuum Module in your Router to collect the Crops. Finally put it all in the Router, Power it with Redstone, and let it farm!"
+		"{image:atm:textures/questpics/router/router_farm.png width:50 height:150 align:center}"
+	]
+	quest.0D5691403AEC25A8.title: "Routers for Farming"
 	quest.0D573979B25FAC48.quest_desc: [
 		"Keep in mind, each Energy Hatch can accept 2 Amps of power"
 		""
@@ -1247,6 +1262,7 @@
 		"This is the Ultimate Battery, and its UHV Tier! For all your power hungry devices (at UHV tier of course)"
 	]
 	quest.0DB92C70D04725BE.quest_subtitle: "Duracell Eat your heart out"
+	quest.0DC8B68CDF945348.quest_desc: ["The Router giveth and the Router taketh. \\n\\nThis Module is helpful for Builders or even Miners! It can be set to send items from its Buffer to your Inventory or take items from your Inventory into its Buffer. \\n\\nPerfect for Strip-Mining, have it take all the Cobble and Deepslate from your Inventory and put it in a Trash Can."]
 	quest.0DD389A24F5F8CDD.quest_desc: ["&l&6Aqua Regia&r&r is a mixture of Concentrated Nitric Acid and Hydrochloric Acid, usually one part to three parts, respectively. The Mixture was given its name (literally \\\"Royal Water\\\") by alchemists because of its ability to dissovle &l&eGold&r&r."]
 	quest.0DD389A24F5F8CDD.quest_subtitle: "Im a Barbie Girl, In a Barbie world... If you know, you know."
 	quest.0DF4B01CC5B49E4E.quest_desc: [
@@ -1512,6 +1528,8 @@
 		"The Catalyst will ensure that each operation is able to properly complete. They will also be used in the creation of the controller for the Multiblock"
 	]
 	quest.1060C764347CC243.quest_subtitle: "We need Cats"
+	quest.10672B5991E5FC34.quest_desc: ["It's my stuff, no touchy. \\n\\nOnly you can use and mess with the Router after putting in the Upgrade."]
+	quest.1069244EB72F64CA.quest_desc: ["Takes more Energy with the Energy Modules!"]
 	quest.106A3D79B1CDE895.title: "Netherack 6X"
 	quest.1090A47B70EBF704.quest_desc: [
 		"While yes, its a bit cheaper in cost, in terms of the lower tier processors, its still a bit expensive. "
@@ -1869,6 +1887,7 @@
 		"Anyways, the silicon doped with Neutronium is highly efficient and fine grade, which gives us a massive return on 1 singular Boule!"
 	]
 	quest.142D12B41C36D68A.quest_subtitle: "This is a load of Boule"
+	quest.143AE6889BDA9EF5.quest_desc: ["Modules only have so many slots for Filtered Items, if you need more than use this! Bulk Item Filter. \\n\\nYou can put many more Items in to Whitelist or Blacklist in it. Then throw it in where normal Filters go! \\n\\nWill be needed to craft more unique Filters!"]
 	quest.143BF8A4944C471D.quest_desc: ["Finally, with this you have achieved the cheapest LV circuit - congrats!"]
 	quest.143BF8A4944C471D.quest_subtitle: "Cheaper than ever!"
 	quest.14518D5C1786DE65.quest_subtitle: "&f5&r &4Damage&r"
@@ -2133,6 +2152,7 @@
 	quest.176C06C7593C264E.quest_subtitle: "Quad Batteries"
 	quest.1770FF93638B3F22.quest_desc: ["The Superior Sigil of Socketing does exactly what its inferior version does but up to 4 sockets instead of 3."]
 	quest.1770FF93638B3F22.title: "Superior Sigil of Socketing"
+	quest.177396B9C4F9B3E2.quest_desc: ["Why wait? Oh you have valid reasons for waiting? Like items that might despawn. Huh wasn't thinking about those. \\n\\nWith Pickup Delay Augment the Vacuum Module will wait 10 ticks with every Augment in it to pick up dropped items! "]
 	quest.17740696B9284520.quest_subtitle: "Terraria's Wand of Sparking got nothing on this."
 	quest.177658CA70DB0C89.quest_desc: ["The &cEndoflame&r will absorb any combustible items or blocks dropped nearby, one at a time. It will then burn them to generate &bMana&r."]
 	quest.177658CA70DB0C89.title: "&cBurning Items&r to Create Mana"
@@ -2241,6 +2261,7 @@
 	quest.1843C79133DFB024.quest_desc: ["The most powerful and efficient Generator, the Netherstar Generator. Take a guess what it uses to make Energy!"]
 	quest.184F98BE0F6710E2.quest_desc: ["These 2 &cTrack Kits&r are for using &7Carts&r and Redstone. \\n\\nThe &cActivator Kit&r will activate whatever &7Cart&r goes over it. \\nThe &cDetector Kit&r will activate a redstone signal whenever a &7Cart&r passes over it. \\n\\nBoth are similar to their &2Vanilla&r counters for regular &6tracks&r."]
 	quest.184F98BE0F6710E2.title: "&cTrack Kits&r for using Redstone"
+	quest.185074907753AE77.quest_desc: ["If you are using Routers I hope you have some game knowledge. \\n\\nJust incase, to void an Item means to delete it. \\n\\nAny items that come into the Router, will be deleted forever! \\n\\nRecommend using Filters with this one..."]
 	quest.186593EBCE3FE8D8.quest_desc: ["The Spawn Range is the area of where mobs can spawn. The bigger the area, the more room for them to spawn in. The smaller the area the cheaper the factory."]
 	quest.186593EBCE3FE8D8.title: "Spawn Range"
 	quest.186731580B14F9D2.quest_desc: [
@@ -2408,6 +2429,8 @@
 		"Be sure going forward that you make recipes using the Advanced SMD Components because they are cheaper"
 	]
 	quest.1A739D36D5E3B1AD.title: "&eAdvanced Feeding Upgrade&r"
+	quest.1A806C1A54B26EB5.quest_desc: ["You don't want everything to do their actions at a larger range? You want your Vacuum to leave some room for dropping items in your World? Then I guess you can range down."]
+	quest.1AA81C41431FD145.quest_desc: ["Pull..! Pull..! Pull..! \\n\\nThe Puller is the opposite of the Sender, it pulls items from Inventories into the Router's Buffer. \\n\\nThe Inventory has to be adjacent to the Router."]
 	quest.1AADF0A1B42AD511.quest_desc: ["Using all of the materials we've gathered so far, we can make the first piece of the &dRailgun&r needed for the &6Star&r!"]
 	quest.1AADF0A1B42AD511.title: "HV Accumulator"
 	quest.1AAF0B31B47AF23D.quest_desc: [
@@ -2962,6 +2985,7 @@
 		"This can be given different kinds of plants to break down into &bEthanol&r!"
 	]
 	quest.20D4341820B44B91.title: "Fermenter"
+	quest.20D4568857887D38.quest_desc: ["Sometimes a Router might be in a dangerous situation, like spawning a Wither. \\n\\nIn order to protect it you'll need a Blast Upgrade. \\n\\nTNT won't break it, Wither won't break it, only you."]
 	quest.20DA5CA244B7ABBF.quest_desc: [
 		"Fun Fact: You cannot breathe on the Moon without &bOxygen&r. Actually, you can't breathe anywhere without Oxygen. Guess what the Moon doesn't have?"
 		""
@@ -3151,6 +3175,8 @@
 		"{image:atm:textures/questpics/mek/sps_coils.png width:200 height:125 align:1}"
 	]
 	quest.2331FCDD2F2B709A.title: "The Supercharged Coils"
+	quest.233C7CAA573D6045.quest_desc: ["Modules determine the action the Router preforms. \\n\\nThey can make it so your Router pulls items from Chests, or put items into chests, or even both! And much more! \\n\\nModules go into the Router themselves and multiple can be installed. \\n\\nFiltering and Upgrades go into the Modules themselves."]
+	quest.233C7CAA573D6045.title: "&lModules&r"
 	quest.233E438357CD89F6.quest_desc: [
 		"&9Turbine Valves&r are used to pump in &bSteam&r, as well as pumping out the power that the Turbine creates."
 		""
@@ -3235,6 +3261,7 @@
 	]
 	quest.23CC5B8D9AAD4E12.title: "&9Falsite"
 	quest.23F165DEAD225B10.quest_subtitle: "For Transferring Power"
+	quest.2405663C033CBDF1.quest_desc: ["MK3 doesn't worry about XYZ axis, line of sight, or Dimension. \\n\\nAs long as the Inventory is in the same Minecraft World it can move items into it. \\n\\nHeck I'm not even sure if the Inventory has to be in the game of Minecraft to send to!"]
 	quest.2409EAD96CE3BDF7.quest_desc: ["Blazegold Templetes are used to upgrade Ferricore armour and tools to Blazegold while retaining enchantments and installed upgrades."]
 	quest.24174700F7FB771C.quest_desc: ["In this chapter, we'll be using advanced Mekanism machines to create powerful multiblock &aReactors&r, as well as advanced ways to create and store power. This will also lead to making &dAntimatter Pellets&r, which are used to make the &6ATM Star&r, as well as some of the strongest tools and weapons in the pack."]
 	quest.24261D6C5C5A6CB4.quest_desc: ["This Dragon Egg is a cool decoration piece. That's pretty much it."]
@@ -3249,6 +3276,7 @@
 	quest.2435B6D970F48DF8.title: "&dOccultism&r"
 	quest.244220A5D9F4C702.quest_desc: ["3 chunks apart, in case you didn't know that already"]
 	quest.244220A5D9F4C702.title: "End Layer Ores"
+	quest.2447208F1DC74FFE.quest_desc: ["Routers can be noisy, and noise definitely stacks when you have hundreds of them. \\n\\nMight be nice to invest in Muffer Upgrades then!"]
 	quest.244ACD7024566001.quest_subtitle: "Feed a Sweat Bee Ice!"
 	quest.244ACD7024566001.title: "Frosty Bee"
 	quest.24526FFBA093805A.quest_desc: ["Apotheosis knows how annoying Tridents can be to get so they made it easier... well kinda easier. You can now make an Inert Trident and Infuse it to get a normal Trident. The Trident requires between &a20-30 Eterna&r, &c20%%-50%% Quanta&r, and atleast &535%% Arcana&r. You can get this with &94 Echoing Skulkshelves&r or &b2 Crystalline Seashelves&r and &b6 Heart-Forged Seashelves&r."]
@@ -3273,6 +3301,7 @@
 	quest.246CD1925FD6761C.quest_subtitle: "Tier 2 Base Upgrade"
 	quest.246DC099F4457712.quest_subtitle: "Find these with some lapis"
 	quest.246DC099F4457712.title: "Lazurite Vein"
+	quest.247DAE5B4E1AC7F1.quest_desc: ["Water in. \\nWater out. \\n\\nThe Fluid Module will either take Liquid Sources from near the Router and put it into a Tank in the Buffer or take Liquid from a Tank in it's Buffer and place it in front of it. \\n\\nOnly works for adjacent blocks to the Router, if you want bigger range you'll need..."]
 	quest.2483DD28AC6E7EA2.quest_desc: [
 		"&eChemical React&r Chlorobenzene with the Nitration Mixture to make &2Nitrochlorobenzene&r"
 		""
@@ -3829,6 +3858,7 @@
 	quest.2B422B7E0CE3590D.title: "Compacting Drawer"
 	quest.2B539F4F290DC4CF.title: "Nitro Player Transmitter"
 	quest.2B5733BDAF83B2D4.title: "Quartzite Vein"
+	quest.2B60D123123A5E8E.quest_desc: ["Why set a location to where the Energy can go? Why not let it go free! \\n\\nLike freeing a bunch of Bees, the Energy will go everywhere almost instantly (with less buzzing). Any blocks needing Energy nearby will be charged wirelessly."]
 	quest.2B6AE772B72E6DD3.quest_desc: ["You may want to avoid falling into the Bacteria Solution. You'll probably survive, assuming you don't have any open cuts..."]
 	quest.2B6AE772B72E6DD3.quest_subtitle: "Don't Fall In"
 	quest.2B76B2F18C2C47D2.quest_desc: [
@@ -3986,6 +4016,7 @@
 	]
 	quest.2D86D4403E0F4EB9.title: "Blazegold"
 	quest.2DB81CE6F647D08A.title: "Unobtainium-AllTheModium Alloy"
+	quest.2DD5F0693780B10A.quest_desc: ["Used with the Extruder MK2, blocks extruded will mimic the actual blocks. Redstone Blocks will emit Redstone, Glowstone will emit light, Grass will act transparent. But only with this Augment! \\nDoesn't work with Block Entities like Furnaces or Enrichment Chambers."]
 	quest.2DDA8AC73C2D50B4.quest_desc: [
 		"Styrene + Butadiene + Oxygen or Air in a &eChemical Reactor&r gets you the raw dust of the highest tier of rubber available"
 		""
@@ -4157,6 +4188,7 @@
 		"These are prebuilt structures that serve as a mini-base in the galaxy. Home away from home kinda thing."
 	]
 	quest.3017721842588919.title: "Space Stations"
+	quest.3025081DA6D2B398.quest_desc: ["Usually the Router commands the Modules but with this Augment the Module goes rouge! AWOl! Pure anarchy! \\n\\nIt will listen to it's own Redstone activation rather than the Routers."]
 	quest.3027584AA6138E6D.title: "Conveyor Insertion \\\\& Extraction"
 	quest.3029E1E133B91ED8.quest_desc: ["The &n&5Drill&r will break any block in front of it. If it has a connected inventory, the items will be stored in it."]
 	quest.303A3AFA49DAC64F.quest_desc: [
@@ -4199,6 +4231,7 @@
 		"But as weve seen with other complex alloys, they are always extremeley beneficial to us, though complicated. This one is no different."
 	]
 	quest.30954ADF34DB05A7.quest_subtitle: "Complex Alloy"
+	quest.309B6B8368E535A0.quest_desc: ["A Router does it's action every time it has one of it's ticks. \\n\\nDefault is 20 Ticks or 1 Second. \\n\\nThis can be made to less Ticks with the Speed Upgrade!"]
 	quest.30B0240543253EFB.quest_desc: ["Pylons is a wonderful mod made by our very own Mutant Gumdrop! \\n \\nDon't let the size of the mod make you underestimate it! It provides many Pylons which can be used for many things to help make playing Minecraft easier. \\n \\nTo get started you'll need some Polished Blackstone to make them."]
 	quest.30B0240543253EFB.title: "&lPylons&r"
 	quest.30BA3262D870F4E7.quest_desc: ["In order to get Morgan you need Caliburn. In order to get Caliburn you need the Mahou Lake. In order to get the Mahou Lake you'll need the Power Consolidation Ritual. Which can be done like any other ritual just with 2 powdered diamonds and 1 powdered emerald. FYI don't do it near your base, the ritual will be the middle of the Lake."]
@@ -4368,6 +4401,7 @@
 		"*Note: If someone else uses your color combination, they can get the contents!"
 	]
 	quest.3247179F0F0252A2.title: "Ender Storage"
+	quest.326C63F7DC713E71.quest_desc: ["The Distributer is the half siblings of the Sender Modules. (The MK3 to be exact, on the MK2 side). \\n\\nInstead of sending to 1 Inventory it will send to multiple that are selected. \\n\\nIt can send in multiple modes: Round Robin, Random, Nearest First, or Farthest First. Round Robin does an even amount to each in a row, like a dealer in Poker. Random will randomly choose an inventory to feed. The others are determined by the distance from the Router."]
 	quest.32738F324B799879.quest_desc: [
 		"A hot barren world with large lava plains."
 		""
@@ -4516,6 +4550,7 @@
 		"But with the Superconductor wire, now you wont have to worry about power loss for your ZPM Machines and Multiblocks!"
 	]
 	quest.346A926E23840EF7.quest_subtitle: "ZPM Superconductor"
+	quest.346B9339E3D66478.quest_desc: ["Energy is something used by practically everything so you need to send it almost everywhere. Thankfully the Energy Module will help with that! \\n\\nThe Energy Module will move any Energy pushed into it, somewhere else! To wherever you set it to!"]
 	quest.3475E12711B6BB98.quest_desc: ["This machine is mostly for extracting dyes from flowers, or ore blends back into their components."]
 	quest.3475E12711B6BB98.quest_subtitle: "Separates Items into their Crafting Components"
 	quest.349D19F2FCC34B84.quest_desc: ["Placing the Nether Brick Nest in the Nether will lure in a Magmatic Bee when given Magma Cream."]
@@ -4679,6 +4714,7 @@
 	]
 	quest.36DEA17CBB696CC7.quest_subtitle: "You're a Network Admin Now!"
 	quest.36DEA17CBB696CC7.title: "My First Network"
+	quest.36DED7099E80ED51.quest_desc: ["This one does as the name suggests, it places Blocks. \\n\\nSet the Direction you want the Block placed, preferably set the Filter, then throw the Module and Blocks into the Router! Once the Redstone is set the Blocks will be placed!"]
 	quest.37045B986619A03D.quest_subtitle: "Yellow + Green Carpenter Bee"
 	quest.37045B986619A03D.title: "Lumber Bee"
 	quest.3708A4780ACEB34E.quest_desc: [
@@ -4766,6 +4802,7 @@
 		"To do this, you will be collecting 'data' on mobs, then running simulations from the data to create their drops!"
 	]
 	quest.37EBB8E0D6E5F821.title: "Welcome to &9Hostile Neural Networks&r!"
+	quest.37F2BE3C2BAF7C2D.quest_desc: ["Tags are an essential part of Minecraft. \\n\\nFor all who don't know they work as an organization tool to help choose similar items for the same task. Like Crafting Table being made with any Planks or Trees being Chopped down fastest with any Axe. \\n\\nTo filter by Tag put an item in, then select the tag from the groups. Like Iron Ore for Ores."]
 	quest.38135FFD9ED64395.title: "Vibranium-AllTheModium Alloy"
 	quest.3844877F6C1AFE77.title: "Arrow Blueprint"
 	quest.38451B61E3FC075B.quest_desc: [
@@ -4779,6 +4816,7 @@
 	quest.3862FB1F6F76ED4F.title: "Spells on the go"
 	quest.3863B33438AB5BBD.quest_desc: ["We need to mix up some HSLA to make Plates for the Alloy Blast Smelter's walls."]
 	quest.3863B33438AB5BBD.quest_subtitle: "HSLA Dust"
+	quest.38954551309F42A7.quest_desc: ["Sender Module MK2 works similar to MK1 but with less restrictions. \\n\\nMK2 doesn't need direct line of sight or to be on same XYZ axis. \\n\\nWill have to be in the same Dimension though, unless you have..."]
 	quest.38A77DBAD24C4B53.title: "Rabbit Seeds"
 	quest.38ADDF7FF4E4892D.quest_desc: [
 		"A sword that deals 40 hearts of damage, but only has 1 durability."
@@ -5078,6 +5116,7 @@
 		"{image:atm:textures/questpics/mek/mekanism_flowchart.png width:300 height:150 align:1 fit:true}"
 	]
 	quest.3C49F2EEDCCAF1DF.quest_subtitle: "This is a lot, I know."
+	quest.3C54C36CE97A48DC.quest_desc: ["Droppers drop,\\nDispensers dispense, \\nAnd Flingers fling! \\n\\nInstead of nicely setting down items from the Buffer, the Flinger Module will throw them? How far? You determine that!"]
 	quest.3C84D684B3A5D7B6.quest_desc: ["Using Mana, the &2Terra Truncator&r will feel entire trees in one fell swoop."]
 	quest.3C8724C3A9459507.quest_desc: ["Crafted from Alpha Yeti Fur."]
 	quest.3C8724C3A9459507.title: "Yeti Armor"
@@ -5472,6 +5511,7 @@
 	quest.406C924820DE5473.quest_subtitle: "Last Dance"
 	quest.4071BBBE12CACD2D.quest_desc: ["The &5Train&r Dispenser is a better version of the &7Cart&r Dispenser. It can Dispense the whole &5Locomotive&r and more! Set a pattern for what you want to be deployed then give it a redstone signal."]
 	quest.4071BBBE12CACD2D.title: "&5Train&r Dispenser"
+	quest.40788326E791845D.quest_desc: ["Extrude is such a prude word. \\n\\nThe Extruder will place the blocks in the Router's Buffer in a line in front of the Router when given a Redstone Signal. When the Signal is disabled it will break all those blocks. \\n\\nUseful for Doors!"]
 	quest.407E853A5B322E13.quest_desc: [
 		"Next up, we need to find the &aRefinery&r in the &eHeavy Machinery&r category of our manual. "
 		""
@@ -5543,6 +5583,7 @@
 		"Note: As long as the tool is active, it will consume its stored mana."
 	]
 	quest.41752862D7B29F80.title: "High Voltage Age"
+	quest.417B88FEB1B8F44E.quest_desc: ["Mean these Suck! Literally! \\n\\nVacuum Module will suck up any items in the set area and move them to the Routers Buffer. Similar to the Absorption Hopper. \\n\\nAlso can be used with Experience Augment!"]
 	quest.4189BC3DFB551F4C.quest_desc: [
 		"If you've built the Turbine properly, you will see red particles around the structure. Right clicking on the Turbine will open up the interface."
 		""
@@ -6010,6 +6051,7 @@
 	quest.4745152F6FF242B3.quest_subtitle: "Waste Not Want Not or something...."
 	quest.4745152F6FF242B3.title: "Dealing with Waste"
 	quest.475B63AF0E87E318.title: "&4Supremium Watering Can&r"
+	quest.475E1B94A61B9EB0.quest_desc: ["Like the MK1 this pulls! Just not only from adjacent Inventories, but any Inventory nearby!"]
 	quest.475E307844E3AF7F.quest_desc: [
 		"The Water Boilers are some of the most helpful machines from &l&7RailCraft&r. They need a Fuel Firebox and some sort of boiler on top. The Fueled Firebox can be 1x1 2x2 or 3x3. The size of the Firebox changes how big the Boiler on top can be. For 1x1 Firebox it can only have 1x1 Boiler. For 2x2 Firebox it can be a 2x2x3 Boiler. For 3x3 Firebox it can be 3x3x4. The Liquid Fuel will take Lava or Creosote to heat up. For Solid Firebox it'll use anything a furnace can use."
 		"{image:atm:textures/questpics/railcraft/rail_big_boiler.png width:100 height:100 align:center}"
@@ -6206,6 +6248,7 @@
 		"This is the first rune you can use to upgrade your Altar."
 	]
 	quest.49F57CE3B472FF6D.title: "Altering the Altar"
+	quest.4A03A671757B2EBF.quest_desc: ["Durability, Fluid Level, Energy Level, Enchantment Level, and Food Value are all categories we can use with Inspection Filter. \\n\\nThen we select if we want it Greater than, Lesser than, Equal to, or a mix of those with the Numbered Amount. \\n\\nNext we give it a Numbered Amount and hit the Plus Button to add it to the Filter. \\n\\nThis can be used to only keep Tools with high Durability or Food with high Food Value."]
 	quest.4A198E875A6B0A64.quest_desc: ["An upgraded crafter that holds more patterns and has an increased crafting speed."]
 	quest.4A198E875A6B0A64.title: "&eGold Crafter&r"
 	quest.4A3DF999B969C875.quest_desc: ["With everything we've made so far, you'll be able to craft the final item we need: the &dRailgun&r!"]
@@ -6462,6 +6505,7 @@
 	quest.4C8C56F960D92E9D.quest_subtitle: "&f47&r &4Damage&r"
 	quest.4CADD50E7E83CD0E.title: "Block of Emerald 4X"
 	quest.4CC46A4E71320140.quest_desc: ["Refer to the &aLexica Botania&r on how to use this lens."]
+	quest.4CC963F5AECF285A.quest_desc: ["Normally the Router moves 1 item each of it's Ticks. This can be doubled and stacked! with the Stack Upgrade. \\n\\n1 Stack Upgrade is 2 Items, 2 Stacks 4 Items, and 6 Stacks is 64 Items a second."]
 	quest.4CD83943865018EA.quest_desc: [
 		"The &9Exporter&r is used to push items from your system into a block from your Network storage. "
 		""
@@ -6644,6 +6688,7 @@
 		"Place 1 lava source block on one side, and 1 water source block on the other, and it will generate cobblestone. Check the recipes to see the other kinds of stone you can create!"
 	]
 	quest.4EA8BA9753D0DD81.quest_subtitle: "A Cobblestone Generator"
+	quest.4EAFE7B240AF0A4D.quest_desc: ["Just can't reach what you need to? Try Ranging Up! \\n\\nWith this everything will do their actions but farther. Vacuum has higher range for picking up items. Energy goes farther. Flinger flings with more strength!"]
 	quest.4EBED8ABC8C863A4.title: "&aRank 3&r: Even More &cBlood&r"
 	quest.4ECFB1256BD6A7AA.quest_desc: [
 		"The &9Corporea Funnel&r is a simple version of the Index, and can be used to request items from the Network by giving it a redstone signal."
@@ -6767,6 +6812,7 @@
 	quest.4F9932477EDDCB8E.quest_desc: ["The Advanced Portal Gun is the upgrades version of the Portal Gun that requres both power and portal fluid to operate. Unlike the Portal Gun the Adavanced Portal Gun allows the player to teleport between locations that have been encoded. Using \"V\" (default keybind) the menu used to encode and select desinations for teleportion."]
 	quest.4FA156C383C9C438.quest_desc: ["&eKoboletons&r are mini Dino Skeletons who serve the &eAncient Remnant&r. They only have 12 and a half hearts and 1 attack. They also drop their bones but they only make bonemeal. They're also pretty cute when not attacking you!"]
 	quest.4FA156C383C9C438.title: "&eKoboletons aka Mini Dinos&r"
+	quest.4FA5192164E4A427.quest_desc: ["Fluid doesn't stack like Items do, so its upgrade is a little different. Still moves more just at a different rate."]
 	quest.4FA6BEA4E646B742.quest_desc: [
 		"Before we can start building our reactor, we'll need to smelt some coal (or charcoal) to create &9Graphite Ingots&r."
 		""
@@ -7105,6 +7151,11 @@
 	quest.538821E23E39BE97.title: "&2Augment&r: Fuel Efficiency"
 	quest.539D5084283C6219.quest_desc: ["Argon is a chemical element; it has symbol Ar and atomic number 18. It is in group 18 of the periodic table and is a noble gas. Argon is the third most abundant gas in Earth's atmosphere, at 0.934% (9340 ppmv)"]
 	quest.539D5084283C6219.quest_subtitle: "Helium Plasma"
+	quest.53A5F5E49EA8D5AF.quest_desc: [
+		"Here's a good example of using Modular Routers to make a super easy organized Mob Farm. (Does not include way of killing mobs). \\n\\nFor it I'll use a Wither Skeleton Farm as example. \\n\\nFirst, you want to get Items into the Buffer with a Vacuum Module. Next, get rid of the Stone Swords with a Void Module. To make sure it doesn't delete everything use a Whitelist Filter with the Stone Sword in it and not matching Damage. After, that you'll need a place to put the Loot, I recommend a Drawer System. Then, use a Sender Module to send the Loot to the Storage System. \\n\\nThat's all you need!"
+		"{image:atm:textures/questpics/router/router_mob.png width:200 height:75 align:center}"
+	]
+	quest.53A5F5E49EA8D5AF.title: "Routers for Mob Farms"
 	quest.53A79338994088FD.quest_desc: ["Dropped from the Snow Queen, this bow shoots 3 arrows at the same time, while only using 1."]
 	quest.53AF056139DAACDB.quest_desc: [
 		"Macerate those plant balls and make some bio chaff"
@@ -7113,6 +7164,7 @@
 	]
 	quest.53B44E24BB111D24.quest_desc: ["Cheaper IV tier as well?! This just keeps getting better!"]
 	quest.53B44E24BB111D24.quest_subtitle: "IV"
+	quest.53B58FC3958750E7.quest_desc: ["Did you play around with the Placer too much and need to Break those Blocks? \\n\\nIts Tier and Enchants are determined by the Pickaxe its Crafted with. \\n\\nNow set the area and hopefully put a Filter and let it run! \\n\\nCan be used with a Placer to do stuff like turning Ores into Items."]
 	quest.53BBE717148C0B18.quest_subtitle: "Lots of iron in these ores"
 	quest.53BBE717148C0B18.title: "Goethite Vein"
 	quest.53C5CE6433E201BD.quest_desc: [
@@ -7252,8 +7304,10 @@
 	quest.553220A2CD7CAFE4.quest_desc: ["During Christmas all the Chests look like Presents... but the Furnaces just stick out like a sore thumb! Now that can be changed with the Wrapping Paper! You can Right Click it onto any &lIron Furnace&r and it'll be all set for the holiday season! And after the season is over you can Shift Right Click it to unwrap it!"]
 	quest.553220A2CD7CAFE4.title: "All wrapped up"
 	quest.55328778D7078E24.title: "Medium Voltage Age"
+	quest.553C44F85E508DE3.quest_desc: ["This one is unique as it's not used for just 1 Router but for multiple. \\n\\nIf you want mutliple Routers working at the same time then each needs a Sync Upgrade. \\n\\nWill need to be tuned in its own GUI."]
 	quest.553DD7CBD4351A71.title: "&bVibranium Tools&r"
 	quest.554389C781241743.title: "Molybdenum Vein"
+	quest.5560F303C452E110.quest_desc: ["The Extruder pushes blocks and entities by why not push it some more! \\n\\nThe entities not the blocks."]
 	quest.5561EB1E3DD77EC5.quest_desc: [
 		"UHV Energy Hatch. We have finally reached the Pinnacle of Energy Hatches!"
 		""
@@ -8089,6 +8143,7 @@
 		""
 		"This serves as the base for all the microprocessor circuits"
 	]
+	quest.5FB29F3F4DF17765.quest_desc: ["Sometimes you don't want every Module to move multiple stacks at a time, so when you just want 1 Modules to do so use an Augment! This does not stack with Upgrades though... infact it overrides them."]
 	quest.5FD3C68D5F218D02.quest_desc: [
 		"If you like playing with plants, but wished they could do a little more than create dyes, &dBotania&r has you covered. You'll need to advance through the mod to make the &6Star&r!"
 		""
@@ -8154,6 +8209,7 @@
 		"Try them all!"
 	]
 	quest.604F2B68B27885BF.title: "Fancy Noms"
+	quest.6063F4B7BE4D394C.quest_desc: ["The Sender Modules will move Items in the Router's Buffer Slot into another Inventory. \\n\\nMK1 will only move items into Inventories on the same XYZ axis as the Router and with direct line of sight. If there is a block in the way, the MK1 Sender will not send."]
 	quest.606780E5B8CF83BE.quest_desc: ["You might need to kill a few Wardens for these but that's okay Apotheosis makes it easier! This shelf is mostly for &5Arcana&r but it's a good source for all quantities. It will be needed for next Infusion."]
 	quest.606780E5B8CF83BE.title: "&9Echoing Sculkshelf&r"
 	quest.60736D37F7705B39.quest_desc: [
@@ -8438,6 +8494,8 @@
 		"These byproducts are often incredibly useful and will come in handy multiple times as you progress"
 	]
 	quest.63E4149FF75592C8.title: "Ore Processing Upgrade"
+	quest.63E4529AF8894018.quest_desc: ["&lModular Routers&r is a Logistics Mod. \\n\\nAnd it all starts with the Router! So make one! \\n\\nAlso the Buffer is the single item slot in the Router where items will come and go through. And it will need Redstone Signal for most Modules to work."]
+	quest.63E4529AF8894018.title: "&lModular Routers&r"
 	quest.63E611810240C792.quest_desc: [
 		"This is Eidolon. A Dark Magic Mod that encompasses rituals through Braziers and Soul Harvesting."
 		"You may have this book in the Akashic Tome, but creating this book will serve a special purpose."
@@ -8599,6 +8657,8 @@
 	quest.663DA87FDB10E2B8.quest_desc: ["Welcome to the Quantum Age! ZPM Processors, and new Multiblocks await us!"]
 	quest.663DA87FDB10E2B8.quest_subtitle: "QuantumMan!"
 	quest.663DA87FDB10E2B8.title: "&7Stargate gave us &cZPM"
+	quest.6648BC7D14233006.quest_desc: ["Augments are similar to Upgrades but for the individual Modules!"]
+	quest.6648BC7D14233006.title: "&lAugments&r"
 	quest.665B4A8FF5277316.quest_desc: ["Makes gravity affect a Mana Burst, making it move in an arc. It also slightly increases the time before it starts to lose mana."]
 	quest.665C3A14C987E9C6.quest_subtitle: "&f5.5&r &4Damage&r"
 	quest.666EA8B8F13EB292.quest_desc: ["This item is used to capture Demons for transport or storage. It's also needed for the &6ATM Star&r."]
@@ -8686,6 +8746,7 @@
 		"Using this, we can create items that allow us to control Lightning at will."
 	]
 	quest.674E2690D66ECD6E.title: "&aYou've Been&r &9Thunderstruck&r"
+	quest.674F28BCA2E4A3C8.quest_desc: ["When moving items Routers can get pretty greedy, taking every single item they can get their grubby antennas on! \\n\\nWith Regulator Augment you can limit how much is moved."]
 	quest.6754612E9AD4B9C0.title: "Reactor (Blazing)"
 	quest.676BC41C19BEF1FC.quest_desc: [
 		"That first Foliot Demon was cool, but what if I told you that you could summon a demon that gives you 6 dusts per raw ore it crushes?"
@@ -9093,6 +9154,7 @@
 	quest.6B511C8B572E8940.title: "Mana"
 	quest.6B5BC33667C782EC.quest_desc: ["The &dEnder Golem&r keeps guard of the &dRuined Citadel&r, well multiple of them do. Technically you don't need to fight them to fight the &dEnder Guardian&r but you definitely should. The &dEnder Golem&r has 3000 Hearts and a few attacks. It attacks like a normal Iron Golem but also has Void Core attacks. The Void Core works like the Evoker jaws with things coming out of the ground to deal damage."]
 	quest.6B5BC33667C782EC.title: "&dEnder Golem&r"
+	quest.6B747129A85AA768.quest_desc: ["Now even more like the Absorption Hopper! \\n\\nVacuum Module will now pickup XP Orbs as well as Items. Whatever you do with the XP is up to you!"]
 	quest.6B78378BC8036227.title: "Tier 1 Grader Catalyst"
 	quest.6BB9490E23CBD287.quest_desc: ["Vials and Sigils are items used to change your weapons sockets, whether to add more or free them up. All are used with your item in a Smithing Table."]
 	quest.6BB9490E23CBD287.title: "Vials and Sigils"
@@ -9313,6 +9375,7 @@
 	quest.6E3D53D1C4569A89.title: "&aExperience Pump Upgrade&r"
 	quest.6E4C3B87FABE9EFA.quest_subtitle: "Copper + Tin"
 	quest.6E4C3B87FABE9EFA.title: "Bronze Bees"
+	quest.6E5954C257726F86.quest_desc: ["Filtering per Mod can be very helpful especially for Apotheosis. \\n\\nTo use it, put an item in from a certain Mod, then it will show the Mod name, and hit the Plus button to add it!"]
 	quest.6E6D9527AC093199.quest_desc: [
 		"This step is easy, we just &eCentrifuge&r our Residue and we're left with Iridium Chloride and some sludge"
 		""
@@ -9599,6 +9662,7 @@
 	quest.718A2040D868E09F.title: "&21048m Storage Part&r"
 	quest.71941882F9E2ADAC.quest_desc: ["We need some Growth Medium to help us in this processing line, but we dont have the final Growth Medium yet. This is just the Raw version."]
 	quest.71941882F9E2ADAC.quest_subtitle: "Lab Testing"
+	quest.71A1FD0772453B51.quest_desc: ["Don't you hate Right Clicking everything? From Sheeps with Shears to Cows with Buckets? It's the 21st Century we should have Robots to everything! Or atleast Routers do everything. \\n\\nWith Activator Module it will act as if it were you Right Clicking things. \\n\\nYou can set what it will Right Click, if it will Attack or Use the Mob or Block, if you Shift Right Click, and how close they need to be in the Module."]
 	quest.71B1416A45FBBE40.quest_desc: [
 		"You can find sulfur ore in the nether and then smelt it to get sulfur dust. There are also bees!"
 		""
@@ -9626,6 +9690,7 @@
 		"You should honestly place these in everything you can. Unless you want it all to blow up, of course."
 	]
 	quest.71E08AA81089133B.title: "Air Compression"
+	quest.71FDF8CD953E46FC.quest_desc: ["HAHAHA did I scare you with the Creative Item in the Quests? \\n\\nDon't worry you won't need the item to finish this Quest page I just wanted to scare you. \\n\\n\\nI can have fun sometimes..."]
 	quest.72082D70F5D22632.quest_desc: ["Now this is the future! We are making progress, and stepping towards the Unknown!"]
 	quest.72082D70F5D22632.quest_subtitle: "Crystal Mainframe!"
 	quest.721EA7CB1CBBFD14.title: "Creative Virtual Storage Power"
@@ -9671,6 +9736,7 @@
 		""
 		"&e&lNote:&r&r Many of the single block machines have multiblock variants that are better, but I'm not going to go into those (yet)"
 	]
+	quest.72A71E1D6D8996FD.quest_desc: ["Is this code? I'm not paid to do coding!!??!?! I just wanted to make the Quests! \\n\\nHere you can type in a Regex into the Search Bar and click the Plus Button to add it to the Filter. Whenever that Regex comes up it will be filtered out."]
 	quest.72B3CDA595D08587.quest_desc: [
 		"If you want to make a base outside of the Earth, you'll most likely need a way to get &bOxygen&r."
 		""
@@ -9790,6 +9856,7 @@
 	]
 	quest.73C70B15582958A5.quest_subtitle: "Any Overworld Biome"
 	quest.73CD6CE2B10830B9.title: "&6Master of The Universe&r"
+	quest.73D60868024FF907.quest_desc: ["The Fluid MK2! \\n\\nAny Liquid Source nearby can be used with this one, not just adjacent."]
 	quest.73E639487E878948.quest_desc: ["The GregStar can be broken into Shards. We can then utilize those shards to make one of the most OP items!"]
 	quest.73E639487E878948.quest_subtitle: "GregStar Shard"
 	quest.73EFADE932DFEF86.title: "Items to Craft for the Star"
@@ -9938,12 +10005,15 @@
 		"{image:atm:textures/questpics/railcraft/rail_speed.png width:150 height:100 align:center}"
 	]
 	quest.75DD345164EE5CD9.title: "&6High Speed Tracks&r"
+	quest.75FE0B514448865B.quest_desc: ["Upgrades go directly into the Router and the Router can hold 5 of them. Upgrades directly affect all Modules that they can and usually can stack!"]
+	quest.75FE0B514448865B.title: "&lUpgrades&r"
 	quest.7604D8B3C9FCCFD9.quest_desc: [
 		"It's time to create the 'Hard Drives' of Refined Storage. To do this, we'll need a &9Storage Housing&r that we'll combine with a &aStorage Part&r to create a &dStorage Disk&r. Just simply make the desired size of the part, then combine with the housing to create a disk. "
 		""
 		"The Storage Disk is used to store your items virtually once placed inside of the Disk Drive. It has to be put in a Disk Drive. The Storage Disk won’t despawn when dropped in the world."
 	]
 	quest.7604D8B3C9FCCFD9.title: "Storage Housing"
+	quest.76062D375E4CC8DD.quest_desc: ["We've seen Filters and we've seen Round Robins, now we're seeing both! This is useful for keeping the Items in a select order like for when making Mystical Agriculture Seeds!"]
 	quest.76071C22A73A2026.title: "&cTertium Farmland&r"
 	quest.76084BE1BBCF941F.quest_desc: [
 		"This is a base upgrade for all machines and items."
@@ -10851,6 +10921,7 @@
 	quest.7F67849DE9F700D8.title: "&2Augment&r: Speed"
 	quest.7F6B66566C211735.quest_desc: ["Dripstone used on the spawner will reduce the max health of the mob spawned. This can decrease their health to as low as 20%."]
 	quest.7F6B66566C211735.title: "Health"
+	quest.7F8DEDD0A54D1E11.quest_desc: ["I wonder what Droppers do? \\nI think they drop things... \\n\\nAny item in the Buffer will be dropped on the ground. \\n\\nCould be helpful with something like Botania!"]
 	quest.7F8E50FA436DB4E6.quest_desc: ["The &n&5Chain Drive&r can be linked with others in any direction as long as they are touching. They will relay the rotation sideways."]
 	quest.7F9131107E7F9AC8.quest_desc: [
 		"Now that you have steam, you need something to transfer it around!"
@@ -11032,6 +11103,7 @@
 	task.3EDE79B7957D45AF.title: "Coal Comb"
 	task.3F5D1730023562C7.title: "Observe Formed EBF"
 	task.4063C1B5F935A026.title: "Induction Cells"
+	task.41EEE559F6402D81.title: "Creative Module"
 	task.4203F7ED807F3D30.title: "Skeletal Comb"
 	task.427138127BEBAEAF.title: "Carbon dust"
 	task.429FA8057B666565.title: "Lapis Comb"
