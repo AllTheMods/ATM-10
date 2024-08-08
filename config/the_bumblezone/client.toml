@@ -1,0 +1,150 @@
+["The Bumblezone Client Dimension Options"]
+	#----------------------------
+	#
+	# How bright the fog is in the Bumblezone dimension. 
+	# 
+	# The brightness is represented as a percentage
+	# so 0 will be pitch black, 50 will be half
+	# as bright, 100 will be normal orange brightness,
+	# and 100000 will be white.
+	#
+	#Range: 0.0 ~ 100000.0
+	fogBrightnessPercentage = 100.0
+	#----------------------------
+	#
+	# How thick the fog in Bumblezone is.
+	# 2 is a little bit of fog and 50 is super thick fog. Decimal values are allowed.
+	#
+	#Range: 0.0 ~ 100.0
+	fogThickness = 4.0
+	#----------------------------
+	#
+	# Whether Bumblezone dimension has thick fog or not.
+	#
+	enableDimensionFog = true
+
+["Essence Item HUD Rendering Configs"]
+	#----------------------------
+	#
+	# How many of the rotating texture layers to show on HUD when Essence item is in offhand slot.
+	# 0 to turn the rendering off.
+	#
+	#Range: 0 ~ 3
+	essenceItemHUDVisualEffectLayers = 3
+	#----------------------------
+	#
+	# How fast to spin the rotating texture layers on HUD when Essence item is in offhand slot.
+	# 0.5 for half speed. 0 to turn the spinning off.
+	#
+	#Range: 0.0 ~ 100.0
+	essenceItemHUDVisualEffectSpeed = 1.0
+
+["Knowing Essence Highlighting Configs (see block and entity tags for even more options)"]
+	#----------------------------
+	#
+	# Whether Knowing Essence will highlight bosses in purple. (Does not override the forced highlighting entity tag)
+	#
+	knowingEssenceHighlightBosses = true
+	#----------------------------
+	#
+	# Whether Knowing Essence will highlight monsters in red. (Does not override the forced highlighting entity tag)
+	#
+	knowingEssenceHighlightMonsters = true
+	#----------------------------
+	#
+	# Whether Knowing Essence will highlight mobs you tamed in green. (Does not override the forced highlighting entity tag)
+	#
+	knowingEssenceHighlightTamed = true
+	#----------------------------
+	#
+	# Whether Knowing Essence will highlight any other mobs in orange. (Does not override the forced highlighting entity tag)
+	#
+	knowingEssenceHighlightLivingEntities = true
+	#----------------------------
+	#
+	# Whether Knowing Essence will highlight common items in world in white color.
+	#
+	knowingEssenceHighlightCommonItems = true
+	#----------------------------
+	#
+	# Whether Knowing Essence will highlight uncommon items in world in yellow color.
+	#
+	knowingEssenceHighlightUncommonItems = true
+	#----------------------------
+	#
+	# Whether Knowing Essence will highlight rare items in world in cyan color.
+	#
+	knowingEssenceHighlightRareItems = true
+	#----------------------------
+	#
+	# Whether Knowing Essence will highlight epic items in world in purple color.
+	#
+	knowingEssenceHighlightEpicItems = true
+	#----------------------------
+	#
+	# Whether Knowing Essence will tell you the name of structures you are in. (Server config can disable this)
+	#
+	knowingEssenceStructureNameClient = true
+	#----------------------------
+	#
+	# X coordinate for where to render the structure name on screen. (Based on bottom left corner)
+	#
+	#Range: 0 ~ 10000
+	knowingEssenceStructureNameXCoord = 4
+	#----------------------------
+	#
+	# Y coordinate for where to render the structure name on screen. (Based on bottom left corner)
+	#
+	#Range: 0 ~ 10000
+	knowingEssenceStructureNameYCoord = 16
+
+["Radiance Essence configs"]
+	#----------------------------
+	#
+	# Whether Radiance Essence will show the durability of your armor.
+	#
+	radianceEssenceArmorDurability = true
+	#----------------------------
+	#
+	# X coordinate for where to render the armor durability on screen. (Based on bottom left corner)
+	#
+	#Range: 0 ~ 10000
+	radianceEssenceArmorDurabilityXCoord = 4
+	#----------------------------
+	#
+	# Y coordinate for where to render the armor durability on screen. (Based on bottom left corner)
+	#
+	#Range: 0 ~ 10000
+	radianceEssenceArmorDurabilityYCoord = 16
+
+["Entity Model/Renderer configs"]
+	#----------------------------
+	#
+	# Turn this on if Variant Bee's model is messed up by another mod or resourcepack. Requires restart.
+	#
+	useBackupModelForVariantBee = false
+	#----------------------------
+	#
+	# Whether to show the item on the Bee Queen that the Queen wants for Bonus Trades.
+	#
+	renderBeeQueenBonusTradeItem = true
+
+["Music configs"]
+	#----------------------------
+	#
+	# If on, Flight of the Bumblebee by Rimsky Korsakov will play when you have Wrath of the Hive effect on.
+	#
+	playWrathOfHiveEffectMusic = true
+	#----------------------------
+	#
+	# If on, Bee-ware of the Temple by LudoCrypt will play when you are in Sempiternal Sanctum.
+	#
+	playSempiternalSanctumMusic = true
+
+["Essence Block configs"]
+	#----------------------------
+	#
+	# Whether to not render the shader for Essence Blocks.
+	#
+	# Will default to normal block textures instead if shader is disabled.
+	disableEssenceBlockShaders = false
