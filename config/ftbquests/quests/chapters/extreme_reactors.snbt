@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "extreme_reactors"
 	group: "2B51AC12041E3F89"
+	icon: {
+		id: "bigreactors:reinforced_reactorfuelrod"
+	}
 	id: "3C78926E5D301BA0"
 	images: [
 		{
@@ -49,7 +52,7 @@
 			y: 9.5d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -1008,7 +1011,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "1F7036222F535785"
-					table_id: 7175652334583451871L
 					type: "loot"
 				}
 				{
