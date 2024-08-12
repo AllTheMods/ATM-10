@@ -6,14 +6,6 @@
 	loot_size: 1
 	order_index: 5
 	rewards: [
-		{
-			item: {
-				count: 1
-				id: "productivebees:upgrade_productivity"
-			}
-			random_bonus: 2
-			weight: 2.0f
-		}
 		{ item: { count: 1, id: "minecraft:dragon_egg" }, weight: 2.0f }
 		{ item: { count: 1, id: "minecraft:dragon_head" } }
 		{ item: { count: 1, id: "ironfurnaces:diamond_furnace" }, weight: 3.0f }
@@ -58,6 +50,7 @@
 		{ item: { count: 1, id: "functionalstorage:netherite_upgrade" } }
 		{ item: { count: 1, id: "pipez:ultimate_upgrade" } }
 		{ item: { count: 1, id: "mekanism:basic_fluid_tank" } }
+		{ item: { count: 1, id: "productivelib:upgrade_productivity" } }
 	]
 	use_title: true
 }
