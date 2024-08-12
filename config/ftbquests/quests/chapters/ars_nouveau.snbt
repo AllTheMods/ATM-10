@@ -3,6 +3,9 @@
 	default_quest_shape: ""
 	filename: "ars_nouveau"
 	group: "02FE661031A105D8"
+	icon: {
+		id: "ars_nouveau:source_gem"
+	}
 	id: "6AEDA2F9BEB57759"
 	images: [{
 		height: 0.3d
@@ -1576,14 +1579,14 @@
 			]
 			tasks: [
 				{
-					id: "24D629ABE2C71961"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(neoforge:logs/archwood)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
 					count: 2L
 					id: "181BAEE44F0E8720"
 					item: { count: 1, id: "ars_nouveau:archwood_planks" }
+					type: "item"
+				}
+				{
+					id: "2BC0F5A88E2F03C3"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:logs/archwood)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]

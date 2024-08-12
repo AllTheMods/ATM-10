@@ -1,0 +1,1018 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "basic_logistics"
+	group: "3D4E23B1100491AB"
+	icon: {
+		id: "pipez:wrench"
+	}
+	id: "3DEB33F78398EAD6"
+	images: [
+		{
+			height: 1.5d
+			image: "atm:textures/questpics/logistics/basic.png"
+			rotation: 0.0d
+			width: 5.3300970873786415d
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			height: 1.5d
+			image: "atm:textures/questpics/logistics/logistics.png"
+			rotation: 0.0d
+			width: 8.941747572815533d
+			x: 10.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/logistics/pipez.png"
+			rotation: 0.0d
+			width: 3.4761904761904763d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/logistics/mekanism.png"
+			rotation: 0.0d
+			width: 5.642857142857143d
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/logistics/integrated-.png"
+			rotation: 0.0d
+			width: 6.755813953488372d
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			height: 1.5d
+			image: "atm:textures/questpics/logistics/laserio.png"
+			rotation: 0.0d
+			width: 7.232142857142857d
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/logistics/pipez_item.png"
+			rotation: 90.0d
+			width: 4.461077844311378d
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/logistics/pipez_fluid.png"
+			rotation: 90.0d
+			width: 4.578313253012048d
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/logistics/pipez_energy.png"
+			rotation: 90.0d
+			width: 4.578313253012048d
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			height: 0.9d
+			image: "atm:textures/questpics/logistics/meka_transporter.png"
+			rotation: 90.0d
+			width: 4.75d
+			x: 12.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/logistics/meka_cable.png"
+			rotation: 90.0d
+			width: 4.75d
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/logistics/meka_pipe.png"
+			rotation: 90.0d
+			width: 4.75d
+			x: 11.0d
+			y: -0.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2329AA0AFBEF1E13"
+			rewards: [{
+				count: 3
+				id: "71FDE5AB12145B69"
+				item: {
+					count: 1
+					id: "minecraft:iron_block"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "43D2013855BF5F17"
+				item: { count: 1, id: "pipez:wrench" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2329AA0AFBEF1E13"]
+			id: "36836AD948F96B9F"
+			rewards: [{
+				count: 16
+				id: "22360F382F0BA4CE"
+				item: {
+					count: 1
+					id: "pipez:item_pipe"
+				}
+				type: "item"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "04CFDEC2D4C671F2"
+				item: { count: 1, id: "pipez:item_pipe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2329AA0AFBEF1E13"]
+			id: "33433A443B65D252"
+			min_width: 250
+			rewards: [{
+				count: 16
+				id: "78309F82E7E4AE69"
+				item: {
+					count: 1
+					id: "pipez:fluid_pipe"
+				}
+				type: "item"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "2E1254C3F9F6079C"
+				item: { count: 1, id: "pipez:fluid_pipe" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2329AA0AFBEF1E13"]
+			id: "53EC96FA0E7C4ED4"
+			rewards: [{
+				count: 16
+				id: "6BFD87108A2B3FE8"
+				item: {
+					count: 1
+					id: "pipez:energy_pipe"
+				}
+				type: "item"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "17BE12E1047A68A4"
+				item: { count: 1, id: "pipez:energy_pipe" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"33433A443B65D252"
+				"36836AD948F96B9F"
+				"53EC96FA0E7C4ED4"
+			]
+			id: "4FBAB3A0FBF8CE2F"
+			rewards: [{
+				count: 16
+				id: "02B1975FE7F3C29A"
+				item: {
+					count: 1
+					id: "pipez:universal_pipe"
+				}
+				type: "item"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "1E0BB9A36487B272"
+				item: { count: 1, id: "pipez:universal_pipe" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2329AA0AFBEF1E13"]
+			id: "2F4458E9921DEB86"
+			rewards: [{
+				count: 16
+				id: "51371416132329E3"
+				item: {
+					count: 1
+					id: "pipez:gas_pipe"
+				}
+				type: "item"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "7E1C1FB56CFCADF6"
+				item: { count: 1, id: "pipez:gas_pipe" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2329AA0AFBEF1E13"]
+			id: "2A976D41F79C34B1"
+			rewards: [{
+				id: "11D2714AB566A00B"
+				item: {
+					count: 1
+					id: "pipez:advanced_upgrade"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [{
+				id: "5F9D69AF08F576AB"
+				item: { count: 1, id: "pipez:filter_destination_tool" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2329AA0AFBEF1E13"]
+			id: "6A962535CD68713E"
+			rewards: [{
+				id: "4DDD2CDC825A9BE3"
+				item: {
+					count: 1
+					id: "pipez:advanced_upgrade"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [{
+				id: "48CF7A7622423DEA"
+				item: { components: { "ftbfiltersystem:filter": "or(item(pipez:basic_upgrade)item(pipez:improved_upgrade)item(pipez:advanced_upgrade)item(pipez:ultimate_upgrade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			id: "34CFE1439262AA72"
+			rewards: [{
+				count: 3
+				id: "06BBE2C3833797ED"
+				item: {
+					count: 1
+					id: "alltheores:steel_block"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "418E333710652BFA"
+				item: { count: 1, id: "mekanism:configurator" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "6E05B62A40D5A891"
+			rewards: [{
+				count: 3
+				id: "1F763DED812265B7"
+				item: {
+					count: 1
+					id: "integrateddynamics:crystalized_menril_block"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "7CAEF421E14B6F2A"
+				item: { count: 1, id: "integrateddynamics:wrench" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["34CFE1439262AA72"]
+			id: "1834B5C1F8435D7A"
+			rewards: [{
+				count: 16
+				id: "779C78573F83BFFE"
+				item: {
+					count: 1
+					id: "mekanism:advanced_mechanical_pipe"
+				}
+				type: "item"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "5B7926B511000F1F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:basic_mechanical_pipe)item(mekanism:advanced_mechanical_pipe)item(mekanism:elite_mechanical_pipe)item(mekanism:ultimate_mechanical_pipe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["34CFE1439262AA72"]
+			icon_scale: 1.3d
+			id: "493D04D954E4FBA0"
+			rewards: [{
+				count: 16
+				id: "6E44439DE3A2B59C"
+				item: {
+					count: 1
+					id: "mekanism:advanced_universal_cable"
+				}
+				type: "item"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "4448DE84ABA737BE"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:basic_universal_cable)item(mekanism:advanced_universal_cable)item(mekanism:elite_universal_cable)item(mekanism:ultimate_universal_cable))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["34CFE1439262AA72"]
+			id: "30DE4F5BC3EDB555"
+			rewards: [{
+				count: 16
+				id: "67D4792D7C7FF358"
+				item: {
+					count: 1
+					id: "mekanism:advanced_logistical_transporter"
+				}
+				type: "item"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "337725ECA2C04090"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:basic_logistical_transporter)item(mekanism:advanced_logistical_transporter)item(mekanism:elite_logistical_transporter)item(mekanism:ultimate_logistical_transporter))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["34CFE1439262AA72"]
+			icon_scale: 1.3d
+			id: "316B513FE568EF57"
+			rewards: [{
+				count: 16
+				id: "3E64DF44CA2F9908"
+				item: {
+					count: 1
+					id: "mekanism:advanced_thermodynamic_conductor"
+				}
+				type: "item"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "79E961F671475850"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:basic_thermodynamic_conductor)item(mekanism:advanced_thermodynamic_conductor)item(mekanism:elite_thermodynamic_conductor)item(mekanism:ultimate_thermodynamic_conductor))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34CFE1439262AA72"]
+			icon_scale: 1.3d
+			id: "4BC2D7FCDD792DBA"
+			rewards: [{
+				count: 16
+				id: "3217F5BBC9DAF0EC"
+				item: {
+					count: 1
+					id: "mekanism:advanced_pressurized_tube"
+				}
+				type: "item"
+			}]
+			size: 1.1d
+			tasks: [{
+				id: "2BA7FC10243AA011"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:basic_pressurized_tube)item(mekanism:advanced_pressurized_tube)item(mekanism:elite_pressurized_tube)item(mekanism:ultimate_pressurized_tube))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6E05B62A40D5A891"]
+			icon_scale: 1.5d
+			id: "6112956E19017D2D"
+			rewards: [{
+				count: 16
+				id: "673E97D0F77771B4"
+				item: {
+					count: 1
+					id: "integrateddynamics:cable"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "5F7BDDC673BAA500"
+				item: { count: 1, id: "integrateddynamics:cable" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			id: "6CD7D99AA102A5C3"
+			rewards: [{
+				count: 2
+				id: "5BC324F4449F0732"
+				item: {
+					count: 1
+					id: "minecraft:chest"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "48A30B08A090BD75"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/wrench)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6E05B62A40D5A891"]
+			id: "03C40D6A5D722543"
+			rewards: [{
+				count: 4
+				id: "112EF88F5897BC33"
+				item: {
+					count: 1
+					id: "integrateddynamics:variable_transformer_input"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [{
+				id: "5789E685C4B54C1B"
+				item: { count: 1, id: "integrateddynamics:variable" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6112956E19017D2D"
+				"03C40D6A5D722543"
+			]
+			icon_scale: 1.5d
+			id: "6F152402756DA35E"
+			rewards: [
+				{
+					count: 3
+					id: "510F6E6940CEFB39"
+					item: {
+						count: 1
+						id: "integratedtunnels:part_interface_item"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "47F3BA6276A2EA34"
+					item: {
+						count: 1
+						id: "integratedtunnels:part_importer_item"
+					}
+					type: "item"
+				}
+			]
+			size: 1.1d
+			tasks: [
+				{
+					id: "6479D685217CC64D"
+					item: { count: 1, id: "integratedtunnels:part_importer_item" }
+					type: "item"
+				}
+				{
+					id: "7A8D6779B7C6B99D"
+					item: { count: 1, id: "integratedtunnels:part_interface_item" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6112956E19017D2D"
+				"03C40D6A5D722543"
+			]
+			icon_scale: 1.5d
+			id: "034F2CDF0830254B"
+			rewards: [
+				{
+					count: 3
+					id: "44416071DD70A203"
+					item: {
+						count: 1
+						id: "integratedtunnels:part_interface_fluid"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7F9CF03DD0B1E2D3"
+					item: {
+						count: 1
+						id: "integratedtunnels:part_importer_fluid"
+					}
+					type: "item"
+				}
+			]
+			size: 1.1d
+			tasks: [
+				{
+					id: "38AB1D04DBB036B9"
+					item: { count: 1, id: "integratedtunnels:part_importer_fluid" }
+					type: "item"
+				}
+				{
+					id: "1E13BEB52F3D087C"
+					item: { count: 1, id: "integratedtunnels:part_interface_fluid" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6112956E19017D2D"
+				"03C40D6A5D722543"
+			]
+			icon_scale: 1.5d
+			id: "76CECFB244F39F18"
+			rewards: [
+				{
+					count: 3
+					id: "47C5525DAF15361A"
+					item: {
+						count: 1
+						id: "integratedtunnels:part_interface_energy"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7792BBAEC038F0C6"
+					item: {
+						count: 1
+						id: "integratedtunnels:part_importer_energy"
+					}
+					type: "item"
+				}
+			]
+			size: 1.1d
+			tasks: [
+				{
+					id: "4618703B49BDB077"
+					item: { count: 1, id: "integratedtunnels:part_importer_energy" }
+					type: "item"
+				}
+				{
+					id: "11F2F4CB9E93471A"
+					item: { count: 1, id: "integratedtunnels:part_interface_energy" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "5F1218CF8EFC607B"
+			rewards: [{
+				count: 4
+				id: "7D27118147D79F00"
+				item: {
+					count: 1
+					id: "laserio:logic_chip"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "652F3AA1A8877897"
+				item: { count: 1, id: "laserio:logic_chip" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5F1218CF8EFC607B"]
+			id: "7BC8F50A89A3BE1A"
+			rewards: [{
+				id: "4665F92118ECF273"
+				item: {
+					count: 1
+					id: "laserio:laser_node"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				id: "0D82B98F49ECDE84"
+				item: { count: 1, id: "laserio:laser_wrench" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5F1218CF8EFC607B"]
+			icon_scale: 2.0d
+			id: "5C0F6B1C93A52113"
+			rewards: [{
+				id: "1CDCDE301AFE1521"
+				item: {
+					count: 1
+					id: "laserio:laser_node"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "132F43079A756548"
+				item: { count: 1, id: "laserio:laser_node" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5F1218CF8EFC607B"]
+			icon_scale: 1.5d
+			id: "47A2BEFB11F4D581"
+			rewards: [{
+				count: 2
+				id: "1D06FA229ABEDA31"
+				item: {
+					count: 1
+					id: "laserio:logic_chip"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1D0BCF8F310F9F31"
+				item: { count: 1, id: "laserio:filter_basic" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5F1218CF8EFC607B"]
+			icon_scale: 1.5d
+			id: "4C41FD926F31180B"
+			rewards: [{
+				count: 2
+				id: "19AE8583E62E2168"
+				item: {
+					count: 1
+					id: "laserio:card_item"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "3E4FC405FD55ED51"
+				item: { count: 1, id: "laserio:card_item" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5F1218CF8EFC607B"]
+			icon_scale: 1.5d
+			id: "1C70D739CE464E25"
+			rewards: [{
+				count: 2
+				id: "48537D0800E28E28"
+				item: {
+					count: 1
+					id: "laserio:card_fluid"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "65A892F50FB762AA"
+				item: { count: 1, id: "laserio:card_fluid" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5F1218CF8EFC607B"]
+			icon_scale: 1.5d
+			id: "52F85CED20C8B1E9"
+			rewards: [{
+				count: 2
+				id: "28B75342412D614B"
+				item: {
+					count: 1
+					id: "laserio:card_energy"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "346CFB97F9BFCFC2"
+				item: { count: 1, id: "laserio:card_energy" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5F1218CF8EFC607B"]
+			icon_scale: 1.5d
+			id: "47768B1FFD57D56E"
+			rewards: [{
+				count: 2
+				id: "778135590CF0FE97"
+				item: {
+					count: 1
+					id: "laserio:card_redstone"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "333634D36B6549F5"
+				item: { count: 1, id: "laserio:card_redstone" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5F1218CF8EFC607B"]
+			icon_scale: 1.5d
+			id: "6718043D0F2D1830"
+			rewards: [{
+				count: 2
+				id: "1544B9F2E4E4E378"
+				item: {
+					count: 1
+					id: "laserio:card_chemical"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2AF56D68641E98D1"
+				item: { count: 1, id: "laserio:card_chemical" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5F1218CF8EFC607B"]
+			id: "617695A9CA45D88F"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "713279F21DD21446"
+				item: {
+					count: 1
+					id: "laserio:logic_chip"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "035E7A7567049C78"
+				item: { count: 1, id: "laserio:card_holder" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5F1218CF8EFC607B"]
+			id: "308935C85364B04D"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "71AB05CB39E60E9B"
+				item: {
+					count: 1
+					id: "laserio:logic_chip"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "4637853BB5E04D77"
+				item: { count: 1, id: "laserio:card_cloner" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5C0F6B1C93A52113"]
+			icon_scale: 1.5d
+			id: "7EE27C3908008E20"
+			optional: true
+			rewards: [{
+				id: "4839A441EAD03919"
+				item: {
+					count: 1
+					id: "laserio:laser_connector"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "09AA5520AC0CCC24"
+				item: { count: 1, id: "laserio:laser_connector" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["47A2BEFB11F4D581"]
+			icon_scale: 1.5d
+			id: "06767BA0AFE8C1EE"
+			rewards: [{
+				count: 2
+				id: "7CD74A2417E9F801"
+				item: {
+					count: 1
+					id: "laserio:logic_chip"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "298C94E654593532"
+				item: { count: 1, id: "laserio:filter_count" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["47A2BEFB11F4D581"]
+			icon_scale: 1.5d
+			id: "3065EA195D0A36BA"
+			rewards: [{
+				count: 2
+				id: "018435A9D4B7DA05"
+				item: {
+					count: 1
+					id: "laserio:logic_chip"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "0BF7D47F1BF18EA5"
+				item: { count: 1, id: "laserio:filter_tag" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["47A2BEFB11F4D581"]
+			icon_scale: 1.5d
+			id: "2A6900E87DE8BAE0"
+			rewards: [{
+				count: 2
+				id: "36921E4FDCF84830"
+				item: {
+					count: 1
+					id: "laserio:logic_chip"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "1D8C41C20C557A21"
+				item: { count: 1, id: "laserio:filter_mod" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["47A2BEFB11F4D581"]
+			icon_scale: 1.5d
+			id: "374F5557ABAE8360"
+			invisible: true
+			rewards: [{
+				count: 2
+				id: "58A5CB2C9A6C6D9C"
+				item: {
+					count: 1
+					id: "laserio:logic_chip"
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "42082A9D79010A54"
+				item: { count: 1, id: "laserio:filter_nbt" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5F1218CF8EFC607B"]
+			id: "046C417B2ADF3AA7"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "28A66D357ACC9E3E"
+				item: {
+					count: 1
+					id: "laserio:overclocker_card"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5983560F1C762FAC"
+				item: { count: 1, id: "laserio:overclocker_card" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5F1218CF8EFC607B"]
+			id: "0BB562FB44B0AAA7"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "47DD8A893C7F9E35"
+				item: {
+					count: 1
+					id: "laserio:overclocker_node"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6EF656AC41CC4D7E"
+				item: { count: 1, id: "laserio:overclocker_node" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+	]
+}
