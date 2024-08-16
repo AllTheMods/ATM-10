@@ -1,1 +1,3 @@
-allthemods.shapeless(`minecraft:ender_pearl`,[`#c:ender_pearls`]).id(`allthemods:ae2/dense_to_normal`)
+ServerEvents.recipes(allthemods => {
+    allthemods.shapeless(`minecraft:ender_pearl`,[`#c:ender_pearls`]).id(`allthemods:enderpearl`)
+})
