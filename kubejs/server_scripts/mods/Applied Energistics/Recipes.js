@@ -36,7 +36,10 @@ ServerEvents.recipes(allthemods => {
   universalPress('minecraft:diamond', 'ae2:printed_engineering_processor', 'printed_engineering_processor')
   universalPress('minecraft:gold_ingot', 'ae2:printed_logic_processor', 'printed_logic_processor')
   universalPress('minecraft:iron_block', 'kubejs:universal_press', 'universal_press_duplicate')
-
+  
+  allthemods.shapeless(` 4x ae2:fluix_covered_cable`,[`ae2:fluix_covered_dense_cable`]).id(`allthemods:ae2/dense_to_normal`)
+  allthemods.shapeless(` 4x ae2:fluix_smart_cable`,[`ae2:fluix_smart_dense_cable`]).id(`allthemods:ae2/smart_dense_to_smart_normal`)
+  
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

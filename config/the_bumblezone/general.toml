@@ -1,0 +1,291 @@
+["Bumblezone Fluid Options"]
+	#----------------------------
+	#
+	# Whether extracting fluid from Honey Bottles will attempt to generate Bumblezone Honey Fluid. (Think extraction machines)
+	#
+	bzHoneyFluidFromHoneyBottles = true
+
+["Variant Bee Options"]
+	#----------------------------
+	#
+	# What skin variations of Variant Bees can spawn! Add more bee textures to this folder `assets/the_bumblezone/textures/entity/bee_variants` and define the bee in this config!
+	#
+	variantBeeTypes = ["redtail_bee", "green_bee", "blue_bee", "white_bee", "ukraine_bee", "trans_bee", "asexual_bee", "agender_bee", "aroace_bee", "aromantic_bee", "bisexual_bee", "pan_bee", "enby_bee", "reverse_bee", "neapolitan_bee", "rainbow_bee"]
+
+["Beehemoth Options"]
+	#----------------------------
+	#
+	# Base speed for the Beehemoth when being rode by a player.
+	#
+	#Range: 0.0 ~ 100.0
+	beehemothSpeed = 0.95
+	#----------------------------
+	#
+	# Allows tamed Beehemoths to take damage from owner.
+	#
+	beehemothFriendlyFire = true
+
+["Special Bee Spawning Options"]
+	#----------------------------
+	#
+	# Whether Bumblezone will handle spawning vanilla bees near players in the Bumblezone to make it feel full of Bees.
+	# Bees too far will be despawned in Bumblezone unless the bee has a hive, is name tagged, or is set to persistent.
+	#
+	specialBeeSpawning = true
+	#----------------------------
+	#
+	# If specialBeeSpawning is set to true, this config controls how many vanilla bees should be
+	# near each player in Bumblezone dimension. Higher numbers like 100 is insane lol. 25 is nice.
+	#
+	#Range: 0 ~ 1000
+	nearbyBeesPerPlayerInBz = 25
+
+["Bee Loot Injection Options"]
+	#----------------------------
+	#
+	# Whether Bee Stingers should drop from adult Bees that die while still having their stinger.
+	# This pulls from this loot table for the drops: `the_bumblezone:entities/bee_stinger_drops`
+	#
+	beeLootInjection = true
+	#----------------------------
+	#
+	# Whether Bee Stingers should drop from adult modded Bees that die while still having their stinger.
+	# This pulls from this loot table for the drops: `the_bumblezone:entities/bee_stinger_drops`
+	#
+	moddedBeeLootInjection = true
+
+["Brewing Recipe Options"]
+	#----------------------------
+	#
+	# Whether Glistering Honey Crystals can be used to make Potions of Luck.
+	glisteringHoneyBrewingRecipe = true
+	#----------------------------
+	#
+	# Whether Bee Stingers can be used to make Potions of Long Poison.
+	beeStingerBrewingRecipe = true
+	#----------------------------
+	#
+	# Whether Bee Soup can be used to make Potions of Neurotoxin.
+	beeSoupBrewingRecipe = true
+
+["Enchantments Options"]
+	#----------------------------
+	#
+	# Maximum level that Neurotoxin enchantment's strength can be regardless of the enchantment's level.
+	# Note, changing this won't change enchantment's own max level. Just that this config set to 2 will make level 3 enchant behave like level 2.
+	# To change an enchantment's max level display, datapack replace data/the_bumblezone/enchantment/neurotoxin.json file.
+	#
+	#Range: 1 ~ 255
+	neurotoxinMaxLevel = 2
+	#----------------------------
+	#
+	# Sets maximum tick duration the Paralyzed effect can be on an entity. Actions that reapply Paralyzed can still reset the timer and keep entity stunned.
+	#
+	#Range: 1 ~ 1000000
+	paralyzedMaxTickDuration = 600
+
+["Bee Queen Options"]
+	#----------------------------
+	#
+	# Bonus Trades will multiply the normal trade's quantity by this amount!
+	# 0 or 1 set here disables Bonus Trades.
+	#
+	#Range: 0 ~ 256
+	beeQueenBonusTradeRewardMultiplier = 3
+	#----------------------------
+	#
+	# How long in ticks that bonus Trades will last for before the Bee Queen asks for a new item.
+	# Setting this to 0 disables bonus Trades. Anything less than a minute (1200) will not broadcast request message to players.
+	#
+	#Range: 0 ~ 2000000
+	beeQueenBonusTradeDurationInTicks = 24000
+	#----------------------------
+	#
+	# How many boosted trades are allowed until the Bonus Trade is depleted.
+	# The queen will request a new item for Bonus Trades after some time to recharge.
+	# Setting this to 0 disables bonus Trades.
+	#
+	#Range: 0 ~ 1000000
+	beeQueenBonusTradeAmountTillSatified = 24
+	#----------------------------
+	#
+	# Whether to allow special trades to activate during certain days of the year.
+	#
+	beeQueenSpecialDayTrades = true
+	#----------------------------
+	#
+	# Allow Bee Queen to respawn in Throne Pillar when located with fresh Throne Honey Compass.
+	#
+	beeQueenRespawning = true
+
+["Crystalline Flower Options"]
+	#----------------------------
+	#
+	# Whether the Crystalline Flower block will eat any item entity that touches the block's collision box in the world.
+	#
+	crystallineFlowerConsumeItemEntities = true
+	#----------------------------
+	#
+	# Whether the Crystalline Flower block will pull in and eat any experience orb that touches it in the world.
+	#
+	crystallineFlowerConsumeExperienceOrbEntities = true
+	#----------------------------
+	#
+	# Whether the Crystalline Flower's GUI allows players to feed it items directly.
+	#
+	crystallineFlowerConsumeItemUI = true
+	#----------------------------
+	#
+	# Whether the Crystalline Flower's GUI allows players to feed it the player's experience.
+	#
+	crystallineFlowerConsumeExperienceUI = true
+	#----------------------------
+	#
+	# How much extra experience is required to reach the next tier for the Crystalline Flower.
+	# Remember, item consuming is also affected as items are converted to experience when the flower consumes it.
+	#
+	#Range: -1000000 ~ 1000000
+	crystallineFlowerExtraXpNeededForTiers = 0
+	#----------------------------
+	#
+	# Increases or decreases the tier cost of all enchantments available by whatever value you set.
+	# The enchantment's final tier cost will be capped between 1 and 6.
+	#
+	#Range: -5 ~ 5
+	crystallineFlowerExtraTierCost = 0
+	#----------------------------
+	#
+	# Controls how much "enchanting power" is used per tier to determine what enchantment shows up.
+	# Enchantments of higher levels or rarity requires more "enchanting power" before they show up in the UI.
+	# Think of this like how Enchanting Tables only shows stronger or rarer enchantments when you have more bookshelves.
+	# Except here, the flower's tier times this config value is used as the threshold to know what enchantment and level to show.
+	#
+	#Range: 0 ~ 1000
+	crystallineFlowerEnchantingPowerAllowedPerTier = 8
+
+["General Mechanics Options"]
+	#----------------------------
+	#
+	# Should Dispensers always drop the Glass Bottle when using specific
+	# bottle items on certain The Bumblezone blocks?
+	# 
+	# Example: Using Honey Bottle to feed Honeycomb Brood Blocks will grow the larva and
+	# drop the Glass Bottle instead of putting it back into Dispenser if this is set to true.
+	#
+	dispensersDropGlassBottles = false
+	#----------------------------
+	#
+	# Brood Blocks will automatically spawn bees until the number of active bees is the value below.
+	# Set this higher to allow Brood Blocks to spawn more bees in a smaller area or set it to 0 to turn
+	# off automatic Brood Block bee spawning.
+	#
+	#Range: 0 ~ 1000
+	broodBlocksBeeSpawnCapacity = 40
+	#----------------------------
+	#
+	# Whether Pile of Pollen should spread fire super quickly to burn away huge swathes of pollen.
+	#
+	pileOfPollenHyperFireSpread = false
+	#----------------------------
+	#
+	# Allows lit Super Candles/Potion Candle to burn living entities in its flame.
+	#
+	superCandlesBurnsMobs = true
+
+["Music Disc Options"]
+	#----------------------------
+	#
+	# Whether Wandering Traders can have a rare trade for Bumblezone Music Discs.
+	#
+	allowWanderingTraderMusicDiscsTrades = true
+
+["Essence Item And Events Options"]
+	#----------------------------
+	#
+	# Whether the Essence events in Sempiternal Sanctums can be repeated after beating it once.
+	#
+	repeatableEssenceEvents = true
+	#----------------------------
+	#
+	# How much max health Cosmic Crystal entity has. (For Continuity Essence event in White Sempiternal Sanctum)
+	#
+	#Range: 1 ~ 1000000
+	cosmicCrystalHealth = 60
+	#----------------------------
+	#
+	# How much ability use this item has before depleted.
+	#
+	#Range: 0 ~ 1000000
+	ragingEssenceAbilityUse = 28
+	#----------------------------
+	#
+	# How long the cooldown is in ticks before recharged for this item.
+	#
+	#Range: 0 ~ 1000000
+	ragingEssenceCooldown = 36000
+	#----------------------------
+	#
+	# How many rage levels there are and what level Strength effect each rage level gives.
+	# The list is in order of the effect levels that the player will get as they make highlighted kills.
+	# Adding or removing numbers will change the maximum number of rage tiers too.
+	#
+	ragingEssenceStrengthLevels = [1, 2, 3, 5, 8, 14, 20]
+	#----------------------------
+	#
+	# How much ability use (per second) this item has before depleted.
+	#
+	#Range: 0 ~ 1000000
+	knowingEssenceAbilityUse = 1200
+	#----------------------------
+	#
+	# How long the cooldown is in ticks before recharged for this item.
+	#
+	#Range: 0 ~ 1000000
+	knowingEssenceCooldown = 18000
+	#----------------------------
+	#
+	# Whether clients should be allowed to see names of structures they are in with this item.
+	#
+	knowingEssenceStructureNameServer = true
+	#----------------------------
+	#
+	# How much ability use (per second) this item has before depleted.
+	#
+	#Range: 0 ~ 1000000
+	calmingEssenceAbilityUse = 600
+	#----------------------------
+	#
+	# How long the cooldown is in ticks before recharged for this item.
+	#
+	#Range: 0 ~ 1000000
+	calmingEssenceCooldown = 12000
+	#----------------------------
+	#
+	# How much ability use this item has before depleted.
+	#
+	#Range: 0 ~ 1000000
+	lifeEssenceAbilityUse = 1000
+	#----------------------------
+	#
+	# How long the cooldown is in ticks before recharged for this item.
+	#
+	#Range: 0 ~ 1000000
+	lifeEssenceCooldown = 12000
+	#----------------------------
+	#
+	# How much ability use (per 25 ticks) this item has before depleted.
+	#
+	#Range: 0 ~ 1000000
+	radianceEssenceAbilityUse = 4800
+	#----------------------------
+	#
+	# How long the cooldown is in ticks before recharged for this item.
+	#
+	#Range: 0 ~ 1000000
+	radianceEssenceCooldown = 12000
+	#----------------------------
+	#
+	# How long the cooldown is in ticks before recharged for this item.
+	#
+	#Range: 0 ~ 1000000
+	continuityEssenceCooldown = 48000

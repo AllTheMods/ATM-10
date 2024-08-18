@@ -1,0 +1,171 @@
+[general]
+	unsupportedDeveloperTools = false
+	#Enables the ability of the Matter Cannon to break blocks.
+	matterCannonBlockDamage = false
+	#Enables the ability of Tiny TNT to break blocks.
+	tinyTntBlockDamage = false
+	#Changes the channel capacity that cables provide in AE2.
+	#Allowed Values: INFINITE, DEFAULT, X2, X3, X4
+	channels = "DEFAULT"
+	#The number of pathfinding steps that are taken per tick and per grid that is booting. Lower numbers will mean booting takes longer, but less work is done per tick.
+	#Range: 1 ~ 1024
+	pathfindingStepsPerTick = 4
+	#Whether Spatial Anchors should force random chunk ticks and entity spawning.
+	spatialAnchorEnableRandomTicks = true
+
+[automation]
+	#Range: > -2147483648
+	formationPlaneEntityLimit = 128
+
+[facades]
+	#Unsupported: Allows whitelisting block entities as facades. Could work, have render issues, or corrupt your world. USE AT YOUR OWN RISK.
+	allowBlockEntities = false
+
+[craftingCPU]
+	#Range: > -2147483648
+	craftingCalculationTimePerTick = 5
+
+[crafting]
+	#Enable shift-clicking with the crafting units in hand to disassemble them.
+	disassemblyCrafting = true
+	#Number of ticks between two crystal growth accelerator ticks
+	#Range: 1 ~ 100
+	growthAccelerator = 10
+	#If enabled, an annihilation placed face up at the maximum world height will generate sky stone passively.
+	annihilationPlaneSkyDustGeneration = true
+
+[spatialio]
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	spatialPowerMultiplier = 1250.0
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	spatialPowerExponent = 1.35
+
+[logging]
+	blockUpdateLog = false
+	craftingLog = false
+	debugLog = false
+	gridLog = false
+	#Enable stack trace logging for the chunk loading debug command
+	chunkLoggerTrace = false
+
+[battery]
+	#The chargers charging rate factor, which is applied to the charged items charge rate. 2 means it charges everything twice as fast. 0.5 half as fast.
+	#Range: 0.1 ~ 10.0
+	chargerChargeRate = 1.0
+	#Range: > -2147483648
+	wirelessTerminal = 1600000
+	#Range: > -2147483648
+	chargedStaff = 8000
+	#Range: > -2147483648
+	entropyManipulator = 200000
+	#Range: > -2147483648
+	portableCell = 20000
+	#Range: > -2147483648
+	colorApplicator = 20000
+	#Range: > -2147483648
+	matterCannon = 200000
+
+[worldGen]
+	spawnPressesInMeteorites = true
+	spawnFlawlessOnly = false
+
+[wireless]
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	wirelessBaseCost = 8.0
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	wirelessCostMultiplier = 1.0
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	wirelessBaseRange = 16.0
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	wirelessBoosterRangeMultiplier = 1.0
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	wirelessBoosterExp = 1.5
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	wirelessHighWirelessCount = 64.0
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	wirelessTerminalDrainMultiplier = 1.0
+
+[portableCells]
+	#Allow disassembly of portable cells into the recipe ingredients using shift+right-click
+	allowDisassembly = true
+
+[powerRatios]
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	forgeEnergy = 0.5
+	#Range: 0.01 ~ 1.7976931348623157E308
+	usageMultiplier = 1.0
+	#How much energy can the internal grid buffer storage per node attached to the grid.
+	#Range: 1.0 ~ 1000000.0
+	gridEnergyStoragePerNode = 25.0
+	#How much energy a crystal resonance generator generates per tick.
+	#Range: 0.0 ~ 1000000.0
+	crystalResonanceGeneratorRate = 20.0
+
+[condenser]
+	#Range: > -2147483648
+	matterBalls = 256
+	#Range: > -2147483648
+	singularity = 256000
+
+# Min / Max Tickrates for dynamic ticking, most of these components also use sleeping, to prevent constant ticking, adjust with care, non standard rates are not supported or tested.
+[tickRates]
+	#Range: > -2147483648
+	InterfaceMin = 5
+	#Range: > -2147483648
+	InterfaceMax = 120
+	#Range: > -2147483648
+	ImportBusMin = 5
+	#Range: > -2147483648
+	ImportBusMax = 40
+	#Range: > -2147483648
+	ExportBusMin = 5
+	#Range: > -2147483648
+	ExportBusMax = 60
+	#Range: > -2147483648
+	AnnihilationPlaneMin = 2
+	#Range: > -2147483648
+	AnnihilationPlaneMax = 120
+	#Range: > -2147483648
+	METunnelMin = 5
+	#Range: > -2147483648
+	METunnelMax = 20
+	#Range: > -2147483648
+	InscriberMin = 1
+	#Range: > -2147483648
+	InscriberMax = 20
+	#Range: > -2147483648
+	ChargerMin = 10
+	#Range: > -2147483648
+	ChargerMax = 10
+	#Range: > -2147483648
+	IOPortMin = 1
+	#Range: > -2147483648
+	IOPortMax = 5
+	#Range: > -2147483648
+	VibrationChamberMin = 10
+	#Range: > -2147483648
+	VibrationChamberMax = 40
+	#Range: > -2147483648
+	StorageBusMin = 5
+	#Range: > -2147483648
+	StorageBusMax = 60
+	#Range: > -2147483648
+	ItemTunnelMin = 5
+	#Range: > -2147483648
+	ItemTunnelMax = 60
+	#Range: > -2147483648
+	LightTunnelMin = 5
+	#Range: > -2147483648
+	LightTunnelMax = 60
+
+#Settings for the Vibration Chamber
+[vibrationChamber]
+	#AE energy produced per fuel burn tick (reminder: coal = 1600, block of coal = 16000, lava bucket = 20000 burn ticks)
+	#Range: 0.1 ~ 1000.0
+	baseEnergyPerFuelTick = 5.0
+	#Minimum amount of AE/t the vibration chamber can slow down to when energy is being wasted.
+	#Range: 0 ~ 1000
+	minEnergyPerGameTick = 4
+	#Maximum amount of AE/t the vibration chamber can speed up to when generated energy is being fully consumed.
+	#Range: 1 ~ 1000
+	baseMaxEnergyPerGameTick = 40
