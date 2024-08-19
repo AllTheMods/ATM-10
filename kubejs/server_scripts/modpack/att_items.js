@@ -21,7 +21,7 @@ ServerEvents.recipes(allthemods => {
   A: 'mekanism:pellet_antimatter',
   B: 'ae2:singularity',
   C: 'megacells:portable_item_cell_256m',
-  D: 'pneumaticcraft:assembly_controller',
+  D: 'pneumaticcraft:aerial_interface',
   E: 'modern_industrialization:blastproof_casing',
   F: 'ironfurnaces:million_furnace', 
   G: 'irons_spellbooks:lightning_upgrade_orb'
