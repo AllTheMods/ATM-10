@@ -29,15 +29,15 @@ ServerEvents.recipes(allthemods => {
 
   // Dimensional Seed Recipe
   allthemods.shaped('allthetweaks:dimensional_seed', ['ABC', 'DEF', 'GHI'], {
-    A: 'minecraft:bedrock',
-    B: 'minecraft:bedrock',
-    C: 'minecraft:bedrock',
+    A: 'allthecompressed:netherrack_6x',
+    B: 'allthecompressed:dirt_6x',
+    C: 'allthecompressed:obsidian_5x',
     D: 'allthetweaks:mini_exit',
     E: 'allthetweaks:mini_nether',
     F: 'allthetweaks:mini_end',
-    G: 'minecraft:bedrock',
-    H: 'minecraft:bedrock',
-    I: 'minecraft:bedrock'
+    G: 'allthecompressed:end_stone_5x',
+    H: 'allthecompressed:emerald_block_4x',
+    I: 'allthecompressed:diamond_block_4x'
   }).id('allthemods:allthetweaks/dimensional_seed')
 
     // Withers Compass
