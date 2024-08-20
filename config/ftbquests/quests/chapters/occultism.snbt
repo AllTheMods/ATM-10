@@ -338,7 +338,7 @@
 		{
 			dependencies: ["3D41D0092D94636B"]
 			dependency_requirement: "one_completed"
-			hide: false
+			hide_until_deps_visible: false
 			id: "4C873491F6F0FFAF"
 			min_width: 300
 			rewards: [
@@ -932,8 +932,8 @@
 		{
 			can_repeat: false
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				id: "ftbquests:custom_icon"
 			}

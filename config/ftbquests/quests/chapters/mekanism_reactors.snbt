@@ -251,7 +251,7 @@
 		}
 		{
 			dependencies: ["36B1995B495AA674"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "1482F2D45E8F761D"
 			min_width: 300
 			rewards: [
@@ -1378,7 +1378,7 @@
 		}
 		{
 			dependencies: ["0FF852DE33E41C90"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "673FCBF8685D0EEE"
 			min_width: 300
 			rewards: [
@@ -1420,7 +1420,7 @@
 		}
 		{
 			dependencies: ["0FF852DE33E41C90"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "14D772808D1BEAE2"
 			min_width: 350
 			rewards: [
@@ -1485,8 +1485,8 @@
 		{
 			can_repeat: false
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				id: "ftbquests:custom_icon"
 			}

@@ -20,7 +20,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			hide: false
+			hide_until_deps_visible: false
 			id: "2B05A29C62676EB2"
 			rewards: [
 				{
@@ -49,7 +49,7 @@
 		}
 		{
 			dependencies: ["2B05A29C62676EB2"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "444ACE285311ECB4"
 			rewards: [
 				{
@@ -173,7 +173,7 @@
 		}
 		{
 			dependencies: ["42822B1E8A53D051"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4748831E75A840BE"
 			rewards: [
 				{
@@ -297,7 +297,7 @@
 		}
 		{
 			dependencies: ["77FC692AC94D2EEF"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "65BBA5C0DAEEC31F"
 			rewards: [
 				{
@@ -597,7 +597,7 @@
 		}
 		{
 			dependencies: ["17F3AC15ADCFB175"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2916F873A4DA84E8"
 			rewards: [
 				{
@@ -712,7 +712,7 @@
 		}
 		{
 			dependencies: ["1F18B64C84C8809D"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "283CA6DB77D5D2EB"
 			rewards: [
 				{
@@ -836,7 +836,7 @@
 		}
 		{
 			dependencies: ["6141DE779232C8AA"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4F48A4839B549C92"
 			rewards: [
 				{
@@ -964,7 +964,7 @@
 		}
 		{
 			dependencies: ["5AC497F76A086A5C"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: {
 				id: "minecraft:potion"
 			}
@@ -1119,7 +1119,7 @@
 		}
 		{
 			dependencies: ["3371F9248D403664"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "738E94C4CFB05D11"
 			rewards: [
 				{

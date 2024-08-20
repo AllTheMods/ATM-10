@@ -125,6 +125,22 @@
 			x: 7.0d
 			y: 2.5d
 		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/pneumaticcraft/pnc_name.png"
+			rotation: 0.0d
+			width: 20.88888888888889d
+			x: 6.5d
+			y: -6.5d
+		}
+		{
+			height: 2.5d
+			image: "atm:textures/questpics/pneumaticcraft/pnc_logo.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 23.0d
+			y: -3.5d
+		}
 	]
 	order_index: 6
 	quest_links: [ ]
@@ -223,8 +239,8 @@
 		{
 			dependencies: ["371A34B297C8A8EF"]
 			dependency_requirement: "one_completed"
-			hide: true
 			hide_dependency_lines: false
+			hide_until_deps_visible: true
 			id: "6FD65139CD50A8C0"
 			min_required_dependencies: 1
 			optional: true
@@ -279,7 +295,7 @@
 		}
 		{
 			dependencies: ["3E16CF590C911129"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7B2008977702D0C8"
 			rewards: [{
 				id: "75CB05A0CB74D837"
@@ -1024,7 +1040,7 @@
 		}
 		{
 			dependencies: ["54169B69725C49DF"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "3F657CF4EBDDC3C4"
 			optional: true
 			rewards: [
@@ -1237,8 +1253,8 @@
 		}
 		{
 			dependencies: ["371A34B297C8A8EF"]
-			hide: true
 			hide_dependency_lines: true
+			hide_until_deps_visible: true
 			icon: {
 				id: "pneumaticcraft:upgrade_matrix"
 			}
@@ -1964,6 +1980,9 @@
 		}
 		{
 			dependencies: ["0AEAEA976ED0C470"]
+			icon: {
+				id: "minecraft:villager_spawn_egg"
+			}
 			id: "61202F9BCB4C2848"
 			optional: true
 			rewards: [
@@ -1983,10 +2002,8 @@
 			]
 			size: 0.5d
 			tasks: [{
-				id: "684C1F2B652C44FF"
-				item: { components: { "easy_villagers:villager": { AbsorptionAmount: 0.0f, Age: 0, ArmorDropChances: [ 0.085f, 0.085f, 0.085f, 0.085f ], ArmorItems: [ { }, { }, { }, { } ], Brain: { memories: { "minecraft:job_site": { value: { dimension: "minecraft:overworld", pos: [I; -224, 88, 207 ] } } } }, CanPickUpLoot: 1b, DeathTime: 0s, FallFlying: 0b, FoodLevel: 0b, ForcedAge: 0, Gossips: [ ], HandDropChances: [ 0.085f, 0.085f ], HandItems: [ { }, { } ], Health: 20.0f, HurtByTimestamp: 0, HurtTime: 0s, Inventory: [ ], LastGossipDecay: 145358L, LastRestock: 0L, LeftHanded: 0b, Offers: { Recipes: [ { buy: { count: 1, id: "minecraft:emerald" }, maxUses: 16, priceMultiplier: 0.05f, sell: { count: 8, id: "pneumaticcraft:pressure_tube" }, xp: 2 }, { buy: { count: 14, id: "minecraft:emerald" }, priceMultiplier: 0.05f, sell: { count: 1, id: "pneumaticcraft:pcb_blueprint" }, xp: 10 } ] }, PersistenceRequired: 0b, RestocksToday: 0, VillagerData: { level: 1, profession: "pneumaticcraft:mechanic", type: "minecraft:plains" }, Xp: 0, attributes: [ { base: 0.6d, id: "minecraft:generic.step_height" }, { base: 0.1d, id: "caelus:fall_flying" }, { base: 0.0d, id: "minecraft:generic.oxygen_bonus" }, { base: 0.5d, id: "minecraft:generic.movement_speed" }, { base: 0.08d, id: "minecraft:generic.gravity" } ] } }, count: 1, id: "easy_villagers:villager" }
-				match_components: "strict"
-				type: "item"
+				id: "100BBEDCB73557BC"
+				type: "checkmark"
 			}]
 			x: 0.75d
 			y: 1.0d
@@ -2506,7 +2523,7 @@
 		}
 		{
 			dependencies: ["2E8F851A4E98F741"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "762B8309E1A31B99"
 			rewards: [{
 				id: "1F50DA45FF043213"
@@ -2524,7 +2541,7 @@
 		}
 		{
 			dependencies: ["2E8F851A4E98F741"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "002163B909070CF8"
 			rewards: [{
 				id: "3E2940849E104602"
@@ -2542,7 +2559,7 @@
 		}
 		{
 			dependencies: ["2E8F851A4E98F741"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "15007DCAF701B361"
 			rewards: [{
 				id: "4184F7AA1CFDA194"
@@ -2560,7 +2577,7 @@
 		}
 		{
 			dependencies: ["2E8F851A4E98F741"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0D9560C8E247F9E7"
 			rewards: [{
 				id: "63B943916BC1038D"
@@ -2578,7 +2595,7 @@
 		}
 		{
 			dependencies: ["2E8F851A4E98F741"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5103C817381181DE"
 			rewards: [{
 				id: "78E81C79E8102C79"
@@ -2596,7 +2613,7 @@
 		}
 		{
 			dependencies: ["2E8F851A4E98F741"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "46BE62C20C720D10"
 			rewards: [{
 				id: "683702485F8C3DF5"
@@ -2614,7 +2631,7 @@
 		}
 		{
 			dependencies: ["2E8F851A4E98F741"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "00D7BCC68D971A53"
 			rewards: [{
 				id: "1D6F067C86456070"
@@ -2635,7 +2652,7 @@
 		}
 		{
 			dependencies: ["2E8F851A4E98F741"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7BFC24607189B6D0"
 			rewards: [{
 				id: "19D8C47FAA715BED"
@@ -2653,7 +2670,7 @@
 		}
 		{
 			dependencies: ["2E8F851A4E98F741"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "5D71ED16FD4E725A"
 			rewards: [{
 				id: "20E24F58991736B9"
@@ -2671,7 +2688,7 @@
 		}
 		{
 			dependencies: ["2E8F851A4E98F741"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7953C87C488A2AF7"
 			rewards: [{
 				id: "4F65FCD4DFE82F0C"
@@ -2757,7 +2774,7 @@
 		}
 		{
 			dependencies: ["2E8F851A4E98F741"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "6674270897997BF7"
 			rewards: [{
 				id: "2C60D8B870084CE8"
@@ -2829,7 +2846,7 @@
 		}
 		{
 			dependencies: ["2E8F851A4E98F741"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "718DABA6C9E5982A"
 			rewards: [{
 				id: "39DC46812FF22559"
@@ -2847,7 +2864,7 @@
 		}
 		{
 			dependencies: ["2E8F851A4E98F741"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "2DE7CC686B56881F"
 			rewards: [{
 				id: "13A94C21CBAB3800"
@@ -2865,7 +2882,7 @@
 		}
 		{
 			dependencies: ["2E8F851A4E98F741"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "4B4F5341D6DBDD19"
 			rewards: [{
 				id: "065A28BBF33279B1"
@@ -2883,7 +2900,7 @@
 		}
 		{
 			dependencies: ["2E8F851A4E98F741"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7386A8433698946C"
 			rewards: [{
 				id: "43E18EE34C2DFE89"
@@ -2901,7 +2918,7 @@
 		}
 		{
 			dependencies: ["2E8F851A4E98F741"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0F49E9167B5E97C9"
 			rewards: [{
 				id: "0B2FD870C2FB9E0D"
@@ -3249,8 +3266,8 @@
 				}
 			]
 			tasks: [{
-				id: "500BA99608E87FAF"
-				item: { components: { "ftbquests:missing_item": "itemfilters:or" }, count: 1, id: "ftbquests:missing_item" }
+				id: "7A7CAC894D9384BE"
+				item: { count: 1, id: "pneumaticcraft:gun_ammo" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -3258,7 +3275,7 @@
 		}
 		{
 			dependencies: ["2E8F851A4E98F741"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "61AD2207E770CD7F"
 			rewards: [{
 				id: "477F33B522B44F3D"
