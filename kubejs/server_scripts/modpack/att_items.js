@@ -2,7 +2,6 @@
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
 ServerEvents.recipes(allthemods => {
-
   // Dragon Soul
   allthemods.shaped('allthetweaks:dragon_soul', ['CDA', 'SNI', 'BGE'], {
     C: 'apothic_enchanting:infused_breath',
@@ -57,7 +56,7 @@ ServerEvents.recipes(allthemods => {
 	D: 'minecraft:bedrock',
 	E: 'minecraft:bedrock',
   F: 'minecraft:bedrock',
-	G: 'minecraft:bedrock',
+	G: 'mysticalagriculture:awakened_supremium_ingot_block',
 	H: 'minecraft:bedrock',
   I: 'minecraft:bedrock'
   }).id('allthemods:allthetweaks/philosophers_fuel')
@@ -95,15 +94,8 @@ results: [
 ]
 }).id('allthemods:pressure/allthetweaks/pulsating_black_hole')
 
-// Oblivion Shard
-allthemods.shaped('allthetweaks:oblivion_shard', [' AB', 'ACA', 'BA '], {
-A: 'minecraft:bedrock',
-C: 'minecraft:bedrock',
-B: 'evilcraft:piercing_vengeance_focus'
-}).id('allthemods:allthetweaks/oblivion_shard')
-
-
 })
+
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
