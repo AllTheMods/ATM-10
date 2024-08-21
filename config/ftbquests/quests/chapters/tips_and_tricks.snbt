@@ -197,6 +197,7 @@
 		}
 		{
 			id: "28E60192912BEBAD"
+			invisible: true
 			rewards: [
 				{
 					id: "6502F8AB0033CC29"
@@ -213,7 +214,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "7F265D92FDA70DFA"
-				item: { count: 1, id: "easy_villagers:villager" }
+				item: { components: { "ftbquests:missing_item": "easy_villagers:villager" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -274,6 +275,23 @@
 			}]
 			x: 1.0d
 			y: 8.5d
+		}
+		{
+			id: "0152938EE5651409"
+			invisible: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "4AEB792F6A939B3A"
+					type: "checkmark"
+				}
+				{
+					id: "6A965CD027BF762F"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
 		}
 	]
 }

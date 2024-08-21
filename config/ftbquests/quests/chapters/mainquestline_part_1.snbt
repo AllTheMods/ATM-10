@@ -309,8 +309,8 @@
 		}
 		{
 			dependencies: ["698A959C9E449592"]
-			hide: false
 			hide_dependency_lines: false
+			hide_until_deps_visible: false
 			id: "4DE1158931F84F22"
 			rewards: [{
 				id: "2C46B4017AC5F3AE"
@@ -486,7 +486,7 @@
 		}
 		{
 			dependencies: ["0F3D51FFD2FE8DCB"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "61C49BC2B384FB80"
 			rewards: [
 				{
@@ -526,7 +526,7 @@
 		}
 		{
 			dependencies: ["61C49BC2B384FB80"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "6EE5BE5693E8ACE4"
 			rewards: [{
 				id: "56A277BC5DE71CA9"
@@ -649,8 +649,8 @@
 		}
 		{
 			dependencies: ["051E0C85E7B71CE0"]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "3ADCAD65EA6900BA"
 			rewards: [
 				{
@@ -767,7 +767,7 @@
 		}
 		{
 			dependencies: ["6EDAB29FBD3C60A3"]
-			hide: false
+			hide_until_deps_visible: false
 			icon: {
 				components: {
 					"ftbquests:icon": "atm:textures/questpics/gettingstarted/warden_roar.png"
@@ -796,8 +796,8 @@
 		}
 		{
 			dependencies: ["4A4C71C43519D5FE"]
-			hide: false
 			hide_dependency_lines: false
+			hide_until_deps_visible: false
 			icon: {
 				components: {
 					"ftbquests:icon": "atm:textures/questpics/wither.png"
@@ -845,7 +845,7 @@
 		}
 		{
 			dependencies: ["0F3D51FFD2FE8DCB"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "4A4C71C43519D5FE"
 			rewards: [{
 				count: 3
@@ -1035,6 +1035,23 @@
 			}]
 			x: 3.0d
 			y: 9.0d
+		}
+		{
+			id: "110BF3A2BE85F911"
+			invisible: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "44CEA28EBD6C0898"
+					type: "checkmark"
+				}
+				{
+					id: "7C6F7EF2B3AC2824"
+					type: "checkmark"
+				}
+			]
+			x: -5.0d
+			y: 1.5d
 		}
 	]
 }

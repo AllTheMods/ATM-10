@@ -177,7 +177,7 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "00A17728A387B426"
 			rewards: [{
 				id: "13A6FF7C32F2A33F"
@@ -221,8 +221,8 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "369D3AF332181DA8"
 			rewards: [{
 				id: "2FAF74F05A3FB855"
@@ -239,7 +239,7 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "73C70B15582958A5"
 			rewards: [{
 				id: "7BF7221FDB6D90C9"
@@ -256,8 +256,8 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "06044B4452A6B720"
 			rewards: [{
 				id: "73C97FC16BFC308A"
@@ -274,8 +274,8 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "264BFB8C5F79616F"
 			rewards: [{
 				id: "5109858DAD10D79F"
@@ -292,8 +292,8 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "09FD3D0B9BCAEB5A"
 			rewards: [{
 				id: "12F728528AF6A6D3"
@@ -310,8 +310,8 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "5CC9CB0911954215"
 			rewards: [{
 				id: "53A40EE86E11B2C0"
@@ -328,8 +328,8 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "79D6A251FE3761B3"
 			rewards: [{
 				id: "4D2E30FE89E3148F"
@@ -346,8 +346,8 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "41CF7CAEE4F60CCD"
 			rewards: [{
 				id: "310F333754B88B57"
@@ -364,8 +364,8 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "027FD9135DEC4949"
 			rewards: [{
 				id: "1EC49763E8E46D47"
@@ -382,8 +382,8 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "6D484150536536B9"
 			rewards: [{
 				id: "5A21046DE47F6AD0"
@@ -400,8 +400,8 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "349D19F2FCC34B84"
 			rewards: [{
 				id: "4A620DDFDE9BDB88"
@@ -418,8 +418,8 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "1E9BD4B74DAEA9FC"
 			rewards: [{
 				id: "121400F2EFEEB64C"
@@ -436,8 +436,8 @@
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			id: "3155E4212045BC8E"
 			rewards: [{
 				id: "69CAC89B71A6CB41"
@@ -608,8 +608,8 @@
 		}
 		{
 			dependencies: ["17419401147B5C02"]
-			hide: false
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			icon: {
 				id: "minecraft:gold_ingot"
 			}
@@ -3134,6 +3134,23 @@
 			}]
 			x: -8.0d
 			y: 0.5d
+		}
+		{
+			id: "0A11725B41AB45F6"
+			invisible: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "11931CBFE67ADBBB"
+					type: "checkmark"
+				}
+				{
+					id: "508BC2CB4F4BC7EF"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -2.5d
 		}
 	]
 }

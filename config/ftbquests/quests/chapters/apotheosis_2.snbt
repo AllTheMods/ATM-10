@@ -7,7 +7,7 @@
 		id: "minecraft:spawner"
 	}
 	id: "0E81CBCD6B1D1895"
-	order_index: 1
+	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -213,6 +213,23 @@
 			}]
 			x: -0.7006802721088476d
 			y: 0.008503401360542284d
+		}
+		{
+			id: "2FE4B7B70D90A455"
+			invisible: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "3B219688DA1CF9C8"
+					type: "checkmark"
+				}
+				{
+					id: "73B56F2139A98F77"
+					type: "checkmark"
+				}
+			]
+			x: -2.0d
+			y: 0.0d
 		}
 	]
 }

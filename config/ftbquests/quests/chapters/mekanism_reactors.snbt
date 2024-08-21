@@ -91,7 +91,7 @@
 		}
 		{
 			height: 11.0d
-			hover: ["{atm10.quest.mekanismReactors.fusionReactor}"]
+			hover: ["Fusion Reactor"]
 			image: "atm:textures/questpics/mek/fusion_cutout.png"
 			rotation: 0.0d
 			width: 10.627118644067796d
@@ -100,7 +100,7 @@
 		}
 		{
 			height: 12.0d
-			hover: ["{atm10.quest.mekanismReactors.industrialTurbine}"]
+			hover: ["Industrial Turbine"]
 			image: "atm:textures/questpics/mek/turbine_cutout.png"
 			rotation: 0.0d
 			width: 10.536144578313253d
@@ -109,7 +109,7 @@
 		}
 		{
 			height: 10.0d
-			hover: ["{atm10.quest.mekanismReactors.fissionReactor}"]
+			hover: ["Fission Reactor"]
 			image: "atm:textures/questpics/mek/fission_cutout.png"
 			rotation: 0.0d
 			width: 9.661016949152541d
@@ -118,7 +118,7 @@
 		}
 		{
 			height: 10.0d
-			hover: ["{atm10.quest.mekanismReactors.supercriticalPhaseShifter}"]
+			hover: ["Super-critical Phase Shifter"]
 			image: "atm:textures/questpics/mek/sps_cutout.png"
 			rotation: 0.0d
 			width: 12.687687687687689d
@@ -202,7 +202,7 @@
 			y: 0.15d
 		}
 	]
-	order_index: 2
+	order_index: 4
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -251,7 +251,7 @@
 		}
 		{
 			dependencies: ["36B1995B495AA674"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "1482F2D45E8F761D"
 			min_width: 300
 			rewards: [
@@ -1378,7 +1378,7 @@
 		}
 		{
 			dependencies: ["0FF852DE33E41C90"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "673FCBF8685D0EEE"
 			min_width: 300
 			rewards: [
@@ -1420,7 +1420,7 @@
 		}
 		{
 			dependencies: ["0FF852DE33E41C90"]
-			hide: false
+			hide_until_deps_visible: false
 			id: "14D772808D1BEAE2"
 			min_width: 350
 			rewards: [
@@ -1485,8 +1485,8 @@
 		{
 			can_repeat: false
 			disable_toast: true
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: {
 				id: "ftbquests:custom_icon"
 			}
@@ -1507,6 +1507,23 @@
 			]
 			x: 0.0d
 			y: 6.0d
+		}
+		{
+			id: "066F78936C8F943B"
+			invisible: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "59F0226D83026397"
+					type: "checkmark"
+				}
+				{
+					id: "363BADA865C39474"
+					type: "checkmark"
+				}
+			]
+			x: 1.5d
+			y: -2.5d
 		}
 	]
 }

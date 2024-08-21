@@ -7,7 +7,7 @@
 		id: "justdirethings:fuel_canister"
 	}
 	id: "4EAAE0CEB26378A6"
-	order_index: 5
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -2986,6 +2986,23 @@
 			]
 			x: -6.5d
 			y: 9.0d
+		}
+		{
+			id: "441F37A95AB66E6B"
+			invisible: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "19931057AAC1A03A"
+					type: "checkmark"
+				}
+				{
+					id: "03982D782B426ABB"
+					type: "checkmark"
+				}
+			]
+			x: -3.5d
+			y: -1.0d
 		}
 	]
 }
