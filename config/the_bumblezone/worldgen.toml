@@ -1,0 +1,29 @@
+["Dungeon Options"]
+	#----------------------------
+	#
+	# How rare Bee Dungeons are. Higher numbers means more rare.
+	# Default rate is 1. Setting to 1001 will disable Bee Dungeons.
+	#
+	#Range: 1 ~ 1001
+	beeDungeonRarity = 1
+	#----------------------------
+	#
+	# How rare Tree Dungeons are. Higher numbers means more rare.
+	# Default rate is 1. Setting to 1001 will disable Tree Dungeons.
+	#
+	#Range: 1 ~ 1001
+	treeDungeonRarity = 2
+	#----------------------------
+	#
+	# How rare Spider Infested Bee Dungeons are. Higher numbers means more rare.
+	# Default rate is 5. Setting to 1001 will disable Bee Dungeons.
+	#
+	#Range: 1 ~ 1001
+	spiderInfestedBeeDungeonRarity = 5
+	#----------------------------
+	#
+	# How rare are Spider/Cave Spider Spawners in Spider Infested Bee Dungeons.
+	# 0 is no spawners, 1 is maximum spawners, and default is 0.2D
+	#
+	#Range: 0.0 ~ 1.0
+	spawnerRateSpiderBeeDungeon = 0.2

@@ -1,0 +1,63 @@
+["The Bumblezone Welcome Options"]
+	#----------------------------
+	#
+	# Whether to show message saying to check out Bumblezone's advancements when you get near beehive for first time.
+	#
+	enableInitialWelcomeMessage = true
+
+["The Bumblezone Teleportation Options"]
+	#----------------------------
+	#
+	# Allow Bumblezone mod to handle teleporting into the Bumblezone dimension.
+	#
+	enableEntranceTeleportation = true
+	#----------------------------
+	#
+	# Allow Bumblezone mod to handle teleporting out of the Bumblezone dimension.
+	#
+	enableExitTeleportation = true
+	#----------------------------
+	#
+	# If this is enabled, mobs that originally spawned in Bumblezone will be teleported
+	# to 0, 0 center of the Overworld when exiting Bumblezone dimension.
+	#
+	forceBumblezoneOriginMobToOverworldCenter = true
+	#----------------------------
+	#
+	# Makes leaving The Bumblezone dimension always places you back
+	# at the Overworld regardless of which dimension you originally
+	# came from. Use this option if this dimension becomes locked in
+	# with another dimension so you are stuck teleporting between the
+	# two and cannot get back to the Overworld.
+	#
+	forceExitToOverworld = false
+	#----------------------------
+	#
+	# Makes throwing Enderpearls at Bee Nests or Hives only
+	# work in the Overworld. What this means setting this to true makes it
+	# only possible to enter The Bumblezone dimension from the Overworld
+	onlyOverworldHivesTeleports = false
+	#----------------------------
+	#
+	# If the block tag `the_bumblezone:dimension_teleportation/required_blocks_under_beehive_to_teleport`
+	# has blocks specified and this config is set to true, then player will get a warning if they
+	# throw an Enderpearl at a Bee Nest/Beehive but the block under it is
+	# not the correct required block. It will also tell the player what
+	# block is needed under the Bee Nest/Beehive to teleport to the dimension.
+	#
+	warnPlayersOfWrongBlockUnderHive = true
+	#----------------------------
+	#
+	# Should teleporting to and from The Bumblezone work
+	# with modded Bee Nests and modded Beehives as well.
+	#
+	allowTeleportationWithModdedBeehives = true
+	#----------------------------
+	#
+	# Changes the default dimension that teleporting exiting will take mobs to
+	# if there is no previously saved dimension on the mob.
+	# Use this option ONLY if your modpack's default dimension is not the Overworld.
+	# This will affect forceExitToOverworld, forceBumblezoneOriginMobToOverworldCenter, and onlyOverworldHivesTeleports
+	# config options so that they use this new default dimension instead of Overworld.
+	#
+	defaultDimension = "minecraft:overworld"

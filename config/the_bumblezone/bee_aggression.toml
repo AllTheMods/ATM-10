@@ -1,0 +1,89 @@
+	["Wrath of the Hive Options"."Bees Aggression Options"]
+		#----------------------------
+		#
+		# Turn off or on the ability to get Wrath of the Hive effect.
+		# 
+		# The bees can see you through walls and will have 
+		# speed, absorption, and strength effects applied to them.
+		# 
+		# Will also affect the bee's aggression toward other mobs in the dimension.
+		# Note: Peaceful mode will always override the bee aggressive setting.
+		#
+		allowWrath = true
+		#----------------------------
+		#
+		# How far away the bee can be to become angry and hunt you down if
+		# you get Wrath of the Hive effect in the Bumblezone dimension.
+		# 
+		# Will also affect the bee's aggression range toward other mobs in the dimension.
+		#
+		#Range: 1 ~ 200
+		aggressionTriggerRadius = 64
+		#----------------------------
+		#
+		# How long Wrath of the Hive lasts which is basically how long
+		# angry bees will keep their effects for (speed, absorption, strength).
+		# Note: This is in ticks. 20 ticks = 1 second. And bee's normal anger will remain.
+		#
+		#Range: > 1
+		howLongWrathOfTheHiveLasts = 1680
+		#----------------------------
+		#
+		# Determines if Wrath of the Hive can be applied to players outside
+		# the Bumblezone dimension when they pick up Honey blocks, take honey
+		# from Filled Porous Honey blocks, or drink Honey Bottles.
+		#
+		allowWrathOfTheHiveOutsideBumblezone = false
+		#----------------------------
+		#
+		# If set to true, any entity that harms a beehemoth and is not owner of it,
+		# that entity will get Wrath of the Hive effect.
+		beehemothTriggersWrath = false
+		#----------------------------
+		#
+		# Show the orange-ish particles when you get Wrath of the Hive
+		# after you angered the bees in the Bumblezone dimension.
+		#
+		showWrathOfTheHiveParticles = true
+
+	["Wrath of the Hive Options"."Bee Buffs From Wrath"]
+		#----------------------------
+		#
+		# How fast bees move along the ground (Not while flying).
+		# You will see this a lot when bees are about to attack
+		# you, they tend to touch the floor and the speed boost
+		# makes them dash forward at you. Set this to higher for
+		# faster dash attacks from bees.
+		#
+		#Range: > 1
+		speedBoostLevel = 2
+		#----------------------------
+		#
+		# How much extra health bees get that always instantly regenerates.
+		# This means you need to deal more damage than the extra health gives
+		# order to actually damage the bee's real health bar.
+		# 
+		# For example, Absorption 1 here makes bees get 4 extra padding of health (2 full hearts).
+		# Your attacks need to deal 4 1/2 or more damage to actually be able to
+		# kill the bee. This means using Bane of Arthropod 5 is needed to kill bees
+		# if you set the absorption to a higher value like 2 or 3.
+		# If you set this to like 5 or something, bees may be invincible!
+		#
+		#Range: > 1
+		absorptionBoostLevel = 1
+		#----------------------------
+		#
+		# How strong the bees attacks become. 
+		# (5 or higher will instant kill you without armor).
+		#
+		#Range: > 1
+		strengthBoostLevel = 1
+
+["Protection of the Hive Options"]
+	#----------------------------
+	#
+	# How long entities will keep Protection of the Hive effect after feeding bees
+	# or Brood Blocks. Bees will attack anyone that damages someone with the effect.
+	#
+	#Range: > 1
+	howLongProtectionOfTheHiveLasts = 1680
