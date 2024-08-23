@@ -36,7 +36,18 @@ ServerEvents.recipes(allthemods => {
   universalPress('minecraft:diamond', 'ae2:printed_engineering_processor', 'printed_engineering_processor')
   universalPress('minecraft:gold_ingot', 'ae2:printed_logic_processor', 'printed_logic_processor')
   universalPress('minecraft:iron_block', 'kubejs:universal_press', 'universal_press_duplicate')
-  
+
+    const colors = [
+        'white', 'yellow', 'orange', 'red', 'pink', 'magenta', 'purple', 'light_blue', 'cyan', 'blue', 'lime', 'green', 'brown', 'light_gray', 'gray', 'black'
+    ];
+
+    colors.forEach(color => {
+        allthemods.shapeless(`4x ae2:${color}_covered_cable`, [`ae2:${color}_covered_dense_cable`]).id(`allthemods:ae2/${color}_dense_covered_to_normal`);
+        allthemods.shapeless(`4x ae2:${color}_smart_cable`, [`ae2:${color}_smart_dense_cable`]).id(`allthemods:ae2/${color}_smart_covered_to_normal`);
+        allthemods.shapeless(`ae2:${color}_covered_dense_cable`, [`4x ae2:${color}_covered_cable`]).id(`allthemods:ae2/${color}_covered_to_dense`);
+        allthemods.shapeless(`ae2:${color}_smart_dense_cable`, [`4x ae2:${color}_smart_cable`]).id(`allthemods:ae2/${color}_smart_to_dense`);
+    });
+
   allthemods.shapeless(` 4x ae2:fluix_covered_cable`,[`ae2:fluix_covered_dense_cable`]).id(`allthemods:ae2/dense_to_normal`)
   allthemods.shapeless(` 4x ae2:fluix_smart_cable`,[`ae2:fluix_smart_dense_cable`]).id(`allthemods:ae2/smart_dense_to_smart_normal`)
   
