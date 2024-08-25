@@ -25,14 +25,14 @@ ServerEvents.recipes(event => {
         'granite'
     ]
 
-    cobbleGen.forEach(item => {
+    for (let item of cobbleGen) {
         event.recipes.modern_industrialization.mixer(2, 100)
             .fluidIn('minecraft:water', 1000, 0)
             .fluidIn('minecraft:lava', 1000, 0)
             .itemIn(`minecraft:${item}`, 0)
             .itemOut(`minecraft:${item}`)
             .id(`atm:mixer/cobble_gen/${item}`)
-    })
+    }
 
     event.recipes.modern_industrialization.mixer(8, 200)
         .fluidIn('modern_industrialization:heavy_water', 1)

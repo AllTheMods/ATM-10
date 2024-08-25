@@ -1,0 +1,18 @@
+[Client]
+    # When looking at an Entangled Block, should its bound block be highlighted?
+    # Allowed values: true, false - Default: true
+    renderBlockHighlight = true
+
+    # Should the block rendered inside entangled blocks rotate?
+    # Allowed values: true, false - Default: true
+    rotateRenderedBlock = true
+
+[General]
+    # Can entangled blocks be bound between different dimensions? Previously bound entangled blocks won't be affected.
+    # Allowed values: true, false - Default: true
+    allowDimensional = true
+
+    # What is the max range in which entangled blocks can be bound? Only affects blocks in the same dimension. -1 for infinite range. Previously bound entangled blocks won't be affected.
+    # Allowed range: -1 ~ 2147483647 - Default: -1
+    maxDistance = -1
+
