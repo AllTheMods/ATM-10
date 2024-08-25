@@ -38,7 +38,6 @@ ServerEvents.recipes(allthemods => {
         ["evilcraft",["undead"]],
         ["allthemodium",["ancient","soul","demonic"]],
         ["integrateddynamics", ["menril"]],
-        ["ars_nouveau", ["archwood"]],
         ["regions_unexplored", 
             ["alpha", "baobab", "blackwood", "blue_bioshroom", "brimwood", "cobalt", "cypress", "dead", "eucalyptus", "green_bioshroom", "joshua", "kapok", "larch", "magnolia", "maple", "mauve", "palm", "pine", "pink_bioshroom", "redwood", "socotra", "willow", "yellow_bioshroom"]
         ]
@@ -49,6 +48,9 @@ ServerEvents.recipes(allthemods => {
             prodSawing(mod[0]+':'+log+'_planks', mod[0]+':'+log+'_logs',`productivetrees:sawing/${mod[0]}/${log}_plank_from_log`);
         })
     })
+    // ars actually did the responsible thing and put the logs under #c:logs/archwood
+    mekSawing('ars_nouveau:archwood_planks','c:logs/archwood','mekansim:sawing/log/ars/archwood')
+    prodSawing('ars_nouveau:archwood_planks','c:logs/archwood','productivetrees:sawing/ars/archwood_plank_from_log')
 
     // the kubeJS schema for recipe.mekanism.sawing seems not yet to be updated to 1.21, so we have to do it this way
     function mekSawing(plank, log, id){
