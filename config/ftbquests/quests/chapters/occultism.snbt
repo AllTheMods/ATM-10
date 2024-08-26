@@ -234,7 +234,7 @@
 			y: 5.5d
 		}
 	]
-	order_index: 0
+	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -954,6 +954,23 @@
 			]
 			x: 0.0d
 			y: 6.0d
+		}
+		{
+			id: "6CCDEEDA2C99DA66"
+			invisible: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "1709A45C149125F1"
+					type: "checkmark"
+				}
+				{
+					id: "036759CF4EEFFC7D"
+					type: "checkmark"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
 		}
 	]
 }

@@ -281,7 +281,7 @@
 			y: 2.0d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -1541,6 +1541,23 @@
 			}]
 			x: 8.0d
 			y: -3.0d
+		}
+		{
+			id: "39605F1FEB1A5A1C"
+			invisible: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "5DB7A437BEC3E2D4"
+					type: "checkmark"
+				}
+				{
+					id: "38B6F45109CB033A"
+					type: "checkmark"
+				}
+			]
+			x: 3.0d
+			y: -7.5d
 		}
 	]
 }

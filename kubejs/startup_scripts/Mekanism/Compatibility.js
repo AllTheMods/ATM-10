@@ -12,10 +12,8 @@ global.mekStackAdditions = []
 
 // DO NOT EDIT BELOW THIS LINE
 
-const $Slurry = Java.loadClass('mekanism.api.chemical.slurry.Slurry')
-const $SlurryBuilder = Java.loadClass('mekanism.api.chemical.slurry.SlurryBuilder')
-const $Gas = Java.loadClass('mekanism.api.chemical.gas.Gas')
-const $GasBuilder = Java.loadClass('mekanism.api.chemical.gas.GasBuilder')
+const $Chemical = Java.loadClass('mekanism.api.chemical.Chemical')
+const $ChemicalBuilder = Java.loadClass('mekanism.api.chemical.ChemicalBuilder')
 
 StartupEvents.registry('item', allthemods => {
   const mekItems = ['clump', 'crystal', 'dirty_dust', 'shard']
@@ -43,15 +41,11 @@ StartupEvents.registry('item', allthemods => {
   })
 })
 
-StartupEvents.registry('mekanism:slurry', allthemods => {
+StartupEvents.registry('mekanism:chemical', allthemods => {
   global.mekStackAdditions.forEach(entry => {
-    allthemods.createCustom(`clean_${entry.material}`, () => $Slurry($SlurryBuilder.clean().ore(`forge:ores/${entry.material}`).tint(Color.of(entry.color).getRgbJS())))
-    allthemods.createCustom(`dirty_${entry.material}`, () => $Slurry($SlurryBuilder.dirty().ore(`forge:ores/${entry.material}`).tint(Color.of(entry.color).getRgbJS())))
+    allthemods.createCustom(`clean_${entry.material}`, () => $Chemical($ChemicalBuilder.cleanSlurry().ore(`forge:ores/${entry.material}`).tint(Color.of(entry.color).getRgbJS())))
+    allthemods.createCustom(`dirty_${entry.material}`, () => $Chemical($ChemicalBuilder.dirtySlurry().ore(`forge:ores/${entry.material}`).tint(Color.of(entry.color).getRgbJS())))
   })
-})
-
-StartupEvents.registry('mekanism:gas', allthemods => {
-  allthemods.createCustom(`neutron_gas`, () => $Gas($GasBuilder.builder()))
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
