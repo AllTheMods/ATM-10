@@ -35,16 +35,16 @@ StartupEvents.registry('item', allthemods => {
         .texture('layer0', 'mekanism:item/empty')
         .texture('layer1', `mekanism:item/dust`)
         .color(1, entry.color)
-        .tag(`forge:dusts`)
-        .tag(`forge:dusts/${entry.material}`)
+        .tag(`c:dusts`)
+        .tag(`c:dusts/${entry.material}`)
     }
   })
 })
 
 StartupEvents.registry('mekanism:chemical', allthemods => {
   global.mekStackAdditions.forEach(entry => {
-    allthemods.createCustom(`clean_${entry.material}`, () => $Chemical($ChemicalBuilder.cleanSlurry().ore(`forge:ores/${entry.material}`).tint(Color.of(entry.color).getRgbJS())))
-    allthemods.createCustom(`dirty_${entry.material}`, () => $Chemical($ChemicalBuilder.dirtySlurry().ore(`forge:ores/${entry.material}`).tint(Color.of(entry.color).getRgbJS())))
+    allthemods.createCustom(`clean_${entry.material}`, () => $Chemical($ChemicalBuilder.cleanSlurry().ore(`c:ores/${entry.material}`).tint(Color.of(entry.color).getRgbJS())))
+    allthemods.createCustom(`dirty_${entry.material}`, () => $Chemical($ChemicalBuilder.dirtySlurry().ore(`c:ores/${entry.material}`).tint(Color.of(entry.color).getRgbJS())))
   })
 })
 
