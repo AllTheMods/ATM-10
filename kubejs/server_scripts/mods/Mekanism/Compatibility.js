@@ -86,7 +86,7 @@ ServerEvents.recipes(allthemods => {
       }
     }
 
-    if (!Ingredient.of(`#forge:ores/${material}`).isEmpty()) {
+    if (!Ingredient.of(`#c:ores/${material}`).isEmpty()) {
       allthemods.custom({
         type: 'mekanism:dissolution',
         itemInput: {
@@ -152,7 +152,7 @@ ServerEvents.recipes(allthemods => {
       }
     }
 
-    if (!Ingredient.of(`#forge:raw_materials/${material}`).isEmpty()) {
+    if (!Ingredient.of(`#c:raw_materials/${material}`).isEmpty()) {
       allthemods.custom({
         type: 'mekanism:dissolution',
         itemInput: {
