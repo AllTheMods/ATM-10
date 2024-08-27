@@ -24,11 +24,6 @@
 			id: "2B05A29C62676EB2"
 			rewards: [
 				{
-					id: "0FE23E01BFCD22FA"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 5
 					id: "4247F14C46042AFC"
 					item: {
@@ -36,6 +31,11 @@
 						id: "minecraft:rotten_flesh"
 					}
 					type: "item"
+				}
+				{
+					id: "716EC603C1FC926F"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -53,15 +53,15 @@
 			id: "444ACE285311ECB4"
 			rewards: [
 				{
-					id: "3ED7AA82E00DCFD5"
-					type: "xp"
-					xp: 20
-				}
-				{
 					exclude_from_claim_all: true
 					id: "6A111F9EEADA4BA2"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "6FCE69EAA8F7D08C"
+					type: "xp"
+					xp: 25
 				}
 			]
 			tasks: [{
@@ -77,11 +77,6 @@
 			dependencies: ["444ACE285311ECB4"]
 			id: "146232B8504789C1"
 			rewards: [
-				{
-					id: "267B3DBA7DED8C3B"
-					type: "xp"
-					xp: 50
-				}
 				{
 					count: 20
 					id: "0030F09FB9D2DE22"
@@ -107,6 +102,11 @@
 					table_id: 4196188979167302596L
 					type: "random"
 				}
+				{
+					id: "5E76EDDE93587CF1"
+					type: "xp"
+					xp: 50
+				}
 			]
 			tasks: [{
 				entity: "minecraft:zombie"
@@ -122,15 +122,15 @@
 			id: "7D5B36BF3EC0C93F"
 			rewards: [
 				{
-					id: "0A77CE5C75957CD7"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "180D2F31E833E6B5"
 					table_id: 5564196992594175882L
 					type: "random"
+				}
+				{
+					id: "60C9D5254F78453D"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "pentagon"
@@ -148,11 +148,6 @@
 			id: "42822B1E8A53D051"
 			rewards: [
 				{
-					id: "40AC6E73C9411610"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 5
 					id: "47DAFBFECB3B54BE"
 					item: {
@@ -160,6 +155,11 @@
 						id: "minecraft:bone"
 					}
 					type: "item"
+				}
+				{
+					id: "3518A0200422A88E"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -177,15 +177,15 @@
 			id: "4748831E75A840BE"
 			rewards: [
 				{
-					id: "0D2AAD3B11A32E90"
-					type: "xp"
-					xp: 20
-				}
-				{
 					exclude_from_claim_all: true
 					id: "056975CFED74BF64"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "750E749A079F915D"
+					type: "xp"
+					xp: 25
 				}
 			]
 			tasks: [{
@@ -202,11 +202,6 @@
 			id: "410E0DD607CB3469"
 			rewards: [
 				{
-					id: "02E2F8ED5DB84B97"
-					type: "xp"
-					xp: 50
-				}
-				{
 					count: 20
 					id: "7A227BD20C66223A"
 					item: {
@@ -216,13 +211,13 @@
 					type: "item"
 				}
 				{
-					count: 20
+					count: 10
 					id: "342AD2A33F43C0EE"
 					item: {
 						count: 1
 						id: "minecraft:arrow"
 					}
-					random_bonus: 20
+					random_bonus: 10
 					type: "item"
 				}
 				{
@@ -230,6 +225,11 @@
 					id: "649295B3143B081D"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "313019F9ED9DC6FE"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -246,15 +246,15 @@
 			id: "555957ED58ABF8F8"
 			rewards: [
 				{
-					id: "3F6EFAED74D8B549"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "4F90CF0B7D2FED9B"
 					table_id: 5564196992594175882L
 					type: "random"
+				}
+				{
+					id: "033A2FCD299B5D6F"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "pentagon"
@@ -301,15 +301,15 @@
 			id: "65BBA5C0DAEEC31F"
 			rewards: [
 				{
-					id: "687FF91B1E08FDFF"
-					type: "xp"
-					xp: 20
-				}
-				{
 					exclude_from_claim_all: true
 					id: "01F13A0B354BBBFD"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "52557DBFFE61E796"
+					type: "xp"
+					xp: 25
 				}
 			]
 			tasks: [{
@@ -326,11 +326,6 @@
 			id: "76A29816F19E33A2"
 			rewards: [
 				{
-					id: "22546D5D3D7EB48C"
-					type: "xp"
-					xp: 50
-				}
-				{
 					count: 20
 					id: "27F653E02AC93F25"
 					item: {
@@ -344,6 +339,11 @@
 					id: "2C419A310D1686C7"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "1E1ACF28D0392E3B"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -360,15 +360,15 @@
 			id: "5FCA4FF8C135435E"
 			rewards: [
 				{
-					id: "4648D5CB942BAA4A"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "7A4B7D60F897D023"
 					table_id: 5564196992594175882L
 					type: "random"
+				}
+				{
+					id: "486302C7D5B4041B"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "pentagon"
@@ -407,15 +407,15 @@
 			id: "728BE1816DA23DC0"
 			rewards: [
 				{
-					id: "73BAA6AD36E525E5"
-					type: "xp"
-					xp: 1000
-				}
-				{
 					exclude_from_claim_all: true
 					id: "72DC79DE53E77CAD"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "73BCDC692019DA13"
+					type: "xp"
+					xp: 500
 				}
 			]
 			size: 1.5d
@@ -438,15 +438,15 @@
 			id: "09C82CDDA800D8C9"
 			rewards: [
 				{
-					id: "47314637684743A3"
-					type: "xp"
-					xp: 1000
-				}
-				{
 					exclude_from_claim_all: true
 					id: "12C0D9B030D64A4B"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "41120C660059B98F"
+					type: "xp"
+					xp: 500
 				}
 			]
 			size: 1.5d
@@ -469,15 +469,15 @@
 			id: "08D1CC753F6B4283"
 			rewards: [
 				{
-					id: "67970FDC5848EF61"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "4BB86DB9D806D3E4"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "4400D0308D9EF346"
+					type: "xp"
+					xp: 100
 				}
 			]
 			size: 1.5d
@@ -492,23 +492,25 @@
 		}
 		{
 			id: "56DA46DC82F6665D"
-			invisible: true
 			rewards: [
-				{
-					id: "20AEE2C8F4472343"
-					type: "xp"
-					xp: 1000
-				}
 				{
 					exclude_from_claim_all: true
 					id: "380E221DF1F736A8"
 					table_id: 5564196992594175882L
 					type: "random"
 				}
+				{
+					id: "51BCD61ECEC5BE03"
+					type: "xp"
+					xp: 500
+				}
 			]
 			size: 1.5d
 			tasks: [{
 				entity: "ars_nouveau:wilden_boss"
+				icon: {
+					id: "ars_nouveau:wilden_tribute"
+				}
 				id: "452B65E139D9E12D"
 				type: "kill"
 				value: 1L
@@ -539,15 +541,15 @@
 					type: "item"
 				}
 				{
-					id: "2A9810116395C984"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "66C49399D8CCD721"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "2052F84B9D14A141"
+					type: "xp"
+					xp: 100
 				}
 			]
 			size: 1.5d
@@ -601,15 +603,15 @@
 			id: "2916F873A4DA84E8"
 			rewards: [
 				{
-					id: "1E180EED68717968"
-					type: "xp"
-					xp: 20
-				}
-				{
 					exclude_from_claim_all: true
 					id: "2666996F798768C7"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "268C07B6CA4CDF5E"
+					type: "xp"
+					xp: 25
 				}
 			]
 			tasks: [{
@@ -626,11 +628,6 @@
 			id: "2AAF57D1D8AB6BF8"
 			rewards: [
 				{
-					id: "6A0CF631E02D49A1"
-					type: "xp"
-					xp: 50
-				}
-				{
 					count: 8
 					id: "05A65D5FBBCE30C9"
 					item: {
@@ -645,6 +642,11 @@
 					id: "46897BBCAF61CBCB"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "0E43D55ADBF66410"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -661,15 +663,15 @@
 			id: "479A4E778D8D7317"
 			rewards: [
 				{
-					id: "2BC1E9EBB5267A83"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "4EEDA3086FA8D846"
 					table_id: 5564196992594175882L
 					type: "random"
+				}
+				{
+					id: "6F2AC0995B13BC50"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "pentagon"
@@ -716,15 +718,15 @@
 			id: "283CA6DB77D5D2EB"
 			rewards: [
 				{
-					id: "39C45D0CB4075128"
-					type: "xp"
-					xp: 20
-				}
-				{
 					exclude_from_claim_all: true
 					id: "4A6C2A97D769418B"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "524BCAEA8EC772F5"
+					type: "xp"
+					xp: 25
 				}
 			]
 			tasks: [{
@@ -740,11 +742,6 @@
 			dependencies: ["283CA6DB77D5D2EB"]
 			id: "63A1F25DF658928A"
 			rewards: [
-				{
-					id: "5E0D1C18A4137319"
-					type: "xp"
-					xp: 50
-				}
 				{
 					count: 10
 					id: "6D9B9C1582E05FFD"
@@ -770,6 +767,11 @@
 					table_id: 4196188979167302596L
 					type: "random"
 				}
+				{
+					id: "3F780B09E39A1F03"
+					type: "xp"
+					xp: 50
+				}
 			]
 			tasks: [{
 				entity: "minecraft:spider"
@@ -785,15 +787,15 @@
 			id: "2D7E335B9D780E70"
 			rewards: [
 				{
-					id: "0673C1611D1BC1FD"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "2B8E13883A6DEF5F"
 					table_id: 5564196992594175882L
 					type: "random"
+				}
+				{
+					id: "2DCDA6CE746BEBF0"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "pentagon"
@@ -840,15 +842,15 @@
 			id: "4F48A4839B549C92"
 			rewards: [
 				{
-					id: "10A5CCDDA3FABD37"
-					type: "xp"
-					xp: 20
-				}
-				{
 					exclude_from_claim_all: true
 					id: "7E7B0138373F4D28"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "375FDEF229AED155"
+					type: "xp"
+					xp: 25
 				}
 			]
 			tasks: [{
@@ -865,12 +867,7 @@
 			id: "6C9BC3A699E57162"
 			rewards: [
 				{
-					id: "06776533F6B5ABCA"
-					type: "xp"
-					xp: 50
-				}
-				{
-					count: 20
+					count: 10
 					id: "3D8FB446CA3F27F4"
 					item: {
 						count: 1
@@ -880,20 +877,15 @@
 					type: "item"
 				}
 				{
-					count: 10
-					id: "5A1F2CBC8D91C5BE"
-					item: {
-						count: 1
-						id: "minecraft:blaze_powder"
-					}
-					random_bonus: 10
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "3DD5D5A5D39C411C"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "633125E5D7705BFF"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -910,15 +902,15 @@
 			id: "35CC1F1DA9530688"
 			rewards: [
 				{
-					id: "117A52F30802CC99"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "0845C88CA6D644A3"
 					table_id: 5564196992594175882L
 					type: "random"
+				}
+				{
+					id: "4871EDD07934397F"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "pentagon"
@@ -971,15 +963,15 @@
 			id: "6E4FD0B568BEB3F9"
 			rewards: [
 				{
-					id: "15E0578B1F9521EF"
-					type: "xp"
-					xp: 20
-				}
-				{
 					exclude_from_claim_all: true
 					id: "6CCE54980E8D2003"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "4227DE8BC66C8470"
+					type: "xp"
+					xp: 25
 				}
 			]
 			tasks: [{
@@ -998,11 +990,6 @@
 			dependencies: ["6E4FD0B568BEB3F9"]
 			id: "2D136FCDA92C92AC"
 			rewards: [
-				{
-					id: "0165B8CC821A943F"
-					type: "xp"
-					xp: 50
-				}
 				{
 					count: 10
 					id: "52854A638D3FE878"
@@ -1039,6 +1026,11 @@
 					table_id: 4196188979167302596L
 					type: "random"
 				}
+				{
+					id: "2A063FC9FE48C54F"
+					type: "xp"
+					xp: 50
+				}
 			]
 			tasks: [{
 				entity: "minecraft:witch"
@@ -1057,15 +1049,15 @@
 			id: "6F93A02E620C69FE"
 			rewards: [
 				{
-					id: "7FF2D930AF11BB82"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "2019E33C08375AA8"
 					table_id: 5564196992594175882L
 					type: "random"
+				}
+				{
+					id: "7A8FF2B777E0E6D6"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "pentagon"
@@ -1086,12 +1078,7 @@
 			id: "3371F9248D403664"
 			rewards: [
 				{
-					id: "7EC75E59C315BB3C"
-					type: "xp"
-					xp: 10
-				}
-				{
-					count: 6
+					count: 5
 					id: "3C294799544A5584"
 					item: {
 						count: 1
@@ -1106,6 +1093,11 @@
 						id: "minecraft:wither_skeleton_skull"
 					}
 					type: "item"
+				}
+				{
+					id: "65A4A21FEB144C30"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -1123,15 +1115,15 @@
 			id: "738E94C4CFB05D11"
 			rewards: [
 				{
-					id: "5A7979DA8E07631A"
-					type: "xp"
-					xp: 20
-				}
-				{
 					exclude_from_claim_all: true
 					id: "021EACDBD76A9D2E"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "45DA910A0FE7A08E"
+					type: "xp"
+					xp: 25
 				}
 			]
 			tasks: [{
@@ -1148,11 +1140,6 @@
 			id: "65CE9117B923C0DB"
 			rewards: [
 				{
-					id: "7ADAFF31822653D1"
-					type: "xp"
-					xp: 50
-				}
-				{
 					count: 3
 					id: "578580004196BB13"
 					item: {
@@ -1162,7 +1149,7 @@
 					type: "item"
 				}
 				{
-					count: 6
+					count: 30
 					id: "46FE70A8D25378BD"
 					item: {
 						count: 1
@@ -1175,6 +1162,11 @@
 					id: "24573A422CE166A4"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "1050FBCABC67BA5A"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -1191,19 +1183,15 @@
 			id: "180B3AFF8C552F3F"
 			rewards: [
 				{
-					count: 9
-					id: "5AACC888295804E0"
-					item: {
-						count: 1
-						id: "minecraft:wither_skeleton_skull"
-					}
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "4E3E6BB30F0AF436"
 					table_id: 5564196992594175882L
 					type: "random"
+				}
+				{
+					id: "0D93F33D0C1A9F92"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "pentagon"
@@ -1228,15 +1216,15 @@
 			id: "0E20A9B79D1C6637"
 			rewards: [
 				{
-					id: "1A20BD8574954FE2"
-					type: "xp"
-					xp: 1000
-				}
-				{
 					exclude_from_claim_all: true
 					id: "77D3E366578B4BF0"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "58EADB6575D84686"
+					type: "xp"
+					xp: 500
 				}
 			]
 			size: 1.5d

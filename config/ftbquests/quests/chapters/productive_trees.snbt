@@ -3,22 +3,39 @@
 	default_quest_shape: ""
 	filename: "productive_trees"
 	group: "6614EE2378B8AFB9"
+	icon: {
+		id: "minecraft:oak_sapling"
+	}
 	id: "1FAAEF0B9FD05CB9"
-	images: [{
-		click: "https://youtu.be/5kKjlCsmfcc?si=I_jZPW6TzqHpb8OD"
-		height: 1.0d
-		hover: ["Pilpoh's Productive Trees Guide"]
-		image: "minecraft:textures/gui/sprites/toast/tree.png"
-		rotation: 0.0d
-		width: 1.0d
-		x: -9.0d
-		y: 11.0d
-	}]
+	images: [
+		{
+			click: "https://youtu.be/5kKjlCsmfcc?si=I_jZPW6TzqHpb8OD"
+			height: 1.0d
+			hover: ["Pilpoh's Productive Trees Guide"]
+			image: "minecraft:textures/gui/sprites/toast/tree.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -9.0d
+			y: 11.0d
+		}
+		{
+			height: 0.3d
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: -3.0d
+			y: 0.9d
+		}
+	]
 	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
 			guide_page: " "
+			hide_dependent_lines: true
+			icon: {
+				id: "minecraft:oak_sapling"
+			}
 			id: "7C4F1012F5B6532F"
 			rewards: [{
 				id: "5B5E696FF15C3C31"
@@ -29,57 +46,16 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			tasks: [
-				{
-					id: "3F53EFE85005BEEF"
-					item: { count: 1, id: "minecraft:oak_sapling" }
-					type: "item"
-				}
-				{
-					id: "5ECA4E281306E081"
-					item: { count: 1, id: "minecraft:spruce_sapling" }
-					type: "item"
-				}
-				{
-					id: "56E588A7F74B2613"
-					item: { count: 1, id: "minecraft:birch_sapling" }
-					type: "item"
-				}
-				{
-					id: "362B9C47FE76FB62"
-					item: { count: 1, id: "minecraft:cherry_sapling" }
-					type: "item"
-				}
-				{
-					id: "5B199919A8E9FA8E"
-					item: { count: 1, id: "minecraft:dark_oak_sapling" }
-					type: "item"
-				}
-				{
-					id: "1AF16733E6613233"
-					item: { count: 1, id: "minecraft:acacia_sapling" }
-					type: "item"
-				}
-				{
-					id: "0F155C72B18C1651"
-					item: { count: 1, id: "minecraft:mangrove_propagule" }
-					type: "item"
-				}
-				{
-					id: "365FA04EB185C424"
-					item: { count: 1, id: "minecraft:flowering_azalea" }
-					type: "item"
-				}
-				{
-					id: "2946909335821E60"
-					item: { count: 1, id: "minecraft:jungle_sapling" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "3F53EFE85005BEEF"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:saplings)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: -9.0d
 			y: 12.0d
 		}
 		{
+			dependencies: ["7C4F1012F5B6532F"]
 			id: "0B70D40FA951E13B"
 			rewards: [
 				{
@@ -334,6 +310,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["7C4F1012F5B6532F"]
 			id: "01B2DDD81065B4EF"
 			rewards: [{
 				count: 16
@@ -384,6 +361,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["7C4F1012F5B6532F"]
 			id: "70F7B018CD61E946"
 			rewards: [{
 				count: 16
@@ -597,6 +575,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["7C4F1012F5B6532F"]
 			id: "08C6B7D2DAE87222"
 			rewards: [{
 				count: 16
@@ -970,6 +949,7 @@
 			y: 3.0d
 		}
 		{
+			dependencies: ["7C4F1012F5B6532F"]
 			id: "3A79E24283523E58"
 			rewards: [{
 				count: 16
@@ -1562,7 +1542,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3A79E24283523E58"]
@@ -1716,6 +1696,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["7C4F1012F5B6532F"]
 			id: "5753E0138A072A3F"
 			rewards: [{
 				count: 16
@@ -3671,8 +3652,8 @@
 				item: { count: 1, id: "productivetrees:soursop_sapling" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 0.0d
+			x: -4.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["29FA0E9664935566"]

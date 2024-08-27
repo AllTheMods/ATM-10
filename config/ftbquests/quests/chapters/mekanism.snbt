@@ -702,8 +702,8 @@
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
-				id: "6B88F1F9DF50C1E4"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:ingots/steel))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "1B9B1874D39C8B77"
+				item: { count: 1, id: "alltheores:steel_ingot" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -1598,8 +1598,8 @@
 					type: "item"
 				}
 				{
-					id: "3B5A283601BEADA0"
-					item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:dusts/sulfur))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					id: "765D13EFAB4174B2"
+					item: { count: 1, id: "alltheores:sulfur" }
 					type: "item"
 				}
 			]
@@ -1820,7 +1820,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "70A4BDDF6392DC9D"
-				item: { count: 1, id: "mekanism:upgrade_gas" }
+				item: { count: 1, id: "mekanism:upgrade_chemical" }
 				type: "item"
 			}]
 			x: 0.5d

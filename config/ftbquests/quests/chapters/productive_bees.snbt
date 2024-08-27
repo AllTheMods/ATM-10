@@ -34,12 +34,11 @@
 		}
 		{
 			height: 0.3d
-			hover: ["{atm10.quest.ae2.img.star}"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
 			x: -7.99d
-			y: 3.0d
+			y: 2.9d
 		}
 	]
 	order_index: 2
@@ -148,6 +147,9 @@
 		}
 		{
 			dependencies: ["109AD73F016D576B"]
+			icon: {
+				id: "productivebees:advanced_oak_beehive"
+			}
 			id: "7C169A4A39F37FAC"
 			rewards: [
 				{
@@ -637,6 +639,9 @@
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:clay_ball"
+			}
 			id: "24888CAD50B32B04"
 			rewards: [{
 				id: "40B999E6FCDAC7A8"
@@ -712,23 +717,23 @@
 			id: "66324D7D0C51AEAC"
 			rewards: [
 				{
-					id: "279DEFA11701B0C6"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "26D057A4EDC423A9"
-					table_id: 487623848494439020L
-					type: "random"
-				}
-				{
 					id: "6C3A925A7DDEEDD6"
 					item: {
 						count: 1
 						id: "productivelib:upgrade_base"
 					}
 					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7EDF5D0C5DEAC0E0"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+				{
+					id: "7ADA6B4CC85F69AD"
+					type: "xp"
+					xp: 10
 				}
 			]
 			size: 1.5d
@@ -753,9 +758,9 @@
 					type: "item"
 				}
 				{
-					id: "01C9C90A328265CE"
+					id: "0EA3E1281FF59E31"
 					type: "xp"
-					xp: 100
+					xp: 50
 				}
 			]
 			shape: "hexagon"
@@ -1191,6 +1196,9 @@
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:wooden_pickaxe"
+			}
 			id: "486060882E507CF1"
 			rewards: [{
 				id: "6C008390E836F306"
@@ -1392,7 +1400,6 @@
 				id: "allthemodium:allthemodium_ingot"
 			}
 			id: "6EFFF0DC80C1C8A3"
-			invisible: true
 			rewards: [
 				{
 					id: "43280AD345FCEAC4"
@@ -1505,7 +1512,6 @@
 				id: "allthemodium:vibranium_ingot"
 			}
 			id: "6E819CCD57B15D54"
-			invisible: true
 			rewards: [
 				{
 					id: "525D801E1FF98425"
@@ -1536,7 +1542,6 @@
 				id: "allthemodium:unobtainium_ingot"
 			}
 			id: "2BE538246C672689"
-			invisible: true
 			rewards: [
 				{
 					id: "4E4DBE9FF2C1BBD0"
@@ -1679,15 +1684,8 @@
 				xp: 100
 			}]
 			tasks: [{
-				icon: {
-					components: {
-						"productivebees:bee_type": "productivebees:blazing_crystal"
-					}
-					id: "productivebees:configurable_honeycomb"
-				}
-				id: "6B7DB7E426D328BC"
-				item: { components: { "productivebees:bee_type": "productivebees:blazing_crystal" }, count: 1, id: "productivebees:configurable_honeycomb" }
-				match_components: "fuzzy"
+				id: "32D38975C72D55CC"
+				item: { components: { "productivebees:bee_type": "productivebees:blazing" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -1723,6 +1721,9 @@
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
+			icon: {
+				id: "croptopia:tea_leaves"
+			}
 			id: "6BEE3578BD2C713C"
 			rewards: [{
 				id: "1C28FA3EA99E8BF1"
@@ -1774,6 +1775,9 @@
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:sugar_cane"
+			}
 			id: "097DE7038A746847"
 			rewards: [{
 				id: "447B59A2C9693336"
@@ -1808,6 +1812,9 @@
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:snowball"
+			}
 			id: "447CAC472A99835B"
 			rewards: [{
 				id: "5F80C0F9DAB3D6F7"
@@ -1841,7 +1848,7 @@
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
 			icon: {
-				id: "minecraft:gravel"
+				id: "minecraft:zombie_head"
 			}
 			id: "371E09ED2A3F6BDC"
 			rewards: [{
@@ -1850,15 +1857,8 @@
 				xp: 100
 			}]
 			tasks: [{
-				icon: {
-					components: {
-						"productivebees:bee_type": "productivebees:zombie"
-					}
-					id: "productivebees:configurable_honeycomb"
-				}
-				id: "71E81E13769F2FF0"
+				id: "52CC71A679432ABF"
 				item: { components: { "productivebees:bee_type": "productivebees:zombie" }, count: 1, id: "productivebees:configurable_honeycomb" }
-				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -3.0d
@@ -1964,6 +1964,9 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:red_dye"
+			}
 			id: "5962DC39E5874FB9"
 			rewards: [{
 				id: "29F6DF8F52E48EC6"
@@ -2080,6 +2083,9 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:oak_log"
+			}
 			id: "37045B986619A03D"
 			rewards: [{
 				id: "32F2905E46B0A46F"
@@ -2123,16 +2129,18 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
+			icon: {
+				id: "integrateddynamics:crystalized_menril_chunk"
+			}
 			id: "7B40A9DAA119DE59"
-			invisible: true
 			rewards: [{
 				id: "1FD5CBE1FB0136F8"
 				type: "xp"
 				xp: 100
 			}]
 			tasks: [{
-				id: "17A701D610343DE2"
-				item: { components: { "mekanism:fluids": { fluid_tanks: [{ amount: 2147483647, id: "minecraft:water" }] } }, count: 1, id: "mekanism:creative_fluid_tank" }
+				id: "2127300009B87B98"
+				item: { components: { "productivebees:bee_type": "productivebees:menril" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -2221,6 +2229,9 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
+			icon: {
+				id: "modern_industrialization:electric_quarry"
+			}
 			id: "6E093D16B12E12B3"
 			rewards: [{
 				id: "5865B75ED379363E"
@@ -2440,6 +2451,9 @@
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
+			icon: {
+				id: "productivebees:treat_on_a_stick"
+			}
 			id: "7941938014E97A30"
 			rewards: [{
 				id: "10E2A71BE96232EF"
@@ -2464,6 +2478,9 @@
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:iron_shovel"
+			}
 			id: "1C474B46AECCCFE9"
 			rewards: [{
 				id: "3202C04BE7D817FE"
@@ -2541,8 +2558,9 @@
 				xp: 10
 			}]
 			tasks: [{
-				id: "632F557D97247215"
-				type: "checkmark"
+				id: "620BF9687558DE44"
+				item: { count: 1, id: "minecraft:hopper" }
+				type: "item"
 			}]
 			x: 7.0d
 			y: 16.5d
@@ -2659,8 +2677,9 @@
 				xp: 100
 			}]
 			tasks: [{
-				id: "0F45E8D41C62BE78"
-				type: "checkmark"
+				id: "35A3A62D353F599D"
+				item: { count: 1, id: "minecraft:shulker_shell" }
+				type: "item"
 			}]
 			x: 5.0d
 			y: 16.5d
@@ -2695,16 +2714,18 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
+			icon: {
+				id: "mysticalagriculture:prosperity_shard"
+			}
 			id: "55882C10292B6A3D"
-			invisible: true
 			rewards: [{
 				id: "677634D163F8DDDB"
 				type: "xp"
 				xp: 100
 			}]
 			tasks: [{
-				id: "492B9A5429144235"
-				item: { components: { "mekanism:fluids": { fluid_tanks: [{ amount: 2147483647, id: "minecraft:water" }] } }, count: 1, id: "mekanism:creative_fluid_tank" }
+				id: "5CFB7A3119C24CF3"
+				item: { components: { "productivebees:bee_type": "productivebees:prosperity" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -2794,16 +2815,18 @@
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
+			icon: {
+				id: "mysticalagriculture:soulium_ingot"
+			}
 			id: "1EBD5E4410A6DF34"
-			invisible: true
 			rewards: [{
 				id: "7DA224232096A3B0"
 				type: "xp"
 				xp: 100
 			}]
 			tasks: [{
-				id: "2B544167D91A9427"
-				item: { components: { "mekanism:fluids": { fluid_tanks: [{ amount: 2147483647, id: "minecraft:water" }] } }, count: 1, id: "mekanism:creative_fluid_tank" }
+				id: "05B2096DAF6C608E"
+				item: { components: { "productivebees:bee_type": "productivebees:soulium" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -2868,6 +2891,9 @@
 		}
 		{
 			dependencies: ["7C169A4A39F37FAC"]
+			icon: {
+				id: "productivebees:expansion_box_oak"
+			}
 			id: "47CEFA06392C4211"
 			rewards: [
 				{
@@ -3077,15 +3103,15 @@
 			id: "01A0612C516B4F7F"
 			rewards: [
 				{
-					id: "78311D0F7C60994E"
-					type: "xp"
-					xp: 25
-				}
-				{
 					exclude_from_claim_all: true
 					id: "53466516293198D5"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "3170F19F86C90337"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -3101,15 +3127,15 @@
 			id: "58ACADCBA57BC1DB"
 			rewards: [
 				{
-					id: "0156FA9A01DFAC03"
-					type: "xp"
-					xp: 25
-				}
-				{
 					exclude_from_claim_all: true
 					id: "7DFAC9BC1DF0F99D"
 					table_id: 4196188979167302596L
 					type: "loot"
+				}
+				{
+					id: "6C5EF8AA831FAEB1"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -3125,15 +3151,15 @@
 			id: "4DDF647FE6494DE1"
 			rewards: [
 				{
-					id: "78E6295E2CD504BD"
-					type: "xp"
-					xp: 50
-				}
-				{
 					exclude_from_claim_all: true
 					id: "7C1C2FCB825216F2"
 					table_id: 5564196992594175882L
 					type: "loot"
+				}
+				{
+					id: "1AB61D621EAEB84A"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{

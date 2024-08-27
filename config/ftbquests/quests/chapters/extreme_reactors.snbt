@@ -60,25 +60,25 @@
 			id: "7C4E4793DA887DE4"
 			rewards: [
 				{
-					id: "5D196EE2BB1E921E"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 3
 					id: "1C213B4FE894781D"
 					item: {
 						count: 1
-						id: "bigreactors:raw_yellorium"
+						id: "alltheores:raw_uranium"
 					}
 					type: "item"
+				}
+				{
+					id: "4FA70911ADBAF967"
+					type: "xp"
+					xp: 10
 				}
 			]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
-				id: "7ECE44526077F3C9"
-				item: { count: 1, id: "bigreactors:yellorium_ingot" }
+				id: "540DD4E3E568DBF2"
+				item: { count: 1, id: "alltheores:uranium_ingot" }
 				type: "item"
 			}]
 			x: -10.0d
@@ -89,15 +89,15 @@
 			id: "4FA6BEA4E646B742"
 			rewards: [
 				{
-					id: "07500C1CA8341D60"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "6E406BC76180F481"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "2D6B830725D421DD"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -173,11 +173,6 @@
 			id: "4B9E9497E44D0096"
 			rewards: [
 				{
-					id: "0303247B6A6C3F08"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 4
 					id: "19C423870DAAA0DB"
 					item: {
@@ -186,6 +181,11 @@
 					}
 					random_bonus: 4
 					type: "item"
+				}
+				{
+					id: "1D3ABD9AA55923CE"
+					type: "xp"
+					xp: 25
 				}
 			]
 			shape: "gear"
@@ -258,15 +258,15 @@
 					type: "item"
 				}
 				{
-					id: "38C141F047926833"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "5508199460B01082"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "35490F432FDE1549"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -322,21 +322,21 @@
 			progression_mode: "linear"
 			rewards: [
 				{
-					id: "55FBD6A7422569AB"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "29C27647CB5FC0F6"
 					table_id: 487623848494439020L
 					type: "random"
 				}
+				{
+					id: "142B544D2D686224"
+					type: "xp"
+					xp: 10
+				}
 			]
 			tasks: [{
 				count: 4L
-				id: "159251A23C881D83"
-				item: { count: 1, id: "bigreactors:yellorium_ingot" }
+				id: "57D3013D5136E202"
+				item: { count: 4, id: "alltheores:uranium_ingot" }
 				type: "item"
 			}]
 			x: -7.5d
@@ -347,15 +347,15 @@
 			id: "4745152F6FF242B3"
 			rewards: [
 				{
-					id: "3C59017024A58441"
-					type: "xp"
-					xp: 50
-				}
-				{
 					exclude_from_claim_all: true
 					id: "2A7EFCB386FBB78B"
 					table_id: 4196188979167302596L
 					type: "loot"
+				}
+				{
+					id: "196BEF7AEB6B769A"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -371,15 +371,15 @@
 			id: "354086C858E10154"
 			rewards: [
 				{
-					id: "601D8AF8D45F9818"
-					type: "xp"
-					xp: 25
-				}
-				{
 					exclude_from_claim_all: true
 					id: "080EADDE6EB76EAC"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "242CB43097D60236"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -391,6 +391,7 @@
 			y: 8.0d
 		}
 		{
+			dependencies: ["4745152F6FF242B3"]
 			id: "4415C9F8DA2D7E68"
 			rewards: [
 				{
@@ -404,15 +405,15 @@
 					type: "item"
 				}
 				{
-					id: "5C20A5831F6F1EE9"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "01FB731CE2FD9481"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "5C62E50FBED6822F"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "hexagon"
@@ -441,15 +442,15 @@
 			min_width: 300
 			rewards: [
 				{
-					id: "450F59D9CB0FEF7A"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "44BF0BA518FE9E1D"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "6A938E2649B9433F"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [
@@ -537,15 +538,15 @@
 			min_width: 300
 			rewards: [
 				{
-					id: "433D5587FE499E95"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "2EAE5391E041D455"
 					table_id: 4196188979167302596L
 					type: "loot"
+				}
+				{
+					id: "73F2B06136C86A4E"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -584,15 +585,15 @@
 			min_width: 300
 			rewards: [
 				{
-					id: "5AE542B84586D0BA"
-					type: "xp"
-					xp: 500
-				}
-				{
 					exclude_from_claim_all: true
 					id: "6612F39435CC428F"
 					table_id: 5564196992594175882L
 					type: "random"
+				}
+				{
+					id: "09100ECFA0DBBBF5"
+					type: "xp"
+					xp: 500
 				}
 			]
 			shape: "square"
@@ -665,7 +666,7 @@
 				{
 					id: "5FAF55F5CF1BA345"
 					type: "xp"
-					xp: 10
+					xp: 50
 				}
 			]
 			shape: "hexagon"
@@ -683,15 +684,15 @@
 			id: "69642A3618E86DED"
 			rewards: [
 				{
-					id: "5C7121F82848C273"
-					type: "xp"
-					xp: 50
-				}
-				{
 					exclude_from_claim_all: true
 					id: "6FBCFDF7DDF64A60"
 					table_id: 5564196992594175882L
 					type: "loot"
+				}
+				{
+					id: "4BF42E7B3D6C7765"
+					type: "xp"
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -831,7 +832,7 @@
 				{
 					id: "739312C574871639"
 					type: "xp"
-					xp: 10
+					xp: 25
 				}
 			]
 			tasks: [
@@ -961,7 +962,7 @@
 				{
 					id: "7B3F79DA7988E2AC"
 					type: "xp"
-					xp: 25
+					xp: 50
 				}
 			]
 			shape: "rsquare"
@@ -990,7 +991,7 @@
 				{
 					id: "7FD3F44901EA7315"
 					type: "xp"
-					xp: 1000
+					xp: 500
 				}
 			]
 			tasks: [{
@@ -1010,11 +1011,12 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "1F7036222F535785"
-					type: "loot"
+					id: "00796E62C18E53CB"
+					table_id: 8364958827326577211L
+					type: "random"
 				}
 				{
-					id: "01A038407420AF20"
+					id: "406D974C5E285671"
 					type: "xp"
 					xp: 1000
 				}
@@ -1042,7 +1044,7 @@
 				{
 					id: "2065E13D53308BF3"
 					type: "xp"
-					xp: 100
+					xp: 500
 				}
 			]
 			tasks: [{

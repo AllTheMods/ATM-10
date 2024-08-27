@@ -75,7 +75,7 @@
 		}
 		{
 			height: 1.0d
-			image: "mekanism:item/fluorite_gem"
+			image: "alltheores:item/fluorite"
 			rotation: 0.0d
 			width: 1.0d
 			x: 8.0d
@@ -194,12 +194,11 @@
 		}
 		{
 			height: 0.3d
-			hover: ["{atm10.quest.ae2.img.star}"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
 			x: 4.0d
-			y: 0.15d
+			y: -2.1d
 		}
 	]
 	order_index: 4
@@ -580,8 +579,8 @@
 				}
 			]
 			tasks: [{
-				id: "14A09EAF150777A3"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:dusts/sulfur))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "6F1B4C8C0DBA730B"
+				item: { count: 1, id: "alltheores:sulfur" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -607,7 +606,7 @@
 			tasks: [
 				{
 					id: "452FBF76102210BD"
-					item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:gems/fluorite))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { count: 1, id: "alltheores:fluorite" }
 					type: "item"
 				}
 				{
@@ -1416,7 +1415,7 @@
 				}
 			]
 			x: 4.0d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: ["0FF852DE33E41C90"]
@@ -1450,7 +1449,7 @@
 				}
 			]
 			x: 4.0d
-			y: -0.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
