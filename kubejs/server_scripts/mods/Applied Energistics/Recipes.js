@@ -10,6 +10,15 @@ ServerEvents.recipes(allthemods => {
       N: 'minecraft:netherite_ingot'
   }).id('allthemods:aeinfinitybooster/infinity_card')
 
+    allthemods.shaped('kubejs:universal_press', ['FPF', 'CSL', 'FEF'], {
+        F: '#c:ingots/sky_steel',
+        P: 'ae2:silicon_press',
+        C: 'ae2:calculation_processor_press',
+        S: 'minecraft:slime_ball',
+        L: 'ae2:logic_processor_press',
+        E: 'ae2:engineering_processor_press'
+    }).id('allthemods:universal_press')
+
   function universalPress(input, output, id) {
       allthemods.custom(
           {
