@@ -19,6 +19,7 @@ ServerEvents.recipes(allthemods => {
         E: 'ae2:engineering_processor_press'
     }).id('allthemods:universal_press')
 
+
     function universalPress(input, output, id) {
         allthemods.custom(
             {
@@ -39,6 +40,67 @@ ServerEvents.recipes(allthemods => {
             }
         ).id(`kubejs:inscriber/universal_press/${id}`)
     }
+    function createCrystalAssemblerRecipe(output, inputs, id, fluid) {
+        let recipe = {
+            "type": "extendedae:crystal_assembler",
+            "input_items": [],
+            "output": {
+                "id": output.item,
+                "count": output.count || 1
+            }
+        };
+
+        if (fluid) {
+            recipe.input_fluid = {
+                "amount": fluid.amount || 1000,
+                "ingredient":{
+                    "fluid": fluid.fluid,
+                }
+
+            };
+
+        }
+
+        inputs.forEach(input => {
+            let ingredient = {
+                "amount": input.count || 1,
+                "ingredient": {}
+            };
+
+            if (input.tag) {
+                ingredient.ingredient.tag = input.tag;
+            } else {
+                ingredient.ingredient.item = input.item;
+            }
+
+            recipe.input_items.push(ingredient);
+        });
+
+        allthemods.custom(recipe).id(`kubejs:crystal_assembler/${id}`);
+    }
+
+
+    createCrystalAssemblerRecipe(
+        { item: 'megacells:sky_bronze_ingot', count: 8 },
+        [
+            { item: 'ae2:charged_certus_quartz_crystal', count: 4 },
+            { item: 'minecraft:copper_ingot', count: 4 },
+            { item: 'ae2:sky_stone_block', count: 4 }
+        ],
+        'sky_bronze_ingot',
+        { fluid:'minecraft:lava', count: 1000}
+    );
+    createCrystalAssemblerRecipe(
+        { item: 'megacells:sky_osmium_ingot', count: 8 },
+        [
+            { item: 'ae2:charged_certus_quartz_crystal', count: 4 },
+            { item: '#c:ingots/osmium', count: 4 },
+            { item: 'ae2:sky_stone_block', count: 4 }
+        ],
+        'sky_osmium_ingot',
+        { fluid:'minecraft:lava', count: 1000}
+    );
+
 
     universalPress('ae2:silicon', 'ae2:printed_silicon', 'printed_silicon')
     universalPress('ae2:certus_quartz_crystal', 'ae2:printed_calculation_processor', 'printed_calculation_processor')
