@@ -12,20 +12,20 @@ ServerEvents.recipes(allthemods => {
   global.mekStackAdditions.forEach(entry => {
     let material = entry.material
 
-    let dust = AlmostUnified.getPreferredItemForTag(`forge:dusts/${material}`)
+    let dust = AlmostUnified.getPreferredItemForTag(`c:dusts/${material}`)
     if (entry.makeDust) {
       dust = Item.of(`kubejs:dust_${material}`)
-    } else if (dust.isEmpty() && !Ingredient.of(`#forge:dusts/${material}`).isEmpty()) {
-      dust = Ingredient.of(`#forge:dusts/${material}`).getFirst()
+    } else if (dust.isEmpty() && !Ingredient.of(`#c:dusts/${material}`).isEmpty()) {
+      dust = Ingredient.of(`#c:dusts/${material}`).getFirst()
     }
     let hasDust = !dust.isEmpty()
 
-    if (!Ingredient.of(`#forge:storage_blocks/raw_${material}`).isEmpty()) {
+    if (!Ingredient.of(`#c:storage_blocks/raw_${material}`).isEmpty()) {
       allthemods.custom({
         type: 'mekanism:dissolution',
         itemInput: {
           ingredient: {
-            tag: `forge:storage_blocks/raw_${material}`
+            tag: `c:storage_blocks/raw_${material}`
           }
         },
         output: {
@@ -42,7 +42,7 @@ ServerEvents.recipes(allthemods => {
         type: 'mekanism:injecting',
         itemInput: {
           ingredient: {
-            tag: `forge:storage_blocks/raw_${material}`
+            tag: `c:storage_blocks/raw_${material}`
           }
         },
         chemicalInput: {
@@ -58,7 +58,7 @@ ServerEvents.recipes(allthemods => {
         type: 'mekanism:purifying',
         itemInput: {
           ingredient: {
-            tag: `forge:storage_blocks/raw_${material}`
+            tag: `c:storage_blocks/raw_${material}`
           }
         },
         chemicalInput: {
@@ -75,7 +75,7 @@ ServerEvents.recipes(allthemods => {
           type: 'mekanism:enriching',
           input: {
             ingredient: {
-              tag: `forge:storage_blocks/raw_${material}`
+              tag: `c:storage_blocks/raw_${material}`
             }
           },
           output: {
@@ -91,7 +91,7 @@ ServerEvents.recipes(allthemods => {
         type: 'mekanism:dissolution',
         itemInput: {
           ingredient: {
-            tag: `forge:ores/${material}`
+            tag: `c:ores/${material}`
           }
         },
         output: {
@@ -108,7 +108,7 @@ ServerEvents.recipes(allthemods => {
         type: 'mekanism:injecting',
         itemInput: {
           ingredient: {
-            tag: `forge:ores/${material}`
+            tag: `c:ores/${material}`
           }
         },
         chemicalInput: {
@@ -124,7 +124,7 @@ ServerEvents.recipes(allthemods => {
         type: 'mekanism:purifying',
         itemInput: {
           ingredient: {
-            tag: `forge:ores/${material}`
+            tag: `c:ores/${material}`
           }
         },
         chemicalInput: {
@@ -141,7 +141,7 @@ ServerEvents.recipes(allthemods => {
           type: 'mekanism:enriching',
           input: {
             ingredient: {
-              tag: `forge:ores/${material}`
+              tag: `c:ores/${material}`
             }
           },
           output: {
@@ -158,7 +158,7 @@ ServerEvents.recipes(allthemods => {
         itemInput: {
           amount: 3,
           ingredient: {
-            tag: `forge:raw_materials/${material}`
+            tag: `c:raw_materials/${material}`
           }
         },
         output: {
@@ -176,7 +176,7 @@ ServerEvents.recipes(allthemods => {
         itemInput: {
           amount: 3,
           ingredient: {
-            tag: `forge:raw_materials/${material}`
+            tag: `c:raw_materials/${material}`
           }
         },
         chemicalInput: {
@@ -192,7 +192,7 @@ ServerEvents.recipes(allthemods => {
         type: 'mekanism:purifying',
         itemInput: {
           ingredient: {
-            tag: `forge:raw_materials/${material}`
+            tag: `c:raw_materials/${material}`
           }
         },
         chemicalInput: {
@@ -210,7 +210,7 @@ ServerEvents.recipes(allthemods => {
           input: {
             amount: 3,
             ingredient: {
-              tag: `forge:raw_materials/${material}`
+              tag: `c:raw_materials/${material}`
             }
           },
           output: {
