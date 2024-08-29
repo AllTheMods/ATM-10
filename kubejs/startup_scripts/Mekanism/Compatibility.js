@@ -8,7 +8,11 @@
   material at a minimum should have an ore associated with it at #forge:ores/material
 */
 
-global.mekStackAdditions = []
+global.mekStackAdditions = [
+  {material:'ferricore', color:'#b1e5db', makeDust: true, dustSmelting: true},
+  {material:'blazegold', color:'#e68d52', makeDust: true, dustSmelting: true},
+  {material:'eclipsealloy', color:'#586e75', makeDust: true, dustSmelting: true}
+]
 
 // DO NOT EDIT BELOW THIS LINE
 
