@@ -9,12 +9,11 @@
 	id: "6AEDA2F9BEB57759"
 	images: [{
 		height: 0.3d
-		hover: ["{atm10.quest.ae2.img.star}"]
 		image: "allthetweaks:item/atm_star"
 		rotation: 0.0d
 		width: 0.3d
-		x: 7.51d
-		y: 7.6d
+		x: 7.5d
+		y: 7.7d
 	}]
 	order_index: 0
 	progression_mode: "flexible"
@@ -2682,32 +2681,6 @@
 			}]
 			x: 10.5d
 			y: 1.5d
-		}
-		{
-			can_repeat: false
-			disable_toast: true
-			hide_details_until_startable: true
-			hide_until_deps_visible: true
-			icon: {
-				id: "ftbquests:custom_icon"
-			}
-			id: "34A8C6C18A473A0F"
-			invisible: true
-			optional: true
-			shape: "octagon"
-			tasks: [
-				{
-					disable_toast: true
-					id: "1ADC909E4FF8D317"
-					type: "checkmark"
-				}
-				{
-					id: "1B90FEC3CEB286C8"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 6.0d
 		}
 		{
 			id: "36CDA39C23D3AA2B"

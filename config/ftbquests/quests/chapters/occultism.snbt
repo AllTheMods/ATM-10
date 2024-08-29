@@ -94,7 +94,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{atm10.quest.occultism.shubNiggurathFamiliar}"]
 			image: "occultism:textures/gui/book/familiar_shub_niggurath.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -103,7 +102,6 @@
 		}
 		{
 			height: 1.0d
-			hover: ["{atm10.quest.occultism.drikwingFamiliar}"]
 			image: "occultism:textures/gui/book/otherworld_bird.png"
 			rotation: 0.0d
 			width: 1.0d
@@ -164,7 +162,6 @@
 		}
 		{
 			height: 3.0d
-			hover: ["{atm10.quest.occultism.berserker}"]
 			image: "occultism:textures/gui/book/familiar_beholder.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -173,7 +170,6 @@
 		}
 		{
 			height: 3.0d
-			hover: ["{atm10.quest.occultism.headlessRatman}"]
 			image: "occultism:textures/gui/book/familiar_headless_ratman.png"
 			rotation: 0.0d
 			width: 3.0d
@@ -226,12 +222,11 @@
 		}
 		{
 			height: 0.3d
-			hover: ["{atm10.quest.ae2.img.star}"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
-			x: 6.0d
-			y: 5.5d
+			x: 7.0d
+			y: 4.4d
 		}
 	]
 	order_index: 2
@@ -323,14 +318,9 @@
 			]
 			shape: "square"
 			tasks: [{
-				icon: {
-					id: "ftbquests:custom_icon"
-				}
-				id: "070E5E92D50F02D1"
-				observe_type: 0
-				timer: 0L
-				to_observe: "occultism:spirit_fire"
-				type: "observation"
+				id: "1342FA7690E10866"
+				item: { count: 1, id: "minecraft:flint_and_steel" }
+				type: "item"
 			}]
 			x: 6.0d
 			y: 0.0d
@@ -343,15 +333,15 @@
 			min_width: 300
 			rewards: [
 				{
-					id: "70EE0C205B5B9BAC"
-					type: "xp"
-					xp: 50
-				}
-				{
 					exclude_from_claim_all: true
 					id: "156CCC976E663623"
 					table_id: 487623848494439020L
 					type: "loot"
+				}
+				{
+					id: "0F602FB07D514AFB"
+					type: "xp"
+					xp: 50
 				}
 			]
 			shape: "diamond"
@@ -448,11 +438,6 @@
 			dependencies: ["4C873491F6F0FFAF"]
 			hide_dependency_lines: true
 			id: "0B3EA604C5172D98"
-			rewards: [{
-				id: "536B2ACB55CC979E"
-				type: "xp"
-				xp: 20
-			}]
 			shape: "diamond"
 			tasks: [
 				{
@@ -487,7 +472,7 @@
 			rewards: [{
 				id: "0BAC09BCF9644834"
 				type: "xp"
-				xp: 50
+				xp: 100
 			}]
 			shape: "diamond"
 			size: 2.0d
@@ -547,6 +532,12 @@
 		}
 		{
 			dependencies: ["1DE0F289821F55D1"]
+			icon: {
+				components: {
+					"occultism:spirit_name": "Crosorryn"
+				}
+				id: "occultism:book_of_binding_bound_djinni"
+			}
 			id: "08B1A64B01A8A604"
 			rewards: [{
 				id: "31005015E3D07048"
@@ -587,6 +578,9 @@
 		}
 		{
 			dependencies: ["1DE0F289821F55D1"]
+			icon: {
+				id: "occultism:chalk_red_impure"
+			}
 			id: "145C8235BCCB9BA8"
 			min_width: 300
 			rewards: [
@@ -672,15 +666,15 @@
 			id: "686AEC3EF1140D15"
 			rewards: [
 				{
-					id: "534ED82AE3739E75"
-					type: "xp"
-					xp: 25
-				}
-				{
 					exclude_from_claim_all: true
 					id: "0905ED561E579042"
 					table_id: 487623848494439020L
 					type: "loot"
+				}
+				{
+					id: "26FF1D11583ADA23"
+					type: "xp"
+					xp: 50
 				}
 			]
 			shape: "square"
@@ -698,9 +692,9 @@
 			id: "33106E24A3B5DDD8"
 			min_width: 450
 			rewards: [{
-				id: "5D7A367FA795C5B3"
+				id: "009F58B1FC4C026D"
 				type: "xp"
-				xp: 25
+				xp: 50
 			}]
 			tasks: [{
 				id: "2C341B16967645C9"
@@ -715,15 +709,15 @@
 			id: "57282D7E31EE61EE"
 			rewards: [
 				{
-					id: "725142351E7457CF"
-					type: "xp"
-					xp: 25
-				}
-				{
 					exclude_from_claim_all: true
 					id: "61301974F1DCE7C4"
 					table_id: 487623848494439020L
 					type: "loot"
+				}
+				{
+					id: "7C2604CEFB4D9A0A"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -739,19 +733,25 @@
 				"57282D7E31EE61EE"
 				"145C8235BCCB9BA8"
 			]
+			icon: {
+				components: {
+					"occultism:spirit_name": "Merrymdor"
+				}
+				id: "occultism:book_of_binding_bound_marid"
+			}
 			id: "676BC41C19BEF1FC"
 			progression_mode: "linear"
 			rewards: [
-				{
-					id: "0B9447953960187F"
-					type: "xp"
-					xp: 100
-				}
 				{
 					exclude_from_claim_all: true
 					id: "4381289734981296"
 					table_id: 5564196992594175882L
 					type: "loot"
+				}
+				{
+					id: "29200B3A1B0AC9D1"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "square"
@@ -767,16 +767,6 @@
 					item: { components: { "occultism:spirit_name": "Einvonddrin" }, count: 1, id: "occultism:book_of_binding_bound_marid" }
 					type: "item"
 				}
-				{
-					icon: {
-						id: "ftbquests:custom_icon"
-					}
-					id: "5C0CF601CE8BDD2C"
-					observe_type: 5
-					timer: 0L
-					to_observe: "occultism:marid"
-					type: "observation"
-				}
 			]
 			x: 15.5d
 			y: 9.5d
@@ -785,6 +775,11 @@
 			dependencies: ["57282D7E31EE61EE"]
 			id: "172D2A634E849562"
 			min_width: 350
+			rewards: [{
+				id: "08E3ACE00C3827C6"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "hexagon"
 			size: 1.25d
 			tasks: [
@@ -826,13 +821,13 @@
 					type: "item"
 				}
 				{
-					id: "13AB4282F7A3F28C"
-					item: { count: 1, id: "occultism:dimensional_matrix" }
+					id: "4EDB733716D494CE"
+					item: { count: 1, id: "occultism:storage_controller" }
 					type: "item"
 				}
 				{
-					id: "4EDB733716D494CE"
-					item: { count: 1, id: "occultism:storage_controller" }
+					id: "60BC2FA707A9B073"
+					item: { count: 1, id: "occultism:dimensional_matrix" }
 					type: "item"
 				}
 			]
@@ -851,9 +846,9 @@
 					type: "loot"
 				}
 				{
-					id: "1AEF7C3C027531C5"
+					id: "2E70B8B02462A2FB"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "hexagon"
@@ -869,6 +864,11 @@
 		{
 			dependencies: ["3D41D0092D94636B"]
 			id: "78ECC28DD4BA9696"
+			rewards: [{
+				id: "755329C134364BB8"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "13EAA435B27EA29D"
 				item: { count: 1, id: "occultism:divination_rod" }
@@ -882,15 +882,15 @@
 			id: "5831B3192C0E8C56"
 			rewards: [
 				{
-					id: "3CC49302B482FAE5"
-					type: "xp"
-					xp: 25
-				}
-				{
 					exclude_from_claim_all: true
 					id: "52721A6614C9C818"
 					table_id: 487623848494439020L
 					type: "loot"
+				}
+				{
+					id: "595BF48ADA4E4C5F"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [
@@ -930,32 +930,6 @@
 			y: 7.0d
 		}
 		{
-			can_repeat: false
-			disable_toast: true
-			hide_details_until_startable: true
-			hide_until_deps_visible: true
-			icon: {
-				id: "ftbquests:custom_icon"
-			}
-			id: "7AEDD120E5FB0729"
-			invisible: true
-			optional: true
-			shape: "octagon"
-			tasks: [
-				{
-					disable_toast: true
-					id: "0ACA8BB2546698AA"
-					type: "checkmark"
-				}
-				{
-					id: "341C85E18D1FCC42"
-					type: "checkmark"
-				}
-			]
-			x: 0.0d
-			y: 6.0d
-		}
-		{
 			id: "6CCDEEDA2C99DA66"
 			invisible: true
 			shape: "circle"
@@ -970,7 +944,7 @@
 				}
 			]
 			x: 2.0d
-			y: -1.0d
+			y: -1.5d
 		}
 	]
 }

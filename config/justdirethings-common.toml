@@ -1,4 +1,3 @@
-
 #General settings
 [general]
 	#The minimum tick speed machines can be set to. Defaults to 1, meaning every tick
@@ -57,6 +56,48 @@
 	instabreak = true
 	#eclipsegate
 	eclipsegate = true
+	#potionarrow
+	potionarrow = true
+	#swimspeed
+	swimspeed = true
+	#groundstomp
+	groundstomp = true
+	#extinguish
+	extinguish = true
+	#stupefy
+	stupefy = true
+	#splash
+	splash = true
+	#negatefalldamage
+	negatefalldamage = true
+	#nightvision
+	nightvision = true
+	#elytra
+	elytra = true
+	#decoy
+	decoy = true
+	#lingering
+	lingering = true
+	#homing
+	homing = true
+	#deathprotection
+	deathprotection = true
+	#debuffremover
+	debuffremover = true
+	#earthquake
+	earthquake = true
+	#noai
+	noai = true
+	#flight
+	flight = true
+	#lavaimmunity
+	lavaimmunity = true
+	#phase
+	phase = true
+	#timeprotection
+	timeprotection = true
+	#epicarrow
+	epicarrow = true
 
 #Generator T1
 [generator_t1]
@@ -142,3 +183,19 @@
 	#Range: > 1
 	portal_gun_v2_rf_cost = 5000
 
+#Goo settings
+[goo]
+	#Can goo randomly die, needing to be revived by right clicking with an item?
+	goo_can_die = true
+
+#Time Wand
+[time_wand]
+	#The maximum amount of Forge Energy the Time Wand can hold in its buffer
+	#Range: > 1
+	time_wand_rf_capacity = 100000
+	#The Forge Energy cost to use the Time wand. This value is multiplied by the acceleration amount. For example, when you go from 128 to 256, it will charge 256 x <this value> in FE cost.
+	#Range: > 0
+	time_wand_rf_cost = 750
+	#The Time Fluid cost to use the time wand.  This value is multiplied by the acceleration amount. For example, when you go from 128 to 256, it will charge 256 x <this value> in Time Fluid.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	time_wand_fluid_cost = 0.5
