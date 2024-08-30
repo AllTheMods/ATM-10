@@ -50,14 +50,6 @@
 			y: 10.25d
 		}
 		{
-			height: 0.75d
-			image: "ironfurnaces:block/iron_furnace_front_on_smoke"
-			rotation: 0.0d
-			width: 0.75d
-			x: 5.5d
-			y: 1.0d
-		}
-		{
 			height: 0.5d
 			image: "alltheores:item/iron_dust"
 			rotation: 0.0d
@@ -104,6 +96,30 @@
 			width: 1.0d
 			x: -3.5d
 			y: 10.75d
+		}
+		{
+			height: 1.0d
+			image: "ironfurnaces:block/iron_furnace_front_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			height: 1.0d
+			image: "generatorgalore:block/copper_generator_front"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			height: 0.8d
+			image: "minecraft:block/furnace_front_on"
+			rotation: 0.0d
+			width: 0.8d
+			x: 5.5d
+			y: 1.0d
 		}
 	]
 	order_index: 0
@@ -163,11 +179,6 @@
 			id: "7975C7145572C438"
 			rewards: [
 				{
-					id: "1551FD138B9B3813"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 2
 					id: "4CF2F5980ADD8DBC"
 					item: {
@@ -181,6 +192,11 @@
 					id: "09CAD4B958A24BEB"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "01B466208AD081D8"
+					type: "xp"
+					xp: 10
 				}
 			]
 			shape: "square"
@@ -255,11 +271,6 @@
 			id: "051E0C85E7B71CE0"
 			rewards: [
 				{
-					id: "3A97D5B2AE8AEF50"
-					type: "xp"
-					xp: 25
-				}
-				{
 					id: "6FFFAD377089E363"
 					item: {
 						count: 1
@@ -272,6 +283,11 @@
 					id: "4EB9D9828FE1B815"
 					table_id: 487623848494439020L
 					type: "loot"
+				}
+				{
+					id: "47B8B05732B2F09F"
+					type: "xp"
+					xp: 25
 				}
 			]
 			shape: "octagon"
@@ -297,7 +313,7 @@
 			rewards: [{
 				id: "77D1205EEAD47367"
 				type: "xp"
-				xp: 10
+				xp: 50
 			}]
 			tasks: [{
 				id: "03005DEF00AB48F3"
@@ -315,7 +331,7 @@
 			rewards: [{
 				id: "2C46B4017AC5F3AE"
 				type: "xp"
-				xp: 10
+				xp: 50
 			}]
 			shape: "octagon"
 			tasks: [{
@@ -354,14 +370,12 @@
 		}
 		{
 			dependencies: ["76406EFFF8CBA6B4"]
+			icon: {
+				id: "minecraft:flint_and_steel"
+			}
 			id: "0F3D51FFD2FE8DCB"
 			min_width: 300
 			rewards: [
-				{
-					id: "196D91EFBD3EBC2F"
-					type: "xp"
-					xp: 50
-				}
 				{
 					id: "75F8E6B513937C9B"
 					item: {
@@ -369,6 +383,11 @@
 						id: "minecraft:golden_chestplate"
 					}
 					type: "item"
+				}
+				{
+					id: "27BFB09994F1A168"
+					type: "xp"
+					xp: 50
 				}
 			]
 			shape: "square"
@@ -395,11 +414,6 @@
 			id: "4E5238F00CEED8B2"
 			rewards: [
 				{
-					id: "5C1B39677C047DEA"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 6
 					id: "6B5B40ABA34AD0AC"
 					item: {
@@ -417,6 +431,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "01E691296A3A4432"
+					type: "xp"
+					xp: 25
+				}
 			]
 			shape: "square"
 			size: 1.25d
@@ -433,11 +452,6 @@
 			id: "672134A1A620EEAB"
 			rewards: [
 				{
-					id: "18EEB670636B9671"
-					type: "xp"
-					xp: 25
-				}
-				{
 					count: 3
 					id: "292F484BF4813BC8"
 					item: {
@@ -445,6 +459,11 @@
 						id: "mekanism:ultimate_universal_cable"
 					}
 					type: "item"
+				}
+				{
+					id: "33DEE660F8E5A648"
+					type: "xp"
+					xp: 50
 				}
 			]
 			shape: "square"
@@ -461,11 +480,6 @@
 			id: "4869C413646CC4CC"
 			rewards: [
 				{
-					id: "583B550C6F1EDACC"
-					type: "xp"
-					xp: 25
-				}
-				{
 					count: 3
 					id: "082D932BDF87998A"
 					item: {
@@ -473,6 +487,11 @@
 						id: "minecraft:redstone_block"
 					}
 					type: "item"
+				}
+				{
+					id: "48961510103ECFA9"
+					type: "xp"
+					xp: 25
 				}
 			]
 			shape: "square"
@@ -593,17 +612,17 @@
 			id: "1E1EB7DC19DDCFB7"
 			rewards: [
 				{
-					id: "59B9C8F5AB1E300A"
-					type: "xp"
-					xp: 100
-				}
-				{
 					id: "35CDC7E5C0EE5EDE"
 					item: {
 						count: 1
 						id: "minecraft:netherite_upgrade_smithing_template"
 					}
 					type: "item"
+				}
+				{
+					id: "54CBBF7EEDEE91E7"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -690,24 +709,22 @@
 				type: "item"
 			}]
 			shape: "square"
-			tasks: [
-				{
-					id: "43762D6B09E48291"
-					item: { count: 1, id: "minecraft:ancient_debris" }
-					type: "item"
-				}
-				{
-					id: "4346DAC18183627E"
-					item: { count: 1, id: "minecraft:netherite_ingot" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "4346DAC18183627E"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}]
 			x: 13.5d
 			y: 7.5d
 		}
 		{
 			dependencies: ["5E799B92358A8732"]
 			id: "6EDAB29FBD3C60A3"
+			rewards: [{
+				id: "2CAC99F03D8678A9"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "hexagon"
 			size: 1.0d
 			tasks: [{
@@ -768,12 +785,6 @@
 		{
 			dependencies: ["6EDAB29FBD3C60A3"]
 			hide_until_deps_visible: false
-			icon: {
-				components: {
-					"ftbquests:icon": "atm:textures/questpics/gettingstarted/warden_roar.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
 			id: "6D09511D64DDC282"
 			rewards: [{
 				id: "7949A3E032C67EB5"
@@ -971,8 +982,8 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "5CD2FDE306BF3C0F"
-				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:coal)item(minecraft:charcoal)item(justdirethings:coal_t1))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "539C6F64C251543B"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:coals)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 2.0d
