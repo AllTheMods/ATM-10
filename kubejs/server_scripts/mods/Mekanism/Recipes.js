@@ -101,7 +101,21 @@ ServerEvents.recipes(allthemods => {
             mod + '/' + log.toString().split(':').pop() + '_to_planks'); //generates the id by adding the mod name in front of the log and adding a 'to planks' at the end
       })
     }
+  });
+
+  [['gravel','cobblestone'], ['sand','gravel']].forEach(recipe => {
+    for (let count = 1; count < 10; count++) {
+      console.log('allthecompressed:' + recipe[0] + '_' + count + 'x')
+      console.log('allthecompressed:' + recipe[1] + '_' + count + 'x')
+      console.log(recipe[0] + '_to_' + recipe[1] + '_' + count + 'x')
+      mekCrushing(
+          {item: 'allthecompressed:' + recipe[0] + '_' + count + 'x'},
+          {item: 'allthecompressed:' + recipe[1] + '_' + count + 'x'},
+          recipe[1] + '_to_' + recipe[0] + '_' + count + 'x'
+      )
+    }
   })
+
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
