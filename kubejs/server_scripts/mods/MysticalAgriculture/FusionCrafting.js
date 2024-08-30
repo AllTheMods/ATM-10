@@ -11,6 +11,7 @@ ServerEvents.recipes(allthemods => {
     essenceCircle('allthemodium:allthemodium_nugget', 'allthemodium')
     essenceCircle('allthemodium:vibranium_nugget', 'vibranium')
     essenceCircle('allthemodium:unobtainium_nugget', 'unobtainium')
+    essenceCircle('12x xycraft_world:kivi', 'kivi')
 
     // infusion seed crafting
     function seedCrafting(output, middle, item1, item2, item3, item4, item5, item6, item7, item8){
