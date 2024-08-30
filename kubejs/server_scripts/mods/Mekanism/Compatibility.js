@@ -173,7 +173,7 @@ ServerEvents.recipes(allthemods => {
       if (ingot.isEmpty() && !Ingredient.of(`#c:ingots/${material}`).isEmpty()) {
         ingot = Ingredient.of(`#c:ingots/${material}`).getFirst()
       }
-      allthemods.smelting(ingot.id, dust.id).xp(0.7).id(`allthemods:processing/${material}/ingot/from_dust_smelting`)
+      allthemods.smelting(ingot.id, `#c:dusts/${material}`).xp(0.7).id(`allthemods:processing/${material}/ingot/from_dust_smelting`)
     }
   })
 })
