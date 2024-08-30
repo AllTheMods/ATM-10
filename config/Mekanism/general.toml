@@ -1,0 +1,244 @@
+#Log Mekanism packet names. Debug setting.
+logPackets = false
+#Controls whether Mekanism allows players to load chunks. If this is disabled, neither the Anchor Upgrade nor the Dimensional Stabilizer will provide any functionality.
+allowChunkloading = true
+#How many ticks must pass until a block's active state is synced with the client when the block stops being active. This prevents rapid state changes that can cause lag. Note: Mekanism's blocks always sync immediately when they go from inactive to active; this only controls the time it takes to go from active to inactive.
+#Range: 0 ~ 1200
+blockDeactivationDelay = 60
+#If enabled, lasers can break blocks and the flamethrower can start fires.
+aestheticWorldDamage = true
+#Allow upgrading Universal Cables, Mechanical Pipes, Pressurized Tubes, Logistical Transporters, and Thermodynamic Conductors by right clicking them with the next tier of alloy.
+transmitterAlloyUpgrade = true
+#Base factor for working out machine performance with upgrades - UpgradeModifier * (UpgradesInstalled/UpgradesPossible).
+#Range: > 1
+maxUpgradeMultiplier = 10
+#Peak processing rate in mB/t for the Solar Neutron Activator. Note: It can go higher than this value in some extreme environments.
+#Range: 1 ~ 1024
+maxSolarNeutronActivatorRate = 64
+
+#Settings for configuring heaters
+[heater]
+	#Amount of heat produced per fuel tick of a fuel's burn time in the Fuelwood Heater.
+	#Range: 0.1 ~ 4000000.0
+	heatPerFuelTick = 400.0
+	#Number of ticks to burn an item at in a Fuelwood Heater. Use this config option to effectively make Fuelwood Heater's burn faster but produce the same amount of heat per item.
+	#Range: 1 ~ 1000
+	fuelwoodTickMultiplier = 1
+	#How much heat energy is created from one Joule of regular energy in the Resistive Heater.
+	#Range: 0.0 ~ 1.0
+	resistiveEfficiency = 0.6
+
+#Settings for configuring Cardboard Boxes
+[cardboard_box]
+	#Enable this to disable unboxing any block that has a fluid that would be vaporized on placement, instead of trying to vaporize it and leave the remainder of the block. For example with this disabled trying to unbox a waterlogged slab in the nether will leave just the slab, but with this enabled the cardboard box won't open.
+	strictUnboxing = false
+	#Any modids added to this list will not be able to have any of their blocks, picked up by the cardboard box. For example: ["mekanism"]
+	modBlacklist = []
+
+#Settings for configuring the fill rates of tanks that are stored on items.
+[item_fill_rate]
+	#Rate in mB/t at which generic fluid storage items can be filled or emptied.
+	#Range: > 1
+	fluid = 1024
+	#Rate in mB/t at which generic chemical storage items can be filled or emptied.
+	#Range: 1 ~ 9223372036854775807
+	chemical = 1024
+
+#Settings for configuring Dynamic Tanks
+[dynamic_tank]
+	#Amount of fluid (mB) that each block of the dynamic tank contributes to the volume. Total Fluid Capacity = volume * fluidPerTank
+	#Range: 1 ~ 368224
+	fluidPerTank = 350000
+	#Amount of chemical (mB) that each block of the dynamic tank contributes to the volume. Total Chemical Capacity = volume * chemicalPerTank
+	#Range: 1 ~ 1581510980256305
+	chemicalPerTank = 16000000
+
+#Settings for configuring Auto Eject from block entities
+[auto_eject]
+	#Rate in mB/t at which fluid gets auto ejected from block entities.
+	#Range: > 1
+	fluid = 1024
+	#Rate in mB/t at which chemicals gets auto ejected from block entities.
+	#Range: 1 ~ 9223372036854775807
+	chemical = 1024
+	#The percentage of a tank's capacity to leave contents in when set to dumping excess.
+	#Range: 0.001 ~ 1.0
+	dumpExcessKeepRatio = 0.85
+
+#Settings for configuring Prefilled Tanks
+[prefilled]
+	#Add filled variants of creative fluid tanks to creative/recipe viewers for all registered fluids.
+	fluidTanks = true
+	#Add filled variants of creative chemical tanks to creative/recipe viewers for all registered chemicals. Note: This includes radioactive ones that normally can't be stored in chemical tanks.
+	chemicalTanks = true
+
+#Settings for configuring Energy Conversions
+[energy_conversion]
+	#Disables Forge Energy (FE/RF) power integration.
+	blacklistForge = false
+	#Conversion multiplier from Forge Energy to Joules (FE * feConversionRate = Joules)
+	#Range: 1.0E-4 ~ 10000.0
+	feConversionRate = 2.5
+	#Disables Flux Networks' higher throughput Forge Energy (FE/RF) power integration. Note: Blacklisting Forge Energy also disables this.
+	blacklistFluxNetworks = false
+	#Disables Grand Power's higher throughput Forge Energy (FE/RF) power integration. Note: Blacklisting Forge Energy also disables this.
+	blacklistGrandPower = false
+	#How much energy is produced per mB of Hydrogen, also affects Electrolytic Separator usage, Ethene burn rate and Gas-Burning Generator energy capacity.
+	#Range: 1 ~ 92233720368547
+	hydrogenEnergyDensity = 200
+	#Maximum Joules per mB of Steam. Also affects Thermoelectric Boiler.
+	#Range: 0 ~ 9223372036854775807
+	maxEnergyPerSteam = 10
+
+#Settings for configuring Radiation
+[radiation]
+	#Enable worldwide radiation effects.
+	enabled = true
+	#The radius of chunks checked when running radiation calculations. The algorithm is efficient, but don't abuse it by making this crazy high.
+	#Range: 1 ~ 100
+	chunkCheckRadius = 5
+	#Radiation sources are multiplied by this constant roughly once per second to represent their emission decay. At the default rate, it takes roughly 10 hours to remove a 1,000 Sv/h (crazy high) source.
+	#Range: 0.0 ~ 1.0
+	sourceDecayRate = 0.9995
+	#Radiated objects and entities are multiplied by this constant roughly once per second to represent their dosage decay.
+	#Range: 0.0 ~ 1.0
+	targetDecayRate = 0.9995
+	#Defines the minimum severity radiation dosage severity (scale of 0 to 1) for which negative effects can take place. Set to 1 to disable negative effects completely.
+	#Range: 0.0 ~ 1.0
+	negativeEffectsMinSeverity = 0.1
+	#Amount of chemical (mB) that can be stored in a Radioactive Waste Barrel.
+	#Range: 1 ~ 9223372036854775807
+	wasteBarrelCapacity = 512000
+	#Number of ticks required for radioactive chemical stored in a Radioactive Waste Barrel to decay radioactiveWasteBarrelDecayAmount mB.
+	#Range: > 1
+	wasteBarrelProcessTicks = 20
+	#Number of mB of chemical that decay every radioactiveWasteBarrelProcessTicks ticks when stored in a Radioactive Waste Barrel. Set to zero to disable decay all together. (Chemicals in the mekanism:waste_barrel_decay_blacklist tag will not decay).
+	#Range: 0 ~ 9223372036854775807
+	wasteBarrelDecayAmount = 1
+
+#Settings for configuring the Digital Miner
+[digital_miner]
+	#Energy multiplier for using silk touch mode with the Digital Miner.
+	#Range: > 1
+	silkMultiplier = 12
+	#Maximum radius in blocks that the Digital Miner can reach. Increasing this may have negative effects on stability and memory usage. We strongly recommend you leave this at the default value.
+	#Range: > 1
+	maxRadius = 32
+	#Number of ticks required to mine a single block with a Digital Miner (without any upgrades).
+	#Range: > 1
+	ticksPerMine = 80
+	#Allows dragging items from recipe viewers into the target slot of Digital Miner filters. This allows selecting specific blocks without having to acquire an instance of the block first.
+	easyMinerFilters = true
+
+#Settings for configuring Lasers
+[laser]
+	#How far in blocks a laser can travel.
+	#Range: 1 ~ 1024
+	range = 64
+	#Energy needed to destroy or attract blocks with a Laser (per block hardness level).
+	#Range: 0 ~ 9223372036854775807
+	energyPerHardness = 100000
+	#Energy used per half heart of damage being transferred to entities.
+	#Range: 1 ~ 9223372036854775807
+	energyPerDamage = 2500
+
+#Settings for configuring the Oredictionificator
+[oredictionificator]
+	#The list of valid tag prefixes for the Oredictionificator. Note: It is highly recommended to only include well known/defined tag prefixes otherwise it is very easy to potentially add accidental conversions for things that are not actually equivalent.
+	validItemFilters = ["c:dusts/", "c:ingots/", "c:nuggets/", "c:ores/", "c:raw_materials/", "c:storage_blocks/"]
+
+#Settings for configuring Electric Pumps and Fluidic Plenishers
+[pump]
+	#Maximum block distance to pull fluid from for the Electric Pump.
+	#Range: 1 ~ 512
+	range = 80
+	#If enabled and the waterSourceConversion game rule is enabled makes Water blocks be removed from the world on pump. Similarly behavior for the lavaSourceConversion game rule and Lava
+	pumpInfiniteFluidSources = false
+	#Amount of Heavy Water in mB that is extracted per block of Water by the Electric Pump with a Filter Upgrade.
+	#Range: 1 ~ 1000
+	heavyWaterAmount = 10
+	#The number of blocks Fluidic Plenisher attempts to place fluid in before stopping.
+	#Range: 1 ~ 1000000
+	maxPlenisherNodes = 4000
+
+#Settings for configuring Quantum Entangloporters
+[quantum_entangloporter]
+	#Maximum energy buffer (Joules) of an Entangoloporter frequency - i.e. the maximum transfer per tick per frequency. Default is the ultimate energy cube's capacity.
+	#Range: 1 ~ 9223372036854775807
+	energyBuffer = 256000000
+	#Maximum fluid buffer (mb) of an Entangoloporter frequency - i.e. the maximum transfer per tick per frequency. Default is the ultimate fluid tank's capacity.
+	#Range: > 1
+	fluidBuffer = 256000
+	#Maximum chemical buffer (mb) of an Entangoloporter frequency - i.e. the maximum transfer per tick per frequency. Default is the ultimate chemical tank's capacity.
+	#Range: 1 ~ 9223372036854775807
+	chemicalBuffer = 8192000
+
+#Settings for configuring Mekanism's security system
+[security]
+	#Enable the security system. This allows players to prevent other players from accessing their machines. Does NOT affect Frequencies.
+	allowProtection = true
+	#If this is enabled then players with the 'mekanism.bypass_security' permission (default for ops) can bypass block and item security restrictions.
+	opsBypassRestrictions = false
+
+#Settings for configuring Nutritional Paste
+[nutritional_paste]
+	#Saturation level of Nutritional Paste when eaten.
+	#Range: 0.0 ~ 100.0
+	saturation = 0.8
+	#How much mB of Nutritional Paste equates to one 'half-food'.
+	#Range: > 1
+	mbPerFood = 50
+
+#Settings for configuring Boilers
+[boiler]
+	#Amount of fluid (mB) that each block of the boiler's water portion contributes to the volume. Max = volume * waterPerTank
+	#Range: 1 ~ 368224
+	waterPerTank = 16000
+	#Amount of steam (mB) that each block of the boiler's steam portion contributes to the volume. Max = volume * steamPerTank
+	#Range: 10 ~ 1581510980256305
+	steamPerTank = 160000
+	#Amount of steam (mB) that each block of the boiler's heated coolant portion contributes to the volume. Max = volume * heatedCoolantPerTank
+	#Range: 1 ~ 1581510980256305
+	heatedCoolantPerTank = 256000
+	#Amount of steam (mB) that each block of the boiler's cooled coolant portion contributes to the volume. Max = volume * cooledCoolantPerTank
+	#Range: 1 ~ 1581510980256305
+	cooledCoolantPerTank = 256000
+	#How much Boiler heat is immediately usable to convert water to steam.
+	#Range: 0.01 ~ 1.0
+	waterConductivity = 0.7
+	#Amount of heat each Boiler heating element produces.
+	#Range: 0.1 ~ 1.024E9
+	superheatingHeatTransfer = 1.6E7
+
+#Settings for configuring Thermal Evaporation Plants
+[thermal_evaporation]
+	#Thermal Evaporation Plant heat loss per tick.
+	#Range: 0.001 ~ 1000.0
+	heatDissipation = 0.02
+	#Heat to absorb per Solar Panel array installed on a Thermal Evaporation Plant.
+	#Range: 0.001 ~ 1000000.0
+	solarMultiplier = 0.2
+	#Ratio of temperature to output amount produced.
+	#Range: 0.001 ~ 1000000.0
+	tempMultiplier = 0.4
+	#Heat capacity of Thermal Evaporation Plant layers. This increases the amount of energy needed to increase temperature.
+	#Range: 1.0 ~ 1000000.0
+	heatCapacity = 100.0
+	#Amount of fluid (mB) that each block of the evaporation plant contributes to the input tank capacity. Max = volume * fluidPerTank
+	#Range: 1 ~ 29826161
+	fluidPerTank = 64000
+	#Amount of output fluid (mB) that the evaporation plant can store.
+	#Range: > 1
+	outputTankCapacity = 10000
+
+#Settings for configuring the Supercritical Phase Shifter
+[sps]
+	#How much polonium in mB must be processed to make 1 mB of antimatter. The input tank capacity is 2x this value.
+	#Range: > 1
+	inputPerAntimatter = 1000
+	#Amount of antimatter in mB that the SPS can store.
+	#Range: 1 ~ 9223372036854775807
+	outputTankCapacity = 1000
+	#Energy needed to process 1 mB of input (inputPerAntimatter * energyPerInput = energy to produce 1 mB of antimatter).
+	#Range: 0 ~ 9223372036854775807
+	energyPerInput = 1000000
