@@ -105,9 +105,6 @@ ServerEvents.recipes(allthemods => {
 
   [['gravel','cobblestone'], ['sand','gravel']].forEach(recipe => {
     for (let count = 1; count < 10; count++) {
-      console.log('allthecompressed:' + recipe[0] + '_' + count + 'x')
-      console.log('allthecompressed:' + recipe[1] + '_' + count + 'x')
-      console.log(recipe[0] + '_to_' + recipe[1] + '_' + count + 'x')
       mekCrushing(
           {item: 'allthecompressed:' + recipe[0] + '_' + count + 'x'},
           {item: 'allthecompressed:' + recipe[1] + '_' + count + 'x'},
