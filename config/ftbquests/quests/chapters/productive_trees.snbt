@@ -15,8 +15,8 @@
 			image: "minecraft:textures/gui/sprites/toast/tree.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: -9.0d
-			y: 11.0d
+			x: 4.5d
+			y: 12.5d
 		}
 		{
 			height: 0.3d
@@ -51,8 +51,8 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:saplings)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: 12.0d
+			x: 4.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["7C4F1012F5B6532F"]
@@ -1135,6 +1135,7 @@
 				"5B114CE7192A0549"
 				"3A79E24283523E58"
 			]
+			hide_dependent_lines: true
 			id: "4D562F5D72038083"
 			rewards: [{
 				count: 16
@@ -3749,6 +3750,10 @@
 			y: 1.0d
 		}
 		{
+			dependencies: [
+				"289B30DAC960BFF2"
+				"22151D56616559CB"
+			]
 			id: "71AA40CB2948A8D7"
 			rewards: [{
 				count: 16
@@ -3764,8 +3769,8 @@
 				item: { count: 1, id: "productivetrees:water_wonder_sapling" }
 				type: "item"
 			}]
-			x: 3.0d
-			y: 12.0d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
 			id: "22151D56616559CB"
@@ -3784,8 +3789,8 @@
 				item: { count: 1, id: "productivetrees:blue_yonder_sapling" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 12.0d
+			x: 5.5d
+			y: 10.0d
 		}
 		{
 			id: "4281BCDCE233F65B"
@@ -3804,8 +3809,8 @@
 				item: { count: 1, id: "productivetrees:firecracker_sapling" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 12.0d
+			x: 4.5d
+			y: 10.0d
 		}
 		{
 			id: "18A2F6BA778D96B1"
@@ -3824,8 +3829,8 @@
 				item: { count: 1, id: "productivetrees:black_ember_sapling" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 12.0d
+			x: 2.5d
+			y: 10.0d
 		}
 		{
 			id: "4C3B7BAEA653587B"
@@ -3844,8 +3849,8 @@
 				item: { count: 1, id: "productivetrees:flickering_sun_sapling" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 12.0d
+			x: 6.5d
+			y: 10.0d
 		}
 		{
 			id: "289B30DAC960BFF2"
@@ -3864,8 +3869,8 @@
 				item: { count: 1, id: "productivetrees:soul_tree_sapling" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 12.0d
+			x: 3.5d
+			y: 10.0d
 		}
 		{
 			id: "768C07D1B5EB1FEB"
@@ -3884,10 +3889,14 @@
 				item: { count: 1, id: "productivetrees:brown_amber_sapling" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 12.0d
+			x: 5.0d
+			y: 11.0d
 		}
 		{
+			dependencies: [
+				"289B30DAC960BFF2"
+				"18A2F6BA778D96B1"
+			]
 			id: "6BF6C7C04F26D8BA"
 			rewards: [{
 				count: 16
@@ -3903,10 +3912,14 @@
 				item: { count: 1, id: "productivetrees:cave_dweller_sapling" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 12.0d
+			x: 3.0d
+			y: 9.0d
 		}
 		{
+			dependencies: [
+				"289B30DAC960BFF2"
+				"6BF6C7C04F26D8BA"
+			]
 			id: "1D31C515533DAD36"
 			rewards: [{
 				count: 16
@@ -3922,10 +3935,14 @@
 				item: { count: 1, id: "productivetrees:foggy_blast_sapling" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 12.0d
+			x: 4.0d
+			y: 7.0d
 		}
 		{
+			dependencies: [
+				"4281BCDCE233F65B"
+				"22151D56616559CB"
+			]
 			id: "526CED9509FAA79B"
 			rewards: [{
 				count: 16
@@ -3941,10 +3958,14 @@
 				item: { count: 1, id: "productivetrees:purple_spiral_sapling" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 12.0d
+			x: 5.0d
+			y: 9.0d
 		}
 		{
+			dependencies: [
+				"22151D56616559CB"
+				"4C3B7BAEA653587B"
+			]
 			id: "74CD3FC35F245DF2"
 			rewards: [{
 				count: 16
@@ -3960,10 +3981,14 @@
 				item: { count: 1, id: "productivetrees:rippling_willow_sapling" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 12.0d
+			x: 6.0d
+			y: 9.0d
 		}
 		{
+			dependencies: [
+				"289B30DAC960BFF2"
+				"74CD3FC35F245DF2"
+			]
 			id: "5FC92F3794004A98"
 			rewards: [{
 				count: 16
@@ -3979,10 +4004,14 @@
 				item: { count: 1, id: "productivetrees:slimy_delight_sapling" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 12.0d
+			x: 5.0d
+			y: 7.0d
 		}
 		{
+			dependencies: [
+				"289B30DAC960BFF2"
+				"4281BCDCE233F65B"
+			]
 			id: "4AEB4BF7624ABA0F"
 			rewards: [{
 				count: 16
@@ -3998,10 +4027,14 @@
 				item: { count: 1, id: "productivetrees:sparkle_cherry_sapling" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 12.0d
+			x: 4.0d
+			y: 9.0d
 		}
 		{
+			dependencies: [
+				"4C3B7BAEA653587B"
+				"4281BCDCE233F65B"
+			]
 			id: "3707C3EDA1C5A0B2"
 			rewards: [{
 				count: 16
@@ -4017,10 +4050,14 @@
 				item: { count: 1, id: "productivetrees:thunder_bolt_sapling" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 12.0d
+			x: 3.5d
+			y: 8.0d
 		}
 		{
+			dependencies: [
+				"74CD3FC35F245DF2"
+				"22151D56616559CB"
+			]
 			id: "05F428C34DD00B61"
 			rewards: [{
 				count: 16
@@ -4036,10 +4073,14 @@
 				item: { count: 1, id: "productivetrees:time_traveller_sapling" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 12.0d
+			x: 5.5d
+			y: 8.0d
 		}
 		{
+			dependencies: [
+				"526CED9509FAA79B"
+				"4AEB4BF7624ABA0F"
+			]
 			id: "20DDAC076A2479A8"
 			rewards: [{
 				count: 16
@@ -4055,8 +4096,8 @@
 				item: { count: 1, id: "productivetrees:night_fuchsia_sapling" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 12.0d
+			x: 4.5d
+			y: 8.0d
 		}
 		{
 			id: "25D8BE0280B6E7F1"
@@ -4072,8 +4113,45 @@
 					type: "checkmark"
 				}
 			]
-			x: -10.0d
-			y: 12.0d
+			x: -1.5d
+			y: 14.0d
+		}
+		{
+			id: "543F00603790AD3E"
+			rewards: [{
+				id: "7BA341680A73A46F"
+				item: {
+					count: 1
+					id: "minecraft:stone_axe"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "16391CD1A55DEA7C"
+				item: { count: 1, id: "productivetrees:stripper" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.0d
+		}
+		{
+			id: "76A0592F4C294545"
+			rewards: [{
+				count: 5
+				id: "3C72A695620499FC"
+				item: {
+					count: 1
+					id: "productivetrees:sawdust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "01E6A96EBEF754EB"
+				item: { count: 1, id: "productivetrees:sawmill" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.0d
 		}
 	]
 }

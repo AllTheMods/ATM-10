@@ -103,6 +103,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["0542FE108089A0A2"]
 			id: "02593CD4B4AE814C"
 			rewards: [{
 				count: 10
@@ -251,7 +252,11 @@
 		}
 		{
 			id: "45996B848792379E"
-			optional: true
+			rewards: [{
+				id: "08E663CBC638D862"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "rsquare"
 			tasks: [{
 				id: "1476F390A6789572"
@@ -263,6 +268,11 @@
 		}
 		{
 			id: "76F675A898EAB4E8"
+			rewards: [{
+				id: "521AFCFE3F8C0B95"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "0A2949304DBB3D75"
 				item: { count: 1, id: "minecraft:water_bucket" }
@@ -298,6 +308,11 @@
 			}
 			icon_scale: 1.5d
 			id: "19A2016B54C6FA34"
+			rewards: [{
+				id: "55B6A322CAAF47E0"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "square"
 			tasks: [{
 				id: "3489080F5FDE8B1B"
@@ -349,6 +364,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["0542FE108089A0A2"]
 			id: "36926B5EBFF6E55A"
 			rewards: [{
 				id: "3DC18770E98DCB85"
@@ -414,6 +430,7 @@
 			y: -6.0d
 		}
 		{
+			hide_dependent_lines: true
 			icon: {
 				id: "theurgy:alchemical_sulfur_sulfur"
 			}
@@ -446,9 +463,9 @@
 			icon_scale: 1.2d
 			id: "2B29E9AB9447E1C6"
 			rewards: [{
-				id: "25EA3C476F52E3F9"
-				type: "xp_levels"
-				xp_levels: 10
+				id: "21D3EB1A785C7B7B"
+				type: "xp"
+				xp: 500
 			}]
 			shape: "octagon"
 			size: 1.65d
@@ -585,17 +602,17 @@
 			id: "3EB63AF53E70C931"
 			rewards: [
 				{
-					id: "3BF7CCA7BD5E3A62"
-					type: "xp_levels"
-					xp_levels: 4
-				}
-				{
 					id: "68C21C4AED7D0FF7"
 					item: {
 						count: 1
 						id: "theurgy:mercury_catalyst"
 					}
 					type: "item"
+				}
+				{
+					id: "667E5699C991DE91"
+					type: "xp_levels"
+					xp_levels: 4
 				}
 			]
 			shape: "diamond"

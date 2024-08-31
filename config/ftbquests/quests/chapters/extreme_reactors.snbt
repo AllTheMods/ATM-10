@@ -60,8 +60,19 @@
 			id: "7C4E4793DA887DE4"
 			rewards: [
 				{
+					id: "08AC2295DBD8B915"
+					item: {
+						components: {
+							"patchouli:book": "bigreactors:erguide"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+				{
 					count: 3
-					id: "1C213B4FE894781D"
+					id: "17C6667F09D439F1"
 					item: {
 						count: 1
 						id: "alltheores:raw_uranium"
@@ -69,7 +80,7 @@
 					type: "item"
 				}
 				{
-					id: "4FA70911ADBAF967"
+					id: "7733E4DC78031241"
 					type: "xp"
 					xp: 10
 				}
@@ -339,8 +350,8 @@
 				item: { count: 4, id: "alltheores:uranium_ingot" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 8.0d
+			x: -7.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["4AD8363D7359A072"]
@@ -475,15 +486,15 @@
 			progression_mode: "linear"
 			rewards: [
 				{
-					id: "2D71A6EF1CA59FA7"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "52181A03434A605B"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "0572948909199F86"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -546,7 +557,7 @@
 				{
 					id: "73F2B06136C86A4E"
 					type: "xp"
-					xp: 100
+					xp: 50
 				}
 			]
 			shape: "diamond"
