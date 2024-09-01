@@ -280,6 +280,22 @@
 			x: -1.0d
 			y: 2.0d
 		}
+		{
+			height: 0.3d
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 0.7d
+			y: -1.0d
+		}
+		{
+			height: 0.3d
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 6.0d
+			y: 0.7d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -579,9 +595,9 @@
 					type: "item"
 				}
 				{
-					id: "523D9FC1FA54BC16"
-					type: "xp_levels"
-					xp_levels: 10
+					id: "7C4D39D60EC3E2EF"
+					type: "xp"
+					xp: 500
 				}
 			]
 			shape: "square"
@@ -1000,7 +1016,7 @@
 					id: "73709A450E84888B"
 					item: {
 						count: 1
-						id: "minecraft:nether_star"
+						id: "minecraft:wither_skeleton_skull"
 					}
 					type: "item"
 				}
@@ -1024,7 +1040,7 @@
 			id: "40DB6E3DE87F16EF"
 			rewards: [
 				{
-					count: 20
+					count: 10
 					id: "218046278739D11D"
 					item: {
 						count: 1
@@ -1078,6 +1094,12 @@
 			y: -2.0d
 		}
 		{
+			dependencies: [
+				"661C072E48F8D41F"
+				"2748ACEAB96A5F60"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
 			id: "78D1C97A542133D8"
 			tasks: [{
 				id: "1311C09169CA7055"
@@ -1220,6 +1242,12 @@
 			y: -1.0d
 		}
 		{
+			dependencies: [
+				"2748ACEAB96A5F60"
+				"661C072E48F8D41F"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
 			id: "686B25F2E9D8CC97"
 			rewards: [{
 				id: "2F6385518AC2519D"
@@ -1241,6 +1269,12 @@
 			y: 1.0d
 		}
 		{
+			dependencies: [
+				"2748ACEAB96A5F60"
+				"661C072E48F8D41F"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
 			id: "553220A2CD7CAFE4"
 			rewards: [{
 				id: "24C4930CF7FE42C9"
@@ -1262,6 +1296,12 @@
 			y: 1.0d
 		}
 		{
+			dependencies: [
+				"661C072E48F8D41F"
+				"2748ACEAB96A5F60"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
 			id: "20EC8001A05CE2C8"
 			rewards: [{
 				id: "5A8FFF85B18A2973"
@@ -1374,9 +1414,9 @@
 			hide_until_deps_visible: true
 			id: "062AA943A1629A86"
 			rewards: [{
-				id: "799945EBA75D63DD"
-				type: "xp_levels"
-				xp_levels: 10
+				id: "7F86DDCE0851F919"
+				type: "xp"
+				xp: 500
 			}]
 			tasks: [{
 				id: "7074C679F7E9CC65"
@@ -1387,6 +1427,12 @@
 			y: -3.0d
 		}
 		{
+			dependencies: [
+				"661C072E48F8D41F"
+				"2748ACEAB96A5F60"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
 			id: "757B14D08A9A03C4"
 			rewards: [{
 				count: 3
@@ -1422,11 +1468,6 @@
 			id: "0ADBE90B33ACC9FB"
 			rewards: [
 				{
-					id: "4AB852C44AB295D0"
-					type: "xp_levels"
-					xp_levels: 50
-				}
-				{
 					count: 27
 					id: "5623C6D98BDF087C"
 					item: {
@@ -1434,6 +1475,11 @@
 						id: "minecraft:coal_block"
 					}
 					type: "item"
+				}
+				{
+					id: "5F938DFDAEA33B45"
+					type: "xp"
+					xp: 500
 				}
 			]
 			tasks: [

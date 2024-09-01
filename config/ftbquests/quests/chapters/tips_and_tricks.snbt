@@ -48,15 +48,15 @@
 			id: "7EC8814940C4C3D7"
 			rewards: [
 				{
-					id: "156D559B0B56BA9A"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "6BCF264E89365C5D"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "105CF4B42684C297"
+					type: "xp"
+					xp: 10
 				}
 			]
 			shape: "diamond"
@@ -135,15 +135,15 @@
 			id: "70B6C9409AE69284"
 			rewards: [
 				{
-					id: "554BFA90C78DEDD5"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "262AC9191FD415A3"
 					table_id: 487623848494439020L
 					type: "random"
+				}
+				{
+					id: "727954DC34582543"
+					type: "xp"
+					xp: 10
 				}
 			]
 			tasks: [{
@@ -200,21 +200,21 @@
 			invisible: true
 			rewards: [
 				{
-					id: "6502F8AB0033CC29"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "7CCFFBC576CC4D3E"
 					table_id: 487623848494439020L
 					type: "loot"
 				}
+				{
+					id: "00E8AD05DE1012D8"
+					type: "xp"
+					xp: 10
+				}
 			]
 			shape: "diamond"
 			tasks: [{
-				id: "7F265D92FDA70DFA"
-				item: { components: { "ftbquests:missing_item": "easy_villagers:villager" }, count: 1, id: "ftbquests:missing_item" }
+				id: "157C28027F8EEFFE"
+				item: { components: { "easy_villagers:villager": { } }, count: 1, id: "easy_villagers:villager" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -225,15 +225,15 @@
 			optional: true
 			rewards: [
 				{
-					id: "71D231672C274C17"
-					type: "xp"
-					xp: 25
-				}
-				{
 					exclude_from_claim_all: true
 					id: "6D44B1DE7B009082"
 					table_id: 487623848494439020L
 					type: "loot"
+				}
+				{
+					id: "44FE2E9B40EF0EE1"
+					type: "xp"
+					xp: 10
 				}
 			]
 			shape: "diamond"
@@ -250,21 +250,15 @@
 			optional: true
 			rewards: [
 				{
-					id: "2F26494429A38E0C"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "3650502ECF1ACC45"
 					table_id: 487623848494439020L
 					type: "loot"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "636C3AC34EFAEF52"
-					table_id: 487623848494439020L
-					type: "loot"
+					id: "43F516E0BB34B39A"
+					type: "xp"
+					xp: 10
 				}
 			]
 			shape: "diamond"
@@ -290,8 +284,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
-			y: 5.0d
+			x: 1.0d
+			y: 10.0d
 		}
 	]
 }

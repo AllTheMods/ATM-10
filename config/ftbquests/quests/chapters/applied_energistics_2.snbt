@@ -10,26 +10,14 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "07210DDF872160BA"
-	images: [
-		{
-			height: 0.5d
-			hover: ["{atm10.quest.ae2.img.star}"]
-			image: "allthetweaks:item/atm_star"
-			rotation: 0.0d
-			width: 0.5d
-			x: 3.0d
-			y: 4.25d
-		}
-		{
-			height: 0.5d
-			hover: ["{atm10.quest.ae2.img.star}"]
-			image: "allthetweaks:item/atm_star"
-			rotation: 0.0d
-			width: 0.5d
-			x: 5.0d
-			y: 5.5d
-		}
-	]
+	images: [{
+		height: 0.3d
+		image: "allthetweaks:item/atm_star"
+		rotation: 0.0d
+		width: 0.3d
+		x: 5.0d
+		y: 3.9d
+	}]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -101,6 +89,9 @@
 		}
 		{
 			dependencies: ["68B0B3DAF1145191"]
+			icon: {
+				id: "ae2:meteorite_compass"
+			}
 			id: "51236544BFEF487B"
 			rewards: [
 				{
@@ -1526,8 +1517,8 @@
 			]
 			shape: "rsquare"
 			tasks: [{
-				id: "5EC8D891031E34EF"
-				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:crafting_accelerator))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "39BC572CE6FCFE92"
+				item: { count: 1, id: "ae2:crafting_accelerator" }
 				type: "item"
 			}]
 			x: 16.0d
@@ -1550,8 +1541,8 @@
 			]
 			shape: "rsquare"
 			tasks: [{
-				id: "2D386EFC23C45581"
-				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:crafting_monitor))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "1C9C2FAD7CD16C9D"
+				item: { count: 1, id: "ae2:crafting_monitor" }
 				type: "item"
 			}]
 			x: 18.0d
