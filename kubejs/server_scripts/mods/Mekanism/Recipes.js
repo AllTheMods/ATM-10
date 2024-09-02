@@ -84,25 +84,6 @@ ServerEvents.recipes(allthemods => {
     allthemods.custom(recipe).id(`allthemods:mekanism/sawing/${id}`);
   }
 
-  //list of all the mods to add recipes for
-  const mods = ['croptopia', 'evilcraft', 'eternal_starlight', 'allthemodium',
-    'integrateddynamics', 'ars_nouveau', 'regions_unexplored', 'productivetrees']
-
-  mods.forEach(mod => {
-    //gets all items from the mod with the #minecraft:logs tag
-    let logs = Ingredient.of(`#minecraft:logs`).stacks.toArray().filter(item => item.getId().startsWith(mod + ':')) .map(item => item.getId());
-
-    if(logs.length > 0) {
-      logs.forEach(log => {
-        mekSawing(
-            {item: log.toString().replace('log', 'planks'), count: 6}, //gets the name of the log and replaces the 'log' with 'planks' to generate an output
-            {tag: log + 's', count: 1}, //adds an 's' to the log name to get the tag
-            {chance: 0.25, item: 'mekanism:sawdust', count: 1},
-            mod + '/' + log.toString().split(':').pop() + '_to_planks'); //generates the id by adding the mod name in front of the log and adding a 'to planks' at the end
-      })
-    }
-  });
-
   [['gravel','cobblestone'], ['sand','gravel']].forEach(recipe => {
     for (let count = 1; count < 10; count++) {
       mekCrushing(
