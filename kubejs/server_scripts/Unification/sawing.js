@@ -28,6 +28,9 @@ ServerEvents.tags('item', allthemods => {
         'allthemodium:demonic_log',
         'allthemodium:stripped_demonic_log',
     ])
+    allthemods.add('regions_unexplored:alpha_logs', [
+        'regions_unexplored:alpha_log'
+    ])
 })
 
 ServerEvents.recipes(allthemods => {
@@ -108,8 +111,8 @@ ServerEvents.recipes(allthemods => {
 
     //ars yet again
     prodSawing(
-        {tag: 'ars_nouveau:archwood_planks'},
-        {item: 'c:logs/archwood', count: 6},
+        {tag: 'c:logs/archwood'},
+        {item: 'ars_nouveau:archwood_planks', count: 6},
         {item: 'productivetrees:sawdust', count: 2},
         'ars_nouveau/archwood_log_to_planks'
     )
