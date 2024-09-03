@@ -11,10 +11,10 @@ aestheticWorldDamage = true
 transmitterAlloyUpgrade = true
 #Base factor for working out machine performance with upgrades - UpgradeModifier * (UpgradesInstalled/UpgradesPossible).
 #Range: > 1
-maxUpgradeMultiplier = 10
+maxUpgradeMultiplier = 16
 #Peak processing rate in mB/t for the Solar Neutron Activator. Note: It can go higher than this value in some extreme environments.
 #Range: 1 ~ 1024
-maxSolarNeutronActivatorRate = 64
+maxSolarNeutronActivatorRate = 256
 
 #Settings for configuring heaters
 [heater]
@@ -99,10 +99,10 @@ maxSolarNeutronActivatorRate = 64
 	chunkCheckRadius = 5
 	#Radiation sources are multiplied by this constant roughly once per second to represent their emission decay. At the default rate, it takes roughly 10 hours to remove a 1,000 Sv/h (crazy high) source.
 	#Range: 0.0 ~ 1.0
-	sourceDecayRate = 0.9995
+	sourceDecayRate = 0.95
 	#Radiated objects and entities are multiplied by this constant roughly once per second to represent their dosage decay.
 	#Range: 0.0 ~ 1.0
-	targetDecayRate = 0.9995
+	targetDecayRate = 0.95
 	#Defines the minimum severity radiation dosage severity (scale of 0 to 1) for which negative effects can take place. Set to 1 to disable negative effects completely.
 	#Range: 0.0 ~ 1.0
 	negativeEffectsMinSeverity = 0.1
@@ -111,10 +111,10 @@ maxSolarNeutronActivatorRate = 64
 	wasteBarrelCapacity = 512000
 	#Number of ticks required for radioactive chemical stored in a Radioactive Waste Barrel to decay radioactiveWasteBarrelDecayAmount mB.
 	#Range: > 1
-	wasteBarrelProcessTicks = 20
+	wasteBarrelProcessTicks = 10
 	#Number of mB of chemical that decay every radioactiveWasteBarrelProcessTicks ticks when stored in a Radioactive Waste Barrel. Set to zero to disable decay all together. (Chemicals in the mekanism:waste_barrel_decay_blacklist tag will not decay).
 	#Range: 0 ~ 9223372036854775807
-	wasteBarrelDecayAmount = 1
+	wasteBarrelDecayAmount = 2
 
 #Settings for configuring the Digital Miner
 [digital_miner]
@@ -156,7 +156,7 @@ maxSolarNeutronActivatorRate = 64
 	pumpInfiniteFluidSources = false
 	#Amount of Heavy Water in mB that is extracted per block of Water by the Electric Pump with a Filter Upgrade.
 	#Range: 1 ~ 1000
-	heavyWaterAmount = 10
+	heavyWaterAmount = 50
 	#The number of blocks Fluidic Plenisher attempts to place fluid in before stopping.
 	#Range: 1 ~ 1000000
 	maxPlenisherNodes = 4000
@@ -178,7 +178,7 @@ maxSolarNeutronActivatorRate = 64
 	#Enable the security system. This allows players to prevent other players from accessing their machines. Does NOT affect Frequencies.
 	allowProtection = true
 	#If this is enabled then players with the 'mekanism.bypass_security' permission (default for ops) can bypass block and item security restrictions.
-	opsBypassRestrictions = false
+	opsBypassRestrictions = true
 
 #Settings for configuring Nutritional Paste
 [nutritional_paste]
@@ -193,16 +193,16 @@ maxSolarNeutronActivatorRate = 64
 [boiler]
 	#Amount of fluid (mB) that each block of the boiler's water portion contributes to the volume. Max = volume * waterPerTank
 	#Range: 1 ~ 368224
-	waterPerTank = 16000
+	waterPerTank = 32000
 	#Amount of steam (mB) that each block of the boiler's steam portion contributes to the volume. Max = volume * steamPerTank
 	#Range: 10 ~ 1581510980256305
-	steamPerTank = 160000
+	steamPerTank = 320000
 	#Amount of steam (mB) that each block of the boiler's heated coolant portion contributes to the volume. Max = volume * heatedCoolantPerTank
 	#Range: 1 ~ 1581510980256305
-	heatedCoolantPerTank = 256000
+	heatedCoolantPerTank = 512000
 	#Amount of steam (mB) that each block of the boiler's cooled coolant portion contributes to the volume. Max = volume * cooledCoolantPerTank
 	#Range: 1 ~ 1581510980256305
-	cooledCoolantPerTank = 256000
+	cooledCoolantPerTank = 512000
 	#How much Boiler heat is immediately usable to convert water to steam.
 	#Range: 0.01 ~ 1.0
 	waterConductivity = 0.7
@@ -220,10 +220,10 @@ maxSolarNeutronActivatorRate = 64
 	solarMultiplier = 0.2
 	#Ratio of temperature to output amount produced.
 	#Range: 0.001 ~ 1000000.0
-	tempMultiplier = 0.4
+	tempMultiplier = 1.85
 	#Heat capacity of Thermal Evaporation Plant layers. This increases the amount of energy needed to increase temperature.
 	#Range: 1.0 ~ 1000000.0
-	heatCapacity = 100.0
+	heatCapacity = 600.0
 	#Amount of fluid (mB) that each block of the evaporation plant contributes to the input tank capacity. Max = volume * fluidPerTank
 	#Range: 1 ~ 29826161
 	fluidPerTank = 64000
@@ -241,4 +241,4 @@ maxSolarNeutronActivatorRate = 64
 	outputTankCapacity = 1000
 	#Energy needed to process 1 mB of input (inputPerAntimatter * energyPerInput = energy to produce 1 mB of antimatter).
 	#Range: 0 ~ 9223372036854775807
-	energyPerInput = 1000000
+	energyPerInput = 100000
