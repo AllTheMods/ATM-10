@@ -30,7 +30,6 @@
 	chapter.2A6EBEEBAB882679.title: "Powah"
 	chapter.2FB24A5A597459FC.title: "RailCraft"
 	chapter.3202C575456F57D2.title: "GregStar"
-	chapter.3456E0C530C0038E.title: "EvilCraft"
 	chapter.34E8FF3196478229.title: "Forbidden and Arcanus"
 	chapter.37A28F4697946CB4.title: "Low Voltage"
 	chapter.37A5A4A81CCB67E5.title: "High Voltage"
@@ -171,17 +170,17 @@
 	quest.00FD36C207845895.title: "Draconic Bee"
 	quest.00FF2CA7BA326007.quest_subtitle: "Mandarin + Wild Cherry"
 	quest.0104C2E2E30B966B.quest_desc: [
-		"Is the &cBlood Chest&r not working fast enough? Do you have too many items that need to be repaired? You can make a &cColossal Blood Chest&r to solve these problems."
+		"{atm9.quest.evilcraft.desc.colossalBloodChest.1}"
 		""
-		"To build one, you need to make 25 &9Reinforced Undead Planks&r. Using these, you want to make a 3x3x3 hollow cube, then place a &cColossal Blood Chest&r block to close off the multiblock structure. If done right, you'll have a massive &cBlood Chest&r you can now use. Some might call is colossal."
+		"{atm9.quest.evilcraft.desc.colossalBloodChest.2}"
 		""
-		"This also allows you to upgrade it using &6Promises&r."
+		"{atm9.quest.evilcraft.desc.colossalBloodChest.3}"
 		""
 		""
 		"{image:atm:textures/questpics/evilcraft/bloodchest.png width:250 height:200 align:1}"
 	]
-	quest.0104C2E2E30B966B.quest_subtitle: "Papa Blood Chest"
-	quest.0104C2E2E30B966B.title: "&aColossal Repairs&r"
+	quest.0104C2E2E30B966B.quest_subtitle: "{atm9.quest.evilcraft.subt.papaBloodChest}"
+	quest.0104C2E2E30B966B.title: "{atm9.quest.evilcraft.colossalRepairs}"
 	quest.010607466D565B53.quest_desc: ["Like get in touch with Mother Nature man. \\n\\nWith &aRooted Boots&r nature is your Bestfriend! When standing on Grass you will Regenerate Hearts. Also when you Eat Food when standing on Grass it will act as if you Bonemealed it."]
 	quest.010607466D565B53.quest_subtitle: "Feet"
 	quest.010607466D565B53.title: "&aRooted Boots&r"
@@ -304,9 +303,9 @@
 	quest.0262E0D49A12F817.quest_subtitle: "Upgrades!"
 	quest.02643BAD1AE747C6.quest_desc: ["The &3Advanced Liquid Compressor&r works the same as the Liquid Compressor, only way better!"]
 	quest.026A71F98A52E3A5.quest_desc: [
-		"Within villages, there are &ointeresting&r villagers that just so happen to be &dWerewolves&r."
+		"{atm9.quest.evilcraft.desc.werewolfVillagers.1}"
 		""
-		"Slaying these beasts will give you &dWerewolf Flesh&r."
+		"{atm9.quest.evilcraft.desc.werewolfVillagers.2}"
 	]
 	quest.026C63594F813BCC.quest_desc: [
 		"&lAbility Type:&r Active"
@@ -699,11 +698,11 @@
 	]
 	quest.0650996C7818ADB5.quest_subtitle: "Basic Power Gen"
 	quest.066438B01655D866.quest_desc: [
-		"While their &dEssence&r is useful, we can also capture these Spirits for later use. That sounds evil, doesn't it?"
+		"{atm9.quest.evilcraft.desc.captureSpirits.1}"
 		""
-		"To become a Spirit Hunter, you'll need to create the &dVengeance Focus&r first. This is used to &aFreeze Spirits&r in place, then you place a &9Box of Eternal Closure&r near the Spirit. This will then suck the Spirit in for later use."
+		"{atm9.quest.evilcraft.desc.captureSpirits.2}"
 	]
-	quest.066438B01655D866.title: "Capturing &dSpirits&r"
+	quest.066438B01655D866.title: "{atm9.quest.evilcraft.capturingSpirits}"
 	quest.066F78936C8F943B.quest_desc: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. \\n\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. \\n\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
 	quest.066F78936C8F943B.title: "AllRightsReserved"
 	quest.0672462DA3599484.quest_subtitle: "512,000mb"
@@ -1159,9 +1158,9 @@
 	quest.0B7F2B63D867D221.title: "Necklace of the desert"
 	quest.0B9BBE2A764631BF.quest_desc: ["The simple swaper can teleport items, blocks, mobs or players above it to another simple sawper it is linked to. To link swapers use the Ferricore wrench."]
 	quest.0B9F2B443813F43C.quest_desc: [
-		"Have you ever wanted to be able to attack things with a Shovel, and it hurt? I would ask why, but this is EvilCraft."
+		"{atm9.quest.evilcraft.desc.shovelWeapon.1}"
 		""
-		"Well look no further! This serves as both a weapon, and a tool for breaking soft things!"
+		"{atm9.quest.evilcraft.desc.shovelWeapon.2}"
 	]
 	quest.0BA5A0DDD4A5363C.quest_subtitle: "Cobaltite be here"
 	quest.0BA5A0DDD4A5363C.title: "Garnierite Vein"
@@ -1175,13 +1174,13 @@
 		"It's recommended you set a &bRequester&r up for this"
 	]
 	quest.0BB0DF36B079558F.quest_desc: [
-		"The &6Entangled Chalice&r is just like an Ender Tank."
+		"{atm9.quest.evilcraft.desc.entangledChaliceFeatures.1}"
 		""
-		"When placed in the world, it can pump in Blood. When activated in your inventory, it will try to fill up your items that use &cBlood&r as a resource."
+		"{atm9.quest.evilcraft.desc.entangledChaliceFeatures.2}"
 		""
-		"If you want to make more Chalices using the same network, just use the crafting recipe that uses a Chalice instead of a gold ingot."
+		"{atm9.quest.evilcraft.desc.entangledChaliceFeatures.3}"
 	]
-	quest.0BB0DF36B079558F.title: "&dEntangled Chalice&r"
+	quest.0BB0DF36B079558F.title: "{atm9.quest.evilcraft.entangledChalice}"
 	quest.0BB367839D28607D.quest_desc: [
 		"The RFTools Coal Generator is one of the easiest coal-burning generators to make. "
 		""
@@ -1521,7 +1520,7 @@
 		"{image:atm:textures/questpics/theurgy/theurgy_brazier.png width:100 height:100 align:center}"
 	]
 	quest.0EADCEA9AB001FC7.title: "Furnace like Heat"
-	quest.0EAF01037BB20BCB.quest_subtitle: "Summons Zombies"
+	quest.0EAF01037BB20BCB.quest_subtitle: "{atm9.quest.evilcraft.subt.summonsZombies}"
 	quest.0EB5B926E1FBAF0E.quest_desc: ["Enchanting gets a few changes with Apotheosis. To summarize it, 15 bookshelves won't be enough now. There's new bookshelves and actions you can do with Enchantment Tables now and hopefully these quests will help you understand."]
 	quest.0EB5B926E1FBAF0E.title: "Enchanting with Apotheosis"
 	quest.0EC2053B191C55C6.quest_desc: [
@@ -1698,18 +1697,8 @@
 	quest.10162AD188CB3327.quest_subtitle: "Plum + Red Delicious Apple"
 	quest.104049993CC62E7F.quest_desc: ["The Advanced Item Loader is everything the regular one is but can be used from anywhere near the &6Track&r. Next to, above, next to on the other side. Use the &4Crowbar&r to change its direction."]
 	quest.104049993CC62E7F.title: "Advanced Item Loader"
-	quest.104EBBC08B4733F5.quest_desc: [
-		"The &dSimulation Chamber&r is the main machine within HNN. "
-		""
-		"When given power, it will run simulations based on the &bData Model&r that is placed inside. The power required also depends on the Data Model placed inside, and can be seen within the Model's tooltip.  "
-		""
-		"The machine also requires at least one &9Prediction Matrix&r to run a simulation. "
-		""
-		"The result of the simulation will be output onto the Matrix. Simulations will always produce some kind of &eGeneralized Prediction&r, which can be used in various crafting recipes. They also vary depending on the origin of the mob in the Data Model. "
-		""
-		"If the simulation succeeds, you will receive a &dMob Prediction&r based off of the model. The higher the tier of the Data Model used, the higher the success rate is for a simulation."
-	]
-	quest.104EBBC08B4733F5.title: "&aSimulating Deaths&r"
+	quest.104EBBC08B4733F5.quest_desc: ["The &dSimulation Chamber&r is the main machine within HNN.\\n\\nWhen given power, it will run simulations based on the &bData Model&r that is placed inside. The power required also depends on the Data Model placed inside, and can be seen within the Model's tooltip. \\n\\nThe machine also requires at least one &9Prediction Matrix&r to run a simulation.\\n\\nThe result of the simulation will be output onto the Matrix. Simulations will always produce some kind of &eGeneralized Prediction&r, which can be used in various crafting recipes. They also vary depending on the origin of the mob in the Data Model.\\n\\nIf the simulation succeeds, you will receive a &dMob Prediction&r based off of the model. The higher the tier of the Data Model used, the higher the success rate is for a simulation."]
+	quest.104EBBC08B4733F5.title: "&aSimulating Deaths"
 	quest.1060C764347CC243.quest_desc: [
 		"A catalyst is needed for this process. "
 		""
@@ -1740,11 +1729,10 @@
 	quest.10DF2125B647379E.quest_desc: ["I promise, this is not something you want to touch or get on your skin..."]
 	quest.10DF2125B647379E.quest_subtitle: "Do Not Touch!"
 	quest.10E8BC20D406D9FB.quest_desc: ["Makes various Nether materials."]
-	quest.10E8BC20D406D9FB.title: "Generalized Nether Prediction"
 	quest.10EF30B919EBA5C6.quest_desc: [
-		"It's a pickaxe with Fortune V on it. That's all."
+		"{atm9.quest.evilcraft.desc.fortunePickaxe.1}"
 		""
-		"Definitely won't summon spirits when you are mining. &oDefinitely won't.&r"
+		"{atm9.quest.evilcraft.desc.fortunePickaxe.2}"
 	]
 	quest.10F2044D080D6209.quest_desc: ["Just like Manasteel armor, &aTerrasteel Armor&r can repair itself using Mana. It has the durability comparable to Diamond armor as well."]
 	quest.10F2044D080D6209.title: "Terrasteel Armor"
@@ -1937,6 +1925,7 @@
 	quest.12A63C5F8E918266.quest_desc: ["These &alittle fishy boots&r help you to swim faster with the First Ability. Upgrade them to swim slightly faster! \\n \\nSecond Ability works with &9Water&r as well, just the one from the sky. You will run faster when it is raining. \\n \\nThe Last Ability somehow affects your lungs, you get a chance at not using Oxygen Bubbles when underwater."]
 	quest.12A63C5F8E918266.quest_subtitle: "Found in Shipwrecks and Ocean Ruins"
 	quest.12A63C5F8E918266.title: "&aAmphibian Boots&r"
+	quest.12AE2856444996F6.quest_desc: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks.\\n\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission.\\n\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
 	quest.12B041E34F58FDD2.quest_desc: [
 		"At Long Last we have reached our Destination. You have crafted the Coveted &l&1GregStar!&r&r"
 		""
@@ -1965,7 +1954,7 @@
 	]
 	quest.12ED1EE85E146A4B.quest_desc: ["Harvester Pylons work as a very simple Auto-Farm. Put the Pylon on or in the Water Source and it will automatically harvest and replant Crops that are fully grown in the set area around it. The area can be set to 3x3, 5x5, 7x7, or 9x9 Blocks around the Pylon. It will need a Hoe to use on the Plants and will need an Inventory like a chest above it to put the Crops. Do all that and if it's turned On it will start farming! \\n \\n(Careful when using a lot of modifiers with it like Lilypads or fertilizer as when it goes very fast farming it can be a TPS eater)."]
 	quest.12F24C9C6D2AF887.quest_desc: ["Two buckets of &boxygen&r plus the &bferrite mixture dust&r in your &eElectric Blast Furnace&r gets you the ingot - no cooling necessary!"]
-	quest.12F3A604329EC604.quest_subtitle: "Increases the Efficiency of EvilCraft Machines"
+	quest.12F3A604329EC604.quest_subtitle: "{atm9.quest.evilcraft.subt.increaseEfficiency}"
 	quest.12F4980CB3BFCE0D.quest_desc: ["You ever spend 3 months studying Galatic Code to finally understand Enchantment Table language just for it to be gibberish? No? Me either but &9Enchanting Clues&r are your actual translator for it. Each &9Enchanting Clue&r will tell you 1 Enchantment before you actually use it."]
 	quest.12F4980CB3BFCE0D.title: "&9Enchanting Clues&r"
 	quest.12F916CDC2FB7A79.quest_desc: [
@@ -2138,18 +2127,8 @@
 	]
 	quest.1482F2D45E8F761D.quest_subtitle: "Casings and Glass"
 	quest.1482F2D45E8F761D.title: "Fission Reactor Building Basics"
-	quest.14B3542ECB59869C.quest_desc: [
-		"The &5Loot Fabricator&r is the machine that gets you that sweet, sweet loot from Mob Predictions. "
-		""
-		"When given power and a successful Mob Prediction, you will be able to choose which item you'd like to get from that mob's Data Model. The machine will remember your choice, so it can be automated. "
-		""
-		"Notable Mob Predictions: "
-		""
-		"- &dEnder Dragons&r for &dDragon Eggs&r "
-		"- &2Zombies&r for Iron "
-		"- &0Withers&r for &5Nether Stars&r"
-	]
-	quest.14B3542ECB59869C.title: "Creating &dLoot&r"
+	quest.14B3542ECB59869C.quest_desc: ["The &5Loot Fabricator&r is the machine that gets you that sweet, sweet loot from Mob Predictions.\\n\\nWhen given power and a successful Mob Prediction, you will be able to choose which item you'd like to get from that mob's Data Model. The machine will remember your choice, so it can be automated.\\n\\nExamples of Mob Predictions:\\n\\n- &dEnder Dragons&r for &dDragon Eggs\\n - &2Zombies&r for Iron\\n - &0Withers&r for &5Nether Stars"]
+	quest.14B3542ECB59869C.title: "Creating &dLoot"
 	quest.14B4E6B2FC3F6B36.quest_desc: [
 		"Found only within the Crystal Dunes."
 		""
@@ -2645,13 +2624,13 @@
 		"Intrinsic Ability:"
 		"- Lava Repair"
 	]
-	quest.199E7C89584C3DB1.quest_subtitle: "Removes Bad Potion Effects"
+	quest.199E7C89584C3DB1.quest_subtitle: "{atm9.quest.evilcraft.subt.removesBadEffects}"
 	quest.19A2016B54C6FA34.quest_desc: ["Some Machines in &l&6Theurgy&r need Heat to get started! Except &l&6Theurgy&r is very jealous with how their Machines get Heat, you can only use these two Machines as Heat sources. \\n\\n(The Machines that use Heat are: Liquefaction Cauldron, Calcination Oven, &cMercury&r Distiller, and Incubator.)"]
+	quest.19A2016B54C6FA34.quest_subtitle: "Man you're Hot!"
 	quest.19A2016B54C6FA34.title: "Man you're Hot!"
 	quest.19B393433FB0C62F.quest_desc: ["The Strider's secret to walking on &cLava&r is within their Legs. So we took their Legs off of them and have you use them instead! \\n\\nWhen Sneaking you can walk safely ontop of &cLava&r! When you stop Sneaking you will fall into the &cLava&r though. These also allow you to safely walk over Magma blocks and other hot blocks!"]
 	quest.19B393433FB0C62F.quest_subtitle: "Feet"
 	quest.19B393433FB0C62F.title: "&4Strider Shoes&r"
-	quest.19A2016B54C6FA34.quest_subtitle: "Man you're Hot!"
 	quest.19B70E2F329AED83.title: "LuV Tier"
 	quest.19BA973FECFA3B06.quest_desc: [
 		"There are two main ways to acquire &dRadon Gas&r"
@@ -2756,8 +2735,8 @@
 		""
 		"This is used under a Basin to heat it or super-heat it for different recipes."
 	]
-	quest.1B1C559A0F7305B2.quest_desc: ["Makes various Twilight Forest materials."]
-	quest.1B1C559A0F7305B2.title: "Generalized Twilight Prediction"
+	quest.1B1C559A0F7305B2.quest_desc: ["{atm9.quest.hostile.desc.twilight}"]
+	quest.1B1C559A0F7305B2.title: "{atm9.quest.hostile.twilight}"
 	quest.1B219582114D287D.quest_desc: ["This infact is not Crude Oil. Its literally Liquid Gold, Once of the densest elements on the periodic table!"]
 	quest.1B219582114D287D.quest_subtitle: "Wait.. This isnt Oil!"
 	quest.1B2898A31C297B58.quest_desc: [
@@ -2927,7 +2906,7 @@
 	quest.1D720AC88431BD70.quest_desc: ["Breed the Ender Bee with a Lapis Bee to create a Diamond Bee!"]
 	quest.1D720AC88431BD70.quest_subtitle: "Ender + Lapis"
 	quest.1D720AC88431BD70.title: "Diamond Bee"
-	quest.1D794DE95C9FF6C7.quest_subtitle: "Increase the Speed of EvilCraft Machines"
+	quest.1D794DE95C9FF6C7.quest_subtitle: "{atm9.quest.evilcraft.subt.increaseSpeed}"
 	quest.1D86B2E553503E53.quest_desc: ["The Dominion Wand is used for controlling the creatures you might encounter in the world! Each being responds differently to the wand, so make sure to read up in the Worn Notebook!"]
 	quest.1D86B2E553503E53.title: "Summoning Help!"
 	quest.1D9194E89D14BA85.quest_desc: [
@@ -2937,19 +2916,19 @@
 	]
 	quest.1D9194E89D14BA85.quest_subtitle: "PBI at long last"
 	quest.1DA0A87C471A38AC.quest_desc: [
-		"&cEvilCraft&r has its own Mob Farm!"
+		"{atm9.quest.evilcraft.desc.mobFarm.1}"
 		""
-		"To start this, you'll need to craft at least 33 &cDark Blood Bricks&r. With these, we'll build a structure that is strong enough to contain the summoned spirits."
+		"{atm9.quest.evilcraft.desc.mobFarm.2}"
 		""
-		"You'll also need a spirit trapped in a &9Box of Eternal Closure&r. This will determine the drops you'll get."
+		"{atm9.quest.evilcraft.desc.mobFarm.3}"
 		""
-		"To build this, you need to build a cuboid structure with enough room for the mob to spawn. The minimum size is 3x4x3, which has enough room to spawn mobs like zombies. Make sure to place a &9Spirit Furnace&r on one of the faces so you can interact with the structure."
+		"{atm9.quest.evilcraft.desc.mobFarm.4}"
 		""
-		"If you want to spawn bigger mobs, you'll need to make a bigger structure."
+		"{atm9.quest.evilcraft.desc.mobFarm.5}"
 		""
 		"{image:atm:textures/questpics/evilcraft/evilcraft_spiritfurnace.png width:125 height:150 align:1}"
 	]
-	quest.1DA0A87C471A38AC.title: "&aMob Farms using&r &cBlood&r"
+	quest.1DA0A87C471A38AC.title: "{atm9.quest.evilcraft.mobFarmsUsingBlood}"
 	quest.1DA6B8B2DCC97809.title: "Brass"
 	quest.1DAA5DD81EF96469.quest_desc: [
 		"Vaild Upgrades:"
@@ -3025,13 +3004,13 @@
 	quest.1E2B363E3365A62F.quest_subtitle: "Tier: &bMagical"
 	quest.1E2F1E036716C031.title: "Slingshot Blueprint"
 	quest.1E3471513C75CC54.quest_desc: [
-		"If you leave a bucket of blood on the ground long enough, it will dry into &cHardened Blood&r."
+		"{atm9.quest.evilcraft.desc.dryingBlood.1}"
 		""
-		"Aside from being incredibly unsanitary, we need all kinds of blood for us to progress. Even dried blood."
+		"{atm9.quest.evilcraft.desc.dryingBlood.2}"
 		""
-		"This will turn back into blood in the rain, or by breaking it with regular tools. If you break it with &9Flint and Steel&r, you'll get &dBlood Shards&r instead."
+		"{atm9.quest.evilcraft.desc.dryingBlood.3}"
 	]
-	quest.1E3471513C75CC54.title: "Drying... &cBlood?&r"
+	quest.1E3471513C75CC54.title: "{atm9.quest.evilcraft.dryingBlood}"
 	quest.1E40ACF3E69A4100.quest_desc: ["Do you have to drink it? Idk it kinda just stays there and works... \\n\\nWith the &6Antidote Vessel&r, negative Effects (like Wither or Poison) will have their durations cut short! Very helpful when facing Witches or Wither Skeletons."]
 	quest.1E40ACF3E69A4100.quest_subtitle: "Belt"
 	quest.1E40ACF3E69A4100.title: "&6Antidote Vessel&r"
@@ -3137,7 +3116,7 @@
 	quest.1F82DBE75059C139.title: "&9The Starter Dungeons"
 	quest.1F88C697817A7680.quest_desc: ["Buffs:\\n\\n - Absorption II (3:00)"]
 	quest.1F88C697817A7680.title: "&aInferium Apple&r"
-	quest.1F8BC2A4CF055038.quest_subtitle: "A Reusable Ender Pearl"
+	quest.1F8BC2A4CF055038.quest_subtitle: "{atm9.quest.evilcraft.subt.reusableEnderPearl}"
 	quest.1F92F7314DF3C3E2.quest_desc: [
 		"Insert gem plate and get gem lens"
 		""
@@ -3421,15 +3400,14 @@
 		"In the corners of the newly created ring, place a Demonite Block with one empty space on each side. "
 	]
 	quest.2214B7DCE4075A02.title: "The Tier 5 Altar"
-	quest.22151D56616559CB.quest_subtitle: "Found in Chests of Shipwrecks."
+	quest.22151D56616559CB.quest_desc: ["These can be found in chests inside Shipwrecks."]
+	quest.22151D56616559CB.quest_subtitle: "Shipwreck Chests"
 	quest.2215FB0777D7029D.quest_desc: ["Spikes, Cleats, Crampons whatever they are! \\n\\n&7Steadfast Boots&r keep you steady on your Feet. You won't be knocked back from attacks and you won't slip on Ice anymore."]
 	quest.2215FB0777D7029D.quest_subtitle: "Feet"
 	quest.2215FB0777D7029D.title: "&7Steadfast Boots&r"
 	quest.221C9EDA651144BA.quest_desc: ["What &9Water&r? \\n\\nWith the &3Charm of Sinking&r you move through the &9Water&r as if it were Air! Still can't breath underwater though..."]
 	quest.221C9EDA651144BA.quest_subtitle: "Necklace"
 	quest.221C9EDA651144BA.title: "&3Charm of Sinking&r"
-	quest.22151D56616559CB.quest_desc: ["These can be found in chests inside Shipwrecks."]
-	quest.22151D56616559CB.quest_subtitle: "Shipwreck Chests"
 	quest.2226555D9552236E.quest_subtitle: "Spawns from most Wood Nests"
 	quest.222739E77C745519.quest_subtitle: "Tier &b4"
 	quest.2230244B2CE5851D.quest_desc: [
@@ -3745,7 +3723,6 @@
 	quest.2555BA914C466B5C.quest_desc: ["I am sure that  you now see why these plates will be vital. But as you already know, they will provide a great benefit."]
 	quest.2555BA914C466B5C.quest_subtitle: "The Best Casing"
 	quest.2559201BCF5D497C.quest_desc: ["Makes various Overworld materials."]
-	quest.2559201BCF5D497C.title: "Generalized Overworld Prediction"
 	quest.257D8912FC58DB59.quest_subtitle: "Brazilwood + Mahogany"
 	quest.2586C2C9D1EFB2DC.quest_desc: [
 		"Attaching all of your Multiblocks to your ME system uses up a lot of Interfaces. Add in the fact that you need covers to manipulate the resources and it can get tiresome. "
@@ -3955,11 +3932,11 @@
 		"Each multiblock machine will have a place for you to &aright click&r with the Engineer's Hammer to convert the multiblock into the machine! They'll also need power."
 	]
 	quest.27E52482C789280F.title: "Building Multiblocks"
+	quest.27E8ED4B5F8127F9.quest_subtitle: "Tier &b4"
 	quest.27E8ED4B5F8127F9.title: "Enderman Seeds"
 	quest.27E951F4F4F6F847.quest_desc: ["Similar to &aThorn Pendant&r, just a little hotter. No wait way hotter! \\n\\nThe &cFlame Pendant&r has a chance to light your attackers on Fire! When they are lit on fire the &cPendant&r will also give you Fire Resistance."]
 	quest.27E951F4F4F6F847.quest_subtitle: "Necklace"
 	quest.27E951F4F4F6F847.title: "&cFlame Pendant&r"
-	quest.27E8ED4B5F8127F9.quest_subtitle: "Tier &b4"
 	quest.27E9F48972741701.title: "Magnetite Vein"
 	quest.27FD46A8C958D259.quest_desc: ["Totem of Death Recall is a one time use time that allows a player to teleport back to thier location of death."]
 	quest.2801B7B6BF61E978.quest_desc: ["&3Kerosene&r can be used to make Gasoline or it can be used as fuel in a Kerosene Lamp."]
@@ -4027,14 +4004,14 @@
 	quest.28B1787B61BB214B.quest_desc: ["Lets take the Epoxy from the IV tier and make some reinforcements for our next tier Processors!"]
 	quest.28B1787B61BB214B.quest_subtitle: "So many uses for Epoxy!"
 	quest.28BF66D1B8CD4D44.quest_desc: [
-		"&dBrooms&r can be made using Broom Parts. Every Broom is made up of 3 parts: a Rod, a Cap, and a Brush."
+		"{atm9.quest.evilcraft.desc.broomCrafting.1}"
 		""
-		"Each part can be crafted by combing the bare part with certain items to give them specific modifiers. As there are too many modifiers to type out, make sure to check the guide book for more info!"
+		"{atm9.quest.evilcraft.desc.broomCrafting.2}"
 		""
-		"To craft your Broom, simply place each part into the crafting table. The Broom will require Blood to function properly."
+		"{atm9.quest.evilcraft.desc.broomCrafting.3}"
 	]
-	quest.28BF66D1B8CD4D44.quest_subtitle: "Broom Broom"
-	quest.28BF66D1B8CD4D44.title: "&cBlood&r &dBrooms&r"
+	quest.28BF66D1B8CD4D44.quest_subtitle: "{atm9.quest.evilcraft.subt.broomBroom}"
+	quest.28BF66D1B8CD4D44.title: "{atm9.quest.evilcraft.bloodBrooms}"
 	quest.28C9EDBF6607E180.quest_desc: [
 		"This block is part of a multi-block kitchen. "
 		""
@@ -4063,7 +4040,7 @@
 	quest.28FB4B9DCC268404.quest_subtitle: "Plum + Cherry"
 	quest.28FEB4C11AD1AE7C.quest_desc: ["&bDiamonds&r are usually expensive... for Vanilla, but this is modded you'll have enough for atleast 1 &bDiamond Generator&r. Still uses normal Furnace Fuel."]
 	quest.28FEB4C11AD1AE7C.title: "&bDiamond Generator&r"
-	quest.290FAB3DE8FD04E7.quest_desc: ["Works like the &aMace of Distortion&r, except it causes an AoE explosion instead."]
+	quest.290FAB3DE8FD04E7.quest_desc: ["{atm9.quest.evilcraft.desc.maceExplosion}"]
 	quest.29131C3532610ADF.quest_desc: ["This is a Tier 2 Pillar Cap for the Starlight Charger structure."]
 	quest.29131C3532610ADF.title: "Tier 2 Starlight Charger Pillar Cap"
 	quest.29164630E1BD76B5.quest_desc: ["This is the main resource in the mod. Go out and mine some!"]
@@ -4381,13 +4358,13 @@
 	quest.2CA71999959C0184.quest_desc: ["Creating this axe allows its user to dish more damage, and occasionally drop the enemies skull."]
 	quest.2CA71999959C0184.quest_subtitle: "Gives head yo."
 	quest.2CB69634F6A6E53E.quest_desc: [
-		"These are hard to miss, considering they have a massive beam coming from the center."
+		"{atm9.quest.evilcraft.desc.darkTemple.1}"
 		""
-		"In the center of the &9Dark Temple&r is a &aEnvironmental Accumulator&r."
+		"{atm9.quest.evilcraft.desc.darkTemple.2}"
 		""
-		"We can use this to empower and create several items that we'll need along the way, including &dLightning Bombs&r!"
+		"{atm9.quest.evilcraft.desc.darkTemple.3}"
 	]
-	quest.2CB69634F6A6E53E.title: "&9Dark Temples&r"
+	quest.2CB69634F6A6E53E.title: "{atm9.quest.evilcraft.darkTemples}"
 	quest.2CBBE8EF07B1D3DA.quest_desc: [
 		"The &bMana Splitter&r can be used as a way of splitting incoming Mana bursts into several Mana Pools at once."
 		""
@@ -4860,13 +4837,13 @@
 	quest.31EEE2875595F315.quest_subtitle: "A Quick Recap"
 	quest.31EEE2875595F315.title: "&2Sulfuric Acid"
 	quest.31FD9EA513E0D010.quest_desc: [
-		"&cEvilCraft&r is a magic mod based on somewhat evil things. Collect the blood of your enemies and harness the power of an ancient source of evil!"
+		"{atm9.quest.evilcraft.desc.modIntro.1}"
 		""
-		"Everything in this mod can be found in the guidebook, the &aOrigins of Darkness&r."
+		"{atm9.quest.evilcraft.desc.modIntro.2}"
 		""
-		"To get started, find yourself some &9Dark Gems&r."
+		"{atm9.quest.evilcraft.desc.modIntro.3}"
 	]
-	quest.31FD9EA513E0D010.title: "&aWelcome to &r&cEvilCraft&r!"
+	quest.31FD9EA513E0D010.title: "{atm9.quest.evilcraft.welcome}"
 	quest.320A70BC50ED456F.quest_desc: [
 		"You should have a lot of Rare Earth from your processing line for your Neodymium. This will ensure that we can obtain Samarium. "
 		""
@@ -5094,13 +5071,7 @@
 		"Stellite alloys include a range of cobalt-based alloys, with significant proportions of chromium (up to 33%) and tungsten (up to 18%). Some of the alloys also contain nickel or molybdenum. Most of them are fairly high carbon content when compared to carbon steels."
 	]
 	quest.34C931DFFBF608DB.quest_subtitle: "Carbonated Steel. LUL"
-	quest.34CD54347E9821B5.quest_desc: [
-		"Once you make your first Data Model, you'll need to level it up to be useful. "
-		""
-		"Data Models start out at the first tier: &7Faulty&r. You'll need to at least level it to &aBasic&r if you'd like to run some simulations on it! "
-		""
-		"Once placed inside of the Deep Learner, the HUD will tell you how many kills are required to level it up. You can also see this info in the tooltip of the Model itself, although you'll have to do math."
-	]
+	quest.34CD54347E9821B5.quest_desc: ["Once you make your first Data Model, you'll need to level it up to be useful.\\n\\nData Models start out at the first tier: &7Faulty&r. You'll need to at least level it to &aBasic&r if you'd like to run some simulations on it!\\n\\nOnce placed inside of the Deep Learner, the HUD will tell you how many kills are required to level it up. You can also see this info in the tooltip of the Model itself."]
 	quest.34CD54347E9821B5.title: "Leveling Up Data Models"
 	quest.34CFE1439262AA72.quest_desc: [
 		"&5&lMekanism&r is a huge and popular Tech Mod, so of course it has &lLogistics&r with it."
@@ -5186,11 +5157,11 @@
 	quest.35EC08D610382860.quest_desc: ["The &9Filter&r is an item used in a Grid to specify which items or fluids can be visible."]
 	quest.35EC08D610382860.title: "Filter"
 	quest.35FA55BE8DF49EE8.quest_desc: [
-		"Using the power of a slain &9Vengeance Spirit&r, we can use the Blood Infuser to create &dGarmonbozia&r."
+		"{atm9.quest.evilcraft.desc.garmonboziaCreation.1}"
 		""
-		"This is &dPain&r and &dSorrow&r materialized. It's also the high-end crafting material for powerful tools and items in EvilCraft."
+		"{atm9.quest.evilcraft.desc.garmonboziaCreation.2}"
 	]
-	quest.35FA55BE8DF49EE8.title: "&dGarmonbozia&r"
+	quest.35FA55BE8DF49EE8.title: "{atm9.quest.evilcraft.garmonbozia}"
 	quest.35FF7974C6DD1D9F.quest_desc: [
 		"The Demon Core was an item that was the epicenter for one of the quickest (in time of reaction) nuclear accidents to happen. The Demon core was manufactured by the Manhattan Project during World War II and the intent was to use it to learn more about Nuclear Radiation and Moderation."
 		""
@@ -5361,11 +5332,7 @@
 	quest.37CD9BF281903F56.quest_subtitle: "Feed a Shroombee a Red Mushroom!"
 	quest.37CD9BF281903F56.title: "Red Shroombee"
 	quest.37D4E5ACB35D8BF1.quest_subtitle: "Requires Hydrogen to Work!"
-	quest.37EBB8E0D6E5F821.quest_desc: [
-		"&6Hostile Neural Networks&r (or HNN for short) is a mod based around simulating mob kills for loot! "
-		""
-		"To do this, you will be collecting 'data' on mobs, then running simulations from the data to create their drops!"
-	]
+	quest.37EBB8E0D6E5F821.quest_desc: ["&6Hostile Neural Networks&r (HNN for short) is a mod based around simulating mob kills for loot!\\n\\nTo do this, you will be collecting \"data\" on mobs, then running simulations from the data to create their drops!"]
 	quest.37EBB8E0D6E5F821.title: "Welcome to &9Hostile Neural Networks&r!"
 	quest.37F2BE3C2BAF7C2D.quest_desc: ["Tags are an essential part of Minecraft. \\n\\nFor all who don't know they work as an organization tool to help choose similar items for the same task. Like Crafting Table being made with any Planks or Trees being Chopped down fastest with any Axe. \\n\\nTo filter by Tag put an item in, then select the tag from the groups. Like Iron Ore for Ores."]
 	quest.38135FFD9ED64395.title: "Vibranium-AllTheModium Alloy"
@@ -5905,17 +5872,9 @@
 	quest.3E301F3EEC8C763A.quest_subtitle: "Baby Bee Daycare"
 	quest.3E33730DC2115D26.quest_subtitle: "A lot more room for activities."
 	quest.3E33730DC2115D26.title: "&eGold Chest&r"
-	quest.3E3CBDCEAB0FF28F.quest_desc: [
-		"The &9Deep Learner&r is one of the core components of HNN. "
-		""
-		"With this item, you can right click to open up a HUD and store &6Data Models&r to gather data while killing mobs. "
-		""
-		"Each Learner can hold 4 Data Models, and as long as you have the Learner anywhere in your inventory, it will collect data for the models placed inside! "
-		""
-		"Note: You can have multiple Deep Learners in your inventory, and it will count the kills for all Data Models inside all of the Learners."
-	]
+	quest.3E3CBDCEAB0FF28F.quest_desc: ["The &9Deep Learner&r is one of the core components of HNN.\\n\\nWith this item, you can right click to open up a HUD and store &6Data Models&r to gather data while killing mobs.\\n\\nEach Learner can hold 4 Data Models, and as long as you have the Learner anywhere in your inventory, it will collect data for the models placed inside!\\n\\nNote: You can have multiple Deep Learners in your inventory, and it will count the kills for all Data Models inside all of the Learners."]
 	quest.3E3CBDCEAB0FF28F.quest_subtitle: "The Learning HUD"
-	quest.3E3CBDCEAB0FF28F.title: "&aLearning Mobs&r"
+	quest.3E3CBDCEAB0FF28F.title: "&aLearning Mobs"
 	quest.3E3DF8E967D95DB0.quest_desc: [
 		"When using a 64k storage component or higher, the Matter Condenser becomes able to condense significantly more to produce a &bSingularity&f. A single singularity requires 256000 items to be voided. That's exactly &o4000 stacks&r! "
 		""
@@ -6178,11 +6137,11 @@
 	quest.407EFAF528871014.quest_subtitle: "The All-Mighty Infinite Water Source"
 	quest.407EFAF528871014.title: "Water Source"
 	quest.40888A2C17D8FFF6.quest_desc: [
-		"Using the Blood Infuser, you can create &cUndead Saplings&r that grow into &dUndead Trees&r."
+		"{atm9.quest.evilcraft.desc.undeadSaplings.1}"
 		""
-		"The logs and planks are useful for creating several tools and items within EvilCraft."
+		"{atm9.quest.evilcraft.desc.undeadSaplings.2}"
 	]
-	quest.40888A2C17D8FFF6.title: "Undead Trees"
+	quest.40888A2C17D8FFF6.title: "{atm9.quest.evilcraft.undeadTrees}"
 	quest.408D8B1CFBA22BAF.quest_desc: ["Witherproof Blocks, Witherproof Bricks and Witherproof Glass have a very high blast resistance and cannot be destroyed by the Wither or the Ender Dragon."]
 	quest.408D8B1CFBA22BAF.title: "&0Witherproof Blocks"
 	quest.40924F0D64253A38.quest_desc: ["Makes things able to dispense items."]
@@ -6975,7 +6934,7 @@
 	quest.497028C92F886AE0.quest_desc: ["You'll need these for MV Electric Motors, a component for many MV machines"]
 	quest.49772923B8AF0F1F.quest_desc: ["The 1048m Fluid Storage Part is used to craft the 1048m Fluid Storage Disk."]
 	quest.49772923B8AF0F1F.title: "&b1048m Fluid Part&r"
-	quest.4978A9B616362CCE.title: "&aRank 2&r: More &cBlood&r"
+	quest.4978A9B616362CCE.title: "{atm9.quest.evilcraft.rank2}"
 	quest.497C981D49B7FBD6.quest_desc: ["Increases the chance of a Pixie spawning when hit, and augments the strength of any Pixies that are spawned."]
 	quest.4993431DBE076E1B.quest_desc: [
 		"The EV Circuit Assembler, the next major step in making higher tier circuits and making lower tier circuits even cheaper!"
@@ -7338,7 +7297,7 @@
 		"I'll give you a pass this time and assume you have"
 	]
 	quest.4D6885EFA4EE272F.quest_subtitle: "Onwards to MV!"
-	quest.4D7B6842B9F53459.quest_desc: ["Gives you a speed boost + step height!"]
+	quest.4D7B6842B9F53459.quest_desc: ["{atm9.quest.evilcraft.desc.speedBoost}"]
 	quest.4D98D2123BD5BFB3.quest_desc: [
 		"&lAbility Type:&r Passive"
 		""
@@ -7398,8 +7357,8 @@
 	]
 	quest.4DE719FC2E4C69AB.quest_subtitle: "And so it begins"
 	quest.4DE719FC2E4C69AB.title: "The Steam Age"
-	quest.4DF7E2149F4BD8CC.quest_desc: ["To insert the desired potion, just right click with the &2Primed Pendant&r in hand to open its inventory."]
-	quest.4DF7E2149F4BD8CC.quest_subtitle: "Applies Potion Effects"
+	quest.4DF7E2149F4BD8CC.quest_desc: ["{atm9.quest.evilcraft.desc.primedPendant}"]
+	quest.4DF7E2149F4BD8CC.quest_subtitle: "{atm9.quest.evilcraft.subt.appliesEffects}"
 	quest.4E02DC8A474A4A2F.quest_desc: [
 		"The &aPure Daisy&r is one of the first flowers you'll create!"
 		""
@@ -7495,7 +7454,7 @@
 	]
 	quest.4EA8BA9753D0DD81.quest_subtitle: "A Cobblestone Generator"
 	quest.4EAFE7B240AF0A4D.quest_desc: ["Just can't reach what you need to? Try Ranging Up! \\n\\nWith this everything will do their actions but farther. Vacuum has higher range for picking up items. Energy goes farther. Flinger flings with more strength!"]
-	quest.4EBED8ABC8C863A4.title: "&aRank 3&r: Even More &cBlood&r"
+	quest.4EBED8ABC8C863A4.title: "{atm9.quest.evilcraft.rank3}"
 	quest.4ECFB1256BD6A7AA.quest_desc: [
 		"The &9Corporea Funnel&r is a simple version of the Index, and can be used to request items from the Network by giving it a redstone signal."
 		""
@@ -7812,13 +7771,13 @@
 	quest.51A57E142C686C8F.quest_subtitle: "x4^4"
 	quest.51A57E142C686C8F.title: "256M Storage Component"
 	quest.51B24CC5E9332C1E.quest_desc: [
-		"Sometimes when you kill a mob, a &dVengeance Spirit&r will spawn."
+		"{atm9.quest.evilcraft.desc.vengeanceSpirit.1}"
 		""
-		"Their &dEssence&r seems to be useful in crafting more advanced items within EvilCraft."
+		"{atm9.quest.evilcraft.desc.vengeanceSpirit.2}"
 		""
-		"Not finding many Spirits? Make a &9Vengeance Ring&r and toggle it on to attract more Spirits during your battles."
+		"{atm9.quest.evilcraft.desc.vengeanceSpirit.3}"
 	]
-	quest.51B24CC5E9332C1E.title: "Revenge of the &dSpirit&r"
+	quest.51B24CC5E9332C1E.title: "{atm9.quest.evilcraft.revengeSpirit}"
 	quest.51BC981AB4CFAD95.quest_desc: [
 		"A special pickaxe rarely found in Labyrinths."
 		""
@@ -7876,15 +7835,15 @@
 	]
 	quest.5241693278027FFD.quest_subtitle: "This is fine, &5EV&rerything is fine"
 	quest.525517F1625A9BCB.quest_desc: [
-		"Did a mob hit the floor too hard and get its &cBlood&r everywhere? Oh no!"
+		"{atm9.quest.evilcraft.desc.bloodCleanup.1}"
 		""
-		"Anyway."
+		"{atm9.quest.evilcraft.desc.bloodCleanup.2}"
 		""
-		"You can use a &cSanguinary Pedestal&r to absorb that precious &cBlood&r for later use!"
+		"{atm9.quest.evilcraft.desc.bloodCleanup.3}"
 		""
-		"Want to automate collecting blood? Place a &9Spiked Plate&r on top of the Pedestal, then have a mob stand on it."
+		"{atm9.quest.evilcraft.desc.bloodCleanup.4}"
 	]
-	quest.525517F1625A9BCB.title: "&aCollecting&r &cBlood Stains&r"
+	quest.525517F1625A9BCB.title: "{atm9.quest.evilcraft.collectingBloodStains}"
 	quest.5257468DC6C11851.quest_desc: ["It's more like a pickaxe that uses RF/FE."]
 	quest.5257468DC6C11851.quest_subtitle: "An Early-Game Mining Gadget"
 	quest.525F25F4ADE45B50.quest_desc: [
@@ -8273,7 +8232,7 @@
 	quest.56CD54A4422FF473.quest_subtitle: "I WOULD NOT SUGGEST USING THIS WITH CURSED RING CHALLENGE"
 	quest.56DA46DC82F6665D.quest_subtitle: "This isn't even my final form"
 	quest.56DA46DC82F6665D.title: "Kill the Wilden Chimera"
-	quest.56FB82DEB944F758.quest_desc: ["Holding right click will charge up the Mace to do an AoE attack using &cBlood&r. Sneak-right clicking will change the power level. The higher the power level, the more damage it will do at a higher cost of Blood."]
+	quest.56FB82DEB944F758.quest_desc: ["{atm9.quest.evilcraft.desc.maceCharge}"]
 	quest.57167FE67CFAC255.quest_subtitle: "Used to add Bees to a Filter"
 	quest.57282D7E31EE61EE.quest_desc: [
 		"Once you've gathered a few &aRaw Iesnium Ores&r, you'll probably want to use the first few ingots to make an &dIesnium Pickaxe&r. This not only mines Iesnium like the Infused Pickaxe, but lasts a lot longer too."
@@ -8470,15 +8429,9 @@
 		"They can drop some &9Magic Beans&r. You'll also find chests that give you Uberus Soil, which is needed to grow the beans."
 	]
 	quest.58BD1063A19777DC.title: "Visiting the Giants"
-	quest.58C2ABED43B2EA61.quest_desc: [
-		"&9Model Frameworks&r are the starting point for creating Data Models. "
-		""
-		"To start collecting data on a specific mob, you'll want to make one of these then &9right click&r the mob you'd like to gather data on. When done properly, the Model Framework will turn into the Data Model of the mob you clicked on. "
-		""
-		"To 'gather data' for that mob, place the newly created Data Model inside of a &aDeep Learner&r, then start killing that specific mob with the Deep Learner in your inventory."
-	]
-	quest.58C2ABED43B2EA61.quest_subtitle: "For 'Gathering Data'"
-	quest.58C2ABED43B2EA61.title: "&9Modeling Mobs&r"
+	quest.58C2ABED43B2EA61.quest_desc: ["&9Model Frameworks&r are the starting point for creating Data Models.\\n\\nTo start collecting data on a specific mob, you'll want to make one of these then &9right click&r the mob you'd like to gather data on. When done properly, the Model Framework will turn into the Data Model of the mob you clicked on.\\n\\nTo gather data for that mob, place the newly created Data Model inside of a &aDeep Learner&r, then start killing that specific mob with the Deep Learner in your inventory."]
+	quest.58C2ABED43B2EA61.quest_subtitle: "\"Gathering Data\""
+	quest.58C2ABED43B2EA61.title: "&9Modeling Mobs"
 	quest.58C6BAC128155B4E.quest_subtitle: "Increases Secondary Output"
 	quest.58D5BD3106BFD94A.quest_desc: [
 		"Craft the next version of the book. I promise you, it's worth it. "
@@ -8504,13 +8457,13 @@
 	quest.58EC47584C773B82.title: "Magebloom Seed"
 	quest.58F378384CEFCEF2.title: "Insane Voltage Age"
 	quest.59036A2741E7A8AA.quest_desc: [
-		"Want to create a mob egg from the spirit you have trapped in that box?"
+		"{atm9.quest.evilcraft.desc.createMobEgg.1}"
 		""
-		"The &9Spirit Reanimator&r does exactly that. Give it a lot of &cBlood&r and an egg, and of course a &9Box of Eternal Closure&r with the Spirit you want to create the mob egg from, and it will attempt to create the mob egg!"
+		"{atm9.quest.evilcraft.desc.createMobEgg.2}"
 		""
-		"Note: Some mobs cannot be used to create eggs."
+		"{atm9.quest.evilcraft.desc.createMobEgg.3}"
 	]
-	quest.59036A2741E7A8AA.title: "&aCreating&r &9Mob Eggs&r"
+	quest.59036A2741E7A8AA.title: "{atm9.quest.evilcraft.creatingMobEggs}"
 	quest.5914D015D8543875.quest_desc: [
 		"The &aFluidizer&r can operate in one of 3 modes: Solid to Fluid, Combining 2 Solids into a Fluid, or combining 2 Fluids into a new Fluid. This all depends on the type of &aInjectors&r you use for the multiblock."
 		""
@@ -8585,8 +8538,7 @@
 		"- Lava Immunity"
 	]
 	quest.5A1DCD6C7F712A78.title: "Neptunium Fishing Rod"
-	quest.5A23107C363A209E.quest_desc: ["Makes various Nether materials."]
-	quest.5A23107C363A209E.title: "Generalized End Prediction"
+	quest.5A23107C363A209E.quest_desc: ["Makes various End materials."]
 	quest.5A38E9F68570F7F3.quest_desc: [
 		"Valid Upgrades:"
 		"- Run Speed"
@@ -8610,13 +8562,13 @@
 	quest.5A7FF6D0AED656DC.quest_desc: ["Decreases the amount of time that it takes for a Mana Burst to start losing its Mana, but will also decrease its rate of loss."]
 	quest.5A84A64CB3D3E6F5.quest_subtitle: "White Willow + Oak/Birch/Silver Lime"
 	quest.5A8F4CA0F09F4842.quest_desc: [
-		"Need to remove &dEnchantments&r from an item you've found? Maybe you want to remove a Curse? This can be done using the &cPurifier&r."
+		"{atm9.quest.evilcraft.desc.removeEnchantments.1}"
 		""
-		"To do this, first place at least 3 buckets worth of blood into the Purifier, then throw in the item you want to remove an enchantment from."
+		"{atm9.quest.evilcraft.desc.removeEnchantments.2}"
 		""
-		"Next, add in the &cBlook&r. The Blook will absorb one of the enchants from the item, and convert it into a book of the enchant."
+		"{atm9.quest.evilcraft.desc.removeEnchantments.3}"
 	]
-	quest.5A8F4CA0F09F4842.title: "Removing &dEnchantments&r and &dCurses&r"
+	quest.5A8F4CA0F09F4842.title: "{atm9.quest.evilcraft.removingEnchantments}"
 	quest.5A912903E09F664F.quest_desc: ["Tip: Use the Ritual Tablet on the brazier first, then right click with one of each of the Wilden mob drops, then activate the ritual to summon the Wilden Chimera."]
 	quest.5A912903E09F664F.title: "Summoning Wilden Chimera"
 	quest.5A94A2664BFDD7B9.quest_desc: [
@@ -8894,10 +8846,10 @@
 	quest.5DB7C962203735ED.quest_subtitle: "&fTier 2&r"
 	quest.5DC892BA79EB52EC.quest_desc: ["The &n&5Mixer&r can be used combined with the Basin to craft."]
 	quest.5DC9848CC15DCACB.quest_subtitle: "Chill of the thrill"
+	quest.5DCDDC346359DF28.quest_subtitle: "Balsa + Dark Oak"
 	quest.5DE7C4FD5FA29236.quest_desc: ["Don't you hate when you're just about to kill an Endermen and it teleports away? Well you don't hate you, you love it! You're just angry because you're envious! You want it! \\n\\nAnd with the &5Chorus Belt&r you can get it! You will teleport from a hit that would kill you."]
 	quest.5DE7C4FD5FA29236.quest_subtitle: "Belt"
 	quest.5DE7C4FD5FA29236.title: "&5Chorus Belt&r"
-	quest.5DCDDC346359DF28.quest_subtitle: "Balsa + Dark Oak"
 	quest.5DE863C3FB6492BE.quest_desc: ["{image:atm:textures/questpics/iron_spells/spells_outfit_cultist.png width:60 height:100 align:center}"]
 	quest.5DE863C3FB6492BE.title: "&4Cultist Outfit&r"
 	quest.5DF26D712B643655.quest_subtitle: "Copper + Zinc"
@@ -9144,7 +9096,7 @@
 		"Alternatively, slime balls smelted in a furnace will get you some"
 	]
 	quest.60069A897F2B0F78.quest_subtitle: "Slime farm?"
-	quest.600F66B13B29708B.quest_desc: ["Either with the flesh of &aPlayers&r or &dWerewolves&r, you can create an &aInfinite Food Source&r using the power of Garmonbozia!"]
+	quest.600F66B13B29708B.quest_desc: ["{atm9.quest.evilcraft.desc.infiniteFoodSource}"]
 	quest.60175A8E3A67F51C.quest_desc: ["The Emitters and Sensors for each tier always seem to be the hardest components to make. But they always end up helping us in the end with the machines they construct. So its worth it in the end."]
 	quest.60175A8E3A67F51C.quest_subtitle: "Im sensing that you are emitting."
 	quest.601DA80C08C3F9AC.quest_desc: ["For all your rod production needs!"]
@@ -9329,10 +9281,10 @@
 	]
 	quest.620C406CC24F179C.quest_subtitle: "More rubber more better"
 	quest.62161044F3F3AB87.quest_desc: ["That liquid &bcyan dye&r plus the Glass Lens in this machine will dye it into a &bGlass Lens (Cyan)&r"]
+	quest.6235B9923BE0AAEB.title: "&bEnchanter"
 	quest.623796B1D7981E59.quest_desc: ["'Also try Terraria!' \\n\\nWhen equipped you will gain 5 extra Hearts! Or 10 whole points of Health! Adding up to on default 30 Health."]
 	quest.623796B1D7981E59.quest_subtitle: "Belt"
 	quest.623796B1D7981E59.title: "&4Crystal Heart&r"
-	quest.6235B9923BE0AAEB.title: "&bEnchanter"
 	quest.6244032FE2E5F1E1.quest_desc: ["The &dDraconic Shelf&r is the last Shelf we'll need for perfect set up. It might only give &aEterna&r but it has the Max Max &aEterna&r of &a50&r."]
 	quest.6244032FE2E5F1E1.title: "&dDraconic Endshelf&r"
 	quest.6255E2FE6DD4084A.quest_subtitle: "Holly + Alder"
@@ -9367,13 +9319,13 @@
 	quest.629DC8DED0F6B578.quest_desc: ["Distilling biomass results in ethanol, which is alcohol, but don't tell anyone I told you"]
 	quest.629DC8DED0F6B578.quest_subtitle: "Not for drinking"
 	quest.62A262A706CFCAF0.quest_desc: [
-		"We won't be creating Dark Power Gems using pools of blood anymore."
+		"{atm9.quest.evilcraft.desc.bloodInfuser.1}"
 		""
-		"Instead, we can make the &9Blood Infuser&r to do all of the messy work for us. This allows you to directly infuse items with blood!"
+		"{atm9.quest.evilcraft.desc.bloodInfuser.2}"
 		""
-		"These can be upgraded using &6Promises&r as well. This is one of the main machines used for progression!"
+		"{atm9.quest.evilcraft.desc.bloodInfuser.3}"
 	]
-	quest.62A262A706CFCAF0.title: "&aThe&r &cBlood Infuser&r"
+	quest.62A262A706CFCAF0.title: "{atm9.quest.evilcraft.bloodInfuser}"
 	quest.62B2C1A24AE245EA.quest_desc: ["The &9Deepshelf&r (not dormant) is your next step to Enchanting. Like everything else it needs Infusion. The &9Deepshelf&r needs 30 &aEterna&r, &c40%% Quanta&r, and &540%% Arcana&r. You can get that with &45 Blazing Hellshelves&r and &b4 Heart-Forged Seashelves&r."]
 	quest.62B2C1A24AE245EA.title: "&9Deepshelf&r"
 	quest.62BBF61C9849CA26.quest_desc: [
@@ -9393,11 +9345,11 @@
 	quest.62C32905C33E2D88.quest_desc: ["&dThe Eye of Void&r will take you to the &dRuined Citadel&r to fight the &dEnder Guardian&r"]
 	quest.62C32905C33E2D88.title: "&dEye of Void&r"
 	quest.62CE0FFAF6352287.quest_desc: [
-		"EvilCraft machines can be upgraded using &6Promises&r. Each Promise will have different effects, but first, we'll want to upgrade our Blood Infuser to unlock more recipes."
+		"{atm9.quest.evilcraft.desc.upgradeBloodInfuser.1}"
 		""
-		"To do this, we need to create a &6Promise of Tenacity: Tier 1&r. Generally, this just increases the storage capacity of a machine. For the Blood Infuser, this will unlock more recipes!"
+		"{atm9.quest.evilcraft.desc.upgradeBloodInfuser.2}"
 	]
-	quest.62CE0FFAF6352287.title: "&aUpgrading Our Machines&r"
+	quest.62CE0FFAF6352287.title: "{atm9.quest.evilcraft.upgradingMachines}"
 	quest.62D04566426DD979.quest_desc: [
 		"The &aWatering Can&r is used to increase the speed that crops grow. Higher tiers have a larger area of effect. To use this, fill it up with some water by right clicking some water, then hold right click near your crops to water them! "
 		""
@@ -9470,8 +9422,8 @@
 	quest.639B1F99D7271C07.quest_subtitle: "When the Dust settled, I saw... Rhodium??"
 	quest.63AB668EAF0E1C30.quest_desc: ["I know why you all are here for, you're here for the Morgan sword. The most powerful sword of all the ATM Modpacks. Follow these and you'll become unstoppable."]
 	quest.63AB668EAF0E1C30.title: "Getting Morgan"
-	quest.63AE4568375DD1BF.quest_desc: ["With &dGarmonbozia&r, we can now create our own &aEnvironmental Accumulator&r. That's a lot to type out, I'm gonna be honest."]
-	quest.63AE4568375DD1BF.title: "Our Own Weather Accumulator"
+	quest.63AE4568375DD1BF.quest_desc: ["{atm9.quest.evilcraft.desc.environmentalAccumulator}"]
+	quest.63AE4568375DD1BF.title: "{atm9.quest.evilcraft.weatherAccumulator}"
 	quest.63AEFB3C1395BBBA.quest_desc: [
 		"Weve all come to this issue before, and we all hate it. But its a necessary evil."
 		""
@@ -9598,13 +9550,13 @@
 	quest.64E85274D24FE394.quest_desc: ["When connected to your system, this block will display the current number of an item within your network."]
 	quest.64E85274D24FE394.title: "Storage Monitor"
 	quest.64EC182B81BD8B86.quest_desc: [
-		"To progress, we'll need to create our first &5Dark Power Gem&r."
+		"{atm9.quest.evilcraft.desc.darkPowerGem.1}"
 		""
-		"To do this, you'll need to collect at least 5 buckets worth of blood in your &aBlood Extractor&r. Once collected, make a hole with at least 5 blocks of space, and then fill it with the blood."
+		"{atm9.quest.evilcraft.desc.darkPowerGem.2}"
 		""
-		"Once you've created your pool of blood, toss in a &9Dark Gem&r to infuse it."
+		"{atm9.quest.evilcraft.desc.darkPowerGem.3}"
 	]
-	quest.64EC182B81BD8B86.title: "&dInfusing Gems with&r &cBlood&r"
+	quest.64EC182B81BD8B86.title: "{atm9.quest.evilcraft.infusingGems}"
 	quest.64F77D41B2D057B8.quest_desc: [
 		"So there I was, knee deep in salsa and covered in motor oil"
 		""
@@ -9803,11 +9755,11 @@
 	quest.67482ED4B18F828D.title: "Osmium Bee"
 	quest.674A6B0EDA0D348B.quest_subtitle: "Teak + Mangrove"
 	quest.674E2690D66ECD6E.quest_desc: [
-		"When it's a thunderstorm, throwing in a &aWeather Container&r into the &aEnvironmental Accumulator&r will harness the power of the storm."
+		"{atm9.quest.evilcraft.desc.thunderstormPower.1}"
 		""
-		"Using this, we can create items that allow us to control Lightning at will."
+		"{atm9.quest.evilcraft.desc.thunderstormPower.2}"
 	]
-	quest.674E2690D66ECD6E.title: "&aYou've Been&r &9Thunderstruck&r"
+	quest.674E2690D66ECD6E.title: "{atm9.quest.evilcraft.thunderstruck}"
 	quest.674F28BCA2E4A3C8.quest_desc: ["When moving items Routers can get pretty greedy, taking every single item they can get their grubby antennas on! \\n\\nWith Regulator Augment you can limit how much is moved."]
 	quest.6754612E9AD4B9C0.title: "Reactor (Blazing)"
 	quest.676BC41C19BEF1FC.quest_desc: [
@@ -9920,11 +9872,11 @@
 	quest.6829D2769ACC1BDB.quest_desc: ["ME Fluid Output! Takes the resulting fluids, or outputting byproduct fluids directly back to the ME system! Streamlined for sure!"]
 	quest.6829D2769ACC1BDB.quest_subtitle: "ME Fluid Output"
 	quest.68318811CCC28320.quest_desc: [
-		"Combining &aHardened Blood Shards&r with &9Dark Power Gems&r will make Blood Infusion Cores."
+		"{atm9.quest.evilcraft.desc.bloodInfusionCores.1}"
 		""
-		"&9Blood Infusion Cores&r are the main crafting components of several machines in EvilCraft."
+		"{atm9.quest.evilcraft.desc.bloodInfusionCores.2}"
 	]
-	quest.68318811CCC28320.title: "&aInfusion Cores&r"
+	quest.68318811CCC28320.title: "{atm9.quest.evilcraft.infusionCores}"
 	quest.6832C9E6D2E2949E.quest_desc: [
 		"In the Everdawn Tower, you'll find the Alchemist boss fight. Collect some Blinding Dungeon Keys to unlock the fight!"
 		""
@@ -10323,7 +10275,7 @@
 	quest.6CA01DCE1F4A0EC3.quest_desc: ["The next stage of the mod requires the collection of &3Crude Oil&r. This Oil can be found naturally on the surface of the overworld."]
 	quest.6CA01DCE1F4A0EC3.quest_subtitle: "The Path to Plastic"
 	quest.6CA01DCE1F4A0EC3.title: "Crude Oil"
-	quest.6CA1D90CCE17097D.quest_subtitle: "A One-Time Use Lightning Scepter"
+	quest.6CA1D90CCE17097D.quest_subtitle: "{atm9.quest.evilcraft.subt.lightningScepter}"
 	quest.6CAD27627A3F8FD7.quest_desc: [
 		"Now we finally get to the Meat of the Mod, &eAlchemical Sulfurs&r! \\n\\nTo make them we'll need a Liquefaction Cauldron, an Item, &dSal Ammoniac&r, and a Heater. \\n\\nHeat is explained in another Quest but you'll need either the Pyromantic Brazier or the Caloric Flux Emitter beneath the Cauldron to Heat it. \\n\\nThen the Liquid &dSal Ammoniac&r in it. \\n\\nAnd finally the Item you want to be turned into an &eAlchemical Sulfur&r. \\n\\nYou'll know it's working when it's bubbling."
 		"{image:atm:textures/questpics/theurgy/theurgy_lique.png width:100 height:100 align:center}"
@@ -11144,11 +11096,11 @@
 	quest.74AE214747A3DB1A.quest_desc: ["Increases how much pressure things can hold."]
 	quest.74AE214747A3DB1A.quest_subtitle: "Turn it up!"
 	quest.74B0308336F5E017.quest_desc: [
-		"The &cBlood Chest&r can be used to repair items using &cBlood&r."
+		"{atm9.quest.evilcraft.desc.repairWithBlood.1}"
 		""
-		"However, items repaired might become &dCursed&r...."
+		"{atm9.quest.evilcraft.desc.repairWithBlood.2}"
 	]
-	quest.74B0308336F5E017.title: "Repairing Tools with &cBlood&r"
+	quest.74B0308336F5E017.title: "{atm9.quest.evilcraft.repairingTools}"
 	quest.74B352457BF1541B.quest_desc: ["If you're like me, or any sane person you despise Powdered Snow. Thankfully &l&3Artifacts&r gives us a tool for dealing with it! Snowshoes! \\n\\nSnowshoes will allow you to safely walk over Powdered Snow just like how Leather Boots do. You will also get a Speed boost when walking on any Snow!"]
 	quest.74B352457BF1541B.quest_subtitle: "Feet"
 	quest.74CD3FC35F245DF2.quest_subtitle: "Blue Yonder + Flickering Sun"
@@ -11184,9 +11136,9 @@
 	quest.751189465F91B353.title: "&bCrystalline Seashelf&r"
 	quest.75238B267CBFFAFE.quest_subtitle: "&f4.5&r &4Damage&r"
 	quest.753B3EF7CC94A6DD.quest_desc: [
-		"This is a unique drop from &aPlayers&r, including when you die!"
+		"{atm9.quest.evilcraft.desc.uniqueDrop.1}"
 		""
-		"You &ocould&r get this by dying over and over, or by participating in PvP. Same thing!"
+		"{atm9.quest.evilcraft.desc.uniqueDrop.2}"
 	]
 	quest.754229E1F1D2DA8A.quest_desc: [
 		"More fusion glass. Just this time we need it to craft a component, not for a multiblock. "
@@ -11231,13 +11183,13 @@
 	quest.75CD4EE6A542D687.title: "Copper Bees"
 	quest.75CE67D3AA75C798.quest_subtitle: "Red Delicious Apple + Granny Smith Apple"
 	quest.75CF9EAB75C3907E.quest_desc: [
-		"Using the power of &9Dark Gems&r, we can create &aDark Tanks&r."
+		"{atm9.quest.evilcraft.desc.darkTanks.1}"
 		""
-		"These can store 16 buckets of any liquid you want, but you'll probably need this for all of the &cBlood&r you'll be collecting."
+		"{atm9.quest.evilcraft.desc.darkTanks.2}"
 		""
-		"Need it to hold more? Just combine it in a crafting grid with another Dark Tank."
+		"{atm9.quest.evilcraft.desc.darkTanks.3}"
 	]
-	quest.75CF9EAB75C3907E.title: "&aStoring&r &cFluids&r"
+	quest.75CF9EAB75C3907E.title: "{atm9.quest.evilcraft.storingFluids}"
 	quest.75D3F3C1D4A3EAA2.quest_desc: ["To move the heat being made by the Vortex Tube, make some &3Heat Pipes&r."]
 	quest.75D3F3C1D4A3EAA2.quest_subtitle: "We have the heat to move :)"
 	quest.75D3F3C1D4A3EAA2.title: "Moving Heat"
@@ -11391,11 +11343,11 @@
 	quest.77A12A37D5A9B3A4.quest_subtitle: "Working with Organics!"
 	quest.77AAC2F643E92A88.quest_desc: ["Add another Laser Engraver to the stack, this time for the NAND chip! Useful for data storage and the Crystal Processor Supercomputer - more on that later though!"]
 	quest.77B5B23A2C01ED7E.quest_desc: [
-		"The &9Kineticator&r works like a magnet for items and experience."
+		"{atm9.quest.evilcraft.desc.kineticatorFeatures.1}"
 		""
-		"The &eReverse Kineticator&r will instead repel items and experience."
+		"{atm9.quest.evilcraft.desc.kineticatorFeatures.2}"
 	]
-	quest.77B5B23A2C01ED7E.quest_subtitle: "Magnets"
+	quest.77B5B23A2C01ED7E.quest_subtitle: "{atm9.quest.evilcraft.subt.magnets}"
 	quest.77C6667B4C37589C.quest_desc: ["Machine Upgrades are used to speed &aMystical Agriculture&r machines."]
 	quest.77C9EE701F72586D.quest_desc: [
 		"&bPortable Cells&f function identically to regular cells in that they can be inserted into a chest or drive and filled accordingly. "
@@ -11698,11 +11650,11 @@
 	quest.7A8242E6D0BC6294.quest_subtitle: "You spin me right round"
 	quest.7A82D66B1B138F0F.quest_desc: ["Doubles the amount of Mana a Mana Burst can carry, at the cost of speed and increased mana loss over longer distances."]
 	quest.7A93F07BE2E6EC97.quest_desc: [
-		"When it's raining, throwing in a &aWeather Container&r will harness the power of the rain."
+		"{atm9.quest.evilcraft.desc.infiniteWater.1}"
 		""
-		"With this, you can create an &9Infinite Water Bucket&r, or an &9Infinite Water Source Block&r. These are both incredibly useful items to have!"
+		"{atm9.quest.evilcraft.desc.infiniteWater.2}"
 	]
-	quest.7A93F07BE2E6EC97.title: "&aLet it&r &9Rain&r"
+	quest.7A93F07BE2E6EC97.title: "{atm9.quest.evilcraft.letItRain}"
 	quest.7A9AE63998BB41FF.quest_desc: ["To determine when the Spawner will spawn it picks a random number between maximum and minimum spawn delay. The Minimum can be as low as 20 to as high as 32,767. Each piece of sugar modifies the min delay up or down by 10."]
 	quest.7A9AE63998BB41FF.title: "Minimum Spawn Delay"
 	quest.7AAEFA2A349D3F82.quest_subtitle: "An Auto-Crafter!"
@@ -11798,9 +11750,9 @@
 	]
 	quest.7B4AAC741F0A6073.title: "Reactor Control Rods"
 	quest.7B524DAD8A33BF85.quest_desc: [
-		"Need more blood from your enemies? Of course you do!"
+		"{atm9.quest.evilcraft.desc.veinSword.1}"
 		""
-		"The &dVein Sword&r allows you to collect more blood, as well as more drops with Looting attached to it!"
+		"{atm9.quest.evilcraft.desc.veinSword.2}"
 	]
 	quest.7B5A0BFD47D96BDE.quest_desc: [
 		"Used to catch bees that are flying around it."
@@ -12097,17 +12049,17 @@
 	quest.7E697FE6A6C8B4EE.quest_subtitle: "With Ingots we have options!"
 	quest.7E7637DAD2C242CB.quest_subtitle: "European Larch + Spruce"
 	quest.7E79F52147B606F9.quest_desc: [
-		"To start collecting blood, we need to craft the &cBlood Extractor&r."
+		"{atm9.quest.evilcraft.desc.bloodExtractor.1}"
 		""
-		"As long as you have this in your inventory, killing mobs will collect blood into the extractor. &cBlood&r is an important resource in EvilCraft."
+		"{atm9.quest.evilcraft.desc.bloodExtractor.2}"
 		""
-		"Need to increase the storage of the Extractor? Simply make another, and then combine them in a crafting grid!"
+		"{atm9.quest.evilcraft.desc.bloodExtractor.3}"
 		""
-		"These can also be used to extract blood from &cBlood Stains&r you find (or create) on the ground."
+		"{atm9.quest.evilcraft.desc.bloodExtractor.4}"
 		""
-		"Lastly, with enough blood stored, you can sneak-right click on the ground to place a bucket of blood down."
+		"{atm9.quest.evilcraft.desc.bloodExtractor.5}"
 	]
-	quest.7E79F52147B606F9.title: "&aCollecting&r &cBlood&r"
+	quest.7E79F52147B606F9.title: "{atm9.quest.evilcraft.collectingBlood}"
 	quest.7E7FAA72581D2186.quest_desc: [
 		"&eMix&r together your &dIndium&r, &bGallium&r, and &6Phosphorus&r dusts on &aProgram 1&r"
 		""
@@ -12361,6 +12313,7 @@
 	task.15389D4D64D19ACA.title: "GT Screwdrivers"
 	task.15BD622D04888DD8.title: "Carts"
 	task.15C6E9C02D1FBEC0.title: "Tier 2 Glyphs"
+	task.15D2A03410859443.title: "AllRightsReserved"
 	task.15DC25BCFCE78DE2.title: "Aluminium Ingot"
 	task.15ED5ED72A7965B5.title: "Welcome to Eidolon"
 	task.16010377566C75F3.title: "Stocking up"
@@ -12376,6 +12329,7 @@
 	task.188A83D9504A8470.title: "Observe completed IV Processing Array"
 	task.18CA627A460E3E4E.title: "Valid Ores"
 	task.18DBE4B1BAAA5CC8.title: "Blue Skies Stone Pickaxe"
+	task.18EC832FAB41B252.title: "Quests By AllTheMods"
 	task.1960B985B54B9FBD.title: "Power Cables"
 	task.19931057AAC1A03A.title: "AllRightsReserved"
 	task.19DF62F00979AEA2.title: "&5The Alchemist"
@@ -12439,6 +12393,7 @@
 	task.2E49798B39BAA192.title: "Solar Power"
 	task.2E62FDEF3A6A88B8.title: "Valid Ores"
 	task.2EA19C4E46380CDA.title: "RuBee Comb"
+	task.2ECDBD1D085A4480.title: "Quests By AllTheMods"
 	task.2F608F433D9A3363.title: "Expanded RF Coil"
 	task.3007461CFCC0A013.title: "AllRightsReserved"
 	task.30443BA4C089AA8B.title: "Any GT Hammer"
@@ -12508,6 +12463,7 @@
 	task.3F5D1730023562C7.title: "Observe Formed EBF"
 	task.4063C1B5F935A026.title: "Induction Cells"
 	task.40A7CC56DACC2623.title: "ME Glass Cables"
+	task.40C84C03F35EE9FA.title: "Quests By AllTheMods"
 	task.41910A3BC6C0E838.title: "Prudentium Tools"
 	task.41EEE559F6402D81.title: "Creative Module"
 	task.4203F7ED807F3D30.title: "Skeletal Comb"
@@ -12520,7 +12476,6 @@
 	task.4471A530B55D4140.title: "Osmium Comb"
 	task.44A3CDE54F2A5149.title: "Gaia Trinkets"
 	task.44CEA28EBD6C0898.title: "AllRightsReserved"
-	task.463EB27ECC7E6509.title: "Welcome to &9Hostile Neural Networks&r!"
 	task.465C43AE595A1A9F.title: "GT Butchery Knives"
 	task.46C4C1AD9FA5BEE2.title: "Our Setup So Far"
 	task.46C7D666D3A4A3D9.title: "Sapphire Comb"
@@ -12562,16 +12517,17 @@
 	task.50823C029014781A.title: "Obsidian Comb"
 	task.508A2B09B32E5244.title: "Valid Ores"
 	task.508BC2CB4F4BC7EF.title: "AllRightsReserved"
+	task.50DCADFCCAD7BB24.title: "Quests By AllTheMods"
 	task.510CE57C709D5A44.title: "Observe Hydrofluoric Acid in a Machine"
 	task.518B9569DCE0A771.title: "AllRightsReserved"
 	task.51A3E013D2B3D744.title: "Machine Upgrades"
 	task.51EFBB115AE2746A.title: "Any #botania:mystical_flowers"
 	task.51F776CF868BABEF.title: "Mining Demons"
 	task.5270CD1653E1BAC6.title: "GT Saws"
-	task.529AF6004FE7819C.title: "Sanguinary Pedestal"
+	task.529AF6004FE7819C.title: "{atm9.quest.evilcraft.sanguinaryPedestal}"
 	task.529FF9EA2C01FB6E.title: "Valid Ores"
 	task.52AFA2CE57617039.title: "Any LV Energy Converter"
-	task.52D6F14FEB974305.title: "Visit a Dark Temple"
+	task.52D6F14FEB974305.title: "{atm9.quest.evilcraft.visitDarkTemple}"
 	task.539C6F64C251543B.title: "Coal"
 	task.5400EB85133AAAEE.title: "Arcane Crystal Obelisks"
 	task.540231448A4DE43B.title: "End Layer Ores"
@@ -12584,6 +12540,7 @@
 	task.5685DB13CE250DBA.title: "HV or EV Cutter"
 	task.56A486D09B8B90EC.title: "Observe Alloy Blast Smelter"
 	task.56F3B3D1E09A31E9.title: "Valid Ores"
+	task.570BF38EA2870300.title: "Quests By AllTheMods"
 	task.5711092D4CD64197.title: "Valid Ores"
 	task.57F40CFA03BD36EF.title: "The Hard Part"
 	task.5805158E69C05AED.title: "AllRightsReserved"
@@ -12637,6 +12594,7 @@
 	task.66C97246C3EEFB7C.title: "Observe Sulfuric Acid in a Machine"
 	task.6754D9E162472CA1.title: "Allthemodium Progression"
 	task.6887F86C8673DAF6.title: "Reed Bee"
+	task.68B1AF1C8919A2AB.title: "Quests By AllTheMods"
 	task.695A0E0BC4B78AEC.title: "This will be the main ingredient for most of this mod's items and blocks."
 	task.695EA135D2B5FDC8.title: "Enter the Twilight Forest"
 	task.6962BAEF473C8C18.title: "Valid Ores"
@@ -12644,6 +12602,7 @@
 	task.6A4FADC04E1C9DA7.title: "Steam Boiler Tanks"
 	task.6A623C45C3A556B6.title: "Valid Ores"
 	task.6A965CD027BF762F.title: "AllRightsReserved"
+	task.6B580F95A2E5A465.title: "AllRightsReserved"
 	task.6C12449632AD53DC.title: "Track Kits"
 	task.6C3887D42B6B2122.title: "Familiars"
 	task.6C841FAADFD094AC.title: "Automation"
@@ -12704,8 +12663,8 @@
 	task.7C88F80D05E62AC7.title: "Iron Furnaces"
 	task.7C91AC93D782A4BE.title: "Stage 2 EBF"
 	task.7CD2C8E1A5F4B3D2.title: "Frosty Comb"
-	task.7CEA92391454DDD3.title: "Leveling Up Data Models"
 	task.7D9A58EBADE91F54.title: "Inferium Tools"
+	task.7F17E48ACE65C84E.title: "Any Data Model"
 	task.7F362CF1D18C7FB1.title: "Functional Flora"
 	task.7FA60EE3F8F0C57B.title: "Valid Ores"
 	task.7FC3DAA1BD5016A0.title: "ME Smart Cables"
