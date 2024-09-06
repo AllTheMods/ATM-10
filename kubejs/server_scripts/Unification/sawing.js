@@ -37,6 +37,9 @@ ServerEvents.tags('tags.item', allthemods => {
         'allthemodium:demonic_log',
         'allthemodium:stripped_demonic_log',
     ])
+    allthemods.add('regions_unexplored:alpha_logs', [
+        'regions_unexplored:alpha_log'
+    ])
 })
 
 ServerEvents.recipes(allthemods => {
