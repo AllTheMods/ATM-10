@@ -43,7 +43,7 @@ ServerEvents.recipes(allthemods => {
     allthemods.shaped('allthetweaks:withers_compass', ['DCD', 'ABA', 'DED'], {
       A: 'minecraft:bedrock',
       B: 'minecraft:bedrock',
-      C: 'minecraft:bedrock',
+      C: 'deeperdarker:heart_of_the_deep',
       D: 'minecraft:bedrock',
       E: 'minecraft:bedrock'
     }).id('allthemods:allthetweaks/withers_compass')
@@ -54,7 +54,7 @@ ServerEvents.recipes(allthemods => {
 	B: 'ironfurnaces:million_furnace'  ,
 	C: 'bigreactors:insanite_block' ,
 	D: 'minecraft:bedrock',
-	E: 'minecraft:bedrock',
+	E: 'mysticalagradditions:insanium_coal_block',
   F: 'minecraft:bedrock',
 	G: 'mysticalagriculture:awakened_supremium_ingot_block',
 	H: 'minecraft:bedrock',
