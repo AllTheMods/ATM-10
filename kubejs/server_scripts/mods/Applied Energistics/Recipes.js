@@ -141,7 +141,7 @@ ServerEvents.recipes(allthemods => {
     )
 
     allthemods.replaceInput(
-        {id: 'minecraft:quantumstorage128'},
+        {id: 'advanced_ae:quantumstorage128'},
         'ae2:cell_component_256k',
         'megacells:bulk_cell_component'
     )
