@@ -16,24 +16,24 @@
 			image: "ftbquests:tasks/input_only"
 			rotation: 45.0d
 			width: 1.5d
-			x: -2.5d
-			y: 9.5d
+			x: 0.0d
+			y: 10.0d
 		}
 		{
 			height: 1.5d
 			image: "ftbquests:tasks/input_only"
 			rotation: 90.0d
 			width: 1.5d
-			x: -2.5d
-			y: 9.5d
+			x: 0.0d
+			y: 10.0d
 		}
 		{
 			height: 0.6d
 			image: "hostilenetworks:item/prediction_matrix"
 			rotation: 0.0d
 			width: 0.6d
-			x: -2.5d
-			y: 2.3d
+			x: 0.0d
+			y: 2.8d
 		}
 	]
 	order_index: 2
@@ -60,8 +60,8 @@
 				item: { count: 1, id: "minecraft:redstone" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -0.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["37EBB8E0D6E5F821"]
@@ -79,8 +79,8 @@
 				item: { count: 1, id: "hostilenetworks:deep_learner" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 1.5d
+			x: -1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["37EBB8E0D6E5F821"]
@@ -98,8 +98,8 @@
 				item: { count: 1, id: "hostilenetworks:blank_data_model" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 1.5d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -131,8 +131,8 @@
 					type: "item"
 				}
 			]
-			x: -2.5d
-			y: 3.0d
+			x: 0.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -159,8 +159,8 @@
 				item: { count: 1, id: "hostilenetworks:data_model" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.5d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
@@ -188,8 +188,8 @@
 				item: { count: 1, id: "hostilenetworks:overworld_prediction" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 4.5d
+			x: -1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
@@ -217,8 +217,8 @@
 				item: { count: 1, id: "hostilenetworks:nether_prediction" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 4.5d
+			x: 0.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
@@ -246,8 +246,8 @@
 				item: { count: 1, id: "hostilenetworks:end_prediction" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 4.5d
+			x: 1.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -275,8 +275,8 @@
 				item: { components: { "hostilenetworks:data_model": "hostilenetworks:chicken" }, count: 1, id: "hostilenetworks:prediction" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 9.0d
+			x: 3.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -305,8 +305,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 8.0d
+			x: -2.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -335,8 +335,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 14.0d
+			x: 2.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -365,8 +365,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 10.0d
+			x: -3.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["104EBBC08B4733F5"]
@@ -384,8 +384,8 @@
 				item: { count: 1, id: "hostilenetworks:loot_fabricator" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 6.0d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -413,8 +413,8 @@
 				item: { components: { "hostilenetworks:data_model": "hostilenetworks:allthemodium/piglich" }, count: 1, id: "hostilenetworks:prediction" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 9.5d
+			x: 0.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -443,8 +443,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 8.0d
+			x: 2.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -473,8 +473,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 12.0d
+			x: 1.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -503,8 +503,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 9.0d
+			x: -3.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -533,8 +533,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 10.0d
+			x: -4.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -563,8 +563,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 8.0d
+			x: 0.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -592,8 +592,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 12.0d
+			x: 0.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -622,8 +622,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 10.0d
+			x: 2.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -652,8 +652,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 10.0d
+			x: 3.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -682,8 +682,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 12.0d
+			x: 4.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -712,8 +712,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 11.0d
+			x: -4.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -742,8 +742,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 12.0d
+			x: -4.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -772,8 +772,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 14.0d
+			x: -2.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -802,8 +802,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 13.0d
+			x: 3.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -832,8 +832,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 13.0d
+			x: 2.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -862,8 +862,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 13.0d
+			x: 1.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -892,8 +892,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 15.0d
+			x: -2.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -922,8 +922,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 13.0d
+			x: -1.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -952,8 +952,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 13.0d
+			x: -2.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -981,8 +981,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 14.0d
+			x: 0.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1011,8 +1011,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 8.0d
+			x: -1.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1041,8 +1041,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 10.0d
+			x: 4.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1070,8 +1070,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -2.5d
-			y: 13.0d
+			x: 0.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1100,8 +1100,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 11.0d
+			x: 4.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1130,8 +1130,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 15.0d
+			x: 2.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1160,8 +1160,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 8.0d
+			x: 1.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1190,8 +1190,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 10.0d
+			x: -2.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1220,8 +1220,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 12.0d
+			x: -1.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1250,8 +1250,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -3.5d
-			y: 11.0d
+			x: -1.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1280,8 +1280,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 11.0d
+			x: 1.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1310,8 +1310,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 13.0d
+			x: -3.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1340,8 +1340,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -0.5d
-			y: 11.0d
+			x: 2.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["14B3542ECB59869C"]
@@ -1370,8 +1370,8 @@
 				match_components: "strict"
 				type: "item"
 			}]
-			x: -4.5d
-			y: 11.0d
+			x: -2.0d
+			y: 11.5d
 		}
 		{
 			id: "12AE2856444996F6"
@@ -1387,8 +1387,8 @@
 					type: "checkmark"
 				}
 			]
-			x: -2.5d
-			y: -2.0d
+			x: 0.0d
+			y: -1.5d
 		}
 	]
 }

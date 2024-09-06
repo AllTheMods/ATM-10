@@ -127,6 +127,9 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "minecraft:oak_log"
+			}
 			id: "5CF320E9C4C1B1E1"
 			rewards: [
 				{
@@ -228,6 +231,9 @@
 		}
 		{
 			dependencies: ["7975C7145572C438"]
+			icon: {
+				id: "minecraft:furnace"
+			}
 			id: "7D38BC3DB3406F51"
 			rewards: [{
 				id: "36A9FD7873103E63"
@@ -237,12 +243,12 @@
 			tasks: [
 				{
 					count: 16L
-					id: "10DFD79E9CE6DB61"
-					item: { components: { "ftbfiltersystem:filter": "item_tag(c:cobblestones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					id: "173044E1C1134A80"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:cobblestones)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
-					id: "4701BCBA5EA024F2"
+					id: "39AD121BCB73453D"
 					item: { count: 1, id: "minecraft:furnace" }
 					type: "item"
 				}
@@ -331,7 +337,7 @@
 			rewards: [{
 				id: "2C46B4017AC5F3AE"
 				type: "xp"
-				xp: 50
+				xp: 25
 			}]
 			shape: "octagon"
 			tasks: [{
@@ -348,15 +354,15 @@
 			id: "76406EFFF8CBA6B4"
 			rewards: [
 				{
-					id: "5631B3158B9642FB"
-					type: "xp"
-					xp: 50
-				}
-				{
 					exclude_from_claim_all: true
 					id: "197F4FAA40D360D9"
 					table_id: 4196188979167302596L
 					type: "loot"
+				}
+				{
+					id: "22EE7E7246E8E87E"
+					type: "xp"
+					xp: 50
 				}
 			]
 			shape: "rsquare"
@@ -491,7 +497,7 @@
 				{
 					id: "48961510103ECFA9"
 					type: "xp"
-					xp: 25
+					xp: 50
 				}
 			]
 			shape: "square"
@@ -554,28 +560,12 @@
 			}]
 			shape: "gear"
 			size: 2.0d
-			tasks: [
-				{
-					advancement: "minecraft:story/enter_the_end"
-					criterion: ""
-					id: "4E47E0E49057195E"
-					type: "advancement"
-				}
-				{
-					advancement: "minecraft:end/root"
-					criterion: ""
-					icon: {
-						id: "minecraft:dragon_head"
-					}
-					id: "2F96969419E7C767"
-					type: "advancement"
-				}
-				{
-					id: "3EC9DF0765694A7E"
-					item: { count: 1, id: "minecraft:dragon_egg" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				advancement: "minecraft:end/dragon_egg"
+				criterion: ""
+				id: "779B347821B84A62"
+				type: "advancement"
+			}]
 			x: 13.5d
 			y: 0.834183673469397d
 		}
@@ -584,11 +574,6 @@
 			id: "2EC9668ED4EA47CB"
 			rewards: [
 				{
-					id: "22A34BE659C7BC6D"
-					type: "xp"
-					xp: 25
-				}
-				{
 					count: 2
 					id: "663292AD95F1E2D1"
 					item: {
@@ -596,6 +581,11 @@
 						id: "minecraft:diamond"
 					}
 					type: "item"
+				}
+				{
+					id: "317DD048EF0D4A8E"
+					type: "xp"
+					xp: 50
 				}
 			]
 			shape: "rsquare"
@@ -643,11 +633,6 @@
 			id: "0F026D5A17CCCF51"
 			rewards: [
 				{
-					id: "58E67AE81201E3EA"
-					type: "xp"
-					xp: 50
-				}
-				{
 					count: 3
 					id: "05FE76F501B0D1CA"
 					item: {
@@ -655,6 +640,11 @@
 						id: "minecraft:diamond"
 					}
 					type: "item"
+				}
+				{
+					id: "69F398684E9040D4"
+					type: "xp"
+					xp: 50
 				}
 			]
 			shape: "square"
@@ -699,15 +689,22 @@
 		{
 			dependencies: ["0F3D51FFD2FE8DCB"]
 			id: "5E799B92358A8732"
-			rewards: [{
-				count: 3
-				id: "59B12AC887E1CAD7"
-				item: {
-					count: 1
-					id: "minecraft:netherite_scrap"
+			rewards: [
+				{
+					count: 3
+					id: "59B12AC887E1CAD7"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "61559C81C57A73C5"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "square"
 			tasks: [{
 				id: "4346DAC18183627E"
@@ -857,6 +854,9 @@
 		{
 			dependencies: ["0F3D51FFD2FE8DCB"]
 			hide_until_deps_visible: false
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
 			id: "4A4C71C43519D5FE"
 			rewards: [{
 				count: 3
@@ -971,6 +971,9 @@
 		}
 		{
 			dependencies: ["7D38BC3DB3406F51"]
+			icon: {
+				id: "minecraft:coal"
+			}
 			id: "24C9BA6DC32CFAD9"
 			rewards: [{
 				count: 6
