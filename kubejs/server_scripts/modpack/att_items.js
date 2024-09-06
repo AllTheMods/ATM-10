@@ -72,26 +72,25 @@ ServerEvents.recipes(allthemods => {
   G: 'minecraft:bedrock'
 }).id('allthemods:allthetweaks/nexium_emitter')
 
+// Oblivion Shard
+allthemods.shaped('allthetweaks:oblivion_shard', [' AB', 'ACA', 'BA '], {
+  A: 'minecraft:bedrock',
+  C: 'minecraft:bedrock',
+  B: 'evilcraft:piercing_vengeance_focus'
+}).id('allthemods:allthetweaks/oblivion_shard')
+
+
 // Pulsating Black Hole
-allthemods.custom({
-type: 'pneumaticcraft:pressure_chamber',
-inputs: [
-  { 'type': 'pneumaticcraft:stacked_item', 'item': 'irons_spellbooks:fire_upgrade_orb', 'count': 1 },
-  { 'type': 'pneumaticcraft:stacked_item', 'item': 'ae2:quantum_ring', 'count': 1 },
-  { 'type': 'pneumaticcraft:stacked_item', 'item': 'pneumaticcraft:micromissiles', 'count': 1 },
-  { 'type': 'pneumaticcraft:stacked_item', 'item': 'forbidden_arcanus:dark_rune_block', 'count': 1 },
-  { 'type': 'pneumaticcraft:stacked_item', 'item': 'minecraft:bedrock', 'count': 1 },
-  { 'type': 'pneumaticcraft:stacked_item', 'item': 'occultism:stable_wormhole', 'count': 1 },
-  { 'type': 'pneumaticcraft:stacked_item', 'item': 'minecraft:bedrock', 'count': 1 },
-  { 'type': 'pneumaticcraft:stacked_item', 'item': 'minecraft:bedrock', 'count': 1 },
-  { 'type': 'pneumaticcraft:stacked_item', 'item': 'evilcraft:lightning_bomb', 'count': 1 }
-],
-pressure: 4.9,
-results: [
-  {
-    'item': 'allthetweaks:pulsating_black_hole'
-  }
-]
+allthemods.shaped('allthetweaks:pulsating_black_hole', ['ABC', 'DEF', 'GHI'], {
+  A: 'irons_spellbooks:fire_upgrade_orb',
+  B: 'ae2:quantum_ring'  ,
+  C: 'pneumaticcraft:micromissiles' ,
+  D: 'minecraft:bedrock',
+  E: 'minecraft:bedrock',
+  F: 'occultism:stable_wormhole',
+  G: 'minecraft:bedrock',
+  H: 'minecraft:bedrock',
+  I: 'evilcraft:lightning_bomb'
 }).id('allthemods:pressure/allthetweaks/pulsating_black_hole')
 
 })
