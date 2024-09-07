@@ -1,6 +1,6 @@
 # MEKANISM Rebalance
 
-[Energy Units in Joules: 1RF = 2.5J]
+[Energy Units are in Joules: 1RF = 2.5J]
 
 ## Mekasuit
 
@@ -35,17 +35,17 @@
 
 [Increased to make it a slightly more endgame-ish tool]
 
-- **Base Energy Usage:** 10 -> 50
-- **Silktouch Energy Usage:** 100 -> 500
+- **Base Energy Usage:** 10J -> 50J
+- **Silktouch Energy Usage:** 100J -> 500J
 
 
-- **Weapon Energy Usage:** 2000 -> 8000
-- **Hoe Energy Usage:** 10 -> 50
-- **Shovel Energy Usage:** 10 -> 50
-- **Axe Energy Usage:** 10 -> 50
-- **Shear Energy Usage:** 10 -> 50
-- **Trim Energy Usage:** 10 -> 50
-- **Teleportation Energy Usage:** 1000 -> 2500
+- **Weapon Energy Usage:** 2000J -> 8000J
+- **Hoe Energy Usage:** 10J -> 50J
+- **Shovel Energy Usage:** 10J -> 50J
+- **Axe Energy Usage:** 10J -> 50J
+- **Shear Energy Usage:** 10J -> 50J
+- **Trim Energy Usage:** 10J -> 50J
+- **Teleportation Energy Usage:** 1000J -> 2500J
 
 
 - **Energy Capacity:** 16.000.000J -> 40.000.000J
@@ -62,7 +62,7 @@
 
 [Buffed to match powah]
 
-- **Heat Generation:** 200 -> 800
+- **Heat Generation:** 200J -> 800J
 
 [Nerf to prevent massive melon power]
 
@@ -71,12 +71,12 @@
 
 [Buffed to make slightly more viable]
 
-- **Wind Generation Min:** 60 -> 150
-- **Wind Generation Max:** 480 -> 900
+- **Wind Generation Min:** 60J -> 150J
+- **Wind Generation Max:** 480J -> 900J
 
 [Nerf to promote other reactors]
 
-- **Energy per Fission Fuel:** 1.000.000 -> 250.000
+- **Energy per Fission Fuel:** 1.000.000J -> 250.000J
 
 [Buff Turbine to need less for the same]
 - **Blades per Coil:** 4 -> 8
@@ -85,10 +85,10 @@
 - **Condeser Rate:** 64.000mb/t -> 256.000mb/t
 
 [Buff Boiler so you only need one per fission reactor]
-- **Water per Tank:** = 16000 -> 32000
-- **Steam per Tank:** = 16000 -> 320000
-- **Heated Coolant per Tank** = 256000 -> 512000
-- **Cooled Coolant per Tank:** = 25600 -> 512000
+- **Water per Tank:** = 16000mb -> 32000mb
+- **Steam per Tank:** = 16000mb -> 320000mb
+- **Heated Coolant per Tank** = 256000mb -> 512000mb
+- **Cooled Coolant per Tank:** = 25600mb -> 512000mb
 
 [Nerfed to make other power viable in endgame 200MRF -> 80MRF]
 
