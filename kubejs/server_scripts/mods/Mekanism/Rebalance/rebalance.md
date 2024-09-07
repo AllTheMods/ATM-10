@@ -4,19 +4,6 @@
 
 ## Mekasuit
 
-### Armor
-
-[Buffed to adjust for the recipe]
-
-- **Helmet Armor:** 3 -> 6
-- **Chestplate Armor:** 8 -> 12
-- **Leggings Armor:** 6 -> 9
-- **Boots Armor:** 3 -> 6
-
-
-- **Armor Toughness:** 3 -> 10
-- **Knockback Resistance:** 0.1 -> 0.25
-
 ### Energy
 
 [Increased to make the mekasuit slightly more of an endgame armor]
