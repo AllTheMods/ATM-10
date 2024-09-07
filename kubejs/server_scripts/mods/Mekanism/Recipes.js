@@ -94,6 +94,11 @@ ServerEvents.recipes(allthemods => {
     }
   })
 
+  mekCrushing(
+    {item:'extendedae:entro_dust'},
+    {item:'extendedae:entro_crystal'},
+    'entro_crystal_to_dust'
+  )
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
