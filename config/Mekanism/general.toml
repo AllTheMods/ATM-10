@@ -99,10 +99,10 @@ maxSolarNeutronActivatorRate = 256
 	chunkCheckRadius = 5
 	#Radiation sources are multiplied by this constant roughly once per second to represent their emission decay. At the default rate, it takes roughly 10 hours to remove a 1,000 Sv/h (crazy high) source.
 	#Range: 0.0 ~ 1.0
-	sourceDecayRate = 0.95
+	sourceDecayRate = 0.9975
 	#Radiated objects and entities are multiplied by this constant roughly once per second to represent their dosage decay.
 	#Range: 0.0 ~ 1.0
-	targetDecayRate = 0.95
+	targetDecayRate = 0.9975
 	#Defines the minimum severity radiation dosage severity (scale of 0 to 1) for which negative effects can take place. Set to 1 to disable negative effects completely.
 	#Range: 0.0 ~ 1.0
 	negativeEffectsMinSeverity = 0.1

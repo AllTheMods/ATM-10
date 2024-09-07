@@ -114,8 +114,8 @@
 
 [Makes Radiation decay much faster]
 
-- **Source Decay Rate:** 0.9995 -> 0.95
-- **Target Decay Rate:** 0.9995 -> 0.95
+- **Source Decay Rate:** 0.9995 -> 0.9975
+- **Target Decay Rate:** 0.9995 -> 0.9975
 
 [Makes waste decay a bit faster in barrels]
 
