@@ -8,11 +8,11 @@ ServerEvents.recipes(allthemods => {
     D: 'occultism:soul_gem',
     A: 'occultism:spawn_egg/familiar_dragon',
     S: 'productivetrees:socotra_dragon_sapling',
-    N: 'allthemodium:piglich_heart_block',
-    I: 'minecraft:bedrock',
-    B: 'minecraft:bedrock',
+    N: 'hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ender_dragon",hostilenetworks:data=1254]',
+    I: 'allthemodium:piglich_heart_block',
+    B: 'productivebees:spawn_egg_configurable_bee[entity_data={id:"productivebees:configurable_bee",type:"productivebees:soul_lava"}]',
 	  G: 'productivebees:inactive_dragon_egg',
-    E: 'minecraft:bedrock'
+    E: 'eternal_starlight:chain_of_souls'
   }).id('allthemods:allthetweaks/dragon_soul')
 
  // Improbable Probability Device
@@ -43,7 +43,7 @@ ServerEvents.recipes(allthemods => {
     allthemods.shaped('allthetweaks:withers_compass', ['DCD', 'ABA', 'DED'], {
       A: 'minecraft:bedrock',
       B: 'minecraft:bedrock',
-      C: 'minecraft:bedrock',
+      C: 'deeperdarker:heart_of_the_deep',
       D: 'minecraft:bedrock',
       E: 'minecraft:bedrock'
     }).id('allthemods:allthetweaks/withers_compass')
@@ -54,7 +54,7 @@ ServerEvents.recipes(allthemods => {
 	B: 'ironfurnaces:million_furnace'  ,
 	C: 'bigreactors:insanite_block' ,
 	D: 'minecraft:bedrock',
-	E: 'minecraft:bedrock',
+	E: 'mysticalagradditions:insanium_coal_block',
   F: 'minecraft:bedrock',
 	G: 'mysticalagriculture:awakened_supremium_ingot_block',
 	H: 'minecraft:bedrock',
