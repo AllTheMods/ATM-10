@@ -69,6 +69,62 @@ ServerEvents.recipes(allthemods => {
         O: '#c:ingots/osmium',
         T: 'mekanism:energy_tablet'
     })
+
+    //Wasted Combs
+    allthemods.remove('productivebees:mekanism/oxidizing/honeycomb_wasted_radioactive')
+    allthemods.custom(
+        {
+            "type": "mekanism:oxidizing",
+            "input": {
+                "type": "productivebees:component",
+                "components": {
+                    "productivebees:bee_type": "productivebees:wasted_radioactive"
+                },
+                "items": "productivebees:configurable_honeycomb"
+            },
+            "output": {
+                "id": "mekanism:nuclear_waste",
+                "amount": 50
+            },
+            "neoforge:conditions": [
+                {
+                    "type": "neoforge:mod_loaded",
+                    "modid": "mekanism"
+                },
+                {
+                    "type": "productivebees:bee_exists",
+                    "bee": "productivebees:wasted_radioactive"
+                }
+            ]
+        }
+    )
+    allthemods.remove('productivebees:mekanism/oxidizing/comb_block_wasted_radioactive')
+    allthemods.custom(
+        {
+            "type": "mekanism:oxidizing",
+            "input": {
+                "type": "productivebees:component",
+                "components": {
+                    "productivebees:bee_type": "productivebees:wasted_radioactive"
+                },
+                "items": "productivebees:configurable_comb"
+            },
+            "output": {
+                "id": "mekanism:nuclear_waste",
+                "amount": 200
+            },
+            "neoforge:conditions": [
+                {
+                    "type": "neoforge:mod_loaded",
+                    "modid": "mekanism"
+                },
+                {
+                    "type": "productivebees:bee_exists",
+                    "bee": "productivebees:wasted_radioactive"
+                }
+            ]
+        }
+    )
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
