@@ -1,0 +1,105 @@
+#Energy per operation in Joules of: Enrichment Chamber
+#Range: 0 ~ 9223372036854775807
+enrichmentChamber = 50
+#Energy per operation in Joules of: Osmium Compressor
+#Range: 0 ~ 9223372036854775807
+osmiumCompressor = 100
+#Energy per operation in Joules of: Combiner
+#Range: 0 ~ 9223372036854775807
+combiner = 50
+#Energy per operation in Joules of: Crusher
+#Range: 0 ~ 9223372036854775807
+crusher = 50
+#Energy per operation in Joules of: Metallurgic Infuser
+#Range: 0 ~ 9223372036854775807
+metallurgicInfuser = 50
+#Energy per operation in Joules of: Purification Chamber
+#Range: 0 ~ 9223372036854775807
+purificationChamber = 200
+#Energy per operation in Joules of: Energized Smelter
+#Range: 0 ~ 9223372036854775807
+energizedSmelter = 50
+#Energy per operation in Joules of: Digital Miner
+#Range: 0 ~ 9223372036854775807
+digitalMiner = 1000
+#Energy per operation in Joules of: Electric Pump
+#Range: 0 ~ 9223372036854775807
+electricPump = 100
+#Energy in Joules that can be transferred at once per charge operation.
+#Range: 0 ~ 9223372036854775807
+chargepad = 1024000
+#Energy per operation in Joules of: Rotary Condensentrator
+#Range: 0 ~ 9223372036854775807
+rotaryCondensentrator = 50
+#Energy per operation in Joules of: Chemical Oxidizer
+#Range: 0 ~ 9223372036854775807
+chemicalOxidizer = 200
+#Energy per operation in Joules of: Chemical Infuser
+#Range: 0 ~ 9223372036854775807
+chemicalInfuser = 200
+#Energy per operation in Joules of: Chemical Injection Chamber
+#Range: 0 ~ 9223372036854775807
+chemicalInjectionChamber = 400
+#Energy per operation in Joules of: Precision Sawmill
+#Range: 0 ~ 9223372036854775807
+precisionSawmill = 50
+#Energy per operation in Joules of: Chemical Dissolution Chamber
+#Range: 0 ~ 9223372036854775807
+chemicalDissolutionChamber = 400
+#Energy per operation in Joules of: Chemical Washer
+#Range: 0 ~ 9223372036854775807
+chemicalWasher = 200
+#Energy per operation in Joules of: Chemical Crystallizer
+#Range: 0 ~ 9223372036854775807
+chemicalCrystallizer = 400
+#Energy per operation in Joules of: Seismic Vibrator
+#Range: 0 ~ 9223372036854775807
+seismicVibrator = 50
+#Energy per operation in Joules of: Pressurized Reaction Chamber
+#Range: 0 ~ 9223372036854775807
+pressurizedReactionBase = 5
+#Energy per operation in Joules of: Fluidic Plenisher
+#Range: 0 ~ 9223372036854775807
+fluidicPlenisher = 100
+#Energy per operation in Joules of: Laser
+#Range: 0 ~ 9223372036854775807
+laser = 50000
+#Energy per operation in Joules of: Formulaic Assemblicator
+#Range: 0 ~ 9223372036854775807
+formulaicAssemblicator = 100
+#Energy per operation in Joules of: Modification Station
+#Range: 0 ~ 9223372036854775807
+modificationStation = 400
+#Energy per operation in Joules of: Isotopic Centrifuge
+#Range: 0 ~ 9223372036854775807
+isotopicCentrifuge = 200
+#Energy per operation in Joules of: Nutritional Liquifier
+#Range: 0 ~ 9223372036854775807
+nutritionalLiquifier = 200
+#Energy per operation in Joules of: Nucleosynthesizer
+#Range: 0 ~ 9223372036854775807
+antiprotonicNucleosynthesizer = 100000
+#Energy per operation in Joules of: Pigment Extractor
+#Range: 0 ~ 9223372036854775807
+pigmentExtractor = 200
+#Energy per operation in Joules of: Pigment Mixer
+#Range: 0 ~ 9223372036854775807
+pigmentMixer = 200
+#Energy per operation in Joules of: Painting Machine
+#Range: 0 ~ 9223372036854775807
+paintingMachine = 100
+#Energy per chunk per tick in Joules.
+#Range: 0 ~ 9223372036854775807
+dimensionalStabilizer = 5000
+
+#Settings for configuring Teleporter Energy Usage
+[teleporter]
+	#Base cost in Joules for teleporting an entity.
+	#Range: 0 ~ 9223372036854775807
+	base = 1000
+	#Joules per unit of distance travelled during teleportation - sqrt(xDiff^2 + yDiff^2 + zDiff^2).
+	#Range: 0 ~ 9223372036854775807
+	distance = 10
+	#Flat additional cost for interdimensional teleportation. Distance is still taken into account minimizing energy cost based on dimension scales.
+	#Range: 0 ~ 9223372036854775807
+	dimensionPenalty = 10000

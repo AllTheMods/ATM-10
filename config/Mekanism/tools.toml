@@ -1,0 +1,203 @@
+#Settings for configuring the spawn chance of Mekanism: Tools' gear on mobs
+[mobGearSpawnRate]
+	#The chance that Mekanism: Tools' armor can spawn on mobs. This is multiplied modified by the chunk's difficulty modifier. Vanilla uses 0.15 for its armor spawns, we use 0.1 as default to lower chances of mobs getting some vanilla and some mek armor.
+	#Range: 0.0 ~ 1.0
+	general = 0.1
+	#The chance that Mekanism: Tools' weapons can spawn in a zombie's hand.
+	#Range: 0.0 ~ 1.0
+	weapon = 0.01
+	#The chance that Mekanism: Tools' weapons can spawn in a zombie's hand when on hard difficulty.
+	#Range: 0.0 ~ 1.0
+	weaponHard = 0.05000000074505806
+
+	#Spawn chances for pieces of Bronze gear. Note: These values are after the general mobArmorSpawnRate (or corresponding weapon rate) has been checked, and after an even split between material types has been done.
+	[mobGearSpawnRate.bronze]
+		#If enabled, zombies can spawn with Bronze weapons.
+		canSpawnWeapon = true
+		#The chance that mobs will spawn with Bronze swords rather than Bronze shovels. Requires canSpawnWeapon to be enabled.
+		#Range: 0.0 ~ 1.0
+		swordWeight = 0.33
+		#The chance that mobs can spawn with Bronze helmets.
+		#Range: 0.0 ~ 1.0
+		helmetChance = 1.0
+		#The chance that mobs can spawn with Bronze chestplates.
+		#Range: 0.0 ~ 1.0
+		chestplateChance = 1.0
+		#The chance that mobs can spawn with Bronze leggings.
+		#Range: 0.0 ~ 1.0
+		leggingsChance = 1.0
+		#The chance that mobs can spawn with Bronze boots.
+		#Range: 0.0 ~ 1.0
+		bootsChance = 1.0
+		#The chance that after each piece of Bronze armor a mob spawns with no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
+		#Range: 0.0 ~ 1.0
+		multiplePieceChance = 0.25
+		#The chance on hard mode that after each piece of Bronze armor a mob spawns with no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
+		#Range: 0.0 ~ 1.0
+		multiplePieceChanceHard = 0.1
+		#The chance that if a mob spawns with Bronze weapons that it will be enchanted. This is multiplied modified by the chunk's difficulty modifier. Requires canSpawnWeapon to be enabled.
+		#Range: 0.0 ~ 1.0
+		weaponEnchantmentChance = 0.25
+		#The chance that if a mob spawns with Bronze armor that they will be enchanted. This is multiplied modified by the chunk's difficulty modifier.
+		#Range: 0.0 ~ 1.0
+		armorEnchantmentChance = 0.5
+
+	#Spawn chances for pieces of Lapis Lazuli gear. Note: These values are after the general mobArmorSpawnRate (or corresponding weapon rate) has been checked, and after an even split between material types has been done.
+	[mobGearSpawnRate.lapis_lazuli]
+		#If enabled, zombies can spawn with Lapis Lazuli weapons.
+		canSpawnWeapon = true
+		#The chance that mobs will spawn with Lapis Lazuli swords rather than Lapis Lazuli shovels. Requires canSpawnWeapon to be enabled.
+		#Range: 0.0 ~ 1.0
+		swordWeight = 0.33
+		#The chance that mobs can spawn with Lapis Lazuli helmets.
+		#Range: 0.0 ~ 1.0
+		helmetChance = 1.0
+		#The chance that mobs can spawn with Lapis Lazuli chestplates.
+		#Range: 0.0 ~ 1.0
+		chestplateChance = 1.0
+		#The chance that mobs can spawn with Lapis Lazuli leggings.
+		#Range: 0.0 ~ 1.0
+		leggingsChance = 1.0
+		#The chance that mobs can spawn with Lapis Lazuli boots.
+		#Range: 0.0 ~ 1.0
+		bootsChance = 1.0
+		#The chance that after each piece of Lapis Lazuli armor a mob spawns with no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
+		#Range: 0.0 ~ 1.0
+		multiplePieceChance = 0.25
+		#The chance on hard mode that after each piece of Lapis Lazuli armor a mob spawns with no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
+		#Range: 0.0 ~ 1.0
+		multiplePieceChanceHard = 0.1
+		#The chance that if a mob spawns with Lapis Lazuli weapons that it will be enchanted. This is multiplied modified by the chunk's difficulty modifier. Requires canSpawnWeapon to be enabled.
+		#Range: 0.0 ~ 1.0
+		weaponEnchantmentChance = 0.25
+		#The chance that if a mob spawns with Lapis Lazuli armor that they will be enchanted. This is multiplied modified by the chunk's difficulty modifier.
+		#Range: 0.0 ~ 1.0
+		armorEnchantmentChance = 0.5
+
+	#Spawn chances for pieces of Osmium gear. Note: These values are after the general mobArmorSpawnRate (or corresponding weapon rate) has been checked, and after an even split between material types has been done.
+	[mobGearSpawnRate.osmium]
+		#If enabled, zombies can spawn with Osmium weapons.
+		canSpawnWeapon = true
+		#The chance that mobs will spawn with Osmium swords rather than Osmium shovels. Requires canSpawnWeapon to be enabled.
+		#Range: 0.0 ~ 1.0
+		swordWeight = 0.33
+		#The chance that mobs can spawn with Osmium helmets.
+		#Range: 0.0 ~ 1.0
+		helmetChance = 1.0
+		#The chance that mobs can spawn with Osmium chestplates.
+		#Range: 0.0 ~ 1.0
+		chestplateChance = 1.0
+		#The chance that mobs can spawn with Osmium leggings.
+		#Range: 0.0 ~ 1.0
+		leggingsChance = 1.0
+		#The chance that mobs can spawn with Osmium boots.
+		#Range: 0.0 ~ 1.0
+		bootsChance = 1.0
+		#The chance that after each piece of Osmium armor a mob spawns with no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
+		#Range: 0.0 ~ 1.0
+		multiplePieceChance = 0.25
+		#The chance on hard mode that after each piece of Osmium armor a mob spawns with no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
+		#Range: 0.0 ~ 1.0
+		multiplePieceChanceHard = 0.1
+		#The chance that if a mob spawns with Osmium weapons that it will be enchanted. This is multiplied modified by the chunk's difficulty modifier. Requires canSpawnWeapon to be enabled.
+		#Range: 0.0 ~ 1.0
+		weaponEnchantmentChance = 0.25
+		#The chance that if a mob spawns with Osmium armor that they will be enchanted. This is multiplied modified by the chunk's difficulty modifier.
+		#Range: 0.0 ~ 1.0
+		armorEnchantmentChance = 0.5
+
+	#Spawn chances for pieces of Refined Glowstone gear. Note: These values are after the general mobArmorSpawnRate (or corresponding weapon rate) has been checked, and after an even split between material types has been done.
+	[mobGearSpawnRate.refined_glowstone]
+		#If enabled, zombies can spawn with Refined Glowstone weapons.
+		canSpawnWeapon = true
+		#The chance that mobs will spawn with Refined Glowstone swords rather than Refined Glowstone shovels. Requires canSpawnWeapon to be enabled.
+		#Range: 0.0 ~ 1.0
+		swordWeight = 0.33
+		#The chance that mobs can spawn with Refined Glowstone helmets.
+		#Range: 0.0 ~ 1.0
+		helmetChance = 1.0
+		#The chance that mobs can spawn with Refined Glowstone chestplates.
+		#Range: 0.0 ~ 1.0
+		chestplateChance = 1.0
+		#The chance that mobs can spawn with Refined Glowstone leggings.
+		#Range: 0.0 ~ 1.0
+		leggingsChance = 1.0
+		#The chance that mobs can spawn with Refined Glowstone boots.
+		#Range: 0.0 ~ 1.0
+		bootsChance = 1.0
+		#The chance that after each piece of Refined Glowstone armor a mob spawns with no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
+		#Range: 0.0 ~ 1.0
+		multiplePieceChance = 0.25
+		#The chance on hard mode that after each piece of Refined Glowstone armor a mob spawns with no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
+		#Range: 0.0 ~ 1.0
+		multiplePieceChanceHard = 0.1
+		#The chance that if a mob spawns with Refined Glowstone weapons that it will be enchanted. This is multiplied modified by the chunk's difficulty modifier. Requires canSpawnWeapon to be enabled.
+		#Range: 0.0 ~ 1.0
+		weaponEnchantmentChance = 0.25
+		#The chance that if a mob spawns with Refined Glowstone armor that they will be enchanted. This is multiplied modified by the chunk's difficulty modifier.
+		#Range: 0.0 ~ 1.0
+		armorEnchantmentChance = 0.5
+
+	#Spawn chances for pieces of Refined Obsidian gear. Note: These values are after the general mobArmorSpawnRate (or corresponding weapon rate) has been checked, and after an even split between material types has been done.
+	[mobGearSpawnRate.refined_obsidian]
+		#If enabled, zombies can spawn with Refined Obsidian weapons.
+		canSpawnWeapon = true
+		#The chance that mobs will spawn with Refined Obsidian swords rather than Refined Obsidian shovels. Requires canSpawnWeapon to be enabled.
+		#Range: 0.0 ~ 1.0
+		swordWeight = 0.33
+		#The chance that mobs can spawn with Refined Obsidian helmets.
+		#Range: 0.0 ~ 1.0
+		helmetChance = 1.0
+		#The chance that mobs can spawn with Refined Obsidian chestplates.
+		#Range: 0.0 ~ 1.0
+		chestplateChance = 1.0
+		#The chance that mobs can spawn with Refined Obsidian leggings.
+		#Range: 0.0 ~ 1.0
+		leggingsChance = 1.0
+		#The chance that mobs can spawn with Refined Obsidian boots.
+		#Range: 0.0 ~ 1.0
+		bootsChance = 1.0
+		#The chance that after each piece of Refined Obsidian armor a mob spawns with no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
+		#Range: 0.0 ~ 1.0
+		multiplePieceChance = 0.25
+		#The chance on hard mode that after each piece of Refined Obsidian armor a mob spawns with no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
+		#Range: 0.0 ~ 1.0
+		multiplePieceChanceHard = 0.1
+		#The chance that if a mob spawns with Refined Obsidian weapons that it will be enchanted. This is multiplied modified by the chunk's difficulty modifier. Requires canSpawnWeapon to be enabled.
+		#Range: 0.0 ~ 1.0
+		weaponEnchantmentChance = 0.25
+		#The chance that if a mob spawns with Refined Obsidian armor that they will be enchanted. This is multiplied modified by the chunk's difficulty modifier.
+		#Range: 0.0 ~ 1.0
+		armorEnchantmentChance = 0.5
+
+	#Spawn chances for pieces of Steel gear. Note: These values are after the general mobArmorSpawnRate (or corresponding weapon rate) has been checked, and after an even split between material types has been done.
+	[mobGearSpawnRate.steel]
+		#If enabled, zombies can spawn with Steel weapons.
+		canSpawnWeapon = true
+		#The chance that mobs will spawn with Steel swords rather than Steel shovels. Requires canSpawnWeapon to be enabled.
+		#Range: 0.0 ~ 1.0
+		swordWeight = 0.33
+		#The chance that mobs can spawn with Steel helmets.
+		#Range: 0.0 ~ 1.0
+		helmetChance = 1.0
+		#The chance that mobs can spawn with Steel chestplates.
+		#Range: 0.0 ~ 1.0
+		chestplateChance = 1.0
+		#The chance that mobs can spawn with Steel leggings.
+		#Range: 0.0 ~ 1.0
+		leggingsChance = 1.0
+		#The chance that mobs can spawn with Steel boots.
+		#Range: 0.0 ~ 1.0
+		bootsChance = 1.0
+		#The chance that after each piece of Steel armor a mob spawns with no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
+		#Range: 0.0 ~ 1.0
+		multiplePieceChance = 0.25
+		#The chance on hard mode that after each piece of Steel armor a mob spawns with no more pieces will be added. Order of pieces tried is boots, leggings, chestplate, helmet.
+		#Range: 0.0 ~ 1.0
+		multiplePieceChanceHard = 0.1
+		#The chance that if a mob spawns with Steel weapons that it will be enchanted. This is multiplied modified by the chunk's difficulty modifier. Requires canSpawnWeapon to be enabled.
+		#Range: 0.0 ~ 1.0
+		weaponEnchantmentChance = 0.25
+		#The chance that if a mob spawns with Steel armor that they will be enchanted. This is multiplied modified by the chunk's difficulty modifier.
+		#Range: 0.0 ~ 1.0
+		armorEnchantmentChance = 0.5

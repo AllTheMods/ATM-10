@@ -1,0 +1,47 @@
+#Settings for configuring Mekanism's gear settings. This config is not synced automatically between client and server. It is highly recommended to ensure you are using the same values for this config on the server and client.
+[gear]
+
+	#Settings for configuring Armored Free Runners
+	[gear.armored_free_runner]
+		#Armor value of the Armored Free Runners
+		#Range: > 0
+		armor = 3
+		#Toughness value of the Armored Free Runners.
+		#Range: 0.0 ~ 3.4028234663852886E38
+		toughness = 2.0
+		#Knockback resistance value of the Armored Free Runners.
+		#Range: 0.0 ~ 3.4028234663852886E38
+		knockbackResistance = 0.0
+
+	#Settings for configuring Armored Jetpacks
+	[gear.armored_jetpack]
+		#Armor value of the Armored Jetpacks
+		#Range: > 0
+		armor = 8
+		#Toughness value of the Armored Jetpacks.
+		#Range: 0.0 ~ 3.4028234663852886E38
+		toughness = 2.0
+		#Knockback resistance value of the Armored Jetpacks.
+		#Range: 0.0 ~ 3.4028234663852886E38
+		knockbackResistance = 0.0
+
+	#Settings for configuring the MekaSuit
+	[gear.mekasuit]
+		#Armor value of MekaSuit Helmets.
+		#Range: > 0
+		helmetArmor = 3
+		#Armor value of MekaSuit BodyArmor.
+		#Range: > 0
+		bodyArmorArmor = 8
+		#Armor value of MekaSuit Pants.
+		#Range: > 0
+		pantsArmor = 6
+		#Armor value of MekaSuit Boots.
+		#Range: > 0
+		bootsArmor = 3
+		#Toughness value of the MekaSuit.
+		#Range: 0.0 ~ 3.4028234663852886E38
+		toughness = 3
+		#Knockback resistance value of the MekaSuit.
+		#Range: 0.0 ~ 3.4028234663852886E38
+		knockbackResistance = 0.1
