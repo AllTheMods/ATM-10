@@ -141,6 +141,24 @@ ServerEvents.recipes(allthemods => {
     )
 
     allthemods.replaceInput(
+        {id: 'advanced_ae:quantumaccel'},
+        'ae2:quantum_entangled_singularity',
+        'kubejs:shattered_singularity'
+    )
+
+    allthemods.replaceInput(
+        {id: 'advanced_ae:quantumstorage256'},
+        'ae2:quantum_entangled_singularity',
+        'kubejs:shattered_singularity'
+    )
+
+    allthemods.replaceInput(
+        {id: 'advanced_ae:quantumstorage128'},
+        'ae2:quantum_entangled_singularity',
+        'kubejs:shattered_singularity'
+    )
+
+    allthemods.replaceInput(
         {id: 'advanced_ae:quantumstorage128'},
         'ae2:cell_component_256k',
         'megacells:bulk_cell_component'
