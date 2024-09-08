@@ -94,7 +94,7 @@ ServerEvents.recipes(allthemods => {
         { item: 'megacells:sky_osmium_ingot', count: 8 },
         [
             { item: 'ae2:charged_certus_quartz_crystal', count: 4 },
-            { item: '#c:ingots/osmium', count: 4 },
+            { item: 'alltheores:osmium_ingot', count: 4 },
             { item: 'ae2:sky_stone_block', count: 4 }
         ],
         'sky_osmium_ingot',
@@ -135,7 +135,7 @@ ServerEvents.recipes(allthemods => {
     );
     
     allthemods.replaceInput(
-        {input: 'ae2:quantum_entangled_singularity'},
+        {id: 'advanced_ae:quantumcore'},
         'ae2:quantum_entangled_singularity',
         'kubejs:shattered_singularity'
     )
