@@ -99,11 +99,12 @@ ServerEvents.recipes(allthemods => {
             return
         }
         
-        mekSawing(output.withCount(6), firstIngredient, {chance: 0.25, item: "mekanism:sawdust"}, recipe.getId().split(":")[1])
-        prodSawing(firstIngredient, output.withCount(6), Item.of("2x productivetrees:sawdust"), recipe.getId().split(":")[1])
+        mekSawing(output.withCount(6), firstIngredient, {chance: 0.25, item: "mekanism:sawdust"}, recipe.getId().split(":")[0] + "/" + recipe.getId().split(":")[1])
+        prodSawing(firstIngredient, output.withCount(6), Item.of("2x productivetrees:sawdust"), recipe.getId().split(":")[0] + "/" + recipe.getId().split(":")[1])
     })
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
 
