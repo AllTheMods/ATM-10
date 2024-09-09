@@ -7,14 +7,32 @@
 		id: "ars_nouveau:source_gem"
 	}
 	id: "6AEDA2F9BEB57759"
-	images: [{
-		height: 0.3d
-		image: "allthetweaks:item/atm_star"
-		rotation: 0.0d
-		width: 0.3d
-		x: 7.5d
-		y: 7.7d
-	}]
+	images: [
+		{
+			height: 0.3d
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 7.0d
+			y: 7.699999999999999d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/starbuncle_shards"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/ars/ars_nouveau_title.png"
+			rotation: 0.0d
+			width: 10.7d
+			x: 10.0d
+			y: -6.5d
+		}
+	]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -68,8 +86,8 @@
 				item: { count: 1, id: "ars_nouveau:starbuncle_charm" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: -3.5d
+			x: 10.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1D86B2E553503E53"]
@@ -94,7 +112,7 @@
 				item: { count: 1, id: "ars_nouveau:wixie_charm" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.5d
 			y: -3.5d
 		}
 		{
@@ -1038,7 +1056,7 @@
 				item: { count: 1, id: "ars_nouveau:magebloom_fiber" }
 				type: "item"
 			}]
-			x: 15.5d
+			x: 15.0d
 			y: 0.0d
 		}
 		{
@@ -1071,7 +1089,7 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
+			x: 10.0d
 			y: 0.0d
 		}
 		{
@@ -1091,7 +1109,7 @@
 				item: { count: 1, id: "ars_nouveau:arcane_pedestal" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 7.0d
 			y: 0.0d
 		}
 		{
@@ -1201,7 +1219,7 @@
 				item: { count: 1, id: "ars_nouveau:ritual_sunrise" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: 5.5d
 		}
 		{
@@ -1226,7 +1244,7 @@
 				item: { count: 1, id: "ars_nouveau:ritual_warping" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 8.0d
 			y: 5.0d
 		}
 		{
@@ -1251,7 +1269,7 @@
 				item: { count: 1, id: "ars_nouveau:ritual_overgrowth" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 7.0d
 			y: 5.0d
 		}
 		{
@@ -1276,7 +1294,7 @@
 				item: { count: 1, id: "ars_nouveau:ritual_moonfall" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: 5.5d
 		}
 		{
@@ -1301,7 +1319,7 @@
 				item: { count: 1, id: "ars_nouveau:ritual_fertility" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 5.0d
 		}
 		{
@@ -1326,7 +1344,7 @@
 				item: { count: 1, id: "ars_nouveau:ritual_burrowing" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 7.0d
 			y: 6.0d
 		}
 		{
@@ -1351,7 +1369,7 @@
 				item: { count: 1, id: "ars_nouveau:ritual_challenge" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: 6.5d
 		}
 		{
@@ -1376,7 +1394,7 @@
 				item: { count: 1, id: "ars_nouveau:ritual_cloudshaping" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.5d
 			y: 4.5d
 		}
 		{
@@ -1401,7 +1419,7 @@
 				item: { count: 1, id: "ars_nouveau:ritual_disintegration" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: 4.5d
 		}
 		{
@@ -1426,7 +1444,7 @@
 				item: { count: 1, id: "ars_nouveau:ritual_restoration" }
 				type: "item"
 			}]
-			x: 8.0d
+			x: 7.5d
 			y: 6.5d
 		}
 		{
@@ -1479,7 +1497,7 @@
 				type: "item"
 			}]
 			x: 10.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6E0E13806F388D7E"]
@@ -1578,7 +1596,7 @@
 				item: { count: 1, id: "ars_nouveau:ritual_brazier" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 7.0d
 			y: 3.5d
 		}
 		{
@@ -1653,7 +1671,7 @@
 				}
 			]
 			tasks: [{
-				id: "2BC0F5A88E2F03C3"
+				id: "64EAFF46215C1C16"
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:logs/archwood)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
@@ -1717,7 +1735,7 @@
 				item: { count: 1, id: "ars_nouveau:drygmy_charm" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 11.0d
 			y: -3.0d
 		}
 		{
@@ -1743,7 +1761,7 @@
 				item: { count: 1, id: "ars_nouveau:amethyst_golem_charm" }
 				type: "item"
 			}]
-			x: 9.5d
+			x: 9.0d
 			y: -3.0d
 		}
 		{
@@ -1772,7 +1790,7 @@
 				item: { count: 1, id: "ars_nouveau:magebloom_crop" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 12.5d
 			y: 0.0d
 		}
 		{
@@ -1872,7 +1890,7 @@
 				item: { count: 1, id: "ars_nouveau:runic_chalk" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 12.5d
 			y: 2.0d
 		}
 		{
@@ -1897,7 +1915,7 @@
 				item: { count: 1, id: "ars_nouveau:ritual_awakening" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 6.0d
 		}
 		{
@@ -1922,7 +1940,7 @@
 				item: { count: 1, id: "ars_nouveau:ritual_flight" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 8.0d
 			y: 6.0d
 		}
 		{
@@ -1947,7 +1965,7 @@
 				item: { count: 1, id: "ars_nouveau:ritual_wilden_summon" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 7.0d
 			y: 7.0d
 		}
 		{
@@ -1972,7 +1990,7 @@
 				item: { count: 1, id: "ars_nouveau:ritual_scrying" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 5.5d
 			y: 5.5d
 		}
 		{
@@ -1997,7 +2015,7 @@
 				item: { count: 1, id: "ars_nouveau:ritual_binding" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 8.5d
 			y: 5.5d
 		}
 		{
@@ -2391,7 +2409,7 @@
 				item: { count: 1, id: "ars_nouveau:sourcestone" }
 				type: "item"
 			}]
-			x: 5.199999999999999d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -2418,7 +2436,7 @@
 				item: { count: 1, id: "ars_nouveau:spell_parchment" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 12.5d
 			y: 1.0d
 		}
 		{
@@ -2443,7 +2461,7 @@
 				item: { count: 1, id: "ars_nouveau:dominion_wand" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 10.0d
 			y: -1.5d
 		}
 		{
@@ -2468,7 +2486,7 @@
 				item: { count: 1, id: "ars_nouveau:enchanters_sword" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 10.0d
 			y: 2.5d
 		}
 		{
@@ -2493,7 +2511,7 @@
 				item: { count: 1, id: "ars_nouveau:enchanters_shield" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.5d
 			y: 3.0d
 		}
 		{
@@ -2518,7 +2536,7 @@
 				item: { count: 1, id: "ars_nouveau:enchanters_mirror" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 10.0d
 			y: 3.5d
 		}
 		{
@@ -2543,7 +2561,7 @@
 				item: { count: 1, id: "ars_nouveau:spell_bow" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 9.5d
 			y: 3.0d
 		}
 		{
@@ -2575,7 +2593,7 @@
 					type: "item"
 				}
 			]
-			x: 10.5d
+			x: 10.0d
 			y: 5.0d
 		}
 		{
@@ -2607,7 +2625,7 @@
 					type: "item"
 				}
 			]
-			x: 9.5d
+			x: 9.0d
 			y: 4.0d
 		}
 		{
@@ -2632,7 +2650,7 @@
 				item: { count: 1, id: "ars_nouveau:belt_of_unstable_gifts" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 11.0d
 			y: 4.0d
 		}
 		{
@@ -2657,7 +2675,7 @@
 				item: { count: 1, id: "ars_nouveau:belt_of_levitation" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 10.5d
 			y: 4.5d
 		}
 		{
@@ -2689,7 +2707,7 @@
 					type: "item"
 				}
 			]
-			x: 10.0d
+			x: 9.5d
 			y: 4.5d
 		}
 		{
@@ -2714,7 +2732,7 @@
 				item: { count: 1, id: "ars_nouveau:wand" }
 				type: "item"
 			}]
-			x: 10.5d
+			x: 10.0d
 			y: 1.5d
 		}
 		{

@@ -12,13 +12,15 @@
 	quests: [
 		{
 			hide_dependent_lines: true
+			icon_scale: 1.2d
 			id: "7F0B2D58361FB00E"
 			rewards: [{
 				id: "050B7005B374DD48"
 				type: "xp"
 				xp: 10
 			}]
-			shape: "square"
+			shape: "rsquare"
+			size: 1.5d
 			tasks: [{
 				id: "3AC95E8DC4229D17"
 				type: "checkmark"
@@ -419,6 +421,7 @@
 				"517F0135926B15EE"
 				"5BD5737703F3F077"
 			]
+			hide_dependent_lines: true
 			id: "7D1D2A4E07E98709"
 			rewards: [{
 				id: "11A10931852CAF6C"
@@ -439,6 +442,7 @@
 				"517F0135926B15EE"
 				"5BD5737703F3F077"
 			]
+			hide_dependent_lines: true
 			id: "70C404E5685E4E91"
 			rewards: [{
 				id: "0F686B56A57703A1"
@@ -459,6 +463,7 @@
 				"517F0135926B15EE"
 				"5BD5737703F3F077"
 			]
+			hide_dependent_lines: true
 			id: "6737CB17D562B134"
 			rewards: [{
 				id: "0F29BE98C2E06E57"
@@ -479,6 +484,7 @@
 				"517F0135926B15EE"
 				"5BD5737703F3F077"
 			]
+			hide_dependent_lines: true
 			id: "19E678E6EF9539DC"
 			rewards: [{
 				id: "69BE2DF742B4AFB6"
@@ -499,6 +505,7 @@
 				"517F0135926B15EE"
 				"5BD5737703F3F077"
 			]
+			hide_dependent_lines: true
 			id: "1ECFA72CF2BA4B45"
 			rewards: [{
 				id: "096766B3B1BFD3A4"
@@ -519,6 +526,7 @@
 				"517F0135926B15EE"
 				"5BD5737703F3F077"
 			]
+			hide_dependent_lines: true
 			id: "433117EEA55B6A54"
 			rewards: [{
 				id: "6D2375C81ED29B21"
@@ -539,6 +547,7 @@
 				"517F0135926B15EE"
 				"5BD5737703F3F077"
 			]
+			hide_dependent_lines: true
 			id: "1B173E7533E1171F"
 			rewards: [{
 				id: "22BED6B5683C86B1"
@@ -689,6 +698,7 @@
 			dependencies: [
 				"5F5120451BA5B2FE"
 				"60A4994078500F63"
+				"7D1D2A4E07E98709"
 			]
 			id: "16772C399861783D"
 			rewards: [{
@@ -709,6 +719,7 @@
 			dependencies: [
 				"5F5120451BA5B2FE"
 				"60A4994078500F63"
+				"70C404E5685E4E91"
 			]
 			id: "5D182815CB167405"
 			rewards: [{
@@ -729,6 +740,7 @@
 			dependencies: [
 				"5F5120451BA5B2FE"
 				"60A4994078500F63"
+				"6737CB17D562B134"
 			]
 			id: "0D32774710EC9900"
 			rewards: [{
@@ -749,6 +761,7 @@
 			dependencies: [
 				"5F5120451BA5B2FE"
 				"60A4994078500F63"
+				"19E678E6EF9539DC"
 			]
 			hide_details_until_startable: false
 			id: "55E882E7FA36AFC6"
@@ -770,6 +783,7 @@
 			dependencies: [
 				"5F5120451BA5B2FE"
 				"60A4994078500F63"
+				"1ECFA72CF2BA4B45"
 			]
 			id: "15AD6698663D4A42"
 			rewards: [{
@@ -790,6 +804,7 @@
 			dependencies: [
 				"5F5120451BA5B2FE"
 				"60A4994078500F63"
+				"433117EEA55B6A54"
 			]
 			id: "6D60602560F35F87"
 			rewards: [{
@@ -810,6 +825,7 @@
 			dependencies: [
 				"5F5120451BA5B2FE"
 				"60A4994078500F63"
+				"1B173E7533E1171F"
 			]
 			id: "4D45C0CFF11191ED"
 			rewards: [{
@@ -2868,8 +2884,8 @@
 				item: { count: 1, id: "justdirethings:template_ferricore" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 10.0d
+			x: 6.5d
+			y: 10.5d
 		}
 		{
 			dependencies: [
@@ -2958,8 +2974,8 @@
 				item: { count: 1, id: "justdirethings:template_eclipsealloy" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 10.5d
+			x: 6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["4E9B35DCA018FD42"]
@@ -3002,8 +3018,8 @@
 					type: "checkmark"
 				}
 			]
-			x: -1.0d
-			y: -1.0d
+			x: 0.0d
+			y: -4.0d
 		}
 	]
 }

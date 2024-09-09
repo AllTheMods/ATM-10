@@ -23,7 +23,7 @@
 			rotation: 0.0d
 			width: 2.0597014925373136d
 			x: -2.5d
-			y: 11.0d
+			y: 11.25d
 		}
 		{
 			height: 2.0d
@@ -32,7 +32,7 @@
 			rotation: 0.0d
 			width: 1.8285714285714285d
 			x: 0.0d
-			y: 11.0d
+			y: 11.25d
 		}
 		{
 			height: 3.0d
@@ -41,7 +41,7 @@
 			rotation: 0.0d
 			width: 3.329113924050633d
 			x: 3.0d
-			y: 11.0d
+			y: 11.25d
 		}
 		{
 			height: 2.0d
@@ -50,16 +50,15 @@
 			rotation: 0.0d
 			width: 9.919642857142858d
 			x: 5.0d
-			y: 7.0d
+			y: 7.25d
 		}
 		{
 			height: 2.0d
-			hover: ["Pyromantic Brazier"]
 			image: "atm:textures/questpics/theurgy/theurgy_brazier.png"
 			rotation: 0.0d
 			width: 2.128099173553719d
-			x: 6.0d
-			y: 3.5d
+			x: 6.5d
+			y: 4.5d
 		}
 		{
 			height: 2.0d
@@ -68,7 +67,7 @@
 			rotation: 0.0d
 			width: 1.9858156028368794d
 			x: -2.0d
-			y: 7.5d
+			y: 7.75d
 		}
 		{
 			height: 2.5d
@@ -77,16 +76,15 @@
 			rotation: 0.0d
 			width: 2.186813186813187d
 			x: -5.0d
-			y: 7.5d
+			y: 7.75d
 		}
 		{
 			height: 2.0d
-			hover: ["Calcination Oven"]
 			image: "atm:textures/questpics/theurgy/theurgy_oven.png"
 			rotation: 0.0d
 			width: 1.5678391959798994d
-			x: 6.0d
-			y: -0.5d
+			x: 6.5d
+			y: 0.5d
 		}
 		{
 			height: 2.0d
@@ -96,6 +94,22 @@
 			width: 1.91644908616188d
 			x: -3.0d
 			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "theurgy:item/the_hermetica"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			height: 2.0d
+			image: "occultism:item/divination_rod/divination_rod_animation"
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.5d
+			y: -5.0d
 		}
 	]
 	order_index: 4
@@ -122,7 +136,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 1.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["02593CD4B4AE814C"]
@@ -144,7 +158,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 2.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["02593CD4B4AE814C"]
@@ -166,7 +180,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["02593CD4B4AE814C"]
@@ -189,7 +203,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 0.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["02593CD4B4AE814C"]
@@ -211,7 +225,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -0.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
@@ -248,7 +262,7 @@
 				}
 			]
 			x: 0.0d
-			y: 8.0d
+			y: 8.25d
 		}
 		{
 			id: "45996B848792379E"
@@ -264,7 +278,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 9.0d
+			y: 9.25d
 		}
 		{
 			id: "76F675A898EAB4E8"
@@ -279,7 +293,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 9.0d
+			y: 9.25d
 		}
 		{
 			dependencies: ["285B3FB38B12F8CA"]
@@ -300,7 +314,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 7.0d
+			y: 7.25d
 		}
 		{
 			icon: {
@@ -318,8 +332,8 @@
 				id: "3489080F5FDE8B1B"
 				type: "checkmark"
 			}]
-			x: 6.0d
-			y: 1.0d
+			x: 6.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["19A2016B54C6FA34"]
@@ -339,8 +353,8 @@
 				item: { count: 1, id: "theurgy:pyromantic_brazier" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 2.0d
+			x: 7.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["19A2016B54C6FA34"]
@@ -360,8 +374,8 @@
 				item: { count: 1, id: "theurgy:caloric_flux_emitter" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 2.0d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0542FE108089A0A2"]
@@ -544,7 +558,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 4.15d
 		}
 		{
 			dependencies: ["61DA3D61D7103647"]
@@ -561,7 +575,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: 5.25d
+			y: 5.5d
 		}
 		{
 			dependencies: ["161E7D934A21F849"]
@@ -578,7 +592,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: 5.75d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1A46A97A00A31C03"]
@@ -595,7 +609,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 5.25d
+			y: 5.5d
 		}
 		{
 			dependencies: ["72FADEAEE2DA03AF"]
@@ -622,7 +636,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 5.75d
+			y: 6.0d
 		}
 		{
 			dependencies: ["0460DDEEFDEB0AAF"]
@@ -757,7 +771,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 5.5d
+			y: 5.75d
 		}
 		{
 			dependencies: ["730F2D3329C4FF88"]
@@ -779,7 +793,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 5.5d
+			y: 5.75d
 		}
 		{
 			dependencies: ["5844DD2BEE5EC3DC"]
@@ -961,7 +975,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 5.5d
+			y: 5.75d
 		}
 		{
 			dependencies: ["0460DDEEFDEB0AAF"]
@@ -1103,7 +1117,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.5d
+			y: 5.75d
 		}
 		{
 			id: "41ABC09C798CA8BE"

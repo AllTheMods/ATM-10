@@ -7,6 +7,14 @@
 		id: "minecraft:spawner"
 	}
 	id: "0E81CBCD6B1D1895"
+	images: [{
+		height: 2.5d
+		image: "atm:textures/questpics/apothic_spawners.png"
+		rotation: 0.0d
+		width: 2.5d
+		x: -2.5d
+		y: 0.0d
+	}]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -16,6 +24,11 @@
 				id: "minecraft:spawner"
 			}
 			id: "310969B8FE0A94DE"
+			rewards: [{
+				id: "64F84BBEF7B2ECC2"
+				type: "xp"
+				xp: 100
+			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
@@ -29,6 +42,21 @@
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "0F89BFD4A3F63A48"
+			rewards: [
+				{
+					id: "5B8A4E8B40EADCB6"
+					item: {
+						count: 1
+						id: "minecraft:soul_lantern"
+					}
+					type: "item"
+				}
+				{
+					id: "36D0E8F4CDAC009E"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "5F16431DBEAF97B0"
 				item: { count: 1, id: "minecraft:soul_lantern" }
@@ -40,6 +68,21 @@
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "6A497B063CF32A5C"
+			rewards: [
+				{
+					id: "0FF43AD93EDFABEA"
+					item: {
+						count: 1
+						id: "minecraft:fermented_spider_eye"
+					}
+					type: "item"
+				}
+				{
+					id: "0602ECA1C10AC9C7"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "426CC475B062FC85"
 				item: { count: 1, id: "minecraft:fermented_spider_eye" }
@@ -51,6 +94,21 @@
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "4D07B0A4A2E77CDA"
+			rewards: [
+				{
+					id: "45EBD6F2943AC9B4"
+					item: {
+						count: 1
+						id: "minecraft:ghast_tear"
+					}
+					type: "item"
+				}
+				{
+					id: "2E6B463DAF954BC4"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "4DA7AE7F61B1FC05"
 				item: { count: 1, id: "minecraft:ghast_tear" }
@@ -62,6 +120,21 @@
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "42D7C8CD8E6F5CD7"
+			rewards: [
+				{
+					id: "3CB6BA037577C822"
+					item: {
+						count: 1
+						id: "minecraft:chorus_fruit"
+					}
+					type: "item"
+				}
+				{
+					id: "0FDF0FF4BA63C8FF"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "7CA847C78EB1B215"
 				item: { count: 1, id: "minecraft:chorus_fruit" }
@@ -73,6 +146,21 @@
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "6F71FD826C29C31A"
+			rewards: [
+				{
+					id: "01E36ED31CA6B8EE"
+					item: {
+						count: 1
+						id: "minecraft:turtle_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "35B49E4F7CA8565A"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "65FF566B862C7211"
 				item: { count: 1, id: "minecraft:turtle_egg" }
@@ -84,6 +172,21 @@
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "186593EBCE3FE8D8"
+			rewards: [
+				{
+					id: "1FD19441BCD74504"
+					item: {
+						count: 1
+						id: "minecraft:piston"
+					}
+					type: "item"
+				}
+				{
+					id: "361A2317D2C47EBD"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "5E1D4330184C7E38"
 				item: { count: 1, id: "minecraft:piston" }
@@ -95,6 +198,21 @@
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "0E02CE4469FCA4C9"
+			rewards: [
+				{
+					id: "06A77728BF0C6E40"
+					item: {
+						count: 1
+						id: "minecraft:comparator"
+					}
+					type: "item"
+				}
+				{
+					id: "695281CF2B172CAC"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "39E60F2CA2EFAB9E"
 				item: { count: 1, id: "minecraft:comparator" }
@@ -106,6 +224,21 @@
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "3E2A411FF5B4B0E7"
+			rewards: [
+				{
+					id: "79E468416248C1AD"
+					item: {
+						count: 1
+						id: "minecraft:prismarine_crystals"
+					}
+					type: "item"
+				}
+				{
+					id: "6078FC9BEC32A383"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "75FE61AB74C39108"
 				item: { count: 1, id: "minecraft:prismarine_crystals" }
@@ -117,6 +250,21 @@
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "7A9AE63998BB41FF"
+			rewards: [
+				{
+					id: "22CA1D72E550D3A6"
+					item: {
+						count: 1
+						id: "minecraft:sugar"
+					}
+					type: "item"
+				}
+				{
+					id: "0DBECEA6ACE11930"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "5E1EDF7E617E5853"
 				item: { count: 1, id: "minecraft:sugar" }
@@ -128,6 +276,21 @@
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "0D6D45DBA64E612D"
+			rewards: [
+				{
+					id: "54A76E6A92F37284"
+					item: {
+						count: 1
+						id: "minecraft:clock"
+					}
+					type: "item"
+				}
+				{
+					id: "187385D3B495E918"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "1FA39F402B7D0B8B"
 				item: { count: 1, id: "minecraft:clock" }
@@ -139,6 +302,21 @@
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "30EB438C66324213"
+			rewards: [
+				{
+					id: "001030AEC46CC834"
+					item: {
+						count: 1
+						id: "mysticalagradditions:nether_star_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "399E4A2D62EE2C5D"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "211FBEB0E4FF1FD6"
 				item: { count: 1, id: "minecraft:nether_star" }
@@ -150,6 +328,21 @@
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "40096ED0B04C3EC5"
+			rewards: [
+				{
+					id: "0714EB4CF7324EA3"
+					item: {
+						count: 1
+						id: "minecraft:conduit"
+					}
+					type: "item"
+				}
+				{
+					id: "302DACB93EBC2D13"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "74B1D74F1C52D05C"
 				item: { count: 1, id: "minecraft:conduit" }
@@ -161,6 +354,21 @@
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "167E1474644C9908"
+			rewards: [
+				{
+					id: "21CC754523A526FD"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "1C1B7973E22384B1"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "20D72B07EE11DDCB"
 				item: { count: 1, id: "minecraft:quartz" }
@@ -171,7 +379,25 @@
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
+			icon: {
+				id: "minecraft:white_wool"
+			}
 			id: "1AD87CB3226ED224"
+			rewards: [
+				{
+					id: "004CDB85928474DB"
+					item: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					type: "item"
+				}
+				{
+					id: "5EB5C62BA68B0379"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "39702880D9133E3E"
 				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:wool)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
@@ -183,6 +409,21 @@
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "18E0F5A78F696FA3"
+			rewards: [
+				{
+					id: "12978D8AFDED9DD8"
+					item: {
+						count: 1
+						id: "minecraft:echo_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "7C09A8EFF7A360C7"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "457F2333F0FC4029"
 				item: { count: 1, id: "minecraft:echo_shard" }
@@ -195,6 +436,21 @@
 			dependencies: ["310969B8FE0A94DE"]
 			dependency_requirement: "one_completed"
 			id: "7F6B66566C211735"
+			rewards: [
+				{
+					id: "1664A5470BBC50D3"
+					item: {
+						count: 1
+						id: "minecraft:pointed_dripstone"
+					}
+					type: "item"
+				}
+				{
+					id: "3F03C666D4F25305"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "703ACE135A88F2DB"
 				item: { count: 1, id: "minecraft:pointed_dripstone" }
@@ -206,6 +462,21 @@
 		{
 			dependencies: ["310969B8FE0A94DE"]
 			id: "4F7F8F4ED1CA0550"
+			rewards: [
+				{
+					id: "3643C6E3545209F3"
+					item: {
+						count: 1
+						id: "minecraft:campfire"
+					}
+					type: "item"
+				}
+				{
+					id: "3E0E5C45C856E53A"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [{
 				id: "227F63C049BD3C6E"
 				item: { count: 1, id: "minecraft:campfire" }
@@ -228,7 +499,7 @@
 					type: "checkmark"
 				}
 			]
-			x: -2.0d
+			x: -4.0d
 			y: 0.0d
 		}
 	]

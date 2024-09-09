@@ -7,12 +7,30 @@
 		id: "mekanism:steel_casing"
 	}
 	id: "23983F4DC524B14B"
+	images: [
+		{
+			height: 1.0d
+			image: "mekanismtools:item/osmium/paxel"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -3.25d
+		}
+		{
+			height: 1.0d
+			image: "mekanismtools:item/steel/paxel"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 0.5d
+		}
+	]
 	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["0650996C7818ADB5"]
+			dependencies: ["6F62B5510FA881CD"]
 			id: "162CE44400A63575"
 			rewards: [
 				{
@@ -1573,11 +1591,14 @@
 				item: { count: 1, id: "mekanism:rotary_condensentrator" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 8.0d
 			y: -3.5d
 		}
 		{
 			dependencies: ["4F436770D30D8520"]
+			icon: {
+				id: "mekanism:chemical_oxidizer"
+			}
 			id: "2E274BEEF2B0B8C7"
 			rewards: [
 				{
@@ -1603,7 +1624,7 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
+			x: 8.0d
 			y: -0.5d
 		}
 		{
@@ -1622,7 +1643,7 @@
 				{
 					id: "12B2CD9579419F81"
 					type: "xp"
-					xp: 10
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -1723,7 +1744,7 @@
 				item: { count: 1, id: "mekanism:upgrade_speed" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: 9.5d
 		}
 		{
@@ -1748,8 +1769,8 @@
 				item: { count: 1, id: "mekanism:upgrade_energy" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 10.0d
+			x: 1.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["166971866A9234C7"]
@@ -1773,8 +1794,8 @@
 				item: { count: 1, id: "mekanism:upgrade_filter" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 9.5d
+			x: 0.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["166971866A9234C7"]
@@ -1798,8 +1819,8 @@
 				item: { count: 1, id: "mekanism:upgrade_muffling" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 10.0d
+			x: 0.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["166971866A9234C7"]
@@ -1823,8 +1844,8 @@
 				item: { count: 1, id: "mekanism:upgrade_chemical" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 10.5d
+			x: 1.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["166971866A9234C7"]
@@ -1848,8 +1869,8 @@
 				item: { count: 1, id: "mekanism:upgrade_stone_generator" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: 9.5d
+			x: 0.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["1FC7E9DBF92BE6AA"]
@@ -2505,7 +2526,7 @@
 			]
 			tasks: [{
 				id: "4B60ACBCC3B46D1D"
-				item: { count: 1, id: "mekanism:enriched_carbon" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(mekanism:enriched)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -4.0d
@@ -2618,8 +2639,8 @@
 					type: "checkmark"
 				}
 			]
-			x: -13.0d
-			y: -3.5d
+			x: -14.5d
+			y: -2.0d
 		}
 	]
 }
