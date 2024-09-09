@@ -20,7 +20,7 @@ allthemods.shaped('kubejs:magical_soil', ['ABC', 'DEF', 'GHI'], {
 
 // Cinnamon Logs
 allthemods.shaped('12x croptopia:cinnamon_log', [' A ', ' B ', ' A '], {
-    A: 'mysticalagriculture:nether_essence',
+    A: 'mysticalagriculture:wood_essence',
     B: 'croptopia:cinnamon'
 }).id('allthemods:essence/croptopia/cinnamon_log')
 
@@ -53,6 +53,99 @@ allthemods.shaped('8x minecraft:verdant_froglight', ['NGD', 'GND', 'NGD'],{
     D: 'mysticalagriculture:dye_essence',
     G: 'mysticalagriculture:glowstone_essence'
 }).id('allthemods:essence/minecraft/verdant_froglight')
+
+// Regions Unexplored Logs
+allthemods.shaped('8x regions_unexplored:alpha_log', ['AAA', '   ', '   '], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/alpha_log')
+
+allthemods.shaped('8x regions_unexplored:ashen_log', ['   ', 'AAA', '   '], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/ashen_log')
+
+allthemods.shaped('8x regions_unexplored:bamboo_log', ['   ', '   ', 'AAA'], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/bamboo_log')
+
+allthemods.shaped('8x regions_unexplored:silver_birch_log', ['A  ', 'A  ', 'A  '], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/silver_birch_log')
+
+allthemods.shaped('8x regions_unexplored:small_oak_log', [' A ', ' A ', ' A '], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/small_oak_log')
+
+allthemods.shaped('8x regions_unexplored:baobab_log', ['  A', '  A', '  A'], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/baobab_log')
+
+allthemods.shaped('8x regions_unexplored:blackwood_log', ['A  ', ' A ', '  A'], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/blackwood_log')
+
+allthemods.shaped('8x regions_unexplored:brimwood_log', ['  A', ' A ', 'A  '], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/brimwood_log')
+
+allthemods.shaped('8x regions_unexplored:cobalt_log', ['AA ', '  A', '   '], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/cobalt_log')
+
+allthemods.shaped('8x regions_unexplored:cypress_log', ['A A', ' A ', '   '], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/cypress_log')
+
+allthemods.shaped('8x regions_unexplored:dead_log', ['  A', 'AA ', '   '], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/dead_log')
+
+allthemods.shaped('8x regions_unexplored:eucalyptus_log', [' AA', 'A  ', '   '], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/eucalyptus_log')
+
+allthemods.shaped('8x regions_unexplored:joshua_log', ['   ', 'AA ', '  A'], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/joshua_log')
+
+allthemods.shaped('8x regions_unexplored:kapok_log', ['   ', 'A  ', 'AA '], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/kapok_log')
+
+allthemods.shaped('8x regions_unexplored:larch_log', ['   ', 'A A', ' A '], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/larch_log')
+
+allthemods.shaped('8x regions_unexplored:magnolia_log', ['   ', '  A', 'AA '], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/magnolia_log')
+
+allthemods.shaped('8x regions_unexplored:maple_log', ['   ', ' AA', 'A  '], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/maple_log')
+
+allthemods.shaped('8x regions_unexplored:mauve_log', ['AA ', 'A  ', '   '], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/mauve_log')
+
+allthemods.shaped('8x regions_unexplored:palm_log', [' AA', '  A', '   '], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/palm_log')
+
+allthemods.shaped('8x regions_unexplored:pine_log', ['   ', 'A  ', 'AA '], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/pine_log')
+
+allthemods.shaped('8x regions_unexplored:redwood_log', ['   ', '  A', ' AA'], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/redwood_log')
+
+allthemods.shaped('8x regions_unexplored:socotra_log', ['A  ', 'A  ', ' A '], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/socotra_log')
+
+allthemods.shaped('8x regions_unexplored:willow_log', ['A  ', ' A ', ' A '], {
+    A: 'mysticalagriculture:unexplored_wood_essence'
+}).id('allthemods:essence/minecraft/regions_unexplored/willow_log')
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
