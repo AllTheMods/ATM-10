@@ -124,52 +124,6 @@ ServerEvents.recipes(allthemods => {
 
     allthemods.shapeless(` 4x ae2:fluix_covered_cable`,[`ae2:fluix_covered_dense_cable`]).id(`allthemods:ae2/dense_to_normal`)
     allthemods.shapeless(` 4x ae2:fluix_smart_cable`,[`ae2:fluix_smart_dense_cable`]).id(`allthemods:ae2/smart_dense_to_smart_normal`)
-
-    createCrystalAssemblerRecipe(
-        { item: 'kubejs:shattered_singularity', count: 2},
-        [
-            {item: 'ae2:ender_dust'},
-            {item: 'ae2:singularity'}
-        ],
-        'shattered_singularity'
-    );
-    
-    allthemods.replaceInput(
-        {id: 'advanced_ae:quantumcore'},
-        'ae2:quantum_entangled_singularity',
-        'kubejs:shattered_singularity'
-    )
-
-    allthemods.replaceInput(
-        {id: 'advanced_ae:quantumstorage128'},
-        'ae2:cell_component_256k',
-        'megacells:bulk_cell_component'
-    )
-
-    allthemods.remove({id: 'advanced_ae:quantumdataentangler'})
-    createCrystalAssemblerRecipe(
-        { item: 'advanced_ae:data_entangler'},
-        [
-            {item: 'advanced_ae:quantum_unit'},
-            {item: 'advanced_ae:quantum_core'},
-            {item: 'kubejs:shattered_singularity', count: 8 },
-            {item: 'advanced_ae:quantum_storage_256', count: 4 }
-        ],
-        'data_entangler'
-    );
-    
-    allthemods.remove({id: 'advanced_ae:quantummultithreader'})
-    createCrystalAssemblerRecipe(
-        { item: 'advanced_ae:quantum_multi_threader'},
-        [
-            {item: 'advanced_ae:quantum_unit'},
-            {item: 'advanced_ae:quantum_core'},
-            {item: 'kubejs:shattered_singularity', count: 8 },
-            {item: 'advanced_ae:quantum_accelerator', count: 4 },
-            {item: 'extendedae:concurrent_processor', count: 8}
-        ],
-        'quantum_multi_threader'
-    );
   
 })
 
