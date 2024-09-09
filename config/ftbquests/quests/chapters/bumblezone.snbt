@@ -1,0 +1,2829 @@
+{
+	autofocus_id: "396CEB9D05700927"
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "bumblezone"
+	group: "5A4775CCD6D26C80"
+	icon: {
+		id: "minecraft:bee_nest"
+	}
+	id: "48410B67C276ED1F"
+	images: [
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/bumblezone/bumble_title.png"
+			rotation: 0.0d
+			width: 11.936170212765957d
+			x: -0.5d
+			y: -10.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/bumblezone/bumble_title_structures.png"
+			rotation: 0.0d
+			width: 5.1d
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/bumblezone/bumble_title_mobs.png"
+			rotation: 0.0d
+			width: 2.7916666666666665d
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/bumblezone/bumble_title_tools.png"
+			rotation: 0.0d
+			width: 2.736111111111111d
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/bumblezone/bumble_title_armor.png"
+			rotation: 0.0d
+			width: 3.2753623188405796d
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/bumblezone/bumble_title_special.png"
+			rotation: 0.0d
+			width: 3.0941176470588236d
+			x: -0.5d
+			y: 11.0d
+		}
+		{
+			dependency: "396CEB9D05700927"
+			height: 1.5d
+			image: "atm:textures/questpics/bumblezone/bumble_title_progression.png"
+			rotation: 0.0d
+			width: 7.243243243243244d
+			x: 14.5d
+			y: -6.0d
+		}
+		{
+			height: 2.0d
+			hover: ["Guess which ones the Rootmin?"]
+			image: "atm:textures/questpics/bumblezone/bumble_rootmin3.png"
+			rotation: 0.0d
+			width: 3.5555555555555554d
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			height: 2.0d
+			hover: ["Beehemoth"]
+			image: "atm:textures/questpics/bumblezone/bumble_beehemoth.png"
+			rotation: 0.0d
+			width: 2.2282608695652173d
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/bumblezone/bumble_armor2.png"
+			rotation: 0.0d
+			width: 1.475206611570248d
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/bumblezone/bumble_armor1.png"
+			rotation: 0.0d
+			width: 1.4297872340425533d
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			hover: ["Bee Cannon"]
+			image: "atm:textures/questpics/bumblezone/bumble_cannon2.png"
+			rotation: 0.0d
+			width: 1.3043478260869565d
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			height: 3.0d
+			hover: ["Loaded Bee Cannon"]
+			image: "atm:textures/questpics/bumblezone/bumble_cannon3.png"
+			rotation: 0.0d
+			width: 1.2885906040268456d
+			x: -10.0d
+			y: 6.0d
+		}
+		{
+			height: 3.0d
+			hover: ["Crystal Shield"]
+			image: "atm:textures/questpics/bumblezone/bumble_shield.png"
+			rotation: 0.0d
+			width: 1.9675324675324677d
+			x: -8.0d
+			y: 6.0d
+		}
+		{
+			height: 3.0d
+			hover: ["Stinger Spear"]
+			image: "atm:textures/questpics/bumblezone/bumble_spear.png"
+			rotation: 0.0d
+			width: 1.9177215189873418d
+			x: -5.5d
+			y: 6.0d
+		}
+		{
+			dependency: "5C040191740A53C8"
+			height: 2.5d
+			hover: ["Your Highness"]
+			image: "atm:textures/questpics/bumblezone/bumble_queen.png"
+			rotation: 0.0d
+			width: 4.444444444444445d
+			x: 18.0d
+			y: -1.0d
+		}
+		{
+			dependency: "30C12E249F7E2D52"
+			height: 2.5d
+			hover: ["Cell Maze"]
+			image: "atm:textures/questpics/bumblezone/bumble_cell.png"
+			rotation: 0.0d
+			width: 4.444444444444445d
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependency: "46FEF3DB6A5B52A0"
+			height: 2.5d
+			hover: ["Battle Cubes"]
+			image: "atm:textures/questpics/bumblezone/bumble_cube.png"
+			rotation: 0.0d
+			width: 4.444444444444445d
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			dependency: "4040BFCD4BE56621"
+			height: 2.5d
+			hover: ["Honitel"]
+			image: "atm:textures/questpics/bumblezone/bumble_honitel.png"
+			rotation: 0.0d
+			width: 4.444444444444445d
+			x: 18.0d
+			y: -4.0d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/bumblezone/bumble_variants.png"
+			rotation: 0.0d
+			width: 8.88d
+			x: 5.0d
+			y: 8.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependent_lines: true
+			icon: {
+				id: "minecraft:bee_nest"
+			}
+			id: "22BB55249EF2E819"
+			rewards: [{
+				id: "5F6FD804DF4C38FB"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "42D3D4E96812274C"
+				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:beehive)item_tag(productivebees:advanced_beehives))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["22BB55249EF2E819"]
+			id: "61768CFEDA041E4D"
+			rewards: [{
+				count: 16
+				id: "40A7B7BE67C2BA22"
+				item: {
+					count: 1
+					id: "the_bumblezone:beehive_beeswax"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1C26B5DF53544E1C"
+				item: { count: 1, id: "the_bumblezone:beehive_beeswax" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["22BB55249EF2E819"]
+			id: "7834734E79E41A3A"
+			rewards: [{
+				id: "4A96EF596C4B3C50"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "386645685E595D4D"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["22BB55249EF2E819"]
+			hide_dependent_lines: true
+			icon: {
+				id: "minecraft:honeycomb_block"
+			}
+			id: "396CEB9D05700927"
+			rewards: [{
+				id: "1B11E340FE56514D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 3.0d
+			tasks: [{
+				dimension: "the_bumblezone:the_bumblezone"
+				id: "539A5CC2101A378C"
+				type: "dimension"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["396CEB9D05700927"]
+			icon: {
+				id: "minecraft:sugar"
+			}
+			id: "2A6FC21142E75DD5"
+			rewards: [{
+				count: 2
+				id: "71E8BC9C85CBA694"
+				item: {
+					count: 1
+					id: "minecraft:bucket"
+				}
+				type: "item"
+			}]
+			size: 1.3d
+			tasks: [{
+				biome: "the_bumblezone:sugar_water_floor"
+				id: "290BC3C90F2A2C42"
+				type: "biome"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["396CEB9D05700927"]
+			icon: {
+				id: "the_bumblezone:pile_of_pollen"
+			}
+			id: "041D16DA96BC4253"
+			rewards: [{
+				count: 16
+				id: "7A823DC3045356F2"
+				item: {
+					count: 1
+					id: "the_bumblezone:pollen_puff"
+				}
+				type: "item"
+			}]
+			size: 1.3d
+			tasks: [{
+				biome: "the_bumblezone:pollinated_pillar"
+				id: "6F20352B88F43C5A"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["396CEB9D05700927"]
+			icon: {
+				id: "the_bumblezone:pollen_puff"
+			}
+			id: "513060836057E5B7"
+			rewards: [{
+				count: 16
+				id: "203C39BA6736FD24"
+				item: {
+					count: 1
+					id: "the_bumblezone:pollen_puff"
+				}
+				type: "item"
+			}]
+			size: 1.3d
+			tasks: [{
+				biome: "the_bumblezone:pollinated_fields"
+				id: "4FC9AD2049A838F8"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["396CEB9D05700927"]
+			icon: {
+				id: "the_bumblezone:sugar_infused_stone"
+			}
+			id: "2AD13B965611DC86"
+			rewards: [{
+				count: 10
+				id: "594ECEF1263CBC1E"
+				item: {
+					count: 1
+					id: "the_bumblezone:sugar_infused_stone"
+				}
+				type: "item"
+			}]
+			size: 1.3d
+			tasks: [{
+				biome: "the_bumblezone:howling_constructs"
+				id: "7C748280941552E5"
+				type: "biome"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["396CEB9D05700927"]
+			icon: {
+				id: "the_bumblezone:filled_porous_honeycomb_block"
+			}
+			id: "2A50A687C40DB864"
+			rewards: [{
+				count: 10
+				id: "220EBCF5E2491A0F"
+				item: {
+					count: 1
+					id: "the_bumblezone:porous_honeycomb_block"
+				}
+				type: "item"
+			}]
+			size: 1.3d
+			tasks: [{
+				biome: "the_bumblezone:hive_wall"
+				id: "364359866DCD16E3"
+				type: "biome"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["396CEB9D05700927"]
+			icon: {
+				id: "the_bumblezone:porous_honeycomb_block"
+			}
+			id: "540895E6C9E724AD"
+			rewards: [{
+				count: 10
+				id: "2EB9C721E628053F"
+				item: {
+					count: 1
+					id: "the_bumblezone:filled_porous_honeycomb_block"
+				}
+				type: "item"
+			}]
+			size: 1.3d
+			tasks: [{
+				biome: "the_bumblezone:hive_pillar"
+				id: "0E2B282FBF1EE765"
+				type: "biome"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["396CEB9D05700927"]
+			icon: {
+				id: "minecraft:cornflower"
+			}
+			id: "1C6B815C0F43312D"
+			rewards: [{
+				count: 10
+				id: "39C01EEAB238A814"
+				item: {
+					count: 1
+					id: "minecraft:bone_meal"
+				}
+				type: "item"
+			}]
+			size: 1.3d
+			tasks: [{
+				biome: "the_bumblezone:floral_meadow"
+				id: "63B9390EFD13B40E"
+				type: "biome"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["396CEB9D05700927"]
+			icon: {
+				id: "the_bumblezone:glistering_honey_crystal"
+			}
+			id: "680E960554CEE76B"
+			rewards: [{
+				count: 10
+				id: "29345B24A06FF209"
+				item: {
+					count: 1
+					id: "the_bumblezone:glistering_honey_crystal"
+				}
+				type: "item"
+			}]
+			size: 1.3d
+			tasks: [{
+				biome: "the_bumblezone:crystal_canyon"
+				id: "18DAD3C98F3D9D42"
+				type: "biome"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "modern_industrialization:copper_ring"
+			}
+			id: "0B0BDC37185AF9EC"
+			rewards: [
+				{
+					id: "7D904671F569A307"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "472DFAD2F2AF3F38"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "462DA49D00527652"
+				structure: "the_bumblezone:ancient_hoops"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "minecraft:amethyst_cluster"
+			}
+			id: "288A4A32CDBB14D5"
+			rewards: [
+				{
+					id: "6E803E4FFFEF19AD"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "036410F773B2C686"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5775EEB8587C67AC"
+				structure: "the_bumblezone:ancient_shrine"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["396CEB9D05700927"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "the_bumblezone:carvable_wax_chiseled"
+			}
+			id: "46FEF3DB6A5B52A0"
+			rewards: [
+				{
+					id: "25AF4055A035DA19"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "322D4AA11F5DF8D2"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "24B9DD8BC915A71A"
+				structure: "the_bumblezone:battle_cubes"
+				type: "structure"
+			}]
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "the_bumblezone:stingless_bee_helmet_1"
+			}
+			id: "719D5CEB4217B734"
+			rewards: [
+				{
+					id: "460575514A773B28"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B92D3C0DEB66433"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "657339037C6BCD37"
+				structure: "the_bumblezone:bee_house"
+				type: "structure"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "the_bumblezone:super_candle"
+			}
+			id: "0980661B2F7FBC10"
+			rewards: [
+				{
+					id: "2E61AC83EBD1883F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1631127153290B60"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1B7EC80B5A3E7177"
+				structure: "the_bumblezone:candle_parkour"
+				type: "structure"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			icon: {
+				id: "the_bumblezone:crystal_cannon"
+			}
+			id: "571CC5558B87377D"
+			rewards: [
+				{
+					id: "777BF8E6B790470A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AFDD9DBD1BFC85C"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "555605A50D2DBCEC"
+				structure: "the_bumblezone:cannon_range"
+				type: "structure"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0910C28A609ECBC1"]
+			icon: {
+				id: "the_bumblezone:honey_cocoon"
+			}
+			id: "30C12E249F7E2D52"
+			rewards: [
+				{
+					id: "6A9BA7DEF65CF524"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E6AE39B958186B9"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "19D4A0625D5211BA"
+				structure: "the_bumblezone:cell_maze"
+				type: "structure"
+			}]
+			x: 14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1C6B815C0F43312D"]
+			icon: {
+				id: "minecraft:cherry_sapling"
+			}
+			id: "0BE2E7C9454058C3"
+			rewards: [{
+				count: 4
+				id: "1CB8379C43ECEDD1"
+				item: {
+					count: 1
+					id: "minecraft:honey_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DEA8F0D03EAF198"
+				structure: "the_bumblezone:cherry_veteran_tree"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			icon: {
+				id: "minecraft:jukebox"
+			}
+			id: "4A5F84912C755688"
+			rewards: [
+				{
+					id: "2BF87AA143583BCD"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FE99A366277EE48"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0CC8FE713BF6DA37"
+				structure: "the_bumblezone:dance_floor"
+				type: "structure"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "minecraft:chain"
+			}
+			id: "02F4C3BEBD8427AD"
+			rewards: [
+				{
+					id: "05F0583EAE46C0DA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "504BB1D82CDA7BDC"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2F1C66641E8B0A4C"
+				structure: "the_bumblezone:hanging_garden"
+				type: "structure"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			icon: {
+				id: "minecraft:beehive"
+			}
+			id: "358D4F507521075F"
+			rewards: [
+				{
+					id: "7933426D471F82F6"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2421C0E13F98544B"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "19830DD16EF6BC4C"
+				structure: "the_bumblezone:hive_temple"
+				type: "structure"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "minecraft:honey_block"
+			}
+			id: "3B9E6FBEDABA4F7E"
+			rewards: [
+				{
+					id: "3C5699E1C154E46A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E690669D12C3247"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6503FBAD8D1D426E"
+				structure: "the_bumblezone:honey_cave_room"
+				type: "structure"
+			}]
+			x: 6.5d
+			y: -3.0d
+		}
+		{
+			icon: {
+				id: "the_bumblezone:sugar_water_bucket"
+			}
+			id: "73C7F57B90731010"
+			rewards: [
+				{
+					id: "1482BA1E03E1FF5B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "343044C80B5B054D"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6F7BB94F0502A3A2"
+				structure: "the_bumblezone:honey_fountain"
+				type: "structure"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			icon: {
+				id: "the_bumblezone:honey_slime_spawn_egg"
+			}
+			id: "29E2033EA65E706E"
+			rewards: [
+				{
+					id: "7976A6D04E13B3FB"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4325F6037B38FE40"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1993C6E13D0D41B8"
+				structure: "the_bumblezone:honey_slime_ranch"
+				type: "structure"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["396CEB9D05700927"]
+			hide_until_deps_complete: true
+			icon: {
+				id: "minecraft:yellow_bed"
+			}
+			id: "4040BFCD4BE56621"
+			rewards: [
+				{
+					id: "2DFB36712B85AD73"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F2360569F891CC1"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "210B8225E4FC8998"
+				structure: "the_bumblezone:honitel"
+				type: "structure"
+			}]
+			x: 15.5d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "minecraft:ice"
+			}
+			id: "13E3DE157B89E847"
+			rewards: [
+				{
+					id: "71A1A875DA2F6BC6"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A9729F529567EF3"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4385724555C4DB88"
+				structure: "the_bumblezone:ice_monolith"
+				type: "structure"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["680E960554CEE76B"]
+			icon: {
+				id: "the_bumblezone:crystalline_flower"
+			}
+			id: "55B9B9C3AA01D323"
+			rewards: [{
+				count: 3
+				id: "4BA2FF55D5DD634E"
+				item: {
+					count: 1
+					id: "minecraft:book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "76E5E614F685CF06"
+				structure: "the_bumblezone:overgrown_flower"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2A6FC21142E75DD5"]
+			icon: {
+				id: "minecraft:iron_sword"
+			}
+			id: "79FF12D7A4C8E821"
+			rewards: [{
+				id: "5F055CB705A7CFE5"
+				item: {
+					count: 1
+					id: "minecraft:spyglass"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "146FD1A1F3454C79"
+				structure: "the_bumblezone:pirate_ship"
+				type: "structure"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"513060836057E5B7"
+				"041D16DA96BC4253"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "the_bumblezone:sugar_water_bucket"
+			}
+			id: "5728D87E3240AF0D"
+			rewards: [{
+				count: 4
+				id: "54F79D6BD779BAD9"
+				item: {
+					count: 1
+					id: "the_bumblezone:pile_of_pollen_suspicious"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "50A22721F6C13C29"
+				structure: "the_bumblezone:pollinated_stream"
+				type: "structure"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6434796EAAF2A4EC"]
+			icon: {
+				id: "the_bumblezone:luminescent_wax_channel_blue"
+			}
+			id: "053483E3349B2F8A"
+			rewards: [{
+				id: "583B50783A3BC135"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:water_breathing"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "2D6CD40930F15532"
+				structure: "the_bumblezone:sempiternal_sanctum_blue"
+				type: "structure"
+			}]
+			x: 19.5d
+			y: 7.0d
+		}
+		{
+			icon: {
+				id: "the_bumblezone:stinger_spear"
+			}
+			id: "5B4397D4EC23E702"
+			rewards: [
+				{
+					id: "34C5084EA978FB0A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BC1A6BEEE6CD95A"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "23354E3505DA9C74"
+				structure: "the_bumblezone:stinger_spear_shrine"
+				type: "structure"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "the_bumblezone:windy_air"
+			}
+			id: "7231F6177EEF5BF0"
+			rewards: [
+				{
+					id: "68B857516A5F5CBC"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40D7E7BD17526FCC"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7D06C07991579DF6"
+				structure: "the_bumblezone:subway"
+				type: "structure"
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["67A0F6661D658A52"]
+			icon: {
+				id: "the_bumblezone:royal_jelly_block"
+			}
+			id: "6474FE12450A4A7D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A83C9086D62772F"
+				table_id: 6996929552069196378L
+				type: "random"
+			}]
+			tasks: [{
+				id: "72006973AD7DFBD6"
+				structure: "the_bumblezone:throne_pillar"
+				type: "structure"
+			}]
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			id: "1A67F4F87B3D456C"
+			rewards: [{
+				id: "64EA26D25B3E9B0A"
+				item: {
+					count: 1
+					id: "the_bumblezone:honeycomb_brood_block"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "13090912E63F5803"
+				item: { count: 1, id: "the_bumblezone:bee_cannon" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.5d
+		}
+		{
+			id: "2149833F65D523E5"
+			rewards: [{
+				count: 10
+				id: "52723061BE6D5407"
+				item: {
+					count: 1
+					id: "the_bumblezone:honey_crystal_shards"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "40F605E96D10E24B"
+				item: { count: 1, id: "the_bumblezone:crystal_cannon" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.5d
+		}
+		{
+			id: "5219D2F2B13F57F3"
+			rewards: [{
+				count: 3
+				id: "565C758EBB300ABC"
+				item: {
+					count: 1
+					id: "productivebees:sturdy_bee_cage"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0E7076463EC81FDE"
+				item: { components: { "the_bumblezone:buzzing_briefcase_data": { BeesStored: [ ] } }, count: 1, id: "the_bumblezone:buzzing_briefcase" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			id: "027EF5C8A74B1596"
+			rewards: [{
+				id: "0C3FD3FF0408ED5A"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"the_bumblezone:neurotoxins": 2
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2D804A6315871994"
+				item: { count: 1, id: "the_bumblezone:stinger_spear" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
+		}
+		{
+			id: "253957D992A88C88"
+			rewards: [{
+				count: 10
+				id: "4D617B815F9312E0"
+				item: {
+					count: 1
+					id: "the_bumblezone:honey_crystal_shards"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "534C0A81A2292ECB"
+				item: { count: 1, id: "the_bumblezone:honey_crystal_shield" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			id: "2DE2E5A1275E4B20"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00898989D688D2A4"
+				table_id: 6996929552069196378L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2894B3CCE3553D61"
+				item: { count: 1, id: "the_bumblezone:stingless_bee_helmet_1" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			id: "7C7C0D3D7FCB0297"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09006699FDFB9EE3"
+				table_id: 6996929552069196378L
+				type: "random"
+			}]
+			tasks: [{
+				id: "60EB37A14EF6B7C8"
+				item: { count: 1, id: "the_bumblezone:stingless_bee_helmet_2" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			id: "5F834F8C607A8B77"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53B82D5907266608"
+				table_id: 6996929552069196378L
+				type: "random"
+			}]
+			tasks: [{
+				id: "48A63CB0DC088CCB"
+				item: { count: 1, id: "the_bumblezone:bumble_bee_chestplate_1" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			id: "78B7FC6A868F5C4D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C6251A539F370DA"
+				table_id: 6996929552069196378L
+				type: "random"
+			}]
+			tasks: [{
+				id: "195781EFC3AC00BB"
+				item: { count: 1, id: "the_bumblezone:bumble_bee_chestplate_2" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			id: "2B857941D7BBA0B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56D14079D9AF10AC"
+				table_id: 6996929552069196378L
+				type: "random"
+			}]
+			tasks: [{
+				id: "75E4F4B0F1776BD9"
+				item: { components: { "the_bumblezone:honey_bee_leggings_data": { pollinated: 1b } }, count: 1, id: "the_bumblezone:honey_bee_leggings_1" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			id: "78E40BDB0E54B638"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79E07BD2FD8026D6"
+				table_id: 6996929552069196378L
+				type: "random"
+			}]
+			tasks: [{
+				id: "41B87091E5CA786A"
+				item: { components: { "the_bumblezone:honey_bee_leggings_data": { pollinated: 1b } }, count: 1, id: "the_bumblezone:honey_bee_leggings_2" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			id: "72489FB9D9A5A24B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13D0BEC7DFBCEC45"
+				table_id: 6996929552069196378L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7CF6F7F21D0F6B03"
+				item: { count: 1, id: "the_bumblezone:carpenter_bee_boots_1" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			id: "7208CB011F6E2ACF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7276FCAFA93DA415"
+				table_id: 6996929552069196378L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0CFA3BBD10DFF920"
+				item: { count: 1, id: "the_bumblezone:carpenter_bee_boots_2" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["396CEB9D05700927"]
+			hide_until_deps_complete: true
+			id: "0910C28A609ECBC1"
+			rewards: [{
+				count: 4
+				id: "03F859B5D1F408EF"
+				item: {
+					count: 1
+					id: "minecraft:honey_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2C508B9FD0001F02"
+				item: { count: 1, id: "the_bumblezone:honey_compass" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2AD13B965611DC86"]
+			icon: {
+				id: "the_bumblezone:ancient_wax_diamond"
+			}
+			id: "0C8180524757B238"
+			rewards: [{
+				count: 10
+				id: "721FA4D8DBEA690A"
+				item: {
+					count: 1
+					id: "the_bumblezone:ancient_wax_diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "262F74C837037298"
+				observe_type: 0
+				timer: 0L
+				to_observe: "the_bumblezone:ancient_wax_diamond"
+				type: "observation"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"540895E6C9E724AD"
+				"2A50A687C40DB864"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "the_bumblezone:honeycomb_brood_block"
+			}
+			id: "6013C6B2E0B81D73"
+			rewards: [{
+				count: 4
+				id: "13552CE13799852D"
+				item: {
+					count: 1
+					id: "minecraft:honey_bottle"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A719B03218D5DB8"
+				observe_type: 0
+				timer: 0L
+				to_observe: "the_bumblezone:honeycomb_brood_block"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"4040BFCD4BE56621"
+				"30C12E249F7E2D52"
+				"46FEF3DB6A5B52A0"
+			]
+			dependency_requirement: "one_completed"
+			id: "67A0F6661D658A52"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0D3D73E5452F2B52"
+				table_id: 6996929552069196378L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1EE379C541B3C951"
+				item: { components: { "the_bumblezone:honey_compass_base_data": { compassType: "structure", customDescription: "item.the_bumblezone.honey_compass_throne_description", customName: "item.the_bumblezone.honey_compass_throne_structure" }, "the_bumblezone:honey_compass_state_data": { isFailed: 0b, isLoading: 0b, locatedSpecialStructure: 0b, locked: 1b }, "the_bumblezone:honey_compass_target_data": { targetDimension: "the_bumblezone:the_bumblezone", targetPos: [I; -912, 0, -2096 ] } }, count: 1, id: "the_bumblezone:honey_compass" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6474FE12450A4A7D"]
+			hide_dependent_lines: true
+			id: "5C040191740A53C8"
+			rewards: [{
+				id: "0C1B0E938454B352"
+				item: {
+					count: 1
+					id: "the_bumblezone:royal_jelly_bottle"
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/the_beginning"
+				criterion: ""
+				id: "2882BB5BBB18E9D2"
+				type: "advancement"
+			}]
+			x: 14.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"037E0DAA5ECC5AB8"
+				"64FEF31955CB158D"
+				"04665EFC3A37250E"
+				"0F5549B02D1B383B"
+				"54D80939887B3F7D"
+				"72569275EDE9FA23"
+				"42CB494F72FA1FD1"
+				"12EF38830108D02B"
+				"0C9C5639D76FDF65"
+				"4646DCF463FD913F"
+				"341DF467E3936E78"
+				"3365017C9B24C0A9"
+				"6BC0904E03683190"
+				"14F6ED7F0C1DC503"
+				"612157986673F815"
+				"00764A738DA6451C"
+			]
+			hide_dependency_lines: true
+			id: "6434796EAAF2A4EC"
+			rewards: [
+				{
+					count: 10
+					id: "5E56E94EF173922B"
+					item: {
+						count: 1
+						id: "the_bumblezone:ancient_wax_diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "29644B182A5D9094"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "562570CAB78A7D54"
+				item: { count: 1, id: "the_bumblezone:essence_of_the_bees" }
+				type: "item"
+			}]
+			x: 14.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6434796EAAF2A4EC"]
+			icon: {
+				id: "the_bumblezone:luminescent_wax_channel_green"
+			}
+			id: "516ECA0396621C32"
+			rewards: [{
+				id: "549E518FADAE3FA3"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:regeneration"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "2BBA3DE9CCE266D0"
+				structure: "the_bumblezone:sempiternal_sanctum_green"
+				type: "structure"
+			}]
+			x: 17.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6434796EAAF2A4EC"]
+			icon: {
+				id: "the_bumblezone:luminescent_wax_channel_purple"
+			}
+			id: "29C78845B488EDF8"
+			rewards: [{
+				id: "56BB0EE71DDEF0DC"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "apothic_attributes:resistance"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "442B706E2D9E42B2"
+				structure: "the_bumblezone:sempiternal_sanctum_purple"
+				type: "structure"
+			}]
+			x: 15.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6434796EAAF2A4EC"]
+			icon: {
+				id: "the_bumblezone:luminescent_wax_channel_red"
+			}
+			id: "3B7BB08D6AA2E7FE"
+			rewards: [{
+				id: "27A60EF1B6563439"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:strength"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "14B67B76F5F7C85C"
+				structure: "the_bumblezone:sempiternal_sanctum_red"
+				type: "structure"
+			}]
+			x: 13.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6434796EAAF2A4EC"]
+			icon: {
+				id: "the_bumblezone:luminescent_wax_channel_white"
+			}
+			id: "75ACC8CF5873F92D"
+			rewards: [{
+				id: "246D56AC76B18A6E"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:swiftness"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "02F65BF2D95F20EF"
+				structure: "the_bumblezone:sempiternal_sanctum_white"
+				type: "structure"
+			}]
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["6434796EAAF2A4EC"]
+			icon: {
+				id: "the_bumblezone:luminescent_wax_channel_yellow"
+			}
+			id: "27FEF80A08AF43C2"
+			rewards: [{
+				id: "74C5C565C6562353"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:leaping"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				id: "490363DB8613FCBE"
+				structure: "the_bumblezone:sempiternal_sanctum_yellow"
+				type: "structure"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3B7BB08D6AA2E7FE"]
+			id: "58CC2E563F92B4C5"
+			rewards: [{
+				id: "7FB191CFE5A1759A"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "0AA6515146223498"
+				item: { components: { "the_bumblezone:raging_essence_current_target_data": { currentTargets: [ ] }, "the_bumblezone:raging_essence_state_data": { rageStateLevel: 0s }, "the_bumblezone:raging_essence_timer_data": { empoweredTimestamp: 0L } }, count: 1, id: "the_bumblezone:essence_raging" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["053483E3349B2F8A"]
+			id: "20E5C888891FBCFE"
+			rewards: [{
+				id: "079DB3F4F9BED2FC"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "382894B61961C73F"
+				item: { count: 1, id: "the_bumblezone:essence_calming" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["516ECA0396621C32"]
+			id: "1D4973B187284CBB"
+			rewards: [{
+				id: "08D874CA276BE793"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "2D7CB61F2375BEFB"
+				item: { count: 1, id: "the_bumblezone:essence_life" }
+				type: "item"
+			}]
+			x: 17.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["29C78845B488EDF8"]
+			id: "4718C2728C0CA40F"
+			rewards: [{
+				id: "20BD0C73B2CA6957"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "72E4743B07F5B062"
+				item: { components: { "the_bumblezone:knowing_essence_structure_data": { inStructures: "" } }, count: 1, id: "the_bumblezone:essence_knowing" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["75ACC8CF5873F92D"]
+			id: "52C7FAA044E07628"
+			rewards: [{
+				id: "3225FC86962A1523"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "25EAABE69C404707"
+				item: { count: 1, id: "the_bumblezone:essence_continuity" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["27FEF80A08AF43C2"]
+			id: "3ADC0CBB059FF927"
+			rewards: [{
+				id: "2402C8C9AEC7E248"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "32EA7A3A8A542A86"
+				item: { count: 1, id: "the_bumblezone:essence_radiance" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5C040191740A53C8"]
+			hide_until_deps_complete: false
+			icon: {
+				id: "minecraft:beehive"
+			}
+			id: "42CB494F72FA1FD1"
+			rewards: [
+				{
+					id: "460CFC7BE42D889E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "10A9403025E86CE0"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/flooding_the_housing_market"
+				criterion: ""
+				id: "042010AB43CC92FA"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C040191740A53C8"]
+			icon: {
+				id: "minecraft:spider_eye"
+			}
+			id: "12EF38830108D02B"
+			rewards: [
+				{
+					id: "205078A663D1B688"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "364ED3AB3554DE5B"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/too_many_legs"
+				criterion: ""
+				id: "577FC88712CD8D54"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C040191740A53C8"]
+			icon: {
+				id: "minecraft:honey_bottle"
+			}
+			id: "14F6ED7F0C1DC503"
+			rewards: [
+				{
+					id: "698C96221BA72959"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "321F4B2191650CC6"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/honey_drunk"
+				criterion: ""
+				id: "0B20B61A830CB8A6"
+				type: "advancement"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C040191740A53C8"]
+			icon: {
+				id: "the_bumblezone:pollen_puff"
+			}
+			id: "037E0DAA5ECC5AB8"
+			rewards: [
+				{
+					id: "0746266C0FA74A5E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A25604629ADDE2D"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/pollen_fight"
+				criterion: ""
+				id: "3901F2EA270CF409"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5C040191740A53C8"]
+			icon: {
+				id: "minecraft:silverfish_spawn_egg"
+			}
+			id: "04665EFC3A37250E"
+			rewards: [
+				{
+					id: "1783EB79D6A99D00"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2CE82863DC88B4A6"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/fighting_the_swarm"
+				criterion: ""
+				id: "3623D4738A9C1BA6"
+				type: "advancement"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C040191740A53C8"]
+			icon: {
+				id: "minecraft:crossbow"
+			}
+			id: "3365017C9B24C0A9"
+			rewards: [
+				{
+					id: "746E204C0B3CB719"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3ED450EE51C80F1C"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/poison_warfare"
+				criterion: ""
+				id: "527A89A320A920C2"
+				type: "advancement"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C040191740A53C8"]
+			icon: {
+				id: "the_bumblezone:honey_slime_spawn_egg"
+			}
+			id: "72569275EDE9FA23"
+			rewards: [
+				{
+					id: "45A0165249E02BBF"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A210A814DE7BE64"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/slimy_mitosis"
+				criterion: ""
+				id: "6209D79CAEDEEDB7"
+				type: "advancement"
+			}]
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C040191740A53C8"]
+			icon: {
+				id: "minecraft:cave_spider_spawn_egg"
+			}
+			id: "0F5549B02D1B383B"
+			rewards: [
+				{
+					id: "07F8B81B5D038F5D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07D67BD1431E60A0"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/terror_fangs"
+				criterion: ""
+				id: "2254BD4931101EE3"
+				type: "advancement"
+			}]
+			x: 16.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5C040191740A53C8"]
+			icon: {
+				id: "the_bumblezone:bee_stinger"
+			}
+			id: "0C9C5639D76FDF65"
+			rewards: [
+				{
+					id: "10EA6383CEC93109"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "481E8C1514DE1DE2"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/back_in_action"
+				criterion: ""
+				id: "0F18C9E03BDEBF98"
+				type: "advancement"
+			}]
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C040191740A53C8"]
+			icon: {
+				id: "minecraft:poppy"
+			}
+			id: "64FEF31955CB158D"
+			rewards: [
+				{
+					id: "48CF90B28F98C92B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F76B96163C8F3BA"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/the_crazy_florist"
+				criterion: ""
+				id: "4683491305C8FD43"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C040191740A53C8"]
+			icon: {
+				id: "minecraft:wither_skeleton_skull"
+			}
+			id: "4646DCF463FD913F"
+			rewards: [
+				{
+					id: "503F8D9C767C8107"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "609D6229E9A3200E"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/peak_inefficiency"
+				criterion: ""
+				id: "28D5A1AC253BAB9D"
+				type: "advancement"
+			}]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C040191740A53C8"]
+			icon: {
+				id: "the_bumblezone:bee_bread"
+			}
+			id: "612157986673F815"
+			rewards: [
+				{
+					id: "1FA1EA10152D9784"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22B74DE7EF0E32F5"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/hungry_hungry_bees"
+				criterion: ""
+				id: "3587E88D2DED359F"
+				type: "advancement"
+			}]
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C040191740A53C8"]
+			icon: {
+				id: "minecraft:bee_spawn_egg"
+			}
+			id: "6BC0904E03683190"
+			rewards: [
+				{
+					id: "69B4E58D92B8EC43"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "74AF4511964F9F1F"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/love_bees"
+				criterion: ""
+				id: "2375386D9D49BBF2"
+				type: "advancement"
+			}]
+			x: 13.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C040191740A53C8"]
+			icon: {
+				id: "minecraft:endermite_spawn_egg"
+			}
+			id: "00764A738DA6451C"
+			rewards: [
+				{
+					id: "6D06410913B54537"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C3C5470F90A8D52"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/otherworldly_mites"
+				criterion: ""
+				id: "6E92A4BB79968ACD"
+				type: "advancement"
+			}]
+			x: 14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C040191740A53C8"]
+			icon: {
+				id: "minecraft:dragon_head"
+			}
+			id: "341DF467E3936E78"
+			rewards: [
+				{
+					id: "2E536F31D2FD5476"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07C2830234836687"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/the_great_dragon_slayer"
+				criterion: ""
+				id: "1AD6A148ADE3E1C5"
+				type: "advancement"
+			}]
+			x: 15.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5C040191740A53C8"]
+			icon: {
+				id: "the_bumblezone:royal_jelly_bottle"
+			}
+			id: "54D80939887B3F7D"
+			rewards: [
+				{
+					id: "6378436256C01127"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "713A4E02880C1284"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "the_bumblezone:the_queens_desire/crazy_trader"
+				criterion: ""
+				id: "7A9D285A959F9852"
+				type: "advancement"
+			}]
+			x: 16.5d
+			y: 4.0d
+		}
+		{
+			id: "21BFDE6AD1C0F62A"
+			rewards: [{
+				id: "7A81EC903D6C50A2"
+				item: {
+					components: {
+						"the_bumblezone:buzzing_briefcase_data": {
+							BeesStored: [ ]
+						}
+					}
+					count: 1
+					id: "the_bumblezone:buzzing_briefcase"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "the_bumblezone:variant_bee"
+				id: "646B54EB48AFB6A4"
+				type: "kill"
+				value: 10L
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "05A4496705B6C6AF"
+			rewards: [{
+				id: "39B9DCC66E003756"
+				item: {
+					count: 1
+					id: "the_bumblezone:honey_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "the_bumblezone:beehemoth"
+				id: "37C196344D9FD2C3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			id: "61500C8F68509E5D"
+			rewards: [
+				{
+					id: "599E43679867F462"
+					item: {
+						count: 1
+						id: "minecraft:cornflower"
+					}
+					type: "item"
+				}
+				{
+					id: "406814913C9F43CD"
+					item: {
+						count: 1
+						id: "minecraft:poppy"
+					}
+					type: "item"
+				}
+				{
+					id: "5511BF6B3B39414A"
+					item: {
+						count: 1
+						id: "minecraft:dandelion"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "the_bumblezone:rootmin"
+				id: "4E6F5A4B1FE8CB23"
+				type: "kill"
+				value: 5L
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5F834F8C607A8B77"]
+			id: "40AD1527ED41FC85"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FB26321D468A388"
+				table_id: 6996929552069196378L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0F4A5BE7847175BD"
+				item: { count: 1, id: "the_bumblezone:bumble_bee_chestplate_trans_1" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["78B7FC6A868F5C4D"]
+			id: "6CB602510B6071E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "509F67332FEF4565"
+				table_id: 6996929552069196378L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0CF4D1CDD0592AEA"
+				item: { count: 1, id: "the_bumblezone:bumble_bee_chestplate_trans_2" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			id: "454AC491FDFC3FDB"
+			rewards: [{
+				count: 10
+				id: "70B2DF8B1166B1BB"
+				item: {
+					count: 1
+					id: "minecraft:sugar"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "the_bumblezone:honey_slime"
+				id: "030FFC7C0532E7B2"
+				type: "kill"
+				value: 3L
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			id: "50150380043F97F9"
+			rewards: [
+				{
+					id: "77F1E7E7BA33472A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3EA392549EAB1171"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0EE3B383AFFEFC94"
+				item: { count: 1, id: "the_bumblezone:music_disc_flight_of_the_bumblebee_rimsky_korsakov" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
+		}
+		{
+			id: "3C413D4A210A3BDE"
+			rewards: [
+				{
+					id: "39B9CA92EFD16E73"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35031B5733E892E6"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4983146A58846AC6"
+				item: { count: 1, id: "the_bumblezone:music_disc_honey_bee_rat_faced_boy" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			id: "72917C96C322A922"
+			rewards: [
+				{
+					id: "05BC3985DEB67297"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "17EE94A5F59783BD"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6F80DC3CA81D680C"
+				item: { count: 1, id: "the_bumblezone:music_disc_la_bee_da_loca" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			id: "351769579833FA9E"
+			rewards: [
+				{
+					id: "7BF2EE1D2EC0F7BA"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C2B75A76E97DDD0"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "19FFBD14A11341D4"
+				item: { count: 1, id: "the_bumblezone:music_disc_bee_laxing_with_the_hom_bees" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			id: "65D993EB95726067"
+			rewards: [
+				{
+					id: "394AEE492BCDE2D2"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D612ED045FFF8B9"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2672B31044C04726"
+				item: { count: 1, id: "the_bumblezone:music_disc_bee_ware_of_the_temple" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
+		}
+		{
+			id: "339384ADC9CDB944"
+			rewards: [
+				{
+					id: "6F8D9F7C9FF2C778"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "061FC79E3B38476A"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "70E079B29EA71462"
+				item: { count: 1, id: "the_bumblezone:music_disc_knowing_renren" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 9.0d
+		}
+		{
+			id: "29DF2E7D0402284F"
+			rewards: [
+				{
+					id: "20440ECF3CF27874"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4CED145F48A52DCE"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "06743689ED89FB87"
+				item: { count: 1, id: "the_bumblezone:music_disc_radiance_renren" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			id: "262B307753106817"
+			rewards: [
+				{
+					id: "5491F3465F24EAE3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4342C730ACDB4460"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5C2B75FDEC7158D4"
+				item: { count: 1, id: "the_bumblezone:music_disc_drowning_in_despair" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			id: "497FA7CA04117995"
+			rewards: [
+				{
+					id: "3613485A5B723237"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2681C61DB55AD795"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "40EC05D5AEC06147"
+				item: { count: 1, id: "the_bumblezone:music_disc_life_renren" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			id: "206918773B0BD7A0"
+			rewards: [
+				{
+					id: "58C96164CFFD2267"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37B9BFE6C1F07FE6"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "53722FB06A46BD8F"
+				item: { count: 1, id: "the_bumblezone:music_disc_a_last_first_last" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			id: "6C5D61A704DC125A"
+			tasks: [{
+				id: "6CA87D071A115686"
+				item: { count: 1, id: "the_bumblezone:flower_headwear" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			id: "5443AA65C0D0C599"
+			rewards: [{
+				count: 2
+				id: "37A9FA9C327CFE8B"
+				item: {
+					count: 1
+					id: "the_bumblezone:royal_jelly_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F6B8C065FD612D7"
+				item: { count: 1, id: "the_bumblezone:royal_jelly_bottle" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			id: "27B5D0329DD92126"
+			rewards: [{
+				count: 3
+				id: "0F798BFFFF4B8166"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:awkward"
+						}
+					}
+					count: 1
+					id: "minecraft:potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "225B60F52C033B2C"
+				item: { count: 1, id: "the_bumblezone:bee_soup" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			id: "270498437D938DD4"
+			rewards: [
+				{
+					id: "600A6B8059340AF4"
+					item: {
+						count: 1
+						id: "the_bumblezone:royal_jelly_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "357ABFE8C2009921"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "7F185FBEFC0DB7E4"
+				item: { count: 1, id: "the_bumblezone:potion_candle" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			id: "5E180764FBEE666B"
+			rewards: [
+				{
+					count: 3
+					id: "75F89E5E7AE0EE47"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+				{
+					id: "59E62B9503D75300"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "0439C2D821DC116A"
+				item: { count: 1, id: "the_bumblezone:crystalline_flower" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			id: "1207E5C3E7BD0584"
+			rewards: [
+				{
+					id: "43B5FDA1DB160F13"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13894A6827C32186"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6E4735BD0FAC24BF"
+				item: { count: 1, id: "the_bumblezone:banner_pattern_bee" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "2ABAE97E992BB800"
+			rewards: [
+				{
+					id: "38EC9BD31C1C904E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41BEEFDE0F68FC44"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "47A90ECBC342869D"
+				item: { count: 1, id: "the_bumblezone:banner_pattern_honeycombs" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			id: "13681866CE6A831C"
+			rewards: [
+				{
+					id: "5FE4987C09F89999"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5715668D7BF67B69"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "317BB1713844D988"
+				item: { count: 1, id: "the_bumblezone:banner_pattern_swords" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "74D4E51A6381DB24"
+			rewards: [
+				{
+					id: "470F1953419C7FD1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D4AC2CEAAF523CC"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "673E0676AB36DA51"
+				item: { count: 1, id: "the_bumblezone:banner_pattern_eyes" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "772C65FC32AECD6B"
+			rewards: [
+				{
+					id: "1E53F4039D6D0273"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63727103EAF5ABD2"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7C4C6B711751422F"
+				item: { count: 1, id: "the_bumblezone:banner_pattern_peace" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			id: "786073B57C901DB7"
+			rewards: [
+				{
+					id: "504482B7CCA5F16B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6311539FFC94D744"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "22FBDD99B064AE6D"
+				item: { count: 1, id: "the_bumblezone:banner_pattern_pluses" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			id: "29E9E361DDC8041B"
+			rewards: [
+				{
+					id: "3B2462BBBD797659"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "59F7108FCA372E80"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "1C1F766DF473D6D5"
+				item: { count: 1, id: "the_bumblezone:banner_pattern_sun" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			id: "26988330D3E5BF95"
+			rewards: [
+				{
+					id: "418B3CCC2F790D41"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F0CB1DD04F31BA4"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "690C69FC604CC125"
+				item: { count: 1, id: "the_bumblezone:banner_pattern_arrows" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["396CEB9D05700927"]
+			hide_until_deps_complete: true
+			id: "0E32DB6B8E023764"
+			rewards: [{
+				id: "4817918CC7505E40"
+				item: {
+					count: 1
+					id: "productivebees:centrifuge"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1256A95F7D5C782F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(productivebees:configurable_comb)item(productivebees:configurable_comb)item(productivebees:configurable_comb)item(productivebees:configurable_comb)item(productivebees:configurable_comb)item(productivebees:configurable_comb))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			id: "565EBD340595EAC4"
+			invisible: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "1884D3DA3CCC1439"
+					type: "checkmark"
+				}
+				{
+					id: "5F9F725E2AD5FD3C"
+					type: "checkmark"
+				}
+			]
+			x: -0.5d
+			y: -5.5d
+		}
+	]
+}
