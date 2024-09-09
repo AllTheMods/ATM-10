@@ -9,6 +9,13 @@ ServerEvents.tags('item', allthemods => {
         'regions_unexplored:magnolia_wood',
         'regions_unexplored:stripped_magnolia_wood',
     ])
+    allthemods.add('regions_unexplored:alpha_logs', [
+        'regions_unexplored:alpha_log'
+    ])
+    allthemods.add('regions_unexplored:silver_birch_logs', [
+        'regions_unexplored:silver_birch_log',
+        'regions_unexplored:silver_birch_wood',
+    ])
 
     //allthemodium
     allthemods.add('allthemodium:ancient_logs', [
@@ -28,92 +35,76 @@ ServerEvents.tags('item', allthemods => {
         'allthemodium:demonic_log',
         'allthemodium:stripped_demonic_log',
     ])
+    allthemods.add('regions_unexplored:alpha_logs', [
+        'regions_unexplored:alpha_log'
+    ])
+
+    // completing #minecraft:logs
+    allthemods.add('minecraft:logs', [
+        '#integrateddynamics:menril_logs',
+        '#deeperdarker:bloom_stems',
+        "#deeperdarker:echo_logs",
+        "#evilcraft:undead_logs",
+        "aquaculture:driftwood",
+        "allthemodium:stripped_ancient_log"
+    ])
 })
 
+const $Collectors = Java.loadClass('java.util.stream.Collectors')
+
 ServerEvents.recipes(allthemods => {
+    let logsTag = Ingredient.of("#minecraft:logs")
+
+    /** @type {$HashMap_<string, $UnknownKubeRecipe_>}} */
+    let prodSawmillRecipes = allthemods.findRecipes({type: "productivetrees:sawmill"}).stream().collect($Collectors.toMap(r => r.json.asMap().planks.get("id").asString, r => r))
+    /** @type {$HashMap_<string, $UnknownKubeRecipe_>}} */
+    let mekSawmillRecipes = allthemods.findRecipes({type: "mekanism:sawing"}).stream().filter(r => r.json.asMap().main_output != undefined && logsTag.test(Ingredient.of(r.json.asMap().input.has("ingredient") ? r.json.asMap().input.get("ingredient") : r.json.asMap().input))).collect($Collectors.toMap(r => r.json.asMap().main_output.get("id").asString, r => r))
+    
     function mekSawing(output, input, extraOutput, id) {
-        let inputObject = {
-            "count": input.count || 1
-        };
-
-        if (input.item) {
-            inputObject["item"] = input.item;
-        } else if (input.tag) {
-            inputObject["tag"] = input.tag;
+        if (mekSawmillRecipes.containsKey(output.id)) {
+            // console.info("Already exists a mek recipe for " + output.id)
+            return
         }
-
         let recipe = {
             "type": "mekanism:sawing",
-            "input": inputObject,
-            "main_output": {
-                "count": output.count || 1,
-                "id": output.item
-            },
+            "input": input,
+            "main_output": output,
             "secondary_chance": extraOutput.chance,
-            "secondary_output": {
-                "count": extraOutput.count,
-                "id": extraOutput.item
-            }
+            "secondary_output": Item.of(extraOutput.item)
         };
 
         allthemods.custom(recipe).id(`allthemods:mekanism/sawing/${id}`);
     }
 
     function prodSawing(log, planks, secondary, id) {
+        if (prodSawmillRecipes.containsKey(planks.id)) {
+            // console.info("Already exists a prod tree recipe for " + planks.id)
+            return
+        }
         allthemods.custom({
             "type": "productivetrees:sawmill",
-            "log": {
-                "tag": log.tag
-            },
-            "planks": {
-                "count": planks.count || 6,
-                "id": planks.item
-            },
-            "secondary": {
-                "count": secondary.count || 2,
-                "id": secondary.item
-            }
+            "log": log,
+            "planks": planks,
+            "secondary": secondary
         }).id(`allthemods:productivetrees/sawing/${id}`);
     }
 
-    let logs  = Ingredient.of('#minecraft:logs').stacks.toArray().map(item => String(item.getId().split(' ').pop()));
-    const logTypes = ['log.*', 'stem.*'];
-    const logReg = new RegExp(`(_(?:${logTypes.join('|')})(?!.*_(?:${logTypes.join('|')})).*?)$`);
-
-    logs.forEach(log => {
-        mekSawing(
-            {item: log.replace(logReg, '_planks'), count: 6},
-            {tag: log.replace(logReg, '_logs'), count: 1},
-            {chance: 0.25, item: 'mekanism:sawdust', count: 1},
-            log.split(':')[0] + '/' + log.split(':')[1] + '_to_planks'
-        );
-    });
-
-    //ars wants to be special
-    mekSawing(
-        {item: 'ars_nouveau:archwood_planks', count: 6},
-        {tag: 'c:logs/archwood', count: 1},
-        {chance: 0.25, item: 'mekanism:sawdust', count: 1},
-        'ars_nouveau/archwood_log_to_planks'
-    );
-
-    logs.forEach(log => {
-        prodSawing(
-            {tag: log.replace(logReg, '_logs')},
-            {item: log.replace(logReg, '_planks'), count: 6},
-            {item: 'productivetrees:sawdust', count: 2},
-            log.split(':')[0] + '/' + log.split(':')[1] + '_to_planks'
-        )
+    allthemods.forEachRecipe({type: "minecraft:crafting_shapeless", output: "#minecraft:planks"}, recipe => {
+        /** @type {$Ingredient_} */
+        let firstIngredient = recipe.get("ingredients").getFirst()
+        /** @type {$ItemStackKJS_} */
+        let output = recipe.get("result")
+        if (!logsTag.test(firstIngredient)){
+            console.info("Ingredient is not a log tag: " + Ingredient.of(firstIngredient).toJson())
+            return
+        }
+        
+        mekSawing(output.withCount(6), firstIngredient, {chance: 0.25, item: "mekanism:sawdust"}, recipe.getId().split(":")[0] + "/" + recipe.getId().split(":")[1])
+        prodSawing(firstIngredient, output.withCount(6), Item.of("2x productivetrees:sawdust"), recipe.getId().split(":")[0] + "/" + recipe.getId().split(":")[1])
     })
-
-    //ars yet again
-    prodSawing(
-        {tag: 'ars_nouveau:archwood_planks'},
-        {item: 'c:logs/archwood', count: 6},
-        {item: 'productivetrees:sawdust', count: 2},
-        'ars_nouveau/archwood_log_to_planks'
-    )
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
+

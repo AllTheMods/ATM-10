@@ -4,7 +4,7 @@
 ServerEvents.recipes(allthemods => {
 allthemods.shaped('8x ae2:silicon', ['   ', 'SSS', '   '], {
     S: 'mysticalagriculture:silicon_essence'
-}).id('allthemods:ae2/silicon')
+}).id('allthemods:essence/ae2/silicon')
 
 allthemods.shaped('kubejs:magical_soil', ['ABC', 'DEF', 'GHI'], {
     A: 'mysticalagradditions:insanium_block',
@@ -18,35 +18,41 @@ allthemods.shaped('kubejs:magical_soil', ['ABC', 'DEF', 'GHI'], {
     I: 'productivetrees:moonlight_magic_crepe_myrtle_sapling'
 }).id('allthemods:kjs/magical_soil')
 
+// Cinnamon Logs
+allthemods.shaped('12x croptopia:cinnamon_log', [' A ', ' B ', ' A '], {
+    A: 'mysticalagriculture:nether_essence',
+    B: 'croptopia:cinnamon'
+}).id('allthemods:essence/croptopia/cinnamon_log')
+
 // Warped Wart Blocks
 allthemods.shaped('8x minecraft:warped_wart_block', [' A ', 'A  ', 'AAA'], {
     A: 'mysticalagriculture:nether_essence'
-}).id('allthemods:minecraft/warped_wart_block')
+}).id('allthemods:essence/minecraft/warped_wart_block')
 
 // Shroomlights
 allthemods.shaped('6x minecraft:shroomlight', ['AGA', 'GAG', 'AGA'],{
     A: 'mysticalagriculture:nether_essence',
     G: 'mysticalagriculture:glowstone_essence'
-}).id('allthemods:minecraft/shroomlight')
+}).id('allthemods:essence/minecraft/shroomlight')
 
 // Froglights
 allthemods.shaped('8x minecraft:ochre_froglight', ['NDG', 'GDN', 'NDG'],{
     N: 'mysticalagriculture:nature_essence',
     D: 'mysticalagriculture:dye_essence',
     G: 'mysticalagriculture:glowstone_essence'
-}).id('allthemods:minecraft/ochre_froglight')
+}).id('allthemods:essence/minecraft/ochre_froglight')
 
 allthemods.shaped('8x minecraft:pearlescent_froglight', ['DDD', 'GNG', 'NGN'],{
     N: 'mysticalagriculture:nature_essence',
     D: 'mysticalagriculture:dye_essence',
     G: 'mysticalagriculture:glowstone_essence'
-}).id('allthemods:minecraft/pearlescent_froglight')
+}).id('allthemods:essence/minecraft/pearlescent_froglight')
 
 allthemods.shaped('8x minecraft:verdant_froglight', ['NGD', 'GND', 'NGD'],{
     N: 'mysticalagriculture:nature_essence',
     D: 'mysticalagriculture:dye_essence',
     G: 'mysticalagriculture:glowstone_essence'
-}).id('allthemods:minecraft/verdant_froglight')
+}).id('allthemods:essence/minecraft/verdant_froglight')
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

@@ -1,0 +1,181 @@
+#Settings for configuring Accessibility settings provided by Mekanism. Note: Some settings such as HUD scale, may be located throughout the rest of this config.
+[accessibility]
+	#Tries to force all text rendered as part of radial menus to be white instead of the color of the slice's mode.
+	whiteRadialText = false
+	#If true, renders sides for Universal Cables, Mechanical Pipes, Pressurized Tubes, Logistical Transporters, and Thermodynamic Conductors instead of rendering their contents. If transmitters are causing you fps issues, this should hopefully help.
+	opaqueTransmitters = false
+	#Allows changing the mode of held items by holding sneak and using the scroll wheel.
+	allowModeScroll = true
+
+#Settings for configuring Mekanism's Sounds
+[sounds]
+	#Adjust Mekanism sounds' base volume. < 1 is softer, higher is louder.
+	#Range: 0.0 ~ 10.0
+	baseVolume = 1.0
+	#Play sounds for when any player is using a Jetpack, Scuba Mask, Flamethrower, or Gravitational Modulating Unit. This also affects playing the Radiation clicking sound.
+	enablePlayer = true
+	#Play sounds for active machines.
+	enableMachine = true
+
+#Settings for adjusting how Mekanism render's certain blocks and how many particles Mekanism adds.
+[rendering]
+	#The color of energy when displayed as the durability bar on items.
+	energyColor = 3997338
+	#Range at which Block Entity Renderer's added by Mekanism can render at, for example the contents of multiblocks. Vanilla defaults the rendering range for BERs to 64 for most blocks (for example chests), but uses a range of 256 for blocks like beacons and end gateways. Lowering this will likely increase your performance, at the cost of multiblock contents and wind generators 'popping' in
+	#Range: 1 ~ 1024
+	berRange = 256
+
+	#Settings for configuring Mekanism's Particles
+	[rendering.particle]
+		#When multiblock forms, represent that by red sparkles around the multiblock. If this is disabled a notification message will display on the action bar instead.
+		multiblockFormation = true
+		#Show particles when machines active.
+		machineEffects = true
+		#How far (in blocks) from the player radiation particles can spawn.
+		#Range: 2 ~ 64
+		radiationParticleRadius = 30
+		#How many particles spawn when rendering radiation effects (scaled by radiation level).
+		#Range: 0 ~ 1000
+		radiationParticleCount = 100
+		#Show bolts between the player and items when the Magnetic Attraction Unit is pulling items towards a player.
+		magneticAttraction = true
+		#Show bolts for various AOE tool behaviors such as tilling, debarking, and vein mining.
+		toolAOE = true
+
+#Settings for configuring Mekanism's HUD
+[hud]
+	#Enable a HUD that displays information about equipped Mekanism items, and displays additional information when wearing a MekaSuit Helmet.
+	enabled = true
+	#Scale of the text displayed on the HUD.
+	#Range: 0.25 ~ 1.0
+	scale = 0.6
+	#Reverses the HUD's text alignment and compass rendering to the right side of the screen, and moves the MekaSuit module rendering to the left side. Warning: This may cause subtitles to overlap parts of the HUD such as the compass.
+	reverse = false
+	#Opacity of HUD used by MekaSuit.
+	#Range: 0.0 ~ 1.0
+	opacity = 0.4000000059604645
+	#Color (RGB) of HUD used by MekaSuit.
+	#Range: 0 ~ 16777215
+	color = 4257264
+	#Color (RGB) of warning HUD elements used by MekaSuit.
+	#Range: 0 ~ 16777215
+	warningColor = 16768335
+	#Color (RGB) of danger HUD elements used by MekaSuit.
+	#Range: 0 ~ 16777215
+	dangerColor = 16726076
+	#Visual jitter of the MekaSuit HUD, seen when moving the player's head. Higher values increases the amount of jitter.
+	#Range: 1.0 ~ 100.0
+	jitter = 6.0
+	#Display a fancy compass when the MekaSuit Helmet is worn.
+	mekaSuitHelmetCompass = true
+
+#Settings for configuring Mekanism's QIO
+[qio]
+	#Sorting strategy when viewing items in a QIO Dashboard.
+	#Allowed Values: NAME, SIZE, MOD, REGISTRY_NAME
+	sortType = "NAME"
+	#Sorting direction when viewing items in a QIO Dashboard.
+	#Allowed Values: ASCENDING, DESCENDING
+	sortDirection = "ASCENDING"
+	#Number of slots to view horizontally on a QIO Dashboard.
+	#Range: 8 ~ 16
+	slotsWide = 8
+	#Number of slots to view vertically on a QIO Dashboard.
+	#Range: 2 ~ 48
+	slotsTall = 4
+	#Determines whether the search bar is automatically focused when a QIO Dashboard is opened.
+	autoFocusSearchBar = true
+	#Determines if items in a QIO crafting window should be moved to the player's inventory or the frequency first when replacing the items in the crafting grid using a recipe viewer.
+	rejectsToInventory = false
+
+#Stores the last position various windows were in when they were closed, and whether they are pinned. In general these values should not be modified manually.
+[window]
+
+	#The last position the Color window was in when it was closed.
+	[window.color]
+		#The x component of this window's last position.
+		x = 2147483647
+		#The y component of this window's last position.
+		y = 2147483647
+
+	#The last position the Confirmation window was in when it was closed.
+	[window.confirmation]
+		#The x component of this window's last position.
+		x = 2147483647
+		#The y component of this window's last position.
+		y = 2147483647
+
+	#The last position the Crafting window was in when it was closed, and whether it was pinned.
+	[window.crafting0]
+		#The x component of this window's last position.
+		x = 2147483647
+		#The y component of this window's last position.
+		y = 2147483647
+		#Determines whether this window is pinned, and should open automatically when the GUI is reopened.
+		pinned = false
+
+	#The last position the Crafting window was in when it was closed, and whether it was pinned.
+	[window.crafting1]
+		#The x component of this window's last position.
+		x = 2147483647
+		#The y component of this window's last position.
+		y = 2147483647
+		#Determines whether this window is pinned, and should open automatically when the GUI is reopened.
+		pinned = false
+
+	#The last position the Crafting window was in when it was closed, and whether it was pinned.
+	[window.crafting2]
+		#The x component of this window's last position.
+		x = 2147483647
+		#The y component of this window's last position.
+		y = 2147483647
+		#Determines whether this window is pinned, and should open automatically when the GUI is reopened.
+		pinned = false
+
+	#The last position the Mekasuit Helmet window was in when it was closed.
+	[window.mekasuit_helmet]
+		#The x component of this window's last position.
+		x = 2147483647
+		#The y component of this window's last position.
+		y = 2147483647
+
+	#The last position the Rename window was in when it was closed.
+	[window.rename]
+		#The x component of this window's last position.
+		x = 2147483647
+		#The y component of this window's last position.
+		y = 2147483647
+
+	#The last position the Skin Select window was in when it was closed.
+	[window.skin_select]
+		#The x component of this window's last position.
+		x = 2147483647
+		#The y component of this window's last position.
+		y = 2147483647
+
+	#The last position the Side Config window was in when it was closed, and whether it was pinned.
+	[window.side_config]
+		#The x component of this window's last position.
+		x = 10
+		#The y component of this window's last position.
+		y = 15
+		#Determines whether this window is pinned, and should open automatically when the GUI is reopened.
+		pinned = false
+
+	#The last position the Transporter Config window was in when it was closed, and whether it was pinned.
+	[window.transporter_config]
+		#The x component of this window's last position.
+		x = 2147483647
+		#The y component of this window's last position.
+		y = 2147483647
+		#Determines whether this window is pinned, and should open automatically when the GUI is reopened.
+		pinned = false
+
+	#The last position the Upgrade window was in when it was closed, and whether it was pinned.
+	[window.upgrade]
+		#The x component of this window's last position.
+		x = 10
+		#The y component of this window's last position.
+		y = 15
+		#Determines whether this window is pinned, and should open automatically when the GUI is reopened.
+		pinned = false

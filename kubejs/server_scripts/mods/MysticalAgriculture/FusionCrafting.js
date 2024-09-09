@@ -28,7 +28,7 @@ ServerEvents.recipes(allthemods => {
                 { item: item7 },
                 { item: item8 }
             ],
-            result: { item: output }
+            result: { id: output }
         }).id(`kubejs:${output.replace(':', '/')}/infusion`)
     }
 
