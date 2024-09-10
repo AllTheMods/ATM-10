@@ -38,15 +38,16 @@
 	id: "11919EBB416B2BD0"
 	images: [
 		{
-			height: 3.5d
-			image: "atm:textures/questpics/relics/relics_title.png"
+			height: 2.0d
+			image: "atm:textures/questpics/relics/relics.png"
 			rotation: 0.0d
-			width: 9.964601769911505d
+			width: 7.021739130434782d
 			x: 0.0d
-			y: -9.0d
+			y: -8.0d
 		}
 		{
 			height: 2.0d
+			hover: ["Bastion"]
 			image: "atm:textures/questpics/relics/relics_chest_bastion.png"
 			rotation: 0.0d
 			width: 3.5555555555555554d
@@ -55,6 +56,7 @@
 		}
 		{
 			height: 2.0d
+			hover: ["Fortress"]
 			image: "atm:textures/questpics/relics/relics_chest_fortress.png"
 			rotation: 0.0d
 			width: 3.5555555555555554d
@@ -63,6 +65,7 @@
 		}
 		{
 			height: 2.0d
+			hover: ["Ruined Portal"]
 			image: "atm:textures/questpics/relics/relics_chest_portal.png"
 			rotation: 0.0d
 			width: 3.6192271442035815d
@@ -71,6 +74,7 @@
 		}
 		{
 			height: 2.0d
+			hover: ["End City"]
 			image: "atm:textures/questpics/relics/relics_chest_endcity.png"
 			rotation: 0.0d
 			width: 3.5555555555555554d
@@ -79,6 +83,7 @@
 		}
 		{
 			height: 2.0d
+			hover: ["End Ship"]
 			image: "atm:textures/questpics/relics/relics_chest_endship.png"
 			rotation: 0.0d
 			width: 3.5555555555555554d
@@ -87,6 +92,7 @@
 		}
 		{
 			height: 2.0d
+			hover: ["Ocean Ruin"]
 			image: "atm:textures/questpics/relics/relics_chest_ruins.png"
 			rotation: 0.0d
 			width: 3.5555555555555554d
@@ -95,6 +101,7 @@
 		}
 		{
 			height: 2.0d
+			hover: ["Shipwreck"]
 			image: "atm:textures/questpics/relics/relics_chest_shipwreck.png"
 			rotation: 0.0d
 			width: 3.5555555555555554d
@@ -103,6 +110,7 @@
 		}
 		{
 			height: 2.0d
+			hover: ["Mineshaft"]
 			image: "atm:textures/questpics/relics/relics_chest_mine.png"
 			rotation: 0.0d
 			width: 3.5555555555555554d
@@ -111,6 +119,7 @@
 		}
 		{
 			height: 2.0d
+			hover: ["Village"]
 			image: "atm:textures/questpics/relics/relics_chest_village.png"
 			rotation: 0.0d
 			width: 3.5555555555555554d
@@ -119,6 +128,7 @@
 		}
 		{
 			height: 2.0d
+			hover: ["Stronghold"]
 			image: "atm:textures/questpics/relics/relics_chest_stronghold.png"
 			rotation: 0.0d
 			width: 3.5555555555555554d
@@ -137,7 +147,7 @@
 			rewards: [{
 				id: "4C83061720AA2F94"
 				type: "xp_levels"
-				xp_levels: 2
+				xp_levels: 3
 			}]
 			shape: "gear"
 			size: 2.0d
@@ -799,22 +809,15 @@
 			}
 			icon_scale: 2.0d
 			id: "730130CCF1CF5119"
-			rewards: [
-				{
-					count: 32
-					id: "461D6445B549CFD1"
-					item: {
-						count: 1
-						id: "minecraft:grass_block"
-					}
-					type: "item"
+			rewards: [{
+				count: 32
+				id: "461D6445B549CFD1"
+				item: {
+					count: 1
+					id: "minecraft:grass_block"
 				}
-				{
-					id: "621463CBD0414F2E"
-					type: "xp"
-					xp: 10
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				dimension: "minecraft:overworld"
@@ -834,22 +837,15 @@
 			}
 			icon_scale: 2.0d
 			id: "2B08B19B35EEBCBA"
-			rewards: [
-				{
-					count: 32
-					id: "2537CCC684F7F12D"
-					item: {
-						count: 1
-						id: "minecraft:netherrack"
-					}
-					type: "item"
+			rewards: [{
+				count: 32
+				id: "2537CCC684F7F12D"
+				item: {
+					count: 1
+					id: "minecraft:netherrack"
 				}
-				{
-					id: "4000B2D4947CB0CE"
-					type: "xp"
-					xp: 10
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				dimension: "minecraft:the_nether"
@@ -869,22 +865,15 @@
 			}
 			icon_scale: 2.0d
 			id: "5D82340E9BED9C79"
-			rewards: [
-				{
-					count: 32
-					id: "740D5F39A8BCFA46"
-					item: {
-						count: 1
-						id: "minecraft:end_stone"
-					}
-					type: "item"
+			rewards: [{
+				count: 32
+				id: "740D5F39A8BCFA46"
+				item: {
+					count: 1
+					id: "minecraft:end_stone"
 				}
-				{
-					id: "426A23D73DEA17A2"
-					type: "xp"
-					xp: 10
-				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				dimension: "minecraft:the_end"

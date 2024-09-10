@@ -14,8 +14,8 @@
 			order: -1
 			rotation: 0.0d
 			width: 13.671d
-			x: 6.5d
-			y: -2.0d
+			x: 7.5d
+			y: -3.0d
 		}
 		{
 			height: 0.01d
@@ -30,24 +30,24 @@
 			image: "atm:textures/questpics/gettingstarted/sniffer3.png"
 			rotation: 0.0d
 			width: 4.0d
+			x: -5.0d
+			y: 8.75d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/torchflower"
+			rotation: 0.0d
+			width: 1.0d
+			x: -6.5d
+			y: 10.25d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/torchflower"
+			rotation: 0.0d
+			width: 1.0d
 			x: -5.5d
-			y: 8.25d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/torchflower"
-			rotation: 0.0d
-			width: 1.0d
-			x: -7.0d
-			y: 9.75d
-		}
-		{
-			height: 1.0d
-			image: "minecraft:block/torchflower"
-			rotation: 0.0d
-			width: 1.0d
-			x: -6.0d
-			y: 9.75d
+			y: 10.25d
 		}
 		{
 			height: 0.5d
@@ -94,8 +94,8 @@
 			image: "minecraft:block/torchflower"
 			rotation: 0.0d
 			width: 1.0d
-			x: -4.0d
-			y: 10.25d
+			x: -3.5d
+			y: 10.75d
 		}
 		{
 			height: 1.0d
@@ -683,8 +683,8 @@
 				item: { count: 1, id: "minecraft:brush" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 7.5d
+			x: -1.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0F3D51FFD2FE8DCB"]
@@ -749,8 +749,8 @@
 				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:trim_templates)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -3.642857142857139d
-			y: 7.512755102040828d
+			x: -3.142857142857139d
+			y: 8.012755102040828d
 		}
 		{
 			dependencies: ["3ADCAD65EA6900BA"]
@@ -776,8 +776,8 @@
 				item: { count: 1, id: "minecraft:sniffer_egg" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 9.25d
+			x: -1.5d
+			y: 9.75d
 		}
 		{
 			dependencies: ["6EDAB29FBD3C60A3"]
