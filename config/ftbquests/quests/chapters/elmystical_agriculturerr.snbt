@@ -111,7 +111,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 2.0d
-			y: -5.0d
+			y: -4.5d
 		}
 		{
 			height: 1.0d
@@ -1867,8 +1867,8 @@
 				item: { count: 1, id: "mysticalagriculture:silicon_seeds" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.5d
+			x: 2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["576ABF43FCF886B7"]
@@ -4717,31 +4717,6 @@
 			]
 			x: -10.0d
 			y: 1.5d
-		}
-		{
-			dependencies: ["576ABF43FCF886B7"]
-			id: "50A0111FAAE75AFB"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "39467AAE54057AEB"
-					table_id: 2427872771413920777L
-					type: "random"
-				}
-				{
-					id: "5EEA3DF095367CBE"
-					type: "xp"
-					xp: 50
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "5B02A4E53699EF4D"
-				item: { count: 1, id: "mysticalagriculture:unexplored_wood_seeds" }
-				type: "item"
-			}]
-			x: 2.5d
-			y: -1.5d
 		}
 	]
 }

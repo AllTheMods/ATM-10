@@ -10,32 +10,14 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "07210DDF872160BA"
-	images: [
-		{
-			height: 0.3d
-			image: "allthetweaks:item/atm_star"
-			rotation: 0.0d
-			width: 0.3d
-			x: 5.0d
-			y: 3.9d
-		}
-		{
-			height: 3.0d
-			image: "atm:textures/questpics/ae2.png"
-			rotation: 0.0d
-			width: 9.27d
-			x: 6.0d
-			y: -3.5d
-		}
-		{
-			height: 1.0d
-			image: "ae2:item/wireless_receiver"
-			rotation: 0.0d
-			width: 1.0d
-			x: 11.0d
-			y: 5.0d
-		}
-	]
+	images: [{
+		height: 0.3d
+		image: "allthetweaks:item/atm_star"
+		rotation: 0.0d
+		width: 0.3d
+		x: 5.0d
+		y: 3.9d
+	}]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -85,9 +67,9 @@
 					type: "random"
 				}
 				{
-					id: "1111DE8707313B36"
+					id: "230CB9AC06A29B7A"
 					type: "xp"
-					xp: 50
+					xp: 10
 				}
 			]
 			tasks: [
@@ -446,9 +428,6 @@
 		}
 		{
 			dependencies: ["40A7CC56DACC2623"]
-			icon: {
-				id: "ae2:interface"
-			}
 			id: "74FC0DDDB91DB172"
 			rewards: [
 				{
@@ -469,14 +448,11 @@
 				item: { components: { "ftbfiltersystem:filter": "item_tag(ae2:interface)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 23.0d
+			x: 24.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["40A7CC56DACC2623"]
-			icon: {
-				id: "ae2:pattern_provider"
-			}
 			id: "51DE3157DE3E57B8"
 			rewards: [
 				{
@@ -950,7 +926,7 @@
 				item: { count: 1, id: "ae2:import_bus" }
 				type: "item"
 			}]
-			x: 22.0d
+			x: 23.0d
 			y: 0.5d
 		}
 		{
@@ -974,7 +950,7 @@
 				item: { count: 1, id: "ae2:export_bus" }
 				type: "item"
 			}]
-			x: 24.0d
+			x: 25.0d
 			y: 0.5d
 		}
 		{
@@ -998,7 +974,7 @@
 				item: { count: 1, id: "ae2:annihilation_plane" }
 				type: "item"
 			}]
-			x: 22.0d
+			x: 23.0d
 			y: -1.5d
 		}
 		{
@@ -1022,7 +998,7 @@
 				item: { count: 1, id: "ae2:formation_plane" }
 				type: "item"
 			}]
-			x: 24.0d
+			x: 25.0d
 			y: -1.5d
 		}
 		{
@@ -1046,7 +1022,7 @@
 				item: { count: 1, id: "ae2:me_p2p_tunnel" }
 				type: "item"
 			}]
-			x: 25.0d
+			x: 26.0d
 			y: 1.5d
 		}
 		{
@@ -1070,7 +1046,7 @@
 				item: { count: 1, id: "ae2:storage_bus" }
 				type: "item"
 			}]
-			x: 23.0d
+			x: 24.0d
 			y: -0.5d
 		}
 		{
@@ -1094,7 +1070,7 @@
 				item: { count: 1, id: "ae2:memory_card" }
 				type: "item"
 			}]
-			x: 25.0d
+			x: 26.0d
 			y: -0.5d
 		}
 		{
@@ -1189,7 +1165,7 @@
 				item: { count: 1, id: "ae2:capacity_card" }
 				type: "item"
 			}]
-			x: 23.0d
+			x: 24.0d
 			y: -2.5d
 		}
 		{
@@ -1213,7 +1189,7 @@
 				item: { count: 1, id: "ae2:quartz_fiber" }
 				type: "item"
 			}]
-			x: 24.0d
+			x: 25.0d
 			y: 2.5d
 		}
 		{
@@ -1429,7 +1405,7 @@
 				type: "item"
 			}]
 			x: 16.5d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["01F3F0C25BA72BDA"]
@@ -1452,7 +1428,7 @@
 				type: "item"
 			}]
 			x: 19.5d
-			y: 6.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["18DFB25DC48D8BF7"]
@@ -1475,7 +1451,7 @@
 				type: "item"
 			}]
 			x: 20.5d
-			y: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["18DFB25DC48D8BF7"]
@@ -1498,7 +1474,7 @@
 				type: "item"
 			}]
 			x: 18.5d
-			y: 5.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["51DE3157DE3E57B8"]
@@ -1865,7 +1841,7 @@
 					type: "item"
 				}
 			]
-			x: 25.0d
+			x: 26.0d
 			y: -2.5d
 		}
 		{

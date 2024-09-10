@@ -58,11 +58,19 @@
 		}
 		{
 			height: 1.0d
+			image: "minecraft:item/torchflower_seeds"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
 			image: "aquaculture:item/message_in_a_bottle"
 			rotation: 0.0d
 			width: 1.0d
-			x: -6.0d
-			y: 0.0d
+			x: -4.0d
+			y: 1.0d
 		}
 		{
 			height: 1.0d
@@ -328,9 +336,6 @@
 		}
 		{
 			dependencies: ["1D2EF12FD7FDD217"]
-			icon: {
-				id: "minecraft:chicken"
-			}
 			id: "1697CC05D08B388D"
 			rewards: [{
 				id: "7A84544510F1D4EE"
@@ -411,7 +416,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0A1C2A7A8617D3E4"]
@@ -428,7 +433,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["72717D1135486D7F"]
@@ -454,7 +459,7 @@
 				item: { count: 1, id: "minecraft:sugar_cane" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: 1.0d
 		}
 		{
@@ -881,7 +886,7 @@
 				item: { count: 1, id: "minecraft:sugar" }
 				type: "item"
 			}]
-			x: -6.5d
+			x: -7.0d
 			y: 1.0d
 		}
 		{
