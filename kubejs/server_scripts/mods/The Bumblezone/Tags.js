@@ -2,12 +2,7 @@
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
 ServerEvents.tags('item', event => {
-    event.add('functionalstorage:ignore_crafting_check', 'productivebees:draconic_dust')
-    event.add('c:storage_blocks/niter', '#c:storage_blocks/saltpeter')
-    event.add('c:dusts/niter', '#c:dusts/saltpeter')
-})
-ServerEvents.tags('block', event => {
-    event.add('c:storage_blocks/niter', '#c:storage_blocks/saltpeter')
+    event.remove('the_bumblezone:tradeable_saplings', 'productivetrees:alder_sapling')
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
