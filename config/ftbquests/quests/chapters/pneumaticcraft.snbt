@@ -1929,22 +1929,6 @@
 			y: 5.5d
 		}
 		{
-			dependencies: ["63F6F4EBCEB914B0"]
-			id: "04E9253AB8F17A07"
-			rewards: [{
-				id: "52C4BF4390694816"
-				type: "xp"
-				xp: 50
-			}]
-			tasks: [{
-				id: "20EB6B224B8E8304"
-				item: { count: 1, id: "minecraft:enchanted_book" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: 5.5d
-		}
-		{
 			dependencies: ["40F634AC38F42B88"]
 			id: "7FB12EC3A5888123"
 			optional: true
@@ -2267,11 +2251,8 @@
 				}
 			]
 			tasks: [{
-				icon: {
-					id: "pneumaticcraft:jackhammer"
-				}
 				id: "7902D4BF9699E1C0"
-				item: { }
+				item: { count: 1, id: "pneumaticcraft:jackhammer" }
 				type: "item"
 			}]
 			x: 13.0d
