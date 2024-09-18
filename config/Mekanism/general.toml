@@ -145,7 +145,7 @@ maxSolarNeutronActivatorRate = 256
 #Settings for configuring the Oredictionificator
 [oredictionificator]
 	#The list of valid tag prefixes for the Oredictionificator. Note: It is highly recommended to only include well known/defined tag prefixes otherwise it is very easy to potentially add accidental conversions for things that are not actually equivalent.
-	validItemFilters = ["c:dusts/", "c:ingots/", "c:nuggets/", "c:ores/", "c:raw_materials/", "c:storage_blocks/"]
+	validItemFilters = ["c:dusts/", "c:ingots/", "c:nuggets/", "c:ores/", "c:raw_materials/", "c:storage_blocks/", "c:silicon"]
 
 #Settings for configuring Electric Pumps and Fluidic Plenishers
 [pump]

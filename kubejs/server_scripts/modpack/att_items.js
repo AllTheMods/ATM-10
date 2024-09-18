@@ -42,7 +42,7 @@ ServerEvents.recipes(allthemods => {
     // Withers Compass
     allthemods.shaped('allthetweaks:withers_compass', ['DCD', 'ABA', 'DED'], {
       A: 'minecraft:bedrock',
-      B: 'minecraft:bedrock',
+      B: 'industrialforegoing:wither_builder',
       C: 'deeperdarker:heart_of_the_deep',
       D: 'minecraft:bedrock',
       E: 'minecraft:bedrock'
