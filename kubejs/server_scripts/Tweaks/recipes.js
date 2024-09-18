@@ -28,7 +28,10 @@ ServerEvents.recipes(allthemods => {
         }
     )
 
-    // makes recipes for concrete from concrete powder usingg water buckets
+    // Remove Duplicate Paper Recipe
+    allthemods.remove({ id: 'minecraft:paper' })
+
+    // Concrete from Concrete Powder using Water Buckets
     const colors = [
         'white', 'yellow', 'orange', 'red', 'pink', 'magenta', 'purple', 'light_blue', 'cyan', 'blue', 'lime', 'green', 'brown', 'light_gray', 'gray', 'black'
     ];
