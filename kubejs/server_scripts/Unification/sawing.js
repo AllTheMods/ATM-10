@@ -56,7 +56,7 @@ ServerEvents.recipes(allthemods => {
     let logsTag = Ingredient.of("#minecraft:logs")
 
     /** @type {$HashMap_<string, $UnknownKubeRecipe_>}} */
-    let prodSawmillRecipes = allthemods.findRecipes({type: "productivetrees:sawmill"}).stream().collect($Collectors.toMap(r => r.json.asMap().planks.get("id").asString, r => r))
+    let prodSawmillRecipes = allthemods.findRecipes({type: "productivetrees:sawmill"}).stream().collect($Collectors.toMap(r => r.json.asMap().output.get("id").asString, r => r))
     /** @type {$HashMap_<string, $UnknownKubeRecipe_>}} */
     let mekSawmillRecipes = allthemods.findRecipes({type: "mekanism:sawing"}).stream().filter(r => r.json.asMap().main_output != undefined && logsTag.test(Ingredient.of(r.json.asMap().input.has("ingredient") ? r.json.asMap().input.get("ingredient") : r.json.asMap().input))).collect($Collectors.toMap(r => r.json.asMap().main_output.get("id").asString, r => r))
     
@@ -83,8 +83,8 @@ ServerEvents.recipes(allthemods => {
         }
         allthemods.custom({
             "type": "productivetrees:sawmill",
-            "log": log,
-            "planks": planks,
+            "input": log,
+            "output": planks,
             "secondary": secondary
         }).id(`allthemods:productivetrees/sawing/${id}`);
     }
