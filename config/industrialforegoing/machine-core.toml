@@ -1,0 +1,33 @@
+	[MachineCoreConfig.LatexProcessingUnitConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Tick - Default: [400FE]
+		powerPerTick = 20
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Max Amount of Stored Fluid [Latex] - Default: [8000mB]
+		maxLatexTankSize = 16000
+		#Max Amount of Stored Fluid [Water] - Default: [8000mB]
+		maxWaterTankSize = 16000
+
+	[MachineCoreConfig.FluidExtractorConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Operation - Default: [10FE] - This is Calculated as [VALUE * (amount + 1)]
+		powerPerOperation = 500
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Max Amount of Stored Fluid [Latex] - Default: [8000mB]
+		maxLatexTankSize = 1000
+
+	[MachineCoreConfig.DissolutionChamberConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Tick - Default: [60FE]
+		powerPerTick = 90
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Max Amount of Stored Fluid [Input] - Default: [8000mB]
+		maxInputTankSize = 8000
+		#Max Amount of Stored Fluid [Output] - Default: [8000mB]
+		maxOutputTankSize = 16000
