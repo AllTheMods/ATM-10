@@ -1113,7 +1113,6 @@
 	]
 	quest.0B68E3C046C82860.title: "&6Deorum"
 	quest.0B70D40FA951E13B.quest_subtitle: "Oak + Birch"
-	quest.0B7E3FD8B8CB04A2.title: "Simple Black Hole Storage"
 	quest.0B7F2B63D867D221.quest_desc: ["Once you get to the bottom of the &eCursed Pyramid&r you might notice that the &eAncient Remnant&r doesn't move much. That's because you'll need a Necklace of Desert to ressurect the beast. To find it you'll need to brush the sus sand in the &eCursed Pyramid&r. (Hope you read this before heading all the way down)."]
 	quest.0B7F2B63D867D221.quest_subtitle: "Resurecting an Ancient Remnant"
 	quest.0B7F2B63D867D221.title: "Necklace of the desert"
@@ -1137,6 +1136,8 @@
 	quest.0BB367839D28607D.title: "Coal Generator"
 	quest.0BB562FB44B0AAA7.quest_desc: ["Cards aren't the only ones with limits, so they also aren't the only ones with Overclockers! \\n\\nThese go into the &cNode&r itself on bottom right and boost how fast it does Operations."]
 	quest.0BB562FB44B0AAA7.quest_subtitle: "Max: 8"
+	quest.0BCCDE24D378F260.quest_subtitle: "Tier: &d3"
+	quest.0BCCDE24D378F260.title: "&dAdvanced Machine Frame"
 	quest.0BD908937BC6E97B.quest_subtitle: "Kapok + Rosewood"
 	quest.0BE2E7C9454058C3.quest_desc: [
 		"Part of the beautiful &d&lFloral Meadow&r is a &dCherry Tree&r much older and bigger than the rest. \\n\\nThe &6B&8e&6e&8s&r have seemed to take a liking to these &dTrees&r and have set up mini &eHives&r next to them full of their young!"
@@ -1460,7 +1461,8 @@
 		""
 		"Once selected with the Ritual Diviner, right click on a Master Ritual Stone until the structure is complete. You will need a bunch of Ritual Stones to perform these rituals. Once the structure is fully built, you can right click the Master Ritual Stone with a Weak Activation Crystal to activate it."
 	]
-	quest.0E8647B8EB4AAC41.title: "Pink Slime \\\\& Liquid Meat"
+	quest.0E8647B8EB4AAC41.quest_desc: ["Passive Mobs -> More Pink Slime.\\nHostile Mobs -> More Meat."]
+	quest.0E8647B8EB4AAC41.title: "Pink Slime \\& Liquid Meat"
 	quest.0E9DE6293DF611E1.quest_desc: [
 		"Want to make the Overworld feel more like the Twilight Forest?"
 		""
@@ -1470,7 +1472,7 @@
 	]
 	quest.0EA56C514D26BA69.quest_desc: ["Now that we have the Superconductor in ingot form, we can finally process it out into the wire that we need!"]
 	quest.0EA56C514D26BA69.quest_subtitle: "Ingot form"
-	quest.0EA9E52B67B533DF.quest_desc: ["When smelted, gives Plastic, which is the main resource in Industrial Foregoing"]
+	quest.0EA9E52B67B533DF.quest_desc: ["When Rubber is smelted it turns into Plastic, which is the main resource in Industrial Foregoing."]
 	quest.0EADCEA9AB001FC7.quest_desc: [
 		"Very simple Heat Source. Place under the Machine and feed it Furnace Fuel: Coal, Logs, Dried Kelp Blocks."
 		"{image:atm:textures/questpics/theurgy/theurgy_brazier.png width:100 height:100 align:center}"
@@ -1479,6 +1481,7 @@
 	quest.0EAF01037BB20BCB.quest_subtitle: "{atm9.quest.evilcraft.subt.summonsZombies}"
 	quest.0EB5B926E1FBAF0E.quest_desc: ["Enchanting gets a few changes with Apotheosis. To summarize it, 15 bookshelves won't be enough now. There's new bookshelves and actions you can do with Enchantment Tables now and hopefully these quests will help you understand."]
 	quest.0EB5B926E1FBAF0E.title: "Enchanting with Apotheosis"
+	quest.0EC2053B191C55C6.quest_desc: ["Extracts latex from logs, runs faster when given power.\\n\\nCheck EMI for acceptable logs and Latex amounts. The best log to use is Acacia."]
 	quest.0ED7B25DC1AA767B.quest_subtitle: "Growing Trees"
 	quest.0EE2D22A577D10B0.quest_desc: [
 		"This rune accelerates the operations of other runes, like the Charging or Displacement Rune."
@@ -1589,14 +1592,8 @@
 		""
 		"To do this, place the &dManastar&r next to a pool, and watch for the color of the flower to change. If it shines red, the pool is operating at a loss. If it shines blue, there is a profit!"
 	]
-	quest.0FAAE744E156D8EF.quest_desc: [
-		"The &bMycelial Reactor&r consists of all the Mycelial Generators working at the same time, near the reactor block, and it produces a total of &a25MFE/t&r."
-		""
-		"All sounds good, but you need to automate some stuff to get it working, see what each Mycelial Generator consumes to work, and automate it, most things are simple, but others, not that much... &olooking at Disenchanting Mycelial Generator&r."
-		""
-		"But after you get it all automated, you don't need to stop at one, you can make more reactors."
-	]
-	quest.0FAAE744E156D8EF.title: "Mycelial Reactor? Huh?"
+	quest.0FAAE744E156D8EF.quest_desc: ["The &bMycelial Reactor&r consists of all the Mycelial Generators working at the same time, near the reactor block, and it produces a total of &a25MFE/t&r.\\n\\nAll sounds good, but you need to automate some stuff to get it working, see what each Mycelial Generator consumes to work, and automate it, most things are simple, but others, not that much... &olooking at Disenchanting Mycelial Generator&r.\\n\\nBut after you get it all automated, you don't need to stop at one, you can make more reactors."]
+	quest.0FAAE744E156D8EF.quest_subtitle: "Mycelial Reactor, huh?"
 	quest.0FAF274ADA65B26A.quest_desc: [
 		"Portal Fluid is a mysterious green fluid vital in the opertaion of the Advanced Portal Gun."
 		""
@@ -2178,7 +2175,6 @@
 		""
 		"Essence Watering cans have the ability of auto-watering. Just shift-right-click the Watering Can in the air to toggle auto-watering on or off. It will look like the Watering Can is enchanted when it's turned on."
 	]
-	quest.163BEB03C415E187.title: "Common Black Hole Storage"
 	quest.16522A3A1E66C914.quest_desc: ["Yet again, we revisit the EBF's and upgrade the coils, a necessary process so that we can process metals and alloys through the EBF's."]
 	quest.16522A3A1E66C914.quest_subtitle: "Trinium Coils are nice"
 	quest.166971866A9234C7.quest_desc: ["Infusing Iron with Redstone in a Metallurgic Infuser will get you one of these."]
@@ -2649,20 +2645,8 @@
 	quest.1B700DB77B970E35.quest_subtitle: "Tier &b4"
 	quest.1B72E95569B07E18.quest_subtitle: "x24 Storage Upgrade"
 	quest.1B72E95569B07E18.title: "&bDiamond Upgrade&r"
-	quest.1BA3D15FFE7DBE59.quest_desc: [
-		"Welcome to &bIndustrial Foregoing&r, one of the main resources in this mod, is &fLatex.&r Its used to craft machine frames, needed to make.. well... machines, and upgrades."
-		""
-		"&oJEI is your friend&r"
-		""
-		"Making Latex is pretty simple, &aFluid Extractor&r extracts Latex from &6Logs&r (Acacia gives the most)."
-		""
-		"------------------------"
-		""
-		"Now about making Plastic: Plastic results from smelting Dry Rubber - which is made in the &aLatex Processing Unit&r, that transforms Latex into Dry Rubber."
-		""
-		"&bSo basically Latex -> Dry Rubber -> Plastic.&r"
-	]
-	quest.1BA3D15FFE7DBE59.title: "Latex and Plastic? Huh?"
+	quest.1BA3D15FFE7DBE59.quest_desc: ["In &bIndustrial Foregoing&r, one of the main resources is &fLatex.&r Its used to craft Machine Frames, needed to make machines and upgrades.\\n\\nMaking Latex is pretty simple, &aFluid Extractor&r extracts Latex from &6Logs&r (Acacia gives the most).\\n\\n------------------------\\n\\nNow about making Plastic: Plastic results from smelting Dry Rubber - which is made in the &aLatex Processing Unit&r, that transforms Latex into Dry Rubber.\\n\\n&bSo basically Latex -> Dry Rubber -> Plastic."]
+	quest.1BA3D15FFE7DBE59.quest_subtitle: "Latex and Plastic? Huh?"
 	quest.1BB1E43FFE3FD451.quest_subtitle: "The Star that started it all"
 	quest.1BC611E39465B026.quest_subtitle: "Wenge + Silver Lime"
 	quest.1BCA04665A8F5EF5.quest_desc: ["Instantly moisten farmland it creates. Do we know if there is a better word for that?"]
@@ -4284,7 +4268,7 @@
 	quest.2CC97CF32D9C017B.title: "&dFaster Furnaces&r"
 	quest.2CCAA7C0FEDEB573.quest_desc: ["If you are like most this is the power you are after. All you do is place it as high as you can and get free power. "]
 	quest.2CCAA7C0FEDEB573.title: "Wind Power"
-	quest.2CCFEE98FE3B2E97.quest_desc: ["Automate block placing/breaking using these, especially useful when automating latex."]
+	quest.2CCFEE98FE3B2E97.quest_desc: ["These machines are used to automate block placing/breaking. This is especially useful when automating latex."]
 	quest.2CCFEE98FE3B2E97.title: "Blocks"
 	quest.2CD58FC229BC0C28.quest_desc: ["The Gauntlet of Guard is more of a tool than a weapon, it brings in mobs closer when you hold right click with it. Then you can smack the enemies with it to do a bit of damage."]
 	quest.2CD58FC229BC0C28.title: "Gauntlet of Guard"
@@ -4497,6 +4481,7 @@
 		"Cells can also be given a higher or lower 'priority' via the workbench, i.e. allow the cell to be the first to receive certain items until full, or made to wait for other higher-priority cells to fill up first."
 	]
 	quest.2F556E7919582D2D.title: "Cell Workbench"
+	quest.2F69010E1FA2787D.quest_desc: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. \\n\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. \\n\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
 	quest.2F71FCE4E576C977.quest_subtitle: "Generates Power using Lava!"
 	quest.2F86FB9E4D49E4B0.quest_desc: [
 		"Vaild Upgrades:"
@@ -4530,7 +4515,7 @@
 	]
 	quest.3017721842588919.title: "Space Stations"
 	quest.3025081DA6D2B398.quest_desc: ["Usually the Router commands the Modules but with this Augment the Module goes rouge! AWOl! Pure anarchy! \\n\\nIt will listen to it's own Redstone activation rather than the Routers."]
-	quest.3027584AA6138E6D.title: "Conveyor Insertion \\\\& Extraction"
+	quest.3027584AA6138E6D.title: "Conveyor Insertion \\& Extraction"
 	quest.3029E1E133B91ED8.quest_desc: ["The &n&5Drill&r will break any block in front of it. If it has a connected inventory, the items will be stored in it."]
 	quest.303A3AFA49DAC64F.quest_desc: [
 		"Now we can bring a new Tier of power to our Multiblocks!"
@@ -4746,6 +4731,7 @@
 	quest.321F16645640C462.quest_desc: ["Enderpearls are a fun way of travel! (Helpful for the Bumblezone, I wonder if we'll get a Quest chapter for that Mod!) But don't you hate that the Enderpearl gets consumed on use and takes 2 Hearts of damage with each use? \\n\\nWith &9Warp Drive&r that all goes away, clearly making Enderpearls the greatest transportation! Hunger gets consumed instead of the Enderpearl and no longer take damage from using an Enderpearl. When all Hunger Bars are depleted it will go back to consuming Enderpearls."]
 	quest.321F16645640C462.quest_subtitle: "Belt"
 	quest.321F16645640C462.title: "&9Warp Drive&r"
+	quest.321FA7348E532F4E.title: "Latex"
 	quest.322FD8BB46FB653C.quest_desc: [
 		"Of course we need a large format way to make all those magnetic rods that we use for all of our recipies!"
 		""
@@ -4851,6 +4837,7 @@
 	quest.33433A443B65D252.title: "&bFluid Pipez"
 	quest.33436ED0D9F128BD.quest_desc: ["&4Augment&r: Smoking transforms your Iron Furnace into an Iron Smoker. Now it will only smoke Food items but twice as fast! Like &4Augment&r: Blasting this one also stacks with other upgrades!"]
 	quest.33436ED0D9F128BD.title: "&4Augment&r: Smoking"
+	quest.33532408B21A5378.quest_desc: ["The Pitiful Generator generates a small amount of FE using burnable fuels like Coal."]
 	quest.33590A79C5C554C8.quest_desc: [
 		"You may have noticed that 4A of LV (32 EU/t/A) would be 128 EU/t"
 		""
@@ -4882,7 +4869,7 @@
 	quest.33882172DA8021F6.title: "Refill Upgrade"
 	quest.339384ADC9CDB944.title: "Knowing"
 	quest.33977CEF056F0A13.quest_subtitle: "Alder + Rowan"
-	quest.339DF320DDCAD98B.title: "Item \\\\& Fluid Transport"
+	quest.339DF320DDCAD98B.title: "Item \\& Fluid Transport"
 	quest.33A0E06FE5CFD8F3.quest_desc: ["The &9Centrifuge&r is used to process Combs from Bees into useful items and honey! While you can definitely just use a regular &9Centrifuge&r in the beginning, getting a &6Powered Centrifuge&r soon after is a must. This is a faster Centrifuge that runs off of power!\\n\\nIf you're looking for the best way to process your Combs, the &cHeated Centrifuge&r is even faster and can even process &aComb Blocks&r!\\n\\nThese can all be made faster by using Speed Upgrades."]
 	quest.33A0E06FE5CFD8F3.quest_subtitle: "Processing Honeycombs"
 	quest.33ADE41526C39AFD.quest_desc: ["This behaviour is comparable to something like a Functional Storage drawer, wherein each compartment holds a set number of stacks as opposed to allowing items from one compartment to leak into the others and crowd other kinds of items out."]
@@ -4966,6 +4953,8 @@
 	quest.3513D89C6FD2D852.quest_desc: ["The Scepter shoots out energy orbs when charged up with Right-Click. If a mob is hit, it'll strike it with lightning."]
 	quest.3513D89C6FD2D852.quest_subtitle: "Go Pew Pew"
 	quest.3513D89C6FD2D852.title: "&1Draco Weapons"
+	quest.3514E9C1A8C7400C.quest_subtitle: "Tier: &b2"
+	quest.3514E9C1A8C7400C.title: "&bSimple Machine Frame"
 	quest.351769579833FA9E.title: "Bee-laxing with the Hom-bees"
 	quest.3525D5DCC3A534D9.quest_desc: ["Now these are one of my favorites! \\n\\n&9Digging Claws&r will 1. Increase your Mining Speed, so basically a level of Efficiency on all Pickaxes, and 2. Makes your Fists act as a Stone Pickaxe! \\n\\nSuper helpful for building and just playing in general!"]
 	quest.3525D5DCC3A534D9.quest_subtitle: "Hands"
@@ -5572,13 +5561,13 @@
 	quest.3CA2D15D1EC4D852.title: "System on Chip"
 	quest.3CB6DC5B09C62CFE.quest_desc: ["&5Ender Gates&r are used to transfer power wirelessly to and from an adjacent block into the &7Ender Network&r.\\n\\nThink of these like wireless access points to your wireless network of power.\\n\\nNote: You can only add &apower storage capacity&r using an Ender Cell."]
 	quest.3CB7884B7B32CF00.quest_desc: [
-		"Getting your first &bEther Gas&r is going to be scary."
-		"&bEther Gas&r is made from drilling a &0Wither&r, using a Fluid Drill with &5Purple Lens&r."
+		"Getting your first &bEther Gas&r might be a little bit scary.\\n\\n&bEther Gas&r is made from drilling a Wither, using a Fluid Drill with a &5Purple Lens&r."
 		""
-		"But worry not, Industrial Foregoing has a machine just to help you in that task: &4Stasis Chamber&r - this machine freezes in place anything that is on top, in a 3x3 area, so spawning a wither on there is safe."
+		"But don't worry about the Wither, Industrial Foregoing has a machine just to help you with that task. The &4Stasis Chamber&r is a machine that freezes in place anything that is on top of it in a 3x3 area, including the Wither."
 		""
-		"&cHope you don't run out of power, because if you do... well... i hope you are ready to fight the &0Wither&r."
+		"&cHope you don't run out of power, because if you do... I hope you're ready to fight the &0Wither&c."
 	]
+	quest.3CB7884B7B32CF00.quest_subtitle: "Ether Gas? Huh?"
 	quest.3CBB78C9B8D3665E.quest_desc: [
 		"&lAbility Type:&r Passive"
 		""
@@ -5744,7 +5733,8 @@
 		""
 		"Doubling speed will also double the stress in the system."
 	]
-	quest.3E6706BC4C318A40.title: "Other Machines"
+	quest.3E6706BC4C318A40.quest_desc: ["The Sewer is used to make Sewage, which is used to make Fertilizer."]
+	quest.3E6706BC4C318A40.title: "Sewer"
 	quest.3E75AFE3482834C5.quest_desc: ["&lRailCraft&r is an entire mod based off &5Trains&r! \\n\\nFrom &7Minecarts&r to &eElectric Locomotives&r to &9Tunnel Bores&r! It has everything &5Train&r accessory wise as well! Traffic Lights, Steam Boilers to power &5Trains&r, and automation for it all. \\n\\nThe model Mod for Model &5Train&r Lovers!"]
 	quest.3E75AFE3482834C5.title: "&7&lRailCraft&r"
 	quest.3E78FA34A7D40044.quest_subtitle: "&fTier 2&r"
@@ -6066,7 +6056,9 @@
 	quest.4189BC3DFB551F4C.title: "Creating Power with the Turbine!"
 	quest.418E02FFE241A734.quest_desc: ["Liquid Helium Plasma. Ensure your processing lines are making enough Helium"]
 	quest.418E02FFE241A734.quest_subtitle: "The"
-	quest.418E57E34FFC19E1.title: "Laser Drills (Void Miner)"
+	quest.418E57E34FFC19E1.quest_desc: ["Suggestion: Use some sort of Wither-Proof Glass."]
+	quest.418E57E34FFC19E1.quest_subtitle: "Void Miner"
+	quest.418E57E34FFC19E1.title: "Laser Drill"
 	quest.4193303999597249.quest_desc: [
 		"Welcome to the &9Twilight Forest&r!"
 		""
@@ -6104,6 +6096,7 @@
 	quest.41CF7CAEE4F60CCD.quest_desc: ["When placed in the Nether and given Glowstone, the Glowstone Nest will lure in a Glowing Bee."]
 	quest.41CF7CAEE4F60CCD.quest_subtitle: "Lures a Glowing Bee in the Nether"
 	quest.41DBE44D7AA0B623.quest_desc: ["The Tinkering Table is how you add these augments to your essence gear!"]
+	quest.41E8550FC36ABCA5.title: "Infinity Tools"
 	quest.41EB0C570FC54F43.quest_desc: ["This block stores gases."]
 	quest.41EB0C570FC54F43.quest_subtitle: "Storing All That Gas"
 	quest.41EE8B40BA43DADE.quest_desc: ["The first tier of &3High Speed Steel&r, you'll end up making a LOT of this stuff as it serves as the base for the other variants of HSS Dusts"]
@@ -7048,7 +7041,7 @@
 		"But the benefits are astounding. So give it a shot. It dual functions as a resource generator, and a power generator. The power gen numbers are insane."
 	]
 	quest.4C33366BAD0256CF.quest_subtitle: "Huh?"
-	quest.4C366515E3CCB0B2.quest_desc: ["Meat through a tube, yummy"]
+	quest.4C366515E3CCB0B2.quest_desc: ["Meat through a tube, yummy."]
 	quest.4C3B7BAEA653587B.quest_desc: ["These can be found in chests inside Desert Pyramids."]
 	quest.4C3B7BAEA653587B.quest_subtitle: "Desert Pyramid Chests"
 	quest.4C41FD926F31180B.quest_desc: ["In order to move &2Items&r with &c&lLaserIO&r you'll need some &2Item Cards&r. \\n\\nSet one to Extract and put it on the side of the &cLaser Node&r you want to Import from. Then set the other to Insert and put it to the side you want the Items to Export to. \\n\\nThere are mutliple settings you can change with the Extract in order of where you want the Items to go if there's multiple places to Extract from. Round Robin will make it Extract items in an order instead of closest Inventory first."]
@@ -7175,6 +7168,7 @@
 		"Fine. Heres a 4A UV Energy Hatch! Now you can run your machines at UHV speeds! If UV was not enough, now you really got the power!"
 	]
 	quest.4DB3A860A30D7BF5.quest_subtitle: "Need More?"
+	quest.4DB5DD6E20619B4D.quest_desc: ["Used to make machines better."]
 	quest.4DCEC4B97E24B6F1.quest_subtitle: "&f17&r &4Damage&r"
 	quest.4DD7F3508B757EF0.quest_desc: ["Insert a block of ruby into your cutter to get nine ruby plates"]
 	quest.4DDFD3BAA86DC342.quest_desc: ["The UHPIC chip once the wafer is broken down into chips by a Cutting machine."]
@@ -7831,6 +7825,7 @@
 		""
 		"Sometimes though, we'll need to throw this dust into the &eEBF&r on &aProgram 1&r to get the hot ingot, then cool it off in the &eVacuum Freezer&r to acquire the &3Tungsten Ingot&r"
 	]
+	quest.540B857F043C24D5.quest_desc: ["The Bioreactor uses Biofuel made from the Biofuel Generator to generate FE."]
 	quest.540B857F043C24D5.title: "Bio Power"
 	quest.54118BE76738EB6D.quest_desc: ["Get together a dozen or so of these Exquisite Emeralds, as they will help immensely in these next few steps."]
 	quest.54118BE76738EB6D.quest_subtitle: "Exquisite Might I say?"
@@ -7963,7 +7958,8 @@
 	quest.5563BD4934297522.quest_desc: ["Once you have a Diamond Bee, breed it with the Slimy Bee to create an Emerald Bee!"]
 	quest.5563BD4934297522.quest_subtitle: "Diamond Bee + Slimy Bee"
 	quest.5563BD4934297522.title: "Emerald Bee"
-	quest.55820773BDD5319D.quest_desc: ["Welcome to &aIndustrial Foregoing&f!"]
+	quest.55820773BDD5319D.quest_desc: ["&bIndustrial Foregoing&r (IF for short) is a tech mod that adds many machines with various different uses.\\n\\nTo get started, craft a &aPity Machine Frame&r."]
+	quest.55820773BDD5319D.quest_subtitle: "Tier: &a1"
 	quest.55820773BDD5319D.title: "Industrial Foregoing"
 	quest.55882C10292B6A3D.quest_subtitle: "Feed a Crystalline Bee a Prosperity Block"
 	quest.55882C10292B6A3D.title: "ProsperiBee"
@@ -8121,6 +8117,8 @@
 		"But With greater processing, comes more complications. Power, resources, and processing lines. That doesnt deter us though, right? Thats exactly why we are here!"
 	]
 	quest.57B5100C11F76EE9.quest_subtitle: "What comes after Quantum?"
+	quest.57C4A0BAE739E903.quest_desc: ["The Dissolution Chamber is used to craft more advanced machines.\\n\\nYou will need to put a certain fluid in it along with the items needed for what you are crafting. Check EMI."]
+	quest.57C4A0BAE739E903.quest_subtitle: "The Crafting Table?"
 	quest.57CF8C6C867B9BDA.title: "&eAdvanced Filter Upgrade&r"
 	quest.57D12E37E980FDBB.quest_desc: [
 		"Naquadah Alloy is very important for us to be able to make components for multiblocks and other machines."
@@ -8907,6 +8905,7 @@
 		""
 		"This is found in Hollow Hill chests."
 	]
+	quest.5FE631066CAB7397.quest_desc: ["Used to trap and transport mobs easily."]
 	quest.5FE8521046CA1C8D.quest_desc: ["Double Tungstensteel plating will make for a very durable Star. Maybe this is where it gets its Robustness from."]
 	quest.5FE8521046CA1C8D.quest_subtitle: "Screws for Plates"
 	quest.60069A897F2B0F78.quest_desc: [
@@ -9800,6 +9799,7 @@
 	]
 	quest.6904EC449FBEE387.quest_subtitle: "Connecting The System"
 	quest.6904EC449FBEE387.title: "Cables"
+	quest.690CFF61CE787D43.quest_desc: ["Plastic is the main resource of &bIndustrial Foregoing&r, you now have access to some very useful machines!"]
 	quest.6912C0E3D092DD27.title: "Boots Blueprint"
 	quest.69201157ECFBB426.quest_desc: ["I always hate when I have an &5Endermen&r Farm for either XP or Apotheosis Gems but end up with all these &3Ender Pearls&r (hehe end up, &3ender pearls&r). Now you can use those &3Ender Pearls&r for Energy with the &3Ender Generator&r. You can even make &aEyes of Ender&r for even more Energy!"]
 	quest.69201157ECFBB426.title: "&3Ender Generator"
@@ -10456,6 +10456,7 @@
 		"If you wish to automate this process you can use &eProductive Bees&r. Or I guess you could automate it, with...explosions."
 	]
 	quest.6FD65139CD50A8C0.quest_subtitle: "Tired of blowing stuff up?"
+	quest.6FF04DD735346BED.quest_desc: ["Turns Latex into Dry Rubber."]
 	quest.6FF116239EACA390.title: "End Stone 5X"
 	quest.6FF54B5D953E1797.quest_desc: ["If you know the term '&4Berserk&r' in most gaming, that will help you understand what the &cRage Glove&r does. If you don't know, the basics of &4Berserk&r is when someone gets low health or takes lots of damage, usually they will deal higher damage and be faster. That's what happens with First Ability, when you take damage you accumulate points which can be exchanged for higher damage and speed! \\n \\nThe Second Ability does that passively, and gives you Regeneration per the amount of health you lost. \\n \\nThe Third Ability is an active one, when using it (Alt Tab) you will dash and attack any mob you are looking at. When hit it'll set them on &cFire&r, give them Bleeding, and any accumulated &4Berserk&r points deal extra damage with it!"]
 	quest.6FF54B5D953E1797.quest_subtitle: "Found in Ruined Portals, Nether Fortresses, and Bastions"
@@ -11534,6 +11535,8 @@
 	]
 	quest.7B4AAC741F0A6073.quest_desc: ["Every reactor needs &9Reactor Control Rods&r and &9Fuel Rods&r. These control how fuel is inserted into the reactor.\\n\\nThe Control Rods are placed on the top face of the reactor. You can also have more than one per reactor, but you must have at least 1. Typically, the more you have, the more fuel the reactor can use and burn. That can mean more overall power, but at the cost of higher burn rates, depending on the setup of your reactor.\\n\\nFor every Control Rod, you'll need enough Fuel Rods to extend to the base of the reactor. For example, if your reactor is 5 blocks tall, you'll need 3 Fuel Rods extending from each Control Rod.\\n\\nIf you right-click on a Control Rod, you can control how much fuel is burned in the reactor by inserting or retracting the fuel rods. The further that you extend the rods, the less fuel that will be burned."]
 	quest.7B4AAC741F0A6073.title: "Reactor Control Rods"
+	quest.7B4AF35313D7D779.quest_subtitle: "Tier: &64"
+	quest.7B4AF35313D7D779.title: "&6Supreme Machine Frame"
 	quest.7B524DAD8A33BF85.quest_desc: [
 		"{atm9.quest.evilcraft.desc.veinSword.1}"
 		""
@@ -11809,10 +11812,7 @@
 	]
 	quest.7E17AB5A4492929E.quest_subtitle: "Of Course It Uses Uranium"
 	quest.7E17AB5A4492929E.title: "&aUranium"
-	quest.7E39FB9F3E973009.quest_desc: [
-		"Suggestion:"
-		"Use some sort of wither-proof glass."
-	]
+	quest.7E39FB9F3E973009.title: "Ether Gas"
 	quest.7E407CDBFD85E65F.quest_desc: ["Oxygen + Ethylene on &aProgram 2&r in your &eChemical Reactor&r is one way to make Acetic Acid"]
 	quest.7E697FE6A6C8B4EE.quest_desc: ["These LuV Tier Superconductor ingots will serve us well in making Superconductor Wires, and Fine Wire. "]
 	quest.7E697FE6A6C8B4EE.quest_subtitle: "With Ingots we have options!"
@@ -11996,11 +11996,13 @@
 	reward_table.1DB1EEDA7B79672B.title: "RailCraft: Rails"
 	reward_table.3602F483568B92BA.title: "Chapter 1: Rewards"
 	reward_table.43C220CBD5447FE6.title: "PNC: PCB Tier"
+	reward_table.471CE0CD88F57EDC.title: "IF: Basic Rewards"
 	reward_table.57002573D954732E.title: "PNC: Basic Tier"
 	reward_table.5832C9BCFDB476AF.title: "Ars Nouveau: Rewards"
 	reward_table.5A138D1EDF8AA0C1.title: "PNC: Plastic Tier"
-	reward_table.611A165B35847A5A.title: "Bumble"
+	reward_table.611A165B35847A5A.title: "Bumblezone: Rewards"
 	reward_table.63E11953DD289422.title: "Mekanism: Rewards"
+	reward_table.73E94318B401E916.title: "IF: Advanced Rewards"
 	reward_table.75FE7CDF68581EDE.title: "RailCraft: Random"
 	reward_table.7609CF2A167B45C8.title: "Theurgy: Salt"
 	reward_table.7FB97C5850827C71.title: "PNC: Advanced Tier"
@@ -12026,6 +12028,7 @@
 	task.047722F89EBCC4DE.title: "Valid Ores"
 	task.04CFF2F4E5B3813B.title: "Observed a Completed Large Chemical Bath"
 	task.04E3568175E66B6D.title: "Observe completed Cracker"
+	task.05072073E048223B.title: "Quests By AllTheMods"
 	task.05A215BE7EE2F35D.title: "Observe Uranium Hexafluoride in a Machine"
 	task.05E237133AC3F46B.title: "Nickel Comb"
 	task.065E5450AC87F1D5.title: "Ancient Comb"
@@ -12112,7 +12115,7 @@
 	task.1E77B21EA9F2E9A7.title: "Fueled Fireboxes"
 	task.1E8B8C302718AFB5.title: "Any Blue Skies Wooden Pickaxe"
 	task.1EEC7B67E037F766.title: "Understanding Pressure"
-	task.1F1A69738DE70DB6.title: "Mycelial Reactor, huh?"
+	task.1F1A69738DE70DB6.title: "The Mycelial Reactor"
 	task.1F70E547B959D9A0.title: "&5The Arachnarch"
 	task.1F929F1DF23460AE.title: "Binding Cards"
 	task.1FFAC5E733A2680C.title: "Scythes"
@@ -12136,6 +12139,7 @@
 	task.299DE26FF7293F34.title: "Electrum Comb"
 	task.29C1F4339267D35B.title: "Tungsten Dust"
 	task.29D6CA9A77ACACC6.title: "Observe Uranium Oxide in a Machine"
+	task.29F056B23D70B9F7.title: "Quests By AllTheMods"
 	task.2A13A1B1A85C2981.title: "Observe a completed SPS"
 	task.2A2D77813F3127A6.title: "Rails"
 	task.2A6E713A062510B6.title: "Fueling the Reactor"
@@ -12167,7 +12171,7 @@
 	task.323A434E1AF54408.title: "Hoes"
 	task.323D34AF775A642B.title: "Sickles"
 	task.3282910297C28795.title: "AllRightsReserved"
-	task.335D80E83360A7DB.title: "Ether Gas? Huh?"
+	task.335D80E83360A7DB.title: "Understanding Ether Gas"
 	task.337725ECA2C04090.title: "Logical Transporters"
 	task.338A6DA0D711B7DC.title: "ME Pattern Provider"
 	task.339A5D32CC00D60C.title: "AllRightsReserved"
@@ -12192,8 +12196,9 @@
 	task.386645685E595D4D.title: "PHOBIA ALERT"
 	task.388545A0E3B4930D.title: "AllRightsReserved"
 	task.38B6F45109CB033A.title: "AllRightsReserved"
+	task.38E166AC8F55D42E.title: "Upgrades"
 	task.38E290AC5E011888.title: "ME Dense Smart Cables"
-	task.391AB5CA0E5C35FD.title: "Latex? Huh?"
+	task.391AB5CA0E5C35FD.title: "Understanding Latex and Plastic"
 	task.395D321BFFDB098A.title: "Junction Tracks"
 	task.39A95AE27E68114B.title: "Land on the Moon!"
 	task.39AB837F238D57BD.title: "Fusion Reactor Resources"
@@ -12346,6 +12351,7 @@
 	task.695A0E0BC4B78AEC.title: "This will be the main ingredient for most of this mod's items and blocks."
 	task.6A4FADC04E1C9DA7.title: "Steam Boiler Tanks"
 	task.6A965CD027BF762F.title: "AllRightsReserved"
+	task.6B17A0D9906E8C90.title: "AllRightsReserved"
 	task.6B580F95A2E5A465.title: "AllRightsReserved"
 	task.6C12449632AD53DC.title: "Track Kits"
 	task.6C3887D42B6B2122.title: "Familiars"
@@ -12364,6 +12370,7 @@
 	task.6E75525A5D88EF23.title: "Heaters"
 	task.6F07606E3F7BE160.title: "Jump Start"
 	task.6F7A953BDE02EF55.title: "&5The Starlit Crusher"
+	task.7058D3373DA87B34.title: "AllRightsReserved"
 	task.705AE21001A4E9C7.title: "Radial Enchancement"
 	task.71567A9437A86C2F.title: "Any MV Energy Converter"
 	task.71AF3878DBC0AB29.title: "Programmed Circuits"
