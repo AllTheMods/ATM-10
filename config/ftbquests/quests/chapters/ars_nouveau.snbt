@@ -7,19 +7,40 @@
 		id: "ars_nouveau:source_gem"
 	}
 	id: "6AEDA2F9BEB57759"
-	images: [{
-		height: 0.3d
-		image: "allthetweaks:item/atm_star"
-		rotation: 0.0d
-		width: 0.3d
-		x: 7.5d
-		y: 7.7d
-	}]
+	images: [
+		{
+			height: 0.3d
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 7.5d
+			y: 7.7d
+		}
+		{
+			height: 1.0d
+			image: "ars_nouveau:item/starbuncle_shards"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: -4.3d
+		}
+		{
+			height: 1.5d
+			image: "atm:textures/questpics/ars/ars_nouveau_title.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: 4.5d
+			y: -2.0d
+		}
+	]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "ars_nouveau:worn_notebook"
+			}
 			id: "6E0E13806F388D7E"
 			rewards: [
 				{
@@ -39,8 +60,9 @@
 			shape: "gear"
 			size: 1.5d
 			tasks: [{
-				id: "33CEC23CAF6DA6A6"
-				type: "checkmark"
+				id: "51A617F8FBBFA712"
+				item: { count: 1, id: "minecraft:book" }
+				type: "item"
 			}]
 			x: -6.25d
 			y: 0.0d
@@ -68,8 +90,8 @@
 				item: { count: 1, id: "ars_nouveau:starbuncle_charm" }
 				type: "item"
 			}]
-			x: 11.0d
-			y: -3.5d
+			x: 10.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["1D86B2E553503E53"]
@@ -217,7 +239,7 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["63DD7F5A4441ACE7"]
+			dependencies: ["441C0659ED28D935"]
 			id: "295703FC5B92D0E6"
 			rewards: [{
 				id: "7331621CFCEB6185"
@@ -230,7 +252,7 @@
 				item: { count: 1, id: "ars_nouveau:glyph_slowfall" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -4.0d
 			y: -9.5d
 		}
 		{
@@ -384,7 +406,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -13.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["63DD7F5A4441ACE7"]
@@ -570,8 +592,8 @@
 				item: { count: 1, id: "ars_nouveau:glyph_interact" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -14.5d
+			x: -6.0d
+			y: -12.5d
 		}
 		{
 			dependencies: ["6F3602F5600A6221"]
@@ -604,8 +626,8 @@
 				item: { count: 1, id: "ars_nouveau:glyph_amplify" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -9.5d
+			x: -6.0d
+			y: -14.5d
 		}
 		{
 			dependencies: ["441C0659ED28D935"]
@@ -791,8 +813,8 @@
 				item: { count: 1, id: "ars_nouveau:glyph_pickup" }
 				type: "item"
 			}]
-			x: -5.5d
-			y: -14.5d
+			x: -6.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["441C0659ED28D935"]
@@ -1043,6 +1065,9 @@
 		}
 		{
 			dependencies: ["18A2FBE2D4133FA2"]
+			icon: {
+				id: "ars_nouveau:enchanting_apparatus"
+			}
 			id: "3D862A3D3F83CA26"
 			rewards: [
 				{
@@ -1142,8 +1167,8 @@
 				item: { count: 1, id: "ars_nouveau:glyph_underfoot" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -5.5d
+			x: -5.0d
+			y: -14.5d
 		}
 		{
 			dependencies: ["6F3602F5600A6221"]
@@ -1478,8 +1503,8 @@
 				item: { count: 1, id: "ars_nouveau:whirlisprig_charm" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: -3.0d
+			x: 11.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6E0E13806F388D7E"]
@@ -1806,8 +1831,8 @@
 				item: { count: 1, id: "ars_nouveau:glyph_sensitive" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -12.5d
+			x: -4.0d
+			y: -14.5d
 		}
 		{
 			dependencies: ["63DD7F5A4441ACE7"]
@@ -2116,7 +2141,7 @@
 				item: { count: 1, id: "ars_nouveau:glyph_sense_magic" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: -10.5d
 		}
 		{
@@ -2151,7 +2176,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -10.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["441C0659ED28D935"]
