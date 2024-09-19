@@ -226,14 +226,14 @@ ServerEvents.recipes(allthemods => {
     dissolution_chamber(
         {item: 'allthemodium:unobtainium_vibranium_alloy_block'},
         [
-            {item: 'kubejs:pink_slime_block'},
+            {item: 'industrialforegoing:pink_slime_block'},
             {tag: 'c:storage_blocks/vibranium'},
-            {item: 'kubejs:pink_slime_block'},
+            {item: 'industrialforegoing:pink_slime_block'},
             {item: 'allthemodium:piglich_heart_block'},
             {item: 'allthemodium:piglich_heart_block'},
-            {item: 'kubejs:pink_slime_block'},
+            {item: 'industrialforegoing:pink_slime_block'},
             {tag: 'c:storage_blocks/unobtainium'},
-            {item: 'kubejs:pink_slime_block'}],
+            {item: 'industrialforegoing:pink_slime_block'}],
         {
             fluid: 'allthemodium:soul_lava',
             amount: 900},
