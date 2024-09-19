@@ -3,18 +3,6 @@
 
 ServerEvents.recipes(allthemods => {
 
-    //Pink Slime
-    allthemods.shaped('kubejs:pink_slime_block', [
-            'SSS',
-            'SSS',
-            'SSS'
-        ], {
-            S: 'industrialforegoing:pink_slime'
-        })
-    allthemods.shapeless('9x industrialforegoing:pink_slime', [ // arg 1: output
-        'kubejs:pink_slime_block'
-    ])
-
     //Air Essence
     allthemods.shaped('kubejs:air_essence_block', [
         'SSS',
