@@ -3,6 +3,13 @@
 
 StartupEvents.registry('block', allthemods => {
     allthemods.create('magical_soil').displayName('§bMagical Soil').grassSoundType().mapColor('grass').hardness(0.6);
+
+    allthemods.create('air_essence_block').displayName('Air Essence Block').stoneSoundType().mapColor('stone').hardness(0.6).renderType('translucent').notSolid();
+    allthemods.create('earth_essence_block').displayName('Earth Essence Block').stoneSoundType().mapColor('stone').hardness(0.6).renderType('translucent').notSolid();
+    allthemods.create('fire_essence_block').displayName('Fire Essence Block').stoneSoundType().mapColor('stone').hardness(0.6).renderType('translucent').notSolid();
+    allthemods.create('water_essence_block').displayName('Water Essence Block').stoneSoundType().mapColor('stone').hardness(0.6).renderType('translucent').notSolid();
+
+    allthemods.create('pink_slime_block').displayName('Pink Slime Block').soundType('slime_block').mapColor('slime').hardness(0).renderType('translucent').notSolid();
 })
 
 StartupEvents.modifyCreativeTab('ironfurnaces:ironfurnaces_tab', allthemods => {
