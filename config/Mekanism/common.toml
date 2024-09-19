@@ -1,16 +1,12 @@
-
-#Mekanism Common Config. This config is not synced between server and client.
-[common]
-	#Displayed energy type in Mekanism GUIs and network reader readings.
-	#Allowed Values: JOULES, FORGE_ENERGY
-	energyType = "FORGE_ENERGY"
-	#Displayed temperature unit in Mekanism GUIs and network reader readings.
-	#Allowed Values: KELVIN, CELSIUS, RANKINE, FAHRENHEIT, AMBIENT
-	temperatureUnit = "KELVIN"
-	#Show time to decay radiation when readings are above safe levels. Set to false on the client side to disable MekaSuit Geiger and Dosimeter Unit timers. Set to false on the server side to disable handheld Geiger Counter and Dosimeter timers.
-	enableDecayTimers = true
-	#Determines whether machine configuration data is copied when using middle click. If this is set to false no data will be copied and the default instance of the stack will be returned.
-	copyBlockData = true
-	#Should holiday greetings and easter eggs play for holidays (ex: Christmas and New Years) on the client. And should robit skins be randomized on the server.
-	holidays = false
-
+#Displayed energy type in Mekanism GUIs (client) and network reader readings (server).
+#Allowed Values: JOULES, FORGE_ENERGY
+energyType = "FORGE_ENERGY"
+#Displayed temperature unit in Mekanism GUIs (client) and network reader readings (server).
+#Allowed Values: KELVIN, CELSIUS, RANKINE, FAHRENHEIT, AMBIENT
+temperatureUnit = "KELVIN"
+#Display the time it will take for radiation to decay when readings are above safe levels. Set this to false on the client side to disable MekaSuit Geiger and Dosimeter Unit timers. Set this to false on the server side to disable handheld Geiger Counter and Dosimeter timers.
+enableDecayTimers = true
+#Determines whether machine configuration data is copied when using middle click. If this is set to false no data will be copied and the default instance of the stack will be returned.
+copyBlockData = true
+#Should holiday greetings and easter eggs play for holidays (ex: Christmas and New Years) on the client. Also controls whether Robit's with the default skin should have their skin randomized on the server.
+holidays = true

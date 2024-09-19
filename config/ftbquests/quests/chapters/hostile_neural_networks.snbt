@@ -1,0 +1,1394 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: "square"
+	filename: "hostile_neural_networks"
+	group: "6614EE2378B8AFB9"
+	icon: {
+		components: {
+			"hostilenetworks:data_model": "hostilenetworks:zombie"
+		}
+		id: "hostilenetworks:data_model"
+	}
+	id: "0A52D0932DA3F809"
+	images: [
+		{
+			height: 1.5d
+			image: "ftbquests:tasks/input_only"
+			rotation: 45.0d
+			width: 1.5d
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:tasks/input_only"
+			rotation: 90.0d
+			width: 1.5d
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			height: 0.6d
+			image: "hostilenetworks:item/prediction_matrix"
+			rotation: 0.0d
+			width: 0.6d
+			x: 0.0d
+			y: 2.8d
+		}
+	]
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:zombie"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "37EBB8E0D6E5F821"
+			rewards: [{
+				id: "0BE74809343EA491"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "26FAC6C93C935044"
+				item: { count: 1, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37EBB8E0D6E5F821"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: false
+			id: "3E3CBDCEAB0FF28F"
+			rewards: [{
+				id: "2AF2878DD409A11A"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			tasks: [{
+				id: "568258BF0BE4D32D"
+				item: { count: 1, id: "hostilenetworks:deep_learner" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["37EBB8E0D6E5F821"]
+			hide_dependency_lines: false
+			hide_until_deps_visible: false
+			id: "58C2ABED43B2EA61"
+			rewards: [{
+				id: "5FAF62796246C4E8"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7915FD88CD635FDA"
+				item: { count: 1, id: "hostilenetworks:blank_data_model" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3E3CBDCEAB0FF28F"
+				"58C2ABED43B2EA61"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_visible: false
+			icon: {
+				id: "hostilenetworks:sim_chamber"
+			}
+			id: "104EBBC08B4733F5"
+			min_width: 300
+			rewards: [{
+				id: "20DD8FFFF04124CD"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "7DB31F36A4EC37B5"
+					item: { count: 1, id: "hostilenetworks:sim_chamber" }
+					type: "item"
+				}
+				{
+					id: "1525F3D518E49FAC"
+					item: { count: 1, id: "hostilenetworks:prediction_matrix" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"58C2ABED43B2EA61"
+				"3E3CBDCEAB0FF28F"
+			]
+			hide_dependency_lines: false
+			hide_until_deps_visible: false
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:pig"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "34CD54347E9821B5"
+			rewards: [{
+				id: "24AC88E214212942"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7F17E48ACE65C84E"
+				item: { count: 1, id: "hostilenetworks:data_model" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["104EBBC08B4733F5"]
+			hide_dependency_lines: false
+			id: "2559201BCF5D497C"
+			rewards: [
+				{
+					count: 3
+					id: "3D9F884236BA3B87"
+					item: {
+						count: 1
+						id: "hostilenetworks:overworld_prediction"
+					}
+					type: "item"
+				}
+				{
+					id: "3F017CDA6D3F9D15"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "11F8DB9B9D8854D1"
+				item: { count: 1, id: "hostilenetworks:overworld_prediction" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["104EBBC08B4733F5"]
+			hide_dependency_lines: false
+			id: "10E8BC20D406D9FB"
+			rewards: [
+				{
+					count: 3
+					id: "486C36F6D2CF8808"
+					item: {
+						count: 1
+						id: "hostilenetworks:nether_prediction"
+					}
+					type: "item"
+				}
+				{
+					id: "296E4420A5904AFA"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "08A1156BA5B742E5"
+				item: { count: 1, id: "hostilenetworks:nether_prediction" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["104EBBC08B4733F5"]
+			hide_dependency_lines: false
+			id: "5A23107C363A209E"
+			rewards: [
+				{
+					count: 3
+					id: "20B88A53C899182B"
+					item: {
+						count: 1
+						id: "hostilenetworks:end_prediction"
+					}
+					type: "item"
+				}
+				{
+					id: "32452517E8C57AB2"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "02C24C29639EBDBE"
+				item: { count: 1, id: "hostilenetworks:end_prediction" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "7EBBEB504C38898A"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "2C3C6E8485D26A8E"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "2125FBB2A2EDCBC5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1F4B02AFDFD7CDBE"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:chicken" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "2F6F888610373E21"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "7FAE24AC04D610E7"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "47F3B6A4BA252518"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "52EB253913441EA0"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:artifacts/mimic" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "1FD43610960E3450"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "718AC03C771E8324"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "7874AC08F62F16FF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "08204D18E3EEA011"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:ars_nouveau/wilden_mobs" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "12172C1449296E06"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "47B51D5E3F347D1B"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "5B9EB353302D0DD5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7A549C91E418F0B8"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:blaze" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["104EBBC08B4733F5"]
+			hide_dependency_lines: false
+			id: "14B3542ECB59869C"
+			rewards: [{
+				id: "360C896BDD62F9AE"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "684BBEEA624D2B53"
+				item: { count: 1, id: "hostilenetworks:loot_fabricator" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			id: "5905241071D1960A"
+			rewards: [
+				{
+					count: 10
+					id: "0039563A65D6476E"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "2B6DDE003C76CA37"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "1AEFD81CDB3EA4CD"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:allthemodium/piglich" }, count: 1, id: "hostilenetworks:prediction" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "3B9D8E374CDAFD6C"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "79D8E4BE68994059"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "74C0C57D03BCA37A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "510730B6612170FE"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:cod" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "2571C1D19F83BB3B"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "210DA202CFE69C08"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "753A70494A99F381"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "750AF3DFEDBADD7F"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:creeper" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "3364DD88B5450365"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "24DF48C68988D6AF"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "3B8FBD9FF0AD0FD9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "576B04D21F6C1320"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:cow" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "0DCF732A8B8E5704"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "517140D6A646699A"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "587C0851B98A4F7B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "588DABE171451ECF"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:drowned" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "364A1936C5AFFB4E"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "41E1C23C964713EA"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "78054F8F1270D3BA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "106F64EAB2923219"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:elder_guardian" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "6B945A5B293C0153"
+			rewards: [
+				{
+					count: 5
+					id: "483DD37E957ED5AC"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "5CCCC76D1916BCD5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "01B78B7200AD343F"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:ender_dragon" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "6C71A6DB57FC3EE7"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "522EE41D3048FB69"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "4EF694A7A9ED6DFE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0483D4A12AE1C9F8"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:enderman" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "1447705D6E49EBF6"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "6687A4AB6F5C7CFB"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "0E681B2A87DDD5F6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "595F4629E6B56B6F"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:evoker" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "5FE40F753A69537E"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "3980C11D19710BF5"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "6A4D18DFE4464FC5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "17CC25914676229E"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:ghast" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "5D9752510C66985D"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "250C532411E8B1BE"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "67B94311811F3853"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "30E082506ED3F411"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:glow_squid" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "280CA599D29791DF"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "2D55DFD67DEC7B5F"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "0A62DC989B05A71C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "41D015BD9EC22BE1"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:magma_cube" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "20FF2AE066B99DB3"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "2C070DC5A43ECB7C"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "6D3D74502B089E08"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "2E4CAF87CD6B22B9"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:sheep" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "203E1B5BD21F00D1"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "7C9F48645658C15E"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "21BA6AF9B5A8F9CF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "3C15B0354322F02F"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:squid" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "2DDE880D44E1FCDF"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "2BD6410605DD447F"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "796854B506C290F8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "33E497B8E8488AC8"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:spider" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "35D3DEB3F43A8A06"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "2F8A7679A8C07775"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "7298A9F20FA8183C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4E6229E1C889254A"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:snow_golem" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "6961D45456433D56"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "6CF67DAD63029C0E"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "1ECF9F1F6F707B8E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "132A53DCB484697F"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:slime" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "6367CB97FA648E63"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "09FF9EFD8BB47BE1"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "0E7B6EE62095F86C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "22003D552B8F09EC"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:skeleton" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "3F7FCDBEFFE5954A"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "2D9CA0417F20EAB9"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "3999FF494BA9A38A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "53BD4527CBE9C1AF"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:shulker" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "54E7ABFDFAA024E5"
+			rewards: [
+				{
+					count: 5
+					id: "483A10CEDA66E8F8"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "2CA783A4DC87272D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "37597F7CBFCE3514"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:warden" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 14.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "0807EF853E6D72B2"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "4679F78E838920F4"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "74DB0EE71A23696B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "693C99B8177DDEE1"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:witch" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "44791B697386A4BA"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "63412A397B3612AE"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "16443CFC2EBEE2F7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "3FA5F7DC63D2B841"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:wither_skeleton" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "1D4D3CC361892A9E"
+			rewards: [
+				{
+					count: 5
+					id: "01E7912643119F33"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "26AA609C13C3EAE6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "68CFA321BAF89188"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:wither" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "57577942A32FCB1F"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "5D7FE811CA0DA194"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "380068B1839488A1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0EAF33A27B3B0801"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:iron_golem" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "3BF3C32C603A8F57"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "21545A7368D308BB"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "43C843BF53B16BB0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1E21285333B832AE"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:rabbit" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "7F18BDDE7B20AD8D"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "37224FBBF7BCBCC9"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "7D0DF4DACE6C25B5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "257CCBF7B5FA79EF"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:polar_bear" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "77D5DAF30864466E"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "2BD160A6187C088B"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "31E6600CFC488612"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1BF15290DE3EA665"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:pig" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "14437C59E04C7C5B"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "1DD381E861DF1461"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "6C142AD75E157E72"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "23E41AFEF91075E5"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:phantom" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "7715A8287C00CCBC"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "2B11403B6BF0C4C2"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "411158CE69181A90"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5E341D5139636FE7"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:guardian" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "4ED66AB8C1116797"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "30A4416D9233C181"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "5211D43D7EE31FAB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1E5980E1B9A0CA51"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:hoglin" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "17280CDCFAAE4B87"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "6E13E219B8B73BE6"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "06620EE281F2942E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "553497C7F7B167EF"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:vindicator" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "37BEAA6576CD0507"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "7132DC8D7075079E"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "44132BE737D544B6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7488B2353CF0416D"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:zombified_piglin" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["14B3542ECB59869C"]
+			hide_until_deps_visible: false
+			id: "597D92D3ED5E3868"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "247D854B9AFEEE6F"
+					item: {
+						count: 1
+						id: "hostilenetworks:prediction_matrix"
+					}
+					type: "item"
+				}
+				{
+					id: "5AB9A62E60B76925"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "65912C9360C5C8F4"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:zombie" }, count: 1, id: "hostilenetworks:prediction" }
+				match_components: "strict"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			id: "12AE2856444996F6"
+			invisible: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "6B580F95A2E5A465"
+					type: "checkmark"
+				}
+				{
+					id: "15D2A03410859443"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+}

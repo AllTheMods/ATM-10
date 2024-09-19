@@ -1,0 +1,281 @@
+#Settings for configuring Energy Cubes
+[energy_cubes]
+	#Maximum number of Joules Basic energy cubes can store.
+	#Range: 1 ~ 9223372036854775807
+	basicCapacity = 4000000
+	#Output rate in Joules of Basic energy cubes.
+	#Range: 1 ~ 9223372036854775807
+	basicOutput = 4000
+	#Maximum number of Joules Advanced energy cubes can store.
+	#Range: 1 ~ 9223372036854775807
+	advancedCapacity = 16000000
+	#Output rate in Joules of Advanced energy cubes.
+	#Range: 1 ~ 9223372036854775807
+	advancedOutput = 16000
+	#Maximum number of Joules Elite energy cubes can store.
+	#Range: 1 ~ 9223372036854775807
+	eliteCapacity = 64000000
+	#Output rate in Joules of Elite energy cubes.
+	#Range: 1 ~ 9223372036854775807
+	eliteOutput = 64000
+	#Maximum number of Joules Ultimate energy cubes can store.
+	#Range: 1 ~ 9223372036854775807
+	ultimateCapacity = 256000000
+	#Output rate in Joules of Ultimate energy cubes.
+	#Range: 1 ~ 9223372036854775807
+	ultimateOutput = 256000
+	#Maximum number of Joules Creative energy cubes can store.
+	#Range: 1 ~ 9223372036854775807
+	creativeCapacity = 9223372036854775807
+	#Output rate in Joules of Creative energy cubes.
+	#Range: 1 ~ 9223372036854775807
+	creativeOutput = 9223372036854775807
+
+#Settings for configuring Fluid Tanks
+[fluid_tanks]
+	#Storage size of Basic fluid tanks in mB.
+	#Range: > 1
+	basicCapacity = 32000
+	#Output rate of Basic fluid tanks in mB.
+	#Range: > 1
+	basicOutput = 1000
+	#Storage size of Advanced fluid tanks in mB.
+	#Range: > 1
+	advancedCapacity = 64000
+	#Output rate of Advanced fluid tanks in mB.
+	#Range: > 1
+	advancedOutput = 4000
+	#Storage size of Elite fluid tanks in mB.
+	#Range: > 1
+	eliteCapacity = 128000
+	#Output rate of Elite fluid tanks in mB.
+	#Range: > 1
+	eliteOutput = 16000
+	#Storage size of Ultimate fluid tanks in mB.
+	#Range: > 1
+	ultimateCapacity = 256000
+	#Output rate of Ultimate fluid tanks in mB.
+	#Range: > 1
+	ultimateOutput = 64000
+	#Storage size of Creative fluid tanks in mB.
+	#Range: > 1
+	creativeCapacity = 2147483647
+	#Output rate of Creative fluid tanks in mB.
+	#Range: > 1
+	creativeOutput = 1073741823
+
+#Settings for configuring Chemical Tanks
+[chemical_tanks]
+	#Storage size of Basic chemical tanks in mB.
+	#Range: 1 ~ 9223372036854775807
+	basicCapacity = 64000
+	#Output rate of Basic chemical tanks in mB.
+	#Range: 1 ~ 9223372036854775807
+	basicOutput = 1000
+	#Storage size of Advanced chemical tanks in mB.
+	#Range: 1 ~ 9223372036854775807
+	advancedCapacity = 256000
+	#Output rate of Advanced chemical tanks in mB.
+	#Range: 1 ~ 9223372036854775807
+	advancedOutput = 16000
+	#Storage size of Elite chemical tanks in mB.
+	#Range: 1 ~ 9223372036854775807
+	eliteCapacity = 1024000
+	#Output rate of Elite chemical tanks in mB.
+	#Range: 1 ~ 9223372036854775807
+	eliteOutput = 128000
+	#Storage size of Ultimate chemical tanks in mB.
+	#Range: 1 ~ 9223372036854775807
+	ultimateCapacity = 8192000
+	#Output rate of Ultimate chemical tanks in mB.
+	#Range: 1 ~ 9223372036854775807
+	ultimateOutput = 512000
+	#Storage size of Creative chemical tanks in mB.
+	#Range: 1 ~ 9223372036854775807
+	creativeCapacity = 9223372036854775807
+	#Output rate of Creative chemical tanks in mB.
+	#Range: 1 ~ 9223372036854775807
+	creativeOutput = 4611686018427387903
+
+#Settings for configuring Bins
+[bins]
+	#The number of items Basic bins can store.
+	#Range: > 1
+	basicCapacity = 4096
+	#The number of items Advanced bins can store.
+	#Range: > 1
+	advancedCapacity = 8192
+	#The number of items Elite bins can store.
+	#Range: > 1
+	eliteCapacity = 32768
+	#The number of items Ultimate bins can store.
+	#Range: > 1
+	ultimateCapacity = 262144
+	#The number of items Creative bins can store.
+	#Range: > 1
+	creativeCapacity = 2147483647
+
+#Settings for configuring Induction Cells and Providers
+[induction]
+	#Maximum number of Joules Basic induction cells can store.
+	#Range: 1 ~ 9223372036854775807
+	basicCapacity = 8000000000
+	#Maximum number of Joules Advanced induction cells can store.
+	#Range: 1 ~ 9223372036854775807
+	advancedCapacity = 64000000000
+	#Maximum number of Joules Elite induction cells can store.
+	#Range: 1 ~ 9223372036854775807
+	eliteCapacity = 512000000000
+	#Maximum number of Joules Ultimate induction cells can store.
+	#Range: 1 ~ 9223372036854775807
+	ultimateCapacity = 4000000000000
+	#Maximum number of Joules Basic induction providers can output or accept.
+	#Range: 1 ~ 9223372036854775807
+	basicOutput = 256000
+	#Maximum number of Joules Advanced induction providers can output or accept.
+	#Range: 1 ~ 9223372036854775807
+	advancedOutput = 2048000
+	#Maximum number of Joules Elite induction providers can output or accept.
+	#Range: 1 ~ 9223372036854775807
+	eliteOutput = 16384000
+	#Maximum number of Joules Ultimate induction providers can output or accept.
+	#Range: 1 ~ 9223372036854775807
+	ultimateOutput = 131072000
+
+#Settings for configuring Transmitters
+[transmitters]
+
+	#Settings for configuring Universal Cables
+	[transmitters.energy]
+		#Internal buffer in Joules of each Basic universal cable.
+		#Range: 1 ~ 9223372036854775807
+		basicCapacity = 8000
+		#Internal buffer in Joules of each Advanced universal cable.
+		#Range: 1 ~ 9223372036854775807
+		advancedCapacity = 128000
+		#Internal buffer in Joules of each Elite universal cable.
+		#Range: 1 ~ 9223372036854775807
+		eliteCapacity = 1024000
+		#Internal buffer in Joules of each Ultimate universal cable.
+		#Range: 1 ~ 9223372036854775807
+		ultimateCapacity = 8192000
+
+	#Settings for configuring Mechanical Pipes
+	[transmitters.fluid]
+		#Capacity of Basic mechanical pipes in mB.
+		#Range: > 1
+		basicCapacity = 2000
+		#Pump rate of Basic mechanical pipes in mB/t.
+		#Range: > 1
+		basicPullAmount = 250
+		#Capacity of Advanced mechanical pipes in mB.
+		#Range: > 1
+		advancedCapacity = 8000
+		#Pump rate of Advanced mechanical pipes in mB/t.
+		#Range: > 1
+		advancedPullAmount = 1000
+		#Capacity of Elite mechanical pipes in mB.
+		#Range: > 1
+		eliteCapacity = 32000
+		#Pump rate of Elite mechanical pipes in mB/t.
+		#Range: > 1
+		elitePullAmount = 8000
+		#Capacity of Ultimate mechanical pipes in mB.
+		#Range: > 1
+		ultimateCapacity = 128000
+		#Pump rate of Ultimate mechanical pipes in mB/t.
+		#Range: > 1
+		ultimatePullAmount = 32000
+
+	#Settings for configuring Pressurized Tubes
+	[transmitters.chemical]
+		#Capacity of Basic pressurized tubes in mB.
+		#Range: 1 ~ 9223372036854775807
+		basicCapacity = 4000
+		#Pump rate of Basic pressurized tubes in mB/t.
+		#Range: 1 ~ 9223372036854775807
+		basicPullAmount = 750
+		#Capacity of Advanced pressurized tubes in mB.
+		#Range: 1 ~ 9223372036854775807
+		advancedCapacity = 16000
+		#Pump rate of Advanced pressurized tubes in mB/t.
+		#Range: 1 ~ 9223372036854775807
+		advancedPullAmount = 2000
+		#Capacity of Elite pressurized tubes in mB.
+		#Range: 1 ~ 9223372036854775807
+		eliteCapacity = 256000
+		#Pump rate of Elite pressurized tubes in mB/t.
+		#Range: 1 ~ 9223372036854775807
+		elitePullAmount = 64000
+		#Capacity of Ultimate pressurized tubes in mB.
+		#Range: 1 ~ 9223372036854775807
+		ultimateCapacity = 1024000
+		#Pump rate of Ultimate pressurized tubes in mB/t.
+		#Range: 1 ~ 9223372036854775807
+		ultimatePullAmount = 256000
+
+	#Settings for configuring Logistical Transporters
+	[transmitters.items]
+		#Item throughput rate of Basic logistical transporters in items/half second. This value assumes a target tick rate of 20 ticks per second.
+		#Range: > 1
+		basicPullAmount = 1
+		#Five times the travel speed in m/s of Basic logistical transporter. This value assumes a target tick rate of 20 ticks per second.
+		#Range: > 1
+		basicSpeed = 5
+		#Item throughput rate of Advanced logistical transporters in items/half second. This value assumes a target tick rate of 20 ticks per second.
+		#Range: > 1
+		advancedPullAmount = 16
+		#Five times the travel speed in m/s of Advanced logistical transporter. This value assumes a target tick rate of 20 ticks per second.
+		#Range: > 1
+		advancedSpeed = 10
+		#Item throughput rate of Elite logistical transporters in items/half second. This value assumes a target tick rate of 20 ticks per second.
+		#Range: > 1
+		elitePullAmount = 32
+		#Five times the travel speed in m/s of Elite logistical transporter. This value assumes a target tick rate of 20 ticks per second.
+		#Range: > 1
+		eliteSpeed = 20
+		#Item throughput rate of Ultimate logistical transporters in items/half second. This value assumes a target tick rate of 20 ticks per second.
+		#Range: > 1
+		ultimatePullAmount = 64
+		#Five times the travel speed in m/s of Ultimate logistical transporter. This value assumes a target tick rate of 20 ticks per second.
+		#Range: > 1
+		ultimateSpeed = 50
+
+	#Settings for configuring Thermodynamic Conductors
+	[transmitters.heat]
+		#Conduction value of Basic thermodynamic conductors.
+		#Range: 1.0 ~ 1.7976931348623157E308
+		basicInverseConduction = 5.0
+		#Heat capacity of Basic thermodynamic conductors.
+		#Range: 1.0 ~ 1.7976931348623157E308
+		basicHeatCapacity = 1.0
+		#Insulation value of Basic thermodynamic conductor.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		basicInsulation = 10.0
+		#Conduction value of Advanced thermodynamic conductors.
+		#Range: 1.0 ~ 1.7976931348623157E308
+		advancedInverseConduction = 5.0
+		#Heat capacity of Advanced thermodynamic conductors.
+		#Range: 1.0 ~ 1.7976931348623157E308
+		advancedHeatCapacity = 1.0
+		#Insulation value of Advanced thermodynamic conductor.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		advancedInsulation = 400.0
+		#Conduction value of Elite thermodynamic conductors.
+		#Range: 1.0 ~ 1.7976931348623157E308
+		eliteInverseConduction = 5.0
+		#Heat capacity of Elite thermodynamic conductors.
+		#Range: 1.0 ~ 1.7976931348623157E308
+		eliteHeatCapacity = 1.0
+		#Insulation value of Elite thermodynamic conductor.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		eliteInsulation = 8000.0
+		#Conduction value of Ultimate thermodynamic conductors.
+		#Range: 1.0 ~ 1.7976931348623157E308
+		ultimateInverseConduction = 5.0
+		#Heat capacity of Ultimate thermodynamic conductors.
+		#Range: 1.0 ~ 1.7976931348623157E308
+		ultimateHeatCapacity = 1.0
+		#Insulation value of Ultimate thermodynamic conductor.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		ultimateInsulation = 100000.0

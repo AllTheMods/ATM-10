@@ -1,0 +1,287 @@
+#Settings for configuring the Atomic Disassembler
+[atomic_disassembler]
+	#Maximum amount (joules) of energy the Atomic Disassembler can contain.
+	#Range: 0 ~ 9223372036854775807
+	maxEnergy = 1000000
+	#Amount (joules) of energy the Atomic Disassembler can accept per tick.
+	#Range: 0 ~ 9223372036854775807
+	chargeRate = 5000
+	#Base Energy (Joules) usage of the Atomic Disassembler. (Gets multiplied by speed factor)
+	#Range: 0 ~ 9223372036854775807
+	energyUsage = 10
+	#Cost in Joules of using the Atomic Disassembler as a weapon.
+	#Range: 0 ~ 9223372036854775807
+	energyUsageWeapon = 2000
+	#The bonus attack damage of the Atomic Disassembler when it is out of power. (Value is in number of half hearts)
+	#Range: 0 ~ 1000
+	minDamage = 4
+	#The bonus attack damage of the Atomic Disassembler when it has at least energyUsageWeapon power stored. (Value is in number of half hearts)
+	#Range: 1 ~ 10000
+	maxDamage = 20
+	#Attack speed of the Atomic Disassembler.
+	#Range: -4.0 ~ 100.0
+	attackSpeed = -2.4
+	#Enable the 'Slow' mode for the Atomic Disassembler.
+	slowMode = true
+	#Enable the 'Fast' mode for the Atomic Disassembler.
+	fastMode = true
+	#Enable the 'Vein Mining' mode for the Atomic Disassembler. This mode is limited to vein mining just ores and logs.
+	veinMining = false
+	#The max number of blocks the Atomic Disassembler can mine using the 'Vein Mining' mode. Requires veinMining to be enabled.
+	#Range: 2 ~ 1000000
+	miningCount = 128
+
+#Settings for configuring the Electric Bow
+[electric_bow]
+	#Maximum amount (joules) of energy the Electric Bow can contain.
+	#Range: 0 ~ 9223372036854775807
+	maxEnergy = 120000
+	#Amount (joules) of energy the Electric Bow can accept per tick.
+	#Range: 0 ~ 9223372036854775807
+	chargeRate = 600
+	#Cost in Joules of using the Electric Bow.
+	#Range: 0 ~ 9223372036854775807
+	energyUsage = 120
+	#Cost in Joules of using the Electric Bow with flame mode active.
+	#Range: 0 ~ 9223372036854775807
+	energyUsageFlame = 1200
+
+#Settings for configuring Energy Tablets
+[energy_tablet]
+	#Maximum amount (joules) of energy the Energy Tablet can contain.
+	#Range: 0 ~ 9223372036854775807
+	maxEnergy = 1000000
+	#Amount (joules) of energy the Energy Tablet can accept per tick.
+	#Range: 0 ~ 9223372036854775807
+	chargeRate = 5000
+
+#Settings for configuring Gauge Droppers
+[gauge_dropper]
+	#Capacity in mB of gauge droppers.
+	#Range: > 1
+	capacity = 16000
+	#Rate in mB/t at which a gauge dropper can be filled or emptied.
+	#Range: > 1
+	transferRate = 250
+
+#Settings for configuring the Flamethrower
+[flamethrower]
+	#Flamethrower tank capacity in mB.
+	#Range: 1 ~ 9223372036854775807
+	capacity = 24000
+	#Rate in mB/t at which a Flamethrower's tank can accept hydrogen.
+	#Range: 1 ~ 9223372036854775807
+	fillRate = 16
+	#Determines whether or not the Flamethrower can destroy item entities the flame hits if it fails to smelt them.
+	destroyItems = true
+
+#Settings for configuring Free Runners
+[free_runner]
+	#Maximum amount (joules) of energy Free Runners can contain.
+	#Range: 0 ~ 9223372036854775807
+	maxEnergy = 64000
+	#Amount (joules) of energy the Free Runners can accept per tick.
+	#Range: 0 ~ 9223372036854775807
+	chargeRate = 320
+	#Energy cost multiplier in Joules for reducing fall damage with free runners. Energy cost is: FallDamage * fallEnergyCost. (1 FallDamage is 1 half heart)
+	#Range: 0 ~ 9223372036854775807
+	fallEnergyCost = 50
+	#Percent of damage taken from falling that can be absorbed by Free Runners when they have enough power.
+	#Range: 0.0 ~ 1.0
+	fallDamageReductionRatio = 1.0
+
+#Settings for configuring Jetpacks
+[jetpack]
+	#Jetpack tank capacity in mB.
+	#Range: 1 ~ 9223372036854775807
+	capacity = 24000
+	#Rate in mB/t at which a Jetpack's tank can accept hydrogen.
+	#Range: 1 ~ 9223372036854775807
+	fillRate = 16
+
+#Settings for configuring Network Readers
+[network_reader]
+	#Maximum amount (joules) of energy the Network Reader can contain.
+	#Range: 0 ~ 9223372036854775807
+	maxEnergy = 60000
+	#Amount (joules) of energy the Network Reader can accept per tick.
+	#Range: 0 ~ 9223372036854775807
+	chargeRate = 300
+	#Energy usage in joules for each network reading.
+	#Range: 0 ~ 9223372036854775807
+	energyUsage = 400
+
+#Settings for configuring the Portable Teleporter
+[portable_teleporter]
+	#Maximum amount (joules) of energy the Portable Teleporter can contain.
+	#Range: 0 ~ 9223372036854775807
+	maxEnergy = 1000000
+	#Amount (joules) of energy the Portable Teleporter can accept per tick.
+	#Range: 0 ~ 9223372036854775807
+	chargeRate = 5000
+	#Delay in ticks before a player is teleported after clicking the Teleport button in the portable teleporter.
+	#Range: 0 ~ 6000
+	delay = 0
+
+#Settings for configuring Scuba Tanks
+[scuba_tank]
+	#Scuba Tank capacity in mB.
+	#Range: 1 ~ 9223372036854775807
+	capacity = 24000
+	#Rate in mB/t at which a Scuba Tank can accept oxygen.
+	#Range: 1 ~ 9223372036854775807
+	fillRate = 16
+
+#Settings for configuring Seismic Readers
+[seismic_reader]
+	#Maximum amount (joules) of energy the Seismic Reader can contain.
+	#Range: 0 ~ 9223372036854775807
+	maxEnergy = 12000
+	#Amount (joules) of energy the Seismic Reader can accept per tick.
+	#Range: 0 ~ 9223372036854775807
+	chargeRate = 60
+	#Energy usage in joules required to use the Seismic Reader.
+	#Range: 0 ~ 9223372036854775807
+	energyUsage = 250
+
+#Settings for configuring Canteens
+[canteen]
+	#Maximum amount in mB of Nutritional Paste storable by the Canteen.
+	#Range: > 1
+	maxStorage = 64000
+	#Rate in mB/t at which Nutritional Paste can be transferred into a Canteen.
+	#Range: > 1
+	transferRate = 128
+
+#Settings for configuring the Meka-Tool
+[mekatool]
+	#Energy capacity (Joules) of the Meka-Tool without any installed upgrades. Quadratically scaled by upgrades.
+	#Range: 0 ~ 9223372036854775807
+	baseEnergyCapacity = 40000000
+	#Amount (joules) of energy the Meka-Tool can accept per tick. Quadratically scaled by upgrades.
+	#Range: 0 ~ 9223372036854775807
+	chargeRate = 200000
+	#Base bonus damage applied by the Meka-Tool without using any energy.
+	#Range: 0 ~ 100000
+	baseDamage = 24
+	#Attack speed of the Meka-Tool.
+	#Range: -4.0 ~ 100.0
+	attackSpeed = -0.8
+	#Efficiency of the Meka-Tool with energy but without any upgrades.
+	#Range: 0.1 ~ 100.0
+	baseEfficiency = 4.0
+	#Enable the 'Extended Vein Mining' mode for the Meka-Tool. Allows vein mining everything, instead of being limited to just ores and logs.
+	extendedMining = true
+	#Maximum distance a player can teleport with the Meka-Tool.
+	#Range: 3 ~ 1024
+	maxTeleportReach = 100
+
+	#Settings for configuring the Meka-Tool's Energy Usage
+	[mekatool.energy_usage]
+		#Base energy (Joules) usage of the Meka-Tool. (Gets multiplied by speed factor)
+		#Range: 0 ~ 9223372036854775807
+		base = 50
+		#Silk touch energy (Joules) usage of the Meka-Tool. (Gets multiplied by speed factor)
+		#Range: 0 ~ 9223372036854775807
+		silk = 500
+		#Cost in Joules of using the Meka-Tool to deal 4 units of damage.
+		#Range: 0 ~ 9223372036854775807
+		weapon = 4000
+		#Cost in Joules of using the Meka-Tool as a hoe.
+		#Range: 0 ~ 9223372036854775807
+		hoe = 50
+		#Cost in Joules of using the Meka-Tool as a shovel for making paths and dowsing campfires.
+		#Range: 0 ~ 9223372036854775807
+		shovel = 50
+		#Cost in Joules of using the Meka-Tool as an axe for stripping logs, scraping, or removing wax.
+		#Range: 0 ~ 9223372036854775807
+		axe = 50
+		#Cost in Joules of using the Meka-Tool to shear entities.
+		#Range: 0 ~ 9223372036854775807
+		shearEntity = 50
+		#Cost in Joules of using the Meka-Tool to carefully shear and trim blocks.
+		#Range: 0 ~ 9223372036854775807
+		shearTrim = 50
+		#Cost in Joules of using the Meka-Tool to teleport 10 blocks.
+		#Range: 0 ~ 9223372036854775807
+		teleport = 2500
+
+#Settings for configuring the MekaSuit
+[mekasuit]
+	#Energy capacity (Joules) of MekaSuit items without any installed upgrades. Quadratically scaled by upgrades.
+	#Range: 0 ~ 9223372036854775807
+	baseEnergyCapacity = 40000000
+	#Amount (joules) of energy the MekaSuit can accept per tick. Quadratically scaled by upgrades.
+	#Range: 0 ~ 9223372036854775807
+	chargeRate = 200000
+	#Charge rate of inventory items in Joules/t when charging the player's inventory with the Charge Distribution Unit.
+	#Range: 0 ~ 9223372036854775807
+	inventoryChargeRate = 10000
+	#Solar recharging rate in Joules/t of the helmet, per upgrade installed.
+	#Range: 0 ~ 9223372036854775807
+	solarRechargingRate = 1500
+	#Should the Gravitational Modulation unit give off vibrations that can be detected by Sculk Sensors and Shriekers when in use.
+	gravitationalVibrations = true
+	#Maximum amount in mB of Nutritional Paste storable by the nutritional injection unit.
+	#Range: > 1
+	nutritionalMaxStorage = 128000
+	#Rate in mB/t at which Nutritional Paste can be transferred into the nutritional injection unit.
+	#Range: > 1
+	nutritionalTransferRate = 256
+	#Maximum amount in mB of Hydrogen storable per installed jetpack unit.
+	#Range: 1 ~ 9223372036854775807
+	jetpackMaxStorage = 24000
+	#Rate in mB/t at which Hydrogen can be transferred into the jetpack unit.
+	#Range: 1 ~ 9223372036854775807
+	jetpackTransferRate = 256
+
+	#Settings for configuring the MekaSuit's Energy Usage
+	[mekasuit.energy_usage]
+		#Energy usage (Joules) of MekaSuit per unit of damage applied.
+		#Range: 0 ~ 9223372036854775807
+		damage = 250000
+		#Energy cost multiplier in Joules for reducing magic damage via the inhalation purification unit. Energy cost is: MagicDamage * magicReduce. (1 MagicDamage is 1 half heart).
+		#Range: 0 ~ 9223372036854775807
+		magicReduce = 2500
+		#Energy cost multiplier in Joules for reducing fall damage with MekaSuit Boots. Energy cost is: FallDamage * fall. (1 FallDamage is 1 half heart)
+		#Range: 0 ~ 9223372036854775807
+		fall = 250
+		#Energy usage (Joules) of MekaSuit when adding 0.1 to jump motion.
+		#Range: 0 ~ 9223372036854775807
+		jump = 2000
+		#Energy usage (Joules) per second of the MekaSuit when flying with the Elytra Unit.
+		#Range: 0 ~ 9223372036854775807
+		elytra = 32000
+		#Energy usage (Joules) of MekaSuit when lessening a potion effect.
+		#Range: 0 ~ 9223372036854775807
+		energyUsagePotionTick = 80000
+		#Energy usage (Joules) of MekaSuit when adding 0.1 to sprint motion.
+		#Range: 0 ~ 9223372036854775807
+		sprintBoost = 250
+		#Energy usage (Joules) of MekaSuit per tick when flying via Gravitational Modulation.
+		#Range: 0 ~ 2305843009213693951
+		gravitationalModulation = 1000
+		#Energy usage (Joules) of MekaSuit per tick of using vision enhancement.
+		#Range: 0 ~ 9223372036854775807
+		visionEnhancement = 500
+		#Energy usage (Joules) of MekaSuit per tick of using hydrostatic repulsion.
+		#Range: 0 ~ 9223372036854775807
+		hydrostaticRepulsion = 500
+		#Energy usage (Joules) of MekaSuit per half-food of nutritional injection.
+		#Range: 0 ~ 9223372036854775807
+		nutritionalInjection = 20000
+		#Energy usage (Joules) of MekaSuit per tick of attracting a single item.
+		#Range: 0 ~ 9223372036854775807
+		itemAttraction = 250
+
+	#Settings for configuring damage absorption of the MekaSuit
+	[mekasuit.damage_absorption]
+		#Percent of damage taken from falling that can be absorbed by MekaSuit Boots when they have enough power.
+		#Range: 0.0 ~ 1.0
+		fallDamageReductionRatio = 1.0
+		#Percent of damage taken from magic damage that can be absorbed by MekaSuit Helmet with Purification unit when it has enough power.
+		#Range: 0.0 ~ 1.0
+		magicDamageReductionRatio = 1.0
+		#Percent of damage taken from other non explicitly supported damage types that don't bypass armor when the MekaSuit has enough power and a full suit is equipped. Note: Support for specific damage types can be added by adding an entry for the damage type in the mekanism:mekasuit_absorption data map.
+		#Range: 0.0 ~ 1.0
+		unspecifiedDamageReductionRatio = 1.0
