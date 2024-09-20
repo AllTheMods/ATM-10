@@ -1,0 +1,25 @@
+{
+	id: "73E94318B401E916"
+	loot_size: 1
+	order_index: 35
+	rewards: [
+		{ item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }, weight: 0.5f }
+		{ item: { count: 1, id: "industrialforegoing:machine_frame_supreme" }, weight: 0.1f }
+		{ item: { count: 1, id: "industrialforegoing:ether_gas_bucket" }, weight: 0.4f }
+		{ item: { count: 1, id: "industrialforegoing:laser_drill" }, weight: 0.7f }
+		{ item: { count: 1, id: "industrialforegoing:fluid_laser_base" }, weight: 0.2f }
+		{ item: { count: 1, id: "industrialforegoing:ore_laser_base" }, weight: 0.3f }
+		{
+			count: 16
+			item: {
+				count: 1
+				id: "industrialforegoing:plastic"
+			}
+			random_bonus: 16
+		}
+		{ item: { components: { "titanium:augments": { Processing: 3.0f } }, count: 1, id: "industrialforegoing:processing_addon_tier_2" } }
+		{ item: { components: { "titanium:augments": { Speed: 3.0f } }, count: 1, id: "industrialforegoing:speed_addon_tier_2" } }
+		{ item: { components: { "titanium:augments": { Efficiency: 0.8f } }, count: 1, id: "industrialforegoing:efficiency_addon_tier_2" } }
+	]
+	use_title: true
+}

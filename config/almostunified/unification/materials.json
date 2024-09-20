@@ -7,6 +7,7 @@
     "mekanism",
     "modern_industrialization",
     "occultism",
+    "industrialforegoing",
     "pneumaticcraft",
     "biggerreactors", 
     "ae2",
@@ -34,10 +35,13 @@
     "c:storage_blocks/raw_{material}",
     "c:storage_blocks/{material}",
     "c:wires/{material}",
-    "c:silicon"
+    "c:silicon",
+    "productivebees:flowers/plastic"
   ],
   "ignored_tags": [],
-  "ignored_items": [],
+  "ignored_items": [
+    "pneumaticcraft:plastic"
+  ],
   "ignored_recipe_types": [
     "cucumber:shaped_tag"
   ],
