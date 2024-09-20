@@ -1,0 +1,167 @@
+	[MachineResourceProductionConfig.WashingFactoryConfig]
+		#Progress bar size [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Tick - Default: [60FE]
+		powerPerTick = 60
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Max Amount of Stored Fluid [Meat] - Default: [8000mB]
+		maxTankSize = 8000
+		#Max Amount of Output Fluid  - Default: [8000mB]
+		maxOutputSize = 8000
+
+	[MachineResourceProductionConfig.FermentationStationConfig]
+		#Amount of Power Consumed per Tick - Default: [40FE]
+		powerPerTick = 40
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Amount of ticks for 2x production - Default: [20 * 5 FE]
+		ticksFor2XProduction = 100
+		#Amount of ticks for 3x production - Default: [20 * 45 FE]
+		ticksFor3XProduction = 900
+		#Amount of ticks for 4x production - Default: [20 * 60 * 2 FE]
+		ticksFor4XProduction = 2400
+		#Amount of ticks for 5x production - Default: [20 * 60 * 5 FE]
+		ticksFor5XProduction = 6000
+
+	[MachineResourceProductionConfig.SporeRecreatorConfig]
+		#Amount of Power Consumed per Tick - Default: [40FE]
+		powerPerTick = 40
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Max Amount of Stored Fluid [Water] - Default: [8000mB]
+		maxWaterTankSize = 1000
+
+	[MachineResourceProductionConfig.BlockPlacerConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Tick - Default: [400FE]
+		powerPerOperation = 1000
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+
+	[MachineResourceProductionConfig.FluidSievingMachineConfig]
+		#Progress bar size [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Tick - Default: [40FE]
+		powerPerTick = 40
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Max Amount of Stored Fluid - Default: [8000mB]
+		maxTankSize = 8000
+
+	[MachineResourceProductionConfig.FluidPlacerConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Tick - Default: [400FE]
+		powerPerOperation = 1000
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Max Amount of Stored Fluid [Input] - Default: [8000mB]
+		maxInputTankSize = 16000
+
+	[MachineResourceProductionConfig.MechanicalDirtConfig]
+		#Amount of Power Consumed per Tick - Default: [400FE]
+		powerPerOperation = 1000
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Max Amount of Stored Fluid [Meat] - Default: [8000mB]
+		maxMeatTankSize = 4000
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+
+	[MachineResourceProductionConfig.LaserDrillConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [50 (2.5s)]
+		maxProgress = 50
+		#Amount of Power Consumed per Tick - Default: [1000FE]
+		powerPerOperation = 1000
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+
+	[MachineResourceProductionConfig.HydroponicBedConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Operation - Default: [1000FE]
+		powerPerOperation = 1000
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+
+	[MachineResourceProductionConfig.WaterCondensatorConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Tick - Default: [400FE]
+		powerPerOperation = 1000
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Max Amount of Stored Fluid [Water] - Default: [8000mB]
+		maxWaterTankSize = 16000
+
+	[MachineResourceProductionConfig.SludgeRefinerConfig]
+		#Amount of Power Consumed per Tick - Default: [40FE]
+		powerPerTick = 40
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Max Amount of Stored Fluid [Sludge] - Default: [8000mB]
+		maxSludgeTankSize = 8000
+
+	[MachineResourceProductionConfig.OreLaserBaseConfig]
+		#Max progress of the machine
+		maxProgress = 100
+		#How much weight of an item the catalyst will increase
+		catalystModifier = 8
+
+	[MachineResourceProductionConfig.DyeMixerConfig]
+		#Amount of Power Consumed per Tick - Default: [400FE]
+		powerPerTick = 30
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+
+	[MachineResourceProductionConfig.FluidLaserBaseConfig]
+		#Max progress of the machine
+		maxProgress = 20
+
+	[MachineResourceProductionConfig.MaterialStoneWorkFactoryConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [60 (3s)]
+		maxProgress = 60
+		#Amount of Power Consumed per Tick - Default: [60FE]
+		powerPerTick = 60
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Max Amount of Stored Fluid [Water] - Default: [2000mB]
+		maxWaterTankSize = 2000
+		#Max Amount of Stored Fluid [Lava] - Default: [2000mB]
+		maxLavaTankSize = 2000
+
+	[MachineResourceProductionConfig.BlockBreakerConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Tick - Default: [400FE]
+		powerPerOperation = 1000
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+
+	[MachineResourceProductionConfig.ResourcefulFurnaceConfig]
+		#Amount of Power Consumed per Tick - Default: [400FE]
+		powerPerTick = 40
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Max Amount of Stored Fluid [Essence] - Default: [8000mB]
+		maxEssenceTankSize = 16000
+
+	[MachineResourceProductionConfig.MarineFisherConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Tick - Default: [5000FE]
+		powerPerOperation = 5000
+		#Max Stored Power [FE] - Default: [20000 FE]
+		maxStoredPower = 20000
+
+	[MachineResourceProductionConfig.FluidCollectorConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Tick - Default: [400FE]
+		powerPerOperation = 1000
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Max Amount of Stored Fluid [Output] - Default: [8000mB]
+		maxOutputTankSize = 16000

@@ -1,0 +1,123 @@
+	[MachineAgricultureHusbandryConfig.AnimalFeederConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Operation - Default: [400FE]
+		powerPerOperation = 400
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#How many animals there need to be in the area to stop the machine from working
+		maxAnimalInTheArea = 35
+
+	[MachineAgricultureHusbandryConfig.MobCrusherConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [50 (2.5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Tick - Default: [40FE]
+		powerPerOperation = 50
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Max Essence [mb] - Default: [32000 mb]
+		tankSize = 32000
+		#Attack Damage for blacklisted entities - Default: [75]
+		attackDamage = 75
+
+	[MachineAgricultureHusbandryConfig.SewageComposterConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Tick - Default: [40FE]
+		powerPerTick = 40
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Max Amount of Stored Fluid - Default: [8000mB]
+		maxTankSize = 8000
+
+	[MachineAgricultureHusbandryConfig.PlantGathererConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 40
+		#Amount of Power Consumer per Operation - Default: [400FE]
+		powerPerOperation = 400
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Max Amount of Stored Fluid for 'Sludge Tank' - Default: [8000mB]
+		maxSludgeTankSize = 8000
+		#Max Amount of Stored Fluid for 'EtherTank' - Default: [1000mB]
+		maxEtherTankSize = 1000
+
+	[MachineAgricultureHusbandryConfig.AnimalRancherConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Operation - Default: [400FE]
+		powerPerOperation = 400
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Max Amount of Stored Fluid - Default: [8000mB]
+		maxTankSize = 8000
+
+	[MachineAgricultureHusbandryConfig.PlantFertilizerConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 50
+		#Amount of Power Consumer per Operation - Default: [400FE]
+		powerPerOperation = 1000
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+
+	[MachineAgricultureHusbandryConfig.SlaughterFactoryConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Operation - Default: [400FE]
+		powerPerOperation = 400
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Max Amount of Stored Fluid - Default: [8000mB]
+		maxMeatTankSize = 8000
+		#Max Amount of Stored Fluid - Default: [8000mB]
+		maxPinkSlimeTankSize = 8000
+
+	[MachineAgricultureHusbandryConfig.PlantSowerConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 40
+		#Amount of Power Consumer per Operation - Default: [1000FE]
+		powerPerOperation = 1000
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+
+	[MachineAgricultureHusbandryConfig.MobDuplicatorConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 62
+		#Amount of Power Consumed per Operation - Default: [400FE]
+		powerPerOperation = 5000
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 50000
+		#Max Essence [mb] - Default: [8000 mb]
+		tankSize = 8000
+		#Exact Copy to spawn - Default: [false]
+		exactCopy = false
+		#Essence needed to spawn [Mob health*EssenceNeeded] - Default: [12]
+		essenceNeeded = 12
+
+	[MachineAgricultureHusbandryConfig.WitherBuilderConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [40 (5s)]
+		maxProgress = 40
+		#Amount of Power Consumed per Operation - Default: [500FE]
+		powerPerOperation = 20000
+		#Max Stored Power [FE] - Default: [70000 FE]
+		maxStoredPower = 70000
+
+	[MachineAgricultureHusbandryConfig.AnimalBabySeparatorConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Operation - Default: [400FE]
+		powerPerOperation = 400
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+
+	[MachineAgricultureHusbandryConfig.SewerConfig]
+		#Cooldown Time in Ticks [20 Ticks per Second] - Default: [100 (5s)]
+		maxProgress = 100
+		#Amount of Power Consumed per Operation - Default: [10FE] - This is Calculated as [VALUE * (amount + 1)]
+		powerPerOperation = 10
+		#Max Stored Power [FE] - Default: [10000 FE]
+		maxStoredPower = 10000
+		#Max Amount of Stored Fluid - Default: [8000mB]
+		maxSewageTankSize = 8000
+		#Max Amount of Stored Fluid - Default: [8000mB]
+		maxEssenceTankSize = 8000

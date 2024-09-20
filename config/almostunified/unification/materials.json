@@ -7,8 +7,11 @@
     "mekanism",
     "modern_industrialization",
     "occultism",
+    "industrialforegoing",
     "pneumaticcraft",
-    "biggerreactors"
+    "biggerreactors", 
+    "ae2",
+    "enderio"
   ],
   "priority_overrides": {},
   "stone_variants": [
@@ -31,10 +34,14 @@
     "c:rods/{material}",
     "c:storage_blocks/raw_{material}",
     "c:storage_blocks/{material}",
-    "c:wires/{material}"
+    "c:wires/{material}",
+    "c:silicon",
+    "productivebees:flowers/plastic"
   ],
   "ignored_tags": [],
-  "ignored_items": [],
+  "ignored_items": [
+    "pneumaticcraft:plastic"
+  ],
   "ignored_recipe_types": [
     "cucumber:shaped_tag"
   ],
