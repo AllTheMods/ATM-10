@@ -1,0 +1,443 @@
+{
+	autofocus_id: "1ACB752D5B2918AC"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lv"
+	group: "25D99E05AE866D07"
+	icon: {
+		id: "modern_industrialization:basic_machine_hull"
+	}
+	id: "6A0F856D6C50D86F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0ACB37910E548051"]
+			id: "1ACB752D5B2918AC"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "12BDD84D380B0A1C"
+				item: { count: 1, id: "modern_industrialization:basic_machine_hull" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1ACB752D5B2918AC"]
+			id: "5836D5B6849F5405"
+			tasks: [
+				{
+					id: "47BC6D05287E5567"
+					item: { count: 1, id: "modern_industrialization:electric_compressor" }
+					type: "item"
+				}
+				{
+					id: "2F630D57FE0AE795"
+					item: { count: 1, id: "modern_industrialization:electric_cutting_machine" }
+					type: "item"
+				}
+				{
+					id: "6D25F35A8A24F1E1"
+					item: { count: 1, id: "modern_industrialization:electric_furnace" }
+					type: "item"
+				}
+				{
+					id: "7C24D31D3A68F093"
+					item: { count: 1, id: "modern_industrialization:electric_macerator" }
+					type: "item"
+				}
+				{
+					id: "02E7F1958F436ECA"
+					item: { count: 1, id: "modern_industrialization:electric_mixer" }
+					type: "item"
+				}
+				{
+					id: "6B8E2A9491121360"
+					item: { count: 1, id: "modern_industrialization:electric_packer" }
+					type: "item"
+				}
+				{
+					id: "62014151B32F38FE"
+					item: { count: 1, id: "modern_industrialization:electric_unpacker" }
+					type: "item"
+				}
+				{
+					id: "0B3F5FED0F3E97A8"
+					item: { count: 1, id: "modern_industrialization:electric_water_pump" }
+					type: "item"
+				}
+				{
+					id: "760A1571E2CF0FF5"
+					item: { count: 1, id: "modern_industrialization:electric_wiremill" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1ACB752D5B2918AC"]
+			id: "1D187472EAD694AC"
+			tasks: [{
+				id: "41D7FE33B54614DA"
+				item: { count: 1, id: "modern_industrialization:polarizer" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1ACB752D5B2918AC"]
+			id: "0B954C259D318B01"
+			tasks: [
+				{
+					id: "1CA50D0976A5B73E"
+					item: { count: 1, id: "extended_industrialization:electric_alloy_smelter" }
+					type: "item"
+				}
+				{
+					id: "53F982FE94FBE7F9"
+					item: { count: 1, id: "extended_industrialization:electric_bending_machine" }
+					type: "item"
+				}
+				{
+					id: "4A3825C979DDBF81"
+					item: { count: 1, id: "extended_industrialization:electric_brewery" }
+					type: "item"
+				}
+				{
+					id: "5FA6841D0007358A"
+					item: { count: 1, id: "extended_industrialization:electric_canning_machine" }
+					type: "item"
+				}
+				{
+					id: "18D0C83141DD29F6"
+					item: { count: 1, id: "extended_industrialization:electric_composter" }
+					type: "item"
+				}
+				{
+					id: "4D150FB442C91EFE"
+					item: { count: 1, id: "extended_industrialization:electric_honey_extractor" }
+					type: "item"
+				}
+				{
+					id: "274AA0B108DF29E3"
+					item: { count: 1, id: "extended_industrialization:electric_waste_collector" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1ACB752D5B2918AC"]
+			id: "744DBD0278DB63C5"
+			tasks: [{
+				id: "2DA2679B140EA319"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["744DBD0278DB63C5"]
+			id: "33907643A8894700"
+			size: 1.0d
+			tasks: [{
+				id: "4F9BFF92778DE369"
+				item: { count: 1, id: "modern_industrialization:lv_diesel_generator" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["744DBD0278DB63C5"]
+			id: "641A14AD596761CB"
+			size: 2.0d
+			tasks: [{
+				id: "2C0903A9DE48A330"
+				item: { count: 1, id: "modern_industrialization:lv_steam_turbine" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["744DBD0278DB63C5"]
+			id: "637640236482CE4D"
+			tasks: [{
+				id: "4040BEE3AAA4C560"
+				item: { count: 1, id: "extended_industrialization:lv_solar_panel" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["744DBD0278DB63C5"]
+			id: "13B9F143BD738880"
+			tasks: [{
+				id: "0306B74B7190C9EE"
+				item: { count: 1, id: "modern_industrialization:lv_storage_unit" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1ACB752D5B2918AC"]
+			id: "3DEF9FFADA6619C1"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "029297B084CE4080"
+				item: { count: 1, id: "modern_industrialization:assembler" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "modern_industrialization:cupronickel_cable"
+			}
+			id: "7C32AFC9B7C34016"
+			shape: "square"
+			tasks: [
+				{
+					id: "2CA1773F6FD9808B"
+					item: { count: 1, id: "modern_industrialization:cupronickel_dust" }
+					type: "item"
+				}
+				{
+					id: "6E1E22C8B916B5BD"
+					item: { count: 1, id: "modern_industrialization:cupronickel_ingot" }
+					type: "item"
+				}
+				{
+					id: "2335A1670C8AA58E"
+					item: { count: 1, id: "modern_industrialization:cupronickel_cable" }
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"7C32AFC9B7C34016"
+				"3DEF9FFADA6619C1"
+			]
+			icon: {
+				id: "modern_industrialization:cupronickel_coil"
+			}
+			id: "733FDF125341B875"
+			shape: "square"
+			tasks: [{
+				count: 16L
+				id: "189E2FD811AFCE10"
+				item: { count: 1, id: "modern_industrialization:cupronickel_coil" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["733FDF125341B875"]
+			icon: {
+				id: "modern_industrialization:electric_blast_furnace"
+			}
+			id: "18825085EDF8CDBA"
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "6CD3651F904C6947"
+					item: { count: 1, id: "modern_industrialization:electric_blast_furnace" }
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "11C7433C0AB2D827"
+					item: { count: 14, id: "modern_industrialization:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "03E745EFDB0CF467"
+					item: { count: 16, id: "modern_industrialization:cupronickel_coil" }
+					type: "item"
+				}
+				{
+					id: "010E8A277F177B4B"
+					item: { count: 1, id: "modern_industrialization:steel_item_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "4D2F689E83719502"
+					item: { count: 1, id: "modern_industrialization:lv_energy_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "6EE2334149DDF801"
+					item: { count: 1, id: "modern_industrialization:steel_item_output_hatch" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["18825085EDF8CDBA"]
+			icon: {
+				id: "modern_industrialization:aluminum_ingot"
+			}
+			id: "77CA8D3E3347736E"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "60E82826B54A04A4"
+				item: { count: 1, id: "alltheores:aluminum_ingot" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["18825085EDF8CDBA"]
+			id: "0F26D0736E469C01"
+			shape: "square"
+			tasks: [
+				{
+					id: "1071BC87F89B9679"
+					item: { count: 1, id: "modern_industrialization:silicon_dust" }
+					type: "item"
+				}
+				{
+					id: "04E0AD1A72866B18"
+					item: { count: 1, id: "modern_industrialization:silicon_ingot" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0F26D0736E469C01"]
+			id: "0DD0BD5CBFECB252"
+			shape: "square"
+			tasks: [{
+				id: "098E25E98F2F3A90"
+				item: { count: 1, id: "modern_industrialization:silicon_battery" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["77CA8D3E3347736E"]
+			id: "117D8289A46DB7A6"
+			tasks: [{
+				id: "467242E761DA1643"
+				item: { count: 1, id: "modern_industrialization:aluminum_tank" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77CA8D3E3347736E"]
+			id: "45907F4674854D47"
+			tasks: [{
+				id: "0BBA3FEE68E8288C"
+				item: { count: 1, id: "modern_industrialization:aluminum_barrel" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["117D8289A46DB7A6"]
+			id: "080801898D759650"
+			tasks: [{
+				id: "40B187092C2D03BA"
+				item: { count: 1, id: "modern_industrialization:configurable_tank" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["77CA8D3E3347736E"]
+			id: "1D76D567103A6B19"
+			tasks: [{
+				id: "0BEBC4C8B308FE02"
+				item: { count: 1, id: "modern_industrialization:advanced_machine_casing" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"77CA8D3E3347736E"
+				"0F26D0736E469C01"
+			]
+			id: "7E802B23CE5E6FCD"
+			tasks: [
+				{
+					id: "366322604B9995A6"
+					item: { count: 1, id: "modern_industrialization:electronic_circuit_board" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "05FDA263B1ADF2C2"
+					item: { count: 2, id: "modern_industrialization:diode" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3ADB8DAF2B1C99DE"
+					item: { count: 2, id: "modern_industrialization:transistor" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7E802B23CE5E6FCD"]
+			id: "4977B58EDDCD4F8A"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "4FEBBFD051966338"
+				item: { count: 1, id: "modern_industrialization:electronic_circuit" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"4977B58EDDCD4F8A"
+				"1D76D567103A6B19"
+				"0DD0BD5CBFECB252"
+			]
+			id: "18387084EB439C3F"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "13D38202A04D9E6A"
+				item: { count: 1, id: "modern_industrialization:advanced_machine_hull" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+	]
+}

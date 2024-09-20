@@ -1,0 +1,41 @@
+{
+	autofocus_id: "5BA43444C9A59BCD"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "medium_voltage"
+	group: "25D99E05AE866D07"
+	icon: {
+		id: "modern_industrialization:advanced_machine_hull"
+	}
+	id: "1B5105A1F69B8BF0"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["18387084EB439C3F"]
+			id: "5BA43444C9A59BCD"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "0D7B9923B2DBD5AA"
+				item: { count: 1, id: "modern_industrialization:advanced_machine_hull" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4977B58EDDCD4F8A"]
+			id: "3E79CD57C5AD0929"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "5DB1F40BD4DCEFBB"
+				item: { count: 1, id: "modern_industrialization:electronic_circuit" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+	]
+}

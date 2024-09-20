@@ -1,0 +1,24 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "superconductor_voltage"
+	group: "25D99E05AE866D07"
+	icon: {
+		id: "modern_industrialization:quantum_machine_hull"
+	}
+	id: "7FD512FBFDA5F317"
+	order_index: 5
+	quest_links: [ ]
+	quests: [{
+		id: "44C1B9EDFC77F19C"
+		shape: "square"
+		size: 2.0d
+		tasks: [{
+			id: "03B0852BD93B9C16"
+			item: { count: 1, id: "modern_industrialization:quantum_machine_hull" }
+			type: "item"
+		}]
+		x: -2.5d
+		y: 0.5d
+	}]
+}

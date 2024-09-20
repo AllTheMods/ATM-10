@@ -14,6 +14,12 @@
 		{
 			dependencies: ["4609A64DBD60D0CE"]
 			id: "0CFFE841DA34DCF8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B6B1F28A607CD68"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			shape: "square"
 			size: 1.0d
 			tasks: [{
@@ -29,14 +35,21 @@
 				id: "modern_industrialization:guidebook"
 			}
 			id: "4609A64DBD60D0CE"
-			rewards: [{
-				id: "1F5990219EF649B0"
-				item: {
-					count: 1
-					id: "modern_industrialization:guidebook"
+			rewards: [
+				{
+					id: "1F5990219EF649B0"
+					item: {
+						count: 1
+						id: "modern_industrialization:guidebook"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1BA0A41599E39CB4"
+					type: "xp"
+					xp: 10
+				}
+			]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
@@ -49,6 +62,12 @@
 		{
 			dependencies: ["0CFFE841DA34DCF8"]
 			id: "11C2B5D52587D50E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43C76403695B659C"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6AEAF75373B6D5D7"
@@ -64,6 +83,12 @@
 				id: "modern_industrialization:fire_clay_bricks"
 			}
 			id: "1FF2D0609E137081"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "626FBFA7BEC38BC7"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -94,6 +119,12 @@
 				"386B3AB6721542CD"
 			]
 			id: "72ECE59709C511C1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "409D42E4378047F1"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			shape: "square"
 			size: 1.0d
 			tasks: [{
@@ -107,28 +138,46 @@
 		{
 			dependencies: ["11C2B5D52587D50E"]
 			id: "736F0E21F283A433"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12522C4DFC3A5A94"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2E8D59B195E20B43"
 				item: { count: 1, id: "modern_industrialization:bronze_barrel" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: 2.0d
+			x: -8.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["11C2B5D52587D50E"]
 			id: "3C7BFCA956909C36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74A9BF3488E375D7"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			tasks: [{
 				id: "34EAE384EB298356"
 				item: { count: 1, id: "modern_industrialization:bronze_tank" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 2.0d
+			x: -8.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7F1E7EBC1EEDD3D9"]
 			id: "386B3AB6721542CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72F98321C592092C"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4DCAF742E45924DD"
 				item: { count: 1, id: "modern_industrialization:bronze_water_pump" }
@@ -140,6 +189,12 @@
 		{
 			dependencies: ["72ECE59709C511C1"]
 			id: "1B56CD02724BE6E7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "33D007E55EB92025"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "7DDF0C7007452C22"
@@ -152,6 +207,12 @@
 		{
 			dependencies: ["1B56CD02724BE6E7"]
 			id: "6909218B65187B38"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "69629C10B85CE836"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2F2A13DB05DE7FB4"
 				item: { count: 1, id: "moderndynamics:fluid_pipe" }
@@ -163,6 +224,12 @@
 		{
 			dependencies: ["6909218B65187B38"]
 			id: "5E106ADB361114DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3022B5828F2F2838"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "31ABC3E93E00FE1F"
@@ -186,6 +253,12 @@
 		{
 			dependencies: ["244F78E9D11961BD"]
 			id: "7F1E7EBC1EEDD3D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D1F34AF9871128A"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			shape: "square"
 			size: 2.5d
 			tasks: [{
@@ -199,6 +272,12 @@
 		{
 			dependencies: ["11C2B5D52587D50E"]
 			id: "5945A363E36D5DDF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1709C6EDFB4DE530"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			tasks: [{
 				id: "25D6EE29D3B56957"
 				item: { count: 1, id: "modern_industrialization:wrench" }
@@ -213,6 +292,12 @@
 				"7234C29EFA4D6DA4"
 			]
 			id: "5A8550276BE8614B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5434CC4DB4F5632B"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "0CBA211E8B9BF44C"
@@ -225,6 +310,12 @@
 		{
 			dependencies: ["7F1E7EBC1EEDD3D9"]
 			id: "66989CB39E6A886A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BB03898719BDBF9"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6136F622849C522F"
@@ -237,6 +328,12 @@
 		{
 			dependencies: ["7F1E7EBC1EEDD3D9"]
 			id: "1C3C97B350413973"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "043928D97CCAAE98"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "36A7CC5E870A8FB5"
@@ -249,6 +346,12 @@
 		{
 			dependencies: ["7F1E7EBC1EEDD3D9"]
 			id: "7E5224A599447EDA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77AFB0362DFE94A5"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "5C7112E03D2825AE"
@@ -264,11 +367,20 @@
 				"5D223E98B15359F0"
 			]
 			id: "7234C29EFA4D6DA4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00FE8C45743370ED"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			shape: "square"
 			tasks: [{
-				id: "61E8C04D011D2B79"
-				item: { count: 1, id: "modern_industrialization:lubricant_bucket" }
-				type: "item"
+				fluid: {
+					amount: 1000
+					id: "modern_industrialization:lubricant"
+				}
+				id: "53EBF429D8355088"
+				type: "fluid"
 			}]
 			x: 1.5d
 			y: 5.0d
@@ -276,6 +388,12 @@
 		{
 			dependencies: ["7F1E7EBC1EEDD3D9"]
 			id: "4D1CBFB9B1974471"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "572368E9F8E1098C"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "6F4C67E2F133B940"
@@ -288,6 +406,12 @@
 		{
 			dependencies: ["72ECE59709C511C1"]
 			id: "18CB01B0BF7D4468"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65D84566CD062B14"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			tasks: [{
 				id: "400F35A4DB93CDE3"
 				item: { count: 1, id: "extended_industrialization:bronze_solar_boiler" }
@@ -302,6 +426,12 @@
 				id: "modern_industrialization:coke_oven"
 			}
 			id: "68E6860240C05D3E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "530399C134D97B7D"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [
@@ -343,11 +473,19 @@
 		{
 			dependencies: ["68E6860240C05D3E"]
 			id: "5D223E98B15359F0"
+			rewards: [{
+				id: "56F1A22BFCC20AF2"
+				type: "xp"
+				xp: 50
+			}]
 			shape: "square"
 			tasks: [{
-				id: "12116F37C376F31B"
-				item: { count: 1, id: "modern_industrialization:creosote_bucket" }
-				type: "item"
+				fluid: {
+					amount: 1000
+					id: "modern_industrialization:creosote"
+				}
+				id: "3E17C9E19073ACFB"
+				type: "fluid"
 			}]
 			x: 0.0d
 			y: 5.0d
@@ -355,6 +493,12 @@
 		{
 			dependencies: ["68E6860240C05D3E"]
 			id: "01048E4598B41951"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E4B7BD8FDE3D7DC"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "2DA9586E5E90E3E2"
@@ -370,6 +514,12 @@
 				id: "modern_industrialization:uncooked_steel_dust"
 			}
 			id: "0F4BB53E5E9D4D7C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5EAD6783CADC7583"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -396,14 +546,46 @@
 				"7F1E7EBC1EEDD3D9"
 				"1FF2D0609E137081"
 			]
+			icon: {
+				id: "modern_industrialization:steam_blast_furnace"
+			}
 			id: "5A1DB31CC71FE2DF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E41B0D52ED3FA27"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			shape: "square"
 			size: 2.0d
-			tasks: [{
-				id: "26B9D3EAF7D4A635"
-				item: { count: 1, id: "modern_industrialization:steam_blast_furnace" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "26B9D3EAF7D4A635"
+					item: { count: 1, id: "modern_industrialization:steam_blast_furnace" }
+					type: "item"
+				}
+				{
+					count: 29L
+					id: "06D0550B921DC9B5"
+					item: { count: 29, id: "modern_industrialization:fire_clay_bricks" }
+					type: "item"
+				}
+				{
+					id: "3FA38C50CCEB0081"
+					item: { count: 1, id: "modern_industrialization:bronze_item_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "23490751730D3342"
+					item: { count: 1, id: "modern_industrialization:bronze_fluid_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "7DABE576421CEB27"
+					item: { count: 1, id: "modern_industrialization:bronze_item_output_hatch" }
+					type: "item"
+				}
+			]
 			x: -3.5d
 			y: 4.0d
 		}
@@ -416,6 +598,12 @@
 				id: "modern_industrialization:steel_ingot"
 			}
 			id: "2CD8BD93BDAC515F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F469B4C23C46C79"
+				table_id: 3068897855788530678L
+				type: "random"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -429,6 +617,12 @@
 		{
 			dependencies: ["5A1DB31CC71FE2DF"]
 			id: "64826CC6BB0C33DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BDB3B77CCEFB8FD"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			tasks: [{
 				fluid: {
 					amount: 1000
@@ -499,6 +693,19 @@
 		{
 			dependencies: ["2CD8BD93BDAC515F"]
 			id: "7F97C54AEEC08888"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "43F1B4E5ACEDCC08"
+					table_id: 3068897855788530678L
+					type: "random"
+				}
+				{
+					id: "1A36FF7CC844C8DD"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "octagon"
 			size: 1.2d
 			tasks: [{
@@ -512,6 +719,12 @@
 		{
 			dependencies: ["2CD8BD93BDAC515F"]
 			id: "762FB3D99CDD6B5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "120F1F1915C6BE49"
+				table_id: 3068897855788530678L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7F9DF6189C1CA3D2"
 				item: { count: 1, id: "modern_industrialization:steel_tank" }
@@ -523,6 +736,12 @@
 		{
 			dependencies: ["2CD8BD93BDAC515F"]
 			id: "75BC4CB367C1DF06"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "452194E2147A1620"
+				table_id: 3068897855788530678L
+				type: "random"
+			}]
 			tasks: [{
 				id: "7C6C6157093CA6D0"
 				item: { count: 1, id: "modern_industrialization:steel_barrel" }
@@ -537,6 +756,12 @@
 				"6279CA3EB66D6827"
 			]
 			id: "456FE3FF57EE60F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2CB5E0878D83208D"
+				table_id: 3068897855788530678L
+				type: "random"
+			}]
 			tasks: [{
 				id: "4840E992A430ED39"
 				item: { count: 1, id: "modern_industrialization:steel_upgrade" }
@@ -548,6 +773,12 @@
 		{
 			dependencies: ["456FE3FF57EE60F2"]
 			id: "6997104B63980BDB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D5B74564422CFC2"
+				table_id: 3068897855788530678L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "7FA7548B426CEC6D"
@@ -591,6 +822,12 @@
 		{
 			dependencies: ["2CD8BD93BDAC515F"]
 			id: "29CFE6E0E85522C2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68ECDEBFD3CB7FE3"
+				table_id: 3068897855788530678L
+				type: "random"
+			}]
 			tasks: [{
 				id: "074DD0BF69F144A0"
 				item: { count: 1, id: "modern_industrialization:trash_can" }
@@ -602,28 +839,46 @@
 		{
 			dependencies: ["6279CA3EB66D6827"]
 			id: "5E4EA0942E7414E8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1E361D1EB4BE6A54"
+				table_id: 3068897855788530678L
+				type: "random"
+			}]
 			tasks: [{
 				id: "03E1562E937F2EC5"
 				item: { count: 1, id: "modern_industrialization:steel_unpacker" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 13.0d
+			x: -3.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["6279CA3EB66D6827"]
 			id: "77B2576BC305E789"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "19592106EBB06C1E"
+				table_id: 3068897855788530678L
+				type: "random"
+			}]
 			tasks: [{
 				id: "6BC5BF8901AAB1D6"
 				item: { count: 1, id: "modern_industrialization:steel_packer" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 13.5d
+			x: -3.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["2CD8BD93BDAC515F"]
 			id: "6279CA3EB66D6827"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0FBE284D902795A7"
+				table_id: 3068897855788530678L
+				type: "random"
+			}]
 			shape: "square"
 			size: 2.0d
 			tasks: [{
@@ -637,6 +892,12 @@
 		{
 			dependencies: ["77B2576BC305E789"]
 			id: "55D2911573565D4A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DF174D279607F8A"
+				table_id: 3068897855788530678L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "1E536A488D393A78"
@@ -649,12 +910,18 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 13.5d
+			x: -4.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["6279CA3EB66D6827"]
 			id: "392A3C6102BC3708"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3F939EB2F733D010"
+				table_id: 3068897855788530678L
+				type: "random"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "11DCEA4B18235181"
@@ -694,6 +961,12 @@
 		{
 			dependencies: ["2CD8BD93BDAC515F"]
 			id: "2505307FAE556AF2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43D2612DED3C1E21"
+				table_id: 3068897855788530678L
+				type: "random"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "56BF5F9251BD54EA"
@@ -705,7 +978,16 @@
 		}
 		{
 			dependencies: ["11C2B5D52587D50E"]
+			icon: {
+				id: "modern_industrialization:bronze_ingot"
+			}
 			id: "244F78E9D11961BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73E8F8922B4DA749"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			shape: "square"
 			tasks: [{
 				id: "07FBFE60319F48CB"
@@ -721,6 +1003,23 @@
 				id: "modern_industrialization:steam_quarry"
 			}
 			id: "0B0F60E2F150B535"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1DFFD6206935169E"
+					table_id: 3068897855788530678L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "240453BD1941D0A8"
+					item: {
+						count: 1
+						id: "modern_industrialization:bronze_drill"
+					}
+					type: "item"
+				}
+			]
 			shape: "square"
 			tasks: [
 				{
@@ -768,39 +1067,63 @@
 		{
 			dependencies: ["2505307FAE556AF2"]
 			id: "2943386F36243838"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A62EE49E2E32298"
+				table_id: 3068897855788530678L
+				type: "random"
+			}]
 			tasks: [{
 				id: "287458517CD6C94D"
 				item: { count: 1, id: "moderndynamics:item_pipe" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.5d
 			y: 11.5d
 		}
 		{
 			dependencies: ["2943386F36243838"]
 			id: "20A1E67FE364E431"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "207CD727AE958AC5"
+				table_id: 3068897855788530678L
+				type: "random"
+			}]
 			tasks: [{
 				id: "537AAFC0A44F1788"
 				item: { count: 1, id: "moderndynamics:inhibitor" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 2.0d
 			y: 12.5d
 		}
 		{
 			dependencies: ["2943386F36243838"]
 			id: "1AA53367BEA83B99"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "490770E9D916DB6D"
+				table_id: 3068897855788530678L
+				type: "random"
+			}]
 			tasks: [{
 				id: "2BAA7EAB27460766"
 				item: { count: 1, id: "moderndynamics:machine_extender" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 2.0d
 			y: 11.5d
 		}
 		{
 			dependencies: ["0B0F60E2F150B535"]
 			id: "2F22340C7B331CDF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D75A6CCC092EA82"
+				table_id: 3068897855788530678L
+				type: "random"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -822,6 +1145,12 @@
 		{
 			dependencies: ["7FFC73DDC358BDC5"]
 			id: "18E2934B7F5553A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BF26BC932A2F908"
+				table_id: 3068897855788530678L
+				type: "random"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -859,6 +1188,12 @@
 				"18E2934B7F5553A9"
 			]
 			id: "4D7C46AE3C3F4954"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B0C39EA376036EE"
+				table_id: 3068897855788530678L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "398C15F39DB650F0"
@@ -868,6 +1203,18 @@
 				{
 					id: "6EC021854A71E613"
 					item: { count: 1, id: "modern_industrialization:large_tank_hatch" }
+					type: "item"
+				}
+				{
+					count: 19L
+					id: "584D49526059879F"
+					item: { count: 19, id: "modern_industrialization:steel_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "0BE5757477DF9211"
+					item: { count: 5, id: "minecraft:glass" }
 					type: "item"
 				}
 			]
@@ -893,6 +1240,12 @@
 				id: "modern_industrialization:battery_alloy_ingot"
 			}
 			id: "23399F7D7C90FB19"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "436B46D6E0C6CF0E"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			shape: "square"
 			tasks: [
 				{
@@ -915,6 +1268,12 @@
 				id: "modern_industrialization:invar_ingot"
 			}
 			id: "794E839765D18577"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "78DA8431E7B5D10D"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
 			tasks: [
 				{
 					id: "6B5A9E3387BB5DA0"
@@ -1082,6 +1441,110 @@
 			}]
 			x: -12.0d
 			y: 10.0d
+		}
+		{
+			dependencies: ["1B56CD02724BE6E7"]
+			id: "225C39F02BA725AF"
+			rewards: [{
+				id: "414E97ADEEE5D1E2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0EFB9DDB61699F6E"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2505307FAE556AF2"]
+			id: "36F9B7CDEC8964E5"
+			rewards: [{
+				id: "6FEF3DA428957947"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "564D6CE521B36A5C"
+				type: "checkmark"
+			}]
+			x: -1.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["6279CA3EB66D6827"]
+			id: "03D22DAB4D677909"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6901642168F45B2E"
+				table_id: 3068897855788530678L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "34C2694F9A0F79E4"
+					item: { count: 1, id: "extended_industrialization:steel_bending_machine" }
+					type: "item"
+				}
+				{
+					id: "28AB7E3620D52D34"
+					item: { count: 1, id: "extended_industrialization:steel_brewery" }
+					type: "item"
+				}
+				{
+					id: "1D694E63EBD26CC2"
+					item: { count: 1, id: "extended_industrialization:steel_canning_machine" }
+					type: "item"
+				}
+				{
+					id: "43F8A11AE192E6B8"
+					item: { count: 1, id: "extended_industrialization:steel_composter" }
+					type: "item"
+				}
+				{
+					id: "1AD28ED671EDB707"
+					item: { count: 1, id: "extended_industrialization:steel_honey_extractor" }
+					type: "item"
+				}
+				{
+					id: "11E934AB14F777A9"
+					item: { count: 1, id: "extended_industrialization:steel_waste_collector" }
+					type: "item"
+				}
+				{
+					id: "7D99883AADF07F0B"
+					item: { count: 1, id: "extended_industrialization:steel_solar_boiler" }
+					type: "item"
+				}
+				{
+					id: "29F4775C94ECA230"
+					item: { count: 1, id: "extended_industrialization:steel_alloy_smelter" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"244F78E9D11961BD"
+				"11C2B5D52587D50E"
+			]
+			id: "432E683A3F770AB3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0180F5AF7E4F0689"
+				table_id: 3209397039676652183L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1DB3C15767B9282E"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:me_wires)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
 		}
 	]
 }
