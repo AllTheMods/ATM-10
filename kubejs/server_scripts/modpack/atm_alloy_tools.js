@@ -6,11 +6,11 @@ ServerEvents.recipes(allthemods => {
     function enchanting_apparatus(output, pedestalItems, reagent, nbt, sourceCost, id){
         let recipe = {
             "type": "ars_nouveau:enchanting_apparatus",
-            "keepNbtOfReagent": nbt,
+            "keepNbtOfReagent": false,
             "pedestalItems": [],
             "reagent": {},
             "result": {
-                "count": output.count || 1,
+                "count": 1,
                 "id": output.item
             },
             "sourceCost": sourceCost
