@@ -1,0 +1,21 @@
+name: Feature Requests
+description: For suggesting new features to the pack other than mods.
+title: "[Feature Requests]: "
+labels: [ enhancement ]
+body:
+  - type: input
+    id: pack-version
+    attributes:
+      label: Modpack Version
+      description: What version of the pack are you using?
+      placeholder: Pack version
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the suggestion
+      description: Please give a thorough explanation of what you want added. Attach/Link relevant images/files in relation to the suggestion!
+      placeholder: Tell us what you want!
+    validations:
+      required: true
