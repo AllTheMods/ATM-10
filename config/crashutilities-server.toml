@@ -1,0 +1,38 @@
+["Item Clear"]
+	#Check Every <timer>  minutes how many items are loaded. If there are more than <maximum>. Then Remove All Items. Configs are reloaded on worldreload and clear
+	#Enable regular ItemClear
+	enabled = true
+	#Waiting time between Checks in Minutes
+	#Range: 0 ~ 1440
+	timer = 5
+	#Do a clear if there are more than X items
+	#Range: > 0
+	maximum = 1000
+	#Chat warning, Comma separated, in seconds
+	warnings = "5,20"
+	#Run a Title command on first warning
+	title = true
+	#Text to display in TitleCommand
+	titletext = "ITEMCLEAR INCOMING!"
+	#Text to Display in Chat when Item. First % will be replaced by Value. In red, encased in [=== 
+	warningtext = "ITEMCLEAR IN % SECONDS"
+
+["Memory Checker"]
+	#Adds a Memory checker that reads currently used Memory. A command that reads out the last logged memory values, and a warning in logs when large amounts of memory get used in a small amount of time
+	#Enable the Memory checker
+	enabled = false
+	#Time between Memory Checks that will get saved for display(in seconds)
+	#Range: > 0
+	timer = 30
+	#Threshold at which the Memory checker will display a warning in the Log (in MB)
+	#Range: > 0
+	threshold = 1000
+	#Run /spark heapdump when memory fills up more than 95 % the first time. This value gets set to false if this occurs
+	heapdump = false
+
+["Ftb Chunks"]
+	#If Ftb chunks is installed enable automatic purge of loaded chunks for people who have not been online for some amount of days. (Note LOADED not Claimed Chunks)
+	enabled = false
+	#Number of days after which a players chunks will be unloaded. Warning! This relies on the modify date of the player data file. 
+	#Range: > 0
+	days = 7

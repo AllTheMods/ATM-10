@@ -88,7 +88,7 @@ ServerEvents.recipes(allthemods => {
             { item: 'ae2:sky_stone_block', count: 4 }
         ],
         'sky_bronze_ingot',
-        { fluid:'minecraft:lava', count: 1000}
+        { fluid:'minecraft:lava', count: 100}
     );
     createCrystalAssemblerRecipe(
         { item: 'megacells:sky_osmium_ingot', count: 8 },
@@ -98,7 +98,7 @@ ServerEvents.recipes(allthemods => {
             { item: 'ae2:sky_stone_block', count: 4 }
         ],
         'sky_osmium_ingot',
-        { fluid:'minecraft:lava', count: 1000}
+        { fluid:'minecraft:lava', count: 100}
     );
 
 
@@ -124,6 +124,32 @@ ServerEvents.recipes(allthemods => {
 
     allthemods.shapeless(` 4x ae2:fluix_covered_cable`,[`ae2:fluix_covered_dense_cable`]).id(`allthemods:ae2/dense_to_normal`)
     allthemods.shapeless(` 4x ae2:fluix_smart_cable`,[`ae2:fluix_smart_dense_cable`]).id(`allthemods:ae2/smart_dense_to_smart_normal`)
+
+    // duplicating universal press with the circuit slicer for when you used up all your presses
+    createCrystalAssemblerRecipe(
+        { item: 'extendedae:circuit_cutter'},
+        [
+            {item: 'extendedae:machine_frame'},
+            {item: 'ae2:engineering_processor', count: 8 },
+            {item: 'kubejs:universal_press'},
+            {item: 'minecraft:stonecutter'}
+        ],
+        'circuit_cutter_from_universal'
+    );
+
+    // making more circuit slicers with the universal press as both have the same capabilities
+    allthemods.custom({
+        "type": "extendedae:circuit_cutter",
+        "input": {
+            "ingredient": {
+            "item": "minecraft:iron_block"
+            }
+        },
+        "output": {
+            "count": 1,
+            "id": "kubejs:universal_press"
+        }
+    }).id('extendedae:slicing/universal_press')
   
 })
 

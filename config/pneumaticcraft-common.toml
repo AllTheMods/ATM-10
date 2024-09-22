@@ -1,0 +1,361 @@
+[general]
+	#Enable mod dungeon loot generation
+	enable_dungeon_loot = true
+	#Efficiency of fuel buckets as furnace fuel (default 0.05 means 1 bucket of LPG smelts 450 items in a vanilla furnace)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	fuel_bucket_efficiency = 0.05
+	#Maximum number of blocks in the area defined in an Area Programming Puzzle Piece
+	#Range: > 1
+	max_programming_area = 250000
+	#Fluids at least as hot as this temperature (Kelvin) will be auto-registered as Liquid Compressor fuels, the quality being dependent on fluid temperature.
+	#Range: > 0
+	min_fluid_fuel_temperature = 373
+	#Should dyes be used up when coloring things (Drones, Logistics Modules, Redstone Modules)?
+	use_up_dyes_when_coloring = false
+	#Cooldown, in ticks, between subsequent uses of Bandages. Set to 0 to disable cooldowns entirely.
+	#Range: > 0
+	bandage_cooldown = 160
+	#Time, in ticks, it takes to use a bandage.
+	#Range: > 1
+	bandage_use_time = 40
+	#Health points restored on bandage use (1 health = half a heart).
+	#Range: 1.0 ~ 1.7976931348623157E308
+	bandage_health_restored = 6.0
+	#Damage inflicted by stepping on a Plastic Construction Brick™ without any protection
+	#Range: 0.0 ~ 1.7976931348623157E308
+	plastic_brick_damage = 3.0
+	#Show tank fluids with the The One Probe when sneaking? Note that TOP has its own support for showing tanks, which by default requires a Probe to be held, or a Probe-enabled helmet to be worn.
+	top_shows_fluids = false
+
+[worldgen]
+	#Oil worldgen whitelist by dimension ID: add dimension ID's to this list if you want oil lake worldgen to happen ONLY in those dimensions. You can wildcard the path; e.g 'modid:*' whitelists ALL dimensions of namespace 'modid'. If this is empty, it is ignored, and 'oil_world_gen_dimension_blacklist' will be checked instead.
+	oil_world_gen_dimension_whitelist = []
+	#Oil worldgen blacklist by dimension ID: add dimension ID's to this list if you don't want oil lake worldgen to happen there. You can wildcard this; e.g 'modid:*' blacklists ALL dimensions of namespace 'modid'.
+	oil_world_gen_dimension_blacklist = []
+
+[machines]
+	#Aerial Interface backwards compat: allow pre-0.8.0 behaviour of getting player's armor inventory from top face, even with Dispenser Upgrade installed
+	aerial_interface_armor_compat = true
+	#Chance per tick of Crop Supports causing a growth tick. The default, 0.002, is roughly 2.5 times faster than the vanilla growth rate
+	#Range: 0.0 ~ 1.7976931348623157E308
+	crop_sticks_growth_boost_chance = 0.002
+	#Changing this value will alter the pressurized air production of the Electric Compressor. The input, EU, will stay the same
+	#Range: > 0
+	electric_compressor_efficiency = 40
+	#Base chance (1/x) per tick of a lightning strike on/around the Electrostatic Generator
+	#Range: > 0
+	electrostatic_lightning_chance = 100000
+	#The max height of an elevator per stacked Elevator Base block.
+	#Range: 1 ~ 256
+	elevator_base_blocks_per_base = 256
+	#The amount of air produced by using 100 FE (Forge Energy) in the flux compressor
+	#Range: > 0
+	flux_compressor_efficiency = 40
+	#The amount to multiply the air production of the solar compressor by.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	solar_compressor_multiplier = 1.0
+	#Can the Kerosene Lamp burn any kind of fuel?  If false, only Kerosene can be burnt
+	kerosene_lamp_can_use_any_fuel = true
+	#Kerosene Lamp fuel efficiency: higher values mean fuel will last longer in the lamp
+	#Range: 0.0 ~ 1.7976931348623157E308
+	kerosene_lamp_fuel_efficiency = 1.0
+	#The amount of air produced by using 100 MJ (Minecraft Joules) in the flux compressor
+	#Range: > 0
+	kinetic_compressor_efficiency = 40
+	#Can the Liquid Hopper absorb/dispense fluids into the world with a Dispenser Upgrade?
+	liquid_hopper_dispenser = true
+	#Can the Omnidirectional Hopper dispense items into the world with a Dispenser Upgrade?
+	omni_hopper_dispenser = true
+	#Are players in Creative mode exempt from Security Station block protection? If false, only server ops are exempt (command permission >= 2)
+	security_station_creative_players_exempt = false
+	#Can Security Stations be hacked? If set to false, Security Stations are purely a grief protection feature with no hacking minigame
+	security_station_allow_hacking = true
+	#The amount of air produced for 1 pump cycle in the manual compressor
+	#Range: > 0
+	manual_compressor_air_per_cycle = 1000
+	#The amount of hunger consumed from the player for 1 pump cycle step in the manual compressor. For comparison, sprinting consumes 0.1 hunger per meter sprinted.
+	#Range: 0.0 ~ 40.0
+	manual_compressor_hunger_drain_per_cycle_step = 0.1
+	#Whether to allow fake players to use the manual compressor
+	manual_compressor_allow_fake_players = false
+	#The amount of FE (Forge Energy) produced by using 100mL of air in the Pneumatic Dynamo
+	#Range: > 0
+	pneumatic_dynamo_efficiency = 40
+	#The amount of MJ (Minecraft Joules) produced by using 100mL of air in the Pneumatic Dynamo
+	#Range: > 0
+	pneumatic_engine_efficiency = 40
+	#Changing this value will alter the pressurized air usage of the Pneumatic Generator. The output, EU, will stay the same.
+	#Range: > 0
+	pneumatic_generator_efficiency = 40
+	#Changing this value will alter the hydraulic bar production of the Pneumatic Pump. The input, air, will stay the same
+	#Range: > 0
+	pneumatic_pump_efficiency = 40
+	#Minimum pressure required for the Pressurized Spawner to run
+	#Range: 1.0 ~ 20.0
+	pressurized_spawner_min_pressure = 10.0
+	#Speed multiplier per speed upgrade: speed mult = speedUpgradeSpeedMultiplier ^ num_of_speed_upgrades
+	#Range: 1.0 ~ 2.0
+	speed_upgrade_speed_multiplier = 1.5
+	#Fuel usage / heat gen multiplier per speed upgrade: usage mult = speedUpgradeUsageMultiplier ^ num_of_speed_upgrades
+	#Range: 1.0 ~ 2.0
+	speed_upgrade_usage_multiplier = 1.649999976158142
+	#Blacklist items from being allowed in the Pressure Chamber disenchanting system. You can use wildcarded matches here, e.g. 'tetra:*' matches all items from the Tetra mod. Blacklisted by default are Quark Ancient Tomes, and all Tetra items; both can lead to enchantment duping as they have special enchantment mechanics.
+	disenchanting_blacklist = ["quark:ancient_tome", "tetra:*"]
+	#ID's of dimensions in which the Aerial Interface is not allowed to operate. You can use wildcarded dimensions here, e.g. 'somemod:*'.
+	aerial_interface_dimension_blacklist = []
+	#Minimum interval in ticks which the player can use the Vortex Cannon to boost their own speed
+	#Range: > 1
+	vortex_cannon_player_boost_rate = 10
+
+[pneumatic_armor]
+	#Jetboots air usage in mL/tick (per Jet Boots Upgrade)
+	#Range: > 0
+	jet_boots_air_usage = 12
+	#Base Pneumatic Armor startup time in ticks (before Speed Upgrades)
+	#Range: > 20
+	armor_startup_time = 200
+	#Flippers Upgrade speed boost when in water and feet on ground
+	#Range: 0.0 ~ 1.0
+	flippers_speed_boost_ground = 0.03
+	#Flippers Upgrade speed boost when floating in water
+	#Range: 0.0 ~ 1.0
+	flippers_speed_boost_floating = 0.045
+	#Air usage for armor repair, in mL per Item Life Upgrade per point of damage repaired
+	#Range: > 0
+	repair_air_usage = 100
+	#Air usage for Magnet Upgrade, in mL per item or XP orb attracted
+	#Range: > 0
+	magnet_air_usage = 20
+	#Air used per point of 'player air' restored by the Scuba Upgrade
+	#Range: > 1
+	scuba_multiplier = 8
+
+[advanced]
+	#When set to true, the Kerosene Lamp's fake air blocks won't be registered and therefore removed from the world. Useful if this causes trouble (it shouldn't though)
+	disable_kerosene_lamp_fake_air_block = false
+	#The minimum interval in ticks between which fluid tank contents should be synced to clients. Smaller values mean smoother visual tank updates, but more of a performance cost in terms of network syncing. Note that fluid tank sync packets are also only sent when a fluid tank changes by more than 1% of its capacity, or 1000mB, whichever is smaller.
+	#Range: 1 ~ 100
+	fluid_tank_update_rate = 10
+	#Don't remove a water source block when picking up (drones, liquid hoppers, gas lift) if it has at least two water source neighbours. This can reduce lag due to frequent block updates, and can also potentially make water import much faster. Set this to false if you want no-infinite-water rules in a world, or want to limit the speed of water importing to vanilla block update rates.
+	dont_update_infinite_water_sources = true
+
+[micromissiles]
+	#Base explosion damage (modified by missile setup)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	base_explosion_damage = 1.0
+	#Do micromissile explosions cause terrain damage? Note: when set to true, the 'tntExplosionDropDecay' gamerule is used to determine block drops.
+	damage_terrain = false
+	#Do micromissile explosions start fires?
+	start_fires = false
+	#Cooldown for missile firing in ticks
+	#Range: > 0
+	launch_cooldown = 15
+	#Base fueled-flight duration in ticks. After this, missiles will drop from the sky.
+	#Range: > 0
+	lifetime = 300
+	#Hard missile lifetime in ticks. After this, missiles will immediately explode. Value must be greater than or equal to the 'lifetime' setting.
+	#Range: > 0
+	max_lifetime = 600
+	#Number of micromissiles per pod
+	#Range: > 0
+	missile_pod_size = 100
+
+[minigun]
+	#Armor Piercing Ammo damage multiplier (relative to standard ammo)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	ap_ammo_damage_multiplier = 1.25
+	#Armor Piercing Ammo percentage chance to ignore target's armor
+	#Range: 1 ~ 100
+	ap_ammo_ignore_armor_chance = 100
+	#Armor Piercing Ammo cartridge size
+	#Range: 1 ~ 30000
+	armor_piercing_ammo_cartridge_size = 500
+	#Base bullet damage of the Sentry Gun, Handheld Minigun, and Drone Minigun, before ammo bonuses are considered
+	#Range: 0.0 ~ 1.7976931348623157E308
+	base_damage = 6.0
+	#Base range of Minigun, before Range Upgrades are considered
+	#Range: 5 ~ 100
+	base_range = 50
+	#Explosive Ammo cartridge size
+	#Range: 1 ~ 30000
+	explosive_ammo_cartridge_size = 250
+	#Minigun Explosive Ammo damage multiplier (relative to standard ammo)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	explosive_ammo_damage_multiplier = 0.2
+	#Explosive Ammo base percentage chance to cause an explosion
+	#Range: > 0
+	explosive_ammo_explosion_chance = 50
+	#Minigun Explosive Ammo explosion power (ref: 2 = creeper, 4 = TNT
+	#Range: 0.0 ~ 1.7976931348623157E308
+	explosive_ammo_explosion_power = 1.5
+	#Does Minigun Explosive Ammo damage terrain?
+	explosive_ammo_terrain_damage = false
+	#Freezing Ammo base percentage chance to form ice or snow on blocks which have been hit
+	#Range: 0 ~ 100
+	freezing_ammo_block_ice_chance = 10
+	#Freezing Ammo cartridge size
+	#Range: > 0
+	freezing_ammo_cartridge_size = 1000
+	#Freezing Ammo base percentage chance to form a freezing cloud (causing slow and minor wither damage) on entities which have been hit
+	#Range: 0 ~ 100
+	freezing_ammo_entity_ice_chance = 20
+	#Incendiary ammo base percentage chance to ignite blocks
+	#Range: 1 ~ 100
+	incendiary_ammo_block_ignite_chance = 20
+	#Incendiary Ammo cartridge size
+	#Range: 1 ~ 30000
+	incendiary_ammo_cartridge_size = 1000
+	#Incendiary ammo base percentage chance to ignite entities
+	#Range: 1 ~ 100
+	incendiary_ammo_entity_ignite_chance = 100
+	#Incendiary ammo fire duration on target entities (seconds)
+	#Range: > 0
+	incendiary_ammo_fire_duration = 8
+	#Percentage chance per shot of potion-tipped ammo proc'ing the potion effect, before Dispenser Upgrades are considered
+	#Range: 1 ~ 100
+	potion_proc_chance = 7
+	#Standard Ammo cartridge size
+	#Range: 1 ~ 30000
+	standard_ammo_cartridge_size = 2000
+	#Weighted Ammo air usage multiplier (relative to standard ammo)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weighted_ammo_air_usage_multiplier = 8.0
+	#Weighted Ammo cartridge size
+	#Range: 1 ~ 30000
+	weighted_ammo_cartridge_size = 500
+	#Weighted Ammo damage multiplier (relative to standard ammo)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weighted_ammo_damage_multiplier = 2.5
+	#Weighted Ammo range multiplier (relative to standard ammo)
+	#Range: 0.0 ~ 1.7976931348623157E308
+	weighted_ammo_range_multiplier = 0.2
+	#Show particles when a block is hit by minigun fire? Looks good, but consumes some network bandwidth.
+	block_hit_particles = true
+	#Entity invulnerability ticks after being hit by a Minigun bullet. (Vanilla default is 20 ticks)
+	#Range: > 0
+	invulnerability_ticks = 10
+
+[integration]
+	#Immersive Engineering: External Heater heat/FE.  The amount of PneumaticCraft heat added by using 1 FE in the heater.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	ie_external_heater_heat_per_fe = 0.01
+	#Immersive Engineering: External Heater FE/t. Set to 0 to disable External Heater integration entirely.
+	#Range: > 0
+	ie_external_heater_fe_per_tick = 100
+	#Mekanism thermal resistance multiplier. Larger values mean slower heat transfer between Mekanism and PneumaticCraft blocks.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	mek_thermal_resistance_factor = 5.0
+	#Mekanism <-> PneumaticCraft heat conversion efficiency. Set to 0 to disable Mekanism heat integration entirely. Note that Mekanism and PNC use a similar heat system, but scale things quite differently (Mekanism heaters produces a LOT of heat by PneumaticCraft standards), so conversion efficiency tuning is important for inter-mod balance.
+	#Range: 0.0 ~ 2.0
+	mek_thermal_conversion_efficiency = 0.01
+
+[recipes]
+	#Does Molten Plastic solidify to Plastic Sheets when poured into the world? If set to false, then Heat Frame cooling is the only other way to make Plastic Sheets (by default).
+	in_world_plastic_solidification = true
+	#Is in-world Yeast crafting allowed (making more Yeast Culture by pouring Water next to a Yeast Culture block with Sugar in it)? If set to false, then the default TPP Mushroom & Water -> Yeast Culture recipe is the only way to get Yeast Culture.
+	in_world_yeast_crafting = true
+
+[amadron]
+	#Number of periodic offers randomly selected for the 'live' offer list. Note: this a maximum, and the actual number chosen each time may be less. Periodic offers are those offers which have a static: false field in their recipe JSON.
+	#Range: > 0
+	numPeriodicOffers = 10
+	#Number of villager offers randomly selected for the 'live' offer list. Note: this a maximum, and the actual number chosen each time may be less.
+	#Range: > 0
+	numVillagerOffers = 20
+	#Time in ticks between each periodic offer reshuffle (24000 ticks = one Minecraft day)
+	#Range: > 1000
+	reshuffleInterval = 24000
+	#Max number of custom trades a (non-admin) player may add
+	#Range: > 0
+	max_trades_per_player = 50
+	#Broadcast a notification when any player adds a custom trade
+	notify_of_trade_addition = true
+	#Broadcast a notification when any player removes a custom trade
+	notify_of_trade_removal = true
+	#Broadcast a notification when a custom Amadron trade is made
+	notify_of_deal_made = true
+	#Amadrone spawn location, relative to the delivery/pickup position. This is a X/Y/Z triple. See also 'amadrone_spawn_location_relative_to_ground_level' for how the drone's Y position is calculated.
+	amadrone_spawn_location = [30, 30, 0]
+	#Affects Amadrone Y spawning position: when true, the Y position is relative to ground level at the calculated X/Z position. When false, it is relative to the delivery/pickup position.
+	amadrone_spawn_location_relative_to_ground_level = true
+
+[heat]
+	#Default thermal resistance for solid blocks
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	block_thermal_resistance = 500.0
+	#Default thermal resistance for fluid blocks
+	#Range: 4.9E-324 ~ 1.7976931348623157E308
+	fluid_thermal_resistance = 100.0
+	#Thermal resistance of air; controls how fast blocks lose heat to air when exposed
+	#Range: 1.0 ~ 1.7976931348623157E308
+	air_thermal_resistance = 100.0
+	#Default heat capacity for fluid blocks
+	#Range: > 0
+	default_fluid_heat_capacity = 10000
+	#Ambient temperature modifier by biome (default 25 gives the Nether a heat boost of 30C)
+	#Range: 0.0 ~ 1000.0
+	ambient_temperature_biome_modifier = 25.0
+	#Ambient temperature increase by altitude, in degrees per block above/below the dimension's sea level (64 for default overworld generation). Temperature rises as height decreases.
+	#Range: 0.0 ~ 10.0
+	ambient_temperature_height_modifier = 0.1
+	#Automatically register heat properties for all detected modded fluids based on their self-defined temperature? (note: vanilla lava and water are always added)
+	add_default_fluid_entries = true
+
+[logistics]
+	#Logistics Module air usage per item per block distance
+	#Range: 0.0 ~ 1.7976931348623157E308
+	item_transport_cost = 1.0
+	#Logistics Module air usage per mB of fluid per block distance
+	#Range: 0.0 ~ 1.7976931348623157E308
+	fluid_transport_cost = 0.02
+	#Minimum pressure for a Logistics Module to function
+	#Range: 0.0 ~ 20.0
+	min_pressure = 3.0
+
+[jackhammer]
+	#Max veinmining range (distance from mined block) for Vein Miner Plus mode
+	#Range: 1 ~ 32
+	max_vein_miner_range = 10
+	#Base Jackhammer air usage per block broken (speed upgrades increase this)
+	#Range: > 0
+	base_air_usage = 50
+
+[villagers]
+	#Frequency of PneumaticCraft village house generation? Default value of 8 tends to give 0-2 houses per village with no other mods present. Set to 0 to disable house generation entirely. May need to raise this value if there are many other mods also adding village houses. Note: changing this value won't affect any already-generated houses, only new generation.
+	#Range: > 0
+	add_mechanic_house = 8
+	#Which trades should the Pressure Mechanic offer? ALL will offer all trades. PCB_BLUEPRINT will offer *only* the PCB Blueprint, an item required for normal progression through the mod. NONE will offer nothing (but the PCB Blueprint is also available via Amadron by default). Note that changing this won't affect any already-spawned Pressure Mechanics.
+	#Allowed Values: NONE, PCB_BLUEPRINT, ALL
+	mechanic_trades = "ALL"
+
+[drones]
+	#Enable Drone Suffocation Damage
+	enable_drone_suffocation = true
+	#Drones render their held item (the item in slot 0 of their inventory) ?  Note: this is in common config since if enabled, server needs to sync the item data to the client.
+	drones_render_held_item = true
+	#Are drones allowed to import Experience Orbs and convert them to Memory Essence fluid?
+	drones_can_import_xp_orbs = true
+	#Will Drones automatically get picked up by Boats/Minecarts/etc. if they're close enough?
+	drones_can_be_picked_up = false
+	#Show particle trail indicating the currently-debugged drone's planned path
+	drone_debugger_path_particles = true
+	#When set to true, Drones will not execute any program. This is useful to set to true when due to a bug Drones are lagging your server or crashing it. Please report any such bugs as a PneumaticCraft: Repressurized issue so it can be investigated.
+	stop_drone_ai = false
+	#How far will a drone go to find a Charging Station when it's low on air? Note: drones will teleport, possibly across the world to someone else's base, if this range is very large.
+	#Range: > 16
+	max_drone_charging_station_search_range = 80
+	#The maximum distance that a Drone may teleport when it can't find a path to its destination. Default value of 0 means no limit. This is primarily intended to limit abuse of teleportation to other players on PvP servers, but may find other uses. Be careful about setting this value very low.
+	#Range: > 0
+	max_drone_teleport_range = 0
+	#When false, drones may not navigate or teleport into unloaded chunks. Setting this true may lead to server performance and stability issues - beware.
+	allow_navigate_to_unloaded_chunks = false
+	#If a Drone has found a path, but gets stuck on a block along that path, it will teleport to its destination after this many ticks of being stuck. Set this to 0 to disable teleporting, which will likely leave the drone waiting there forever (or until it runs out of air). Note that getting stuck on a block is usually the fault of the mod that added the block (especially if the block has a non-full-cube shape), but if you encounter this behaviour, please report it as a PneumaticCraft: Repressurized issue so it can be investigated.
+	#Range: > 0
+	stuck_drone_teleport_ticks = 20
+	#When true, drones can query the location of any player on the server with the '$player=<name>' variable syntax. Set this to false if you don't want to allow this, e.g. on a PvP server, where this can turn drones into lethal assassins.
+	allow_any_player_var_query = true
+	#When true, drones can teleport into areas protected by Security Stations of other player. You may wish to set this to false on PvP servers.
+	allow_teleport_to_protected_area = true
+	#Time in seconds after a player logs out that drones and Programmable Controllers belonging to that player can no long chunk-load. Set to 0 to allow indefinite offline chunkloading.
+	#Range: > 0
+	chunkload_offline_time = 300

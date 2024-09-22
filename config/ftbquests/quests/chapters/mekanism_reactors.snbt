@@ -197,7 +197,7 @@
 			y: -1.0999999999999996d
 		}
 	]
-	order_index: 4
+	order_index: 5
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -469,6 +469,7 @@
 		}
 		{
 			dependencies: ["3B81800EE6E77EF2"]
+			icon_scale: 1.3d
 			id: "7E17AB5A4492929E"
 			rewards: [
 				{
@@ -484,19 +485,12 @@
 				}
 			]
 			shape: "rsquare"
-			tasks: [
-				{
-					id: "5641530385DCA6A7"
-					item: { count: 1, id: "alltheores:uranium_ingot" }
-					type: "item"
-				}
-				{
-					count: 2L
-					id: "1C72C0C59D65B1D0"
-					item: { count: 1, id: "mekanism:yellow_cake_uranium" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				count: 2L
+				id: "1C72C0C59D65B1D0"
+				item: { count: 1, id: "mekanism:yellow_cake_uranium" }
+				type: "item"
+			}]
 			x: 4.0d
 			y: 4.5d
 		}
@@ -531,13 +525,14 @@
 			rewards: [{
 				id: "73F5CE911AC4474C"
 				type: "xp"
-				xp: 10
+				xp: 50
 			}]
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "3153288DCE1C4FEF"
-				type: "checkmark"
+				id: "32703C6932AFA755"
+				item: { count: 1, id: "mekanism:chemical_crystallizer" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: 0.0d
