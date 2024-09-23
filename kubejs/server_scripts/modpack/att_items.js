@@ -55,10 +55,10 @@ ServerEvents.recipes(allthemods => {
 	C: 'bigreactors:insanite_block' ,
 	D: 'modern_industrialization:uranium_fuel_rod_quad',
 	E: 'mysticalagradditions:insanium_coal_block',
-  F: 'minecraft:bedrock',
+  F: 'forbidden_arcanus:smelter_prism',
 	G: 'mysticalagriculture:awakened_supremium_ingot_block',
-	H: 'minecraft:bedrock',
-  I: 'minecraft:bedrock'
+	H: 'generatorgalore:magmatic_generator_64x',
+  I: 'evilcraft:dark_tank[cyclopscore:capacity=16000,cyclopscore:fluid_content={amount:16000,id:"justdirethings:refined_t4_fluid_source"}]'
   }).id('allthemods:allthetweaks/philosophers_fuel')
 
  // Nexium Emitter
@@ -74,8 +74,8 @@ ServerEvents.recipes(allthemods => {
 
 // Oblivion Shard
 allthemods.shaped('allthetweaks:oblivion_shard', [' AB', 'ACA', 'BA '], {
-  A: 'minecraft:bedrock',
-  C: 'minecraft:bedrock',
+  A: 'forbidden_arcanus:eternal_stella',
+  C: 'evilcraft:mace_of_destruction[cyclopscore:fluid_content={amount:4000,id:"evilcraft:blood"}]',
   B: 'evilcraft:piercing_vengeance_focus'
 }).id('allthemods:allthetweaks/oblivion_shard')
 
@@ -88,8 +88,8 @@ allthemods.shaped('allthetweaks:pulsating_black_hole', ['ABC', 'DEF', 'GHI'], {
   D: 'justdirethings:paradoxmachine',
   E: 'advanced_ae:shattered_singularity',
   F: 'occultism:stable_wormhole',
-  G: 'minecraft:bedrock',
-  H: 'minecraft:bedrock',
+  G: 'rootsclassic:crystal_staff',
+  H: 'industrialforegoing:mycelial_explosive',
   I: 'evilcraft:lightning_bomb'
 }).id('allthemods:pressure/allthetweaks/pulsating_black_hole')
 
