@@ -38,6 +38,11 @@ ItemEvents.modifyTooltips(allthemods => {
         Text.of('§dFound in Chests in the Library of the Dungeon within The Other')
     ])
 
+    //Forbidden Arcanus
+    allthemods.add('forbidden_arcanus:growing_edelwood',[
+        Text.of("§4THESE ARE CURRENTLY CRAFTABLE BECAUSE THEY DO NOT SPAWN IN WORLD"),
+        Text.of("§4EXPECT THIS RECIPE TO BE REMOVED ONCE THAT'S FIXED")
+    ])
 })
 
 

@@ -1,0 +1,40 @@
+{
+  "enhancers": "forbidden_arcanus:elementarium",
+  "essences": {
+    "aureal": 300,
+    "blood": 1500,
+    "souls": 9
+  },
+  "forge_tier": 2,
+  "inputs": [
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "allthemodium:unobtainium_allthemodium_alloy_ingot"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "allthemodium:vibranium_allthemodium_alloy_ingot"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "item": "allthemodium:unobtainium_sword"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "allthemodium:alloy_sword"
+    }
+  }
+}
