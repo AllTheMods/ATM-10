@@ -4,19 +4,6 @@
 ServerEvents.recipes(allthemods => {
     allthemods.remove({id: 'forbidden_arcanus:smelting/dark_matter'})
     allthemods.smelting('forbidden_arcanus:dark_matter', 'forbidden_arcanus:edelwood_log')
-
-    allthemods.shaped(
-        'forbidden_arcanus:growing_edelwood',
-        [
-            ' B ',
-            'BSB',
-            ' B '
-        ],
-        {
-            B: 'forbidden_arcanus:arcane_bone_meal',
-            S: 'minecraft:oak_sapling'
-        }
-    )
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
