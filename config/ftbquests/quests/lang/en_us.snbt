@@ -8,12 +8,14 @@
 	chapter.0E81CBCD6B1D1895.title: "Apothic Spawners"
 	chapter.0F96DC3563DA78EF.title: "Mystical Agriculture"
 	chapter.11919EBB416B2BD0.title: "Relics"
+	chapter.12AD9789D962B179.title: "Apothic Enchanting"
 	chapter.18A429E7F56AF5A9.title: "Bounty Board"
 	chapter.193F91842D2ED7D9.title: "Industrial Foregoing"
 	chapter.1BE666F01EFFC00D.title: "Tips and Tricks"
 	chapter.1FAAEF0B9FD05CB9.title: "Productive Trees"
 	chapter.23983F4DC524B14B.title: "Mekanism"
 	chapter.26E6ED94168A05C4.title: "Productive Bees"
+	chapter.282448C70744895F.title: "{atm9.chapters.38.title}"
 	chapter.29EFE8220836C79A.title: "&aChapter 2&r: &6The ATM Star"
 	chapter.2A6EBEEBAB882679.title: "Powah"
 	chapter.2FB24A5A597459FC.title: "RailCraft"
@@ -476,6 +478,8 @@
 	quest.04F5846E2468E807.title: "&9&lMacaw's Doors&r"
 	quest.050AAD831C0AE375.title: "Rejuvenated Flesh"
 	quest.0515422E36E4E9A3.quest_desc: ["Grants invisibility when sneaking."]
+	quest.0518551637F76C50.quest_desc: ["A little expensive but the &9Echoing Deep Shelf&r is like a much better &bSeashelf&r. (BTW you'll need to kill quite a few wardens to advance more in Enchanting... should a warned you earlier). Also increases Max &aEterna&r to &a75&r."]
+	quest.0518551637F76C50.title: "&9Echoing Deepshelf"
 	quest.051E0C85E7B71CE0.quest_desc: [
 		"I'm going to assume you've been out mining, right? It is MINEcraft after all. "
 		""
@@ -671,7 +675,6 @@
 		"Our Cleanrooms have to be spotless, and not a single piece of dust inside. But what if we needed a cleaner, more sterile, environment?"
 	]
 	quest.06FF1116AFABE2FE.quest_subtitle: "Its Party Time!"
-
 	quest.06FFBB12CFA87815.quest_desc: ["The Logs from &2Vanilla &lMinecraft&r, found in the different &2Vanilla&r Biomes! \\n\\nI shouldn't have to explain anymore than that!"]
 	quest.06FFBB12CFA87815.title: "&2Vanilla&r Logs"
 	quest.0718FA338E8BA792.quest_desc: [
@@ -689,7 +692,6 @@
 		"All GT Ore veins were moved to the Mining Dimension from every other dimension"
 	]
 	quest.072FA02152FBC5B1.title: "Overworld Layer Ores"
-
 	quest.072FBEB0F6F1BC48.quest_desc: [
 		"Used to link Drawers to a controller and to link up Ender Drawers. "
 		""
@@ -718,8 +720,11 @@
 	quest.076A26C8177FED1A.quest_subtitle: "&9Tier 1&r"
 	quest.076A648E3E3245C9.quest_desc: ["Very fast Rate of making Energy from Fuel which makes it the very efficient. Only problem is it can't be upgraded anymore. Still uses normal Furnace Fuel."]
 	quest.076A648E3E3245C9.title: "&aEmerald Furnace"
-	quest.076DFB0B39A4259F.quest_desc: ["If you want higher &aEterna&r and &5Arcana&r you'll need Infused Seashelves. To get them you need atleast &a22.5 Eterna&r, &c15%% Quanta&r, and &510%% Arcana&r. The best way to get that is 15 Bookshelves and &b5 Seashelves&r. (&c15%% Quanta&r is default you won't need &4Hellshelves&r for this)."]
-	quest.076DFB0B39A4259F.title: "&bInfused Seashelf&r"
+	quest.076DFB0B39A4259F.quest_desc: [
+		"{atm9.quest.enchant.desc.infused_seashelf}"
+		"{image:atm:textures/questpics/apotheosis/enchant_sea.png width:100 height:100 align:1}"
+	]
+	quest.076DFB0B39A4259F.title: "{atm9.quest.enchant.infused_seashelf}"
 	quest.07753C5D94312A50.quest_desc: [
 		"&3Augment&r: Generator is the opposite of the &3Augment&r: Factory, instead of using Energy to Smelt, it Smelts for Energy. You will no longer smelt items in it, every Fuel used will be made into Energy!"
 		""
@@ -898,7 +903,6 @@
 	quest.09D18512037386C1.quest_desc: ["In order to put Potion Effects into you'll need to fill a Potion Filter. To do so: have a Potion Effect on you, then right click with the Potion Filter to remove it from you and add it to the Filter, and repeat until it's filled and active. This also works with modded Potion Effects or ones you can't usually get through Potions like Haste or Resistance."]
 	quest.09D2137B4F42006E.quest_desc: ["Eclipse Ember is a new material added by JDT. Eclipse Ember is aquired by performing Goo Spread on Voidflame Coal Blocks using tier four goo. Eclipse Ember Ore is affected by fortune."]
 	quest.09E25B1CD6CABD5A.quest_desc: ["This upgrade makes the Router similar to a Framed Block. \\n\\nSneak Right Click a Block to change the Routers appearance to it. \\n\\nJust don't lose it!"]
-
 	quest.09EF804D70C856FB.quest_desc: [
 		"We'll need a &dRail Gun&r from the mod &aImmersive Engineering&r to create the &6Star&r! "
 		""
@@ -909,7 +913,6 @@
 	quest.09EF804D70C856FB.title: "&dImmersive Engineering&r"
 	quest.09F49ED309152E24.quest_desc: ["&l&cChisel Reborn&r is another Mod based off of Chiseled. \\n\\nThe essence of the Mod is using the Chisel Tool to change the designs of some Blocks. \\n\\nYou can Right Click with the Chisel to open its GUI, there you can put up to a stack of Blocks into it, then choose a design you want, and take it out. Or you can keep it in the Chisel, I don't see why you would want to though. \\n\\nYou can also Left Click a Block with the Chisel to change its design without opening the Chisel GUI! \\n\\nDon't worry this one doesn't have Durability."]
 	quest.09F49ED309152E24.title: "&l&cChisel Reborn&r"
-
 	quest.09FD3D0B9BCAEB5A.quest_desc: [
 		"The Gravel Nest will lure bees in either a River biome or Beach biome."
 		""
@@ -946,6 +949,8 @@
 		""
 		"It is often cheaper to use the extruder to make crafting components like rotors for example"
 	]
+	quest.0A3C464EF7CDD5F6.quest_desc: ["&4Hellshelves&r are your introduction to &cQuanta&r, they give &c3% Quanta&r and &a3 Eterna&r. Better than normal shelves right? You're going to need atleast 10 of them for the next step."]
+	quest.0A3C464EF7CDD5F6.title: "&4Hellshelves"
 	quest.0A3F4D7A15E61B43.quest_subtitle: "Theseus's Hull"
 	quest.0A43FD0B5C76C1C5.quest_desc: [
 		"Wait this isn't Gravitas we can have our Steel back! &l&7RailCraft&r adds a Blast Furnace multiblock for us to transform Iron into Steel! \\n\\nTo build it you'll need 34 Blast Furnace Bricks. It'll be 3 blocks wide, 3 blocks long, and 4 blocks tall. The two blocks in the exact center need to be hollow. You'll know it's done when it forms all together and allows you to access its GUI. \\n\\nThere you can put Iron ,in any form, to get Steel and Granulated Sand."
@@ -1043,13 +1048,10 @@
 	quest.0BB367839D28607D.title: "Coal Generator"
 	quest.0BB562FB44B0AAA7.quest_desc: ["Cards aren't the only ones with limits, so they also aren't the only ones with Overclockers! \\n\\nThese go into the &cNode&r itself on bottom right and boost how fast it does Operations."]
 	quest.0BB562FB44B0AAA7.quest_subtitle: "Max: 8"
-
 	quest.0BC106B34AD386E5.quest_desc: ["&l&cRegions Unexplored&r is another Biome Mod, this one new to &l&6AllTheMods!&r \\n\\nOf course with Biomes comes more Trees!"]
 	quest.0BC106B34AD386E5.title: "&l&cRegions Unexplored&r Logs"
-
 	quest.0BCCDE24D378F260.quest_subtitle: "Tier: &d3"
 	quest.0BCCDE24D378F260.title: "&dAdvanced Machine Frame"
-
 	quest.0BD908937BC6E97B.quest_subtitle: "Kapok + Rosewood"
 	quest.0BE2E7C9454058C3.quest_desc: [
 		"Part of the beautiful &d&lFloral Meadow&r is a &dCherry Tree&r much older and bigger than the rest. \\n\\nThe &6B&8e&6e&8s&r have seemed to take a liking to these &dTrees&r and have set up mini &eHives&r next to them full of their young!"
@@ -1085,8 +1087,8 @@
 	]
 	quest.0C3B3D7F82A6DB3D.quest_subtitle: "Making use of the Fusion Reactor"
 	quest.0C557A9494F58400.quest_desc: ["Causes the Mana Burst to create flame on the block it hits. This flame provides light and is purely decorative. It can be put out by using another Mana Burst on it."]
-	quest.0C596CB7C7C24615.quest_desc: ["Like an improved &4Hellshelf&r, the &9Soul Touched Deepshelf&r gives a lot of &cQuanta&r, it does give higher &aEterna&r max to &a37.5&r though! Which means better Enchants!"]
-	quest.0C596CB7C7C24615.title: "&9Soul-Touched Deepshelf&r"
+	quest.0C596CB7C7C24615.quest_desc: ["{atm9.quest.enchant.desc.Soul_deep}"]
+	quest.0C596CB7C7C24615.title: "{atm9.quest.enchant.Soul_deep}"
 	quest.0C6719D81DE5A614.quest_desc: [
 		""
 		"The Forge requires 4 different items to be powered: Aureal, Souls, Blood, and Experience."
@@ -1345,14 +1347,11 @@
 	]
 	quest.0EADCEA9AB001FC7.title: "Furnace like Heat"
 	quest.0EAF01037BB20BCB.quest_subtitle: "{atm9.quest.evilcraft.subt.summonsZombies}"
-	quest.0EB5B926E1FBAF0E.quest_desc: ["Enchanting gets a few changes with Apotheosis. To summarize it, 15 bookshelves won't be enough now. There's new bookshelves and actions you can do with Enchantment Tables now and hopefully these quests will help you understand."]
-	quest.0EB5B926E1FBAF0E.title: "Enchanting with Apotheosis"
-
+	quest.0EB5B926E1FBAF0E.quest_desc: ["{atm9.quest.enchant.desc.enchant}"]
+	quest.0EB5B926E1FBAF0E.title: "{atm9.quest.enchant.enchant}"
 	quest.0EB6ED88895366D0.quest_desc: ["I remember when it was just Stone and Cobblestone!"]
 	quest.0EB6ED88895366D0.title: "&2Vanilla&r Stones"
-
 	quest.0EC2053B191C55C6.quest_desc: ["Extracts latex from logs, runs faster when given power.\\n\\nCheck EMI for acceptable logs and Latex amounts. The best log to use is Acacia."]
-
 	quest.0ED7B25DC1AA767B.quest_subtitle: "Growing Trees"
 	quest.0EE2D22A577D10B0.quest_desc: [
 		"This rune accelerates the operations of other runes, like the Charging or Displacement Rune."
@@ -1440,8 +1439,11 @@
 		""
 		"This wire is &3superconducting&r, so it does not lose any voltage no matter how far the wire travels"
 	]
-	quest.0F77A9AD1F422537.quest_desc: ["The &4Glowing Hellshelf&r is an upgrade to the &4Infused Hellshelf&r. It also increases the Max &aEterna&r but it's not the stats we're looking for in order to Enchant. Definitely good for normal Enchanting though!"]
-	quest.0F77A9AD1F422537.title: "&4Glowing Hellshelf&r"
+	quest.0F77A9AD1F422537.quest_desc: [
+		"{atm9.quest.enchant.desc.glowing}"
+		"{image:atm:textures/questpics/apotheosis/enchant_helldeep.png width:150 height:100 align:1}"
+	]
+	quest.0F77A9AD1F422537.title: "{atm9.quest.enchant.glowing}"
 	quest.0F7BB4ECCA5C082C.quest_desc: [
 		"This is where you will put the &eAlchemical Sulfur&r into it. \\n\\nWhatever Item is in the &eAlchemical Sulfur&r will be turned back into that Item from Incubation!"
 		"{image:atm:textures/questpics/theurgy/theurgy_vessel_3.png width:100 height:125 align:center}"
@@ -1507,8 +1509,8 @@
 	quest.109AD73F016D576B.title: "Your First Beehive"
 	quest.109E34AE0BE0F266.quest_subtitle: "A nutritious source of manganese"
 	quest.109E34AE0BE0F266.title: "Grossular Vein"
-	quest.10C527C66EE4E95A.quest_desc: ["Suprisingly you don't need infusion for these! You just need to kill the most powerful boss in vanilla Minecraft! The &9Skulk shelves&r increase &aEterna&r to &a40&r which will allow us to Infuse the next item."]
-	quest.10C527C66EE4E95A.title: "&9Soul-Touched Sculkshelf&r"
+	quest.10C527C66EE4E95A.quest_desc: ["{atm9.quest.enchant.desc.Soul_sculk}"]
+	quest.10C527C66EE4E95A.title: "{atm9.quest.enchant.Soul_sculk}"
 	quest.10DF2125B647379E.quest_desc: ["I promise, this is not something you want to touch or get on your skin..."]
 	quest.10DF2125B647379E.quest_subtitle: "Do Not Touch!"
 	quest.10E8BC20D406D9FB.quest_desc: ["Makes various Nether materials."]
@@ -1627,8 +1629,6 @@
 	]
 	quest.1216BAFF021FED25.quest_desc: ["The Crystal CPU should already be well established in your processing lines. This is just 1 more step for those Crystal CPU's in order for them to achieve greatness!"]
 	quest.1216BAFF021FED25.quest_subtitle: "Crystal Chips"
-	quest.12282CBB658F1132.quest_desc: ["Charms are new parts with Apotheosis that allows you to get Potion Effects for much longer. You can Infuse them to make them Unbreakable. It needs &a50 Eterna&r, between &c8.5%%&r and &c13.5%% Quanta&r, and between &532.5%%&r to &537.5%% Arcana&r. One way you can do this is with &d5 Draconic Endshelves&r, &46 Glowing Hellshelves&r, &41 Blazing Hellshelves&r, &b1 Heart-Forged Seashelf&r, and 2 Melonshelves. {BTW I used any curios charm tag so some items that can be used in the quest can not be made Unbreakable, only Apotheosis Charms can.)"]
-	quest.12282CBB658F1132.title: "Making Apotheosis Charms Unbreakable"
 	quest.122E6E7CABCB17E7.quest_desc: ["For some reason Creepers are scared of Cats. Creepers are also extremely dumb and believe the Cats that your &7Slippers&r look like are real. \\n\\nAll Creepers will run away from you and won't be hostile when these &7Slippers&r are worn. \\n\\nAlso makes Kitty noises when you take damage! (Can't assure you that you will always land on your Feet though)."]
 	quest.122E6E7CABCB17E7.quest_subtitle: "Feet"
 	quest.122E6E7CABCB17E7.title: "&7Kitty Slippers&r"
@@ -1695,8 +1695,8 @@
 	quest.12ED1EE85E146A4B.quest_desc: ["Harvester Pylons work as a very simple Auto-Farm. Put the Pylon on or in the Water Source and it will automatically harvest and replant Crops that are fully grown in the set area around it. The area can be set to 3x3, 5x5, 7x7, or 9x9 Blocks around the Pylon. It will need a Hoe to use on the Plants and will need an Inventory like a chest above it to put the Crops. Do all that and if it's turned On it will start farming!\\n\\n(Careful when using a lot of modifiers with it like Lilypads or fertilizer as when it goes very fast farming it can be a TPS eater)."]
 	quest.12EF38830108D02B.quest_desc: ["Kill 32 normal Spiders."]
 	quest.12F24C9C6D2AF887.quest_desc: ["Two buckets of &boxygen&r plus the &bferrite mixture dust&r in your &eElectric Blast Furnace&r gets you the ingot - no cooling necessary!"]
-	quest.12F4980CB3BFCE0D.quest_desc: ["You ever spend 3 months studying Galatic Code to finally understand Enchantment Table language just for it to be gibberish? No? Me either but &9Enchanting Clues&r are your actual translator for it. Each &9Enchanting Clue&r will tell you 1 Enchantment before you actually use it."]
-	quest.12F4980CB3BFCE0D.title: "&9Enchanting Clues&r"
+	quest.12F4980CB3BFCE0D.quest_desc: ["{atm9.quest.enchant.desc.sight}"]
+	quest.12F4980CB3BFCE0D.title: "{atm9.quest.enchant.sight}"
 	quest.12F916CDC2FB7A79.quest_desc: [
 		"Rather than live in a crafting grid making plates and wires, it is often easier to automate these"
 		""
@@ -1861,6 +1861,8 @@
 	]
 	quest.1482F2D45E8F761D.quest_subtitle: "Casings and Glass"
 	quest.1482F2D45E8F761D.title: "Fission Reactor Building Basics"
+	quest.148A33CC36B2563A.quest_desc: ["The &dDraconic Shelf&r is the last Shelf we'll need for perfect set up. It might only give &aEterna&r but it has the Max Max &aEterna&r of &a100&r."]
+	quest.148A33CC36B2563A.title: "&5Draconic Endshelf"
 	quest.14B3542ECB59869C.quest_desc: ["The &5Loot Fabricator&r is the machine that gets you that sweet, sweet loot from Mob Predictions.\\n\\nWhen given power and a successful Mob Prediction, you will be able to choose which item you'd like to get from that mob's Data Model. The machine will remember your choice, so it can be automated.\\n\\nExamples of Mob Predictions:\\n\\n- &dEnder Dragons&r for &dDragon Eggs\\n - &2Zombies&r for Iron\\n - &0Withers&r for &5Nether Stars"]
 	quest.14B3542ECB59869C.title: "Creating &dLoot"
 	quest.14B4E6B2FC3F6B36.quest_desc: [
@@ -2194,6 +2196,8 @@
 	quest.186731580B14F9D2.title: "Turbine Ports"
 	quest.187281092C0BC9CE.quest_desc: ["Wafers and Silicon Boules need to be cut. This cutter, paired with the Engraving Laser will make sure we keep our stock of Chips up!"]
 	quest.187281092C0BC9CE.quest_subtitle: "Waffles and Boules"
+	quest.1873205CF5247E3E.quest_desc: ["The last sets of Shelves you'll need are &dEndshelves&r, to get them you need Infused Dragon's Breath. This one was hard to get but you need atleast &a80 Eterna&r, &c15%-30% Quanta&r, and atleast &560% Arcana&r. It has to be between &c15%-25% Quanta&r to get that you can try &910 Echoing Skulkshelves&r and &29 Melonshelves &ror &92 Echoing Skulkshelves&r and &b4 Heart-Forged Seashelves&r."]
+	quest.1873205CF5247E3E.title: "&5Endshelf"
 	quest.187816477B732517.quest_desc: ["The &3Transfer Gadget&r acts like a Hopper that can be placed inbetween blocks."]
 	quest.187816477B732517.quest_subtitle: "Smaller Hopper"
 	quest.187A3F5B41D1C923.quest_desc: [
@@ -2260,6 +2264,8 @@
 	quest.1906C5D1C80035E4.quest_subtitle: "Cheaper plates"
 	quest.191302E7A2670477.quest_subtitle: "&f7&r &4Damage&r"
 	quest.191302E7A2670477.title: "Botania and Twilight Diamond Swords"
+	quest.191A7F3C9FBA4C13.quest_desc: ["The &bCrystalline Seashelf&r is an upgrade to the &bInfused Seashelf&r. We'll use 14 of them to cap our stats for next Infusion."]
+	quest.191A7F3C9FBA4C13.title: "&bCrystalline Seashelf"
 	quest.1939BCB2920B6C34.quest_desc: [
 		"What's your power generation looking like? Is it at least close to 100 Million RF/t? No? Well we need to change that. "
 		""
@@ -2508,8 +2514,8 @@
 	quest.1CD5ABD827CEB3AE.quest_subtitle: "Brazilwood + Balsa"
 	quest.1CF8263756EE8F2A.quest_desc: ["This special &eDust&r is dropped from the Wither and the Ender Dragon when killed by an &dEssence Weapon&r enchanted with &dMystical Enlightenment&r."]
 	quest.1CF8263756EE8F2A.title: "&5Cognizant Dust&r"
-	quest.1D06097B6206BA60.quest_desc: ["Infusion is a special version of Enchanting which ironically is used for better enchantments. When the right amount of &aEterna&r, &cQuanta&r, and &5Arcana&r is reached the enchantments will offer Infusion. (To know the Levels needed you can check JEI or follow these Quests)"]
-	quest.1D06097B6206BA60.title: "Infusion Enchanting"
+	quest.1D06097B6206BA60.quest_desc: ["{atm9.quest.enchant.desc.infusion}"]
+	quest.1D06097B6206BA60.title: "{atm9.quest.enchant.infusion}"
 	quest.1D0B60026346A844.quest_desc: ["Mixing Iridium and Osmium together will get you this Ingot! We have quite a few uses for this new resource. Having a bunch on standby may prove useful!"]
 	quest.1D0B60026346A844.quest_subtitle: "Making Osmium OP"
 	quest.1D1ABA9BD978E8A1.quest_subtitle: "Citron + Wild Cherry"
@@ -2733,6 +2739,8 @@
 		""
 		"Note: This will also create a byproduct of &7Spent Nuclear Waste&r, which needs to be pumped into a Waste Barrel for storage."
 	]
+	quest.1FAFDB20F504688E.quest_desc: ["Enchanting gets a few changes with Apotheosis. To summarize it, 15 bookshelves won't be enough now. There's new bookshelves and actions you can do with Enchantment Tables now and hopefully these quests will help you understand."]
+	quest.1FAFDB20F504688E.title: "Enchanting with Apothic"
 	quest.1FC7E9DBF92BE6AA.quest_desc: [
 		"This item is used to store power, and functions like a portable battery pack."
 		""
@@ -2936,8 +2944,11 @@
 	quest.217DB12EA32E1724.title: "&bInfusion Crystal"
 	quest.2182492BCC1B33D8.quest_desc: ["When installed in a hive, it gives a 5% chance for a new baby bee to be spawned every time honey is delivered.\\n\\nWhen placed in a Catcher, it only allows the catcher to catch baby bees.\\n\\nYou can stack these for a greater chance."]
 	quest.2182492BCC1B33D8.quest_subtitle: "Making Babies"
-	quest.218803812A9C332B.quest_desc: ["In order to get higher Max Enchantments and levels you'll need Infused Hellshelves. To get them you will need &a22.5 Eterna&r and &c30%% Quanta&r. The best way to get that would be 15 normal shelves and &45 Hellshelves&r."]
-	quest.218803812A9C332B.title: "&4Infused Hellshelf&r"
+	quest.218803812A9C332B.quest_desc: [
+		"{atm9.quest.enchant.desc.infused_hellshelf}"
+		"{image:atm:textures/questpics/apotheosis/enchant_hell.png width:100 height:100 align:1}"
+	]
+	quest.218803812A9C332B.title: "{atm9.quest.enchant.infused_hellshelf}"
 	quest.219932CB19258C16.quest_desc: ["The third tier of storage component, providing &e16384&f bytes of storage."]
 	quest.219932CB19258C16.quest_subtitle: "x4^2"
 	quest.219932CB19258C16.title: "16k Storage Component"
@@ -2960,8 +2971,11 @@
 	quest.21BFDE6AD1C0F62A.title: "Homophobia?"
 	quest.21EA29A8C7F950CE.quest_desc: ["&bDiamonds&r the staple of &2Minecraft&r, and of upgraded Furnaces apparently...\\n \\nThese work even faster only taking 80 Ticks or 4 Seconds to smelt items. That's even faster than a Blast Furnace! \\n \\nThese are only crafted by &eGold Furnaces&r and can be crafted into &3Crystal&r or &aEmerald Furnaces&r."]
 	quest.21EA29A8C7F950CE.title: "&bDiamond Furnace&r"
-	quest.21EE522DDBF0BF72.quest_desc: ["The last sets of Shelves you'll need are &dEndshelves&r, to get them you need Infused Dragon's Breath. This one was hard to get but you need atleast &a40%% Eterna&r, &c15%%-25%% Quanta&r, and atleast &560%% Arcana&r. It has to be between &c15%%-25%% Quanta&r to get that you can try &99 Echoing Skulkshelves&r and 4 Melonshelves or &92 Echoing Skulkshelves&r and &b10 Heart-Forged Seashelves&r."]
-	quest.21EE522DDBF0BF72.title: "&dEndshelf&r"
+	quest.21EE522DDBF0BF72.quest_desc: [
+		"{atm9.quest.enchant.desc.endshelf}"
+		"{image:atm:textures/questpics/apotheosis/enchant_end.png width:100 height:100 align:1}"
+	]
+	quest.21EE522DDBF0BF72.title: "{atm9.quest.enchant.endshelf}"
 	quest.21F4CFF171246537.quest_subtitle: "Tier &b4"
 	quest.21F5EED683499B71.quest_desc: [
 		"We're going to need quite a bit of Radon moving forwards. "
@@ -3101,10 +3115,11 @@
 	quest.234DC1702333EB18.quest_subtitle: "I'm not writing the Toy Story line"
 	quest.234DC1702333EB18.title: "Infinity Booster"
 	quest.2354BC5330350DF6.quest_desc: ["If &aEmeralds&r aren't your thing the &3Crystal Furnace&r might be what you want! \\n \\nWorks the same as an &aEmerald Furnace&r at 40 Tick. \\n \\nMade with a &bDiamond Furnace&r and can be made into an &dObsidian Furnace&r. \\n \\n(No you can't see the Items smelting inside it, it's just transparent)"]
-	quest.2354BC5330350DF6.title: "&3Crystal Furnace&r"
+	quest.2354BC5330350DF6.title: "&3Crystal Furnace"
+	quest.235E3C386E8D36A3.quest_desc: ["The &9Deepshelf&r (not dormant) is your next step to Enchanting. Like everything else it needs Infusion. The &9Deepshelf&r needs &a60 Eterna&r, &c40% Quanta&r, and &540% Arcana&r. You can get that with &44 Blazing Hellshelves&r and &b2 Heart-Forged Seashelves&r."]
+	quest.235E3C386E8D36A3.title: "&9Deepshelf"
 	quest.23631A4A743D4F0C.quest_desc: ["Don't even complain about this one. \\n\\nThere are dozens of ways of getting Iron and it's needed for even just normal progression. \\n\\nYou will get Iron, you will make it into a Block, and you will make it pretty!"]
 	quest.23631A4A743D4F0C.title: "&l&bChipped&r Metals"
-	quest.2354BC5330350DF6.title: "&3Crystal Furnace"
 	quest.23737103592776C2.quest_desc: ["The &3Kerosene Lamp&r is a great light source that uses fuel (Kerosene being the best) to produce light."]
 	quest.23737103592776C2.quest_subtitle: "Mega Torches are nothing!"
 	quest.237D11FF5B09BA88.quest_desc: [
@@ -3115,6 +3130,14 @@
 		""
 		"Vaid Upgrade:"
 		"- Drops Teleporter"
+	]
+	quest.238556F4074D52B2.quest_desc: [
+		"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+		"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+		""
+		""
+		""
+		"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
 	]
 	quest.238CC42F61006CE9.quest_desc: ["Now we can make a Super conductor, Naquadah Alloy, Trinium, and Europium ingots!"]
 	quest.238CC42F61006CE9.quest_subtitle: "We Need More Heat!"
@@ -3183,13 +3206,18 @@
 		"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"4C507C004144BFEE\"}, \"text\": \"Click here to check out the Occultism questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 	]
 	quest.2435B6D970F48DF8.title: "&dOccultism&r"
+	quest.24391162F4FF0587.quest_desc: ["If you want higher &aEterna&r and &5Arcana&r you'll need Infused Seashelves. To get them you need atleast &a45 Eterna&r, &c15% Quanta&r, and &510% Arcana&r. The best way to get that is 15 Bookshelves&r, &b5 Seashelves&r and &45 Hellshelves."]
+	quest.24391162F4FF0587.title: "&bInfused Seashelf"
 	quest.244220A5D9F4C702.quest_desc: ["3 chunks apart, in case you didn't know that already"]
 	quest.244220A5D9F4C702.title: "End Layer Ores"
 	quest.2447208F1DC74FFE.quest_desc: ["Routers can be noisy, and noise definitely stacks when you have hundreds of them.\\n\\nMight be nice to invest in Muffer Upgrades then!"]
 	quest.244ACD7024566001.quest_subtitle: "Feed a Sweat Bee Ice"
 	quest.244ACD7024566001.title: "Frosty Bee"
-	quest.24526FFBA093805A.quest_desc: ["Apotheosis knows how annoying Tridents can be to get so they made it easier... well kinda easier. You can now make an Inert Trident and Infuse it to get a normal Trident. The Trident requires between &a20-30 Eterna&r, &c20%%-50%% Quanta&r, and atleast &535%% Arcana&r. You can get this with &94 Echoing Skulkshelves&r or &b2 Crystalline Seashelves&r and &b6 Heart-Forged Seashelves&r."]
-	quest.24526FFBA093805A.title: "Making a real Trident"
+	quest.24526FFBA093805A.quest_desc: [
+		"{atm9.quest.enchant.desc.trident}"
+		"{image:atm:textures/questpics/apotheosis/enchant_trident.png width:100 height:100 align:1}"
+	]
+	quest.24526FFBA093805A.title: "{atm9.quest.enchant.trident}"
 	quest.2462AE2029F3C8E8.quest_desc: [
 		"Shifting the Trioxide to Trifluoride. "
 		""
@@ -3228,6 +3256,8 @@
 	quest.24BD32102AFA1691.quest_desc: ["An upgraded crafter that holds more patterns and has an increased crafting speed."]
 	quest.24BD32102AFA1691.title: "&5Netherite Crafter&r"
 	quest.24C0F267B330CD23.quest_desc: ["With the damage of a Diamond Sword, the &2Terra Blade&r will sometimes fire a beam that will deal as much as a melee hit would."]
+	quest.24C757B8AA6841F6.quest_desc: ["Apothic knows how annoying Tridents can be to get so they made it easier... well kinda easier. You can now make an Inert Trident and Infuse it to get a normal Trident. The Trident requires between &a40 Eterna&r, &c20%-50% Quanta&r, and atleast &535% Arcana&r. You can get this with &94 Echoing Skulkshelves&r, &2Melonshelf &rand Normal Bookshelf."]
+	quest.24C757B8AA6841F6.title: "Making a real Trident"
 	quest.24C9BA6DC32CFAD9.quest_desc: ["Coal is your first real source of power. If you are running low and cant find any Coal a better alternative for you will be Charcoal. "]
 	quest.24C9BA6DC32CFAD9.quest_subtitle: "Smelt your logs"
 	quest.24E3CB198F73524A.quest_desc: [
@@ -3237,6 +3267,8 @@
 	]
 	quest.24E3CB198F73524A.quest_subtitle: "Arcing electricity!"
 	quest.24E658BA47367A44.quest_desc: ["The &n&5Rope Pulley&r can move blocks up or down, they can be glued together."]
+	quest.24FCFF18296ED907.quest_desc: ["Suprisingly you don't need infusion for these! You just need to kill the most powerful boss in vanilla Minecraft! The &9Skulk shelves&r increase &aEterna&r to &a80&r which will allow us to Infuse the next item."]
+	quest.24FCFF18296ED907.title: "&9Soul-Touched Sculkshelf"
 	quest.25213DBA6E6CEDD2.quest_desc: [
 		"Shadowpulse Goo is the fourth and final tier of goo added by JDT and requires Ancient City and Warden materials to craft."
 		""
@@ -4084,6 +4116,8 @@
 	quest.2EB7784D5296F410.title: "The Flux Networks UI"
 	quest.2EB96FF06627FD9A.quest_subtitle: "Breaks down items into their components."
 	quest.2EB96FF06627FD9A.title: "Salvager"
+	quest.2EC2FA680076C07D.quest_desc: ["You might need to kill a few Wardens for these but that's okay Apothic makes it easier! This shelf is mostly for &5Arcana&r but it's a good source for all quantities. It will be needed for next Infusion."]
+	quest.2EC2FA680076C07D.title: "&9Echoing Sculkshelf"
 	quest.2EC9668ED4EA47CB.quest_desc: [
 		"This quest only requires you to make one Diamond tool or armor piece, but it's probably good to get a full set! "
 		""
@@ -4307,8 +4341,8 @@
 	quest.313F5AFF459201EB.title: "&l&5Eternal Starlight&r Stones"
 	quest.3142A40E1EAEBAA3.quest_desc: ["The &6Dowsing Rod&r gives you Magic Find and Scrying when used. \\n\\nThis allows you to see nearby magic creatures as well as helping you find amethyst!"]
 	quest.3142A40E1EAEBAA3.quest_subtitle: "Magic Finder"
-	quest.314E41B84C8DD464.quest_desc: ["This is arguably one of the most important blocks added by Apotheosis, the Enchantment Library. You put Books in and they collect over time and can be taken out anytime. Warning 1. It has limits, high limits but limits 2. It can only take out the highest level put in regardless of how many are in."]
-	quest.314E41B84C8DD464.title: "Enchantment Library"
+	quest.314E41B84C8DD464.quest_desc: ["{atm9.quest.enchant.desc.library}"]
+	quest.314E41B84C8DD464.title: "{atm9.quest.enchant.library}"
 	quest.3155E4212045BC8E.quest_desc: [
 		"The Obsidian Nest will lure in Draconic Bees when placed in the End."
 		""
@@ -4365,6 +4399,8 @@
 	quest.31BCE63F5E016323.quest_desc: ["The &3Solar Compressor&r generates Pressure by using sunlight, the warmer it gets, the more Prssure it will produce. However. be careful, if it gets too hot it will malfunction and you will need to repair it."]
 	quest.31BCE63F5E016323.quest_subtitle: "In the palm of my hand..."
 	quest.31BCE63F5E016323.title: "Pressure from the Sun"
+	quest.31E7F7464D79F881.quest_desc: ["It's not just bookshelves that can be Infused!"]
+	quest.31E7F7464D79F881.title: "Other Infusion Items"
 	quest.31EC6244E4A3CBD6.quest_subtitle: "Tier &b4"
 	quest.31EEE2875595F315.quest_desc: [
 		"You should have already made &2Sulfuric Acid&r for your Tier 4 Ore Processing facility, but here is a reminder on how to get it."
@@ -4635,8 +4671,8 @@
 		"Killing the Naga will grant entry to the next boss, the Lich."
 	]
 	quest.3531B28F14CF72A2.title: "Time to Even the Scales"
-	quest.353C7440B32F0A5E.quest_desc: ["&aEterna&r sets the Enchantment Level which determines what Enchantments you can or will get. It's default is &a0&r and max is &a50&r."]
-	quest.353C7440B32F0A5E.title: "&aEterna&r"
+	quest.353C7440B32F0A5E.quest_desc: ["{atm9.quest.enchant.desc.eterna}"]
+	quest.353C7440B32F0A5E.title: "{atm9.quest.enchant.eterna}"
 	quest.354012CD62D346E5.quest_subtitle: "5x redstone from one raw ore!"
 	quest.354012CD62D346E5.title: "Redstone Vein"
 	quest.354086C858E10154.quest_desc: [
@@ -5631,8 +5667,8 @@
 	quest.4040BFCD4BE56621.title: "Honitel"
 	quest.404AA0F5557D7E35.quest_desc: ["Unobtainium Seeds require Magical Soil placed below in order for them to grow."]
 	quest.404AA0F5557D7E35.quest_subtitle: "Tier: &bMagical"
-	quest.405369118613F935.quest_desc: ["A little expensive but the &9Echoing Deep Shelf&r is like a much better &bSeashelf&r. (BTW you'll need to kill quite a few wardens to advance more in Enchanting... shoulda warned you earlier). Also increases Max &aEterna&r to &a37.5&r."]
-	quest.405369118613F935.title: "&9Echoing Deepshelf&r"
+	quest.405369118613F935.quest_desc: ["{atm9.quest.enchant.desc.echo_deep}"]
+	quest.405369118613F935.title: "{atm9.quest.enchant.echo_deep}"
 	quest.4059373B88845C6F.quest_desc: ["The &eChemical Bath&r is used in &aOre Processing&r lines to get certain &dbyproducts&r by washing crushed ores in mercury or sodium persulfate"]
 	quest.405DCD3E36232EEA.quest_desc: ["Less damage than a sword, but longer reach."]
 	quest.405DCD3E36232EEA.quest_subtitle: "Release Your Inner Spartan"
@@ -5864,6 +5900,7 @@
 	quest.427014BDE06DE631.quest_desc: ["Everything I hit, bursts into Flames!!!!!"]
 	quest.427014BDE06DE631.quest_subtitle: "Hands"
 	quest.427014BDE06DE631.title: "&cFire Gauntlet&r"
+	quest.42746659C66CF17F.quest_desc: ["The Library of Alexandria is a better Enchantment Library. It can hold more, that's it. you need to Infuse a Enchantment Library. It needs exactly &a100 Eterna&r, between &c45%-50% Quanta&r, and &5100% Arcana&r. This can be done with &96 Echoing Skulkshelves&r, &d2 Draconic Shelves&r, &23 Melonshelves &rand &92 Infused &bSeashelves&r/&4Hellshelves"]
 	quest.427516AA3E8C9442.quest_subtitle: "Versatile Hoe"
 	quest.427516AA3E8C9442.title: "Mattock Blueprint"
 	quest.427B9C6D95885DE2.quest_subtitle: "Red Delicious Apple + Flowering Azalea"
@@ -6046,8 +6083,8 @@
 		"At least they arent that hard to craft."
 	]
 	quest.44BE268EC7D2689D.quest_subtitle: "MORE Coil?!"
-	quest.44D1B410550B6C28.quest_desc: ["It's not just bookshelves that can be Infused!"]
-	quest.44D1B410550B6C28.title: "Other Infusion Items"
+	quest.44D1B410550B6C28.quest_desc: ["{atm9.quest.enchant.desc.other}"]
+	quest.44D1B410550B6C28.title: "{atm9.quest.enchant.other}"
 	quest.44EE336BC265D21C.quest_desc: [
 		"These monster Coils are the end of the line for coils."
 		""
@@ -6063,6 +6100,8 @@
 		"Do keep in mind, the oils in the chunk will deplete over time, so you will need to move the Fluid Drilling Rig occasionally"
 	]
 	quest.4510FD92BACF00FF.quest_subtitle: "Plum + Sweet Chestnut"
+	quest.45161821C221EF0B.quest_desc: ["In order to get higher Max Enchantments and levels you'll need Infused Hellshelves. To get them you will need &a45 Eterna&r and &c30% Quanta&r. The best way to get that would be 15 normal shelves and &45 Hellshelves&r."]
+	quest.45161821C221EF0B.title: "&4Infused Hellshelves"
 	quest.451D03BE892CDE74.quest_subtitle: "&dTier 6&r"
 	quest.451D03BE892CDE74.title: "Exploration Mod Max Pickaxes"
 	quest.45268A619787288F.title: "&bDiamond Backpack&r"
@@ -6546,8 +6585,8 @@
 	]
 	quest.4A4C71C43519D5FE.title: "&5Summoning The Wither"
 	quest.4A5937F6E5D06BE1.quest_desc: ["A simple liquid fuel generator that runs off the liquid fuels added by JDT."]
-	quest.4A59DF02128DA9F3.quest_desc: ["The &dPearlescent Endshelf&r is the best all-around shelf. It also gives a Max &aEterna&r of &a45&r, but this isn't the shelf we're looking for to get perfect set up."]
-	quest.4A59DF02128DA9F3.title: "&dPearlescent Endshelf&r"
+	quest.4A59DF02128DA9F3.quest_desc: ["{atm9.quest.enchant.desc.pearlescent}"]
+	quest.4A59DF02128DA9F3.title: "{atm9.quest.enchant.pearlescent}"
 	quest.4A5F84912C755688.quest_desc: [
 		"The Vengabus is coming \\nAnd everybody's jumping \\nNew York to San Francisco \\nAn intercity disco \\nThe wheels of steel are turning \\nAnd traffic lights are burning \\nSo if you like to party \\nGet on and move your body"
 		"{image:atm:textures/questpics/bumblezone/bumble_dance.png width:200 height:100 align:center}"
@@ -6742,8 +6781,11 @@
 	quest.4C3B7BAEA653587B.quest_subtitle: "Desert Pyramid Chests"
 	quest.4C41FD926F31180B.quest_desc: ["In order to move &2Items&r with &c&lLaserIO&r you'll need some &2Item Cards&r. \\n\\nSet one to Extract and put it on the side of the &cLaser Node&r you want to Import from. Then set the other to Insert and put it to the side you want the Items to Export to. \\n\\nThere are mutliple settings you can change with the Extract in order of where you want the Items to go if there's multiple places to Extract from. Round Robin will make it Extract items in an order instead of closest Inventory first."]
 	quest.4C41FD926F31180B.title: "&2Item Card"
-	quest.4C446F22771E2B53.quest_desc: ["Ever want THE most perfect Enchants? Then this is the setup you need, for 100%% everything. &95 Echoing Skulkshelves&r, &95 Soul-Touched Sculkshelves&r, and &d1 Draconic Shelf&r will get you &a50 Eterna&r, &c100%% Quanta&r, &5100%% Arcana&r and &96 Enchanting Clues&r. &e3 Shelves of End Fused Rectification&r will give &e100%% Rectification&r. And &6Deepshelf of Arcane Treasures&r will top it all off with &6Treasure Enchantments&r."]
-	quest.4C446F22771E2B53.title: "&6Best Enchanting set-up&r"
+	quest.4C446F22771E2B53.quest_desc: [
+		"{atm9.quest.enchant.desc.perfect}"
+		"{image:atm:textures/questpics/apotheosis/enchant_perfect.png width:200 height:100 align:1}"
+	]
+	quest.4C446F22771E2B53.title: "{atm9.quest.enchant.perfect}"
 	quest.4C47EB9D2CE26BC6.quest_subtitle: "Spawns from a Quartz Nest in the Nether"
 	quest.4C47EB9D2CE26BC6.title: "Crystalline Bee"
 	quest.4C54BD57CAB8A54B.quest_desc: [
@@ -7077,8 +7119,8 @@
 		"To get Sulfuric Acid, we'll need a new setup, which is explained further in the above quests."
 	]
 	quest.4F436770D30D8520.title: "The Start of a Tier 4 Ore Factory"
-	quest.4F4B2A6997F25A5A.quest_desc: ["&5Arcana&r is very important quantity, it increases the amount of Enchantments you get and makes rare Enchantments more common. An example would be like with Swords, smite is a very common enchantment but looting is much more rare. &5Arcanas&r default is &50%%&r and max is &5100%%&r."]
-	quest.4F4B2A6997F25A5A.title: "&5Arcana&r"
+	quest.4F4B2A6997F25A5A.quest_desc: ["{atm9.quest.enchant.desc.arcana}"]
+	quest.4F4B2A6997F25A5A.title: "{atm9.quest.enchant.arcana}"
 	quest.4F5348D0C83C3B0D.quest_desc: ["&3Solar Cells&r are used to make Solar Compressors."]
 	quest.4F5348D0C83C3B0D.quest_subtitle: "The Sun's Cells"
 	quest.4F5348D0C83C3B0D.title: "Solar Cells"
@@ -7198,8 +7240,8 @@
 	quest.50AA597A4CF3D060.title: "Strong Stick"
 	quest.50C9CB8FB16E453D.quest_desc: ["Don't worry you won't mistake this one for a Bastion. The &bBurning Arena&r is quite empty besides the &bIgnited Revenants&r and the Altar of Flame. Kill the &bIgnited Revenant&r to get the..."]
 	quest.50C9CB8FB16E453D.title: "&bBurning Arena&r: Home of the &bIgnis&r"
-	quest.50EEDDDE129D2742.quest_desc: ["&4Hellshelves&r are your introduction to &cQuanta&r, they give &c3%% Quanta&r and &a1.5 Eterna&r. Better than normal shelves right? You're going to need atleast 6 of them for the next step."]
-	quest.50EEDDDE129D2742.title: "&4Hellshelves&r"
+	quest.50EEDDDE129D2742.quest_desc: ["{atm9.quest.enchant.desc.hellshelf}"]
+	quest.50EEDDDE129D2742.title: "{atm9.quest.enchant.hellshelf}"
 	quest.5103C817381181DE.quest_desc: ["Allows you to use an Elytra while still having your Pneumatic Chestplate on."]
 	quest.5103C817381181DE.quest_subtitle: "Max: 1"
 	quest.511562EA5811306B.title: "Diamond Fishing Rod"
@@ -7326,6 +7368,8 @@
 	]
 	quest.51DE3157DE3E57B8.quest_subtitle: "Order up"
 	quest.51DE3157DE3E57B8.title: "Auto-Crafting"
+	quest.51E554305FFEBA1D.quest_desc: ["The &4Blazing Hellshelf&r is an upgrade to the &4Infused Hellshelf&r. It increases max &aEterna&r to &a65&r. The negative Enchanting Clue makes it a little worse for normal Enchanting, instead we can use it for better Infusion."]
+	quest.51E554305FFEBA1D.title: "&4Blazing Hellshelf"
 	quest.51E77B9CD3FB6DEA.quest_desc: ["This isn't necessary but I find it very helpful. \\n\\nThe Digging Claws increases your Pickaxe Tier, for your Hands. So you can Mine up to Iron Ore with just your Fists! \\n\\nThat also includes mining things like Stone, Terracotta, and Concrete. And you can even mine those with the Blocks in your Hands. \\n\\nHonestly it basically is needed."]
 	quest.51E9D03CD755A607.quest_desc: [
 		"Plan on storing Liquids? You'll need a &9Fluid Grid&r to be able to see what fluids you have in your Fluid Disks.  "
@@ -7350,6 +7394,13 @@
 	quest.523853C1C4E688BA.quest_desc: ["The fourth tier of storage component, providing &e65536&f bytes of storage."]
 	quest.523853C1C4E688BA.quest_subtitle: "x4^3"
 	quest.523853C1C4E688BA.title: "64k Storage Component"
+	quest.523DC411241B470A.quest_desc: [
+		"All Enchantments in pool is not really cool, especially if there are negative enchantmets there as well. Not anymore! This bookshelf removes all negatives Enchantments from pool and gives you access to see which enchant have what chance. It's remove some &cQuanta&r, but what you get is worth it."
+		"{@pagebreak}"
+		""
+		"{image:atm:textures/questpics/apothic/geode.png width:150 height:100 align:center}"
+	]
+	quest.523DC411241B470A.title: "&6Negative Enchantments Removal"
 	quest.5241693278027FFD.quest_desc: [
 		"We'll pretend that it's fine"
 		""
@@ -8144,8 +8195,8 @@
 	]
 	quest.5B1E0E3E876339E7.title: "&4Supremium Armor"
 	quest.5B36DE3826F26963.quest_desc: ["&n&5Shafts&r transfer rotational power without changing the speed of the gears."]
-	quest.5B3CC3F66F2C3DE5.quest_desc: ["&bSeashelves&r are your introduction to &5Arcana&r, they give &52%% Arcana&r and &a1.5 Eterna&r. Better than normal shelves right? You're going to need atleast 6 of them for the next step."]
-	quest.5B3CC3F66F2C3DE5.title: "&bSeashelves&r"
+	quest.5B3CC3F66F2C3DE5.quest_desc: ["{atm9.quest.enchant.desc.seashelf}"]
+	quest.5B3CC3F66F2C3DE5.title: "{atm9.quest.enchant.seashelf}"
 	quest.5B4397D4EC23E702.quest_desc: [
 		"The perfect place for all &6B&8e&6e&r Warriors! \\n\\nHere you can grab a Stinger Spear and enchants for it!"
 		"{image:atm:textures/questpics/bumblezone/bumble_stingy.png width:200 height:100 align:center}"
@@ -8244,8 +8295,8 @@
 	]
 	quest.5C47935A3B2877FF.quest_subtitle: "Mekanism's Energy Transfer Pipe"
 	quest.5C47935A3B2877FF.title: "&9Using Mekanism:&r &a Basic Universal Cable&r"
-	quest.5C56452BE7879D0A.quest_desc: ["Some infusions need very very exact amounts of &aEterna&r, &cQuanta&r, or &5Arcana&r to get these you might need one of these shelves. Each lowers the amount of its respective amounts."]
-	quest.5C56452BE7879D0A.title: "Negative amounts"
+	quest.5C56452BE7879D0A.quest_desc: ["{atm9.quest.enchant.desc.negative}"]
+	quest.5C56452BE7879D0A.title: "{atm9.quest.enchant.negative}"
 	quest.5C590DB2F3D935E5.quest_desc: ["The Seed Reprocessor can convert essence seeds back into essences."]
 	quest.5C590DB2F3D935E5.quest_subtitle: "Recycling!"
 	quest.5C6709350BEF4050.quest_desc: [
@@ -8257,6 +8308,8 @@
 	]
 	quest.5C6F8FE4BA28807E.quest_desc: ["Some Advanced Computers."]
 	quest.5C6F8FE4BA28807E.quest_subtitle: "Advanced Computers"
+	quest.5C73247A48E72FB3.quest_desc: ["If you want to remove a specific enchant from Enchantment Pool, you can use this bookshelf. Right-click on that bookshelf with enchanted book with an enchantment you don't want in the pool"]
+	quest.5C73247A48E72FB3.title: "&9Remove Enchantment from Pool"
 	quest.5C7B81756CA58056.title: "Infinite Mana"
 	quest.5C7D9BCDF19B86BD.quest_desc: ["Prevents things from exploding."]
 	quest.5C7D9BCDF19B86BD.quest_subtitle: "Secure!"
@@ -8369,6 +8422,8 @@
 	quest.5DC892BA79EB52EC.quest_desc: ["The &n&5Mixer&r can be used combined with the Basin to craft."]
 	quest.5DC9848CC15DCACB.quest_subtitle: "Chill of the thrill"
 	quest.5DCDDC346359DF28.quest_subtitle: "Balsa + Dark Oak"
+	quest.5DE45BC0258D1B0B.quest_desc: ["The &dPearlescent Endshelf&r is the best all-around shelf. It also gives a Max &aEterna&r of &a90&r, but this isn't the shelf we're looking for to get perfect set up."]
+	quest.5DE45BC0258D1B0B.title: "&5Pearlescent Endshelf"
 	quest.5DE7C4FD5FA29236.quest_desc: ["Don't you hate when you're just about to kill an Endermen and it teleports away? Well you don't hate you, you love it! You're just angry because you're envious! You want it! \\n\\nAnd with the &5Chorus Belt&r you can get it! You will teleport from a hit that would kill you."]
 	quest.5DE7C4FD5FA29236.quest_subtitle: "Belt"
 	quest.5DE7C4FD5FA29236.title: "&5Chorus Belt&r"
@@ -8599,9 +8654,14 @@
 		"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"1883B79BDB2AAE5D\"}, \"text\": \"Click here to check out the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 	]
 	quest.5FD3C68D5F218D02.title: "&dBotania&r"
-	quest.5FD4F40CEC37D9FD.quest_desc: ["The Library of Alexandria is a better Enchantment Library. It can hold more, that's it. you need to Infuse a Enchantment Library. It needs exactly &a50 Eterna&r, between &c45%%-50%% Quanta&r, and &5100%% Arcana&r. This can be done with &97 Echoing Skulkshelves&r and &d2 Draconic Shelves&r."]
-	quest.5FD4F40CEC37D9FD.title: "Library of Alexandria"
+	quest.5FD4F40CEC37D9FD.quest_desc: [
+		"{atm9.quest.enchant.desc.alexandria}"
+		"{image:atm:textures/questpics/apotheosis/enchant_library.png width:150 height:100 align:1}"
+	]
+	quest.5FD4F40CEC37D9FD.title: "{atm9.quest.enchant.alexandria}"
 	quest.5FD6A738754F6013.quest_desc: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. \\n\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. \\n\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
+	quest.5FD95ABA63C56BD5.quest_desc: ["{atm9.quest.enchant.desc.heart-forged}"]
+	quest.5FD95ABA63C56BD5.title: "{atm9.quest.enchant.heart-forged}"
 	quest.5FDB48511EC1C580.quest_desc: [
 		"Afraid of blowing up your Fission Reactor and causing a massive Radiation leak? Don't worry, we all are. &o*insert terrible flashback here*&r"
 		""
@@ -8636,7 +8696,6 @@
 		"On the outside of &6&lHive Walls&r and &6&lPillars&r you will find what I call &6Bee-Daycares&r. \\nHere there will be &6Honey Blocks&r and Honeycomb Brood Blocks! These spawn with baby &6B&8e&6e&8s&r at some stage within them. \\n\\nYou can feed it: &bSugar Water&r Bottles, &6Honey Bottles&r, or Bee Bread. It has 4 Stages and after the 4th is fed a Baby &6B&8e&6e&r will spawn out. Sometimes &6Honey Slimes&r will spawn as well! \\n\\nYou can take the Empty Brood Block to the &5Bee Queen&r to refill it! \\n\\nWhen you feed them enough you will get Protection of the Hive. If you take them out you will get Wrath of the Hive."
 		"{image:atm:textures/questpics/bumblezone/bumble_daycare.png width:200 height:100 align:center}"
 	]
-	quest.6013C6B2E0B81D73.title: "&6Daycares&r"
 	quest.6013C6B2E0B81D73.title: "&6Daycares"
 	quest.60175A8E3A67F51C.quest_desc: ["The Emitters and Sensors for each tier always seem to be the hardest components to make. But they always end up helping us in the end with the machines they construct. So its worth it in the end."]
 	quest.60175A8E3A67F51C.quest_subtitle: "Im sensing that you are emitting."
@@ -8669,14 +8728,16 @@
 	]
 	quest.604F2B68B27885BF.title: "Fancy Noms"
 	quest.6063F4B7BE4D394C.quest_desc: ["The Sender Modules will move Items in the Router's Buffer Slot into another Inventory. \\n\\nMK1 will only move items into Inventories on the same XYZ axis as the Router and with direct line of sight. If there is a block in the way, the MK1 Sender will not send."]
-	quest.606780E5B8CF83BE.quest_desc: ["You might need to kill a few Wardens for these but that's okay Apotheosis makes it easier! This shelf is mostly for &5Arcana&r but it's a good source for all quantities. It will be needed for next Infusion."]
-	quest.606780E5B8CF83BE.title: "&9Echoing Sculkshelf&r"
+	quest.606780E5B8CF83BE.quest_desc: ["{atm9.quest.enchant.desc.echo_sculk}"]
+	quest.606780E5B8CF83BE.title: "{atm9.quest.enchant.echo_sculk}"
 	quest.60736D37F7705B39.quest_desc: [
 		"That is one hot ingot! Cool it off in your &aVacuum Freezer&r"
 		""
 		"Requires those Kanthal Coil Blocks on your &aEBF&r"
 	]
 	quest.607D592CE102C82E.title: "Knightmetal Tools"
+	quest.60850E717C747A78.quest_desc: ["You ever spend 3 months studying Galatic Code to finally understand Enchantment Table language just for it to be gibberish? No? Me either but &9Enchanting Clues&r are your actual translator for it. Each &9Enchanting Clue&r will tell you 1 Enchantment before you actually use it."]
+	quest.60850E717C747A78.title: "&3Enchanting Clues"
 	quest.6092490EC9008A05.quest_desc: [
 		"This interface will automatically break the block it is attached to. "
 		""
@@ -8839,8 +8900,8 @@
 	quest.623796B1D7981E59.quest_desc: ["'Also try Terraria!'\\n\\nWhen equipped you will gain 5 extra Hearts! Or 10 whole points of Health! Adding up to on default 30 Health."]
 	quest.623796B1D7981E59.quest_subtitle: "Belt"
 	quest.623796B1D7981E59.title: "&4Crystal Heart&r"
-	quest.6244032FE2E5F1E1.quest_desc: ["The &dDraconic Shelf&r is the last Shelf we'll need for perfect set up. It might only give &aEterna&r but it has the Max Max &aEterna&r of &a50&r."]
-	quest.6244032FE2E5F1E1.title: "&dDraconic Endshelf&r"
+	quest.6244032FE2E5F1E1.quest_desc: ["{atm9.quest.enchant.desc.draconic}"]
+	quest.6244032FE2E5F1E1.title: "{atm9.quest.enchant.draconic}"
 	quest.6255E2FE6DD4084A.quest_subtitle: "Holly + Alder"
 	quest.625B5E3CDDAECFFD.quest_desc: [
 		"Im sure you have made a whole lot of EBF's during your journey to get here."
@@ -8880,8 +8941,8 @@
 		"{atm9.quest.evilcraft.desc.bloodInfuser.3}"
 	]
 	quest.62A262A706CFCAF0.title: "{atm9.quest.evilcraft.bloodInfuser}"
-	quest.62B2C1A24AE245EA.quest_desc: ["The &9Deepshelf&r (not dormant) is your next step to Enchanting. Like everything else it needs Infusion. The &9Deepshelf&r needs 30 &aEterna&r, &c40%% Quanta&r, and &540%% Arcana&r. You can get that with &45 Blazing Hellshelves&r and &b4 Heart-Forged Seashelves&r."]
-	quest.62B2C1A24AE245EA.title: "&9Deepshelf&r"
+	quest.62B2C1A24AE245EA.quest_desc: ["{atm9.quest.enchant.desc.deepshelf}"]
+	quest.62B2C1A24AE245EA.title: "{atm9.quest.enchant.deepshelf}"
 	quest.62BBF61C9849CA26.quest_desc: [
 		"The minimum size is 5x5x5 and the maximum size is 15x15x15, and anywhere in between is valid!"
 		""
@@ -9437,6 +9498,8 @@
 	quest.683C260C854C5AA3.title: "Mechanical Fusion Anvil"
 	quest.684BB9D2F2AC87A6.quest_subtitle: "Wenge + Cocobolo"
 	quest.68526BA198AADD8E.quest_desc: ["If you cannot find &belectrotine&r in the Nether, you can create it by mixing electrum and redstone in a &eMixer&r on &aProgram 1&r"]
+	quest.6852BEFDD4DE4E4B.quest_desc: ["Like an improved &4Hellshelf&r, the &9Soul Touched Deepshelf&r gives a lot of &cQuanta&r, it does give higher &aEterna&r max to &a75&r though! Which means better Enchants!"]
+	quest.6852BEFDD4DE4E4B.title: "&9Soul-Touched Deepshelf"
 	quest.6856A5572B239D10.quest_subtitle: "&f16&r &4Damage&r"
 	quest.685C4A646E092A82.title: "&6Awakened Supremium Armor"
 	quest.686AEC3EF1140D15.quest_desc: [
@@ -9447,6 +9510,7 @@
 	quest.686AEC3EF1140D15.title: "New Tools for New Ores"
 	quest.686B25F2E9D8CC97.quest_desc: ["At the time of writing this it's the end of July so I've got about 3 months until Halloween. But it's never to early to start getting Spooky! Just like Spirit Halloween we can get Spooky 3 months before it actually starts. This time by Right Clicking a Furnace with the Spook-alator! Once it's time to start getting ready for Thanksgiving Shift Right Click them to Un-Spook-Alate!"]
 	quest.686B25F2E9D8CC97.quest_subtitle: "\"This is Halloween\""
+	quest.6884E25641A1020C.quest_desc: ["This is arguably one of the most important blocks added by Apotheosis, the Enchantment Library. You put Books in and they collect over time and can be taken out anytime. Warning 1. It has limits, high limits but limits 2. It can only take out the highest level put in regardless of how many are in."]
 	quest.68879C92A044030D.quest_desc: ["Mercury and Gold are highly attracted to each other. For this reason, Mercury is widely used to leech gold out of fine sands, or other materials which are rich in fine gold that is otherwise difficult to process out."]
 	quest.68879C92A044030D.quest_subtitle: "Amalgamation"
 	quest.6889EFC6CC291463.quest_desc: [
@@ -9616,6 +9680,8 @@
 		"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"004F28C5C85F467B\"}, \"text\": \"Click here to start the questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 	]
 	quest.69E96EE9A9A2F423.title: "&cBlood Magic&r"
+	quest.6A07D09831428CB9.quest_desc: ["&bSeashelves&r are your introduction to &5Arcana&r, they give &53% Arcana&r and &a3 Eterna&r. Better than normal shelves right? You're going to need atleast 4 of them for the next step."]
+	quest.6A07D09831428CB9.title: "&bSeashelves"
 	quest.6A0D1E9D534958B8.title: "Chalcopyrite Vein"
 	quest.6A1145678E80FB8E.quest_desc: ["There's so many useless &5Enchantments&r out there, why not get some Energy out of them! The &bEnchantment Generator&r uses &5Enchanted Books&r to make Energy. The Level and Rarity of &5Enchanted Books&r changes the amount of Energy you get from them."]
 	quest.6A1145678E80FB8E.title: "&bEnchantment Generator"
@@ -9797,6 +9863,7 @@
 		"This machine requires &aOxygen&r to run, which is created by pumping water into an &6Electrolytic Separator&r."
 	]
 	quest.6C25D42C36175BF4.quest_subtitle: "It makes Clumps."
+	quest.6C2C135B9B7B9402.quest_desc: ["Infusion is a special version of Enchanting which ironically is used for better enchantments. When the right amount of &aEterna&r, &cQuanta&r, and &5Arcana&r is reached the enchantments will offer Infusion. (To know the Levels needed you can check EMI or follow these Quests)"]
 	quest.6C30EEA91FB21A3B.quest_desc: ["This will be the final Circuit Board we need to build our Final Tier of processors."]
 	quest.6C30EEA91FB21A3B.quest_subtitle: "The last circuits"
 	quest.6C329168001C1FB4.quest_desc: [
@@ -9820,8 +9887,8 @@
 	]
 	quest.6C6F4EB5CBE2FBC2.quest_desc: ["The Iron Divination Rod is a slight bit higher, being able to find Ores that an Iron Pickaxe can mine! So Diamonds, Redstone, and Gold."]
 	quest.6C706326381CE611.title: "Creative Pressure"
-	quest.6C76AB8A6110C0C7.quest_desc: ["The &4Blazing Hellshelf&r is an upgrade to the &4Infused Hellshelf&r. It increases max &aEterna&r to &a30&r. The negative Enchanting Clue makes it a little worse for normal Enchanting, instead we can use it for better Infusion."]
-	quest.6C76AB8A6110C0C7.title: "&4Blazing Hellshelf&r"
+	quest.6C76AB8A6110C0C7.quest_desc: ["{atm9.quest.enchant.desc.blazing}"]
+	quest.6C76AB8A6110C0C7.title: "{atm9.quest.enchant.blazing}"
 	quest.6C832BFE4D07D897.quest_subtitle: "Leaves an AoE Cloud that damages living mobs"
 	quest.6CA01DCE1F4A0EC3.quest_desc: ["The next stage of the mod requires the collection of &3Crude Oil&r. This Oil can be found naturally on the surface of the overworld."]
 	quest.6CA01DCE1F4A0EC3.quest_subtitle: "The Path to Plastic"
@@ -10287,6 +10354,8 @@
 	quest.70C952B8FF3418F6.quest_subtitle: "Buckle up for &6HV&r"
 	quest.70CDA5F1593DB4B2.quest_desc: ["&eThe Cursed Pyramid&r spawns in deserts and it's very hard to miss. A massive pyramid with huge pillars by the entrance. In it you'll find a lot of traps, husks, and loot! Once you get to the bottom you'll find many &eKoboletons&r and a sleeping giant. To wake it up you'll need a..."]
 	quest.70CDA5F1593DB4B2.title: "&eCursed Pyramid&r: Home of &eAncient Remnant&r"
+	quest.70D2C5FAC661E01A.quest_desc: ["The &bHeart-Forged Seashelf&r is another upgrade to the &bInfused Seashelf&r. It's a little expensive but gives the &5Arcana&r we'll need for Infusion and later Enchanting."]
+	quest.70D2C5FAC661E01A.title: "&bHeart-Forged Seashelf"
 	quest.70D60687AAB145FE.quest_subtitle: "Common"
 	quest.70E4EBA7C9901007.quest_subtitle: "Tier &b4"
 	quest.70ED849A2EB44DEE.quest_subtitle: "&bTier 3&r"
@@ -10391,8 +10460,8 @@
 		"{image:atm:textures/questpics/bumblezone/bumble_subway.png width:200 height:100 align:center}"
 	]
 	quest.7231F6177EEF5BF0.title: "Subway"
-	quest.7234CB42AEF6C941.quest_desc: ["&cQuanta&r sets how random the Enchants you get will be. It can be used against you though depending on &eRectification&r. If the &cQuanta&r is high and &eRectification&r is low, you're more likely to get bad enchantments and curses. Default &cQuanta 15%%&r and its max is &c100%%&r. &eRectification&r default is &e0%%&r and max is &e100%%&r."]
-	quest.7234CB42AEF6C941.title: "&cQuanta&r"
+	quest.7234CB42AEF6C941.quest_desc: ["{atm9.quest.enchant.desc.quanta}"]
+	quest.7234CB42AEF6C941.title: "{atm9.quest.enchant.quanta}"
 	quest.7244FA69157727AF.quest_desc: ["Take that Trinium Sulfide we got in the last quest, and put it in an EBF with Zinc, and out will pop a Hot Trinium Inogt. Cool that down and now we have the Trinium we are after."]
 	quest.7244FA69157727AF.quest_subtitle: "Smelted Trinium"
 	quest.72489FB9D9A5A24B.quest_desc: ["Can be found in structures in the &l&6Bumblezone&r or traded for with the &5Bee Queen&r! \\n\\nThese Carpenter Bee Boots truly are incredible, you can wall-run or jump farther off of Wood Planks, Leaves, and &6Honey Blocks&r. \\n\\nAlso while holding Shift the Boots will Mine the Block beneath you."]
@@ -10678,8 +10747,11 @@
 	quest.7503823ACDDB0491.quest_subtitle: "Scarf around your Neck"
 	quest.7503823ACDDB0491.title: "&2Lucky Scarf&r"
 	quest.7509E4093010EA4C.quest_desc: ["Dropped from the Snow Queen, this bow will shoot arrows that home in on your targets. No more missing!"]
-	quest.751189465F91B353.quest_desc: ["The &bCrystalline Seashelf&r is an upgrade to the &bInfused Seashelf&r. It's very good for normal Enchantments but doesn't give us enough &5Arcana&r for the next Infusion we'll need. Still good stats for normal Enchanting though!"]
-	quest.751189465F91B353.title: "&bCrystalline Seashelf&r"
+	quest.751189465F91B353.quest_desc: [
+		"{atm9.quest.enchant.desc.crystalline}"
+		"{image:atm:textures/questpics/apotheosis/enchant_seadeep.png width:200 height:150 align:1}"
+	]
+	quest.751189465F91B353.title: "{atm9.quest.enchant.crystalline}"
 	quest.75238B267CBFFAFE.quest_subtitle: "&f4.5&r &4Damage&r"
 	quest.753B3EF7CC94A6DD.quest_desc: [
 		"{atm9.quest.evilcraft.desc.uniqueDrop.1}"
@@ -11006,6 +11078,8 @@
 		"You will still need to be under the effects of the &3Third Eye&r to be able to harvest the Otherworld block."
 	]
 	quest.78ECC28DD4BA9696.title: "Hunting For &dOtherworld&r Materials"
+	quest.78FEDE6FA4845585.quest_desc: ["Some infusions need very very exact amounts of &aEterna&r, &cQuanta&r, or &5Arcana&r to get these you might need one of these shelves. Each lowers the amount of its respective amounts."]
+	quest.78FEDE6FA4845585.title: "&cNegative amounts"
 	quest.790EC3EDC2DB1FB0.quest_desc: ["Like it was mentioned before. This mod adds a ton of fun ways to generate power that require specific builds."]
 	quest.790EC3EDC2DB1FB0.title: "Generators Galore"
 	quest.790F509BAA15A68E.quest_desc: [
@@ -11087,6 +11161,8 @@
 	]
 	quest.79AD74A863EA43CB.quest_subtitle: "Storing Power"
 	quest.79AD74A863EA43CB.title: "Flux Storage"
+	quest.79AF63E77AD70A93.quest_desc: ["Bookshelves are your starting point, but definitely not your end point. Atleast not normal bookshelves. With only normal bookshelves you can only get &aEterna&r up and to a max of 30. (I will explain the Enchantment Levels soon but just know you need them up)"]
+	quest.79AF63E77AD70A93.title: "Vanilla Max is just the start"
 	quest.79B350205F9486B5.title: "Diopside Armor"
 	quest.79B9098FE66A7130.quest_desc: [
 		"&9Blue Skies&r adds 2 new dimensions, both filled with new blocks, creatures, and a total of 4 bosses."
@@ -11344,6 +11420,8 @@
 		""
 		"You can use multiple, with 7 being the max with a Turbine using 28 blades. These must either touch another Coil, or the Rotational Complex."
 	]
+	quest.7C758209D06ED0E3.quest_desc: ["The &4Glowing Hellshelf&r is an upgrade to the &4Infused Hellshelf&r. It also increases the Max &aEterna&r but it's not the stats we're looking for in order to Enchant. Definitely good for normal Enchanting though!"]
+	quest.7C758209D06ED0E3.title: "&4Glowing Hellshelf"
 	quest.7C79BCE482A06199.quest_desc: ["&b&lIce&r is all about Winter time Spells. Using &bIce&r and &bSnow&r to chill and harm enemies. \\n\\n&b&lIce's&r Focus Material is the &bFrozen Bone&r which are drops from &bStrays&r. You can use those to craft the &bIce Rune&r or kill the &b&lCryomancer&r to get it. \\n\\nIts &bScrolls&r are &bLight Blue&r with a &9Darker Blue&r text."]
 	quest.7C79BCE482A06199.title: "&b&lIce&r"
 	quest.7C7C0D3D7FCB0297.quest_desc: ["Can be found in structures in the &6&lBumblezone&r or traded for with the &5Bee Queen&r! \\n\\n&6B&8e&6e&8s&r have quite an interesting way of finding and communicating with each other. I don't know how they do it so I'm just going to guess their Antennas give and receive radio signals. \\n\\nWhile wearing the Stingless Bee Helmet you can Shift to highlight all &6B&8e&6e&8s&r around you. \\n\\nAlso while wearing it, poison and nausea will go away quicker."]
@@ -11365,6 +11443,8 @@
 		""
 		"We won't use the Acidic Osmium Solution because Osmium is plentiful"
 	]
+	quest.7C9D9D1C054874A7.quest_desc: ["Ever want THE most perfect Enchants? Then this is the setup you need, for 100% everything. &95 Echoing Skulkshelves&r, &61 Beeshelf&r, &b2 Heart-Forged Seashelves&r and &d2 Draconic Shelf&r will get you &a100 Eterna&r, &c100% Quanta&r, &5100% Arcana&r and &96 Enchanting Clues&r. &6Deepshelf of Arcane Treasures&r will top it all off with &6Treasure Enchantments&r and &5Geode-Encased Bookshelf of Stability&r gives you access to see all possible Enchantments on specific power."]
+	quest.7C9D9D1C054874A7.title: "&6Best Enchanting set-up"
 	quest.7CA3AE708F46CEBF.quest_desc: [
 		"The last piece of Slate that has any use..."
 		""
@@ -11621,8 +11701,8 @@
 	quest.7EFBAF3E281D2EBE.title: "ME Storage Bus"
 	quest.7EFBFF5D0DA018E7.quest_subtitle: "Adds a filter for items you want to auto-delete in the backpack."
 	quest.7EFBFF5D0DA018E7.title: "Void Upgrade"
-	quest.7F042DED357DEF3C.quest_desc: ["Bookshelves are your starting point, but definitely not your end point. Atleast not normal bookshelves. With only normal bookshelves you can only get &aEterna&r up and to a max of 15. (I will explain the Enchantment Levels soon but just know you need them up)"]
-	quest.7F042DED357DEF3C.title: "Vanilla Max is just the start"
+	quest.7F042DED357DEF3C.quest_desc: ["{atm9.quest.enchant.desc.book}"]
+	quest.7F042DED357DEF3C.title: "{atm9.quest.enchant.book}"
 	quest.7F076FC4F2187692.quest_subtitle: "&f8&r &4Damage&r"
 	quest.7F09F8F98C13F11B.quest_desc: ["What is a Demonic Ritual without a &cSacrifice&r! :D\\n\\nMost of the time, Demons just like items so don't be too afraid yet. However, if you have a favorite Cow, you might need to be worried. Sorry Betsy.\\n\\n&aSacrifical Bowls&r are used to place items needed for Rituals. These can be placed anywhere within the Ritual, as long as it isn't convering up any of the required Chalk.\\n\\nThe &6Golden Sacrificial Bowl&r is used in the middle of the Ritual to activate it, and also usually needs a Book of Binding for the Ritual in it."]
 	quest.7F09F8F98C13F11B.title: "Preparing for a Ritual: &dCrystals"
@@ -11770,6 +11850,7 @@
 	task.0E6876A34D1975EB.title: "AllRightsReserved"
 	task.0E7EAD7D7DF5E7C3.title: "AllRightsReserved"
 	task.0ED34925D7A494BF.title: "Sifter"
+	task.0EE3A88719BB0221.title: "Infusion"
 	task.0EE813C344409F59.title: "Candles"
 	task.0EF1CA8DED2FF38C.title: "Advanced Beehives"
 	task.0F0F3C716F921B64.title: "Voltage"
@@ -11819,10 +11900,12 @@
 	task.1B94E7A224A87F29.title: "Valid Ores"
 	task.1BA8C5F08A824C08.title: "Macaw's Lights and Lamps"
 	task.1C193E204C8A2270.title: "Cheapest IV Processors"
+	task.1C9CC8E995547812.title: "Any #chipped:bookshelf"
 	task.1CAC89F6DFC2AB72.title: "Non-ABS Multiblocks"
 	task.1CBF0C7F2044EA9A.title: "&5The Summoner"
 	task.1CC0983CB7DBE526.title: "Gallium Ingot"
 	task.1CC556A6921208B8.title: "Tier 1 Glyphs"
+	task.1CC9EA4FD2BF3DB0.title: "Any #forge:bookshelves"
 	task.1D8904E53906D972.title: "AllRightsReserved"
 	task.1DCE7B9772542FDB.title: "&dUpgrading The Forge&r"
 	task.1E0593F1AA073CFD.title: "Flux Efficiency"
@@ -11893,7 +11976,6 @@
 	task.323D34AF775A642B.title: "Sickles"
 	task.3282910297C28795.title: "AllRightsReserved"
 	task.32CB6A7BC1AB644E.title: "Simply Light"
-	task.335D80E83360A7DB.title: "Ether Gas? Huh?"
 	task.335D80E83360A7DB.title: "Understanding Ether Gas"
 	task.337725ECA2C04090.title: "Logical Transporters"
 	task.338A6DA0D711B7DC.title: "ME Pattern Provider"
@@ -11971,10 +12053,6 @@
 	task.44CEA28EBD6C0898.title: "AllRightsReserved"
 	task.465C43AE595A1A9F.title: "GT Butchery Knives"
 	task.46905D1E23255397.title: "Macaw's Windows"
-	task.4448DE84ABA737BE.title: "Universal Cables"
-	task.4471A530B55D4140.title: "Osmium Comb"
-	task.44A3CDE54F2A5149.title: "Gaia Trinkets"
-	task.44CEA28EBD6C0898.title: "AllRightsReserved"
 	task.46C4C1AD9FA5BEE2.title: "Our Setup So Far"
 	task.46C7D666D3A4A3D9.title: "Sapphire Comb"
 	task.46E665F97A2BECB6.title: "Flux Linkage Amplifier"
@@ -12046,8 +12124,10 @@
 	task.59665D8476656B9F.title: "Gold Comb"
 	task.59DD89698DBAA215.title: "AllRightsReserved"
 	task.59F0226D83026397.title: "AllRightsReserved"
+	task.5A01C349DB7F396C.title: "Any #curios:charm"
 	task.5A06ED36DD9E9681.title: "Basic Runes"
 	task.5A8F474927CC1E80.title: "Mid Game Power Options"
+	task.5A901578529C152E.title: "Infusion Enchanting"
 	task.5B5DBA0A7644A551.title: "Signalum Comb"
 	task.5B7926B511000F1F.title: "Mechanical Pipes"
 	task.5BC88AE46F95774D.title: "Gravel or Sand"
@@ -12091,6 +12171,7 @@
 	task.6754D9E162472CA1.title: "Allthemodium Progression"
 	task.6887F86C8673DAF6.title: "Reed Bee"
 	task.68DC39876E14FC1B.title: "Kill 1 Mimic"
+	task.68EBBA284DFE0E53.title: "Quests By AllTheMods"
 	task.695A0E0BC4B78AEC.title: "This will be the main ingredient for most of this mod's items and blocks."
 	task.6A4FADC04E1C9DA7.title: "Steam Boiler Tanks"
 	task.6A965CD027BF762F.title: "AllRightsReserved"
@@ -12125,6 +12206,7 @@
 	task.71DB5E5857993B3F.title: "Observe a Completed Turbine"
 	task.720CE629EA4E37D0.title: "Chipped Logs"
 	task.7241918F270CA402.title: "ME Interface"
+	task.726CDC928AF8CE05.title: "Quests By AllTheMods"
 	task.726FF2C87E9E972F.title: "Platinum Comb"
 	task.729773FF26CBB542.title: "AllRightsReserved"
 	task.72E89066290E3040.title: "AllRightsReserved"
@@ -12134,8 +12216,8 @@
 	task.7536DA5A948671F2.title: "Observe completed Vacuum Freezer"
 	task.75924053D6F5B242.title: "Spatial Storage Cells"
 	task.76B722B1AE7B6CF2.title: "AllRightsReserved"
-	task.76C92D826994D92B.title: "Chipped Glass"
 	task.76C41881A02F2098.title: "Kill 1 Wither"
+	task.76C92D826994D92B.title: "Chipped Glass"
 	task.76EEAE9313F68334.title: "AllRightsReserved"
 	task.76F6BC2EC054BD3C.title: "Alchemical Sulfurs"
 	task.770B8B984F85AB73.title: "AllRightsReserved"
