@@ -105,6 +105,27 @@ ItemEvents.modifyTooltips(allthemods => {
         Text.of("§7Very rarely spawns between Y -40 and Y 14"),
         Text.of("§7Most common at Y -13")
     ])
+    allthemods.add('forbidden_arcanus:artisan_relic',[
+        Text.of("§aFound in the Armorer, Toolsmith, or Weaponsmith villager buildings"),
+    ])
+    allthemods.add('forbidden_arcanus:crescent_moon',[
+        Text.of("§cUnobtainable"),
+    ])
+    allthemods.add('forbidden_arcanus:crimson_stone',[
+        Text.of("§aFound in Pillager Outposts"),
+    ])
+    allthemods.add('forbidden_arcanus:soul_crimson_stone',[
+        Text.of("§cWill turn into a Crimson Stone after 1 use"),
+    ])
+    allthemods.add('forbidden_arcanus:elementarium',[
+        Text.of("§aFound in Jungle Temples, Desert Pyramids, and Underwater Ruins"),
+    ])
+    allthemods.add('forbidden_arcanus:divine_pact',[
+        Text.of("§aFound in the Village and Pyramid in The Other"),
+    ])
+    allthemods.add('forbidden_arcanus:maledictus_pact',[
+        Text.of("§aFound in Treasure Bastions"),
+    ])
 })
 
 
