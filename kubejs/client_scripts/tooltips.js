@@ -41,7 +41,7 @@ ItemEvents.modifyTooltips(allthemods => {
     //Forbidden Arcanus
     allthemods.add('forbidden_arcanus:hephaestus_forge_tier_1',[
         Text.of("§c§lShift-Right-Click§r§c the §c§lSmithing Table§r§c with §lMundabitur Dust"),
-        Text.of("§c█ = Polished Darkstone with Smithing Table on top"),
+        Text.of("§c█ = Gilded Chiseled Polished Darkstone with Smithing Table on top"),
         Text.of("§7█ = Polished Darkstone"),
         Text.of("§5█§7 = Gilded Chiseled Polished Darkstone"),
         Text.of("§6█§7 = Chiseled Arcane Polished Darkstone"),
