@@ -2,14 +2,8 @@
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
 ServerEvents.tags('item', event => {
-    event.add('functionalstorage:ignore_crafting_check', 'productivebees:draconic_dust')
-    event.add('c:storage_blocks/niter', '#c:storage_blocks/saltpeter')
-    event.add('c:dusts/niter', '#c:dusts/saltpeter')
-    event.add('functionalstorage:ignore_crafting_check', 'productivebees:obsidian_shard')
-    event.add('megacells:compression_overrides', 'productivebees:obsidian_shard')
-})
-ServerEvents.tags('block', event => {
-    event.add('c:storage_blocks/niter', '#c:storage_blocks/saltpeter')
+    event.add('megacells:compression_overrides', /xycraft_world:xychorium_gem_\w+?/)
+    event.add('megacells:compression_overrides', /xycraft_world:xychorium_storage_\w+?/)
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
