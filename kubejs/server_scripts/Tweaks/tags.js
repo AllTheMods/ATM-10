@@ -16,7 +16,7 @@ ServerEvents.tags('item', allthemods => {
   allthemods.add('c:storage_blocks/yellorium', 'alltheores:uranium_block' )
 
   //Pneumaticcraft
-  allthemods.add('c:plastic', 'pneumaticcraft:plastic' )
+  allthemods.add('c:plastics', 'pneumaticcraft:plastic' )
 
 })
 
