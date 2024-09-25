@@ -3,7 +3,7 @@
 
 ServerEvents.tags('block', allthemods => {
   //Plastic
-  allthemods.add('c:plastic', 'pneumaticcraft:plastic' )
+  allthemods.add('c:plastic', 'pneumaticcraft:plastic')
   
 })
 
