@@ -31,31 +31,7 @@
 	quest_links: [ ]
 	quests: [
 		{
-			guide_page: " "
-			hide_dependent_lines: true
-			icon: {
-				id: "minecraft:oak_sapling"
-			}
-			id: "7C4F1012F5B6532F"
-			rewards: [{
-				id: "5B5E696FF15C3C31"
-				item: {
-					count: 1
-					id: "productivetrees:upgrade_pollen_sieve"
-				}
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				id: "3F53EFE85005BEEF"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:saplings)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 5.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["7C4F1012F5B6532F"]
+			dependencies: ["5577F49A93ADB19C"]
 			id: "0B70D40FA951E13B"
 			rewards: [
 				{
@@ -310,7 +286,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["7C4F1012F5B6532F"]
+			dependencies: ["5577F49A93ADB19C"]
 			id: "01B2DDD81065B4EF"
 			rewards: [{
 				count: 16
@@ -361,7 +337,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["7C4F1012F5B6532F"]
+			dependencies: ["5577F49A93ADB19C"]
 			id: "70F7B018CD61E946"
 			rewards: [{
 				count: 16
@@ -575,7 +551,7 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["7C4F1012F5B6532F"]
+			dependencies: ["5577F49A93ADB19C"]
 			id: "08C6B7D2DAE87222"
 			rewards: [{
 				count: 16
@@ -949,7 +925,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["7C4F1012F5B6532F"]
+			dependencies: ["5577F49A93ADB19C"]
 			id: "3A79E24283523E58"
 			rewards: [{
 				count: 16
@@ -1697,7 +1673,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["7C4F1012F5B6532F"]
+			dependencies: ["5577F49A93ADB19C"]
 			id: "5753E0138A072A3F"
 			rewards: [{
 				count: 16
@@ -3773,6 +3749,7 @@
 			y: 6.0d
 		}
 		{
+			dependencies: ["5577F49A93ADB19C"]
 			id: "22151D56616559CB"
 			rewards: [{
 				count: 16
@@ -3793,6 +3770,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["5577F49A93ADB19C"]
 			id: "4281BCDCE233F65B"
 			rewards: [{
 				count: 16
@@ -3813,6 +3791,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["5577F49A93ADB19C"]
 			id: "18A2F6BA778D96B1"
 			rewards: [{
 				count: 16
@@ -3833,6 +3812,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["5577F49A93ADB19C"]
 			id: "4C3B7BAEA653587B"
 			rewards: [{
 				count: 16
@@ -3853,6 +3833,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["5577F49A93ADB19C"]
 			id: "289B30DAC960BFF2"
 			rewards: [{
 				count: 16
@@ -3873,6 +3854,7 @@
 			y: 10.0d
 		}
 		{
+			dependencies: ["5577F49A93ADB19C"]
 			id: "768C07D1B5EB1FEB"
 			rewards: [{
 				count: 16
@@ -4118,6 +4100,7 @@
 			y: 14.0d
 		}
 		{
+			dependencies: ["5577F49A93ADB19C"]
 			id: "543F00603790AD3E"
 			rewards: [{
 				id: "7BA341680A73A46F"
@@ -4136,6 +4119,7 @@
 			y: 13.0d
 		}
 		{
+			dependencies: ["5577F49A93ADB19C"]
 			id: "76A0592F4C294545"
 			rewards: [{
 				count: 5
@@ -4153,6 +4137,42 @@
 			}]
 			x: 0.5d
 			y: 13.0d
+		}
+		{
+			hide_dependent_lines: true
+			icon: {
+				id: "minecraft:oak_sapling"
+			}
+			id: "5577F49A93ADB19C"
+			rewards: [
+				{
+					id: "3A060AC1249E4D3A"
+					item: {
+						components: {
+							"patchouli:book": "productivetrees:guide"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+				{
+					id: "3CC6453EEA185696"
+					item: {
+						count: 1
+						id: "productivetrees:upgrade_pollen_sieve"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "6609E5E7EDE6F92B"
+				item: { components: { "ftbfiltersystem:filter": "and(item_tag(minecraft:saplings)mod(minecraft))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.0d
 		}
 	]
 }

@@ -46,6 +46,7 @@
 			y: -8.5d
 		}
 		{
+			click: "#2B08B19B35EEBCBA"
 			height: 2.0d
 			hover: ["Bastion"]
 			image: "atm:textures/questpics/relics/relics_chest_bastion.png"
@@ -55,6 +56,7 @@
 			y: 0.0d
 		}
 		{
+			click: "#2B08B19B35EEBCBA"
 			height: 2.0d
 			hover: ["Fortress"]
 			image: "atm:textures/questpics/relics/relics_chest_fortress.png"
@@ -64,6 +66,7 @@
 			y: 3.5d
 		}
 		{
+			click: "#2B08B19B35EEBCBA"
 			height: 2.0d
 			hover: ["Ruined Portal"]
 			image: "atm:textures/questpics/relics/relics_chest_portal.png"
@@ -73,6 +76,7 @@
 			y: 6.0d
 		}
 		{
+			click: "#5D82340E9BED9C79"
 			height: 2.0d
 			hover: ["End City"]
 			image: "atm:textures/questpics/relics/relics_chest_endcity.png"
@@ -82,6 +86,7 @@
 			y: 6.0d
 		}
 		{
+			click: "#5D82340E9BED9C79"
 			height: 2.0d
 			hover: ["End Ship"]
 			image: "atm:textures/questpics/relics/relics_chest_endship.png"
@@ -91,6 +96,7 @@
 			y: 3.5d
 		}
 		{
+			click: "#730130CCF1CF5119"
 			height: 2.0d
 			hover: ["Ocean Ruin"]
 			image: "atm:textures/questpics/relics/relics_chest_ruins.png"
@@ -100,6 +106,7 @@
 			y: 0.0d
 		}
 		{
+			click: "#730130CCF1CF5119"
 			height: 2.0d
 			hover: ["Shipwreck"]
 			image: "atm:textures/questpics/relics/relics_chest_shipwreck.png"
@@ -109,6 +116,7 @@
 			y: -3.5d
 		}
 		{
+			click: "#730130CCF1CF5119"
 			height: 2.0d
 			hover: ["Mineshaft"]
 			image: "atm:textures/questpics/relics/relics_chest_mine.png"
@@ -118,6 +126,7 @@
 			y: -6.0d
 		}
 		{
+			click: "#730130CCF1CF5119"
 			height: 2.0d
 			hover: ["Village"]
 			image: "atm:textures/questpics/relics/relics_chest_village.png"
@@ -127,6 +136,7 @@
 			y: -3.5d
 		}
 		{
+			click: "#730130CCF1CF5119"
 			height: 2.0d
 			hover: ["Stronghold"]
 			image: "atm:textures/questpics/relics/relics_chest_stronghold.png"
@@ -136,18 +146,19 @@
 			y: -6.0d
 		}
 	]
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
 			icon: {
 				id: "relics:researching_table"
 			}
+			icon_scale: 1.1d
 			id: "64141B720662B652"
 			rewards: [{
 				id: "4C83061720AA2F94"
 				type: "xp_levels"
-				xp_levels: 3
+				xp_levels: 2
 			}]
 			shape: "gear"
 			size: 2.0d
