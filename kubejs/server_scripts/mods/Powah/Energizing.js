@@ -15,8 +15,8 @@ ServerEvents.recipes(allthemods => {
     ], {
         S: 'minecraft:blaze_powder'
     })
-    allthemods.shapeless('9x ars_nouveau:air_essence', [ // arg 1: output
-        'minecraft:blaze_powder'
+    allthemods.shapeless('9x minecraft:blaze_powder', [ // arg 1: output
+        'kubejs:blaze_powder_block'
     ])
     //Blaze Block
     allthemods.shaped('kubejs:blaze_block', [
