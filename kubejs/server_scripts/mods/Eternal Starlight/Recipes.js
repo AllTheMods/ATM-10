@@ -3,10 +3,7 @@
 
 ServerEvents.recipes(allthemods => {
     let prediction_convert = (output, input) => {
-        allthemods.shapeless(output, [
-                'kubejs:starlight_prediction',
-                input
-        ])
+        allthemods.shapeless(output, ['kubejs:starlight_prediction', input])
     }
 
     prediction_convert('16x eternal_starlight:grimstone', 'minecraft:stone')
@@ -38,15 +35,11 @@ ServerEvents.recipes(allthemods => {
     prediction_convert('16x eternal_starlight:lunaris_cactus', 'minecraft:cactus')
     prediction_convert('16x eternal_starlight:dead_lunar_bush', 'minecraft:dead_bush')
     prediction_convert('16x eternal_starlight:glowing_mushroom', ['minecraft:brown_mushroom', 'minecraft:red_mushroom'])
-//    prediction_convert('16x eternal_starlight:starlight_flower', 'minecraft:cornflower')
-//    prediction_convert('16x eternal_starlight:aureate_flower', 'minecraft:dandelion')
-//    prediction_convert('16x eternal_starlight:cornbloom', 'minecraft:allium')
-//    prediction_convert('16x eternal_starlight:nightfan', 'minecraft:blue_orchid')
-//    prediction_convert('16x eternal_starlight:pink_rose', 'minecraft:poppy')
-//    prediction_convert('16x eternal_starlight:pink_rose_bush', 'minecraft:rose_bush')
-//    prediction_convert('16x eternal_starlight:starlight_torchflower', 'minecraft:torchflower')
+    prediction_convert('16x eternal_starlight:icicle', 'minecraft:pointed_dripstone')
     prediction_convert('4x eternal_starlight:swamp_silver_ingot', '#c:ingots/silver')
+    prediction_convert('4x eternal_starlight:glacite', 'minecraft:blue_ice')
     prediction_convert('2x eternal_starlight:oxidized_golem_steel_ingot', '#c:ingots/steel')
+    prediction_convert('eternal_starlight:raw_aethersent', '#c:gems/diamond')
     prediction_convert('16x eternal_starlight:springstone', 'minecraft:blackstone')
     prediction_convert('8x eternal_starlight:thermal_springstone', 'minecraft:gilded_blackstone')
 
