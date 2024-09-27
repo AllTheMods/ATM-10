@@ -101,20 +101,24 @@ ServerEvents.recipes(allthemods => {
         'vibranium_allthemodium_alloy_block'
     );
 
-
-    function imbuement(output, pedestalItems, source, id){
+    function enchanting_apparatus(output, pedestalItems, reagent, nbt, sourceCost, id){
         let recipe = {
-            "type": "ars_nouveau:imbuement",
-            "input": {
-                "item": "minecraft:amethyst_shard"
-            },
-            "output": {
+            "type": "ars_nouveau:enchanting_apparatus",
+            "keepNbtOfReagent": nbt,
+            "pedestalItems": [],
+            "reagent": {},
+            "result": {
                 "count": output.count || 1,
                 "id": output.item
             },
-            "pedestalItems": [],
-            "source": source
+            "sourceCost": sourceCost
         };
+
+        if (reagent.tag) {
+            recipe.reagent.tag = reagent.tag;
+        } else {
+            recipe.reagent.item = reagent.item;
+        }
 
         pedestalItems.forEach(input => {
 
@@ -129,11 +133,11 @@ ServerEvents.recipes(allthemods => {
             recipe.pedestalItems.push(ingredients);
         });
 
-        allthemods.custom(recipe).id(`kubejs:imbuement/${id}`);
+        allthemods.custom(recipe).id(`kubejs:enchanting_apparatus/${id}`);
     }
 
     //Unobtainium - ATM Alloy
-    imbuement(
+    enchanting_apparatus(
         {item: 'allthemodium:unobtainium_allthemodium_alloy_ingot'},
         [
             {item: 'allthemodium:piglich_heart'},
@@ -144,10 +148,12 @@ ServerEvents.recipes(allthemods => {
             {item: 'ars_nouveau:fire_essence'},
             {tag: 'c:ingots/unobtainium'},
             {item: 'ars_nouveau:water_essence'}],
+        {item: 'ars_nouveau:source_gem'},
+        false,
         1000,
         'unobtainium_allthemodium_alloy_ingot'
     );
-    imbuement(
+    enchanting_apparatus(
         {item: 'allthemodium:unobtainium_allthemodium_alloy_block'},
         [
             {item: 'allthemodium:piglich_heart_block'},
@@ -158,6 +164,8 @@ ServerEvents.recipes(allthemods => {
             {item: 'kubejs:fire_essence_block'},
             {tag: 'c:storage_blocks/unobtainium'},
             {item: 'kubejs:water_essence_block'}],
+        {item: 'ars_nouveau:source_gem_block'},
+        false,
         9000,
         'unobtainium_allthemodium_alloy_block'
     );

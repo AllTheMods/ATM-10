@@ -277,14 +277,6 @@
 			id: "051E0C85E7B71CE0"
 			rewards: [
 				{
-					id: "6FFFAD377089E363"
-					item: {
-						count: 1
-						id: "minecraft:copper_block"
-					}
-					type: "item"
-				}
-				{
 					exclude_from_claim_all: true
 					id: "4EB9D9828FE1B815"
 					table_id: 487623848494439020L
@@ -420,21 +412,23 @@
 			id: "4E5238F00CEED8B2"
 			rewards: [
 				{
-					count: 6
+					count: 3
 					id: "6B5B40ABA34AD0AC"
 					item: {
 						count: 1
 						id: "alltheores:iron_dust"
 					}
+					random_bonus: 3
 					type: "item"
 				}
 				{
-					count: 6
+					count: 3
 					id: "56D64DA716E084ED"
 					item: {
 						count: 1
 						id: "alltheores:copper_dust"
 					}
+					random_bonus: 3
 					type: "item"
 				}
 				{
@@ -1053,6 +1047,7 @@
 		{
 			id: "110BF3A2BE85F911"
 			invisible: true
+			optional: true
 			shape: "circle"
 			tasks: [
 				{

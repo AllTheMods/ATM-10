@@ -296,6 +296,14 @@
 			x: 3.0d
 			y: 6.699999999999999d
 		}
+		{
+			height: 0.3d
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 5.7d
+			y: 3.0d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -874,7 +882,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["1C73E60FC70408D4"]
@@ -911,7 +919,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["311F43D48B9C26FF"]
@@ -1591,6 +1599,7 @@
 		{
 			id: "39605F1FEB1A5A1C"
 			invisible: true
+			optional: true
 			shape: "circle"
 			tasks: [
 				{

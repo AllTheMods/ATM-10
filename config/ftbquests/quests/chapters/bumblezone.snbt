@@ -77,7 +77,6 @@
 		}
 		{
 			height: 2.0d
-			hover: ["Beehemoth"]
 			image: "atm:textures/questpics/bumblezone/bumble_beehemoth.png"
 			rotation: 0.0d
 			width: 2.2282608695652173d
@@ -102,7 +101,6 @@
 		}
 		{
 			height: 3.0d
-			hover: ["Bee Cannon"]
 			image: "atm:textures/questpics/bumblezone/bumble_cannon2.png"
 			rotation: 0.0d
 			width: 1.3043478260869565d
@@ -111,7 +109,6 @@
 		}
 		{
 			height: 3.0d
-			hover: ["Loaded Bee Cannon"]
 			image: "atm:textures/questpics/bumblezone/bumble_cannon3.png"
 			rotation: 0.0d
 			width: 1.2885906040268456d
@@ -120,7 +117,6 @@
 		}
 		{
 			height: 3.0d
-			hover: ["Crystal Shield"]
 			image: "atm:textures/questpics/bumblezone/bumble_shield.png"
 			rotation: 0.0d
 			width: 1.9675324675324677d
@@ -129,7 +125,6 @@
 		}
 		{
 			height: 3.0d
-			hover: ["Stinger Spear"]
 			image: "atm:textures/questpics/bumblezone/bumble_spear.png"
 			rotation: 0.0d
 			width: 1.9177215189873418d
@@ -137,6 +132,7 @@
 			y: 6.0d
 		}
 		{
+			click: "#5C040191740A53C8"
 			dependency: "5C040191740A53C8"
 			height: 2.5d
 			hover: ["Your Highness"]
@@ -147,6 +143,7 @@
 			y: -1.0d
 		}
 		{
+			click: "#30C12E249F7E2D52"
 			dependency: "30C12E249F7E2D52"
 			height: 2.5d
 			hover: ["Cell Maze"]
@@ -157,6 +154,7 @@
 			y: -1.0d
 		}
 		{
+			click: "#46FEF3DB6A5B52A0"
 			dependency: "46FEF3DB6A5B52A0"
 			height: 2.5d
 			hover: ["Battle Cubes"]
@@ -167,6 +165,7 @@
 			y: -4.0d
 		}
 		{
+			click: "#4040BFCD4BE56621"
 			dependency: "4040BFCD4BE56621"
 			height: 2.5d
 			hover: ["Honitel"]
@@ -182,7 +181,7 @@
 			rotation: 0.0d
 			width: 8.88d
 			x: 10.0d
-			y: 10.5d
+			y: 11.5d
 		}
 	]
 	order_index: 0
@@ -2394,24 +2393,13 @@
 			id: "339384ADC9CDB944"
 			rewards: [
 				{
-					id: "6F8D9F7C9FF2C778"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					exclude_from_claim_all: true
-					id: "061FC79E3B38476A"
+					id: "1CD69CB77EC91434"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "5BDED7FD4352E84F"
-					table_id: 6996929552069196378L
-					type: "random"
-				}
-				{
-					id: "5F446208359AB624"
+					id: "76797ACB8C807338"
 					type: "xp"
 					xp: 100
 				}
@@ -2428,24 +2416,13 @@
 			id: "29DF2E7D0402284F"
 			rewards: [
 				{
-					id: "20440ECF3CF27874"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					exclude_from_claim_all: true
-					id: "4CED145F48A52DCE"
+					id: "3C7A52CD0D8DB12D"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "234436F65998F72B"
-					table_id: 6996929552069196378L
-					type: "random"
-				}
-				{
-					id: "2EDD804B758FD104"
+					id: "5673BAADE5D49850"
 					type: "xp"
 					xp: 100
 				}
@@ -2462,24 +2439,13 @@
 			id: "262B307753106817"
 			rewards: [
 				{
-					id: "5491F3465F24EAE3"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					exclude_from_claim_all: true
-					id: "4342C730ACDB4460"
+					id: "5D61D8E433208DDE"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "236842E5D0528C89"
-					table_id: 6996929552069196378L
-					type: "random"
-				}
-				{
-					id: "0C7C2DC2B1BF8B3A"
+					id: "7FF90C797C33F008"
 					type: "xp"
 					xp: 100
 				}
@@ -2496,24 +2462,13 @@
 			id: "497FA7CA04117995"
 			rewards: [
 				{
-					id: "3613485A5B723237"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					exclude_from_claim_all: true
-					id: "2681C61DB55AD795"
+					id: "15F4A8A0B2AF832A"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "071DE9FF4C34B24A"
-					table_id: 6996929552069196378L
-					type: "random"
-				}
-				{
-					id: "67C3C9D50BFD3733"
+					id: "0C7C26E9190FBE09"
 					type: "xp"
 					xp: 100
 				}
@@ -2530,24 +2485,13 @@
 			id: "206918773B0BD7A0"
 			rewards: [
 				{
-					id: "58C96164CFFD2267"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					exclude_from_claim_all: true
-					id: "37B9BFE6C1F07FE6"
+					id: "7254218557497D45"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "6AA3F06E439FBB0F"
-					table_id: 6996929552069196378L
-					type: "random"
-				}
-				{
-					id: "424E7F4B2F921A09"
+					id: "5BE6FB9A22A2A096"
 					type: "xp"
 					xp: 100
 				}
@@ -2762,24 +2706,13 @@
 			id: "772C65FC32AECD6B"
 			rewards: [
 				{
-					id: "1E53F4039D6D0273"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					exclude_from_claim_all: true
-					id: "63727103EAF5ABD2"
+					id: "5D96017D12A6CDA7"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "720164BD1BB9D046"
-					table_id: 6996929552069196378L
-					type: "random"
-				}
-				{
-					id: "501ECDDCDC9B321F"
+					id: "28774998F0D984BE"
 					type: "xp"
 					xp: 100
 				}
@@ -2796,24 +2729,13 @@
 			id: "786073B57C901DB7"
 			rewards: [
 				{
-					id: "504482B7CCA5F16B"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					exclude_from_claim_all: true
-					id: "6311539FFC94D744"
+					id: "08B6CFD7F65BD8B3"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "78967048FF0F29FE"
-					table_id: 6996929552069196378L
-					type: "random"
-				}
-				{
-					id: "356ABEAC82A8BAF7"
+					id: "3361489ACBC03B28"
 					type: "xp"
 					xp: 100
 				}
@@ -2830,24 +2752,13 @@
 			id: "29E9E361DDC8041B"
 			rewards: [
 				{
-					id: "3B2462BBBD797659"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					exclude_from_claim_all: true
-					id: "59F7108FCA372E80"
+					id: "0EE79BC0348A3332"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "6FB8CC51E5C29968"
-					table_id: 6996929552069196378L
-					type: "random"
-				}
-				{
-					id: "14A73B1C6C79FC84"
+					id: "2EAC1CD7B428DA60"
 					type: "xp"
 					xp: 100
 				}
@@ -2864,24 +2775,13 @@
 			id: "26988330D3E5BF95"
 			rewards: [
 				{
-					id: "418B3CCC2F790D41"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-				{
 					exclude_from_claim_all: true
-					id: "1F0CB1DD04F31BA4"
+					id: "2D9D2D67C83BCB97"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "578B5E3FACF385B5"
-					table_id: 6996929552069196378L
-					type: "random"
-				}
-				{
-					id: "43B630932A726177"
+					id: "095B3A3C30BCA0F2"
 					type: "xp"
 					xp: 100
 				}
@@ -2917,6 +2817,7 @@
 		{
 			id: "565EBD340595EAC4"
 			invisible: true
+			optional: true
 			shape: "circle"
 			tasks: [
 				{

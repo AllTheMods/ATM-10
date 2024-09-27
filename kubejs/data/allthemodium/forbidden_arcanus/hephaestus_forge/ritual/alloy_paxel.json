@@ -1,0 +1,70 @@
+{
+  "essences": {
+    "aureal": 100,
+    "blood": 2000,
+    "souls": 64,
+    "experience": 600
+  },
+  "forge_tier": 5,
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "allthemodium:alloy_sword"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:terrastomp_prism"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "allthemodium:alloy_pick"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:sea_prism"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "allthemodium:alloy_axe"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:whirlwind_prism"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "allthemodium:alloy_shovel"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:smelter_prism"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:upgrade_tier",
+  "main_ingredient": {
+    "item": "mysticalagradditions:awakened_supremium_paxel"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "allthemodium:alloy_paxel"
+    }
+  }
+}
