@@ -7,6 +7,24 @@
 		id: "mekanism:steel_casing"
 	}
 	id: "23983F4DC524B14B"
+	images: [
+		{
+			height: 1.0d
+			image: "mekanismtools:item/osmium/paxel"
+			rotation: 0.0d
+			width: 1.0d
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "mekanismtools:item/steel/paxel"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.5d
+			y: 0.5d
+		}
+	]
 	order_index: 4
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -2506,7 +2524,7 @@
 			]
 			tasks: [{
 				id: "4B60ACBCC3B46D1D"
-				item: { count: 1, id: "mekanism:enriched_carbon" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(mekanism:enriched)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -4.0d

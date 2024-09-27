@@ -150,7 +150,7 @@
 			y: -3.5d
 		}
 	]
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -159,15 +159,18 @@
 			min_width: 250
 			rewards: [
 				{
-					id: "2DA556E49F7B831C"
+					id: "07F174CC0D3B88BE"
 					item: {
+						components: {
+							"patchouli:book": "pneumaticcraft:book"
+						}
 						count: 1
 						id: "patchouli:guide_book"
 					}
 					type: "item"
 				}
 				{
-					id: "3124670994EF9DD3"
+					id: "00DFACF2EA53C761"
 					type: "xp"
 					xp: 10
 				}
@@ -269,8 +272,8 @@
 				}
 			]
 			tasks: [{
-				id: "57F436FA3B132D61"
-				item: { components: { "productivebees:bee_type": "productivebees:compressed_iron" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				id: "49A8320F9EA7F4BD"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mysticalagriculture:compressed_iron_seeds)component(fuzzy:{\"minecraft:attribute_modifiers\":{modifiers:[]},\"minecraft:enchantments\":{levels:{}},\"minecraft:lore\":[],\"minecraft:max_stack_size\":64,\"minecraft:rarity\":\"common\",\"minecraft:repair_cost\":0,\"productivebees:bee_type\":\"productivebees:compressed_iron\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -2968,11 +2971,8 @@
 				}
 			]
 			tasks: [{
-				icon: {
-					id: "pneumaticcraft:advanced_liquid_compressor"
-				}
-				id: "46164653473C8CDB"
-				item: { }
+				id: "543363DDF4118114"
+				item: { count: 1, id: "pneumaticcraft:advanced_liquid_compressor" }
 				type: "item"
 			}]
 			x: 31.5d
@@ -3091,33 +3091,11 @@
 					xp: 50
 				}
 			]
-			tasks: [
-				{
-					id: "0B54EDC9E21F2E77"
-					item: { count: 1, id: "pneumaticcraft:logistics_frame_active_provider" }
-					type: "item"
-				}
-				{
-					id: "4DB090710FA67B9B"
-					item: { count: 1, id: "pneumaticcraft:logistics_frame_default_storage" }
-					type: "item"
-				}
-				{
-					id: "572734985EA279B9"
-					item: { count: 1, id: "pneumaticcraft:logistics_frame_passive_provider" }
-					type: "item"
-				}
-				{
-					id: "77AF636EA995AFBF"
-					item: { count: 1, id: "pneumaticcraft:logistics_frame_requester" }
-					type: "item"
-				}
-				{
-					id: "3ED1395DF80510C2"
-					item: { count: 1, id: "pneumaticcraft:logistics_frame_storage" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0B54EDC9E21F2E77"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(pneumaticcraft:logistics_frames)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: 7.0d
 			y: -1.5d
 		}
