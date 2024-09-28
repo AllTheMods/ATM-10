@@ -89,7 +89,7 @@
 			y: 5.5d
 		}
 	]
-	order_index: 4
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -114,9 +114,9 @@
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
-				dimension: "minecraft:overworld"
-				id: "10530DFA0CA7F735"
-				type: "dimension"
+				id: "0AB9BED5E5144BAC"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
 			}]
 			x: -7.0d
 			y: 1.0d
@@ -261,9 +261,9 @@
 					type: "item"
 				}
 				{
-					id: "3466B0FB2B4BF332"
-					type: "xp_levels"
-					xp_levels: 10
+					id: "27481CE73F1BF1AA"
+					type: "xp"
+					xp: 500
 				}
 			]
 			shape: "octagon"
@@ -338,8 +338,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(allthemodium:allthemodium_helmet)item(allthemodium:allthemodium_chestplate)item(allthemodium:allthemodium_leggings)item(allthemodium:allthemodium_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.0d
+			x: -1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -361,8 +361,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(allthearcanistgear:allthemodium_hat)item(allthearcanistgear:allthemodium_robes)item(allthearcanistgear:allthemodium_leggings)item(allthearcanistgear:allthemodium_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 2.5d
+			x: -2.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -384,8 +384,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(allthewizardgear:allthemodium_mage_helmet)item(allthewizardgear:allthemodium_mage_chestplate)item(allthewizardgear:allthemodium_mage_leggings)item(allthewizardgear:allthemodium_mage_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 3.5d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -471,8 +471,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(allthemodium:unobtainium_helmet)item(allthemodium:unobtainium_chestplate)item(allthemodium:unobtainium_leggings)item(allthemodium:unobtainium_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 3.0d
+			x: 7.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -494,8 +494,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(allthearcanistgear:unobtainium_hat)item(allthearcanistgear:unobtainium_robes)item(allthearcanistgear:unobtainium_leggings)item(allthearcanistgear:unobtainium_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 2.5d
+			x: 6.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -532,8 +532,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(allthewizardgear:unobtainium_mage_helmet)item(allthewizardgear:unobtainium_mage_chestplate)item(allthewizardgear:unobtainium_mage_leggings)item(allthewizardgear:unobtainium_mage_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 3.5d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -633,8 +633,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(allthemodium:vibranium_helmet)item(allthemodium:vibranium_chestplate)item(allthemodium:vibranium_leggings)item(allthemodium:vibranium_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.0d
+			x: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -656,8 +656,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(allthearcanistgear:vibranium_hat)item(allthearcanistgear:vibranium_robes)item(allthearcanistgear:vibranium_leggings)item(allthearcanistgear:vibranium_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.5d
+			x: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -679,8 +679,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(allthewizardgear:vibranium_mage_helmet)item(allthewizardgear:vibranium_mage_chestplate)item(allthewizardgear:vibranium_mage_leggings)item(allthewizardgear:vibranium_mage_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 3.5d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -844,9 +844,9 @@
 					type: "item"
 				}
 				{
-					id: "280F88768521F751"
-					type: "xp_levels"
-					xp_levels: 15
+					id: "54D2407AEED3700B"
+					type: "xp"
+					xp: 500
 				}
 			]
 			shape: "octagon"
@@ -894,9 +894,9 @@
 					type: "item"
 				}
 				{
-					id: "17D873117A13A599"
-					type: "xp_levels"
-					xp_levels: 20
+					id: "2223E6465CAFEB4E"
+					type: "xp"
+					xp: 500
 				}
 			]
 			shape: "octagon"
@@ -1130,7 +1130,6 @@
 				"5B46B5BF4ADB2BE9"
 				"0484051446480B54"
 			]
-			hide_dependency_lines: true
 			id: "19E356E67EF17E4A"
 			rewards: [
 				{
@@ -1151,11 +1150,6 @@
 						id: "minecraft:enchanted_book"
 					}
 					type: "item"
-				}
-				{
-					id: "1BDF498D7B901D31"
-					type: "xp_levels"
-					xp_levels: 100
 				}
 				{
 					id: "13F10E6674E04F28"
@@ -1181,6 +1175,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "4B31F8AD16CED146"
+					type: "xp"
+					xp: 5000
+				}
 			]
 			size: 2.0d
 			tasks: [{
@@ -1198,6 +1197,7 @@
 				"2CF6EA138B53CE1B"
 			]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "0484051446480B54"
 			rewards: [
 				{
@@ -1216,9 +1216,9 @@
 					type: "item"
 				}
 				{
-					id: "48A9CBD7B1981118"
-					type: "xp_levels"
-					xp_levels: 25
+					id: "2D755E4E94CA64F7"
+					type: "xp"
+					xp: 1000
 				}
 			]
 			tasks: [{
@@ -1236,6 +1236,7 @@
 				"2CF6EA138B53CE1B"
 			]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "5B46B5BF4ADB2BE9"
 			rewards: [
 				{
@@ -1254,9 +1255,9 @@
 					type: "item"
 				}
 				{
-					id: "5DFC1F287B6D5C10"
-					type: "xp_levels"
-					xp_levels: 25
+					id: "74D6850971463026"
+					type: "xp"
+					xp: 1000
 				}
 			]
 			tasks: [{
@@ -1274,6 +1275,7 @@
 				"2CF6EA138B53CE1B"
 			]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "2D8026E10FBA7A72"
 			rewards: [
 				{
@@ -1292,9 +1294,9 @@
 					type: "item"
 				}
 				{
-					id: "672B889302C527DF"
-					type: "xp_levels"
-					xp_levels: 25
+					id: "6AE3FC0F5CFABB8F"
+					type: "xp"
+					xp: 1000
 				}
 			]
 			tasks: [{
@@ -1312,6 +1314,7 @@
 				"2CF6EA138B53CE1B"
 			]
 			hide_dependency_lines: true
+			hide_dependent_lines: true
 			id: "4E28B67554CBDAB7"
 			rewards: [
 				{
@@ -1330,9 +1333,9 @@
 					type: "item"
 				}
 				{
-					id: "27A86A5F18D5D6BB"
-					type: "xp_levels"
-					xp_levels: 25
+					id: "4C768580D58E5C81"
+					type: "xp"
+					xp: 1000
 				}
 			]
 			tasks: [{
@@ -1376,8 +1379,8 @@
 					type: "checkmark"
 				}
 			]
-			x: -8.5d
-			y: 1.0d
+			x: -7.0d
+			y: -0.5d
 		}
 	]
 }
