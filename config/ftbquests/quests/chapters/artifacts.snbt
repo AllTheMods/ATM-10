@@ -58,7 +58,6 @@
 		}
 		{
 			height: 5.0d
-			hover: ["Vampire Hunter"]
 			image: "atm:textures/questpics/artifacts/artifacts_cowboy.png"
 			rotation: 0.0d
 			width: 2.67203513909224d
@@ -67,7 +66,6 @@
 		}
 		{
 			height: 5.0d
-			hover: ["Pool Party"]
 			image: "atm:textures/questpics/artifacts/artifacts_pool.png"
 			rotation: 0.0d
 			width: 2.5428571428571427d
@@ -76,7 +74,6 @@
 		}
 		{
 			height: 5.0d
-			hover: ["'Flame on!'"]
 			image: "atm:textures/questpics/artifacts/artifacts_flameon.png"
 			rotation: 0.0d
 			width: 2.8474320241691844d
@@ -85,7 +82,6 @@
 		}
 		{
 			height: 5.0d
-			hover: ["Feeling Lucky"]
 			image: "atm:textures/questpics/artifacts/artifacts_lucky.png"
 			rotation: 0.0d
 			width: 2.0412517780938835d
@@ -94,7 +90,6 @@
 		}
 		{
 			height: 5.0d
-			hover: ["Hungry Hungry Hippo"]
 			image: "atm:textures/questpics/artifacts/artifacts_hungry.png"
 			rotation: 0.0d
 			width: 2.766990291262136d
@@ -955,6 +950,7 @@
 		{
 			id: "5FD6A738754F6013"
 			invisible: true
+			optional: true
 			shape: "circle"
 			tasks: [
 				{
@@ -966,8 +962,8 @@
 					type: "checkmark"
 				}
 			]
-			x: -1.5d
-			y: 0.25d
+			x: 0.0d
+			y: 3.5d
 		}
 	]
 }

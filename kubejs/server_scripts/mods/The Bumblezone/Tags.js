@@ -7,6 +7,8 @@ ServerEvents.tags('item', event => {
     saplings.forEach(sapling => {
         if (!blacklist.test(sapling)) event.add('the_bumblezone:tradeable_saplings', sapling)
     })
+
+    event.add('megacells:compression_overrides', 'the_bumblezone:pollen_puff')
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

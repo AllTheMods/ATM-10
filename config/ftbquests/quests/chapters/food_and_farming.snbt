@@ -514,6 +514,7 @@
 		}
 		{
 			dependencies: ["58D5BD3106BFD94A"]
+			hide_dependent_lines: true
 			id: "28C9EDBF6607E180"
 			rewards: [
 				{
@@ -543,7 +544,6 @@
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
-			hide_dependency_lines: true
 			id: "58495CFBF4F20CE9"
 			rewards: [
 				{
@@ -578,7 +578,6 @@
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
-			hide_dependency_lines: true
 			id: "37CA6F9F0226F10E"
 			rewards: [
 				{
@@ -613,7 +612,6 @@
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
-			hide_dependency_lines: true
 			id: "47764EFC822E462A"
 			rewards: [
 				{
@@ -646,6 +644,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["28C9EDBF6607E180"]
 			id: "1515B32545F51266"
 			rewards: [
 				{
@@ -679,6 +678,7 @@
 			y: 9.0d
 		}
 		{
+			dependencies: ["28C9EDBF6607E180"]
 			id: "13AFCD3B6F62B986"
 			optional: true
 			rewards: [
@@ -892,7 +892,6 @@
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
-			hide_dependency_lines: true
 			id: "0EFF1AA37772156B"
 			rewards: [
 				{
@@ -927,6 +926,7 @@
 		{
 			id: "55C4824DAD905512"
 			invisible: true
+			optional: true
 			shape: "circle"
 			tasks: [
 				{
@@ -942,6 +942,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["28C9EDBF6607E180"]
 			icon: {
 				id: "cookingforblockheads:white_fridge"
 			}
@@ -956,6 +957,7 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["28C9EDBF6607E180"]
 			id: "2786D5AC19163524"
 			shape: "diamond"
 			tasks: [{
