@@ -1,0 +1,71 @@
+{
+  "essences": {
+    "aureal": 100,
+    "blood": 1000,
+    "souls": 32,
+    "experience": 300
+  },
+  "forge_tier": 4,
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "allthemodium:unobtainium_vibranium_alloy_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:golden_dragon_scale"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:eternal_stella"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "allthemodium:unobtainium_allthemodium_alloy_ingot"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:aquatic_dragon_scale"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "allthemodium:vibranium_allthemodium_alloy_ingot"
+      }
+    },
+
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:eternal_stella"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:silver_dragon_scale"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:upgrade_tier",
+  "main_ingredient": {
+    "item": "allthemodium:unobtainium_sword"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "count": 1,
+      "id": "allthemodium:alloy_sword"
+    }
+  }
+}

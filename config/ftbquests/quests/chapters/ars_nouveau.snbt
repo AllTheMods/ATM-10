@@ -73,15 +73,15 @@
 			optional: true
 			rewards: [
 				{
-					id: "22B119559A52946B"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
-					id: "6CA21B6830480044"
+					id: "3937788697A2A094"
 					table_id: 6355363837720688303L
 					type: "random"
+				}
+				{
+					id: "0A2A8ADBFB7D3828"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -99,15 +99,15 @@
 			optional: true
 			rewards: [
 				{
-					id: "7C3798EEF0DEE37A"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
-					id: "41C28308E0470F62"
+					id: "411B83D75226D368"
 					table_id: 6355363837720688303L
 					type: "random"
+				}
+				{
+					id: "4DD1A50F018D5EC0"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -1102,12 +1102,19 @@
 		{
 			dependencies: ["5C3FF43CF16BCF30"]
 			id: "18A2FBE2D4133FA2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7CFB1284B3FE6479"
-				table_id: 6355363837720688303L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7CFB1284B3FE6479"
+					table_id: 6355363837720688303L
+					type: "random"
+				}
+				{
+					id: "5C7CE380EAAF0968"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "square"
 			size: 1.25d
 			tasks: [{
@@ -1486,15 +1493,15 @@
 			optional: true
 			rewards: [
 				{
-					id: "18182E45D9D566B6"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
-					id: "2680C9D6562A2E58"
+					id: "6FA10B82F09D900A"
 					table_id: 6355363837720688303L
 					type: "random"
+				}
+				{
+					id: "3C542BCBB13A6106"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -1698,15 +1705,15 @@
 					type: "item"
 				}
 				{
-					id: "58396A9107780E32"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
 					id: "0459059AD960B1D2"
 					table_id: 6355363837720688303L
 					type: "random"
+				}
+				{
+					id: "4B8FC2E08BAFB246"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "gear"
@@ -1725,15 +1732,15 @@
 			optional: true
 			rewards: [
 				{
-					id: "04BCFFB6D4AD92CB"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
-					id: "1331AA16009D034C"
+					id: "2AB9A08ECAFBCC43"
 					table_id: 6355363837720688303L
 					type: "random"
+				}
+				{
+					id: "0C3987653ED07B00"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -1751,15 +1758,15 @@
 			optional: true
 			rewards: [
 				{
-					id: "4DE309615BEBDDDD"
-					type: "xp"
-					xp: 100
-				}
-				{
 					exclude_from_claim_all: true
-					id: "3A4AE950170AC96F"
+					id: "13C73AF6172DDAE1"
 					table_id: 6355363837720688303L
 					type: "random"
+				}
+				{
+					id: "46750BDDB81976FF"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -2745,6 +2752,7 @@
 		{
 			id: "36CDA39C23D3AA2B"
 			invisible: true
+			optional: true
 			shape: "circle"
 			tasks: [
 				{

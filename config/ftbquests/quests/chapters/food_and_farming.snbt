@@ -338,22 +338,32 @@
 		{
 			dependencies: ["1D2EF12FD7FDD217"]
 			id: "1697CC05D08B388D"
-			rewards: [{
-				id: "7A84544510F1D4EE"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [
+			rewards: [
 				{
-					count: 10L
-					id: "264B00606E5BE374"
-					item: { count: 1, id: "minecraft:feather" }
+					id: "634BD1679C226F35"
+					item: {
+						count: 1
+						id: "croptopia:fried_chicken"
+					}
 					type: "item"
 				}
 				{
-					count: 3L
-					id: "763031D0E9F0850C"
-					item: { count: 1, id: "minecraft:chicken" }
+					id: "551DA8AE385BDF12"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					count: 10L
+					id: "611CC8005150DC9B"
+					item: { count: 10, id: "minecraft:feather" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "0CAC6A36AC5A6708"
+					item: { count: 5, id: "minecraft:chicken" }
 					type: "item"
 				}
 			]
@@ -514,6 +524,7 @@
 		}
 		{
 			dependencies: ["58D5BD3106BFD94A"]
+			hide_dependent_lines: true
 			id: "28C9EDBF6607E180"
 			rewards: [
 				{
@@ -543,7 +554,6 @@
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
-			hide_dependency_lines: true
 			id: "58495CFBF4F20CE9"
 			rewards: [
 				{
@@ -578,7 +588,6 @@
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
-			hide_dependency_lines: true
 			id: "37CA6F9F0226F10E"
 			rewards: [
 				{
@@ -613,7 +622,6 @@
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
-			hide_dependency_lines: true
 			id: "47764EFC822E462A"
 			rewards: [
 				{
@@ -646,6 +654,7 @@
 			y: 9.5d
 		}
 		{
+			dependencies: ["28C9EDBF6607E180"]
 			id: "1515B32545F51266"
 			rewards: [
 				{
@@ -679,6 +688,7 @@
 			y: 9.0d
 		}
 		{
+			dependencies: ["28C9EDBF6607E180"]
 			id: "13AFCD3B6F62B986"
 			optional: true
 			rewards: [
@@ -892,7 +902,6 @@
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
-			hide_dependency_lines: true
 			id: "0EFF1AA37772156B"
 			rewards: [
 				{
@@ -927,6 +936,7 @@
 		{
 			id: "55C4824DAD905512"
 			invisible: true
+			optional: true
 			shape: "circle"
 			tasks: [
 				{
@@ -942,6 +952,7 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["28C9EDBF6607E180"]
 			icon: {
 				id: "cookingforblockheads:white_fridge"
 			}
@@ -956,6 +967,7 @@
 			y: 8.5d
 		}
 		{
+			dependencies: ["28C9EDBF6607E180"]
 			id: "2786D5AC19163524"
 			shape: "diamond"
 			tasks: [{

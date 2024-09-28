@@ -49,16 +49,19 @@
 			id: "13AA91D39A2CABF2"
 			rewards: [
 				{
-					id: "1FE7DFBA702FBE64"
+					id: "4610119044965C5E"
 					item: {
+						components: {
+							"patchouli:book": "productivebees:guide"
+						}
 						count: 1
-						id: "minecraft:dandelion"
+						id: "patchouli:guide_book"
 					}
 					type: "item"
 				}
 				{
 					count: 2
-					id: "0E5E0909FA99CEA5"
+					id: "0AE2E25299E34686"
 					item: {
 						count: 1
 						id: "minecraft:honeycomb"
@@ -67,16 +70,16 @@
 					type: "item"
 				}
 				{
-					id: "718C0C8ABA0F5052"
+					id: "457DF4959789C87B"
 					item: {
 						count: 1
 						id: "minecraft:honey_bottle"
 					}
-					random_bonus: 2
+					random_bonus: 1
 					type: "item"
 				}
 				{
-					id: "3319486407EA74B6"
+					id: "0A0319CE4228B04F"
 					type: "xp"
 					xp: 10
 				}
@@ -180,6 +183,9 @@
 		{
 			dependencies: ["120BDCB70AD352AC"]
 			hide_until_deps_visible: false
+			icon: {
+				id: "productivebees:oak_wood_nest"
+			}
 			id: "00A17728A387B426"
 			rewards: [{
 				id: "13A6FF7C32F2A33F"
@@ -215,6 +221,21 @@
 				{
 					id: "3328BB57F3B6FDDA"
 					item: { count: 1, id: "productivebees:acacia_wood_nest" }
+					type: "item"
+				}
+				{
+					id: "4FD70C36F826C6BC"
+					item: { count: 1, id: "productivebees:cherry_wood_nest" }
+					type: "item"
+				}
+				{
+					id: "3BF14A39B47C5F30"
+					item: { count: 1, id: "productivebees:mangrove_wood_nest" }
+					type: "item"
+				}
+				{
+					id: "1BAAF6971C603E1D"
+					item: { count: 1, id: "productivebees:bamboo_hive" }
 					type: "item"
 				}
 			]
@@ -513,13 +534,7 @@
 				xp: 100
 			}]
 			tasks: [{
-				icon: {
-					components: {
-						"productivebees:bee_type": "productivebees:crystalline"
-					}
-					id: "productivebees:configurable_honeycomb"
-				}
-				id: "6E21D8349EEB2A11"
+				id: "36B877E6A5FD8C90"
 				item: { components: { "productivebees:bee_type": "productivebees:crystalline" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "fuzzy"
 				type: "item"
@@ -622,13 +637,7 @@
 				xp: 100
 			}]
 			tasks: [{
-				icon: {
-					components: {
-						"productivebees:bee_type": "productivebees:gold"
-					}
-					id: "productivebees:configurable_honeycomb"
-				}
-				id: "59665D8476656B9F"
+				id: "599E5DE4CA93A7B6"
 				item: { components: { "productivebees:bee_type": "productivebees:gold" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "fuzzy"
 				type: "item"
@@ -1138,13 +1147,7 @@
 				}
 			]
 			tasks: [{
-				icon: {
-					components: {
-						"productivebees:bee_type": "productivebees:ender"
-					}
-					id: "productivebees:configurable_honeycomb"
-				}
-				id: "43515B26807F9E01"
+				id: "5D77A872C811C243"
 				item: { components: { "productivebees:bee_type": "productivebees:ender" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "fuzzy"
 				type: "item"
@@ -1197,7 +1200,7 @@
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
 			icon: {
-				id: "minecraft:wooden_pickaxe"
+				id: "croptopia:chocolate"
 			}
 			id: "486060882E507CF1"
 			rewards: [{
@@ -2433,13 +2436,7 @@
 				xp: 100
 			}]
 			tasks: [{
-				icon: {
-					components: {
-						"productivebees:bee_type": "productivebees:magmatic"
-					}
-					id: "productivebees:configurable_honeycomb"
-				}
-				id: "3202568944BCBF77"
+				id: "5DF426CE218104D9"
 				item: { components: { "productivebees:bee_type": "productivebees:magmatic" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "fuzzy"
 				type: "item"
@@ -2619,13 +2616,7 @@
 				xp: 100
 			}]
 			tasks: [{
-				icon: {
-					components: {
-						"productivebees:bee_type": "productivebees:fluix"
-					}
-					id: "productivebees:configurable_honeycomb"
-				}
-				id: "669BC6911F43DB26"
+				id: "61136A10D8F7D8C8"
 				item: { components: { "productivebees:bee_type": "productivebees:fluix" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "fuzzy"
 				type: "item"
@@ -2684,13 +2675,7 @@
 				xp: 100
 			}]
 			tasks: [{
-				icon: {
-					components: {
-						"productivebees:bee_type": "productivebees:peridot"
-					}
-					id: "productivebees:configurable_honeycomb"
-				}
-				id: "3DE2AD0FFF364185"
+				id: "4D9AA95B45196C7B"
 				item: { components: { "productivebees:bee_type": "productivebees:peridot" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "fuzzy"
 				type: "item"
@@ -3144,6 +3129,7 @@
 		{
 			id: "0A11725B41AB45F6"
 			invisible: true
+			optional: true
 			shape: "circle"
 			tasks: [
 				{

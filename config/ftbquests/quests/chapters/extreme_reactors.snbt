@@ -12,8 +12,8 @@
 			height: 1.0d
 			image: "atm:textures/questpics/extremereactors/title2.png"
 			rotation: 0.0d
-			width: 10.156626506024097d
-			x: -12.5d
+			width: 10.15d
+			x: -12.0d
 			y: 12.0d
 		}
 		{
@@ -21,8 +21,8 @@
 			image: "atm:textures/questpics/extremereactors/titleimage2.png"
 			order: -1
 			rotation: 0.0d
-			width: 10.4903078677309d
-			x: -12.5d
+			width: 10.5d
+			x: -12.0d
 			y: 9.0d
 		}
 		{
@@ -588,6 +588,7 @@
 				"67AFCBCE7AAC3089"
 				"186731580B14F9D2"
 				"775D176081DD75F5"
+				"2D592669F4D41793"
 			]
 			icon: {
 				id: "bigreactors:basic_turbinechargingportfe"
@@ -645,8 +646,8 @@
 				item: { count: 1, id: "bigreactors:basic_turbineglass" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 4.0d
+			x: 0.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4415C9F8DA2D7E68"]
@@ -657,12 +658,13 @@
 				type: "xp"
 				xp: 10
 			}]
+			shape: "diamond"
 			tasks: [{
 				id: "2905C4386A407A1E"
 				type: "checkmark"
 			}]
 			x: -0.5d
-			y: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["354086C858E10154"]
@@ -1069,6 +1071,7 @@
 		{
 			id: "19DE6EBEA8219E8E"
 			invisible: true
+			optional: true
 			shape: "circle"
 			tasks: [
 				{

@@ -1,0 +1,71 @@
+{
+  "forge_tier": 5,
+  "essences": {
+    "aureal": 82,
+    "blood": 1000,
+    "experience": 0,
+    "souls": 4
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:stellarite_piece"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "forbidden_arcanus:eternal_stella"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "allthemodium:vibranium_block"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:stellarite_piece"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "allthemodium:vibranium_block"
+      }
+    },
+    {
+      "amount": 2,
+      "ingredient": {
+        "item": "forbidden_arcanus:eternal_stella"
+      }
+    }
+  ],
+  "magic_circle": "forbidden_arcanus:create_item",
+  "main_ingredient": {
+    "type": "productivebees:component",
+    "components": {
+      "minecraft:entity_data": {
+        "type": "productivebees:netherite",
+        "id": "productivebees:configurable_bee"
+      }
+    },
+    "items": "productivebees:spawn_egg_configurable_bee"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "components": {
+        "minecraft:entity_data": {
+          "type": "productivebees:stellarite",
+          "id": "productivebees:configurable_bee"
+        }
+      },
+      "count": 1,
+      "id": "productivebees:spawn_egg_configurable_bee"
+    }
+  }
+}

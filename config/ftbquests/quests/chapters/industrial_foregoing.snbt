@@ -4,7 +4,7 @@
 	filename: "industrial_foregoing"
 	group: "2B51AC12041E3F89"
 	icon: {
-		id: "industrialforegoing:plastic"
+		id: "industrialforegoing:dryrubber"
 	}
 	id: "193F91842D2ED7D9"
 	images: [
@@ -258,6 +258,14 @@
 			width: 24.0d
 			x: 12.5d
 			y: -5.0d
+		}
+		{
+			height: 0.3d
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 22.5d
+			y: 5.9d
 		}
 	]
 	order_index: 2
@@ -1137,19 +1145,19 @@
 			]
 			tasks: [
 				{
+					count: 4L
 					id: "21285C89735F67FC"
 					item: { count: 1, id: "industrialforegoing:laser_drill" }
 					type: "item"
 				}
 				{
-					id: "7EB10ED3F8398FF4"
-					item: { count: 1, id: "industrialforegoing:fluid_laser_base" }
+					id: "39B89950413E16A6"
+					item: { count: 1, id: "industrialforegoing:ore_laser_base" }
 					type: "item"
 				}
 				{
-					count: 4L
-					id: "39B89950413E16A6"
-					item: { count: 1, id: "industrialforegoing:ore_laser_base" }
+					id: "6F5B80FDEECCE7BC"
+					item: { count: 1, id: "industrialforegoing:fluid_laser_base" }
 					type: "item"
 				}
 			]
@@ -1264,7 +1272,7 @@
 				item: { count: 1, id: "industrialforegoing:mycelial_explosive" }
 				type: "item"
 			}]
-			x: 18.5d
+			x: 22.5d
 			y: 6.5d
 		}
 		{
@@ -1300,7 +1308,7 @@
 				item: { count: 1, id: "industrialforegoing:mycelial_crimed" }
 				type: "item"
 			}]
-			x: 22.5d
+			x: 18.5d
 			y: 6.5d
 		}
 		{
@@ -1792,6 +1800,7 @@
 		{
 			id: "2F69010E1FA2787D"
 			invisible: true
+			optional: true
 			shape: "circle"
 			tasks: [
 				{
