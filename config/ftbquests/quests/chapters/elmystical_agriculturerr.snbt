@@ -115,7 +115,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 2.0d
-			y: -4.5d
+			y: -5.0d
 		}
 		{
 			height: 1.0d
@@ -443,7 +443,7 @@
 			rotation: 0.0d
 			width: 1.25d
 			x: 17.0d
-			y: 10.5d
+			y: 11.5d
 		}
 		{
 			height: 1.25d
@@ -502,6 +502,22 @@
 			width: 1.0d
 			x: -5.5d
 			y: 9.0d
+		}
+		{
+			height: 0.3d
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 24.75d
+			y: 2.1d
+		}
+		{
+			height: 0.3d
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 23.0d
+			y: 3.9d
 		}
 	]
 	order_index: 3
@@ -1569,7 +1585,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 8.5d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -2706,7 +2722,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 7.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -4516,7 +4532,7 @@
 				item: { count: 1, id: "mysticalagradditions:insanium_apple" }
 				type: "item"
 			}]
-			x: 22.0d
+			x: 21.0d
 			y: 4.5d
 		}
 		{
@@ -5064,6 +5080,28 @@
 			}]
 			x: 24.75d
 			y: 3.0d
+		}
+		{
+			dependencies: ["202B1F54D3F06DAB"]
+			id: "552335ED867D6EFA"
+			tasks: [{
+				id: "3519BA3E872F1239"
+				item: { count: 1, id: "mysticalagradditions:insanium_coal_block" }
+				type: "item"
+			}]
+			x: 23.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7A103577EAE7B3F1"]
+			id: "3C9F5EB59D72AC90"
+			tasks: [{
+				id: "042BEC73CB140FA8"
+				item: { count: 1, id: "mysticalagriculture:awakened_supremium_ingot_block" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 10.0d
 		}
 	]
 }

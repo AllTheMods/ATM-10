@@ -39,14 +39,18 @@ ServerEvents.recipes(allthemods => {
     I: 'allthecompressed:diamond_block_4x'
   }).id('allthemods:allthetweaks/dimensional_seed')
 
-    // Withers Compass
-    allthemods.shaped('allthetweaks:withers_compass', ['DCD', 'ABA', 'DED'], {
-      A: 'minecraft:bedrock',
-      B: 'industrialforegoing:wither_builder',
-      C: 'deeperdarker:heart_of_the_deep',
-      D: 'minecraft:bedrock',
-      E: 'minecraft:bedrock'
-    }).id('allthemods:allthetweaks/withers_compass')
+  // Withers Compass
+  allthemods.shaped('allthetweaks:withers_compass', ['ABC', 'DEF', 'GHI'], {
+    A: 'productivebees:configurable_comb[productivebees:bee_type="productivebees:withered"]',
+    B: 'industrialforegoing:wither_builder',
+    C: 'deeperdarker:heart_of_the_deep',
+    D: 'generatorgalore:netherstar_generator_64x',
+    E: 'irons_spellbooks:scroll[irons_spellbooks:spell_container={data:[{id:"irons_spellbooks:wither_skull",index:0,level:10,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}]',
+    F: 'mysticalagriculture:witherproof_bricks',
+    G: 'minecraft:tipped_arrow[potion_contents={potion:"apothic_attributes:long_wither"}]',
+    H: 'ars_nouveau:glyph_wither',
+    I: 'mysticalagradditions:nether_star_crux'
+  }).id('allthemods:allthetweaks/withers_compass')
 
   // Philosopher's Fuel
   allthemods.shaped('allthetweaks:philosophers_fuel', ['ABC', 'DEF', 'GHI'], {
@@ -64,12 +68,12 @@ ServerEvents.recipes(allthemods => {
  // Nexium Emitter
  allthemods.shaped('allthetweaks:nexium_emitter', ['A B', ' CF', 'GED'], {
   A: 'powah:player_transmitter_nitro',
-  B: 'minecraft:bedrock',
+  B: 'ae2wtlib:wireless_universal_terminal[ae2wtlib:has_pattern_encoding_terminal={},ae2wtlib:has_ex_pattern_access_terminal={},ae2:energy_capacity=6400000.0d,ae2wtlib:has_crafting_terminal={},ae2wtlib:has_pattern_access_terminal={},ae2:stored_energy=6400000.0d,ae2wtlib:current_terminal="pattern_encoding"]',
   F: [Item.of('mekanism:module_gravitational_modulating_unit')],
   D: 'modern_industrialization:large_advanced_motor',
   E: 'ae2:singularity',
   C: 'advanced_ae:quantum_multi_threader',
-  G: 'minecraft:bedrock'
+  G: 'aeinfinitybooster:infinity_card'
 }).id('allthemods:allthetweaks/nexium_emitter')
 
 // Oblivion Shard
@@ -86,7 +90,7 @@ allthemods.shaped('allthetweaks:pulsating_black_hole', ['ABC', 'DEF', 'GHI'], {
   B: 'ae2:quantum_ring'  ,
   C: 'pneumaticcraft:micromissiles' ,
   D: 'justdirethings:paradoxmachine',
-  E: 'advanced_ae:shattered_singularity',
+  E: 'pocketstorage:psu_4',
   F: 'occultism:stable_wormhole',
   G: 'rootsclassic:crystal_staff',
   H: 'industrialforegoing:mycelial_explosive',
