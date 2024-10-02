@@ -195,7 +195,7 @@ ServerEvents.recipes(allthemods => {
                 ],
                 result: Item.of('powah:energy_cell_creative').toJson()
             }
-        ).id('allthemods:energizing/mekanism_creative_energy_cube')
+        ).id('allthemods:energizing/powah_creative_energy_cell')
 
     //PNC
 
