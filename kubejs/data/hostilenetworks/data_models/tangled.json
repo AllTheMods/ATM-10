@@ -1,0 +1,30 @@
+{
+    "entity": "eternal_starlight:tangled",
+    "name": {
+        "translate": "entity.eternal_starlight.tangled",
+        "color": "#79929C"
+    },
+    "display": {},
+    "sim_cost": 512,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:starlight_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.eternal_starlight.tangled",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:bone",
+            "count": 24
+        },
+        {
+            "id": "minecraft:vine",
+            "count": 32
+        },
+        {
+            "id": "eternal_starlight:tangled_skull",
+            "count": 4
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "entity": "eternal_starlight:luminaris",
+    "name": {
+        "translate": "entity.eternal_starlight.luminaris",
+        "color": "#5D5A8F"
+    },
+    "display": {
+        "y_offset": 0.2,
+        "scale": 2.0
+    },
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:starlight_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.eternal_starlight.luminaris",
+    "fabricator_drops": [
+        {
+            "id": "eternal_starlight:luminaris",
+            "count": 32
+        }
+    ]
+}

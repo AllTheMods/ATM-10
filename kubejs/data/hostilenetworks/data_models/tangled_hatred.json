@@ -1,0 +1,35 @@
+{
+    "entity": "eternal_starlight:tangled_hatred",
+    "name": {
+        "translate": "entity.eternal_starlight.tangled_hatred",
+        "color": "#434685"
+    },
+    "display": {
+        "y_offset": -0.1,
+        "scale": 0.15
+    },
+    "sim_cost": 2048,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:starlight_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.eternal_starlight.tangled_hatred",
+    "fabricator_drops": [
+        {
+            "id": "eternal_starlight:tenacious_vine",
+            "count": 16
+        },
+        {
+            "id": "eternal_starlight:trapped_soul",
+            "count": 4
+        }
+    ],
+    "data_per_kill": {
+        "faulty": 3,
+        "basic": 12,
+        "advanced": 30,
+        "superior": 45
+    }
+}

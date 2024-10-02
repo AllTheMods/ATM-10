@@ -1,0 +1,27 @@
+{
+    "entity": "eternal_starlight:lonestar_skeleton",
+    "variants": [],
+    "name": {
+        "translate": "entity.eternal_starlight.lonestar_skeleton",
+        "color": "#999C99"
+    },
+    "display": {},
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:starlight_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.eternal_starlight.lonestar_skeleton",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:bone",
+            "count": 24
+        },
+        {
+            "id": "eternal_starlight:swamp_silver_nugget",
+            "count": 16
+        }
+    ]
+}
