@@ -1,12 +1,12 @@
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
-ServerEvents.recipes(event => {
+ServerEvents.recipes(allthemods => {
 
 
     //AE2
 
-        event.custom(
+        allthemods.custom(
             {
                 type: 'powah:energizing',
                 energy: 2147483647,
@@ -26,7 +26,7 @@ ServerEvents.recipes(event => {
 
     //Ars Noveau
 
-        event.recipes.kubejs.shaped('ars_nouveau:creative_spell_book', 
+        allthemods.recipes.kubejs.shaped('ars_nouveau:creative_spell_book', 
             [
                 'BSG', 
                 'GGE', 
@@ -41,7 +41,7 @@ ServerEvents.recipes(event => {
             }
         )
 
-        event.custom(
+        allthemods.custom(
             {
                 type: 'ars_nouveau:enchanting_apparatus',
                 keepNbtOfReagent: false,
@@ -68,7 +68,7 @@ ServerEvents.recipes(event => {
 
     //Integrated Dynamics
         
-        event.custom(
+        allthemods.custom(
             {
                 type: 'powah:energizing',
                 energy: 2147483647,
@@ -88,7 +88,7 @@ ServerEvents.recipes(event => {
 
     //Iron Jetpacks
 
-        event.recipes.kubejs.shaped('ironjetpacks:cell[ironjetpacks:jetpack_id="ironjetpacks:creative",rarity="epic"]',
+        allthemods.recipes.kubejs.shaped('ironjetpacks:cell[ironjetpacks:jetpack_id="ironjetpacks:creative",rarity="epic"]',
             [
                 ' A ',
                 'BCB',
@@ -101,7 +101,7 @@ ServerEvents.recipes(event => {
             }
         ).id('allthemods:ironjetpacks_creative_cell')
 
-        event.recipes.kubejs.shaped('ironjetpacks:thruster[ironjetpacks:jetpack_id="ironjetpacks:creative",rarity="epic"]',
+        allthemods.recipes.kubejs.shaped('ironjetpacks:thruster[ironjetpacks:jetpack_id="ironjetpacks:creative",rarity="epic"]',
             [
                 'ABA',
                 'BCB',
@@ -115,7 +115,7 @@ ServerEvents.recipes(event => {
             }
         ).id('allthemods:ironjetpacks_creative_thruster')
 
-        event.recipes.kubejs.shaped('ironjetpacks:capacitor[ironjetpacks:jetpack_id="ironjetpacks:creative",rarity="epic"]',
+        allthemods.recipes.kubejs.shaped('ironjetpacks:capacitor[ironjetpacks:jetpack_id="ironjetpacks:creative",rarity="epic"]',
             [
                 'ACA',
                 'BDB',
@@ -130,7 +130,7 @@ ServerEvents.recipes(event => {
             }
         ).id('allthemods:ironjetpacks_creative_capacator')            
             
-        event.recipes.kubejs.shaped('ironjetpacks:jetpack[ironjetpacks:jetpack_id="ironjetpacks:creative",rarity="epic"]',
+        allthemods.recipes.kubejs.shaped('ironjetpacks:jetpack[ironjetpacks:jetpack_id="ironjetpacks:creative",rarity="epic"]',
             [
                 'ACA',
                 'BFB',
@@ -148,7 +148,7 @@ ServerEvents.recipes(event => {
 
     //Mekanism
 
-        event.recipes.kubejs.shaped('mekanism:creative_energy_cube',
+        allthemods.recipes.kubejs.shaped('mekanism:creative_energy_cube',
             [
                 'ATA', 
                 'UCU', 
@@ -162,7 +162,7 @@ ServerEvents.recipes(event => {
             }
         ).id('allthemods:mekanism/creative_energy_cube')
 
-        event.custom(
+        allthemods.custom(
             {
                 type: 'powah:energizing',
                 energy: 2147483647,
@@ -182,7 +182,7 @@ ServerEvents.recipes(event => {
     
     //Powah
 
-        event.custom(
+        allthemods.custom(
             {
                 type: 'powah:energizing',
                 energy: 2147483647,
@@ -200,7 +200,7 @@ ServerEvents.recipes(event => {
     //PNC
 
         let pressureChamber = (psi, output, outcount, inputs) => {
-            event.custom(
+            allthemods.custom(
                 {
                     type: 'pneumaticcraft:pressure_chamber',
                     inputs: 
