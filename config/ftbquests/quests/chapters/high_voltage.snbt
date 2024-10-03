@@ -1,4 +1,5 @@
 {
+	autofocus_id: "1C3CFF1773584AFF"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "high_voltage"
@@ -9,16 +10,619 @@
 	id: "38F13226839824AB"
 	order_index: 3
 	quest_links: [ ]
-	quests: [{
-		id: "1C3CFF1773584AFF"
-		shape: "square"
-		size: 2.0d
-		tasks: [{
-			id: "1DE87A18FEAD62AC"
-			item: { count: 1, id: "modern_industrialization:turbo_machine_hull" }
-			type: "item"
-		}]
-		x: -2.0d
-		y: 1.0d
-	}]
+	quests: [
+		{
+			dependencies: ["304CF7B7FEFE0627"]
+			id: "1C3CFF1773584AFF"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "1DE87A18FEAD62AC"
+				item: { count: 1, id: "modern_industrialization:turbo_machine_hull" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1C3CFF1773584AFF"]
+			id: "28A44DBC96442AAE"
+			tasks: [{
+				id: "77E6BA874FCC26B4"
+				item: { count: 1, id: "modern_industrialization:hv_steam_turbine" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1C3CFF1773584AFF"]
+			id: "2309BDEF9866CECF"
+			tasks: [{
+				id: "6BEACDA13FDA0589"
+				item: { count: 1, id: "modern_industrialization:hv_storage_unit" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1C3CFF1773584AFF"]
+			id: "58D7931E7CD48D74"
+			tasks: [{
+				id: "5FCEADE826946D2B"
+				item: { count: 1, id: "extended_industrialization:hv_solar_panel" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1C3CFF1773584AFF"]
+			id: "1D027194B0D3717E"
+			tasks: [{
+				id: "5A7FF9372BD4E3D5"
+				item: { count: 1, id: "modern_industrialization:hv_diesel_generator" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1C3CFF1773584AFF"]
+			id: "56D6E61F1AD571BE"
+			tasks: [
+				{
+					id: "2B351C3988C9FA63"
+					item: { count: 1, id: "modern_industrialization:kanthal_cable" }
+					type: "item"
+				}
+				{
+					id: "6CF906B87F4FF853"
+					item: { count: 1, id: "modern_industrialization:aluminum_cable" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["56D6E61F1AD571BE"]
+			id: "40C78F45144894F7"
+			tasks: [{
+				id: "0BB86BD7430F3DE1"
+				item: { count: 1, id: "moderndynamics:hv_cable" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1C3CFF1773584AFF"]
+			id: "2D8A4274F3704E51"
+			shape: "square"
+			tasks: [{
+				id: "30F59765966624E9"
+				item: { count: 1, id: "modern_industrialization:titanium_hot_ingot" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2D8A4274F3704E51"]
+			id: "4CD8281673E23C64"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "1B48CFD5AB84BFD2"
+				item: { count: 1, id: "modern_industrialization:titanium_ingot" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4CD8281673E23C64"]
+			id: "13E97EBB8E3915DB"
+			tasks: [{
+				id: "65F3FF19147E0F96"
+				item: { count: 1, id: "modern_industrialization:titanium_barrel" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4CD8281673E23C64"]
+			id: "467CD0D3D2599AA5"
+			tasks: [{
+				id: "504D99CB1175933B"
+				item: { count: 1, id: "modern_industrialization:titanium_tank" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1C3CFF1773584AFF"]
+			id: "2BAE9874287C2962"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "184282FF38EF430D"
+				item: { count: 1, id: "modern_industrialization:tungsten_dust" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.2d
+		}
+		{
+			dependencies: ["2BAE9874287C2962"]
+			id: "5B5144101D381BD9"
+			shape: "square"
+			tasks: [{
+				id: "2055AAABC8AD3ADE"
+				item: { count: 1, id: "modern_industrialization:tungsten_nugget" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1C3CFF1773584AFF"]
+			id: "0E963BF46D6D021D"
+			tasks: [{
+				id: "1B50BBF4E3B79514"
+				item: { count: 1, id: "extended_industrialization:universal_transformer" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4CD8281673E23C64"
+				"5B5144101D381BD9"
+			]
+			id: "3A004A5E2D04CC8A"
+			shape: "square"
+			tasks: [{
+				id: "4F3754C9A1A48E89"
+				item: { count: 1, id: "modern_industrialization:mixed_ingot_blastproof" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5A724EDB60066288"
+				"3A004A5E2D04CC8A"
+			]
+			icon: {
+				id: "modern_industrialization:implosion_compressor"
+			}
+			id: "02BEC774EAE83FC1"
+			shape: "square"
+			tasks: [
+				{
+					id: "342B4003B2669E07"
+					item: { count: 1, id: "modern_industrialization:implosion_compressor" }
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "60E827928B681E9A"
+					item: { count: 14, id: "modern_industrialization:solid_titanium_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "67201DF452431F87"
+					item: { count: 16, id: "modern_industrialization:blastproof_casing" }
+					type: "item"
+				}
+				{
+					id: "3E30453437736520"
+					item: { count: 1, id: "modern_industrialization:steel_item_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "5556D728BBF0FA6E"
+					item: { count: 1, id: "modern_industrialization:steel_item_output_hatch" }
+					type: "item"
+				}
+				{
+					id: "58CE6755B3F33000"
+					item: { count: 1, id: "modern_industrialization:hv_energy_output_hatch" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4CD8281673E23C64"]
+			icon: {
+				id: "modern_industrialization:pressurizer"
+			}
+			id: "4CCA4E9F59988796"
+			tasks: [
+				{
+					id: "27005A1BCBF0062F"
+					item: { count: 1, id: "modern_industrialization:pressurizer" }
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "25CD0E1CFCD082F5"
+					item: { count: 7, id: "modern_industrialization:solid_titanium_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "6F1973CB2605C24C"
+					item: { count: 9, id: "modern_industrialization:titanium_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					id: "2BA729B0CE3A51B0"
+					item: { count: 1, id: "modern_industrialization:steel_fluid_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "10FE57F113D16D00"
+					item: { count: 1, id: "modern_industrialization:steel_fluid_output_hatch" }
+					type: "item"
+				}
+				{
+					id: "0861E5D9126C6552"
+					item: { count: 1, id: "modern_industrialization:hv_energy_input_hatch" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CCA4E9F59988796"]
+			icon: {
+				id: "modern_industrialization:high_pressure_large_steam_boiler"
+			}
+			id: "7485DB152FF4AFFF"
+			tasks: [
+				{
+					id: "542932C99AA585F3"
+					item: { count: 1, id: "modern_industrialization:high_pressure_large_steam_boiler" }
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "1888089CA2653EB7"
+					item: { count: 24, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7A5B53A94CA14569"
+					item: { count: 2, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "57859A25A60D1106"
+					item: { count: 6, id: "modern_industrialization:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "17598D9AB32C9C1C"
+					item: { count: 1, id: "modern_industrialization:steel_fluid_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "11A81AA24AC2F1CE"
+					item: { count: 1, id: "modern_industrialization:steel_item_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "4FDFA00D893968A2"
+					item: { count: 1, id: "modern_industrialization:steel_fluid_output_hatch" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7485DB152FF4AFFF"]
+			icon: {
+				id: "modern_industrialization:heat_exchanger"
+			}
+			id: "13EF579BBE566CC8"
+			tasks: [
+				{
+					id: "2094A9C66C04DB1D"
+					item: { count: 1, id: "modern_industrialization:heat_exchanger" }
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "789A4FA0F254B1AD"
+					item: { count: 22, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "5BBF0370C52E6F9B"
+					item: { count: 9, id: "modern_industrialization:frostproof_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "7CB86E38A5A6D822"
+					item: { count: 9, id: "modern_industrialization:heatproof_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0DD2120DFA4C2056"
+					item: { count: 2, id: "modern_industrialization:advanced_fluid_input_hatch" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5DF957F6E3F4CE67"
+					item: { count: 2, id: "modern_industrialization:advanced_fluid_output_hatch" }
+					type: "item"
+				}
+				{
+					id: "2477206E85646779"
+					item: { count: 1, id: "modern_industrialization:hv_energy_input_hatch" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["13EF579BBE566CC8"]
+			icon: {
+				id: "modern_industrialization:large_steam_turbine"
+			}
+			id: "253F516B732C1A6C"
+			tasks: [
+				{
+					id: "2BD72B91013CEE4E"
+					item: { count: 1, id: "modern_industrialization:large_steam_turbine" }
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "1C0E73F2A05C32C0"
+					item: { count: 15, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "12573BF2024D2D7C"
+					item: { count: 18, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					id: "13B38DB84FBD7EC9"
+					item: { count: 1, id: "modern_industrialization:steel_fluid_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "71EE2DA104F12329"
+					item: { count: 1, id: "modern_industrialization:hv_energy_output_hatch" }
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4CD8281673E23C64"]
+			id: "597BE3BF51874127"
+			shape: "square"
+			tasks: [
+				{
+					fluid: {
+						amount: 1000
+						id: "modern_industrialization:platinum_sulfuric_solution"
+					}
+					id: "5588869E2FEB3E4E"
+					type: "fluid"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "modern_industrialization:purified_platinum_sulfuric_solution"
+					}
+					id: "09C3A53DB8856841"
+					type: "fluid"
+				}
+			]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["597BE3BF51874127"]
+			id: "3AAE249991B3CC3E"
+			shape: "square"
+			tasks: [{
+				id: "6FC6C3D65ECF2D05"
+				item: { count: 1, id: "modern_industrialization:iridium_tiny_dust" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["597BE3BF51874127"]
+			id: "15EFAE21ACFE5474"
+			shape: "square"
+			tasks: [{
+				id: "694092DA24B54F93"
+				item: { count: 1, id: "modern_industrialization:platinum_tiny_dust" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3AAE249991B3CC3E"]
+			id: "044C160A316EED81"
+			shape: "square"
+			tasks: [{
+				id: "04928FEA0E5833AD"
+				item: { count: 1, id: "modern_industrialization:monocrystalline_silicon" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"15EFAE21ACFE5474"
+				"79DB5FB0E21E1EB6"
+			]
+			id: "513ADAEFA5BA7C18"
+			shape: "square"
+			tasks: [
+				{
+					id: "47FDEC616927E1AB"
+					item: { count: 1, id: "modern_industrialization:memory_management_unit" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "27A6D022792B99F4"
+					item: { count: 2, id: "modern_industrialization:random_access_memory" }
+					type: "item"
+				}
+				{
+					id: "57DCC816018DCF42"
+					item: { count: 1, id: "modern_industrialization:arithmetic_logic_unit" }
+					type: "item"
+				}
+				{
+					id: "6782ADF926263681"
+					item: { count: 1, id: "modern_industrialization:processing_unit_board" }
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["044C160A316EED81"]
+			id: "79DB5FB0E21E1EB6"
+			shape: "square"
+			tasks: [{
+				id: "1F912340BC0726F8"
+				item: { count: 1, id: "modern_industrialization:silicon_wafer" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["513ADAEFA5BA7C18"]
+			id: "40D373563C48CF2C"
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "05FC8AA1DFF5E88A"
+				item: { count: 1, id: "modern_industrialization:processing_unit" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["40D373563C48CF2C"]
+			id: "396019C00578727F"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "101B1F93382BA327"
+				item: { count: 1, id: "modern_industrialization:highly_advanced_machine_hull" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["40D373563C48CF2C"]
+			id: "3A2E42F9AF1BAEEF"
+			shape: "square"
+			tasks: [
+				{
+					id: "364F2F67D4F6A657"
+					item: { count: 1, id: "modern_industrialization:large_advanced_motor" }
+					type: "item"
+				}
+				{
+					id: "6107BF76FCA8583A"
+					item: { count: 1, id: "modern_industrialization:large_advanced_pump" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["40D373563C48CF2C"]
+			icon: {
+				id: "modern_industrialization:high_pressure_advanced_large_steam_boiler"
+			}
+			id: "6D532106CA37FFD7"
+			tasks: [
+				{
+					id: "0666879125EFCB46"
+					item: { count: 1, id: "modern_industrialization:high_pressure_advanced_large_steam_boiler" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7F05FC0CD9A10D89"
+					item: { count: 1, id: "modern_industrialization:clean_stainless_steel_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "492B075A3E5AECAF"
+					item: { count: 1, id: "modern_industrialization:stainless_steel_machine_casing_pipe" }
+					type: "item"
+				}
+			]
+			x: 16.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3A2E42F9AF1BAEEF"]
+			id: "3EEE20CE83F5605A"
+			tasks: [{
+				id: "22E74973761924DA"
+				item: { count: 1, id: "modern_industrialization:highly_advanced_upgrade" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3A2E42F9AF1BAEEF"]
+			id: "63B1CDCBE721E978"
+			tasks: [{
+				count: 4L
+				id: "7564EC0D071C7A0F"
+				item: { count: 4, id: "modern_industrialization:titanium_drill" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: 1.0d
+		}
+	]
 }

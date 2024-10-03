@@ -15,14 +15,14 @@
 			dependencies: ["0ACB37910E548051"]
 			id: "1ACB752D5B2918AC"
 			shape: "square"
-			size: 2.0d
+			size: 2.5d
 			tasks: [{
 				id: "12BDD84D380B0A1C"
 				item: { count: 1, id: "modern_industrialization:basic_machine_hull" }
 				type: "item"
 			}]
 			x: -4.5d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["1ACB752D5B2918AC"]
@@ -133,13 +133,14 @@
 		}
 		{
 			dependencies: ["1ACB752D5B2918AC"]
+			disable_toast: true
 			id: "744DBD0278DB63C5"
 			tasks: [{
 				id: "2DA2679B140EA319"
 				type: "checkmark"
 			}]
 			x: -7.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["744DBD0278DB63C5"]
@@ -151,7 +152,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: -1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["744DBD0278DB63C5"]
@@ -163,7 +164,7 @@
 				type: "item"
 			}]
 			x: -9.0d
-			y: 0.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["744DBD0278DB63C5"]
@@ -174,7 +175,7 @@
 				type: "item"
 			}]
 			x: -8.5d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["744DBD0278DB63C5"]
@@ -185,7 +186,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: 1.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1ACB752D5B2918AC"]
@@ -197,7 +198,7 @@
 				item: { count: 1, id: "modern_industrialization:assembler" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -4.5d
 			y: 2.0d
 		}
 		{
@@ -223,8 +224,8 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: 4.0d
+			x: -3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -345,7 +346,7 @@
 				item: { count: 1, id: "modern_industrialization:aluminum_tank" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: 0.0d
 		}
 		{
@@ -356,8 +357,8 @@
 				item: { count: 1, id: "modern_industrialization:aluminum_barrel" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -1.0d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["117D8289A46DB7A6"]
@@ -367,7 +368,7 @@
 				item: { count: 1, id: "modern_industrialization:configurable_tank" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: -1.0d
 		}
 		{
@@ -413,7 +414,7 @@
 			dependencies: ["7E802B23CE5E6FCD"]
 			id: "4977B58EDDCD4F8A"
 			shape: "square"
-			size: 2.0d
+			size: 1.5d
 			tasks: [{
 				id: "4FEBBFD051966338"
 				item: { count: 1, id: "modern_industrialization:electronic_circuit" }
@@ -430,7 +431,7 @@
 			]
 			id: "18387084EB439C3F"
 			shape: "square"
-			size: 2.0d
+			size: 2.5d
 			tasks: [{
 				id: "13D38202A04D9E6A"
 				item: { count: 1, id: "modern_industrialization:advanced_machine_hull" }
@@ -438,6 +439,40 @@
 			}]
 			x: 6.0d
 			y: 7.0d
+		}
+		{
+			dependencies: ["744DBD0278DB63C5"]
+			id: "2CA04CB8A4D35B7D"
+			tasks: [
+				{
+					id: "6E4F017CE16B4D6E"
+					item: { count: 1, id: "modern_industrialization:tin_cable" }
+					type: "item"
+				}
+				{
+					id: "0B86BEE47B30AB4D"
+					item: { count: 1, id: "modern_industrialization:copper_cable" }
+					type: "item"
+				}
+				{
+					id: "33A5C0B7DAAF47CD"
+					item: { count: 1, id: "modern_industrialization:silver_cable" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2CA04CB8A4D35B7D"]
+			id: "15A417990DD8649B"
+			tasks: [{
+				id: "6087B2331CFAAF9B"
+				item: { count: 1, id: "moderndynamics:lv_cable" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -3.0d
 		}
 	]
 }
