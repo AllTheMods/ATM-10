@@ -8,7 +8,7 @@ ServerEvents.recipes(allthemods => {
     D: 'occultism:soul_gem',
     A: 'occultism:spawn_egg/familiar_dragon',
     S: 'productivetrees:socotra_dragon_sapling',
-    N: 'hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ender_dragon",hostilenetworks:data=1254]',
+    N: 'hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ender_dragon",hostilenetworks:data=1255]',
     I: 'allthemodium:piglich_heart_block',
     B: 'productivebees:spawn_egg_configurable_bee[entity_data={id:"productivebees:configurable_bee",type:"productivebees:soul_lava"}]',
 	  G: 'productivebees:inactive_dragon_egg',
@@ -55,7 +55,7 @@ ServerEvents.recipes(allthemods => {
   // Philosopher's Fuel
   allthemods.shaped('allthetweaks:philosophers_fuel', ['ABC', 'DEF', 'GHI'], {
   A: 'generatorgalore:ender_generator',
-	B: 'ironfurnaces:million_furnace'  ,
+	B: 'ironfurnaces:rainbow_coal'  ,
 	C: 'bigreactors:insanite_block' ,
 	D: 'modern_industrialization:uranium_fuel_rod_quad',
 	E: 'mysticalagradditions:insanium_coal_block',
