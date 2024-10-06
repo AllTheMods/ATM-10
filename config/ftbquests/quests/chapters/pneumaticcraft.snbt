@@ -1170,12 +1170,12 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "5C63A7558B4298D7"
+					id: "02389758D41D7164"
 					table_id: 6490686651709956289L
 					type: "random"
 				}
 				{
-					id: "0505A60CF9F4E302"
+					id: "2C05085284DD2F17"
 					type: "xp"
 					xp: 100
 				}
@@ -1294,12 +1294,6 @@
 			id: "52D3697F1F5625C7"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "0722AF424D9C4527"
-					table_id: 6490686651709956289L
-					type: "choice"
-				}
-				{
 					id: "119CCFB2CF3621CC"
 					item: {
 						count: 1
@@ -1308,7 +1302,13 @@
 					type: "item"
 				}
 				{
-					id: "13EA99979FB2E1BB"
+					exclude_from_claim_all: true
+					id: "5DCF7351148E525B"
+					table_id: 6490686651709956289L
+					type: "random"
+				}
+				{
+					id: "604C488A66A53743"
 					type: "xp"
 					xp: 100
 				}
@@ -2758,11 +2758,8 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
-				icon: {
-					id: "pneumaticcraft:jumping_upgrade_3"
-				}
-				id: "73EDD4B23EA0A44D"
-				item: { }
+				id: "21C4573B472834B7"
+				item: { count: 1, id: "pneumaticcraft:jumping_upgrade_3" }
 				type: "item"
 			}]
 			x: 24.0d
@@ -3213,12 +3210,12 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "787509E62BEDA738"
-					table_id: 6269051860797387566L
+					id: "7BEA55CFD7F45BE2"
+					table_id: 6490686651709956289L
 					type: "random"
 				}
 				{
-					id: "50643821973E7E0A"
+					id: "5138F6585245B489"
 					type: "xp"
 					xp: 100
 				}

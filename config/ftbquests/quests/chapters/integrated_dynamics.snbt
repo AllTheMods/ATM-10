@@ -13,7 +13,7 @@
 			image: "atm:textures/questpics/id_title.png"
 			rotation: 0.0d
 			width: 6.0d
-			x: 1.0d
+			x: 1.5d
 			y: -2.5d
 		}
 		{
@@ -21,7 +21,7 @@
 			image: "integrateddynamics:item/labeller"
 			rotation: 0.0d
 			width: 1.0d
-			x: 5.5d
+			x: 6.0d
 			y: -3.5d
 		}
 		{
@@ -29,7 +29,7 @@
 			image: "integratedterminals:part/terminal_storage"
 			rotation: 0.0d
 			width: 1.0d
-			x: 11.5d
+			x: 12.0d
 			y: 2.5d
 		}
 		{
@@ -37,7 +37,7 @@
 			image: "integratedcrafting:part/interface_crafting"
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.0d
+			x: 10.5d
 			y: 2.5d
 		}
 	]
@@ -75,7 +75,7 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(integrateddynamics:menril_logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -96,7 +96,7 @@
 				item: { count: 1, id: "integrateddynamics:crystalized_menril_chunk" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 0.0d
 		}
 		{
@@ -117,7 +117,7 @@
 				item: { count: 1, id: "integrateddynamics:cable" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: -1.5d
 		}
 		{
@@ -137,7 +137,7 @@
 				item: { count: 1, id: "integrateddynamics:variable" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.0d
 			y: -2.5d
 		}
 		{
@@ -153,7 +153,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(integratedtunnels:part_interface_energy)item(integratedtunnels:part_interface_item)item(integratedtunnels:part_interface_fluid))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -180,7 +180,7 @@
 				item: { count: 1, id: "integrateddynamics:variable_transformer_input" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: -2.5d
 		}
 		{
@@ -207,7 +207,7 @@
 				item: { count: 1, id: "integrateddynamics:variable_transformer_output" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: -2.5d
 		}
 		{
@@ -233,7 +233,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(integratedtunnels:part_importer_energy)item(integratedtunnels:part_importer_world_energy)item(integratedtunnels:part_importer_item)item(integratedtunnels:part_importer_world_item)item(integratedtunnels:part_importer_fluid)item(integratedtunnels:part_importer_world_fluid)item(integratedtunnels:part_importer_world_block))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: -1.5d
 		}
 		{
@@ -259,7 +259,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(integratedtunnels:part_exporter_energy)item(integratedtunnels:part_exporter_world_energy)item(integratedtunnels:part_exporter_item)item(integratedtunnels:part_exporter_world_item)item(integratedtunnels:part_exporter_fluid)item(integratedtunnels:part_exporter_world_fluid)item(integratedtunnels:part_exporter_world_block))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: -1.5d
 		}
 		{
@@ -288,7 +288,7 @@
 				id: "22CCBBC66D509404"
 				type: "checkmark"
 			}]
-			x: 8.0d
+			x: 8.5d
 			y: 0.0d
 		}
 		{
@@ -304,7 +304,7 @@
 				item: { count: 1, id: "integrateddynamics:logic_programmer" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 0.0d
 		}
 		{
@@ -321,7 +321,7 @@
 				item: { count: 1, id: "integrateddynamics:portable_logic_programmer" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -338,7 +338,7 @@
 				id: "2656ACB55A33D4FE"
 				type: "checkmark"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: 1.5d
 		}
 		{
@@ -355,7 +355,7 @@
 				id: "4209A06A392362DB"
 				type: "checkmark"
 			}]
-			x: 8.5d
+			x: 9.0d
 			y: 1.5d
 		}
 		{
@@ -372,7 +372,7 @@
 				item: { count: 1, id: "integratedcrafting:part_interface_crafting" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: 1.5d
 		}
 		{
@@ -390,7 +390,7 @@
 				item: { count: 1, id: "integrateddynamics:variablestore" }
 				type: "item"
 			}]
-			x: 10.0d
+			x: 10.5d
 			y: -1.875d
 		}
 		{
@@ -406,7 +406,7 @@
 				item: { count: 1, id: "integratedterminals:part_terminal_crafting_job" }
 				type: "item"
 			}]
-			x: 11.5d
+			x: 12.0d
 			y: 1.5d
 		}
 		{
@@ -422,7 +422,7 @@
 				item: { count: 1, id: "integrateddynamics:energy_battery" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 1.5d
 		}
 		{
@@ -439,7 +439,7 @@
 				item: { count: 1, id: "integrateddynamics:coal_generator" }
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.0d
 			y: 3.0d
 		}
 		{
@@ -457,7 +457,7 @@
 					type: "checkmark"
 				}
 			]
-			x: -4.0d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
@@ -479,7 +479,7 @@
 				item: { count: 1, id: "mysticalagriculture:menril_seeds" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 3.0d
 		}
 		{
@@ -499,7 +499,7 @@
 				item: { count: 1, id: "integrateddynamics:menril_berries" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: 1.5d
 		}
 		{
@@ -522,7 +522,7 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: 1.25d
 		}
 		{
@@ -538,7 +538,7 @@
 				item: { count: 1, id: "integrateddynamics:wrench" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 6.5d
 			y: -1.25d
 		}
 		{
@@ -558,7 +558,7 @@
 				item: { count: 1, id: "integrateddynamics:squeezer" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 0.0d
 		}
 		{
@@ -577,7 +577,7 @@
 				item: { count: 1, id: "integrateddynamics:drying_basin" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 0.0d
 		}
 		{
@@ -610,7 +610,7 @@
 				item: { count: 1, id: "integrateddynamics:mechanical_squeezer" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 2.0d
 			y: 1.5d
 		}
 		{
@@ -619,6 +619,7 @@
 				"62B4A37CFDECA679"
 			]
 			id: "7413BB136EF9D6C5"
+			optional: true
 			rewards: [
 				{
 					id: "7F6A2DA3103CDA6F"
@@ -642,7 +643,7 @@
 				item: { count: 1, id: "integrateddynamics:mechanical_drying_basin" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 3.5d
 			y: 1.5d
 		}
 	]
