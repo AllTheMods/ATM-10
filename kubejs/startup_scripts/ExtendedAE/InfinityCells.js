@@ -20,7 +20,7 @@ StartupEvents.registry('item', allthemods => {
     //Moss
     allthemods.create('moss_cell', 'custom_infinity_cell')
         .texture('kubejs:item/moss_cell')
-        .itemType('minecraft:moss')
+        .itemType('minecraft:moss_block')
         .cellModel('kubejs:block/drive/moss_cell');
     //Andesite
     allthemods.create('andesite_cell', 'custom_infinity_cell')
