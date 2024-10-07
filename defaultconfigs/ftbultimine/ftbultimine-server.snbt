@@ -1,0 +1,16 @@
+# Server-specific configuration for FTB Ultimine
+# This file is meant for server administrators to control user behaviour.
+# Changes in this file currently require a server restart to take effect
+
+{
+	misc: {
+		# These tags will be considered the same block when checking for blocks to Ultimine in shapeless mining mode
+		# Default: ["minecraft:base_stone_overworld", "c:*_ores", "forge:ores/*"]
+		merge_tags: [
+			"minecraft:base_stone_overworld"
+			"c:*_ores"
+			"c:ores/*"
+			"forge:ores/*"
+		]
+	}
+}
