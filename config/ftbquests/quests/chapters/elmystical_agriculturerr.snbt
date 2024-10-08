@@ -519,6 +519,22 @@
 			x: 23.0d
 			y: 3.9d
 		}
+		{
+			height: 1.0d
+			image: "alltheores:item/tin_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "alltheores:item/bronze_ingot"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: -4.5d
+		}
 	]
 	order_index: 3
 	progression_mode: "flexible"
@@ -2294,8 +2310,8 @@
 				item: { count: 1, id: "mysticalagriculture:tin_seeds" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.5d
+			x: 7.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -2378,8 +2394,8 @@
 				item: { count: 1, id: "mysticalagriculture:zinc_seeds" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -3.0d
+			x: 7.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -2752,8 +2768,8 @@
 				item: { count: 1, id: "mysticalagriculture:bronze_seeds" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.5d
+			x: 6.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -2808,8 +2824,8 @@
 				item: { count: 1, id: "mysticalagriculture:graphite_seeds" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -4.5d
+			x: 7.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -5105,6 +5121,18 @@
 			}]
 			x: 17.0d
 			y: 10.0d
+		}
+		{
+			dependencies: ["76071C22A73A2026"]
+			id: "4EB7245727EE1EF9"
+			shape: "diamond"
+			tasks: [{
+				id: "55548D67DDDBF318"
+				item: { count: 1, id: "mysticalagriculture:darkstone_seeds" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.5d
 		}
 	]
 }
