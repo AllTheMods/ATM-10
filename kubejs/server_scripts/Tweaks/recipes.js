@@ -46,6 +46,9 @@ ServerEvents.recipes(allthemods => {
             }
         )
     });
+    
+    // Remove The Raw Redstone Block Recipe As It Allows A Redstone Dupe
+    allthemods.remove({id: 'regions_unexplored:raw_redstone_block'});
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.

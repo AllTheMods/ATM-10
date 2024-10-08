@@ -1,0 +1,99 @@
+{
+    "entity": "eternal_starlight:lunar_monstrosity",
+    "name": {
+        "translate": "entity.eternal_starlight.lunar_monstrosity",
+        "color": "#433C7B"
+    },
+    "display": {
+        "y_offset": 0.25,
+        "scale": 0.5
+    },
+    "sim_cost": 8192,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:starlight_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.eternal_starlight.lunar_monstrosity",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:spectral_arrow",
+            "count": 64
+        },
+        {
+            "id": "minecraft:arrow",
+            "count": 32
+        },
+        {
+            "id": "eternal_starlight:amaramber_arrow",
+            "count": 32
+        },
+        {
+            "id": "eternal_starlight:tangled_skull",
+            "count": 24
+        },
+        {
+            "id": "minecraft:iron_ingot",
+            "count": 16
+        },
+        {
+            "id": "minecraft:gold_ingot",
+            "count": 12
+        },
+        {
+            "id": "eternal_starlight:seeking_eye",
+            "count": 16
+        },
+        {
+            "id": "minecraft:coal",
+            "count": 16
+        },
+        {
+            "id": "eternal_starlight:glacite_shard",
+            "count": 6
+        },
+        {
+            "id": "eternal_starlight:trapped_soul",
+            "count": 12
+        },
+        {
+            "id": "eternal_starlight:lunar_berries",
+            "count": 16
+        },
+        {
+            "id": "eternal_starlight:tenacious_petal",
+            "count": 16
+        },
+        {
+            "id": "eternal_starlight:swamp_silver_ingot",
+            "count": 6
+        },
+        {
+            "id": "eternal_starlight:aethersent_ingot",
+            "count": 3
+        },
+        {
+            "id": "eternal_starlight:thermal_springstone_ingot",
+            "count": 6
+        },
+        {
+            "id": "eternal_starlight:crescent_spear",
+            "count": 1
+        },
+        {
+            "id": "eternal_starlight:wand_of_teleportation",
+            "count": 1
+        },
+        {
+            "id": "eternal_starlight:moonring_bow",
+            "count": 1
+        }
+    ],
+    "data_per_kill": {
+        "faulty": 3,
+        "basic": 12,
+        "advanced": 30,
+        "superior": 45
+    }
+}

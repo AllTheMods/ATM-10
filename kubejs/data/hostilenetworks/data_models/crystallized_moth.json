@@ -1,0 +1,30 @@
+{
+    "entity": "eternal_starlight:crystallized_moth",
+    "name": {
+        "translate": "entity.eternal_starlight.crystallized_moth",
+        "color": "#966D81"
+    },
+    "display": {},
+    "sim_cost": 512,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:starlight_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.eternal_starlight.crystallized_moth",
+    "fabricator_drops": [
+        {
+            "id": "eternal_starlight:blue_starlight_crystal_shard",
+            "count": 16
+        },
+        {
+            "id": "eternal_starlight:red_starlight_crystal_shard",
+            "count": 16
+        },
+        {
+            "id": "eternal_starlight:shivering_gel",
+            "count": 4
+        }
+    ]
+}

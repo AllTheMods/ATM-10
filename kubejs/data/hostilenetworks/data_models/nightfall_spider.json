@@ -1,0 +1,26 @@
+{
+    "entity": "eternal_starlight:nightfall_spider",
+    "name": {
+        "translate": "entity.eternal_starlight.nightfall_spider",
+        "color": "#1B363D"
+    },
+    "display": {},
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:starlight_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.eternal_starlight.nightfall_spider",
+    "fabricator_drops": [
+        {
+            "id": "minecraft:string",
+            "count": 32
+        },
+        {
+            "id": "eternal_starlight:nightfall_spider_eye",
+            "count": 16
+        }
+    ]
+}

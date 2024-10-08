@@ -1,0 +1,30 @@
+{
+    "entity": "eternal_starlight:aurora_deer",
+    "name": {
+        "translate": "entity.eternal_starlight.aurora_deer",
+        "color": "#15413A"
+    },
+    "display": {},
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:starlight_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.eternal_starlight.aurora_deer",
+    "fabricator_drops": [
+        {
+            "id": "eternal_starlight:aurora_deer_steak",
+            "count": 24
+        },
+        {
+            "id": "minecraft:leather",
+            "count": 16
+        },
+        {
+            "id": "eternal_starlight:aurora_deer_antler",
+            "count": 1
+        }
+    ]
+}

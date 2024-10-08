@@ -1,0 +1,24 @@
+{
+    "entity": "eternal_starlight:thirst_walker",
+    "name": {
+        "translate": "entity.eternal_starlight.thirst_walker",
+        "color": "#5E5155"
+    },
+    "display": {
+        "scale": 0.9
+    },
+    "sim_cost": 512,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:starlight_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.eternal_starlight.thirst_walker",
+    "fabricator_drops": [
+        {
+            "id": "eternal_starlight:tooth_of_hunger",
+            "count": 8
+        }
+    ]
+}

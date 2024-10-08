@@ -1,0 +1,181 @@
+	#Blueprint and template settings
+	[item.blueprint]
+		#Allowed blueprint types. Valid values are: BOTH, BLUEPRINT, and TEMPLATE
+		#Allowed Values: BOTH, BLUEPRINT, TEMPLATE
+		typesAllowed = "BOTH"
+		#When joining a new world, should players be given a blueprint package?
+		#The blueprint package gives some blueprints when used (right-click).
+		#To change what is given, override the starter_blueprints loot table.
+		spawnWithStarterBlueprints = false
+
+	#Repair kit configs.
+	[item.repairKits]
+
+		#Capacity is the number of materials that can be stored (all types combined)
+		#Setting to zero would make the repair kit unusable.
+		[item.repairKits.capacity]
+			#Range: > 0
+			very_crude = 8
+			#Range: > 0
+			crude = 16
+			#Range: > 0
+			sturdy = 32
+			#Range: > 0
+			crimson = 48
+			#Range: > 0
+			azure = 64
+
+		#Efficiency is the percentage of the repair value used. Higher values mean less materials used.
+		#Setting to zero would make the repair kit unusable.
+		[item.repairKits.efficiency]
+			#Range: 0.0 ~ 10.0
+			very_crude = 0.30000001192092896
+			#Range: 0.0 ~ 10.0
+			crude = 0.3499999940395355
+			#Range: 0.0 ~ 10.0
+			sturdy = 0.4000000059604645
+			#Range: 0.0 ~ 10.0
+			crimson = 0.44999998807907104
+			#Range: 0.0 ~ 10.0
+			azure = 0.5
+			#Repair efficiency with loose materials if no repair kit is used.
+			#Setting a value greater than zero makes repair kits optional.
+			#Range: 0.0 ~ 10.0
+			missing = 0.0
+
+	[item.netherwood_charcoal]
+		#Burn time of netherwood charcoal, in ticks. Vanilla charcoal is 1600.
+		#Range: > 0
+		burn_time = 2400
+
+#Settings for nerfed items.
+#You can give items reduced durability to encourage use of Silent Gear tools.
+#Changes require a restart!
+[nerfedItems]
+	#Enable this feature. If false, the other settings in this group are ignored.
+	enabled = false
+	#Multiplies max durability by this value. If the result would be zero, a value of 1 is assigned.
+	#Range: 0.0 ~ 1.0
+	durabilityMultiplier = 0.05
+	#Multiplies harvest speed by this value.
+	#Range: 0.0 ~ 1.0
+	harvestSpeedMultiplier = 0.5
+	#These items will have reduced durability
+	items = ["diamond_axe", "iron_axe", "golden_axe", "stone_axe", "wooden_axe", "diamond_hoe", "iron_hoe", "golden_hoe", "stone_hoe", "wooden_hoe", "diamond_pickaxe", "iron_pickaxe", "golden_pickaxe", "stone_pickaxe", "wooden_pickaxe", "diamond_shovel", "iron_shovel", "golden_shovel", "stone_shovel", "wooden_shovel", "diamond_sword", "iron_sword", "golden_sword", "stone_sword", "wooden_sword"]
+
+#Settings for gear (tools, weapons, and armor)
+[gear]
+	#If set to false all conversion recipes (type 'silentgear:conversion') will be disabled
+	#An example of a conversion recipe is placing a vanilla stone pickaxe into a crafting grid to make a Silent Gear stone pickaxe
+	#Note: This also affects conversion recipes added by data packs and other mods
+	allowConversionRecipes = true
+	#Displays a message in chat, notifying the player that an item broke and hinting that it can be repaired
+	sendBrokenMessage = true
+	#How frequently gear will recalcute stats as damaged
+	#Higher numbers will cause more recalculations, allowing traits to update stat values more often
+	#Range: > 1
+	damageFactorLevels = 10
+	#If true, gear breaks permanently, like vanilla tools and armor
+	breaksPermanently = false
+
+	[gear.enchanting]
+		#Allow gear items to be enchanted by normal means (enchanting table, etc.)
+		#There may still be other ways to obtain enchantments on gear items, depending on what other mods are installed.
+		#Enchantments will not be removed from gear items that have them.
+		allowEnchanting = true
+		#Forcibly remove all enchantments from gear items. Enchantments added by traits will not be removed.
+		#Enchantments will be removed during stat recalculations, so items not in a player's inventory will not be affected.
+		forceRemoveEnchantments = false
+
+	[gear.prospector_hammer]
+		#The range in blocks the prospector hammer will search for blocks of interest
+		#Range: 0 ~ 64
+		range = 16
+
+	[gear.saw]
+		#Caps how far the saw can look for blocks when chopping down trees. Try decreasing this if you get stack overflow exceptions.
+		#Increasing this value is allowed, but not recommended unless you know what you are doing.
+		#Range: > 0
+		recursionDepth = 200
+
+	#Settings for AOE tools (hammer, excavator)
+	#Match modes determine what blocks are considered similar enough to be mined together.
+	#LOOSE: Break anything (you probably do not want this)
+	#MODERATE: Break anything with the same harvest level
+	#STRICT: Break only the exact same block
+	[gear.aoeTool]
+
+		[gear.aoeTool.matchMode]
+			#Match mode for most blocks
+			#Allowed Values: LOOSE, MODERATE, STRICT
+			standard = "MODERATE"
+			#Match mode for ore blocks (anything in the forge:ores block tag)
+			#Allowed Values: LOOSE, MODERATE, STRICT
+			ores = "STRICT"
+
+	[gear.repairs]
+		#Effectiveness of gear repairs done in an anvil. Set to 0 to disable anvil repairs.
+		#Range: 0.0 ~ 1.0
+		anvilEffectiveness = 0.5
+		#DEPRECATED! Use repair kit configs instead.
+		#Range: 0.0 ~ 1.0
+		quickEffectiveness = 0.35
+
+	[gear.upgrades]
+		#If true, upgrade parts may only be applied in an anvil.
+		applyInAnvilOnly = false
+		#If true, parts that are replaced (swapped out) of a gear item are not returned to the player and are instead destroyed.
+		#This applies to the recipe where placing a gear item and a part into a crafting grid will swap out the part.
+		destroySwappedParts = false
+
+#Settings for the material grader
+[materialGrader]
+	#The median (most common, average) grade that a material grader with tier 1 catalyst will produce.
+	#Higher tier catalysts will increase the median by one grade per tier past 1 (if 1 = C, 2 = B, etc.)
+	#Allowed Values: NONE, E, D, C, B, A, S, SS, SSS, MAX
+	median_grade = "C"
+	#The standard deviation of grades the material grader will produce.
+	#Grades are normally distributed, with the median grade being at the center of the bell curve.
+	#Larger numbers will make both higher and lower grades more common.
+	#Extremely large values may completely break the curve, yielding mostly the lowest and highest grades.
+	#Range: 0.0 ~ 100.0
+	standardDeviation = 1.5
+
+#Settings for the salvager
+[salvager]
+
+	[salvager.partLossRate]
+		#Minimum rate of part loss when salvaging items. 0 = no loss, 1 = complete loss.
+		#Rate depends on remaining durability.
+		#Range: 0.0 ~ 1.0
+		min = 0.0
+		#Maximum rate of part loss when salvaging items. 0 = no loss, 1 = complete loss.
+		#Rate depends on remaining durability.
+		#Range: 0.0 ~ 1.0
+		max = 0.5
+
+#Settings for the starlight charger
+[starlightCharger]
+	#The rate at which the starlight charger gathers energy during the night
+	#Range: > 0
+	chargeRate = 50
+	#The maximum amount of energy the starlight charger can store
+	#Range: > 0
+	maxCharge = 1000000
+
+	[debug.logging]
+		#Log additional information related to loading and synchronizing gear parts and traits.
+		#This might help track down more obscure issues.
+		extraPartAndTraitInfo = false
+		#Log stat calculations in the debug.log every time gear stats are recalculated
+		stats = true
+		#Log information on construction of gear and part models, as well as textures they attempt to load.
+		#This is intended to help find and fix rare issues that some users are experiencing.
+		modelAndTexture = false
+		#Log details about certain features being adding to biomes and other world generator details
+		worldGen = true
+
+[other]
+	#Shows a "WIP" (work in progress) label in the tooltip of certain unfinished, but usable blocks and items
+	#Set to false to remove the text from tooltips
+	showWipText = true

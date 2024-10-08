@@ -55,7 +55,7 @@ ServerEvents.recipes(allthemods => {
   // Philosopher's Fuel
   allthemods.shaped('allthetweaks:philosophers_fuel', ['ABC', 'DEF', 'GHI'], {
   A: 'generatorgalore:ender_generator',
-	B: 'ironfurnaces:million_furnace'  ,
+	B: 'ironfurnaces:rainbow_coal'  ,
 	C: 'bigreactors:insanite_block' ,
 	D: 'modern_industrialization:uranium_fuel_rod_quad',
 	E: 'mysticalagradditions:insanium_coal_block',

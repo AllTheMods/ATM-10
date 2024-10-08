@@ -1,0 +1,70 @@
+#In debug mode. Default: false
+debug = false
+#Remove bedrock at y=127 in Nether. Default: false
+removeBedrockOnNetherTop = false
+#Enable No Energy mode. Default: false
+noEnergy = false
+#[Fabric ONLY] 1E = ?FE. Default: 0.062500, Min: 0.0, Max: 10000000000.0
+rebornEnergyConversionCoefficient = 0.0625
+
+[enableMap]
+	#pump_module Default: true
+	pump_module = true
+	#exp_module Default: true
+	exp_module = true
+	#chunk_marker Default: true
+	chunk_marker = true
+	#adv_quarry Default: true
+	adv_quarry = false
+	#mover Default: true
+	mover = true
+	#remove_bedrock_module Default: true
+	remove_bedrock_module = false
+	#repeat_tick_module Default: false
+	repeat_tick_module = false
+	#quarry Default: true
+	quarry = true
+	#flexible_marker Default: true
+	flexible_marker = true
+
+	[powerMap.advQuarry]
+		#maxEnergy. Default: 50000.000000, Min: 0.0, Max: 10000000000.0
+		maxEnergy = 50000.0
+		#breakEfficiencyCoefficient. Default: 1.379730, Min: 0.0, Max: 10000000000.0
+		breakEfficiencyCoefficient = 1.379729661461215
+		#breakBlockBase. Default: 30.000000, Min: 0.0, Max: 10000000000.0
+		breakBlockBase = 30.0
+		#makeFrame. Default: 15.000000, Min: 0.0, Max: 10000000000.0
+		makeFrame = 15.0
+		#searchBase. Default: 1.250000, Min: 0.0, Max: 10000000000.0
+		searchBase = 1.25
+		#breakBlockFluid. Default: 125.000000, Min: 0.0, Max: 10000000000.0
+		breakBlockFluid = 125.0
+		#expCollect. Default: 2.500000, Min: 0.0, Max: 10000000000.0
+		expCollect = 2.5
+		#breakFortuneCoefficient. Default: 1.587401, Min: 0.0, Max: 10000000000.0
+		breakFortuneCoefficient = 1.5874010519681996
+		#breakSilktouchCoefficient. Default: 4.000000, Min: 0.0, Max: 10000000000.0
+		breakSilktouchCoefficient = 4.0
+
+	[powerMap.quarry]
+		#maxEnergy. Default: 10000.000000, Min: 0.0, Max: 10000000000.0
+		maxEnergy = 10000.0
+		#breakEfficiencyCoefficient. Default: 1.379730, Min: 0.0, Max: 10000000000.0
+		breakEfficiencyCoefficient = 1.379729661461215
+		#breakBlockBase. Default: 25.000000, Min: 0.0, Max: 10000000000.0
+		breakBlockBase = 25.0
+		#moveHeadBase. Default: 1.000000, Min: 0.0, Max: 10000000000.0
+		moveHeadBase = 1.0
+		#efficiencyCoefficient. Default: 1.584893, Min: 0.0, Max: 10000000000.0
+		efficiencyCoefficient = 1.5848931924611136
+		#makeFrame. Default: 15.000000, Min: 0.0, Max: 10000000000.0
+		makeFrame = 15.0
+		#breakBlockFluid. Default: 125.000000, Min: 0.0, Max: 10000000000.0
+		breakBlockFluid = 125.0
+		#expCollect. Default: 2.500000, Min: 0.0, Max: 10000000000.0
+		expCollect = 2.5
+		#breakFortuneCoefficient. Default: 1.587401, Min: 0.0, Max: 10000000000.0
+		breakFortuneCoefficient = 1.5874010519681996
+		#breakSilktouchCoefficient. Default: 4.000000, Min: 0.0, Max: 10000000000.0
+		breakSilktouchCoefficient = 4.0

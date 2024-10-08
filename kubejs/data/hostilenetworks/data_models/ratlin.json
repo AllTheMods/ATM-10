@@ -1,0 +1,32 @@
+{
+    "entity": "eternal_starlight:ratlin",
+    "name": {
+        "translate": "entity.eternal_starlight.ratlin",
+        "color": "#644856"
+    },
+    "display": {
+        "scale": 1.5
+    },
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:starlight_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.eternal_starlight.ratlin",
+    "fabricator_drops": [
+        {
+            "id": "eternal_starlight:ratlin_meat",
+            "count": 32
+        },
+        {
+            "id": "eternal_starlight:cave_moss",
+            "count": 32
+        },
+        {
+            "id": "minecraft:leather",
+            "count": 16
+        }
+    ]
+}

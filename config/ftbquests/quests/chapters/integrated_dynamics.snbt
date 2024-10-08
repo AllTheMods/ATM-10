@@ -1,0 +1,650 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "integrated_dynamics"
+	group: "3D4E23B1100491AB"
+	icon: {
+		id: "integrateddynamics:crystalized_menril_chunk"
+	}
+	id: "69299302373C4CBC"
+	images: [
+		{
+			height: 6.0d
+			image: "atm:textures/questpics/id_title.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "integrateddynamics:item/labeller"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "integratedterminals:part/terminal_storage"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "integratedcrafting:part/interface_crafting"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: 2.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "integrateddynamics:on_the_dynamics_of_integration"
+			}
+			id: "499CF9F39CED8899"
+			rewards: [
+				{
+					id: "018A4DD71F3796A9"
+					item: {
+						count: 1
+						id: "integrateddynamics:on_the_dynamics_of_integration"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "10AF74A595D53CCD"
+					item: {
+						count: 1
+						id: "integrateddynamics:menril_planks"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5DD862CF56AF7BF9"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(integrateddynamics:menril_logs)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["62B4A37CFDECA679"]
+			id: "72F57D77C3FB366D"
+			rewards: [{
+				count: 5
+				id: "6A13440CF769DD3E"
+				item: {
+					count: 1
+					id: "integrateddynamics:crystalized_menril_chunk"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "4126D0DCE63BDB5C"
+				item: { count: 1, id: "integrateddynamics:crystalized_menril_chunk" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["72F57D77C3FB366D"]
+			id: "4A05C037C0EE40BD"
+			rewards: [{
+				count: 5
+				id: "0E83C7E353FF4B78"
+				item: {
+					count: 1
+					id: "integrateddynamics:cable"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 10L
+				id: "6B66A1F27CB47748"
+				item: { count: 1, id: "integrateddynamics:cable" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A05C037C0EE40BD"]
+			id: "79C1105A84B8BF8F"
+			rewards: [{
+				count: 5
+				id: "1063C780C779608E"
+				item: {
+					count: 1
+					id: "integrateddynamics:cable"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5BEC0340898370FE"
+				item: { count: 1, id: "integrateddynamics:variable" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["72F57D77C3FB366D"]
+			id: "450EDE68EC992A5A"
+			rewards: [{
+				id: "150F3B4FF9980CE6"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "1C045BB5FAFCF4D3"
+				item: { components: { "ftbfiltersystem:filter": "or(item(integratedtunnels:part_interface_energy)item(integratedtunnels:part_interface_item)item(integratedtunnels:part_interface_fluid))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79C1105A84B8BF8F"]
+			id: "3BC94B0B922C0708"
+			rewards: [
+				{
+					count: 5
+					id: "4F913C9BA7C09363"
+					item: {
+						count: 1
+						id: "integrateddynamics:variable"
+					}
+					type: "item"
+				}
+				{
+					id: "6CFF5E70310C3732"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "609FBA95C685FD1F"
+				item: { count: 1, id: "integrateddynamics:variable_transformer_input" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["79C1105A84B8BF8F"]
+			id: "6D9FA4DF842C1010"
+			rewards: [
+				{
+					count: 5
+					id: "637924335C98377D"
+					item: {
+						count: 1
+						id: "integrateddynamics:variable"
+					}
+					type: "item"
+				}
+				{
+					id: "3CBAA9779740993D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "712E74999429B0C7"
+				item: { count: 1, id: "integrateddynamics:variable_transformer_output" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3BC94B0B922C0708"]
+			id: "73EA326304C01C3B"
+			rewards: [
+				{
+					id: "24DB616AF22B42A3"
+					item: {
+						count: 1
+						id: "integrateddynamics:variable_transformer_input"
+					}
+					type: "item"
+				}
+				{
+					id: "1339341272B4F06F"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "166BA23E49F6DCD6"
+				item: { components: { "ftbfiltersystem:filter": "or(item(integratedtunnels:part_importer_energy)item(integratedtunnels:part_importer_world_energy)item(integratedtunnels:part_importer_item)item(integratedtunnels:part_importer_world_item)item(integratedtunnels:part_importer_fluid)item(integratedtunnels:part_importer_world_fluid)item(integratedtunnels:part_importer_world_block))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D9FA4DF842C1010"]
+			id: "33F4A7613764A016"
+			rewards: [
+				{
+					id: "413284683C730102"
+					item: {
+						count: 1
+						id: "integrateddynamics:variable_transformer_output"
+					}
+					type: "item"
+				}
+				{
+					id: "52A93969E61DC345"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "1C7C0F345759111C"
+				item: { components: { "ftbfiltersystem:filter": "or(item(integratedtunnels:part_exporter_energy)item(integratedtunnels:part_exporter_world_energy)item(integratedtunnels:part_exporter_item)item(integratedtunnels:part_exporter_world_item)item(integratedtunnels:part_exporter_fluid)item(integratedtunnels:part_exporter_world_fluid)item(integratedtunnels:part_exporter_world_block))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"73EA326304C01C3B"
+				"33F4A7613764A016"
+				"450EDE68EC992A5A"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "integrateddynamics:textures/aspect/read/double/thaumcraft/auravis.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.5d
+			id: "65FA86357BC60573"
+			min_width: 250
+			rewards: [{
+				id: "26900F1A685A8E3B"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "22CCBBC66D509404"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65FA86357BC60573"]
+			id: "4D4152032F0410D2"
+			rewards: [{
+				id: "3D4D80272C8F78A2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0492C88FD6C2C1E6"
+				item: { count: 1, id: "integrateddynamics:logic_programmer" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D4152032F0410D2"]
+			id: "1568CBFA09827137"
+			rewards: [{
+				id: "0BD952A89D38A1D2"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "1BC958FE85153B09"
+				item: { count: 1, id: "integrateddynamics:portable_logic_programmer" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65FA86357BC60573"]
+			id: "1B5C86AE05678420"
+			min_width: 300
+			rewards: [{
+				id: "048EB61CD42A8828"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2656ACB55A33D4FE"
+				type: "checkmark"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["65FA86357BC60573"]
+			id: "437F4945AFBE0825"
+			min_width: 275
+			rewards: [{
+				id: "646AB81EC6E7D941"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "4209A06A392362DB"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D4152032F0410D2"]
+			id: "65D89991A45BC042"
+			rewards: [{
+				id: "60BFE25EBD248820"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "0A7BC7D8BD823DB9"
+				item: { count: 1, id: "integratedcrafting:part_interface_crafting" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D4152032F0410D2"]
+			id: "60D9F04E91171D16"
+			rewards: [{
+				id: "6836AA1F24679B61"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "2CA5519E203FC702"
+				item: { count: 1, id: "integrateddynamics:variablestore" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.875d
+		}
+		{
+			dependencies: ["65D89991A45BC042"]
+			id: "56BF647EA84FFF7E"
+			rewards: [{
+				id: "597E89B007537360"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "034B95CEED32EF7A"
+				item: { count: 1, id: "integratedterminals:part_terminal_crafting_job" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72F57D77C3FB366D"]
+			id: "6D75CF34957ECCD9"
+			rewards: [{
+				id: "133303BF34CDA8D6"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "6A96E9CE15682919"
+				item: { count: 1, id: "integrateddynamics:energy_battery" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D75CF34957ECCD9"]
+			id: "4D62C62B523C69EC"
+			optional: true
+			rewards: [{
+				id: "7BFEAC6B0C972150"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "4F213D9104A40A2F"
+				item: { count: 1, id: "integrateddynamics:coal_generator" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "6ABDBE41880CFDA9"
+			invisible: true
+			optional: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "267CE316E1F8FA83"
+					type: "checkmark"
+				}
+				{
+					id: "238B5BA2FAE9785B"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C9191DA4B1039D6"]
+			hide_until_deps_complete: true
+			id: "232A06C9FF0EE7B2"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "6DE9B8EFA21DFD7A"
+				item: {
+					count: 1
+					id: "integrateddynamics:menril_berries"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "578E01FF81FBBCD4"
+				item: { count: 1, id: "mysticalagriculture:menril_seeds" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["499CF9F39CED8899"]
+			id: "6C9191DA4B1039D6"
+			rewards: [{
+				count: 5
+				id: "784A72017E3B07CB"
+				item: {
+					count: 1
+					id: "integrateddynamics:menril_berries"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F14D12A09B1DB9A"
+				item: { count: 1, id: "integrateddynamics:menril_berries" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72F57D77C3FB366D"]
+			hide_until_deps_complete: true
+			id: "3C9539083BCC145C"
+			optional: true
+			rewards: [{
+				count: 5
+				id: "1A364CB191BA7A08"
+				item: {
+					count: 1
+					id: "integrateddynamics:crystalized_menril_chunk"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "12B13952DDA1AE17"
+				item: { components: { "productivebees:bee_type": "productivebees:menril" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["72F57D77C3FB366D"]
+			id: "2F37E284BB83BFF6"
+			rewards: [{
+				id: "12E4A99946F82701"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "421C2FD01A943D82"
+				item: { count: 1, id: "integrateddynamics:wrench" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["499CF9F39CED8899"]
+			id: "68498ADEF9765F81"
+			rewards: [{
+				count: 5
+				id: "57B18A95627F2454"
+				item: {
+					count: 1
+					id: "integrateddynamics:menril_log"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "44129D0F27FEC1A2"
+				item: { count: 1, id: "integrateddynamics:squeezer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68498ADEF9765F81"]
+			id: "62B4A37CFDECA679"
+			rewards: [{
+				id: "70E3124CBB79CF84"
+				item: {
+					count: 1
+					id: "integrateddynamics:bucket_menril_resin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "31BA29F5BF4A2558"
+				item: { count: 1, id: "integrateddynamics:drying_basin" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6D75CF34957ECCD9"
+				"68498ADEF9765F81"
+			]
+			id: "44DA091B53473723"
+			optional: true
+			rewards: [
+				{
+					id: "05344703532750CD"
+					item: {
+						components: {
+							"cyclopscore:energy_storage": 0
+						}
+						count: 1
+						id: "integrateddynamics:energy_battery"
+					}
+					type: "item"
+				}
+				{
+					id: "67BF9D99C5E9E345"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "3DB5746BB13F45CF"
+				item: { count: 1, id: "integrateddynamics:mechanical_squeezer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"6D75CF34957ECCD9"
+				"62B4A37CFDECA679"
+			]
+			id: "7413BB136EF9D6C5"
+			optional: true
+			rewards: [
+				{
+					id: "7F6A2DA3103CDA6F"
+					item: {
+						components: {
+							"cyclopscore:energy_storage": 0
+						}
+						count: 1
+						id: "integrateddynamics:energy_battery"
+					}
+					type: "item"
+				}
+				{
+					id: "0574B7872E158AF7"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "495BA4D861D10BF9"
+				item: { count: 1, id: "integrateddynamics:mechanical_drying_basin" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+	]
+}

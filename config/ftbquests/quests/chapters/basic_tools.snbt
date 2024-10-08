@@ -1,0 +1,1333 @@
+{
+	autofocus_id: "5151CDD8FCDE7A07"
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "basic_tools"
+	group: "15E5B587D291A4AA"
+	icon: {
+		id: "minecraft:diamond_pickaxe"
+	}
+	id: "4B9D26E0087CD163"
+	images: [
+		{
+			height: 0.5d
+			image: "relics:textures/stats/dealt_damage.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			height: 0.5d
+			image: "relics:textures/stats/dealt_damage.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			height: 0.7d
+			image: "atm:textures/questpics/basictools/4.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			height: 0.7d
+			image: "atm:textures/questpics/basictools/5.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			height: 0.7d
+			image: "atm:textures/questpics/basictools/6.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			height: 0.7d
+			image: "atm:textures/questpics/basictools/7.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			height: 0.7d
+			image: "atm:textures/questpics/basictools/8.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			height: 0.7d
+			image: "atm:textures/questpics/basictools/13.png"
+			rotation: 0.0d
+			width: 1.4d
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/wooden_pickaxe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/iron_pickaxe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/netherite_pickaxe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/stone_pickaxe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/diamond_pickaxe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "allthemodium:item/alloy_pick"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			height: 0.5d
+			image: "relics:textures/stats/dealt_damage.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			height: 0.5d
+			image: "relics:textures/stats/dealt_damage.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			height: 0.5d
+			image: "relics:textures/stats/dealt_damage.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			height: 0.5d
+			image: "relics:textures/stats/dealt_damage.png"
+			rotation: 0.0d
+			width: 0.5d
+			x: -4.0d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:item/diamond_sword"
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:item/diamond_pickaxe"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+	order_index: 0
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "57F47BA495B27F83"
+			rewards: [{
+				count: 32
+				id: "4311F03D24305238"
+				item: {
+					count: 1
+					id: "minecraft:oak_planks"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "02C822663913DFCF"
+				item: { count: 1, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["57F47BA495B27F83"]
+			id: "3917DECAEF56A06A"
+			rewards: [{
+				count: 16
+				id: "16E6A3E5A0BF91BA"
+				item: {
+					count: 1
+					id: "minecraft:cobblestone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "25F49B7B8EC6F48B"
+				item: { count: 1, id: "minecraft:raw_iron" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3917DECAEF56A06A"]
+			id: "6601450C63FEEE61"
+			rewards: [{
+				count: 8
+				id: "4C83D836AF808F98"
+				item: {
+					count: 1
+					id: "minecraft:raw_iron"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "206791A6A8DA0F16"
+				item: { count: 1, id: "minecraft:diamond" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6601450C63FEEE61"]
+			id: "17FE0C7748DD65CA"
+			rewards: [{
+				count: 4
+				id: "2C89B133ECDB0D55"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "794CD7B21426F36D"
+				item: { count: 1, id: "minecraft:ancient_debris" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["17FE0C7748DD65CA"]
+			id: "03E05018D64DDEE1"
+			rewards: [{
+				count: 2
+				id: "34D5775424CFA1CB"
+				item: {
+					count: 1
+					id: "minecraft:ancient_debris"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "73CDA6AAB0CF2A7F"
+				item: { count: 1, id: "allthemodium:raw_allthemodium" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["03E05018D64DDEE1"]
+			id: "09733948CBCB3FB9"
+			rewards: [{
+				id: "50BB46C524B3F283"
+				item: {
+					count: 1
+					id: "allthemodium:raw_allthemodium"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "675D17B101846732"
+				item: { count: 1, id: "allthemodium:raw_unobtainium" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			id: "2EE4E88FC814AFA4"
+			optional: true
+			rewards: [{
+				id: "0920B905A30B389B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2E885362FFDF770D"
+				item: { count: 1, id: "minecraft:wooden_pickaxe" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			id: "2E6D11A5F5626A6C"
+			optional: true
+			rewards: [{
+				id: "14E486767CD3D466"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4CDD283558108D8B"
+				item: { count: 1, id: "minecraft:stone_pickaxe" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			id: "70ED849A2EB44DEE"
+			optional: true
+			rewards: [{
+				id: "49795AB869D53FBA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "41A47F38D96A9747"
+				item: { count: 1, id: "minecraft:iron_pickaxe" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			id: "29A05589E96C0569"
+			optional: true
+			rewards: [{
+				id: "1BB11BBB969C7B7B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3CAFF729F25A9850"
+				item: { count: 1, id: "minecraft:diamond_pickaxe" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			id: "299F56B753286D0C"
+			optional: true
+			rewards: [{
+				id: "14F3F941722E2274"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "111144CBEF06EC7F"
+				item: { count: 1, id: "minecraft:netherite_pickaxe" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			id: "512396B331108BAF"
+			optional: true
+			rewards: [{
+				id: "7FDAE2A47A801B74"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "40971F256D8743D9"
+				item: { count: 1, id: "mekanismtools:refined_obsidian_pickaxe" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "51DBE688ED630DB1"
+			optional: true
+			rewards: [{
+				id: "64D71708653AFB97"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2962DF63EE602AD6"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanismtools:steel_pickaxe)item(mekanismtools:refined_glowstone_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			id: "58DDD32F849940A0"
+			optional: true
+			rewards: [{
+				id: "350A4EA5AE7F5405"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "70972BAFF5896EA8"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mysticalagriculture:inferium_pickaxe)item(mysticalagriculture:prudentium_pickaxe)item(mysticalagriculture:tertium_pickaxe)item(mysticalagriculture:imperium_pickaxe)item(mysticalagriculture:supremium_pickaxe)item(mysticalagriculture:awakened_supremium_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			id: "3B88D58B11B5DC78"
+			optional: true
+			rewards: [{
+				id: "35A24AB368AF86E1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5D3CB6FE8F0ED9A5"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mininggadgets:mininggadget_simple)item(mininggadgets:mininggadget_fancy)item(mininggadgets:mininggadget))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "5151CDD8FCDE7A07"
+			rewards: [{
+				count: 16
+				id: "2BA08F25D16B9421"
+				item: {
+					count: 1
+					id: "minecraft:stick"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "292C044797A58CC1"
+				item: { count: 1, id: "minecraft:stick" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0583862ED0114442"
+			optional: true
+			rewards: [{
+				id: "010C18BE21C69868"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "77C3BFB8C7F805CF"
+				item: { count: 1, id: "minecraft:wooden_sword" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "54D3D6806C1F33F3"
+			optional: true
+			rewards: [{
+				id: "60D997B5DC289133"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "13AFEBED5C116FC8"
+				item: { count: 1, id: "minecraft:stone_sword" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			id: "2B9AF0D6ED8BA628"
+			optional: true
+			rewards: [{
+				id: "6EF5E55A7F55CA38"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1C1B919636DDC925"
+				item: { count: 1, id: "minecraft:iron_sword" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "55A9EB63F4964FCF"
+			optional: true
+			rewards: [{
+				id: "6427BC210554253B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3B9E51CF30228269"
+				item: { count: 1, id: "minecraft:diamond_sword" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			id: "36A3ECD4F6CA2732"
+			optional: true
+			rewards: [{
+				id: "21C75FC6BC78FC97"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5CDEF9E938811FC8"
+				item: { count: 1, id: "minecraft:netherite_sword" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "3BF1900346772703"
+			optional: true
+			rewards: [{
+				id: "12E99B232E2672E7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6D6CF45BE39E11BB"
+				item: { count: 1, id: "minecraft:golden_pickaxe" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			id: "077A214422FEFF02"
+			optional: true
+			rewards: [{
+				id: "3240E6E5353C3C01"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "53CFFE444921CB11"
+				item: { count: 1, id: "ae2:fluix_sword" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			id: "2664388EBA1E8F90"
+			optional: true
+			rewards: [{
+				id: "0899AB85EEF3D327"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "41D9CCC7AD3283EE"
+				item: { count: 1, id: "mekanismtools:osmium_sword" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			id: "7F076FC4F2187692"
+			optional: true
+			rewards: [{
+				id: "63C9CFD628010DD0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "49620BB635D10CF5"
+				item: { count: 1, id: "mysticalagriculture:inferium_sword" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.0d
+		}
+		{
+			id: "713803066B62CE9C"
+			optional: true
+			rewards: [{
+				id: "39ED93DD2502D70D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0E51C3384A52EEED"
+				item: { count: 1, id: "railcraft:steel_sword" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			id: "7CFEE836C68B3903"
+			optional: true
+			rewards: [{
+				id: "28898D7B2B50943C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6ACBFDD957AE32EB"
+				item: { count: 1, id: "undergarden:utherium_sword" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			id: "7EDF2CC08FC774F9"
+			optional: true
+			rewards: [{
+				id: "6E1030C4DC839FDC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "279E99110C6542B0"
+				item: { count: 1, id: "mysticalagriculture:prudentium_sword" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			id: "680ECE3D8DCDC515"
+			optional: true
+			rewards: [{
+				id: "34017A39161D07EF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1794270850D4F05D"
+				item: { count: 1, id: "mysticalagriculture:tertium_sword" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			id: "4DCEC4B97E24B6F1"
+			optional: true
+			rewards: [{
+				id: "437D795A2CD8DDE3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "75022D8AF7DB6369"
+				item: { count: 1, id: "mysticalagriculture:imperium_sword" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			id: "2007EF64F0406090"
+			optional: true
+			rewards: [{
+				id: "49C2D17DB8471C7A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "24AFDF10D3720363"
+				item: { count: 1, id: "mysticalagriculture:supremium_sword" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			id: "5A6670364ADE0858"
+			optional: true
+			rewards: [{
+				id: "5EB1D4D5EAAC09A7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "212B3269B2271269"
+				item: { count: 1, id: "mysticalagriculture:awakened_supremium_sword" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 10.5d
+		}
+		{
+			id: "47AED7219704EB3E"
+			optional: true
+			rewards: [{
+				id: "56737A034CFAAA58"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2D92CDACEC0F64D7"
+				item: { count: 1, id: "allthemodium:allthemodium_sword" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.5d
+		}
+		{
+			id: "744AC6BD82FC2DEE"
+			optional: true
+			rewards: [{
+				id: "1A97617464B6E260"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3C46670735810727"
+				item: { count: 1, id: "allthemodium:vibranium_sword" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			id: "7BCE96070C36D547"
+			optional: true
+			rewards: [{
+				id: "30760F1F48C3EFAF"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2000C08E501E9216"
+				item: { count: 1, id: "aquaculture:neptunium_sword" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			id: "4C8C56F960D92E9D"
+			optional: true
+			rewards: [{
+				id: "45091AF026A7A55D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7CDC8CE58D8E91AC"
+				item: { count: 1, id: "allthemodium:unobtainium_sword" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 11.5d
+		}
+		{
+			id: "6EE68EEFE388CF8A"
+			optional: true
+			rewards: [{
+				id: "65922BB4E641D525"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "477AAD8E6A0BB944"
+				item: { count: 1, id: "minecraft:golden_sword" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "609D03E335CF32E2"
+			optional: true
+			rewards: [{
+				id: "03AEE069322E2159"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "53C6E9EAC8AC15EB"
+				item: { components: { "ftbfiltersystem:filter": "or(item(allthemodium:allthemodium_pickaxe)item(allthemodium:vibranium_pickaxe)item(allthemodium:unobtainium_pickaxe)item(allthemodium:alloy_pick))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			id: "4745488579AAF603"
+			optional: true
+			rewards: [{
+				id: "4554F792DA01D3ED"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "68EF65729725E203"
+				item: { count: 1, id: "everythingcopper:copper_sword" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "2A6753C806D2AF8D"
+			optional: true
+			rewards: [{
+				id: "3C8B7A471A746C16"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1AEEDACF509CA8E1"
+				item: { count: 1, id: "modern_industrialization:quantum_sword" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 12.5d
+		}
+		{
+			id: "1D3F11194EA3BB73"
+			optional: true
+			rewards: [{
+				id: "4964A74AC0E22E22"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7EA0E7DF4C5C4858"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:fluix_pickaxe)item(ae2:certus_quartz_pickaxe)item(ae2:nether_quartz_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "64EED65F80A91D9E"
+			optional: true
+			rewards: [{
+				id: "72FC10DCCDF97263"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "18DA9065596F9097"
+				item: { components: { "ftbfiltersystem:filter": "or(item(railcraft:steel_pickaxe)item(everythingcopper:copper_pickaxe)item(mekanismtools:osmium_pickaxe)item(mekanismtools:bronze_pickaxe)item(justdirethings:ferricore_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			id: "275D97BF0CE9DCD4"
+			optional: true
+			rewards: [{
+				id: "355ACD985F95A356"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "485E17B9E80D5DFF"
+				item: { components: { "ftbfiltersystem:filter": "or(item(occultism:infused_pickaxe)item(occultism:iesnium_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			id: "01046CFBD7411AA6"
+			optional: true
+			rewards: [{
+				id: "66017377B07F8356"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "30921D2007B35206"
+				item: { components: { "ftbfiltersystem:filter": "or(item(eternal_starlight:swamp_silver_pickaxe)item(aquaculture:neptunium_pickaxe)item(deeperdarker:resonarium_pickaxe)item(undergarden:utherium_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "01EE2526B43B6502"
+			optional: true
+			rewards: [{
+				id: "565391242EB09A9A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					id: "735F8BA70FBE24BF"
+					item: { components: { "ftbfiltersystem:filter": "or(item(eternal_starlight:glacite_pickaxe)item(eternal_starlight:thermal_springstone_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "62F4D9B8E95BE2E5"
+					item: { count: 1, id: "undergarden:froststeel_pickaxe" }
+					type: "item"
+				}
+				{
+					id: "1734C9FDF957AC8C"
+					item: { count: 1, id: "undergarden:cloggrum_pickaxe" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "79EF24E396779B9F"
+			optional: true
+			rewards: [{
+				id: "5E48A7A8BE6EBA09"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "79517961795A4001"
+				item: { count: 1, id: "mekanismtools:lapis_lazuli_pickaxe" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			id: "7EC7E12C0880F8F5"
+			optional: true
+			rewards: [{
+				id: "39136A084D791576"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "63EB4BCA531A9F2A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:forgotten_pickaxe)item(deeperdarker:warden_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			id: "1756F81ACFC56C58"
+			optional: true
+			rewards: [{
+				id: "67075DBA2CC9120C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0D29F8D0847A0E6D"
+				item: { components: { "justdirethings:forge_energy": 500000 }, count: 1, id: "justdirethings:eclipsealloy_pickaxe" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			id: "5A2908437EC43AC6"
+			optional: true
+			rewards: [{
+				id: "4BC681C4DD5DF9FB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "68667F586AF5D058"
+				item: { components: { "ftbfiltersystem:filter": "or(item(justdirethings:blazegold_pickaxe)item(justdirethings:celestigem_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			id: "2DB53A77C3CD90F1"
+			optional: true
+			rewards: [{
+				id: "241C76938C2954B9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "224A2A7012749DFC"
+				item: { count: 1, id: "rootsclassic:living_pickaxe" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			id: "5CD65553EF60029B"
+			optional: true
+			rewards: [{
+				id: "62FDA68D032C051F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "56B07E580BF13848"
+				item: { count: 1, id: "forbidden_arcanus:draco_arcanus_pickaxe" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			id: "3B542DC05240242C"
+			optional: true
+			rewards: [{
+				id: "693D272A61FADA0F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2363F64BEC430933"
+				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:nether_quartz_sword)item(ae2:certus_quartz_sword))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			id: "37B055397B21D936"
+			optional: true
+			rewards: [{
+				id: "04F0EDFEC22D9707"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "344776799E44852E"
+				item: { components: { "minecraft:enchantments": { levels: { "minecraft:looting": 2 } } }, count: 1, id: "evilcraft:vein_sword" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "161878AB4236C58B"
+			optional: true
+			rewards: [{
+				id: "3C7F8BF1088A7AB7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "70B61179B0000BB7"
+				item: { count: 1, id: "justdirethings:ferricore_sword" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			id: "6EFA73A4D01F0052"
+			optional: true
+			rewards: [{
+				id: "405D0CB37F4ED4B7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "120AE66E9798A391"
+				item: { count: 1, id: "justdirethings:blazegold_sword" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			icon: {
+				components: {
+					"justdirethings:forge_energy": 10000
+				}
+				id: "justdirethings:celestigem_sword"
+			}
+			id: "36B9D5A99E1AA85C"
+			optional: true
+			rewards: [{
+				id: "6F9819625B4E8AF8"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7CF1476B089922A5"
+				item: { count: 1, id: "justdirethings:celestigem_sword" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			icon: {
+				components: {
+					"justdirethings:forge_energy": 500000
+				}
+				id: "justdirethings:eclipsealloy_sword"
+			}
+			id: "252169A6EB4DD75B"
+			optional: true
+			rewards: [{
+				id: "726F490EED9F188B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "776B3ECA3F6EFB78"
+				item: { count: 1, id: "justdirethings:eclipsealloy_sword" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.5d
+		}
+		{
+			id: "149BD1A9F82FA19A"
+			optional: true
+			rewards: [{
+				id: "16ABE8428A6B98F5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "57DD9261905988F3"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mekanismtools:refined_glowstone_sword)item(mekanismtools:bronze_sword))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "480FA9FE57743B66"
+			optional: true
+			rewards: [{
+				id: "6AF9A183D1858FCC"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "74207FBCFF7C35FE"
+				item: { count: 1, id: "mekanismtools:lapis_lazuli_sword" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "7338CA23B27B2AF8"
+			optional: true
+			rewards: [{
+				id: "427249A700641F71"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0091058F18AC4445"
+				item: { count: 1, id: "mekanismtools:refined_obsidian_sword" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			id: "79E30114ED8870EE"
+			optional: true
+			rewards: [{
+				id: "5D74BF51FEA4B675"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "17CDE0A299431350"
+				item: { count: 1, id: "mekanismtools:steel_sword" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			id: "268F6E67AA79A7BD"
+			optional: true
+			rewards: [{
+				id: "704E877CE779A5C1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2CEBDBDBD60D026F"
+				item: { count: 1, id: "allthemodium:alloy_sword" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			id: "579DA82672BF632C"
+			optional: true
+			rewards: [{
+				id: "3CFD0D14060B6CD7"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "20210147BF5613E5"
+				item: { components: { "ftbfiltersystem:filter": "or(item(eternal_starlight:thermal_springstone_sword)item(eternal_starlight:swamp_silver_sword)item(eternal_starlight:shattered_sword)item(eternal_starlight:energy_sword)item(undergarden:froststeel_sword))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			id: "784D6D11C4F41215"
+			optional: true
+			rewards: [{
+				id: "6055569D4A2F1227"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "398AB707BAAEF3CE"
+				item: { count: 1, id: "eternal_starlight:glacite_sword" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			id: "106C552DDD95543C"
+			optional: true
+			rewards: [{
+				id: "5E47073920434DDD"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "687C1BED1DF2D760"
+				item: { count: 1, id: "eternal_starlight:moonring_greatsword" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			id: "56970D44D4C9015A"
+			optional: true
+			rewards: [{
+				id: "00AD211580267F66"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "04048BE5351DB782"
+				item: { components: { "ftbfiltersystem:filter": "or(item(deeperdarker:resonarium_sword)item(undergarden:forgotten_sword)item(undergarden:cloggrum_sword))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "464DDEAF167BD0D5"
+			optional: true
+			rewards: [{
+				id: "7B8C77DC18E8A3D2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "22E2B3AEFEE70C1F"
+				item: { count: 1, id: "deeperdarker:warden_sword" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			id: "3CD307DDD6A5F5A3"
+			optional: true
+			rewards: [{
+				id: "562CCECF1834F7DB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "73292BEBAD3BF345"
+				item: { count: 1, id: "minecolonies:chiefsword" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "122282C288EAD366"
+			optional: true
+			rewards: [{
+				id: "370436B390F2DE50"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "236DA60F43220525"
+				item: { count: 1, id: "rootsclassic:living_sword" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+	]
+}
