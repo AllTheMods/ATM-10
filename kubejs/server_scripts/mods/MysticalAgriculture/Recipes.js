@@ -146,6 +146,50 @@ allthemods.shaped('8x regions_unexplored:socotra_log', ['A  ', 'A  ', ' A '], {
 allthemods.shaped('8x regions_unexplored:willow_log', ['A  ', ' A ', ' A '], {
     A: 'mysticalagriculture:unexplored_wood_essence'
 }).id('allthemods:essence/minecraft/regions_unexplored/willow_log')
+
+function addInfustion(seed, item, essence) {
+    allthemods.custom(
+        {
+            type: 'mysticalagriculture:infusion',
+            input: {
+                item:  'mysticalagriculture:prosperity_seed_base'
+            },
+            ingredients: [
+                {
+                    item: item
+                },
+                {
+                    item: essence
+                },
+                {
+                    item: item
+                },
+                {
+                    item: essence
+                },
+                {
+                    item: item
+                },
+                {
+                    item: essence
+                },
+                {
+                    item: item
+                },
+                {
+                    item: essence
+                }
+            ],
+            result: {
+                id: seed
+            }
+        }
+    ).id(seed.replace(':', ':infusion/'))
+}
+
+    addInfustion('mysticalagriculture:silicon_seeds', 'ae2:silicon', 'mysticalagriculture:prudentium_essence')
+    addInfustion('mysticalagriculture:steel_seeds', 'alltheores:steel_ingot', 'mysticalagriculture:imperium_essence')
+
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
