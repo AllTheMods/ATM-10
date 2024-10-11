@@ -3,6 +3,7 @@
 
 const seedID = [
     'mysticalagriculture:allthemodium_seeds',
+    'mysticalagriculture:darkstone_seeds',
     'mysticalagriculture:kivi_seeds',
     'mysticalagriculture:unexplored_wood_seeds',
     'mysticalagriculture:unobtainium_seeds',
