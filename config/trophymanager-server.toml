@@ -1,0 +1,38 @@
+[General]
+	#[WIP] Should trophies drop from players when killed by another player?
+	dropFromPlayers = false
+	#Should trophies drop from mobs when killed by a player?
+	dropFromMobs = true
+	#Looting enchant will increase drop change
+	applyLooting = true
+	#Allow fake players (machines) to get trophy drops
+	allowFakePlayer = false
+	#Drop chance for trophies when a player is killed by a player.
+	#Range: 0.0 ~ 1.0
+	dropChancePlayers = 1.0
+	#Drop chance for trophies when a boss entity is killed by a player.
+	#Range: 0.0 ~ 1.0
+	dropChanceBoss = 0.2
+	#Drop chance for trophies when a normal entity is killed by a player.
+	#Range: 0.0 ~ 1.0
+	dropChanceMobs = 0.02
+	#Allow non opped players to change the settings for a trophy.
+	allowNonOpEdit = true
+	#Maximum size multiplier for a trophy.
+	#Range: 0.0 ~ 2.147483647E9
+	maxSize = 20.0
+	#Maximum Y offset for a trophy.
+	#Range: 0.0 ~ 2.147483647E9
+	maxYOffset = 2000.0
+	#Block to use for trophies dropped when killing a mob.
+	defaultBaseBlock = "minecraft:smooth_stone_slab"
+	#Default YOffset for trophies dropped when killing a mob. If defaultBaseBlock is a full block this should be 1.0, slabs 0.5 and carpets 0.1
+	#Range: 0.0 ~ 2.147483647E9
+	defaultYOffset = 0.5
+	#Default size for trophies dropped when killing a mob.
+	#Range: 0.0 ~ 2.147483647E9
+	defaultScale = 0.5
+	#Comma separated list of entities which has NBT data that needs to be saved with the trophy. Format: modid:entityid:tag.
+	nbtMap = "minecraft:axolotl:Variant,minecraft:cat:Variant,minecraft:cat:CollarColor,minecraft:wolf:CollarColor,minecraft:frog:variant,minecraft:llama:Variant,minecraft:horse:Variant,minecraft:fox:Variant,minecraft:parrot:Variant,minecraft:panda:MainGene,minecraft:panda:HiddenGene,minecraft:mooshroom:Type,minecraft:villager:VillagerData,productivebees:configurable_bee:type,infernalexp:shroomloin:ShroomloinType,infernalexp:basalt_giant:Size"
+	#Have items on item trophies slowly rotate around.
+	rotateItemTrophies = true
