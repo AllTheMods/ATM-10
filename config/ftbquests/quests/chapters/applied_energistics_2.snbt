@@ -16,55 +16,39 @@
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
-			x: 5.0d
-			y: 3.9d
+			x: 6.0d
 		}
 		{
 			height: 3.0d
 			image: "atm:textures/questpics/ae2.png"
 			rotation: 0.0d
 			width: 9.27d
-			x: 6.0d
+			x: 7.0d
 			y: -3.5d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
+			icon: {
+				id: "ae2:quartz_cluster"
+			}
 			id: "2893F483C10293E6"
-			rewards: [
-				{
-					count: 8
-					id: "3B8F9C922DCD426E"
-					item: {
-						count: 1
-						id: "ae2:certus_quartz_dust"
-					}
-					type: "item"
-				}
-				{
-					id: "04731B877AA067A3"
-					type: "xp"
-					xp: 10
-				}
-			]
+			rewards: [{
+				id: "04731B877AA067A3"
+				type: "xp"
+				xp: 10
+			}]
 			shape: "hexagon"
 			size: 1.5d
-			tasks: [
-				{
-					id: "43FD619EF9A41E76"
-					item: { count: 1, id: "ae2:certus_quartz_dust" }
-					type: "item"
-				}
-				{
-					id: "7B9519E1AF53A9A3"
-					item: { count: 1, id: "ae2:certus_quartz_crystal" }
-					type: "item"
-				}
-			]
-			x: 0.0d
+			tasks: [{
+				id: "408C5263C4664195"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:chests)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
 			y: 0.5d
 		}
 		{
@@ -72,14 +56,18 @@
 			id: "68B0B3DAF1145191"
 			rewards: [
 				{
-					id: "132524D80F352F06"
-					table_id: 727499692191347770L
-					type: "random"
+					count: 3
+					id: "34A7FCD259743CEC"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
 				}
 				{
-					id: "230CB9AC06A29B7A"
+					id: "468D22E6BE674124"
 					type: "xp"
-					xp: 10
+					xp: 50
 				}
 			]
 			tasks: [
@@ -94,7 +82,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 1.5d
 			y: 0.5d
 		}
 		{
@@ -112,11 +100,6 @@
 						id: "ae2:sky_stone_block"
 					}
 					type: "item"
-				}
-				{
-					id: "34DBB0E01FC07555"
-					table_id: 727499692191347770L
-					type: "random"
 				}
 				{
 					id: "53D03CFF7586058B"
@@ -138,11 +121,11 @@
 					type: "advancement"
 				}
 			]
-			x: 4.0d
+			x: 3.0d
 			y: 0.5d
 		}
 		{
-			dependencies: ["68B0B3DAF1145191"]
+			dependencies: ["79D2617E01481281"]
 			id: "00611844AFD5C31E"
 			rewards: [
 				{
@@ -151,9 +134,9 @@
 					type: "random"
 				}
 				{
-					id: "241ED08CDD530739"
+					id: "08113CF8D66CAE85"
 					type: "xp"
-					xp: 10
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -161,7 +144,7 @@
 				item: { count: 1, id: "ae2:energy_acceptor" }
 				type: "item"
 			}]
-			x: 3.0d
+			x: 4.0d
 			y: -0.5d
 		}
 		{
@@ -181,17 +164,17 @@
 			]
 			tasks: [
 				{
-					id: "19CE95EDCB04AA89"
+					id: "660FEBB8BF6EF1A1"
 					item: { count: 1, id: "ae2:energy_cell" }
 					type: "item"
 				}
 				{
-					id: "3606A3CEDFF76F77"
+					id: "1DCF3545FC683DA8"
 					item: { count: 1, id: "ae2:dense_energy_cell" }
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 6.0d
 			y: -0.5d
 		}
 		{
@@ -204,9 +187,9 @@
 					type: "random"
 				}
 				{
-					id: "198B5EB3662F4C18"
+					id: "046857B51784747C"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "circle"
@@ -215,7 +198,7 @@
 				item: { count: 1, id: "ae2:energy_card" }
 				type: "item"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: -0.5d
 		}
 		{
@@ -223,14 +206,14 @@
 			id: "15564C11744D6AA0"
 			rewards: [
 				{
-					id: "6F428D141799FF83"
-					type: "xp"
-					xp: 100
-				}
-				{
 					id: "622636484932AB15"
 					table_id: 5871764666515020368L
 					type: "random"
+				}
+				{
+					id: "04F679A5A3F25F15"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [
@@ -250,11 +233,11 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
+			x: 7.0d
 			y: 0.5d
 		}
 		{
-			dependencies: ["68B0B3DAF1145191"]
+			dependencies: ["79D2617E01481281"]
 			id: "4BF0BB763BFFACF0"
 			rewards: [
 				{
@@ -272,9 +255,9 @@
 					type: "random"
 				}
 				{
-					id: "34AA471D42A56F02"
+					id: "5ED4D1A75E166C0E"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			tasks: [
@@ -289,7 +272,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 4.0d
 			y: 1.5d
 		}
 		{
@@ -303,9 +286,9 @@
 					type: "random"
 				}
 				{
-					id: "2D1445E4299E8619"
+					id: "023E2DEDD1B1E9E9"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			tasks: [
@@ -327,7 +310,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 6.0d
 			y: 1.5d
 		}
 		{
@@ -340,11 +323,6 @@
 					type: "random"
 				}
 				{
-					id: "7F6B396987F63DB7"
-					type: "xp"
-					xp: 10
-				}
-				{
 					count: 2
 					id: "5EBB888A8D38FAC8"
 					item: {
@@ -352,6 +330,11 @@
 						id: "ae2:quartz_fiber"
 					}
 					type: "item"
+				}
+				{
+					id: "0AA677652B50CC72"
+					type: "xp"
+					xp: 50
 				}
 			]
 			shape: "diamond"
@@ -367,7 +350,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 6.0d
 			y: 3.0d
 		}
 		{
@@ -380,9 +363,9 @@
 					type: "random"
 				}
 				{
-					id: "7B32D21CD627FB4A"
+					id: "4B4D196036BDBB19"
 					type: "xp"
-					xp: 10
+					xp: 50
 				}
 			]
 			tasks: [
@@ -397,7 +380,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: 9.0d
 			y: 0.5d
 		}
 		{
@@ -433,7 +416,7 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
+			x: 12.0d
 			y: 1.5d
 		}
 		{
@@ -441,14 +424,15 @@
 			id: "74FC0DDDB91DB172"
 			rewards: [
 				{
-					id: "12DC218C9BBC8422"
+					exclude_from_claim_all: true
+					id: "7F413CC2F158BFC2"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "341F5229D281635E"
+					id: "41C362CCCFEF2900"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "gear"
@@ -458,7 +442,7 @@
 				item: { components: { "ftbfiltersystem:filter": "item_tag(ae2:interface)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 24.0d
+			x: 23.5d
 			y: 1.5d
 		}
 		{
@@ -466,14 +450,15 @@
 			id: "51DE3157DE3E57B8"
 			rewards: [
 				{
-					id: "50D0A08E66B3F6DF"
+					exclude_from_claim_all: true
+					id: "3ABF727A70056F19"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "12405240582D9D1A"
+					id: "6DD24AF31418C5C4"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "gear"
@@ -490,13 +475,13 @@
 					type: "item"
 				}
 			]
-			x: 13.0d
+			x: 14.0d
 			y: -2.5d
 		}
 		{
 			dependencies: [
 				"22C4318523A43B49"
-				"78311531069807DE"
+				"5C22E3103544B120"
 			]
 			id: "2F16B6A173525277"
 			rewards: [
@@ -516,7 +501,7 @@
 				item: { count: 1, id: "ae2:controller" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: 1.5d
 		}
 		{
@@ -533,7 +518,7 @@
 				item: { components: { "ftbfiltersystem:filter": "item_tag(ae2:quartz_wrench)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.5d
 			y: 1.5d
 		}
 		{
@@ -542,12 +527,17 @@
 				"1076BC82EECB73F5"
 			]
 			id: "6431A384DDFBF439"
+			rewards: [{
+				id: "5EFA652F0FFA1AB8"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "7BDCDEB679A9969C"
 				item: { count: 1, id: "ae2:network_tool" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 10.0d
 			y: -0.5d
 		}
 		{
@@ -560,9 +550,9 @@
 					type: "random"
 				}
 				{
-					id: "7878EA4ADE367154"
+					id: "49B9C3EECE2D1D2D"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -571,7 +561,7 @@
 				item: { count: 1, id: "ae2:cell_component_1k" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 15.0d
 			y: 1.5d
 		}
 		{
@@ -582,14 +572,15 @@
 			id: "3B42CCC19D23EC6D"
 			rewards: [
 				{
-					id: "0DED7909D8F260FB"
+					exclude_from_claim_all: true
+					id: "7BDB07C9A407473B"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "4D1AC818C4203ADC"
+					id: "2916903A866AE778"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -598,7 +589,7 @@
 				item: { count: 1, id: "ae2:cell_component_4k" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 16.0d
 			y: 2.5d
 		}
 		{
@@ -609,14 +600,15 @@
 			id: "219932CB19258C16"
 			rewards: [
 				{
-					id: "3D78D39AC9F9149F"
+					exclude_from_claim_all: true
+					id: "7C534D2130B43333"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "42CEB9C64CCDCFEC"
+					id: "669A6D0275490C75"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -625,7 +617,7 @@
 				item: { count: 1, id: "ae2:cell_component_16k" }
 				type: "item"
 			}]
-			x: 14.5d
+			x: 15.5d
 			y: 3.0d
 		}
 		{
@@ -636,14 +628,15 @@
 			id: "523853C1C4E688BA"
 			rewards: [
 				{
-					id: "74692DCB87938B3B"
+					exclude_from_claim_all: true
+					id: "6CF58A28DA8927E4"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "16FC3AB2ACBFF4B3"
+					id: "7565EA061487F2DC"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -652,7 +645,7 @@
 				item: { count: 1, id: "ae2:cell_component_64k" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 16.0d
 			y: 3.5d
 		}
 		{
@@ -663,14 +656,15 @@
 			id: "5F56892CD904C40F"
 			rewards: [
 				{
-					id: "109149BBD22105C5"
+					exclude_from_claim_all: true
+					id: "3CC48BB1776639F2"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "4DE1354173902859"
+					id: "5B350C13999DBBE2"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -679,7 +673,7 @@
 				item: { count: 1, id: "ae2:cell_component_256k" }
 				type: "item"
 			}]
-			x: 15.5d
+			x: 16.5d
 			y: 3.0d
 		}
 		{
@@ -695,14 +689,9 @@
 					type: "random"
 				}
 				{
-					id: "3C8B767128199FB7"
+					id: "0CCA2A615FC13D4E"
 					type: "xp"
 					xp: 100
-				}
-				{
-					id: "295E028CA7E21B31"
-					table_id: 5871764666515020368L
-					type: "random"
 				}
 			]
 			shape: "diamond"
@@ -712,7 +701,7 @@
 				item: { count: 1, id: "megacells:cell_component_1m" }
 				type: "item"
 			}]
-			x: 16.5d
+			x: 17.5d
 			y: 4.0d
 		}
 		{
@@ -725,9 +714,9 @@
 					type: "random"
 				}
 				{
-					id: "71734366561CE3E6"
+					id: "6F4B977A5ABF8D9D"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -736,8 +725,8 @@
 				item: { count: 1, id: "megacells:cell_component_4m" }
 				type: "item"
 			}]
-			x: 19.0d
-			y: 3.9999999999999996d
+			x: 20.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["25DBA00422301EDC"]
@@ -749,9 +738,9 @@
 					type: "random"
 				}
 				{
-					id: "61A6C4D61B2B0E98"
+					id: "379D919B4E2980AF"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -760,7 +749,7 @@
 				item: { count: 1, id: "megacells:cell_component_16m" }
 				type: "item"
 			}]
-			x: 19.5d
+			x: 20.5d
 			y: 4.499999999999998d
 		}
 		{
@@ -773,9 +762,9 @@
 					type: "random"
 				}
 				{
-					id: "591679B6C9CF5681"
+					id: "31816695F102AA42"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -784,8 +773,8 @@
 				item: { count: 1, id: "megacells:cell_component_64m" }
 				type: "item"
 			}]
-			x: 20.0d
-			y: 3.9999999999999996d
+			x: 21.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3CE3D9245F8EC005"]
@@ -797,9 +786,9 @@
 					type: "random"
 				}
 				{
-					id: "6871321BB014C03D"
+					id: "2C476542501AA8F8"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "diamond"
@@ -808,7 +797,7 @@
 				item: { count: 1, id: "megacells:cell_component_256m" }
 				type: "item"
 			}]
-			x: 19.5d
+			x: 20.5d
 			y: 3.5d
 		}
 		{
@@ -821,17 +810,17 @@
 					type: "random"
 				}
 				{
-					id: "318D3CF0DD1E3A58"
-					type: "xp"
-					xp: 10
-				}
-				{
 					id: "06150B632CA535D8"
 					item: {
 						count: 1
 						id: "ae2:item_cell_housing"
 					}
 					type: "item"
+				}
+				{
+					id: "05F89394A04290D6"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -840,7 +829,7 @@
 				item: { count: 1, id: "ae2:item_storage_cell_1k" }
 				type: "item"
 			}]
-			x: 16.5d
+			x: 17.5d
 			y: 1.5d
 		}
 		{
@@ -853,9 +842,9 @@
 					type: "random"
 				}
 				{
-					id: "687E190D01E7344A"
+					id: "3BC85233A2876A98"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -864,7 +853,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:fluid_storage_cell_1k)item(ae2:fluid_storage_cell_4k)item(ae2:fluid_storage_cell_16k)item(ae2:fluid_storage_cell_64k)item(ae2:fluid_storage_cell_256k))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 18.5d
+			x: 19.5d
 			y: 1.5d
 		}
 		{
@@ -877,9 +866,9 @@
 					type: "random"
 				}
 				{
-					id: "4956E92D2FDA5190"
+					id: "23A5A908C5F0787D"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -888,7 +877,7 @@
 				item: { count: 1, id: "ae2:cell_workbench" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.0d
 			y: 2.5d
 		}
 		{
@@ -901,9 +890,9 @@
 					type: "random"
 				}
 				{
-					id: "4531F48DEB750518"
+					id: "025E4FE78256AFFE"
 					type: "xp"
-					xp: 10
+					xp: 50
 				}
 			]
 			shape: "rsquare"
@@ -912,7 +901,7 @@
 				item: { count: 1, id: "ae2:io_port" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.0d
 			y: 0.5d
 		}
 		{
@@ -920,14 +909,15 @@
 			id: "5E7E35CCAF1C88EE"
 			rewards: [
 				{
-					id: "6F34C1E65B9B9204"
+					exclude_from_claim_all: true
+					id: "5FF6BEE6579CFBC3"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "462A0C71B591C11F"
+					id: "411F2AE5B1777307"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -936,7 +926,7 @@
 				item: { count: 1, id: "ae2:import_bus" }
 				type: "item"
 			}]
-			x: 23.0d
+			x: 22.5d
 			y: 0.5d
 		}
 		{
@@ -944,14 +934,15 @@
 			id: "083D458032F0325C"
 			rewards: [
 				{
-					id: "0F7B866B6B54A6D2"
+					exclude_from_claim_all: true
+					id: "353797E2FE494D29"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "311337C7850C46F1"
+					id: "7EA579E265E06067"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -960,7 +951,7 @@
 				item: { count: 1, id: "ae2:export_bus" }
 				type: "item"
 			}]
-			x: 25.0d
+			x: 24.5d
 			y: 0.5d
 		}
 		{
@@ -968,14 +959,15 @@
 			id: "140DE53DC0FCD9F4"
 			rewards: [
 				{
-					id: "6EA69EB703D93D1F"
+					exclude_from_claim_all: true
+					id: "5FCB419A1B8B9183"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "43B0C50B9F25E213"
+					id: "4F0BD16B65C1DC18"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -984,7 +976,7 @@
 				item: { count: 1, id: "ae2:annihilation_plane" }
 				type: "item"
 			}]
-			x: 23.0d
+			x: 22.5d
 			y: -1.5d
 		}
 		{
@@ -992,14 +984,15 @@
 			id: "525F25F4ADE45B50"
 			rewards: [
 				{
-					id: "0850790D93DB56E2"
+					exclude_from_claim_all: true
+					id: "2657D48404463862"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "4DA3D1592D0E57DA"
+					id: "7F01E629CAF9B218"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -1008,7 +1001,7 @@
 				item: { count: 1, id: "ae2:formation_plane" }
 				type: "item"
 			}]
-			x: 25.0d
+			x: 24.5d
 			y: -1.5d
 		}
 		{
@@ -1016,14 +1009,15 @@
 			id: "1710B3D05215A71E"
 			rewards: [
 				{
-					id: "005990362F9FDD61"
+					exclude_from_claim_all: true
+					id: "071685B339B6FFDF"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "682CBB4D63EC2625"
+					id: "7FA5F943931A70CA"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -1032,7 +1026,7 @@
 				item: { count: 1, id: "ae2:me_p2p_tunnel" }
 				type: "item"
 			}]
-			x: 26.0d
+			x: 25.5d
 			y: 1.5d
 		}
 		{
@@ -1040,14 +1034,15 @@
 			id: "7EFBAF3E281D2EBE"
 			rewards: [
 				{
-					id: "7EC06E5DA9EA41BC"
+					exclude_from_claim_all: true
+					id: "04FC583981A52594"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "74C059194CC4F45D"
+					id: "56E273327C191D71"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -1056,7 +1051,7 @@
 				item: { count: 1, id: "ae2:storage_bus" }
 				type: "item"
 			}]
-			x: 24.0d
+			x: 23.5d
 			y: -0.5d
 		}
 		{
@@ -1064,14 +1059,15 @@
 			id: "55186B8602689B66"
 			rewards: [
 				{
-					id: "433DCE2CD821C784"
+					exclude_from_claim_all: true
+					id: "2F9B75E7843FC5B6"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "58A650BEBD72CCDB"
+					id: "62E8CB058F7D446D"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "circle"
@@ -1080,8 +1076,8 @@
 				item: { count: 1, id: "ae2:memory_card" }
 				type: "item"
 			}]
-			x: 26.0d
-			y: -0.5d
+			x: 25.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2F556E7919582D2D"]
@@ -1093,9 +1089,9 @@
 					type: "random"
 				}
 				{
-					id: "7425BEBDF51C1684"
+					id: "46CEB6108CA6F0F3"
 					type: "xp"
-					xp: 10
+					xp: 50
 				}
 			]
 			shape: "circle"
@@ -1104,7 +1100,7 @@
 				item: { count: 1, id: "ae2:equal_distribution_card" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.0d
 			y: 3.5d
 		}
 		{
@@ -1117,9 +1113,9 @@
 					type: "random"
 				}
 				{
-					id: "48C92D1EB16C0CA2"
+					id: "710DF9649E217786"
 					type: "xp"
-					xp: 10
+					xp: 50
 				}
 			]
 			shape: "circle"
@@ -1128,7 +1124,7 @@
 				item: { count: 1, id: "ae2:void_card" }
 				type: "item"
 			}]
-			x: 13.0d
+			x: 14.0d
 			y: 2.5d
 		}
 		{
@@ -1141,9 +1137,9 @@
 					type: "random"
 				}
 				{
-					id: "3280EFC4446DD684"
+					id: "65696918AE5CF3FA"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1151,7 +1147,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:portable_item_cell_1k)item(ae2:portable_item_cell_4k)item(ae2:portable_item_cell_16k)item(ae2:portable_item_cell_64k)item(ae2:portable_item_cell_256k)item(ae2:portable_fluid_cell_1k)item(ae2:portable_fluid_cell_4k)item(ae2:portable_fluid_cell_16k)item(ae2:portable_fluid_cell_64k)item(ae2:portable_fluid_cell_256k))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 17.5d
+			x: 18.5d
 			y: 2.5d
 		}
 		{
@@ -1159,14 +1155,15 @@
 			id: "371A382CF1DDF2B2"
 			rewards: [
 				{
-					id: "370E5557C95C8C9D"
+					exclude_from_claim_all: true
+					id: "547B235F0918CFF2"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "45FEE3C549C049B0"
+					id: "6F74EC6A358DAB5A"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "circle"
@@ -1175,7 +1172,7 @@
 				item: { count: 1, id: "ae2:capacity_card" }
 				type: "item"
 			}]
-			x: 24.0d
+			x: 23.5d
 			y: -2.5d
 		}
 		{
@@ -1199,7 +1196,7 @@
 				item: { count: 1, id: "ae2:quartz_fiber" }
 				type: "item"
 			}]
-			x: 25.0d
+			x: 24.5d
 			y: 2.5d
 		}
 		{
@@ -1207,23 +1204,15 @@
 			id: "2C04B3BA507D5673"
 			rewards: [
 				{
-					count: 8
-					id: "7E23E751506B04D0"
-					item: {
-						count: 1
-						id: "ae2:blank_pattern"
-					}
-					type: "item"
-				}
-				{
-					id: "0741594A950C662F"
+					exclude_from_claim_all: true
+					id: "35833EFFFF140D4F"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "20EB24D02799A27D"
+					id: "16A58C8BEC623834"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -1239,7 +1228,7 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
+			x: 15.0d
 			y: -3.5d
 		}
 		{
@@ -1247,14 +1236,15 @@
 			id: "4597D3B3BDC2BED5"
 			rewards: [
 				{
-					id: "48E60A68CD703710"
+					exclude_from_claim_all: true
+					id: "3B117FA0EBFFE9E2"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "59D9A5E482B1D2A6"
+					id: "4D744AB605B11574"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -1263,7 +1253,7 @@
 				item: { count: 1, id: "ae2:molecular_assembler" }
 				type: "item"
 			}]
-			x: 16.0d
+			x: 17.0d
 			y: -3.5d
 		}
 		{
@@ -1271,14 +1261,15 @@
 			id: "3DDB0DDA7571B2C1"
 			rewards: [
 				{
-					id: "7791DE05E46C6030"
+					exclude_from_claim_all: true
+					id: "31E1DF2E7DC666B4"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "2465F9C03BFFB3B8"
+					id: "1B183D10C76EE733"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -1287,7 +1278,7 @@
 				item: { count: 1, id: "ae2:level_emitter" }
 				type: "item"
 			}]
-			x: 15.0d
+			x: 16.0d
 			y: -2.5d
 		}
 		{
@@ -1295,14 +1286,15 @@
 			id: "1AAF0B31B47AF23D"
 			rewards: [
 				{
-					id: "15D28C974906C579"
+					exclude_from_claim_all: true
+					id: "146AF749E02F3C59"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "11376476D428D86A"
+					id: "21BCF542DE411294"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "circle"
@@ -1318,7 +1310,7 @@
 					type: "item"
 				}
 			]
-			x: 17.0d
+			x: 18.0d
 			y: -2.5d
 		}
 		{
@@ -1326,14 +1318,15 @@
 			id: "5E6585F7627247E3"
 			rewards: [
 				{
-					id: "24B873E672174D86"
+					exclude_from_claim_all: true
+					id: "3AA4422A2FB0A8D8"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "09DCAA3326CEE78F"
+					id: "239F43D28F253248"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "circle"
@@ -1342,7 +1335,7 @@
 				item: { count: 1, id: "ae2:crafting_card" }
 				type: "item"
 			}]
-			x: 19.0d
+			x: 20.0d
 			y: -2.5d
 		}
 		{
@@ -1350,14 +1343,15 @@
 			id: "5AA3E5DFECB4AC4D"
 			rewards: [
 				{
-					id: "0BE24B3629BD5016"
+					exclude_from_claim_all: true
+					id: "1D1F6812A2846E82"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "67FE782D7A821701"
+					id: "679C3844EFDF6FDE"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1365,7 +1359,7 @@
 				item: { count: 1, id: "ae2:growth_accelerator" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.0d
 			y: -3.5d
 		}
 		{
@@ -1373,14 +1367,15 @@
 			id: "1F7DFA5AA65F2812"
 			rewards: [
 				{
-					id: "6223D6D4A01B9122"
+					exclude_from_claim_all: true
+					id: "3D0858411163F290"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "394DBCEAD38760C0"
+					id: "48294E744AD0F9A6"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "circle"
@@ -1389,7 +1384,7 @@
 				item: { count: 1, id: "ae2:speed_card" }
 				type: "item"
 			}]
-			x: 18.0d
+			x: 19.0d
 			y: -3.5d
 		}
 		{
@@ -1402,9 +1397,9 @@
 					type: "random"
 				}
 				{
-					id: "71A9F7793267D5CD"
+					id: "16C2AF5868F5DC9E"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "gear"
@@ -1414,7 +1409,7 @@
 				item: { count: 1, id: "ae2:spatial_io_port" }
 				type: "item"
 			}]
-			x: 16.5d
+			x: 17.5d
 			y: 6.0d
 		}
 		{
@@ -1427,9 +1422,9 @@
 					type: "random"
 				}
 				{
-					id: "60430373241A6839"
+					id: "660B41B22584E142"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1437,7 +1432,7 @@
 				item: { count: 1, id: "ae2:spatial_pylon" }
 				type: "item"
 			}]
-			x: 19.5d
+			x: 20.5d
 			y: 6.0d
 		}
 		{
@@ -1450,9 +1445,9 @@
 					type: "random"
 				}
 				{
-					id: "29737736E2B314EA"
+					id: "0EFC422D024D31D7"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1460,7 +1455,7 @@
 				item: { count: 1, id: "ae2:spatial_anchor" }
 				type: "item"
 			}]
-			x: 20.5d
+			x: 21.5d
 			y: 5.0d
 		}
 		{
@@ -1473,9 +1468,9 @@
 					type: "random"
 				}
 				{
-					id: "0CB125E5654F810B"
+					id: "4AB7B5F5C1CB7917"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1483,7 +1478,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:spatial_storage_cell_2)item(ae2:spatial_storage_cell_16)item(ae2:spatial_storage_cell_128))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 18.5d
+			x: 19.5d
 			y: 5.0d
 		}
 		{
@@ -1491,14 +1486,15 @@
 			id: "30E853CE699E669B"
 			rewards: [
 				{
-					id: "380CA842CF1F8374"
+					exclude_from_claim_all: true
+					id: "4DBEB5952AC48136"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "57230DB26A88BF90"
+					id: "17B07363E1C41A4A"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -1507,7 +1503,7 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(ae2:1k_crafting_storage)item(ae2:4k_crafting_storage)item(ae2:16k_crafting_storage)item(ae2:64k_crafting_storage)item(ae2:256k_crafting_storage))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 14.0d
+			x: 15.0d
 			y: -1.5d
 		}
 		{
@@ -1515,14 +1511,15 @@
 			id: "69B7DE2283B4EE6C"
 			rewards: [
 				{
-					id: "30447C55F39E6DA1"
+					exclude_from_claim_all: true
+					id: "0447356E6B5463CA"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "33A5EAC376E2828C"
+					id: "329EFC0963A077CB"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -1531,7 +1528,7 @@
 				item: { count: 1, id: "ae2:crafting_accelerator" }
 				type: "item"
 			}]
-			x: 16.0d
+			x: 17.0d
 			y: -1.5d
 		}
 		{
@@ -1539,14 +1536,15 @@
 			id: "1348995F64A94396"
 			rewards: [
 				{
-					id: "67F817808F544C51"
+					exclude_from_claim_all: true
+					id: "2679A1257CFE66B1"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "77A6ACEA6F5542AF"
+					id: "5C987CE0E8595D97"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -1555,7 +1553,7 @@
 				item: { count: 1, id: "ae2:crafting_monitor" }
 				type: "item"
 			}]
-			x: 18.0d
+			x: 19.0d
 			y: -1.5d
 		}
 		{
@@ -1569,9 +1567,9 @@
 					type: "random"
 				}
 				{
-					id: "0BAC4AB615750E48"
+					id: "65D98C17C269C604"
 					type: "xp"
-					xp: 10
+					xp: 50
 				}
 			]
 			shape: "diamond"
@@ -1592,13 +1590,12 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 5.5d
 			y: 2.5d
 		}
 		{
 			dependencies: [
 				"066F1BBF3D0863C5"
-				"19CE95EDCB04AA89"
 				"5C22E3103544B120"
 			]
 			id: "03E6FA4DCB71162E"
@@ -1611,7 +1608,7 @@
 				{
 					id: "2AD4CA497DAF5DDE"
 					type: "xp"
-					xp: 100
+					xp: 50
 				}
 			]
 			shape: "diamond"
@@ -1620,7 +1617,7 @@
 				item: { count: 1, id: "ae2:color_applicator" }
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.5d
 			y: 2.5d
 		}
 		{
@@ -1656,7 +1653,7 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
+			x: 16.0d
 			y: 0.5d
 		}
 		{
@@ -1670,9 +1667,9 @@
 					type: "random"
 				}
 				{
-					id: "7C6512C24B5A19A3"
+					id: "7FCD7F85B945D771"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -1688,7 +1685,7 @@
 					type: "item"
 				}
 			]
-			x: 9.0d
+			x: 10.0d
 			y: 4.5d
 		}
 		{
@@ -1704,7 +1701,7 @@
 				{
 					id: "0F9CCE69ADAF459C"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -1720,7 +1717,7 @@
 					type: "item"
 				}
 			]
-			x: 3.0d
+			x: 4.0d
 			y: 3.5d
 		}
 		{
@@ -1733,9 +1730,9 @@
 					type: "random"
 				}
 				{
-					id: "3A1C068ABC13E7EE"
+					id: "46DA7322409D4424"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -1751,7 +1748,7 @@
 					type: "item"
 				}
 			]
-			x: 11.0d
+			x: 12.0d
 			y: 6.0d
 		}
 		{
@@ -1764,9 +1761,9 @@
 					type: "random"
 				}
 				{
-					id: "6724FE14F1AF7CB1"
+					id: "07DB142BDC279690"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			tasks: [
@@ -1781,7 +1778,7 @@
 					type: "item"
 				}
 			]
-			x: 14.0d
+			x: 15.0d
 			y: 6.0d
 		}
 		{
@@ -1797,9 +1794,9 @@
 					type: "random"
 				}
 				{
-					id: "6C2DAC14419B90E4"
+					id: "4AF0D7A6271229AE"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -1820,7 +1817,7 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
+			x: 6.0d
 			y: 4.5d
 		}
 		{
@@ -1828,14 +1825,15 @@
 			id: "6E15447FC3D678E0"
 			rewards: [
 				{
-					id: "6FF117C99E79959D"
+					exclude_from_claim_all: true
+					id: "1AE532B04D3A00CC"
 					table_id: 5871764666515020368L
 					type: "random"
 				}
 				{
-					id: "27958B72A4A4CD9E"
+					id: "277B3278011A4D7A"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "circle"
@@ -1851,7 +1849,7 @@
 					type: "item"
 				}
 			]
-			x: 26.0d
+			x: 25.5d
 			y: -2.5d
 		}
 		{
@@ -1890,7 +1888,7 @@
 					type: "item"
 				}
 			]
-			x: 7.0d
+			x: 8.0d
 			y: 4.5d
 		}
 		{
@@ -1906,18 +1904,31 @@
 				id: "7E0D9E6342295AB0"
 				type: "checkmark"
 			}]
-			x: 7.0d
+			x: 8.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["361CCBD353D6FF34"]
 			id: "0F03E75CF79BADD7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "02FA8EBB8F66537E"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+				{
+					id: "2910ADE44D5A59C3"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "700381466CC95F2F"
 				item: { count: 1, id: "megacells:bulk_item_cell" }
 				type: "item"
 			}]
-			x: 17.5d
+			x: 18.5d
 			y: 0.5d
 		}
 		{
@@ -1926,12 +1937,25 @@
 				"16299B9AE87257DC"
 			]
 			id: "4B76FE0348DB0E45"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "508B4F1CC25D53AE"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+				{
+					id: "349F311077FBB30B"
+					type: "xp"
+					xp: 250
+				}
+			]
 			tasks: [{
 				id: "16E78B6C132910B5"
 				item: { count: 1, id: "ae2wtlib:quantum_bridge_card" }
 				type: "item"
 			}]
-			x: 8.5d
+			x: 9.5d
 			y: 6.0d
 		}
 		{
@@ -1949,8 +1973,39 @@
 					type: "checkmark"
 				}
 			]
-			x: 1.0d
+			x: 0.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["51236544BFEF487B"]
+			id: "79D2617E01481281"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "50DCD8EFE7378736"
+					table_id: 727499692191347770L
+					type: "random"
+				}
+				{
+					id: "4E6A6BD49ED7040D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "5997F25FCA778A49"
+					item: { count: 1, id: "ae2:certus_quartz_crystal" }
+					type: "item"
+				}
+				{
+					id: "06E4EE21B14147B2"
+					item: { count: 1, id: "ae2:certus_quartz_dust" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.5d
 		}
 	]
 }

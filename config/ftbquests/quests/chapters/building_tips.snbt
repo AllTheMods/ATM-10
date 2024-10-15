@@ -395,40 +395,6 @@
 		{
 			dependencies: ["2094D1CE4BA66091"]
 			icon: {
-				id: "additionallanterns:white_cobblestone_lantern"
-			}
-			id: "21B0744FA3A42425"
-			rewards: [
-				{
-					count: 16
-					id: "679335F962441971"
-					item: {
-						count: 1
-						id: "minecraft:torch"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "394091280F7D061B"
-					item: {
-						count: 1
-						id: "minecraft:iron_nugget"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "6100E7F26888B7DF"
-				item: { components: { "ftbfiltersystem:filter": "or(mod(additionallanterns))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 11.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["2094D1CE4BA66091"]
-			icon: {
 				id: "torchmaster:megatorch"
 			}
 			id: "5AD09CCEEDC0B50F"
@@ -1931,7 +1897,7 @@
 			}]
 			tasks: [{
 				id: "6AA15FFFC5961428"
-				item: { count: 1, id: "artifacts:digging_claws" }
+				item: { components: { "relics:data": { abilities: { abilities: { claws: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.20861d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:digging_claws" }
 				type: "item"
 			}]
 			x: 5.5d

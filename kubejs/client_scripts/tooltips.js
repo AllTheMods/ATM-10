@@ -98,7 +98,7 @@ ItemEvents.modifyTooltips(allthemods => {
         Text.of("§7Very rarely spawns between Y -44 and Y 42"),
         Text.of("§cWill explode when you mine it!")
     ])
-    allthemods.add(/forbidden_arcanus:runic_/,[
+    allthemods.add(/forbidden_arcanus:runic_[sd]/,[
         Text.of("§7Spawns at the bottom of the world up to Y 2"),
     ])
     allthemods.add(['forbidden_arcanus:arcane_crystal_ore', 'forbidden_arcanus:deepslate_arcane_crystal_ore'],[

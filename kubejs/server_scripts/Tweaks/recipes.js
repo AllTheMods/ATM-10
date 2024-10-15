@@ -46,6 +46,26 @@ ServerEvents.recipes(allthemods => {
             }
         )
     });
+    
+    // Remove The Raw Redstone Block Recipe As It Allows A Redstone Dupe
+    allthemods.remove({id: 'regions_unexplored:raw_redstone_block'});
+
+    
+    // Fix dense uraninite ore energizing recipes
+    allthemods.remove({ id: 'powah:energizing/uraninite_from_ore' })
+    allthemods.custom({
+        "type": "powah:energizing",
+        "energy": 50000,
+        "ingredients": [
+             {
+                 "tag": "c:ores/uraninite_regular"
+             }
+         ],
+        "result": {
+            "count": 5,
+            "id": "powah:uraninite"
+        }
+    }).id('powah:energizing/uraninite_from_ore')
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.

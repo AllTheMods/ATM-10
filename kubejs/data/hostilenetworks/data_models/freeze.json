@@ -1,0 +1,22 @@
+{
+    "entity": "eternal_starlight:freeze",
+    "name": {
+        "translate": "entity.eternal_starlight.freeze",
+        "color": "#7290B6"
+    },
+    "display": {},
+    "sim_cost": 512,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:starlight_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.eternal_starlight.freeze",
+    "fabricator_drops": [
+        {
+            "id": "eternal_starlight:frozen_tube",
+            "count": 12
+        }
+    ]
+}

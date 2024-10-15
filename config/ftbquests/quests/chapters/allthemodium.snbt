@@ -13,80 +13,96 @@
 			image: "atm:textures/questpics/allthemodium/all_allthemodium.png"
 			rotation: 0.0d
 			width: 26.666666666666668d
-			x: 3.5d
-			y: -4.0d
+			x: 10.5d
+			y: -5.0d
 		}
 		{
 			height: 1.5d
 			image: "allthemodium:item/allthemodium_upgrade_smithing_template"
 			rotation: 0.0d
 			width: 1.5d
-			x: -3.5d
-			y: -1.5d
+			x: 3.5d
+			y: -2.5d
 		}
 		{
 			height: 1.5d
 			image: "allthemodium:item/vibranium_upgrade_smithing_template"
 			rotation: 0.0d
 			width: 1.5d
-			x: 2.5d
-			y: -1.5d
+			x: 9.5d
+			y: -2.5d
 		}
 		{
 			height: 1.5d
 			image: "allthemodium:item/unobtainium_upgrade_smithing_template"
 			rotation: 0.0d
 			width: 1.5d
-			x: 5.5d
-			y: -1.5d
+			x: 12.5d
+			y: -2.5d
 		}
 		{
 			height: 2.0d
 			image: "atm:textures/questpics/allthemodium/all_1.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: -3.5d
-			y: 4.0d
+			x: 3.5d
+			y: 3.0d
 		}
 		{
 			height: 2.0d
 			image: "atm:textures/questpics/allthemodium/all_2.png"
 			rotation: 0.0d
 			width: 2.0842105263157893d
-			x: 2.5d
-			y: 4.0d
+			x: 9.5d
+			y: 3.0d
 		}
 		{
 			height: 2.0d
 			image: "atm:textures/questpics/allthemodium/all_3.png"
 			rotation: 0.0d
 			width: 1.9365079365079365d
-			x: 5.5d
-			y: 4.0d
+			x: 12.5d
+			y: 3.0d
 		}
 		{
 			height: 3.0d
 			image: "atm:textures/questpics/allthemodium/all_armor_all.png"
 			rotation: 0.0d
 			width: 1.7203125000000001d
-			x: -1.5d
-			y: 5.5d
+			x: 5.5d
+			y: 4.5d
 		}
 		{
 			height: 3.0d
 			image: "atm:textures/questpics/allthemodium/all_armor_vib.png"
 			rotation: 0.0d
 			width: 2.08d
-			x: 4.0d
-			y: 5.5d
+			x: 11.0d
+			y: 4.5d
 		}
 		{
 			height: 3.0d
 			image: "atm:textures/questpics/allthemodium/all_armor_uno.png"
 			rotation: 0.0d
 			width: 1.5406626506024095d
-			x: 7.0d
-			y: 5.5d
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			height: 0.3d
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 21.0d
+			y: -2.5d
+		}
+		{
+			height: 0.3d
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: 15.5d
+			y: -0.5999999999999996d
 		}
 	]
 	order_index: 1
@@ -118,8 +134,8 @@
 				item: { count: 1, id: "minecraft:netherite_ingot" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 1.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["201EE3566D4D3123"]
@@ -140,8 +156,8 @@
 				item: { count: 1, id: "allthemodium:teleport_pad" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.0d
+			x: 5.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2C4299D33D419AA0"]
@@ -170,8 +186,8 @@
 				id: "681CB7DF06F2F506"
 				type: "dimension"
 			}]
-			x: 1.0d
-			y: -2.5d
+			x: 8.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["0CC0632E8276C787"]
@@ -198,8 +214,8 @@
 				id: "0F9FCFCEE795FD41"
 				type: "dimension"
 			}]
-			x: 3.5d
-			y: 1.0d
+			x: 10.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2EDE91023F7924FB"]
@@ -221,8 +237,8 @@
 				id: "6514595CBD4DE6C6"
 				type: "dimension"
 			}]
-			x: 1.0d
-			y: 4.5d
+			x: 8.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["4B2146C9527C54E7"]
@@ -245,8 +261,8 @@
 				structure: "minecraft:ancient_city"
 				type: "structure"
 			}]
-			x: -5.0d
-			y: 1.0d
+			x: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["111E4ACF7D570EE8"]
@@ -273,8 +289,8 @@
 				item: { count: 1, id: "allthemodium:allthemodium_ingot" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 2.0d
+			x: 3.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["111E4ACF7D570EE8"]
@@ -294,8 +310,8 @@
 				item: { count: 1, id: "allthemodium:allthemodium_upgrade_smithing_template" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 0.0d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0CC0632E8276C787"]
@@ -315,8 +331,8 @@
 				item: { count: 1, id: "allthemodium:vibranium_upgrade_smithing_template" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: 9.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -338,8 +354,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(allthemodium:allthemodium_helmet)item(allthemodium:allthemodium_chestplate)item(allthemodium:allthemodium_leggings)item(allthemodium:allthemodium_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: 2.5d
+			x: 5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -361,8 +377,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(allthearcanistgear:allthemodium_hat)item(allthearcanistgear:allthemodium_robes)item(allthearcanistgear:allthemodium_leggings)item(allthearcanistgear:allthemodium_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.0d
+			x: 5.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -384,8 +400,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(allthewizardgear:allthemodium_mage_helmet)item(allthewizardgear:allthemodium_mage_chestplate)item(allthewizardgear:allthemodium_mage_leggings)item(allthewizardgear:allthemodium_mage_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.0d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -407,8 +423,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(allthemodium:allthemodium_sword)item(allthemodium:allthemodium_pickaxe)item(allthemodium:allthemodium_axe)item(allthemodium:allthemodium_shovel)item(allthemodium:allthemodium_hoe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.5d
+			x: 5.5d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -425,8 +441,8 @@
 				item: { count: 1, id: "allthemodium:allthemodium_bow" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -1.0d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -448,8 +464,8 @@
 				item: { count: 1, id: "allthemodium:allthemodium_mace" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -0.5d
+			x: 5.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -471,8 +487,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(allthemodium:unobtainium_helmet)item(allthemodium:unobtainium_chestplate)item(allthemodium:unobtainium_leggings)item(allthemodium:unobtainium_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 2.5d
+			x: 14.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -494,8 +510,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(allthearcanistgear:unobtainium_hat)item(allthearcanistgear:unobtainium_robes)item(allthearcanistgear:unobtainium_leggings)item(allthearcanistgear:unobtainium_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: 3.0d
+			x: 13.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -509,8 +525,8 @@
 				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 13, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "allthewizardgear:allthemodium_spell_book" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.0d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -532,8 +548,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(allthewizardgear:unobtainium_mage_helmet)item(allthewizardgear:unobtainium_mage_chestplate)item(allthewizardgear:unobtainium_mage_leggings)item(allthewizardgear:unobtainium_mage_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.0d
+			x: 14.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -547,8 +563,8 @@
 				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 15, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "allthewizardgear:unobtainium_spell_book" }
 				type: "item"
 			}]
-			x: 6.5d
-			y: -1.0d
+			x: 13.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -570,8 +586,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(allthemodium:unobtainium_sword)item(allthemodium:unobtainium_pickaxe)item(allthemodium:unobtainium_axe)item(allthemodium:unobtainium_shovel)item(allthemodium:unobtainium_hoe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -1.5d
+			x: 14.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -587,8 +603,8 @@
 				item: { count: 1, id: "allthemodium:unobtainium_crossbow" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.0d
+			x: 14.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -610,8 +626,8 @@
 				item: { count: 1, id: "allthemodium:unobtainium_mace" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -0.5d
+			x: 14.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -633,8 +649,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(allthemodium:vibranium_helmet)item(allthemodium:vibranium_chestplate)item(allthemodium:vibranium_leggings)item(allthemodium:vibranium_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 2.5d
+			x: 11.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -656,8 +672,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(allthearcanistgear:vibranium_hat)item(allthearcanistgear:vibranium_robes)item(allthearcanistgear:vibranium_leggings)item(allthearcanistgear:vibranium_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: 3.0d
+			x: 10.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -679,8 +695,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(allthewizardgear:vibranium_mage_helmet)item(allthewizardgear:vibranium_mage_chestplate)item(allthewizardgear:vibranium_mage_leggings)item(allthewizardgear:vibranium_mage_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 3.0d
+			x: 11.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -702,8 +718,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(allthemodium:vibranium_sword)item(allthemodium:vibranium_pickaxe)item(allthemodium:vibranium_axe)item(allthemodium:vibranium_shovel)item(allthemodium:vibranium_hoe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -1.5d
+			x: 11.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -719,8 +735,8 @@
 				item: { count: 1, id: "allthemodium:vibranium_shield" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: -1.0d
+			x: 11.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -742,8 +758,8 @@
 				item: { count: 1, id: "allthemodium:vibranium_mace" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: -0.5d
+			x: 11.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -757,8 +773,8 @@
 				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 14, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "allthewizardgear:vibranium_spell_book" }
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.0d
+			x: 10.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["07FDA46D83F8360D"]
@@ -785,8 +801,8 @@
 				id: "46B42667B6BC1A3C"
 				type: "dimension"
 			}]
-			x: 0.5d
-			y: 1.0d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["07FDA46D83F8360D"]
@@ -800,8 +816,8 @@
 				id: "00DDA48F9632A5C1"
 				type: "dimension"
 			}]
-			x: 1.0d
-			y: -1.0d
+			x: 8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["07FDA46D83F8360D"]
@@ -828,8 +844,8 @@
 				id: "32447C5882610D6C"
 				type: "dimension"
 			}]
-			x: 1.0d
-			y: 3.0d
+			x: 8.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0CC0632E8276C787"]
@@ -856,8 +872,8 @@
 				item: { count: 1, id: "allthemodium:vibranium_ingot" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 2.0d
+			x: 9.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["15FEA03A2CDBA33B"]
@@ -877,8 +893,8 @@
 				item: { count: 1, id: "allthemodium:unobtainium_upgrade_smithing_template" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 0.0d
+			x: 12.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["2EDE91023F7924FB"]
@@ -906,8 +922,8 @@
 				item: { count: 1, id: "allthemodium:unobtainium_ingot" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 2.0d
+			x: 12.5d
+			y: 1.0d
 		}
 		{
 			id: "762581CAE5F5DDC1"
@@ -926,8 +942,8 @@
 				item: { count: 1, id: "ars_nouveau:enchanting_apparatus" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: -2.45d
+			x: 20.5d
+			y: -3.45d
 		}
 		{
 			id: "7B3613C01F0B1373"
@@ -946,8 +962,8 @@
 				item: { count: 1, id: "powah:energizing_orb" }
 				type: "item"
 			}]
-			x: 14.0d
-			y: 1.0d
+			x: 24.0d
+			y: 0.0d
 		}
 		{
 			id: "15DC6770B112EE69"
@@ -966,8 +982,8 @@
 				item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: 4.4d
+			x: 20.5d
+			y: 3.4000000000000004d
 		}
 		{
 			dependencies: [
@@ -1002,8 +1018,8 @@
 				item: { count: 1, id: "allthemodium:unobtainium_allthemodium_alloy_ingot" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: -1.0d
+			x: 20.5d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -1038,8 +1054,8 @@
 				item: { count: 1, id: "allthemodium:unobtainium_vibranium_alloy_ingot" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: 3.0d
+			x: 20.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -1074,8 +1090,8 @@
 				item: { count: 1, id: "allthemodium:vibranium_allthemodium_alloy_ingot" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: 1.0d
+			x: 22.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["24934231538B6492"]
@@ -1096,8 +1112,8 @@
 				item: { count: 1, id: "allthemodium:piglich_heart" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 1.0d
+			x: 15.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["15FEA03A2CDBA33B"]
@@ -1120,8 +1136,8 @@
 				structure: "allthemodium:ancient_pyramid"
 				type: "structure"
 			}]
-			x: 7.0d
-			y: 1.0d
+			x: 14.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -1187,14 +1203,15 @@
 				item: { count: 1, id: "allthemodium:alloy_paxel" }
 				type: "item"
 			}]
-			x: 10.5d
-			y: 1.0d
+			x: 20.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
 				"1A05C605A52A4218"
 				"66039B738CF0718A"
 				"2CF6EA138B53CE1B"
+				"766EEB89C6DF3575"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -1226,14 +1243,15 @@
 				item: { count: 1, id: "allthemodium:alloy_axe" }
 				type: "item"
 			}]
-			x: 11.5d
-			y: 0.0d
+			x: 21.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
 				"1A05C605A52A4218"
 				"66039B738CF0718A"
 				"2CF6EA138B53CE1B"
+				"766EEB89C6DF3575"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -1265,14 +1283,15 @@
 				item: { count: 1, id: "allthemodium:alloy_shovel" }
 				type: "item"
 			}]
-			x: 11.5d
-			y: 2.0d
+			x: 21.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"1A05C605A52A4218"
 				"66039B738CF0718A"
 				"2CF6EA138B53CE1B"
+				"766EEB89C6DF3575"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -1304,14 +1323,15 @@
 				item: { count: 1, id: "allthemodium:alloy_pick" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: 2.0d
+			x: 19.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"1A05C605A52A4218"
 				"66039B738CF0718A"
 				"2CF6EA138B53CE1B"
+				"766EEB89C6DF3575"
 			]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
@@ -1343,8 +1363,8 @@
 				item: { count: 1, id: "allthemodium:alloy_sword" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: 0.0d
+			x: 19.5d
+			y: -1.0d
 		}
 		{
 			dependencies: [
@@ -1361,8 +1381,8 @@
 				item: { count: 1, id: "allthemodium:alloy_trident" }
 				type: "item"
 			}]
-			x: 15.0d
-			y: 1.0d
+			x: 25.0d
+			y: 0.0d
 		}
 		{
 			id: "552F0B9B00F4F914"
@@ -1379,8 +1399,79 @@
 					type: "checkmark"
 				}
 			]
-			x: -7.0d
-			y: -0.5d
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7CC96CE9901F25BB"]
+			id: "766EEB89C6DF3575"
+			rewards: [{
+				id: "34B7EEE7D8A8576A"
+				item: {
+					count: 1
+					id: "forbidden_arcanus:eternal_stella"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.2d
+			tasks: [{
+				id: "285DCA0CC7834899"
+				item: { count: 1, id: "forbidden_arcanus:eternal_stella" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			id: "7CC96CE9901F25BB"
+			rewards: [
+				{
+					count: 3
+					id: "126AA7E76F8A69AD"
+					item: {
+						components: {
+							"forbidden_arcanus:essence_storage": {
+								data: {
+									amount: 3000
+									type: "blood"
+								}
+								limit: 3000
+							}
+						}
+						count: 1
+						id: "forbidden_arcanus:blood_test_tube"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2BE711B7F86564D0"
+					item: {
+						count: 1
+						id: "forbidden_arcanus:aureal_bottle"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "64349778F60188F4"
+					item: {
+						count: 1
+						id: "forbidden_arcanus:xpetrified_orb"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "1C210EEEF2D7C052"
+				item: { count: 1, id: "forbidden_arcanus:hephaestus_forge_tier_1" }
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
 		}
 	]
 }

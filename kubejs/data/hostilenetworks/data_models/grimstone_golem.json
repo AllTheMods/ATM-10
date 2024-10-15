@@ -1,0 +1,28 @@
+{
+    "entity": "eternal_starlight:grimstone_golem",
+    "name": {
+        "translate": "entity.eternal_starlight.grimstone_golem",
+        "color": "#656167"
+    },
+    "display": {
+        "scale": 1.5
+    },
+    "sim_cost": 256,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:starlight_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.eternal_starlight.grimstone_golem",
+    "fabricator_drops": [
+        {
+            "id": "eternal_starlight:grimstone",
+            "count": 32
+        },
+        {
+            "id": "eternal_starlight:cobbled_grimstone",
+            "count": 32
+        }
+    ]
+}

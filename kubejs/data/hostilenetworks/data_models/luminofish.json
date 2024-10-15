@@ -1,0 +1,25 @@
+{
+    "entity": "eternal_starlight:luminofish",
+    "name": {
+        "translate": "entity.eternal_starlight.luminofish",
+        "color": "#F3E8C3"
+    },
+    "display": {
+        "y_offset": 0.2,
+        "scale": 2.0
+    },
+    "sim_cost": 128,
+    "input": {
+        "item": "hostilenetworks:prediction_matrix"
+    },
+    "base_drop": {
+        "id": "kubejs:starlight_prediction"
+    },
+    "trivia": "hostilenetworks.trivia.eternal_starlight.luminofish",
+    "fabricator_drops": [
+        {
+            "id": "eternal_starlight:luminofish",
+            "count": 32
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+name: Feature Request
+description: Request a feature other than a mod addition to be added
+title: "[Feature]: "
+labels: [ Suggestion ]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature Details
+      description: Please give a thorough explanation of the feature you'd like to see in the pack!
+      placeholder: I would like to see...
+    validations:
+      required: true

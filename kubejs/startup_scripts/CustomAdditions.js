@@ -13,6 +13,10 @@ StartupEvents.registry('block', allthemods => {
     allthemods.create('blaze_block').displayName('Blaze Block').stoneSoundType().mapColor('stone').hardness(1);
 })
 
+StartupEvents.registry('item', allthemods => {
+    allthemods.create('starlight_prediction').displayName('Generalized Starlight Prediction');
+})
+
 StartupEvents.modifyCreativeTab('ironfurnaces:ironfurnaces_tab', allthemods => {
     allthemods.add('ironfurnaces:allthemodium_furnace')
     allthemods.add('ironfurnaces:vibranium_furnace')

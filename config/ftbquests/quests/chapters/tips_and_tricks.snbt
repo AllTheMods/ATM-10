@@ -66,7 +66,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
 			id: "378C95C18798D413"
@@ -103,9 +103,9 @@
 			hide_dependency_lines: true
 			id: "0F8F37D7E12078F5"
 			rewards: [{
-				id: "032158E75A1291D8"
+				id: "4B75B944FD221D3F"
 				type: "xp"
-				xp: 10
+				xp: 100
 			}]
 			shape: "circle"
 			tasks: [{
@@ -182,20 +182,6 @@
 			y: 4.0d
 		}
 		{
-			id: "437AF6A8A63413A8"
-			rewards: [{
-				id: "4CDC7F753855B46A"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "2C621D97D1ED56DE"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 3.5d
-		}
-		{
 			id: "28E60192912BEBAD"
 			invisible: true
 			rewards: [
@@ -268,7 +254,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
 			id: "0152938EE5651409"
@@ -287,6 +273,19 @@
 			]
 			x: 0.0d
 			y: 7.0d
+		}
+		{
+			icon: {
+				id: "utilitarian:white_trapped_soliciting_carpet"
+			}
+			id: "219AA017149C36E2"
+			tasks: [{
+				id: "0D5203048B6E068C"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(the_bumblezone:bee_queen/dedicated_trade_tags/modded/utilitarian_trapped_soliciting_carpets)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
 		}
 	]
 }
