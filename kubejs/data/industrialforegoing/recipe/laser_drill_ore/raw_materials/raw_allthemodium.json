@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:raw_materials/allthemodium"
+      }
+    }
+  ],
+    "output": {
+      "tag": "c:raw_materials/allthemodium"
+    },
+    "rarity": [
+      {
+        "biome_filter": {
+          "blacklist": [],
+          "whitelist": ["atm10:allthemodium_spawnable"]
+        },
+        "dimension_filter": {
+          "blacklist": [],
+          "whitelist": []
+        },
+        "depth_min": 2,
+        "depth_max": 20,
+        "weight": 4
+      }
+    ],
+    "pointer": 0,
+    "catalyst": {
+      "item": "allthemodium:allthemodium_pickaxe"
+    },
+    "type": "industrialforegoing:laser_drill_ore"
+  }
