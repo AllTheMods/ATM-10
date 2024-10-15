@@ -157,7 +157,7 @@
 			image: "ironfurnaces:block/copper_furnace_front_on"
 			rotation: 0.0d
 			width: 1.0d
-			x: -10.0d
+			x: -13.0d
 			y: 9.0d
 		}
 		{
@@ -165,7 +165,7 @@
 			image: "ironfurnaces:block/iron_furnace_front_on"
 			rotation: 0.0d
 			width: 1.0d
-			x: -9.0d
+			x: -12.0d
 			y: 9.0d
 		}
 		{
@@ -173,7 +173,7 @@
 			image: "ironfurnaces:block/gold_furnace_front_on"
 			rotation: 0.0d
 			width: 1.0d
-			x: -7.0d
+			x: -10.0d
 			y: 9.0d
 		}
 		{
@@ -181,7 +181,7 @@
 			image: "ironfurnaces:block/silver_furnace_front_on"
 			rotation: 0.0d
 			width: 1.0d
-			x: -8.0d
+			x: -11.0d
 			y: 9.0d
 		}
 		{
@@ -189,7 +189,7 @@
 			image: "ironfurnaces:block/diamond_furnace_front_on"
 			rotation: 0.0d
 			width: 1.0d
-			x: -6.0d
+			x: -9.0d
 			y: 9.0d
 		}
 		{
@@ -213,7 +213,7 @@
 			image: "ironfurnaces:block/iron_furnace_front_on_blast"
 			rotation: 0.0d
 			width: 1.0d
-			x: -11.0d
+			x: -11.5d
 			y: 3.0d
 		}
 		{
@@ -221,7 +221,7 @@
 			image: "ironfurnaces:block/iron_furnace_front_on_smoke"
 			rotation: 0.0d
 			width: 1.0d
-			x: -8.0d
+			x: -8.5d
 			y: 3.0d
 		}
 		{
@@ -229,7 +229,7 @@
 			image: "ironfurnaces:block/emerald_furnace_front_on"
 			rotation: 0.0d
 			width: 1.0d
-			x: -5.0d
+			x: -8.0d
 			y: 9.0d
 		}
 		{
@@ -237,7 +237,7 @@
 			image: "ironfurnaces:block/crystal_furnace_front_on"
 			rotation: 0.0d
 			width: 1.0d
-			x: -4.0d
+			x: -7.0d
 			y: 9.0d
 		}
 		{
@@ -245,7 +245,7 @@
 			image: "ironfurnaces:block/netherite_furnace_front_on"
 			rotation: 0.0d
 			width: 1.0d
-			x: -2.0d
+			x: -5.0d
 			y: 9.0d
 		}
 		{
@@ -253,7 +253,7 @@
 			image: "ironfurnaces:block/obsidian_furnace_front_on"
 			rotation: 0.0d
 			width: 1.0d
-			x: -3.0d
+			x: -6.0d
 			y: 9.0d
 		}
 		{
@@ -311,6 +311,30 @@
 			width: 0.3d
 			x: -3.6d
 			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "ironfurnaces:block/allthemodium_furnace_front_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "ironfurnaces:block/vibranium_furnace_front_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			height: 1.0d
+			image: "ironfurnaces:block/unobtainium_furnace_front_on"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.0d
+			y: 9.0d
 		}
 	]
 	order_index: 1
@@ -1122,7 +1146,7 @@
 				item: { count: 1, id: "minecraft:paper" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.0d
 			y: 2.0d
 		}
 		{
@@ -1145,7 +1169,7 @@
 				item: { count: 1, id: "ironfurnaces:augment_blasting" }
 				type: "item"
 			}]
-			x: -10.0d
+			x: -10.5d
 			y: 3.0d
 		}
 		{
@@ -1167,7 +1191,7 @@
 				item: { count: 1, id: "ironfurnaces:augment_smoking" }
 				type: "item"
 			}]
-			x: -9.0d
+			x: -9.5d
 			y: 3.0d
 		}
 		{
@@ -1189,7 +1213,7 @@
 				item: { count: 1, id: "ironfurnaces:augment_factory" }
 				type: "item"
 			}]
-			x: -10.0d
+			x: -10.5d
 			y: 4.0d
 		}
 		{
@@ -1210,7 +1234,7 @@
 				item: { count: 1, id: "ironfurnaces:augment_generator" }
 				type: "item"
 			}]
-			x: -9.0d
+			x: -9.5d
 			y: 4.0d
 		}
 		{
@@ -1232,7 +1256,7 @@
 				item: { count: 1, id: "ironfurnaces:augment_speed" }
 				type: "item"
 			}]
-			x: -10.0d
+			x: -10.5d
 			y: 5.0d
 		}
 		{
@@ -1254,7 +1278,7 @@
 				item: { count: 1, id: "ironfurnaces:augment_fuel" }
 				type: "item"
 			}]
-			x: -9.0d
+			x: -9.5d
 			y: 5.0d
 		}
 		{
@@ -1320,16 +1344,13 @@
 			hide_dependency_lines: true
 			id: "20EC8001A05CE2C8"
 			rewards: [{
-				id: "5A8FFF85B18A2973"
+				count: 2
+				id: "1CAA20F71E9C8A12"
 				item: {
-					components: {
-						"mekanism:energy": {
-							energy_containers: [L;4000000L]
-						}
-					}
 					count: 1
-					id: "mekanism:basic_energy_cube"
+					id: "minecraft:redstone_block"
 				}
+				random_bonus: 1
 				type: "item"
 			}]
 			tasks: [
@@ -1344,7 +1365,7 @@
 					type: "item"
 				}
 			]
-			x: -9.5d
+			x: -10.0d
 			y: 6.0d
 		}
 		{
@@ -1378,7 +1399,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 5.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -1421,7 +1442,7 @@
 				item: { count: 8, id: "ironfurnaces:rainbow_plating" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.0d
 			y: 3.0d
 		}
 		{
@@ -1464,7 +1485,7 @@
 				item: { count: 1, id: "ironfurnaces:item_copy" }
 				type: "item"
 			}]
-			x: -8.0d
+			x: -8.5d
 			y: 4.0d
 		}
 		{
@@ -1621,6 +1642,99 @@
 			]
 			x: 0.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["79C4CF8D7312FC28"]
+			id: "3A4C17878FC8315B"
+			optional: true
+			rewards: [
+				{
+					id: "267CF2D64101DD03"
+					item: {
+						count: 1
+						id: "ironfurnaces:upgrade_allthemodium"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "43B0A25C206C1D1B"
+					item: {
+						count: 1
+						id: "minecraft:coal_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "710A1EE625BB05C2"
+				item: { count: 1, id: "ironfurnaces:allthemodium_furnace" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3A4C17878FC8315B"]
+			id: "2E85D6E2CFCC356E"
+			optional: true
+			rewards: [
+				{
+					id: "66D125B9640849E3"
+					item: {
+						count: 1
+						id: "ironfurnaces:upgrade_vibranium"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "4C0D18289215A5F2"
+					item: {
+						count: 1
+						id: "minecraft:coal_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F5816CE50B317C9"
+				item: { count: 1, id: "ironfurnaces:vibranium_furnace" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2E85D6E2CFCC356E"]
+			id: "25080E3295B1DF01"
+			optional: true
+			rewards: [
+				{
+					id: "54105E0656B25E8A"
+					item: {
+						count: 1
+						id: "ironfurnaces:upgrade_unobtainium"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3280CDD99A393F11"
+					item: {
+						count: 1
+						id: "minecraft:coal_block"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "219B80EF2B90BBFD"
+				item: { count: 1, id: "ironfurnaces:unobtainium_furnace" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: 6.0d
 		}
 	]
 }

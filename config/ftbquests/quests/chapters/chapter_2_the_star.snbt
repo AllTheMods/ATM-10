@@ -1074,11 +1074,6 @@
 			id: "4B12425E74C5E511"
 			rewards: [
 				{
-					id: "266F03D97586FCF2"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					count: 3
 					id: "5803E0D047A40B36"
 					item: {
@@ -1086,6 +1081,11 @@
 						id: "minecraft:tnt"
 					}
 					type: "item"
+				}
+				{
+					id: "39DCF027DD7D851A"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -1132,17 +1132,18 @@
 			id: "57F107892FFA1F52"
 			rewards: [
 				{
-					id: "568A40362FECAA19"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
+					count: 2
 					id: "2318E07F0F0BE4D4"
 					item: {
 						count: 1
-						id: "allthetweaks:nether_star_block"
+						id: "minecraft:nether_star"
 					}
 					type: "item"
+				}
+				{
+					id: "482141AA100FEEC7"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -1224,11 +1225,6 @@
 			id: "4CB488E5CF10F3A4"
 			rewards: [
 				{
-					id: "639A2AC667E337B5"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					id: "39AEB8115BCD86E9"
 					item: {
 						count: 1
@@ -1243,6 +1239,11 @@
 						id: "minecraft:nether_star"
 					}
 					type: "item"
+				}
+				{
+					id: "3A5F39E22D054A95"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -1342,11 +1343,6 @@
 			id: "23254CE8487D2E68"
 			rewards: [
 				{
-					id: "0EDECC90C77B41CC"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					count: 3
 					id: "3CD7818C8147010A"
 					item: {
@@ -1354,6 +1350,11 @@
 						id: "minecraft:wither_skeleton_skull"
 					}
 					type: "item"
+				}
+				{
+					id: "315BB15E25A613CC"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -1400,11 +1401,6 @@
 			id: "263C9A0FC04472AB"
 			rewards: [
 				{
-					id: "4500EB02E63DC23F"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					id: "6CBE081AC55CF0CF"
 					item: {
 						count: 1
@@ -1426,6 +1422,11 @@
 						id: "evilcraft:dark_tank"
 					}
 					type: "item"
+				}
+				{
+					id: "3AE3D23CB413001B"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -1586,11 +1587,6 @@
 			id: "59EC02C1FBCF14EA"
 			rewards: [
 				{
-					id: "659A099D919E96FC"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					count: 4
 					id: "3AF2DE9B59EBF2B8"
 					item: {
@@ -1598,6 +1594,11 @@
 						id: "minecraft:ender_pearl"
 					}
 					type: "item"
+				}
+				{
+					id: "6B3A5D5AB181AD04"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -1893,17 +1894,17 @@
 			id: "0AE28C998A3BF136"
 			rewards: [
 				{
-					id: "5BF5E86C43AA8D29"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					id: "48CABEE6C3E28472"
 					item: {
 						count: 1
 						id: "allthecompressed:netherrack_5x"
 					}
 					type: "item"
+				}
+				{
+					id: "29ABE15EBBD8951B"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -2048,11 +2049,6 @@
 			id: "2F76D074AEA84A4D"
 			rewards: [
 				{
-					id: "4088D3B6C5AD4E8A"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					count: 64
 					id: "4221EE1BC1462832"
 					item: {
@@ -2061,11 +2057,17 @@
 					}
 					type: "item"
 				}
+				{
+					id: "62C04C28B872B810"
+					type: "xp_levels"
+					xp_levels: 1
+				}
 			]
 			size: 1.25d
 			tasks: [{
 				id: "05C05663B5598183"
 				item: { components: { "hostilenetworks:data_model": "hostilenetworks:ender_dragon" }, count: 1, id: "hostilenetworks:data_model" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 10.0d
@@ -3044,11 +3046,6 @@
 			id: "340CDF4357E22A43"
 			rewards: [
 				{
-					id: "644C08C516E3E574"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 5
 					id: "4D8A5DE5D26D5838"
 					item: {
@@ -3056,6 +3053,11 @@
 						id: "irons_spellbooks:arcane_essence"
 					}
 					type: "item"
+				}
+				{
+					id: "539532A204C98799"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -3134,11 +3136,6 @@
 			id: "752DD0BF36B70D88"
 			rewards: [
 				{
-					id: "39376A8FF1E62BFC"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 2
 					id: "6A795EF7CBA25DF7"
 					item: {
@@ -3146,6 +3143,11 @@
 						id: "minecraft:coal_block"
 					}
 					type: "item"
+				}
+				{
+					id: "2C2A7012D1F87F52"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "rsquare"
@@ -3189,11 +3191,6 @@
 			id: "29D28983E0200A3C"
 			rewards: [
 				{
-					id: "5F4864A3730123AA"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 3
 					id: "3905885D9FE438CA"
 					item: {
@@ -3201,6 +3198,11 @@
 						id: "ars_nouveau:source_gem"
 					}
 					type: "item"
+				}
+				{
+					id: "0CEB015F81193512"
+					type: "xp"
+					xp: 100
 				}
 			]
 			shape: "rsquare"
