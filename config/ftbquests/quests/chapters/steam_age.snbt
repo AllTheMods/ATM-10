@@ -1,0 +1,269 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "steam_age"
+	group: "04940E995398AE43"
+	id: "37BC0E99F564D560"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "55D93D5D99A59CDD"
+			tasks: [{
+				id: "3CAB24FC6DDCD315"
+				item: { count: 1, id: "minecraft:copper_block" }
+				type: "item"
+			}]
+			x: -17.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["55D93D5D99A59CDD"]
+			id: "7AADB58621BC1254"
+			tasks: [
+				{
+					id: "3B6E674F4C958EA6"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:forge_hammer_tools)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "748F89C25D4C1F41"
+					item: { count: 1, id: "modern_industrialization:forge_hammer" }
+					type: "item"
+				}
+			]
+			x: -18.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["55D93D5D99A59CDD"]
+			id: "6FF20C2FB977C142"
+			tasks: [{
+				id: "766EA14EA7309CFA"
+				item: { count: 1, id: "modern_industrialization:steam_bucket" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"7AADB58621BC1254"
+				"6FF20C2FB977C142"
+			]
+			id: "5CA7C9BAFB635CB8"
+			tasks: [{
+				id: "178FE736EBDDED68"
+				item: { count: 1, id: "modern_industrialization:steam_mining_drill" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5CA7C9BAFB635CB8"]
+			id: "03B6A49B6E475AD3"
+			tasks: [{
+				id: "06D8E0295DAE3C50"
+				type: "checkmark"
+			}]
+			x: -16.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6A35508BE24A7E2E"]
+			id: "233F263576ECFAAD"
+			tasks: [{
+				id: "045C930E6902BEAB"
+				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
+				type: "item"
+			}]
+			x: -11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6A35508BE24A7E2E"]
+			id: "47592C1D5CD8E8B5"
+			tasks: [{
+				id: "40ABEF32118EAB2C"
+				item: { count: 1, id: "modern_industrialization:bronze_mixer" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A35508BE24A7E2E"]
+			id: "091C9CEBC8F9DDAC"
+			tasks: [{
+				id: "3466A5C97D64FA51"
+				item: { count: 1, id: "modern_industrialization:bronze_macerator" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A35508BE24A7E2E"]
+			id: "46EF342785B112DA"
+			tasks: [{
+				id: "56E4BD11CF03F3DE"
+				item: { count: 1, id: "modern_industrialization:bronze_cutting_machine" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A35508BE24A7E2E"]
+			id: "76B8E78A7520132A"
+			tasks: [{
+				id: "3183D932EAF2BA97"
+				item: { count: 1, id: "modern_industrialization:bronze_furnace" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6A35508BE24A7E2E"]
+			id: "5E1E66D2661B47DB"
+			tasks: [{
+				id: "1796126AC8B658FD"
+				item: { count: 1, id: "modern_industrialization:bronze_water_pump" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6A35508BE24A7E2E"]
+			id: "5921A4DAA423E428"
+			tasks: [{
+				id: "7E1E16A3FA33D752"
+				item: { count: 1, id: "modern_industrialization:bronze_boiler" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["03B6A49B6E475AD3"]
+			id: "5DE9A1BA33EB0D65"
+			tasks: [
+				{
+					id: "198CAAA315816D0F"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:dusts/bronze)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "065FC2FF2CE5C297"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/bronze)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -16.0d
+			y: -5.0d
+		}
+		{
+			id: "6EF9D54D8BD5D3B1"
+			tasks: [
+				{
+					id: "6C431916C712E73A"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:fluid_pipes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "5D11A5F31661EED3"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:item_pipes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			id: "079383355D14FBC9"
+			tasks: [
+				{
+					count: 21L
+					id: "7F6939850EB3B32C"
+					item: { count: 21, id: "modern_industrialization:fire_clay_bricks" }
+					type: "item"
+				}
+				{
+					id: "4EACD8E186851E6B"
+					item: { count: 1, id: "modern_industrialization:bronze_item_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "5D8C8B0F980F8B1C"
+					item: { count: 1, id: "modern_industrialization:bronze_item_output_hatch" }
+					type: "item"
+				}
+				{
+					id: "708A973D96074296"
+					item: { count: 1, id: "modern_industrialization:bronze_fluid_input_hatch" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			id: "119FF09D481F9178"
+			tasks: [
+				{
+					id: "7A10571B7176C540"
+					item: { count: 1, id: "modern_industrialization:bronze_tank" }
+					type: "item"
+				}
+				{
+					id: "4C65CF43BD435BD5"
+					item: { count: 1, id: "modern_industrialization:bronze_barrel" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			id: "5F09F75A97C6C6DB"
+			tasks: [
+				{
+					id: "51637A11BD8005A9"
+					item: { count: 1, id: "modern_industrialization:steam_blast_furnace" }
+					type: "item"
+				}
+				{
+					id: "01670FE51F56354F"
+					item: { count: 1, id: "modern_industrialization:bronze_fluid_output_hatch" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5DE9A1BA33EB0D65"]
+			id: "6A35508BE24A7E2E"
+			tasks: [{
+				id: "4A06BD24E3685F16"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/bronze)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -4.0d
+		}
+		{
+			id: "34E30B010B851E4A"
+			tasks: [{
+				id: "511B3B151BA49AAF"
+				item: { count: 1, id: "modern_industrialization:bronze_machine_casing" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -6.0d
+		}
+	]
+}
