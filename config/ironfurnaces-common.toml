@@ -1,0 +1,246 @@
+#Furnace Settings
+[furnaces]
+
+	[furnaces.energy]
+		# How much energy can be stored in tier 0 furnaces.
+		# Default: 80 000
+		#Range: > 4000
+		tier_0 = 80000
+		# How much energy can be stored in tier 1 furnaces.
+		# Default: 200 000
+		#Range: > 4000
+		tier_1 = 200000
+		# How much energy can be stored in tier 2 furnaces.
+		# Default: 1 000 000
+		#Range: > 4000
+		tier_2 = 1000000
+
+	[furnaces.iron_furnace]
+		# What tier this furnace should be.
+		# Default: 0
+		#Range: 0 ~ 2
+		tier = 0
+		# Number of ticks to complete one smelting operation.
+		# 200 ticks is what a regular furnace takes.
+		# Default: 160
+		#Range: 2 ~ 72000
+		speed = 160
+		# How much RF to generate per tick
+		# Default: 40
+		#Range: 1 ~ 100000
+		generation = 40
+
+	[furnaces.copper_furnace]
+		# What tier this furnace should be.
+		# Default: 0
+		#Range: 0 ~ 2
+		tier = 0
+		# Number of ticks to complete one smelting operation.
+		# 200 ticks is what a regular furnace takes.
+		# Default: 180
+		#Range: 2 ~ 72000
+		speed = 180
+		# How much RF to generate per tick
+		# Default: 40
+		#Range: 1 ~ 100000
+		generation = 40
+
+	[furnaces.gold_furnace]
+		# What tier this furnace should be.
+		# Default: 1
+		#Range: 0 ~ 2
+		tier = 1
+		# Number of ticks to complete one smelting operation.
+		# 200 ticks is what a regular furnace takes.
+		# Default: 120
+		#Range: 2 ~ 72000
+		speed = 120
+		# How much RF to generate per tick
+		# Default: 160
+		#Range: 1 ~ 100000
+		generation = 160
+
+	[furnaces.diamond_furnace]
+		# What tier this furnace should be.
+		# Default: 1
+		#Range: 0 ~ 2
+		tier = 2
+		# Number of ticks to complete one smelting operation.
+		# 200 ticks is what a regular furnace takes.
+		# Default: 80
+		#Range: 2 ~ 72000
+		speed = 80
+		# How much RF to generate per tick
+		# Default: 240
+		#Range: 1 ~ 100000
+		generation = 240
+
+	[furnaces.emerald_furnace]
+		# What tier this furnace should be.
+		# Default: 1
+		#Range: 0 ~ 2
+		tier = 2
+		# Number of ticks to complete one smelting operation.
+		# 200 ticks is what a regular furnace takes.
+		# Default: 40
+		#Range: 2 ~ 72000
+		speed = 40
+		# How much RF to generate per tick
+		# Default: 320
+		#Range: 1 ~ 100000
+		generation = 320
+
+	[furnaces.silver_furnace]
+		# What tier this furnace should be.
+		# Default: 1
+		#Range: 0 ~ 2
+		tier = 1
+		# Number of ticks to complete one smelting operation.
+		# 200 ticks is what a regular furnace takes.
+		# Default: 140
+		#Range: 2 ~ 72000
+		speed = 140
+		# How much RF to generate per tick
+		# Default: 100
+		#Range: 1 ~ 100000
+		generation = 100
+
+	[furnaces.crystal_furnace]
+		# What tier this furnace should be.
+		# Default: 2
+		#Range: 0 ~ 2
+		tier = 2
+		# Number of ticks to complete one smelting operation.
+		# 200 ticks is what a regular furnace takes.
+		# Default: 40
+		#Range: 2 ~ 72000
+		speed = 40
+		# How much RF to generate per tick
+		# Default: 360
+		#Range: 1 ~ 100000
+		generation = 360
+
+	[furnaces.obsidian_furnace]
+		# What tier this furnace should be.
+		# Default: 2
+		#Range: 0 ~ 2
+		tier = 2
+		# Number of ticks to complete one smelting operation.
+		# 200 ticks is what a regular furnace takes.
+		# Default: 20
+		#Range: 2 ~ 72000
+		speed = 20
+		# How much RF to generate per tick
+		# Default: 500
+		#Range: 1 ~ 100000
+		generation = 500
+
+	[furnaces.netherite_furnace]
+		# What tier this furnace should be.
+		# Default: 2
+		#Range: 0 ~ 2
+		tier = 2
+		# Number of ticks to complete one smelting operation.
+		# 200 ticks is what a regular furnace takes.
+		# Default: 5
+		#Range: 2 ~ 72000
+		speed = 5
+		# How much RF to generate per tick
+		# Default: 1000
+		#Range: 1 ~ 100000
+		generation = 1000
+
+	[furnaces.million_furnace]
+		# What tier this furnace should be.
+		# Default: 2
+		#Range: 0 ~ 2
+		tier = 2
+
+	[furnaces.rainbow_furnace]
+		# Number of ticks to complete one smelting operation.
+		# 200 ticks is what a regular furnace takes.
+		# Default: 20
+		#Range: 2 ~ 72000
+		speed = 20
+		# How much power the Rainbow Furnace will generate.
+		# Default: 50000
+		#Range: 1 ~ 100000000
+		rainbow_generation = 50000
+		# How much RF to generate per tick
+		# Default: 2000
+		#Range: 1 ~ 100000
+		generation = 2000
+
+	[furnaces.recipeMaxXPLevel]
+		# How many levels of experience that can be stored in recipes stored in the furnace, after the experience stored in the recipe reaches this value (in levels) it will be voided.
+		# Default: 100 
+		# 100 levels is 30971 XP
+		#Range: 1 ~ 1000
+		level = 100
+
+#Modded Furnace Settings
+[modded_furnaces]
+
+	[modded_furnaces.allthemodium_furnace]
+		# Number of ticks to complete one smelting operation.
+		# 200 ticks is what a regular furnace takes.
+		# Default: 5
+		#Range: 1 ~ 72000
+		speed = 5
+		# Number of items that can be smelted at once. The regular furnace only smelts 1 item at once of course.
+		# Default: 16
+		#Range: 1 ~ 64
+		mult = 16
+		# How much RF to generate per tick
+		# Default: 2000
+		#Range: 1 ~ 100000
+		generation = 2000
+		# What tier this furnace should be.
+		# Default: 2
+		#Range: 0 ~ 2
+		tier = 2
+
+	[modded_furnaces.vibranium_furnace]
+		# Number of ticks to complete one smelting operation.
+		# 200 ticks is what a regular furnace takes.
+		# Default: 3
+		#Range: 1 ~ 72000
+		speed = 3
+		# Number of items that can be smelted at once. The regular furnace only smelts 1 item at once of course.
+		# Default: 32
+		#Range: 1 ~ 64
+		mult = 32
+		# How much RF to generate per tick
+		# Default: 3000
+		#Range: 1 ~ 100000
+		generation = 3000
+		# What tier this furnace should be.
+		# Default: 2
+		#Range: 0 ~ 2
+		tier = 2
+
+	[modded_furnaces.unobtainium_furnace]
+		# Number of ticks to complete one smelting operation.
+		# 200 ticks is what a regular furnace takes.
+		# Default: 1
+		#Range: 1 ~ 72000
+		speed = 1
+		# Number of items that can be smelted at once. The regular furnace only smelts 1 item at once of course.
+		# Default: 64
+		#Range: 1 ~ 64
+		mult = 64
+		# How much RF to generate per tick
+		# Default: 5000
+		#Range: 1 ~ 100000
+		generation = 5000
+		# What tier this furnace should be.
+		# Default: 2
+		#Range: 0 ~ 2
+		tier = 2
+
+#Misc
+[misc]
+
+	[misc.misc]
+		# Enable or disable light-updates, furances will no longer emit light, true = disable
+		lightupdates = true
