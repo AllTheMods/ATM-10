@@ -1,0 +1,33 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/glowstone"
+      }
+    }
+  ],
+  "output": {
+    "tag": "c:dusts/glowstone"
+  },
+  "rarity": [
+    {
+      "biome_filter": {
+          "blacklist": [],
+          "whitelist": ["atm10:vibranium_spawnable"]
+        },
+        "dimension_filter": {
+          "blacklist": [],
+          "whitelist": []
+        },
+      "depth_min": 100,
+      "depth_max": 123,
+      "weight": 99
+    }
+  ],
+  "catalyst": {
+    "item": "industrialforegoing:vibranium_pickaxe"
+  },
+  "type": "industrialforegoing:laser_drill_ore"
+}

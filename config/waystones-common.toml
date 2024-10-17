@@ -1,0 +1,82 @@
+[general]
+	#List of waystone origins that should prevent others from editing. PLAYER is special in that it allows only edits by the owner of the waystone.
+	restrictedWaystones = ["PLAYER"]
+	#Add GLOBAL to allow every player to create global waystones.
+	allowedVisibilities = []
+	#The time in ticks that it takes to use a warp stone. This is the charge-up time when holding right-click.
+	#Range: > -2147483648
+	warpStoneUseTime = 32
+	#The time in ticks that it takes to use a warp plate. This is the time the player has to stand on top for.
+	#Range: > -2147483648
+	warpPlateUseTime = 15
+	#The time in ticks it takes to use a scroll. This is the charge-up time when holding right-click.
+	#Range: > -2147483648
+	scrollUseTime = 32
+
+[teleports]
+	#Set to false to simply disable all xp costs. See warpRequirements for more fine-grained control.
+	enableCosts = false
+	#Set to false to simply disable all cooldowns. See warpRequirements for more fine-grained control.
+	enableCooldowns = true
+	#List of warp requirements with comma-separated parameters in parentheses. Conditions can be defined as comma-separated list in square brackets. Will be applied in order.
+	warpRequirements = ["[is_not_interdimensional] scaled_add_xp_cost(distance, 0.01)", "[is_interdimensional] add_xp_cost(27)", "[source_is_warp_plate] multiply_xp_cost(0)", "[target_is_global] multiply_xp_cost(0)", "min_xp_cost(0)", "max_xp_cost(27)", "[source_is_inventory_button] add_cooldown(inventory_button, 300)"]
+	#Set to ENABLED to have nearby pets teleport with you. Set to SAME_DIMENSION to have nearby pets teleport with you only if you're not changing dimensions. Set to DISABLED to disable.
+	#Allowed Values: ENABLED, SAME_DIMENSION, DISABLED
+	transportPets = "DISABLED"
+	#Set to ENABLED to have leashed mobs teleport with you. Set to SAME_DIMENSION to have leashed mobs teleport with you only if you're not changing dimensions. Set to DISABLED to disable.
+	#Allowed Values: ENABLED, SAME_DIMENSION, DISABLED
+	transportLeashed = "ENABLED"
+	#List of entities that cannot be teleported, either as pet, leashed, or on warp plates.
+	entityDenyList = ["minecraft:wither"]
+
+[inventoryButton]
+	#Set to 'NONE' for no inventory button. Set to 'NEAREST' for an inventory button that teleports to the nearest waystone. Set to 'ANY' for an inventory button that opens the waystone selection menu. Set to a waystone name for an inventory button that teleports to a specifically named waystone.
+	inventoryButton = ""
+	#The x position of the inventory button in the inventory.
+	#Range: > -2147483648
+	inventoryButtonX = 58
+	#The y position of the inventory button in the inventory.
+	#Range: > -2147483648
+	inventoryButtonY = 60
+	#The y position of the inventory button in the creative menu.
+	#Range: > -2147483648
+	creativeInventoryButtonX = 88
+	#The y position of the inventory button in the creative menu.
+	#Range: > -2147483648
+	creativeInventoryButtonY = 33
+
+[worldGen]
+	#Set to 'DEFAULT' to only generate the normally textured waystones. Set to 'MOSSY' or 'SANDY' to generate all as that variant. Set to 'BIOME' to make the style depend on the biome it is generated in.
+	#Allowed Values: DEFAULT, MOSSY, SANDY, BLACKSTONE, DEEPSLATE, END_STONE, BIOME
+	wildWaystoneStyle = "BIOME"
+	#Approximate chunk distance between wild waystones being generated. Set to 0 to disable generation.
+	#Range: > -2147483648
+	chunksBetweenWildWaystones = 25
+	#List of dimensions that wild waystones are allowed to spawn in. If left empty, all dimensions except those in wildWaystonesDimensionDenyList are used.
+	wildWaystonesDimensionAllowList = ["minecraft:the_nether", "minecraft:overworld", "minecraft:the_end"]
+	#List of dimensions that wild waystones are not allowed to spawn in. Only used if wildWaystonesDimensionAllowList is empty.
+	wildWaystonesDimensionDenyList = []
+	#Set to 'PRESET_FIRST' to first use names from the nameGenerationPresets. Set to 'PRESET_ONLY' to use only those custom names. Set to 'MIXED' to have some waystones use custom names, and others random names.
+	#Allowed Values: PRESET_FIRST, RANDOM_ONLY, PRESET_ONLY, MIXED
+	nameGenerationMode = "PRESET_FIRST"
+	#The template to use when generating new names. Supported placeholders are {Biome} (english biome name) and {MrPork} (the default name generator).
+	nameGenerationTemplate = "{MrPork}"
+	#These names will be used for the PRESET name generation mode. See the nameGenerationMode option for more info.
+	nameGenerationPresets = []
+	#Set to REGULAR to have waystones spawn in some villages. Set to FREQUENT to have waystones spawn in most villages. Set to DISABLED to disable waystone generation in villages. Waystones will only spawn in vanilla or supported villages.
+	#Allowed Values: DISABLED, REGULAR, FREQUENT
+	spawnInVillages = "REGULAR"
+
+[client]
+	#If enabled, the text overlay on waystones will no longer always render at full brightness.
+	disableTextGlow = false
+
+[compatibility]
+	#If enabled, JourneyMap waypoints will be created for each activated waystone.
+	journeyMap = true
+	#If enabled, JourneyMap waypoints will only be created if the mod 'JourneyMap Integration' is not installed
+	preferJourneyMapIntegrationMod = true
+	#If enabled, Waystones will add markers for waystones and sharestones to BlueMap.
+	blueMap = true
+	#If enabled, Waystones will add markers for waystones and sharestones to Dynmap.
+	dynmap = true

@@ -195,6 +195,9 @@
 		}
 		{
 			dependencies: ["57F47BA495B27F83"]
+			icon: {
+				id: "minecraft:iron_ore"
+			}
 			id: "3917DECAEF56A06A"
 			rewards: [{
 				count: 16
@@ -215,6 +218,9 @@
 		}
 		{
 			dependencies: ["3917DECAEF56A06A"]
+			icon: {
+				id: "minecraft:diamond_ore"
+			}
 			id: "6601450C63FEEE61"
 			rewards: [{
 				count: 8
@@ -255,6 +261,9 @@
 		}
 		{
 			dependencies: ["17FE0C7748DD65CA"]
+			icon: {
+				id: "allthemodium:allthemodium_ore"
+			}
 			id: "03E05018D64DDEE1"
 			rewards: [{
 				count: 2
@@ -275,6 +284,9 @@
 		}
 		{
 			dependencies: ["03E05018D64DDEE1"]
+			icon: {
+				id: "allthemodium:unobtainium_ore"
+			}
 			id: "09733948CBCB3FB9"
 			rewards: [{
 				id: "50BB46C524B3F283"
@@ -1328,6 +1340,24 @@
 			}]
 			x: 2.0d
 			y: 4.0d
+		}
+		{
+			id: "16AAC61729C44881"
+			invisible: true
+			optional: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "66ACCF967C939342"
+					type: "checkmark"
+				}
+				{
+					id: "3C16EE29B250B557"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: -1.5d
 		}
 	]
 }

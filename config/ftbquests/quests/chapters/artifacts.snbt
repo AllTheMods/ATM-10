@@ -117,7 +117,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "19B393433FB0C62F"
 			rewards: [{
 				id: "1D6B80A0E1346CA8"
@@ -134,7 +133,6 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "010607466D565B53"
 			rewards: [{
 				id: "67AFD1C6A9878176"
@@ -151,7 +149,6 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "3EC8A0B89788D079"
 			rewards: [{
 				id: "0CA5EB7B12A44248"
@@ -168,7 +165,6 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			hide_details_until_startable: false
 			id: "2215FB0777D7029D"
 			rewards: [{
@@ -186,7 +182,6 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "74B352457BF1541B"
 			rewards: [{
 				id: "66FA05EA0440A12F"
@@ -203,7 +198,6 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "4A7AEBEB87CEC274"
 			rewards: [{
 				id: "27A249F2662A57B2"
@@ -220,7 +214,6 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "122E6E7CABCB17E7"
 			rewards: [{
 				id: "4BB64F9FF51DBA77"
@@ -237,7 +230,6 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "5040B3D29F238BC0"
 			rewards: [{
 				id: "4B23025A3DF6FED3"
@@ -254,7 +246,6 @@
 			y: 11.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "4D3379D38237F830"
 			rewards: [{
 				id: "61AF877D7328B938"
@@ -271,7 +262,6 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "11C5F17C6BB1237B"
 			rewards: [{
 				id: "0BC4239F313D6CC9"
@@ -281,14 +271,13 @@
 			shape: "diamond"
 			tasks: [{
 				id: "48632D9698EB1A29"
-				item: { count: 1, id: "artifacts:withered_bracelet" }
+				item: { components: { "relics:data": { abilities: { abilities: { withered: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.28188d }, time: { initialValue: 2.89809d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:withered_bracelet" }
 				type: "item"
 			}]
 			x: -6.5d
 			y: 5.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "62622137648A4F56"
 			rewards: [{
 				id: "4D0311D0E6C9EE09"
@@ -305,7 +294,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "50A32AC6EDBC5854"
 			rewards: [{
 				id: "32ECEBDD3FC9EFCD"
@@ -314,14 +302,13 @@
 			}]
 			tasks: [{
 				id: "749900AF5B497E65"
-				item: { count: 1, id: "artifacts:onion_ring" }
+				item: { components: { "relics:data": { abilities: { abilities: { onion: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.42613d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:onion_ring" }
 				type: "item"
 			}]
 			x: 6.5d
 			y: 5.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "7188DC06A28AE30E"
 			rewards: [{
 				id: "0F118F21E3912277"
@@ -330,14 +317,13 @@
 			}]
 			tasks: [{
 				id: "2F5269ABA03B3701"
-				item: { count: 1, id: "artifacts:golden_hook" }
+				item: { components: { "relics:data": { abilities: { abilities: { hook: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.29343d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:golden_hook" }
 				type: "item"
 			}]
 			x: 6.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "73FC51144FC2DA52"
 			rewards: [{
 				id: "6D6A664B87EA7794"
@@ -346,14 +332,13 @@
 			}]
 			tasks: [{
 				id: "308C57B7ACB795F0"
-				item: { count: 1, id: "artifacts:vampiric_glove" }
+				item: { components: { "relics:data": { abilities: { abilities: { vampire: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.18219d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:vampiric_glove" }
 				type: "item"
 			}]
 			x: 5.5d
 			y: 5.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "3B3BD39BA02DCA13"
 			rewards: [{
 				id: "067713AF0F04CB00"
@@ -370,7 +355,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "427014BDE06DE631"
 			rewards: [{
 				id: "0012D00B951BDB21"
@@ -386,7 +370,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "3705D303CF423804"
 			rewards: [{
 				id: "2F22132F2DCE4DBD"
@@ -396,14 +379,13 @@
 			shape: "diamond"
 			tasks: [{
 				id: "58EBE55746C50688"
-				item: { count: 1, id: "artifacts:power_glove" }
+				item: { components: { "relics:data": { abilities: { abilities: { power: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.29708d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:power_glove" }
 				type: "item"
 			}]
 			x: -5.5d
 			y: 5.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "6A452BFC8A967C39"
 			rewards: [{
 				id: "7897EE0226BBAEFB"
@@ -420,7 +402,6 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "3525D5DCC3A534D9"
 			rewards: [{
 				id: "50F3D3094E068198"
@@ -429,14 +410,13 @@
 			}]
 			tasks: [{
 				id: "29454B0A459EAA52"
-				item: { count: 1, id: "artifacts:digging_claws" }
+				item: { components: { "relics:data": { abilities: { abilities: { claws: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.2139d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:digging_claws" }
 				type: "item"
 			}]
 			x: 5.0d
 			y: 3.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "321F16645640C462"
 			rewards: [{
 				id: "1BA6843536347774"
@@ -453,7 +433,6 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "5DE7C4FD5FA29236"
 			rewards: [{
 				id: "3DD92AF42189207A"
@@ -470,7 +449,6 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "589F1D502F680075"
 			rewards: [{
 				id: "2AEE686084EFFE16"
@@ -487,7 +465,6 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "623796B1D7981E59"
 			rewards: [{
 				id: "2DD1B2EB53FA1B06"
@@ -497,14 +474,13 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "54E784C8438E430A"
-				item: { count: 1, id: "artifacts:crystal_heart" }
+				item: { components: { "relics:data": { abilities: { abilities: { heart: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 3.35424d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:crystal_heart" }
 				type: "item"
 			}]
 			x: -1.0d
 			y: 8.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "1E40ACF3E69A4100"
 			rewards: [{
 				id: "47FAD59E3EB18EB3"
@@ -514,14 +490,13 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "6D34B89C0FD0BA2B"
-				item: { count: 1, id: "artifacts:antidote_vessel" }
+				item: { components: { "relics:data": { abilities: { abilities: { antidote: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.24333d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:antidote_vessel" }
 				type: "item"
 			}]
 			x: 0.0d
 			y: 8.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "5EB7CE3A1DCD3E9B"
 			rewards: [{
 				id: "27705590C2DBFCBE"
@@ -531,14 +506,13 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "1762FBFEF8647F60"
-				item: { count: 1, id: "artifacts:universal_attractor" }
+				item: { components: { "relics:data": { abilities: { abilities: { attractor: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { radius: { initialValue: 3.21965d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:universal_attractor" }
 				type: "item"
 			}]
 			x: 1.0d
 			y: 8.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "4933CF4675E77D50"
 			rewards: [{
 				id: "6262D735C724ACC5"
@@ -555,7 +529,6 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "436E4E3515BCCDE9"
 			rewards: [{
 				id: "695CA7D1EFB035F3"
@@ -565,14 +538,13 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "3FF51BD0B49B2F93"
-				item: { count: 1, id: "artifacts:cloud_in_a_bottle" }
+				item: { components: { "relics:data": { abilities: { abilities: { jump: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { count: { initialValue: 1.29921d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:cloud_in_a_bottle" }
 				type: "item"
 			}]
 			x: 2.0d
 			y: 7.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "0A1D4228271DECA3"
 			rewards: [{
 				id: "740BE05C2E4F0058"
@@ -589,7 +561,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "221C9EDA651144BA"
 			rewards: [{
 				id: "2613BC08CDB9516F"
@@ -606,7 +577,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "3446803FB59D8875"
 			rewards: [{
 				id: "25B13403204151CF"
@@ -616,14 +586,13 @@
 			shape: "circle"
 			tasks: [{
 				id: "0562A0A5A57E8DD8"
-				item: { count: 1, id: "artifacts:thorn_pendant" }
+				item: { components: { "relics:data": { abilities: { abilities: { poison: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.28526d }, multiplier: { initialValue: 0.05757d }, time: { initialValue: 2.843d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:thorn_pendant" }
 				type: "item"
 			}]
 			x: 0.0d
 			y: 2.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "27E951F4F4F6F847"
 			rewards: [{
 				id: "78E44C67B75C7237"
@@ -633,14 +602,13 @@
 			shape: "circle"
 			tasks: [{
 				id: "609310B07E907A4F"
-				item: { count: 1, id: "artifacts:flame_pendant" }
+				item: { components: { "relics:data": { abilities: { abilities: { fire: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.25932d }, time: { initialValue: 2.71765d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:flame_pendant" }
 				type: "item"
 			}]
 			x: -1.5d
 			y: 3.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "70C7D92844089DEB"
 			rewards: [{
 				id: "624BB858D3CB0912"
@@ -650,14 +618,13 @@
 			shape: "circle"
 			tasks: [{
 				id: "62EB681EEB76FCDB"
-				item: { count: 1, id: "artifacts:shock_pendant" }
+				item: { components: { "relics:data": { abilities: { abilities: { lightning: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.17958d }, damage: { initialValue: 2.73713d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:shock_pendant" }
 				type: "item"
 			}]
 			x: -0.5d
 			y: 4.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "0E716B90E60C486B"
 			rewards: [{
 				id: "59599CA4761C5FE5"
@@ -674,7 +641,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "72D6265E35814927"
 			rewards: [{
 				id: "244EB416BE853DED"
@@ -684,14 +650,13 @@
 			shape: "circle"
 			tasks: [{
 				id: "5AA765DFA49DA1C9"
-				item: { count: 1, id: "artifacts:cross_necklace" }
+				item: { components: { "relics:data": { abilities: { abilities: { invulnerability: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { modifier: { initialValue: 0.18139d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:cross_necklace" }
 				type: "item"
 			}]
 			x: -2.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "7503823ACDDB0491"
 			rewards: [{
 				id: "271F86DD9828F8D6"
@@ -701,14 +666,13 @@
 			shape: "circle"
 			tasks: [{
 				id: "07DB486C6CAF2E13"
-				item: { count: 1, id: "artifacts:lucky_scarf" }
+				item: { components: { "relics:data": { abilities: { abilities: { luck: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.168d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:lucky_scarf" }
 				type: "item"
 			}]
 			x: 1.5d
 			y: 3.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "145E7D1A88B83DDD"
 			rewards: [{
 				id: "4AFFDBA7D63244B6"
@@ -718,14 +682,13 @@
 			shape: "circle"
 			tasks: [{
 				id: "3244560CD2EE978D"
-				item: { count: 1, id: "artifacts:scarf_of_invisibility" }
+				item: { components: { "relics:data": { abilities: { abilities: { invisible: { extender: { cooldown: 0, cooldownCap: 0, ticking: 1b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { radius: { initialValue: 4.47921d }, threshold: { initialValue: 0.07432d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:scarf_of_invisibility" }
 				type: "item"
 			}]
 			x: 2.0d
 			y: 2.5d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "29448D08C8777425"
 			rewards: [{
 				id: "738FEBB9C29A0B70"
@@ -735,14 +698,13 @@
 			shape: "square"
 			tasks: [{
 				id: "7E2317305BD5F842"
-				item: { count: 1, id: "artifacts:anglers_hat" }
+				item: { components: { "relics:data": { abilities: { abilities: { catch: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.14198d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:anglers_hat" }
 				type: "item"
 			}]
 			x: -1.5d
 			y: -2.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "6FBE5B5D5027B32C"
 			rewards: [{
 				id: "3BAE1E0F292410A8"
@@ -752,14 +714,13 @@
 			shape: "square"
 			tasks: [{
 				id: "7EC988A7F600F860"
-				item: { count: 1, id: "artifacts:cowboy_hat" }
+				item: { components: { "relics:data": { abilities: { abilities: { cowboy: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { speed: { initialValue: 0.33382d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:cowboy_hat" }
 				type: "item"
 			}]
 			x: 1.5d
 			y: -2.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "5F5E43B3F51CAE9E"
 			rewards: [{
 				id: "29087C6E2B87AD00"
@@ -769,14 +730,13 @@
 			shape: "square"
 			tasks: [{
 				id: "1F1665E13DA82D42"
-				item: { count: 1, id: "artifacts:superstitious_hat" }
+				item: { components: { "relics:data": { abilities: { abilities: { looting: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.13878d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:superstitious_hat" }
 				type: "item"
 			}]
 			x: -0.5d
 			y: -2.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "73B73870B29DFAD9"
 			rewards: [{
 				id: "068B300389DB2FA0"
@@ -786,14 +746,13 @@
 			shape: "square"
 			tasks: [{
 				id: "6B7D97464175DAD6"
-				item: { count: 1, id: "artifacts:villager_hat" }
+				item: { components: { "relics:data": { abilities: { abilities: { discount: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { multiplier: { initialValue: 16.958d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:villager_hat" }
 				type: "item"
 			}]
 			x: 0.5d
 			y: -2.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "2AD78E22988A92D3"
 			rewards: [{
 				id: "688DBF188490BF6D"
@@ -810,7 +769,6 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "16255FB20F35A9D9"
 			rewards: [{
 				id: "012EC765D75BE091"
@@ -820,14 +778,13 @@
 			shape: "square"
 			tasks: [{
 				id: "4E77B753AADEF6A8"
-				item: { count: 1, id: "artifacts:snorkel" }
+				item: { components: { "relics:data": { abilities: { abilities: { diving: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 8.75475d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:snorkel" }
 				type: "item"
 			}]
 			x: -0.5d
 			y: -3.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "3E0643EA9183CDAE"
 			rewards: [{
 				id: "226C5CDF795A026A"
@@ -837,14 +794,13 @@
 			shape: "square"
 			tasks: [{
 				id: "485807A0B369A8F7"
-				item: { count: 1, id: "artifacts:novelty_drinking_hat" }
+				item: { components: { "relics:data": { abilities: { abilities: { drinking: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { speed: { initialValue: 0.6774d } } }, nutrition: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { hunger: { initialValue: 1.87071d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:novelty_drinking_hat" }
 				type: "item"
 			}]
 			x: 0.5d
 			y: -4.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "2607F3DC07049785"
 			rewards: [{
 				id: "779361BFB6009F94"
@@ -854,14 +810,13 @@
 			shape: "square"
 			tasks: [{
 				id: "5D461DEF3DEDCA4A"
-				item: { count: 1, id: "artifacts:plastic_drinking_hat" }
+				item: { components: { "relics:data": { abilities: { abilities: { drinking: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { speed: { initialValue: 0.48925d } } }, nutrition: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { hunger: { initialValue: 2.39904d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:plastic_drinking_hat" }
 				type: "item"
 			}]
 			x: 0.5d
 			y: -3.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "789AF6D0A6321945"
 			rewards: [{
 				id: "7F76ED98F73DF59F"
@@ -895,7 +850,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "4564B577CB4EC046"
 			rewards: [{
 				id: "628ED3546A3712E7"
@@ -912,7 +866,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["5CE44C58A470E48E"]
 			id: "3E1A3BC8642390B3"
 			rewards: [{
 				id: "74CAAAE55F9C1000"
@@ -929,7 +882,6 @@
 			y: 4.0d
 		}
 		{
-			hide_dependent_lines: true
 			id: "5CE44C58A470E48E"
 			rewards: [{
 				id: "4124A7CA30FAB48B"

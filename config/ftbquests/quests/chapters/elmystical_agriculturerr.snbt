@@ -4385,6 +4385,7 @@
 			tasks: [{
 				id: "231C01B33E5B4FF0"
 				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:awakened_supremium" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 18.5d
@@ -4911,8 +4912,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(mysticalagriculture:witherproof_block)item(mysticalagriculture:witherproof_bricks)item(mysticalagriculture:witherproof_glass))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 4.5d
-			y: 4.5d
+			x: 9.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["45549E52B3CE2D23"]
@@ -5103,6 +5104,19 @@
 		{
 			dependencies: ["202B1F54D3F06DAB"]
 			id: "552335ED867D6EFA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B13F22B6DCE3023"
+					table_id: 8775109450478234580L
+					type: "random"
+				}
+				{
+					id: "1337FA158A38DB13"
+					type: "xp"
+					xp: 200
+				}
+			]
 			tasks: [{
 				id: "3519BA3E872F1239"
 				item: { count: 1, id: "mysticalagradditions:insanium_coal_block" }
@@ -5114,6 +5128,19 @@
 		{
 			dependencies: ["7A103577EAE7B3F1"]
 			id: "3C9F5EB59D72AC90"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "59926247CE071F35"
+					table_id: 8775109450478234580L
+					type: "random"
+				}
+				{
+					id: "687521FF9379DF1E"
+					type: "xp"
+					xp: 150
+				}
+			]
 			tasks: [{
 				id: "042BEC73CB140FA8"
 				item: { count: 1, id: "mysticalagriculture:awakened_supremium_ingot_block" }

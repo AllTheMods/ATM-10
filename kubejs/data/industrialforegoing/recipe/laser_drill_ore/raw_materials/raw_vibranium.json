@@ -1,0 +1,32 @@
+{"neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:raw_materials/vibranium"
+      }
+    }
+  ],
+    "output": {
+      "tag": "c:raw_materials/vibranium"
+    },
+    "rarity": [
+      {
+        "biome_filter": {
+          "blacklist": [],
+          "whitelist": ["atm10:vibranium_spawnable"]
+        },
+        "dimension_filter": {
+          "blacklist": [],
+          "whitelist": []
+        },
+        "depth_min": 100,
+        "depth_max": 123,
+        "weight": 0
+      }
+    ],
+    "catalyst": {
+      "item": "allthemodium:vibranium_pickaxe"
+    },
+    "type": "industrialforegoing:laser_drill_ore"
+  }
