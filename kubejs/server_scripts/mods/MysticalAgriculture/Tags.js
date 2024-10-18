@@ -7,7 +7,9 @@ const seedID = [
     'mysticalagriculture:kivi_seeds',
     'mysticalagriculture:unexplored_wood_seeds',
     'mysticalagriculture:unobtainium_seeds',
-    'mysticalagriculture:vibranium_seeds'
+    'mysticalagriculture:vibranium_seeds',
+    'mysticalagriculture:crimson_iron_seeds',
+    'mysticalagriculture:azure_silver_seeds'
 ]
 
 ServerEvents.tags('item', allthemods => {
