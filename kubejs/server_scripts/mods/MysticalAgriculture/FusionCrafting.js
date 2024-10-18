@@ -13,6 +13,8 @@ ServerEvents.recipes(allthemods => {
     essenceCircle('allthemodium:unobtainium_nugget', 'unobtainium')
     essenceCircle('12x xycraft_world:kivi', 'kivi')
     essenceCircle('12x forbidden_arcanus:darkstone', 'darkstone')
+    essenceCircle('6x silentgear:azure_silver_ingot', 'azure_silver')
+    essenceCircle('6x silentgear:crimson_iron_ingot', 'crimson_iron')
 
     // infusion seed crafting
     function seedCrafting(output, middle, item1, item2, item3, item4, item5, item6, item7, item8){
@@ -33,7 +35,7 @@ ServerEvents.recipes(allthemods => {
         }).id(`kubejs:${output.replace(':', '/')}/infusion`)
     }
 
-    // magical soil crafting
+    // Magical Soil
     let soilMid = 'mysticalagradditions:insanium_farmland'
     let soil1 = 'mysticalagradditions:dragon_scale'
     let soil2 = 'mysticalagradditions:insanium_block'
