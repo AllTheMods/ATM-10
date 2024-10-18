@@ -9,6 +9,7 @@
 	quests: [
 		{
 			id: "55D93D5D99A59CDD"
+			optional: true
 			rewards: [
 				{
 					id: "59EB213D67EE1A88"
@@ -35,6 +36,7 @@
 		{
 			dependencies: ["55D93D5D99A59CDD"]
 			id: "7AADB58621BC1254"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -66,6 +68,7 @@
 		{
 			dependencies: ["55D93D5D99A59CDD"]
 			id: "6FF20C2FB977C142"
+			optional: true
 			rewards: [
 				{
 					id: "2550DDB5AA00EA27"
@@ -95,6 +98,7 @@
 				"6FF20C2FB977C142"
 			]
 			id: "5CA7C9BAFB635CB8"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -127,6 +131,7 @@
 		{
 			dependencies: ["5CA7C9BAFB635CB8"]
 			id: "03B6A49B6E475AD3"
+			optional: true
 			rewards: [{
 				id: "1DCDAC2E94F1BA41"
 				type: "xp"
@@ -142,6 +147,7 @@
 		{
 			dependencies: ["6A35508BE24A7E2E"]
 			id: "233F263576ECFAAD"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -166,6 +172,7 @@
 		{
 			dependencies: ["6A35508BE24A7E2E"]
 			id: "47592C1D5CD8E8B5"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -190,6 +197,7 @@
 		{
 			dependencies: ["6A35508BE24A7E2E"]
 			id: "091C9CEBC8F9DDAC"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -214,6 +222,7 @@
 		{
 			dependencies: ["6A35508BE24A7E2E"]
 			id: "46EF342785B112DA"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -238,6 +247,7 @@
 		{
 			dependencies: ["6A35508BE24A7E2E"]
 			id: "76B8E78A7520132A"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -262,6 +272,7 @@
 		{
 			dependencies: ["6A35508BE24A7E2E"]
 			id: "5E1E66D2661B47DB"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -286,6 +297,7 @@
 		{
 			dependencies: ["6A35508BE24A7E2E"]
 			id: "5921A4DAA423E428"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -310,6 +322,7 @@
 		{
 			dependencies: ["03B6A49B6E475AD3"]
 			id: "5DE9A1BA33EB0D65"
+			optional: true
 			rewards: [
 				{
 					count: 8
@@ -344,6 +357,7 @@
 		{
 			dependencies: ["03B6A49B6E475AD3"]
 			id: "6EF9D54D8BD5D3B1"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -375,6 +389,7 @@
 		{
 			dependencies: ["6A35508BE24A7E2E"]
 			id: "079383355D14FBC9"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -417,6 +432,7 @@
 		{
 			dependencies: ["03B6A49B6E475AD3"]
 			id: "119FF09D481F9178"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -448,6 +464,7 @@
 		{
 			dependencies: ["6A35508BE24A7E2E"]
 			id: "5F09F75A97C6C6DB"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -479,6 +496,7 @@
 		{
 			dependencies: ["5DE9A1BA33EB0D65"]
 			id: "6A35508BE24A7E2E"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -502,10 +520,7 @@
 			y: -5.0d
 		}
 		{
-			dependencies: [
-				"39A277844BE305FA"
-				"4B90B3B38E08A218"
-			]
+			dependencies: ["4B90B3B38E08A218"]
 			id: "3143588D93FC7999"
 			rewards: [
 				{
@@ -548,8 +563,8 @@
 				item: { count: 1, id: "alltheores:steel_ingot" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: -4.5d
+			x: -10.0d
+			y: -7.0d
 		}
 		{
 			dependencies: ["4C08862F47696F6F"]
@@ -572,8 +587,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_boiler" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -9.5d
+			x: -3.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["4C08862F47696F6F"]
@@ -596,8 +611,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_water_pump" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: -9.0d
+			x: -6.0d
+			y: -11.0d
 		}
 		{
 			dependencies: ["4C08862F47696F6F"]
@@ -620,8 +635,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_furnace" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -8.5d
+			x: -2.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["4C08862F47696F6F"]
@@ -644,7 +659,7 @@
 				item: { count: 1, id: "modern_industrialization:steel_compressor" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -3.0d
 			y: -9.5d
 		}
 		{
@@ -668,8 +683,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_cutting_machine" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -7.5d
+			x: -3.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4C08862F47696F6F"]
@@ -692,8 +707,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_mixer" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: -10.0d
+			x: -4.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["4C08862F47696F6F"]
@@ -716,8 +731,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_macerator" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: -9.0d
+			x: -2.5d
+			y: -8.5d
 		}
 		{
 			id: "5F0C9D4344046F5E"
@@ -784,8 +799,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_packer" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -3.0d
+			x: -6.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4B90B3B38E08A218"]
@@ -808,12 +823,13 @@
 				item: { count: 1, id: "modern_industrialization:steel_unpacker" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -2.0d
+			x: -7.5d
+			y: -4.0d
 		}
 		{
 			dependencies: ["4B90B3B38E08A218"]
 			id: "4C08862F47696F6F"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -832,12 +848,13 @@
 				item: { count: 1, id: "modern_industrialization:steel_upgrade" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: -6.5d
+			x: -7.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["6A35508BE24A7E2E"]
 			id: "39A277844BE305FA"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
