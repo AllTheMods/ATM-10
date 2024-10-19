@@ -128,7 +128,7 @@ ServerEvents.recipes(allthemods => {
   mekEnriching(
     {item: 'alltheores:sulfur'},
     {tag: 'c:ores/sulfur'},
-    {item: 'sulfur_ore_to_sulfur'},
+    'sulfur_ore_to_sulfur',
     4
   )
 
