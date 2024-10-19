@@ -1019,7 +1019,7 @@
 			}]
 			tasks: [{
 				id: "224A2A7012749DFC"
-				item: { count: 1, id: "rootsclassic:living_pickaxe" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(rootsclassic:living_pickaxe)item(naturesaura:infused_iron_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -1035,7 +1035,7 @@
 			}]
 			tasks: [{
 				id: "56B07E580BF13848"
-				item: { count: 1, id: "forbidden_arcanus:draco_arcanus_pickaxe" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(forbidden_arcanus:draco_arcanus_pickaxe)item(naturesaura:sky_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 3.0d
@@ -1335,7 +1335,7 @@
 			}]
 			tasks: [{
 				id: "236DA60F43220525"
-				item: { count: 1, id: "rootsclassic:living_sword" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(rootsclassic:living_sword)item(naturesaura:infused_iron_sword))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -1358,6 +1358,54 @@
 			]
 			x: 0.0d
 			y: -1.5d
+		}
+		{
+			id: "7CA60DC31447E57A"
+			optional: true
+			rewards: [{
+				id: "15113DA55CF0D536"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6A098C929647B0A6"
+				item: { count: 1, id: "naturesaura:sky_sword" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "5D46EEC88D662443"
+			optional: true
+			rewards: [{
+				id: "436E69F5BDCECDBA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "51AA75A2DC748648"
+				item: { count: 1, id: "naturesaura:depth_sword" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			id: "7B1818D2C5C2BB18"
+			optional: true
+			rewards: [{
+				id: "39DC36E274780620"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "44F471C85DF505E9"
+				item: { count: 1, id: "naturesaura:depth_pickaxe" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
 		}
 	]
 }

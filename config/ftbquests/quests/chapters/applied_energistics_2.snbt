@@ -10,23 +10,14 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "07210DDF872160BA"
-	images: [
-		{
-			height: 0.3d
-			image: "allthetweaks:item/atm_star"
-			rotation: 0.0d
-			width: 0.3d
-			x: 6.0d
-		}
-		{
-			height: 3.0d
-			image: "atm:textures/questpics/ae2.png"
-			rotation: 0.0d
-			width: 9.27d
-			x: 7.0d
-			y: -3.5d
-		}
-	]
+	images: [{
+		height: 3.0d
+		image: "atm:textures/questpics/ae2.png"
+		rotation: 0.0d
+		width: 9.27d
+		x: 7.0d
+		y: -3.5d
+	}]
 	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -420,7 +411,8 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["40A7CC56DACC2623"]
+			dependencies: ["5C22E3103544B120"]
+			hide_dependency_lines: true
 			id: "74FC0DDDB91DB172"
 			rewards: [
 				{
@@ -446,7 +438,8 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["40A7CC56DACC2623"]
+			dependencies: ["5C22E3103544B120"]
+			hide_dependency_lines: true
 			id: "51DE3157DE3E57B8"
 			rewards: [
 				{
@@ -1689,7 +1682,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["2F16B6A173525277"]
+			dependencies: ["2FB231069D2E4E77"]
 			hide_dependency_lines: true
 			id: "5BB887411B8B38FA"
 			rewards: [
