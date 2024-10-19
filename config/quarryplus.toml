@@ -6,6 +6,12 @@ removeBedrockOnNetherTop = false
 noEnergy = false
 #[Fabric ONLY] 1E = ?FE. Default: 0.062500, Min: 0.0, Max: 10000000000.0
 rebornEnergyConversionCoefficient = 0.0625
+#Remove common materials(Base blocks in Over world and the Nether) obtained by Chunk Destroyer. Default: true
+removeCommonMaterialsByChunkDestroyer = true
+#Convert Deepslate ores to normal ores. Default: false
+convertDeepslateOres = false
+#Enable Chunk Loader in machines. Default: true
+enableChunkLoader = true
 
 [enableMap]
 	#pump_module Default: true
@@ -26,6 +32,8 @@ rebornEnergyConversionCoefficient = 0.0625
 	quarry = true
 	#flexible_marker Default: true
 	flexible_marker = true
+	#filter_module Default: true
+	filter_module = true
 
 	[powerMap.advQuarry]
 		#maxEnergy. Default: 50000.000000, Min: 0.0, Max: 10000000000.0
