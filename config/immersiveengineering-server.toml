@@ -1,0 +1,533 @@
+#Configuration related to Immersive Engineering wires
+[wires]
+	#Attempts to make the internal data structures used for wires consistent with the connectors in the world.Use with care and backups and only when suspecting corrupted data.
+	#This option will check and load all connection endpoints and may slow down the world loading process.
+	sanitizeConnections = false
+	#If this is enabled, wires connected to power sources will cause damage to entities touching them
+	#This shouldn't cause significant lag but possibly will. If it does, please report it at https://github.com/BluSunrize/ImmersiveEngineering/issues unless there is a report of it already.
+	enableWireDamage = true
+	#If this is enabled, placing a block in a wire will break it (drop the wire coil)
+	blocksBreakWires = true
+
+	[wires.copper]
+		#The maximum length of copper wires
+		#Range: > 0
+		maxLength = 16
+		#The transfer rate of copper wire in IF/t
+		#Range: > 0
+		transferRate = 2048
+		#The percentage of received power lost every 16 blocks of distance in copper wire. This means exponential loss!
+		#Range: 0.0 ~ 1.0
+		distanceLoss = 0.0125
+		#In- and output rates of copper wire connectors. This is independent of the transfer rate of the wires.
+		#Range: > 0
+		wireConnectorInput = 256
+
+	[wires.electrum]
+		#The maximum length of electrum wires
+		#Range: > 0
+		maxLength = 16
+		#The transfer rate of electrum wire in IF/t
+		#Range: > 0
+		transferRate = 8192
+		#The percentage of received power lost every 16 blocks of distance in electrum wire. This means exponential loss!
+		#Range: 0.0 ~ 1.0
+		distanceLoss = 0.003
+		#In- and output rates of electrum wire connectors. This is independent of the transfer rate of the wires.
+		#Range: > 0
+		wireConnectorInput = 1024
+
+	[wires.hv]
+		#The maximum length of hv wires
+		#Range: > 0
+		maxLength = 32
+		#The transfer rate of hv wire in IF/t
+		#Range: > 0
+		transferRate = 32768
+		#The percentage of received power lost every 16 blocks of distance in hv wire. This means exponential loss!
+		#Range: 0.0 ~ 1.0
+		distanceLoss = 8.0E-4
+		#In- and output rates of hv wire connectors. This is independent of the transfer rate of the wires.
+		#Range: > 0
+		wireConnectorInput = 4096
+
+	[wires.rope]
+		#The maximum length of rope wires
+		#Range: > 0
+		maxLength = 32
+
+	[wires.cable]
+		#The maximum length of cable wires
+		#Range: > 0
+		maxLength = 32
+
+	[wires.redstone]
+		#The maximum length of redstone wires
+		#Range: > 0
+		maxLength = 32
+
+	[wires.insulated_copper]
+		#The maximum length of insulated_copper wires
+		#Range: > 0
+		maxLength = 16
+
+	[wires.insulated_electrum]
+		#The maximum length of insulated_electrum wires
+		#Range: > 0
+		maxLength = 16
+
+[machines]
+	#Output modifier for the energy created by the kinetic dynamo. This will be modified by the rotation modifier of the attached water- or windmill
+	#Range: 0.0 ~ 2.147483647E9
+	dynamo_output = 3.0
+	#Output modifier for the energy created by the Thermoelectric Generator
+	#Range: 0.0 ~ 2.147483647E9
+	thermoelectric_output = 1.0
+	#The Flux that will be output by the lightning rod when it is struck
+	#Range: > 0
+	lightning_output = 16000000
+	#The Flux per tick that the Diesel Generator will output. The burn time of the fuel determines the total output
+	#Range: > 0
+	dieselGen_output = 4096
+	#The Flux per tick the Blast Furnace Preheater will consume to speed up the Blast Furnace
+	#Range: > 1
+	preheater_consumption = 32
+	#The Flux per tick the Charging Station can insert into an item
+	#Range: > 1
+	charger_consumption = 256
+	#The amount of damage a sawblade in the sawmill takes for a single recipe.
+	#Range: > 1
+	sawmill_bladeDamage = 5
+	#The Flux the Assembler will consume to craft an item from a recipe
+	#Range: > 1
+	assembler_consumption = 80
+	#The Flux the Radio Tower will consume per tick to remain active
+	#Range: > 1
+	radio_tower_consumption = 128
+
+		#Configuration for the low voltage capacitor
+		[machines.capacitors.lv]
+			#Maximum energy stored (Flux)
+			#Range: > 1
+			storage = 100000
+			#Maximum energy input (Flux/tick)
+			#Range: > 1
+			input = 256
+			#Maximum energy output (Flux/tick)
+			#Range: > 1
+			output = 256
+
+		#Configuration for the medium voltage capacitor
+		[machines.capacitors.mv]
+			#Maximum energy stored (Flux)
+			#Range: > 1
+			storage = 1000000
+			#Maximum energy input (Flux/tick)
+			#Range: > 1
+			input = 1024
+			#Maximum energy output (Flux/tick)
+			#Range: > 1
+			output = 1024
+
+		#Configuration for the high voltage capacitor
+		[machines.capacitors.hv]
+			#Maximum energy stored (Flux)
+			#Range: > 1
+			storage = 4000000
+			#Maximum energy input (Flux/tick)
+			#Range: > 1
+			input = 4096
+			#Maximum energy output (Flux/tick)
+			#Range: > 1
+			output = 4096
+
+	[machines.external_heater]
+		#The Flux per tick consumed to add one heat to a furnace. Creates up to 4 heat in the startup time and then 1 heat per tick to keep it running
+		#Range: > 1
+		consumption = 8
+		#The Flux per tick consumed to double the speed of the furnace. Only happens if furnace is at maximum heat.
+		#Range: > 1
+		speedupConsumption = 24
+
+	[machines.coredrill]
+		#The length in ticks it takes for the Core Sample Drill to figure out which mineral is found in a chunk
+		#Range: > 1
+		time = 200
+		#The Flux per tick consumed by the Core Sample Drill
+		#Range: > 1
+		consumption = 40
+
+	[machines.pump]
+		#The Flux the Fluid Pump will consume to pick up a fluid block in the world
+		#Range: > 1
+		consumption = 250
+		#The Flux the Fluid Pump will consume pressurize and accelerate fluids, increasing the transferrate
+		#Range: > 1
+		consumption_accelerate = 5
+		#If this is set to true (default) the pump will replace fluids it picks up with cobblestone in order to reduce lag caused by flowing fluids.
+		placeCobble = true
+
+	[machines.teslacoil]
+		#The Flux per tick the Tesla Coil will consume, simply by being active
+		#Range: > 1
+		consumption = 256
+		#The amount of Flux the Tesla Coil will consume when shocking an entity
+		#Range: > 1
+		consumption_active = 512
+		#The amount of damage the Tesla Coil will do when shocking an entity
+		#Range: 0.0 ~ 2.147483647E9
+		damage = 6.0
+
+	[machines.turret]
+		#The Flux per tick any turret consumes to monitor the area
+		#Range: > 1
+		consumption = 64
+		#The Flux per tick the chemthrower turret consumes to shoot
+		#Range: > 1
+		chem_consumption = 32
+		#The Flux per tick the gun turret consumes to shoot
+		#Range: > 1
+		gun_consumption = 32
+
+	[machines.garden_cloche]
+		#The Flux per tick the cloche consumes to grow plants
+		#Range: > 1
+		consumption = 8
+		#The amount of ticks one dose of fertilizer lasts in the cloche
+		#Range: > 1
+		fertilizer = 6000
+		#The amount of fluid the cloche uses per dose of fertilizer
+		#Range: > 1
+		fluid = 250
+		#A modifier to apply to the cloches total growing speed
+		#Range: 0.001 ~ 1000.0
+		growth_modifier = 1.0
+
+	[machines.lantern]
+		#Set this to false to disable the mob-spawn prevention of the Powered Lantern
+		spawnPrevent = true
+		#How much Flux the powered lantern draws per tick
+		#Range: > 1
+		energyDraw = 1
+		#How much Flux the powered lantern can hold (should be greater than the power draw)
+		#Range: > 1
+		maxStorage = 10
+
+	[machines.floodlight]
+		#Set this to false to disable the mob-spawn prevention of the Floodlight
+		spawnPrevent = true
+		#How much Flux the floodlight draws per tick
+		#Range: > 1
+		energyDraw = 5
+		#How much Flux the floodlight can hold (must be at least 10x the power draw)
+		#Range: > 1
+		max_storage = 80
+
+	[machines.metal_press]
+		#A modifier to apply to the energy costs of every metal press recipe
+		#Range: 0.001 ~ 1000.0
+		energyModifier = 1.0
+		#A modifier to apply to the time of every metal press recipe
+		#Range: 0.001 ~ 1000.0
+		timeModifier = 1.0
+
+	[machines.crusher]
+		#A modifier to apply to the energy costs of every crusher recipe
+		#Range: 0.001 ~ 1000.0
+		energyModifier = 1.0
+		#A modifier to apply to the time of every crusher recipe
+		#Range: 0.001 ~ 1000.0
+		timeModifier = 1.0
+
+	[machines.squeezer]
+		#A modifier to apply to the energy costs of every squeezer recipe
+		#Range: 0.001 ~ 1000.0
+		energyModifier = 1.0
+		#A modifier to apply to the time of every squeezer recipe
+		#Range: 0.001 ~ 1000.0
+		timeModifier = 1.0
+
+	[machines.fermenter]
+		#A modifier to apply to the energy costs of every fermenter recipe
+		#Range: 0.001 ~ 1000.0
+		energyModifier = 1.0
+		#A modifier to apply to the time of every fermenter recipe
+		#Range: 0.001 ~ 1000.0
+		timeModifier = 1.0
+
+	[machines.refinery]
+		#A modifier to apply to the energy costs of every refinery recipe
+		#Range: 0.001 ~ 1000.0
+		energyModifier = 1.0
+
+	[machines.auto_workbench]
+		#A modifier to apply to the energy costs of every auto workbench recipe
+		#Range: 0.001 ~ 1000.0
+		energyModifier = 1.0
+		#A modifier to apply to the time of every auto workbench recipe
+		#Range: 0.001 ~ 1000.0
+		timeModifier = 1.0
+
+	[machines.bottling_machine]
+		#A modifier to apply to the energy costs of every bottling machine recipe
+		#Range: 0.001 ~ 1000.0
+		energyModifier = 1.0
+		#A modifier to apply to the time of every bottling machine recipe
+		#Range: 0.001 ~ 1000.0
+		timeModifier = 1.0
+
+	[machines.mixer]
+		#A modifier to apply to the energy costs of every mixer recipe
+		#Range: 0.001 ~ 1000.0
+		energyModifier = 1.0
+		#A modifier to apply to the time of every mixer recipe
+		#Range: 0.001 ~ 1000.0
+		timeModifier = 1.0
+
+	[machines.sawmill]
+		#A modifier to apply to the energy costs of every sawmill recipe
+		#Range: 0.001 ~ 1000.0
+		energyModifier = 1.0
+		#A modifier to apply to the time of every sawmill recipe
+		#Range: 0.001 ~ 1000.0
+		timeModifier = 1.0
+
+	[machines.arc_furnace]
+		#A modifier to apply to the energy costs of every arc furnace recipe
+		#Range: 0.001 ~ 1000.0
+		energyModifier = 1.0
+		#A modifier to apply to the time of every arc furnace recipe
+		#Range: 0.001 ~ 1000.0
+		timeModifier = 1.0
+		#The maximum amount of damage Graphite Electrodes can take. While the furnace is working, electrodes sustain 1 damage per tick, so this is effectively the lifetime in ticks. The default value of 96000 makes them last for 8 consecutive ingame days
+		#Range: > 1
+		electrodeDamage = 96000
+		#The recycling functionality of the arc furnace is no longer controlled by a config option.
+		#Like all IE recipes, this is now controlled via a datapack, using the recipe file:
+		#immersiveengineering/recipes/arc_recycling_list.json
+		#To disable recycling, add that file to your datapack and fill it with the following content:
+		#{
+		#  "type": "immersiveengineering:generated_list",
+		#  "conditions": [ { "type": "forge:false" } ]
+		#}
+		recycle = ""
+
+	[machines.excavator]
+		#The Flux per tick the Excavator will consume to dig
+		#Range: > 1
+		consumption = 4096
+		#The speed of the Excavator. Basically translates to how many degrees per tick it will turn.
+		#Range: 0.001 ~ 1000.0
+		speed = 1.0
+		#Set this to false to disable the ridiculous amounts of particles the Excavator spawns
+		particles = true
+		#The threshold the perlin noise has to cross for a mineral vein to be generated. Higher means less likely.
+		#Range: 0.0 ~ 1.0
+		chance = 0.9
+		#The maximum amount of yield one can get out of a chunk with the excavator. Set a number smaller than zero to make it infinite
+		#Range: > -1
+		yield = 38400
+		#The maximum depletion a vein can start with, as a decimal value. When a vein generates, a random percentage up to this value is depleted from it
+		#Range: 0.0 ~ 1.0
+		initial_depletion = 0.2
+
+[ores]
+	#Set to true to generate excavator veins in chunks not generated with IE
+	retrogen_excavator_veins = false
+	#The retrogeneration key. Basically IE checks if this key is saved in the chunks data. If it isn't, it will perform retrogen on all ores marked for retrogen.
+	#Change this in combination with the retrogen booleans to regen only some of the ores.
+	retrogen_key = "DEFAULT"
+	#Set this to false to disable the logging of the chunks that were flagged for retrogen.
+	retrogen_log_flagChunk = true
+	#Set this to false to disable the logging of the chunks that are still left to retrogen.
+	retrogen_log_remaining = true
+
+	#Ore generation config - bauxite
+	[ores.bauxite]
+		#The distribution shape. UNIFORM is evenly distributed across the height range, TRAPEZOID favors the middle of the range.
+		#Allowed Values: UNIFORM, TRAPEZOID
+		distribution = "TRAPEZOID"
+		#Chance for ores to not generate, if they are exposed to air. 0 means ignoring air exposure, 1 requires being burried.
+		#Range: 0.0 ~ 1.0
+		air_exposure = 0.0
+		#The maximum size of a vein. Set to 0 to disable generation
+		#Range: > 0
+		vein_size = 0
+		#The minimum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = 32
+		#The maximum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 112
+		#The number of veins attempted to be generated per chunk
+		#Range: > 0
+		attempts_per_chunk = 16
+		#Set this to true to allow retro-generation of bauxite Ore.
+		retrogen_enable = false
+
+	#Ore generation config - lead
+	[ores.lead]
+		#The distribution shape. UNIFORM is evenly distributed across the height range, TRAPEZOID favors the middle of the range.
+		#Allowed Values: UNIFORM, TRAPEZOID
+		distribution = "TRAPEZOID"
+		#Chance for ores to not generate, if they are exposed to air. 0 means ignoring air exposure, 1 requires being burried.
+		#Range: 0.0 ~ 1.0
+		air_exposure = 0.0
+		#The maximum size of a vein. Set to 0 to disable generation
+		#Range: > 0
+		vein_size = 0
+		#The minimum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = -32
+		#The maximum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 80
+		#The number of veins attempted to be generated per chunk
+		#Range: > 0
+		attempts_per_chunk = 12
+		#Set this to true to allow retro-generation of lead Ore.
+		retrogen_enable = false
+
+	#Ore generation config - silver
+	[ores.silver]
+		#The distribution shape. UNIFORM is evenly distributed across the height range, TRAPEZOID favors the middle of the range.
+		#Allowed Values: UNIFORM, TRAPEZOID
+		distribution = "TRAPEZOID"
+		#Chance for ores to not generate, if they are exposed to air. 0 means ignoring air exposure, 1 requires being burried.
+		#Range: 0.0 ~ 1.0
+		air_exposure = 0.25
+		#The maximum size of a vein. Set to 0 to disable generation
+		#Range: > 0
+		vein_size = 0
+		#The minimum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = -48
+		#The maximum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 32
+		#The number of veins attempted to be generated per chunk
+		#Range: > 0
+		attempts_per_chunk = 10
+		#Set this to true to allow retro-generation of silver Ore.
+		retrogen_enable = false
+
+	#Ore generation config - nickel
+	[ores.nickel]
+		#The distribution shape. UNIFORM is evenly distributed across the height range, TRAPEZOID favors the middle of the range.
+		#Allowed Values: UNIFORM, TRAPEZOID
+		distribution = "UNIFORM"
+		#Chance for ores to not generate, if they are exposed to air. 0 means ignoring air exposure, 1 requires being burried.
+		#Range: 0.0 ~ 1.0
+		air_exposure = 0.0
+		#The maximum size of a vein. Set to 0 to disable generation
+		#Range: > 0
+		vein_size = 0
+		#The minimum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = -64
+		#The maximum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = 24
+		#The number of veins attempted to be generated per chunk
+		#Range: > 0
+		attempts_per_chunk = 7
+		#Set this to true to allow retro-generation of nickel Ore.
+		retrogen_enable = false
+
+	#Ore generation config - deep_nickel
+	[ores.deep_nickel]
+		#The distribution shape. UNIFORM is evenly distributed across the height range, TRAPEZOID favors the middle of the range.
+		#Allowed Values: UNIFORM, TRAPEZOID
+		distribution = "TRAPEZOID"
+		#Chance for ores to not generate, if they are exposed to air. 0 means ignoring air exposure, 1 requires being burried.
+		#Range: 0.0 ~ 1.0
+		air_exposure = 0.0
+		#The maximum size of a vein. Set to 0 to disable generation
+		#Range: > 0
+		vein_size = 0
+		#The minimum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = -120
+		#The maximum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = -8
+		#The number of veins attempted to be generated per chunk
+		#Range: > 0
+		attempts_per_chunk = 11
+		#Set this to true to allow retro-generation of deep_nickel Ore.
+		retrogen_enable = false
+
+	#Ore generation config - uranium
+	[ores.uranium]
+		#The distribution shape. UNIFORM is evenly distributed across the height range, TRAPEZOID favors the middle of the range.
+		#Allowed Values: UNIFORM, TRAPEZOID
+		distribution = "TRAPEZOID"
+		#Chance for ores to not generate, if they are exposed to air. 0 means ignoring air exposure, 1 requires being burried.
+		#Range: 0.0 ~ 1.0
+		air_exposure = 0.5
+		#The maximum size of a vein. Set to 0 to disable generation
+		#Range: > 0
+		vein_size = 0
+		#The minimum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		min_y = -64
+		#The maximum Y coordinate this ore can spawn at
+		#Range: > -2147483648
+		max_y = -16
+		#The number of veins attempted to be generated per chunk
+		#Range: > 0
+		attempts_per_chunk = 9
+		#Set this to true to allow retro-generation of uranium Ore.
+		retrogen_enable = false
+
+[tools]
+	#The maximum durability of the Engineer's Hammer. Used up when hammering ingots into plates.
+	#Range: > 1
+	hammer_durability = 100
+	#The maximum durability of the Wirecutter. Used up when cutting plates into wire.
+	#Range: > 1
+	cutter_durability = 250
+
+	[tools.bullet_damage]
+		#The amount of base damage a Casull Cartridge inflicts
+		#Range: 0.0 ~ 1.7976931348623157E308
+		casull = 10.0
+		#The amount of base damage a armor piercing Cartridge inflicts
+		#Range: 0.0 ~ 1.7976931348623157E308
+		ap = 10.0
+		#The amount of base damage a single part of buckshot inflicts
+		#Range: 0.0 ~ 1.7976931348623157E308
+		buck = 2.0
+		#The amount of base damage a dragon breath cartridge inflicts
+		#Range: 0.0 ~ 1.7976931348623157E308
+		dragon = 1.0
+		#The amount of base damage a homing cartridge inflicts
+		#Range: 0.0 ~ 1.7976931348623157E308
+		homing = 10.0
+		#The amount of base damage a wolfpack cartridge inflicts
+		#Range: 0.0 ~ 1.7976931348623157E308
+		wolfpack = 4.0
+		#The amount of base damage the sub-projectiles of a  wolfpack cartridge inflicts
+		#Range: 0.0 ~ 1.7976931348623157E308
+		wolfpack_part = 8.0
+		#The amount of damage a silver bullet inflicts
+		#Range: 0.0 ~ 1.7976931348623157E308
+		silver = 10.0
+		#The amount of base damage a phial cartridge inflicts
+		#Range: 0.0 ~ 1.7976931348623157E308
+		phial = 1.0
+
+	[tools.chemthrower]
+		#The mb of fluid the Chemical Thrower will consume per tick of usage
+		#Range: > 1
+		consumption = 10
+		#Set this to false to disable the use of Sneak+Scroll to switch Chemthrower tanks.
+		scroll = true
+
+	[tools.railgun]
+		#The base amount of Flux consumed per shot by the Railgun
+		#Range: > 1
+		consumption = 800
+		#A modifier for the damage of all projectiles fired by the Railgun
+		#Range: 0.0 ~ 1.7976931348623157E308
+		damage_modifier = 1.0
