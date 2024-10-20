@@ -1,9 +1,8 @@
-#Display a 'tip' message at spawn?
+#Send a welcome message containing tips when joining the world
 sayThanksMessage = false
-#Should reinforced blocks' textures be slightly darker than their vanilla counterparts? This setting can be overridden by servers.
+#Should reinforced blocks' textures be slightly darker than their vanilla counterparts? Servers can force this setting on clients if the server config setting "force_reinforced_block_tint" is set to true.
 reinforced_block_tint = true
 #Set the color that reinforced blocks' textures have when reinforced_block_tint is enabled. This cannot be overridden by servers, and will be applied the same to all blocks. Grayscale values look best.
 #Format: 0xRRGGBB
 #Range: 0 ~ 16777215
 reinforced_block_tint_color = 10066329
-
