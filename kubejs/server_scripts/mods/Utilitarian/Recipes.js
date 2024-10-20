@@ -6,6 +6,9 @@ ServerEvents.recipes(allthemods => {
         R: 'minecraft:redstone',
         S: 'minecraft:chiseled_stone_bricks'
     })
+
+    allthemods.remove({ id: 'utilitarian:tiny_fuel/coal'})
+    allthemods.remove({ id: 'utilitarian:tiny_fuel/charcoal'})
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
