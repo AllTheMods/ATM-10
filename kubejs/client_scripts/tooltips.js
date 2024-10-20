@@ -126,6 +126,13 @@ ItemEvents.modifyTooltips(allthemods => {
     allthemods.add('forbidden_arcanus:maledictus_pact',[
         Text.of("§aFound in Treasure Bastions"),
     ])
+
+    //Mystical Agriculture
+    allthemods.add(/mysticalagriculture:.*watering_can/,[
+        Text.of("§cDisabled for Fake Player"),
+        Text.of("§c(Blocks like Modular Routers, Clickers, etc)")
+    ])
+
 })
 
 
