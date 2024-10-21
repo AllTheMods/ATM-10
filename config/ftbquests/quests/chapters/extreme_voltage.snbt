@@ -10,17 +10,443 @@
 	id: "676EE263F46948A7"
 	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		dependencies: ["396019C00578727F"]
-		id: "0F4B07F50ED22B41"
-		shape: "square"
-		size: 2.0d
-		tasks: [{
-			id: "777739A43DA729E4"
-			item: { count: 1, id: "modern_industrialization:highly_advanced_machine_hull" }
-			type: "item"
-		}]
-		x: 0.0d
-		y: 0.5d
-	}]
+	quests: [
+		{
+			dependencies: ["396019C00578727F"]
+			id: "0F4B07F50ED22B41"
+			shape: "square"
+			size: 2.5d
+			tasks: [{
+				id: "777739A43DA729E4"
+				item: { count: 1, id: "modern_industrialization:highly_advanced_machine_hull" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0F4B07F50ED22B41"]
+			icon: {
+				id: "modern_industrialization:large_diesel_generator"
+			}
+			id: "65741FA08E513E3D"
+			tasks: [
+				{
+					id: "2D01410A4C374673"
+					item: { count: 1, id: "modern_industrialization:large_diesel_generator" }
+					type: "item"
+				}
+				{
+					count: 23L
+					id: "2406BBAD0E7497D2"
+					item: { count: 23, id: "modern_industrialization:solid_titanium_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "4AC09666B4B551EC"
+					item: { count: 10, id: "modern_industrialization:titanium_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					id: "0A7940DA1D7CACFA"
+					item: { count: 1, id: "modern_industrialization:ev_energy_output_hatch" }
+					type: "item"
+				}
+				{
+					id: "1E2F130943BE52BD"
+					item: { count: 1, id: "modern_industrialization:steel_fluid_input_hatch" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0F4B07F50ED22B41"]
+			id: "0E5D982DFC042806"
+			tasks: [
+				{
+					id: "42AC595D91FD34E4"
+					item: { count: 1, id: "modern_industrialization:annealed_copper_cable" }
+					type: "item"
+				}
+				{
+					id: "703119B91C25C1DD"
+					item: { count: 1, id: "modern_industrialization:platinum_cable" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0F4B07F50ED22B41"]
+			id: "78037FC3F5BEF6B9"
+			tasks: [{
+				id: "2CFAEB72D2C697E8"
+				item: { count: 1, id: "modern_industrialization:ev_storage_unit" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0E5D982DFC042806"]
+			id: "50F7BFC598440134"
+			tasks: [{
+				id: "26BF8CFF30367754"
+				item: { count: 1, id: "moderndynamics:ev_cable" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0F4B07F50ED22B41"]
+			id: "6BC61532105B1EBA"
+			shape: "square"
+			tasks: [{
+				id: "0A097085277E9AC1"
+				item: { count: 1, id: "modern_industrialization:mixed_plate_nuclear" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6BC61532105B1EBA"]
+			id: "4116E01384623BB0"
+			shape: "square"
+			tasks: [{
+				id: "397B3AB30F70E951"
+				item: { count: 1, id: "modern_industrialization:nuclear_alloy_plate" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4116E01384623BB0"]
+			icon: {
+				id: "modern_industrialization:nuclear_reactor"
+			}
+			id: "33BD6629DDCF3828"
+			shape: "square"
+			size: 2.0d
+			tasks: [
+				{
+					id: "47A82FDFC0F0DF57"
+					item: { count: 1, id: "modern_industrialization:nuclear_reactor" }
+					type: "item"
+				}
+				{
+					count: 68L
+					id: "058E26D10F0EEF87"
+					item: { count: 68, id: "modern_industrialization:nuclear_casing" }
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "239AED5EE02B1D2F"
+					item: { count: 27, id: "modern_industrialization:nuclear_alloy_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					id: "043D50F3D18C23E5"
+					item: { count: 1, id: "modern_industrialization:nuclear_fluid_hatch" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "50E918DEC4FE2064"
+					item: { count: 8, id: "modern_industrialization:nuclear_item_hatch" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["33BD6629DDCF3828"]
+			icon: {
+				id: "modern_industrialization:large_heat_exchanger"
+			}
+			id: "0875144D3A7BFC9C"
+			tasks: [{
+				id: "4CCC6875141CB284"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F4B07F50ED22B41"]
+			id: "7739B5A4AC879E6E"
+			shape: "square"
+			tasks: [{
+				id: "5E6EE1475429BF1D"
+				item: { count: 1, id: "modern_industrialization:superconductor_dust" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7739B5A4AC879E6E"]
+			id: "59A9332189B13F46"
+			shape: "square"
+			tasks: [{
+				id: "156A954730D0712E"
+				item: { count: 1, id: "modern_industrialization:superconductor_wire" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3D5D98021DFF97D8"]
+			id: "781C3E5A617D8063"
+			tasks: [{
+				id: "1BED4A7CC18432C2"
+				item: { count: 1, id: "moderndynamics:superconductor_cable" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["33BD6629DDCF3828"]
+			id: "66F94BDB2032BC96"
+			shape: "square"
+			tasks: [{
+				fluid: {
+					amount: 100
+					id: "modern_industrialization:tritium"
+				}
+				id: "72CC3EA25CB4CA46"
+				type: "fluid"
+			}]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["33BD6629DDCF3828"]
+			icon: {
+				id: "modern_industrialization:uranium_dust"
+			}
+			id: "4E0A7416FA4FA8BF"
+			shape: "square"
+			tasks: [{
+				id: "562826A3C68A4636"
+				item: { count: 1, id: "alltheores:uranium_dust" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4E0A7416FA4FA8BF"]
+			id: "6A2879E5ED1F29F6"
+			tasks: [
+				{
+					id: "3972D6377F6DCB4C"
+					item: { count: 1, id: "modern_industrialization:uranium_235_dust" }
+					type: "item"
+				}
+				{
+					id: "1B9DB06C881E617E"
+					item: { count: 1, id: "modern_industrialization:uranium_238_dust" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"4E0A7416FA4FA8BF"
+				"6A2879E5ED1F29F6"
+			]
+			dependency_requirement: "one_completed"
+			id: "52338C5DA100666E"
+			shape: "square"
+			tasks: [{
+				id: "2F31EBCDFF78419A"
+				item: { count: 1, id: "modern_industrialization:uranium_fuel_rod_quad" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["52338C5DA100666E"]
+			id: "10315280CC52F7D1"
+			shape: "square"
+			tasks: [{
+				id: "25F6759B9CCC8A55"
+				item: { count: 1, id: "modern_industrialization:uranium_fuel_rod_depleted" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["10315280CC52F7D1"]
+			id: "2952381682AA00B0"
+			shape: "square"
+			tasks: [{
+				id: "4AB5AB92ECD7BC41"
+				item: { count: 1, id: "modern_industrialization:nuke" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["10315280CC52F7D1"]
+			id: "3EDF4E4E9ED4B81C"
+			shape: "square"
+			tasks: [{
+				id: "546001CEB618EA1D"
+				item: { count: 1, id: "modern_industrialization:plutonium_dust" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"59A9332189B13F46"
+				"66F94BDB2032BC96"
+				"3EDF4E4E9ED4B81C"
+			]
+			id: "572ADCC0CAF36545"
+			shape: "square"
+			tasks: [
+				{
+					count: 2L
+					id: "0777DCCBB2A1449B"
+					item: { count: 2, id: "modern_industrialization:cooling_cell" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "7398BB28C8E68861"
+					item: { count: 2, id: "modern_industrialization:qubit" }
+					type: "item"
+				}
+				{
+					id: "71A7040951282510"
+					item: { count: 1, id: "modern_industrialization:quantum_circuit_board" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["572ADCC0CAF36545"]
+			id: "3D5D98021DFF97D8"
+			shape: "square"
+			tasks: [{
+				id: "1D4C7BA1084D7C6D"
+				item: { count: 1, id: "modern_industrialization:superconductor_cable" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["572ADCC0CAF36545"]
+			id: "089E858FF8AAD9A2"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "23C59399490BB5E8"
+				item: { count: 1, id: "modern_industrialization:quantum_circuit" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"3D5D98021DFF97D8"
+				"572ADCC0CAF36545"
+			]
+			id: "145201A03B1529BC"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "3F6885F6F9D07A2C"
+				item: { count: 1, id: "modern_industrialization:gravichestplate" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"145201A03B1529BC"
+				"6C1122266DD62E57"
+			]
+			id: "55BE5112B6EB51F5"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "344268728A414796"
+				item: { count: 1, id: "extended_industrialization:nano_gravichestplate" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"089E858FF8AAD9A2"
+				"32533FB46E25978F"
+			]
+			id: "572BDCFAF01D5DC6"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "5F67C3BCE9FEC1EA"
+				item: { count: 1, id: "modern_industrialization:quantum_machine_hull" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3EDF4E4E9ED4B81C"]
+			id: "32533FB46E25978F"
+			tasks: [{
+				count: 2L
+				id: "2820D10B14EFD766"
+				item: { count: 1, id: "modern_industrialization:plutonium_battery" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"3D5D98021DFF97D8"
+				"572ADCC0CAF36545"
+				"15CACE4AEFD9578B"
+				"0130BCF92CAACBCF"
+			]
+			id: "62A7939C7D25DA2C"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "606EAB36D48785F4"
+				item: { count: 1, id: "extended_industrialization:ultimate_laser_drill" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+	]
 }

@@ -10,16 +10,269 @@
 	id: "7FD512FBFDA5F317"
 	order_index: 5
 	quest_links: [ ]
-	quests: [{
-		id: "44C1B9EDFC77F19C"
-		shape: "square"
-		size: 2.0d
-		tasks: [{
-			id: "03B0852BD93B9C16"
-			item: { count: 1, id: "modern_industrialization:quantum_machine_hull" }
-			type: "item"
-		}]
-		x: -2.5d
-		y: 0.5d
-	}]
+	quests: [
+		{
+			dependencies: ["572BDCFAF01D5DC6"]
+			id: "44C1B9EDFC77F19C"
+			shape: "square"
+			size: 2.5d
+			tasks: [{
+				id: "03B0852BD93B9C16"
+				item: { count: 1, id: "modern_industrialization:quantum_machine_hull" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["44C1B9EDFC77F19C"]
+			id: "6E9BDFFE935E8C5C"
+			tasks: [{
+				id: "78C3F6F4537D8AB5"
+				item: { count: 1, id: "modern_industrialization:superconductor_storage_unit" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44C1B9EDFC77F19C"]
+			icon: {
+				id: "modern_industrialization:fusion_reactor"
+			}
+			id: "4BB2AC2CA512DE10"
+			size: 2.0d
+			tasks: [
+				{
+					id: "2B3701511BBBC307"
+					item: { count: 1, id: "modern_industrialization:fusion_reactor" }
+					type: "item"
+				}
+				{
+					id: "4B32A38901869F47"
+					type: "checkmark"
+				}
+				{
+					count: 40L
+					id: "338279AA06F9E313"
+					item: { count: 40, id: "modern_industrialization:fusion_chamber" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "0CFEF7C4C766D43A"
+					item: { count: 2, id: "modern_industrialization:steel_fluid_input_hatch" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "156EA51FDCB15AA2"
+					item: { count: 3, id: "modern_industrialization:steel_fluid_output_hatch" }
+					type: "item"
+				}
+				{
+					id: "7B5FB2AFED249A5D"
+					item: { count: 1, id: "modern_industrialization:ev_energy_input_hatch" }
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4BB2AC2CA512DE10"
+				"62CF5017D1AAED22"
+			]
+			icon: {
+				id: "modern_industrialization:plasma_turbine"
+			}
+			id: "2B5B9C617131BA1B"
+			tasks: [
+				{
+					id: "4056558A65DA543D"
+					item: { count: 1, id: "modern_industrialization:plasma_turbine" }
+					type: "item"
+				}
+				{
+					count: 15L
+					id: "251356081EB95258"
+					item: { count: 15, id: "modern_industrialization:plasma_handling_iridium_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "76B7ABED1DE6066F"
+					item: { count: 18, id: "modern_industrialization:plasma_handling_iridium_machine_casing" }
+					type: "item"
+				}
+				{
+					id: "1F42DB276CD57E61"
+					item: { count: 1, id: "modern_industrialization:steel_fluid_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "27658B8B8DDB331B"
+					item: { count: 1, id: "modern_industrialization:ev_energy_output_hatch" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4BB2AC2CA512DE10"]
+			id: "62CF5017D1AAED22"
+			tasks: [{
+				fluid: {
+					amount: 1000
+					id: "modern_industrialization:helium_plasma"
+				}
+				id: "06D333EB4002991B"
+				type: "fluid"
+			}]
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["44C1B9EDFC77F19C"]
+			icon: {
+				id: "modern_industrialization:ultradense_metal_ball"
+			}
+			id: "42784736B5AA17B9"
+			tasks: [{
+				id: "341C4393B6547A03"
+				item: { count: 1, id: "modern_industrialization:ultradense_metal_ball" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"42784736B5AA17B9"
+				"2952381682AA00B0"
+			]
+			id: "6EC5A0FB65C59CF4"
+			shape: "square"
+			size: 2.5d
+			tasks: [{
+				id: "5879D1440DDD533D"
+				item: { count: 1, id: "modern_industrialization:singularity" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6EC5A0FB65C59CF4"]
+			id: "6D90A106E92922B2"
+			tasks: [{
+				fluid: {
+					amount: 100
+					id: "modern_industrialization:uu_matter"
+				}
+				id: "6E1EAAFF1FF48AAA"
+				type: "fluid"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6EC5A0FB65C59CF4"]
+			id: "6DBDF3E3EF0D7828"
+			tasks: [{
+				id: "046855B41056EC28"
+				item: { count: 1, id: "modern_industrialization:quantum_barrel" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6EC5A0FB65C59CF4"]
+			id: "426D6D608DFC1839"
+			tasks: [{
+				id: "57AA2939758827DA"
+				item: { count: 1, id: "modern_industrialization:quantum_tank" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6EC5A0FB65C59CF4"
+				"6D90A106E92922B2"
+				"3EEE20CE83F5605A"
+			]
+			id: "12F72DD4DFF51C64"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "60E7D0FE5F0DF04A"
+				item: { count: 1, id: "modern_industrialization:quantum_upgrade" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"12F72DD4DFF51C64"
+				"6D90A106E92922B2"
+			]
+			icon: {
+				id: "modern_industrialization:replicator"
+			}
+			id: "28845EBF6EE8B5CC"
+			shape: "square"
+			size: 3.0d
+			tasks: [{
+				id: "5B4320A23BC72461"
+				type: "checkmark"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["12F72DD4DFF51C64"]
+			id: "243DA50909D7EE5A"
+			tasks: [
+				{
+					id: "15CB73505648975A"
+					item: { count: 1, id: "modern_industrialization:quantum_helmet" }
+					type: "item"
+				}
+				{
+					id: "7A8242E0A26F71A6"
+					item: { count: 1, id: "modern_industrialization:quantum_chestplate" }
+					type: "item"
+				}
+				{
+					id: "085DBD044FF193B4"
+					item: { count: 1, id: "modern_industrialization:quantum_leggings" }
+					type: "item"
+				}
+				{
+					id: "2477DE2B7A4D7AB3"
+					item: { count: 1, id: "modern_industrialization:quantum_boots" }
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["12F72DD4DFF51C64"]
+			id: "5858B46AF54D74D1"
+			tasks: [{
+				id: "27263BF5D4DC5B8B"
+				item: { count: 1, id: "modern_industrialization:quantum_sword" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.0d
+		}
+	]
 }
