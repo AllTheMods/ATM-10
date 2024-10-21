@@ -29,10 +29,10 @@ ItemEvents.modifyTooltips(allthemods => {
 
 
     allthemods.add('allthemodium:allthemodium_upgrade_smithing_template',[
-        Text.of('§6Found in Suspiciouss Clay in Ancient Cities')
+        Text.of('§6Found in Suspicious Clay in Ancient Cities')
     ])
     allthemods.add('allthemodium:vibranium_upgrade_smithing_template',[
-        Text.of('§bFound in Suspiciouss Soul Sand in Bastions')
+        Text.of('§bFound in Suspicious Soul Sand in Bastions')
     ])
     allthemods.add('allthemodium:unobtainium_upgrade_smithing_template',[
         Text.of('§dFound in Chests in the Library of the Dungeon within The Other')
