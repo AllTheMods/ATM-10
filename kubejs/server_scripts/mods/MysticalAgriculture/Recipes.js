@@ -18,12 +18,6 @@ allthemods.shaped('kubejs:magical_soil', ['ABC', 'DEF', 'GHI'], {
     I: 'productivetrees:moonlight_magic_crepe_myrtle_sapling'
 }).id('allthemods:kjs/magical_soil')
 
-// Cinnamon Logs
-allthemods.shaped('12x croptopia:cinnamon_log', [' A ', ' B ', ' A '], {
-    A: 'mysticalagriculture:wood_essence',
-    B: 'croptopia:cinnamon'
-}).id('allthemods:essence/croptopia/cinnamon_log')
-
 // Warped Wart Blocks
 allthemods.shaped('8x minecraft:warped_wart_block', [' A ', 'A  ', 'AAA'], {
     A: 'mysticalagriculture:nether_essence'
