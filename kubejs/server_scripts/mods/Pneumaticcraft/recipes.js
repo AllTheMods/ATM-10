@@ -4,4 +4,9 @@ allthemods.replaceInput(
   'pneumaticcraft:plastic',
   '#c:plastics'
 )
+allthemods.replaceInput(
+  { input: 'pneumaticcraft:plastic_sheets' },
+  'pneumaticcraft:plastic',
+  '#c:plastics'
+)
 })
