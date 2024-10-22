@@ -71,7 +71,7 @@ ServerEvents.recipes(allthemods => {
   B: 'ae2wtlib:wireless_universal_terminal[ae2wtlib:has_pattern_encoding_terminal={},ae2wtlib:has_ex_pattern_access_terminal={},ae2:energy_capacity=6400000.0d,ae2wtlib:has_crafting_terminal={},ae2wtlib:has_pattern_access_terminal={},ae2:stored_energy=6400000.0d,ae2wtlib:current_terminal="pattern_encoding"]',
   F: [Item.of('mekanism:module_gravitational_modulating_unit')],
   D: 'modern_industrialization:large_advanced_motor',
-  E: 'ae2:singularity',
+  E: 'immersiveengineering:tesla_coil',
   C: 'advanced_ae:quantum_multi_threader',
   G: 'aeinfinitybooster:infinity_card'
 }).id('allthemods:allthetweaks/nexium_emitter')
