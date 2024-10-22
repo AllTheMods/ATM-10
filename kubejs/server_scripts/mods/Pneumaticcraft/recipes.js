@@ -2,7 +2,7 @@ ServerEvents.recipes(allthemods => {
 
   function changeInput(item, replacement){
   allthemods.replaceInput(
-    { input: 'pneumaticcraft:plastic' },
+    { mod: 'pneumaticcraft' },
     item, replacement
   )}
   
