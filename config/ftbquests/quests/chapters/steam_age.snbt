@@ -1,0 +1,900 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "steam_age"
+	group: "295BE417292024EC"
+	icon: {
+		id: "modern_industrialization:steam_quarry"
+	}
+	id: "37BC0E99F564D560"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "55D93D5D99A59CDD"
+			optional: true
+			rewards: [
+				{
+					id: "59EB213D67EE1A88"
+					item: {
+						count: 1
+						id: "minecraft:copper_block"
+					}
+					type: "item"
+				}
+				{
+					id: "1D4047400E9A2EA9"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "3CAB24FC6DDCD315"
+				item: { count: 1, id: "minecraft:copper_block" }
+				type: "item"
+			}]
+			x: -19.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["55D93D5D99A59CDD"]
+			id: "7AADB58621BC1254"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6999A07383554259"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "754C3E69906335C1"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "3B6E674F4C958EA6"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:forge_hammer_tools)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "748F89C25D4C1F41"
+					item: { count: 1, id: "modern_industrialization:forge_hammer" }
+					type: "item"
+				}
+			]
+			x: -19.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["55D93D5D99A59CDD"]
+			id: "6FF20C2FB977C142"
+			optional: true
+			rewards: [
+				{
+					id: "2550DDB5AA00EA27"
+					item: {
+						count: 1
+						id: "modern_industrialization:steam_bucket"
+					}
+					type: "item"
+				}
+				{
+					id: "1E482C33321FB94E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "766EA14EA7309CFA"
+				item: { count: 1, id: "modern_industrialization:steam_bucket" }
+				type: "item"
+			}]
+			x: -17.5d
+			y: -11.0d
+		}
+		{
+			dependencies: [
+				"7AADB58621BC1254"
+				"6FF20C2FB977C142"
+			]
+			id: "5CA7C9BAFB635CB8"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7FA99E1A0BFCB607"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "0F42B8EB120730C2"
+					item: {
+						count: 1
+						id: "minecraft:coal_block"
+					}
+					type: "item"
+				}
+				{
+					id: "7411A2B71B1E8D0D"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "178FE736EBDDED68"
+				item: { count: 1, id: "modern_industrialization:steam_mining_drill" }
+				type: "item"
+			}]
+			x: -17.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["5CA7C9BAFB635CB8"]
+			id: "03B6A49B6E475AD3"
+			optional: true
+			rewards: [{
+				id: "1DCDAC2E94F1BA41"
+				type: "xp"
+				xp: 1
+			}]
+			tasks: [{
+				id: "06D8E0295DAE3C50"
+				type: "checkmark"
+			}]
+			x: -17.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6A35508BE24A7E2E"]
+			id: "233F263576ECFAAD"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5CDBA93A5AB9D056"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "2547FEAD24902D42"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "045C930E6902BEAB"
+				item: { count: 1, id: "modern_industrialization:bronze_compressor" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A35508BE24A7E2E"]
+			id: "47592C1D5CD8E8B5"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "342026002B7888D7"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "251C309753AF9983"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "40ABEF32118EAB2C"
+				item: { count: 1, id: "modern_industrialization:bronze_mixer" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A35508BE24A7E2E"]
+			id: "091C9CEBC8F9DDAC"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B2D3E95A7541A4F"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "7025679587D0817F"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "3466A5C97D64FA51"
+				item: { count: 1, id: "modern_industrialization:bronze_macerator" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A35508BE24A7E2E"]
+			id: "46EF342785B112DA"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2EA7261E786460BD"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "65E008BB5FE08091"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "56E4BD11CF03F3DE"
+				item: { count: 1, id: "modern_industrialization:bronze_cutting_machine" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6A35508BE24A7E2E"]
+			id: "76B8E78A7520132A"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F4E8AFCE230963D"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "509857250F677E19"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "3183D932EAF2BA97"
+				item: { count: 1, id: "modern_industrialization:bronze_furnace" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A35508BE24A7E2E"]
+			id: "5E1E66D2661B47DB"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "48F4ED40FE3A10F6"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "43B22657B3E4BC05"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "1796126AC8B658FD"
+				item: { count: 1, id: "modern_industrialization:bronze_water_pump" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6A35508BE24A7E2E"]
+			id: "5921A4DAA423E428"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B5A13B5A2B15585"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "64E51C9BA4E231B9"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "7E1E16A3FA33D752"
+				item: { count: 1, id: "modern_industrialization:bronze_boiler" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["03B6A49B6E475AD3"]
+			id: "5DE9A1BA33EB0D65"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "0A035854084DBF90"
+					item: {
+						count: 1
+						id: "alltheores:bronze_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "751E9FBEF79AFC6E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "198CAAA315816D0F"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:dusts/bronze)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "065FC2FF2CE5C297"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/bronze)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["03B6A49B6E475AD3"]
+			id: "6EF9D54D8BD5D3B1"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B9126616CB47538"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "699CBC6091CE2D55"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "6C431916C712E73A"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:fluid_pipes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "5D11A5F31661EED3"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(modern_industrialization:item_pipes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -20.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6A35508BE24A7E2E"]
+			id: "079383355D14FBC9"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "46EABF63AB362821"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "57613CD1C5204DB8"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					count: 21L
+					id: "7F6939850EB3B32C"
+					item: { count: 21, id: "modern_industrialization:fire_clay_bricks" }
+					type: "item"
+				}
+				{
+					id: "4EACD8E186851E6B"
+					item: { count: 1, id: "modern_industrialization:bronze_item_input_hatch" }
+					type: "item"
+				}
+				{
+					id: "5D8C8B0F980F8B1C"
+					item: { count: 1, id: "modern_industrialization:bronze_item_output_hatch" }
+					type: "item"
+				}
+				{
+					id: "708A973D96074296"
+					item: { count: 1, id: "modern_industrialization:bronze_fluid_input_hatch" }
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["03B6A49B6E475AD3"]
+			id: "119FF09D481F9178"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F45364923FB496B"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "7E436CCC21E05E2A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "7A10571B7176C540"
+					item: { count: 1, id: "modern_industrialization:bronze_tank" }
+					type: "item"
+				}
+				{
+					id: "4C65CF43BD435BD5"
+					item: { count: 1, id: "modern_industrialization:bronze_barrel" }
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["6A35508BE24A7E2E"]
+			id: "5F09F75A97C6C6DB"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6528E2CCD2F069E8"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "58B6282CD4B7E55E"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "51637A11BD8005A9"
+					item: { count: 1, id: "modern_industrialization:steam_blast_furnace" }
+					type: "item"
+				}
+				{
+					id: "01670FE51F56354F"
+					item: { count: 1, id: "modern_industrialization:bronze_fluid_output_hatch" }
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5DE9A1BA33EB0D65"]
+			id: "6A35508BE24A7E2E"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0C9B899B07489D2F"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "3AE14DEF93F4DC30"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "2FBF37B35EC25319"
+				item: { count: 1, id: "modern_industrialization:bronze_machine_casing" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4B90B3B38E08A218"]
+			id: "3143588D93FC7999"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7792156E69BFC88E"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "7D3640854C79E5AE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "17D4290DC0B3F983"
+				item: { count: 1, id: "modern_industrialization:steam_quarry" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.5d
+		}
+		{
+			id: "4B90B3B38E08A218"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "304C15764716149F"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "5743C6DA7A51A180"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "50A9762C9FFB5D25"
+				item: { count: 1, id: "alltheores:steel_ingot" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4C08862F47696F6F"]
+			id: "637CA4EE15AC8584"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A8976D71A54E30C"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "6DCA7CBCB29B3E52"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "615175E9D2E4A652"
+				item: { count: 1, id: "modern_industrialization:steel_boiler" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["4C08862F47696F6F"]
+			id: "4E4692C5E5A3D1A9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3A16B72F49C30F3E"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "6E6F5B559E297D1B"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "7317D7B7E13C39FC"
+				item: { count: 1, id: "modern_industrialization:steel_water_pump" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["4C08862F47696F6F"]
+			id: "064BBCC379A69748"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "298CA88F3D19B084"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "7226818CA3133B48"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "479CB9153AEC368D"
+				item: { count: 1, id: "modern_industrialization:steel_furnace" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4C08862F47696F6F"]
+			id: "60406190B0DCB348"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58D1977EA5153C22"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "027CDA4F4C70F3B6"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "20F4010C155CE120"
+				item: { count: 1, id: "modern_industrialization:steel_compressor" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["4C08862F47696F6F"]
+			id: "221F2BEB4FB44F45"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "40A73955258DF181"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "3A5A1D2FCCFF5437"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "2CEC2F335C828CE2"
+				item: { count: 1, id: "modern_industrialization:steel_cutting_machine" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4C08862F47696F6F"]
+			id: "3E807DE5BBFA354A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "71076ECE2347F99F"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "0D445454D544E789"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "3EE66F9FFE683C20"
+				item: { count: 1, id: "modern_industrialization:steel_mixer" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["4C08862F47696F6F"]
+			id: "186826F12973BA28"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B32E0EBFCFEEBDB"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "3AB71E8135E0F85C"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "7D32361694B79F3C"
+				item: { count: 1, id: "modern_industrialization:steel_macerator" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			id: "5F0C9D4344046F5E"
+			invisible: true
+			optional: true
+			rewards: [{
+				id: "1F48CF279DCBE25D"
+				item: {
+					count: 1
+					id: "productivebees:honey_treat"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "63E67494927B11C8"
+				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:steel" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["3143588D93FC7999"]
+			id: "4586338386F85112"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56E97EAADB44C41D"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "5A397F37353E0323"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "505658BC3EDC805F"
+				item: { count: 1, id: "modern_industrialization:steel_wiremill" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4B90B3B38E08A218"]
+			id: "67D6C82D8AAE1C3B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "22766DF840DE30D4"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "3EAC17676889D6AC"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "26807C2F23B1FED8"
+				item: { count: 1, id: "modern_industrialization:steel_packer" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4B90B3B38E08A218"]
+			id: "20B7FCF24B511687"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3FF56335BF07F55E"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "5A8FB4FCAFF8E18A"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "728C7ACED74DB025"
+				item: { count: 1, id: "modern_industrialization:steel_unpacker" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4B90B3B38E08A218"]
+			id: "4C08862F47696F6F"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "55750D3FBED98B31"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "0B1E5093D31588A7"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				id: "1674A5D9A6830103"
+				item: { count: 1, id: "modern_industrialization:steel_upgrade" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6A35508BE24A7E2E"]
+			id: "39A277844BE305FA"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0BDE4681CC3F2C1E"
+					table_id: 1087815784830664491L
+					type: "loot"
+				}
+				{
+					id: "6E9B02BC18416BAD"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "4BCB4F2DA1641226"
+				item: { count: 1, id: "modern_industrialization:bronze_drill" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -5.0d
+		}
+		{
+			id: "017194E29D6745E8"
+			invisible: true
+			tasks: [
+				{
+					id: "34E5BD34C83CD6F9"
+					type: "checkmark"
+				}
+				{
+					id: "76DAFB50056E4238"
+					type: "checkmark"
+				}
+			]
+			x: -10.5d
+			y: -10.0d
+		}
+	]
+}
