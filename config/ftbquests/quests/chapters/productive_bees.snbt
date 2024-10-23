@@ -506,7 +506,7 @@
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
 			icon: {
-				id: "minecraft:stone_pickaxe"
+				id: "regions_unexplored:ash"
 			}
 			id: "37367101B3DAA70F"
 			rewards: [{
@@ -1194,7 +1194,7 @@
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
 			icon: {
-				id: "croptopia:chocolate"
+				id: "pamhc2foodcore:chocolatebaritem"
 			}
 			id: "486060882E507CF1"
 			rewards: [{
@@ -1719,7 +1719,7 @@
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
 			icon: {
-				id: "croptopia:tea_leaves"
+				id: "regions_unexplored:maple_leaf_pile"
 			}
 			id: "6BEE3578BD2C713C"
 			rewards: [{
@@ -1737,6 +1737,9 @@
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
+			icon: {
+				id: "antiblocksrechiseled:bright_red"
+			}
 			id: "683B58B699D4D381"
 			rewards: [{
 				id: "713068FC6AD69883"
@@ -1944,6 +1947,40 @@
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			icon: {
+				components: {
+					"relics:data": {
+						abilities: {
+							abilities: {
+								heart: {
+									extender: {
+										cooldown: 0
+										cooldownCap: 0
+										ticking: 0b
+									}
+									lock: {
+										breaks: 5
+									}
+									points: 0
+									research: {
+										links: { }
+										researched: 0b
+									}
+									stats: {
+										amount: {
+											initialValue: 3.62555d
+										}
+									}
+								}
+							}
+						}
+						leveling: {
+							experience: 0
+							level: 0
+							luck: 0
+							points: 0
+						}
+					}
+				}
 				id: "artifacts:crystal_heart"
 			}
 			id: "2E51F09F6D9E5EF8"
