@@ -111,9 +111,9 @@
 	quests: [
 		{
 			icon: {
-				id: "productivetrees:sparkling_cherry"
+				id: "pamhc2trees:starfruititem"
 			}
-			icon_scale: 1.2d
+			icon_scale: 1.5d
 			id: "1827DEEA2DF1B144"
 			rewards: [
 				{
@@ -200,6 +200,9 @@
 		}
 		{
 			dependencies: ["2E9C035EEE7E5C34"]
+			icon: {
+				id: "minecraft:shears"
+			}
 			id: "18EADBAFC932F864"
 			rewards: [{
 				id: "68AA10BF3AA0408A"
@@ -207,8 +210,8 @@
 				xp: 10
 			}]
 			tasks: [{
-				id: "3A9869856B3E9D54"
-				item: { count: 1, id: "minecraft:shears" }
+				id: "2725700B5EA1CD75"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/shear)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 4.0d
