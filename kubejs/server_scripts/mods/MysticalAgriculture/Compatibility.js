@@ -13,7 +13,7 @@ const ingots = [
   {resource: 'uranium', essence: 'imperium'},
   {resource: 'gold', essence: 'imperium'},
   {resource: 'osmium', essence: 'imperium'},
-  {resource: 'invar', essence: 'imperium'},
+  //{resource: 'invar', essence: 'imperium'},
   {resource: 'iridium', essence: 'supremium'},
   {resource: 'platinum', essence: 'supremium'}
 ]
@@ -44,6 +44,16 @@ const useBlocks = [
   {resource:"constantan", essence:"imperium"},
   {resource:"cyanite", essence:"supremium", block:"bigreactors:cyanite_block"},
   {resource:"graphite", essence:"tertium", block:"bigreactors:graphite_block"},
+  {resource:"compressed_iron", essence:"imperium"},
+  {resource:"electrum", essence:"imperium"},
+  {resource:"invar", essence: "imperium"}
+]
+
+//dusts to be switched to tags
+const dusts = [
+  {resource: 'sulfur', essence: 'prudentium'},
+  {resource: 'saltpeter', essence: 'prudentium'},
+
 ]
 
 //gems to be switched to tags
@@ -140,6 +150,9 @@ for (let i=0; i < ingots.length; i++){
 
 for (let i=0; i < gems.length; i++){
   mysticalTags(gems[i], 'c:gems/')}
+
+for (let i=0; i < dusts.length; i++){
+  mysticalTags(dusts[i], 'c:dusts/')}
 
 for (let i=0; i < different.length; i++){
   mysticalTags(different[i], '', 'different')}
