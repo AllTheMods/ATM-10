@@ -18,29 +18,36 @@ const ingots = [
 ]
 
 const gems = [
-  {resource: 'quartz', essence: 'tertium'},
-  {resource: 'fluorite', essence: 'imperium'}
+  {resource: 'quartz', essence: 'tertium', seed: 'nether_quartz'},
+  {resource: 'fluorite', essence: 'imperium', seed: undefined}
+]
+
+const different = [
+  {tag: 'minecraft:logs', essence: 'inferium', seed: 'wood'}
 ]
 
 ServerEvents.recipes(allthemods => { 
 
-function mysticalTags(resource, tag, essence, tags){
+function mysticalTags(material, tag, tags){
   
   let recipeEssence = ''
   let recipeTag = ''
   let recipeSeed = ''
 
-  if(tags === 'x'){
-    recipeEssence = essence
-    recipeTag = tag
-    recipeSeed = resource
+  //for recipes with different format
+  if(tags == 'value'){
+    recipeEssence = (`mysticalagriculture:${material.essence}_essence`)
+    recipeTag = material.tag
+    recipeSeed = (`mysticalagriculture:${material.seed}_seeds`)
   }
+  //for ingots/gems (and probably dusts)
   else{
-    recipeEssence = (`mysticalagriculture:${essence}_essence`)
-    recipeTag = (`${tag}${resource}`)
-    recipeSeed = (`mysticalagriculture:${resource}_seeds`)
+    recipeEssence = (`mysticalagriculture:${material.essence}_essence`)
+    recipeTag = (`${tag}${material.resource}`)
+    if(material.seed !== undefined){recipeSeed = (`mysticalagriculture:${material.seed}_seeds`)}
+    else{recipeSeed = (`mysticalagriculture:${material.resource}_seeds`)}
   }
-  
+
   allthemods.remove({output: recipeSeed})
   
   allthemods.custom({
@@ -63,10 +70,11 @@ function mysticalTags(resource, tag, essence, tags){
 }
 
 for (let i=0; i < ingots.length; i++){
-  mysticalTags(ingots[i].resource, 'c:ingots/', ingots[i].essence)}
+  mysticalTags(ingots[i], 'c:ingots/')}
 
 for (let i=0; i < gems.length; i++){
-  mysticalTags(gems[i].resource, 'c:gems/', gems[i].essence)}
+  mysticalTags(gems[i], 'c:gems/')}
 
-  mysticalTags('mysticalagriculture:wood_seeds', 'minecraft:logs', 'mysticalagriculture:inferium_essence', 'x')
+  for (let i=0; i < different.length; i++){
+  mysticalTags(different[i], '', 'value')}
 })
