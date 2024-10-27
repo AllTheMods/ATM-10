@@ -8,6 +8,8 @@ RecipeViewerEvents.removeEntriesCompletely('item', allthemods =>{
 
   for(let i=1; i < 10; i++){
       allthemods.remove(`allthecompressed:greg_star_block_${i}x`)}
+  
+  allthemods.remove('relics:researching_table')
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods: Stranded.
