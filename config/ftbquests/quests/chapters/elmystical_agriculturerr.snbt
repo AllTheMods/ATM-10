@@ -149,7 +149,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 7.0d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			height: 1.0d
@@ -2394,8 +2394,8 @@
 				item: { count: 1, id: "mysticalagriculture:zinc_seeds" }
 				type: "item"
 			}]
-			x: 7.5d
-			y: -1.5d
+			x: 6.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -2507,7 +2507,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: -3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -2853,7 +2853,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: -3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["54735C5FCD2077B3"]
@@ -5066,6 +5066,19 @@
 				"0B37355262121DD5"
 			]
 			id: "10098A4B38BBF0B1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5737008C5146CB8B"
+					table_id: 2427872771413920777L
+					type: "random"
+				}
+				{
+					id: "30534CEFF8BE763A"
+					type: "xp"
+					xp: 50
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "47991E13B91F2F3B"
@@ -5150,16 +5163,116 @@
 			y: 10.0d
 		}
 		{
-			dependencies: ["76071C22A73A2026"]
+			dependencies: [
+				"76071C22A73A2026"
+				"0B37355262121DD5"
+			]
 			id: "4EB7245727EE1EF9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6EB12AE3BF66E4D3"
+					table_id: 7270734658375550536L
+					type: "random"
+				}
+				{
+					id: "565D00931A7DAF4F"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "55548D67DDDBF318"
 				item: { count: 1, id: "mysticalagriculture:darkstone_seeds" }
 				type: "item"
 			}]
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"76071C22A73A2026"
+				"0B37355262121DD5"
+			]
+			id: "41D246E896BD791F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "619E7C2DD32C5039"
+					table_id: 7270734658375550536L
+					type: "random"
+				}
+				{
+					id: "33BF6FCD37154ADD"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "0DF2711915D23139"
+				item: { count: 1, id: "mysticalagriculture:azure_silver_seeds" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"76071C22A73A2026"
+				"0B37355262121DD5"
+			]
+			id: "66B503EB65475B98"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7F128B172666D558"
+					table_id: 7270734658375550536L
+					type: "random"
+				}
+				{
+					id: "71BA3480B0300B9D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "54C528490FDCAEF4"
+				item: { count: 1, id: "mysticalagriculture:crimson_iron_seeds" }
+				type: "item"
+			}]
 			x: 6.5d
-			y: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"576ABF43FCF886B7"
+				"0B37355262121DD5"
+			]
+			id: "2C2EF4EBB3C9EAE3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "42AFAA74800C741A"
+					table_id: 2427872771413920777L
+					type: "random"
+				}
+				{
+					id: "7799AD1ED08A2158"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "466E24781B4BDB2B"
+				item: { count: 1, id: "mysticalagriculture:grains_of_infinity_seeds" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.5d
 		}
 	]
 }
