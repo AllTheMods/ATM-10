@@ -12,292 +12,297 @@ ServerEvents.recipes(allthemods => {
   global.mekStackAdditions.forEach(entry => {
     let material = entry.material
 
-    let dust = AlmostUnified.getPreferredItemForTag(`c:dusts/${material}`)
+    let dust = AlmostUnified.getTagTargetItem(`c:dusts/${material}`)
     if (entry.makeDust) {
-      dust = Item.of(`kubejs:dust_${material}`)
+      dust = Item.of(`kubejs:${material}_dust`)
     } else if (dust.isEmpty() && !Ingredient.of(`#c:dusts/${material}`).isEmpty()) {
       dust = Ingredient.of(`#c:dusts/${material}`).getFirst()
     }
     let hasDust = !dust.isEmpty()
 
+    //all processing for storage blocks
     if (!Ingredient.of(`#c:storage_blocks/raw_${material}`).isEmpty()) {
       allthemods.custom({
-        type: 'mekanism:dissolution',
-        itemInput: {
-          ingredient: {
-            tag: `c:storage_blocks/raw_${material}`
-          }
-        },
-        output: {
-          slurry: `kubejs:dirty_${material}`,
-          amount: 6000,
-          chemicalType: 'slurry'
-        },
-        gasInput: {
-          amount: 2,
-          gas: 'mekanism:sulfuric_acid'
-        }
+      type: 'mekanism:dissolution',
+      chemical_input: {
+        amount: 2,
+        chemical: 'mekanism:sulfuric_acid'
+      },
+      item_input: {
+        count: 1,
+        tag: `c:storage_blocks/raw_${material}`
+      },
+      output: {
+        amount: 6000,
+        id: `kubejs:dirty_${material}`
+      },  "per_tick_usage": true
       }).id(`allthemods:processing/${material}/slurry/dirty/from_raw_block`)
+
       allthemods.custom({
         type: 'mekanism:injecting',
-        itemInput: {
-          ingredient: {
-            tag: `c:storage_blocks/raw_${material}`
-          }
-        },
-        chemicalInput: {
+        chemical_input: {
           amount: 2,
-          gas: 'mekanism:hydrogen_chloride'
+          chemical: 'mekanism:hydrogen_chloride'
+        },
+        item_input: {
+          count: 1,
+          tag: `c:storage_blocks/raw_${material}`
         },
         output: {
-          item: `kubejs:shard_${material}`,
-          count: 24
-        }
+          count: 24,
+          id: `kubejs:${material}_shard`
+        },  "per_tick_usage": true
       }).id(`allthemods:processing/${material}/shard/from_raw_block`)
+
       allthemods.custom({
-        type: 'mekanism:purifying',
-        itemInput: {
-          ingredient: {
-            tag: `c:storage_blocks/raw_${material}`
-          }
-        },
-        chemicalInput: {
+        chemical_input: {
           amount: 2,
-          gas: 'mekanism:oxygen'
+          chemical: 'mekanism:oxygen'
+        },
+        type: 'mekanism:purifying',
+        item_input: {
+          count: 1,  
+          tag: `c:storage_blocks/raw_${material}`
         },
         output: {
-          item: `kubejs:clump_${material}`,
-          count: 18
-        }
+          count: 18,
+          id: `kubejs:${material}_clump`
+        },  "per_tick_usage": true
       }).id(`allthemods:processing/${material}/clump/from_raw_block`)
+
       if (hasDust) {
         allthemods.custom({
           type: 'mekanism:enriching',
-          input: {
-            ingredient: {
-              tag: `c:storage_blocks/raw_${material}`
-            }
+          item_input: {
+            count: 1,  
+            tag: `c:storage_blocks/raw_${material}`
           },
           output: {
-            item: dust.id,
-            count: 12
+            count: 12,
+            id: dust.id
           }
         }).id(`allthemods:processing/${material}/dust/from_raw_block`)
       }
     }
 
+    //all processing for ore blocks
     if (!Ingredient.of(`#c:ores/${material}`).isEmpty()) {
       allthemods.custom({
         type: 'mekanism:dissolution',
-        itemInput: {
-          ingredient: {
-            tag: `c:ores/${material}`
-          }
+        chemical_input: {
+          amount: 1,
+          chemical: 'mekanism:sulfuric_acid'
+        },
+        item_input: {
+          count: 1,
+          tag: `c:ores/${material}`
         },
         output: {
-          slurry: `kubejs:dirty_${material}`,
           amount: 1000,
-          chemicalType: 'slurry'
-        },
-        gasInput: {
-          amount: 1,
-          gas: 'mekanism:sulfuric_acid'
-        }
+          id: `kubejs:dirty_${material}`
+        },  "per_tick_usage": true
       }).id(`allthemods:processing/${material}/slurry/dirty/from_ore`)
+
       allthemods.custom({
-        type: 'mekanism:injecting',
-        itemInput: {
-          ingredient: {
-            tag: `c:ores/${material}`
-          }
-        },
-        chemicalInput: {
+        chemical_input: {
           amount: 1,
-          gas: 'mekanism:hydrogen_chloride'
+          chemical: 'mekanism:hydrogen_chloride'
+        },
+        type: 'mekanism:injecting',
+        item_input: {
+          amount: 1,  
+          tag: `c:ores/${material}`
         },
         output: {
-          item: `kubejs:shard_${material}`,
-          count: 4
-        }
+          count: 4,
+          id: `kubejs:${material}_shard`
+        },  "per_tick_usage": true
       }).id(`allthemods:processing/${material}/shard/from_ore`)
+
       allthemods.custom({
         type: 'mekanism:purifying',
-        itemInput: {
-          ingredient: {
-            tag: `c:ores/${material}`
-          }
-        },
-        chemicalInput: {
+        chemical_input: {
           amount: 1,
-          gas: 'mekanism:oxygen'
+          chemical: 'mekanism:oxygen'
+        },
+        item_input: {
+          count: 1,
+          tag: `c:ores/${material}`
         },
         output: {
-          item: `kubejs:clump_${material}`,
-          count: 3
-        }
+          count: 3,
+          id: `kubejs:${material}_clump`
+        },  "per_tick_usage": true
       }).id(`allthemods:processing/${material}/clump/from_ore`)
+      
       if (hasDust) {
         allthemods.custom({
           type: 'mekanism:enriching',
           input: {
-            ingredient: {
-              tag: `c:ores/${material}`
-            }
+            count: 1,  
+            tag: `c:ores/${material}`
           },
           output: {
-            item: dust.id,
-            count: 2
+            count: 2,
+            id: dust.id
           }
         }).id(`allthemods:processing/${material}/dust/from_ore`)
       }
     }
 
+    //all processing from raw material
     if (!Ingredient.of(`#c:raw_materials/${material}`).isEmpty()) {
       allthemods.custom({
         type: 'mekanism:dissolution',
-        itemInput: {
-          amount: 3,
-          ingredient: {
-            tag: `c:raw_materials/${material}`
-          }
+        chemical_input: {
+          amount: 1,
+          chemical: 'mekanism:sulfuric_acid'
+        },
+        item_input: {
+          count: 3,
+          tag: `c:raw_materials/${material}`
         },
         output: {
-          slurry: `kubejs:dirty_${material}`,
           amount: 2000,
-          chemicalType: 'slurry'
-        },
-        gasInput: {
-          amount: 1,
-          gas: 'mekanism:sulfuric_acid'
-        }
+          id: `kubejs:dirty_${material}`
+        },  "per_tick_usage": true
       }).id(`allthemods:processing/${material}/slurry/dirty/from_raw_ore`)
+
       allthemods.custom({
         type: 'mekanism:injecting',
-        itemInput: {
-          amount: 3,
-          ingredient: {
-            tag: `c:raw_materials/${material}`
-          }
-        },
-        chemicalInput: {
+        chemical_input: {
           amount: 1,
-          gas: 'mekanism:hydrogen_chloride'
+          chemical: 'mekanism:hydrogen_chloride'
+        },
+        item_input: {
+          count: 3,
+          tag: `c:raw_materials/${material}`
         },
         output: {
-          item: `kubejs:shard_${material}`,
-          count: 8
-        }
+          count: 8,
+          id: `kubejs:${material}_shard`
+        },  "per_tick_usage": true
       }).id(`allthemods:processing/${material}/shard/from_raw_ore`)
+
       allthemods.custom({
         type: 'mekanism:purifying',
-        itemInput: {
-          ingredient: {
-            tag: `c:raw_materials/${material}`
-          }
-        },
-        chemicalInput: {
+        chemical_input: {
           amount: 1,
-          gas: 'mekanism:oxygen'
+          chemical: 'mekanism:oxygen'
+        },
+        item_input: {
+          count: 1,
+          tag: `c:raw_materials/${material}`
         },
         output: {
-          item: `kubejs:clump_${material}`,
-          count: 2
-        }
+          count: 2,
+          id: `kubejs:${material}_clump`
+        },  "per_tick_usage": true
       }).id(`allthemods:processing/${material}/clump/from_raw_ore`)
+
       if (hasDust) {
         allthemods.custom({
           type: 'mekanism:enriching',
           input: {
-            amount: 3,
-            ingredient: {
-              tag: `c:raw_materials/${material}`
-            }
+            count: 3,
+            tag: `c:raw_materials/${material}`
           },
           output: {
-            item: dust.id,
-            count: 4
+            count: 4,
+            id: dust.id
           }
         }).id(`allthemods:processing/${material}/dust/from_raw_ore`)
       }
     }
 
+    //washing dirty slurry 
     allthemods.custom({
       type: 'mekanism:washing',
-      fluidInput: {
+      chemical_input: {
+        amount: 1,
+        chemical: `kubejs:dirty_${material}`
+      },
+      fluid_input: {
         amount: 5,
         tag: 'minecraft:water'
       },
-      slurryInput: {
-        amount: 1,
-        slurry: `kubejs:dirty_${material}`
-      },
       output: {
-        slurry: `kubejs:clean_${material}`,
-        amount: 1
+        amount: 1,
+        id: `kubejs:clean_${material}`        
       }
     }).id(`allthemods:processing/${material}/slurry/clean`)
+
+    //crystallizing from clean slurry
     allthemods.custom({
       type: 'mekanism:crystallizing',
-      chemicalType: 'slurry',
       input: {
         amount: 200,
-        slurry: `kubejs:clean_${material}`
+        chemical: `kubejs:clean_${material}`
       },
       output: {
-        item: `kubejs:crystal_${material}`
-      }
+        count: 1,
+        id: `kubejs:${material}_crystal`
+      },  "per_tick_usage": true
     }).id(`allthemods:processing/${material}/crystal/from_slurry`)
+
+    //shardifying from crystals
     allthemods.custom({
       type: 'mekanism:injecting',
-      itemInput: {
-        ingredient: {
-          tag: `mekanism:crystals/${material}`
-        }
-      },
-      chemicalInput: {
+      chemical_input: {
         amount: 1,
-        gas: 'mekanism:hydrogen_chloride'
+        chemical: 'mekanism:hydrogen_chloride'
+      },      
+      item_input: {
+        count: 1,  
+        tag: `c:crystals/${material}`
       },
       output: {
-        item: `kubejs:shard_${material}`
-      }
+        count: 1,
+        id: `kubejs:${material}_shard`
+      },  "per_tick_usage": true
     }).id(`allthemods:processing/${material}/shard/from_crystal`)
+
+    //clumps from shards
     allthemods.custom({
       type: 'mekanism:purifying',
-      itemInput: {
-        ingredient: {
-          tag: `mekanism:shards/${material}`
-        }
-      },
-      chemicalInput: {
+      chemical_input: {
         amount: 1,
-        gas: 'mekanism:oxygen'
+        chemical: 'mekanism:oxygen'
+      },
+      item_input: {
+        count: 1,  
+        tag: `c:shards/${material}`
       },
       output: {
-        item: `kubejs:clump_${material}`
-      }
+        count: 1,
+        id: `kubejs:${material}_clump`
+      },  "per_tick_usage": true
     }).id(`allthemods:processing/${material}/clump/from_shard`)
+
+    //dirty dust from clumps
     allthemods.custom({
       type: 'mekanism:crushing',
       input: {
-        ingredient: {
-          tag: `mekanism:clumps/${material}`
-        }
+        count: 1,
+        tag: `c:clumps/${material}`
       },
       output: {
-        item: `kubejs:dirty_dust_${material}`
+        count: 1,
+        id: `kubejs:${material}_dirty_dust`
       }
     }).id(`allthemods:processing/${material}/dirty_dust/from_clump`)
+
+    //dust from dirty dust
     if (hasDust) {
       allthemods.custom({
         type: 'mekanism:enriching',
         input: {
-          ingredient: {
-            tag: `mekanism:dirty_dusts/${material}`
-          }
+          count: 1,
+          tag: `c:dirty_dusts/${material}`
         },
         output: {
-          item: dust.id
+          count: 1,
+          id: dust.id
         }
       }).id(`allthemods:processing/${material}/dust/from_dirty_dust`)
     }
