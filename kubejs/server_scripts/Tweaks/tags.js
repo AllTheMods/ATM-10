@@ -23,6 +23,8 @@ ServerEvents.tags('item', allthemods => {
     'utilitarian:tiny_charcoal',
     'actuallyadditions:tiny_charcoal',
   ])
+  allthemods.add('c:storage_blocks', '#c:storage_blocks/raw_crimson_iron')
+  allthemods.add('c:storage_blocks', '#c:storage_blocks/raw_azure_silver')
 })
 
 ServerEvents.tags('entity_type', allthemods => {

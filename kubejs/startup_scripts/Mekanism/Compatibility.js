@@ -22,13 +22,13 @@ StartupEvents.registry('item', allthemods => {
   const mekItems = ['clump', 'crystal', 'dirty_dust', 'shard']
   function mekStack(name, color) {
     mekItems.forEach(type => {
-      allthemods.create(`${type}_${name}`)
+      allthemods.create(`${name}_${type}`)
         .texture('layer0', 'mekanism:item/empty')
         .texture('layer1', `mekanism:item/${type}`)
         .texture('layer2', `mekanism:item/${type}_overlay`)
         .color(1, color)
-        .tag(`mekanism:${type}s`)
-        .tag(`mekanism:${type}s/${name}`)
+        .tag(`c:${type}s`)
+        .tag(`c:${type}s/${name}`)
     })
   }
   global.mekStackAdditions.forEach(entry => {
