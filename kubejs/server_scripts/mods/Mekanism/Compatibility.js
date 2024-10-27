@@ -35,7 +35,7 @@ ServerEvents.recipes(allthemods => {
       output: {
         amount: 6000,
         id: `kubejs:dirty_${material}`
-      }
+      },  "per_tick_usage": true
       }).id(`allthemods:processing/${material}/slurry/dirty/from_raw_block`)
 
       allthemods.custom({
@@ -51,7 +51,7 @@ ServerEvents.recipes(allthemods => {
         output: {
           count: 24,
           id: `kubejs:${material}_shard`
-        }
+        },  "per_tick_usage": true
       }).id(`allthemods:processing/${material}/shard/from_raw_block`)
 
       allthemods.custom({
@@ -67,7 +67,7 @@ ServerEvents.recipes(allthemods => {
         output: {
           count: 18,
           id: `kubejs:${material}_clump`
-        }
+        },  "per_tick_usage": true
       }).id(`allthemods:processing/${material}/clump/from_raw_block`)
 
       if (hasDust) {
@@ -100,7 +100,7 @@ ServerEvents.recipes(allthemods => {
         output: {
           amount: 1000,
           id: `kubejs:dirty_${material}`
-        }
+        },  "per_tick_usage": true
       }).id(`allthemods:processing/${material}/slurry/dirty/from_ore`)
 
       allthemods.custom({
@@ -116,7 +116,7 @@ ServerEvents.recipes(allthemods => {
         output: {
           count: 4,
           id: `kubejs:${material}_shard`
-        }
+        },  "per_tick_usage": true
       }).id(`allthemods:processing/${material}/shard/from_ore`)
 
       allthemods.custom({
@@ -132,7 +132,7 @@ ServerEvents.recipes(allthemods => {
         output: {
           count: 3,
           id: `kubejs:${material}_clump`
-        }
+        },  "per_tick_usage": true
       }).id(`allthemods:processing/${material}/clump/from_ore`)
       
       if (hasDust) {
@@ -165,7 +165,7 @@ ServerEvents.recipes(allthemods => {
         output: {
           amount: 2000,
           id: `kubejs:dirty_${material}`
-        }
+        },  "per_tick_usage": true
       }).id(`allthemods:processing/${material}/slurry/dirty/from_raw_ore`)
 
       allthemods.custom({
@@ -181,7 +181,7 @@ ServerEvents.recipes(allthemods => {
         output: {
           count: 8,
           id: `kubejs:${material}_shard`
-        }
+        },  "per_tick_usage": true
       }).id(`allthemods:processing/${material}/shard/from_raw_ore`)
 
       allthemods.custom({
@@ -197,7 +197,7 @@ ServerEvents.recipes(allthemods => {
         output: {
           count: 2,
           id: `kubejs:${material}_clump`
-        }
+        },  "per_tick_usage": true
       }).id(`allthemods:processing/${material}/clump/from_raw_ore`)
 
       if (hasDust) {
@@ -242,7 +242,7 @@ ServerEvents.recipes(allthemods => {
       output: {
         count: 1,
         id: `kubejs:${material}_crystal`
-      }
+      },  "per_tick_usage": true
     }).id(`allthemods:processing/${material}/crystal/from_slurry`)
 
     //shardifying from crystals
@@ -259,7 +259,7 @@ ServerEvents.recipes(allthemods => {
       output: {
         count: 1,
         id: `kubejs:${material}_shard`
-      }
+      },  "per_tick_usage": true
     }).id(`allthemods:processing/${material}/shard/from_crystal`)
 
     //clumps from shards
@@ -276,7 +276,7 @@ ServerEvents.recipes(allthemods => {
       output: {
         count: 1,
         id: `kubejs:${material}_clump`
-      }
+      },  "per_tick_usage": true
     }).id(`allthemods:processing/${material}/clump/from_shard`)
 
     //dirty dust from clumps
