@@ -423,13 +423,13 @@
 					type: "item"
 				}
 				{
-					id: "0393A491175F2586"
+					id: "48A5960AAFA4707E"
 					item: { count: 1, id: "modern_industrialization:bronze_fluid_output_hatch" }
 					type: "item"
 				}
 			]
 			x: -14.5d
-			y: -7.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["03B6A49B6E475AD3"]
@@ -493,7 +493,7 @@
 				}
 			]
 			x: -13.5d
-			y: -7.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5DE9A1BA33EB0D65"]
@@ -565,8 +565,8 @@
 				item: { count: 1, id: "alltheores:steel_ingot" }
 				type: "item"
 			}]
-			x: -6.5d
-			y: -5.5d
+			x: -7.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["4B90B3B38E08A218"]
@@ -589,7 +589,7 @@
 				item: { count: 1, id: "modern_industrialization:steel_boiler" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.5d
 			y: -10.5d
 		}
 		{
@@ -613,8 +613,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_water_pump" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -11.0d
+			x: -8.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["4B90B3B38E08A218"]
@@ -638,7 +638,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -7.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["4B90B3B38E08A218"]
@@ -685,8 +685,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_cutting_machine" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -6.0d
+			x: -3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["4B90B3B38E08A218"]
@@ -709,8 +709,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_mixer" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -11.0d
+			x: -7.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["4B90B3B38E08A218"]
@@ -733,8 +733,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_macerator" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -8.5d
+			x: -2.0d
+			y: -8.0d
 		}
 		{
 			id: "5F0C9D4344046F5E"
@@ -801,8 +801,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_packer" }
 				type: "item"
 			}]
-			x: -9.5d
-			y: -6.5d
+			x: -4.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["4B90B3B38E08A218"]
@@ -825,8 +825,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_unpacker" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: -8.0d
+			x: -6.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4B90B3B38E08A218"]
@@ -850,8 +850,8 @@
 				item: { count: 1, id: "modern_industrialization:steel_upgrade" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: -9.5d
+			x: -9.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6A35508BE24A7E2E"]
@@ -876,12 +876,13 @@
 				item: { count: 1, id: "modern_industrialization:bronze_drill" }
 				type: "item"
 			}]
-			x: -13.0d
-			y: -3.0d
+			x: -12.5d
+			y: -5.0d
 		}
 		{
 			id: "017194E29D6745E8"
 			invisible: true
+			optional: true
 			tasks: [
 				{
 					id: "34E5BD34C83CD6F9"
@@ -894,25 +895,6 @@
 			]
 			x: -10.5d
 			y: -10.0d
-		}
-		{
-			dependencies: ["6A35508BE24A7E2E"]
-			id: "4092A8621000462A"
-			tasks: [
-				{
-					id: "566389A5D8056B8A"
-					item: { count: 1, id: "modern_industrialization:coke_oven" }
-					type: "item"
-				}
-				{
-					count: 21L
-					id: "0444F45A809B8AF2"
-					item: { count: 21, id: "railcraft:coke_oven_bricks" }
-					type: "item"
-				}
-			]
-			x: -12.5d
-			y: -6.0d
 		}
 	]
 }
