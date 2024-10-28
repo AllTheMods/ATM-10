@@ -73,7 +73,7 @@ ServerEvents.recipes(allthemods => {
       if (hasDust) {
         allthemods.custom({
           type: 'mekanism:enriching',
-          item_input: {
+          input: {
             count: 1,  
             tag: `c:storage_blocks/raw_${material}`
           },

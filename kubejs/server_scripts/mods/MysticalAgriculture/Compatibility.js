@@ -64,7 +64,8 @@ const gems = [
 
 //ingredients in a different format to use tags
 const different = [
-  {tag: 'minecraft:logs', essence: 'inferium', seed: 'wood'}
+  {tag: 'minecraft:logs', essence: 'inferium', seed: 'wood'},
+  {tag: 'c:silicon', essence: 'prudentium', seed: 'silicon'}
 ]
 
 ServerEvents.recipes(allthemods => { 
