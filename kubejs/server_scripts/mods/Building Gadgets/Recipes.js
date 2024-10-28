@@ -8,7 +8,7 @@ ServerEvents.recipes(allthemods => {
     R: '#c:dusts/redstone',
     L: 'minecraft:lapis_lazuli',
     D: 'alltheores:diamond_gear',
-    A: '#c:ingots/netherite'
+    A: '#c:nuggets/allthemodium'
   })
 })
 

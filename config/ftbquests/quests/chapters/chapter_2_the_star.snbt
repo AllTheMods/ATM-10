@@ -13,8 +13,8 @@
 			image: "atm:textures/questpics/industrialforegoing/ether_gas_setup.png"
 			rotation: 0.0d
 			width: 3.4029850746268657d
-			x: 9.5d
-			y: 14.0d
+			x: 4.5d
+			y: 14.5d
 		}
 		{
 			height: 2.0d
@@ -49,14 +49,6 @@
 			y: 2.5d
 		}
 		{
-			height: 2.0d
-			image: "ironfurnaces:block/iron_furnace_front_on_smoke"
-			rotation: 0.0d
-			width: 2.0d
-			x: 4.0d
-			y: 12.0d
-		}
-		{
 			height: 3.0d
 			image: "atm:textures/questpics/extremereactors/titleimage2.png"
 			rotation: 0.0d
@@ -79,14 +71,6 @@
 			width: 3.8063063063063063d
 			x: -11.5d
 			y: 11.5d
-		}
-		{
-			height: 3.0d
-			image: "atm:textures/questpics/iron_spells/spells_anvil.png"
-			rotation: 0.0d
-			width: 2.884861407249467d
-			x: -4.0d
-			y: 12.5d
 		}
 		{
 			height: 3.0d
@@ -199,6 +183,38 @@
 			width: 2.0d
 			x: 6.0d
 			y: -6.0d
+		}
+		{
+			height: 2.0d
+			image: "ironfurnaces:block/iron_furnace_front_on_smoke"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/iron_spells/spells_anvil.png"
+			rotation: 0.0d
+			width: 1.9232409381663114d
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			height: 5.0d
+			image: "immersiveengineering:textures/gui/workbench.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 10.5d
+			y: 14.5d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/iron_spells/spells_scroll.png"
+			rotation: 0.0d
+			width: 2.3376623376623376d
+			x: -4.5d
+			y: 14.0d
 		}
 	]
 	order_index: 1
@@ -451,9 +467,9 @@
 				"535525EA4DF4AB59"
 				"75EE965CBA598FEA"
 				"268EA2DEC8840D13"
-				"411B1A7B80CE34DD"
 				"77F2271C45DB49BA"
 				"17598C171E610752"
+				"616F9B78B16B42A5"
 			]
 			id: "6CAD67D21E1EA861"
 			rewards: [
@@ -1094,8 +1110,8 @@
 				item: { count: 1, id: "industrialforegoing:mycelial_explosive" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 12.0d
+			x: 6.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3F5B5D6B788E0A73"]
@@ -1523,7 +1539,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 4.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["7377C657CED885AC"]
@@ -1860,7 +1876,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -2213,8 +2229,8 @@
 				item: { count: 1, id: "ironfurnaces:rainbow_coal" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 10.0d
+			x: 2.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3AAB71E9BDFD4C1E"]
@@ -2435,7 +2451,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3F5B5D6B788E0A73"]
@@ -2527,35 +2543,6 @@
 		}
 		{
 			dependencies: ["4485C4ABD57874EB"]
-			dependency_requirement: "one_completed"
-			hide_dependent_lines: true
-			id: "411B1A7B80CE34DD"
-			rewards: [
-				{
-					id: "288EF269AE2141A9"
-					item: {
-						count: 1
-						id: "ae2:cell_component_64k"
-					}
-					type: "item"
-				}
-				{
-					id: "4D2CD160B7167D3A"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			size: 1.25d
-			tasks: [{
-				id: "578DF0267E1EEFB6"
-				item: { count: 1, id: "ae2:singularity" }
-				type: "item"
-			}]
-			x: 4.0d
-			y: -4.0d
-		}
-		{
-			dependencies: ["4485C4ABD57874EB"]
 			id: "601C719C8FD513F0"
 			rewards: [
 				{
@@ -2608,8 +2595,8 @@
 				item: { count: 1, id: "advanced_ae:quantum_multi_threader" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: -2.0d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["372B5BF416CA83A4"]
@@ -2834,7 +2821,7 @@
 				item: { count: 2, id: "minecraft:lime_concrete" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 4.0d
 			y: 8.0d
 		}
 		{
@@ -2888,7 +2875,7 @@
 				item: { count: 11, id: "minecraft:pink_concrete" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 8.0d
 		}
 		{
@@ -2907,7 +2894,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 8.0d
+			y: 6.0d
 		}
 		{
 			icon: {
@@ -3067,8 +3054,8 @@
 				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 10.0d
+			x: -3.0d
+			y: 12.0d
 		}
 		{
 			icon: {
@@ -3126,8 +3113,8 @@
 				item: { count: 1, id: "industrialforegoing:dryrubber" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: 14.0d
+			x: 3.0d
+			y: 12.0d
 		}
 		{
 			icon: {
@@ -3157,7 +3144,7 @@
 				item: { count: 1, id: "minecraft:furnace" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 0.0d
 			y: 10.0d
 		}
 		{
@@ -3272,7 +3259,7 @@
 				item: { count: 1, id: "alltheores:steel_ingot" }
 				type: "item"
 			}]
-			x: -12.0d
+			x: -13.0d
 			y: 14.0d
 		}
 		{
@@ -3556,7 +3543,7 @@
 				item: { count: 1, id: "hostilenetworks:blank_data_model" }
 				type: "item"
 			}]
-			x: 12.0d
+			x: 13.0d
 			y: 14.0d
 		}
 		{
@@ -3680,7 +3667,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			id: "31B0267C47DB9D98"
@@ -3698,7 +3685,78 @@
 				}
 			]
 			x: 0.0d
-			y: 10.5d
+			y: 12.0d
+		}
+		{
+			id: "5EC1B868720BF521"
+			rewards: [
+				{
+					id: "46BE52C57972FAD9"
+					item: {
+						count: 1
+						id: "immersiveengineering:manual"
+					}
+					type: "item"
+				}
+				{
+					id: "76FAF7CE0267782E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "00C7C2A55B1F7E9E"
+				item: { count: 1, id: "immersiveengineering:hammer" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5EC1B868720BF521"]
+			hide_dependent_lines: true
+			id: "616F9B78B16B42A5"
+			rewards: [
+				{
+					id: "4FD5F85DD9EE77AD"
+					item: {
+						count: 1
+						id: "alltheores:aluminum_block"
+					}
+					type: "item"
+				}
+				{
+					id: "1BF078256776ED52"
+					item: {
+						count: 1
+						id: "alltheores:electrum_block"
+					}
+					type: "item"
+				}
+				{
+					id: "02B6A5EF89536DDF"
+					item: {
+						count: 1
+						id: "alltheores:steel_block"
+					}
+					type: "item"
+				}
+				{
+					id: "51B0E4396A36DD31"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "1E0B47C833DF68F7"
+				item: { count: 1, id: "immersiveengineering:tesla_coil" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 12.0d
 		}
 	]
 }

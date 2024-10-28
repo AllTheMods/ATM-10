@@ -133,6 +133,11 @@ ItemEvents.modifyTooltips(allthemods => {
         Text.of("§c(Blocks like Modular Routers, Clickers, etc)")
     ])
 
+    allthemods.add('toolbelt:belt', [
+        Text.of("§7Has it's own slot to be placed in"),
+        Text.of("§7Check your Keybinds for \"Open Belt Slot Inventory\"")
+    ])
+
 })
 
 

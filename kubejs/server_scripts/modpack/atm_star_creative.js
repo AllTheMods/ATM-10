@@ -142,7 +142,7 @@ ServerEvents.recipes(allthemods => {
                 C: 'ironjetpacks:capacitor[ironjetpacks:jetpack_id="ironjetpacks:creative",rarity="epic"]',
                 D: 'ironjetpacks:thruster[ironjetpacks:jetpack_id="ironjetpacks:creative",rarity="epic"]',
                 E: 'allthetweaks:atm_star',
-                F: 'allthemodium:unobtainium_chestplate'
+                F: 'ironjetpacks:jetpack[ironjetpacks:jetpack_id="ironjetpacks:unobtainium",rarity="epic"]'
             }
         ).id('allthemods:ironjetpacks_creative_jetpack')
 
