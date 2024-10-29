@@ -1,0 +1,18 @@
+{
+  "conditions": [],
+  "description": {
+    "text": "Removes levitation effect when equipped"
+  },
+  "effects": [
+    {
+      "type": "silentgear:cancel_effects",
+      "cleared_effects": [
+        "minecraft:levitation"
+      ]
+    }
+  ],
+  "max_level": 1,
+  "name": {
+    "text": "Cure Levitation"
+  }
+}
