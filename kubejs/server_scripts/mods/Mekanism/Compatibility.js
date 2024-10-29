@@ -20,6 +20,22 @@ ServerEvents.recipes(allthemods => {
     }
     let hasDust = !dust.isEmpty()
 
+    //crush ingot if ingot exists and no mek crushing exists for it
+    if(AlmostUnified.getTagTargetItem(`c:ingots/${material}`)){
+      if(!allthemods.countRecipes({ input: `#c:ingots/${material}`, type: `mekanism:crushing`})){
+      allthemods.custom({
+        type: 'mekanism:crushing',
+        input: {
+          count: 1,
+          tag: `c:ingots/${material}`
+        },
+        output: {
+          count: 1,
+          id: dust.id
+        }
+      }).id(`allthemods:processing/${material}/dust/from_ingot`)
+      }}
+
     //all processing for storage blocks
     if (!Ingredient.of(`#c:storage_blocks/raw_${material}`).isEmpty()) {
       allthemods.custom({
