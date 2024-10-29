@@ -1,0 +1,33 @@
+{
+  "conditions": [],
+  "description": {
+    "text": "Gives fire resistance without a full set"
+  },
+  "effects": [
+    {
+      "type": "silentgear:fireproof"
+    },
+    {
+      "type": "silentgear:wielder_effect",
+      "potion_effects": {
+        "silentgear:armor": [
+          {
+            "type": "piece_count",
+            "duration": 38,
+            "effect": "minecraft:fire_resistance",
+            "levels": [
+              1
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "extra_wiki_lines": [
+    "  - The item cannot be destroyed by fire or lava"
+  ],
+  "max_level": 1,
+  "name": {
+    "text": "Advanced Flame Ward"
+  }
+}

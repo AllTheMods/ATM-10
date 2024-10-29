@@ -27,6 +27,29 @@ ItemEvents.modifyTooltips(allthemods => {
         Text.of('§dFound in the End Highlands')
     ])
 
+    allthemods.add('kubejs:silent_allthemodium_plate',[
+        Text.of("§7§oIt's less... talkative now")
+    ])
+    allthemods.add('kubejs:silent_vibranium_plate',[
+        Text.of("§7§oIt's less... talkative now")
+    ])
+    allthemods.add('kubejs:silent_unobtainium_plate',[
+        Text.of("§7§oIt's less... talkative now")
+    ])
+
+    allthemods.add('allthemodium:allthemodium_ingot',[
+        Text.of("§7§oThese arent the ingots you are looking for"),
+        Text.of("§6Look for the [Silent Allthemodium Plate]")
+    ])
+    allthemods.add('allthemodium:vibranium_ingot',[
+        Text.of("§7§oThese arent the ingots you are looking for"),
+        Text.of("§6Look for the [Silent Vibranium Plate]")
+    ])
+    allthemods.add('allthemodium:unobtainium_ingot',[
+        Text.of("§7§oThese arent the ingots you are looking for"),
+        Text.of("§6Look for the [Silent Unobtainium Plate]")
+    ])
+
 
     allthemods.add('allthemodium:allthemodium_upgrade_smithing_template',[
         Text.of('§6Found in Suspicious Clay in Ancient Cities')
