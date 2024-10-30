@@ -417,15 +417,15 @@
 			progression_mode: "linear"
 			rewards: [
 				{
-					id: "1E2809FAFCF0A292"
-					type: "xp"
-					xp: 10
-				}
-				{
 					exclude_from_claim_all: true
 					id: "573EC47D2235DA05"
 					table_id: 8364958827326577211L
 					type: "loot"
+				}
+				{
+					id: "7DBAFD82DA6839A0"
+					type: "xp"
+					xp: 10
 				}
 			]
 			shape: "rsquare"
@@ -584,12 +584,12 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "2CB5555573A7DE48"
+					id: "4A3B4CB31EA8BFCF"
 					table_id: 8364958827326577211L
-					type: "loot"
+					type: "random"
 				}
 				{
-					id: "584E55B0CEC535E5"
+					id: "4ADD8EC0107C26CD"
 					type: "xp"
 					xp: 25
 				}

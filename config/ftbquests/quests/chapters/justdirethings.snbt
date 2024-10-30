@@ -2086,11 +2086,15 @@
 		{
 			dependencies: ["7305EE0F7D73C231"]
 			hide_dependent_lines: true
+			icon: {
+				id: "justdirethings:ferricore_pickaxe"
+			}
 			id: "4E9B35DCA018FD42"
 			shape: "diamond"
 			tasks: [{
-				id: "074A8ECEF1BEF555"
-				type: "checkmark"
+				id: "3CAD6AD06BE4C3D3"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
 			}]
 			x: -1.5d
 			y: 9.5d
@@ -2098,11 +2102,15 @@
 		{
 			dependencies: ["7305EE0F7D73C231"]
 			hide_dependent_lines: true
+			icon: {
+				id: "justdirethings:ferricore_chestplate"
+			}
 			id: "67B87570C340C243"
 			shape: "diamond"
 			tasks: [{
-				id: "1296D174F6B8F4D1"
-				type: "checkmark"
+				id: "40B39896B6CD41C6"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:armors)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
 			}]
 			x: 1.5d
 			y: 9.5d

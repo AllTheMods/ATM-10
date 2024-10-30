@@ -59,6 +59,9 @@
 		}
 		{
 			dependencies: ["1FAFDB20F504688E"]
+			icon: {
+				id: "minecraft:bookshelf"
+			}
 			id: "79AF63E77AD70A93"
 			rewards: [{
 				count: 9
@@ -72,8 +75,8 @@
 			shape: "hexagon"
 			tasks: [{
 				count: 15L
-				id: "1C9CC8E995547812"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(chipped:bookshelf)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "3D62C020980A2DEC"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:bookshelves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -662,10 +665,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"6C2C135B9B7B9402"
-				"0A3C464EF7CDD5F6"
-			]
+			dependencies: ["6C2C135B9B7B9402"]
 			id: "6A07D09831428CB9"
 			rewards: [
 				{

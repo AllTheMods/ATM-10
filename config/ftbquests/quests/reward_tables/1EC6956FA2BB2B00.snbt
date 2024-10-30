@@ -21,7 +21,15 @@
 			random_bonus: 2
 			weight: 1.5f
 		}
-		{ item: { count: 1, id: "minecraft:ender_chest" }, random_bonus: 1 }
+		{
+			count: 2
+			item: {
+				count: 1
+				id: "minecraft:ender_chest"
+			}
+			random_bonus: 1
+			weight: 0.75f
+		}
 		{
 			count: 2
 			item: {
