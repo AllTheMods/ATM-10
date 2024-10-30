@@ -119,6 +119,22 @@ ServerEvents.recipes(allthemods => {
     }
   })
 
+
+  mekCrushing(
+    {item: 'silentgear:blaze_gold_dust'},
+    {item: 'silentgear:blaze_gold_ingot'},
+    'blaze_gold_ingot_to_dust'
+  )
+  mekCrushing(
+    {item: 'silentgear:azure_electrum_dust'},
+    {item: 'silentgear:azure_electrum_ingot'},
+    'azure_electrum_ingot_to_dust'
+  )
+  mekCrushing(
+    {item: 'silentgear:crimson_steel_dust'},
+    {item: 'silentgear:crimson_steel_ingot'},
+    'crimson_steel_ingot_to_dust'
+  )
   mekCrushing(
     {item:'extendedae:entro_dust'},
     {item:'extendedae:entro_crystal'},
