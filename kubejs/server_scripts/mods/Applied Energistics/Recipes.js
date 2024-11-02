@@ -110,6 +110,7 @@ ServerEvents.recipes(allthemods => {
     universalPress('appflux:charged_redstone', 'appflux:printed_energy_processor', 'printed_energy_processor')
     universalPress('extendedae:entro_crystal', 'extendedae:concurrent_processor_print', 'concurrent_processor_print')
     universalPress('minecraft:iron_block', 'kubejs:universal_press', 'universal_press_duplicate')
+    universalPress('advanced_ae:quantum_alloy', 'advanced_ae:printed_quantum_processor', 'printed_quantum_processor')
 
     const colors = [
         'white', 'yellow', 'orange', 'red', 'pink', 'magenta', 'purple', 'light_blue', 'cyan', 'blue', 'lime', 'green', 'brown', 'light_gray', 'gray', 'black'
