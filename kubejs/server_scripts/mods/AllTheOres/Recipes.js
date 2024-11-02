@@ -8,16 +8,6 @@ ServerEvents.recipes(allthemods => {
     allthemods.remove({ id: 'allthecompressed:decompress/snow_1x'})
     allthemods.shapeless('9x minecraft:snow_block', ['allthecompressed:snow_1x'])
     allthemods.shapeless('allthecompressed:snow_1x', ['9x minecraft:snow_block'])
-/*
-    //Add ore hammer crushing for other ingots
-    function oreHammer(material){
-        let modID = Ingredient.of()
-        if(!allthemods.countRecipes({ input: 'alltheores:ore_hammers', output: `c:dusts/${material}`})){
-        let recipeID = `${modID}:${material}_dust_from_hammer_${type}`
-        let dust = AlmostUnified.getTagTargetItem(`c:dusts/${material}`)
-        allthemods.shapeless(dust, ['alltheores:ore_hammers'])
-    }}
-*/
 
 const blockedMods = [ 'modern_industrialization', 'mysticalagriculture', 'mysticalagradditions', 'extendedae', 'mekanism' ]
 let ingots = []
@@ -49,8 +39,6 @@ ingots.forEach(id => {
     }
 })
 })
-
-
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
