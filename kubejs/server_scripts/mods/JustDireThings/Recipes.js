@@ -9,6 +9,16 @@ ServerEvents.recipes(allthemods => {
         'justdirethings:celestigem_axe',
         'justdirethings:celestigem_shovel')
         .template('justdirethings:celestigem_pickaxe');
+
+        allthemods.remove({ id: 'justdirethings:upgrade_orexray' })
+        allthemods.shaped('justdirethings:upgrade_orexray', ['ABA', 'CDC', 'ABA'], {
+            A: '#c:ingots/unobtainium',
+            B: 'minecraft:calibrated_sculk_sensor',
+            C: 'minecraft:sculk_shrieker',
+            D: 'justdirethings:upgrade_blank'
+          })
+
+
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

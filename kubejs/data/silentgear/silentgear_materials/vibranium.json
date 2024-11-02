@@ -1,0 +1,171 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "kubejs:silent_vibranium_plate"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF26DE88",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.silentgear.vibranium"
+    }
+  },
+  "properties": {
+    "silentgear:main": {
+      "durability": 7500.0,
+      "enchantment_value": 105.0,
+      "attack_damage": 27.0,
+      "attack_speed": 12.2,
+      "armor": 70.0,
+      "armor/helmet": 15.0,
+      "armor/chestplate": 20.0,
+      "armor/leggings": 20.0,
+      "armor/boots": 15.0,
+      "armor_durability": 90.0,
+      "armor_toughness": 70.0,
+      "magic_armor": 400.0,
+      "ranged_damage": 0.0,
+      "rarity": 90.0,
+      "harvest_speed": 9.0,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "c:incorrect_for_vibranium_tool",
+        "level_hint": "6",
+        "name": "vibranium"
+      },
+      "traits": [
+        {
+          "trait": "silentgear:malleable",
+          "level": 5,
+          "conditions": []
+        },
+        {
+          "trait": "silentgear:crushing",
+          "level": 5,
+          "conditions": []
+        },
+        {
+          "trait": "silentgear:advanced_aquatic",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:gear_type",
+              "gear_type": "silentgear:helmet"
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:brilliant",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:gear_type",
+              "gear_type": "silentgear:armor"
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:advanced_flame_ward",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:gear_type",
+              "gear_type": "silentgear:chestplate"
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:cure_wither",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:gear_type",
+              "gear_type": "silentgear:leggings"
+            }
+          ]
+        },
+        {
+          "trait": "silentgear:cure_nausea",
+          "level": 1,
+          "conditions": [
+            {
+              "type": "silentgear:gear_type",
+              "gear_type": "silentgear:leggings"
+            }
+          ]
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 2.5
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 23.0
+      },
+      "rarity": 99.0,
+      "traits": [
+        {
+          "trait": "silentgear:hard",
+          "level": 6,
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "durability": {
+        "operation": "ADD",
+        "value": 16.0
+      },
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 10.0
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "allthemodium:incorrect_for_vibranium_tool",
+        "level_hint": "6",
+        "name": "vibranium"
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 6.0
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 60.0
+      },
+      "traits": [
+        {
+          "trait": "silentgear:malleable",
+          "level": 5,
+          "conditions": []
+        },
+        {
+          "trait": "silentgear:hard",
+          "level": 5,
+          "conditions": []
+        }
+      ]
+    }
+  }
+}

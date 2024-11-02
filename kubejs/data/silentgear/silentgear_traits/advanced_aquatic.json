@@ -1,0 +1,27 @@
+{
+  "conditions": [],
+  "description": {
+    "text": "Advanced Aquatic gives waterbreathing without a full set"
+  },
+  "effects": [
+    {
+      "type": "silentgear:wielder_effect",
+      "potion_effects": {
+        "silentgear:armor": [
+          {
+            "type": "piece_count",
+            "duration": 38,
+            "effect": "minecraft:water_breathing",
+            "levels": [
+              1
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "max_level": 5,
+  "name": {
+    "text": "Advanced Aquatic"
+  }
+}

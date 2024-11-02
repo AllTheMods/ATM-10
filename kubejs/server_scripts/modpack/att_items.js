@@ -8,7 +8,7 @@ ServerEvents.recipes(allthemods => {
     D: 'occultism:soul_gem',
     A: 'occultism:spawn_egg/familiar_dragon',
     S: 'productivetrees:socotra_dragon_sapling',
-    N: 'hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ender_dragon",hostilenetworks:data=1255]',
+    N: ['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ender_dragon",hostilenetworks:data=1255]', 'hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ender_dragon",hostilenetworks:data=1254]'],
     I: 'allthemodium:piglich_heart_block',
     B: 'productivebees:spawn_egg_configurable_bee[entity_data={id:"productivebees:configurable_bee",type:"productivebees:soul_lava"}]',
 	  G: 'productivebees:inactive_dragon_egg',
@@ -77,10 +77,11 @@ ServerEvents.recipes(allthemods => {
 }).id('allthemods:allthetweaks/nexium_emitter')
 
 // Oblivion Shard
-allthemods.shaped('allthetweaks:oblivion_shard', [' AB', 'ACA', 'BA '], {
+allthemods.shaped('allthetweaks:oblivion_shard', ['DAB', 'ACA', 'BAD'], {
   A: 'forbidden_arcanus:eternal_stella',
   C: 'evilcraft:mace_of_destruction[cyclopscore:fluid_content={amount:4000,id:"evilcraft:blood"}]',
-  B: 'evilcraft:piercing_vengeance_focus'
+  B: 'evilcraft:piercing_vengeance_focus',
+  D: 'stevescarts:module_galgadorian_drill'
 }).id('allthemods:allthetweaks/oblivion_shard')
 
 
