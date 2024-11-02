@@ -5,7 +5,7 @@ ServerEvents.recipes(allthemods => {
     allthemods.replaceInput(
         { output: 'productivelib:upgrade_productivity_4' },
         'minecraft:heart_of_the_sea',
-        'allthemodium:allthemodium_nugget'
+        'allthemodium:unobtainium_nugget'
     )
 })
 
