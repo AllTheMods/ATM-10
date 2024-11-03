@@ -1,0 +1,863 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "natures_aura"
+	group: "02FE661031A105D8"
+	icon: {
+		id: "naturesaura:gold_leaf"
+	}
+	id: "7A72E12C3839D165"
+	images: [
+		{
+			height: 2.0d
+			image: "naturesaura:item/gold_leaf"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			height: 2.0d
+			image: "naturesaura:item/vacuum_bottle"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/natures_aura/natures_aura_title.png"
+			rotation: 0.0d
+			width: 12.1d
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			height: 1.5d
+			image: "naturesaura:item/eye_improved"
+			rotation: 0.0d
+			width: 1.5d
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			height: 1.75d
+			image: "refurbished_furniture:textures/particle/super_bounce_0.png"
+			rotation: 0.0d
+			width: 1.75d
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			height: 5.0d
+			image: "irons_spellbooks:textures/particle/acid_bubble_3.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -0.14d
+			y: 0.14d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/natures_aura/natural_altar.png"
+			rotation: 0.0d
+			width: 9.859550561797754d
+			x: 11.0d
+			y: 0.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7DAED14CEC4CDA51"]
+			id: "4F9D6109EEA5D26A"
+			rewards: [
+				{
+					count: 2
+					id: "5B02A6C891227D29"
+					item: {
+						count: 1
+						id: "naturesaura:gold_leaf"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "6CAA8129F43AE29B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				count: 4L
+				id: "46CB54014AC0447C"
+				item: { count: 4, id: "naturesaura:gold_leaf" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4F9D6109EEA5D26A"]
+			icon: {
+				id: "naturesaura:gold_powder"
+			}
+			icon_scale: 1.1d
+			id: "497AE687B7E95DE8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "263B58408756F0D7"
+					table_id: 901783880121977398L
+					type: "random"
+				}
+				{
+					id: "78FBBD798532E0C7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.4d
+			tasks: [
+				{
+					id: "55628B1EECBB5E94"
+					item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:oak_sapling)item(minecraft:jungle_sapling))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "531BA7E45499F20D"
+					item: { count: 8, id: "naturesaura:wood_stand" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "172E24F739EEA426"
+					item: { count: 16, id: "naturesaura:gold_powder" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["497AE687B7E95DE8"]
+			id: "12D3C7FC4B3DAB23"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0538EE90F51EC299"
+					table_id: 901783880121977398L
+					type: "random"
+				}
+				{
+					id: "60D55CC4EC5F4DED"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5C146B5DA9342F90"
+				item: { count: 1, id: "naturesaura:eye" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["497AE687B7E95DE8"]
+			hide_dependent_lines: true
+			id: "22ADCF96AE3E609B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "659656A2281281F0"
+					table_id: 901783880121977398L
+					type: "random"
+				}
+				{
+					id: "64E310D44F8EE569"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "457413B665C31128"
+				item: { count: 1, id: "naturesaura:ancient_sapling" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["497AE687B7E95DE8"]
+			id: "05E668CE6687AC64"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3AB60B3BA5F7F8ED"
+					table_id: 901783880121977398L
+					type: "random"
+				}
+				{
+					id: "0BBC6C584FC0AA3B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "250CD873FCE7202F"
+				item: { count: 1, id: "naturesaura:token_joy" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["497AE687B7E95DE8"]
+			id: "5A011CE8EEA3F9D8"
+			rewards: [
+				{
+					id: "671E4F61F1B3699D"
+					item: {
+						count: 1
+						id: "naturesaura:vacuum_bottle"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "57755CC6A9E0B376"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "2C08B46593A9B329"
+					item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:overworld" } }, count: 1, id: "naturesaura:aura_bottle" }
+					type: "item"
+				}
+				{
+					id: "5FD10BCA425E745A"
+					item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:nether" } }, count: 1, id: "naturesaura:aura_bottle" }
+					type: "item"
+				}
+				{
+					id: "6217C3256485AF70"
+					item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:end" } }, count: 1, id: "naturesaura:aura_bottle" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"5A011CE8EEA3F9D8"
+				"3C2F5AB815A6C949"
+			]
+			id: "71B6F013C8A60EB6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4D8960CA9C40A84B"
+					table_id: 901783880121977398L
+					type: "random"
+				}
+				{
+					id: "235D556AD4C2FDF8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "7E80C1A891CB854B"
+					item: { count: 1, id: "naturesaura:oak_generator" }
+					type: "item"
+				}
+				{
+					id: "58E562C058F72AB0"
+					item: { count: 1, id: "naturesaura:flower_generator" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C2F5AB815A6C949"]
+			id: "0B6D35F5B3A11FD2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F0A4F212A355533"
+					table_id: 901783880121977398L
+					type: "random"
+				}
+				{
+					id: "487CF239ABD63AE8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1715E8DAFB3D3838"
+				item: { count: 1, id: "naturesaura:aura_cache" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0B6D35F5B3A11FD2"
+				"1D39634260A47C9A"
+			]
+			id: "24599D45F5D1606E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "584BCEA94028B3F9"
+					table_id: 901783880121977398L
+					type: "random"
+				}
+				{
+					id: "0EB4EAE31C361DAB"
+					type: "xp"
+					xp: 150
+				}
+			]
+			tasks: [{
+				id: "0785B90A3359EF21"
+				item: { count: 1, id: "naturesaura:aura_trove" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["05E668CE6687AC64"]
+			icon: {
+				id: "naturesaura:nature_altar"
+			}
+			id: "20F9EF925DB1CE05"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6236EF6A50E178BC"
+					table_id: 901783880121977398L
+					type: "random"
+				}
+				{
+					id: "35A1A9938FEF4A1C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [
+				{
+					id: "1C97A13C673C872C"
+					item: { count: 1, id: "naturesaura:nature_altar" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "0CA0B32D52395A39"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "52874F5B79ECAE65"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:stone_bricks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "005FC74EBECBBD39"
+					item: { count: 8, id: "naturesaura:gold_brick" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1523CDF0F19A3162"
+					item: { count: 4, id: "minecraft:chiseled_stone_bricks" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A011CE8EEA3F9D8"]
+			id: "3F8A5CBEAE024748"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4388EAE6C8A04973"
+					table_id: 901783880121977398L
+					type: "random"
+				}
+				{
+					id: "6F0FEC625987F600"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "78363A5BFED389F3"
+					item: { count: 1, id: "naturesaura:outpost_finder" }
+					type: "item"
+				}
+				{
+					id: "39F677AFED023C6F"
+					item: { count: 1, id: "naturesaura:fortress_finder" }
+					type: "item"
+				}
+				{
+					id: "55C491B1083C46FB"
+					item: { count: 1, id: "naturesaura:end_city_finder" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["20F9EF925DB1CE05"]
+			id: "3C2F5AB815A6C949"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1DEBE51A7FA6FDDB"
+					table_id: 901783880121977398L
+					type: "random"
+				}
+				{
+					id: "0D7D898031CA25A1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "687BAA9990A67C2E"
+				item: { count: 1, id: "naturesaura:infused_iron" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["20F9EF925DB1CE05"]
+			id: "3EC90ADA4E322B14"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5968EAE4FAE64169"
+					table_id: 901783880121977398L
+					type: "random"
+				}
+				{
+					id: "3EBAE5C8A4C59485"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "076D4BEB697AA55A"
+				item: { count: 1, id: "naturesaura:tainted_gold" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3C2F5AB815A6C949"
+				"3EC90ADA4E322B14"
+				"0EFD0A4AE82153E8"
+			]
+			icon: {
+				id: "naturesaura:offering_table"
+			}
+			id: "5C990F7E5D345A6F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3AE65EA024BC5847"
+					table_id: 901783880121977398L
+					type: "random"
+				}
+				{
+					id: "47D651BF2DE75C46"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "5FCFEA59AF1636DE"
+					item: { count: 1, id: "naturesaura:offering_table" }
+					type: "item"
+				}
+				{
+					count: 36L
+					id: "2E97226C40818239"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:flowers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "5CFDF0F9971BE465"
+					item: { count: 3, id: "naturesaura:calling_spirit" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C990F7E5D345A6F"]
+			id: "1D39634260A47C9A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B03F12214704259"
+					table_id: 901783880121977398L
+					type: "random"
+				}
+				{
+					id: "4512677DDC4711A2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "32333C6D1AD96106"
+				item: { count: 1, id: "naturesaura:sky_ingot" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5C990F7E5D345A6F"
+				"0EFD0A4AE82153E8"
+			]
+			id: "4AD4FDF70B9BFCC9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6753674290A2752E"
+					table_id: 901783880121977398L
+					type: "random"
+				}
+				{
+					id: "2DA2593ACF033861"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "18E1687150A37F37"
+					item: { count: 1, id: "naturesaura:token_euphoria" }
+					type: "item"
+				}
+				{
+					id: "03ED1F9B3A7E3CCD"
+					item: { count: 1, id: "naturesaura:token_terror" }
+					type: "item"
+				}
+				{
+					id: "7CEE6E6829D2BC96"
+					item: { count: 1, id: "naturesaura:token_rage" }
+					type: "item"
+				}
+				{
+					id: "5362B4DA434BDFF2"
+					item: { count: 1, id: "naturesaura:token_grief" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"20F9EF925DB1CE05"
+				"0EFD0A4AE82153E8"
+			]
+			id: "54F7AD64A403C9BF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "351DD42840C93A33"
+					table_id: 901783880121977398L
+					type: "random"
+				}
+				{
+					id: "16F5C8E972132872"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "12FF35B444D5F641"
+					item: { count: 1, id: "naturesaura:crushing_catalyst" }
+					type: "item"
+				}
+				{
+					id: "67583A940E7BA925"
+					item: { count: 1, id: "naturesaura:conversion_catalyst" }
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"4AD4FDF70B9BFCC9"
+				"1D39634260A47C9A"
+			]
+			id: "0FD26FD88E801C0E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0111441CEC9ECE8C"
+					table_id: 901783880121977398L
+					type: "random"
+				}
+				{
+					id: "65E7041617B2E85A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "14BDAD1D8EF6D754"
+					item: { count: 1, id: "naturesaura:animal_spawner" }
+					type: "item"
+				}
+				{
+					id: "48828EAA097984AD"
+					item: { count: 1, id: "naturesaura:birth_spirit" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			id: "7DAED14CEC4CDA51"
+			rewards: [
+				{
+					id: "534E243D88E50AC6"
+					item: {
+						components: {
+							"patchouli:book": "naturesaura:book"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+				{
+					id: "1F5E315D07B2A65B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				count: 16L
+				id: "06D5CD358CFB4D2D"
+				item: { count: 1, id: "naturesaura:gold_fiber" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["05E668CE6687AC64"]
+			hide_dependent_lines: true
+			id: "0EFD0A4AE82153E8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "093DB2A3C28FF57F"
+					table_id: 901783880121977398L
+					type: "random"
+				}
+				{
+					id: "3AE41DBD10734ED3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "6B46BB7EF0CA76B4"
+					item: { count: 1, id: "naturesaura:token_fear" }
+					type: "item"
+				}
+				{
+					id: "7C59F509A0D8CEB0"
+					item: { count: 1, id: "naturesaura:token_anger" }
+					type: "item"
+				}
+				{
+					id: "72C1E0F2F9F923BD"
+					item: { count: 1, id: "naturesaura:token_sorrow" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D39634260A47C9A"]
+			id: "2B4D4E741D855B5A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2D1AC5C000589417"
+					table_id: 901783880121977398L
+					type: "random"
+				}
+				{
+					id: "75B109A8430AAA7B"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "55F7A32C63A206B2"
+				item: { count: 1, id: "naturesaura:depth_ingot" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"1D39634260A47C9A"
+				"22ADCF96AE3E609B"
+			]
+			id: "34ABEF75AE1E5A0F"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "01AEE39CBB7624D8"
+					table_id: 901783880121977398L
+					type: "random"
+				}
+				{
+					id: "2625AC546F7332B8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "159513977921D09B"
+				item: { count: 1, id: "naturesaura:netherite_finder" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5A011CE8EEA3F9D8"]
+			id: "1ABEC7DE47BD6286"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2FD9E95B39CF60B3"
+					table_id: 901783880121977398L
+					type: "random"
+				}
+				{
+					id: "40699ABA2D6B77A6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "4D6D4F663B472B77"
+					item: { count: 1, id: "naturesaura:ender_crate" }
+					type: "item"
+				}
+				{
+					id: "49E7547CEA050C39"
+					item: { count: 1, id: "naturesaura:ender_access" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4AD4FDF70B9BFCC9"
+				"22ADCF96AE3E609B"
+			]
+			id: "4F03B152479C4AC0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "69BAA9DC96AAD6CC"
+					table_id: 901783880121977398L
+					type: "random"
+				}
+				{
+					id: "010E0886F2156704"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7610B30E5D604349"
+				item: { count: 1, id: "naturesaura:loot_finder" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.0d
+		}
+		{
+			id: "5A0EB2ADEBC7EE2B"
+			invisible: true
+			optional: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "15698B55CCAD2433"
+					type: "checkmark"
+				}
+				{
+					id: "4C6370D2B7EF8685"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+}
