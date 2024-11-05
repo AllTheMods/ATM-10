@@ -1,0 +1,47 @@
+#Disables most lighting code for certain models that are rendered dynamically (TESR). May improve FPS.
+#Affects turrets and garden cloches
+disableFancyTESR = false
+#Show the text overlay for various blocks, such as the configuration of capacitors or pumps
+showTextOverlay = true
+#Set the GUI scale of the Engineer's Manual. This uses the same numbers as Vanilla's GUI Scale and is therefor limited to the maximum value available ingame.
+#Range: 1 ~ 32
+manualGuiScale = 4
+#Set this to true if you suffer from bad eyesight. The Engineer's manual will be switched to a bold and darker text to improve readability.
+badEyesight = false
+#Set this to false to change fluid recipes in the manual to use decimals on buckets instead of fractions
+fluidFractions = true
+#Controls if item tooltips should contain the tags names of items. These tooltips are only visible in advanced tooltip mode (F3+H)
+tagTooltips = false
+#Increase the distance at which certain TileEntities (specifically windmills) are still visible. This is a modifier, so set it to 1 for default render distance, to 2 for doubled distance and so on.
+#Range: 0.0 ~ 1.7976931348623157E308
+increasedTileRenderdistance = 1.5
+#Set this to false to hide the update news in the manual
+showUpdateNews = false
+#Allows revolvers and other IE items to look properly held in 3rd person. This uses a coremod. Can be disabled in case of conflicts with other animation mods.
+fancyItemHolding = true
+#Set to false to disable the stencil buffer. This may be necessary on older GPUs.
+stencilBufferEnabled = true
+#A list of sounds that should not be muffled by the Ear Defenders. Adding to this list requires knowledge of the correct sound resource names.
+earDefenders_SoundBlacklist = []
+#Use VBOs to render certain blocks. This is significantly faster than the usual rendering,
+#but may not work correctly with visual effects from other mods
+enableVBO = true
+
+#Options to set the RGB color of all IE wire types
+[wire_colors]
+	#Range: > -2147483648
+	copper = 11758655
+	#Range: > -2147483648
+	electrum = 15573061
+	#Range: > -2147483648
+	steel = 7303023
+	#Range: > -2147483648
+	structure_rope = 9862765
+	#Range: > -2147483648
+	structure_steel = 7303023
+	#Range: > -2147483648
+	redstone = 16723759
+	#Range: > -2147483648
+	copper_insulated = 16445918
+	#Range: > -2147483648
+	electrum_insulated = 10323322

@@ -4,7 +4,7 @@
 	filename: "occultism"
 	group: "02FE661031A105D8"
 	icon: {
-		id: "occultism:ritual_dummy/custom_ritual"
+		id: "occultism:ritual_dummy/summon_foliot_crusher"
 	}
 	id: "4C507C004144BFEE"
 	images: [
@@ -245,7 +245,7 @@
 			y: 6.5d
 		}
 	]
-	order_index: 3
+	order_index: 5
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -527,14 +527,14 @@
 			rewards: [{
 				id: "1B9CD287CB41E0E8"
 				type: "xp"
-				xp: 25
+				xp: 100
 			}]
 			shape: "gear"
 			size: 1.5d
 			tasks: [
 				{
 					id: "41B3C10D0B8975EF"
-					item: { count: 1, id: "occultism:chalk_gold_impure" }
+					item: { count: 1, id: "occultism:chalk_yellow_impure" }
 					type: "item"
 				}
 				{

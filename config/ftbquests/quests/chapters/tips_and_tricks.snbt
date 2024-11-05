@@ -42,7 +42,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 5.0d
+			y: 4.0d
 		}
 		{
 			id: "7EC8814940C4C3D7"
@@ -66,7 +66,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.5d
+			y: 2.5d
 		}
 		{
 			id: "378C95C18798D413"
@@ -92,7 +92,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: 4.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -103,17 +103,18 @@
 			hide_dependency_lines: true
 			id: "0F8F37D7E12078F5"
 			rewards: [{
-				id: "032158E75A1291D8"
+				id: "4B75B944FD221D3F"
 				type: "xp"
-				xp: 10
+				xp: 100
 			}]
 			shape: "circle"
+			size: 1.25d
 			tasks: [{
 				id: "42DA8E971B27ACED"
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 6.0d
 		}
 		{
 			id: "0C856BBB1679A7DD"
@@ -152,48 +153,30 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 5.0d
-		}
-		{
-			id: "0790D3BB481162A6"
-			rewards: [{
-				id: "2D7265C36210BDDB"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [
-				{
-					id: "6038387EA35404CD"
-					item: { count: 1, id: "crafting_on_a_stick:crafting_table" }
-					type: "item"
-				}
-				{
-					id: "0BF4F9C40FF717DE"
-					item: { count: 1, id: "crafting_on_a_stick:smithing_table" }
-					type: "item"
-				}
-				{
-					id: "405411318EA7A80C"
-					item: { count: 1, id: "crafting_on_a_stick:anvil" }
-					type: "item"
-				}
-			]
-			x: -0.5d
 			y: 4.0d
 		}
 		{
-			id: "437AF6A8A63413A8"
-			rewards: [{
-				id: "4CDC7F753855B46A"
-				type: "xp"
-				xp: 10
-			}]
+			id: "0790D3BB481162A6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1F7684F76C15123A"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "79453E57C95043BD"
+					type: "xp"
+					xp: 10
+				}
+			]
 			tasks: [{
-				id: "2C621D97D1ED56DE"
-				type: "checkmark"
+				id: "6038387EA35404CD"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(crafting_on_a_stick))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
 			}]
-			x: 0.0d
-			y: 3.5d
+			x: -0.5d
+			y: 3.0d
 		}
 		{
 			id: "28E60192912BEBAD"
@@ -218,11 +201,10 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
 			id: "7A514E27E1A7FE32"
-			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -243,11 +225,10 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: 4.5d
+			y: 3.5d
 		}
 		{
 			id: "5EE945A1185E8336"
-			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -268,7 +249,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 5.5d
+			y: 3.5d
 		}
 		{
 			id: "0152938EE5651409"
@@ -286,7 +267,33 @@
 				}
 			]
 			x: 0.0d
-			y: 7.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				id: "utilitarian:white_trapped_soliciting_carpet"
+			}
+			id: "219AA017149C36E2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "127E7D75FED16CC1"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "5D49D26FB7E63F55"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "0D5203048B6E068C"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(the_bumblezone:bee_queen/dedicated_trade_tags/modded/utilitarian_trapped_soliciting_carpets)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
 		}
 	]
 }

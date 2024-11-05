@@ -1,0 +1,211 @@
+#Options related to player's death
+[player_death]
+	#The time in minutes before a grave is unlocked to anyone [-1..MAX|default:-1|disabled:-1]
+	#Range: > -1
+	decay_time = -1
+
+#Miscellaneous options
+[general]
+	#Always Keep xp on death [false/true|default:false]
+	always_keep_xp_on_death = false
+	#The duration of the Ghostly Shape effect in seconds [0..MAX|default:120]
+	#Range: > 0
+	ghostly_shape_duration = 120
+
+#Allows to customize or disable the enchantments
+[enchantments]
+	#Allows Plague Bringer to combine with Magic Siphon [false/true|default:false]
+	plague_bringer_combining_magic_siphon = false
+	#Allows Frostbite to combine with Fire Aspect [false/true|default:false]
+	frostbite_combining_fire_aspect = true
+
+#Allows to customize or disable the potions
+[potions]
+	#Allows Earthly Garden [false/true|default:true]
+	allow_earthly_garden = true
+	#Allows Bait [false/true|default:true]
+	allow_bait = true
+	#Allows Frostbite [false/true|default:true]
+	allow_frostbite = true
+	#Allows Darkness [false/true|default:true]
+	allow_darkness = true
+	#Allows Discretion [false/true|default:true]
+	allow_discretion = true
+	#Allows Restoration [false/true|default:true]
+	allow_restoration = true
+	#Allows Weaver Walk [false/true|default:true]
+	allow_weaver_walk = true
+	#Allows Giant Strength [false/true|default:true]
+	allow_giant_strength = true
+	#Allows Little World [false/true|default:true]
+	allow_little_world = true
+
+#Allows to customize or disable the perks
+[allowed_perks]
+	#Allows the perk Alchemist [false/true|default:true]
+	allow_alchemist = true
+	#Defines the level max of the perk Alchemist [1..5|default:5]
+	#Range: 1 ~ 5
+	level_max_alchemist = 5
+	#Allows the perk Concentration [false/true|default:true]
+	allow_concentration = true
+	#Defines the level max of the perk Concentration [1..3|default:3]
+	#Range: 1 ~ 3
+	level_max_concentration = 3
+	#Allows the perk Jailer [false/true|default:true]
+	allow_jailer = true
+	#Defines the level max of the perk Jailer [1..5|default:5]
+	#Range: 1 ~ 5
+	level_max_jailer = 5
+	#Allows the perk Memento Mori [false/true|default:true]
+	allow_memento_mori = true
+	#Defines the level max of the perk Memento Lori [1..5|default:5]
+	#Range: 1 ~ 5
+	level_max_memento_mori = 5
+	#Allows the perk Necromancer [false/true|default:true]
+	allow_necromancer = true
+	#Defines the level max of the perk Necromancer [1..5|default:5]
+	#Range: 1 ~ 5
+	level_max_necromancer = 5
+	#Allows the perk Rune Inscriber [false/true|default:true]
+	allow_rune_inscriber = true
+	#Defines the level max of the perk Rune Inscriber [1..5|default:5]
+	#Range: 1 ~ 5
+	level_max_rune_inscriber = 5
+	#Allows the perk Scribe [false/true|default:true]
+	allow_scribe = true
+	#Defines the level max of the perk Scribe [1..5|default:5]
+	#Range: 1 ~ 5
+	level_max_scribe = 5
+	#Allows the perk ShadowWalker [false/true|default:true]
+	allow_shadow_walker = true
+	#Defines the level max of the perk ShadowWalker [1..5|default:5]
+	#Range: 1 ~ 5
+	level_max_shadow_walker = 5
+	#Allows the perk Treasure Seeker [false/true|default:true]
+	allow_treasure_seeker = true
+	#Defines the level max of the perk Treasure Seeker [1..5|default:5]
+	#Range: 1 ~ 5
+	level_max_treasure_seeker = 5
+	#Allows the perk Witch Doctor [false/true|default:true]
+	allow_witch_doctor = true
+	#Defines the level max of the perk Witch Doctor [1..5|default:5]
+	#Range: 1 ~ 5
+	level_max_witch_doctor = 5
+	#Allows the perk Gladiator [false/true|default:true]
+	allow_gladiator = true
+	#Defines the level max of the perk Gladiator [1..5|default:5]
+	#Range: 1 ~ 5
+	level_max_gladiator = 5
+	#The cooldown in minutes to reset the perks with the ankh of Prayer [20..1440|default:120]
+	#Range: 20 ~ 1440
+	cooldown_reset_perk = 120
+
+#For settings related to magic items
+[magic_item]
+	#Always enchant Grave's Key [false/true|default:false]
+	always_enchant_grave_key = false
+	#Prevents to craft Enchanted Grave Key [false/true|default:false]
+	disable_enchanted_grave_key_recipe = false
+	#Scroll duration [1200..120000|default:12000]
+	#Range: 1200 ~ 120000
+	scroll_duration = 12000
+	#Defines experience lost when storing experience in a Scroll of Knowledge
+	#Range: 0 ~ 90
+	scroll_of_knowledge_loss = 0
+	#Maximum uses of a tablet [1..10|default:3]
+	#Range: 1 ~ 10
+	tablet_max_use = 3
+	#Cooldown in second after using a tablet [60..1200|default:300]
+	#Range: 60 ~ 1200
+	tablet_cooldown = 300
+	#Maximum level for Magic Scrolls [0..255|default:4]
+	#Range: 0 ~ 255
+	level_max_magic_scrolls = 4
+
+#For settings related to decorative tombs and magic items
+[decorative_grave]
+	#The cooldown in minutes to pray with the Ankh [1..600|default:120]
+	#Range: 1 ~ 600
+	prayer_cooldown = 120
+
+#Allows to disable some magic items
+[allowedMagicItems]
+	#Voodoo Poppet [false/true|default:true]
+	allow_voodoo_poppet = true
+	#Receptacle of Familiar [false/true|default:true]
+	allow_receptacle_of_familiar = true
+	#Book of Disenchantment [false/true|default:true]
+	allow_book_of_disenchantment = true
+	#Scroll of Preservation [false/true|default:true]
+	allow_scroll_of_preservation = true
+	#Grave's Key [false/true|default:true]
+	allow_grave_key = true
+	#Scroll of Knowledge [false/true|default:true]
+	allow_scroll_of_knowledge = true
+	#Tablet of Recall [false/true|default:true]
+	allow_tablet_of_recall = true
+	#Tablet of Home [false/true|default:true]
+	allow_tablet_of_home = true
+	#Tablet of Assistance [false/true|default:true]
+	allow_tablet_of_assistance = true
+	#Tablet of Cupidity [false/true|default:true]
+	allow_tablet_of_cupidity = true
+	#Tablet of Guard [false/true|default:true]
+	allow_tablet_of_guard = true
+	#Scroll of Unstable Intangibility [false/true|default:true]
+	allow_scroll_of_unstable_intangibility = true
+	#Scroll of Feather Fall [false/true|default:true]
+	allow_scroll_of_feather_fall = true
+	#Scroll of Purification [false/true|default:true]
+	allow_scroll_of_purification = true
+	#Scroll of True Sight [false/true|default:true]
+	allow_scroll_of_true_sight = true
+	#Lost Tablet [false/true|default:true]
+	allow_lost_tablet = true
+	#Scroll of Reach [false/true|default:true]
+	allow_scroll_of_reach = true
+	#Scroll of Lightning Resistance [false/true|default:true]
+	allow_scroll_of_lightning_resistance = true
+	#Scroll of Frost Resistance [false/true|default:true]
+	allow_scroll_of_frost_resistance = true
+	#Scroll of Aquatic Life [false/true|default:true]
+	allow_scroll_of_aquatic_life = true
+	#Scroll of Mercy [false/true|default:true]
+	allow_scroll_of_mercy = true
+	#Dust of Vanishing [false/true|default:true]
+	allow_dust_of_vanishing = true
+	#Dust of Frost [false/true|default:true]
+	allow_dust_of_frost = true
+	#Enchanted Bundle [false/true|default:true]
+	allow_enchanted_bundle = true
+	#Book of Recycling [false/true|default:true]
+	allow_book_of_recycling = true
+	#Book of Repairing [false/true|default:true]
+	allow_book_of_repairing = true
+	#Book of Magic Impregnation [false/true|default:true]
+	allow_book_of_magic_impregnation = true
+	#Book of Scribe [false/true|default:true]
+	allow_book_of_scribe = true
+	#Book of Soulbound [false/true|default:true]
+	allow_book_of_soulbound = true
+	#Book of Oblivion [false/true|default:true]
+	allow_book_of_oblivion = true
+	#Smoke Ball [false/true|default:true]
+	allow_smoke_ball = true
+	#Seeker Rod [false/true|default:true]
+	allow_seeker_rod = true
+	#Christmas Hat [false/true|default:true]
+	allow_christmas_hat = true
+	#Bag of Seeds [false/true|default:true]
+	allow_bag_of_seeds = false
+	#Magic Scroll [false/true|default:true]
+	allow_magic_scroll = true
+	#Gemstone of Familiar [false/true|default:true]
+	allow_gemstone_of_familiar = true
+	#Gemstone of Merchant [false/true|default:true]
+	allow_gemstone_of_merchant = true
+	#Gemstone of Prayer [false/true|default:true]
+	allow_gemstone_of_prayer = true
+	#Gemstone of Guardian [false/true|default:true]
+	allow_gemstone_of_guardian = true

@@ -1,0 +1,32 @@
+{"neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:raw_materials/unobtainium"
+      }
+    }
+  ],
+    "output": {
+      "tag": "c:raw_materials/unobtainium"
+    },
+    "rarity": [
+      {
+        "biome_filter": {
+          "blacklist": [],
+          "whitelist": ["atm10:unobtainium_spawnable"]
+        },
+        "dimension_filter": {
+          "blacklist": [],
+          "whitelist": []
+        },
+        "depth_min": 30,
+        "depth_max": 60,
+        "weight": 0
+      }
+    ],
+    "catalyst": {
+      "item": "allthemodium:unobtainium_pickaxe"
+    },
+    "type": "industrialforegoing:laser_drill_ore"
+  }

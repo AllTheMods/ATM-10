@@ -59,3 +59,7 @@
 		terminalStoragePacketMaxInstances = 512
 		#If the version checker should be enabled.
 		versionChecker = false
+		#The limit for the number of leaves in a tree-based crafting plan after which it won't be sent to the client anymore.
+		terminalStorageMaxTreePlanSize = 64
+		#If crafting plans should default to the tree-based view. If false, it will default to the flattened view.
+		terminalStorageDefaultToCraftingPlanTree = false

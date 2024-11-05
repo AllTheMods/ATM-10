@@ -329,6 +329,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon_scale: 1.3d
 			id: "6B2027DA7AA6FF34"
 			rewards: [
 				{
@@ -364,13 +365,15 @@
 			id: "7E92ED270C67FDE5"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "5FC5C0DBD1862334"
-					table_id: 4236052250335530963L
-					type: "random"
+					id: "5B2BBBBAE5A3FD3B"
+					item: {
+						count: 1
+						id: "powah:dielectric_casing"
+					}
+					type: "item"
 				}
 				{
-					id: "4E8234C1477A2822"
+					id: "405A74769A418204"
 					type: "xp"
 					xp: 25
 				}
@@ -398,6 +401,7 @@
 			icon: {
 				id: "powah:energizing_orb"
 			}
+			icon_scale: 1.2d
 			id: "3DDF87A1E5F5D009"
 			min_width: 300
 			rewards: [

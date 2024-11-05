@@ -1,0 +1,74 @@
+#Personal Options that can be edited even on server
+[client]
+	#Shows the magic circles when using some items [false/true|default:true]
+	show_magic_circle = true
+	#Shows all the infos in the tooltip of items [false/true|default:true]
+	show_enhanced_tooltips = true
+	#Highlights the tomb from far when holding the key [false/true|default:true]
+	highlight = true
+	#Skips the Respawn Screen [false/true|default:false]
+	skip_respawn_screen = false
+	#Shows shield particles on villager [false/true|default:true]
+	show_shield_particle = true
+	#Allows the ghost to appear around you during Halloween [false/true|default:true]
+	enable_halloween_ghost = false
+	#Shows only the elapsed minecraft days since the death on graves [false/true|default:false]
+	date_in_mc_time = false
+	#Display or not the messages of gain of points in knowledge of death [false/true|default:true]
+	display_knowledge_message = true
+	#Display or not the messages of earned of points in Alignment [false/true|default:true]
+	display_alignment_message = true
+	#Equips elytra in priority when recovering your lost items [false/true|default:false]
+	equip_elytra_in_priority = false
+	#Equips shield in priority when recovering your lost items [false/true|default:false]
+	equip_shield_in_priority = false
+	#Sorts the inventory by filling the last slots first [false/true|default:false]
+	reverse_inventory_sorting = false
+	#Shows the use of the Tombstone's enchantments in tooltip [false/true|default:true]
+	show_info_on_enchantment = true
+	#Favor the tools on the hotbar when recovering a grave [false/true|default:false]
+	priorize_tool_on_hotbar = false
+	#Allows to activate a grave by sneaking [false/true|default:true]
+	activate_grave_by_sneaking = true
+	#Allows your grave to appear in water [false/true|default:true]
+	allow_grave_in_water = true
+	#Decimal value for the color of the particles when using magic items [0..16777215|default:125656]
+	#Range: 0 ~ 16777215
+	particle_casting_color = 14937088
+	#Decimal value for the color of the grave text <Death Date> [0..16777215|default:2962496]
+	#Range: 0 ~ 16777215
+	text_color_death_date = 2962496
+	#Decimal value for the color of the grave text <R.I.P.> [0..16777215|default:2962496]
+	#Range: 0 ~ 16777215
+	text_color_rip = 2962496
+	#Decimal value for the color of the grave text <Owner Name> [0..16777215|default:5991302]
+	#Range: 0 ~ 16777215
+	text_color_owner = 5991302
+	#Decimal value of the fog color [0..16777215|default:125656]
+	#Range: 0 ~ 16777215
+	fog_color = 16777215
+	#Fog density around the graves [NONE/LOW/NORMAL/HIGH|default:LOW]
+	#Allowed Values: NONE, LOW, NORMAL, HIGH
+	fog_density = "LOW"
+	#Favorite grave
+	#Allowed Values: GRAVE_SIMPLE, GRAVE_NORMAL, GRAVE_CROSS, TOMBSTONE, SUBARAKI_GRAVE, GRAVE_ORIGINAL
+	favorite_grave = "GRAVE_SIMPLE"
+	#Favorite grave marble
+	#Allowed Values: DARK, WHITE, BLUE, GREEN, CARMIN
+	favorite_grave_marble = "DARK"
+	#Defines the rule to use for grave's skin [DEFAULT/FORCE_NORMAL/FORCE_HALLOWEEN|default:DEFAULT]
+	#Allowed Values: DEFAULT, FORCE_NORMAL, FORCE_HALLOWEEN, FORCE_CHRISTMAS
+	grave_skin_rule = "DEFAULT"
+	#Defines when to automatically equip your items [NEVER/GRAVE_RECOVERY/DEATH_RESPAWN/ALWAYS|default:ALWAYS]
+	#Allowed Values: NEVER, GRAVE_RECOVERY, DEATH_RESPAWN, ALWAYS
+	auto_equip_rule = "ALWAYS"
+	#Defines the type of marker when holding in hand some items like the Grave's Key [WING/SPARK/NOTE/BOX|default:WING]
+	#Allowed Values: WING, SPARK, NOTE, BOX
+	marker_type = "WING"
+	#Defines the font to use in Tombstone's screens (only for english, french and spanish languages) [FANTASY/VANILLA|default:FANTASY]
+	#Allowed Values: FANTASY, VANILLA
+	font_rule = "FANTASY"
+	#Display the combinations in item tooltip [false/true|default:true]
+	show_tooltip_combine = true
+	#Prevent night vision from flashing when less than 5 seconds left [false/true|default:true]
+	no_blinking_nightvision = true

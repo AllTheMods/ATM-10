@@ -16,3 +16,7 @@
     # Allowed range: -1 ~ 2147483647 - Default: -1
     maxDistance = -1
 
+    # Should the `entangled:invalid_targets` tag be treated as a whitelist rather than a blacklist? If true, entangled blocks can only be bound to blocks in the tag.
+    # Allowed values: true, false - Default: false
+    useWhitelist = false
+

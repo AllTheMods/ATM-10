@@ -1,4 +1,4 @@
-// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
 ServerEvents.recipes(allthemods => {
@@ -8,7 +8,7 @@ ServerEvents.recipes(allthemods => {
     D: 'occultism:soul_gem',
     A: 'occultism:spawn_egg/familiar_dragon',
     S: 'productivetrees:socotra_dragon_sapling',
-    N: 'hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ender_dragon",hostilenetworks:data=1255]',
+    N: ['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ender_dragon",hostilenetworks:data=1255]', 'hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ender_dragon",hostilenetworks:data=1254]'],
     I: 'allthemodium:piglich_heart_block',
     B: 'productivebees:spawn_egg_configurable_bee[entity_data={id:"productivebees:configurable_bee",type:"productivebees:soul_lava"}]',
 	  G: 'productivebees:inactive_dragon_egg',
@@ -71,16 +71,17 @@ ServerEvents.recipes(allthemods => {
   B: 'ae2wtlib:wireless_universal_terminal[ae2wtlib:has_pattern_encoding_terminal={},ae2wtlib:has_ex_pattern_access_terminal={},ae2:energy_capacity=6400000.0d,ae2wtlib:has_crafting_terminal={},ae2wtlib:has_pattern_access_terminal={},ae2:stored_energy=6400000.0d,ae2wtlib:current_terminal="pattern_encoding"]',
   F: [Item.of('mekanism:module_gravitational_modulating_unit')],
   D: 'modern_industrialization:large_advanced_motor',
-  E: 'ae2:singularity',
+  E: 'immersiveengineering:tesla_coil',
   C: 'advanced_ae:quantum_multi_threader',
   G: 'aeinfinitybooster:infinity_card'
 }).id('allthemods:allthetweaks/nexium_emitter')
 
 // Oblivion Shard
-allthemods.shaped('allthetweaks:oblivion_shard', [' AB', 'ACA', 'BA '], {
+allthemods.shaped('allthetweaks:oblivion_shard', ['DAB', 'ACA', 'BAD'], {
   A: 'forbidden_arcanus:eternal_stella',
   C: 'evilcraft:mace_of_destruction[cyclopscore:fluid_content={amount:4000,id:"evilcraft:blood"}]',
-  B: 'evilcraft:piercing_vengeance_focus'
+  B: 'evilcraft:piercing_vengeance_focus',
+  D: 'stevescarts:module_galgadorian_drill'
 }).id('allthemods:allthetweaks/oblivion_shard')
 
 
@@ -107,5 +108,5 @@ allthemods.shaped('allthetweaks:pulsating_black_hole', ['ABC', 'DEF', 'GHI'], {
 })
 
 
-// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

@@ -55,6 +55,31 @@ ServerEvents.recipes(allthemods => {
 
     allthemods.custom(recipe).id(`allthemods:mekanism/crushing/${id}`);
   }
+
+  //mekEnriching({item: 'mod:item', count: 0}, {item/tag: 'mod:item/tag', count: 0}, 'id');
+  function mekEnriching(output, input, id, outputCount) {
+    let inputObject = {
+      "count": input.count || 1
+    };
+
+    if (input.item) {
+      inputObject["item"] = input.item;
+    } else if (input.tag) {
+      inputObject["tag"] = input.tag;
+    }
+
+    let recipe = {
+      "type": "mekanism:enriching",
+      "input": inputObject,
+      "output": {
+        "count": output.count = outputCount,
+        "id": output.item
+      }
+    };
+
+    allthemods.custom(recipe).id(`allthemods:mekanism/enriching/${id}`);
+  }
+
   //mekSawing({item: 'mod:item', count: 0}, {item/tag: 'mod:item/tag', count: 0}, {chance: 0.00, item: 'mod:item',count: 0}, 'id');
   function mekSawing(output, input, extraOutput, id) {
     let inputObject = {
@@ -94,11 +119,35 @@ ServerEvents.recipes(allthemods => {
     }
   })
 
+
+  mekCrushing(
+    {item: 'silentgear:blaze_gold_dust'},
+    {item: 'silentgear:blaze_gold_ingot'},
+    'blaze_gold_ingot_to_dust'
+  )
+  mekCrushing(
+    {item: 'silentgear:azure_electrum_dust'},
+    {item: 'silentgear:azure_electrum_ingot'},
+    'azure_electrum_ingot_to_dust'
+  )
+  mekCrushing(
+    {item: 'silentgear:crimson_steel_dust'},
+    {item: 'silentgear:crimson_steel_ingot'},
+    'crimson_steel_ingot_to_dust'
+  )
   mekCrushing(
     {item:'extendedae:entro_dust'},
     {item:'extendedae:entro_crystal'},
     'entro_crystal_to_dust'
   )
+  
+  mekEnriching(
+    {item: 'alltheores:sulfur'},
+    {tag: 'c:ores/sulfur'},
+    'sulfur_ore_to_sulfur',
+    4
+  )
+
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

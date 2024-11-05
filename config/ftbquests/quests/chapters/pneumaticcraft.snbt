@@ -15,16 +15,16 @@
 			height: 7.0d
 			image: "atm:textures/questpics/pneumaticcraft/pressure_chamber.png"
 			rotation: 0.0d
-			width: 12.413333333333334d
-			x: 2.0d
+			width: 12.41d
+			x: 2.5d
 			y: 7.0d
 		}
 		{
 			height: 8.0d
 			image: "atm:textures/questpics/pneumaticcraft/assembly_line.png"
 			rotation: 0.0d
-			width: 15.21514629948365d
-			x: 27.0d
+			width: 15.21d
+			x: 26.5d
 			y: 8.0d
 		}
 		{
@@ -196,19 +196,11 @@
 			dependencies: ["371A34B297C8A8EF"]
 			id: "65E2AF881709C896"
 			min_required_dependencies: 1
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4AFB0B4320237194"
-					table_id: 6269051860797387566L
-					type: "random"
-				}
-				{
-					id: "0D8976051123BE39"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "0D8976051123BE39"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				count: 32L
 				id: "052A7C7918C3A0D5"
@@ -225,11 +217,23 @@
 			}
 			id: "5D64250B940BC8FD"
 			optional: true
-			rewards: [{
-				id: "47450D97FBA340DA"
-				type: "xp"
-				xp: 50
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "0C9FFA992177A00E"
+					item: {
+						count: 1
+						id: "pneumaticcraft:ingot_iron_compressed"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4B5CA74ED7C38627"
+					type: "xp"
+					xp: 50
+				}
+			]
 			tasks: [
 				{
 					id: "304A15731EA889F5"
@@ -265,12 +269,13 @@
 			optional: true
 			rewards: [
 				{
-					count: 16
+					count: 5
 					id: "6318CBE3EBAB4501"
 					item: {
 						count: 1
 						id: "pneumaticcraft:ingot_iron_compressed"
 					}
+					random_bonus: 5
 					type: "item"
 				}
 				{
@@ -290,19 +295,11 @@
 		{
 			dependencies: ["371A34B297C8A8EF"]
 			id: "40F634AC38F42B88"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "08291771A0655284"
-					table_id: 6269051860797387566L
-					type: "random"
-				}
-				{
-					id: "740A676015A9235B"
-					type: "xp"
-					xp: 50
-				}
-			]
+			rewards: [{
+				id: "740A676015A9235B"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				count: 16L
 				id: "78082DDA22FC7B9B"
@@ -343,12 +340,6 @@
 					exclude_from_claim_all: true
 					id: "32AAE9BB01CE8ECA"
 					table_id: 6269051860797387566L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1158AC7F5A9A2966"
-					table_id: 487623848494439020L
 					type: "random"
 				}
 				{
@@ -1550,7 +1541,7 @@
 					id: "618C5C25773A6B26"
 					item: {
 						count: 1
-						id: "croptopia:potato_chips"
+						id: "pamhc2foodcore:potatochipsitem"
 					}
 					type: "item"
 				}
