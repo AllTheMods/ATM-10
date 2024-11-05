@@ -25,6 +25,7 @@ ServerEvents.tags('item', allthemods => {
   ])
   allthemods.add('c:storage_blocks', '#c:storage_blocks/raw_crimson_iron')
   allthemods.add('c:storage_blocks', '#c:storage_blocks/raw_azure_silver')
+  allthemods.add('c:ores/cinnabar', 'alltheores:cinnabar_ore')
 })
 
 ServerEvents.tags('entity_type', allthemods => {
