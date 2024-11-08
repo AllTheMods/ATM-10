@@ -342,18 +342,11 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "198CAAA315816D0F"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:dusts/bronze)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					id: "065FC2FF2CE5C297"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/bronze)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "60664FB240C4C7EF"
+				item: { count: 1, id: "alltheores:bronze_ingot" }
+				type: "item"
+			}]
 			x: -16.5d
 			y: -6.5d
 		}

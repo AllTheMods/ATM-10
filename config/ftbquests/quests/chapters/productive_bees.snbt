@@ -2171,14 +2171,9 @@
 				xp: 100
 			}]
 			tasks: [{
-				icon: {
-					components: {
-						"productivebees:bee_type": "productivebees:nickel"
-					}
-					id: "productivebees:configurable_honeycomb"
-				}
-				id: "05E237133AC3F46B"
-				item: { components: { "ftbfiltersystem:filter": "component(fuzzy:{\"productivebees:bee_type\":\"productivebees:nickel\"})" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "1E37FD73461EFA29"
+				item: { components: { "productivebees:bee_type": "productivebees:nickel" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -1.0d
