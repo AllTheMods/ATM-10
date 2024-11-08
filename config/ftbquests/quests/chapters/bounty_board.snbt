@@ -541,12 +541,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "66C49399D8CCD721"
-					table_id: 487623848494439020L
-					type: "random"
-				}
-				{
 					id: "2052F84B9D14A141"
 					type: "xp"
 					xp: 100
@@ -1208,11 +1202,10 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/warden.png"
+					"ftbquests:icon": "minecraft:textures/entity_icon/warden/warden.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
-			icon_scale: 1.25d
 			id: "0E20A9B79D1C6637"
 			rewards: [
 				{
