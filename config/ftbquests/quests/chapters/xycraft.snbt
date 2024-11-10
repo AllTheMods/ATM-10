@@ -1,0 +1,805 @@
+{
+	autofocus_id: "2AC7BC448C007BDB"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "xycraft"
+	group: "2B51AC12041E3F89"
+	icon: {
+		id: "xycraft_world:xychorium_gem_blue"
+	}
+	id: "219B7A003658D24F"
+	images: [
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/xycraft/balloon.png"
+			rotation: 0.0d
+			width: 2.0348837209302326d
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/xycraft/extrator.png"
+			rotation: 0.0d
+			width: 3.294117647058824d
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/xycraft/xycraft.png"
+			rotation: -90.0d
+			width: 5.132530120481928d
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/xycraft/tank.png"
+			rotation: 0.0d
+			width: 3.1714285714285717d
+			x: 10.5d
+			y: -3.5d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/xycraft/fabricator.png"
+			rotation: 0.0d
+			width: 4.265822784810126d
+			x: 10.5d
+			y: 4.0d
+		}
+	]
+	order_index: 9
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "15540271BF17C2E4"
+			rewards: [{
+				id: "0CDD4192853BADC6"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "4EEF358CAC170CC4"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:gems/xychorium)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15540271BF17C2E4"]
+			id: "08E484DD3E751697"
+			rewards: [
+				{
+					id: "15DDBBD1EDE8A843"
+					item: {
+						count: 1
+						id: "xycraft_world:xychorium_storage_blue"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "462DEE14F79B8CCF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "53B3983C04A5CB1C"
+				item: { count: 1, id: "xycraft_world:xychorium_gem_blue" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["15540271BF17C2E4"]
+			id: "3F68BA498E877C8C"
+			rewards: [
+				{
+					id: "187352DA383B7DF6"
+					item: {
+						count: 1
+						id: "xycraft_world:xychorium_storage_green"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "3E0C9AD83C190CC8"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "59E3B2A8BA8579C0"
+				item: { count: 1, id: "xycraft_world:xychorium_gem_green" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["15540271BF17C2E4"]
+			id: "2B5E14A47062F83C"
+			rewards: [
+				{
+					id: "54AEEA17E0FA8135"
+					item: {
+						count: 1
+						id: "xycraft_world:xychorium_storage_red"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "7E3B99D53B518048"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "4D389CB7B26F5EB5"
+				item: { count: 1, id: "xycraft_world:xychorium_gem_red" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15540271BF17C2E4"]
+			id: "0D01524F249E25D7"
+			rewards: [
+				{
+					id: "47406628118C4FAC"
+					item: {
+						count: 1
+						id: "xycraft_world:xychorium_storage_dark"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "441961E8BDDFDE22"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "78DA1FE8F54FDAE8"
+				item: { count: 1, id: "xycraft_world:xychorium_gem_dark" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["15540271BF17C2E4"]
+			id: "69F11A94D44AB5CF"
+			rewards: [
+				{
+					id: "15F2DA96D08F45EE"
+					item: {
+						count: 1
+						id: "xycraft_world:xychorium_storage_light"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "30318BC56B093D00"
+					type: "xp"
+					xp: 10
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "08082713F1556E3A"
+				item: { count: 1, id: "xycraft_world:xychorium_gem_light" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "7574A782DCFB87CE"
+			rewards: [{
+				id: "35BC84DFB247D4E8"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "4BF8E17EC585CA54"
+				item: { count: 1, id: "xycraft_world:kivi" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7574A782DCFB87CE"]
+			id: "2AC7BC448C007BDB"
+			rewards: [
+				{
+					count: 3
+					id: "588A664EA3133C1A"
+					item: {
+						count: 1
+						id: "xycraft_machines:machine_base"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "708BE30907A8B470"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "704B12123DFC3CDA"
+				item: { count: 1, id: "xycraft_machines:machine_base" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2B5E14A47062F83C"
+				"2AC7BC448C007BDB"
+			]
+			id: "5E1D4169C083ACEF"
+			rewards: [
+				{
+					id: "718E0ACB646A6530"
+					item: {
+						count: 1
+						id: "minecraft:lava_bucket"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "708FCB208BAFBA90"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "2E515AF3D5E72596"
+				item: { count: 1, id: "xycraft_machines:ignition_plate" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3F68BA498E877C8C"
+				"2AC7BC448C007BDB"
+			]
+			id: "3E970E76372AB094"
+			rewards: [
+				{
+					count: 5
+					id: "7E05B27D9EBDCE8F"
+					item: {
+						count: 1
+						id: "minecraft:wheat_seeds"
+					}
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "17409E46C9213120"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "3C69F169CDF02BC0"
+				item: { count: 1, id: "xycraft_machines:planter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"08E484DD3E751697"
+				"2AC7BC448C007BDB"
+			]
+			id: "623E6A855B363C8D"
+			rewards: [
+				{
+					id: "6A17107D57BBE1E1"
+					item: {
+						count: 1
+						id: "minecraft:water_bucket"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "04B0A097DB8F065B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "308A581A02968EBB"
+				item: { count: 1, id: "xycraft_machines:water_block" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"69F11A94D44AB5CF"
+				"2AC7BC448C007BDB"
+			]
+			id: "2C4ECA4F5B1639F4"
+			rewards: [
+				{
+					count: 2
+					id: "7A22D0A5AAD95D34"
+					item: {
+						count: 1
+						id: "minecraft:glowstone"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "7C9CBE2C368546AE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "302ABCB249064D46"
+				item: { count: 1, id: "xycraft_machines:light_field" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0D01524F249E25D7"
+				"2AC7BC448C007BDB"
+			]
+			id: "64D0D69ADB8820DA"
+			rewards: [
+				{
+					count: 2
+					id: "4C638EBAF29CD369"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "4DF915CF697019BF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4A432948E1F77298"
+				item: { count: 1, id: "xycraft_machines:fluid_void" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7574A782DCFB87CE"]
+			id: "71D133BA3EC6F4FD"
+			rewards: [
+				{
+					count: 5
+					id: "1A3909D004F030AA"
+					item: {
+						count: 1
+						id: "xycraft_world:kivi"
+					}
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "34E27F4E11D3F8BE"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "2457D9787DD41867"
+				item: { count: 1, id: "xycraft_machines:extractor" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			id: "39E4FC9BA89E44BC"
+			rewards: [
+				{
+					id: "1558FCDBAF58C98C"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "apothic_attributes:levitation"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "33F11E1C7258F806"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "05930E109A92E8BB"
+				item: { count: 1, id: "xycraft_machines:stake" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7574A782DCFB87CE"]
+			id: "6D0876A402C22067"
+			rewards: [
+				{
+					count: 2
+					id: "20DDF24F5D642F86"
+					item: {
+						count: 1
+						id: "xycraft_machines:port_item"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "470A211A0428430A"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			tasks: [{
+				id: "1820FB689A9537EF"
+				item: { count: 1, id: "xycraft_machines:port_item" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7574A782DCFB87CE"]
+			id: "2C7D62231AD6406A"
+			rewards: [
+				{
+					count: 2
+					id: "1687EC60DA0E9D13"
+					item: {
+						count: 1
+						id: "xycraft_machines:port_fluid"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "40ADF887EF953209"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			tasks: [{
+				id: "470DF61394ED606D"
+				item: { count: 1, id: "xycraft_machines:port_fluid" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"06B85804163DD18B"
+				"6D0876A402C22067"
+			]
+			id: "4A92237E17ED5F1C"
+			rewards: [
+				{
+					count: 2
+					id: "6230EB15ED4862B0"
+					item: {
+						count: 1
+						id: "alltheores:aluminum_ingot"
+					}
+					random_bonus: 2
+					type: "item"
+				}
+				{
+					id: "3C853CFDE6CDCB57"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "2B9EAD369BB9F233"
+				item: { count: 1, id: "xycraft_machines:void_container" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6D0876A402C22067"]
+			id: "06B85804163DD18B"
+			rewards: [
+				{
+					count: 4
+					id: "313071486C91900D"
+					item: {
+						count: 1
+						id: "pipez:item_pipe"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "121268C988915DBC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "366CCB18B6C9CC7A"
+				item: { count: 1, id: "xycraft_machines:soaryn_box" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"06B85804163DD18B"
+				"6D0876A402C22067"
+			]
+			id: "355244420EA47546"
+			rewards: [
+				{
+					id: "525DB571EA0769AA"
+					item: {
+						count: 1
+						id: "xycraft_machines:soaryn_box"
+					}
+					type: "item"
+				}
+				{
+					id: "678B24D551EDB369"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "6B60741F11E1F1AE"
+				item: { count: 1, id: "xycraft_machines:fabricator" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C7D62231AD6406A"]
+			id: "43F08B510FC1C06F"
+			rewards: [
+				{
+					count: 4
+					id: "19CFD9C273503054"
+					item: {
+						count: 1
+						id: "minecraft:bucket"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "4EF3B4EEA9C13D48"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "781F65E2C16C94BB"
+				item: { count: 1, id: "xycraft_machines:item_io" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2C7D62231AD6406A"]
+			id: "643FB1A3ED0EA9EC"
+			rewards: [
+				{
+					id: "3647CEF5F7135475"
+					item: {
+						count: 1
+						id: "xycraft_machines:port_fluid"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "665D944792325D70"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "539E2D9E214F0142"
+				item: { count: 1, id: "xycraft_machines:valve" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2C7D62231AD6406A"
+				"643FB1A3ED0EA9EC"
+				"43F08B510FC1C06F"
+				"030AC1AF8F735550"
+			]
+			id: "2278A98DCDF713D7"
+			rewards: [{
+				id: "230753A98859C84C"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				count: 16L
+				id: "460FA61A72720319"
+				item: { count: 1, id: "minecraft:glass" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6D0876A402C22067"
+				"06B85804163DD18B"
+			]
+			id: "1E00DBAACDF4404F"
+			rewards: [
+				{
+					id: "36356C42D53FA44A"
+					item: {
+						count: 1
+						id: "xycraft_machines:soaryn_box"
+					}
+					type: "item"
+				}
+				{
+					id: "3AF1A7ABA05B7111"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [{
+				id: "2F151495F025EEB1"
+				item: { count: 1, id: "xycraft_machines:collector" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2C7D62231AD6406A"]
+			icon: {
+				id: "xycraft_machines:hydro_pump"
+			}
+			id: "030AC1AF8F735550"
+			rewards: [
+				{
+					id: "730C13184D1CCB8A"
+					item: {
+						count: 1
+						id: "xycraft_machines:water_block"
+					}
+					type: "item"
+				}
+				{
+					id: "499D7CBD6A652137"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "4EA1F55E2C1D5795"
+					item: { count: 1, id: "xycraft_machines:hydro_pump" }
+					type: "item"
+				}
+				{
+					id: "55DD09212E3DB168"
+					item: { components: { "ftbfiltersystem:filter": "or(item(pipez:fluid_pipe)item(moderndynamics:fluid_pipe)item(mekanism:basic_mechanical_pipe)item(mekanism:advanced_mechanical_pipe)item(mekanism:elite_mechanical_pipe)item(mekanism:ultimate_mechanical_pipe)item(immersiveengineering:fluid_pipe)item(pipez:universal_pipe)item_tag(modern_industrialization:fluid_pipes))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7574A782DCFB87CE"]
+			hide_until_deps_complete: true
+			id: "1A96C595CBA42840"
+			optional: true
+			rewards: [
+				{
+					count: 8
+					id: "540D42ACD0129963"
+					item: {
+						count: 1
+						id: "xycraft_world:kivi"
+					}
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "4EC4A33E7744B01B"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "23AEF92B0F4BD3E9"
+				item: { count: 1, id: "mysticalagriculture:kivi_seeds" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			id: "16B4A00948D1F60D"
+			invisible: true
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "706FA543A6C675D3"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+	]
+}
