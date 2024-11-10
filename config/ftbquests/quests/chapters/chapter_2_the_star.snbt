@@ -1632,11 +1632,6 @@
 			id: "6A12188E50EAEB78"
 			rewards: [
 				{
-					id: "75D2D387E46671DB"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					count: 16
 					id: "61F754CDB33DCEA1"
 					item: {
@@ -1644,6 +1639,11 @@
 						id: "minecraft:coal_block"
 					}
 					type: "item"
+				}
+				{
+					id: "2B81C6D7C9797D9A"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -2209,11 +2209,6 @@
 			id: "7D972A3C4211EB26"
 			rewards: [
 				{
-					id: "4F5CF8866E29E64A"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					count: 16
 					id: "203E15EB6CEEEC2D"
 					item: {
@@ -2221,6 +2216,11 @@
 						id: "minecraft:coal_block"
 					}
 					type: "item"
+				}
+				{
+					id: "5064A9B95643D9D8"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -3718,6 +3718,7 @@
 			dependencies: ["5EC1B868720BF521"]
 			hide_dependent_lines: true
 			id: "616F9B78B16B42A5"
+			min_width: 250
 			rewards: [
 				{
 					id: "4FD5F85DD9EE77AD"
