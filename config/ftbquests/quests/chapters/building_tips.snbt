@@ -36,12 +36,13 @@
 			}
 			id: "6F65216B13E9FFA9"
 			rewards: [{
-				count: 32
+				count: 5
 				id: "15A6447533AF449F"
 				item: {
 					count: 1
 					id: "minecraft:dirt"
 				}
+				random_bonus: 5
 				type: "item"
 			}]
 			shape: "octagon"
@@ -1840,9 +1841,9 @@
 			shape: "gear"
 			size: 5.0d
 			tasks: [{
-				dimension: "minecraft:overworld"
-				id: "6D435E9A7DF7B053"
-				type: "dimension"
+				id: "0EBE231AB868C868"
+				item: { components: { "ftbfiltersystem:filter": "or(block())" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
 			}]
 			x: 5.0d
 			y: -3.0d

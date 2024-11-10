@@ -148,8 +148,8 @@
 				}
 			]
 			tasks: [{
-				id: "595B3FA9F32B712D"
-				item: { count: 1, id: "naturescompass:naturescompass" }
+				id: "58E3131A3EA2661E"
+				item: { components: { "ftbfiltersystem:filter": "or(item(naturescompass:naturescompass)item(explorerscompass:explorerscompass))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -180,7 +180,6 @@
 		}
 		{
 			id: "28E60192912BEBAD"
-			invisible: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
