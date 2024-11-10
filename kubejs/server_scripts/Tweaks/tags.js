@@ -23,6 +23,17 @@ ServerEvents.tags('item', allthemods => {
     'utilitarian:tiny_charcoal',
     'actuallyadditions:tiny_charcoal',
   ])
+
+  // Allthemodium Alloy Dusts
+  allthemods.add('c:dusts/unobtainium_allthemodium_alloy', 'allthemodium:unobtainium_allthemodium_alloy_dust')
+  allthemods.add('c:dusts/unobtainium_vibranium_alloy', 'allthemodium:unobtainium_vibranium_alloy_dust')
+  allthemods.add('c:dusts/vibranium_allthemodium_alloy', 'allthemodium:vibranium_allthemodium_alloy_dust')
+  allthemods.add('c:dusts', [
+    '#c:dusts/unobtainium_allthemodium_alloy',
+    '#c:dusts/unobtainium_vibranium_alloy',
+    '#c:dusts/vibranium_allthemodium_alloy',
+  ])
+
   allthemods.add('c:storage_blocks', '#c:storage_blocks/raw_crimson_iron')
   allthemods.add('c:storage_blocks', '#c:storage_blocks/raw_azure_silver')
   allthemods.add('c:ores/cinnabar', 'alltheores:cinnabar_ore')
