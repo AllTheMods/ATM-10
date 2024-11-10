@@ -154,15 +154,6 @@
 			y: 3.0d
 		}
 		{
-			alpha: 150
-			height: 2.0d
-			image: "minecraft:textures/painting/skull_and_roses.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 0.0d
-			y: 9.0d
-		}
-		{
 			height: 1.0d
 			image: "enderio:textures/gui/icons/weather_thunder.png"
 			rotation: 0.0d
@@ -201,6 +192,30 @@
 			width: 0.3d
 			x: -1.1d
 			y: -3.0d
+		}
+		{
+			height: 1.0d
+			image: "evilcraft:block/blood_stain_1"
+			rotation: 45.0d
+			width: 1.0d
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "evilcraft:block/blood_stain_0"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			height: 1.0d
+			image: "evilcraft:block/blood_stain_1"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.0d
+			y: 7.5d
 		}
 	]
 	order_index: 2
@@ -1445,6 +1460,18 @@
 			]
 			x: 3.5d
 			y: 10.5d
+		}
+		{
+			id: "27E34DCC9C94F4FF"
+			invisible: true
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "293B86458729C26E"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
 		}
 	]
 }

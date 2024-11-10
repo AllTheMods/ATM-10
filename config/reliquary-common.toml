@@ -25,7 +25,8 @@ mobDropsEnabled = true
 	#Map of POTION ingredients and their effects
 	potionMap = []
 	#Maximum number of effects a POTION can have to appear in creative tabs / JEI
-	#Range: 1 ~ 6
+	# Default: 1
+	# Range: 1 ~ 6
 	maxEffectCount = 1
 	#Whether potions that are made out of three base ingredients appear in creative tabs / JEI
 	threeIngredients = false
@@ -37,22 +38,26 @@ mobDropsEnabled = true
 	#Alkahestry Tome settings
 	[items.alkahestryTome]
 		#Charge limit of the tome
-		#Range: 0 ~ 9999
+		# Default: 1000
+		# Range: 0 ~ 9999
 		chargeLimit = 1000
 
 	#Angelic Feather settings
 	[items.angelicFeather]
 		#Percent hunger used to heal player per 1 damage that would be taken otherwise.
-		#Range: 0 ~ 100
+		# Default: 50
+		# Range: 0 ~ 100
 		hungerCostPercent = 50
 		#Potency of the leaping effect
-		#Range: 0 ~ 5
+		# Default: 1
+		# Range: 0 ~ 5
 		leapingPotency = 1
 
 	#Angelheart Vial settings
 	[items.angelheartVial]
 		#Percent of life that gets healed when the player would die
-		#Range: 0 ~ 100
+		# Default: 25
+		# Range: 0 ~ 100
 		healPercentageOfMaxLife = 25
 		#Whether the player gets negative statuses removed
 		removeNegativeStatus = true
@@ -62,16 +67,20 @@ mobDropsEnabled = true
 		#List of mundane blocks the catalyst will break
 		mundaneBlocks = ["minecraft:dirt", "minecraft:coarse_dirt", "minecraft:podzol", "minecraft:mycelium", "minecraft:grass_block", "minecraft:gravel", "minecraft:cobblestone", "minecraft:stone", "minecraft:granite", "minecraft:diorite", "minecraft:andesite", "minecraft:sand", "minecraft:sandstone", "minecraft:snow", "minecraft:soul_sand", "minecraft:netherrack", "minecraft:end_stone", "minecraft:deepslate", "minecraft:tuff"]
 		#Number of gunpowder it costs per catalyst use
-		#Range: 0 ~ 10
+		# Default: 3
+		# Range: 0 ~ 10
 		gunpowderCost = 3
 		#Number of gunpowder that gets added to catalyst per one that's consumed from players inventory
-		#Range: 1 ~ 3
+		# Default: 1
+		# Range: 1 ~ 3
 		gunpowderWorth = 1
 		#Number of gunpowder that can be stored in destruction catalyst
-		#Range: 0 ~ 9999
+		# Default: 250
+		# Range: 0 ~ 9999
 		gunpowderLimit = 250
 		#Radius of the explosion
-		#Range: 1 ~ 5
+		# Default: 1
+		# Range: 1 ~ 5
 		explosionRadius = 1
 		#Whether the explosion is centered on the block that gets clicked
 		centeredExplosion = false
@@ -81,142 +90,179 @@ mobDropsEnabled = true
 	#Emperor Chalice settings
 	[items.emperorChalice]
 		#How much saturation is added in addition to filling the hunger
-		#Range: 0 ~ 10
+		# Default: 4
+		# Range: 0 ~ 10
 		hungerSatiationMultiplier = 4
 
 	#Ender Staff settings
 	[items.enderStaff]
 		#Number of ender pearls per use
-		#Range: 0 ~ 3
+		# Default: 1
+		# Range: 0 ~ 3
 		enderPearlCastCost = 1
 		#Number of ender pearls per teleportation to the wraith node
-		#Range: 0 ~ 3
+		# Default: 1
+		# Range: 0 ~ 3
 		enderPearlNodeWarpCost = 1
 		#Number of ender pearls that get added to the staff per one that's consumed from players inventory
-		#Range: 1 ~ 10
+		# Default: 1
+		# Range: 1 ~ 10
 		enderPearlWorth = 1
 		#Number of ender pearls that the ender staff can store
-		#Range: 0 ~ 9999
+		# Default: 250
+		# Range: 0 ~ 9999
 		enderPearlLimit = 250
 		#Time it takes to teleport to the wraith node
-		#Range: 10 ~ 120
+		# Default: 60
+		# Range: 10 ~ 120
 		nodeWarpCastTime = 60
 
 	#Fortune Coin settings
 	[items.fortuneCoin]
 		#The distance that it pulls from when activated
-		#Range: 3 ~ 10
+		# Default: 5
+		# Range: 3 ~ 10
 		standardPullDistance = 5
 		#The distance that it pulls from when right click is held
-		#Range: 9 ~ 30
+		# Default: 15
+		# Range: 9 ~ 30
 		longRangePullDistance = 15
 
 	#Glacial Staff settings
 	[items.glacialStaff]
 		#Number of snowballs the staff can hold
-		#Range: 0 ~ 9999
+		# Default: 250
+		# Range: 0 ~ 9999
 		snowballLimit = 250
 		#Number of snowballs it costs when the staff is used
-		#Range: 0 ~ 3
+		# Default: 1
+		# Range: 0 ~ 3
 		snowballCost = 1
 		#Number of snowballs that get added to the staff per one that's consumed from player's inventory
-		#Range: 1 ~ 3
+		# Default: 1
+		# Range: 1 ~ 3
 		snowballWorth = 1
 		#The damage that snowballs cause
-		#Range: 0 ~ 6
+		# Default: 3
+		# Range: 0 ~ 6
 		snowballDamage = 3
 		#The damage bonus against entities that are immune to fire
-		#Range: 0 ~ 6
+		# Default: 3
+		# Range: 0 ~ 6
 		snowballDamageBonusFireImmune = 3
 		#The damage bonus against blaze
-		#Range: 0 ~ 12
+		# Default: 6
+		# Range: 0 ~ 12
 		snowballDamageBonusBlaze = 6
 
 	#Handgun settings
 	[items.handgun]
 		#Experience level at which handgun has the fastest reload time and shortes cooldown between shots
-		#Range: 0 ~ 100
+		# Default: 20
+		# Range: 0 ~ 100
 		maxSkillLevel = 20
 
 	#Harvest Rod settings
 	[items.harvestRod]
 		#Number of bonemeal the rod can hold
-		#Range: 0 ~ 9999
+		# Default: 250
+		# Range: 0 ~ 9999
 		boneMealLimit = 250
 		#Number of bonemeal consumed per use
-		#Range: 0 ~ 3
+		# Default: 1
+		# Range: 0 ~ 3
 		boneMealCost = 1
 		#Number of bonemeal that gets added to the rod per one that's consumed from player's inventory
-		#Range: 1 ~ 3
+		# Default: 1
+		# Range: 1 ~ 3
 		boneMealWorth = 1
 		#Percent chance that a bonemeal will get applied during a luck roll
-		#Range: 1 ~ 100
+		# Default: 33
+		# Range: 1 ~ 100
 		boneMealLuckPercentChance = 33
 		#Number of times that a rod may apply additional luck based bonemeal
-		#Range: 0 ~ 7
+		# Default: 2
+		# Range: 0 ~ 7
 		boneMealLuckRolls = 2
 		#Radius in which harvest rod breaks crops, bonemeals/plants/hoes blocks
-		#Range: 0 ~ 5
+		# Default: 2
+		# Range: 0 ~ 5
 		aoeRadius = 2
 		#Ticks in between bonemealing/planting/hoeing blocks when player is using one of these AOE actions
-		#Range: 1 ~ 20
+		# Default: 3
+		# Range: 1 ~ 20
 		aoeCooldown = 3
 		#Maximum number of units harvest rod can hold per plantable item
-		#Range: 0 ~ 9999
+		# Default: 250
+		# Range: 0 ~ 9999
 		maxCapacityPerPlantable = 250
 		#Range at which harvest rod will automatically hoe/plant/bonemeal/break crops around pedestals
-		#Range: 1 ~ 20
+		# Default: 4
+		# Range: 1 ~ 20
 		pedestalRange = 4
 		#Ticks in between harvest rod actions when in pedestals
-		#Range: 1 ~ 20
+		# Default: 5
+		# Range: 1 ~ 20
 		pedestalCooldown = 5
 
 	#Hero Medallion settings
 	[items.heroMedallion]
 		#Cooldown between tries to fix items repaired with xp
-		#Range: 1 ~ 100
+		# Default: 20
+		# Range: 1 ~ 100
 		repairCoolDown = 20
 		#Range in which pedestals are checked for items with mending enchant that need fixing
-		#Range: 1 ~ 20
+		# Default: 5
+		# Range: 1 ~ 20
 		pedestalRange = 5
 		#Maximum amount of xp that is used each time medallion repairs items
-		#Range: 1 ~ 20
+		# Default: 5
+		# Range: 1 ~ 20
 		repairStepXP = 5
 
 	#Ice Magus Rod settings
 	[items.iceMagusRod]
 		#Number of snowballs the rod can hold
-		#Range: 0 ~ 9999
+		# Default: 250
+		# Range: 0 ~ 9999
 		snowballLimit = 250
 		#Number of snowballs it costs when the rod is used
-		#Range: 0 ~ 3
+		# Default: 1
+		# Range: 0 ~ 3
 		snowballCost = 1
 		#Number of snowballs that get added to the rod per one that's consumed from player's inventory
-		#Range: 1 ~ 3
+		# Default: 1
+		# Range: 1 ~ 3
 		snowballWorth = 1
 		#The damage that snowballs cause
-		#Range: 0 ~ 4
+		# Default: 2
+		# Range: 0 ~ 4
 		snowballDamage = 2
 		#Damage bonus against fire immune mobs
-		#Range: 0 ~ 4
+		# Default: 2
+		# Range: 0 ~ 4
 		snowballDamageBonusFireImmune = 2
 		#Damage bonus against blaze
-		#Range: 0 ~ 8
+		# Default: 4
+		# Range: 0 ~ 8
 		snowballDamageBonusBlaze = 4
 
 	#Infernal Chalice settings
 	[items.infernalChalice]
 		#Percent hunger used to heal player per 1 damage that would be taken otherwise.
-		#Range: 0 ~ 10
+		# Default: 1
+		# Range: 0 ~ 10
 		hungerCostPercent = 1
 		#Millibuckets of lava that the chalice can hold
-		#Range: > 0
+		# Default: 500000
+		# Range: > 0
 		fluidLimit = 500000
 
 	#Infernal Claws settings
 	[items.infernalClaws]
 		#Percent hunger used to heal player per 1 damage that would be taken otherwise.
-		#Range: 0 ~ 30
+		# Default: 5
+		# Range: 0 ~ 30
 		hungerCostPercent = 5
 
 	#Infernal Tear settings
@@ -229,7 +275,8 @@ mobDropsEnabled = true
 	#Kraken Shell settings
 	[items.krakenShell]
 		#Percent hunger used to heal player per 1 damage that would be taken otherwise.
-		#Range: 0 ~ 50
+		# Default: 25
+		# Range: 0 ~ 50
 		hungerCostPercent = 25
 
 	#Lantern of Paranoia settings
@@ -237,10 +284,12 @@ mobDropsEnabled = true
 		#List of torches that are supported by the lantern
 		torches = ["minecraft:torch"]
 		#Minimum light level below which the lantern will place torches
-		#Range: 0 ~ 15
+		# Default: 1
+		# Range: 0 ~ 15
 		minLightLevel = 1
 		#Radius in which the lantern checks for light levels and places torches
-		#Range: 1 ~ 15
+		# Default: 6
+		# Range: 1 ~ 15
 		placementScanRadius = 6
 
 	#Midas Touchstone settings
@@ -248,31 +297,39 @@ mobDropsEnabled = true
 		#Gold items that can be repaired by the touchstone
 		goldItems = []
 		#Number of glowstone that the repair costs
-		#Range: 0 ~ 3
+		# Default: 1
+		# Range: 0 ~ 3
 		glowstoneCost = 1
 		#Number of glowstone that gets added to the touchstone per one in player's inventory
-		#Range: 1 ~ 12
+		# Default: 4
+		# Range: 1 ~ 12
 		glowstoneWorth = 4
 		#Number of glowstone the touchstone can hold
-		#Range: 0 ~ 9999
+		# Default: 250
+		# Range: 0 ~ 9999
 		glowstoneLimit = 250
 
 	#Mob Charm settings
 	[items.mobCharm]
 		#Total durability of Mob Charm
-		#Range: 20 ~ 1000
+		# Default: 80
+		# Range: 20 ~ 1000
 		durability = 80
 		#Damage that Mob Charm takes when player kills mob it protects them from
-		#Range: 0 ~ 40
+		# Default: 1
+		# Range: 0 ~ 40
 		damagePerKill = 1
 		#Sets how much durability of Mob Charm gets repaired per special drop
-		#Range: 1 ~ 200
+		# Default: 20
+		# Range: 1 ~ 200
 		dropDurabilityRepair = 20
 		#Maximum charms that will get displayed in HUD
-		#Range: 1 ~ 20
+		# Default: 6
+		# Range: 1 ~ 20
 		maxCharmsToDisplay = 6
 		#Range in which mob charm or belt in pedestals will keep monsters from attacking players
-		#Range: 10 ~ 100
+		# Default: 21
+		# Range: 10 ~ 100
 		pedestalRange = 21
 		#Determines if almost destroyed charms stay displayed in the hud
 		keepAlmostDestroyedDisplayed = true
@@ -282,22 +339,27 @@ mobDropsEnabled = true
 	#Mob Charm Fragment Settings
 	[items.mobCharmFragment]
 		#Chance of fragment droping from mobs that don't have fragment that can be crafted
-		#Range: 0.0 ~ 1.0
+		# Default: 0.01666666753590107
+		# Range: 0.0 ~ 1.0
 		dropChance = 0.01666666753590107
 		#Additional chance per level of looting
-		#Range: 0.0 ~ 1.0
+		# Default: 0.008333333767950535
+		# Range: 0.0 ~ 1.0
 		lootingMultiplier = 0.008333333767950535
 
 	#Phoenix Down settings
 	[items.PhoenixDown]
 		#Percent hunger used to heal player per 1 damage that would be taken otherwise
-		#Range: 0 ~ 50
+		# Default: 25
+		# Range: 0 ~ 50
 		hungerCostPercent = 25
 		#Potency of the leaping effect
-		#Range: 0 ~ 5
+		# Default: 1
+		# Range: 0 ~ 5
 		leapingPotency = 1
 		#Percent of life that gets healed when the player would die
-		#Range: 0 ~ 100
+		# Default: 100
+		# Range: 0 ~ 100
 		healPercentageOfMaxLife = 100
 		#Whether the player gets negative statuses removed when they were saved by Phoenix Down
 		removeNegativeStatus = true
@@ -313,57 +375,73 @@ mobDropsEnabled = true
 	#Pyromancer Staff settings
 	[items.pyromancerStaff]
 		#Number of fire charges the staff can hold
-		#Range: 0 ~ 9999
+		# Default: 250
+		# Range: 0 ~ 9999
 		fireChargeLimit = 250
 		#Number of fire charges used when the staff is fired
-		#Range: 0 ~ 3
+		# Default: 1
+		# Range: 0 ~ 3
 		fireChargeCost = 1
 		#Number of fire charges that get added to the staff per one that's consumed from player's inventory
-		#Range: 1 ~ 3
+		# Default: 1
+		# Range: 1 ~ 3
 		fireChargeWorth = 1
 		#Number of fire charges added to the staff per one that was shot by ghast and gets absorbed by the staff
-		#Range: 0 ~ 3
+		# Default: 1
+		# Range: 0 ~ 3
 		ghastAbsorbWorth = 1
 		#Number of blaze powder the staff can hold
-		#Range: 0 ~ 9999
+		# Default: 250
+		# Range: 0 ~ 9999
 		blazePowderLimit = 250
 		#Number of blaze powder used when staff is fired
-		#Range: 0 ~ 3
+		# Default: 1
+		# Range: 0 ~ 3
 		blazePowderCost = 1
 		#Number of blaze powder that gets added to the staff per one that's consumed from player's inventory
-		#Range: 1 ~ 3
+		# Default: 1
+		# Range: 1 ~ 3
 		blazePowderWorth = 1
 		#Number of blaze powder added to the staff per one fireball that was shot by blaze and gets absorbed by the staff
-		#Range: 0 ~ 3
+		# Default: 1
+		# Range: 0 ~ 3
 		blazeAbsorbWorth = 1
 
 	#Rending Gale settings
 	[items.rendingGale]
 		#Number of feathers the rending gale can hold
-		#Range: > 0
+		# Default: 30000
+		# Range: > 0
 		chargeLimit = 30000
 		#Number of feathers used when the rending gale is cast in flight mode
-		#Range: 0 ~ 3
+		# Default: 1
+		# Range: 0 ~ 3
 		castChargeCost = 1
 		#Number of feathers used to cast a lightning bolt
-		#Range: 0 ~ 250
+		# Default: 100
+		# Range: 0 ~ 250
 		boltChargeCost = 100
 		#Number of feathers that get added to the rending gale per one that's consumed from player's inventory
-		#Range: 1 ~ 250
+		# Default: 100
+		# Range: 1 ~ 250
 		chargeFeatherWorth = 100
 		#How far a lightning block can be cast
-		#Range: 5 ~ 15
+		# Default: 12
+		# Range: 5 ~ 15
 		blockTargetRange = 12
 		#Radius in which entities can be pushed/pulled
-		#Range: 1 ~ 20
+		# Default: 10
+		# Range: 1 ~ 20
 		pushPullRadius = 10
 		#Whether the rending gale can push projectiles
 		canPushProjectiles = true
 		#Range from pedestals at which players will get buffed with flight
-		#Range: 10 ~ 100
+		# Default: 30
+		# Range: 10 ~ 100
 		pedestalFlightRange = 30
 		#Cost per second of buffing players with flight
-		#Range: 1 ~ 20
+		# Default: 2
+		# Range: 1 ~ 20
 		pedestalCostPerSecond = 2
 		#List of entities that are banned from being pushed by the Rending Gale
 		pushableEntitiesBlacklist = []
@@ -375,10 +453,12 @@ mobDropsEnabled = true
 		#Whether level influences stealing failure rate of the rod
 		useLeveledFailureRate = true
 		#The experience level cap after which the failure rate is at a minimum and doesn't get better
-		#Range: 1 ~ 900
+		# Default: 100
+		# Range: 1 ~ 900
 		levelCapForLeveledFormula = 100
 		#The flat failure rate in case failure rate isn't influenced by player's level
-		#Range: 0 ~ 100
+		# Default: 10
+		# Range: 0 ~ 100
 		flatStealFailurePercentRate = 10
 		#If set to false it goes through additional 4 accessible slots and looks for items in case the one selected randomly was empty
 		stealFromVacantSlots = true
@@ -401,25 +481,30 @@ mobDropsEnabled = true
 		#List of torches that are supported by the staff
 		torches = ["minecraft:torch", "minecraft:soul_torch", "minecraft:lantern", "minecraft:jack_o_lantern", "minecraft:sea_lantern", "minecraft:soul_lantern", "minecraft:shroomlight", "minecraft:glowstone", "minecraft:end_rod"]
 		#Number of items the staff can store per item type
-		#Range: 1 ~ 9999
+		# Default: 1500
+		# Range: 1 ~ 9999
 		maxCapacityPerItemType = 1500
 		#Maximum range at which torches can be placed
-		#Range: 1 ~ 30
+		# Default: 30
+		# Range: 1 ~ 30
 		maxRange = 30
 		#Distance after which there is an additional cost for torch placement. The additional cost is the number of times this distance fits in the distance at which the torch is being placed.
-		#Range: 6 ~ 30
+		# Default: 6
+		# Range: 6 ~ 30
 		tilePerCostMultiplier = 6
 
 	#Twilight Cloak settings
 	[items.twilightCloak]
 		#Maximum light level at which the player is still invisible to the mobs
-		#Range: 0 ~ 15
+		# Default: 4
+		# Range: 0 ~ 15
 		maxLightLevel = 4
 
 	#Void Tear settings
 	[items.voidTear]
 		#Number of items the tear can hold of the item type it is set to
-		#Range: > 0
+		# Default: 2000000000
+		# Range: > 0
 		itemLimit = 2000000000
 		#Whether the void tear starts absorbing immediately after it is set to item type
 		absorbWhenCreated = true
@@ -427,48 +512,59 @@ mobDropsEnabled = true
 	#Altar of Light settings
 	[blocks.altar]
 		#Number of redstone it costs to activate altar
-		#Range: 0 ~ 10
+		# Default: 3
+		# Range: 0 ~ 10
 		redstoneCost = 3
 		#Time in minutes it takes for the altar to create glowstone block
-		#Range: 0 ~ 60
+		# Default: 20
+		# Range: 0 ~ 60
 		timeInMinutes = 20
 		#Maximum time variance in minutes. A random part of it gets added to the Time in minutes.
-		#Range: 0 ~ 15
+		# Default: 5
+		# Range: 0 ~ 15
 		maximumTimeVarianceInMinutes = 5
 		#Light level that the altar outputs while active
-		#Range: 0 ~ 16
+		# Default: 16
+		# Range: 0 ~ 16
 		outputLightLevelWhileActive = 16
 
 	#Apothecary Cauldron settings
 	[blocks.apothecaryCauldron]
 		#Limit of redstone that can be used in cauldron to make POTION last longer
-		#Range: 0 ~ 5
+		# Default: 3
+		# Range: 0 ~ 5
 		redstoneLimit = 3
 		#Time it takes to cook POTION
-		#Range: 20 ~ 32000
+		# Default: 160
+		# Range: 20 ~ 32000
 		cookTime = 160
 		#List of acceptable heat sources
 		heatSources = []
 		#Limit of glowstone that can be used in cauldron to make POTION more potent
-		#Range: 0 ~ 4
+		# Default: 2
+		# Range: 0 ~ 4
 		glowstoneLimit = 2
 
 	#Lilypad of Fertility settings
 	[blocks.fertileLilypad]
 		#Interval in seconds at which the lilypad causes growth tick updates
-		#Range: 1 ~ 150
+		# Default: 10
+		# Range: 1 ~ 150
 		secondsBetweenGrowthTicks = 10
 		#Radius in which lilypad causes growh ticks
-		#Range: 1 ~ 15
+		# Default: 4
+		# Range: 1 ~ 15
 		tileRange = 4
 		#Radius around lilypad where the growth ticks occur the most often
-		#Range: 1 ~ 15
+		# Default: 1
+		# Range: 1 ~ 15
 		fullPotencyRange = 1
 
 	#Interdiction Torch settings
 	[blocks.interdictionTorch]
 		#Radius in which the torch can push out mobs
-		#Range: 1 ~ 15
+		# Default: 5
+		# Range: 1 ~ 15
 		pushRadius = 5
 		#Whether the torch can push projectiles
 		canPushProjectiles = false
@@ -480,29 +576,38 @@ mobDropsEnabled = true
 	#Pedestal related settings
 	[blocks.pedestal]
 		#Range of the melee weapons in which these will attack when in pedestals
-		#Range: 1 ~ 10
+		# Default: 5
+		# Range: 1 ~ 10
 		meleeWrapperRange = 5
 		#How long it takes after a melee weapon swing before it can swing again (in ticks)
-		#Range: 1 ~ 200
+		# Default: 5
+		# Range: 1 ~ 200
 		meleeWrapperCooldown = 5
 		#Range at which bucket will pickup liquid blocks or milk cows
-		#Range: 1 ~ 10
+		# Default: 4
+		# Range: 1 ~ 10
 		bucketWrapperRange = 4
 		#How long it takes in between bucket actions (in ticks)
-		#Range: 1 ~ 200
+		# Default: 40
+		# Range: 1 ~ 200
 		bucketWrapperCooldown = 40
 		#How long it takes between shearing actions (in ticks)
-		#Range: 1 ~ 10
+		# Default: 4
+		# Range: 1 ~ 10
 		shearsWrapperRange = 4
 		#Range at which shears will shear sheep or shearable blocks
-		#Range: 1 ~ 200
+		# Default: 10
+		# Range: 1 ~ 200
 		shearsWrapperCooldown = 10
 		#Range at which pedestals will get turned on if either redstone block gets put in or redstone dust and transmitting pedestals is powered
-		#Range: 1 ~ 200
+		# Default: 10
+		# Range: 1 ~ 200
 		redstoneWrapperRange = 10
 		#Success rate of fishing in percent. When unsuccessful it will pull the hook too late to catch a fish.
-		#Range: 0 ~ 100
+		# Default: 80
+		# Range: 0 ~ 100
 		fishingWrapperSuccessRate = 80
 		#Delay in seconds before it would start fishing again after retracting the hook.
-		#Range: 1 ~ 20
+		# Default: 2
+		# Range: 1 ~ 20
 		fishingWrapperRetractDelay = 2

@@ -14,7 +14,7 @@ RecipeViewerEvents.removeEntriesCompletely('item', allthemods =>{
 
 RecipeViewerEvents.addInformation('fluid', allthemods =>{
   allthemods.add("advanced_ae:quantum_infusion_source", [
-      '§e5000mb of Water§f + §e1x Quantum Infused Dust§f = §b1000mb of Quantum Infusion'
+      'In the Reaction Chamber: §e5000mb of Water§f + §e1x Quantum Infused Dust§f = §b1000mb of Quantum Infusion'
   ])
 })
 

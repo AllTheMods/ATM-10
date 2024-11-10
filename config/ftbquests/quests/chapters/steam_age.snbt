@@ -342,18 +342,11 @@
 					xp: 25
 				}
 			]
-			tasks: [
-				{
-					id: "198CAAA315816D0F"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:dusts/bronze)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-				{
-					id: "065FC2FF2CE5C297"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:ingots/bronze)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "60664FB240C4C7EF"
+				item: { count: 1, id: "alltheores:bronze_ingot" }
+				type: "item"
+			}]
 			x: -16.5d
 			y: -6.5d
 		}
@@ -738,6 +731,7 @@
 			y: -8.5d
 		}
 		{
+			dependencies: ["4B90B3B38E08A218"]
 			id: "5F0C9D4344046F5E"
 			invisible: true
 			optional: true
@@ -754,8 +748,8 @@
 				item: { components: { "minecraft:entity_data": { id: "productivebees:configurable_bee", type: "productivebees:steel" } }, count: 1, id: "productivebees:spawn_egg_configurable_bee" }
 				type: "item"
 			}]
-			x: -10.5d
-			y: -11.5d
+			x: -11.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["3143588D93FC7999"]
@@ -883,6 +877,7 @@
 		{
 			id: "017194E29D6745E8"
 			invisible: true
+			optional: true
 			tasks: [
 				{
 					id: "34E5BD34C83CD6F9"
@@ -893,8 +888,8 @@
 					type: "checkmark"
 				}
 			]
-			x: -10.5d
-			y: -10.0d
+			x: -10.0d
+			y: -8.5d
 		}
 	]
 }

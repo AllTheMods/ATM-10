@@ -15,8 +15,8 @@
 			image: "minecraft:textures/gui/sprites/toast/tree.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 6.0d
-			y: 12.5d
+			x: 4.5d
+			y: 11.5d
 		}
 		{
 			height: 0.3d
@@ -3871,7 +3871,7 @@
 				item: { count: 1, id: "productivetrees:brown_amber_sapling" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 6.0d
 			y: 11.0d
 		}
 		{
@@ -4096,8 +4096,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
-			y: 14.0d
+			x: 6.0d
+			y: 14.5d
 		}
 		{
 			dependencies: ["5577F49A93ADB19C"]
@@ -4115,8 +4115,8 @@
 				item: { count: 1, id: "productivetrees:stripper" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 13.0d
+			x: 5.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["5577F49A93ADB19C"]
@@ -4135,8 +4135,8 @@
 				item: { count: 1, id: "productivetrees:sawmill" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 13.0d
+			x: 6.5d
+			y: 13.5d
 		}
 		{
 			hide_dependent_lines: true
@@ -4171,8 +4171,8 @@
 				item: { components: { "ftbfiltersystem:filter": "and(item_tag(minecraft:saplings)mod(minecraft))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 11.0d
+			x: 6.0d
+			y: 12.0d
 		}
 	]
 }

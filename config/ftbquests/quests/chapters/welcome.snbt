@@ -22,7 +22,7 @@
 			height: 1.0d
 			hover: ["Join the Discord!"]
 			image: "ftbchunks:textures/waypoint_default.png"
-			rotation: 0.0d
+			rotation: 180.0d
 			width: 1.0d
 			x: 0.0d
 			y: 1.5d
@@ -141,31 +141,6 @@
 			y: -0.5d
 		}
 		{
-			icon: {
-				components: {
-					"ftbquests:icon": "ftblibrary:icons/map"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			icon_scale: 1.1d
-			id: "70D4EA125CF11137"
-			invisible: true
-			optional: true
-			rewards: [{
-				id: "6935874719DCABBC"
-				type: "xp"
-				xp: 10
-			}]
-			shape: "rsquare"
-			size: 1.8d
-			tasks: [{
-				id: "083129895DA3B3B4"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 3.5d
-		}
-		{
 			id: "49EDAA2F57D3BF1D"
 			invisible: true
 			optional: true
@@ -180,7 +155,7 @@
 				}
 			]
 			x: 0.0d
-			y: 5.0d
+			y: 3.0d
 		}
 	]
 }
