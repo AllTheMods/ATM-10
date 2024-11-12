@@ -1,0 +1,12 @@
+[lantern]
+	#Allow wall lanterns placement
+	wall_lanterns = true
+	#Gives high priority to wall lantern placement. Enable to override other wall lanterns placements, disable if it causes issues with other mods that use lower priority block click events
+	high_priority = true
+	#Mod ids of mods that have lantern block that extend the base lantern class but don't look like one
+	mod_blacklist = ["bbb", "extlights", "betterendforge", "spelunkery", "galosphere", "tconstruct", "enigmaticlegacy", "beautify"]
+	#Ids of blocks that are not detected as lanterns but should be
+	id_whitelist = ["enlightened_end:xenon_lantern"]
+	#Allows ceiling lanterns to fall if their support is broken.Additionally if they fall from high enough they will break creating a fire where they land
+	#Allowed Values: ON, OFF, NO_FIRE
+	falling_lanterns = "OFF"
