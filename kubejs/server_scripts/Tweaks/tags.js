@@ -47,6 +47,10 @@ ServerEvents.tags('entity_type', allthemods => {
   // Allthemodium
   allthemods.add('justdirethings:paradox_deny', 'allthemodium:piglich');
   allthemods.add('industrialforegoing:mob_duplicator_blacklist', 'allthemodium:piglich')
+
+  //Occulstism
+  allthemods.add('justdirethings:paradox_deny', /occultism:/);
+  allthemods.add('industrialforegoing:mob_duplicator_blacklist', /occultism:/)
 });
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
