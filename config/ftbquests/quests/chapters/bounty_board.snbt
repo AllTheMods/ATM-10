@@ -391,8 +391,10 @@
 			}]
 			size: 2.0d
 			tasks: [{
-				id: "3C380961550177C2"
-				type: "checkmark"
+				advancement: "minecraft:adventure/kill_a_mob"
+				criterion: ""
+				id: "6E3ACC74E0987981"
+				type: "advancement"
 			}]
 			x: 0.0d
 			y: 0.0d
@@ -408,12 +410,18 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "72DC79DE53E77CAD"
+					id: "3E3A9EB1F3AAB283"
 					table_id: 4196188979167302596L
 					type: "random"
 				}
 				{
-					id: "73BCDC692019DA13"
+					exclude_from_claim_all: true
+					id: "5DE4B3BE0F590D71"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+				{
+					id: "26ADAC29B5369011"
 					type: "xp"
 					xp: 500
 				}
@@ -439,12 +447,18 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "12C0D9B030D64A4B"
+					id: "794A9665B0D9CCF1"
 					table_id: 4196188979167302596L
 					type: "random"
 				}
 				{
-					id: "41120C660059B98F"
+					exclude_from_claim_all: true
+					id: "1434B9579016D3A0"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+				{
+					id: "2D22E6C0EABD5BFF"
 					type: "xp"
 					xp: 500
 				}
@@ -470,14 +484,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "4BB86DB9D806D3E4"
+					id: "2B969D67BA8AFD3B"
 					table_id: 4196188979167302596L
 					type: "random"
 				}
 				{
-					id: "4400D0308D9EF346"
+					id: "6871AA890A24F11B"
 					type: "xp"
-					xp: 100
+					xp: 250
 				}
 			]
 			size: 1.5d
@@ -487,20 +501,26 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 1.5d
-			y: 2.5d
+			x: 0.0d
+			y: 5.5d
 		}
 		{
 			id: "56DA46DC82F6665D"
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "380E221DF1F736A8"
-					table_id: 5564196992594175882L
+					id: "0F951F75DBAF4D7C"
+					table_id: 4196188979167302596L
 					type: "random"
 				}
 				{
-					id: "51BCD61ECEC5BE03"
+					exclude_from_claim_all: true
+					id: "4296A74144EBD7F1"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+				{
+					id: "3F227FD8C4577EAE"
 					type: "xp"
 					xp: 500
 				}
@@ -515,8 +535,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: 5.5d
+			x: 0.75d
+			y: 4.0d
 		}
 		{
 			icon: {
@@ -541,12 +561,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "66C49399D8CCD721"
-					table_id: 487623848494439020L
-					type: "random"
-				}
-				{
 					id: "2052F84B9D14A141"
 					type: "xp"
 					xp: 100
@@ -567,8 +581,8 @@
 					value: 2L
 				}
 			]
-			x: 0.75d
-			y: 4.0d
+			x: 0.0d
+			y: 8.25d
 		}
 		{
 			id: "17F3AC15ADCFB175"
@@ -1208,21 +1222,26 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "ftbchunks:textures/faces/minecraft/warden.png"
+					"ftbquests:icon": "minecraft:textures/entity_icon/warden/warden.png"
 				}
 				id: "ftbquests:custom_icon"
 			}
-			icon_scale: 1.25d
 			id: "0E20A9B79D1C6637"
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "77D3E366578B4BF0"
+					id: "49202375E31213C8"
 					table_id: 4196188979167302596L
 					type: "random"
 				}
 				{
-					id: "58EADB6575D84686"
+					exclude_from_claim_all: true
+					id: "3B094578896C0276"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+				{
+					id: "48C26A872754A4F8"
 					type: "xp"
 					xp: 500
 				}
@@ -1234,8 +1253,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -0.75d
-			y: 4.0d
+			x: 1.5d
+			y: 2.5d
 		}
 		{
 			id: "08B60D8A25008CCC"
@@ -1253,6 +1272,624 @@
 			]
 			x: 0.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["2B05A29C62676EB2"]
+			hide_until_deps_complete: true
+			id: "2BD077EFE77B8EBB"
+			rewards: [
+				{
+					id: "77E0CEC4CDA40F08"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5706AC6072D005A3"
+					item: {
+						count: 1
+						id: "minecraft:trident"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:husk"
+					id: "27BA6318EA2571EF"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:drowned"
+					id: "44529CBD7ED7502A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "variantsandventures:gelid"
+					id: "3938CDF8DF2C1766"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "variantsandventures:thicket"
+					id: "3D59A3B7F940F8D0"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["42822B1E8A53D051"]
+			hide_until_deps_complete: true
+			id: "6827836C8E675A94"
+			rewards: [
+				{
+					id: "493BA884720B18CF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "4DBB5B2919BC0D99"
+					item: {
+						count: 1
+						id: "mysticalagriculture:inferium_bow"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "minecraft:stray"
+					id: "2270A75156F454C2"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:bogged"
+					id: "70FE879E07048556"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "variantsandventures:murk"
+					id: "1F2F14A414E02FF8"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "variantsandventures:verdant"
+					id: "6E0C2317F20C947C"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["77FC692AC94D2EEF"]
+			hide_until_deps_complete: true
+			id: "1F31EBF49079F9D3"
+			rewards: [
+				{
+					id: "258A2613DADF4920"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "482EB089D051A610"
+					item: {
+						count: 1
+						id: "creeperoverhaul:cave_creeper_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "425CF0235A15267D"
+					item: {
+						count: 1
+						id: "minecraft:gunpowder"
+					}
+					type: "item"
+				}
+				{
+					id: "2F6DD85FD4E5944E"
+					item: {
+						count: 1
+						id: "biomeswevegone:mini_cactus"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "creeperoverhaul:badlands_creeper"
+					id: "731E8888AF95E703"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:dripstone_creeper"
+					id: "2C1B4079B2636255"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:spruce_creeper"
+					id: "155EE6983A63B091"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:swamp_creeper"
+					id: "40AA310A66CB42C4"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:cave_creeper"
+					id: "61001A53475D7303"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:birch_creeper"
+					id: "4CCDC48B6CF0E9A6"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:ocean_creeper"
+					id: "697D13BE679C255C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:jungle_creeper"
+					id: "65FC7DCD1AD3551C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:desert_creeper"
+					id: "60CC38041D477625"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:dark_oak_creeper"
+					id: "3D9CA8869A46294A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:bamboo_creeper"
+					id: "53BDC9D0909029C8"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:beach_creeper"
+					id: "5C29B98A93C02002"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:savannah_creeper"
+					id: "6501298CA7F25C22"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:hills_creeper"
+					id: "710A9E28A01EAE55"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:mushroom_creeper"
+					id: "665BA2AB6D013133"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "creeperoverhaul:snowy_creeper"
+					id: "48731DD4B285EF6D"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["17F3AC15ADCFB175"]
+			hide_until_deps_complete: true
+			id: "570223A03231DF8C"
+			rewards: [
+				{
+					id: "7B7B782BEDF53330"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "309FE3D88633DEB8"
+					item: {
+						count: 1
+						id: "endermanoverhaul:cave_enderman_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "43E622AE47323E2A"
+					item: {
+						count: 1
+						id: "minecraft:ender_pearl"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "3EBF039B52EE3B68"
+					item: {
+						count: 1
+						id: "endermanoverhaul:soul_pearl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "endermanoverhaul:mushroom_fields_enderman"
+					id: "1B12C1A4AC759504"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "endermanoverhaul:swamp_enderman"
+					id: "4A0E0B8BF5F47AD7"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "endermanoverhaul:badlands_enderman"
+					id: "48C92AF818612EAE"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "endermanoverhaul:end_islands_enderman"
+					id: "10A3CB37865A3977"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "endermanoverhaul:cave_enderman"
+					id: "61A3E71C7AF4D8DB"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "endermanoverhaul:snowy_enderman"
+					id: "03E9013007576E97"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "endermanoverhaul:ice_spikes_enderman"
+					id: "1B54BDEF7517778E"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "endermanoverhaul:savanna_enderman"
+					id: "0BDBE858DB680768"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "endermanoverhaul:crimson_forest_enderman"
+					id: "27CC6E8A08475943"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "endermanoverhaul:windswept_hills_enderman"
+					id: "22FEA0AE155F815A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "endermanoverhaul:nether_wastes_enderman"
+					id: "7F38E8E5DAAB86F7"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "endermanoverhaul:desert_enderman"
+					id: "4D60118A45E4AB00"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "endermanoverhaul:coral_enderman"
+					id: "0BA3024B113FB4C0"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "endermanoverhaul:dark_oak_enderman"
+					id: "7C4AB0561CA3A82C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "endermanoverhaul:soulsand_valley_enderman"
+					id: "62D9B47A7A46EB50"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "endermanoverhaul:flower_fields_enderman"
+					id: "3FAE09970BADAF9C"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "endermanoverhaul:warped_forest_enderman"
+					id: "6713DD4E63A55772"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "endermanoverhaul:end_enderman"
+					id: "2B53F437D7A01098"
+					type: "kill"
+					value: 1L
+				}
+			]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "eternal_starlight:textures/painting/monstrous.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "13BB75A7E1973488"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "47EE9DED85C4DFB2"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2A3EF5F2876D7235"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+				{
+					id: "2FE20DB8B55821D1"
+					type: "xp"
+					xp: 500
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "eternal_starlight:lunar_monstrosity"
+				id: "17866842A275B4AA"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.25d
+			y: 4.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "eternal_starlight:block/chiseled_golem_steel_block"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6DCDD55786025911"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0FEDB3F957B8EFBA"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B040CCA92509D76"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+				{
+					id: "327AD5CF0D35765B"
+					type: "xp"
+					xp: 500
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "eternal_starlight:starlight_golem"
+				id: "38E34F997A59FDC3"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.75d
+			y: 4.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/undergarden/forgotten_guardian.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "199932BF623A6785"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "60C889EE9A26BB7D"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "721928BA80B3CDEC"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+				{
+					id: "00FCD620346CD937"
+					type: "xp"
+					xp: 500
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "undergarden:forgotten_guardian"
+				id: "4A68FB4E1FED5F47"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.25d
+			y: 4.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/illager/ravager.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "734411D931A8CDBF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5B7DCC94C0CF66C4"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+				{
+					id: "22F455F176233430"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:ravager"
+				id: "6219443664D0465C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/entity_icon/piglin/piglin_brute.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3813F5C1760C3A79"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "78725DEDE162CADD"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+				{
+					id: "493A6DE589C23218"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "minecraft:piglin_brute"
+				id: "5EB07157D785C3FC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.5d
+			y: 5.5d
+		}
+		{
+			icon: {
+				components: {
+					"hostilenetworks:data_model": "hostilenetworks:tangled_hatred"
+				}
+				id: "hostilenetworks:data_model"
+			}
+			id: "2001998045ABC04C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "45464BCE599CBDEE"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+				{
+					id: "01EE7F8B1CA150E2"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "eternal_starlight:tangled_hatred"
+				id: "42D1B6FC8C202EF7"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.75d
+			y: 7.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/undergarden/rotbeast.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2CA9394459C24012"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "460EB4768EF41335"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+				{
+					id: "4CB0208C2757B1F3"
+					type: "xp"
+					xp: 250
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				entity: "undergarden:rotbeast"
+				id: "42474723672C2787"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.75d
+			y: 7.0d
 		}
 	]
 }

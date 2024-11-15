@@ -142,7 +142,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "7D3BB67D10EA5245"
-				item: { count: 1, id: "artifacts:rooted_boots" }
+				item: { components: { "relics:data": { abilities: { abilities: { devouring: { extender: { cooldown: 0, cooldownCap: 0, ticking: 1b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { frequency: { initialValue: 131.28172d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:rooted_boots" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -175,7 +175,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "4323420D7FF4F583"
-				item: { count: 1, id: "artifacts:steadfast_spikes" }
+				item: { components: { "relics:data": { abilities: { abilities: { resistance: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { modifier: { initialValue: 0.24588d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:steadfast_spikes" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -191,7 +191,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "268319B4D86AF1FA"
-				item: { count: 1, id: "artifacts:snowshoes" }
+				item: { components: { "relics:data": { abilities: { abilities: { speed: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.32046d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:snowshoes" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -223,7 +223,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "294D97F3514A382B"
-				item: { count: 1, id: "artifacts:kitty_slippers" }
+				item: { components: { "relics:data": { abilities: { abilities: { fall: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { modifier: { initialValue: 3.27211d } } }, resurrected: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.05114d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:kitty_slippers" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -239,7 +239,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "42875442667F74F9"
-				item: { count: 1, id: "artifacts:bunny_hoppers" }
+				item: { components: { "relics:data": { abilities: { abilities: { hold: { extender: { cooldown: 0, cooldownCap: 0, ticking: 1b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { distance: { initialValue: 4.47423d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:bunny_hoppers" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -395,7 +395,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "01D07B21B85FB2B8"
-				item: { count: 1, id: "artifacts:feral_claws" }
+				item: { components: { "relics:data": { abilities: { abilities: { claws: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { modifier: { initialValue: 0.08205d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:feral_claws" }
 				type: "item"
 			}]
 			x: -5.0d
@@ -426,7 +426,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "14A300B4DC9C8542"
-				item: { count: 1, id: "artifacts:warp_drive" }
+				item: { components: { "relics:data": { abilities: { abilities: { teleport: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 85.1268d }, distance: { initialValue: 12.15879d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:warp_drive" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -554,7 +554,7 @@
 			shape: "circle"
 			tasks: [{
 				id: "1F3F6A98B1A8D03E"
-				item: { count: 1, id: "artifacts:charm_of_shrinking" }
+				item: { components: { "relics:data": { abilities: { abilities: { shrinking: { extender: { cooldown: 0, cooldownCap: 0, ticking: 1b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { time: { initialValue: 8.12723d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:charm_of_shrinking" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -826,7 +826,7 @@
 			shape: "gear"
 			tasks: [{
 				id: "1572258C18AF7CED"
-				item: { count: 1, id: "artifacts:whoopee_cushion" }
+				item: { components: { "relics:data": { abilities: { abilities: { push: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { chance: { initialValue: 0.38289d }, radius: { initialValue: 4.8709d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:whoopee_cushion" }
 				type: "item"
 			}]
 			x: 4.5d
