@@ -1,0 +1,27 @@
+[milestones]
+	#Number of hearts you start out with.
+	# Default: 10
+	# Range: 0 ~ 1000
+	baseHearts = 10
+	#Number of hearts you gain for reaching a new milestone.
+	# Default: 2
+	# Range: 0 ~ 1000
+	heartsPerMilestone = 1
+	#A list of numbers of unique foods you need to eat to unlock each milestone, in ascending order. Naturally, adding more milestones lets you earn more hearts.
+	milestones = [10, 20, 30, 40, 50]
+
+[filtering]
+	#Foods in this list won't affect the player's health nor show up in the food book.
+	blacklist = []
+	#When this list contains anything, the blacklist is ignored and instead only foods from here count.
+	whitelist = []
+	#The minimum hunger value foods need to provide in order to count for milestones, in half drumsticks.
+	# Default: 1
+	# Range: 0 ~ 1000
+	minimumFoodValue = 8
+
+[miscellaneous]
+	#Whether or not to reset the food list on death, effectively losing all bonus hearts.
+	resetOnDeath = true
+	#If true, eating foods outside of survival mode (e.g. creative/adventure) is not tracked and thus does not contribute towards progression.
+	limitProgressionToSurvival = false

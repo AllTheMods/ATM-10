@@ -19,16 +19,16 @@ ServerEvents.recipes(allthemods => {
         'kubejs:blaze_powder_block'
     ])
     //Blaze Block
-    allthemods.shaped('kubejs:blaze_block', [
-        'SSS',
-        'SSS',
-        'SSS'
-    ], {
-        S: 'minecraft:blaze_rod'
-    })
-    allthemods.shapeless('9x minecraft:blaze_rod', [ // arg 1: output
-        'kubejs:blaze_block'
-    ])
+    // allthemods.shaped('kubejs:blaze_block', [
+    //     'SSS',
+    //     'SSS',
+    //     'SSS'
+    // ], {
+    //     S: 'minecraft:blaze_rod'
+    // })
+    // allthemods.shapeless('9x minecraft:blaze_rod', [ // arg 1: output
+    //     'kubejs:blaze_block'
+    // ])
 
     function bulk_energizing(input, input_number, output, energy, id) {
         allthemods.remove({id: `powah:energizing/${id}`})
