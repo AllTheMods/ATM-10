@@ -5,7 +5,7 @@ ServerEvents.recipes(allthemods => {
     // Target = block underneath
     // Adjacent = blocks around target
     // Catalyst = block underneath target
-    function extractor(output, target, adjacent, catalyst, ticks, waterlogged) {
+    function extractor({output, target, adjacent, catalyst, directions, ticks, waterlogged}) {
         let recipe = {
             "type": "xycraft_machines:extractor",
             "adjacent": [],
@@ -26,55 +26,87 @@ ServerEvents.recipes(allthemods => {
             recipe.waterlogged_fluid = waterlogged
         }
 
+        if (directions) {
+            recipe.valid_directions = directions;
+        }
+
         if (output.components) {
             recipe.output.components = output.components;
         }
 
-        adjacent.forEach(adj => {
-           recipe.adjacent.push(rule(adj.type, adj.block));
-        });
+        if(adjacent) {
+            adjacent.forEach(adj => {
+                recipe.adjacent.push(rule(adj.type, adj.block));
+            });
+        }
 
         allthemods.custom(recipe).id(`allthemods:xycraft/extractor/${output.item.split(":").pop()}`);
     }
 
-    function rule (type, block) {
+    function rule (type, block, property) {
 
-        if (type === "xycraft_core:block_tag_rule") {
-            return {
-                "predicate_type": "xycraft_core:block_tag_rule",
-                "tag": block
-            }
-        } else if (type === "xycraft_core:block_rule") {
-            return {
-                "predicate_type": "xycraft_core:block_rule",
-                "block": block
-            }
-        } else if (type === "xycraft_core:fluid_type_rule") {
-            return {
-                "predicate_type": "xycraft_core:fluid_type_rule",
-                "fluid_type": block
-            }
-        } else if (type === "xycraft_core:fluid_tag_rule") {
-            return {
-                "predicate_type": "xycraft_core:fluid_tag_rule",
-                "tag": block
-            }
+        switch(type) {
+            case "xycraft_core:block_tag_rule" :
+                return {
+                    "predicate_type": type,
+                    "tag": block
+                }
+            case "xycraft_core:block_rule" :
+                return {
+                    "predicate_type": type,
+                    "block": block
+                }
+            case "xycraft_core:fluid_type_rule" :
+                return {
+                    "predicate_type": type,
+                    "fluid_type": block
+                }
+            case "xycraft_core:fluid_tag_rule" :
+                return {
+                    "predicate_type": type,
+                    "tag": block
+                }
+            case "xycraft_core:block_state_rule" :
+                return {
+                    "predicate_type": type,
+                    "block_state": block
+                }
+            case "xycraft_core:property_rule" :
+                return {
+                    "predicate_type": type,
+                    "propery":property.propery,
+                    "value": property.value
+                }
+            case "xycraft_core:fuzzy_block_state_rule" :
+                return {
+                    "predicate_type" : type,
+                    "block": block.block,
+                    "properties": block.properties
+                }
         }
     }
 
-    extractor(
-        { item:"biomeswevegone:black_ice", count: 1 },
-        { type: "xycraft_core:block_rule", block: "minecraft:packed_ice" },
-        [
+    extractor({
+        output: { item:"biomeswevegone:black_ice", count: 1 },
+        target: { type: "xycraft_core:block_rule", block: "minecraft:packed_ice" },
+        adjacent: [
             { type: "xycraft_core:block_rule", block: "biomeswevegone:black_sand" },
             { type: "xycraft_core:block_rule", block: "biomeswevegone:black_sand" },
             { type: "xycraft_core:block_rule", block: "biomeswevegone:black_sand" },
             { type: "xycraft_core:block_rule", block: "biomeswevegone:black_sand" }
         ],
-        { type: "xycraft_core:block_rule", block: "biomeswevegone:black_sand" },
-        80,
-        'minecraft:water'
-    )
+        catalyst: { type: "xycraft_core:block_rule", block: "biomeswevegone:black_sand" },
+        ticks: 80,
+        waterlogged: 'minecraft:water'
+})
+
+    extractor({
+        output: { item:"minecraft:spore_blossom", count: 1 },
+        target: { type: "xycraft_core:block_rule", block: "minecraft:moss_block" },
+        catalyst: {type: "xycraft_core:block_rule", block: "minecraft:spore_blossom" },
+        ticks: 200,
+        waterlogged: 'minecraft:water'
+    })
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
