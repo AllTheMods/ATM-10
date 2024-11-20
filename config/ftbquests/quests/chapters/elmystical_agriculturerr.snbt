@@ -115,7 +115,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 2.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			height: 1.0d
@@ -149,7 +149,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 7.0d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
 			height: 1.0d
@@ -319,7 +319,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 12.0d
-			y: -7.0d
+			y: -8.0d
 		}
 		{
 			height: 1.0d
@@ -409,7 +409,7 @@
 			rotation: 0.0d
 			width: 1.5d
 			x: 17.0d
-			y: -3.5d
+			y: -4.0d
 		}
 		{
 			height: 1.0d
@@ -2061,8 +2061,8 @@
 				item: { count: 1, id: "mysticalagriculture:menril_seeds" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -3.5d
+			x: 2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -2391,7 +2391,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "6C1D65468A9CB0E7"
-				item: { count: 1, id: "mysticalagriculture:zinc_seeds" }
+				item: { count: 1, id: "mysticalagriculture:copper_alloy_seeds" }
 				type: "item"
 			}]
 			x: 6.5d
@@ -2824,8 +2824,8 @@
 				item: { count: 1, id: "mysticalagriculture:graphite_seeds" }
 				type: "item"
 			}]
-			x: 7.0d
-			y: -3.0d
+			x: 6.5d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -3459,8 +3459,8 @@
 				item: { count: 1, id: "mysticalagriculture:constantan_seeds" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: -1.5d
+			x: 12.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
@@ -3488,7 +3488,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: -1.5d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -3656,7 +3656,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: -3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -3684,7 +3684,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: -3.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -3768,7 +3768,7 @@
 				type: "item"
 			}]
 			x: 11.5d
-			y: -5.5d
+			y: -3.5d
 		}
 		{
 			dependencies: [
@@ -3796,7 +3796,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: -5.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["67DBE6C59C0D9D1B"]
@@ -5273,6 +5273,202 @@
 			}]
 			x: 2.5d
 			y: -3.5d
+		}
+		{
+			dependencies: [
+				"5BC4250E4C9F803C"
+				"0B37355262121DD5"
+			]
+			id: "6EFE4940EC982069"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7DAC656E566859F9"
+					table_id: 1937853580808181092L
+					type: "random"
+				}
+				{
+					id: "07D9C2134C6C3EBE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "09E3D334276E5819"
+				item: { count: 1, id: "mysticalagriculture:soularium_seeds" }
+				type: "item"
+			}]
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"5BC4250E4C9F803C"
+				"0B37355262121DD5"
+			]
+			id: "5CAB922269A049B1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0093BFF8C98008CF"
+					table_id: 1937853580808181092L
+					type: "random"
+				}
+				{
+					id: "0354BA362E2D974A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "2C316ECC55372E9F"
+				item: { count: 1, id: "mysticalagriculture:dark_steel_seeds" }
+				type: "item"
+			}]
+			x: 12.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"76071C22A73A2026"
+				"0B37355262121DD5"
+			]
+			id: "362EBB683AE2106C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A4FEEB8341F624C"
+					table_id: 7270734658375550536L
+					type: "random"
+				}
+				{
+					id: "0C57B50C8570C743"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4718D1D2F18A2D2C"
+				item: { count: 1, id: "mysticalagriculture:redstone_alloy_seeds" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"76071C22A73A2026"
+				"0B37355262121DD5"
+			]
+			id: "3824225D950720F8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "42CEFF5523B767D3"
+					table_id: 7270734658375550536L
+					type: "random"
+				}
+				{
+					id: "437E4587473E4CBE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4B889809D483C7E2"
+				item: { count: 1, id: "mysticalagriculture:conductive_alloy_seeds" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"76071C22A73A2026"
+				"0B37355262121DD5"
+			]
+			id: "7FDE90B7E335AC0E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "78533101C2BA305B"
+					table_id: 7270734658375550536L
+					type: "random"
+				}
+				{
+					id: "69F963228B3802C5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "10451B0BB9F5207B"
+				item: { count: 1, id: "mysticalagriculture:zinc_seeds" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"576ABF43FCF886B7"
+				"0B37355262121DD5"
+			]
+			id: "4629C534D283454D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "756BFA64A17F1D3C"
+					table_id: 2427872771413920777L
+					type: "random"
+				}
+				{
+					id: "38C31F56DF9C97BF"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "32E51FD333FB958F"
+				item: { count: 1, id: "mysticalagriculture:saltpeter_seeds" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"48BF71269DEA1AB1"
+				"0B37355262121DD5"
+			]
+			id: "3132B1808729B40F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3060D100F7B89B14"
+					table_id: 8775109450478234580L
+					type: "random"
+				}
+				{
+					id: "7A0D4E51F9478DE5"
+					type: "xp"
+					xp: 150
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "26D91008B78D3851"
+				item: { count: 1, id: "mysticalagriculture:vibrant_alloy_seeds" }
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.5d
 		}
 	]
 }
