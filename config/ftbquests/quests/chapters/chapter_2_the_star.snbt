@@ -25,14 +25,6 @@
 			y: 11.0d
 		}
 		{
-			height: 3.0d
-			image: "ftbchunks:textures/faces/minecraft/warden.png"
-			rotation: 0.0d
-			width: 3.0d
-			x: 15.5d
-			y: -6.0d
-		}
-		{
 			height: 2.0d
 			image: "atm:textures/questpics/occultism/aviarcircle.png"
 			rotation: 0.0d
@@ -216,6 +208,14 @@
 			x: -4.5d
 			y: 14.0d
 		}
+		{
+			height: 2.0d
+			image: "minecraft:textures/entity_icon/warden/warden.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.5d
+			y: -6.0d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
@@ -287,9 +287,9 @@
 					type: "item"
 				}
 				{
-					id: "742C5FF1748A263D"
-					type: "xp"
-					xp: 10000
+					id: "67C2852388ABA76B"
+					type: "xp_levels"
+					xp_levels: 100
 				}
 			]
 			shape: "pentagon"
@@ -341,9 +341,9 @@
 					type: "item"
 				}
 				{
-					id: "442EEF0960628838"
-					type: "xp"
-					xp: 1000
+					id: "312F26111C45605E"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 			]
 			shape: "octagon"
@@ -353,7 +353,7 @@
 				item: { count: 1, id: "allthetweaks:dimensional_seed" }
 				type: "item"
 			}]
-			x: 4.0d
+			x: 3.5d
 			y: 3.0d
 		}
 		{
@@ -395,9 +395,9 @@
 					type: "item"
 				}
 				{
-					id: "7BB208C6B82496E6"
-					type: "xp"
-					xp: 1000
+					id: "1D0F40A5614A9D88"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 			]
 			shape: "octagon"
@@ -447,9 +447,9 @@
 					type: "item"
 				}
 				{
-					id: "23F6C94DB7F4BCB1"
-					type: "xp"
-					xp: 1000
+					id: "5A815A0A8731CFA7"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 			]
 			shape: "octagon"
@@ -498,9 +498,9 @@
 					type: "item"
 				}
 				{
-					id: "2C8AF636A49EE9F4"
-					type: "xp"
-					xp: 1000
+					id: "191E3D8ABC040EC8"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 			]
 			shape: "octagon"
@@ -510,7 +510,7 @@
 				item: { count: 1, id: "allthetweaks:nexium_emitter" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.5d
 			y: 3.0d
 		}
 		{
@@ -546,9 +546,9 @@
 					type: "item"
 				}
 				{
-					id: "20A335C3847555BD"
-					type: "xp"
-					xp: 1000
+					id: "460185559F628BC2"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 			]
 			shape: "octagon"
@@ -607,9 +607,9 @@
 					type: "item"
 				}
 				{
-					id: "1310877029C692EE"
+					id: "04E699BD77207F21"
 					type: "xp"
-					xp: 1000
+					xp: 10
 				}
 			]
 			shape: "octagon"
@@ -619,7 +619,7 @@
 				item: { count: 1, id: "allthetweaks:patrick_star" }
 				type: "item"
 			}]
-			x: 2.0d
+			x: 1.5d
 			y: 4.0d
 		}
 		{
@@ -661,9 +661,9 @@
 					type: "item"
 				}
 				{
-					id: "06B1079356C53DEF"
-					type: "xp"
-					xp: 1000
+					id: "7B75DC8D14E203F9"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 			]
 			shape: "octagon"
@@ -715,9 +715,9 @@
 					type: "item"
 				}
 				{
-					id: "1F948BAA83EA88B0"
-					type: "xp"
-					xp: 1000
+					id: "00A1EA9CDCD06B1A"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 			]
 			shape: "octagon"
@@ -769,9 +769,9 @@
 					type: "item"
 				}
 				{
-					id: "7314EBD68A1DB0E5"
-					type: "xp"
-					xp: 1000
+					id: "166D2653951FD33C"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 			]
 			shape: "octagon"
@@ -817,9 +817,9 @@
 					type: "item"
 				}
 				{
-					id: "310BD956724BCB44"
-					type: "xp"
-					xp: 1000
+					id: "7BA36F67D62BFA1E"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 			]
 			shape: "octagon"
@@ -829,7 +829,7 @@
 				item: { count: 1, id: "mysticalagradditions:creative_essence" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.5d
 			y: 4.0d
 		}
 		{
@@ -1545,11 +1545,21 @@
 			dependencies: ["7377C657CED885AC"]
 			hide_dependent_lines: true
 			id: "3145B847A15F97F2"
-			rewards: [{
-				id: "63994E23E2EC005F"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "63994E23E2EC005F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "14B4224E6066F20C"
+					item: {
+						count: 1
+						id: "mysticalagradditions:insanium_coal"
+					}
+					type: "item"
+				}
+			]
 			size: 1.25d
 			tasks: [{
 				id: "43A26135F8A4F2FD"
