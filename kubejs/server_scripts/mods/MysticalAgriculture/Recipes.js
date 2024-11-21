@@ -146,6 +146,16 @@ ServerEvents.recipes(allthemods => {
         A: 'mysticalagriculture:rubber_essence'
     }).id('allthemods:essence/industrialforegoing/rubber')
 
+    allthemods.shaped('12x minecraft:twisting_vines', ['NA ', ' A ', ' AN'], {
+        A: 'mysticalagriculture:nature_essence',
+        N: 'mysticalagriculture:nether_essence'
+    }).id('allthemods:essence/minecraft/twisiting_vines')
+
+    allthemods.shaped('12x minecraft:weeping_vines', [' A ', 'NAN', ' A '], {
+        A: 'mysticalagriculture:nature_essence',
+        N: 'mysticalagriculture:nether_essence'
+    }).id('allthemods:essence/minecraft/weeping_vines')
+
 
     function addInfustion(seed, item, essence) {
         allthemods.custom(
