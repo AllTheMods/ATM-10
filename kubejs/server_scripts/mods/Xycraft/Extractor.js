@@ -105,7 +105,15 @@ ServerEvents.recipes(allthemods => {
         target: { type: "xycraft_core:block_rule", block: "minecraft:moss_block" },
         catalyst: {type: "xycraft_core:block_rule", block: "minecraft:spore_blossom" },
         ticks: 200,
-        waterlogged: 'minecraft:water'
+        waterlogged: 'minecraft:water',
+        directions: ["up"]
+    })
+
+    extractor({
+        output: { item:"minecraft:sculk", count: 1 },
+        target: { type: "xycraft_core:block_rule", block: "minecraft:sculk" },
+        catalyst: {type: "xycraft_core:block_rule", block: "minecraft:sculk_catalyst" },
+        ticks: 200,
     })
 })
 
