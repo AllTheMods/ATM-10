@@ -18,6 +18,19 @@ ServerEvents.recipes(allthemods => {
         I: 'productivetrees:moonlight_magic_crepe_myrtle_sapling'
     }).id('allthemods:kjs/magical_soil')
 
+    allthemods.shaped('mysticalagradditions:withering_soul',
+        [
+            'PRP',
+            'BSB',
+            'PRP'
+        ], {
+            B: 'productivebees:configurable_comb[productivebees:bee_type="productivebees:withered"]',
+            P: 'hostilenetworks:prediction[hostilenetworks:data_model="hostilenetworks:wither"]',
+            R: 'reliquary:witherless_rose',
+            S: 'minecraft:wither_skeleton_skull',
+        }
+    ).id('allthemods:mysticaladditions/withering_soul')
+
     // Warped Wart Blocks
     allthemods.shaped('8x minecraft:warped_wart_block', [' A ', 'A  ', 'AAA'], {
         A: 'mysticalagriculture:nether_essence'
