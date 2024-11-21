@@ -1,0 +1,132 @@
+#If true, Keepsake Caskets that are spawned when a player dies will not be accessible by other players. Use this if you dont want people taking from other people's death caskets.
+#NOTE: server operators will still be able to open locked caskets.
+casketUUIDLocking = false
+#If true, disables the ability to make Skull Candles by right clicking a vanilla skull with a candle. Turn this on if you're having mod conflict issues for some reason.
+disableSkullCandleCreation = false
+#If false, items that come enchanted when you craft them (such as ironwood or steeleaf gear) will not show this way in the creative inventory.
+#Please note that this doesn't affect the crafting recipes themselves, you will need a datapack to change those.
+showEnchantmentsOnItems = true
+#If true, Twilight Forest's bosses will put their drops inside of a chest where they originally spawned instead of dropping the loot directly.
+#Note that the Knight Phantoms are not affected by this as their drops work differently.
+bossesSpawnDropChests = true
+#Dictates how many blocks down from a cloud block should the game logic check for handling weather related code.
+#Lower if experiencing low tick rate. Set to 0 to turn all cloud precipitation logic off.
+# Default: 32
+# Range: > 0
+cloudBlockPrecipitationDistance = 32
+#Determines how bosses should adjust to multiplayer fights. There are 4 possible values that can be put here:
+#NONE: doesnt do anything when multiple people participate in a bossfight. Bosses will act the same as they do in singleplayer or solo fights.
+#MORE_LOOT: adds additional drops to a boss' loot table based on how many players participated in the fight. These are fully controlled through the entity's loot table, using the `twilightforest:multiplayer_multiplier` loot function. Note that this function will only do things to entities that are included in the `twilightforest:multiplayer_inclusive_entities` tag.
+#MORE_HEALTH: increases the health of each boss by 20 hearts for each player nearby when the fight starts.
+#MORE_LOOT_AND_HEALTH: does both of the above functions for each boss.
+#Allowed Values: NONE, MORE_LOOT, MORE_HEALTH, MORE_LOOT_AND_HEALTH
+multiplayerFightAdjuster = "NONE"
+
+#Settings that are not reversible without consequences.
+["Dimension Settings"]
+	#If true, players spawning for the first time will spawn in the Twilight Forest.
+	newPlayersSpawnInTF = false
+	#If true, the return portal will spawn for new players that were sent to the TF if `newPlayersSpawnInTF` is true.
+	portalForNewPlayer = false
+
+#All settings regarding the Twilight Forest Portal are found here
+["Portal Settings"]
+	#The dimension you can always travel to the Twilight Forest from, as well as the dimension you will return to. Defaults to the overworld. (domain:regname).
+	originDimension = "minecraft:overworld"
+	#Allow portals to the Twilight Forest to be made outside of the 'origin' dimension. May be considered an exploit.
+	allowPortalsInOtherDimensions = false
+	#Allows people with the specified permission or higher to create portals. This is based off of Vanilla's permission system.
+	#You can read about them here: https://minecraft.wiki/w/Permission_level
+	# Default: 0
+	# Range: 0 ~ 4
+	portalCreationPermission = 0
+	#Disable Twilight Forest portal creation entirely. Provided for server operators looking to restrict action to the dimension.
+	disablePortalCreation = false
+	#Determines if new portals should be pre-checked for safety. If false, portals will fail to form rather than redirect to a safe alternate destination.
+	#Note that disabling this also reduces the rate at which portal formation checks are performed.
+	checkPortalPlacement = true
+	#Set this to false if you want the lightning that zaps the portal to not set things on fire. For those who don't like fun.
+	destructivePortalLightning = true
+	#If false, the return portal will require the activation item.
+	shouldReturnPortalBeUsable = true
+	#Use a valid advancement resource location as a string. For example, using the string "minecraft:story/mine_diamond" will lock the portal behind the "Diamonds!" advancement. Invalid/Empty Advancement resource IDs will leave the portal entirely unlocked.
+	portalUnlockedByAdvancement = ""
+	#The max amount of water spaces the mod will check for when creating a portal. Very high numbers may cause performance issues.
+	# Default: 64
+	# Range: > 4
+	maxPortalSize = 64
+
+#Settings for all things related to the Uncrafting Table.
+["Uncrafting Table"]
+	#Multiplies the total XP cost of uncrafting an item and rounds up.
+	#Higher values means the recipe will cost more to uncraft, lower means less. Set to 0 to disable the cost altogether.
+	#Note that this only affects reversed crafting recipes, uncrafting recipes will still use the same cost as they normally would.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	uncraftingXpCostMultiplier = 1.0
+	#Multiplies the total XP cost of repairing an item and rounds up.
+	#Higher values means the recipe will cost more to repair, lower means less. Set to 0 to disable the cost altogether.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	repairingXpCostMultiplier = 1.0
+	#If you don't want to disable uncrafting altogether, and would rather disable certain recipes, this is for you.
+	#To add a recipe, add the mod id followed by the name of the recipe. You can check this in things like JEI.
+	#Example: "twilightforest:firefly_particle_spawner" will disable uncrafting the particle spawner into a firefly jar, firefly, and poppy.
+	#If an item has multiple crafting recipes and you wish to disable them all, add the item to the "twilightforest:banned_uncraftables" item tag.
+	#If you have a problematic ingredient, like infested towerwood for example, add the item to the "twilightforest:banned_uncrafting_ingredients" item tag.
+	disableUncraftingRecipes = ["twilightforest:giant_log_to_oak_planks"]
+	#If true, this will invert the above uncrafting recipe list from a blacklist to a whitelist.
+	flipRecipeList = false
+	#Here, you can disable all items from certain mods from being uncrafted.
+	#Input a valid mod id to disable all uncrafting recipes from that mod.
+	#Example: "twilightforest" will disable all uncrafting recipes from this mod.
+	blacklistedUncraftingModIds = []
+	#If true, this will invert the above option from a blacklist to a whitelist.
+	flipIdList = false
+	#If true, the uncrafting table will also be allowed to uncraft shapeless recipes.
+	#The table was originally intended to only take shaped recipes, but this option remains for people who wish to keep the functionality.
+	enableShapelessCrafting = false
+	#If true, the uncrafting table will no longer allow you to switch between ingredients if a recipe uses a tag for crafting.
+	#This will remove the functionality for ALL RECIPES!
+	#If you want to prevent certain ingredients from showing up in the first place, use the "twilightforest:banned_uncrafting_ingredients" tag.
+	disableIngredientSwitching = false
+	#Disables the uncrafting function of the uncrafting table. Recommended as a last resort if there's too many things to change about its behavior (or you're just lazy, I dont judge).
+	#Do note that special uncrafting recipes are not disabled as the mod relies on them for other things.
+	disableUncrafting = true
+	#Disables any usage of the uncrafting table, as well as prevents it from showing up in loot or crafted.
+	#Please note that table has more uses than just uncrafting, you can read about them here! http://benimatic.com/tfwiki/index.php?title=Uncrafting_Table
+	#It is highly recommended to keep the table enabled as the mod has special uncrafting exclusive recipes, but the option remains for people that dont want the table to be functional at all.
+	#If you are looking to just prevent normal crafting recipes from being reversed, consider using the 'disableUncrafting' option instead.
+	disableUncraftingTable = true
+
+#Settings for all things related to the magic trees.
+["Magic Trees"]
+	#Defines the radius at which the Timewood Core works. Can be a number anywhere between 1 and 128.
+	#Set to 0 to prevent the Timewood Core from functioning.
+	# Default: 16
+	# Range: 0 ~ 128
+	timeCoreRange = 16
+	#Defines the radius at which the Transformation Core works. Can be a number anywhere between 1 and 128.
+	#Set to 0 to prevent the Transformation Core from functioning.
+	# Default: 16
+	# Range: 0 ~ 128
+	transformationCoreRange = 16
+	#Defines the radius at which the Minewood Core works. Can be a number anywhere between 1 and 128.
+	#Set to 0 to prevent the Minewood Core from functioning.
+	# Default: 16
+	# Range: 0 ~ 128
+	miningCoreRange = 16
+	#Defines the radius at which the Sortingwood Core works. Can be a number anywhere between 1 and 128.
+	#Set to 0 to prevent the Sortingwood Core from functioning.
+	# Default: 16
+	# Range: 0 ~ 128
+	sortingCoreRange = 16
+
+#We recommend downloading the Shield Parry mod for parrying, but these controls remain for without.
+["Shield Parrying"]
+	#Set to true to parry non-Twilight projectiles.
+	parryNonTwilightAttacks = false
+	#The amount of ticks after raising a shield that makes it OK to parry a projectile. (1 tick = 1/20 second)
+	# Default: 40
+	# Range: > 0
+	shieldParryTicksArrow = 40
