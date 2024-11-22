@@ -18,6 +18,19 @@ ServerEvents.recipes(allthemods => {
         I: 'productivetrees:moonlight_magic_crepe_myrtle_sapling'
     }).id('allthemods:kjs/magical_soil')
 
+    allthemods.shaped('mysticalagradditions:withering_soul',
+        [
+            'PRP',
+            'BSB',
+            'PRP'
+        ], {
+            B: 'productivebees:configurable_comb[productivebees:bee_type="productivebees:withered"]',
+            P: 'hostilenetworks:prediction[hostilenetworks:data_model="hostilenetworks:wither"]',
+            R: 'reliquary:witherless_rose',
+            S: 'minecraft:wither_skeleton_skull',
+        }
+    ).id('allthemods:mysticaladditions/withering_soul')
+
     // Warped Wart Blocks
     allthemods.shaped('8x minecraft:warped_wart_block', [' A ', 'A  ', 'AAA'], {
         A: 'mysticalagriculture:nether_essence'
@@ -145,6 +158,16 @@ ServerEvents.recipes(allthemods => {
     allthemods.shaped('4x industrialforegoing:dryrubber', ['   ', 'AAA', '   '], {
         A: 'mysticalagriculture:rubber_essence'
     }).id('allthemods:essence/industrialforegoing/rubber')
+
+    allthemods.shaped('12x minecraft:twisting_vines', ['NA ', ' A ', ' AN'], {
+        A: 'mysticalagriculture:nature_essence',
+        N: 'mysticalagriculture:nether_essence'
+    }).id('allthemods:essence/minecraft/twisiting_vines')
+
+    allthemods.shaped('12x minecraft:weeping_vines', [' A ', 'NAN', ' A '], {
+        A: 'mysticalagriculture:nature_essence',
+        N: 'mysticalagriculture:nether_essence'
+    }).id('allthemods:essence/minecraft/weeping_vines')
 
 
     function addInfustion(seed, item, essence) {
