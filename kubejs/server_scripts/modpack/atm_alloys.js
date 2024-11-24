@@ -150,7 +150,7 @@ ServerEvents.recipes(allthemods => {
             {item: 'ars_nouveau:water_essence'}],
         {item: 'ars_nouveau:source_gem'},
         false,
-        1000,
+        10000,
         'unobtainium_allthemodium_alloy_ingot'
     );
     enchanting_apparatus(
@@ -166,7 +166,7 @@ ServerEvents.recipes(allthemods => {
             {item: 'kubejs:water_essence_block'}],
         {item: 'ars_nouveau:source_gem_block'},
         false,
-        9000,
+        90000,
         'unobtainium_allthemodium_alloy_block'
     );
 

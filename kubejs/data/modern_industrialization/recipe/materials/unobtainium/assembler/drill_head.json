@@ -1,0 +1,35 @@
+{
+    "type": "modern_industrialization:assembler",
+    "duration": 100,
+    "eu": 2,
+    "fluid_inputs": [
+      {
+        "amount": 75,
+        "fluid": "modern_industrialization:soldering_alloy"
+      }
+    ],
+    "item_inputs": [
+      {
+        "amount": 1,
+        "tag": "c:plates/unobtainium"
+      },
+      {
+        "amount": 2,
+        "item": "kubejs:unobtainium_curved_plate"
+      },
+      {
+        "amount": 1,
+        "tag": "c:rods/unobtainium"
+      },
+      {
+        "amount": 2,
+        "tag": "c:gears/unobtainium"
+      }
+    ],
+    "item_outputs": [
+      {
+        "amount": 1,
+        "item": "kubejs:unobtainium_drill_head"
+      }
+    ]
+  }

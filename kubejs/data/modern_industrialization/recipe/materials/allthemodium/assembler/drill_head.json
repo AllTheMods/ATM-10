@@ -1,0 +1,35 @@
+{
+    "type": "modern_industrialization:assembler",
+    "duration": 100,
+    "eu": 2,
+    "fluid_inputs": [
+      {
+        "amount": 75,
+        "fluid": "modern_industrialization:soldering_alloy"
+      }
+    ],
+    "item_inputs": [
+      {
+        "amount": 1,
+        "tag": "c:plates/allthemodium"
+      },
+      {
+        "amount": 2,
+        "item": "kubejs:allthemodium_curved_plate"
+      },
+      {
+        "amount": 1,
+        "tag": "c:rods/allthemodium"
+      },
+      {
+        "amount": 2,
+        "tag": "c:gears/allthemodium"
+      }
+    ],
+    "item_outputs": [
+      {
+        "amount": 1,
+        "item": "kubejs:allthemodium_drill_head"
+      }
+    ]
+  }
