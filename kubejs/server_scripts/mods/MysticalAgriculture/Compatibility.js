@@ -46,7 +46,9 @@ const useBlocks = [
   {resource:"graphite", essence:"tertium", block:"bigreactors:graphite_block"},
   {resource:"compressed_iron", essence:"imperium"},
   {resource:"electrum", essence:"imperium"},
-  {resource:"invar", essence: "imperium"}
+  {resource:"invar", essence: "imperium"},
+  //{resource:"enderium", essence:"imperium", block:"alltheores:enderium_block"},
+  {resource:"sky_steel", essence:"insanium", block:"megacells:sky_steel_block"}  
 ]
 
 //dusts to be switched to tags
