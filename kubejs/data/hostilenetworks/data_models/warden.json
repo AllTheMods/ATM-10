@@ -1,0 +1,46 @@
+{
+  "entity": "minecraft:warden",
+  "variants": [],
+  "name": {
+    "translate": "entity.minecraft.warden",
+    "color": "#05343F"
+  },
+  "display": {
+    "y_offset": -0.15,
+    "scale": 0.65
+  },
+  "sim_cost": 2560,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "id": "hostilenetworks:end_prediction",
+    "count": 1
+  },
+  "trivia": "hostilenetworks.trivia.warden",
+  "fabricator_drops": [
+    {
+      "id": "deeperdarker:heart_of_the_deep",
+      "optional": true,
+      "count": 1
+    },
+    {
+      "id": "deeperdarker:warden_carapace",
+      "optional": true,
+      "count": 1
+    },
+    {
+      "id": "apotheosis:warden_tendril",
+      "optional": true,
+      "count": 1
+    },
+    {
+      "id": "minecraft:sculk_catalyst",
+      "count": 1
+    },
+    {
+      "id": "minecraft:echo_shard",
+      "count": 2
+    }
+  ]
+}
