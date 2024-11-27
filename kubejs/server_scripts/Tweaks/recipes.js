@@ -28,8 +28,7 @@ ServerEvents.recipes(allthemods => {
         }
     )
 
-    // Remove Duplicate Paper Recipe
-    allthemods.remove({ id: 'minecraft:paper' })
+    allthemods.replaceInput({ mod: "railcraft"}, "railcraft:steel_shovel", "mekanismtools:steel_shovel")
 
     // Concrete from Concrete Powder using Water Buckets
     const colors = [
@@ -46,12 +45,11 @@ ServerEvents.recipes(allthemods => {
             }
         )
     });
-    
-    // Remove The Raw Redstone Block Recipe As It Allows A Redstone Dupe
+
+    // Remove Raw Redstone Block Recipe
     allthemods.remove({id: 'regions_unexplored:raw_redstone_block'});
 
-    
-    // Fix dense uraninite ore energizing recipes
+    // Dense Uraninite Ore Energizing Recipes
     allthemods.remove({ id: 'powah:energizing/uraninite_from_ore' })
     allthemods.custom({
         "type": "powah:energizing",
