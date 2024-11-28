@@ -110,7 +110,7 @@ ServerEvents.recipes(allthemods => {
             {
                 A: 'allthemodium:unobtainium_block',
                 B: 'powah:nitro_crystal_block',
-                C: 'ironjetpacks:cell[ironjetpacks:jetpack_id="ironjetpacks:creative",rarity="epic"]',
+                C: 'ironjetpacks:cell[ironjetpacks:jetpack_id="ironjetpacks:creative"]',
                 D: 'ironfurnaces:unobtainium_furnace' 
             }
         ).id('allthemods:ironjetpacks_creative_thruster')
@@ -139,10 +139,10 @@ ServerEvents.recipes(allthemods => {
             {
                 A: 'mysticalagradditions:creative_essence',
                 B: 'allthemodium:vibranium_allthemodium_alloy_block',
-                C: 'ironjetpacks:capacitor[ironjetpacks:jetpack_id="ironjetpacks:creative",rarity="epic"]',
-                D: 'ironjetpacks:thruster[ironjetpacks:jetpack_id="ironjetpacks:creative",rarity="epic"]',
+                C: 'ironjetpacks:capacitor[ironjetpacks:jetpack_id="ironjetpacks:creative"]',
+                D: 'ironjetpacks:thruster[ironjetpacks:jetpack_id="ironjetpacks:creative"]',
                 E: 'allthetweaks:atm_star',
-                F: 'ironjetpacks:jetpack[ironjetpacks:jetpack_id="ironjetpacks:unobtainium",rarity="epic"]'
+                F: 'ironjetpacks:jetpack[ironjetpacks:jetpack_id="ironjetpacks:unobtainium"]'
             }
         ).id('allthemods:ironjetpacks_creative_jetpack')
 
