@@ -179,8 +179,120 @@
 			image: "atm:textures/questpics/bumblezone/bumble_variants.png"
 			rotation: 0.0d
 			width: 8.88d
-			x: 10.0d
-			y: 11.5d
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependency: "46FEF3DB6A5B52A0"
+			height: 0.75d
+			image: "atm:textures/questpics/bumblezone/bumble_frame.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.444444444444445d
+			x: 11.0d
+			y: -4.75d
+		}
+		{
+			dependency: "46FEF3DB6A5B52A0"
+			height: 0.75d
+			image: "atm:textures/questpics/bumblezone/bumble_frame.png"
+			order: 1
+			rotation: 180.0d
+			width: 4.444444444444445d
+			x: 11.0d
+			y: -3.25d
+		}
+		{
+			dependency: "4040BFCD4BE56621"
+			height: 0.75d
+			image: "atm:textures/questpics/bumblezone/bumble_frame.png"
+			order: 1
+			rotation: 180.0d
+			width: 4.444444444444445d
+			x: 18.0d
+			y: -3.25d
+		}
+		{
+			dependency: "5C040191740A53C8"
+			height: 0.75d
+			image: "atm:textures/questpics/bumblezone/bumble_frame.png"
+			order: 1
+			rotation: 180.0d
+			width: 4.444444444444445d
+			x: 18.0d
+			y: -0.25d
+		}
+		{
+			dependency: "30C12E249F7E2D52"
+			height: 0.75d
+			image: "atm:textures/questpics/bumblezone/bumble_frame.png"
+			order: 1
+			rotation: 180.0d
+			width: 4.444444444444445d
+			x: 11.0d
+			y: -0.25d
+		}
+		{
+			dependency: "4040BFCD4BE56621"
+			height: 0.75d
+			image: "atm:textures/questpics/bumblezone/bumble_frame.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.444444444444445d
+			x: 18.0d
+			y: -4.75d
+		}
+		{
+			dependency: "5C040191740A53C8"
+			height: 0.75d
+			image: "atm:textures/questpics/bumblezone/bumble_frame.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.444444444444445d
+			x: 18.0d
+			y: -1.75d
+		}
+		{
+			dependency: "30C12E249F7E2D52"
+			height: 0.75d
+			image: "atm:textures/questpics/bumblezone/bumble_frame.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.444444444444445d
+			x: 11.0d
+			y: -1.75d
+		}
+		{
+			height: 0.75d
+			image: "atm:textures/questpics/bumblezone/bumble_frame.png"
+			rotation: 0.0d
+			width: 3.55d
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			height: 0.75d
+			image: "atm:textures/questpics/bumblezone/bumble_frame.png"
+			rotation: 180.0d
+			width: 3.55d
+			x: 6.0d
+			y: 5.75d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/bumblezone/bumble_variants.png"
+			rotation: 0.0d
+			width: 8.88d
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/bumblezone/bumble_variants.png"
+			rotation: 0.0d
+			width: 8.88d
+			x: 5.5d
+			y: 0.0d
 		}
 	]
 	order_index: 1
@@ -473,14 +585,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "2B45CFA008660EAC"
+					id: "3807F084CE08EB50"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "5B0F01897D5FFB95"
-					type: "xp"
-					xp: 100
+					id: "56E4F05BC7CF753F"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -488,8 +600,8 @@
 				structure: "the_bumblezone:ancient_hoops"
 				type: "structure"
 			}]
-			x: 4.5d
-			y: -4.0d
+			x: 4.0d
+			y: -5.0d
 		}
 		{
 			icon: {
@@ -499,14 +611,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "3834D0AFAB887948"
+					id: "174DBF1BF12039CF"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "0EAE999103C1A29B"
-					type: "xp"
-					xp: 100
+					id: "035F8C0595B296C7"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -514,8 +626,8 @@
 				structure: "the_bumblezone:ancient_shrine"
 				type: "structure"
 			}]
-			x: 4.5d
-			y: -3.0d
+			x: 4.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["396CEB9D05700927"]
@@ -553,14 +665,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "02A117ED8B0B50A5"
+					id: "15A6B550A616575A"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "7E2C3948D8581A7F"
-					type: "xp"
-					xp: 100
+					id: "7B4B7388AB3B0711"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -568,8 +680,8 @@
 				structure: "the_bumblezone:bee_house"
 				type: "structure"
 			}]
-			x: 4.5d
-			y: -2.0d
+			x: 4.0d
+			y: -3.0d
 		}
 		{
 			icon: {
@@ -579,14 +691,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "4DDCE4A618B84F26"
+					id: "6714A28BE73C40E1"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "6826C8E7C3DBEBE4"
-					type: "xp"
-					xp: 100
+					id: "23EFE94C80B54594"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -594,8 +706,8 @@
 				structure: "the_bumblezone:candle_parkour"
 				type: "structure"
 			}]
-			x: 5.5d
-			y: -4.5d
+			x: 4.0d
+			y: -2.0d
 		}
 		{
 			icon: {
@@ -605,14 +717,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "761A818B4EE66213"
+					id: "3488A1CBCC12E3AA"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "1A93DEE201C64B42"
-					type: "xp"
-					xp: 100
+					id: "6DFDE631EAE985F0"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -620,8 +732,8 @@
 				structure: "the_bumblezone:cannon_range"
 				type: "structure"
 			}]
-			x: 5.5d
-			y: -3.5d
+			x: 5.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["0910C28A609ECBC1"]
@@ -681,14 +793,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "79DAD0267A9512DC"
+					id: "67D62BB1899A99A1"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "7B479A5EC3F1C109"
-					type: "xp"
-					xp: 100
+					id: "4158864782D66CEC"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -696,8 +808,8 @@
 				structure: "the_bumblezone:dance_floor"
 				type: "structure"
 			}]
-			x: 5.5d
-			y: -2.5d
+			x: 5.0d
+			y: -3.5d
 		}
 		{
 			icon: {
@@ -707,14 +819,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "71E233176F725273"
+					id: "4B3F69182DACE322"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "032247901C93B273"
-					type: "xp"
-					xp: 100
+					id: "13495944BC1FBCBD"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -722,8 +834,8 @@
 				structure: "the_bumblezone:hanging_garden"
 				type: "structure"
 			}]
-			x: 5.5d
-			y: -1.5d
+			x: 6.0d
+			y: -4.0d
 		}
 		{
 			icon: {
@@ -733,14 +845,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "5A429EDCB3CCD45A"
+					id: "518A7F92D75B40C4"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "486C46EECFBEDA63"
-					type: "xp"
-					xp: 100
+					id: "7AA9254736DE7248"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -748,8 +860,8 @@
 				structure: "the_bumblezone:hive_temple"
 				type: "structure"
 			}]
-			x: 6.5d
-			y: -4.0d
+			x: 6.0d
+			y: -3.0d
 		}
 		{
 			icon: {
@@ -759,14 +871,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "65C100FF8D1A5B1C"
+					id: "66D8BB63EAAF858C"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "3F6D0C3037509DE2"
-					type: "xp"
-					xp: 100
+					id: "3285E64E6337AE67"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -774,8 +886,8 @@
 				structure: "the_bumblezone:honey_cave_room"
 				type: "structure"
 			}]
-			x: 6.5d
-			y: -3.0d
+			x: 6.0d
+			y: -2.0d
 		}
 		{
 			icon: {
@@ -785,14 +897,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "57945271AD809707"
+					id: "725510E9A5E616C3"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "64F9E99846ACAE98"
-					type: "xp"
-					xp: 100
+					id: "634993947EE0A8FD"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -800,8 +912,8 @@
 				structure: "the_bumblezone:honey_fountain"
 				type: "structure"
 			}]
-			x: 6.5d
-			y: -2.0d
+			x: 7.0d
+			y: -4.5d
 		}
 		{
 			icon: {
@@ -811,14 +923,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "62BC0DA5E41B6967"
+					id: "70F7A10FE5BDBC72"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "26F14A4E019354CE"
-					type: "xp"
-					xp: 100
+					id: "05EDBA7D678B74FB"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -826,8 +938,8 @@
 				structure: "the_bumblezone:honey_slime_ranch"
 				type: "structure"
 			}]
-			x: 7.5d
-			y: -4.5d
+			x: 7.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["396CEB9D05700927"]
@@ -865,14 +977,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "53ACFA9EF77FD3D7"
+					id: "68162C15124D76E1"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "2C7062381273E04E"
-					type: "xp"
-					xp: 100
+					id: "1F8361E0A80B63CE"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -880,8 +992,8 @@
 				structure: "the_bumblezone:ice_monolith"
 				type: "structure"
 			}]
-			x: 7.5d
-			y: -3.5d
+			x: 7.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["680E960554CEE76B"]
@@ -961,19 +1073,34 @@
 				id: "the_bumblezone:luminescent_wax_channel_blue"
 			}
 			id: "053483E3349B2F8A"
-			rewards: [{
-				id: "583B50783A3BC135"
-				item: {
-					components: {
-						"minecraft:potion_contents": {
-							potion: "minecraft:water_breathing"
+			rewards: [
+				{
+					id: "583B50783A3BC135"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:water_breathing"
+							}
 						}
+						count: 1
+						id: "minecraft:potion"
 					}
-					count: 1
-					id: "minecraft:potion"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "158B0D87DA71C03A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "5AB4A40340255A9C"
+					item: {
+						count: 1
+						id: "the_bumblezone:royal_jelly_bottle"
+					}
+					type: "item"
+				}
+			]
 			size: 1.2d
 			tasks: [{
 				id: "2D6CD40930F15532"
@@ -991,14 +1118,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "43C0411CC4E28AE4"
+					id: "15040AFFEBBF0A58"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "20B040B63B31FA1B"
-					type: "xp"
-					xp: 100
+					id: "696A9AA7C7B567C0"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -1006,8 +1133,8 @@
 				structure: "the_bumblezone:stinger_spear_shrine"
 				type: "structure"
 			}]
-			x: 7.5d
-			y: -2.5d
+			x: 8.0d
+			y: -3.0d
 		}
 		{
 			icon: {
@@ -1017,14 +1144,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "5B0B8F3FD7E98303"
+					id: "5EB9D46906E711AB"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "67DABB584BA5C2F2"
-					type: "xp"
-					xp: 100
+					id: "1D5B5EB5D8FBDB89"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -1032,8 +1159,8 @@
 				structure: "the_bumblezone:subway"
 				type: "structure"
 			}]
-			x: 7.5d
-			y: -1.5d
+			x: 8.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["67A0F6661D658A52"]
@@ -1434,9 +1561,9 @@
 					type: "item"
 				}
 				{
-					id: "57A87E40A8F687A3"
-					type: "xp"
-					xp: 500
+					id: "2C586757CFD1DC46"
+					type: "xp_levels"
+					xp_levels: 10
 				}
 			]
 			size: 1.5d
@@ -1454,19 +1581,34 @@
 				id: "the_bumblezone:luminescent_wax_channel_green"
 			}
 			id: "516ECA0396621C32"
-			rewards: [{
-				id: "549E518FADAE3FA3"
-				item: {
-					components: {
-						"minecraft:potion_contents": {
-							potion: "minecraft:regeneration"
+			rewards: [
+				{
+					id: "549E518FADAE3FA3"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:regeneration"
+							}
 						}
+						count: 1
+						id: "minecraft:potion"
 					}
-					count: 1
-					id: "minecraft:potion"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "58579003FAB2302A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "7A933D0023F5ED07"
+					item: {
+						count: 1
+						id: "the_bumblezone:royal_jelly_bottle"
+					}
+					type: "item"
+				}
+			]
 			size: 1.2d
 			tasks: [{
 				id: "2BBA3DE9CCE266D0"
@@ -1482,19 +1624,34 @@
 				id: "the_bumblezone:luminescent_wax_channel_purple"
 			}
 			id: "29C78845B488EDF8"
-			rewards: [{
-				id: "56BB0EE71DDEF0DC"
-				item: {
-					components: {
-						"minecraft:potion_contents": {
-							potion: "apothic_attributes:resistance"
+			rewards: [
+				{
+					id: "56BB0EE71DDEF0DC"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "apothic_attributes:resistance"
+							}
 						}
+						count: 1
+						id: "minecraft:potion"
 					}
-					count: 1
-					id: "minecraft:potion"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2C67A0CC787AB419"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "37F19FB2B49E97EE"
+					item: {
+						count: 1
+						id: "the_bumblezone:royal_jelly_bottle"
+					}
+					type: "item"
+				}
+			]
 			size: 1.2d
 			tasks: [{
 				id: "442B706E2D9E42B2"
@@ -1510,19 +1667,34 @@
 				id: "the_bumblezone:luminescent_wax_channel_red"
 			}
 			id: "3B7BB08D6AA2E7FE"
-			rewards: [{
-				id: "27A60EF1B6563439"
-				item: {
-					components: {
-						"minecraft:potion_contents": {
-							potion: "minecraft:strength"
+			rewards: [
+				{
+					id: "27A60EF1B6563439"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:strength"
+							}
 						}
+						count: 1
+						id: "minecraft:potion"
 					}
-					count: 1
-					id: "minecraft:potion"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "0AAE385B293B83B2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "5C97C2B2F018C1C7"
+					item: {
+						count: 1
+						id: "the_bumblezone:royal_jelly_bottle"
+					}
+					type: "item"
+				}
+			]
 			size: 1.2d
 			tasks: [{
 				id: "14B67B76F5F7C85C"
@@ -1538,19 +1710,34 @@
 				id: "the_bumblezone:luminescent_wax_channel_white"
 			}
 			id: "75ACC8CF5873F92D"
-			rewards: [{
-				id: "246D56AC76B18A6E"
-				item: {
-					components: {
-						"minecraft:potion_contents": {
-							potion: "minecraft:swiftness"
+			rewards: [
+				{
+					id: "246D56AC76B18A6E"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:swiftness"
+							}
 						}
+						count: 1
+						id: "minecraft:potion"
 					}
-					count: 1
-					id: "minecraft:potion"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1797F5B0AF60DD55"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "7A18EF7BB0D43F0A"
+					item: {
+						count: 1
+						id: "the_bumblezone:royal_jelly_bottle"
+					}
+					type: "item"
+				}
+			]
 			size: 1.2d
 			tasks: [{
 				id: "02F65BF2D95F20EF"
@@ -1566,19 +1753,34 @@
 				id: "the_bumblezone:luminescent_wax_channel_yellow"
 			}
 			id: "27FEF80A08AF43C2"
-			rewards: [{
-				id: "74C5C565C6562353"
-				item: {
-					components: {
-						"minecraft:potion_contents": {
-							potion: "minecraft:leaping"
+			rewards: [
+				{
+					id: "74C5C565C6562353"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:leaping"
+							}
 						}
+						count: 1
+						id: "minecraft:potion"
 					}
-					count: 1
-					id: "minecraft:potion"
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "23248720C036E330"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "53D97A807AA44A39"
+					item: {
+						count: 1
+						id: "the_bumblezone:royal_jelly_bottle"
+					}
+					type: "item"
+				}
+			]
 			size: 1.2d
 			tasks: [{
 				id: "490363DB8613FCBE"
@@ -1591,11 +1793,21 @@
 		{
 			dependencies: ["3B7BB08D6AA2E7FE"]
 			id: "58CC2E563F92B4C5"
-			rewards: [{
-				id: "653186B4666A1B8B"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					id: "25930AC8EFEE6002"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "0A2DBD077C1AFA44"
+					item: {
+						count: 1
+						id: "the_bumblezone:royal_jelly_block"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "0AA6515146223498"
@@ -1608,11 +1820,21 @@
 		{
 			dependencies: ["053483E3349B2F8A"]
 			id: "20E5C888891FBCFE"
-			rewards: [{
-				id: "69AC63BD487F0558"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					id: "41711FCF723398BD"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "2006CA88D631E64F"
+					item: {
+						count: 1
+						id: "the_bumblezone:royal_jelly_block"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "382894B61961C73F"
@@ -1625,11 +1847,21 @@
 		{
 			dependencies: ["516ECA0396621C32"]
 			id: "1D4973B187284CBB"
-			rewards: [{
-				id: "4441DB5952136B5A"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					id: "228CC02046CE3CD7"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "6622DC02AF8B5702"
+					item: {
+						count: 1
+						id: "the_bumblezone:royal_jelly_block"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "2D7CB61F2375BEFB"
@@ -1642,11 +1874,21 @@
 		{
 			dependencies: ["29C78845B488EDF8"]
 			id: "4718C2728C0CA40F"
-			rewards: [{
-				id: "4DE0D901B1EA7F4B"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					id: "6082C07A7103B1B4"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "3677BDD167D3FBB1"
+					item: {
+						count: 1
+						id: "the_bumblezone:royal_jelly_block"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "72E4743B07F5B062"
@@ -1659,11 +1901,21 @@
 		{
 			dependencies: ["75ACC8CF5873F92D"]
 			id: "52C7FAA044E07628"
-			rewards: [{
-				id: "5C5237FF9FE31538"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					id: "70A48D8649B6CD61"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "37C1A1C870A89FF5"
+					item: {
+						count: 1
+						id: "the_bumblezone:royal_jelly_block"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "25EAABE69C404707"
@@ -1676,11 +1928,21 @@
 		{
 			dependencies: ["27FEF80A08AF43C2"]
 			id: "3ADC0CBB059FF927"
-			rewards: [{
-				id: "6961C8AF726CDDA8"
-				type: "xp"
-				xp: 500
-			}]
+			rewards: [
+				{
+					id: "2D7AD572AE7A2376"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "49FF41D37AF67164"
+					item: {
+						count: 1
+						id: "the_bumblezone:royal_jelly_block"
+					}
+					type: "item"
+				}
+			]
 			size: 1.5d
 			tasks: [{
 				id: "32EA7A3A8A542A86"
@@ -1700,14 +1962,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "1841B4819E2775D3"
+					id: "76A65A2BF48546F2"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "69102129F3144A5A"
-					type: "xp"
-					xp: 100
+					id: "3C84A4B8968A69F5"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [{
@@ -1728,14 +1990,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "74320AC85CF5143E"
+					id: "4F408D93543F9DED"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "4BA89BADBE404EBA"
-					type: "xp"
-					xp: 100
+					id: "6F75D7FD9661EA35"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [{
@@ -1756,14 +2018,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "54CBC5D5DC48CE78"
+					id: "43E5091AA70334EA"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "4B2BD6E5305AE341"
-					type: "xp"
-					xp: 100
+					id: "7F7224FCFE485E9E"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [{
@@ -1784,14 +2046,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "6F873080A76561BA"
+					id: "0BDB14E064129F29"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "3273810379D186AA"
-					type: "xp"
-					xp: 100
+					id: "283F046377B65324"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [{
@@ -1812,14 +2074,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "7DBB1246A027C702"
+					id: "1D876DB488CD50C2"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "6CC88F870F63A63C"
-					type: "xp"
-					xp: 100
+					id: "04C0A71B85AE076A"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [{
@@ -1840,14 +2102,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "7B5A297D87A12DCA"
+					id: "6619D0A071DC5C77"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "7DC3E7D2A3777D35"
-					type: "xp"
-					xp: 100
+					id: "30EC5297F9BA1B21"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [{
@@ -1868,14 +2130,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "04451F594D44BD7B"
+					id: "026A071A3BE154FD"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "13FCF4DB4BB671F3"
-					type: "xp"
-					xp: 100
+					id: "15A0A973F02EDA35"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [{
@@ -1896,14 +2158,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "0654B6704E88FF00"
+					id: "60CB057DEDFA555A"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "5D04BAA105E6898B"
-					type: "xp"
-					xp: 100
+					id: "593C44E04067C7F2"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [{
@@ -1924,14 +2186,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "4FC2E3B6040CF451"
+					id: "74CC7CEC3B2A1AE8"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "153877C5316F77E6"
-					type: "xp"
-					xp: 100
+					id: "03EEE6FEE2DE3A2A"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [{
@@ -1952,14 +2214,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "6AE603EF8654672E"
+					id: "58623A12B7A720C0"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "6291913FF95AFDFD"
-					type: "xp"
-					xp: 100
+					id: "4188A8C23CB31A74"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [{
@@ -1980,14 +2242,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "361363F5A8DAD143"
+					id: "512381F971D2F2CC"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "58A3710B65589375"
-					type: "xp"
-					xp: 100
+					id: "2F343662EE5D22DB"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [{
@@ -2008,14 +2270,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "5939ACF277869E47"
+					id: "70B45BF4D890319C"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "252F2BC938D63CD7"
-					type: "xp"
-					xp: 100
+					id: "6094E07B60A58174"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [{
@@ -2036,14 +2298,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "6F3BAEB9EE467D55"
+					id: "34A1C526304DFBBC"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "7EB6BF820A5056A2"
-					type: "xp"
-					xp: 100
+					id: "014B9111B7EC1869"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [{
@@ -2064,14 +2326,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "658E9CA699795595"
+					id: "60A3400D72C1CBA3"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "3E7D27A8AAD820FB"
-					type: "xp"
-					xp: 100
+					id: "0C71998255DD04F5"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [{
@@ -2092,14 +2354,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "1A9333E26103DC1A"
+					id: "1E9FE5C11DE71261"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "74BE69B34C296979"
-					type: "xp"
-					xp: 100
+					id: "238CAE7C5DAB31D0"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [{
@@ -2120,14 +2382,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "1016CE8DD5978833"
+					id: "38B71D6530EB8292"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "5BAF9AE4941F57A2"
-					type: "xp"
-					xp: 100
+					id: "15BE177A2A2DBD83"
+					type: "xp_levels"
+					xp_levels: 5
 				}
 			]
 			tasks: [{
@@ -2220,40 +2482,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["5F834F8C607A8B77"]
-			id: "40AD1527ED41FC85"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7FB26321D468A388"
-				table_id: 6996929552069196378L
-				type: "random"
-			}]
-			tasks: [{
-				id: "0F4A5BE7847175BD"
-				item: { count: 1, id: "the_bumblezone:bumble_bee_chestplate_trans_1" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: -3.5d
-		}
-		{
-			dependencies: ["78B7FC6A868F5C4D"]
-			id: "6CB602510B6071E7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "509F67332FEF4565"
-				table_id: 6996929552069196378L
-				type: "random"
-			}]
-			tasks: [{
-				id: "0CF4D1CDD0592AEA"
-				item: { count: 1, id: "the_bumblezone:bumble_bee_chestplate_trans_2" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: -2.5d
-		}
-		{
 			id: "454AC491FDFC3FDB"
 			rewards: [{
 				count: 10
@@ -2278,14 +2506,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "087679AD6E01F734"
+					id: "0969BFBBAB21F60C"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "4A7E4F6EF5BE2762"
-					type: "xp"
-					xp: 100
+					id: "1A56D4F6F03BB7F7"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -2301,14 +2529,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "5C722B21B806CEFF"
+					id: "5BF0423121C38920"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "31B55B11A62E8B6B"
-					type: "xp"
-					xp: 100
+					id: "3D82E4549789AA91"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -2324,14 +2552,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "5B06040594EB84EC"
+					id: "5BF4193FE0F3F3E1"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "6B84840A266CE0F0"
-					type: "xp"
-					xp: 100
+					id: "58869FA6069967FF"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -2347,14 +2575,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "6B67A82F9A1AFADC"
+					id: "132A04BBB2882B03"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "503E3097D2D3640E"
-					type: "xp"
-					xp: 100
+					id: "154EA9131B4DDDDC"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -2370,14 +2598,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "447EDF361515569D"
+					id: "184653DE30E75C84"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "6C37D8FE490DD508"
-					type: "xp"
-					xp: 100
+					id: "4D3EC9F81D616EB4"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -2393,14 +2621,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "1CD69CB77EC91434"
+					id: "5CFBC1CC5D426C62"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "76797ACB8C807338"
-					type: "xp"
-					xp: 100
+					id: "0F2120C6CAA2366A"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -2416,14 +2644,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "3C7A52CD0D8DB12D"
+					id: "34A1800496086108"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "5673BAADE5D49850"
-					type: "xp"
-					xp: 100
+					id: "283D2E0EFE259796"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -2439,14 +2667,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "5D61D8E433208DDE"
+					id: "25DEC1D34DEF6D9D"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "7FF90C797C33F008"
-					type: "xp"
-					xp: 100
+					id: "27F6C2B6CB7507BF"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -2462,14 +2690,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "15F4A8A0B2AF832A"
+					id: "31148F1D53BC89D2"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "0C7C26E9190FBE09"
-					type: "xp"
-					xp: 100
+					id: "2C6FEBA29F57C9C7"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -2485,14 +2713,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "7254218557497D45"
+					id: "5BFFEFD3AFB8FB2A"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "5BE6FB9A22A2A096"
-					type: "xp"
-					xp: 100
+					id: "1407F40FDA5EB2CC"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -2505,13 +2733,22 @@
 		}
 		{
 			id: "6C5D61A704DC125A"
+			rewards: [{
+				count: 3
+				id: "4B64997D81D9EB84"
+				item: {
+					count: 1
+					id: "mysticalagriculture:dye_essence"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "6CA87D071A115686"
 				item: { count: 1, id: "the_bumblezone:flower_headwear" }
 				type: "item"
 			}]
 			x: -7.0d
-			y: -1.5d
+			y: -2.5d
 		}
 		{
 			id: "5443AA65C0D0C599"
@@ -2614,14 +2851,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "48404829B1F9132F"
+					id: "086DA9039610FAE1"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "421E6863E17122E8"
-					type: "xp"
-					xp: 100
+					id: "4720E731FAA6D701"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -2637,14 +2874,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "14B15F5F1ED73458"
+					id: "6AEBEDECA506BCF7"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "0F5BA1928706C6FE"
-					type: "xp"
-					xp: 100
+					id: "62445F492832F436"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -2660,14 +2897,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "51B22C4F3C8AF380"
+					id: "17172B3DFA8157D9"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "4BA042828B650264"
-					type: "xp"
-					xp: 100
+					id: "7B061CF76A962EFA"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -2683,14 +2920,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "07FD88E8B95D2289"
+					id: "6C07379CFA056B1B"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "4EB858F977DBA6F1"
-					type: "xp"
-					xp: 100
+					id: "1BE27FB805F0E193"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -2706,14 +2943,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "5D96017D12A6CDA7"
+					id: "4CC23D9FDE5F3FB2"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "28774998F0D984BE"
-					type: "xp"
-					xp: 100
+					id: "3A4BB629706EAE46"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -2729,14 +2966,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "08B6CFD7F65BD8B3"
+					id: "55F6AFCD6A2DED69"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "3361489ACBC03B28"
-					type: "xp"
-					xp: 100
+					id: "08ACF8282DA8EB07"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -2752,14 +2989,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "0EE79BC0348A3332"
+					id: "57721C3552435A00"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "2EAC1CD7B428DA60"
-					type: "xp"
-					xp: 100
+					id: "0B83BBE74EEA191C"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -2775,14 +3012,14 @@
 			rewards: [
 				{
 					exclude_from_claim_all: true
-					id: "2D9D2D67C83BCB97"
+					id: "0FC64AF91175B075"
 					table_id: 6996929552069196378L
 					type: "random"
 				}
 				{
-					id: "095B3A3C30BCA0F2"
-					type: "xp"
-					xp: 100
+					id: "6932DAEEDDE96D34"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -2830,6 +3067,110 @@
 			]
 			x: -0.5d
 			y: -5.5d
+		}
+		{
+			icon: {
+				id: "the_bumblezone:carvable_wax_chains"
+			}
+			id: "613AC4DF39E5621D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "722CE2E59C878FD2"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+				{
+					id: "301264F06ED2D407"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "496CBDC4360A8D0A"
+				structure: "the_bumblezone:gazebuzz_cluster"
+				type: "structure"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			icon: {
+				id: "the_bumblezone:honey_bucket"
+			}
+			id: "41D539DA3B3EC287"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F701442A2E78348"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+				{
+					id: "36AD8CC6B1E029B9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "2348A5DCE78BEC79"
+				structure: "the_bumblezone:goliath_honey_fountain"
+				type: "structure"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			icon: {
+				id: "minecraft:purpur_block"
+			}
+			id: "0584073A7383E0EA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5F867BA081A7A561"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+				{
+					id: "5A43AA1E681508BB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "7DFE038F4FA5CE28"
+				structure: "the_bumblezone:mite_fortress"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			icon: {
+				id: "minecraft:phantom_spawn_egg"
+			}
+			id: "4F144E5F70932C7D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7520C8219CFFC98B"
+					table_id: 6996929552069196378L
+					type: "random"
+				}
+				{
+					id: "3367DAA14E771DEF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "20FC23E6529D8CC6"
+				structure: "the_bumblezone:phantasm_aviary"
+				type: "structure"
+			}]
+			x: 8.0d
+			y: -4.0d
 		}
 	]
 }
