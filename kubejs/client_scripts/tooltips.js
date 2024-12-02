@@ -58,7 +58,7 @@ ItemEvents.modifyTooltips(allthemods => {
         Text.of('§bFound in Suspicious Soul Sand in Bastions')
     ])
     allthemods.add('allthemodium:unobtainium_upgrade_smithing_template',[
-        Text.of('§dDropped by the Trail Spawner in the Library of the Dungeon within The Other')
+        Text.of('§dDropped by the Trial Spawner in the Library of the Dungeon within The Other')
     ])
 
     //Forbidden Arcanus
