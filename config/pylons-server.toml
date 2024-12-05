@@ -1,0 +1,76 @@
+[general]
+	#Whether team support is enabled if a compatible mod (FTB Teams, Argonauts) is installed
+	teamSupportEnabled = true
+
+[expulsion_pylon]
+	#Which dimensions the Expulsion Pylon is allowed to operate in.
+	expulsionAllowedDimensions = ["minecraft:overworld", "allthemodium:the_beyond", "eternal_starlight:starlight"]
+	#The radius around the world spawn where the pylon is not allowed to operate.
+	#By default this uses the world spawn radius (/gamerule spawnRadius).
+	#This config will only take effect if it is larger than the world spawn radius.
+	# Default: 1
+	# Range: 1 ~ 512
+	expulsionWorldSpawnRadius = 1
+	#Whether the Expulsion Pylon can be destroyed with explosions.
+	expulsionPylonCanExplode = false
+	#Limit the max radius for expulsion pylons.
+	#Does not include center chunk, so a radius of 2 equals a 5x5 chunk diameter.
+	# Default: 2
+	# Range: 0 ~ 2
+	expulsionPylonMaxRadius = 2
+
+[infusion_pylon]
+	#The minimum effect duration (in seconds) that can be used for Potion Filters.
+	#This defaults to 60 seconds to prevent unintended interactions
+	#with other mods that add persistent potion effects at low durations.
+	# Default: 60
+	# Range: 1 ~ 3600
+	infusionMinimumDuration = 60
+	#The total duration (in seconds) required before a Potion Filter can be used.
+	#By default this is 3600 seconds/1 hour, which is equivalent to 7.5 vanilla extended potions.
+	# Default: 3600
+	# Range: 1 ~ 28800
+	infusionRequiredDuration = 3600
+	#The max duration of effects (in seconds) applied to the player.
+	#The duration is refreshed up to this amount every 60 ticks.
+	# Default: 20
+	# Range: 5 ~ 60
+	infusionAppliedDuration = 20
+	#Whether the Infusion Pylon chunkloads itself.
+	#This is limited to one pylon per player, while the player is online.
+	infusionChunkloads = true
+	#Effects that may be used in the Infusion Pylon.
+	#List may include either effect IDs (like `minecraft:strength`) or an entire namespace (like `minecraft`).
+	#If the list is empty, then all effects will be allowed except for those specifically denied.
+	infusionAllowedEffects = []
+	#Effects that may not be used in the Infusion Pylon.
+	#This list will override the allowed effect list.
+	infusionDeniedEffects = []
+	#The maximum potency that can be applied in the Infusion Pylon.
+	#This value is 0-indexed, so a Resistance V potion would be potency 4.
+	# Default: 3
+	# Range: 0 ~ 255
+	infusionMaximumPotency = 3
+
+[harvester_pylon]
+	#Delay between harvest attempts (in ticks).
+	# Default: 60
+	# Range: 10 ~ 120
+	harvesterWorkDelay = 60
+	#Whether the harvester requires a hoe to work.
+	#If enabled, it will use 1 durability per harvest action
+	harvesterRequiresTool = true
+	#Whether the harvester can have tools piped in to automate it.
+	#By default, unbreakable tools are required for full automation.
+	harvesterCanBeAutomated = false
+	#Whether the harvester requires power to work.
+	#If enabled, it will disable the tool requirement and instead have an RF cost per block.
+	harvesterRequiresPower = false
+	#The RF cost per block harvested, if power usage is enabled.
+	# Default: 5
+	# Range: 1 ~ 10000
+	harvesterPowerCost = 5
+	#Buffer size should be greater than power cost per block * 80.
+	# Default: 1000
+	# Range: 100 ~ 1000000
+	harvesterPowerBuffer = 1000
