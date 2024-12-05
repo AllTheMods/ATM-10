@@ -48,7 +48,7 @@ ServerEvents.tags('entity_type', allthemods => {
   allthemods.add('justdirethings:paradox_deny', 'allthemodium:piglich');
   allthemods.add('industrialforegoing:mob_duplicator_blacklist', 'allthemodium:piglich')
 
-  //Occulstism
+  // Occultism
   allthemods.add('justdirethings:paradox_deny', /occultism:/);
   allthemods.add('industrialforegoing:mob_duplicator_blacklist', /occultism:/)
 });
