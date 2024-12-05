@@ -745,7 +745,7 @@
 				item: { count: 1, id: "productivelib:upgrade_base" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.5d
 			y: 6.5d
 		}
 		{
@@ -772,7 +772,7 @@
 				item: { count: 1, id: "productivelib:upgrade_productivity" }
 				type: "item"
 			}]
-			x: -6.5d
+			x: -6.0d
 			y: 6.5d
 		}
 		{
@@ -798,8 +798,8 @@
 				item: { count: 1, id: "productivelib:upgrade_time" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 5.5d
+			x: -4.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["66324D7D0C51AEAC"]
@@ -825,8 +825,8 @@
 				item: { count: 1, id: "productivelib:upgrade_child" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 8.0d
+			x: -3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["66324D7D0C51AEAC"]
@@ -852,7 +852,7 @@
 				item: { count: 1, id: "productivelib:upgrade_block" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: 5.5d
 		}
 		{
@@ -879,7 +879,7 @@
 				item: { count: 1, id: "productivelib:upgrade_anti_teleport" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.5d
 			y: 5.0d
 		}
 		{
@@ -906,7 +906,7 @@
 				item: { count: 1, id: "productivelib:upgrade_range" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.5d
 			y: 7.5d
 		}
 		{
@@ -933,7 +933,7 @@
 				item: { count: 1, id: "productivelib:upgrade_entity_filter" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: 7.5d
 		}
 		{
@@ -959,7 +959,7 @@
 				item: { count: 1, id: "productivelib:upgrade_gene_sampler" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -3.0d
 			y: 6.5d
 		}
 		{
@@ -3068,7 +3068,7 @@
 				item: { count: 1, id: "productivelib:upgrade_productivity_2" }
 				type: "item"
 			}]
-			x: -7.5d
+			x: -7.0d
 			y: 6.5d
 		}
 		{
@@ -3092,7 +3092,7 @@
 				item: { count: 1, id: "productivelib:upgrade_productivity_3" }
 				type: "item"
 			}]
-			x: -8.5d
+			x: -8.0d
 			y: 6.5d
 		}
 		{
@@ -3116,7 +3116,7 @@
 				item: { count: 1, id: "productivelib:upgrade_productivity_4" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -9.0d
 			y: 6.5d
 		}
 		{
@@ -3145,8 +3145,35 @@
 				item: { count: 1, id: "productivelib:upgrade_simulator" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.5d
 			y: 4.0d
+		}
+		{
+			dependencies: ["500BEAD94C97DF96"]
+			id: "532F3E6868A29037"
+			rewards: [
+				{
+					count: 2
+					id: "2A844D70AB59AF42"
+					item: {
+						count: 1
+						id: "productivelib:upgrade_time"
+					}
+					type: "item"
+				}
+				{
+					id: "2CEECD5183B2477C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0317862838157CF6"
+				item: { count: 1, id: "productivelib:upgrade_time_2" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
 		}
 	]
 }

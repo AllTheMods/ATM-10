@@ -41,8 +41,8 @@
 				item: { count: 1, id: "cookingforblockheads:sink" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 4.0d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			id: "7EC8814940C4C3D7"
@@ -65,7 +65,7 @@
 				item: { count: 1, id: "shrink:shrinking_device" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: -1.0d
 			y: 2.5d
 		}
 		{
@@ -91,14 +91,21 @@
 				item: { count: 1, id: "toolbelt:belt" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.0d
+			x: -1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: [
 				"722978AC0C1B2649"
 				"7EC8814940C4C3D7"
 				"378C95C18798D413"
+				"3B4BF42C55C8BBBF"
+				"637981B64BBE0D92"
+				"0E9CE6241CDBC420"
+				"32ECD93A8F2FAB8F"
+				"47043AF7D1FABC43"
+				"51538F4DCE24E3E7"
+				"6E17595887A051C2"
 			]
 			hide_dependency_lines: true
 			id: "0F8F37D7E12078F5"
@@ -114,7 +121,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: 6.0d
+			y: 5.0d
 		}
 		{
 			id: "0C856BBB1679A7DD"
@@ -152,8 +159,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(naturescompass:naturescompass)item(explorerscompass:explorerscompass))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 4.0d
+			x: -1.5d
+			y: 3.0d
 		}
 		{
 			id: "0790D3BB481162A6"
@@ -175,8 +182,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(mod(crafting_on_a_stick))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 3.0d
+			x: -1.5d
+			y: 2.0d
 		}
 		{
 			id: "28E60192912BEBAD"
@@ -199,8 +206,8 @@
 				item: { components: { "easy_villagers:villager": { } }, count: 1, id: "easy_villagers:villager" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 3.5d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
 			id: "7A514E27E1A7FE32"
@@ -223,8 +230,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(buildinggadgets2:gadget_exchanging)item(buildinggadgets2:gadget_copy_paste)item(buildinggadgets2:gadget_cut_paste)item(buildinggadgets2:gadget_destruction))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.5d
+			x: -2.0d
+			y: 2.5d
 		}
 		{
 			id: "5EE945A1185E8336"
@@ -247,8 +254,8 @@
 				item: { components: { "ftbfiltersystem:filter": "item_tag(functionalstorage:drawer)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 3.5d
+			x: 2.0d
+			y: 2.5d
 		}
 		{
 			id: "0152938EE5651409"
@@ -291,8 +298,206 @@
 				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(the_bumblezone:bee_queen/dedicated_trade_tags/modded/utilitarian_trapped_soliciting_carpets)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			id: "3B4BF42C55C8BBBF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "50ADC1136A3A00BD"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "1E63E6B512FFCFD2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "091A3EB6AB0FF2D5"
+				item: { count: 1, id: "simplemagnets:basicmagnet" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			id: "32ECD93A8F2FAB8F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5E4447BBFFFE970F"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "12BED4D8DA2BCE0A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "2EA9242315E51EDA"
+				item: { components: { "ironjetpacks:jetpack_id": "ironjetpacks:wood" }, count: 1, id: "ironjetpacks:jetpack" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			id: "51538F4DCE24E3E7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5A5A4DD01955CC6D"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "608E5E2EB389DDA0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "6A1E21A5F5AE29A8"
+				item: { count: 1, id: "multipiston:multipistonblock" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "0E9CE6241CDBC420"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6CDEC4584B2F8285"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "51AF28BA3AAE9725"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "29447742E3F8B090"
+				item: { count: 1, id: "rangedpumps:pump" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "47043AF7D1FABC43"
+			rewards: [
+				{
+					count: 3
+					id: "680C6093F4B4E150"
+					item: {
+						count: 1
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D6D1881953027DC"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "5BA3AF7836CA9E14"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "279AB1DAAFD60C52"
+				item: { count: 1, id: "disenchanting_table:disenchanting_table" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "637981B64BBE0D92"
+			rewards: [
+				{
+					id: "346B64D599131B3F"
+					item: {
+						components: {
+							"mekanism:energy": {
+								energy_containers: [L;4000000L]
+							}
+						}
+						count: 1
+						id: "mekanism:basic_energy_cube"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30658ECCE91B8F84"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "68E88ABAFD1D5807"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "1DFE7CC129B8B13A"
+				item: { count: 1, id: "charginggadgets:charging_station" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["28E60192912BEBAD"]
+			hide_until_deps_complete: true
+			id: "6E17595887A051C2"
+			min_width: 300
+			rewards: [
+				{
+					count: 2
+					id: "41BC2E08BA4E2BC7"
+					item: {
+						components: {
+							"easy_villagers:villager": { }
+						}
+						count: 1
+						id: "easy_villagers:villager"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D882840678CDAD4"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "54539646780D2270"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "6E44925E265DC7E2"
+				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:forge_hammer)item(ae2:charger)item(actuallyadditions:coffee_machine)item(ars_nouveau:arcane_core)item(biomeswevegone:foragers_table)item(railcraft:manual_rolling_machine)item(railcraft:powered_rolling_machine)item(immersiveengineering:craftingtable)item(immersiveengineering:workbench)item(immersiveengineering:circuit_table)item(immersiveengineering:turntable)item(minecraft:white_banner)item(pneumaticcraft:charging_station)item(sawmill:sawmill)item_tag(productivebees:advanced_beehives))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
 			x: 0.0d
-			y: 4.5d
+			y: 3.5d
 		}
 	]
 }

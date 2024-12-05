@@ -766,18 +766,11 @@
 				}
 			]
 			shape: "square"
-			tasks: [
-				{
-					id: "0616C11FDABF6593"
-					item: { count: 1, id: "eternal_starlight:cryobyssal_magma_block" }
-					type: "item"
-				}
-				{
-					id: "1D7919C0C7EC811A"
-					item: { count: 1, id: "eternal_starlight:cryobyssal_geyser" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "0616C11FDABF6593"
+				item: { count: 1, id: "eternal_starlight:cryobyssal_magma_block" }
+				type: "item"
+			}]
 			x: 1.5d
 			y: 9.0d
 		}
@@ -1172,8 +1165,8 @@
 			shape: "circle"
 			size: 1.2d
 			tasks: [{
-				entity: "eternal_starlight:tangled_hatred_part"
-				id: "37F49E662800842C"
+				entity: "eternal_starlight:tangled_hatred"
+				id: "248965307983FAA5"
 				type: "kill"
 				value: 1L
 			}]
@@ -1586,8 +1579,8 @@
 			]
 			shape: "square"
 			tasks: [{
-				id: "55B7824D263D89A4"
-				item: { count: 1, id: "eternal_starlight:molten_stellagmite" }
+				id: "05323161FDCE8A67"
+				item: { count: 1, id: "eternal_starlight:stellagmite" }
 				type: "item"
 			}]
 			x: -2.0d

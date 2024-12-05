@@ -311,6 +311,9 @@
 		}
 		{
 			dependencies: ["6A35508BE24A7E2E"]
+			icon: {
+				id: "modern_industrialization:coke_oven"
+			}
 			id: "079383355D14FBC9"
 			optional: true
 			rewards: [
@@ -327,12 +330,6 @@
 				}
 			]
 			tasks: [
-				{
-					count: 21L
-					id: "7F6939850EB3B32C"
-					item: { count: 21, id: "modern_industrialization:fire_clay_bricks" }
-					type: "item"
-				}
 				{
 					id: "4EACD8E186851E6B"
 					item: { count: 1, id: "modern_industrialization:bronze_item_input_hatch" }
@@ -351,6 +348,17 @@
 				{
 					id: "733BA217892C0901"
 					item: { count: 1, id: "modern_industrialization:bronze_fluid_output_hatch" }
+					type: "item"
+				}
+				{
+					count: 21L
+					id: "65CD2EC315A957E1"
+					item: { count: 21, id: "minecraft:bricks" }
+					type: "item"
+				}
+				{
+					id: "31D63E75FADDFB85"
+					item: { count: 1, id: "modern_industrialization:coke_oven" }
 					type: "item"
 				}
 			]
