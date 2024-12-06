@@ -31,6 +31,18 @@ ServerEvents.recipes(allthemods => {
         }
     ).id('allthemods:mysticaladditions/withering_soul')
 
+    allthemods.shaped('enderio:enderman_head',
+        [
+            'eee',
+            'ebe',
+            'eee'
+        ],
+        {
+            b: 'mysticalagriculture:blank_skull',
+            e: 'mysticalagriculture:enderman_essence'
+        }
+    )
+
     // Warped Wart Blocks
     allthemods.shaped('8x minecraft:warped_wart_block', [' A ', 'A  ', 'AAA'], {
         A: 'mysticalagriculture:nether_essence'
