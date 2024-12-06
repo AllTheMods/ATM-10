@@ -2,27 +2,6 @@
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
 ServerEvents.recipes(allthemods => {
-  //ATM Star
-      allthemods.recipes.modular_machinery_reborn.machine_recipe('atm:runic_star_altar', 200)
-          .requireEnergy(425984, 8, 9)
-          .requireItem('allthetweaks:oblivion_shard', 31, 8)
-          .requireItem('allthetweaks:dragon_soul', 31, 27)
-          .requireItem('allthetweaks:withers_compass', 31, 46)
-          .requireItem('allthetweaks:pulsating_black_hole', 50, 8)
-          .requireItem('allthetweaks:nexium_emitter', 50, 27)
-          .requireItem('allthetweaks:dimensional_seed', 50, 46)
-          .requireItem('allthetweaks:philosophers_fuel', 69, 8)
-          .requireItem('allthetweaks:improbable_probability_device', 69, 27)
-          .requireItem('mysticalagradditions:creative_essence', 69, 46)
-          .requireItem('28x allthemodium:unobtainium_allthemodium_alloy_block', 88, 8)
-          .requireItem(`2x allthemodium:unobtainium_vibranium_alloy_block[enchantments={levels:{"minecraft:unbreaking":1}},custom_name='{"extra":[{"italic":false,"text":"Awakened Unobtainium-Vibranium Alloy Block"}],"text":""}']`, 88, 27)
-          .requireItem('15x allthecompressed:nether_star_block_3x', 88, 46)
-          .requireItem('allthetweaks:patrick_star', 107, 27)
-          .progressX(143)
-          .progressY(27)
-          .produceItem('allthetweaks:atm_star', 183, 27)
-          .width(209)
-          .height(90)
 
   //Awakened Alloy Block
       allthemods.recipes.modular_machinery_reborn.machine_recipe('atm:runic_star_altar', 200)
