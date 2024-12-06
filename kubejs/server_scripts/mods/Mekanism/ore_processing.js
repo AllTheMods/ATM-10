@@ -14,9 +14,9 @@ ServerEvents.recipes(allthemods => {
 
     alltheores.forEach(material => {
         chemicalWasher(`alltheores:dirty_${material}`, `alltheores:clean_${material}`)
-        chemicalInjectionChamber(`mekanism:crystals/${material}`, `alltheores:${material}_shard`)
-        Crusher(`mekanism:clumps/${material}`, `alltheores:dirty_${material}_dust`)
-        enrichmentChamber(`mekanism:dirty_dusts/${material}`, `alltheores:${material}_dust`)
+        chemicalInjectionChamber(`#c:crystals/${material}`, `alltheores:${material}_shard`)
+        Crusher(`#c:clumps/${material}`, `alltheores:dirty_${material}_dust`)
+        enrichmentChamber(`#mekanism:dirty_dusts/${material}`, `alltheores:${material}_dust`)
     })
 
     const allthemodium = [
@@ -27,9 +27,9 @@ ServerEvents.recipes(allthemods => {
 
     allthemodium.forEach(material => {
         chemicalWasher(`allthemodium:dirty_${material}`, `allthemodium:clean_${material}`)
-        chemicalInjectionChamber(`mekanism:crystals/${material}`, `allthemodium:${material}_shard`)
-        Crusher(`mekanism:clumps/${material}`, `allthemodium:dirty_${material}_dust`)
-        enrichmentChamber(`mekanism:dirty_dusts/${material}`, `allthemodium:${material}_dust`)
+        chemicalInjectionChamber(`#c:crystals/${material}`, `allthemodium:${material}_shard`)
+        Crusher(`#c:clumps/${material}`, `allthemodium:dirty_${material}_dust`)
+        enrichmentChamber(`#mekanism:dirty_dusts/${material}`, `allthemodium:${material}_dust`)
     })
 
     const kubejs = [
@@ -38,10 +38,10 @@ ServerEvents.recipes(allthemods => {
     ]
 
     kubejs.forEach(material => {
-        chemicalWasher(`c:dirty_${material}`, `kubejs:clean_${material}`)
-        chemicalInjectionChamber(`c:crystals/${material}`, `kubejs:${material}_shard`)
-        Crusher(`c:clumps/${material}`, `kubejs:dirty_${material}_dust`)
-        enrichmentChamber(`c:dirty_dusts/${material}`, `kubejs:${material}_dust`)
+        chemicalWasher(`#c:dirty_${material}`, `kubejs:clean_${material}`)
+        chemicalInjectionChamber(`#c:crystals/${material}`, `kubejs:${material}_shard`)
+        Crusher(`#c:clumps/${material}`, `kubejs:dirty_${material}_dust`)
+        enrichmentChamber(`#c:dirty_dusts/${material}`, `kubejs:${material}_dust`)
     })
 
     const mekanism = [
