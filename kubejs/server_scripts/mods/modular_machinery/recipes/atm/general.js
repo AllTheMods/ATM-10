@@ -34,6 +34,45 @@ ServerEvents.recipes(allthemods => {
             }
         )
 
+        allthemods.custom(
+            {
+                type: 'industrialforegoing:fluid_extractor',
+                breakChance: 0.05,
+                defaultRecipe: false,
+                input: {
+                  item: 'productivetrees:soul_tree_log'
+                },
+                output: {
+                  amount: 2,
+                  id: 'kubejs:unrefined_liquid_souls'
+                },
+                result: {
+                  Name: 'productivetrees:soul_tree_stripped_log',
+                  Properties: {
+                    axis: 'y'
+                  }
+                }
+            }
+        )
+    
+        allthemods.custom(
+            {
+                type: 'industrialforegoing:fluid_extractor',
+                breakChance: 0.1,
+                defaultRecipe: false,
+                input: {
+                  item: 'productivetrees:soul_tree_stripped_log',
+                },
+                output: {
+                  amount: 1,
+                  id: 'kubejs:unrefined_liquid_souls'
+                },
+                result: {
+                  Name: 'minecraft:air'
+                }
+            }
+        )
+
     //Removal
         allthemods.remove({id: /modular_machinery_reborn:.*input.*/})
         allthemods.remove({id: /modular_machinery_reborn:.*output.*/})
