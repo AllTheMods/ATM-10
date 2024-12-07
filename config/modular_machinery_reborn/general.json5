@@ -1,0 +1,41 @@
+{
+	/* Configure what logs will be printed in the custommachinery.log file.
+	   Only logs with level higher or equal than selected will be printed.
+	   FATAL > ERROR > WARN > INFO > DEBUG > ALL
+	*/
+	"debugLevel": "INFO",
+	/* If true, all missing optional properties
+	   and their default values will be logged
+	   when parsing custom machines jsons.
+	*/
+	"logMissingOptional": false,
+	/* When parsing custom machines json files,
+	   some properties can be read with 2 serializers.
+	   Set this to true to log when the first serializer throw an error,
+	   even if the second succeed.
+	*/
+	"logFirstEitherError": false,
+	// Defines the _default_ color for machine casings as items or blocks. (Hex color with alpha at start) Has to be defined both server and clientside!
+	"general_casing_color": -46848,
+	/* Defines the time in ticks that the machine should check for a structure update.
+	   20 ticks = 1 second. Default: 5
+	*/
+	"checkStructureTicks": 20,
+	/* Defines the time in ticks that the machine should check for a recipe update.
+	   20 ticks = 1 second. Default: 80
+	*/
+	"checkRecipeTicks": 20,
+	/* The time in milliseconds the structure requirement
+	   structure will render in world when clicking
+	   on the icon in the jei recipe.
+	*/
+	"structureRenderTime": 10000,
+	/* The time in milliseconds each blocks will be shown
+	   when using a block tag in a structure.
+	*/
+	"blockTagCycleTime": 1000,
+	/* A folder name where MMR will load machine structure json.
+	   These folder must be under the "data/<namespace>" folder.
+	*/
+	"machineDirectory": "machines"
+}
