@@ -15,7 +15,7 @@ When reporting an issue put the version number before the issue title! Such as [
 <br>
 
 #### Modpacks:
-+ [![All the Mods 0](http://cf.way2muchnoise.eu/372309.svg "ATM9") All The Mods 0 - ATM0](https://www.curseforge.com/minecraft/modpacks/all-the-mods-0)
++ [![All the Mods 0](http://cf.way2muchnoise.eu/372309.svg "ATM0") All The Mods 0 - ATM0](https://www.curseforge.com/minecraft/modpacks/all-the-mods-0)
 + [![All the Mods 1](http://cf.way2muchnoise.eu/242462.svg "ATM1") All The Mods 1 - ATM1](https://www.curseforge.com/minecraft/modpacks/all-the-mods)
 + [![All the Mods 2](http://cf.way2muchnoise.eu/253707.svg "ATM2") All The Mods 2 - ATM2](https://www.curseforge.com/minecraft/modpacks/all-the-mods-2)
 + [![All the Mods 3](http://cf.way2muchnoise.eu/269708.svg "ATM3") All The Mods 3 - ATM3](https://www.curseforge.com/minecraft/modpacks/all-the-mods-3)
