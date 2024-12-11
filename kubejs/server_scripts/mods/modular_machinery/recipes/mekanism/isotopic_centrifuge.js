@@ -3,7 +3,7 @@
 
 ServerEvents.recipes(allthemods => {
 
-    let multiplier = 512
+    let multiplier = 2048
     let energy = 256
 
     const recipes = {
@@ -12,7 +12,7 @@ ServerEvents.recipes(allthemods => {
     }
 
     for (const [input, [inamount, [output, outamount]]] of Object.entries(recipes)) {
-        allthemods.recipes.modular_machinery_reborn.machine_recipe('atm:isotopic_centrifuge', 10)
+        allthemods.recipes.modular_machinery_reborn.machine_recipe('atm:isotopic_centrifuge', 5)
             .requireEnergy(multiplier * energy, 8, 8)
             .requireChemical(`${inamount * multiplier}x ${input}`, 31, 26)
             .progressX(64)
