@@ -235,15 +235,15 @@ ServerEvents.recipes(allthemods => {
     allthemods.custom({
       type: 'mekanism:washing',
       chemical_input: {
-        amount: 1,
+        amount: 5,
         chemical: `kubejs:dirty_${material}`
       },
       fluid_input: {
-        amount: 5,
+        amount: 25,
         tag: 'minecraft:water'
       },
       output: {
-        amount: 1,
+        amount: 3,
         id: `kubejs:clean_${material}`        
       }
     }).id(`allthemods:processing/${material}/slurry/clean`)
@@ -265,11 +265,11 @@ ServerEvents.recipes(allthemods => {
     allthemods.custom({
       type: 'mekanism:injecting',
       chemical_input: {
-        amount: 1,
+        amount: 2,
         chemical: 'mekanism:hydrogen_chloride'
       },      
       item_input: {
-        count: 1,  
+        count: 2,
         tag: `c:crystals/${material}`
       },
       output: {
@@ -303,7 +303,7 @@ ServerEvents.recipes(allthemods => {
         tag: `c:clumps/${material}`
       },
       output: {
-        count: 1,
+        count: 2,
         id: `kubejs:${material}_dirty_dust`
       }
     }).id(`allthemods:processing/${material}/dirty_dust/from_clump`)
@@ -313,11 +313,11 @@ ServerEvents.recipes(allthemods => {
       allthemods.custom({
         type: 'mekanism:enriching',
         input: {
-          count: 1,
+          count: 4,
           tag: `c:dirty_dusts/${material}`
         },
         output: {
-          count: 1,
+          count: 3,
           id: dust.id
         }
       }).id(`allthemods:processing/${material}/dust/from_dirty_dust`)
