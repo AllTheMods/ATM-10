@@ -3,7 +3,7 @@
 
 ServerEvents.recipes(allthemods => {
 
-    let multiplier = 1024
+    let multiplier = 4096
 
     const recipes = {
         'mekanism:nuclear_waste': [5, ['mekanism:polonium', 1]],
@@ -11,7 +11,7 @@ ServerEvents.recipes(allthemods => {
     }
 
     for (const [input, [inamount, [output, outamount]]] of Object.entries(recipes)) {
-        allthemods.recipes.modular_machinery_reborn.machine_recipe('atm:solar_neutron_activator', 10)
+        allthemods.recipes.modular_machinery_reborn.machine_recipe('atm:solar_neutron_activator', 5)
             .time('[0,12000]', 8, 8)
             .requireChemical(`${inamount * multiplier}x ${input}`, 31, 8)
             .progressX(64)
