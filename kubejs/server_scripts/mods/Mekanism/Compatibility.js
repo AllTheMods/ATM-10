@@ -265,7 +265,7 @@ ServerEvents.recipes(allthemods => {
     allthemods.custom({
       type: 'mekanism:injecting',
       chemical_input: {
-        amount: 2,
+        amount: 1,
         chemical: 'mekanism:hydrogen_chloride'
       },      
       item_input: {
