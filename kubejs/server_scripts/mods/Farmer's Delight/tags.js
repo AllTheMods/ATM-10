@@ -3,5 +3,5 @@
 ServerEvents.tags('item', allthemods => {
   //Dough
   allthemods.add('c:dough', 'farmersdelight:wheat_dough')
-  allthemods.add('cdough/dough', 'farmersdelight:wheat_dough')
+  allthemods.add('c:dough/dough', 'farmersdelight:wheat_dough')
 })
