@@ -25,7 +25,8 @@ MMREvents.machines(allthemods => {
                             '#modular_machinery_reborn:fluidhatch',
                             '#modular_machinery_reborn_ars:sourcehatch',
                             '#modular_machinery_reborn_mekanism:chemicalhatch',
-                            'modular_machinery_reborn:time_counter'
+                            'modular_machinery_reborn:time_counter',
+                            'forbidden_arcanus:polished_darkstone'
                         ],
                         "c": 'forbidden_arcanus:gilded_chiseled_polished_darkstone',
                         "d": 'modular_machinery_reborn:casing_reinforced',
