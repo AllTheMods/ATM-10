@@ -50,7 +50,7 @@ ServerEvents.recipes(allthemods => {
     //Chainmail Boots
     allthemods.custom(
 	    { "type": "silentgear:salvaging",
-		    "ingredient": {"item":"minecraft:chainmail_helmet" },
+		    "ingredient": {"item":"minecraft:chainmail_boots" },
 		    "results": [{"count": 2, "id": "minecraft:iron_nugget" }, {"count":2,"id":"minecraft:iron_ingot"}]
 	    }
     )
