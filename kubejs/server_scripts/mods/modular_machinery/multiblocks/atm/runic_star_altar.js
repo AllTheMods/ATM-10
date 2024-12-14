@@ -17,7 +17,7 @@ MMREvents.machines(allthemods => {
                         [ '               ', '               ', '               ', '     p   p     ', '               ', '   p       p   ', '               ', '       q       ', '               ', '   p       p   ', '               ', '     p   p     ', '               ', '               ', '               '],
                         [ '               ', '               ', '               ', '     p   p     ', '               ', '   p       p   ', '               ', '               ', '               ', '   p       p   ', '               ', '     p   p     ', '               ', '               ', '               '],
                         [ '               ', '               ', '               ', '     p   p     ', '               ', '   p       p   ', '               ', '               ', '               ', '   p       p   ', '               ', '     p   p     ', '               ', '               ', '               '],
-                        [ '               ', '               ', '               ', '     rpcpr     ', '               ', '   r       r   ', '   p       p   ', '       c       ', '   p       p   ', '   r       r   ', '       c       ', '     rpcpr     ', '               ', '               ', '               '],
+                        [ '               ', '               ', '               ', '     rpcpr     ', '               ', '   r       r   ', '   p       p   ', '   c       c   ', '   p       p   ', '   r       r   ', '               ', '     rpcpr     ', '               ', '               ', '               '],
                     ]
                 )
                 .keys(
@@ -38,7 +38,6 @@ MMREvents.machines(allthemods => {
                         'o': 'forbidden_arcanus:arcane_crystal_obelisk',
                         'z': [
                                 'forbidden_arcanus:polished_darkstone',
-                                '#modular_machinery_reborn_ars:sourceinputhatch',
                                 '#modular_machinery_reborn:inputbus',
                                 '#modular_machinery_reborn:outputbus',
                                 '#modular_machinery_reborn:energyinputhatch'
