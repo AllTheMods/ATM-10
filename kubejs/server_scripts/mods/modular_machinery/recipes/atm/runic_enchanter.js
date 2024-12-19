@@ -2,200 +2,981 @@
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
 ServerEvents.recipes(allthemods => {
-    function addBook (input, output, lapis, lvl) {
+    
+    let enchantingBase = [
+        {
+            input: 'minecraft:writable_book',
+            output: 'kubejs:inferium_enchanting_base',
+            catalyst: '16x mysticalagriculture:prosperity_shard',
+            essence: '16x mysticalagriculture:inferium_essence',
+            level: 4
+        },
+        {
+            input: 'kubejs:inferium_enchanting_base',
+            output: 'kubejs:prudentium_enchanting_base',
+            catalyst: '64x mysticalagriculture:experience_essence',
+            essence: '16x mysticalagriculture:prudentium_essence',
+            level: 8
+        },
+        {
+            input: 'kubejs:prudentium_enchanting_base',
+            output: 'kubejs:tertium_enchanting_base',
+            catalyst: '64x mysticalagriculture:experience_essence',
+            essence: '16x mysticalagriculture:tertium_essence',
+            level: 12
+        },
+        {
+            input: 'kubejs:tertium_enchanting_base',
+            output: 'kubejs:imperium_enchanting_base',
+            catalyst: '64x mysticalagriculture:experience_essence',
+            essence: '16x mysticalagriculture:imperium_essence',
+            level: 16
+        },
+        {
+            input: 'kubejs:imperium_enchanting_base',
+            output: 'kubejs:supremium_enchanting_base',
+            catalyst: '64x mysticalagriculture:experience_essence',
+            essence: '16x mysticalagriculture:supremium_essence',
+            level: 20
+        }
+    ]
+
+    for (let base of enchantingBase) {
         allthemods.recipes.modular_machinery_reborn.machine_recipe('atm:runic_enchanter', 100)
-            .requireSource(500 * lvl, 8, 17)
-            .requireFluid(Fluid.of('justdirethings:xp_fluid_source', 140 * lvl), 8, 37)
+            .requireSource(500 * base.level, 8, 17)
+            .requireFluid(Fluid.of('justdirethings:xp_fluid_source', 140 * base.level), 8, 37)
             .progressX(67)
             .progressY(28)
             .height(87)
             .width(133)
-            .requireItem(Item.of(input), 31, 8)
-            .requireItem('1x minecraft:writable_book', 31, 27)
-            .requireItem(Item.of('minecraft:lapis_lazuli', lapis), 31, 46)
-            .produceItem(Item.of(output), 107, 27)
-            
+            .requireItem(base.catalyst, 31, 8)
+            .requireItem(base.input, 31, 27)
+            .requireItem(base.essence, 31, 46)
+            .produceItem(base.output, 107, 27)
     }
 
-    //Impaling
-        addBook('8x minecraft:iron_ingot', '1x minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:impaling":1}}]', 3, 4)
-        addBook('16x minecraft:iron_ingot', '1x minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:impaling":2}}]', 6, 9)
-        addBook('24x minecraft:iron_ingot', '1x minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:impaling":3}}]', 9, 15)
-        addBook('32x minecraft:iron_ingot', '1x minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:impaling":4}}]', 12, 21)
-        addBook('40x minecraft:iron_ingot', '1x minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:impaling":5}}]', 15, 27)
-    
-    //Protection
-        addBook('16x enderio:dark_steel_ingot', '1x minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:protection":1}}]', 3, 5)
-        addBook('32x enderio:dark_steel_ingot', '1x minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:protection":2}}]', 6, 11)
-        addBook('48x enderio:dark_steel_ingot', '1x minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:protection":3}}]', 9, 19)
-        addBook('64x enderio:dark_steel_ingot', '1x minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:protection":4}}]', 12, 28)
-    
-    //Projectile Protection
-        addBook('16x minecraft:leather', '1x minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:projectile_protection":1}}]', 3, 4)
-        addBook('32x minecraft:leather', '1x minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:projectile_protection":2}}]', 6, 9)
-        addBook('48x minecraft:leather', '1x minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:projectile_protection":3}}]', 9, 13)
-        addBook('64x minecraft:leather', '1x minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:projectile_protection":4}}]', 12, 18)
-    
-    //Quick Charge
-        addBook('16x minecraft:sugar', '1x minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:quick_charge":1}}]', 3, 13)
-        addBook('32x minecraft:sugar', '1x minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:quick_charge":2}}]', 6, 26)
-        addBook('48x minecraft:sugar', '1x minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:quick_charge":3}}]', 9, 41)
-    
-    //Bane of Arthropods
-        addBook('12x minecraft:spider_eye', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:bane_of_arthropods":1}}]', 3, 6)
-        addBook('24x minecraft:spider_eye', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:bane_of_arthropods":2}}]', 6, 12)
-        addBook('36x minecraft:spider_eye', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:bane_of_arthropods":3}}]', 9, 18)
-        addBook('48x minecraft:spider_eye', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:bane_of_arthropods":4}}]', 12, 24)
-        addBook('60x minecraft:spider_eye', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:bane_of_arthropods":5}}]', 15, 30)
+    let B1 = 'kubejs:inferium_enchanting_base'
+    let B2 = 'kubejs:prudentium_enchanting_base'
+    let B3 = 'kubejs:tertium_enchanting_base'
+    let B4 = 'kubejs:imperium_enchanting_base'
+    let B5 = 'kubejs:supremium_enchanting_base'
 
-    //Sweeping Edge
-        addBook('8x minecraft:iron_ingot', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:sweeping_edge":1}}]', 3, 6)
-        addBook('16x minecraft:iron_ingot', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:sweeping_edge":2}}]', 6, 13)
-        addBook('24x minecraft:iron_ingot', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:sweeping_edge":3}}]', 9, 19)
-    
-    //Respiration
-        addBook('1x minecraft:glass_bottle', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:respiration":1}}]', 3, 10)
-        addBook('2x minecraft:glass_bottle', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:respiration":2}}]', 6, 17)
-        addBook('3x minecraft:glass_bottle', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:respiration":3}}]', 9, 25)
+    let enchanting = [
+        //Impaling
+        {
+            base: B1,
+            input: '8x minecraft:iron_ingot',
+            enchant: 'impaling',
+            lvl: '1',
+            lapis: 3,
+            level: 4
+        },
+        {
+            base: B2,
+            input: '16x minecraft:iron_ingot',
+            enchant: 'impaling',
+            lvl: '2',
+            lapis: 6,
+            level: 9
+        },
+        {
+            base: B3,
+            input: '24x minecraft:iron_ingot',
+            enchant: 'impaling',
+            lvl: '3',
+            lapis: 9,
+            level: 15
+        },
+        {
+            base: B4,
+            input: '32x minecraft:iron_ingot',
+            enchant: 'impaling',
+            lvl: '4',
+            lapis: 12,
+            level: 21
+        },
+        {
+            base: B5,
+            input: '40x minecraft:iron_ingot',
+            enchant: 'impaling',
+            lvl: '5',
+            lapis: 15,
+            level: 27
+        },
+        //Protection
+        {
+            base: B1,
+            input: '16x enderio:dark_steel_ingot',
+            enchant: 'protection',
+            lvl: '1',
+            lapis: 3,
+            level: 5
+        },
+        {
+            base: B2,
+            input: '32x enderio:dark_steel_ingot',
+            enchant: 'protection',
+            lvl: '2',
+            lapis: 6,
+            level: 11
+        },
+        {
+            base: B3,
+            input: '48x enderio:dark_steel_ingot',
+            enchant: 'protection',
+            lvl: '3',
+            lapis: 9,
+            level: 19
+        },
+        {
+            base: B4,
+            input: '64x enderio:dark_steel_ingot',
+            enchant: 'protection',
+            lvl: '4',
+            lapis: 12,
+            level: 28
+        },
+        //Projectile Protection
+        {
+            base: B1,
+            input: '16x minecraft:leather',
+            enchant: 'projectile_protection',
+            lvl: '1',
+            lapis: 3,
+            level: 4
+        },
+        {
+            base: B2,
+            input: '32x minecraft:leather',
+            enchant: 'projectile_protection',
+            lvl: '2',
+            lapis: 6,
+            level: 9
+        },
+        {
+            base: B3,
+            input: '48x minecraft:leather',
+            enchant: 'projectile_protection',
+            lvl: '3',
+            lapis: 9,
+            level: 13
+        },
+        {
+            base: B4,
+            input: '64x minecraft:leather',
+            enchant: 'projectile_protection',
+            lvl: '4',
+            lapis: 12,
+            level: 18
+        },
+        //Quick Charge
+        {
+            base: B1,
+            input: '16x minecraft:sugar',
+            enchant: 'quick_charge',
+            lvl: '1',
+            lapis: 3,
+            level: 13
+        },
+        {
+            base: B2,
+            input: '32x minecraft:sugar',
+            enchant: 'quick_charge',
+            lvl: '2',
+            lapis: 6,
+            level: 26
+        },
+        {
+            base: B3,
+            input: '48x minecraft:sugar',
+            enchant: 'quick_charge',
+            lvl: '3',
+            lapis: 9,
+            level: 41
+        },
+        //Bane of Arthropods
+        {
+            base: B1,
+            input: '12x minecraft:spider_eye',
+            enchant: 'bane_of_arthropods',
+            lvl: '1',
+            lapis: 3,
+            level: 6
+        },
+        {
+            base: B2,
+            input: '24x minecraft:spider_eye',
+            enchant: 'bane_of_arthropods',
+            lvl: '2',
+            lapis: 6,
+            level: 12
+        },
+        {
+            base: B3,
+            input: '36x minecraft:spider_eye',
+            enchant: 'bane_of_arthropods',
+            lvl: '3',
+            lapis: 9,
+            level: 18
+        },
+        {
+            base: B4,
+            input: '48x minecraft:spider_eye',
+            enchant: 'bane_of_arthropods',
+            lvl: '4',
+            lapis: 12,
+            level: 24
+        },
+        {
+            base: B5,
+            input: '60x minecraft:spider_eye',
+            enchant: 'bane_of_arthropods',
+            lvl: '5',
+            lapis: 15,
+            level: 30
+        },
+        //Sweeping Edge
+        {
+            base: B1,
+            input: '8x minecraft:iron_sword',
+            enchant: 'sweeping_edge',
+            lvl: '1',
+            lapis: 3,
+            level: 6
+        },
+        {
+            base: B2,
+            input: '16x minecraft:iron_sword',
+            enchant: 'sweeping_edge',
+            lvl: '2',
+            lapis: 6,
+            level: 13
+        },
+        {
+            base: B2,
+            input: '24x minecraft:iron_sword',
+            enchant: 'sweeping_edge',
+            lvl: '3',
+            lapis: 9,
+            level: 19
+        },
+        //Respiration
+        {
+            base: B1,
+            input: '1x minecraft:glass_bottle',
+            enchant: 'respiration',
+            lvl: '1',
+            lapis: 3,
+            level: 10
+        },
+        {
+            base: B2,
+            input: '2x minecraft:glass_bottle',
+            enchant: 'respiration',
+            lvl: '2',
+            lapis: 6,
+            level: 17
+        },
+        {
+            base: B3,
+            input: '3x minecraft:glass_bottle',
+            enchant: 'respiration',
+            lvl: '3',
+            lapis: 9,
+            level: 25
+        },
+        //Punch
+        {
+            base: B1,
+            input: 'minecraft:string',
+            enchant: 'punch',
+            lvl: '1',
+            lapis: 3,
+            level: 13
+        },
+        {
+            base: B2,
+            input: '2x minecraft:string',
+            enchant: 'punch',
+            lvl: '2',
+            lapis: 6,
+            level: 26
+        },
+        //Unbreaking
+        {
+            base: B1,
+            input: '1x minecraft:obsidian',
+            enchant: 'unbreaking',
+            lvl: '1',
+            lapis: 3,
+            level: 6
+        },
+        {
+            base: B2,
+            input: '2x minecraft:obsidian',
+            enchant: 'unbreaking',
+            lvl: '2',
+            lapis: 6,
+            level: 12
+        },
+        {
+            base: B3,
+            input: '3x minecraft:obsidian',
+            enchant: 'unbreaking',
+            lvl: '3',
+            lapis: 9,
+            level: 18
+        },
+        //Piercing
+        {
+            base: B1,
+            input: '8x minecraft:prismarine_crystals',
+            enchant: 'piercing',
+            lvl: '1',
+            lapis: 3,
+            level: 5
+        },
+        {
+            base: B2,
+            input: '16x minecraft:prismarine_crystals',
+            enchant: 'piercing',
+            lvl: '2',
+            lapis: 6,
+            level: 10
+        },
+        {
+            base: B3,
+            input: '24x minecraft:prismarine_crystals',
+            enchant: 'piercing',
+            lvl: '3',
+            lapis: 9,
+            level: 18
+        },
+        {
+            base: B4,
+            input: '32x minecraft:prismarine_crystals',
+            enchant: 'piercing',
+            lvl: '4',
+            lapis: 12,
+            level: 25
+        },
+        //Efficiency
+        {
+            base: B1,
+            input: '12x minecraft:redstone',
+            enchant: 'efficiency',
+            lvl: '1',
+            lapis: 3,
+            level: 5
+        },
+        {
+            base: B2,
+            input: '24x minecraft:redstone',
+            enchant: 'efficiency',
+            lvl: '2',
+            lapis: 6,
+            level: 10
+        },
+        {
+            base: B3,
+            input: '36x minecraft:redstone',
+            enchant: 'efficiency',
+            lvl: '3',
+            lapis: 9,
+            level: 18
+        },
+        {
+            base: B4,
+            input: '48x minecraft:redstone',
+            enchant: 'efficiency',
+            lvl: '4',
+            lapis: 12,
+            level: 25
+        },
+        {
+            base: B5,
+            input: '60x minecraft:redstone',
+            enchant: 'efficiency',
+            lvl: '5',
+            lapis: 15,
+            level: 33
+        },
+        //Aqua Affinity
+        {
+            base: B1,
+            input: '1x minecraft:lily_pad',
+            enchant: 'aqua_affinity',
+            lvl: '1',
+            lapis: 15,
+            level: 3
+        },
+        //Depth Strider
+        {
+            base: B1,
+            input: '1x minecraft:prismarine_shard',
+            enchant: 'depth_strider',
+            lvl: '1',
+            lapis: 3,
+            level: 10
+        },
+        {
+            base: B2,
+            input: '2x minecraft:prismarine_shard',
+            enchant: 'depth_strider',
+            lvl: '2',
+            lapis: 6,
+            level: 17
+        },
+        {
+            base: B3,
+            input: '3x minecraft:prismarine_shard',
+            enchant: 'depth_strider',
+            lvl: '3',
+            lapis: 9,
+            level: 25
+        },
+        //Fortune
+        {
+            base: B1,
+            input: 'minecraft:emerald',
+            enchant: 'fortune',
+            lvl: '1',
+            lapis: 3,
+            level: 13
+        },
+        {
+            base: B2,
+            input: '2x minecraft:emerald',
+            enchant: 'fortune',
+            lvl: '2',
+            lapis: 6,
+            level: 20
+        },
+        {
+            base: B3,
+            input: '3x minecraft:emerald',
+            enchant: 'fortune',
+            lvl: '2',
+            lapis: 9,
+            level: 27
+        },
+        //Loyalty
+        {
+            base: B1,
+            input: 'minecraft:lead',
+            enchant: 'loyalty',
+            lvl: '1',
+            lapis: 3,
+            level: 11
+        },
+        {
+            base: B2,
+            input: '2x minecraft:lead',
+            enchant: 'loyalty',
+            lvl: '2',
+            lapis: 6,
+            level: 16
+        },
+        {
+            base: B3,
+            input: '3x minecraft:lead',
+            enchant: 'loyalty',
+            lvl: '3',
+            lapis: 9,
+            level: 22
+        },
+        //Fire Protection
+        {
+            base: B1,
+            input: '16x minecraft:magma_cream',
+            enchant: 'fire_protection',
+            lvl: '1',
+            lapis: 3,
+            level: 10
+        },
+        {
+            base: B2,
+            input: '32x minecraft:magma_cream',
+            enchant: 'fire_protection',
+            lvl: '2',
+            lapis: 6,
+            level: 16
+        },
+        {
+            base: B3,
+            input: '48x minecraft:magma_cream',
+            enchant: 'fire_protection',
+            lvl: '3',
+            lapis: 9,
+            level: 24
+        },
+        {
+            base: B4,
+            input: '64x minecraft:magma_cream',
+            enchant: 'fire_protection',
+            lvl: '4',
+            lapis: 12,
+            level: 28
+        },
+        //Power
+        {
+            base: B1,
+            input: '12x minecraft:flint',
+            enchant: 'power',
+            lvl: '1',
+            lapis: 3,
+            level: 5
+        },
+        {
+            base: B2,
+            input: '24x minecraft:flint',
+            enchant: 'power',
+            lvl: '2',
+            lapis: 6,
+            level: 10
+        },
+        {
+            base: B3,
+            input: '36x minecraft:flint',
+            enchant: 'power',
+            lvl: '3',
+            lapis: 9,
+            level: 18
+        },
+        {
+            base: B4,
+            input: '48x minecraft:flint',
+            enchant: 'power',
+            lvl: '4',
+            lapis: 12,
+            level: 25
+        },
+        {
+            base: B5,
+            input: '60x minecraft:flint',
+            enchant: 'power',
+            lvl: '5',
+            lapis: 15,
+            level: 33
+        },
+        //Riptide
+        {
+            base: B1,
+            input: '8x minecraft:firework_rocket',
+            enchant: 'riptide',
+            lvl: '1',
+            lapis: 3,
+            level: 15
+        },
+        {
+            base: B2,
+            input: '16x minecraft:firework_rocket',
+            enchant: 'riptide',
+            lvl: '2',
+            lapis: 6,
+            level: 20
+        },
+        {
+            base: B3,
+            input: '24x minecraft:firework_rocket',
+            enchant: 'riptide',
+            lvl: '3',
+            lapis: 9,
+            level: 25
+        },
+        //Mending
+        {
+            base: B5,
+            input: 'enderio:experience_rod',
+            enchant: 'mending',
+            lvl: '1',
+            lapis: 15,
+            level: 21
+        },
+        //Infinity
+        {
+            base: B5,
+            input: '8x enderio:grains_of_infinity',
+            enchant: 'infinity',
+            lvl: '1',
+            lapis: 15,
+            level: 17
+        },
+        //Lure
+        {
+            base: B1,
+            input: 'minecraft:cod',
+            enchant: 'lure',
+            lvl: '1',
+            lapis: 3,
+            level: 13
+        },
+        {
+            base: B2,
+            input: '2x minecraft:cod',
+            enchant: 'lure',
+            lvl: '2',
+            lapis: 6,
+            level: 20
+        },
+        {
+            base: B3,
+            input: '3x minecraft:cod',
+            enchant: 'lure',
+            lvl: '3',
+            lapis: 9,
+            level: 27
+        },
+        //Knockback
+        {
+            base: B1,
+            input: 'minecraft:piston',
+            enchant: 'knockback',
+            lvl: '1',
+            lapis: 3,
+            level: 10
+        },
+        {
+            base: B2,
+            input: '2x minecraft:piston',
+            enchant: 'knockback',
+            lvl: '2',
+            lapis: 6,
+            level: 21
+        },
+        //Multishot
+        {
+            base: B3,
+            input: '16x minecraft:arrow',
+            enchant: 'multishot',
+            lvl: '1',
+            lapis: 15,
+            level: 17
+        },
+        //Frost Walker
+        {
+            base: B1,
+            input: '16x minecraft:ice',
+            enchant: 'frost_walker',
+            lvl: '1',
+            lapis: 3,
+            level: 10
+        },
+        {
+            base: B2,
+            input: '32x minecraft:ice',
+            enchant: 'frost_walker',
+            lvl: '2',
+            lapis: 6,
+            level: 17
+        },
+        //Channeling
+        {
+            base: B2,
+            input: '11x minecraft:lightning_rod',
+            enchant: 'channeling',
+            lvl: '1',
+            lapis: 15,
+            level: 21
+        },
+        //Looting
+        {
+            base: B1,
+            input: 'minecraft:skeleton_skull',
+            enchant: 'looting',
+            lvl: '1',
+            lapis: 3,
+            level: 13
+        },
+        {
+            base: B2,
+            input: '2x minecraft:skeleton_skull',
+            enchant: 'looting',
+            lvl: '2',
+            lapis: 6,
+            level: 20
+        },
+        {
+            base: B3,
+            input: '3x minecraft:skeleton_skull',
+            enchant: 'looting',
+            lvl: '3',
+            lapis: 9,
+            level: 27
+        },
+        //Fire Aspect
+        {
+            base: B1,
+            input: '8x minecraft:blaze_rod',
+            enchant: 'fire_aspect',
+            lvl: '1',
+            lapis: 3,
+            level: 12
+        },
+        {
+            base: B2,
+            input: '16x minecraft:blaze_rod',
+            enchant: 'fire_aspect',
+            lvl: '2',
+            lapis: 6,
+            level: 24
+        },
+        //Blast Protection
+        {
+            base: B1,
+            input: '16x minecraft:gunpowder',
+            enchant: 'blast_protection',
+            lvl: '1',
+            lapis: 3,
+            level: 6
+        },
+        {
+            base: B2,
+            input: '32x minecraft:gunpowder',
+            enchant: 'blast_protection',
+            lvl: '2',
+            lapis: 6,
+            level: 12
+        },
+        {
+            base: B3,
+            input: '48x minecraft:gunpowder',
+            enchant: 'blast_protection',
+            lvl: '3',
+            lapis: 9,
+            level: 18
+        },
+        {
+            base: B4,
+            input: '64x minecraft:gunpowder',
+            enchant: 'blast_protection',
+            lvl: '4',
+            lapis: 12,
+            level: 24
+        },
+        //Flame
+        {
+            base: B2,
+            input: '24x minecraft:netherrack',
+            enchant: 'flame',
+            lvl: '1',
+            lapis: 15,
+            level: 17
+        },
+        //Luck of the Sea
+        {
+            base: B1,
+            input: 'minecraft:nautilus_shell',
+            enchant: 'luck_of_the_sea',
+            lvl: '1',
+            lapis: 3,
+            level: 13
+        },
+        {
+            base: B2,
+            input: '2x minecraft:nautilus_shell',
+            enchant: 'luck_of_the_sea',
+            lvl: '2',
+            lapis: 6,
+            level: 20
+        },
+        {
+            base: B3,
+            input: 'minecraft:nautilus_shell',
+            enchant: 'luck_of_the_sea',
+            lvl: '3',
+            lapis: 9,
+            level: 27
+        },
+        //Thorns
+        {
+            base: B1,
+            input: '4x minecraft:rose_bush',
+            enchant: 'thorns',
+            lvl: '1',
+            lapis: 3,
+            level: 12
+        },
+        {
+            base: B2,
+            input: '8x minecraft:rose_bush',
+            enchant: 'thorns',
+            lvl: '2',
+            lapis: 6,
+            level: 25
+        },
+        {
+            base: B3,
+            input: '12x minecraft:rose_bush',
+            enchant: 'thorns',
+            lvl: '3',
+            lapis: 9,
+            level: 40
+        },
+        //Sharpness
+        {
+            base: B1,
+            input: '12x minecraft:quartz',
+            enchant: 'sharpness',
+            lvl: '1',
+            lapis: 3,
+            level: 5
+        },
+        {
+            base: B2,
+            input: '24x minecraft:quartz',
+            enchant: 'sharpness',
+            lvl: '2',
+            lapis: 6,
+            level: 11
+        },
+        {
+            base: B3,
+            input: '36x minecraft:quartz',
+            enchant: 'sharpness',
+            lvl: '3',
+            lapis: 9,
+            level: 19
+        },
+        {
+            base: B4,
+            input: '48x minecraft:quartz',
+            enchant: 'sharpness',
+            lvl: '4',
+            lapis: 12,
+            level: 28
+        },
+        {
+            base: B5,
+            input: '60x minecraft:quartz',
+            enchant: 'sharpness',
+            lvl: '5',
+            lapis: 15,
+            level: 36
+        },
+        //Silk Touch
+        {
+            base: B4,
+            input: '16x minecraft:slime_ball',
+            enchant: 'silk_touch',
+            lvl: '1',
+            lapis: 15,
+            level: 13
+        },
+        //Soul Speed
+        {
+            base: B1,
+            input: '16x minecraft:soul_soil',
+            enchant: 'soul_speed',
+            lvl: '1',
+            lapis: 3,
+            level: 10
+        },
+        {
+            base: B2,
+            input: '32x minecraft:soul_soil',
+            enchant: 'soul_speed',
+            lvl: '2',
+            lapis: 6,
+            level: 17
+        },
+        {
+            base: B3,
+            input: '48x minecraft:soul_soil',
+            enchant: 'soul_speed',
+            lvl: '3',
+            lapis: 9,
+            level: 25
+        },
+        //Feather Falling
+        {
+            base: B1,
+            input: '16x minecraft:feather',
+            enchant: 'feather_falling',
+            lvl: '1',
+            lapis: 3,
+            level: 6
+        },
+        {
+            base: B2,
+            input: '32x minecraft:feather',
+            enchant: 'feather_falling',
+            lvl: '2',
+            lapis: 6,
+            level: 10
+        },
+        {
+            base: B3,
+            input: '48x minecraft:feather',
+            enchant: 'feather_falling',
+            lvl: '3',
+            lapis: 9,
+            level: 15
+        },
+        {
+            base: B4,
+            input: '64x minecraft:feather',
+            enchant: 'feather_falling',
+            lvl: '4',
+            lapis: 12,
+            level: 19
+        },
+        //Smite
+        {
+            base: B1,
+            input: '12x minecraft:rotten_flesh',
+            enchant: 'smite',
+            lvl: '1',
+            lapis: 3,
+            level: 6
+        },
+        {
+            base: B2,
+            input: '24x minecraft:rotten_flesh',
+            enchant: 'smite',
+            lvl: '2',
+            lapis: 6,
+            level: 12
+        },
+        {
+            base: B3,
+            input: '36x minecraft:rotten_flesh',
+            enchant: 'smite',
+            lvl: '3',
+            lapis: 9,
+            level: 18
+        },
+        {
+            base: B4,
+            input: '48x minecraft:rotten_flesh',
+            enchant: 'smite',
+            lvl: '4',
+            lapis: 12,
+            level: 24
+        },
+        {
+            base: B5,
+            input: '60x minecraft:rotten_flesh',
+            enchant: 'smite',
+            lvl: '5',
+            lapis: 15,
+            level: 30
+        }
+    ]
 
-    //Punch
-        addBook('1x minecraft:string', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:punch":1}}]', 3, 13)
-        addBook('2x minecraft:string', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:punch":2}}]', 6, 26)
-    
-    //Unbreaking
-        addBook('1x minecraft:obsidian', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:unbreaking":1}}]', 3, 6)
-        addBook('2x minecraft:obsidian', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:unbreaking":2}}]', 6, 12)
-        addBook('3x minecraft:obsidian', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:unbreaking":3}}]', 9, 18)
-
-    //Piercing
-        addBook('8x minecraft:prismarine_crystals', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:piercing":1}}]', 3, 5)
-        addBook('16x minecraft:prismarine_crystals', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:piercing":2}}]', 6, 10)
-        addBook('24x minecraft:prismarine_crystals', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:piercing":3}}]', 9, 18)
-        addBook('32x minecraft:prismarine_crystals', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:piercing":4}}]', 12, 25)
-
-    //Efficiency
-        addBook('12x minecraft:redstone', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:efficiency":1}}]', 3, 5)
-        addBook('24x minecraft:redstone', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:efficiency":2}}]', 6, 10)
-        addBook('36x minecraft:redstone', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:efficiency":3}}]', 9, 18)
-        addBook('48x minecraft:redstone', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:efficiency":4}}]', 12, 25)
-        addBook('60x minecraft:redstone', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:efficiency":5}}]', 15, 33)
-
-    //Aqua Affinity
-        addBook('1x minecraft:lily_pad', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:aqua_affinity":1}}]', 15, 3)
-
-    //Depth Strider
-        addBook('1x minecraft:prismarine_shard', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:depth_strider":1}}]', 3, 10)
-        addBook('2x minecraft:prismarine_shard', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:depth_strider":2}}]', 6, 17)
-        addBook('3x minecraft:prismarine_shard', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:depth_strider":3}}]', 9, 25)
-
-    //Fortune
-        addBook('1x minecraft:emerald', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:fortune":1}}]', 3, 13)
-        addBook('1x minecraft:emerald', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:fortune":2}}]', 6, 20)
-        addBook('3x minecraft:emerald', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:fortune":3}}]', 9, 27)
-
-    //Loyalty
-        addBook('1x minecraft:lead', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:loyalty":1}}]', 3, 11)
-        addBook('2x minecraft:lead', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:loyalty":2}}]', 6, 16)
-        addBook('3x minecraft:lead', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:loyalty":3}}]', 9, 22)
-
-    //Fire Protection
-        addBook('16x minecraft:magma_cream', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:fire_protection":1}}]', 3, 10)
-        addBook('32x minecraft:magma_cream', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:fire_protection":2}}]', 6, 16)
-        addBook('48x minecraft:magma_cream', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:fire_protection":3}}]', 9, 10)
-        addBook('64x minecraft:magma_cream', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:fire_protection":4}}]', 12, 28)
-
-    //Power
-        addBook('12x minecraft:flint', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:power":1}}]', 3, 5)
-        addBook('24x minecraft:flint', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:power":2}}]', 6, 10)
-        addBook('36x minecraft:flint', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:power":3}}]', 9, 18)
-        addBook('48x minecraft:flint', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:power":4}}]', 12, 25)
-        addBook('60x minecraft:flint', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:power":5}}]', 15, 33)
-
-    //Riptide
-        addBook('8x minecraft:firework_rocket', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:riptide":1}}]', 3, 15)
-        addBook('16x minecraft:firework_rocket', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:riptide":2}}]', 6, 20)
-        addBook('24x minecraft:firework_rocket', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:riptide":3}}]', 9, 25)
-
-    //Mending
-        addBook('1x enderio:experience_rod', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:mending":1}}]', 15, 21)
-
-    //Infinity
-        addBook('1x enderio:grains_of_infinity', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:infinity":1}}]', 15, 17)
-
-    //Lure
-        addBook('1x minecraft:cod', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:lure":1}}]', 3, 13)
-        addBook('2x minecraft:cod', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:lure":2}}]', 6, 20)
-        addBook('3x minecraft:cod', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:lure":3}}]', 9, 27)
-
-    //Knockback
-        addBook('1x minecraft:piston', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:knockback":1}}]', 3, 10)
-        addBook('2x minecraft:piston', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:knockback":2}}]', 6, 21)
-
-    //Multishot
-        addBook('16x minecraft:arrow', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:multishot":1}}]', 15, 17)
-
-    //Frost Walker
-        addBook('16x minecraft:ice', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:frost_walker":1}}]', 3, 10)
-        addBook('32x minecraft:ice', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:frost_walker":2}}]', 3, 17)
-
-    //Channeling
-        addBook('11x minecraft:lightning_rod', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:channeling":1}}]', 15, 21)
-
-    //Looting
-        addBook('1x minecraft:skeleton_skull', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:looting":1}}]', 3, 13)
-        addBook('2x minecraft:skeleton_skull', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:looting":2}}]', 6, 20)
-        addBook('3x minecraft:skeleton_skull', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:looting":3}}]', 9, 27)
-
-    //Fire Aspect
-        addBook('8x minecraft:blaze_rod', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:fire_aspect":1}}]', 3, 12)
-        addBook('16x minecraft:blaze_rod', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:fire_aspect":2}}]', 6, 25)
-
-    //Blast Protection
-        addBook('16x minecraft:gunpowder', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:blast_protection":1}}]', 3, 6)
-        addBook('32x minecraft:gunpowder', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:blast_protection":2}}]', 6, 12)
-        addBook('48x minecraft:gunpowder', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:blast_protection":3}}]', 9, 18)
-        addBook('64x minecraft:gunpowder', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:blast_protection":4}}]', 12, 24)
-
-    //Flame
-        addBook('1x minecraft:netherrack', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:flame":1}}]', 15, 17)
-
-    //Luck of the Sea
-        addBook('1x minecraft:lapis_lazuli', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:luck_of_the_sea":1}}]', 3, 13)
-        addBook('2x minecraft:lapis_lazuli', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:luck_of_the_sea":2}}]', 6, 20)
-        addBook('3x minecraft:lapis_lazuli', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:luck_of_the_sea":3}}]', 9, 27)
-
-    //Thorns
-        addBook('4x minecraft:rose_bush', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:thorns":1}}]', 3, 12)
-        addBook('8x minecraft:rose_bush', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:thorns":2}}]', 6, 25)
-        addBook('12x minecraft:rose_bush', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:thorns":3}}]', 6, 40)
-
-    //Sharpness
-        addBook('12x minecraft:quartz', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:sharpness":1}}]', 3, 5)
-        addBook('24x minecraft:quartz', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:sharpness":2}}]', 6, 11)
-        addBook('36x minecraft:quartz', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:sharpness":3}}]', 9, 19)
-        addBook('48x minecraft:quartz', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:sharpness":4}}]', 12, 28)
-        addBook('60x minecraft:quartz', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:sharpness":5}}]', 15, 36)
-
-    //Silk Touch
-        addBook('1x minecraft:slime_ball', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:silk_touch":1}}]', 15, 13)
-
-    //Soul Speed
-        addBook('16x minecraft:soul_soil', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:soul_speed":1}}]', 3, 10)
-        addBook('32x minecraft:soul_soil', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:soul_speed":2}}]', 6, 17)
-        addBook('48x minecraft:soul_soil', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:soul_speed":3}}]', 9, 25)
-
-    //Feather Falling
-        addBook('1x minecraft:feather', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:feather_falling":1}}]', 3, 6)
-        addBook('2x minecraft:feather', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:feather_falling":1}}]', 6, 10)
-        addBook('3x minecraft:feather', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:feather_falling":1}}]', 9, 15)
-        addBook('4x minecraft:feather', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:feather_falling":1}}]', 12, 19)
-
-    //Smite
-        addBook('12x minecraft:rotten_flesh', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:smite":1}}]', 3, 6)
-        addBook('24x minecraft:rotten_flesh', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:smite":2}}]', 6, 12)
-        addBook('36x minecraft:rotten_flesh', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:smite":3}}]', 9, 18)
-        addBook('48x minecraft:rotten_flesh', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:smite":4}}]', 12, 24)
-        addBook('60x minecraft:rotten_flesh', 'minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:smite":5}}]', 15, 30)
+    for (let enchant of enchanting) {
+        allthemods.recipes.modular_machinery_reborn.machine_recipe('atm:runic_enchanter', 100)
+            .requireSource(500 * enchant.level, 8, 17)
+            .requireFluid(Fluid.of('justdirethings:xp_fluid_source', 140 * enchant.level), 8, 37)
+            .progressX(67)
+            .progressY(28)
+            .height(87)
+            .width(133)
+            .requireItem(enchant.input, 31, 8)
+            .requireItem(enchant.base, 31, 27)
+            .requireItem(Item.of('minecraft:lapis_lazuli', enchant.lapis), 31, 46)
+            .produceItem(`minecraft:enchanted_book[stored_enchantments={levels:{"minecraft:${enchant.enchant}":${enchant.lvl}}}]`, 107, 27)
+    }
 
     //Infusing
         allthemods.recipes.modular_machinery_reborn.machine_recipe('atm:runic_enchanter', 100)
