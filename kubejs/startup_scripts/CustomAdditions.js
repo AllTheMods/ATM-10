@@ -28,6 +28,12 @@ StartupEvents.registry('item', allthemods => {
     allthemods.create('atm_star_shard_4').displayName('ATM Star Fragment')
     allthemods.create('atm_star_shard_5').displayName('ATM Star Fragment')
     allthemods.create('modularium_plate').color(0xe64200).texture('alltheores:item/iron_plate')
+
+    allthemods.create('inferium_enchanting_base').texture('minecraft:item/enchanted_book').color(0x55FF55)
+    allthemods.create('prudentium_enchanting_base').texture('minecraft:item/enchanted_book').color(0x00AA00)
+    allthemods.create('tertium_enchanting_base').texture('minecraft:item/enchanted_book').color(0xEB7114)
+    allthemods.create('imperium_enchanting_base').texture('minecraft:item/enchanted_book').color(0x5555FF)
+    allthemods.create('supremium_enchanting_base').texture('minecraft:item/enchanted_book').color(0xFF5555)
 })
 
 StartupEvents.registry('fluid', allthemods => {

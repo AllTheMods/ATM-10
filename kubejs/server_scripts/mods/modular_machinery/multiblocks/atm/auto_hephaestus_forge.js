@@ -28,7 +28,7 @@ MMREvents.machines(allthemods => {
                         'o': 'forbidden_arcanus:arcane_crystal_obelisk',
                         'k': 'modular_machinery_reborn:casing_reinforced',
                         'l': 'modular_machinery_reborn:casing_plain',
-                        't': 'modular_machinery_reborn:inputbus_tiny',
+                        't': 'modular_machinery_reborn:casing_gearbox',
                         'p': 'forbidden_arcanus:darkstone_pedestal',
                         'e': 'forbidden_arcanus:chiseled_arcane_polished_darkstone',
                         'v': 'modular_machinery_reborn:casing_vent',
@@ -39,6 +39,7 @@ MMREvents.machines(allthemods => {
                         'x': [
                             '#modular_machinery_reborn:energyinputhatch',
                             '#modular_machinery_reborn:outputbus',
+                            '#modular_machinery_reborn:inputbus',
                             'forbidden_arcanus:polished_darkstone'
                         ]
                     }
