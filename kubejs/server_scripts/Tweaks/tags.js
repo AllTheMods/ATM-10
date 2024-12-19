@@ -37,6 +37,14 @@ ServerEvents.tags('item', allthemods => {
   allthemods.add('c:storage_blocks', '#c:storage_blocks/raw_crimson_iron')
   allthemods.add('c:storage_blocks', '#c:storage_blocks/raw_azure_silver')
   allthemods.add('c:ores/cinnabar', 'alltheores:cinnabar_ore')
+  
+  //Ars Elemental Books
+  allthemods.add('minecraft:bookshelf_books', 'ars_elemental:air_caster_tome')
+  allthemods.add('minecraft:bookshelf_books', 'ars_elemental:fire_caster_tome')
+  allthemods.add('minecraft:bookshelf_books', 'ars_elemental:water_caster_tome')
+  allthemods.add('minecraft:bookshelf_books', 'ars_elemental:earth_caster_tome')
+  allthemods.add('minecraft:bookshelf_books', 'ars_elemental:anima_caster_tome')
+  allthemods.add('minecraft:bookshelf_books', 'ars_elemental:manipulation_caster_tome')
 })
 
 ServerEvents.tags('entity_type', allthemods => {
