@@ -117,7 +117,7 @@ ServerEvents.recipes(allthemods => {
             {
                 "type": "mekanism:injecting",
                 "item_input": {
-                    "count": 2,
+                    "count": 1,
                     "tag": input
                 },
                 "chemical_input": {
@@ -125,7 +125,7 @@ ServerEvents.recipes(allthemods => {
                     "chemical": "mekanism:hydrogen_chloride"
                 },
                 "output": {
-                    "count": 1,
+                    "count": 2,
                     "id": output
                 },
                 "per_tick_usage": true
