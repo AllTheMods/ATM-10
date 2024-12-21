@@ -1,0 +1,242 @@
+	[general.Logs]
+		#If true, all missing optional properties
+		#and their default values will be logged
+		#when parsing custom machines jsons.
+		log_missing_optional = false
+		#When parsing custom machines json files,
+		#some properties can be read with 2 serializers.
+		#Set this to true to log when the first serializer throw an error,
+		#even if the second succeed.
+		log_first_either_error = false
+		#Configure what logs will be printed in the custommachinery.log file.
+		#Only logs with level higher or equal than selected will be printed.
+		#FATAL > ERROR > WARN > INFO > DEBUG > ALL
+		#Allowed Values: FATAL, ERROR, WARN, INFO, DEBUG, ALL
+		debug_level = "INFO"
+
+	[general.General]
+		#Defines the _default_ color for machine casings as items or blocks. (Hex color with alpha at start) Has to be defined both server and clientside!
+		general_casing_color = "#FFFF4900"
+		#Defines the time in ticks that the machine should check for a structure update.
+		#20 ticks = 1 second. Default: 5
+		# Default: 5
+		# Range: > 1
+		check_structure_ticks = 5
+		#Defines the time in ticks that the machine should check for a recipe update.
+		#20 ticks = 1 second. Default: 80
+		# Default: 20
+		# Range: > 1
+		check_recipe_ticks = 20
+
+	[general.Rendering]
+		#The time in milliseconds the structure requirement
+		#structure will render in world when clicking
+		#on the icon in the jei recipe.
+		# Default: 10000
+		# Range: > 1
+		structure_render_time = 10000
+		#The time in milliseconds each blocks will be shown
+		#when using a block tag in a structure.
+		# Default: 1000
+		# Range: > 1
+		block_tag_cycle_time = 1000
+
+	[general.Directories]
+		#A folder name where MMR will load machine structure json.
+		#These folder must be under the "data/<namespace>" folder.
+		machine_directory = "machines"
+		#A list of folder names where MMR will load controller models json. These folders must be under the 'assets/namespace/models' folder.
+		model_folders = ["controller", "controllers"]
+
+	[energyHatch.tiny]
+		#Energy storage size of the energy hatch.
+		# Default: 2048
+		# Range: > 1
+		size = 10280
+		#Defines the transfer limit for RF/FE things. 
+		#IC2's transfer limit is defined by the voltage tier.
+		# Default: 128
+		# Range: > 1
+		transfer_rate = 1028
+
+	[energyHatch.small]
+		#Energy storage size of the energy hatch.
+		# Default: 4096
+		# Range: > 1
+		size = 20560
+		#Defines the transfer limit for RF/FE things. 
+		#IC2's transfer limit is defined by the voltage tier.
+		# Default: 512
+		# Range: > 1
+		transfer_rate = 2056
+
+	[energyHatch.normal]
+		#Energy storage size of the energy hatch.
+		# Default: 8192
+		# Range: > 1
+		size = 61680
+		#Defines the transfer limit for RF/FE things. 
+		#IC2's transfer limit is defined by the voltage tier.
+		# Default: 512
+		# Range: > 1
+		transfer_rate = 6168
+
+	[energyHatch.reinforced]
+		#Energy storage size of the energy hatch.
+		# Default: 16384
+		# Range: > 1
+		size = 246720
+		#Defines the transfer limit for RF/FE things. 
+		#IC2's transfer limit is defined by the voltage tier.
+		# Default: 2048
+		# Range: > 1
+		transfer_rate = 24672
+
+	[energyHatch.big]
+		#Energy storage size of the energy hatch.
+		# Default: 32768
+		# Range: > 1
+		size = 1233600
+		#Defines the transfer limit for RF/FE things. 
+		#IC2's transfer limit is defined by the voltage tier.
+		# Default: 8192
+		# Range: > 1
+		transfer_rate = 123360
+
+	[energyHatch.huge]
+		#Energy storage size of the energy hatch.
+		# Default: 131072
+		# Range: > 1
+		size = 7401600
+		#Defines the transfer limit for RF/FE things. 
+		#IC2's transfer limit is defined by the voltage tier.
+		# Default: 32768
+		# Range: > 1
+		transfer_rate = 740160
+
+	[energyHatch.ludicrous]
+		#Energy storage size of the energy hatch.
+		# Default: 524288
+		# Range: > 1
+		size = 51811200
+		#Defines the transfer limit for RF/FE things. 
+		#IC2's transfer limit is defined by the voltage tier.
+		# Default: 131072
+		# Range: > 1
+		transfer_rate = 5181120
+
+	[energyHatch.ultimate]
+		#Energy storage size of the energy hatch.
+		# Default: 2097152
+		# Range: > 1
+		size = 414489600
+		#Defines the transfer limit for RF/FE things. 
+		#IC2's transfer limit is defined by the voltage tier.
+		# Default: 131072
+		# Range: > 1
+		transfer_rate = 41448960
+
+	[energyHatch.Display]
+		#Set to true, if the standard 'energy' FE (or RF) should be displayed in the tooltip of the energy hatch along with its transmission rates.
+		displayFETooltip = true
+		#Set to true, if IC2's energy EU should be displayed in the tooltip of the energy hatch. Will only have effect if IC2 is installed.
+		displayIC2EUTooltip = true
+		#Available options: 'FE', 'IC2_EU' - Default: FE - Set this to one of those 2 types to have GUI, recipe preview and energy be displayed in that type of energy in ALL ModularMachinery Reborn things.
+		#Allowed Values: FE, IC2_EU
+		type = "FE"
+
+	[fluidHatch.tiny]
+		#Defines the tank size of fluid hatch in mB
+		# Default: 100
+		# Range: > 1
+		size = 1000
+
+	[fluidHatch.small]
+		#Defines the tank size of fluid hatch in mB
+		# Default: 400
+		# Range: > 1
+		size = 4000
+
+	[fluidHatch.normal]
+		#Defines the tank size of fluid hatch in mB
+		# Default: 1000
+		# Range: > 1
+		size = 10000
+
+	[fluidHatch.reinforced]
+		#Defines the tank size of fluid hatch in mB
+		# Default: 2000
+		# Range: > 1
+		size = 20000
+
+	[fluidHatch.big]
+		#Defines the tank size of fluid hatch in mB
+		# Default: 4500
+		# Range: > 1
+		size = 45000
+
+	[fluidHatch.huge]
+		#Defines the tank size of fluid hatch in mB
+		# Default: 8000
+		# Range: > 1
+		size = 80000
+
+	[fluidHatch.ludicrous]
+		#Defines the tank size of fluid hatch in mB
+		# Default: 16000
+		# Range: > 1
+		size = 1600000
+
+	[fluidHatch.vacuum]
+		#Defines the tank size of fluid hatch in mB
+		# Default: 32000
+		# Range: > 1
+		size = 3200000
+
+	[experienceHatch.tiny]
+		#Defines the Experience Hatch
+		# Default: 1000
+		# Range: > 1
+		capacity = 1000
+
+	[experienceHatch.small]
+		#Defines the Experience Hatch
+		# Default: 4000
+		# Range: > 1
+		capacity = 4000
+
+	[experienceHatch.normal]
+		#Defines the Experience Hatch
+		# Default: 10000
+		# Range: > 1
+		capacity = 10000
+
+	[experienceHatch.reinforced]
+		#Defines the Experience Hatch
+		# Default: 20000
+		# Range: > 1
+		capacity = 20000
+
+	[experienceHatch.big]
+		#Defines the Experience Hatch
+		# Default: 45000
+		# Range: > 1
+		capacity = 45000
+
+	[experienceHatch.huge]
+		#Defines the Experience Hatch
+		# Default: 80000
+		# Range: > 1
+		capacity = 80000
+
+	[experienceHatch.ludicrous]
+		#Defines the Experience Hatch
+		# Default: 160000
+		# Range: > 1
+		capacity = 160000
+
+	[experienceHatch.vacuum]
+		#Defines the Experience Hatch
+		# Default: 320000
+		# Range: > 1
+		capacity = 320000
