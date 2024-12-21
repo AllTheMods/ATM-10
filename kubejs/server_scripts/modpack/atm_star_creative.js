@@ -66,6 +66,23 @@ ServerEvents.recipes(allthemods => {
             }
         ).id('allthemods:enchanting_apparatus/creative_source_jar')
 
+    //EvilCraft
+
+        allthemods.recipes.kubejs.shaped('evilcraft:creative_blood_drop', 
+            [
+                'BCB', 
+                'DAE', 
+                'BFB'
+            ],
+            {
+                A: 'allthetweaks:atm_star',
+                B: 'evilcraft:promise_tier_3',
+                C: 'evilcraft:flesh_rejuvenated[cyclopscore:fluid_content={amount:10000,id:"evilcraft:blood"}]',
+                D: 'evilcraft:mace_of_distortion[cyclopscore:fluid_content={amount:10000,id:"evilcraft:blood"}]',
+                E: 'evilcraft:necromancer_staff[cyclopscore:fluid_content={amount:10000,id:"evilcraft:blood"}]',
+                F: 'evilcraft:broom[cyclopscore:fluid_content={amount:10000,id:"evilcraft:blood"}]',
+    }
+)
     //Integrated Dynamics
         
         allthemods.custom(
@@ -244,6 +261,23 @@ ServerEvents.recipes(allthemods => {
                 {count: 64, item:'pneumaticcraft:compressed_iron_block'}
             ]
         )
+    //Railcraft
+
+        allthemods.recipes.kubejs.shaped('railcraft:creative_locomotive', 
+            [
+                'EF ', 
+                'CAC', 
+                'BDB'
+            ],
+            {
+                A: 'allthetweaks:atm_star_shard',
+                B: 'allthemodium:unobtainium_gear',
+                C: 'railcraft:charge_motor',
+                D: 'minecraft:minecart',
+                E: 'minecraft:redstone_lamp',
+                F: 'minecraft:netherite_ingot'
+        }
+    )
 
 })
 
