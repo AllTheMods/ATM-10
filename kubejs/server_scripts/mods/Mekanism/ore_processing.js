@@ -66,7 +66,7 @@ ServerEvents.recipes(allthemods => {
                 washing(`alltheores:dirty_${material}`, `alltheores:clean_${material}`, `alltheores:processing/${material}/slurry/from_dirty`);
                 injecting(`c:crystals/${material}`, `alltheores:${material}_shard`, `alltheores:processing/${material}/shard/from_crystal`);
                 crushing(`c:clumps/${material}`, `alltheores:dirty_${material}_dust`, `alltheores:processing/${material}/dirty_dust/from_clumpy`);
-                enriching(`c:dirty_dusts/${material}`, `alltheores:${material}_dust`, `alltheores:enriching/${material}/dust_from_dirty_dust`);
+                enriching(`c:dirty_dusts/${material}`, `alltheores:${material}_dust`, `alltheores:processing/${material}/dust/from_dirty_dust`);
             }
         });
     });
