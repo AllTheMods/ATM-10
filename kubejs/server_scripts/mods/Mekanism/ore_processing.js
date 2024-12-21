@@ -15,6 +15,11 @@ ServerEvents.recipes(allthemods => {
         dissolution(`c:storage_blocks/raw_${material}`, `alltheores:dirty_${material}`, 6000, `mekanism:processing/${material}/slurry/dirty/from_raw_block`)
         dissolution(`c:raw_materials/${material}`, `alltheores:dirty_${material}`, 2000, `mekanism:processing/${material}/slurry/dirty/from_raw_ore`)
         dissolution(`c:ores/${material}`, `alltheores:dirty_${material}`, 1000, `mekanism:processing/${material}/slurry/dirty/from_ore`)
+
+        allthemods.remove({id: `mekanism:processing/${material}/crystal/from_slurry`})
+        allthemods.remove({id: `mekanism:processing/${material}/shard/from_crystal`})
+        allthemods.remove({id: `mekanism:processing/${material}/dirty_dust/from_clump`})
+        allthemods.remove({id: `mekanism:processing/${material}/dust/from_dirty_dust`})
     })
 
     const id = {
@@ -46,16 +51,22 @@ ServerEvents.recipes(allthemods => {
         materials.forEach(material => {
 
             if (mod === 'mekanism') {
-                washing(`${mod}:dirty_${material}`, `${mod}:clean_${material}`, `${mod}:processing/${material}/slurry/clean`);
-                injecting(`c:crystals/${material}`, `mekanism:shard_${material}`);
-                crushing(`c:clumps/${material}`, `mekanism:dirty_dust_${material}`);
-                enriching(`c:dirty_dusts/${material}`, `alltheores:${material}_dust`);
-            } else {
-                if (mod === 'allthemodium') {washing(`${mod}:dirty_${material}`, `${mod}:clean_${material}`, `${mod}:processing/${material}/slurry/clean`);}
-                if (mod === 'alltheores') {washing(`${mod}:dirty_${material}`, `${mod}:clean_${material}`, `${mod}:processing/${material}/slurry/from_dirty`);}
-                injecting(`c:crystals/${material}`, `${mod}:${material}_shard`);
-                crushing(`c:clumps/${material}`, `${mod}:dirty_${material}_dust`);
-                enriching(`c:dirty_dusts/${material}`, `${mod}:${material}_dust`);
+                washing(`mekanism:dirty_${material}`, `mekanism:clean_${material}`, `mekanism:processing/${material}/slurry/clean`);
+                injecting(`c:crystals/${material}`, `mekanism:shard_${material}`, `mekanism:processing/${material}/shard/from_crystal`);
+                crushing(`c:clumps/${material}`, `mekanism:dirty_dust_${material}`, `mekanism:processing/${material}/dirty_dust/from_clump`);
+                enriching(`c:dirty_dusts/${material}`, `alltheores:${material}_dust`, `mekanism:processing/${material}/dust/from_dirty_dust`);
+            }
+            if (mod === 'allthemodium') {
+                washing(`allthemodium:dirty_${material}`, `allthemodium:clean_${material}`, `allthemodium:processing/${material}/slurry/clean`);
+                injecting(`c:crystals/${material}`, `allthemodium:${material}_shard`, `allthemodium:processing/${material}/shard/from_crystal`);
+                crushing(`c:clumps/${material}`, `allthemodium:dirty_${material}_dust`, `allthemodium:processing/${material}/dirty_dust/from_clump`);
+                enriching(`c:dirty_dusts/${material}`, `allthemodium:${material}_dust`, `allthemodium:processing/${material}/dust/from_dirty_dust`);
+            }
+            if (mod === 'alltheores') {
+                washing(`alltheores:dirty_${material}`, `alltheores:clean_${material}`, `alltheores:processing/${material}/slurry/from_dirty`);
+                injecting(`c:crystals/${material}`, `alltheores:${material}_shard`, `alltheores:processing/${material}/shard/from_crystal`);
+                crushing(`c:clumps/${material}`, `alltheores:dirty_${material}_dust`, `alltheores:processing/${material}/dirty_dust/from_clumpy`);
+                enriching(`c:dirty_dusts/${material}`, `alltheores:${material}_dust`, `alltheores:enriching/${material}/dust_from_dirty_dust`);
             }
         });
     });
@@ -101,8 +112,7 @@ ServerEvents.recipes(allthemods => {
         ).id(id)
     }
 
-    function injecting(input, output) {
-        allthemods.remove({type: 'mekanism:injecting', output: output});
+    function injecting(input, output, id) {
         allthemods.custom(
             {
                 "type": "mekanism:injecting",
@@ -120,11 +130,10 @@ ServerEvents.recipes(allthemods => {
                 },
                 "per_tick_usage": true
             }
-        ).id(`allthemods:processing/${input.split('/').pop()}/shard/from_crystal`)
+        ).id(id)
     }
 
-    function crushing(input, output) {
-        allthemods.remove({type: 'mekanism:crushing', output: output});
+    function crushing(input, output, id) {
         allthemods.custom(
             {
                 "type": "mekanism:crushing",
@@ -137,11 +146,10 @@ ServerEvents.recipes(allthemods => {
                     "id": output
                 }
             }
-        ).id(`allthemods:processing/${input.split('/').pop()}/dirty_dust/from_clump`)
+        ).id(id)
     }
 
-    function enriching(input, output) {
-        allthemods.remove({type: 'mekanism:enriching', output: output});
+    function enriching(input, output, id) {
         allthemods.custom(
             {
                 "type": "mekanism:enriching",
@@ -154,7 +162,7 @@ ServerEvents.recipes(allthemods => {
                     "id": output
                 }
             }
-        ).id(`allthemods:processing/${input.split('/').pop()}/dust/from_dirty_dust`)
+        ).id(id)
     }
 
 })

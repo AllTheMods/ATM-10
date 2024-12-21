@@ -36,7 +36,7 @@ ServerEvents.recipes(allthemods => {
     addAACrusher('#ae2:all_certus_quartz', 'ae2:certus_quartz_dust')
     addAACrusher('ae2:fluix_crystal', 'ae2:fluix_dust')
     addAACrusher('ae2:sky_stone_block', 'ae2:sky_dust')
-    addAACrusher('#c:ender_pearls', 'ae2:ender_pearls_dust')
+    addAACrusher('#c:ender_pearls', 'ae2:ender_dust')
 
     //ATO
 
