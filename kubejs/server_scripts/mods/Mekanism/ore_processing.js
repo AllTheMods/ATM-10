@@ -15,11 +15,6 @@ ServerEvents.recipes(allthemods => {
         allthemods.remove({id: `mekanism:processing/${material}/slurry/dirty/from_raw_block`})
         allthemods.remove({id: `mekanism:processing/${material}/slurry/dirty/from_raw_ore`})
         allthemods.remove({id: `mekanism:processing/${material}/slurry/dirty/from_ore`})
-        
-        dissolution(`c:storage_blocks/raw_${material}`, `alltheores:dirty_${material}`, 6000, `mekanism:processing/${material}/slurry/dirty/from_raw_block`)
-        dissolution(`c:raw_materials/${material}`, `alltheores:dirty_${material}`, 2000, `mekanism:processing/${material}/slurry/dirty/from_raw_ore`)
-        dissolution(`c:ores/${material}`, `alltheores:dirty_${material}`, 1000, `mekanism:processing/${material}/slurry/dirty/from_ore`)
-
         allthemods.remove({id: `mekanism:processing/${material}/crystal/from_slurry`})
         allthemods.remove({id: `mekanism:processing/${material}/shard/from_crystal`})
         allthemods.remove({id: `mekanism:processing/${material}/dirty_dust/from_clump`})
