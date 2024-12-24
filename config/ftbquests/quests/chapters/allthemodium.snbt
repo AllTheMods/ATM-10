@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "diamond"
 	filename: "allthemodium"
-	group: ""
+	group: "2084F3F6FB861C5B"
 	icon: {
 		id: "allthemodium:allthemodium_ingot"
 	}
@@ -104,11 +104,20 @@
 			x: 15.5d
 			y: -0.5999999999999996d
 		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/allthemodium/all_title.png"
+			rotation: 0.0d
+			width: 10.804347826086957d
+			x: 4.0d
+			y: -7.5d
+		}
 	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["6D09511D64DDC282"]
 			icon: {
 				components: {
 					"patchouli:book": "allthemodium:allthemodium_book"

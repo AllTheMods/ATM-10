@@ -777,11 +777,26 @@
 			dependencies: ["6EDAB29FBD3C60A3"]
 			hide_until_deps_visible: false
 			id: "6D09511D64DDC282"
-			rewards: [{
-				id: "7949A3E032C67EB5"
-				type: "xp"
-				xp: 250
-			}]
+			rewards: [
+				{
+					id: "7949A3E032C67EB5"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "64B7287BFF555B4E"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "potionsmaster:allthemodium"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
