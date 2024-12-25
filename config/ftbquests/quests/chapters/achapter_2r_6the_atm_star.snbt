@@ -1,0 +1,1583 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "achapter_2r_6the_atm_star"
+	group: "2084F3F6FB861C5B"
+	icon: {
+		id: "modularrouters:creative_module"
+	}
+	id: "792AD692F1468B1F"
+	images: [
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/chap3/creative_chap4.png"
+			rotation: -90.0d
+			width: 10.415584415584416d
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/chap3/creative_creative.png"
+			rotation: -90.0d
+			width: 9.246753246753247d
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/chap3/creative_star.png"
+			rotation: 0.0d
+			width: 10.91566265060241d
+			x: 5.5d
+			y: -10.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/chap3/creative_items.png"
+			rotation: 0.0d
+			width: 8.741176470588234d
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			height: 4.0d
+			image: "atm:textures/questpics/chap3/creative_forge4.png"
+			rotation: 0.0d
+			width: 4.465116279069767d
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			height: 4.0d
+			image: "atm:textures/questpics/chap3/creative_crucible4.png"
+			rotation: 0.0d
+			width: 4.4033613445378155d
+			x: 8.5d
+			y: -7.0d
+		}
+		{
+			height: 7.0d
+			image: "atm:textures/questpics/chap3/creative_enchanter7.png"
+			rotation: 0.0d
+			width: 5.283478260869565d
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			height: 6.0d
+			image: "atm:textures/questpics/chap2/atmstar_layer9.png"
+			rotation: 0.0d
+			width: 6.060362173038229d
+			x: 12.5d
+			y: 3.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"71B72958B9F80355"
+				"38BFF6F845EA479E"
+				"149C260C10B34BB0"
+				"203C91B992BA8CF9"
+				"427BBEB1F24E9DEE"
+				"14C27D44D3C8EDF5"
+				"235273F7C9A9B0D0"
+				"66BAC2B478F9B119"
+				"7A066DD274F970C2"
+				"1FC1588A131B6A4A"
+			]
+			hide_dependent_lines: true
+			id: "5436157FDFC9633E"
+			rewards: [
+				{
+					count: 50
+					id: "4A6946466714414A"
+					item: {
+						count: 1
+						id: "allthetweaks:atm_star_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "387B3FE87AA90D80"
+					item: {
+						count: 1
+						id: "allthetweaks:patrick_star"
+					}
+					type: "item"
+				}
+				{
+					id: "29F3962171357984"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "0A47948D921AFC10"
+				item: { count: 1, id: "allthetweaks:atm_star" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "minecraft:cauldron"
+			}
+			id: "00F00B0B66059996"
+			rewards: [
+				{
+					count: 10
+					id: "22AA10DCF7C1A669"
+					item: {
+						count: 1
+						id: "mekanism:dust_obsidian"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3810D477285B821F"
+					item: {
+						count: 1
+						id: "alltheores:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "13BA4DD3F307BEC4"
+					item: {
+						count: 1
+						id: "forbidden_arcanus:soul"
+					}
+					type: "item"
+				}
+				{
+					id: "13482405F355AE8F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3DD43DB1E1426800"
+					item: { components: { "modular_machinery_reborn:machine": "atm:runic_crucible" }, count: 1, id: "modular_machinery_reborn:controller" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "30026129352C0400"
+					item: { count: 4, id: "forbidden_arcanus:rune_block" }
+					type: "item"
+				}
+				{
+					id: "3D83108EE90D57D2"
+					item: { count: 1, id: "forbidden_arcanus:quantum_injector" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "6EBC44E6FDA8A350"
+					item: { count: 5, id: "forbidden_arcanus:arcane_crystal_block" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5505E283F8AD3836"
+					item: { count: 4, id: "forbidden_arcanus:arcane_polished_darkstone_pillar" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4195C1BD50752800"
+					item: { count: 4, id: "forbidden_arcanus:arcane_polished_darkstone" }
+					type: "item"
+				}
+				{
+					count: 19L
+					id: "37611E2C947B4D12"
+					item: { count: 19, id: "forbidden_arcanus:polished_darkstone_stairs" }
+					type: "item"
+				}
+				{
+					id: "722BF5811AE5CD2C"
+					item: { count: 1, id: "forbidden_arcanus:gilded_chiseled_polished_darkstone" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "7E2C80E3065D9F70"
+					item: { count: 16, id: "forbidden_arcanus:polished_darkstone" }
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			hide_dependent_lines: true
+			icon: {
+				id: "forbidden_arcanus:hephaestus_forge_tier_5"
+			}
+			id: "050CCE5D1DD6B21E"
+			rewards: [
+				{
+					count: 10
+					id: "6F241B97E5D218BB"
+					item: {
+						count: 1
+						id: "forbidden_arcanus:soul"
+					}
+					type: "item"
+				}
+				{
+					count: 20
+					id: "47EC38A932316BB8"
+					item: {
+						count: 1
+						id: "forbidden_arcanus:arcane_crystal_dust"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "24A41AF8FE9C72C4"
+					item: {
+						count: 1
+						id: "evilcraft:condensed_blood"
+					}
+					type: "item"
+				}
+				{
+					id: "2427C456ABA6E77B"
+					item: {
+						count: 1
+						id: "reliquary:xp_bucket"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "3CE1D92302647E1C"
+					item: { components: { "modular_machinery_reborn:machine": "atm:auto_hepheastus_forge" }, count: 1, id: "modular_machinery_reborn:controller" }
+					type: "item"
+				}
+				{
+					id: "5BB2435FD71ED7BB"
+					item: { count: 1, id: "forbidden_arcanus:hephaestus_forge_tier_5" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "16A47B1902BDDEE5"
+					item: { count: 8, id: "forbidden_arcanus:darkstone_pedestal" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "25CD3046EEAA5568"
+					item: { count: 8, id: "forbidden_arcanus:arcane_crystal_obelisk" }
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "4C74B0CF78EAEF8B"
+					item: { count: 24, id: "forbidden_arcanus:polished_darkstone_slab" }
+					type: "item"
+				}
+				{
+					count: 28L
+					id: "5C4C031943E0BF8D"
+					item: { count: 28, id: "forbidden_arcanus:polished_darkstone_stairs" }
+					type: "item"
+				}
+				{
+					count: 68L
+					id: "0C4AD4D1BCE35192"
+					item: { count: 68, id: "forbidden_arcanus:polished_darkstone" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "29E7491E9B18ADA6"
+					item: { count: 4, id: "forbidden_arcanus:chiseled_arcane_polished_darkstone" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "3492CF6A080879DE"
+					item: { count: 9, id: "forbidden_arcanus:gilded_chiseled_polished_darkstone" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "6F77827EE1E44D10"
+					item: { count: 8, id: "forbidden_arcanus:arcane_polished_darkstone" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3E952C2393839EAC"
+					item: { count: 4, id: "forbidden_arcanus:arcane_crystal_block" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "10DE2AFD22C1AF17"
+					item: { count: 8, id: "forbidden_arcanus:rune_block" }
+					type: "item"
+				}
+				{
+					count: 44L
+					id: "2777C9B596EA064A"
+					item: { count: 44, id: "modular_machinery_reborn:casing_plain" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "02E371882874B725"
+					item: { count: 9, id: "modular_machinery_reborn:casing_gearbox" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6384BF13C889F5F4"
+					item: { count: 4, id: "modular_machinery_reborn:casing_vent" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7874CA2943589544"
+					item: { count: 8, id: "modular_machinery_reborn:casing_reinforced" }
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			id: "1FC1588A131B6A4A"
+			rewards: [{
+				id: "5D29E66729AD6F6D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "6FB01036A03AB5E3"
+				item: { components: { "modular_machinery_reborn:machine": "atm:runic_star_altar" }, count: 1, id: "modular_machinery_reborn:controller" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			icon: {
+				id: "minecraft:enchanting_table"
+			}
+			id: "360B150190A5C894"
+			min_width: 250
+			rewards: [
+				{
+					count: 16
+					id: "6D013F3C1FD50627"
+					item: {
+						count: 1
+						id: "mysticalagriculture:experience_essence"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "34D6A2D3E7C92D77"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "205CBC8CA82ADFEB"
+					item: {
+						count: 1
+						id: "minecraft:writable_book"
+					}
+					type: "item"
+				}
+				{
+					id: "4EB4212562791867"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [
+				{
+					id: "2E3572F45C2D68C2"
+					item: { components: { "modular_machinery_reborn:machine": "atm:runic_enchanter" }, count: 1, id: "modular_machinery_reborn:controller" }
+					type: "item"
+				}
+				{
+					id: "0F2FB74F41368098"
+					item: { count: 1, id: "forbidden_arcanus:quantum_injector" }
+					type: "item"
+				}
+				{
+					id: "1BC31E2C08726232"
+					item: { count: 1, id: "minecraft:enchanting_table" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "53C19284505DDAD7"
+					item: { count: 5, id: "apothic_enchanting:treasure_shelf" }
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "4D5C534037223CF9"
+					item: { count: 5, id: "apothic_enchanting:echoing_sculkshelf" }
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "5A6152A72B7B6350"
+					item: { count: 17, id: "apothic_enchanting:soul_touched_sculkshelf" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "694638C9D2A7B20C"
+					item: { count: 5, id: "apothic_enchanting:soul_touched_deepshelf" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "56C1F1B245416DED"
+					item: { count: 9, id: "minecraft:soul_lantern" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "179480E0B8EAAC09"
+					item: { count: 8, id: "biomeswevegone:ebony_fence" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "5AB45CD4B44CE7BF"
+					item: { count: 10, id: "eternal_starlight:lunar_fence" }
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "58BC7201E082BD92"
+					item: { count: 18, id: "forbidden_arcanus:polished_darkstone_wall" }
+					type: "item"
+				}
+				{
+					count: 28L
+					id: "69925DB8759F667B"
+					item: { count: 28, id: "forbidden_arcanus:polished_darkstone_slab" }
+					type: "item"
+				}
+				{
+					count: 88L
+					id: "6742576AD1200373"
+					item: { count: 88, id: "forbidden_arcanus:polished_darkstone_stairs" }
+					type: "item"
+				}
+				{
+					count: 87L
+					id: "3B19141310B717E1"
+					item: { count: 87, id: "forbidden_arcanus:polished_darkstone" }
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "2143768A3B8A48A4"
+					item: { count: 9, id: "forbidden_arcanus:gilded_chiseled_polished_darkstone" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "562412F446714410"
+					item: { count: 4, id: "forbidden_arcanus:rune_block" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "490DF4F67F77956B"
+					item: { count: 5, id: "modular_machinery_reborn:casing_reinforced" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "057DCBABFBFC6A35"
+					item: { count: 4, id: "modular_machinery_reborn:casing_firebox" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "3EFF576599AE07AD"
+					item: { count: 12, id: "modular_machinery_reborn:casing_vent" }
+					type: "item"
+				}
+				{
+					count: 60L
+					id: "64871AFEBE91FF69"
+					item: { count: 60, id: "modular_machinery_reborn:casing_plain" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5436157FDFC9633E"]
+			id: "3FF61A4D7A250AE1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "617D1B035EF5B2CA"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E08F4D0B317C057"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					id: "341A2C2D57C1EA1D"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "1F2FBA163417B722"
+				item: { count: 1, id: "powah:energy_cell_creative" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5436157FDFC9633E"]
+			id: "4F7F0A5162D70082"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "546C4530D8BCDB0F"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2007D441EA018EE0"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					id: "519027BD291680FE"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "1CE2A1DA52F7DED9"
+				item: { components: { "mekanism:energy": { energy_containers: [L;9223372036854775807L] }, "mekanism:side_config": { config: { energy: { eject: 1b, side: { back: "output", bottom: "output", front: "output", left: "output", right: "output", top: "output" } }, items: { side: { back: "input", bottom: "input", front: "output", left: "input", right: "input", top: "input" } } } } }, count: 1, id: "mekanism:creative_energy_cube" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5436157FDFC9633E"]
+			id: "3BB0926C4C00BE1D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "76FD16B8E2516CBC"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0632F96D9BE1D849"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					id: "7A42E89D36DF1A2C"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "28CF7D588D7A5D94"
+				item: { components: { "ironjetpacks:jetpack_id": "ironjetpacks:creative", "minecraft:rarity": "epic" }, count: 1, id: "ironjetpacks:jetpack" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5436157FDFC9633E"]
+			id: "070CAEAD49B8DBA3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "09D4CB3DDA783C65"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E229CF3A680CA10"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					id: "01F175937F44B054"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "396B0AA4DB69865D"
+				item: { count: 1, id: "pneumaticcraft:creative_compressed_iron_block" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5436157FDFC9633E"]
+			id: "1D87415343E65AA7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "69433D3356C8A19B"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45D2EFCB1715597A"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					id: "16CDFDE10FBE1D32"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "2FABE0B440708CBD"
+				item: { count: 1, id: "pneumaticcraft:creative_compressor" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5436157FDFC9633E"]
+			id: "66E88F916B638B3B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37384C14A52DC306"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A1FB36A23C89F56"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					id: "04EDDEC0C6B98B1E"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "7847F14EE9F89795"
+				item: { count: 1, id: "allthearcanistgear:creative_spell_book" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["5436157FDFC9633E"]
+			id: "3D78D9F4E8A60EDB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "222B5C88824F24F3"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "357059E6D78390AC"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					id: "2EE6C087E051630E"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "32AF51D9DC702D32"
+				item: { count: 1, id: "ars_nouveau:creative_source_jar" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5436157FDFC9633E"]
+			id: "23DE60E57136C207"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "61B6B9176B487F04"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39870A3F009CCD88"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					id: "4E6EF9B5E041B1D3"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "5B87D7736D0C2703"
+				item: { count: 1, id: "integrateddynamics:energy_battery_creative" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5436157FDFC9633E"]
+			id: "36ABE142039E712B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E80B3FE769D1404"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3604CFAF8435D961"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					id: "5C6E6E417A8BAFEF"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "7EF001DCBCF16E73"
+				item: { count: 1, id: "ae2:creative_energy_cell" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5436157FDFC9633E"]
+			id: "228CB313BAB6406E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B74E6FD75EA51D5"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					id: "500BE9CAB3C3F7A7"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "66D07CEEB6655550"
+				item: { count: 1, id: "railcraft:creative_locomotive" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5436157FDFC9633E"]
+			id: "745E616E97838D2E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0D8CD8C035DD6BEF"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "688211AAEBEF9692"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					id: "467A498927D15B48"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "377C33C915788F16"
+				item: { components: { "cyclopscore:fluid_content": { amount: 1000, id: "evilcraft:blood" } }, count: 1, id: "evilcraft:creative_blood_drop" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			icon: {
+				id: "allthetweaks:patrick_star"
+			}
+			id: "6C16670D16113DE9"
+			rewards: [
+				{
+					id: "5E435C67548052ED"
+					item: {
+						components: {
+							"minecraft:repair_cost": 7
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:luck_of_the_sea": 3
+									"minecraft:lure": 3
+									"minecraft:mending": 1
+									"minecraft:unbreaking": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "2CE31C1FED69C72D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				biome: "minecraft:warm_ocean"
+				id: "3A1D32F6C816C3D2"
+				type: "biome"
+			}]
+			x: 5.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["6C16670D16113DE9"]
+			hide_dependent_lines: true
+			id: "405D2571E61694FD"
+			rewards: [
+				{
+					id: "63ACD592E90A3BD3"
+					item: {
+						count: 1
+						id: "productivelib:upgrade_productivity_3"
+					}
+					type: "item"
+				}
+				{
+					id: "62B5C3CDEF65DE2F"
+					item: {
+						count: 1
+						id: "productivelib:upgrade_block"
+					}
+					type: "item"
+				}
+				{
+					id: "2584F77CC134423D"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "7CB5927898DE12B0"
+				item: { count: 1, id: "allthetweaks:atm_star_block" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"405D2571E61694FD"
+				"7C9154EF6068BE27"
+			]
+			dependency_requirement: "one_completed"
+			id: "73201E591C2A40CC"
+			rewards: [
+				{
+					count: 10
+					id: "561AC4CEA2FC687B"
+					item: {
+						count: 1
+						id: "allthetweaks:atm_star_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "0DA7DBFE693517B1"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "24321595C5F52B83"
+				item: { count: 1, id: "allthetweaks:atm_star_shard" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"73201E591C2A40CC"
+				"050CCE5D1DD6B21E"
+			]
+			id: "1C566975C4EC5D93"
+			rewards: [
+				{
+					count: 3
+					id: "57D2D8C79D34A312"
+					item: {
+						count: 1
+						id: "forbidden_arcanus:sea_prism"
+					}
+					type: "item"
+				}
+				{
+					id: "3A3838F28F778A4E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.15d
+			tasks: [{
+				id: "62068A985511BC38"
+				item: { count: 1, id: "forbidden_arcanus:sea_prism" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"73201E591C2A40CC"
+				"050CCE5D1DD6B21E"
+			]
+			id: "0EF9C391EE42824A"
+			rewards: [
+				{
+					count: 3
+					id: "7422D70DB2BAD8E4"
+					item: {
+						count: 1
+						id: "forbidden_arcanus:terrastomp_prism"
+					}
+					type: "item"
+				}
+				{
+					id: "3F0175154CEA45EA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.15d
+			tasks: [{
+				id: "3037DBA8FE5A626A"
+				item: { count: 1, id: "forbidden_arcanus:terrastomp_prism" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"73201E591C2A40CC"
+				"050CCE5D1DD6B21E"
+			]
+			id: "173541B0765DA13E"
+			rewards: [
+				{
+					count: 3
+					id: "0D648CAADD11EDD3"
+					item: {
+						count: 1
+						id: "forbidden_arcanus:whirlwind_prism"
+					}
+					type: "item"
+				}
+				{
+					id: "00F744D25492C993"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.15d
+			tasks: [{
+				id: "3DCEA2AA469E51D5"
+				item: { count: 1, id: "forbidden_arcanus:whirlwind_prism" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"73201E591C2A40CC"
+				"050CCE5D1DD6B21E"
+			]
+			id: "6076D1DB438EB997"
+			rewards: [
+				{
+					count: 3
+					id: "0B9F86A1246AC876"
+					item: {
+						count: 1
+						id: "forbidden_arcanus:smelter_prism"
+					}
+					type: "item"
+				}
+				{
+					id: "430A4D24D058D98A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.15d
+			tasks: [{
+				id: "4A7B709BC4B3EFF8"
+				item: { count: 1, id: "forbidden_arcanus:smelter_prism" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"73201E591C2A40CC"
+				"050CCE5D1DD6B21E"
+			]
+			id: "5660E81BBEED6DC3"
+			min_width: 300
+			rewards: [
+				{
+					count: 3
+					id: "200804934FFA86C6"
+					item: {
+						count: 1
+						id: "forbidden_arcanus:soul_binding_crystal"
+					}
+					type: "item"
+				}
+				{
+					id: "1A86358A47FE2225"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "diamond"
+			size: 1.15d
+			tasks: [{
+				id: "7506FBABAE45AB25"
+				item: { count: 1, id: "forbidden_arcanus:soul_binding_crystal" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5660E81BBEED6DC3"]
+			hide_dependent_lines: true
+			id: "66BAC2B478F9B119"
+			rewards: [
+				{
+					id: "1AF0BC33F2D0B29E"
+					item: {
+						count: 1
+						id: "kubejs:atm_star_shard_1"
+					}
+					type: "item"
+				}
+				{
+					id: "75748F59BAB31B7E"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "6E849DDBE1319A40"
+				item: { count: 1, id: "kubejs:atm_star_shard_1" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["173541B0765DA13E"]
+			hide_dependent_lines: true
+			id: "7A066DD274F970C2"
+			rewards: [
+				{
+					id: "615BEEAD6DCF49BF"
+					item: {
+						count: 1
+						id: "kubejs:atm_star_shard_2"
+					}
+					type: "item"
+				}
+				{
+					id: "04FC2E8884C9B6CB"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "243AA6B32F9B4F79"
+				item: { count: 1, id: "kubejs:atm_star_shard_2" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0EF9C391EE42824A"]
+			hide_dependent_lines: true
+			id: "149C260C10B34BB0"
+			rewards: [
+				{
+					id: "224A7E3BB31E9724"
+					item: {
+						count: 1
+						id: "kubejs:atm_star_shard_5"
+					}
+					type: "item"
+				}
+				{
+					id: "5F38E3A4816341B9"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "5A1B5978D8C2574C"
+				item: { count: 1, id: "kubejs:atm_star_shard_5" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1C566975C4EC5D93"]
+			hide_dependent_lines: true
+			id: "38BFF6F845EA479E"
+			rewards: [
+				{
+					id: "5A47BEDC05F28595"
+					item: {
+						count: 1
+						id: "kubejs:atm_star_shard_4"
+					}
+					type: "item"
+				}
+				{
+					id: "138FE7B1EC8A3D16"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "697C7D9A4E9466D9"
+				item: { count: 1, id: "kubejs:atm_star_shard_4" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6076D1DB438EB997"]
+			hide_dependent_lines: true
+			id: "235273F7C9A9B0D0"
+			rewards: [
+				{
+					id: "3E00D91960A5312F"
+					item: {
+						count: 1
+						id: "kubejs:atm_star_shard_3"
+					}
+					type: "item"
+				}
+				{
+					id: "78E654471D39F838"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "rsquare"
+			size: 1.2d
+			tasks: [{
+				id: "259990BB80D272C4"
+				item: { count: 1, id: "kubejs:atm_star_shard_3" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			id: "7C9154EF6068BE27"
+			invisible: true
+			tasks: [{
+				id: "25AE4E531CE97B98"
+				item: { count: 1, id: "mekanism:crusher" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.5d
+		}
+		{
+			id: "635BA2C17458E9E6"
+			rewards: [
+				{
+					count: 10
+					id: "4807F901041B4784"
+					item: {
+						count: 1
+						id: "actuallyadditions:black_quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "4A1800CE10CC2457"
+					item: {
+						count: 1
+						id: "minecraft:redstone_torch"
+					}
+					type: "item"
+				}
+				{
+					id: "48F96D04CAA8EBFE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "5009176C08B11874"
+				item: { count: 1, id: "actuallyadditions:atomic_reconstructor" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["635BA2C17458E9E6"]
+			id: "3D755073C56274BE"
+			rewards: [
+				{
+					id: "20F75CAA3520A914"
+					item: {
+						count: 1
+						id: "actuallyadditions:lens_of_the_miner"
+					}
+					type: "item"
+				}
+				{
+					id: "2E64B6A49D87EC1C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "47386367EF7911CB"
+				item: { count: 1, id: "actuallyadditions:lens_of_certain_death" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D755073C56274BE"]
+			hide_dependent_lines: true
+			id: "71B72958B9F80355"
+			rewards: [
+				{
+					id: "4124C3EBF6BA198F"
+					item: {
+						count: 1
+						id: "actuallyadditions:lens_of_the_killer"
+					}
+					type: "item"
+				}
+				{
+					id: "3C0123B8C48F46CD"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "547CD5C257EE622C"
+				item: { count: 1, id: "actuallyadditions:lens_of_the_killer" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["360B150190A5C894"]
+			icon: {
+				id: "apothic_enchanting:infused_breath"
+			}
+			id: "4A6B585C2394A89A"
+			rewards: [
+				{
+					count: 2
+					id: "3D18B3966AC8FCD0"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:mending": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6550EFC52212CB4A"
+					item: {
+						count: 1
+						id: "apothic_enchanting:infused_breath"
+					}
+					type: "item"
+				}
+				{
+					id: "0E80E0BF5D6ED1BB"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					id: "5825A49FC04949D1"
+					item: { count: 1, id: "apothic_enchanting:infused_breath" }
+					type: "item"
+				}
+				{
+					id: "012550B8C5B1BBCC"
+					item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:mending": 1 } } }, count: 1, id: "minecraft:enchanted_book" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4A6B585C2394A89A"]
+			hide_dependent_lines: true
+			id: "203C91B992BA8CF9"
+			rewards: [
+				{
+					id: "52DD10429EC572DF"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"extra\":[{\"italic\":false,\"text\":\"Infused Patrick Star\"}],\"text\":\"\"}"
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:mending": 1
+								}
+							}
+						}
+						count: 1
+						id: "allthetweaks:patrick_star"
+					}
+					type: "item"
+				}
+				{
+					id: "7865936A923AE82F"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "pentagon"
+			size: 1.3d
+			tasks: [{
+				id: "4F0B4843BED80B46"
+				item: { components: { "minecraft:custom_name": "{\"extra\":[{\"italic\":false,\"text\":\"Infused Patrick Star\"}],\"text\":\"\"}", "minecraft:enchantments": { levels: { "minecraft:mending": 1 } } }, count: 1, id: "allthetweaks:patrick_star" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1FFF00B5D90C3905"]
+			hide_dependent_lines: true
+			id: "14C27D44D3C8EDF5"
+			rewards: [
+				{
+					count: 16
+					id: "53C81A91A52EAD75"
+					item: {
+						count: 1
+						id: "forbidden_arcanus:mundabitur_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "11A7EFC2F5B138B6"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "1399A1FA540CF863"
+				item: { count: 1, id: "forbidden_arcanus:mundabitur_dust" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["00F00B0B66059996"]
+			hide_dependent_lines: true
+			id: "427BBEB1F24E9DEE"
+			rewards: [
+				{
+					count: 16
+					id: "59797F0AF8B83DB7"
+					item: {
+						count: 1
+						id: "forbidden_arcanus:corrupti_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "0D4F7261285E01B0"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "74C339EDFD72642A"
+				item: { count: 1, id: "forbidden_arcanus:corrupti_dust" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			id: "1FFF00B5D90C3905"
+			rewards: [
+				{
+					id: "370989F0ADFEE0EC"
+					item: {
+						count: 1
+						id: "forbidden_arcanus:arcane_crystal_block"
+					}
+					type: "item"
+				}
+				{
+					id: "1B59BB41155FFE55"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7F8F61CB2A5279F1"
+				item: { count: 1, id: "forbidden_arcanus:arcane_crystal" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+	]
+}

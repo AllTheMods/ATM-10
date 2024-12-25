@@ -21,6 +21,18 @@ ServerEvents.tags('item', allthemods => {
         allthemods.add('extended_industrialization:farmer_plantable', seeds)
         allthemods.add('ars_nouveau:whirlisprig/denied_drop', seeds)
     }
+    allthemods.add('mysticalagriculture:essences', [
+        'mysticalagriculture:allthemodium_essence',
+        'mysticalagriculture:darkstone_essence',
+        'mysticalagriculture:kivi_essence',
+        'mysticalagriculture:unexplored_wood_essence',
+        'mysticalagriculture:unobtainium_essence',
+        'mysticalagriculture:vibranium_essence',
+        'mysticalagriculture:crimson_iron_essence',
+        'mysticalagriculture:azure_silver_essence',
+        'mysticalagriculture:entro_essence',
+        'mysticalagriculture:sky_steel_essence'
+      ])
 })
 
 ServerEvents.tags('block', allthemods => {

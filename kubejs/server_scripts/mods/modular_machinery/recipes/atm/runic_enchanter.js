@@ -1048,6 +1048,16 @@ ServerEvents.recipes(allthemods => {
             .width(133)
             .requireItem('minecraft:dragon_breath', 31, 27)
             .produceItem('3x apothic_enchanting:infused_breath', 107, 27)
+
+        allthemods.recipes.modular_machinery_reborn.machine_recipe('atm:runic_enchanter', 100)
+            .requireSource(500 * 45, 8, 17)
+            .requireFluid(Fluid.of('justdirethings:xp_fluid_source', 140 * 45), 8, 37)
+            .progressX(67)
+            .progressY(28)
+            .height(87)
+            .width(133)
+            .requireItem('apothic_enchanting:hellshelf', 31, 27)
+            .produceItem('apothic_enchanting:infused_hellshelf', 107, 27)
            
 })
 

@@ -78,7 +78,7 @@ ServerEvents.recipes(allthemods => {
                 A: 'allthetweaks:atm_star',
                 B: 'evilcraft:promise_tier_3',
                 C: 'evilcraft:flesh_rejuvenated[cyclopscore:fluid_content={amount:10000,id:"evilcraft:blood"}]',
-                D: 'evilcraft:mace_of_distortion[cyclopscore:fluid_content={amount:10000,id:"evilcraft:blood"}]',
+                D: 'evilcraft:mace_of_distortion[cyclopscore:fluid_content={amount:4000,id:"evilcraft:blood"}]',
                 E: 'evilcraft:necromancer_staff[cyclopscore:fluid_content={amount:10000,id:"evilcraft:blood"}]',
                 F: 'evilcraft:broom[cyclopscore:fluid_content={amount:10000,id:"evilcraft:blood"}]',
     }
