@@ -1,0 +1,1266 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "mahou_tsukai"
+	group: "15E5B587D291A4AA"
+	id: "43BB00A7A7E1042C"
+	images: [
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/mahou/mahou_tsukai.png"
+			rotation: 0.0d
+			width: 16.258823529411764d
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			height: 0.75d
+			image: "atm:textures/questpics/mahou/mahou_generation.png"
+			rotation: 0.0d
+			width: 9.0635593220339d
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			height: 0.75d
+			image: "atm:textures/questpics/mahou/mahou_clarent.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.080508474576271d
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			height: 0.75d
+			image: "atm:textures/questpics/mahou/mahou_nobu.png"
+			rotation: 0.0d
+			width: 2.6186440677966103d
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			height: 0.75d
+			image: "atm:textures/questpics/mahou/mahou_emrys.png"
+			order: 1
+			rotation: 0.0d
+			width: 3.1144067796610164d
+			x: -9.5d
+			y: -3.5d
+		}
+		{
+			height: 0.75d
+			image: "atm:textures/questpics/mahou/mahou_replica.png"
+			rotation: 0.0d
+			width: 3.8008474576271185d
+			x: -6.5d
+			y: -7.5d
+		}
+		{
+			height: 0.75d
+			image: "atm:textures/questpics/mahou/mahou_disorientation.png"
+			rotation: 0.0d
+			width: 10.652542372881356d
+			x: 0.5d
+			y: -13.0d
+		}
+		{
+			height: 0.75d
+			image: "atm:textures/questpics/mahou/mahou_explosion.png"
+			order: 1
+			rotation: 0.0d
+			width: 8.199152542372882d
+			x: -3.5d
+			y: -11.0d
+		}
+		{
+			height: 0.75d
+			image: "atm:textures/questpics/mahou/mahou_bow.png"
+			rotation: 0.0d
+			width: 6.332142857142857d
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			height: 0.75d
+			image: "atm:textures/questpics/mahou/mahou_keys.png"
+			order: 1
+			rotation: 0.0d
+			width: 6.522727272727273d
+			x: 4.0d
+			y: -11.0d
+		}
+		{
+			height: 0.75d
+			image: "atm:textures/questpics/mahou/mahou_caliburn.png"
+			rotation: 0.0d
+			width: 4.525423728813559d
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			height: 0.75d
+			image: "atm:textures/questpics/mahou/mahou_morgan.png"
+			rotation: 0.0d
+			width: 3.851694915254237d
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			height: 7.0d
+			image: "mahoutsukai:item/morgan"
+			rotation: 0.0d
+			width: 7.0d
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			height: 8.0d
+			image: "mahoutsukai:block/mahoujin"
+			rotation: 0.0d
+			width: 8.0d
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			height: 4.0d
+			image: "mahoutsukai:block/mahoujin_casting"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			height: 5.0d
+			image: "mahoutsukai:block/mahoujin_changeable_fae"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.5d
+			y: -10.0d
+		}
+		{
+			height: 3.0d
+			image: "mahoutsukai:block/mahoujin_changeable"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: -3.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				id: "mahoutsukai:mahoujin_projector"
+			}
+			id: "4A88472F1581EE7E"
+			rewards: [{
+				id: "033B32F09F74A32C"
+				item: {
+					count: 1
+					id: "mahoutsukai:guidebook"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				advancement: "mahoutsukai:root"
+				criterion: ""
+				id: "7878FC796BBFCF10"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4A88472F1581EE7E"]
+			hide_dependent_lines: true
+			id: "6AD061C4331BE1F8"
+			rewards: [{
+				id: "28591588C437277B"
+				item: {
+					count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "5BED745AE359BD12"
+				item: { count: 1, id: "mahoutsukai:attuner" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4A88472F1581EE7E"]
+			hide_dependent_lines: true
+			id: "7F7ED94590B5B857"
+			rewards: [{
+				count: 6
+				id: "62F3F6EBBB74AAF2"
+				item: {
+					count: 1
+					id: "mahoutsukai:spell_cloth"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3403F270D9F328B9"
+					item: { count: 1, id: "mahoutsukai:spell_cloth" }
+					type: "item"
+				}
+				{
+					id: "16862BF857843EC4"
+					item: { count: 1, id: "mahoutsukai:dagger" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4A88472F1581EE7E"]
+			hide_dependent_lines: true
+			id: "54E6C0D1BB442184"
+			rewards: [{
+				count: 2
+				id: "2EB287B466EDBF8C"
+				item: {
+					count: 1
+					id: "minecraft:ender_eye"
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "2AD6E59C532B0676"
+				item: { count: 1, id: "mahoutsukai:mortar_and_pestle" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"6AD061C4331BE1F8"
+				"54E6C0D1BB442184"
+			]
+			icon: {
+				id: "evilcraft:blood_stain"
+			}
+			id: "0D19FB62C2C1D9F7"
+			rewards: [
+				{
+					count: 9
+					id: "02340AC7D3461843"
+					item: {
+						count: 1
+						id: "mob_grinding_utils:dreadful_dirt"
+					}
+					type: "item"
+				}
+				{
+					id: "34FD1AAAEF75CA9A"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					count: 2L
+					id: "4A084703BE712433"
+					item: { count: 2, id: "mahoutsukai:powdered_iron" }
+					type: "item"
+				}
+				{
+					id: "5B766A8E75D11F3A"
+					item: { count: 1, id: "mahoutsukai:powdered_emerald" }
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6AD061C4331BE1F8"
+				"54E6C0D1BB442184"
+			]
+			icon: {
+				id: "minecraft:netherite_shovel"
+			}
+			id: "5149BDF6BC4B3857"
+			rewards: [
+				{
+					id: "2156D68CF5490BD5"
+					item: {
+						count: 1
+						id: "minecraft:diamond_shovel"
+					}
+					type: "item"
+				}
+				{
+					id: "0D70B5103CAD320D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "72E60474B84AC3C6"
+					item: { count: 1, id: "mahoutsukai:powdered_diamond" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5AE0B9B99B80AE07"
+					item: { count: 2, id: "mahoutsukai:powdered_emerald" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6AD061C4331BE1F8"
+				"54E6C0D1BB442184"
+			]
+			icon: {
+				id: "mahoutsukai:mahoujin_projector"
+			}
+			id: "73325912C84F64A5"
+			rewards: [
+				{
+					id: "33DF95912BA1D475"
+					item: {
+						count: 1
+						id: "mahoutsukai:attuned_diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "55A0F5909E8F3D76"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "34EFE899FB9B266E"
+					item: { count: 1, id: "mahoutsukai:powdered_quartz" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "17FF908275004895"
+					item: { count: 2, id: "mahoutsukai:powdered_emerald" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			id: "565703CBB06CEABF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "01179EDB257DAF60"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "03B8FA520122B5F6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "586916ED82D2DD2C"
+				item: { count: 1, id: "minecraft:diamond_sword" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"565703CBB06CEABF"
+				"3907E68572324333"
+				"0A1FBDA0C1314DE1"
+			]
+			id: "59FD3C4E415EEDDD"
+			rewards: [
+				{
+					id: "03598DB77462DDE7"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:smite": 5
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "765C27CCC822B144"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "143C258C8C808BF4"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "2C55B6F6B7DCFA14"
+				item: { count: 1, id: "mahoutsukai:murky_bucket" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["54E6C0D1BB442184"]
+			id: "3907E68572324333"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "77A50E4F0B8E7DE1"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "459C0FCAB1EFFF8B"
+					type: "xp"
+					xp: 200
+				}
+			]
+			size: 1.2d
+			tasks: [
+				{
+					count: 2L
+					id: "2214CCA41C2062D5"
+					item: { count: 2, id: "mahoutsukai:powdered_diamond" }
+					type: "item"
+				}
+				{
+					id: "7173DA8F45027624"
+					item: { count: 1, id: "mahoutsukai:powdered_emerald" }
+					type: "item"
+				}
+			]
+			x: 5.25d
+			y: -2.75d
+		}
+		{
+			dependencies: ["6AD061C4331BE1F8"]
+			id: "0A1FBDA0C1314DE1"
+			rewards: [
+				{
+					id: "35C7FFABBE6BECEE"
+					item: {
+						count: 1
+						id: "mahoutsukai:attuned_diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "02083D9418242263"
+					type: "xp"
+					xp: 200
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "0DFE8322F1043E90"
+				item: { count: 1, id: "mahoutsukai:attuned_emerald" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["59FD3C4E415EEDDD"]
+			id: "03DCDFB32CD4BD85"
+			rewards: [
+				{
+					count: 3
+					id: "440EBE35EB9E543E"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:smite": 5
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4775C10EF9798BD4"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "55E443447C2A341F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "3AFBB5C47474BFB0"
+				item: { components: { "mahoutsukai:sword_mahou": { attackDamage: 3.0f, innateCap: 60.0d } }, count: 1, id: "mahoutsukai:caliburn" }
+				type: "item"
+			}]
+			x: 6.75d
+			y: -2.75d
+		}
+		{
+			dependencies: ["03DCDFB32CD4BD85"]
+			id: "012912FDAFCD1C66"
+			rewards: [
+				{
+					id: "5B93BDA18731DC58"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:smite": 5
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3BE344A9F21DD89C"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "6FEC6C0184E8B397"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				count: 26L
+				id: "2BF1BB45FFC6AC2E"
+				item: { count: 26, id: "irons_spellbooks:ender_upgrade_orb" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["012912FDAFCD1C66"]
+			id: "795FA102F6577368"
+			rewards: [
+				{
+					id: "1AFD5A52DD673687"
+					item: {
+						count: 1
+						id: "minecraft:villager_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "434EE6A766FE4292"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "0C0B8377102EABD4"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "6A8295B93E5034B8"
+				item: { components: { "mahoutsukai:colors_mahou": { colors: [ ] }, "mahoutsukai:sword_mahou": { attackDamage: 3.0f, innateCap: 60.0d } }, count: 1, id: "mahoutsukai:morgan" }
+				type: "item"
+			}]
+			x: 8.25d
+			y: -4.25d
+		}
+		{
+			dependencies: ["795FA102F6577368"]
+			id: "777BB82B56038ED3"
+			rewards: [
+				{
+					id: "5D3951C458EB1B00"
+					item: {
+						count: 1
+						id: "reliquary:pedestals/passive/red_passive_pedestal"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A3670D0BA3BBD12"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "22511C3ABCAEB755"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				entity: "minecraft:villager"
+				id: "3BB63555AA0CEB4A"
+				type: "kill"
+				value: 10L
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"7F7ED94590B5B857"
+				"54E6C0D1BB442184"
+			]
+			id: "5F9B8ACCE0C8389E"
+			rewards: [
+				{
+					count: 4
+					id: "668189FC9F7E09BF"
+					item: {
+						count: 1
+						id: "minecraft:stick"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F533C290D351F3F"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "537AFE9A45C8B3E2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					count: 2L
+					id: "21CEAE027D983282"
+					item: { count: 2, id: "mahoutsukai:powdered_diamond" }
+					type: "item"
+				}
+				{
+					id: "1B2952B260D5C432"
+					item: { count: 1, id: "mahoutsukai:powdered_iron" }
+					type: "item"
+				}
+				{
+					id: "210B395A33A40FE7"
+					item: { count: 1, id: "mahoutsukai:spell_cloth" }
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F9B8ACCE0C8389E"]
+			id: "21D323D95F5A7DB3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2A12A247414E3E19"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "62353E183B4A53D4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "049799C40545AB1C"
+				item: { count: 1, id: "minecraft:stick" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["21D323D95F5A7DB3"]
+			id: "5FD4FB9D24586B9B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "31207888D6B7BF06"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "792700A0E5536D27"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "05CBA43926D96707"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "4ABE3C758C42EB4E"
+				item: { count: 1, id: "mahoutsukai:staff_emrys" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F9B8ACCE0C8389E"]
+			id: "53829B3E51936ACD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56934D49F6E14AF2"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "29C9D36E3BFF3D61"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "2FD63B9DA3F02205"
+				item: { count: 1, id: "minecraft:diamond_sword" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["53829B3E51936ACD"]
+			id: "63768C7B988ED22B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B1B35F5CC4DB8B6"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "66F4ABC1E58BB128"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "1B5C5B315310C781"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "32BDABD1D7BCAA9C"
+				item: { count: 1, id: "mahoutsukai:clarent" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5F9B8ACCE0C8389E"]
+			id: "002B8F2DE2CB4D2C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E489DA04C2BE0E1"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "0C18016993FC8EB2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "1E87CE2F633083A4"
+				item: { count: 1, id: "minecraft:shield" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["002B8F2DE2CB4D2C"]
+			id: "3FB0F22BEF7FE622"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "03D7C9486D9CB118"
+				table_id: 8618912459734780562L
+				type: "random"
+			}]
+			tasks: [{
+				id: "056F5C51843197C1"
+				item: { count: 1, id: "mahoutsukai:scroll_damage_exchange" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["002B8F2DE2CB4D2C"]
+			id: "731A4846BC556AE1"
+			rewards: [{
+				count: 9
+				id: "6B765B1257BF468B"
+				item: {
+					count: 1
+					id: "mob_grinding_utils:delightful_dirt"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "303DC4CF00EBF72D"
+				item: { count: 1, id: "mahoutsukai:scroll_death_collection" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["002B8F2DE2CB4D2C"]
+			id: "2D08BCF993B241B8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0458D38452376B1B"
+				table_id: 8618912459734780562L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4C0F43FF42AE41C8"
+				item: { count: 1, id: "mahoutsukai:scroll_immunity_exchange" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3FB0F22BEF7FE622"
+				"731A4846BC556AE1"
+				"2D08BCF993B241B8"
+			]
+			id: "378105383747DD48"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1F233105512040B2"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "09640C870C18F3CF"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "14458FE3B5274AD9"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "09C6B3425E2D28C6"
+				item: { components: { "mahoutsukai:replica_mahou": { friendly: 1b, slot: 0, types: [ ] } }, count: 1, id: "mahoutsukai:replica" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["5F9B8ACCE0C8389E"]
+			id: "146AF0937D9C63DE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "312F85E72BD356A0"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "6E543F7405DD4F30"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "04BEDF6241255FB3"
+				item: { count: 1, id: "minecraft:bow" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["146AF0937D9C63DE"]
+			id: "6E04A314CD796254"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F4AE8C182D4B153"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "076B264F6F616BBF"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "51C56155CD73308D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "74EEFA68C5C602FE"
+				item: { components: { "mahoutsukai:colors_mahou": { colors: [ ] } }, count: 1, id: "mahoutsukai:nobu" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"54E6C0D1BB442184"
+				"7F7ED94590B5B857"
+			]
+			id: "7992C63F063BE908"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "309EA5143A13EC8E"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "3750C482B3E06A5C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "381CBCFB71018C25"
+					item: { count: 2, id: "mahoutsukai:powdered_gold" }
+					type: "item"
+				}
+				{
+					id: "268FD4E46EA238E7"
+					item: { count: 1, id: "mahoutsukai:powdered_diamond" }
+					type: "item"
+				}
+				{
+					id: "1E1F53A59347E65E"
+					item: { count: 1, id: "mahoutsukai:spell_cloth" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7992C63F063BE908"]
+			id: "4C647369D976E67E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "508FD39CC6BFDB83"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1A0A792F03CF449D"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "7DACB5F752140619"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "18B0DF3F88158F35"
+				item: { count: 1, id: "mahoutsukai:mystic_staff" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"54E6C0D1BB442184"
+				"7F7ED94590B5B857"
+			]
+			id: "5EF54E0EB14024D1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1A2932AF971EABA4"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "392615B0491BEE8C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "18980EBAE4ED777A"
+					item: { count: 2, id: "mahoutsukai:powdered_gold" }
+					type: "item"
+				}
+				{
+					id: "7FC1E468111BF468"
+					item: { count: 1, id: "mahoutsukai:powdered_ender" }
+					type: "item"
+				}
+				{
+					id: "6F027A96876BC5BE"
+					item: { count: 1, id: "mahoutsukai:spell_cloth" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5EF54E0EB14024D1"]
+			id: "34DACB973CBDE129"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B6EF6862A0C4D18"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FC1CCAB3985F4BE"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "2D413E59B50EB81A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "3066CF1FA66F6B40"
+				item: { count: 1, id: "mahoutsukai:spatial_disorientation_staff" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"54E6C0D1BB442184"
+				"7F7ED94590B5B857"
+			]
+			id: "3E89BC6875790952"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "53572E3F28FB6BE0"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "72030A8B9ADC4654"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "0754EB6E2BC4CBE4"
+					item: { count: 2, id: "mahoutsukai:powdered_diamond" }
+					type: "item"
+				}
+				{
+					id: "49B29D6704E49828"
+					item: { count: 1, id: "mahoutsukai:powdered_ender" }
+					type: "item"
+				}
+				{
+					id: "7997526C86FB2F81"
+					item: { count: 1, id: "mahoutsukai:spell_cloth" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["3E89BC6875790952"]
+			id: "5212A4D67B1851EF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4477CB641F70A0A6"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "491BDED3BF4B2E6B"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "5AFF3DE6D25A841D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "7921DC93B0D4A9D2"
+				item: { count: 1, id: "mahoutsukai:proximity_projection_keys" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"54E6C0D1BB442184"
+				"7F7ED94590B5B857"
+			]
+			id: "3FF97A4B5029C0E7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "22B16AB6B842FA6A"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "16F53E2CAE15D227"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "664ADBD5CACCEC65"
+					item: { count: 2, id: "mahoutsukai:powdered_gold" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "72625D241B682131"
+					item: { count: 1, id: "mahoutsukai:powdered_diamond" }
+					type: "item"
+				}
+				{
+					id: "3493A768C43A84D2"
+					item: { count: 1, id: "mahoutsukai:spell_cloth" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3FF97A4B5029C0E7"]
+			id: "667B95A687703D6D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7E547E7BC44FC884"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CD14CAEBA70106A"
+					table_id: 8618912459734780562L
+					type: "random"
+				}
+				{
+					id: "7BC519962004A3C0"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "6068B969875D0516"
+				item: { components: { "mahoutsukai:colors_mahou": { colors: [ ] } }, count: 1, id: "mahoutsukai:weapon_projectile_bow" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+	]
+}
