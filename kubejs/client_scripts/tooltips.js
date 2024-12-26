@@ -161,6 +161,11 @@ ItemEvents.modifyTooltips(allthemods => {
         Text.of("§7Check your Keybinds for \"Open Belt Slot Inventory\"")
     ])
 
+	//Easy Villagers
+    allthemods.add(['easy_villagers:trader', 'easy_villagers:auto_trader'], [
+        Text.of("§aRight click with job site block to put it inside and allow trade restocking")
+    ])
+
 })
 
 
