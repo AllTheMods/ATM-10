@@ -2368,7 +2368,7 @@
 			}]
 			tasks: [{
 				id: "6AA15FFFC5961428"
-				item: { components: { "relics:data": { abilities: { abilities: { claws: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.20861d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:digging_claws" }
+				item: { components: { "relics:data": { abilities: { abilities: { claws: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.20861d } } }, fast_mining: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { modifier: { initialValue: 0.32347d } } }, passive: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:digging_claws" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -2890,7 +2890,7 @@
 			y: -6.5d
 		}
 		{
-			dependencies: ["2094D1CE4BA66091"]
+			dependencies: ["0A21773B773F34F8"]
 			id: "7DABD82393713B5A"
 			rewards: [{
 				count: 16
@@ -2903,11 +2903,11 @@
 			}]
 			tasks: [{
 				id: "022D9FAD58AEE2C8"
-				item: { components: { "ftbfiltersystem:filter": "or(mod(antiblocksrechiseled))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(mod(luminax))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 11.5d
-			y: -3.0d
+			x: -2.5d
+			y: 2.0d
 		}
 	]
 }
