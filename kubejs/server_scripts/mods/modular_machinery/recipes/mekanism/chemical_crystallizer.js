@@ -32,7 +32,7 @@ ServerEvents.recipes(allthemods => {
     }
 
     for (const [input, [amount,output]] of Object.entries(recipes)) {
-        allthemods.recipes.modular_machinery_reborn.machine_recipe('atm:chemical_crystallizer', 200)
+        allthemods.recipes.modular_machinery_reborn.machine_recipe('atm:chemical_crystallizer', 20)
             .requireEnergy(multiplier * energy, 8, 8)
             .requireChemical(`${amount * multiplier}x ${input}`, 31, 26)
             .progressX(64)
