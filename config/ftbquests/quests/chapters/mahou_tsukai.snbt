@@ -3,6 +3,18 @@
 	default_quest_shape: "diamond"
 	filename: "mahou_tsukai"
 	group: "15E5B587D291A4AA"
+	icon: {
+		components: {
+			"mahoutsukai:colors_mahou": {
+				colors: [ ]
+			}
+			"mahoutsukai:sword_mahou": {
+				attackDamage: 3.0f
+				innateCap: 60.0d
+			}
+		}
+		id: "mahoutsukai:morgan"
+	}
 	id: "43BB00A7A7E1042C"
 	images: [
 		{
@@ -571,9 +583,8 @@
 			]
 			size: 1.2d
 			tasks: [{
-				count: 26L
-				id: "2BF1BB45FFC6AC2E"
-				item: { count: 26, id: "irons_spellbooks:ender_upgrade_orb" }
+				id: "6DC9B5F714C6FE8C"
+				item: { count: 1, id: "minecraft:nether_star" }
 				type: "item"
 			}]
 			x: 7.5d
