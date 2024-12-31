@@ -17,18 +17,18 @@ ServerEvents.recipes(allthemods => {
         'uranium' : 'alltheores:dirty_uranium',
         'zinc' : 'alltheores:dirty_zinc',
         'iridium' : 'alltheores:dirty_iridium',
+        'copper' : 'alltheores:dirty_copper',
+        'iron' : 'alltheores:dirty_iron',
+        'gold' : 'alltheores:dirty_gold',
         'allthemodium' : 'allthemodium:dirty_allthemodium',
         'vibranium' : 'allthemodium:dirty_vibranium',
         'unobtainium' : 'allthemodium:dirty_unobtainium',
-        'copper' : 'mekanism:dirty_copper',
-        'iron' : 'mekanism:dirty_iron',
-        'gold' : 'mekanism:dirty_gold',
         'crimson_iron' : 'kubejs:dirty_crimson_iron',
         'azure_silver' : 'kubejs:dirty_azure_silver',
     }
 
     for (const [input, output] of Object.entries(recipes)) {
-        allthemods.recipes.modular_machinery_reborn.machine_recipe('atm:chemical_dissolution_chamber', 100)
+        allthemods.recipes.modular_machinery_reborn.machine_recipe('atm:chemical_dissolution_chamber', 10)
             .requireEnergy(multiplier * energy, 8, 8)
             .requireItem(`${multiplier}x #c:ores/${input}`, 31, 17)
             .requireChemical(`${100 * multiplier}x mekanism:sulfuric_acid`, 31, 36)
@@ -39,7 +39,7 @@ ServerEvents.recipes(allthemods => {
             .width(126)
             .height(84)
 
-        allthemods.recipes.modular_machinery_reborn.machine_recipe('atm:chemical_dissolution_chamber', 50)
+        allthemods.recipes.modular_machinery_reborn.machine_recipe('atm:chemical_dissolution_chamber', 5)
             .requireEnergy(multiplier * energy, 8, 8)
             .requireItem(`${3 * multiplier}x #c:raw_materials/${input}`, 31, 17)
             .requireChemical(`${100 * multiplier}x mekanism:sulfuric_acid`, 31, 36)
@@ -50,7 +50,7 @@ ServerEvents.recipes(allthemods => {
             .width(126)
             .height(84)
 
-        allthemods.recipes.modular_machinery_reborn.machine_recipe('atm:chemical_dissolution_chamber', 50)
+        allthemods.recipes.modular_machinery_reborn.machine_recipe('atm:chemical_dissolution_chamber', 5)
             .requireEnergy(multiplier * energy, 8, 8)
             .requireItem(`${multiplier}x #c:storage_blocks/raw_${input}`, 31, 17)
             .requireChemical(`${200 * multiplier}x mekanism:sulfuric_acid`, 31, 36)

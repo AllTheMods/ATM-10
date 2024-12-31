@@ -27,46 +27,26 @@ ServerEvents.recipes(allthemods => {
     }
 
     //Minecraft
-        addAACrusher('minecraft:raw_iron', 'alltheores:iron_dust')
-        addAACrusher('minecraft:raw_copper', 'alltheores:copper_dust')
-        addAACrusher('minecraft:raw_gold', 'alltheores:gold_dust')
+    addAACrusher('minecraft:raw_iron', 'alltheores:iron_dust')
+    addAACrusher('minecraft:raw_copper', 'alltheores:copper_dust')
+    addAACrusher('minecraft:raw_gold', 'alltheores:gold_dust')
 
     //AE2
-
     addAACrusher('#ae2:all_certus_quartz', 'ae2:certus_quartz_dust')
     addAACrusher('ae2:fluix_crystal', 'ae2:fluix_dust')
     addAACrusher('ae2:sky_stone_block', 'ae2:sky_dust')
     addAACrusher('#c:ender_pearls', 'ae2:ender_dust')
 
-    //ATO
-
-        let ATO = [
-            'aluminum',
-            'lead',
-            'nickel',
-            'osmium',
-            'platinum',
-            'silver',
-            'tin',
-            'uranium',
-            'zinc',
-            'iridium'
-        ]
-
-        for (let ore of ATO) {
-            addAACrusher(`#c:raw_materials/${ore}`, `alltheores:${ore}_dust`)
-        }
-
     //Silent Gear
-        addAACrusher('silentgear:raw_crimson_iron', 'silentgear:crimson_iron_dust')
-        addAACrusher('silentgear:raw_azure_silver', 'silentgear:azure_silver_dust')
+    addAACrusher('silentgear:raw_crimson_iron', 'silentgear:crimson_iron_dust')
+    addAACrusher('silentgear:raw_azure_silver', 'silentgear:azure_silver_dust')
 
     //Occultism
-        addAACrusher('occultism:raw_iesnium', 'occultism:iesnium_dust')
+    addAACrusher('occultism:raw_iesnium', 'occultism:iesnium_dust')
 
-    //Modern Industrialisation
-        addAACrusher('modern_industrialization:raw_antimony', 'modern_industrialization:antimony_dust')
-        addAACrusher('modern_industrialization:raw_tungsten', 'modern_industrialization:tungsten_dust')
+    //Modern Industrialization
+    addAACrusher('modern_industrialization:raw_antimony', 'modern_industrialization:antimony_dust')
+    addAACrusher('modern_industrialization:raw_tungsten', 'modern_industrialization:tungsten_dust')
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
