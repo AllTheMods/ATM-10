@@ -3,7 +3,7 @@
 
 ServerEvents.recipes(allthemods => {
 
-    let multiplier = 256
+    let multiplier = 1024
     let energy = 512
 
     const recipes = {
@@ -13,7 +13,7 @@ ServerEvents.recipes(allthemods => {
     }
 
     for (const [input, [amount, [output1, amount1], [output2, amount2]]] of Object.entries(recipes)) {
-        allthemods.recipes.modular_machinery_reborn.machine_recipe('atm:electrolytic_seperator', 20)
+        allthemods.recipes.modular_machinery_reborn.machine_recipe('atm:electrolytic_seperator', 5)
             .requireEnergy(multiplier * energy, 8, 8)
             .requireFluid(`${amount * multiplier}x ${input}`, 31, 26)
             .progressX(64)
