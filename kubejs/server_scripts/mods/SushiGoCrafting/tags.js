@@ -2,7 +2,6 @@
 //It's quite possible that many of these tags are redundant somehow
 ServerEvents.tags('item', allthemods => {
 //Soybean
-    allthemods.remove('c:crops/soy_bean', 'sushigocrafting:soy_bean')
     allthemods.add('c:crops', 'sushigocrafting:soy_bean')
     allthemods.add('c:crops/soybean', 'sushigocrafting:soy_bean')
     allthemods.add('c:flour_plants/soybean', 'sushigocrafting:soy_bean')
