@@ -32,6 +32,7 @@ ServerEvents.recipes(allthemods => {
     allthemods.custom({
       type: 'enderio:sag_milling',
       energy: 2400,
+      bonus: 'none',
       input: {
         tag: `c:raw_materials/${sag.material}`
       },
