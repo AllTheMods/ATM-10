@@ -109,6 +109,7 @@ ServerEvents.recipes(allthemods => {
     if(!allthemods.countRecipes({ input: `#c:ingots/${sag.material}`, type: `enderio:sag_milling`})){
       allthemods.custom({
         type: 'enderio:sag_milling',
+        bonus: "none",
         energy: 2400,
         input: {
           tag: `c:ingots/${sag.material}`
