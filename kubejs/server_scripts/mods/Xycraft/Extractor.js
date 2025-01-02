@@ -104,9 +104,9 @@ ServerEvents.recipes(allthemods => {
         output: { item:"minecraft:spore_blossom", count: 1 },
         target: { type: "xycraft_core:block_rule", block: "minecraft:moss_block" },
         catalyst: {type: "xycraft_core:block_rule", block: "minecraft:spore_blossom" },
-        ticks: 200,
+        ticks: 100,
         waterlogged: 'minecraft:water',
-        directions: ["up"]
+        directions: ["down"]
     })
 
     extractor({
@@ -126,7 +126,7 @@ ServerEvents.recipes(allthemods => {
             { type: "xycraft_core:block_rule", block: "xycraft_world:xychorium_storage_blue" }
         ],
         catalyst: { type: "xycraft_core:fluid_type_rule", block: "minecraft:lava" },
-        ticks: 80,
+        ticks: 20,
     })
 
     extractor({
@@ -139,7 +139,7 @@ ServerEvents.recipes(allthemods => {
             { type: "xycraft_core:block_rule", block: "xycraft_world:xychorium_storage_green" }
         ],
         catalyst: { type: "xycraft_core:fluid_type_rule", block: "minecraft:lava" },
-        ticks: 80,
+        ticks: 20,
     })
 
     extractor({
@@ -152,7 +152,7 @@ ServerEvents.recipes(allthemods => {
             { type: "xycraft_core:block_rule", block: "xycraft_world:xychorium_storage_red" }
         ],
         catalyst: { type: "xycraft_core:fluid_type_rule", block: "minecraft:lava" },
-        ticks: 80,
+        ticks: 20,
     })
 
     extractor({
@@ -165,7 +165,7 @@ ServerEvents.recipes(allthemods => {
             { type: "xycraft_core:block_rule", block: "xycraft_world:xychorium_storage_dark" }
         ],
         catalyst: { type: "xycraft_core:fluid_type_rule", block: "minecraft:lava" },
-        ticks: 80,
+        ticks: 20,
     })
 
     extractor({
@@ -178,7 +178,7 @@ ServerEvents.recipes(allthemods => {
             { type: "xycraft_core:block_rule", block: "xycraft_world:xychorium_storage_light" }
         ],
         catalyst: { type: "xycraft_core:fluid_type_rule", block: "minecraft:lava" },
-        ticks: 80,
+        ticks: 20,
     })
 })
 
