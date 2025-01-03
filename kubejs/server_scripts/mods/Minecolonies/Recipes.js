@@ -37,7 +37,7 @@ if (Platform.isLoaded('minecolonies')) {
 //Onion replacement
         event.replaceInput({ input: 'minecolonies:onion' }, 'minecolonies:onion', '#c:crops/onion' )
 //Soybean replacement
-        event.replaceInput({ input: 'minecolonies:soybean' }, 'minecolonies:soybean', '#c:crops/onion' )
+        event.replaceInput({ input: 'minecolonies:soybean' }, 'minecolonies:soybean', '#c:crops/soybean' )
 //Tomato replacement
         event.replaceInput({ input: 'minecolonies:tomato' }, 'minecolonies:tomato', '#c:crops/tomato' )
 //Rice replacement

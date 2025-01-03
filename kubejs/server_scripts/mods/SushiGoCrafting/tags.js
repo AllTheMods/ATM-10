@@ -1,0 +1,43 @@
+//This file intended to help SushiGoCrafting crops / items be used in place of other crops / items in recipes, mirroring tags currently applied to crops / items of the same in-game name or intended purpose.
+//It's quite possible that many of these tags are redundant somehow
+ServerEvents.tags('item', allthemods => {
+//Soybean
+    allthemods.add('c:crops', 'sushigocrafting:soy_bean')
+    allthemods.add('c:crops/soybean', 'sushigocrafting:soy_bean')
+    allthemods.add('c:flour_plants/soybean', 'sushigocrafting:soy_bean')
+    allthemods.add('c:flour_plants', 'sushigocrafting:soy_bean')
+    allthemods.add('c:grain/soybean', 'sushigocrafting:soy_bean')
+    allthemods.add('c:grain', 'sushigocrafting:soy_bean')
+//Rice
+    allthemods.add('twilightforest:tiny_bird_tempt_items', 'sushigocrafting:rice')
+    allthemods.add('minecraft:chicken_food', 'sushigocrafting:rice')
+    allthemods.add('cookingforblockheads:ingredients', 'sushigocrafting:rice')
+    allthemods.add('twilightforest:raven_tempt_items', 'sushigocrafting:rice')
+    allthemods.add('c:crops/grain', 'sushigocrafting:rice')
+    allthemods.add('minecraft:parrot_food', 'sushigocrafting:rice')
+    allthemods.add('twilightforest:squirrel_tempt_items', 'sushigocrafting:rice')
+    allthemods.add('c:animal_foods', 'sushigocrafting:rice')
+    allthemods.add('c:paper_plants/rice', 'sushigocrafting:rice')
+    allthemods.add('c:paper_plants', 'sushigocrafting:rice')
+    allthemods.add('c:protein', 'sushigocrafting:rice')
+    allthemods.add('c:flour_plants', 'sushigocrafting:rice')
+    allthemods.add('c:carbs/rice', 'sushigocrafting:rice')
+    allthemods.add('c:flour_plants/rice', 'sushigocrafting:rice')
+    allthemods.add('c:grain/rice', 'sushigocrafting:rice')
+    allthemods.add('c:carbs', 'sushigocrafting:rice')
+    allthemods.add('c:vinegar_ingredients', 'sushigocrafting:rice')
+    allthemods.add('c:grain', 'sushigocrafting:rice')
+    allthemods.add('c:protein/rice', 'sushigocrafting:rice')
+//Avocado
+    allthemods.add('c:egg', 'sushigocrafting:avocado')
+    allthemods.add('c:egg/avocado', 'sushigocrafting:avocado')
+    allthemods.add('c:vegetables', 'sushigocrafting:avocado')
+    allthemods.add('c:vegetables/avocado', 'sushigocrafting:avocado')
+    allthemods.add('minecolonies:blacksmith_ingredient_excluded', 'sushigocrafting:avocado')
+    allthemods.add('minecolonies:compostables', 'sushigocrafting:avocado')
+//Cucumber
+    allthemods.add('c:vegetables', 'sushigocrafting:cucumber')
+    allthemods.add('c:vegetables/cucumber', 'sushigocrafting:cucumber')
+    allthemods.add('minecolonies:compostables', 'sushigocrafting:cucumber')
+    allthemods.add('c:salad_ingredients/cucumber', 'sushigocrafting:cucumber')
+})
