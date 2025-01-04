@@ -1,0 +1,11 @@
+[requester]
+	#The amount of requests a single ME Requester can hold.
+	# Default: 5
+	# Range: 1 ~ 64
+	requests = 24
+	#The amount of energy (in AE) the ME Requester drains from the ME network when idle.
+	# Default: 5.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	idle_energy = 5.0
+	#Whether the ME Requester requires an ME network channel to function.
+	require_channel = true
