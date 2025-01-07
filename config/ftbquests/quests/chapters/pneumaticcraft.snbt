@@ -158,7 +158,7 @@
 			y: 3.4d
 		}
 	]
-	order_index: 6
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -2572,11 +2572,8 @@
 			}]
 			shape: "rsquare"
 			tasks: [{
-				icon: {
-					id: "pneumaticcraft:entity_tracker_upgrade"
-				}
 				id: "1770D13680FE56E5"
-				item: { }
+				item: { count: 1, id: "pneumaticcraft:entity_tracker_upgrade" }
 				type: "item"
 			}]
 			x: 21.0d
