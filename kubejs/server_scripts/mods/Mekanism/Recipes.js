@@ -141,12 +141,9 @@ ServerEvents.recipes(allthemods => {
     'entro_crystal_to_dust'
   )
   
-  mekEnriching(
-    {item: 'alltheores:sulfur'},
-    {tag: 'c:ores/sulfur'},
-    'sulfur_ore_to_sulfur',
-    4
-  )
+  mekEnriching('mysticalagriculture:prosperity_shard', '#c:ores/prosperity', 'prosperity_ore_to_shard', 3)
+  mekEnriching('mysticalagriculture:inferium_essence', '#c:ores/inferium', 'prosperity_ore_to_shard', 3)
+  mekEnriching('theurgy:sal_ammoniac_crystal', '#c:ores/sal_ammoniac', 'prosperity_ore_to_shard', 3)
 
 })
 
