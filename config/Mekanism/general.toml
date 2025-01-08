@@ -33,7 +33,7 @@ maxSolarNeutronActivatorRate = 256
 	#Enable this to disable unboxing any block that has a fluid that would be vaporized on placement, instead of trying to vaporize it and leave the remainder of the block. For example with this disabled trying to unbox a waterlogged slab in the nether will leave just the slab, but with this enabled the cardboard box won't open.
 	strictUnboxing = false
 	#Any modids added to this list will not be able to have any of their blocks, picked up by the cardboard box. For example: ["mekanism"]
-	modBlacklist = ["waystones"]
+	modBlacklist = ["waystones","hyperbox"]
 
 #Settings for configuring the fill rates of tanks that are stored on items.
 [item_fill_rate]
