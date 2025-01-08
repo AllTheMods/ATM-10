@@ -44,6 +44,9 @@ METHOD_SHADER_BLACKLIST = [
 	# Cosmetic Armor Buttons in Inventory
 	"lain.mods.cos.impl.client.gui.GuiCosArmorToggleButton:renderWidget",
 	"lain.mods.cos.impl.client.gui.GuiCosArmorButton:renderWidget", 
+  	# Industrial Foregoing Tank UI
+  	"com.hrznstudio.titanium.client.screen.addon.TankScreenAddon:drawBackgroundLayer",
+   
 	# Ars Nouveau - Dark mode looks bad on all Ars UIs, and because Spellbook looks more natural without Dark Mode everything is excluded 	
 	"com.hollingsworth.arsnouveau.client"
 ]
