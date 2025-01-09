@@ -142,8 +142,8 @@ ServerEvents.recipes(allthemods => {
   )
   
   mekEnriching('mysticalagriculture:prosperity_shard', '#c:ores/prosperity', 'prosperity_ore_to_shard', 3)
-  mekEnriching('mysticalagriculture:inferium_essence', '#c:ores/inferium', 'prosperity_ore_to_shard', 3)
-  mekEnriching('theurgy:sal_ammoniac_crystal', '#c:ores/sal_ammoniac', 'prosperity_ore_to_shard', 3)
+  mekEnriching('mysticalagriculture:inferium_essence', '#c:ores/inferium', 'inferium_ore_to_essence', 3)
+  mekEnriching('theurgy:sal_ammoniac_crystal', '#c:ores/sal_ammoniac', 'sal_ammoniac_ore_to_crystal', 3)
 
 })
 
