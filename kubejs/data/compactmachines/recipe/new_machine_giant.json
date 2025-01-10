@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "compactmachines:enlarging_module"
+    },
+    "P": {
+      "tag": "c:obsidians"
+    },
+    "S": {
+      "item": "compactmachines:shrinking_module"
+    },
+    "W": {
+      "item": "compactmachines:wall"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "EPS",
+    "WWW"
+  ],
+  "result": {
+    "components": {
+      "compactmachines:machine_color": "#43D6CD",
+      "compactmachines:room_template": "compactmachines:giant"
+    },
+    "count": 1,
+    "id": "compactmachines:new_machine"
+  }
+}
