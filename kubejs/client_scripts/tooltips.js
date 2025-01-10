@@ -166,6 +166,10 @@ ItemEvents.modifyTooltips(allthemods => {
         Text.of("§aRight click with job site block to put it inside and allow trade restocking")
     ])
 
+	//Hyperbox
+    allthemods.add('hyperbox:hyperbox', [
+        Text.of("§aDue to a memory leak, these are no longer craftable.  If it is fixed in the future they will be reenabled.")
+    ])
 })
 
 
