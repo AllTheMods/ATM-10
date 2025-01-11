@@ -11,6 +11,8 @@
 	default_lang = "en_us"
 	#List of blacklisted log files. This files won't show in GUI logs list.
 	blacklisted_logs = ["CrashAssistant: latest.log"]
+	#Append comment text with notice about sending screenshot of this gui tells nothing to modpack creators.
+	show_dont_send_screenshot_of_gui_notice = true
 
 #Here you can configure debug options for easier configuration of the mod.
 [debug]
