@@ -35,8 +35,8 @@ ServerEvents.recipes(event => {
     }
 
     event.recipes.modern_industrialization.mixer(8, 200)
-        .fluidIn('modern_industrialization:heavy_water', 1)
-        .fluidIn('minecraft:lava', 1000, 0)
+        .fluidIn('1x modern_industrialization:heavy_water')
+        .fluidIn('1000x minecraft:lava', 0.0)
         .itemIn('minecraft:end_stone', 0)
         .itemOut('minecraft:end_stone')
         .id('atm:mixer/cobble_gen/end_stone')
