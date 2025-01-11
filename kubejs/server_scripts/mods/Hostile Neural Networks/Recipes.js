@@ -35,7 +35,6 @@ ServerEvents.generateData('after_mods', allthemods => {
                 "endermanoverhaul:snowy_enderman",
                 "endermanoverhaul:soulsand_valley_enderman",
                 "endermanoverhaul:swamp_enderman",
-                "endermanoverhaul:nether_wastes_enderman",
                 "endermanoverhaul:warped_forest_enderman",
                 "endermanoverhaul:windswept_hills_enderman"
             ],
