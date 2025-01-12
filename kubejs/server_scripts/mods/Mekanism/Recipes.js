@@ -108,6 +108,21 @@ ServerEvents.recipes(allthemods => {
 
     allthemods.custom(recipe).id(`allthemods:mekanism/sawing/${id}`);
   }
+    //mekOxidizing(output{item, count}, input, id)
+    function mekOxidizing(output, input) {
+      allthemods.custom({
+        "type": "mekanism:oxidizing",
+        "input": {
+          "count": 1,
+          "tag": input
+        },
+        "output": {
+          "amount": output.count,
+          "id": output.item
+        }
+      })
+    }
+  
 
   [['gravel','cobblestone'], ['sand','gravel']].forEach(recipe => {
     for (let count = 1; count < 10; count++) {
@@ -144,6 +159,9 @@ ServerEvents.recipes(allthemods => {
   mekEnriching('mysticalagriculture:prosperity_shard', '#c:ores/prosperity', 'prosperity_ore_to_shard', 3)
   mekEnriching('mysticalagriculture:inferium_essence', '#c:ores/inferium', 'inferium_ore_to_essence', 3)
   mekEnriching('theurgy:sal_ammoniac_crystal', '#c:ores/sal_ammoniac', 'sal_ammoniac_ore_to_crystal', 3)
+
+  mekOxidizing({item:'mekanism:osmium', count:'200'}, 'c:ingots/osmium')
+  mekOxidizing({item:'mekanism:osmium', count:'1800'}, 'c:storage_blocks/osmium')
 
 })
 
