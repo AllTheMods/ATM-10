@@ -155,13 +155,13 @@ ServerEvents.recipes(allthemods => {
     {item:'extendedae:entro_crystal'},
     'entro_crystal_to_dust'
   )
-  
-  mekEnriching('mysticalagriculture:prosperity_shard', '#c:ores/prosperity', 'prosperity_ore_to_shard', 3)
-  mekEnriching('mysticalagriculture:inferium_essence', '#c:ores/inferium', 'inferium_ore_to_essence', 3)
-  mekEnriching('theurgy:sal_ammoniac_crystal', '#c:ores/sal_ammoniac', 'sal_ammoniac_ore_to_crystal', 3)
+   //mekEnriching({item: 'mod:item', count: 0}, {item/tag: 'mod:item/tag', count: 0}, 'id');
+  mekEnriching({item: 'mysticalagriculture:prosperity_shard'}, {tag:'c:ores/prosperity'}, 'prosperity_ore_to_shard', 3)
+  mekEnriching({item: 'mysticalagriculture:inferium_essence'}, {tag:'c:ores/inferium'}, 'inferium_ore_to_essence', 3)
+  mekEnriching({item: 'theurgy:sal_ammoniac_crystal'}, {tag:'c:ores/sal_ammoniac'}, 'sal_ammoniac_ore_to_crystal', 3)
 
-  mekOxidizing({item:'mekanism:osmium', count:'200'}, 'c:ingots/osmium')
-  mekOxidizing({item:'mekanism:osmium', count:'1800'}, 'c:storage_blocks/osmium')
+  mekOxidizing({item:'mekanism:osmium', count:200}, 'c:ingots/osmium')
+  mekOxidizing({item:'mekanism:osmium', count:1800}, 'c:storage_blocks/osmium')
 
 })
 
