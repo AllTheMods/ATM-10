@@ -1,0 +1,30 @@
+{
+  "type": "productivebees:centrifuge",
+  "ingredient": {
+    "type": "productivebees:component",
+    "components": {
+      "productivebees:bee_type": "productivebees:experience"
+    },
+    "items": "productivebees:configurable_honeycomb"
+  },
+  "outputs": [
+    {
+      "item": {
+        "item": "productivebees:wax"
+      }
+    }
+  ],
+  "fluid": {
+    "fluid": "justdirethings:xp_fluid_source",
+    "amount": 100
+  },
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "productivelib:fluid_tag_empty",
+        "tag": "c:experience"
+      }
+    }
+  ]
+}
