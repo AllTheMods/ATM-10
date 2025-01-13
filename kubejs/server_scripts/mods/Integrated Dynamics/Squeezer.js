@@ -65,9 +65,9 @@ ServerEvents.recipes(allthemods => {
     squeezer('#c:ores/sal_ammoniac', 'theurgy:sal_ammoniac_crystal');
     //squeezer('#c:ores/uraninite', 'powah:uraninite_raw');
 
-    squeezer('#c:ores/uraninite_poor', {item: 'powah:uraninite_raw', count: 1, bonus: 0})
-    squeezer('#c:ores/uraninite_regular', {item: 'powah:uraninite_raw', count: 2, bonus: 0})
-    squeezer('#c:ores/uraninite_dense', {item: 'powah:uraninite_raw', count: 4, bonus: 0})
+    squeezer('#c:ores/uraninite_poor', {item: 'powah:uraninite_raw', count: 2, bonus: 0})
+    squeezer('#c:ores/uraninite_regular', {item: 'powah:uraninite_raw', count: 4, bonus: 0})
+    squeezer('#c:ores/uraninite_dense', {item: 'powah:uraninite_raw', count: 6, bonus: 0})
     allthemods.remove({output:'minecraft:lapis_lazuli', type:'integrateddynamics:mechanical_squeezer'})
     squeezer('#c:ores/lapis', {item: 'minecraft:lapis_lazuli', count: 12, bonus: 0})
     global.xycraftColours.forEach(colour => {

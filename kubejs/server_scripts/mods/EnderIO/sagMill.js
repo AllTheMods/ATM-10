@@ -29,9 +29,9 @@ ServerEvents.recipes(allthemods => {
 
     sagMill('#c:ores/mithril', 2400, {item: 'irons_spellbooks:raw_mithril', count:4})
     sagMill('#c:ores/black_quartz', 2400, {item: 'actuallyadditions:black_quartz', count:2})
-    sagMill('#c:ores/uraninite_poor', 2400, {item: 'powah:uraninite_raw', count: 1})
-    sagMill('#c:ores/uraninite_regular', 2400, {item: 'powah:uraninite_raw', count: 2})
-    sagMill('#c:ores/uraninite_dense', 2400, {item: 'powah:uraninite_raw', count: 4})
+    sagMill('#c:ores/uraninite_poor', 2400, {item: 'powah:uraninite_raw', count: 2})
+    sagMill('#c:ores/uraninite_regular', 2400, {item: 'powah:uraninite_raw', count: 4})
+    sagMill('#c:ores/uraninite_dense', 2400, {item: 'powah:uraninite_raw', count: 6})
     sagMill('#c:ores/bort', 2400, {item: 'silentgear:bort', count: 3})
     global.xycraftColours.forEach(colour => {
         sagMill(`#c:ores/xychorium_${colour}`, 2400, {item: `xycraft_world:xychorium_gem_${colour}`, count: 4})

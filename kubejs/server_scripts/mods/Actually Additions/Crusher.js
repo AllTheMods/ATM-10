@@ -85,9 +85,9 @@ ServerEvents.recipes(allthemods => {
     addAACrusher('#c:ores/sal_ammoniac', 'theurgy:sal_ammoniac_crystal', 3, 0.5)
 
     //Powah
-    addAACrusher('#c:ores/uraninite_poor', 'powah:uraninite_raw', 1, 0)
-    addAACrusher('#c:ores/uraninite_regular', 'powah:uraninite_raw', 2, 0)
-    addAACrusher('#c:ores/uraninite_dense', 'powah:uraninite_raw', 4, 0)
+    addAACrusher('#c:ores/uraninite_poor', 'powah:uraninite_raw', 2, 0)
+    addAACrusher('#c:ores/uraninite_regular', 'powah:uraninite_raw', 4, 0)
+    addAACrusher('#c:ores/uraninite_dense', 'powah:uraninite_raw', 6, 0)
 
     //Iron's Spellbooks
     addAACrusher('#c:ores/mithril', 'irons_spellbooks:raw_mithril', 4, 0.5)
