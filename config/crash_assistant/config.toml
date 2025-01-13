@@ -9,10 +9,10 @@
 	kill_old_app = true
 	#If options.txt doesn't exist, the default language will be used.
 	default_lang = "en_us"
-	#List of blacklisted log files. This files won't show in GUI logs list.
-	blacklisted_logs = ["CrashAssistant: latest.log"]
 	#Append comment text with notice about sending screenshot of this gui tells nothing to modpack creators.
 	show_dont_send_screenshot_of_gui_notice = true
+	#List of blacklisted log files. This files won't show in GUI logs list.
+	blacklisted_logs = ["CrashAssistant: latest.log"]
 
 #Here you can configure debug options for easier configuration of the mod.
 [debug]
@@ -34,7 +34,8 @@
 	support_place = "#atm10-techsupport channel"
 	#$MODPACK_NAME$ in lang files will be replaced with this value.
 	#For example this placeHolder used in: "gui.title_crashed_with_report": "Oops, $MODPACK_NAME$ crashed!"
-	modpack_name = "All The Mods 10"
+	#Supports Better Compatibility Checker integration. You can use $BCC.modpackName$, $BCC.modpackVersion$, etc and it will be replaced with value from config/bcc-common.toml
+	modpack_name = "$BCC.modpackName$ - $BCC.modpackVersion$"
 
 #Settings of modlist feature.
 #Adds in generated msg block about which mods modpack user added/removed/updated.
@@ -50,7 +51,7 @@
 	#then game is launched by modpack creator.
 	#So you won't forget to save it before publishing.
 	#If you want to save manually: disable this and use '/crash_assistant modlist save' command.
-	auto_update = true
+	auto_update = false
 
 #Settings of '/crash_assistant crash' command feature.
 [crash_command]
