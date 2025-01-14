@@ -46,6 +46,8 @@ ServerEvents.recipes(allthemods => {
         )}        
     }
 
+    //addAACrusher(input, output, num, bonus)
+
     //Minecraft
     addAACrusher('minecraft:raw_iron', 'alltheores:iron_dust', 1, 0.5)
     addAACrusher('minecraft:raw_copper', 'alltheores:copper_dust', 1, 0.5)
@@ -62,6 +64,7 @@ ServerEvents.recipes(allthemods => {
     //Silent Gear
     addAACrusher('silentgear:raw_crimson_iron', 'silentgear:crimson_iron_dust', 1, 0.5)
     addAACrusher('silentgear:raw_azure_silver', 'silentgear:azure_silver_dust', 1, 0.5)
+    addAACrusher('#c:ores/bort', 'silentgear:bort', 3, 0.5)
 
     //Occultism
     addAACrusher('occultism:raw_iesnium', 'occultism:iesnium_dust', 1, 0.5)
@@ -82,9 +85,17 @@ ServerEvents.recipes(allthemods => {
     addAACrusher('#c:ores/sal_ammoniac', 'theurgy:sal_ammoniac_crystal', 3, 0.5)
 
     //Powah
-    addAACrusher('#c:ores/uraninite_poor', 'powah:uraninite_raw', 1, 0)
-    addAACrusher('#c:ores/uraninite_regular', 'powah:uraninite_raw', 2, 0)
-    addAACrusher('#c:ores/uraninite_dense', 'powah:uraninite_raw', 4, 0)
+    addAACrusher('#c:ores/uraninite_poor', 'powah:uraninite_raw', 2, 0)
+    addAACrusher('#c:ores/uraninite_regular', 'powah:uraninite_raw', 4, 0)
+    addAACrusher('#c:ores/uraninite_dense', 'powah:uraninite_raw', 6, 0)
+
+    //Iron's Spellbooks
+    addAACrusher('#c:ores/mithril', 'irons_spellbooks:raw_mithril', 4, 0.5)
+
+    //Xycraft World
+    global.xycraftColours.forEach(colour => {
+        addAACrusher(`#c:ores/xychorium_${colour}`, `xycraft_world:xychorium_gem_${colour}`, 4, 0)
+      })
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

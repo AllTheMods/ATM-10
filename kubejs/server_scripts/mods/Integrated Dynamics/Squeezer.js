@@ -3,6 +3,7 @@
 
 ServerEvents.recipes(allthemods => {
     function squeezer(input, output) {
+        if(output.bonus !== 0){
         allthemods.custom(
             {
                 "type": "integrateddynamics:mechanical_squeezer",
@@ -29,9 +30,26 @@ ServerEvents.recipes(allthemods => {
                 ],
                 "duration": 40,
             }
-        )
+        )}
+        else{
+        allthemods.custom(
+            {
+                "type": "integrateddynamics:mechanical_squeezer",
+                "input_item": Ingredient.of(input).toJson(),
+                "output_items": [
+                    {
+                        "item": {
+                            "id": output.item,
+                            "count": output.count,
+                        }
+                    }
+                ],
+                "duration": 40,
+            }
+        )}
     }
 
+    //squeezer(input, output{item, count, bonus})
     squeezer('#c:ores/black_quartz', 'actuallyadditions:black_quartz');
     squeezer('#c:ores/cinnabar', 'alltheores:cinnabar');
     squeezer('#c:ores/fluorite', 'alltheores:fluorite');
@@ -45,7 +63,16 @@ ServerEvents.recipes(allthemods => {
     squeezer('#c:ores/prosperity', 'mysticalagriculture:prosperity_shard');
     squeezer('#c:ores/bort', 'silentgear:bort');
     squeezer('#c:ores/sal_ammoniac', 'theurgy:sal_ammoniac_crystal');
-    squeezer('#c:ores/uraninite', 'powah:uraninite_raw');
+    //squeezer('#c:ores/uraninite', 'powah:uraninite_raw');
+
+    squeezer('#c:ores/uraninite_poor', {item: 'powah:uraninite_raw', count: 2, bonus: 0})
+    squeezer('#c:ores/uraninite_regular', {item: 'powah:uraninite_raw', count: 4, bonus: 0})
+    squeezer('#c:ores/uraninite_dense', {item: 'powah:uraninite_raw', count: 6, bonus: 0})
+    allthemods.remove({output:'minecraft:lapis_lazuli', type:'integrateddynamics:mechanical_squeezer'})
+    squeezer('#c:ores/lapis', {item: 'minecraft:lapis_lazuli', count: 12, bonus: 0})
+    global.xycraftColours.forEach(colour => {
+        squeezer(`#c:ores/xychorium_${colour}`, {item: `xycraft_world:xychorium_gem_${colour}`, count: 4, bonus: 0})
+      })
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
