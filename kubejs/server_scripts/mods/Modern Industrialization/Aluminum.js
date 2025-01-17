@@ -40,7 +40,7 @@ ServerEvents.recipes(event => {
         .itemIn('10x alltheores:dirty_aluminum_dust')
         .itemOut('4x alltheores:aluminum_dust')
         .itemOut('3x modern_industrialization:titanium_tiny_dust')
-        .fluidOut('modern_industrialization:oxygen', 2000, 0.5)
+        .fluidOut('2000x modern_industrialization:oxygen', 0.5)
         .id('atm:electrolyzer/dirty_aluminum_dust')
 
 })

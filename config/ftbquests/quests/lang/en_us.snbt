@@ -27,7 +27,7 @@
 	chapter.3DEB33F78398EAD6.chapter_subtitle: ["And LaserIO"]
 	chapter.3DEB33F78398EAD6.title: "Basic Logistics"
 	chapter.415BA265E2C00859.title: "Getting Started"
-	chapter.4293754F9B2D05F0.title: "&aChapter 2&r: &eAllTheModium"
+	chapter.4293754F9B2D05F0.title: "&aChapter 2&r: &eAllthemodium"
 	chapter.43BB00A7A7E1042C.title: "Mahou Tsukai"
 	chapter.4791C8461B1B4D5F.title: "Basic Armor"
 	chapter.48410B67C276ED1F.title: "The Bumblezone"
@@ -762,7 +762,7 @@
 		"Breaks nearby grass and flowers when activated."
 	]
 	quest.076A648E3E3245C9.quest_desc: ["Very fast Rate of making Energy from Fuel which makes it the very efficient. Only problem is it can't be upgraded anymore. Still uses normal Furnace Fuel."]
-	quest.076A648E3E3245C9.title: "&aEmerald Furnace"
+	quest.076A648E3E3245C9.title: "&aEmerald Generator"
 	quest.076DFB0B39A4259F.quest_desc: [
 		"{atm9.quest.enchant.desc.infused_seashelf}"
 		"{image:atm:textures/questpics/apotheosis/enchant_sea.png width:100 height:100 align:1}"
@@ -1558,7 +1558,7 @@
 		"{image:atm:textures/questpics/forbidden/forbidden_forge1.png width:100 height:100 align:center}"
 		"To start making your Forge, place down our &9Polished Darkstone&r, &6Arcane Polished Darkstone&r, and &6Gilded Chiseled Polished Darkstone&r in this pattern. "
 		"{image:atm:textures/questpics/forbidden/forbidden_forge2.png width:100 height:100 align:center}"
-		"Next place our &6Darkstone Pedestals&r on top of the 8 outside &6Gilded Chiseled Polished Darkstone&r and our Smithing Table on the inner one. \\n\\nLastly smack your Smithing Table with &cMundabitur Dust&r! And you'll get the &6&lHephaestus Forge&r!"
+		"Next place our Smithing Table on the inner &6Gilded Chiseled Polished Darkstone&r and smack it with &cMundabitur Dust&r, you'll get the &6&lHephaestus Forge&r!\\n\\nLastly place our &6Darkstone Pedestals&r on top of the 8 outside &6Gilded Chiseled Polished Darkstone&r!"
 	]
 	quest.0FD638380EECFFBD.title: "Building the &6&lForge"
 	quest.0FE30548F25FEDB1.quest_desc: ["If you're like me and don't like living in a Box (it reminds me too much of School), then you'll like to have Glass in your Builds to see outside. \\n\\nWhile the normal Vanilla ones are nice of course we can do much better! \\n\\nWe can even get some use out of it!"]
@@ -2435,7 +2435,7 @@
 	quest.18F88DE24EFBA7A7.title: "Fuel for our Furnace"
 	quest.18F948FF9FE015FB.quest_subtitle: "Feed a Vanilla Bee TNT"
 	quest.18F948FF9FE015FB.title: "CreeBee"
-	quest.18FAD56CDE05646A.quest_desc: ["Before Quarries in the &7&lMining Dimension&r used to mine everything but leave &6AllTheModium Ore&r. \\n\\nNow it will Mine &6AllTheModium&r but Void the drops... might want to be careful with your Quarries now! \\n\\nI recommend Mining with Ore Sight Potions if you are looking strictly for &6AllTheModium&r!"]
+	quest.18FAD56CDE05646A.quest_desc: ["Quarries in the &7&lMining Dimension&r will mine &6Allthemodium&r but Void the drops, so you might want to be careful with your Quarries!\\n\\nI recommend mining with Ore Sight Potions if you are looking strictly for &6Allthemodium&r!"]
 	quest.18FEFB1BC6DFE49C.quest_desc: ["Bringing more power output to our Substations, which as we progress will help immensely in ensuring our equipment stays running!"]
 	quest.18FEFB1BC6DFE49C.quest_subtitle: "Substation Tier up!"
 	quest.1906C5D1C80035E4.quest_desc: [
@@ -3700,7 +3700,7 @@
 		"It might be worth making a new EBF, one for just Program 1 recipes"
 	]
 	quest.26D306418545A2D6.quest_desc: [
-		"The &dFusion Reactor&r can produce up to 200MRF/t on its own, but first we need to understand some mechanics.\\n\\nThe easiest way to produce power is by pumping in Deuterium and Tritium separately, then controlling how much fuel is burned using the &aInjection Rate&r in the &cFuel Tab&r.\\.\\.This has to be an even number with a max of 98, as it combines the D-T fuel inside of the Reactor itself. The consumption of each fuel is equal to half of the Injection Rate per tick, meaning 49mb/t of each for the max.\\n\\nHowever, you can directly inject &dD-T Fuel&r, but will not be able to control the Injection Rate. This will create massive amounts of power per tick, but at a much higher fuel consumption rate of 500mb/t of each fuel.\\n"
+		"The &dFusion Reactor&r can produce up to 80MRF/t on its own, but first we need to understand some mechanics.\\n\\nThe easiest way to produce power is by pumping in Deuterium and Tritium separately, then controlling how much fuel is burned using the &aInjection Rate&r in the &cFuel Tab&r.\\.\\.This has to be an even number with a max of 98, as it combines the D-T fuel inside of the Reactor itself. The consumption of each fuel is equal to half of the Injection Rate per tick, meaning 49mb/t of each for the max.\\n\\nHowever, you can directly inject &dD-T Fuel&r, but will not be able to control the Injection Rate. This will create massive amounts of power per tick, but at a much higher fuel consumption rate of 500mb/t of each fuel.\\n"
 		"{image:atm:textures/questpics/mek/fusion_fuelui1.png width:175 height:150 align:1}"
 	]
 	quest.26D306418545A2D6.title: "&dThe End Game Power Source"
@@ -3881,6 +3881,7 @@
 	quest.29448D08C8777425.title: "&cAngler's Hat"
 	quest.2951B1D7080C5EF9.quest_desc: ["Using the &6Lamp of Cinders&r, you are able to break the Thorns in the Thornland Biome.\\n\\nGather some &cThorn Roses&r to continue on to the &2Final Plateau&r."]
 	quest.2951B1D7080C5EF9.title: "Every Thorn has its Rose"
+	quest.2954FFFC9FA1C8B7.quest_desc: ["In All The Mods 10 there are many mods that have in-game guides to help teach and show you things within said mod.\\n\\nOnce completed, this quest will grant you an &6Akashic Tome&r as a reward. This &6Akashic Tome&r contains all these guide books all in one place, simply select which guide you want to use and the &6Akashic Tome&r will mimic it.\\n\\nPunching the air with the Tome will allow you to select from the other guides once again."]
 	quest.295C77EEC89000FC.quest_subtitle: "Generates Source from Mob Deaths and Animal Breeding"
 	quest.29706E3681616E41.quest_subtitle: "That's a Lot of Different Dusts!"
 	quest.2982D38BD5EE6349.quest_subtitle: "Feed a Shroombee Warped Fungus"
@@ -5209,7 +5210,6 @@
 	quest.37355F60E45777FE.quest_desc: ["The Orb of Prophecy can be crafted or obtained through beating the Gatekeeper! \\n\\nIt's main use is activating the Portal, but there will be more uses for it!"]
 	quest.37367101B3DAA70F.quest_desc: ["The Ashy Mining Bee is spawned from a Dirt, Gravel, or Sand Nest."]
 	quest.37367101B3DAA70F.quest_subtitle: "Spawns from a Dirt Nest"
-	quest.374F5557ABAE8360.quest_desc: ["This one kept kicking me from my world :("]
 	quest.3751015CD5C84134.quest_desc: ["The 4096k Fluid Storage Part is used to craft the 4096k Fluid Storage Disk."]
 	quest.3751015CD5C84134.title: "&b4096k Fluid Part&r"
 	quest.375359043E71349C.quest_desc: ["The Simple Reforging Table is used like an Enchantment Table but with Affixes. With Gem Dust, Rarity Materials, and an Affixed Item you can reroll the affixes for a cost of EXP. This can also be used to change the Rarity of the Affixed item up to Rare "]
@@ -7641,7 +7641,7 @@
 		""
 		"It will show things as rotation speed and stress."
 	]
-	quest.4F9932477EDDCB8E.quest_desc: ["The Advanced Portal Gun is the upgrades version of the Portal Gun that requres both power and portal fluid to operate. Unlike the Portal Gun the Adavanced Portal Gun allows the player to teleport between locations that have been encoded. Using \"V\" (default keybind) the menu used to encode and select desinations for teleportion."]
+	quest.4F9932477EDDCB8E.quest_desc: ["The Advanced Portal Gun is the upgraded version of the Portal Gun that requres both power and portal fluid to operate. Unlike the Portal Gun the Adavanced Portal Gun allows the player to teleport between locations that have been encoded. Using \"V\" (default keybind) the menu used to encode and select desinations for teleportion."]
 	quest.4F9D6109EEA5D26A.quest_desc: ["Breaking &eGolden Leaves&r has a high chance to drop a &eGold Leaf&r, which is needed for &eGold Powder&r. "]
 	quest.4F9D6109EEA5D26A.quest_subtitle: "Aura with Fireflies"
 	quest.4F9D6109EEA5D26A.title: "&eGold Leaves"
@@ -9354,7 +9354,7 @@
 	quest.616ED6C49C37EB91.quest_desc: ["&b&lPaths and Pathways&r adds tons of different Carpet like Blocks (and full Blocks and Slab versions). \\n\\nThese are obviously used as Paths, they just look much nicer than the &2&lMinecraft&r Path Block. "]
 	quest.616ED6C49C37EB91.title: "&b&lMacaw's Paths and Pavings"
 	quest.616F9B78B16B42A5.quest_desc: ["The recipe for the &6Tesla Coil&r might seem complicated, especially in a recipe tree, but we can break it down to be simpler!\\n\\nThe &7Aluminum Plates&r are very simple, just needing to use a Hammer on Ingots or the Metal Press Multiblock.\\n\\nThe &8Iron Mechanical Component&r is simple as well, just a few Iron Plates and a &6Copper Ingot&r.\\n\\n&eElectrum Coil Block&r will need a bunch of &eElectrum Ingots&r cut up into Wires. &eElectrum&r is an alloy of &eGold&r and Silver.\\n\\nThe &6Advanced Electronic Component&r is a whole array of using the Engineers Workbench and &9Blueprints&r. It's Duroplast Sheet requires a lot of refining and fermenting with Multiblock Machines!\\n\\nThe last item, the &cHV Accumulator&r needs some simple Items like &8Steel&r, &7Aluminum Plate&r, &cRedstone Acid&r, and &4Treated Wood&r. It also needs a more complicated Item called &8HOP Graphite Ingot&r."]
-	quest.616F9B78B16B42A5.title: "&6Telsa Coil"
+	quest.616F9B78B16B42A5.title: "&6Tesla Coil"
 	quest.61768CFEDA041E4D.quest_desc: ["Once you enter the &6&lBumblezone&r you might need to return to the &2Overworld&r. Like incase you left your Stove on! \\n\\nTo get out the &6&lBumblezone&r you can mine either down or up past the &eBeehive Beeswax&r in order to enter the Void. \\n\\nThis Void won't kill you, instead it will teleport you back to where you were in the &2Overworld&r!"]
 	quest.61768CFEDA041E4D.quest_subtitle: "Let me outta here!"
 	quest.61768CFEDA041E4D.title: "Escaping"
@@ -10918,7 +10918,7 @@
 		"- Night Vision"
 	]
 	quest.7154D73516548149.quest_desc: ["&6&lAllthemodium&r is a mod added specifically by the &6AllTheMods Team&r to add more content after Netherite! \\n\\nYou'll need to adventure through it to get some Items needed for the &6&lATM Star&r. \\n\\nThere is a Quest page now that you can follow for it!"]
-	quest.7154D73516548149.title: "&l&6AllTheModium"
+	quest.7154D73516548149.title: "&l&6Allthemodium"
 	quest.71581992E8E4C43E.quest_desc: ["Throw a few &8Wither Skeleton Skulls&r and an &dAbjuration Essence&r to make a &8Wither &3Glyph&r! \\n\\nIf it didn't work you might need more &aEXP&r."]
 	quest.71581992E8E4C43E.title: "&3Glyph of &8Wither"
 	quest.715B86DC82EA636B.quest_desc: [
@@ -12474,6 +12474,7 @@
 	task.0B10BF3641629974.title: "Tools"
 	task.0B31B1E6089BB33E.title: "Observe a completed Fusion Reactor"
 	task.0B54EDC9E21F2E77.title: "Logistics Frames"
+	task.0B79080463C860ED.title: "Trader Carpets"
 	task.0BAEC53DD32C9870.title: "Productive Trees Logs"
 	task.0BD1BA7949BB5855.title: "Mechanical Pistons"
 	task.0BFAF56214875C90.title: "Allthemodium Mage Armor"
@@ -12510,6 +12511,7 @@
 	task.1256A95F7D5C782F.title: "Productive Bees Comb Blocks"
 	task.12A161B884B5653F.title: "Fluid Drilling Rig"
 	task.12A2CE1C3AE8A033.title: "Blue Banded Bee"
+	task.12B3ACE525612B6B.title: "Guide Books"
 	task.13266875BDB5077D.title: "AllRightsReserved"
 	task.14DEFFB80CC96BC1.title: "ME Dense Covered Cables"
 	task.14FA4A933C39A406.title: "Boats with Chests"
@@ -12856,7 +12858,6 @@
 	task.59DD89698DBAA215.title: "AllRightsReserved"
 	task.59F0226D83026397.title: "AllRightsReserved"
 	task.5A06ED36DD9E9681.title: "Basic Runes"
-	task.5A1784C5676CDC62.title: "Welcome!"
 	task.5A8F474927CC1E80.title: "Mid Game Power Options"
 	task.5A901578529C152E.title: "Infusion Enchanting"
 	task.5AB4103FF540ABB4.title: "Fluids"
