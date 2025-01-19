@@ -13,6 +13,12 @@ ServerEvents.tags('item', allthemods => {
   // Extreme Reactors
   allthemods.add('c:ingots/yellorium', 'alltheores:uranium_ingot' )
   allthemods.add('c:storage_blocks/yellorium', 'alltheores:uranium_block' )
+ 
+ //Foods (I added so my quantum armor can eat them from AE2) 
+  allthemods.add('c:foods', [
+      'relics:infinity_ham',
+      'artifacts:eternal_steak',
+      ])
 
   // Tiny Coal
   allthemods.add('atm10:tiny_coals', [
