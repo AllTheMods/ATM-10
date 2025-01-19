@@ -1,7 +1,55 @@
 #A list of class:method strings (render methods) that the dark shader will not be applied to.
 #Each string consists of the class and the method (or any substring) to block the dark shader.
 #For example, 'renderHunger' is sufficient to block 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood' (either will work).
-METHOD_SHADER_BLACKLIST = ["mezz.jei.common.render.FluidTankRenderer:drawTextureWithMasking", "mezz.jei.library.render.FluidTankRenderer:drawTextureWithMasking", "renderCrosshair", "m_93080_", "renderSky", "m_202423_", "renderHotbar", "m_93009_", "m_193837_", "setupOverlayRenderState", "net.minecraftforge.client.gui.overlay.ForgeGui", "renderFood", "renderExperienceBar", "m_93071_", "renderLogo", "m_280037_", "m_280118_", "net.minecraft.client.gui.Gui", "net.minecraft.src.C_3431_", "renderDirtBackground", "m_280039_", "m_280039_"]
+METHOD_SHADER_BLACKLIST = [
+	"mezz.jei.common.render.FluidTankRenderer:drawTextureWithMasking",
+	"mezz.jei.library.render.FluidTankRenderer:drawTextureWithMasking",
+	"renderCrosshair",
+	"m_93080_",
+	"renderSky",
+	"m_202423_",
+	"renderHotbar",
+	"m_93009_",
+	"m_193837_",
+	"setupOverlayRenderState",
+	"net.minecraftforge.client.gui.overlay.ForgeGui",
+	"renderFood",
+	"renderExperienceBar",
+	"m_93071_",
+	"renderLogo",
+	"m_280037_",
+	"m_280118_",
+	"net.minecraft.client.gui.Gui",
+	"net.minecraft.src.C_3431_",
+	"renderDirtBackground",
+	"m_280039_",
+	"m_280039_",
+	# Overlay
+	# Apple skin hunger bar
+	"squeek.appleskin.client.HUDOverlayHandler:drawExhaustionOverlay",
+	"squeek.appleskin.client.HUDOverlayHandler:drawSaturationOverlay",
+ 	# Hearts Bar
+	"terrails.colorfulhearts.api.heart.drawing.SpriteHeartDrawing:draw",
+	# Armor Bar
+	"tfar.overloadedarmorbar.overlay.OverlayRenderer:renderArmorBar",
+	# Jade Fluid preview
+	"snownee.jade.overlay.DisplayHelper:drawTiledSprite",
+	# Nature Aura overlay
+	"de.ellpeck.naturesaura.events.ClientEvents:onOverlayRender",
+	# Iron spells Overlay - dark mode removes saturation from icons
+	"io.redspace.ironsspellbooks.gui.overlays.SpellBarOverlay:render",
+	# Inventory
+	# Inventory Effects Icons
+	"net.minecraft.client.gui.screens.inventory.EffectRenderingInventoryScreen:renderIcons",
+	# Cosmetic Armor Buttons in Inventory
+	"lain.mods.cos.impl.client.gui.GuiCosArmorToggleButton:renderWidget",
+	"lain.mods.cos.impl.client.gui.GuiCosArmorButton:renderWidget", 
+  	# Industrial Foregoing Tank UI
+  	"com.hrznstudio.titanium.client.screen.addon.TankScreenAddon:drawBackgroundLayer",
+   
+	# Ars Nouveau - Dark mode looks bad on all Ars UIs, and because Spellbook looks more natural without Dark Mode everything is excluded 	
+	"com.hollingsworth.arsnouveau.client"
+]
 #Enabling this config will (every 5 seconds) dump which methods were used to render GUIs that the dark shader was applied to
 #The dump will consist of a list of class:method strings, e.g. 'net.minecraftforge.client.gui.overlay.ForgeGui:renderFood'
 #Use this feature to help find the render method strings of GUIs you would like to blacklist.
