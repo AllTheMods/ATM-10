@@ -64,6 +64,22 @@ ServerEvents.recipes(allthemods => {
             "id": "powah:uraninite"
         }
     }).id('powah:energizing/uraninite_from_ore')
+
+    allthemods.shapeless(
+        Item.of('minecraft:potion[potion_contents={potion:"minecraft:water"}]', 1),
+        [
+            'minecraft:glass_bottle',
+            'mysticalagriculture:water_essence'
+        ]
+    )
+
+    allthemods.shapeless(
+        Item.of('minecraft:honey_block'),
+        [
+            '9x mysticalagriculture:honey_essence'
+        ]
+    )
+
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

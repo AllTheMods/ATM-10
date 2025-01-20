@@ -197,6 +197,19 @@ ServerEvents.recipes(allthemods => {
 
     //addInfustion('mysticalagriculture:silicon_seeds', 'ae2:silicon', 'mysticalagriculture:prudentium_essence')
     //addInfustion('mysticalagriculture:steel_seeds', 'alltheores:steel_ingot', 'mysticalagriculture:imperium_essence')
+
+    allthemods.custom(
+        {
+            type: "mysticalagriculture:soul_extraction",
+            input: {
+              tag: "c:foods/raw_fish"
+            },
+            result: {
+              type: "mysticalagriculture:fish",
+              souls: 0.5
+            }
+        })
+
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
