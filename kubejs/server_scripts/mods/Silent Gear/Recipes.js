@@ -208,56 +208,56 @@ ServerEvents.recipes(allthemods => {
     allthemods.custom(
 	    { "type": "silentgear:salvaging",
 		    "ingredient": {"item":"twilightforest:steeleaf_helmet" },
-		    "results": {"count":5, "id": "twilightforest:steeleaf_ingot" }
+		    "results": [{"count":5, "id": "twilightforest:steeleaf_ingot" }]
 	    }
     )
 //Steeleaf Chestplate
     allthemods.custom(
 	    { "type": "silentgear:salvaging",
 		    "ingredient": {"item":"twilightforest:steeleaf_chestplate" },
-		    "results": {"count":8, "id": "twilightforest:steeleaf_ingot" }
+		    "results": [{"count":8, "id": "twilightforest:steeleaf_ingot" }]
 	    }
     )
 //Steeleaf Leggings
     allthemods.custom(
 	    { "type": "silentgear:salvaging",
 		    "ingredient": {"item":"twilightforest:steeleaf_leggings" },
-		    "results": {"count":7, "id": "twilightforest:steeleaf_ingot" }
+		    "results": [{"count":7, "id": "twilightforest:steeleaf_ingot" }]
 	    }
     )
 //Steeleaf Boots
     allthemods.custom(
 	    { "type": "silentgear:salvaging",
 		    "ingredient": {"item":"twilightforest:steeleaf_boots" },
-		    "results": {"count":4, "id": "twilightforest:steeleaf_ingot" }
+		    "results": [{"count":4, "id": "twilightforest:steeleaf_ingot" }]
 	    }
     )
 //Knightmetal Helmet
     allthemods.custom(
 	    { "type": "silentgear:salvaging",
 		    "ingredient": {"item":"twilightforest:knightmetal_helmet" },
-		    "results": {"count":5, "id": "twilightforest:knightmetal_ingot" }
+		    "results": [{"count":5, "id": "twilightforest:knightmetal_ingot" }]
 	    }
     )
 //Knightmetal Chestplate
     allthemods.custom(
 	    { "type": "silentgear:salvaging",
 		    "ingredient": {"item":"twilightforest:knightmetal_chestplate" },
-		    "results": {"count":8, "id": "twilightforest:knightmetal_ingot" }
+		    "results": [{"count":8, "id": "twilightforest:knightmetal_ingot" }]
 	    }
     )
 //Knightmetal Greaves
     allthemods.custom(
 	    { "type": "silentgear:salvaging",
 		    "ingredient": {"item":"twilightforest:knightmetal_leggings" },
-		    "results": {"count":7, "id": "twilightforest:knightmetal_ingot" }
+		    "results": [{"count":7, "id": "twilightforest:knightmetal_ingot" }]
 	    }
     )
 //Knightmetal Boots
     allthemods.custom(
 	    { "type": "silentgear:salvaging",
 		    "ingredient": {"item":"twilightforest:knightmetal_boots" },
-		    "results": {"count":4, "id": "twilightforest:knightmetal_ingot" }
+		    "results": [{"count":4, "id": "twilightforest:knightmetal_ingot" }]
 	    }
     )
 //Knightmetal Sword
@@ -327,56 +327,56 @@ ServerEvents.recipes(allthemods => {
     allthemods.custom(
 	    { "type": "silentgear:salvaging",
 		    "ingredient": {"item":"twilightforest:ironwood_helmet" },
-		    "results": {"count":5, "id": "twilightforest:ironwood_ingot" }
+		    "results": [{"count":5, "id": "twilightforest:ironwood_ingot" }]
 	    }
     )
 //Ironwood Chestplate
     allthemods.custom(
 	    { "type": "silentgear:salvaging",
 		    "ingredient": {"item":"twilightforest:ironwood_chestplate" },
-		    "results": {"count":8, "id": "twilightforest:ironwood_ingot" }
+		    "results": [{"count":8, "id": "twilightforest:ironwood_ingot" }]
 	    }
     )
 //Ironwood Leggings
     allthemods.custom(
 	    { "type": "silentgear:salvaging",
 		    "ingredient": {"item":"twilightforest:ironwood_leggings" },
-		    "results": {"count":7, "id": "twilightforest:ironwood_ingot" }
+		    "results": [{"count":7, "id": "twilightforest:ironwood_ingot" }]
 	    }
     )
 //Ironwood Boots
     allthemods.custom(
 	    { "type": "silentgear:salvaging",
 		    "ingredient": {"item":"twilightforest:ironwood_boots" },
-		    "results": {"count":4, "id": "twilightforest:ironwood_ingot" }
+		    "results": [{"count":4, "id": "twilightforest:ironwood_ingot" }]
 	    }
     )
 //Arctic Hood
     allthemods.custom(
 	    { "type": "silentgear:salvaging",
 		    "ingredient": {"item":"twilightforest:arctic_helmet" },
-		    "results": {"count":5, "id": "twilightforest:arctic_fur" }
+		    "results": [{"count":5, "id": "twilightforest:arctic_fur" }]
 	    }
     )
 //Arctic Jacket
     allthemods.custom(
 	    { "type": "silentgear:salvaging",
 		    "ingredient": {"item":"twilightforest:arctic_chestplate" },
-		    "results": {"count":8, "id": "twilightforest:arctic_fur" }
+		    "results": [{"count":8, "id": "twilightforest:arctic_fur" }]
 	    }
     )
 //Arctic Leggings
     allthemods.custom(
 	    { "type": "silentgear:salvaging",
 		    "ingredient": {"item":"twilightforest:arctic_leggings" },
-		    "results": {"count":7, "id": "twilightforest:arctic_fur" }
+		    "results": [{"count":7, "id": "twilightforest:arctic_fur" }]
 	    }
     )
 //Arctic Boots
     allthemods.custom(
 	    { "type": "silentgear:salvaging",
 		    "ingredient": {"item":"twilightforest:arctic_boots" },
-		    "results": {"count":4, "id": "twilightforest:arctic_fur" }
+		    "results": [{"count":4, "id": "twilightforest:arctic_fur" }]
 	    }
     )
 })
