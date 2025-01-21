@@ -1,0 +1,317 @@
+	[general.general]
+		#If the blood gui overlay should be rendered.
+		bloodGuiOverlay = true
+		#The position to render the blood gui overlay at. (0=NE, 1=SE, 2=SW,3=NW)
+		bloodGuiOverlayPosition = 1
+		#If farting is enabled on this server; Client-side: If farting can be seen at your client.
+		farting = true
+		#The X offset for the blood gui overlay.
+		bloodGuiOverlayPositionOffsetX = -5
+		#The amount of mB that can flow per tick out of machines and items.
+		mbFlowRate = 100
+		#Evil stuff...
+		dieWithoutAnyReason = false
+		#The Y offset for the blood gui overlay.
+		bloodGuiOverlayPositionOffsetY = -5
+
+	[general.weather_container]
+		#If shapeless crafting of the higher tiers of weather containers should be enabled.
+		shapelessRecipes = true
+
+	[worldgeneration.general]
+		#The spawn chance for loot chests in dark temples, set to zero to completely disable.
+		darkTempleChestChance = 0.15
+		#Spawn extra silverfish blocks in all biomes.
+		extraSilverfish = false
+
+	[core.general]
+		#If an anonymous mod startup analytics request may be sent to our analytics service.
+		analytics = true
+		#If the version checker should be enabled.
+		versionChecker = true
+
+	[block.blood_stain]
+		#The amount of blood per HP (2HP = 1 heart) of the max mob health that will be added to this blockState when a mob dies from fall damage.
+		bloodMBPerHP = 20
+		#Blocks onto which no blood stains can be spawned. Regular expressions are allowed.
+		spawnBlacklist = ["tconstruct:.*"]
+		#If blood stains should be spawned on block entities.
+		spawnOnBlockEntities = false
+
+	[block.undead_leaves]
+		#How much Blood (mB) can be produced at most as a Blood Stain on each random tick.
+		maxBloodStainAmount = 25
+
+	[block.spiked_plate]
+		#The multiplier for amount of mB to receive per mob HP.
+		mobMultiplier = 40.0
+		#The amount of damage per time.
+		damage = 4.0
+
+	[block.gem_stone_torch]
+		#The radius that will be kept spirit-proof.
+		area = 15
+
+	[machine.blood_chest]
+		#The amount of ticks required for repairing one damage value.
+		ticksPerDamage = 2
+		#Item names that can not be repaired. Regular expressions are allowed.
+		itemBlacklist = ["minecraft:stick"]
+		#The 1/x chance the Blood Chest should add random bad enchants with a small chance to repairing items. Disabled by setting to a negative value.
+		randomBadEnchantsChance = 10000
+		#The amount Blood mB required for repairing one damage value.
+		mBPerDamage = 5
+		#If the Blood Chest should add random bad enchants with a small chance to repairing items.
+		addRandomBadEnchants = true
+
+	[machine.envir_acc]
+		#Sets the default amount of ticks the environmental accumulator takes to process an item.
+		defaultProcessItemTickCount = 100
+		#Sets the default default speed in increments per tick with which an item will move when being process by an environmental accumulator.
+		defaultProcessItemSpeed = 0.015
+		#Sets the default amount of ticks the environmental accumulator takes to cool down
+		defaultTickCooldown = 1200
+
+	[machine.purifier]
+		#The duration limit in ticks for which potion effect can be collected. Set to a negative value to allow any duration.
+		maxPotionEffectDuration = 6000
+		#Item that can not be disenchanted. Regular expressions are allowed.
+		disenchantBlacklist = ["tetra:.*"]
+
+	[machine.spirit_furnace]
+		#How much mB per tick this furnace should consume.
+		mBPerTick = 25
+		#If the machine should play mob death sounds.
+		mobDeathSounds = true
+		#Custom mob drops. Maps entity names to a loot table resource location. Expects the format entityname|loottable. For example: 'minecraft:pig|minecraft:entities/sheep'
+		mobDrops = []
+		#The 1/X chance for villagers to drop emeralds. 0 means no drops.
+		villagerDropEmeraldChance = 20
+		#How much mB per tick this furnace should consume for player spirit.
+		playerMBPerTick = 100
+		#The required amount of ticks for each HP for cooking an entity.
+		requiredTicksPerHp = 10
+		#How much mB per tick this furnace should consume for boss mob spirit.
+		bossMBPerTick = 250
+		#Custom player drops. Maps player UUID to an itemstack. Expects the format domain:itemname:amount:meta for items where amount and meta are optional.
+		playerDrops = ["93b459be-ce4f-4700-b457-c1aa91b3b687|minecraft:stone_slab"]
+
+	[machine.dark_tank]
+		#The maximum tank size visible in the creative tabs. (Make sure that you do not cross the max int size.)
+		maxTankCreativeSize = 4096000
+		#If the fluid should be rendered statically. Fluids won't be shown fluently, but more efficiently.
+		staticBlockRendering = false
+		#If creative versions for all fluids should be added to the creative tab.
+		creativeTabFluids = true
+
+	[machine.spirit_reanimator]
+		#The required amount of ticks for each reanimation.
+		requiredTicks = 500
+		#If the Box of Eternal Closure should be cleared after a revival.
+		clearBoxContents = true
+		#How much mB per tick this machine should consume.
+		mBPerTick = 5
+
+	[machine.entangled_chalice]
+		#If the fluid should be rendered statically. Fluids won't be shown fluently, but more efficiently.
+		staticBlockRendering = false
+
+	[machine.colossal_blood_chest]
+		#The base amount of concurrent items that need to be available before efficiency can rise.
+		baseConcurrentItems = 1
+		#The amount of ticks required for repairing one damage value.
+		ticksPerDamage = 2
+		#The amount Blood mB required for repairing one damage value.
+		baseMBPerDamage = 5
+
+	[machine.sang_envir_acc]
+		#The base blood usage in mB for recipes, this is multiplied with the cooldown time per recipe.
+		baseUsage = 50
+
+	[machine.blood_infuser]
+		#Priority list of mod id's when determining tag-based recipe outputs.
+		recipeTagOutputModPriorities = []
+
+	[item.dark_tank]
+		#If held buckets should be autofilled when enabled.
+		autoFillBuckets = false
+
+	[item.sanguinary_pedestal_0]
+		#Blood multiplier when Efficiency is active.
+		efficiencyBoost = 1.5
+
+	[item.sanguinary_pedestal_1]
+		#Blood multiplier when Efficiency is active.
+		efficiencyBoost = 1.5
+
+	[item.flesh_werewolf]
+		#Humanoid flesh will drop in a 1/X chance.
+		humanoidFleshDropChance = 5
+
+	[item.flesh_humanoid]
+		#Humanoid flesh will drop in a 1/X chance.
+		humanoidFleshDropChance = 5
+
+	[item.redstone_grenade]
+		#If the redstone grenade should drop again as an item after it is being thrown.
+		dropAfterUsage = false
+
+	[item.blood_extractor]
+		#If held buckets should be autofilled when enabled.
+		autoFillBuckets = false
+		#The minimum multiplier for amount of mB to receive per mob HP.
+		minimumMobMultiplier = 5.0
+		#The amount of blood (mB) this container can hold.
+		containerSize = 5000
+		#The maximum multiplier for amount of mB to receive per mob HP. IMPORTANT: must be larger than minimumMobMultiplier!
+		maximumMobMultiplier = 40.0
+
+	[item.blood_pearl_of_teleportation]
+		#The amount of second slowness should be applied after each teleport.
+		slownessDuration = 0
+
+	[item.broom]
+		#The position to render the broom gui overlay at. (0=NE, 1=SE, 2=SW,3=NW)
+		guiOverlayPosition = 1
+		#The blood usage in mB per tick.
+		bloodUsage = 1
+		#Show broom part tooltips on source items.
+		broomPartTooltips = true
+		#The X offset for the broom gui overlay.
+		guiOverlayPositionOffsetX = -15
+		#The Y offset for the broom gui overlay.
+		guiOverlayPositionOffsetY = -10
+		#The blood usage in mB per block break.
+		bloodUsageBlockBreak = 1
+		#Show broom modifier tooltips on source items.
+		broomModifierTooltips = false
+
+	[item.kineticator]
+		#The amount of ticks inbetween each area checking for items.
+		tickHoldoff = 1
+		#If the Kineticator should also attract XP orbs.
+		moveXP = true
+		#The amount of ticks in between each blood consumption when there are valid items in the area.
+		consumeHoldoff = 20
+
+	[item.kineticator_repelling]
+		#The amount of ticks in between each blood consumption when there are valid items in the area.
+		consumeHoldoff = 20
+		#If the Kineticator should also attract XP orbs.
+		moveXP = true
+		#The amount of ticks inbetween each area checking for items.
+		tickHoldoff = 1
+
+	[item.vengeance_ring]
+		#The area of effect in # blocks of this ring.
+		areaOfEffect = 10
+
+	[item.vengeance_pickaxe]
+		#The default fortune enchantment level on these pickaxes in the creative tab.
+		fortuneLevel = 5
+		#The default vengeance enchantment level on these pickaxes in the creative tab.
+		vengeanceLevel = 3
+
+	[item.burning_gem_stone]
+		#How much damage this item can take.
+		maxDamage = 64
+
+	[item.vein_sword]
+		#The multiply boost this sword has on the blood that is obtained.
+		extractionBoost = 2.0
+		#Maximum uses for this item.
+		durability = 32
+
+	[item.exalted_crafter]
+		#If shift clicking on an item should first try to go into the crafting grid.
+		shiftCraftingGrid = false
+
+	[item.exalted_crafter_wooden]
+		#If shift clicking on an item should first try to go into the crafting grid.
+		shiftCraftingGrid = false
+
+	[item.exalted_crafter_empowered]
+		#If shift clicking on an item should first try to go into the crafting grid.
+		shiftCraftingGrid = false
+
+	[item.exalted_crafter_wooden_empowered]
+		#If shift clicking on an item should first try to go into the crafting grid.
+		shiftCraftingGrid = false
+
+	[item.necromancer_staff]
+		#The capacity of the container.
+		capacity = 10000
+		#The amount of Blood that will be drained per usage.
+		usage = 2000
+
+	[item.invig_pendant]
+		#The amount of Blood to drain after one reduction/clearing of fire. -1 to disable fire extinguishing.
+		fireUsage = 500
+		#The amount of blood to drain after each clearing of one bad effect.
+		usage = 100
+		#The amount of seconds that will be reduced from the first found bad effect.
+		reduceDuration = 30
+		#The capacity of the pendant.
+		capacity = 5000
+
+	[item.flesh_rejuvenated]
+		#The amount of blood (mB) this container can hold.
+		containerSize = 10000
+		#The amount of blood (mB) that is consumed per bite.
+		biteUsage = 250
+
+	[item.primed_pendant]
+		#Usage multipliers. Potion ids are first, followed by floating numbers. A number smaller than one blacklists that potion.
+		potionMultipliers = ["minecraft:health_boost;-1", "minecraft:regeneration;10"]
+		#The amount of Blood to drain after one effect application.
+		usage = 10
+		#The capacity of the pendant.
+		capacity = 5000
+
+	[item.biome_extract]
+		#A list of biome names for which no Biome Extracts may be used.
+		usageBlacklist = []
+		#A list of biome names for which no Biome Extracts may be created.
+		craftingBlacklist = []
+		#If creative versions for all variants should be added to the creative tab.
+		creativeTabVariants = true
+
+	[mob.kineticator]
+		#The blacklisted items which should not be influenced by the Kineticator, by unique item/blockState name.
+		kineticateBlacklist = ["appliedenergistics2:item.ItemCrystalSeed"]
+
+	[mob.kineticator_repelling]
+		#The blacklisted items which should not be influenced by the Kineticator, by unique item/blockState name.
+		kineticateBlacklist = ["appliedenergistics2:item.ItemCrystalSeed"]
+
+	[mob.poisonous_libelle]
+		#Should the Poisonous Libelle do damage, next to poisoning?
+		hasAttackDamage = false
+		#1/X chance on getting poisoned when hit.
+		poisonChance = 20
+		#The minimum Y-level this mob can spawn at.
+		minY = 55
+
+	[mob.vengeance_spirit]
+		#The 1/X chance that an actual spirit will spawn when doing actions like mining with the Vengeance Pickaxe.
+		nonDegradedSpawnChance = 5
+		#The area in which the spawn limit will be checked on each spawn attempt.
+		spawnLimitArea = 24
+		#The blacklisted entity spirits, by entity name. Regular expressions are allowed.
+		entityBlacklist = ["evilcraft:vengeance_spirit", "evilcraft:controlled_zombie", "evilcraft:werewolf", "minecraft:ender_dragon", "farmingforblockheads:merchant"]
+		#Whether vengeance spirits should always be visible in creative mode.
+		alwaysVisibleInCreative = false
+		#The maximum amount of vengeance spirits naturally spawnable in the spawnLimitArea.
+		spawnLimit = 2
+
+	[mob.werewolf]
+		#If villagers struck by lightning should have a 50% chance of becoming a werewolf villager
+		convertOnLightning = true
+
+	[entity.lightning_bomb_primed]
+		#The amount of ticks (on average), this bomb should tick before explosion.
+		fuse = 100
+
+	[entity.attack_vengeance_beam]
+		#If crossed beams should cause explosions.
+		crossBeamsExplosions = true
