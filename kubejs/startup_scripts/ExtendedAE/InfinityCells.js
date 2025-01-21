@@ -42,6 +42,11 @@ StartupEvents.registry('item', allthemods => {
         .texture('kubejs:item/tuff_cell')
         .itemType('minecraft:tuff')
         .cellModel('kubejs:block/drive/tuff_cell');
+    //Gravel
+    allthemods.create('gravel_cell', 'custom_infinity_cell')
+        .texture('kubejs:item/gravel_cell')
+        .itemType('minecraft:gravel')
+        .cellModel('kubejs:block/drive/gravel_cell');
     //sand
     allthemods.create('sand_cell', 'custom_infinity_cell')
         .texture('kubejs:item/sand_cell')
@@ -97,6 +102,97 @@ StartupEvents.registry('item', allthemods => {
         .texture('kubejs:item/sky_stone_cell')
         .itemType('ae2:sky_stone_block')
         .cellModel('kubejs:block/drive/sky_stone_cell');
+    //Kivi
+    allthemods.create('kivi_cell', 'custom_infinity_cell')
+        .texture('kubejs:item/kivi_cell')
+        .itemType('xycraft_world:kivi')
+        .cellModel('kubejs:block/drive/kivi_cell');
+    //Ancient Stone
+    allthemods.create('ancient_stone_cell', 'custom_infinity_cell')
+        .texture('kubejs:item/ancient_stone_cell')
+        .itemType('allthemodium:ancient_stone')
+        .cellModel('kubejs:block/drive/ancient_stone_cell');
+
+    //White dye
+    allthemods.create('white_dye_cell', 'custom_infinity_cell')
+        .texture('kubejs:item/white_dye_cell')
+        .itemType('minecraft:white_dye')
+        .cellModel('kubejs:block/drive/white_dye_cell');
+    //Light Gray dye
+    allthemods.create('light_gray_dye_cell', 'custom_infinity_cell')
+        .texture('kubejs:item/light_gray_dye_cell')
+        .itemType('minecraft:light_gray_dye')
+        .cellModel('kubejs:block/drive/light_gray_dye_cell');
+    //Gray dye
+    allthemods.create('gray_dye_cell', 'custom_infinity_cell')
+        .texture('kubejs:item/gray_dye_cell')
+        .itemType('minecraft:gray_dye')
+        .cellModel('kubejs:block/drive/gray_dye_cell');
+    //Black dye
+    allthemods.create('black_dye_cell', 'custom_infinity_cell')
+        .texture('kubejs:item/black_dye_cell')
+        .itemType('minecraft:black_dye')
+        .cellModel('kubejs:block/drive/black_dye_cell');
+    //Brown dye
+    allthemods.create('brown_dye_cell', 'custom_infinity_cell')
+        .texture('kubejs:item/brown_dye_cell')
+        .itemType('minecraft:brown_dye')
+        .cellModel('kubejs:block/drive/brown_dye_cell');
+    //Red dye
+    allthemods.create('red_dye_cell', 'custom_infinity_cell')
+        .texture('kubejs:item/red_dye_cell')
+        .itemType('minecraft:red_dye')
+        .cellModel('kubejs:block/drive/red_dye_cell');
+    //Orange dye
+    allthemods.create('orange_dye_cell', 'custom_infinity_cell')
+        .texture('kubejs:item/orange_dye_cell')
+        .itemType('minecraft:orange_dye')
+        .cellModel('kubejs:block/drive/orange_dye_cell');
+    //Yellow dye
+    allthemods.create('yellow_dye_cell', 'custom_infinity_cell')
+        .texture('kubejs:item/yellow_dye_cell')
+        .itemType('minecraft:yellow_dye')
+        .cellModel('kubejs:block/drive/yellow_dye_cell');
+    //Lime dye
+    allthemods.create('lime_dye_cell', 'custom_infinity_cell')
+        .texture('kubejs:item/lime_dye_cell')
+        .itemType('minecraft:lime_dye')
+        .cellModel('kubejs:block/drive/lime_dye_cell');
+    //Green dye
+    allthemods.create('green_dye_cell', 'custom_infinity_cell')
+        .texture('kubejs:item/green_dye_cell')
+        .itemType('minecraft:green_dye')
+        .cellModel('kubejs:block/drive/green_dye_cell');
+    //Cyan dye
+    allthemods.create('cyan_dye_cell', 'custom_infinity_cell')
+        .texture('kubejs:item/cyan_dye_cell')
+        .itemType('minecraft:cyan_dye')
+        .cellModel('kubejs:block/drive/cyan_dye_cell');
+    //Light Blue dye
+    allthemods.create('light_blue_dye_cell', 'custom_infinity_cell')
+        .texture('kubejs:item/light_blue_dye_cell')
+        .itemType('minecraft:light_blue_dye')
+        .cellModel('kubejs:block/drive/light_blue_dye_cell');
+    //Blue dye
+    allthemods.create('blue_dye_cell', 'custom_infinity_cell')
+        .texture('kubejs:item/blue_dye_cell')
+        .itemType('minecraft:blue_dye')
+        .cellModel('kubejs:block/drive/blue_dye_cell');
+    //Purple dye
+    allthemods.create('purple_dye_cell', 'custom_infinity_cell')
+        .texture('kubejs:item/purple_dye_cell')
+        .itemType('minecraft:purple_dye')
+        .cellModel('kubejs:block/drive/purple_dye_cell');
+    //Magenta dye
+    allthemods.create('magenta_dye_cell', 'custom_infinity_cell')
+        .texture('kubejs:item/magenta_dye_cell')
+        .itemType('minecraft:magenta_dye')
+        .cellModel('kubejs:block/drive/magenta_dye_cell');
+    //Pink dye
+    allthemods.create('pink_dye_cell', 'custom_infinity_cell')
+        .texture('kubejs:item/pink_dye_cell')
+        .itemType('minecraft:pink_dye')
+        .cellModel('kubejs:block/drive/pink_dye_cell');
 
 })
 
