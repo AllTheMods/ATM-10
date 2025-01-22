@@ -1,0 +1,53 @@
+#Ritual of Arcane Permanence
+[chunkloading]
+	#Should the ritual cost source?
+	has_cost = true
+	#Should the ritual cost be continuous?
+	repeat_cost = true
+	#How much source should it cost to run the ritual?
+	# Default: 10000
+	# Range: 1 ~ 10000
+	cost = 1000000
+	#How often should the ritual cost source? (in ticks, defaults to 1 in-game day)
+	# Default: 24000
+	# Range: > 1
+	interval = 24000
+	#How far should the ritual chunk-load? (in chunks, 0 = 1x1, 1 = 3x3, 2 = 5x5, 3 = 7x7, 4 = 9x9)
+	# Default: 0
+	# Range: > 0
+	initial_radius = 0
+	#Should the radius be able to be increased with an item?
+	radius_incremental = false
+	#What item is required to increase the chunk-loading radius?
+	radius_increment_item = "ars_nouveau:source_gem_block"
+	#What's the maximum amount of augmented increases the ritual should accept?
+	# Default: 1
+	# Range: > 1
+	radius_increment_max = 1
+	#Should the ritual require the player who started it to be online?
+	require_online = true
+	#How many rituals should players be able to run?
+	# Default: 2147483647
+	# Range: > 1
+	max_rituals = 2
+	#Should the server log when a chunk is loaded/unloaded?
+	log_chunkloading = true
+
+#Reliquary
+[mark_and_recall]
+	#How much durability should targeting a player with Recall cost?
+	# Default: 1000
+	# Range: 0 ~ 1000
+	cost_player = 1000
+	#How much durability should targeting an entity with Recall cost?
+	# Default: 250
+	# Range: 0 ~ 1000
+	cost_entity = 250
+	#How much durability should targeting a location with Recall cost?
+	# Default: 50
+	# Range: 0 ~ 1000
+	cost_location = 50
+	#How long should the Marked effect last (in seconds) when Mark is cast on a player?
+	# Default: 300
+	# Range: 0 ~ 900
+	effect_duration = 300

@@ -1,0 +1,73 @@
+[general]
+	#Additional conversion recipes for the Botanist's Pickaxe right click function. Each entry needs to be formatted as modid:input_block[prop1=value1,...]->modid:output_block[prop1=value1,...] where block state properties are optional, and entries follow standard TOML array formatting (https://toml.io/en/v1.0.0#array).
+	additionalBotanistPickaxeConversions = []
+	#Additional dimensions that map to Aura types that should be present in them. This is useful if you have a modpack with custom dimensions that should have Aura act similarly to an existing dimension in them. Each entry needs to be formatted as dimension_name->aura_type, where aura_type can be any of naturesaura:overworld, naturesaura:nether and naturesaura:end, and entries follow standard TOML array formatting (https://toml.io/en/v1.0.0#array).
+	auraTypeOverrides = []
+	#Additional blocks that are recognized as generatable ores for the passive ore generation effect. Each entry needs to be formatted as tag_name->oreWeight->dimension where a higher weight makes the ore more likely to spawn with 5000 being the weight of coal, the default ore with the highest weight, and dimension being any of overworld and nether, and entries follow standard TOML array formatting (https://toml.io/en/v1.0.0#array).
+	additionalOres = []
+	#Blocks that are exempt from being recognized as generatable ores for the passive ore generation effect. Each entry needs to be formatted as modid:block[prop1=value1,...] where block state properties are optional, and entries follow standard TOML array formatting (https://toml.io/en/v1.0.0#array).
+	oreExceptions = []
+	#Blocks that are exept from being fertilized by the plant boost effect. Each entry needs to be formatted as modid:block, and entries follow standard TOML array formatting (https://toml.io/en/v1.0.0#array).
+	plantBoostExceptions = []
+	#Additional projectile types that are allowed to be consumed by the projectile generator. Each entry needs to be formatted as entity_registry_name->aura_amount, and entries follow standard TOML array formatting (https://toml.io/en/v1.0.0#array).
+	additionalProjectiles = []
+	#The amount of blocks that can be between two Aura Field Creators for them to be connectable and work together
+	fieldCreatorRange = 24
+	#The Aura to RF ratio used by the RF converter, read as aura*ratio = rf
+	auraToRFRatio = 0.05
+	#The maximum amount of animals that can be around the powder of fertility before it stops working
+	maxAnimalsAroundPowder = 200
+	#The maximum amount of blocks that aura can spread from an initial position before it starts fizzling out. It's recommended to lower this value on a large server to avoid lag caused by players chunk-loading their bases for extended amounts of time without an Aura Detector present.
+	maxAuraSpreadRange = 150
+
+[features]
+	#If the RF converter block should be enabled
+	rfConverter = true
+	#If the chunk loader block should be enabled
+	chunkLoader = false
+	#If the Aura Imbalance effect of grass and trees dying in the area if the Aura levels are too low should occur
+	grassDieEffect = true
+	#If the Aura Imbalance effect of nether blocks degrading in the area if the Aura levels are too low should occur
+	netherDecayEffect = true
+	#If the Aura Imbalance effect of plant growth being boosted if the Aura levels are high enough should occur
+	plantBoostEffect = true
+	#If the Aura Imbalance effect of aura containers in players' inventories being filled if the Aura levels are high enough should occur
+	cacheRechargeEffect = true
+	#If the Aura Imbalance effect of explosions happening randomly if Aura levels are too low should occur
+	explosionEffect = true
+	#If the Aura Imbalance effect of breathlessness if Aura levels are too low should occur
+	breathlessEffect = true
+	#If the Aura Imbalance effect of passive mobs being angered if Aura levels are too low should occur
+	angerEffect = true
+	#If the Aura Imbalance effect of farm animals being affected in positive ways if Aura levels are too high should occur
+	animalEffect = true
+	#If the Aura Imbalance effect of ores spawning in the area if Aura levels are too high should occur
+	oreEffect = true
+	#If Aura Blooms and Aura Cacti should generate in the level
+	auraBlooms = true
+	#If the Aura Imbalance effect of grass growing on netherrack if the Aura levels are high enough should occur
+	netherGrassEffect = true
+
+[client]
+	#The percentage of particles that should be displayed, where 1 is 100% and 0 is 0%
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	particleAmount = 1.0
+	#If particle spawning should respect the particle setting in Minecraft's video settings screen
+	respectVanillaParticleSettings = false
+	#The percentage of particles that should spawn when there is an excess amount of Aura in the environment, where 1 is 100% and 0 is 0%
+	excessParticleAmount = 1.0
+	#The location of the aura bar, where 0 is top left, 1 is top right, 2 is bottom left and 3 is bottom right
+	# Default: 0
+	# Range: 0 ~ 3
+	auraBarLocation = 0
+	#The location of the aura cache bar, where 0 is to the left of the hotbar and 1 is to the right of the hotbar
+	# Default: 0
+	# Range: 0 ~ 1
+	cacheBarLocation = 0
+	#If debug information about Aura around the player should be displayed in the F3 debug menu if the player is in creative mode
+	debugText = true
+	#If, when the F3 debug menu is open and the player is in creative mode, every Aura spot should be highlighted in the level for debug purposes
+	debugLevel = false
+	#If certain equippable items, like the Environmental Eye, should be rendered on the player
+	renderItemsOnPlayer = true
