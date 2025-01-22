@@ -1,7 +1,7 @@
 #Log Mekanism packet names. Debug setting.
 logPackets = false
 #Controls whether Mekanism allows players to load chunks. If this is disabled, neither the Anchor Upgrade nor the Dimensional Stabilizer will provide any functionality.
-allowChunkloading = true
+allowChunkloading = false
 #How many ticks must pass until a block's active state is synced with the client when the block stops being active. This prevents rapid state changes that can cause lag. Note: Mekanism's blocks always sync immediately when they go from inactive to active; this only controls the time it takes to go from active to inactive.
 #Range: 0 ~ 1200
 blockDeactivationDelay = 60
