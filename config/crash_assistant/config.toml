@@ -53,6 +53,9 @@
 	#So you won't forget to save it before publishing.
 	#If you want to save manually: disable this and use '/crash_assistant modlist save' command.
 	auto_update = false
+	#If enabled, will add resourcepacks to modlist.json
+	#After filename where will be ' (resourcepack)' suffix.
+	add_resourcepacks = true
 
 #Settings of '/crash_assistant crash' command feature.
 [crash_command]
