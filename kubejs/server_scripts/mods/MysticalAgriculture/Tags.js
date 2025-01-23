@@ -11,7 +11,8 @@ const seedID = [
     'mysticalagriculture:crimson_iron_seeds',
     'mysticalagriculture:azure_silver_seeds',
     'mysticalagriculture:entro_seeds',
-    'mysticalagriculture:sky_steel_seeds'
+    'mysticalagriculture:sky_steel_seeds',
+    'mysticalagriculture:xychorium_gem_seeds'
 ]
 
 ServerEvents.tags('item', allthemods => {
@@ -31,7 +32,8 @@ ServerEvents.tags('item', allthemods => {
         'mysticalagriculture:crimson_iron_essence',
         'mysticalagriculture:azure_silver_essence',
         'mysticalagriculture:entro_essence',
-        'mysticalagriculture:sky_steel_essence'
+        'mysticalagriculture:sky_steel_essence',
+        'mysticalagriculture:xychorium_gem_essence'
       ])
 })
 
