@@ -10,6 +10,7 @@ let $HashSet = Java.loadClass("java.util.HashSet")
 let $ArrayList = Java.loadClass("java.util.ArrayList")
 
 let config
+let bannedBlockEntities
 
 if (!Platform.isClientEnvironment()) {
   let configPath = "server_banlist_config.json"
@@ -29,7 +30,7 @@ if (!Platform.isClientEnvironment()) {
   }
 
   /** @type {$ArrayList_<string>} */
-  let bannedBlockEntities = config?.server.banned_block_entities
+  bannedBlockEntities = config?.server.banned_block_entities
   /** @type {$ArrayList_<string>} */
   let bannedItems = config?.server.banned_items
   /** @type {$ArrayList_<string>} */
