@@ -12,7 +12,8 @@ let $ArrayList = Java.loadClass("java.util.ArrayList")
 let config
 let bannedBlockEntities
 
-if (!Platform.isClientEnvironment()) {
+// disabled, KubeJS/Rhino bug
+if (false) { // !Platform.isClientEnvironment()
   let configPath = "server_banlist_config.json"
   let defaultConfig = {
     server: {
@@ -69,7 +70,8 @@ if (!Platform.isClientEnvironment()) {
   let $ChunkEvent$Load = Java.loadClass("net.neoforged.neoforge.event.level.ChunkEvent$Load")
   if (!bannedBlockEntities.isEmpty()) {
     NativeEvents.onEvent($ChunkEvent$Load, event => {
-      removeBlockEntities(event)
+      if (event.level.clientSide) return
+	  removeBlockEntities(event)
     })
   }
 }
