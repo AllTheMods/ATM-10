@@ -1,0 +1,39 @@
+{
+  "minimumClient": {
+    "desc:": "Set the clients minimum memory warning threshold in MB. Choose the lowest value possible which keeps the pack playable. default:2500, min 2500, max 25000",
+    "minimumClient": 6000
+  },
+  "maximumClient": {
+    "desc:": "Set the clients maximum memory warning threshold in MB. Choose a generous maximum with some additional over the required, e.g.recommended memory for the pack is 6000mb then set this to ~8000mb",
+    "maximumClient": 32000
+  },
+  "minimumServer": {
+    "desc:": "Set the servers minimum memory warning threshold in MB. Choose the lowest value possible which keeps the pack playable. default:2500, min 2500, max 25000",
+    "minimumServer": 4096
+  },
+  "maximumServer": {
+    "desc:": "Set the servers maximum memory warning threshold in MB. Choose a generous maximum with some additional over the required, e.g.recommended is 6000mb then set this to ~8000mb",
+    "maximumServer": 128000
+  },
+  "disableWarnings": {
+    "desc:": "Disable the memory warnings, default: false",
+    "disableWarnings": false
+  },
+  "howtolink": {
+    "desc:": "Set the link used to guide players to a website with instructions to change memory allocation",
+    "howtolink": "https://apexminecrafthosting.com/how-to-allocate-more-ram/"
+  },
+  "warningTolerance": {
+    "desc:": "Set how many percent the memory is allowed to deviate from the recommended for the system before warning about it, default: 30, max 100",
+    "warningTolerance": 200
+  },
+  "recommendedMemory": {
+    "desc:": "Set the recommended memory values based off system memory in MB. [\"system memory:recommended\"]",
+    "memory values": [
+      "16000:8000",
+      "32000:12000",
+      "48000:12000",
+      "64000:12000"
+    ]
+  }
+}
