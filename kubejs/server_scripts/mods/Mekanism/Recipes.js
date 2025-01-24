@@ -32,6 +32,22 @@ ServerEvents.recipes(allthemods => {
     D: 'mekanism:electrolytic_core'
   }).id('allthemods:mekanismgenerators/gas_burning_gen')
 
+  //Digital Miner
+  allthemods.remove('mekanism:digital_miner')
+  allthemods.shaped('mekanism:digital_miner', [
+        "ACA",
+        "SRS",
+        "TXT"
+      ], {
+        A: '#c:ingots/vibranium',
+        C: '#c:circuits/basic',
+        R: 'mekanism:robit',
+        S: 'mekanism:logistical_sorter',
+        T: 'mekanism:teleportation_core',
+        X: 'mekanism:steel_casing'
+      }
+  ).id('allthemods:mekanism/digital_miner')
+
   //mekCrushing({item: 'mod:item', count: 0}, {item/tag: 'mod:item/tag', count: 0}, 'id');
   function mekCrushing(output, input, id) {
     let inputObject = {
