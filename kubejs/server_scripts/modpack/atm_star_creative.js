@@ -47,13 +47,13 @@ ServerEvents.recipes(allthemods => {
                 keepNbtOfReagent: false,
                 pedestalItems: [
                     Ingredient.of('ars_nouveau:source_gem_block').toJson(),
-                    Ingredient.of('ars_nouveau:source_jar[ars_nouveau:block_fill_contents=10000]').toJson(),
+                    Ingredient.of('allthemodium:allthemodium_source_jar[ars_nouveau:block_fill_contents=100000]').toJson(),
                     Ingredient.of('ars_nouveau:source_gem_block').toJson(),
-                    Ingredient.of('ars_nouveau:source_jar[ars_nouveau:block_fill_contents=10000]').toJson(),
+                    Ingredient.of('allthemodium:allthemodium_source_jar[ars_nouveau:block_fill_contents=100000]').toJson(),
                     Ingredient.of('ars_nouveau:source_gem_block').toJson(),
-                    Ingredient.of('ars_nouveau:source_jar[ars_nouveau:block_fill_contents=10000]').toJson(),
+                    Ingredient.of('allthemodium:allthemodium_source_jar[ars_nouveau:block_fill_contents=100000]').toJson(),
                     Ingredient.of('ars_nouveau:source_gem_block').toJson(),
-                    Ingredient.of('ars_nouveau:source_jar[ars_nouveau:block_fill_contents=10000]').toJson()
+                    Ingredient.of('allthemodium:allthemodium_source_jar[ars_nouveau:block_fill_contents=100000]').toJson()
                 ],
                 reagent: [
                     Ingredient.of('allthetweaks:atm_star').toJson()
