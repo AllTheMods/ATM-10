@@ -170,6 +170,11 @@ ItemEvents.modifyTooltips(allthemods => {
     allthemods.add('hyperbox:hyperbox', [
         Text.of("§aDue to a memory leak, these are no longer craftable.  If it is fixed in the future they will be reenabled.")
     ])
+
+	//Eternal Starlight
+    allthemods.add('eternal_starlight:loot_bag[eternal_starlight:loot_table="eternal_starlight:bosses/lunar_monstrosity"]', [
+        Text.of('This loot bag is from the \"Lunar Monstrosity\".')
+    ])
 })
 
 
