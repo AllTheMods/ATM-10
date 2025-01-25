@@ -4,13 +4,16 @@
 	#General options
 	[common.general]
 		#A multiplier for balancing fuel consumption.
-		#Range: 0.5 ~ 100.0
-		fuelUsageMultiplier = 1.0
+		# Default: 1.0
+		# Range: 0.5 ~ 100.0
+		fuelUsageMultiplier = 0.8
 		#A multiplier for balancing overall power production from Extreme Reactors generators.
-		#Range: 0.5 ~ 100.0
-		powerProductionMultiplier = 1.0
+		# Default: 1.0
+		# Range: 0.5 ~ 100.0
+		powerProductionMultiplier = 4.0
 		#Number of ticks between updates for the Redstone Port.
-		#Range: 10 ~ 100
+		# Default: 20
+		# Range: 10 ~ 100
 		ticksPerRedstoneUpdate = 20
 
 	#Define how Reactors works
@@ -18,67 +21,82 @@
 		#The maximum valid size of a Reactor in the Y dimension, in blocks.
 		#Lower this if your server's players are building ginormous Reactors.
 		#Bigger Y sizes have far less performance impact than X/Z sizes.
-		#Range: 3 ~ 256
+		# Default: 48
+		# Range: 3 ~ 256
 		maxReactorHeight = 48
 		#The maximum valid size of a Reactor in the X/Z plane, in blocks.
 		#Lower this if your server's players are building ginormous Reactors.
-		#Range: 3 ~ 256
+		# Default: 32
+		# Range: 3 ~ 256
 		maxReactorSize = 32
 		#A multiplier for balancing Reactor power production. Stacks with powerProductionMultiplier.
-		#Range: 0.5 ~ 100.0
+		# Default: 1.0
+		# Range: 0.5 ~ 100.0
 		reactorPowerProductionMultiplier = 3.0
 
 	#Define how Turbines works
 	[common.turbine]
 		#The maximum valid height of a Turbine (Y axis), in blocks.
-		#Range: 5 ~ 256
+		# Default: 32
+		# Range: 5 ~ 256
 		maxTurbineHeight = 32
 		#The maximum valid size of a Turbine in the X/Z plane, in blocks.
-		#Range: 5 ~ 256
+		# Default: 32
+		# Range: 5 ~ 256
 		maxTurbineSize = 32
 		#A multiplier for balancing rotor sizes.
 		#Multiplies the amount of energy lost to aerodynamic drag per tick.
-		#Range: 0.5 ~ 10.0
+		# Default: 1.0
+		# Range: 0.5 ~ 10.0
 		turbineAeroDragMultiplier = 1.0
 		#A multiplier for balancing coil size.
 		#Multiplies the amount of energy drawn per coil block per tick.
-		#Range: 0.5 ~ 10.0
+		# Default: 1.0
+		# Range: 0.5 ~ 10.0
 		turbineCoilDragMultiplier = 1.0
 		#A multiplier for balancing coil size.
 		#Multiplies the amount of fluid each blade block can process (base of 25 will be multiplied,
 		#then rounded down to the nearest integer).
-		#Range: 0.5 ~ 10.0
+		# Default: 1.0
+		# Range: 0.5 ~ 10.0
 		turbineFluidPerBladeMultiplier = 1.0
 		#A multiplier for balancing rotor sizes.
 		#Multiplies the amount of energy lost to friction per tick.
-		#Range: 0.5 ~ 10.0
+		# Default: 1.0
+		# Range: 0.5 ~ 10.0
 		turbineMassDragMultiplier = 1.0
 		#A multiplier for balancing turbine power production.
 		#Stacks with powerProductionMultiplier.
-		#Range: 0.5 ~ 10.0
+		# Default: 1.0
+		# Range: 0.5 ~ 10.0
 		turbinePowerProductionMultiplier = 3.0
 
 	#Define how Fluidizer works
 	[common.fluidizer]
 		#The maximum valid size of a Fluidizer in the Y dimension, in blocks.
 		#Lower this if your server's players are building ginormous Fluidizer.
-		#Range: 3 ~ 64
+		# Default: 16
+		# Range: 3 ~ 64
 		maxFluidizerHeight = 16
 		#The maximum valid size of a Fluidizer in the X/Z plane, in blocks.
 		#Lower this if your server's players are building ginormous Fluidizer.
-		#Range: 3 ~ 64
+		# Default: 16
+		# Range: 3 ~ 64
 		maxFluidizerSize = 16
 		#The amount of energy need to process a single tick of a recipe.
-		#Range: 20 ~ 1000
+		# Default: 25
+		# Range: 20 ~ 1000
 		energyPerRecipeTick = 25
 
 	#Define how Energizer works
 	[common.energizer]
 		#The maximum valid size of a Energizer in the Y dimension, in blocks.
 		#Lower this if your server's players are building ginormous Energizer.
-		#Range: 3 ~ 32
+		# Default: 32
+		# Range: 3 ~ 32
 		maxEnergizerHeight = 32
 		#The maximum valid size of a Energizer in the X/Z plane, in blocks.
 		#Lower this if your server's players are building ginormous Energizer.
-		#Range: 3 ~ 32
+		# Default: 32
+		# Range: 3 ~ 32
 		maxEnergizerSize = 32
