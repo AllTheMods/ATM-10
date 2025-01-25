@@ -173,7 +173,7 @@ ItemEvents.modifyTooltips(allthemods => {
 
 	//Eternal Starlight
     allthemods.add('eternal_starlight:loot_bag[eternal_starlight:loot_table="eternal_starlight:bosses/lunar_monstrosity"]', [
-        Text.of('This is loot bag is from the \"Lunar Monstrosity\"')
+        Text.of('This loot bag is from the \"Lunar Monstrosity\".')
     ])
 })
 
