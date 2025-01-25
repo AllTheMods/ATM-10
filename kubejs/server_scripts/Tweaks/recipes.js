@@ -80,6 +80,12 @@ ServerEvents.recipes(allthemods => {
         ]
     )
 
+    // Allow modded planks in the crafting table recipe.
+    allthemods.replaceInput(
+        { input: '#minecraft:vanilla_planks', output: 'minecraft:crafting_table' },
+        '#minecraft:vanilla_planks',
+        '#minecraft:planks'
+    )
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
