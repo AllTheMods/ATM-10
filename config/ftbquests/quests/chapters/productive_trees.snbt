@@ -488,18 +488,32 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["056E1E3B1ED14917"]
+			dependencies: [
+				"056E1E3B1ED14917"
+				"0661E9669E639621"
+			]
 			hide_until_deps_visible: true
 			id: "2ACFD25B43F0499C"
-			rewards: [{
-				count: 16
-				id: "74BB441B74E33FF7"
-				item: {
-					count: 1
-					id: "productivetrees:white_ipe_log"
+			rewards: [
+				{
+					count: 16
+					id: "74BB441B74E33FF7"
+					item: {
+						count: 1
+						id: "productivetrees:white_ipe_log"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "663DAD1FDA6DD793"
+					item: {
+						count: 1
+						id: "productivetrees:white_ipe_sapling"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
 			tasks: [{
 				id: "0B1DE8BCC3A5C44E"
 				item: { count: 1, id: "productivetrees:white_ipe_sapling" }
@@ -509,18 +523,32 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["2ACFD25B43F0499C"]
+			dependencies: [
+				"2ACFD25B43F0499C"
+				"0661E9669E639621"
+			]
 			hide_until_deps_visible: true
 			id: "6E9782258731E444"
-			rewards: [{
-				count: 16
-				id: "0E395BA60A4BC821"
-				item: {
-					count: 1
-					id: "productivetrees:pink_ipe_log"
+			rewards: [
+				{
+					count: 16
+					id: "0E395BA60A4BC821"
+					item: {
+						count: 1
+						id: "productivetrees:pink_ipe_log"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "4CA40FA25908607A"
+					item: {
+						count: 1
+						id: "productivetrees:pink_ipe_sapling"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
 			tasks: [{
 				id: "34E6649E3BE1FC61"
 				item: { count: 1, id: "productivetrees:pink_ipe_sapling" }
@@ -530,18 +558,32 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["6E9782258731E444"]
+			dependencies: [
+				"6E9782258731E444"
+				"0661E9669E639621"
+			]
 			hide_until_deps_visible: true
 			id: "2C0984E03F308959"
-			rewards: [{
-				count: 16
-				id: "27FC628B368C8EF5"
-				item: {
-					count: 1
-					id: "productivetrees:purple_ipe_log"
+			rewards: [
+				{
+					count: 16
+					id: "27FC628B368C8EF5"
+					item: {
+						count: 1
+						id: "productivetrees:purple_ipe_log"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "718654D4D58245B4"
+					item: {
+						count: 1
+						id: "productivetrees:purple_ipe_sapling"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
 			tasks: [{
 				id: "1CD4419DBC6DFE0A"
 				item: { count: 1, id: "productivetrees:purple_ipe_sapling" }
@@ -2627,18 +2669,32 @@
 			y: 6.5d
 		}
 		{
-			dependencies: ["4E802144C6E40D43"]
-			hide_until_deps_visible: true
+			dependencies: [
+				"4E802144C6E40D43"
+				"0661E9669E639621"
+			]
+			hide_until_deps_visible: false
 			id: "14D9C071E184DE3B"
-			rewards: [{
-				count: 16
-				id: "26B0481D013F8368"
-				item: {
-					count: 1
-					id: "productivetrees:red_crepe_myrtle_log"
+			rewards: [
+				{
+					count: 16
+					id: "26B0481D013F8368"
+					item: {
+						count: 1
+						id: "productivetrees:red_crepe_myrtle_log"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "1E1DC8613DA42E3B"
+					item: {
+						count: 1
+						id: "productivetrees:red_crepe_myrtle_sapling"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
 			tasks: [{
 				id: "54A4A373235685E6"
 				item: { count: 1, id: "productivetrees:red_crepe_myrtle_sapling" }
@@ -2648,18 +2704,32 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["14D9C071E184DE3B"]
+			dependencies: [
+				"14D9C071E184DE3B"
+				"0661E9669E639621"
+			]
 			hide_until_deps_visible: true
 			id: "3458F19FB41C7F0E"
-			rewards: [{
-				count: 16
-				id: "5EB6FBED591545DC"
-				item: {
-					count: 1
-					id: "productivetrees:tuscarora_crepe_myrtle_log"
+			rewards: [
+				{
+					count: 16
+					id: "5EB6FBED591545DC"
+					item: {
+						count: 1
+						id: "productivetrees:tuscarora_crepe_myrtle_log"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "01ABE49360BCEFAA"
+					item: {
+						count: 1
+						id: "productivetrees:tuscarora_crepe_myrtle_sapling"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
 			tasks: [{
 				id: "48A1360874BA29F4"
 				item: { count: 1, id: "productivetrees:tuscarora_crepe_myrtle_sapling" }
@@ -2669,17 +2739,31 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["3458F19FB41C7F0E"]
+			dependencies: [
+				"3458F19FB41C7F0E"
+				"0661E9669E639621"
+			]
 			id: "5FD88ED4937971D7"
-			rewards: [{
-				count: 16
-				id: "54B092BD50A0982A"
-				item: {
-					count: 1
-					id: "productivetrees:moonlight_magic_crepe_myrtle_log"
+			rewards: [
+				{
+					count: 16
+					id: "54B092BD50A0982A"
+					item: {
+						count: 1
+						id: "productivetrees:moonlight_magic_crepe_myrtle_log"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "7806BC8EB568C91F"
+					item: {
+						count: 1
+						id: "productivetrees:moonlight_magic_crepe_myrtle_sapling"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
 			tasks: [{
 				id: "6A0EBC1DFA170C53"
 				item: { count: 1, id: "productivetrees:moonlight_magic_crepe_myrtle_sapling" }
@@ -3684,18 +3768,32 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["0B70D40FA951E13B"]
+			dependencies: [
+				"0B70D40FA951E13B"
+				"0661E9669E639621"
+			]
 			hide_until_deps_visible: true
 			id: "0A467A0CFFCF1490"
-			rewards: [{
-				count: 16
-				id: "3ECFDFA21E8A61A0"
-				item: {
-					count: 1
-					id: "productivetrees:copper_beech_log"
+			rewards: [
+				{
+					count: 16
+					id: "3ECFDFA21E8A61A0"
+					item: {
+						count: 1
+						id: "productivetrees:copper_beech_log"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "34418A8E70169654"
+					item: {
+						count: 1
+						id: "productivetrees:copper_beech_sapling"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
 			tasks: [{
 				id: "7209B38C8BD83CE9"
 				item: { count: 1, id: "productivetrees:copper_beech_sapling" }
@@ -3705,18 +3803,32 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["10162AD188CB3327"]
+			dependencies: [
+				"10162AD188CB3327"
+				"0661E9669E639621"
+			]
 			hide_until_deps_visible: true
 			id: "53292D808E8F5218"
-			rewards: [{
-				count: 16
-				id: "35DE825D91530A49"
-				item: {
-					count: 1
-					id: "productivetrees:purple_blackthorn_log"
+			rewards: [
+				{
+					count: 16
+					id: "35DE825D91530A49"
+					item: {
+						count: 1
+						id: "productivetrees:purple_blackthorn_log"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "21F7F4F7627E7181"
+					item: {
+						count: 1
+						id: "productivetrees:purple_blackthorn_sapling"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
 			tasks: [{
 				id: "1BDCBDD339D8D687"
 				item: { count: 1, id: "productivetrees:purple_blackthorn_sapling" }
@@ -4173,6 +4285,19 @@
 			}]
 			x: 6.0d
 			y: 12.0d
+		}
+		{
+			dependencies: ["5577F49A93ADB19C"]
+			hide_dependent_lines: true
+			hide_details_until_startable: true
+			id: "0661E9669E639621"
+			shape: "hexagon"
+			tasks: [{
+				id: "79889CC26DCD7F19"
+				type: "checkmark"
+			}]
+			x: -6.357142857142854d
+			y: 8.94642857142857d
 		}
 	]
 }
