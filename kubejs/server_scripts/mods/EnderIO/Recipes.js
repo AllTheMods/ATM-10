@@ -2,23 +2,11 @@ const inputResource = [
   {material: 'unobtainium', out3: null, modID: 'allthemodium:'},
   {material: 'vibranium', out3: null, modID: 'allthemodium:'},
   {material: 'allthemodium', out3: null, modID: 'allthemodium:'},
-  {material: 'iridium', out3:{resource: 'platinum_dust', count: 1, chance: 0.05}, modID: 'alltheores:'},
-  {material: 'zinc', out3:{resource: 'sulfur', count: 1, chance: 0.10}, modID: 'alltheores:'},
-  {material: 'uranium', out3:{resource: 'lead_dust', count: 1, chance: 0.10}, modID: 'alltheores:'},
-  {material: 'tin', out3: null, modID: 'alltheores:'},
-  {material: 'silver', out3:{resource: 'lead_dust', count: 1, chance: 0.15}, modID: 'alltheores:'},
-  {material: 'platinum', out3:{resource: 'iridium_dust', count: 1, chance: 0.05}, modID: 'alltheores:'},
-  {material: 'osmium', out3: null, modID: 'alltheores:'},
-  {material: 'nickel', out3:{resource: 'osmium_dust', count: 1, chance: 0.15}, modID: 'alltheores:'},
-  {material: 'lead', out3:{resource: 'sulfur', count: 1, chance: 0.10}, modID: 'alltheores:'},
-  {material: 'aluminum', out3: null, modID: 'alltheores:'},
   {material: 'crimson_iron', out3: null, modID: 'silentgear:'},
   {material: 'azure_silver', out3: null, modID: 'silentgear:'},
   {material: 'blaze_gold', out3: null, modID: 'silentgear:'},
   {material: 'azure_electrum', out3: null, modID: 'silentgear:'},
   {material: 'crimson_steel', out3: null, modID: 'silentgear:'},
-  {material: 'steel', out3: null, modID: 'alltheores:'},
-  {material: 'netherite', out3: null, modID: 'alltheores:'}
 ]
 
 ServerEvents.recipes(allthemods => {
@@ -121,6 +109,7 @@ ServerEvents.recipes(allthemods => {
     if(!allthemods.countRecipes({ input: `#c:ingots/${sag.material}`, type: `enderio:sag_milling`})){
       allthemods.custom({
         type: 'enderio:sag_milling',
+        bonus: "none",
         energy: 2400,
         input: {
           tag: `c:ingots/${sag.material}`

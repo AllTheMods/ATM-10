@@ -4,7 +4,7 @@
 
 [expulsion_pylon]
 	#Which dimensions the Expulsion Pylon is allowed to operate in.
-	expulsionAllowedDimensions = ["minecraft:overworld", "allthemodium:the_beyond", "eternal_starlight:starlight"]
+	expulsionAllowedDimensions = ["minecraft:overworld", "allthemodium:the_beyond", "eternal_starlight:starlight", "compactmachines:compact_world"]
 	#The radius around the world spawn where the pylon is not allowed to operate.
 	#By default this uses the world spawn radius (/gamerule spawnRadius).
 	#This config will only take effect if it is larger than the world spawn radius.
@@ -45,7 +45,7 @@
 	infusionAllowedEffects = []
 	#Effects that may not be used in the Infusion Pylon.
 	#This list will override the allowed effect list.
-	infusionDeniedEffects = []
+	infusionDeniedEffects = ["minecraft:absorption", "tombstone:ghostly_shape", "irons_spellbooks:heartstop"]
 	#The maximum potency that can be applied in the Infusion Pylon.
 	#This value is 0-indexed, so a Resistance V potion would be potency 4.
 	# Default: 3
@@ -56,7 +56,7 @@
 	#Delay between harvest attempts (in ticks).
 	# Default: 60
 	# Range: 10 ~ 120
-	harvesterWorkDelay = 60
+	harvesterWorkDelay = 20
 	#Whether the harvester requires a hoe to work.
 	#If enabled, it will use 1 durability per harvest action
 	harvesterRequiresTool = true

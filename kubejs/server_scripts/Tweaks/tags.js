@@ -7,6 +7,18 @@ ServerEvents.tags('block', allthemods => {
 
   // Extreme Reactors
   allthemods.add('c:storage_blocks/yellorium', 'alltheores:uranium_block' )
+
+  // Essence Blocks
+  allthemods.add('c:storage_blocks/air_essence', 'kubejs:air_essence_block')
+  allthemods.add('c:storage_blocks/earth_essence', 'kubejs:earth_essence_block')
+  allthemods.add('c:storage_blocks/fire_essence', 'kubejs:fire_essence_block')
+  allthemods.add('c:storage_blocks/water_essence', 'kubejs:water_essence_block')
+  allthemods.add('c:storage_blocks', [
+    '#c:storage_blocks/air_essence',
+    '#c:storage_blocks/earth_essence',
+    '#c:storage_blocks/fire_essence',
+    '#c:storage_blocks/water_essence'
+  ])
 })
 
 ServerEvents.tags('item', allthemods => {
@@ -36,9 +48,20 @@ ServerEvents.tags('item', allthemods => {
 
   allthemods.add('c:storage_blocks', '#c:storage_blocks/raw_crimson_iron')
   allthemods.add('c:storage_blocks', '#c:storage_blocks/raw_azure_silver')
-  allthemods.add('c:ores/cinnabar', 'alltheores:cinnabar_ore')
-  
-  //Ars Elemental Books
+
+  // Essence Blocks
+  allthemods.add('c:storage_blocks/air_essence', 'kubejs:air_essence_block')
+  allthemods.add('c:storage_blocks/earth_essence', 'kubejs:earth_essence_block')
+  allthemods.add('c:storage_blocks/fire_essence', 'kubejs:fire_essence_block')
+  allthemods.add('c:storage_blocks/water_essence', 'kubejs:water_essence_block')
+  allthemods.add('c:storage_blocks', [
+    '#c:storage_blocks/air_essence',
+    '#c:storage_blocks/earth_essence',
+    '#c:storage_blocks/fire_essence',
+    '#c:storage_blocks/water_essence'
+  ])
+
+  // Ars Elemental Books
   allthemods.add('minecraft:bookshelf_books', 'ars_elemental:air_caster_tome')
   allthemods.add('minecraft:bookshelf_books', 'ars_elemental:fire_caster_tome')
   allthemods.add('minecraft:bookshelf_books', 'ars_elemental:water_caster_tome')

@@ -23,53 +23,53 @@ if (Platform.isLoaded('minecolonies')) {
             R: '#minecraft:chest_boats'
         })
 //Replaces Minecolonies Cabbage with all of the cabbages
-        event.replaceInput({ input: 'minecolonies:cabbage' }, 'minecolonies:cabbage', '#c:crops/cabbage' )
+        event.replaceInput({ input: 'minecolonies:cabbage', mod:'minecolonies' }, 'minecolonies:cabbage', '#c:crops/cabbage' )
 //Bell Pepper replacement
-        event.replaceInput({ input: 'minecolonies:bell_pepper' }, 'minecolonies:bell_pepper', '#c:crops/bellpepper' )
+        event.replaceInput({ input: 'minecolonies:bell_pepper', mod:'minecolonies' }, 'minecolonies:bell_pepper', '#c:crops/bellpepper' )
 //Chickpea replacement
-        event.replaceInput({ input: 'minecolonies:chickpea' }, 'minecolonies:chickpea', '#c:crops/chickpea' )
+        event.replaceInput({ input: 'minecolonies:chickpea', mod:'minecolonies' }, 'minecolonies:chickpea', '#c:crops/chickpea' )
 //Durum Wheat replacement
-        event.replaceInput({ input: 'minecolonies:durum' }, 'minecolonies:durum', '#c:crops/wheat' )
+        event.replaceInput({ input: 'minecolonies:durum', mod:'minecolonies' }, 'minecolonies:durum', '#c:crops/wheat' )
 //Eggplant replacement
-        event.replaceInput({ input: 'minecolonies:eggplant' }, 'minecolonies:eggplant', '#c:crops/eggplant' )
+        event.replaceInput({ input: 'minecolonies:eggplant', mod:'minecolonies' }, 'minecolonies:eggplant', '#c:crops/eggplant' )
 //Garlic replacement
-        event.replaceInput({ input: 'minecolonies:garlic' }, 'minecolonies:garlic', '#c:crops/garlic' )
+        event.replaceInput({ input: 'minecolonies:garlic', mod:'minecolonies' }, 'minecolonies:garlic', '#c:crops/garlic' )
 //Onion replacement
-        event.replaceInput({ input: 'minecolonies:onion' }, 'minecolonies:onion', '#c:crops/onion' )
+        event.replaceInput({ input: 'minecolonies:onion', mod:'minecolonies' }, 'minecolonies:onion', '#c:crops/onion' )
 //Soybean replacement
-        event.replaceInput({ input: 'minecolonies:soybean' }, 'minecolonies:soybean', '#c:crops/onion' )
+        event.replaceInput({ input: 'minecolonies:soybean', mod:'minecolonies' }, 'minecolonies:soybean', '#c:crops/soybean' )
 //Tomato replacement
-        event.replaceInput({ input: 'minecolonies:tomato' }, 'minecolonies:tomato', '#c:crops/tomato' )
+        event.replaceInput({ input: 'minecolonies:tomato', mod:'minecolonies' }, 'minecolonies:tomato', '#c:crops/tomato' )
 //Rice replacement
-        event.replaceInput({ input: 'minecolonies:rice' }, 'minecolonies:rice', '#c:crops/rice' )
+        event.replaceInput({ input: 'minecolonies:rice', mod:'minecolonies' }, 'minecolonies:rice', '#c:crops/rice' )
 //Corn replacement
-        event.replaceInput({ input: 'minecolonies:corn' }, 'minecolonies:corn', '#c:crops/corn' )
+        event.replaceInput({ input: 'minecolonies:corn', mod:'minecolonies' }, 'minecolonies:corn', '#c:crops/corn' )
 //Peas replacement
-        event.replaceInput({ input: 'minecolonies:peas' }, 'minecolonies:peas', '#c:crops/peas' )
+        event.replaceInput({ input: 'minecolonies:peas', mod:'minecolonies' }, 'minecolonies:peas', '#c:crops/peas' )
 //Butternut Squash replacement
-        event.replaceInput({ input: 'minecolonies:butternut_squash' }, 'minecolonies:butternut_squash', '#c:crops/wintersquash' )
+        event.replaceInput({ input: 'minecolonies:butternut_squash', mod:'minecolonies' }, 'minecolonies:butternut_squash', '#c:crops/wintersquash' )
 //Large Water Bottle replacement
-        event.replaceInput({ input: 'minecolonies:large_water_bottle' }, 'minecolonies:large_water_bottle', '#c:water/freshwater' )
+        event.replaceInput({ input: 'minecolonies:large_water_bottle', mod:'minecolonies' }, 'minecolonies:large_water_bottle', '#c:water/freshwater' )
 //Large Milk Bottle replacement
-        event.replaceInput({ input: 'minecolonies:large_milk_bottle' }, 'minecolonies:large_milk_bottle', '#c:milk' )
+        event.replaceInput({ input: 'minecolonies:large_milk_bottle', mod:'minecolonies' }, 'minecolonies:large_milk_bottle', '#c:milk' )
 //Large Soy Milk Bottle
-        event.replaceInput({ input: 'minecolonies:large_soy_milk_bottle' }, 'minecolonies:large_soy_milk_bottle', '#c:milk' )
+        event.replaceInput({ input: 'minecolonies:large_soy_milk_bottle', mod:'minecolonies' }, 'minecolonies:large_soy_milk_bottle', '#c:milk' )
 //Raw Noodles replacement
-        event.replaceInput({ input: 'minecolonies:raw_noodle' }, 'minecolonies:raw_noodle', '#c:pasta' )
+        event.replaceInput({ input: 'minecolonies:raw_noodle', mod:'minecolonies' }, 'minecolonies:raw_noodle', '#c:pasta' )
 //Butter replacement
-        event.replaceInput({ input: 'minecolonies:butter' }, 'minecolonies:butter', '#c:butter' )
+        event.replaceInput({ input: 'minecolonies:butter', mod:'minecolonies' }, 'minecolonies:butter', '#c:butter' )
 //Cornmeal replacement
-        event.replaceInput({ input: 'minecolonies:cornmeal' }, 'minecolonies:cornmeal', '#c:cornmeal' )
+        event.replaceInput({ input: 'minecolonies:cornmeal', mod:'minecolonies' }, 'minecolonies:cornmeal', '#c:cornmeal' )
 //Soysauce replacement
-        event.replaceInput({ input: 'minecolonies:soysauce' }, 'minecolonies:soysauce', '#c:soysauce' )
+        event.replaceInput({ input: 'minecolonies:soysauce', mod:'minecolonies' }, 'minecolonies:soysauce', '#c:soysauce' )
 //Cheddar Cheese replacement
-        event.replaceInput({ input: 'minecolonies:cheddar_cheese' }, 'minecolonies:cheddar_cheese', '#c:cheese' )
+        event.replaceInput({ input: 'minecolonies:cheddar_cheese', mod:'minecolonies' }, 'minecolonies:cheddar_cheese', '#c:cheese' )
 //Feta Cheese replacement
-        event.replaceInput({ input: 'minecolonies:feta_cheese' }, 'minecolonies:feta_cheese', '#c:cheese' )
+        event.replaceInput({ input: 'minecolonies:feta_cheese', mod:'minecolonies' }, 'minecolonies:feta_cheese', '#c:cheese' )
 //Yogurt replacement
-        event.replaceInput({ input: 'minecolonies:yogurt' }, 'minecolonies:yogurt', '#c:yogurt' )
+        event.replaceInput({ input: 'minecolonies:yogurt', mod:'minecolonies' }, 'minecolonies:yogurt', '#c:yogurt' )
 //Tortillas replacement
-        event.replaceInput({ input: 'minecolonies:tortillas' }, 'minecolonies:tortillas', '#c:tortilla' )
+        event.replaceInput({ input: 'minecolonies:tortillas', mod:'minecolonies' }, 'minecolonies:tortillas', '#c:tortilla' )
     })
 }
 

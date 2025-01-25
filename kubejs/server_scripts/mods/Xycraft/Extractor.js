@@ -5,7 +5,7 @@ ServerEvents.recipes(allthemods => {
     // Target = block underneath
     // Adjacent = blocks around target
     // Catalyst = block underneath target
-    function extractor({output, target, adjacent, catalyst, directions, ticks, waterlogged}) {
+    function extractor({output, id, target, adjacent, catalyst, directions, ticks, waterlogged}) {
         let recipe = {
             "type": "xycraft_machines:extractor",
             "adjacent": [],
@@ -40,7 +40,11 @@ ServerEvents.recipes(allthemods => {
             });
         }
 
-        allthemods.custom(recipe).id(`allthemods:xycraft/extractor/${output.item.split(":").pop()}`);
+        if(id) {
+            allthemods.custom(recipe).id(`allthemods:xycraft/extractor/${output.item.split(":").pop()}_${id}`);
+        } else {
+            allthemods.custom(recipe).id(`allthemods:xycraft/extractor/${output.item.split(":").pop()}`);
+        }
     }
 
     function rule (type, block, property) {
@@ -104,9 +108,9 @@ ServerEvents.recipes(allthemods => {
         output: { item:"minecraft:spore_blossom", count: 1 },
         target: { type: "xycraft_core:block_rule", block: "minecraft:moss_block" },
         catalyst: {type: "xycraft_core:block_rule", block: "minecraft:spore_blossom" },
-        ticks: 200,
+        ticks: 100,
         waterlogged: 'minecraft:water',
-        directions: ["up"]
+        directions: ["down"]
     })
 
     extractor({
@@ -126,7 +130,7 @@ ServerEvents.recipes(allthemods => {
             { type: "xycraft_core:block_rule", block: "xycraft_world:xychorium_storage_blue" }
         ],
         catalyst: { type: "xycraft_core:fluid_type_rule", block: "minecraft:lava" },
-        ticks: 80,
+        ticks: 20,
     })
 
     extractor({
@@ -139,7 +143,7 @@ ServerEvents.recipes(allthemods => {
             { type: "xycraft_core:block_rule", block: "xycraft_world:xychorium_storage_green" }
         ],
         catalyst: { type: "xycraft_core:fluid_type_rule", block: "minecraft:lava" },
-        ticks: 80,
+        ticks: 20,
     })
 
     extractor({
@@ -152,7 +156,7 @@ ServerEvents.recipes(allthemods => {
             { type: "xycraft_core:block_rule", block: "xycraft_world:xychorium_storage_red" }
         ],
         catalyst: { type: "xycraft_core:fluid_type_rule", block: "minecraft:lava" },
-        ticks: 80,
+        ticks: 20,
     })
 
     extractor({
@@ -165,7 +169,7 @@ ServerEvents.recipes(allthemods => {
             { type: "xycraft_core:block_rule", block: "xycraft_world:xychorium_storage_dark" }
         ],
         catalyst: { type: "xycraft_core:fluid_type_rule", block: "minecraft:lava" },
-        ticks: 80,
+        ticks: 20,
     })
 
     extractor({
@@ -178,7 +182,33 @@ ServerEvents.recipes(allthemods => {
             { type: "xycraft_core:block_rule", block: "xycraft_world:xychorium_storage_light" }
         ],
         catalyst: { type: "xycraft_core:fluid_type_rule", block: "minecraft:lava" },
-        ticks: 80,
+        ticks: 20,
+    })
+
+    extractor({
+        output: { item:"fluxnetworks:flux_dust", count: 1 },
+        target: { type: "xycraft_core:block_rule", block: "minecraft:redstone_block" },
+        adjacent: [
+            { type: "xycraft_core:block_rule", block: "minecraft:obsidian" },
+            { type: "xycraft_core:block_rule", block: "minecraft:obsidian" },
+            { type: "xycraft_core:block_rule", block: "minecraft:obsidian" },
+            { type: "xycraft_core:block_rule", block: "minecraft:obsidian" }
+        ],
+        catalyst: { type: "xycraft_core:block_rule", block: "fluxnetworks:flux_block" },
+        ticks: 20,
+    })
+
+    extractor({
+        output: { item:"fluxnetworks:flux_dust", count: 1 }, id: "bedrock",
+        target: { type: "xycraft_core:block_rule", block: "minecraft:redstone_block" },
+        adjacent: [
+            { type: "xycraft_core:block_rule", block: "minecraft:obsidian" },
+            { type: "xycraft_core:block_rule", block: "minecraft:obsidian" },
+            { type: "xycraft_core:block_rule", block: "minecraft:obsidian" },
+            { type: "xycraft_core:block_rule", block: "minecraft:obsidian" }
+        ],
+        catalyst: { type: "xycraft_core:block_rule", block: "minecraft:bedrock" },
+        ticks: 20,
     })
 })
 

@@ -46,18 +46,16 @@
 			shape: "pentagon"
 			size: 3.0d
 			tasks: [{
-				id: "5A1784C5676CDC62"
-				type: "checkmark"
+				dimension: "minecraft:overworld"
+				id: "33218EFDD498E9DB"
+				type: "dimension"
 			}]
 			x: 0.0d
 			y: -0.49642857142856656d
 		}
 		{
 			icon: {
-				components: {
-					"ftbquests:icon": "ftbquests:item/book"
-				}
-				id: "ftbquests:custom_icon"
+				id: "ftbquests:book"
 			}
 			id: "3708A4780ACEB34E"
 			min_width: 250
@@ -155,7 +153,7 @@
 				}
 			]
 			x: 0.0d
-			y: 3.0d
+			y: 4.5d
 		}
 	]
 }

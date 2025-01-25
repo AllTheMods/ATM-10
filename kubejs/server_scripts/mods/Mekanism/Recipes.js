@@ -32,6 +32,22 @@ ServerEvents.recipes(allthemods => {
     D: 'mekanism:electrolytic_core'
   }).id('allthemods:mekanismgenerators/gas_burning_gen')
 
+  //Digital Miner
+  allthemods.remove('mekanism:digital_miner')
+  allthemods.shaped('mekanism:digital_miner', [
+        "ACA",
+        "SRS",
+        "TXT"
+      ], {
+        A: '#c:ingots/vibranium',
+        C: '#c:circuits/basic',
+        R: 'mekanism:robit',
+        S: 'mekanism:logistical_sorter',
+        T: 'mekanism:teleportation_core',
+        X: 'mekanism:steel_casing'
+      }
+  ).id('allthemods:mekanism/digital_miner')
+
   //mekCrushing({item: 'mod:item', count: 0}, {item/tag: 'mod:item/tag', count: 0}, 'id');
   function mekCrushing(output, input, id) {
     let inputObject = {
@@ -57,7 +73,7 @@ ServerEvents.recipes(allthemods => {
   }
 
   //mekEnriching({item: 'mod:item', count: 0}, {item/tag: 'mod:item/tag', count: 0}, 'id');
-  function mekEnriching(output, input, id, outputCount) {
+  function mekEnriching(output, input, id) {
     let inputObject = {
       "count": input.count || 1
     };
@@ -72,7 +88,7 @@ ServerEvents.recipes(allthemods => {
       "type": "mekanism:enriching",
       "input": inputObject,
       "output": {
-        "count": output.count = outputCount,
+        "count": output.count,
         "id": output.item
       }
     };
@@ -108,6 +124,21 @@ ServerEvents.recipes(allthemods => {
 
     allthemods.custom(recipe).id(`allthemods:mekanism/sawing/${id}`);
   }
+    //mekOxidizing(output{item, count}, input, id)
+    function mekOxidizing(output, input) {
+      allthemods.custom({
+        "type": "mekanism:oxidizing",
+        "input": {
+          "count": 1,
+          "tag": input
+        },
+        "output": {
+          "amount": output.count,
+          "id": output.item
+        }
+      })
+    }
+  
 
   [['gravel','cobblestone'], ['sand','gravel']].forEach(recipe => {
     for (let count = 1; count < 10; count++) {
@@ -119,7 +150,7 @@ ServerEvents.recipes(allthemods => {
     }
   })
 
-
+  //mekCrushing({item: 'mod:item', count: 0}, {item/tag: 'mod:item/tag', count: 0}, 'id');
   mekCrushing(
     {item: 'silentgear:blaze_gold_dust'},
     {item: 'silentgear:blaze_gold_ingot'},
@@ -140,13 +171,24 @@ ServerEvents.recipes(allthemods => {
     {item:'extendedae:entro_crystal'},
     'entro_crystal_to_dust'
   )
-  
-  mekEnriching(
-    {item: 'alltheores:sulfur'},
-    {tag: 'c:ores/sulfur'},
-    'sulfur_ore_to_sulfur',
-    4
-  )
+  mekCrushing({item:'irons_spellbooks:raw_mithril', count:4}, {tag:'c:ores/mithril'}, 'mithril_ore_to_raw')
+    
+  //mekEnriching(output{item: 'mod:item', count: 0}, input{item/tag: 'mod:item/tag', count: 0}, 'id');
+  mekEnriching({item: 'mysticalagriculture:prosperity_shard', count: 3}, {tag:'c:ores/prosperity'}, 'prosperity_ore_to_shard')
+  mekEnriching({item: 'mysticalagriculture:inferium_essence', count: 3}, {tag:'c:ores/inferium'}, 'inferium_ore_to_essence')
+  mekEnriching({item: 'theurgy:sal_ammoniac_crystal', count: 3}, {tag:'c:ores/sal_ammoniac'}, 'sal_ammoniac_ore_to_crystal')
+  mekEnriching({item: 'powah:uraninite_raw', count: 2}, {tag: 'c:ores/uraninite_poor'}, 'uraninite_poor_to_raw')
+  mekEnriching({item: 'powah:uraninite_raw', count: 4}, {tag: 'c:ores/uraninite_regular'}, 'uraninite_regular_to_raw')
+  mekEnriching({item: 'powah:uraninite_raw', count: 6}, {tag: 'c:ores/uraninite_dense'}, 'uraninite_dense_to_raw')
+  mekEnriching({item: 'silentgear:bort', count: 3}, {tag: 'c:ores/bort'}, 'bort_ore_to_bort')
+  mekEnriching({item: 'actuallyadditions:black_quartz', count: 2}, {tag: 'c:ores/black_quartz'}, 'black_quartz_ore_to_black_quartz')
+
+  global.xycraftColours.forEach(colour => {
+    mekEnriching({item: `xycraft_world:xychorium_gem_${colour}`, count: 4}, {tag:`c:ores/xychorium_${colour}`}, `${colour}_xychorium_ore_to_gem`)
+  })
+
+  mekOxidizing({item:'mekanism:osmium', count:200}, 'c:ingots/osmium')
+  mekOxidizing({item:'mekanism:osmium', count:1800}, 'c:storage_blocks/osmium')
 
 })
 
