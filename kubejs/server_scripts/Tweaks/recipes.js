@@ -79,7 +79,7 @@ ServerEvents.recipes(allthemods => {
             '9x mysticalagriculture:honey_essence'
         ]
     )
-
+    allthemods.shaped("minecraft:crafting_table", ['XX','XX'], {X: "#minecraft:planks"}).id("minecraft:crafting_table")
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
