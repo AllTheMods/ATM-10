@@ -100,7 +100,7 @@ ServerEvents.recipes(allthemods => {
             { type: "xycraft_core:block_rule", block: "biomeswevegone:black_sand" }
         ],
         catalyst: { type: "xycraft_core:block_rule", block: "biomeswevegone:black_sand" },
-        ticks: 80,
+        ticks: 40,
         waterlogged: 'minecraft:water'
 })
 
@@ -108,7 +108,7 @@ ServerEvents.recipes(allthemods => {
         output: { item:"minecraft:spore_blossom", count: 1 },
         target: { type: "xycraft_core:block_rule", block: "minecraft:moss_block" },
         catalyst: {type: "xycraft_core:block_rule", block: "minecraft:spore_blossom" },
-        ticks: 100,
+        ticks: 50,
         waterlogged: 'minecraft:water',
         directions: ["down"]
     })
@@ -117,7 +117,7 @@ ServerEvents.recipes(allthemods => {
         output: { item:"minecraft:sculk", count: 1 },
         target: { type: "xycraft_core:block_rule", block: "minecraft:sculk" },
         catalyst: {type: "xycraft_core:block_rule", block: "minecraft:sculk_catalyst" },
-        ticks: 200,
+        ticks: 50,
     })
 
     extractor({
@@ -130,7 +130,7 @@ ServerEvents.recipes(allthemods => {
             { type: "xycraft_core:block_rule", block: "xycraft_world:xychorium_storage_blue" }
         ],
         catalyst: { type: "xycraft_core:fluid_type_rule", block: "minecraft:lava" },
-        ticks: 20,
+        ticks: 10,
     })
 
     extractor({
@@ -143,7 +143,7 @@ ServerEvents.recipes(allthemods => {
             { type: "xycraft_core:block_rule", block: "xycraft_world:xychorium_storage_green" }
         ],
         catalyst: { type: "xycraft_core:fluid_type_rule", block: "minecraft:lava" },
-        ticks: 20,
+        ticks: 10,
     })
 
     extractor({
@@ -156,7 +156,7 @@ ServerEvents.recipes(allthemods => {
             { type: "xycraft_core:block_rule", block: "xycraft_world:xychorium_storage_red" }
         ],
         catalyst: { type: "xycraft_core:fluid_type_rule", block: "minecraft:lava" },
-        ticks: 20,
+        ticks: 10,
     })
 
     extractor({
@@ -169,7 +169,7 @@ ServerEvents.recipes(allthemods => {
             { type: "xycraft_core:block_rule", block: "xycraft_world:xychorium_storage_dark" }
         ],
         catalyst: { type: "xycraft_core:fluid_type_rule", block: "minecraft:lava" },
-        ticks: 20,
+        ticks: 10,
     })
 
     extractor({
@@ -182,12 +182,12 @@ ServerEvents.recipes(allthemods => {
             { type: "xycraft_core:block_rule", block: "xycraft_world:xychorium_storage_light" }
         ],
         catalyst: { type: "xycraft_core:fluid_type_rule", block: "minecraft:lava" },
-        ticks: 20,
+        ticks: 10,
     })
 
     extractor({
         output: { item:"fluxnetworks:flux_dust", count: 1 },
-        target: { type: "xycraft_core:block_rule", block: "minecraft:redstone_block" },
+        target: { type: "xycraft_core:block_rule", block: "appflux:charged_redstone_block" },
         adjacent: [
             { type: "xycraft_core:block_rule", block: "minecraft:obsidian" },
             { type: "xycraft_core:block_rule", block: "minecraft:obsidian" },
@@ -195,12 +195,12 @@ ServerEvents.recipes(allthemods => {
             { type: "xycraft_core:block_rule", block: "minecraft:obsidian" }
         ],
         catalyst: { type: "xycraft_core:block_rule", block: "fluxnetworks:flux_block" },
-        ticks: 20,
+        ticks: 5,
     })
 
     extractor({
         output: { item:"fluxnetworks:flux_dust", count: 1 }, id: "bedrock",
-        target: { type: "xycraft_core:block_rule", block: "minecraft:redstone_block" },
+        target: { type: "xycraft_core:block_rule", block: "appflux:charged_redstone_block" },
         adjacent: [
             { type: "xycraft_core:block_rule", block: "minecraft:obsidian" },
             { type: "xycraft_core:block_rule", block: "minecraft:obsidian" },
@@ -208,7 +208,7 @@ ServerEvents.recipes(allthemods => {
             { type: "xycraft_core:block_rule", block: "minecraft:obsidian" }
         ],
         catalyst: { type: "xycraft_core:block_rule", block: "minecraft:bedrock" },
-        ticks: 20,
+        ticks: 5,
     })
 })
 
