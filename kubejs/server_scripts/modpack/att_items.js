@@ -11,7 +11,7 @@ ServerEvents.recipes(allthemods => {
     N: ['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ender_dragon",hostilenetworks:data=1255]', 'hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ender_dragon",hostilenetworks:data=1254]'],
     I: 'allthemodium:piglich_heart_block',
     B: 'productivebees:spawn_egg_configurable_bee[entity_data={id:"productivebees:configurable_bee",type:"productivebees:soul_lava"}]',
-	  G: 'productivebees:inactive_dragon_egg',
+	  G: 'cataclysm:abyssal_sacrifice',
     E: 'eternal_starlight:chain_of_souls'
   }).id('allthemods:allthetweaks/dragon_soul')
 
@@ -82,9 +82,9 @@ allthemods.shaped('allthetweaks:oblivion_shard', ['DAB', 'ECF', 'BGD'], {
   C: 'evilcraft:mace_of_destruction[cyclopscore:fluid_content={amount:4000,id:"evilcraft:blood"}]',
   B: 'evilcraft:piercing_vengeance_focus',
   D: 'stevescarts:module_galgadorian_drill',
-  E: 'twilightforest:hydra_trophy',
-  F: 'twilightforest:snow_queen_trophy',
-  G: 'twilightforest:ur_ghast_trophy'
+  E: 'cataclysm:meat_shredder',
+  G: 'twilightforest:snow_queen_trophy',
+  F: 'cataclysm:void_forge'
 }).id('allthemods:allthetweaks/oblivion_shard')
 
 
