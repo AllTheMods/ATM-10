@@ -2,7 +2,7 @@
 #General settings of Crash Assistant mod.
 [general]
 	#Link which will be opened in browser on request_help_button pressed.
-	#If equals CHANGE_ME, will open Fabric/MinecraftForge/NeoForge discord link.
+	#If equals CHANGE_ME, will open Forge/NeoForge/Fabric/Quilt discord link. Names of communities/channels also will be used not from config, but according to this link.
 	#Must start with 'https://' or 'www.'
 	help_link = "https://discord.gg/allthemods"
 	#Show gui on minecraft crashed on modloading and FML error screen displayed.
@@ -16,8 +16,9 @@
 	#List of blacklisted log files. This files won't show in GUI logs list.
 	blacklisted_logs = ["CrashAssistant: latest.log"]
 	#Anyways log will be uploaded to mclo.gs, but with this option you can wrap link to gnomebot.dev for better formatting.
+	#If help_link equals 'CHANGE_ME', this value will be ignored and gnomebot.dev used.
 	#Supported values: mclo.gs / gnomebot.dev
-	upload_to = "mclo.gs"
+	upload_to = "gnomebot.dev"
 
 #Here you can change text of lang placeHolders.
 #Also you can change any text in lang files.
@@ -32,11 +33,6 @@
 	#For example this placeHolder used in: "Oops, $CONFIG.text.modpack_name$ crashed!"
 	#Supports Better Compatibility Checker integration. You can use $BCC.modpackName$, $BCC.modpackVersion$, etc and it will be replaced with value from BCC config.
 	modpack_name = "$BCC.modpackName$ - $BCC.modpackVersion$"
-	#With this you can change formulation of first sentence of comment under title.
-	#CANT_RESOLVE - "If you can't resolve the problem by reading logs, join the $CONFIG.text.support_name$."
-	#PLS_REPORT - "If you want to report the problem or need help, join the $CONFIG.text.support_name$."
-	#For modpacks, the second option is recommended; the first is intended for individual mod downloads.
-	comment_start_formulation = "PLS_REPORT"
 
 #Settings of modlist feature.
 #Adds in generated msg block about which mods modpack user added/removed/updated.
@@ -80,6 +76,9 @@
 	#If the modpack is created for a non-English-speaking audience, сhange this to the language the modpack is designed for.
 	#This lang will be used only for generating message by "Upload all..." button.Do not modify this value if there's a chance that the generated message will be sent to English-speaking communities.
 	generated_msg_lang = "en_us"
+	#Add ### prefix before filename.
+	#This can prevent too small, hard to hit on mobile links.
+	h3_prefix = true
 
 [greeting]
 	#You don't need to touch this option.
