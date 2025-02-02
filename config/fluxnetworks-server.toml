@@ -1,0 +1,56 @@
+[networks]
+	#Maximum networks each player can have. Super admin can bypass this limit. -1 = no limit
+	#Setting this to 0 will only allow super admins to create networks.
+	# Default: 5
+	# Range: > -1
+	maximumPerPlayer = 5
+	#Allows someone to be a network super admin. Otherwise, no one can access a flux device or delete a network without permission.
+	enableSuperAdmin = true
+	#See ops.json. If the player has permission level equal or greater to the value set here they will be able to activate Super Admin.
+	#Setting this to 0 will allow anyone to active Super Admin. Single player can bypass this limit.
+	#Players have permission level 3 or 4 can use commands to set others as Super Admin whether others have this permission level or not.
+	# Default: 1
+	# Range: 0 ~ 3
+	superAdminRequiredPermission = 1
+
+[general]
+	#Enables redstone being compressed with the bedrock and obsidian to get flux dusts.
+	enableFluxRecipe = true
+	#Allows flux devices to enable chunk loading.
+	enableChunkLoading = false
+
+[blacklist]
+	#A blacklist for blocks which flux devices shouldn't connect to, use format 'modid:registry_name'
+	blockBlacklistStrings = ["actuallyadditions:block_phantom_energyface"]
+	#A blacklist for items which wireless charging shouldn't charge to, use format 'modid:registry_name'
+	itemBlackListStrings = [""]
+
+[energy]
+	#The default transfer limit of a Flux Plug, Point and Controller
+	# Default: 800000
+	# Range: 0 ~ 9223372036854775807
+	defaultLimit = 800000
+	#The maximum energy storage of a Basic Flux Storage
+	# Default: 2000000
+	# Range: 0 ~ 9223372036854775807
+	basicCapacity = 2000000
+	#The default transfer limit of a Basic Flux Storage
+	# Default: 20000
+	# Range: 0 ~ 9223372036854775807
+	basicTransfer = 20000
+	#The maximum energy storage of a Herculean Flux Storage
+	# Default: 16000000
+	# Range: 0 ~ 9223372036854775807
+	herculeanCapacity = 16000000
+	#The default transfer limit of a Herculean Flux Storage
+	# Default: 120000
+	# Range: 0 ~ 9223372036854775807
+	herculeanTransfer = 120000
+	#The maximum energy storage of a Gargantuan Flux Storage
+	# Default: 128000000
+	# Range: 0 ~ 9223372036854775807
+	gargantuanCapacity = 128000000
+	#The default transfer limit of a Gargantuan Flux Storage
+	# Default: 720000
+	# Range: 0 ~ 9223372036854775807
+	gargantuanTransfer = 720000
