@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pamhc2trees:pamavocado"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "tag": "c:tools/shear"
+          }
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "pamhc2trees:pamavocado",
+          "properties": {
+            "age": "0"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "pamhc2trees:avocadoitem"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "pamhc2trees:pamavocado",
+          "properties": {
+            "age": "7"
+          }
+        }
+      ]
+    }
+  ]
+}
