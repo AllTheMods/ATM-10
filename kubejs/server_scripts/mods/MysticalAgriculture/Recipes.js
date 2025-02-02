@@ -51,6 +51,12 @@ ServerEvents.recipes(allthemods => {
         A: 'mysticalagriculture:nether_essence'
     }).id('allthemods:essence/minecraft/warped_wart_block')
 
+    // Moss Blocks
+    allthemods.shaped('8x minecraft:moss_block', ['NNN', 'NDN', 'NNN'],{
+        N: 'mysticalagriculture:nature_essence',
+        D: 'mysticalagriculture:dirt_essence'
+    }).id('allthemods:essence/minecraft/moss_block')
+
     // Shroomlights
     allthemods.shaped('6x minecraft:shroomlight', ['AGA', 'GAG', 'AGA'],{
         A: 'mysticalagriculture:nether_essence',
