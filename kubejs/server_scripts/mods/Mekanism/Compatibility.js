@@ -269,11 +269,11 @@ ServerEvents.recipes(allthemods => {
         chemical: 'mekanism:hydrogen_chloride'
       },      
       item_input: {
-        count: 2,
+        count: 1,
         tag: `c:crystals/${material}`
       },
       output: {
-        count: 1,
+        count: 2,
         id: `kubejs:${material}_shard`
       },  "per_tick_usage": true
     }).id(`allthemods:processing/${material}/shard/from_crystal`)

@@ -12,7 +12,8 @@ const seedID = [
     'mysticalagriculture:azure_silver_seeds',
     'mysticalagriculture:entro_seeds',
     'mysticalagriculture:sky_steel_seeds',
-    'mysticalagriculture:xychorium_gem_seeds'
+    'mysticalagriculture:xychorium_gem_seeds',
+    'mysticalagriculture:black_quartz_seeds'
 ]
 
 ServerEvents.tags('item', allthemods => {

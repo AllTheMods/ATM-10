@@ -59,7 +59,8 @@ const dusts = [
 //gems to be switched to tags
 const gems = [
   {resource: 'quartz', essence: 'tertium', seed: 'nether_quartz'},
-  {resource: 'fluorite', essence: 'imperium', seed: undefined}
+  {resource: 'fluorite', essence: 'imperium', seed: undefined},
+  {resource: 'peridot', essence: 'imperium', seed: undefined}
 ]
 
 //ingredients in a different format to use tags
