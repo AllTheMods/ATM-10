@@ -1,0 +1,1899 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "blood_magic"
+	group: "02FE661031A105D8"
+	icon: "bloodmagic:altar"
+	id: "004F28C5C85F467B"
+	images: [
+		{
+			height: 0.3d
+			hover: ["{atm9.quest.ae2.img.star}"]
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.3d
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/bloodmagic/bloodmagic_tier1.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -35.0d
+			y: 10.0d
+		}
+		{
+			height: 3.5d
+			image: "atm:textures/questpics/bloodmagic/bloodmagic_tier2.png"
+			rotation: 0.0d
+			width: 4.5d
+			x: -35.0d
+			y: 4.0d
+		}
+		{
+			height: 4.5d
+			image: "atm:textures/questpics/bloodmagic/bloodmagic_tier3.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: -26.0d
+			y: 4.0d
+		}
+		{
+			height: 7.0d
+			image: "atm:textures/questpics/bloodmagic/bloodmagic_tier4.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: -26.0d
+			y: 11.0d
+		}
+		{
+			height: 10.0d
+			image: "atm:textures/questpics/bloodmagic/bloodmagic_tier5.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: -14.0d
+			y: 8.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/helper_arrow.png"
+			rotation: -90.0d
+			width: 2.0d
+			x: -35.0d
+			y: 6.5d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/helper_arrow.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -31.0d
+			y: 4.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/helper_arrow.png"
+			rotation: 90.0d
+			width: 2.0d
+			x: -26.0d
+			y: 7.5d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/helper_arrow.png"
+			rotation: -45.0d
+			width: 2.0d
+			x: -21.5d
+			y: 10.0d
+		}
+	]
+	order_index: 3
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"{atm9.quest.bloodMagic.desc.welcome.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.welcome.2}"
+				""
+				"{atm9.quest.bloodMagic.desc.welcome.3}"
+			]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "bloodmagic:guide"
+				}
+			}
+			id: "3A9B90A453C933C4"
+			rewards: [{
+				id: "5A846312CB17F978"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "725485AD36712DE7"
+				item: "minecraft:raw_gold"
+				type: "item"
+			}]
+			title: "{atm9.quest.bloodMagic.welcomeToBloodMagic}"
+			x: -30.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3A9B90A453C933C4"]
+			description: [
+				"{atm9.quest.bloodMagic.desc.gettingStarted.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.gettingStarted.2}"
+				""
+				"{atm9.quest.bloodMagic.desc.gettingStarted.3}"
+				""
+				"{atm9.quest.bloodMagic.desc.gettingStarted.4}"
+				""
+				"{atm9.quest.bloodMagic.desc.gettingStarted.5}"
+			]
+			icon: "bloodmagic:altar"
+			id: "3DA7D0BA045CE7AB"
+			rewards: [
+				{
+					id: "2DE0010C8535C460"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4035D131781BA3B1"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					id: "49E5D4B7057851E7"
+					item: {
+						Count: 1
+						id: "bloodmagic:sacrificialdagger"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "41D32B8152806B22"
+					item: "bloodmagic:altar"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.bloodMagic.collectingBlood}"
+			x: -28.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DA7D0BA045CE7AB"]
+			description: [
+				"{atm9.quest.bloodMagic.desc.infusingLifeEssence.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.infusingLifeEssence.2}"
+			]
+			id: "6AAB831CB3FB536A"
+			rewards: [
+				{
+					id: "01162A1F9A3B0A4D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41A8D927838C237B"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "7CBFE84B4FE3DC01"
+				item: "bloodmagic:blankslate"
+				type: "item"
+			}]
+			title: "{atm9.quest.bloodMagic.makingSlates}"
+			x: -26.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6AAB831CB3FB536A"]
+			description: [
+				"{atm9.quest.bloodMagic.desc.upgradingAltar.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.upgradingAltar.2}"
+				""
+				"{atm9.quest.bloodMagic.desc.upgradingAltar.3}"
+				""
+				"{atm9.quest.bloodMagic.desc.upgradingAltar.4}"
+				""
+			]
+			icon: "bloodmagic:altar"
+			id: "4B51189C36B8D291"
+			min_width: 350
+			rewards: [
+				{
+					id: "4C507A1D9293C777"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60C63C6C24A4C313"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				count: 8L
+				id: "4CDFCAAED8ABB615"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			title: "{atm9.quest.bloodMagic.upgradingAltarTier2}"
+			x: -24.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4B51189C36B8D291"]
+			title: "{atm9.quest.bloodMagic.title.upgradeJourney}"
+			description: ["{atm9.quest.bloodMagic.desc.upgradeJourney.1}"]
+			id: "2C3CA7B9D1A7DC47"
+			rewards: [
+				{
+					id: "448B572D6386F058"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34915581C600A4B8"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "4CEA3279AF0BEE01"
+				item: "bloodmagic:reinforcedslate"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3DA7D0BA045CE7AB"]
+			description: [
+				"{atm9.quest.bloodMagic.desc.weakBloodOrbFeatures.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.weakBloodOrbFeatures.2}"
+				""
+				"{atm9.quest.bloodMagic.desc.weakBloodOrbFeatures.3}"
+				""
+				"{atm9.quest.bloodMagic.desc.weakBloodOrbFeatures.4}"
+			]
+			id: "5BF29A151A04FEF0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7260A652122EADE4"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			subtitle: "{atm9.quest.bloodMagic.subt.weakBloodOrbCapacity}"
+			tasks: [{
+				id: "65E0BEE90716B68C"
+				item: "bloodmagic:weakbloodorb"
+				type: "item"
+			}]
+			title: "{atm9.quest.bloodMagic.portableBloodStorage}"
+			x: -28.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			description: [
+				"{atm9.quest.bloodMagic.desc.ritualPreparation.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.ritualPreparation.2}"
+				""
+				"{atm9.quest.bloodMagic.desc.ritualPreparation.3}"
+			]
+			icon: "bloodmagic:masterritualstone"
+			id: "4578C0EE82F66BD9"
+			rewards: [
+				{
+					id: "706F037413BB3D25"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16F4D172FABD38C4"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "6995C629EAA148F5"
+					item: "bloodmagic:masterritualstone"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "32F2BC0D3AA69E25"
+					item: "bloodmagic:ritualstone"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.bloodMagic.tier1Rituals}"
+			x: -18.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			title: "{atm9.quest.bloodMagic.title.lpBonusFromRune}"
+			description: ["{atm9.quest.bloodMagic.desc.lpBonusFromRune.1}"]
+			id: "08F28A9E4DEA7CD0"
+			rewards: [
+				{
+					id: "23EBA079A86E799A"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C106D8316F38DAE"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6C6CDA42FB379A80"
+				item: "bloodmagic:sacrificerune"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B51189C36B8D291"]
+			title: "{atm9.quest.bloodMagic.title.altarMobSacrifice}"
+			description: [
+				"{atm9.quest.bloodMagic.desc.altarMobSacrifice.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.altarMobSacrifice.2}"
+				""
+				"{atm9.quest.bloodMagic.desc.altarMobSacrifice.3}"
+				""
+				"{atm9.quest.bloodMagic.desc.altarMobSacrifice.4}"
+			]
+			id: "5361F72BAB72D318"
+			rewards: [
+				{
+					id: "050236926D942519"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 16
+					id: "217032A5D292D4A1"
+					item: "minecraft:egg"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A545D851730E5B5"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			subtitle: "{atm9.quest.bloodMagic.subt.stabbingAlternative}"
+			tasks: [{
+				id: "5D7178C2EF652773"
+				item: "bloodmagic:daggerofsacrifice"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6AAB831CB3FB536A"
+				"506D48AD9FB2E89D"
+			]
+			description: [
+				"{atm9.quest.bloodMagic.desc.hellfireForgeIntro.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.hellfireForgeIntro.2}"
+			]
+			id: "7BA086472D87D705"
+			rewards: [
+				{
+					id: "65BAEBCF71A95208"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "674C18BAD74BCDAA"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "59D4952D3D164F6D"
+				item: "bloodmagic:soulforge"
+				type: "item"
+			}]
+			title: "{atm9.quest.bloodMagic.hellfireForge}"
+			x: -27.0d
+			y: -3.959183673469383d
+		}
+		{
+			dependencies: ["11D37E7391B49A88"]
+			description: [
+				"{atm9.quest.bloodMagic.desc.sentientSwordIntro.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.sentientSwordIntro.2}"
+			]
+			id: "7C8D74692C963000"
+			rewards: [
+				{
+					id: "40D83B6E12A16952"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CBBC06B94BF333B"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "72A92CB3A5DA9044"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.bloodMagic.sentientSword}"
+			x: -27.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7BA086472D87D705"]
+			description: [
+				"{atm9.quest.bloodMagic.desc.demonicWillStorage.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.demonicWillStorage.2}"
+				""
+				"{atm9.quest.bloodMagic.desc.demonicWillStorage.3}"
+				""
+				"{atm9.quest.bloodMagic.desc.demonicWillStorage.4}"
+			]
+			id: "11D37E7391B49A88"
+			rewards: [
+				{
+					id: "3C98676E7D871A75"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "51113031E18ACFAF"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "1E4979886B89B2AD"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgempetty"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{atm9.quest.bloodMagic.storingDemonicWill}"
+			x: -27.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["11D37E7391B49A88"]
+			title: "{atm9.quest.bloodMagic.title.willStorageUpgrade.1}"
+			description: ["{atm9.quest.bloodMagic.desc.willStorageUpgrade.1}"]
+			id: "487275B970530E3F"
+			rewards: [
+				{
+					id: "6C398EB3B8CC167B"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27780A18A67529DA"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "55AF014185F20835"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemlesser"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -26.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["487275B970530E3F"]
+			description: ["{atm9.quest.bloodMagic.desc.willStorageUpgrade.2}"]
+			title: "{atm9.quest.bloodMagic.title.willStorageUpgrade.2}"
+			id: "626C07DB8B8C5A04"
+			rewards: [
+				{
+					id: "0B2775EDC84F8DBC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DAD375F1A2AF5E4"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "04BCD1D949FCB24D"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemcommon"
+					tag: {
+						souls: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -27.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["626C07DB8B8C5A04"]
+			description: ["{atm9.quest.bloodMagic.desc.willStorageUpgrade.3}"]
+			title: "{atm9.quest.bloodMagic.title.willStorageUpgrade.3}"
+			id: "20458B8987CD6CB9"
+			rewards: [
+				{
+					id: "706507A5BDE8CAF5"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "07407D2054217DCA"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "25B30F1BCCEE920A"
+				item: {
+					Count: 1
+					id: "bloodmagic:soulgemgreater"
+					tag: {
+						souls: 0.0d
+					}
+				}
+				type: "item"
+			}]
+			x: -28.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["5886C648D14180E1"]
+			title: "{atm9.quest.bloodMagic.title.imbuedSlates}"
+			description: [
+				"{atm9.quest.bloodMagic.desc.imbuedSlates.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.imbuedSlates.2}"
+			]
+			id: "375FF0D8ACD2E17F"
+			rewards: [
+				{
+					id: "467291771E176EC8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13713EA50BB82824"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2BEC3F34860494B0"
+				item: "bloodmagic:infusedslate"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			title: "{atm9.quest.bloodMagic.title.capacityRuneIncrease}"
+			description: ["{atm9.quest.bloodMagic.desc.capacityRuneIncrease.1}"]
+			id: "0B2B8247DA280E90"
+			rewards: [{
+				id: "7CF045B2A95086EB"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "41758E5DA17E2FDF"
+				item: "bloodmagic:altarcapacityrune"
+				type: "item"
+			}]
+			x: -17.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			title: "{atm9.quest.bloodMagic.title.lpFlowRateIncrease}"
+			description: ["{atm9.quest.bloodMagic.desc.lpFlowRateIncrease.1}"]
+			id: "47B985B56C582D6A"
+			rewards: [{
+				id: "31EA9D6A3290C38D"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "00D5D96DA535CFE7"
+				item: "bloodmagic:dislocationrune"
+				type: "item"
+			}]
+			x: -18.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["431C44439CA54077"]
+			title: "{atm9.quest.bloodMagic.title.finalSlateUse}"
+			description: [
+				"{atm9.quest.bloodMagic.desc.finalSlateUse.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.finalSlateUse.2}"
+			]
+			id: "7CA3AE708F46CEBF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D292D3B1B5098EE"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "338AE6A0C0C7D4C4"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+				{
+					id: "2D17D4A2BDBC45E6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "57F75D0B2554BA61"
+				item: "bloodmagic:demonslate"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			title: "{atm9.quest.bloodMagic.title.altarCapacityMultiplicativeIncrease}"
+			description: ["{atm9.quest.bloodMagic.desc.altarCapacityMultiplicativeIncrease.1}"]
+			id: "6C0D4CBC089988ED"
+			rewards: [{
+				id: "2A8726C8BB765154"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "0B14A7CBC056CC9F"
+				item: "bloodmagic:bettercapacityrune"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			title: "{atm9.quest.bloodMagic.title.internalBufferCreation}"
+			description: [
+				"{atm9.quest.bloodMagic.desc.internalBufferCreation.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.internalBufferCreation.2}"
+				""
+				"{atm9.quest.bloodMagic.desc.internalBufferCreation.3}"
+			]
+			id: "6C57FF70679AF123"
+			rewards: [{
+				id: "5E890AEA3E9B9188"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "73F90730D99D6384"
+				item: "bloodmagic:chargingrune"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2214B7DCE4075A02"]
+			title: "{atm9.quest.bloodMagic.title.tooPowerful}"
+			description: ["{atm9.quest.bloodMagic.desc.tooPowerful}"]
+			id: "396AA75774059D0B"
+			optional: true
+			rewards: [
+				{
+					id: "493159D4211DD8E5"
+					type: "xp"
+					xp: 500
+				}
+				{
+					exclude_from_claim_all: true
+					id: "798065D5E6460699"
+					table_id: 5564196992594175882L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "600A5AEE6C546B4C"
+				item: "bloodmagic:etherealslate"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			title: "{atm9.quest.bloodMagic.title.runeOperationAcceleration}"
+			description: [
+				"{atm9.quest.bloodMagic.desc.runeOperationAcceleration.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.runeOperationAcceleration.2}"
+			]
+			id: "0EE2D22A577D10B0"
+			rewards: [{
+				id: "0FDD0D502E4E581C"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "7EB95246A2F0981D"
+				item: "bloodmagic:accelerationrune"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0E8418B42A744030"]
+			title: "{atm9.quest.bloodMagic.title.tauFruitUsage}"
+			description: [
+				"{atm9.quest.bloodMagic.desc.tauFruitUsage.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.tauFruitUsage.2}"
+				""
+				"{atm9.quest.bloodMagic.desc.tauFruitUsage.3}"
+			]
+			id: "50A28E1946047A6E"
+			rewards: [{
+				id: "4899CDA6BDDEB8C3"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2D780C226FCF4A03"
+				item: "bloodmagic:weak_tau"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50A28E1946047A6E"]
+			title: "{atm9.quest.bloodMagic.title.fruitThirsts}"
+			description: [
+				"{atm9.quest.bloodMagic.desc.fruitThirsts.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.fruitThirsts.2}"
+			]
+			id: "5E2D15E4A410B5DA"
+			rewards: [
+				{
+					id: "5511EA668DC7B429"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1ED8BE4C480178A5"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "102AEEB23B1AA7EF"
+				item: "bloodmagic:strong_tau"
+				type: "item"
+			}]
+			x: -14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			title: "{atm9.quest.bloodMagic.title.alchemicalChamber}"
+			description: [
+				"{atm9.quest.bloodMagic.desc.alchemicalChamber.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.alchemicalChamber.2}"
+			]
+			id: "308581359FEF32E9"
+			rewards: [
+				{
+					id: "7798ABBC4BAB13CC"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "438B3074141BDD0D"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "1589663D302CE21E"
+				item: "bloodmagic:alchemicalreactionchamber"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			title: "{atm9.quest.bloodMagic.title.lp150k}"
+			id: "0E51D6BB2BC756B6"
+			rewards: [{
+				id: "7848C02921758A7E"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			subtitle: "{atm9.quest.bloodMagic.subt.lp150k}"
+			tasks: [{
+				id: "7BB6F203FCA31A25"
+				item: "bloodmagic:magicianbloodorb"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			title: "{atm9.quest.bloodMagic.title.lp1M}"
+			id: "048BD38532A1DDCF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D41FABC4E86DDDB"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+				{
+					id: "67279306EEA316A8"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			subtitle: "{atm9.quest.bloodMagic.subt.lp1M}"
+			tasks: [{
+				id: "2F13F6D6E170BBEC"
+				item: "bloodmagic:masterbloodorb"
+				type: "item"
+			}]
+			x: -15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5E2D15E4A410B5DA"
+				"308581359FEF32E9"
+			]
+			title: "{atm9.quest.bloodMagic.title.demonWillStock}"
+			description: [
+				"{atm9.quest.bloodMagic.desc.demonWillStock.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.demonWillStock.2}"
+				""
+				"{atm9.quest.bloodMagic.desc.demonWillStock.3}"
+				""
+			]
+			id: "25343A0C4C22AA60"
+			rewards: [
+				{
+					id: "3A386B0E3C9940DE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "217C0C4ECD47524F"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "644089E244D63E1A"
+					table_id: 4196188979167302596L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "3A104E7D6C6AA524"
+					item: "bloodmagic:weakbloodshard"
+					type: "item"
+				}
+				{
+					id: "04EAE604D8B668B3"
+					item: "bloodmagic:largebloodstonebrick"
+					type: "item"
+				}
+				{
+					id: "6C20FD13B73935A7"
+					item: {
+						Count: 1
+						id: "bloodmagic:sanguinereverter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			description: [
+				"{atm9.quest.bloodMagic.desc.duskRitualDiviner}"
+				""
+				"{atm9.quest.bloodMagic.desc.duskRitualDiviner.2}"
+			]
+			id: "263925A79EBB270F"
+			rewards: [
+				{
+					id: "6647598F7C4C2325"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63B03F1E9F9EDDB2"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "46C11FFD8A06B63E"
+					item: {
+						Count: 1
+						id: "bloodmagic:duskscribetool"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "088CD8231DD1A37A"
+					item: "bloodmagic:ritualdivinerdusk"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.bloodMagic.tierIIRituals}"
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3DA7D0BA045CE7AB"]
+			description: [
+				"{atm9.quest.bloodMagic.desc.collectingDemonicWill.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.collectingDemonicWill.2}"
+				""
+				"{atm9.quest.bloodMagic.desc.collectingDemonicWill.3}"
+			]
+			id: "506D48AD9FB2E89D"
+			rewards: [
+				{
+					count: 3
+					id: "20442FD9EB780A4C"
+					item: "bloodmagic:soulsnare"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					id: "07EB91CE33392DD5"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					count: 3L
+					id: "3D1BAA6CA8B979A9"
+					item: "bloodmagic:soulsnare"
+					type: "item"
+				}
+				{
+					id: "42D29681DC076E3C"
+					item: {
+						Count: 1
+						id: "bloodmagic:basemonstersoul"
+						tag: {
+							souls: 5.0d
+						}
+					}
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.bloodMagic.collectingDemonicWill}"
+			x: -28.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6AAB831CB3FB536A"]
+			title: "{atm9.quest.bloodMagic.title.alchemyTable}"
+			description: [
+				"{atm9.quest.bloodMagic.desc.alchemyTable.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.alchemyTable.2}"
+			]
+			id: "7CC2D826CA6BBDDB"
+			rewards: [
+				{
+					id: "080A6AA97A0A41E9"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B73167276AC7063"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "33ECB0563BA9E2CB"
+				item: "bloodmagic:alchemytable"
+				type: "item"
+			}]
+			x: -24.50425170068028d
+			y: -3.95d
+		}
+		{
+			dependencies: ["4B51189C36B8D291"]
+			description: [
+				"{atm9.quest.bloodMagic.desc.runeTypes.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.runeTypes.2}"
+				""
+				"{atm9.quest.bloodMagic.desc.runeTypes.3}"
+			]
+			id: "49F57CE3B472FF6D"
+			rewards: [
+				{
+					id: "422BF2738AC9D3D3"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C02483B7593D250"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "3EF20FD3AC7ED48B"
+				item: "bloodmagic:speedrune"
+				type: "item"
+			}]
+			title: "{atm9.quest.bloodMagic.alteringTheAltar}"
+			x: -24.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			title: "{atm9.quest.bloodMagic.title.lpGainIncrease}"
+			description: [
+				"{atm9.quest.bloodMagic.desc.lpGainIncrease}"
+				""
+				"{atm9.quest.bloodMagic.desc.lpGainIncrease.2}"
+			]
+			id: "6CE4ED7A2642674F"
+			rewards: [
+				{
+					id: "5898710F2074585F"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A6A155E062CAD5B"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6692D1D1E4E4F758"
+				item: "bloodmagic:selfsacrificerune"
+				type: "item"
+			}]
+			x: -21.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			description: [
+				"{atm9.quest.bloodMagic.desc.upgradeAltarTier3.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.upgradeAltarTier3.2}"
+				""
+				"{atm9.quest.bloodMagic.desc.upgradeAltarTier3.3}"
+				""
+				"{atm9.quest.bloodMagic.desc.upgradeAltarTier3.4}"
+				""
+				"{atm9.quest.bloodMagic.desc.upgradeAltarTier3.5}"
+				""
+			]
+			icon: "bloodmagic:altar"
+			id: "5886C648D14180E1"
+			min_width: 350
+			progression_mode: "linear"
+			rewards: [
+				{
+					id: "7698DE23F4AEC268"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23035909D44D4BB3"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "{atm9.quest.bloodMagic.subt.useGuidebook}"
+			tasks: [{
+				count: 28L
+				id: "45FE50B70B45B915"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			title: "{atm9.quest.bloodMagic.upgradingTheAltarTier3}"
+			x: -20.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"375FF0D8ACD2E17F"
+				"25343A0C4C22AA60"
+			]
+			description: [
+				"{atm9.quest.bloodMagic.desc.upgradeAltar.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.upgradeAltar.2}"
+				""
+				"{atm9.quest.bloodMagic.desc.upgradeAltar.3}"
+				""
+				"{atm9.quest.bloodMagic.desc.upgradeAltar.4}"
+			]
+			icon: "bloodmagic:altar"
+			id: "431C44439CA54077"
+			progression_mode: "linear"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "24A8055DD26EFD1B"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+				{
+					id: "553B8263DE5508F5"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "octagon"
+			size: 1.25d
+			tasks: [{
+				count: 48L
+				id: "03DBCA5695879C49"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			title: "{atm9.quest.bloodMagic.upgradingOurAltarTier4}"
+			x: -14.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			title: "{atm9.quest.bloodMagic.title.lp25k}"
+			id: "08143AD0D63FFD1F"
+			rewards: [
+				{
+					id: "223ED7C4E7DAA411"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "148164406A3507CA"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{atm9.quest.bloodMagic.subt.lp25k}"
+			tasks: [{
+				id: "46DC0EE4792CCA0D"
+				item: "bloodmagic:apprenticebloodorb"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7CC2D826CA6BBDDB"]
+			title: "{atm9.quest.bloodMagic.title.arcaneAshes}"
+			description: [
+				"{atm9.quest.bloodMagic.desc.arcaneAshes.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.arcaneAshes.2}"
+			]
+			id: "1F3B9803AFAEED5F"
+			rewards: [
+				{
+					id: "4BD9ABC2D427A1FB"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5916530C518A2D60"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			subtitle: "{atm9.quest.bloodMagic.subt.drawingGround}"
+			tasks: [{
+				id: "6168644A110A263A"
+				item: {
+					Count: 1
+					id: "bloodmagic:arcaneashes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -24.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1F3B9803AFAEED5F"]
+			title: "{atm9.quest.bloodMagic.title.divinationSigil}"
+			description: [
+				"{atm9.quest.bloodMagic.desc.divinationSigil.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.divinationSigil.2}"
+				""
+				"{atm9.quest.bloodMagic.desc.divinationSigil.3}"
+				""
+				"{atm9.quest.bloodMagic.desc.divinationSigil.4}"
+			]
+			id: "281AAC27DEBEE84D"
+			rewards: [
+				{
+					id: "7F59BF8F2886B028"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "322140625890F5F6"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "19EF9DDE6B18A8B5"
+				item: "bloodmagic:divinationsigil"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["1F3B9803AFAEED5F"]
+			title: "{atm9.quest.bloodMagic.title.waterSourceCreation}"
+			description: [
+				"{atm9.quest.bloodMagic.desc.waterSourceCreation}"
+				""
+				"{atm9.quest.bloodMagic.desc.waterSourceCreation.2}"
+			]
+			id: "7EED2502F1F38147"
+			rewards: [
+				{
+					id: "1B7AF47021D62F36"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06F671D3C1ABBBD8"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7825C546B68A7F85"
+				item: "bloodmagic:watersigil"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["1F3B9803AFAEED5F"]
+			title: "{atm9.quest.bloodMagic.title.lavaSigil}"
+			description: [
+				"{atm9.quest.bloodMagic.desc.lavaSigil.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.lavaSigil.2}"
+			]
+			id: "3AADA53EC01FB0ED"
+			rewards: [
+				{
+					id: "438796468164D727"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CC480A0FD9B8DF8"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4EFA9FB003D8D147"
+				item: "bloodmagic:lavasigil"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4578C0EE82F66BD9"]
+			title: "{atm9.quest.bloodMagic.title.ritualDiviner}"
+			description: [
+				"{atm9.quest.bloodMagic.desc.ritualDiviner.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.ritualDiviner.2}"
+				""
+				"{atm9.quest.bloodMagic.desc.ritualDiviner.3}"
+				""
+				"{atm9.quest.bloodMagic.desc.ritualDiviner.4}"
+			]
+			id: "0E8418B42A744030"
+			rewards: [
+				{
+					id: "76C8BCBEA45D07D2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B7A23C1329E5DA1"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "6B1FDBAA650C202A"
+					item: "bloodmagic:ritualdiviner"
+					type: "item"
+				}
+				{
+					id: "7D265539B810DCE3"
+					item: "bloodmagic:activationcrystalweak"
+					type: "item"
+				}
+			]
+			x: -18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"431C44439CA54077"
+				"42CDD69527871332"
+			]
+			description: [
+				"{atm9.quest.bloodMagic.desc.altarUpgrade.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.altarUpgrade.2}"
+				""
+				"{atm9.quest.bloodMagic.desc.altarUpgrade.3}"
+				""
+				"{atm9.quest.bloodMagic.desc.altarUpgrade.4}"
+			]
+			icon: "bloodmagic:altar"
+			id: "2214B7DCE4075A02"
+			progression_mode: "linear"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "67D054DD1C29D24C"
+				table_id: 5724937697769671936L
+				type: "loot"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				count: 64L
+				id: "3830486EDCC81431"
+				item: "bloodmagic:blankrune"
+				type: "item"
+			}]
+			title: "{atm9.quest.bloodMagic.tier5Altar}"
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0E8418B42A744030"]
+			description: [
+				"{atm9.quest.bloodMagic.desc.hiddenRealm.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.hiddenRealm.2}"
+			]
+			id: "6DD7D0A248FEAC00"
+			optional: true
+			rewards: [
+				{
+					id: "7A53C4B113A1FC46"
+					item: "bloodmagic:simplekey"
+					type: "item"
+				}
+				{
+					id: "78BC6412E5FF7EF2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "683822A5474D0427"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "049052953E05D38F"
+				item: "bloodmagic:simplekey"
+				type: "item"
+			}]
+			title: "{atm9.quest.bloodMagic.dungeonKeys}"
+			x: -19.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["42CDD69527871332"]
+			description: ["{atm9.quest.bloodMagic.desc.demonRealmLoot}"]
+			id: "2CA28551F2A5B761"
+			rewards: [{
+				id: "63047FEB0BE55B5A"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4BD6380E3CB0AFA1"
+					item: "bloodmagic:sacrificerune2"
+					type: "item"
+				}
+				{
+					id: "4A26B1A6BDC9BEF2"
+					item: "bloodmagic:selfsacrificerune2"
+					type: "item"
+				}
+				{
+					id: "374B021596B02DB5"
+					item: "bloodmagic:altarcapacityrune2"
+					type: "item"
+				}
+				{
+					id: "642940CFA557BEF9"
+					item: "bloodmagic:bettercapacityrune2"
+					type: "item"
+				}
+				{
+					id: "5F5E0CDAB56FBAA8"
+					item: "bloodmagic:orbcapacityrune2"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.bloodMagic.reinforcedRunes}"
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7CA3AE708F46CEBF"]
+			title: "{atm9.quest.bloodMagic.title.telepositionSigil}"
+			description: [
+				"{atm9.quest.bloodMagic.desc.telepositionSigil.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.suppressionSigil.1}"
+			]
+			id: "5E2CB036B00758AE"
+			rewards: [{
+				id: "12698FAA72C0BF02"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5A91384EF5463B4D"
+					item: "bloodmagic:telepositionsigil"
+					type: "item"
+				}
+				{
+					id: "097D8139589AF377"
+					item: {
+						Count: 1
+						id: "bloodmagic:sigilofsuppression"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -14.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["263925A79EBB270F"]
+			description: [
+				"{atm9.quest.bloodMagic.desc.pathwayToEndlessRealm.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.pathwayToEndlessRealm.2}"
+				""
+				"{atm9.quest.bloodMagic.desc.pathwayToEndlessRealm.3}"
+			]
+			id: "42CDD69527871332"
+			rewards: [{
+				id: "5A9B7EEF24D6703A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7877DD9632B05697"
+				item: "bloodmagic:rawdemonite"
+				type: "item"
+			}]
+			title: "{atm9.quest.bloodMagic.demonRealm}"
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			description: [
+				"{atm9.quest.bloodMagic.desc.airSigil.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.voidSigil.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.seersSigil.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.minersSigil.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.greenGroveSigil.1}"
+			]
+			id: "4C6B73322F56BE73"
+			rewards: [
+				{
+					id: "3D60528942A0F56B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7BD6192C7938A2C4"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "54A7E248C8A40239"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bloodmagic:growthsigil"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:miningsigil"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:seersigil"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:voidsigil"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:airsigil"
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.bloodMagic.tier2Sigils}"
+				type: "item"
+			}]
+			title: "{atm9.quest.bloodMagic.tier2Sigils}"
+			x: -22.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["375FF0D8ACD2E17F"]
+			description: [
+				"{atm9.quest.bloodMagic.desc.bloodLamp.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.holding.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.magnetism.1}"
+			]
+			id: "1780A9FDD6983435"
+			rewards: [
+				{
+					id: "3CD9508C03CFE55C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1627172716DD1C91"
+					table_id: 5724937697769671936L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "36BBEFDBCCEC8DE0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "bloodmagic:bloodlightsigil"
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:sigilofholding"
+								tag: {
+									currentSigil: 5
+								}
+							}
+							{
+								Count: 1b
+								id: "bloodmagic:sigilofmagnetism"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "{atm9.quest.bloodMagic.tier3Sigils}"
+				type: "item"
+			}]
+			title: "{atm9.quest.bloodMagic.tier3Sigils}"
+			x: -20.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0E51D6BB2BC756B6"]
+			description: [
+				"{atm9.quest.bloodMagic.desc.livingEquipment.1}"
+				""
+				"{atm9.quest.bloodMagic.desc.livingEquipment.2}"
+				""
+				"{atm9.quest.bloodMagic.desc.livingEquipment.3}"
+				""
+				"{atm9.quest.bloodMagic.desc.livingEquipment.4}"
+			]
+			id: "41030E1E341C3A4E"
+			rewards: [{
+				id: "6D8D96707F3F4A83"
+				type: "xp"
+				xp: 1000
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					id: "26FD5D4411242B25"
+					item: {
+						Count: 1
+						id: "bloodmagic:livinghelmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37A82F03CFF9D25A"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingplate"
+						tag: {
+							Damage: 0
+							livingStats: {
+								maxPoints: 100
+								upgrades: [ ]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "671E6A4CA8F8F77B"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingleggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E9B38CD413946E0"
+					item: {
+						Count: 1
+						id: "bloodmagic:livingboots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.bloodMagic.livingArmor}"
+			x: -18.0d
+			y: -4.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide_details_until_startable: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "5C803A591EED842D"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "331BFDCAE9510150"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "38DA61C11DB1A020"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -30.5d
+			y: -2.5d
+		}
+	]
+	title: "{atm9.chapters.40.title}"
+}

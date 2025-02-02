@@ -1,0 +1,3529 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "alchemistry"
+	group: "2B51AC12041E3F89"
+	icon: "alchemistry:compactor"
+	id: "35ECAD3A4B1029A8"
+	images: [
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/alchemistry/fusion_reactor.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/alchemistry/fission_reactor.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 9.0d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			hover: ["Alchemistry"]
+			image: "atm:textures/questpics/alchemistry/alchemistry_logo.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.5d
+			y: -2.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["611891F4FB775BD3"]
+			description: [
+				"{atm9.quest.alchem.desc.dissolver.1}"
+				""
+				"{atm9.quest.alchem.desc.dissolver.2}"
+				"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"26E6ED94168A05C4\"}, \"text\": \"Click here to checkout the Questline!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
+			]
+			id: "71815B287D0F162A"
+			rewards: [
+				{
+					id: "5B9FAFC64978B892"
+					item: "chemlib:periodic_table"
+					type: "item"
+				}
+				{
+					id: "34FDE130E12B29CC"
+					type: "xp"
+					xp: 50
+				}
+			]
+			subtitle: "{atm9.quest.alchem.subt.dissolving}"
+			tasks: [{
+				id: "2298898337AC0825"
+				item: "alchemistry:dissolver"
+				type: "item"
+			}]
+			title: "{atm9.quest.alchem.dissolving}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["{atm9.quest.alchem.desc.basics}"]
+			icon: {
+				Count: 1
+				id: "patchouli:guide_book"
+				tag: {
+					"patchouli:book": "alchemistry:alchemistry_book"
+				}
+			}
+			id: "611891F4FB775BD3"
+			rewards: [
+				{
+					id: "46C14608A3DD15AA"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "alchemistry:alchemistry_book"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B09B8AC63A96138"
+					type: "xp"
+					xp: 10
+				}
+			]
+			size: 1.5d
+			subtitle: "{atm9.quest.alchem.subt.basics}"
+			tasks: [{
+				id: "37801C29C0F1525E"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "{atm9.quest.alchem.basics}"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			description: ["{atm9.quest.alchem.desc.combining}"]
+			hide_dependent_lines: true
+			id: "3AEDE9828B278466"
+			rewards: [{
+				id: "4C5789D53CDC3D1E"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{atm9.quest.alchem.subt.combining}"
+			tasks: [{
+				id: "0BB33DDA43FE1468"
+				item: "alchemistry:combiner"
+				type: "item"
+			}]
+			title: "{atm9.quest.alchem.combining}"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			description: ["{atm9.quest.alchem.desc.compacting}"]
+			hide_dependent_lines: true
+			id: "0C882F195627F121"
+			rewards: [{
+				id: "5CC9B099A51CE262"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{atm9.quest.alchem.subt.compacting}"
+			tasks: [{
+				id: "75EBDEDB404E5CF7"
+				item: "alchemistry:compactor"
+				type: "item"
+			}]
+			title: "{atm9.quest.alchem.compacting}"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["611891F4FB775BD3"]
+			id: "0B566C9D3E2E80E2"
+			optional: true
+			rewards: [{
+				id: "0D4F71C3982E2CC6"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{atm9.quest.alchem.subt.atomizing}"
+			tasks: [{
+				id: "7C06D2ECF1F3B470"
+				item: "alchemistry:atomizer"
+				type: "item"
+			}]
+			title: "{atm9.quest.alchem.atomizing}"
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["611891F4FB775BD3"]
+			id: "645F566DCD196684"
+			optional: true
+			rewards: [{
+				id: "1283D73CB1BF1E71"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{atm9.quest.alchem.subt.liquifying}"
+			tasks: [{
+				id: "1100B607C6CC157F"
+				item: "alchemistry:liquifier"
+				type: "item"
+			}]
+			title: "{atm9.quest.alchem.liquifying}"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1509AAC1A46BDC2C"]
+			description: [
+				"{atm9.quest.alchem.desc.bothreactors}"
+				""
+				"{atm9.quest.alchem.desc.fission}"
+				""
+				""
+				"{image:atm:textures/questpics/alchemistry/fission_controller_1.png width:175 height:135 align:1}"
+				""
+				"{image:atm:textures/questpics/alchemistry/fission_controller_2.png width:175 height:135 align:1}"
+			]
+			icon: "alchemistry:fission_chamber_controller"
+			id: "01448392C2A13D94"
+			min_width: 300
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B3420A9C3FE0A46"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "246985ACBE78E6DE"
+					table_id: 6257329497410426516L
+					type: "random"
+				}
+				{
+					id: "18F151CCEB3EF230"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.alchem.subt.fission}"
+			tasks: [
+				{
+					count: 59L
+					id: "4690256035AA565D"
+					item: { Count: 59, id: "alchemistry:reactor_casing" }
+					type: "item"
+				}
+				{
+					id: "3FD242B419C6238B"
+					item: "alchemistry:reactor_output"
+					type: "item"
+				}
+				{
+					id: "22B6260D15438801"
+					item: "alchemistry:reactor_input"
+					type: "item"
+				}
+				{
+					id: "6C72EE3AF0795304"
+					item: "alchemistry:reactor_energy"
+					type: "item"
+				}
+				{
+					count: 35L
+					id: "0ADC9B709C1E0FE1"
+					item: { Count: 35, id: "alchemistry:reactor_glass" }
+					type: "item"
+				}
+				{
+					id: "5881759987085833"
+					item: "alchemistry:fission_chamber_controller"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "6BA040CAA6019ACC"
+					item: { Count: 3, id: "alchemistry:fission_core" }
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.alchem.fission}"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5121FA28244BE1A2"]
+			description: [
+				"{atm9.quest.alchem.desc.bothreactors}"
+				""
+				"{atm9.quest.alchem.desc.fusion}"
+				""
+				""
+				"{image:atm:textures/questpics/alchemistry/fusion_controller_1.png width:175 height:135 align:1}"
+				""
+				"{image:atm:textures/questpics/alchemistry/fusion_controller_2.png width:175 height:135 align:1}"
+			]
+			icon: "alchemistry:fusion_chamber_controller"
+			id: "1A988BE2A5158A43"
+			min_width: 300
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7C0E264B64484109"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5CB7DCD3CA77F343"
+					table_id: 6257329497410426516L
+					type: "random"
+				}
+				{
+					id: "2C4482C49FD648BE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.alchem.subt.fusion}"
+			tasks: [
+				{
+					count: 59L
+					id: "0F04C9D7BDF30BF7"
+					item: { Count: 59, id: "alchemistry:reactor_casing" }
+					type: "item"
+				}
+				{
+					id: "208EFAAF9FB3B404"
+					item: "alchemistry:reactor_output"
+					type: "item"
+				}
+				{
+					id: "0267432FA64EE4D9"
+					item: "alchemistry:reactor_input"
+					type: "item"
+				}
+				{
+					id: "62D90B34785FC767"
+					item: "alchemistry:reactor_energy"
+					type: "item"
+				}
+				{
+					count: 35L
+					id: "3D746822FB63295B"
+					item: { Count: 35, id: "alchemistry:reactor_glass" }
+					type: "item"
+				}
+				{
+					id: "3C5522BB769A161C"
+					item: "alchemistry:fusion_chamber_controller"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "34DD3DB80F0E1B26"
+					item: "alchemistry:fusion_core"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.alchem.fusion}"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3DFA36ECFEE6003F"]
+			description: [
+				"{atm9.quest.alchem.desc.zirconium.1}"
+				""
+				"{atm9.quest.alchem.desc.zirconium.2}"
+			]
+			id: "36A2B8D517A57AD4"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F066CF52C1CC094"
+					table_id: 6257329497410426516L
+					type: "random"
+				}
+				{
+					id: "73539ACFB683E0E5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{atm9.quest.alchem.subt.zirconium}"
+			title: "{atm9.quest.alchem.title.zirconium}"
+			tasks: [{
+				id: "7752162470D8817A"
+				item: "chemlib:zirconium"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0C882F195627F121"
+				"36A2B8D517A57AD4"
+			]
+			description: ["{atm9.quest.alchem.desc.zirconiumdust}"]
+			title: "{atm9.quest.alchem.title.zirconiumdust}"
+			id: "397A33E37610B03E"
+			rewards: [{
+				id: "75AAF2AE058C4FC1"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3A21ED71DADB6B9A"
+				item: "chemlib:zirconium_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["397A33E37610B03E"]
+			description: ["{atm9.quest.alchem.desc.zirconiumingot}"]
+			title: "{atm9.quest.alchem.title.zirconiumingot}"
+			id: "1509AAC1A46BDC2C"
+			rewards: [{
+				id: "24567AD93D7BF40B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "46F774BAE138D1CB"
+				item: "chemlib:zirconium_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			description: ["{atm9.quest.alchem.desc.H}"]
+			title: "{atm9.quest.alchem.title.H}"
+			hide_dependency_lines: true
+			id: "32B961A93D6CDFDF"
+			rewards: [{
+				id: "45725C883B175491"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "H (1)"
+			tasks: [{
+				id: "721261EF8343AE88"
+				item: "chemlib:hydrogen"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Be}"
+			hide_dependency_lines: true
+			id: "736EC97EDD2DB38A"
+			rewards: [{
+				id: "47633C54DB75AC8E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Be (4)"
+			tasks: [{
+				id: "557947913EF0F0F6"
+				item: "chemlib:beryllium"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Na}"
+			description: ["{atm9.quest.alchem.desc.Na}"]
+			hide_dependency_lines: true
+			id: "5F3609E1DBEAA148"
+			rewards: [{
+				id: "12ACA2D8BAFCDAA3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Na (11)"
+			tasks: [{
+				id: "2AEC8690D75EEAAB"
+				item: "chemlib:sodium"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Mg}"
+			hide_dependency_lines: true
+			id: "544AD58CD2BF33DC"
+			rewards: [{
+				id: "7BFD5AD01E108385"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Mg (12)"
+			tasks: [{
+				id: "00DAFD219614B061"
+				item: "chemlib:magnesium"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"42B681C59981532C"
+				"66629CEE67F85A25"
+			]
+			description: [
+				"{atm9.quest.alchem.desc.reactors.1}"
+				""
+				"{atm9.quest.alchem.desc.reactors.2}"
+			]
+			icon: "alchemistry:reactor_casing"
+			id: "3DFA36ECFEE6003F"
+			rewards: [
+				{
+					count: 10
+					id: "2D5C1122748126B6"
+					item: "alchemistry:reactor_casing"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "51357A50EDC1AE9B"
+					item: "alchemistry:reactor_glass"
+					type: "item"
+				}
+				{
+					id: "085E6410667B2E6B"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "3C9666F8AE2935AE"
+					item: "alchemistry:reactor_casing"
+					type: "item"
+				}
+				{
+					id: "480C55CC643B20E7"
+					item: "alchemistry:reactor_glass"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.alchem.reactors}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.K}"
+			description: ["{atm9.quest.alchem.desc.K}"]
+			hide_dependency_lines: true
+			id: "421B67F06A6975A0"
+			rewards: [{
+				id: "7026CB90193E038C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "K (19)"
+			tasks: [{
+				id: "503777CE89A61F0B"
+				item: "chemlib:potassium"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Ca}"
+			description: ["{atm9.quest.alchem.desc.Ca}"]
+			hide_dependency_lines: true
+			id: "7D608E7ECA271757"
+			rewards: [{
+				id: "6D65887CD43630A3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Ca (20)"
+			tasks: [{
+				id: "77D0DA0648434AAB"
+				item: "chemlib:calcium"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Sc}"
+			hide_dependency_lines: true
+			id: "0761A8B87B9910FD"
+			rewards: [{
+				id: "26A8B2A01F9F513F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Sc (21)"
+			tasks: [{
+				id: "0109E18AFE20E108"
+				item: "chemlib:scandium"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Ti}"
+			hide_dependency_lines: true
+			id: "0F22F20F8597501B"
+			rewards: [{
+				id: "722500EA8D2CA90F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Ti (22)"
+			tasks: [{
+				id: "17EAE4C83ED653D7"
+				item: "chemlib:titanium"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Li}"
+			hide_dependency_lines: true
+			id: "601327570A881136"
+			rewards: [{
+				id: "2A00E7D21911B6DC"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Li (3)"
+			tasks: [{
+				id: "00E0D68B79CD8D5E"
+				item: "chemlib:lithium"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			description: ["{atm9.quest.alchem.desc.oxygen}"]
+			id: "066827B2F96192F0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "05DB37E1F3B6B8D2"
+					table_id: 6257329497410426516L
+					type: "random"
+				}
+				{
+					id: "67B6C4B4CB5D6A6F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{atm9.quest.alchem.subt.oxygen}"
+			title: "{atm9.quest.alchem.title.oxygen}"
+			tasks: [{
+				id: "030FC5CB53537A68"
+				item: "chemlib:oxygen"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3AEDE9828B278466"
+				"6657CE5CDFC47BB4"
+				"066827B2F96192F0"
+			]
+			description: ["{atm9.quest.alchem.desc.leadoxide}"]
+			title: "{atm9.quest.alchem.title.leadoxide}"
+			hide_dependency_lines: false
+			id: "42B681C59981532C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C64C9F7838C3EB6"
+				table_id: 6257329497410426516L
+				type: "random"
+			}]
+			subtitle: "{atm9.quest.alchem.subt.oxide}"
+			tasks: [{
+				id: "4B21D69D737379A5"
+				item: "chemlib:lead_oxide"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			description: ["{atm9.quest.alchem.desc.lead}"]
+			title: "{atm9.quest.alchem.title.lead}"
+			hide_dependency_lines: true
+			id: "6657CE5CDFC47BB4"
+			rewards: [{
+				id: "675C596368327591"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "465BAA0DEA31A7D7"
+				item: "chemlib:lead"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"066827B2F96192F0"
+				"3AEDE9828B278466"
+				"02BB0C4DBB426D9D"
+			]
+			title: "{atm9.quest.alchem.title.silicondioxide}"
+			description: ["{atm9.quest.alchem.desc.silicondioxide}"]
+			id: "66629CEE67F85A25"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7FA401AE01A033A9"
+				table_id: 6257329497410426516L
+				type: "random"
+			}]
+			subtitle: "{atm9.quest.alchem.subt.oxide}"
+			tasks: [{
+				id: "4EC72D44ED9B98E4"
+				item: "chemlib:silicon_dioxide"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			description: ["{atm9.quest.alchem.desc.silicon}"]
+			title: "{atm9.quest.alchem.title.silicon}"
+			hide_dependency_lines: true
+			id: "02BB0C4DBB426D9D"
+			rewards: [{
+				id: "770A3FD0A61EED31"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4705AC421147DAE3"
+				item: "chemlib:silicon"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3DFA36ECFEE6003F"]
+			description: ["{atm9.quest.alchem.desc.potassium}"]
+			id: "390CF74633F52E0B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "060B4DCB8A73F90D"
+					table_id: 6257329497410426516L
+					type: "random"
+				}
+				{
+					id: "7F180D76158139DF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{atm9.quest.alchem.subt.potassium}"
+			title: "{atm9.quest.alchem.title.potassium}"
+			tasks: [{
+				id: "671C04341B107871"
+				item: "chemlib:potassium"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"390CF74633F52E0B"
+				"0C882F195627F121"
+			]
+			description: ["{atm9.quest.alchem.desc.potassiumdust}"]
+			title: "{atm9.quest.alchem.title.potassiumdust}"
+			icon: "chemlib:potassium_dust"
+			id: "107AC5D16A8821D6"
+			rewards: [{
+				id: "1EDBB811AC6E12FE"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4F2F818F7DE1C108"
+				item: "chemlib:potassium_dust"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["107AC5D16A8821D6"]
+			description: ["{atm9.quest.alchem.desc.potassiumingot}"]
+			title: "{atm9.quest.alchem.title.potassiumingot}"
+			id: "5121FA28244BE1A2"
+			rewards: [{
+				id: "3A5D328882CAFB8E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4847ABB08F35259F"
+				item: "chemlib:potassium_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.V}"
+			hide_dependency_lines: true
+			id: "7D83A2B077114516"
+			rewards: [{
+				id: "6E1523FE047017ED"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "V (23)"
+			tasks: [{
+				id: "3CC5FDBBF173999D"
+				item: "chemlib:vanadium"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Cr}"
+			hide_dependency_lines: true
+			id: "5AF17A366A6D108C"
+			rewards: [{
+				id: "3AA4F369B249D9ED"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Cr (24)"
+			tasks: [{
+				id: "6699787BF6AD1B3E"
+				item: "chemlib:chromium"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Y}"
+			hide_dependency_lines: true
+			id: "75172C1699EE0E77"
+			rewards: [{
+				id: "14A5BD4AFD4EFC5B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Y (39)"
+			tasks: [{
+				id: "64C736615E19F0E4"
+				item: "chemlib:yttrium"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Zr}"
+			hide_dependency_lines: true
+			id: "55700B292E00DDA4"
+			rewards: [{
+				id: "1EDDBD243B48D81C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Zr (40)"
+			tasks: [{
+				id: "75BFB87E21C4A3FF"
+				item: "chemlib:zirconium"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Mn}"
+			description: ["{atm9.quest.alchem.desc.Mn}"]
+			hide_dependency_lines: true
+			id: "0E1636BD6F19FF71"
+			rewards: [{
+				id: "12FAB84E08D7D03A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Mn (25)"
+			tasks: [{
+				id: "7D3ECFB0BD73FE0A"
+				item: "chemlib:manganese"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Fe}"
+			hide_dependency_lines: true
+			id: "7B972AF08F85F258"
+			rewards: [{
+				id: "5FBDDB82A634B2F5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Fe (26)"
+			tasks: [{
+				id: "4B1C7F68DB3BC087"
+				item: "chemlib:iron"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Co}"
+			hide_dependency_lines: true
+			id: "33D424EA1B610647"
+			rewards: [{
+				id: "53859F61E04665B0"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Co (27)"
+			tasks: [{
+				id: "40DFFC7A860FE7D5"
+				item: "chemlib:cobalt"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Ni}"
+			hide_dependency_lines: true
+			id: "5A6609F2E37A1F59"
+			rewards: [{
+				id: "140DA342D6A63673"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Ni (28)"
+			tasks: [{
+				id: "19A603C22C5399FB"
+				item: "chemlib:nickel"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Cu}"
+			hide_dependency_lines: true
+			id: "0339E89D4A91BFFE"
+			rewards: [{
+				id: "2EA92B435B02B78B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Cu (29)"
+			tasks: [{
+				id: "3B2D7526B8902404"
+				item: "chemlib:copper"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Zn}"
+			hide_dependency_lines: true
+			id: "1E8B5246487A38EE"
+			rewards: [{
+				id: "1CE8F1A60E2C5223"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Zn (30)"
+			tasks: [{
+				id: "3C28C13240703E3E"
+				item: "chemlib:zinc"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Ga}"
+			hide_dependency_lines: true
+			id: "7B60587A96617C09"
+			rewards: [{
+				id: "04EBFA722A9772E6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Ga (31)"
+			tasks: [{
+				id: "38E6A365D614B2F3"
+				item: "chemlib:gallium"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Ge}"
+			hide_dependency_lines: true
+			id: "0BA8FA52FF6E49C8"
+			rewards: [{
+				id: "7D5126C18290195B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Ge (32)"
+			tasks: [{
+				id: "6CDE26D6BA301EA2"
+				item: "chemlib:germanium"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.As}"
+			hide_dependency_lines: true
+			id: "06CB698FE1535CB6"
+			rewards: [{
+				id: "3E5D776365215BD7"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "As (33)"
+			tasks: [{
+				id: "4B08F5DB6BB819C6"
+				item: "chemlib:arsenic"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Rb}"
+			hide_dependency_lines: true
+			id: "2A8DF25C55F77E48"
+			rewards: [{
+				id: "6784401D9F174056"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Rb (37)"
+			tasks: [{
+				id: "42595FC4C29E66ED"
+				item: "chemlib:rubidium"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Sr}"
+			hide_dependency_lines: true
+			id: "02A6BF4A061AE2AE"
+			rewards: [{
+				id: "63C1BBE77FFD2FF0"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Sr (38)"
+			tasks: [{
+				id: "01C5C2097D0429A3"
+				item: "chemlib:strontium"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Se}"
+			hide_dependency_lines: true
+			id: "62BB91CB65ECF0EF"
+			rewards: [{
+				id: "7C3B427FF051B5E5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Se (34)"
+			tasks: [{
+				id: "2CF68DEAC6197D5E"
+				item: "chemlib:selenium"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Br}"
+			hide_dependency_lines: true
+			id: "46B5508300132B0C"
+			rewards: [{
+				id: "3D0F296CBEBD4630"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Br (35)"
+			tasks: [{
+				id: "3ABC806C11416AF9"
+				item: "chemlib:bromine"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"01448392C2A13D94"
+				"1A988BE2A5158A43"
+			]
+			dependency_requirement: "one_completed"
+			title: "{atm9.quest.alchem.title.Kr}"
+			hide_dependency_lines: true
+			id: "7E8CDD7D62D5F32E"
+			rewards: [{
+				id: "39AA8D15EB4796D8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Kr (36)"
+			tasks: [{
+				id: "3B73BA2272F3C8D5"
+				item: "chemlib:krypton"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Al}"
+			hide_dependency_lines: true
+			id: "5754728AF4A8F3B7"
+			rewards: [{
+				id: "4914A6EE6ED4BCC4"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Al (13)"
+			tasks: [{
+				id: "1D0905AB44D71721"
+				item: "chemlib:aluminum"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Si}"
+			hide_dependency_lines: true
+			id: "07F677702175EE67"
+			rewards: [{
+				id: "7C5E5980435CEC58"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Si (14)"
+			tasks: [{
+				id: "52F4AB10A3D905F6"
+				item: "chemlib:silicon"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.P}"
+			hide_dependency_lines: true
+			id: "6593C20C350B9EB1"
+			rewards: [{
+				id: "6653D2F099E7C367"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "P (15)"
+			tasks: [{
+				id: "56032D4791F00C7F"
+				item: "chemlib:phosphorus"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.S}"
+			hide_dependency_lines: true
+			id: "126C9EE687E79942"
+			rewards: [{
+				id: "5844FBD94CCE44A8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "S (16)"
+			tasks: [{
+				id: "469BD87CC8728E64"
+				item: "chemlib:sulfur"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Cl}"
+			hide_dependency_lines: true
+			id: "3547C5F64783065B"
+			rewards: [{
+				id: "6CCC40894B651933"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Cl (17)"
+			tasks: [{
+				id: "70CDB2A4A4C048BA"
+				item: "chemlib:chlorine"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"01448392C2A13D94"
+				"1A988BE2A5158A43"
+			]
+			dependency_requirement: "one_completed"
+			title: "{atm9.quest.alchem.title.Ar}"
+			hide_dependency_lines: true
+			id: "01DFC40F1F9D97C2"
+			rewards: [{
+				id: "594490169C8DE385"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Ar (18)"
+			tasks: [{
+				id: "56403CAC6622BE02"
+				item: "chemlib:argon"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.B}"
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "371BB9A68E98030B"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "6EF31891FA4A9139"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "B (5)"
+			tasks: [{
+				id: "0D1B440DDED8B855"
+				item: "chemlib:boron"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.C}"
+			hide_dependency_lines: true
+			id: "092600D68AE1B4E2"
+			rewards: [{
+				id: "5697FC706A63DAC3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "C (6)"
+			tasks: [{
+				id: "5ABA485C9317E1BE"
+				item: "chemlib:carbon"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.N}"
+			hide_dependency_lines: true
+			id: "196D132B7A9C7387"
+			rewards: [{
+				id: "04CAF99BCB4067D2"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "N (7)"
+			tasks: [{
+				id: "6B236FD3DA7E3858"
+				item: "chemlib:nitrogen"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.O}"
+			hide_dependency_lines: true
+			id: "250CD779709634C0"
+			rewards: [{
+				id: "7CA232B64C7D4F2E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "O (8)"
+			tasks: [{
+				id: "74DB2A6229DAAC32"
+				item: "chemlib:oxygen"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.F}"
+			hide_dependency_lines: true
+			id: "007502FD05085CD3"
+			rewards: [{
+				id: "1077C47AC4016530"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "F (9)"
+			tasks: [{
+				id: "41670E74CAFAFFCD"
+				item: "chemlib:fluorine"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"01448392C2A13D94"
+				"1A988BE2A5158A43"
+			]
+			title: "{atm9.quest.alchem.title.Ne}"
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "5675ABFC42D47C4C"
+			rewards: [{
+				id: "3D82630318B34260"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Ne (10)"
+			tasks: [{
+				id: "06CEDFB74A5969F6"
+				item: "chemlib:neon"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.He}"
+			hide_dependency_lines: true
+			id: "0D4CD822C38AB4C7"
+			rewards: [{
+				id: "094B309D7238DA8E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "He (2)"
+			tasks: [{
+				id: "6087278E005DE365"
+				item: "chemlib:helium"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			description: [
+				"{atm9.quest.alchem.desc.graphite.1}"
+				"{atm9.quest.alchem.desc.graphite.2}"
+			]
+			hide_dependency_lines: true
+			id: "1154F68732C0022F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3FD000C4018BD8F7"
+					table_id: 6257329497410426516L
+					type: "random"
+				}
+				{
+					id: "0DDB702A8821A854"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{atm9.quest.alchem.subt.graphite}"
+			tasks: [{
+				count: 8L
+				id: "1C188B14CC0F0C57"
+				item: "chemlib:graphite"
+				type: "item"
+			}]
+			title: "{atm9.quest.alchem.graphite}"
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"1154F68732C0022F"
+				"0C882F195627F121"
+			]
+			description: ["{atm9.quest.alchem.desc.graphitedust}"]
+			id: "3B7E8D0231C9B3B6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7670F4556C7AF7BC"
+					table_id: 6257329497410426516L
+					type: "random"
+				}
+				{
+					id: "253EC777534F682F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{atm9.quest.alchem.subt.graphitedust}"
+			tasks: [{
+				count: 16L
+				id: "3C4452F30B048B44"
+				item: "gtceu:graphite_dust"
+				type: "item"
+			}]
+			title: "{atm9.quest.alchem.graphitedust}"
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3B7E8D0231C9B3B6"]
+			description: ["{atm9.quest.alchem.desc.diamonds}"]
+			id: "037945544F12292B"
+			rewards: [{
+				id: "2D6397138D0DBB25"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{atm9.quest.alchem.subt.diamonds}"
+			tasks: [{
+				id: "0542DE1F162E709C"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "{atm9.quest.alchem.diamonds}"
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Nb}"
+			hide_dependency_lines: true
+			id: "72AB9CBA0EF98820"
+			rewards: [{
+				id: "3BC351B37D59BBB2"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Nb (41)"
+			tasks: [{
+				id: "5577BB7FA064BCAB"
+				item: "chemlib:niobium"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Mo}"
+			hide_dependency_lines: true
+			id: "208F22894CA1127D"
+			rewards: [{
+				id: "51BF5D5F159A4363"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Mo (42)"
+			tasks: [{
+				id: "6E3A6037D2DC438A"
+				item: "chemlib:molybdenum"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Tc}"
+			hide_dependency_lines: true
+			id: "210F218372EC644A"
+			rewards: [{
+				id: "3F9721B5240FD540"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Tc (43)"
+			tasks: [{
+				id: "7BA75482694C0B5F"
+				item: "chemlib:technetium"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Ru}"
+			hide_dependency_lines: true
+			id: "429D02044EDC053F"
+			rewards: [{
+				id: "228F995AAE42B5E1"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Ru (44)"
+			tasks: [{
+				id: "7EFBAB507E26408C"
+				item: "chemlib:ruthenium"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Rh}"
+			hide_dependency_lines: true
+			id: "6DB1428AB6EBC78E"
+			rewards: [{
+				id: "3879B7C10A9E64DD"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Rh (45)"
+			tasks: [{
+				id: "374311827B08F051"
+				item: "chemlib:rhodium"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Pd}"
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "02E87412D3024E10"
+			rewards: [{
+				id: "465DF7036BE06D82"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Pd (46)"
+			tasks: [{
+				id: "054D417B6675D85E"
+				item: "chemlib:palladium"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"6518DDD43E8D7F59"
+				"686D998697278004"
+				"408E92AFAC761478"
+				"714A43E7C2468C74"
+				"3AEDE9828B278466"
+			]
+			description: ["{atm9.quest.alchem.desc.netherstars}"]
+			id: "04017B926E892C90"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6395994AFB7756E6"
+					table_id: 6257329497410426516L
+					type: "random"
+				}
+				{
+					id: "5690007BF3D3CCD3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "{atm9.quest.alchem.subt.netherstars}"
+			tasks: [{
+				id: "6A0FA092FAD03B08"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "{atm9.quest.alchem.netherstars}"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			description: ["{atm9.quest.alchem.desc.64dysprosium}"]
+			title: "{atm9.quest.alchem.title.64dysprosium}"
+			hide_dependency_lines: true
+			id: "686D998697278004"
+			rewards: [{
+				id: "60CE116519305268"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{atm9.quest.alchem.subt.fornetherstars}"
+			tasks: [{
+				count: 64L
+				id: "774ED308B068D0B2"
+				item: { Count: 64, id: "chemlib:dysprosium" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			description: ["{atm9.quest.alchem.desc.64Lutetium}"]
+			title: "{atm9.quest.alchem.title.64Lutetium}"
+			hide_dependency_lines: true
+			id: "6518DDD43E8D7F59"
+			rewards: [{
+				id: "17633B178509BCA1"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{atm9.quest.alchem.subt.fornetherstars}"
+			tasks: [{
+				count: 64L
+				id: "086F3317E603E4DB"
+				item: "chemlib:lutetium"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			description: ["{atm9.quest.alchem.desc.64titanium}"]
+			title: "{atm9.quest.alchem.title.64titanium}"
+			hide_dependency_lines: true
+			id: "714A43E7C2468C74"
+			rewards: [{
+				id: "73AA2A02E6567323"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{atm9.quest.alchem.subt.fornetherstars}"
+			tasks: [{
+				count: 64L
+				id: "5F5177384C91A83A"
+				item: { Count: 64, id: "chemlib:titanium" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			description: ["{atm9.quest.alchem.desc.64mendelevium}"]
+			title: "{atm9.quest.alchem.title.64mendelevium}"
+			hide_dependency_lines: true
+			id: "408E92AFAC761478"
+			rewards: [{
+				id: "7B1A1C43657B0450"
+				type: "xp"
+				xp: 50
+			}]
+			subtitle: "{atm9.quest.alchem.subt.fornetherstars}"
+			tasks: [{
+				count: 64L
+				id: "20C233EDB2490C7A"
+				item: { Count: 64, id: "chemlib:mendelevium" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1869C4BA9F857712"
+				"0C882F195627F121"
+			]
+			description: ["{atm9.quest.alchem.desc.dust}"]
+			icon: "alltheores:iron_dust"
+			id: "27DDC30B6B1CF5C7"
+			rewards: [{
+				id: "45EA4F08C206A400"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7F557E69847806FA"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "alltheores:iron_dust"
+							}
+							{
+								Count: 1b
+								id: "alltheores:gold_dust"
+							}
+							{
+								Count: 1b
+								id: "alltheores:platinum_dust"
+							}
+							{
+								Count: 1b
+								id: "alltheores:copper_dust"
+							}
+							{
+								Count: 1b
+								id: "alltheores:aluminum_dust"
+							}
+							{
+								Count: 1b
+								id: "alltheores:lead_dust"
+							}
+							{
+								Count: 1b
+								id: "alltheores:nickel_dust"
+							}
+							{
+								Count: 1b
+								id: "alltheores:osmium_dust"
+							}
+							{
+								Count: 1b
+								id: "alltheores:silver_dust"
+							}
+							{
+								Count: 1b
+								id: "alltheores:tin_dust"
+							}
+							{
+								Count: 1b
+								id: "alltheores:uranium_dust"
+							}
+							{
+								Count: 1b
+								id: "alltheores:zinc_dust"
+							}
+							{
+								Count: 1b
+								id: "alltheores:iridium_dust"
+							}
+						]
+					}
+				}
+				title: "ATO Element Dusts"
+				type: "item"
+			}]
+			title: "{atm9.quest.alchem.dust}"
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			description: ["{atm9.quest.alchem.desc.element}"]
+			hide_dependency_lines: true
+			icon: "chemlib:iron"
+			id: "1869C4BA9F857712"
+			rewards: [{
+				id: "16F378DB1DC3E82D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2B6B9A6591054F2A"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "chemlib:iron"
+							}
+							{
+								Count: 1b
+								id: "chemlib:gold"
+							}
+							{
+								Count: 1b
+								id: "chemlib:platinum"
+							}
+							{
+								Count: 1b
+								id: "chemlib:copper"
+							}
+							{
+								Count: 1b
+								id: "chemlib:aluminum"
+							}
+							{
+								Count: 1b
+								id: "chemlib:lead"
+							}
+							{
+								Count: 1b
+								id: "chemlib:nickel"
+							}
+							{
+								Count: 1b
+								id: "chemlib:osmium"
+							}
+							{
+								Count: 1b
+								id: "chemlib:silver"
+							}
+							{
+								Count: 1b
+								id: "chemlib:tin"
+							}
+							{
+								Count: 1b
+								id: "chemlib:uranium"
+							}
+							{
+								Count: 1b
+								id: "chemlib:zinc"
+							}
+							{
+								Count: 1b
+								id: "chemlib:iridium"
+							}
+						]
+					}
+				}
+				title: "ATO Elements"
+				type: "item"
+			}]
+			title: "{atm9.quest.alchem.element}"
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["27DDC30B6B1CF5C7"]
+			description: ["{atm9.quest.alchem.desc.ingot}"]
+			icon: "minecraft:iron_ingot"
+			id: "74D09BDB5E6CC13C"
+			rewards: [{
+				id: "606D4557AA4FDEA0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5F8C2D67AA8240A0"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:iron_ingot"
+							}
+							{
+								Count: 1b
+								id: "minecraft:gold_ingot"
+							}
+							{
+								Count: 1b
+								id: "alltheores:platinum_ingot"
+							}
+							{
+								Count: 1b
+								id: "minecraft:copper_ingot"
+							}
+							{
+								Count: 1b
+								id: "alltheores:aluminum_ingot"
+							}
+							{
+								Count: 1b
+								id: "alltheores:lead_ingot"
+							}
+							{
+								Count: 1b
+								id: "alltheores:nickel_ingot"
+							}
+							{
+								Count: 1b
+								id: "alltheores:osmium_ingot"
+							}
+							{
+								Count: 1b
+								id: "alltheores:silver_ingot"
+							}
+							{
+								Count: 1b
+								id: "alltheores:tin_ingot"
+							}
+							{
+								Count: 1b
+								id: "alltheores:uranium_ingot"
+							}
+							{
+								Count: 1b
+								id: "alltheores:zinc_ingot"
+							}
+							{
+								Count: 1b
+								id: "alltheores:iridium_ingot"
+							}
+						]
+					}
+				}
+				title: "ATO Element Ingots"
+				type: "item"
+			}]
+			title: "{atm9.quest.alchem.ingot}"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Ag}"
+			hide_dependency_lines: true
+			id: "63FE01E6898245FD"
+			rewards: [{
+				id: "3256B4B197B0711B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Ag (47)"
+			tasks: [{
+				id: "2AF8E4C62223AC82"
+				item: "chemlib:silver"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Cd}"
+			hide_dependency_lines: true
+			id: "2D5B08AC3C5A6979"
+			rewards: [{
+				id: "5D27E8437C791F32"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Cd (48)"
+			tasks: [{
+				id: "77F924D7DA376268"
+				item: "chemlib:cadmium"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.In}"
+			hide_dependency_lines: true
+			id: "70C29B3AFE856E50"
+			rewards: [{
+				id: "1348D4B65AB524EE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "In (49)"
+			tasks: [{
+				id: "17FEC6B4D67CBF1C"
+				item: "chemlib:indium"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Sn}"
+			hide_dependency_lines: true
+			id: "27454687DBF0395E"
+			rewards: [{
+				id: "01E754391F806326"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Sn (50)"
+			tasks: [{
+				id: "4CB49337F9271E35"
+				item: "chemlib:tin"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Sb}"
+			hide_dependency_lines: true
+			id: "11CB255C64E6DAE5"
+			rewards: [{
+				id: "0366B31E0437CB3B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Sb (51)"
+			tasks: [{
+				id: "05C7F2D570D49A7C"
+				item: "chemlib:antimony"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 10.0d
+		}
+		{
+			dependencies: [
+				"01448392C2A13D94"
+				"1A988BE2A5158A43"
+			]
+			dependency_requirement: "one_completed"
+			title: "{atm9.quest.alchem.title.Te}"
+			hide_dependency_lines: true
+			id: "4A956F5A541F3D48"
+			rewards: [{
+				id: "1C126BA3BE199A33"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Te (52)"
+			tasks: [{
+				id: "0DEB5075C1B2DF61"
+				item: "chemlib:tellurium"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			hide_dependency_lines: true
+			id: "2EC007454D60BC9D"
+			title: "{atm9.quest.alchem.title.I}"
+			subtitle: "I (53)"
+			rewards: [{
+				id: "621898B2616CD8B3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "444E63D97CDF7C73"
+				item: "chemlib:iodine"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Xe}"
+			hide_dependency_lines: true
+			id: "12C9695D8F14B7BE"
+			rewards: [{
+				id: "5CD4E81D91D26901"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Xe (54)"
+			tasks: [{
+				id: "261750FC677A126F"
+				item: "chemlib:xenon"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Ba}"
+			hide_dependency_lines: true
+			id: "26461778F7C80BA1"
+			rewards: [{
+				id: "30FAB54B1F7B95B1"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Ba (56)"
+			tasks: [{
+				id: "7E1C8868C003F0EB"
+				item: "chemlib:barium"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.La}"
+			hide_dependency_lines: true
+			id: "0EDD7D65E318DC50"
+			rewards: [{
+				id: "20565403D5B882EA"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "La (57)"
+			tasks: [{
+				id: "11157B2FE2308D9C"
+				item: "chemlib:lanthanum"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"01448392C2A13D94"
+				"1A988BE2A5158A43"
+			]
+			dependency_requirement: "one_completed"
+			title: "{atm9.quest.alchem.title.Cs}"
+			hide_dependency_lines: true
+			id: "188823A5DF5D0D01"
+			rewards: [{
+				id: "6470C1ACEF96BF63"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Cs (55)"
+			tasks: [{
+				id: "2C7C0457F7F4BF7F"
+				item: "chemlib:cesium"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Hf}"
+			hide_dependency_lines: true
+			id: "5215D10A46B92A81"
+			rewards: [{
+				id: "30AF0C0CB9AE9BDD"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Hf (72)"
+			tasks: [{
+				id: "06FF674346FF905D"
+				item: "chemlib:hafnium"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Ta}"
+			hide_dependency_lines: true
+			id: "58B71D3C7528131A"
+			rewards: [{
+				id: "6F34BB885E62E634"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Ta (73)"
+			tasks: [{
+				id: "01501CAAD7393833"
+				item: "chemlib:tantalum"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.W}"
+			hide_dependency_lines: true
+			id: "430CE13E578D4DA1"
+			rewards: [{
+				id: "7309DBEC4941B29E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "W (74)"
+			tasks: [{
+				id: "25D765D8EAF040F8"
+				item: "chemlib:tungsten"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Re}"
+			hide_dependency_lines: true
+			id: "289D0A9D1D8A3429"
+			rewards: [{
+				id: "4E690715AC5C8568"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Re (75)"
+			tasks: [{
+				id: "4F9C34843447CDD0"
+				item: "chemlib:rhenium"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Os}"
+			hide_dependency_lines: true
+			id: "75BA57A8F24C305E"
+			rewards: [{
+				id: "577954DB157071AC"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Os (76)"
+			tasks: [{
+				id: "0923FBB15F4189F6"
+				item: "chemlib:osmium"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Ir}"
+			hide_dependency_lines: true
+			id: "5248DA0DF9725DEF"
+			rewards: [{
+				id: "235E423FD7ED7D47"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Ir (77)"
+			tasks: [{
+				id: "51AF7FBFB0FD9791"
+				item: "chemlib:iridium"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Pt}"
+			hide_dependency_lines: true
+			id: "2112955BD2120AFE"
+			rewards: [{
+				id: "0DE320BAE945D7AC"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Pt (78)"
+			tasks: [{
+				id: "7A5FE9F3F09F7C04"
+				item: "chemlib:platinum"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Au}"
+			hide_dependency_lines: true
+			id: "122253C6EFBE2126"
+			rewards: [{
+				id: "7F64B6795591EC26"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Au (79)"
+			tasks: [{
+				id: "0718F9A920FAF6D0"
+				item: "chemlib:gold"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Hg}"
+			hide_dependency_lines: true
+			id: "47E55FB53D4E051B"
+			rewards: [{
+				id: "566663A182A5AAAE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Hg (80)"
+			tasks: [{
+				id: "5D2AE754F356168A"
+				item: "chemlib:mercury"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Tl}"
+			hide_dependency_lines: true
+			id: "3817803943459161"
+			rewards: [{
+				id: "230E35962F8F0D4F"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Tl (81)"
+			tasks: [{
+				id: "16C45C3F873DF66E"
+				item: "chemlib:thallium"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Pb}"
+			hide_dependency_lines: true
+			id: "72F8F2C07636D589"
+			rewards: [{
+				id: "0575FD5387034F1E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Pb (82)"
+			tasks: [{
+				id: "437105FD2A516742"
+				item: "chemlib:lead"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Bi}"
+			description: ["{atm9.quest.alchem.desc.Bi}"]
+			hide_dependency_lines: true
+			id: "52050942552AF567"
+			rewards: [{
+				id: "00F16A615EA45AB6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Bi (83)"
+			tasks: [{
+				id: "42DCCCC1A47621E3"
+				item: "chemlib:bismuth"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Po}"
+			hide_dependency_lines: true
+			id: "23E1AC0BAD55B9C1"
+			rewards: [{
+				id: "78A04715973FC822"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Po (84)"
+			tasks: [{
+				id: "40946B2896B32F22"
+				item: "chemlib:polonium"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.At}"
+			hide_dependency_lines: true
+			id: "33C09E36CE5B9C08"
+			rewards: [{
+				id: "1AD7E51F95DBD10E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "At (85)"
+			tasks: [{
+				id: "712EB9A74424B6F7"
+				item: "chemlib:astatine"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Rn}"
+			hide_dependency_lines: true
+			id: "4F7B88C71238A24F"
+			rewards: [{
+				id: "6E3244D1A008ABF5"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Rn (86)"
+			tasks: [{
+				id: "13EF5592CE552EFD"
+				item: "chemlib:radon"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Fr}"
+			hide_dependency_lines: true
+			id: "6EBA70B456E00641"
+			rewards: [{
+				id: "45D28498440FF2CC"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Fr (87)"
+			tasks: [{
+				id: "3B9B41A4F6366B94"
+				item: "chemlib:francium"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 12.0d
+		}
+		{
+			title: "{atm9.quest.alchem.title.Ra}"
+			dependencies: ["71815B287D0F162A"]
+			hide_dependency_lines: true
+			id: "27A1337F2CD52B4E"
+			rewards: [{
+				id: "7332D1B2BFAE4A51"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Ra (88)"
+			tasks: [{
+				id: "751E2171EB234DFA"
+				item: "chemlib:radium"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Ac}"
+			hide_dependency_lines: true
+			id: "461D8D0C3EC23236"
+			rewards: [{
+				id: "66A53F7DBC11E876"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Ac (89)"
+			tasks: [{
+				id: "053559AC021C7389"
+				item: "chemlib:actinium"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Rf}"
+			description: ["{atm9.quest.alchem.desc.Rf}"]
+			hide_dependency_lines: true
+			id: "1426CCA90672FAF1"
+			rewards: [{
+				id: "6A91857E2FD1B266"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Rf (104)"
+			tasks: [{
+				id: "2A6AF757F11F8B6C"
+				item: "chemlib:rutherfordium"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			hide_dependency_lines: true
+			title: "{atm9.quest.alchem.title.Db}"
+			id: "39AE281D2713AE3F"
+			rewards: [{
+				id: "6658EACD8FF1E9F8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Db (105)"
+			tasks: [{
+				id: "5B808FE936352930"
+				item: "chemlib:dubnium"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Sg}"
+			hide_dependency_lines: true
+			id: "0835431D29136FFE"
+			rewards: [{
+				id: "17E6DE3D54B83D35"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Sg (106)"
+			tasks: [{
+				id: "2F4CC4391CBFF20C"
+				item: "chemlib:seaborgium"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Bh}"
+			hide_dependency_lines: true
+			id: "7677C368564F5FB2"
+			rewards: [{
+				id: "34C88A59BA020A3B"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Bh (107)"
+			tasks: [{
+				id: "17B8CB542784F4AA"
+				item: "chemlib:bohrium"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Hs}"
+			hide_dependency_lines: true
+			id: "597BAD37FD74D440"
+			rewards: [{
+				id: "78BFB670D0AFCBDF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Hs (108)"
+			tasks: [{
+				id: "3F5DFD19C498673F"
+				item: "chemlib:hassium"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Mt}"
+			hide_dependency_lines: true
+			id: "2D508E37E2EDA74F"
+			rewards: [{
+				id: "2EB48C0F0154EBAB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Mt (109)"
+			tasks: [{
+				id: "468C62BBC543B0EC"
+				item: "chemlib:meitnerium"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Ds}"
+			hide_dependency_lines: true
+			id: "3B9B9E767C472FB8"
+			rewards: [{
+				id: "319A9F302FD04289"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Ds (110)"
+			tasks: [{
+				id: "40C0D1AAD565A99C"
+				item: "chemlib:darmstadtium"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Rg}"
+			hide_dependency_lines: true
+			id: "44BD4503DF124482"
+			rewards: [{
+				id: "76C1DABD74273A89"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Rg (111)"
+			tasks: [{
+				id: "480881EFB680DF25"
+				item: "chemlib:roentgenium"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Cn}"
+			hide_dependency_lines: true
+			id: "353EDD78D6BBF0CF"
+			rewards: [{
+				id: "06EF247E1F68E9CA"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Cn (112)"
+			tasks: [{
+				id: "0395964E3E756EEF"
+				item: "chemlib:copernicium"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Nh}"
+			hide_dependency_lines: true
+			id: "0E92C19E4E943603"
+			rewards: [{
+				id: "7D2553A7A508AA0A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Nh (113)"
+			tasks: [{
+				id: "588809E4E7C40274"
+				item: "chemlib:nihonium"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Fl}"
+			hide_dependency_lines: true
+			id: "710DC7F7F0C68ACE"
+			rewards: [{
+				id: "551812FB97E95B72"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Fl (114)"
+			tasks: [{
+				id: "3C1963D45B8ABCB5"
+				item: "chemlib:flerovium"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			description: ["{atm9.quest.alchem.desc.Mc}"]
+			title: "{atm9.quest.alchem.title.Mc}"
+			hide_dependency_lines: true
+			id: "1FB4AF60D792A517"
+			rewards: [{
+				id: "51C3D56AA8B1DF85"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Mc (115)"
+			tasks: [{
+				id: "73C7D914F9C2272A"
+				item: "chemlib:moscovium"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Lv}"
+			hide_dependency_lines: true
+			id: "0FA1B335718674C0"
+			rewards: [{
+				id: "544B54B0D4901C82"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Lv (116)"
+			tasks: [{
+				id: "47028725613A31AC"
+				item: "chemlib:livermorium"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Ts}"
+			hide_dependency_lines: true
+			id: "7797036B53297A05"
+			rewards: [{
+				id: "0F6675DA39B03CCA"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Ts (117)"
+			tasks: [{
+				id: "42508802D035AAB0"
+				item: "chemlib:tennessine"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			description: ["{atm9.quest.alchem.desc.Og}"]
+			title: "{atm9.quest.alchem.title.Og}"
+			hide_dependency_lines: true
+			id: "376A8F925F139D7F"
+			rewards: [{
+				id: "696BD137F80F2E27"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Og (118)"
+			tasks: [{
+				id: "30422B894F248DDB"
+				item: "chemlib:oganesson"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Ce}"
+			hide_dependency_lines: true
+			id: "5B1BD85A4DFEE821"
+			rewards: [{
+				id: "56BE4C5EC519272E"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Ce (58)"
+			tasks: [{
+				id: "15D2D59C935DD31E"
+				item: "chemlib:cerium"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 13.5d
+		}
+		{
+			dependencies: [
+				"01448392C2A13D94"
+				"1A988BE2A5158A43"
+			]
+			dependency_requirement: "one_completed"
+			description: ["{atm9.quest.alchem.desc.Pr}"]
+			title: "{atm9.quest.alchem.title.Pr}"
+			hide_dependency_lines: true
+			id: "2C21A303E3D4D9D8"
+			rewards: [{
+				id: "6C0779E6ADA2E760"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Pr (59)"
+			tasks: [{
+				id: "1DB581D67D5592DD"
+				item: "chemlib:praseodymium"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Nd}"
+			hide_dependency_lines: true
+			id: "3826DC9C546D2D5C"
+			rewards: [{
+				id: "6FBC35DA6AFB22AA"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Nd (60)"
+			tasks: [{
+				id: "6DBF13FB389E3785"
+				item: "chemlib:neodymium"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			description: ["{atm9.quest.alchem.desc.Pm}"]
+			title: "{atm9.quest.alchem.title.Pm}"
+			hide_dependency_lines: true
+			id: "3ED95184EF9A8596"
+			rewards: [{
+				id: "5EF5844EF673FDFB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Pm (61)"
+			tasks: [{
+				id: "2C28E60B3C078099"
+				item: "chemlib:promethium"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Sm}"
+			hide_dependency_lines: true
+			id: "6E9C736498725207"
+			rewards: [{
+				id: "4285DD374EF28FCF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Sm (62)"
+			tasks: [{
+				id: "559B9B606584B359"
+				item: "chemlib:samarium"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Eu}"
+			hide_dependency_lines: true
+			id: "3CD95E74D480C1A8"
+			rewards: [{
+				id: "290D8647B8E433D6"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Eu (63)"
+			tasks: [{
+				id: "0351541B10AE75AE"
+				item: "chemlib:europium"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Gd}"
+			description: ["{atm9.quest.alchem.desc.Gd}"]
+			hide_dependency_lines: true
+			id: "23508A9D88F53858"
+			rewards: [{
+				id: "7CC57F6B6B7B70F7"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Gd (64)"
+			tasks: [{
+				id: "2ED10AE6C7353DA7"
+				item: "chemlib:gadolinium"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Tb}"
+			hide_dependency_lines: true
+			id: "61CBE513D0A630DA"
+			rewards: [{
+				id: "28BFECE8F41DDD83"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Tb (65)"
+			tasks: [{
+				id: "53F6E6C654959F7B"
+				item: "chemlib:terbium"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Dy}"
+			hide_dependency_lines: true
+			id: "12FD18CE25C3D048"
+			rewards: [{
+				id: "2B0E3B2182DFF815"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Dy (66)"
+			tasks: [{
+				id: "01A0EB76FDB3B0A8"
+				item: "chemlib:dysprosium"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Ho}"
+			description: ["{atm9.quest.alchem.desc.Ho}"]
+			hide_dependency_lines: true
+			id: "7D377561EDB4F165"
+			rewards: [{
+				id: "79AFDF1A9C605CD0"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Ho (67)"
+			tasks: [{
+				id: "267CC3F4F8FB0C14"
+				item: "chemlib:holmium"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Er}"
+			hide_dependency_lines: true
+			id: "3F1E2455AF9BD723"
+			rewards: [{
+				id: "02DED0C070EBC8F9"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Er (68)"
+			tasks: [{
+				id: "447F72D07317EA51"
+				item: "chemlib:erbium"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			description: ["{atm9.quest.alchem.desc.Tm}"]
+			title: "{atm9.quest.alchem.title.Tm}"
+			hide_dependency_lines: true
+			id: "11373202F6B9C2A4"
+			rewards: [{
+				id: "5F3C9EF4AA3A2AF9"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Tm (69)"
+			tasks: [{
+				id: "3A6020A17DA536F7"
+				item: "chemlib:thulium"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Yb}"
+			hide_dependency_lines: true
+			id: "78B53771C5491991"
+			rewards: [{
+				id: "08D03BA780D93311"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Yb (70)"
+			tasks: [{
+				id: "761B2843841AE0B9"
+				item: "chemlib:ytterbium"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Lu}"
+			hide_dependency_lines: true
+			id: "747FEAC15A8F9E20"
+			rewards: [{
+				id: "2C4CA9E08E8A94EE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Lu (71)"
+			tasks: [{
+				id: "0A302B7D8C4F3020"
+				item: "chemlib:lutetium"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			description: ["{atm9.quest.alchem.desc.Th}"]
+			title: "{atm9.quest.alchem.title.Th}"
+			hide_dependency_lines: true
+			id: "63937F58AC720B31"
+			rewards: [{
+				id: "4F2206865A908199"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Th (90)"
+			tasks: [{
+				id: "47C9B4D81877CF30"
+				item: "chemlib:thorium"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Pa}"
+			hide_dependency_lines: true
+			id: "18A411E94F4DA642"
+			rewards: [{
+				id: "19FE3FC3C205218A"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Pa (91)"
+			tasks: [{
+				id: "352F4951947C0FF7"
+				item: "chemlib:protactinium"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.U}"
+			hide_dependency_lines: true
+			id: "25D5B6154A00792E"
+			rewards: [{
+				id: "5AB484F2D981A184"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "U (92)"
+			tasks: [{
+				id: "0AD72F45B87A0BE9"
+				item: "chemlib:uranium"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Np}"
+			description: ["{atm9.quest.alchem.desc.Np}"]
+			hide_dependency_lines: true
+			id: "79E421A5F903FE1D"
+			rewards: [{
+				id: "2ECE8E38C273E34C"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Np (93)"
+			tasks: [{
+				id: "77C9380A7D4D0596"
+				item: "chemlib:neptunium"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Pu}"
+			hide_dependency_lines: true
+			id: "7B8BB4BC9BBCFF8F"
+			rewards: [{
+				id: "19EF7054C74C74F8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Pu (94)"
+			tasks: [{
+				id: "0C6BBCD54017F402"
+				item: "chemlib:plutonium"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Am}"
+			description: ["{atm9.quest.alchem.desc.Am}"]
+			hide_dependency_lines: true
+			id: "529D3B7BBD22B2F3"
+			rewards: [{
+				id: "224EF9BFD5870605"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Am (95)"
+			tasks: [{
+				id: "66CC0DB0821FFBDA"
+				item: "chemlib:americium"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Cm}"
+			hide_dependency_lines: true
+			id: "290CECB30364A692"
+			rewards: [{
+				id: "5ACB070EE65451DB"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Cm (96)"
+			tasks: [{
+				id: "75BFDFCFCFDB72CE"
+				item: "chemlib:curium"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Bk}"
+			hide_dependency_lines: true
+			id: "7F1C37CF2D4455AF"
+			rewards: [{
+				id: "2A645BD305781CA1"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Bk (97)"
+			tasks: [{
+				id: "1463F4F91B9847A7"
+				item: "chemlib:berkelium"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Cf}"
+			hide_dependency_lines: true
+			id: "3D4D5EDA83B05089"
+			rewards: [{
+				id: "2CBD309F5A39AB65"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Cf (98)"
+			tasks: [{
+				id: "741469FE26B8F903"
+				item: "chemlib:californium"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Es}"
+			hide_dependency_lines: true
+			id: "2FF3255BD022446B"
+			rewards: [{
+				id: "3D9E88B8A8689F4D"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Es (99)"
+			tasks: [{
+				id: "1830F8D09D3CADEF"
+				item: "chemlib:einsteinium"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Fm}"
+			hide_dependency_lines: true
+			id: "65DC6D89BDCF366C"
+			rewards: [{
+				id: "0BC46D96FDC273FF"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Fm (100)"
+			tasks: [{
+				id: "53A390D3130DAD09"
+				item: "chemlib:fermium"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["71815B287D0F162A"]
+			title: "{atm9.quest.alchem.title.Md}"
+			subtitle: "Md (101)"
+			hide_dependency_lines: true
+			id: "6EAF38BCE238A3EA"
+			rewards: [{
+				id: "06588721DBA4C6C8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			tasks: [{
+				id: "791F518B2DDDA533"
+				item: "chemlib:mendelevium"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.No}"
+			description: ["{atm9.quest.alchem.desc.No}"]
+			hide_dependency_lines: true
+			id: "7A079FDC0F29E25D"
+			rewards: [{
+				id: "0B2D93DEB6B87E05"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "No (102)"
+			tasks: [{
+				id: "4ABEA5D5C01D41B5"
+				item: "chemlib:nobelium"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 14.5d
+		}
+		{
+			dependencies: ["1A988BE2A5158A43"]
+			title: "{atm9.quest.alchem.title.Lr}"
+			hide_dependency_lines: true
+			id: "568D2BE79260091C"
+			rewards: [{
+				id: "31B4CD441B435B07"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			subtitle: "Lr (103)"
+			tasks: [{
+				id: "3746F5CE2095187E"
+				item: "chemlib:lawrencium"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 14.5d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide_details_until_startable: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "741CF79592C729C5"
+			invisible: true
+			optional: true
+			shape: "octagon"
+			tasks: [
+				{
+					disable_toast: true
+					id: "1955A724EC26AC9E"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+				{
+					id: "26B2473C746FB5AF"
+					title: "Quests By AllTheMods"
+					type: "checkmark"
+				}
+			]
+			x: -1.5d
+			y: 1.5d
+		}
+	]
+	title: "{atm9.chapters.54.title}"
+}

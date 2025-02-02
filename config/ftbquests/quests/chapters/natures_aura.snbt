@@ -3,9 +3,7 @@
 	default_quest_shape: ""
 	filename: "natures_aura"
 	group: "02FE661031A105D8"
-	icon: {
-		id: "naturesaura:gold_leaf"
-	}
+	icon: "naturesaura:gold_leaf"
 	id: "7A72E12C3839D165"
 	images: [
 		{
@@ -41,14 +39,6 @@
 			y: 1.5d
 		}
 		{
-			height: 1.75d
-			image: "refurbished_furniture:textures/particle/super_bounce_0.png"
-			rotation: 0.0d
-			width: 1.75d
-			x: 4.5d
-			y: 0.0d
-		}
-		{
 			height: 5.0d
 			image: "irons_spellbooks:textures/particle/acid_bubble_3.png"
 			rotation: 0.0d
@@ -65,20 +55,18 @@
 			y: 0.0d
 		}
 	]
-	order_index: 5
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["7DAED14CEC4CDA51"]
+			description: ["{atm9.quest.naturesaura.desc.goldleaves.1}"]
 			id: "4F9D6109EEA5D26A"
 			rewards: [
 				{
 					count: 2
 					id: "5B02A6C891227D29"
-					item: {
-						count: 1
-						id: "naturesaura:gold_leaf"
-					}
+					item: "naturesaura:gold_leaf"
 					random_bonus: 2
 					type: "item"
 				}
@@ -89,20 +77,24 @@
 				}
 			]
 			size: 1.25d
+			subtitle: "{atm9.quest.naturesaura.subt.goldleaves}"
 			tasks: [{
 				count: 4L
 				id: "46CB54014AC0447C"
-				item: { count: 4, id: "naturesaura:gold_leaf" }
+				item: "naturesaura:gold_leaf"
 				type: "item"
 			}]
+			title: "{atm9.quest.naturesaura.title.goldleaves}"
 			x: 2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4F9D6109EEA5D26A"]
-			icon: {
-				id: "naturesaura:gold_powder"
-			}
+			description: [
+				"{atm9.quest.naturesaura.desc.ritualofforest.1}"
+				"{image:atm:textures/questpics/natures_aura/forest_ritual.png width:295 height:150 align:center}"
+			]
+			icon: "naturesaura:gold_powder"
 			icon_scale: 1.1d
 			id: "497AE687B7E95DE8"
 			rewards: [
@@ -123,27 +115,44 @@
 			tasks: [
 				{
 					id: "55628B1EECBB5E94"
-					item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:oak_sapling)item(minecraft:jungle_sapling))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: {
+						Count: 1
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "minecraft:oak_sapling"
+								}
+								{
+									Count: 1b
+									id: "minecraft:jungle_sapling"
+								}
+							]
+						}
+					}
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "531BA7E45499F20D"
-					item: { count: 8, id: "naturesaura:wood_stand" }
+					item: "naturesaura:wood_stand"
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "172E24F739EEA426"
-					item: { count: 16, id: "naturesaura:gold_powder" }
+					item: "naturesaura:gold_powder"
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.naturesaura.title.ritualofforest}"
 			x: 4.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["497AE687B7E95DE8"]
+			description: ["{atm9.quest.naturesaura.desc.eyeenv.1}"]
 			id: "12D3C7FC4B3DAB23"
 			rewards: [
 				{
@@ -158,9 +167,10 @@
 					xp: 100
 				}
 			]
+			subtitle: "{atm9.quest.naturesaura.subt.eyeenv}"
 			tasks: [{
 				id: "5C146B5DA9342F90"
-				item: { count: 1, id: "naturesaura:eye" }
+				item: "naturesaura:eye"
 				type: "item"
 			}]
 			x: 4.0d
@@ -168,6 +178,7 @@
 		}
 		{
 			dependencies: ["497AE687B7E95DE8"]
+			description: ["{atm9.quest.naturesaura.desc.ancienttrees.1}"]
 			hide_dependent_lines: true
 			id: "22ADCF96AE3E609B"
 			rewards: [
@@ -183,16 +194,19 @@
 					xp: 100
 				}
 			]
+			subtitle: "{atm9.quest.naturesaura.subt.ancienttrees}"
 			tasks: [{
 				id: "457413B665C31128"
-				item: { count: 1, id: "naturesaura:ancient_sapling" }
+				item: "naturesaura:ancient_sapling"
 				type: "item"
 			}]
+			title: "{atm9.quest.naturesaura.title.ancienttrees}"
 			x: 5.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["497AE687B7E95DE8"]
+			description: ["{atm9.quest.naturesaura.desc.tokenofjoy.1}"]
 			id: "05E668CE6687AC64"
 			rewards: [
 				{
@@ -209,22 +223,21 @@
 			]
 			tasks: [{
 				id: "250CD873FCE7202F"
-				item: { count: 1, id: "naturesaura:token_joy" }
+				item: "naturesaura:token_joy"
 				type: "item"
 			}]
+			title: "{atm9.quest.naturesaura.title.tokenofjoy}"
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["497AE687B7E95DE8"]
+			description: ["{atm9.quest.naturesaura.desc.bottlesofaura.1}"]
 			id: "5A011CE8EEA3F9D8"
 			rewards: [
 				{
 					id: "671E4F61F1B3699D"
-					item: {
-						count: 1
-						id: "naturesaura:vacuum_bottle"
-					}
+					item: "naturesaura:vacuum_bottle"
 					random_bonus: 1
 					type: "item"
 				}
@@ -234,23 +247,43 @@
 					xp: 50
 				}
 			]
+			subtitle: "{atm9.quest.naturesaura.subt.bottlesofaura}"
 			tasks: [
 				{
 					id: "2C08B46593A9B329"
-					item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:overworld" } }, count: 1, id: "naturesaura:aura_bottle" }
+					item: {
+						Count: 1
+						id: "naturesaura:aura_bottle"
+						tag: {
+							stored_type: "naturesaura:overworld"
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "5FD10BCA425E745A"
-					item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:nether" } }, count: 1, id: "naturesaura:aura_bottle" }
+					item: {
+						Count: 1
+						id: "naturesaura:aura_bottle"
+						tag: {
+							stored_type: "naturesaura:nether"
+						}
+					}
 					type: "item"
 				}
 				{
 					id: "6217C3256485AF70"
-					item: { components: { "naturesaura:aura_bottle_data": { aura_type: "naturesaura:end" } }, count: 1, id: "naturesaura:aura_bottle" }
+					item: {
+						Count: 1
+						id: "naturesaura:aura_bottle"
+						tag: {
+							stored_type: "naturesaura:end"
+						}
+					}
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.naturesaura.title.bottlesofaura}"
 			x: 4.5d
 			y: 1.5d
 		}
@@ -259,6 +292,7 @@
 				"5A011CE8EEA3F9D8"
 				"3C2F5AB815A6C949"
 			]
+			description: ["{atm9.quest.naturesaura.desc.auracreation.1}"]
 			id: "71B6F013C8A60EB6"
 			rewards: [
 				{
@@ -273,23 +307,26 @@
 					xp: 100
 				}
 			]
+			subtitle: "{atm9.quest.naturesaura.subt.auracreation}"
 			tasks: [
 				{
 					id: "7E80C1A891CB854B"
-					item: { count: 1, id: "naturesaura:oak_generator" }
+					item: "naturesaura:oak_generator"
 					type: "item"
 				}
 				{
 					id: "58E562C058F72AB0"
-					item: { count: 1, id: "naturesaura:flower_generator" }
+					item: "naturesaura:flower_generator"
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.naturesaura.title.auracreation}"
 			x: 6.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["3C2F5AB815A6C949"]
+			description: ["{atm9.quest.naturesaura.desc.auracache.1}"]
 			id: "0B6D35F5B3A11FD2"
 			rewards: [
 				{
@@ -304,11 +341,13 @@
 					xp: 100
 				}
 			]
+			subtitle: "{atm9.quest.naturesaura.subt.auracache}"
 			tasks: [{
 				id: "1715E8DAFB3D3838"
-				item: { count: 1, id: "naturesaura:aura_cache" }
+				item: "naturesaura:aura_cache"
 				type: "item"
 			}]
+			title: "{atm9.quest.naturesaura.title.auracache}"
 			x: 6.5d
 			y: 3.0d
 		}
@@ -317,6 +356,7 @@
 				"0B6D35F5B3A11FD2"
 				"1D39634260A47C9A"
 			]
+			description: ["{atm9.quest.naturesaura.desc.auratrove.1}"]
 			id: "24599D45F5D1606E"
 			rewards: [
 				{
@@ -331,19 +371,20 @@
 					xp: 150
 				}
 			]
+			subtitle: "{atm9.quest.naturesaura.subt.auratrove}"
 			tasks: [{
 				id: "0785B90A3359EF21"
-				item: { count: 1, id: "naturesaura:aura_trove" }
+				item: "naturesaura:aura_trove"
 				type: "item"
 			}]
+			title: "{atm9.quest.naturesaura.title.auratrove}"
 			x: 6.5d
 			y: 4.5d
 		}
 		{
 			dependencies: ["05E668CE6687AC64"]
-			icon: {
-				id: "naturesaura:nature_altar"
-			}
+			description: ["{atm9.quest.naturesaura.desc.naturalaltar.1}"]
+			icon: "naturesaura:nature_altar"
 			id: "20F9EF925DB1CE05"
 			rewards: [
 				{
@@ -363,39 +404,53 @@
 			tasks: [
 				{
 					id: "1C97A13C673C872C"
-					item: { count: 1, id: "naturesaura:nature_altar" }
+					item: "naturesaura:nature_altar"
 					type: "item"
 				}
 				{
 					count: 20L
 					id: "0CA0B32D52395A39"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:planks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:planks"
+						}
+					}
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "52874F5B79ECAE65"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:stone_bricks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:stone_bricks"
+						}
+					}
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "005FC74EBECBBD39"
-					item: { count: 8, id: "naturesaura:gold_brick" }
+					item: "naturesaura:gold_brick"
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "1523CDF0F19A3162"
-					item: { count: 4, id: "minecraft:chiseled_stone_bricks" }
+					item: "minecraft:chiseled_stone_bricks"
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.naturesaura.title.naturalaltar}"
 			x: 8.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["5A011CE8EEA3F9D8"]
+			description: ["{atm9.quest.naturesaura.desc.structurefinders.1}"]
 			id: "3F8A5CBEAE024748"
 			optional: true
 			rewards: [
@@ -411,23 +466,25 @@
 					xp: 100
 				}
 			]
+			subtitle: "{atm9.quest.naturesaura.subt.structurefinders}"
 			tasks: [
 				{
 					id: "78363A5BFED389F3"
-					item: { count: 1, id: "naturesaura:outpost_finder" }
+					item: "naturesaura:outpost_finder"
 					type: "item"
 				}
 				{
 					id: "39F677AFED023C6F"
-					item: { count: 1, id: "naturesaura:fortress_finder" }
+					item: "naturesaura:fortress_finder"
 					type: "item"
 				}
 				{
 					id: "55C491B1083C46FB"
-					item: { count: 1, id: "naturesaura:end_city_finder" }
+					item: "naturesaura:end_city_finder"
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.naturesaura.title.structurefinders}"
 			x: 5.0d
 			y: 3.0d
 		}
@@ -449,7 +506,7 @@
 			]
 			tasks: [{
 				id: "687BAA9990A67C2E"
-				item: { count: 1, id: "naturesaura:infused_iron" }
+				item: "naturesaura:infused_iron"
 				type: "item"
 			}]
 			x: 7.5d
@@ -457,6 +514,7 @@
 		}
 		{
 			dependencies: ["20F9EF925DB1CE05"]
+			description: ["{atm9.quest.naturesaura.desc.taintedgold.1}"]
 			id: "3EC90ADA4E322B14"
 			rewards: [
 				{
@@ -471,11 +529,13 @@
 					xp: 100
 				}
 			]
+			subtitle: "{atm9.quest.naturesaura.subt.taintedgold}"
 			tasks: [{
 				id: "076D4BEB697AA55A"
-				item: { count: 1, id: "naturesaura:tainted_gold" }
+				item: "naturesaura:tainted_gold"
 				type: "item"
 			}]
+			title: "{atm9.quest.naturesaura.title.taintedgold}"
 			x: 8.5d
 			y: 1.5d
 		}
@@ -485,9 +545,11 @@
 				"3EC90ADA4E322B14"
 				"0EFD0A4AE82153E8"
 			]
-			icon: {
-				id: "naturesaura:offering_table"
-			}
+			description: [
+				"{atm9.quest.naturesaura.desc.offering.1}"
+				"{image:atm:textures/questpics/natures_aura/offering.png width:295 height:150 align:center}"
+			]
+			icon: "naturesaura:offering_table"
 			id: "5C990F7E5D345A6F"
 			rewards: [
 				{
@@ -504,22 +566,29 @@
 			]
 			shape: "pentagon"
 			size: 1.25d
+			subtitle: "{atm9.quest.naturesaura.subt.offering}"
 			tasks: [
 				{
 					id: "5FCFEA59AF1636DE"
-					item: { count: 1, id: "naturesaura:offering_table" }
+					item: "naturesaura:offering_table"
 					type: "item"
 				}
 				{
 					count: 36L
 					id: "2E97226C40818239"
-					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:flowers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "minecraft:flowers"
+						}
+					}
 					type: "item"
 				}
 				{
 					count: 3L
 					id: "5CFDF0F9971BE465"
-					item: { count: 3, id: "naturesaura:calling_spirit" }
+					item: "naturesaura:calling_spirit"
 					type: "item"
 				}
 			]
@@ -528,6 +597,7 @@
 		}
 		{
 			dependencies: ["5C990F7E5D345A6F"]
+			description: ["{atm9.quest.naturesaura.desc.ingotsoftheskies.1}"]
 			id: "1D39634260A47C9A"
 			rewards: [
 				{
@@ -544,9 +614,10 @@
 			]
 			tasks: [{
 				id: "32333C6D1AD96106"
-				item: { count: 1, id: "naturesaura:sky_ingot" }
+				item: "naturesaura:sky_ingot"
 				type: "item"
 			}]
+			title: "{atm9.quest.naturesaura.title.ingotsoftheskies}"
 			x: 8.0d
 			y: 4.5d
 		}
@@ -555,6 +626,7 @@
 				"5C990F7E5D345A6F"
 				"0EFD0A4AE82153E8"
 			]
+			description: ["{atm9.quest.naturesaura.desc.upgradedtokens.1}"]
 			id: "4AD4FDF70B9BFCC9"
 			rewards: [
 				{
@@ -572,25 +644,26 @@
 			tasks: [
 				{
 					id: "18E1687150A37F37"
-					item: { count: 1, id: "naturesaura:token_euphoria" }
+					item: "naturesaura:token_euphoria"
 					type: "item"
 				}
 				{
 					id: "03ED1F9B3A7E3CCD"
-					item: { count: 1, id: "naturesaura:token_terror" }
+					item: "naturesaura:token_terror"
 					type: "item"
 				}
 				{
 					id: "7CEE6E6829D2BC96"
-					item: { count: 1, id: "naturesaura:token_rage" }
+					item: "naturesaura:token_rage"
 					type: "item"
 				}
 				{
 					id: "5362B4DA434BDFF2"
-					item: { count: 1, id: "naturesaura:token_grief" }
+					item: "naturesaura:token_grief"
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.naturesaura.title.upgradedtokens}"
 			x: 9.5d
 			y: 3.0d
 		}
@@ -599,6 +672,7 @@
 				"20F9EF925DB1CE05"
 				"0EFD0A4AE82153E8"
 			]
+			description: ["{atm9.quest.naturesaura.desc.catalysts.1}"]
 			id: "54F7AD64A403C9BF"
 			rewards: [
 				{
@@ -616,15 +690,16 @@
 			tasks: [
 				{
 					id: "12FF35B444D5F641"
-					item: { count: 1, id: "naturesaura:crushing_catalyst" }
+					item: "naturesaura:crushing_catalyst"
 					type: "item"
 				}
 				{
 					id: "67583A940E7BA925"
-					item: { count: 1, id: "naturesaura:conversion_catalyst" }
+					item: "naturesaura:conversion_catalyst"
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.naturesaura.title.catalysts}"
 			x: 8.0d
 			y: -1.5d
 		}
@@ -633,6 +708,7 @@
 				"4AD4FDF70B9BFCC9"
 				"1D39634260A47C9A"
 			]
+			description: ["{atm9.quest.naturesaura.desc.altarofbirthing.1}"]
 			id: "0FD26FD88E801C0E"
 			rewards: [
 				{
@@ -647,32 +723,35 @@
 					xp: 100
 				}
 			]
+			subtitle: "{atm9.quest.naturesaura.subt.altarofbirthing}"
 			tasks: [
 				{
 					id: "14BDAD1D8EF6D754"
-					item: { count: 1, id: "naturesaura:animal_spawner" }
+					item: "naturesaura:animal_spawner"
 					type: "item"
 				}
 				{
 					id: "48828EAA097984AD"
-					item: { count: 1, id: "naturesaura:birth_spirit" }
+					item: "naturesaura:birth_spirit"
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.naturesaura.title.altarofbirthing}"
 			x: 9.5d
 			y: 4.5d
 		}
 		{
+			description: ["{atm9.quest.naturesaura.desc.intro.1}"]
 			id: "7DAED14CEC4CDA51"
 			rewards: [
 				{
 					id: "534E243D88E50AC6"
 					item: {
-						components: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
 							"patchouli:book": "naturesaura:book"
 						}
-						count: 1
-						id: "patchouli:guide_book"
 					}
 					type: "item"
 				}
@@ -687,14 +766,16 @@
 			tasks: [{
 				count: 16L
 				id: "06D5CD358CFB4D2D"
-				item: { count: 1, id: "naturesaura:gold_fiber" }
+				item: "naturesaura:gold_fiber"
 				type: "item"
 			}]
+			title: "{atm9.quest.naturesaura.title.intro}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["05E668CE6687AC64"]
+			description: ["{atm9.quest.naturesaura.desc.othertokens.1}"]
 			hide_dependent_lines: true
 			id: "0EFD0A4AE82153E8"
 			rewards: [
@@ -713,25 +794,27 @@
 			tasks: [
 				{
 					id: "6B46BB7EF0CA76B4"
-					item: { count: 1, id: "naturesaura:token_fear" }
+					item: "naturesaura:token_fear"
 					type: "item"
 				}
 				{
 					id: "7C59F509A0D8CEB0"
-					item: { count: 1, id: "naturesaura:token_anger" }
+					item: "naturesaura:token_anger"
 					type: "item"
 				}
 				{
 					id: "72C1E0F2F9F923BD"
-					item: { count: 1, id: "naturesaura:token_sorrow" }
+					item: "naturesaura:token_sorrow"
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.naturesaura.title.othertokens}"
 			x: 6.0d
 			y: -1.5d
 		}
 		{
 			dependencies: ["1D39634260A47C9A"]
+			description: ["{atm9.quest.naturesaura.desc.ingotsofthedepths.1}"]
 			id: "2B4D4E741D855B5A"
 			rewards: [
 				{
@@ -748,9 +831,10 @@
 			]
 			tasks: [{
 				id: "55F7A32C63A206B2"
-				item: { count: 1, id: "naturesaura:depth_ingot" }
+				item: "naturesaura:depth_ingot"
 				type: "item"
 			}]
+			title: "{atm9.quest.naturesaura.title.ingotsofthedepths}"
 			x: 8.5d
 			y: 6.0d
 		}
@@ -759,6 +843,8 @@
 				"1D39634260A47C9A"
 				"22ADCF96AE3E609B"
 			]
+			title: "{atm9.quest.naturesaura.title.netheritefinder}"
+			description: ["{atm9.quest.naturesaura.desc.netheritefinder.1}"]
 			id: "34ABEF75AE1E5A0F"
 			optional: true
 			rewards: [
@@ -774,9 +860,10 @@
 					xp: 100
 				}
 			]
+			subtitle: "{atm9.quest.naturesaura.subt.netheritefinder}"
 			tasks: [{
 				id: "159513977921D09B"
-				item: { count: 1, id: "naturesaura:netherite_finder" }
+				item: "naturesaura:netherite_finder"
 				type: "item"
 			}]
 			x: 7.5d
@@ -784,6 +871,7 @@
 		}
 		{
 			dependencies: ["5A011CE8EEA3F9D8"]
+			description: ["{atm9.quest.naturesaura.desc.endercratesoculars.1}"]
 			id: "1ABEC7DE47BD6286"
 			optional: true
 			rewards: [
@@ -799,18 +887,20 @@
 					xp: 100
 				}
 			]
+			subtitle: "{atm9.quest.naturesaura.subt.endercratesoculars}"
 			tasks: [
 				{
 					id: "4D6D4F663B472B77"
-					item: { count: 1, id: "naturesaura:ender_crate" }
+					item: "naturesaura:ender_crate"
 					type: "item"
 				}
 				{
 					id: "49E7547CEA050C39"
-					item: { count: 1, id: "naturesaura:ender_access" }
+					item: "naturesaura:ender_access"
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.naturesaura.title.endercratesoculars}"
 			x: 4.0d
 			y: 3.0d
 		}
@@ -819,6 +909,7 @@
 				"4AD4FDF70B9BFCC9"
 				"22ADCF96AE3E609B"
 			]
+			description: ["{atm9.quest.naturesaura.desc.staffofriches.1}"]
 			id: "4F03B152479C4AC0"
 			rewards: [
 				{
@@ -835,24 +926,47 @@
 			]
 			tasks: [{
 				id: "7610B30E5D604349"
-				item: { count: 1, id: "naturesaura:loot_finder" }
+				item: "naturesaura:loot_finder"
 				type: "item"
 			}]
+			title: "{atm9.quest.naturesaura.title.staffofriches}"
 			x: 11.0d
 			y: 3.0d
 		}
 		{
-			id: "5A0EB2ADEBC7EE2B"
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide_details_until_startable: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "3AEA0FD1D5730CF2"
 			invisible: true
 			optional: true
-			shape: "circle"
+			shape: "octagon"
 			tasks: [
 				{
-					id: "15698B55CCAD2433"
+					disable_toast: true
+					id: "7581F4AEFE77AE2E"
+					title: "Quests By AllTheMods"
 					type: "checkmark"
 				}
 				{
-					id: "4C6370D2B7EF8685"
+					id: "7D2F9E36EFB00065"
+					title: "Quests By AllTheMods"
 					type: "checkmark"
 				}
 			]
@@ -860,4 +974,5 @@
 			y: 2.0d
 		}
 	]
+	title: "{atm9.chapters.65.title}"
 }

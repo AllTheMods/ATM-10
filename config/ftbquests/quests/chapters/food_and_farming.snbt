@@ -3,9 +3,7 @@
 	default_quest_shape: ""
 	filename: "food_and_farming"
 	group: "6614EE2378B8AFB9"
-	icon: {
-		id: "minecraft:cake"
-	}
+	icon: "minecraft:cake"
 	id: "05E614FDA677D85E"
 	images: [
 		{
@@ -50,7 +48,7 @@
 		}
 		{
 			height: 2.0d
-			image: "minecraft:block/hay_block_side"
+			image: "farmersdelight:textures/block/cutting_board.png"
 			rotation: -90.0d
 			width: 2.0d
 			x: 0.5d
@@ -58,7 +56,7 @@
 		}
 		{
 			height: 1.0d
-			image: "minecraft:item/torchflower_seeds"
+			image: "croptopia:textures/item/cantaloupe_seed.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: -4.0d
@@ -66,7 +64,7 @@
 		}
 		{
 			height: 1.0d
-			image: "aquaculture:item/message_in_a_bottle"
+			image: "farmersdelight:textures/item/apple_cider.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: -4.0d
@@ -105,51 +103,53 @@
 			y: -5.5d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
 		{
-			icon: {
-				id: "pamhc2trees:starfruititem"
-			}
-			icon_scale: 1.5d
+			description: ["{atm9.quest.farm.desc.food}"]
+			icon: "minecraft:emerald"
 			id: "1827DEEA2DF1B144"
 			rewards: [
 				{
-					id: "2EFEA345691F570D"
-					item: {
-						count: 1
-						id: "minecraft:wheat_seeds"
-					}
-					type: "item"
-				}
-				{
-					id: "769A50AFA27134F2"
+					id: "28C108EC59F6E7D9"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "2EFEA345691F570D"
+					item: "minecraft:wheat_seeds"
+					type: "item"
 				}
 			]
 			shape: "square"
 			size: 1.5d
+			subtitle: "{atm9.quest.farm.subt.food}"
 			tasks: [{
-				id: "78D7794707E4BD83"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:crops)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "29267580E91DFEDA"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops"
+					}
+				}
+				title: "Any Crops"
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.food}"
 			x: 0.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["43021923E220CF68"]
+			description: ["{atm9.quest.farm.desc.grass}"]
 			id: "72717D1135486D7F"
 			rewards: [
 				{
 					id: "37CC4C9D02D00F80"
-					item: {
-						count: 1
-						id: "minecraft:wheat"
-					}
+					item: "minecraft:wheat"
 					type: "item"
 				}
 				{
@@ -159,28 +159,26 @@
 				}
 			]
 			shape: "circle"
+			subtitle: "{atm9.quest.farm.subt.grass}"
 			tasks: [{
 				count: 8L
 				id: "73B6ED422F9292D1"
-				item: { count: 1, id: "minecraft:wheat_seeds" }
+				item: "minecraft:wheat_seeds"
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.grass}"
 			x: -3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["18EADBAFC932F864"]
-			icon: {
-				id: "minecraft:white_wool"
-			}
+			description: ["{atm9.quest.farm.desc.wool}"]
+			icon: "minecraft:white_wool"
 			id: "3EA883C0BB7BD38F"
 			rewards: [
 				{
 					id: "59024F65DCEB9DAA"
-					item: {
-						count: 1
-						id: "minecraft:white_wool"
-					}
+					item: "minecraft:white_wool"
 					type: "item"
 				}
 				{
@@ -189,20 +187,27 @@
 					xp: 10
 				}
 			]
+			subtitle: "{atm9.quest.farm.subt.wool}"
 			tasks: [{
 				count: 3L
+				icon: "minecraft:white_wool"
 				id: "7F08D4E77359BF4A"
-				item: { components: { "ftbfiltersystem:filter": "item_tag(minecraft:wool)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+				title: "Any #minecraft:wool"
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.wool}"
 			x: 5.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2E9C035EEE7E5C34"]
-			icon: {
-				id: "minecraft:shears"
-			}
 			id: "18EADBAFC932F864"
 			rewards: [{
 				id: "68AA10BF3AA0408A"
@@ -210,51 +215,60 @@
 				xp: 10
 			}]
 			tasks: [{
-				id: "2725700B5EA1CD75"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:tools/shear)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "3A9869856B3E9D54"
+				item: {
+					Count: 1
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.sheep}"
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2E9C035EEE7E5C34"]
+			description: ["{atm9.quest.farm.desc.cows}"]
 			id: "635620A03E3505BF"
 			rewards: [
 				{
-					id: "0B497B4A001CFFC0"
-					item: {
-						count: 1
-						id: "minecraft:leather"
-					}
-					type: "item"
-				}
-				{
-					id: "0A3A156D2D6F48F2"
+					id: "7914440DB4E0A801"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "0B497B4A001CFFC0"
+					item: "minecraft:leather"
+					type: "item"
 				}
 			]
 			tasks: [{
 				count: 3L
 				id: "5824C93C84312142"
-				item: { count: 1, id: "minecraft:leather" }
+				item: "minecraft:leather"
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.cows}"
 			x: 4.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["3EA883C0BB7BD38F"]
+			description: ["{atm9.quest.farm.desc.market}"]
 			id: "1F114EB0AAB86DB4"
 			rewards: [
 				{
 					id: "2A90BE5DD251767D"
-					item: {
-						count: 1
-						id: "minecraft:emerald"
-					}
+					item: "minecraft:emerald"
 					type: "item"
+				}
+				{
+					id: "72142B51809511CF"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
@@ -262,23 +276,21 @@
 					table_id: 487623848494439020L
 					type: "random"
 				}
-				{
-					id: "547FC038410FD238"
-					type: "xp"
-					xp: 100
-				}
 			]
 			shape: "rsquare"
 			size: 1.5d
+			subtitle: "{atm9.quest.farm.subt.market}"
 			tasks: [{
 				id: "1AFEBED0226CEBC1"
-				item: { count: 1, id: "farmingforblockheads:market" }
+				item: "farmingforblockheads:market"
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.market}"
 			x: 7.5d
 			y: 0.0d
 		}
 		{
+			description: ["{atm9.quest.farm.desc.animals}"]
 			id: "2E9C035EEE7E5C34"
 			rewards: [{
 				id: "04DF879E17A497AD"
@@ -286,25 +298,25 @@
 				xp: 10
 			}]
 			shape: "diamond"
+			subtitle: "{atm9.quest.farm.subt.animals}"
 			tasks: [{
 				id: "63282E8604721F13"
-				item: { count: 1, id: "minecraft:lead" }
+				item: "minecraft:lead"
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.animals}"
 			x: 2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["635620A03E3505BF"]
+			description: ["{atm9.quest.farm.desc.milk}"]
 			id: "73B8A70240E6070E"
 			rewards: [
 				{
 					count: 3
 					id: "6680B692C05EDB9F"
-					item: {
-						count: 1
-						id: "minecraft:cooked_beef"
-					}
+					item: "minecraft:cooked_beef"
 					type: "item"
 				}
 				{
@@ -313,29 +325,42 @@
 					xp: 10
 				}
 			]
+			subtitle: "{atm9.quest.farm.subt.milk}"
 			tasks: [{
 				id: "19A9C679111A90BC"
-				item: { count: 1, id: "minecraft:milk_bucket" }
+				item: "minecraft:milk_bucket"
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.milk}"
 			x: 6.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["2E9C035EEE7E5C34"]
+			description: ["{atm9.quest.farm.desc.chicken}"]
 			id: "1D2EF12FD7FDD217"
-			rewards: [{
-				id: "25D2B3D4AE631792"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "75D8B76E11F272AC"
+					item: "croptopia:scrambled_eggs"
+					type: "item"
+				}
+				{
+					id: "25D2B3D4AE631792"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "{atm9.quest.farm.subt.chicken}"
 			tasks: [{
 				count: 3L
 				id: "46974912B1E8E78B"
-				item: { count: 1, id: "minecraft:egg" }
+				item: "minecraft:egg"
 				type: "item"
 			}]
-			x: 4.5d
+			title: "{atm9.quest.farm.chicken}"
+			x: 4.0d
 			y: 1.0d
 		}
 		{
@@ -343,49 +368,50 @@
 			id: "1697CC05D08B388D"
 			rewards: [
 				{
-					id: "634BD1679C226F35"
-					item: {
-						count: 1
-						id: "pamhc2foodcore:friedchickenitem"
-					}
-					type: "item"
-				}
-				{
-					id: "551DA8AE385BDF12"
+					id: "7A84544510F1D4EE"
 					type: "xp"
 					xp: 10
 				}
+				{
+					id: "6ABAD303E8397549"
+					item: "croptopia:fried_chicken"
+					type: "item"
+				}
 			]
+			subtitle: "{atm9.quest.farm.subt.egg}"
 			tasks: [
 				{
 					count: 10L
-					id: "611CC8005150DC9B"
-					item: { count: 10, id: "minecraft:feather" }
+					id: "264B00606E5BE374"
+					item: "minecraft:feather"
 					type: "item"
 				}
 				{
-					count: 5L
-					id: "0CAC6A36AC5A6708"
-					item: { count: 5, id: "minecraft:chicken" }
+					count: 3L
+					id: "763031D0E9F0850C"
+					item: "minecraft:chicken"
 					type: "item"
 				}
 			]
+			title: "{atm9.quest.farm.egg}"
 			x: 6.0d
 			y: 1.0d
 		}
 		{
+			description: [""]
 			icon: {
-				id: "minecraft:iron_hoe"
+				Count: 1
+				id: "minecraft:wooden_hoe"
+				tag: {
+					Damage: 0
+				}
 			}
 			id: "43021923E220CF68"
 			rewards: [
 				{
 					count: 2
 					id: "70556C33AE952F49"
-					item: {
-						count: 1
-						id: "minecraft:wheat_seeds"
-					}
+					item: "minecraft:wheat_seeds"
 					type: "item"
 				}
 				{
@@ -396,11 +422,148 @@
 			]
 			shape: "diamond"
 			size: 1.25d
+			subtitle: "{atm9.quest.farm.subt.farming}"
 			tasks: [{
-				id: "323A434E1AF54408"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:hoes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "4847C9E5C9116BB7"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:wooden_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:stone_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:iron_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:golden_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "allthemodium:allthemodium_hoe"
+							}
+							{
+								Count: 1b
+								id: "allthemodium:vibranium_hoe"
+							}
+							{
+								Count: 1b
+								id: "ae2:certus_quartz_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:fluix_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "ae2:nether_quartz_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:manasteel_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "botania:elementium_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:bronze_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:lapis_lazuli_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:osmium_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:refined_glowstone_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:refined_obsidian_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "mekanismtools:steel_hoe"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "Basic Hoes"
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.farming}"
 			x: -1.5749999999999997d
 			y: 0.0d
 		}
@@ -409,12 +572,9 @@
 			id: "0A1C2A7A8617D3E4"
 			rewards: [
 				{
-					count: 3
+					count: 2
 					id: "6EE0FD0DCE6CEEDE"
-					item: {
-						count: 1
-						id: "minecraft:wheat_seeds"
-					}
+					item: "minecraft:bread"
 					type: "item"
 				}
 				{
@@ -423,59 +583,92 @@
 					xp: 10
 				}
 			]
+			subtitle: "{atm9.quest.farm.subt.wheat}"
 			tasks: [{
 				count: 3L
 				id: "6890EB2819D88073"
-				item: { count: 1, id: "minecraft:wheat" }
+				item: "minecraft:wheat"
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.wheat}"
 			x: -5.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0A1C2A7A8617D3E4"]
 			id: "659A903F97F93BE2"
-			rewards: [{
-				id: "382B2B8DF207F44F"
-				type: "xp"
-				xp: 10
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "1C449D2589FD1836"
+					item: "croptopia:toast"
+					type: "item"
+				}
+				{
+					id: "382B2B8DF207F44F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "Quick and Simple"
 			tasks: [{
 				count: 3L
 				id: "03C7F9CB0DDB2D9B"
-				item: { count: 1, id: "minecraft:bread" }
+				item: "minecraft:bread"
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.bread}"
 			x: -6.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["72717D1135486D7F"]
+			description: ["{atm9.quest.farm.desc.flax}"]
+			id: "5A51E26D66D1273B"
+			rewards: [{
+				id: "6A184032CC7F6E17"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "{atm9.quest.farm.subt.flax}"
+			tasks: [{
+				id: "52030BFD91159DAC"
+				item: "supplementaries:flax_seeds"
+				type: "item"
+			}]
+			title: "{atm9.quest.farm.flax}"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72717D1135486D7F"]
+			description: ["{atm9.quest.farm.desc.cane}"]
 			id: "361DFDB1E1352D6B"
 			rewards: [
 				{
-					id: "193719E857969260"
-					item: {
-						count: 1
-						id: "minecraft:sugar"
-					}
-					type: "item"
-				}
-				{
-					id: "4DA79EDA168E4CFA"
+					id: "2D2FC5CA58E15FD7"
 					type: "xp"
 					xp: 10
 				}
+				{
+					id: "193719E857969260"
+					item: "minecraft:sugar"
+					type: "item"
+				}
 			]
+			subtitle: "{atm9.quest.farm.subt.cane}"
 			tasks: [{
+				count: 10L
 				id: "6118A776B40507B7"
-				item: { count: 1, id: "minecraft:sugar_cane" }
+				item: "minecraft:sugar_cane"
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.cane}"
 			x: -5.5d
 			y: 1.0d
 		}
 		{
+			description: ["{atm9.quest.farm.desc.book}"]
 			id: "45F83C2750F70F9B"
 			rewards: [{
 				id: "54B713BDF265A213"
@@ -484,25 +677,30 @@
 			}]
 			shape: "diamond"
 			size: 1.5d
+			subtitle: "{atm9.quest.farm.subt.book}"
 			tasks: [{
 				id: "61DBF366AFC8A579"
-				item: { count: 1, id: "cookingforblockheads:recipe_book" }
+				item: "cookingforblockheads:recipe_book"
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.book}"
 			x: 0.5d
 			y: 4.0d
 		}
 		{
 			dependencies: ["45F83C2750F70F9B"]
+			description: ["{atm9.quest.farm.desc.cookbook}"]
 			id: "58D5BD3106BFD94A"
 			rewards: [
 				{
 					id: "1DEED7674A6B9079"
-					item: {
-						count: 1
-						id: "minecraft:diamond"
-					}
+					item: "minecraft:diamond"
 					type: "item"
+				}
+				{
+					id: "18610A9BCEA465F8"
+					type: "xp"
+					xp: 10
 				}
 				{
 					exclude_from_claim_all: true
@@ -510,32 +708,26 @@
 					table_id: 487623848494439020L
 					type: "random"
 				}
-				{
-					id: "459BD2969BBA3578"
-					type: "xp"
-					xp: 10
-				}
 			]
+			subtitle: "{atm9.quest.farm.subt.cookbook}"
 			tasks: [{
 				id: "20FD5552BE10D679"
-				item: { count: 1, id: "cookingforblockheads:crafting_book" }
+				item: "cookingforblockheads:crafting_book"
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.cookbook}"
 			x: 0.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["58D5BD3106BFD94A"]
-			hide_dependent_lines: true
+			description: ["{atm9.quest.farm.desc.kitchen}"]
 			id: "28C9EDBF6607E180"
 			rewards: [
 				{
 					count: 8
 					id: "145863D45AAB585A"
-					item: {
-						count: 1
-						id: "minecraft:bread"
-					}
+					item: "minecraft:bread"
 					type: "item"
 				}
 				{
@@ -546,25 +738,31 @@
 			]
 			shape: "rsquare"
 			size: 1.5d
+			subtitle: "{atm9.quest.farm.subt.kitchen}"
 			tasks: [{
 				id: "552C067A28FB8869"
-				item: { count: 1, id: "cookingforblockheads:cooking_table" }
+				item: "cookingforblockheads:cooking_table"
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.kitchen}"
 			x: 0.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
+			description: ["{atm9.quest.farm.desc.cabinet}"]
+			hide_dependency_lines: true
 			id: "58495CFBF4F20CE9"
 			rewards: [
 				{
 					id: "5F08882A75BECB22"
-					item: {
-						count: 1
-						id: "cookingforblockheads:cabinet"
-					}
+					item: "cookingforblockheads:cabinet"
 					type: "item"
+				}
+				{
+					id: "1C499560DF40E2FC"
+					type: "xp"
+					xp: 10
 				}
 				{
 					exclude_from_claim_all: true
@@ -572,33 +770,34 @@
 					table_id: 487623848494439020L
 					type: "random"
 				}
-				{
-					id: "27E1847753DE5130"
-					type: "xp"
-					xp: 10
-				}
 			]
 			shape: "diamond"
+			subtitle: "{atm9.quest.farm.subt.cabinet}"
 			tasks: [{
 				count: 2L
 				id: "1DAD3C12FDEB5CD4"
-				item: { count: 1, id: "cookingforblockheads:cabinet" }
+				item: "cookingforblockheads:cabinet"
 				type: "item"
 			}]
-			x: 1.5d
+			title: "{atm9.quest.farm.cabinet}"
+			x: 0.5d
 			y: 8.5d
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
+			description: ["{atm9.quest.farm.desc.counter}"]
+			hide_dependency_lines: true
 			id: "37CA6F9F0226F10E"
 			rewards: [
 				{
 					id: "45C4177C120927FF"
-					item: {
-						count: 1
-						id: "cookingforblockheads:counter"
-					}
+					item: "cookingforblockheads:counter"
 					type: "item"
+				}
+				{
+					id: "0B13ECD292D7D073"
+					type: "xp"
+					xp: 10
 				}
 				{
 					exclude_from_claim_all: true
@@ -606,33 +805,105 @@
 					table_id: 487623848494439020L
 					type: "random"
 				}
-				{
-					id: "799F38EE6543C226"
-					type: "xp"
-					xp: 10
-				}
 			]
 			shape: "diamond"
+			subtitle: "{atm9.quest.farm.subt.counter}"
 			tasks: [{
 				count: 2L
 				id: "766C32B477A216B8"
-				item: { count: 1, id: "cookingforblockheads:counter" }
+				item: "cookingforblockheads:counter"
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.counter}"
 			x: 2.0d
 			y: 8.0d
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
+			description: ["{atm9.quest.farm.desc.fridge}"]
+			hide_dependency_lines: true
+			id: "66815AB6FDACCAB7"
+			rewards: [
+				{
+					id: "07D944D551258145"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 2
+					id: "2264EDF3B1BC3075"
+					item: "croptopia:vanilla_ice_cream"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48E3792992035011"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{atm9.quest.farm.subt.fridge}"
+			tasks: [{
+				count: 2L
+				id: "1571EF760DE41F63"
+				item: "cookingforblockheads:fridge"
+				type: "item"
+			}]
+			title: "{atm9.quest.farm.fridge}"
+			x: -0.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["28C9EDBF6607E180"]
+			description: ["{atm9.quest.farm.desc.stove}"]
+			hide_dependency_lines: true
+			id: "7CB3FCD789747EF5"
+			rewards: [
+				{
+					count: 8
+					id: "5AB2C941E0E0397E"
+					item: "minecraft:coal"
+					type: "item"
+				}
+				{
+					id: "4A5960A4F10AD94F"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00F96B54F8F81325"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			shape: "diamond"
+			subtitle: "{atm9.quest.farm.subt.stove}"
+			tasks: [{
+				id: "37D8D79B6B216212"
+				item: "cookingforblockheads:oven"
+				type: "item"
+			}]
+			title: "{atm9.quest.farm.stove}"
+			x: 1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["28C9EDBF6607E180"]
+			description: ["{atm9.quest.farm.desc.jar}"]
+			hide_dependency_lines: true
 			id: "47764EFC822E462A"
 			rewards: [
 				{
 					id: "0D48FB30B8B254C7"
-					item: {
-						count: 1
-						id: "minecraft:cow_spawn_egg"
-					}
+					item: "minecraft:cow_spawn_egg"
 					type: "item"
+				}
+				{
+					id: "2390EE9B8E964CCA"
+					type: "xp"
+					xp: 10
 				}
 				{
 					exclude_from_claim_all: true
@@ -640,33 +911,33 @@
 					table_id: 487623848494439020L
 					type: "random"
 				}
-				{
-					id: "2D3D6433753DF10E"
-					type: "xp"
-					xp: 10
-				}
 			]
 			shape: "diamond"
+			subtitle: "{atm9.quest.farm.subt.jar}"
 			tasks: [{
 				id: "193EA9F7C05B6F38"
-				item: { count: 1, id: "cookingforblockheads:cow_jar" }
+				item: "cookingforblockheads:cow_jar"
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.jar}"
 			x: 0.5d
 			y: 9.5d
 		}
 		{
-			dependencies: ["28C9EDBF6607E180"]
+			dependencies: ["7CB3FCD789747EF5"]
+			description: ["{atm9.quest.farm.desc.heat}"]
 			id: "1515B32545F51266"
 			rewards: [
 				{
 					count: 3
 					id: "5EB6705A66BEB997"
-					item: {
-						count: 1
-						id: "minecraft:redstone"
-					}
+					item: "minecraft:redstone"
 					type: "item"
+				}
+				{
+					id: "19945E72467070D2"
+					type: "xp"
+					xp: 10
 				}
 				{
 					exclude_from_claim_all: true
@@ -674,34 +945,33 @@
 					table_id: 487623848494439020L
 					type: "random"
 				}
-				{
-					id: "0EE6D40390D4DE5D"
-					type: "xp"
-					xp: 10
-				}
 			]
 			shape: "diamond"
 			tasks: [{
 				id: "3915BEA724A2F7ED"
-				item: { count: 1, id: "cookingforblockheads:heating_unit" }
+				item: "cookingforblockheads:heating_unit"
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.heat}"
 			x: 1.0d
 			y: 9.0d
 		}
 		{
-			dependencies: ["28C9EDBF6607E180"]
+			dependencies: ["66815AB6FDACCAB7"]
+			description: ["{atm9.quest.farm.desc.cool}"]
 			id: "13AFCD3B6F62B986"
 			optional: true
 			rewards: [
 				{
 					count: 8
 					id: "03911B94997F0691"
-					item: {
-						count: 1
-						id: "minecraft:snowball"
-					}
+					item: "minecraft:snowball"
 					type: "item"
+				}
+				{
+					id: "7F98CDC2EA641EF7"
+					type: "xp"
+					xp: 10
 				}
 				{
 					exclude_from_claim_all: true
@@ -709,22 +979,38 @@
 					table_id: 487623848494439020L
 					type: "random"
 				}
-				{
-					id: "25BB1334DA126634"
-					type: "xp"
-					xp: 10
-				}
 			]
 			shape: "diamond"
 			tasks: [{
 				id: "6BDB280D22CE0118"
-				item: { count: 1, id: "cookingforblockheads:ice_unit" }
+				item: "cookingforblockheads:ice_unit"
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.cool}"
 			x: 0.0d
 			y: 9.0d
 		}
 		{
+			dependencies: ["5A51E26D66D1273B"]
+			description: ["{atm9.quest.farm.desc.string}"]
+			id: "1CBEB3ABB4260CC2"
+			rewards: [{
+				id: "3AE014AE6CF77A06"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 4L
+				id: "35864460DFF78192"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			title: "{atm9.quest.farm.string}"
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			description: ["{atm9.quest.farm.desc.fish}"]
 			id: "1DCAA0310AA55F1C"
 			rewards: [{
 				id: "7BB398F5B3A25045"
@@ -733,11 +1019,19 @@
 			}]
 			shape: "diamond"
 			size: 1.25d
+			subtitle: "{atm9.quest.farm.subt.fish}"
 			tasks: [{
 				id: "5CB4746CCB2E2363"
-				item: { count: 1, id: "minecraft:fishing_rod" }
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.fish}"
 			x: -1.57d
 			y: 4.0d
 		}
@@ -746,22 +1040,29 @@
 			id: "16D0F1E3CEB60ABF"
 			rewards: [
 				{
+					id: "03247C933128C015"
+					type: "xp"
+					xp: 10
+				}
+				{
 					exclude_from_claim_all: true
 					id: "1AD805EF5C994DC3"
 					table_id: 487623848494439020L
 					type: "random"
 				}
-				{
-					id: "74838CE200710384"
-					type: "xp"
-					xp: 25
-				}
 			]
 			tasks: [{
 				id: "13E86D23DA98D8E9"
-				item: { count: 1, id: "aquaculture:iron_fishing_rod" }
+				item: {
+					Count: 1
+					id: "aquaculture:iron_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.iron}"
 			x: -2.5d
 			y: 5.0d
 		}
@@ -770,22 +1071,29 @@
 			id: "0A64D0937A5F7513"
 			rewards: [
 				{
+					id: "7664E2CF599F9E96"
+					type: "xp"
+					xp: 10
+				}
+				{
 					exclude_from_claim_all: true
 					id: "0F864C7AA00CC8A9"
 					table_id: 487623848494439020L
 					type: "random"
 				}
-				{
-					id: "09F6E87A831DE09C"
-					type: "xp"
-					xp: 50
-				}
 			]
 			tasks: [{
 				id: "144B351F77F0B08F"
-				item: { count: 1, id: "aquaculture:gold_fishing_rod" }
+				item: {
+					Count: 1
+					id: "aquaculture:gold_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.gold}"
 			x: -3.5d
 			y: 6.0d
 		}
@@ -794,22 +1102,29 @@
 			id: "511562EA5811306B"
 			rewards: [
 				{
+					id: "3F6CD2A029F5FC11"
+					type: "xp"
+					xp: 10
+				}
+				{
 					exclude_from_claim_all: true
 					id: "7DF9A8B80872B680"
 					table_id: 487623848494439020L
 					type: "random"
 				}
-				{
-					id: "05FD1A2F08E58F60"
-					type: "xp"
-					xp: 100
-				}
 			]
 			tasks: [{
 				id: "3FECA1F49F588499"
-				item: { count: 1, id: "aquaculture:diamond_fishing_rod" }
+				item: {
+					Count: 1
+					id: "aquaculture:diamond_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.diamond}"
 			x: -5.0d
 			y: 6.0d
 		}
@@ -818,39 +1133,49 @@
 			id: "5A1DCD6C7F712A78"
 			rewards: [
 				{
+					id: "4000D1222D505757"
+					type: "xp"
+					xp: 10
+				}
+				{
 					exclude_from_claim_all: true
 					id: "5A0D21935AEB18B1"
 					table_id: 4196188979167302596L
 					type: "random"
 				}
-				{
-					id: "06BF09294ED115BC"
-					type: "xp"
-					xp: 250
-				}
 			]
 			tasks: [{
 				id: "31B52EAD7F931F31"
-				item: { count: 1, id: "aquaculture:neptunium_fishing_rod" }
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.neptune}"
 			x: -6.5d
 			y: 6.0d
 		}
 		{
 			dependencies: [
+				"659A903F97F93BE2"
 				"1D48298525EEADC9"
-				"0A1C2A7A8617D3E4"
 			]
+			description: ["{atm9.quest.farm.desc.cake}"]
 			id: "0893EFCAC7031FEA"
 			rewards: [
 				{
 					id: "2C168199050CC470"
-					item: {
-						count: 1
-						id: "minecraft:cake"
-					}
+					item: "minecraft:cake"
 					type: "item"
+				}
+				{
+					id: "7F528DE479E680AE"
+					type: "xp"
+					xp: 100
 				}
 				{
 					exclude_from_claim_all: true
@@ -858,33 +1183,27 @@
 					table_id: 487623848494439020L
 					type: "random"
 				}
-				{
-					id: "67C04C8A891CB4DD"
-					type: "xp"
-					xp: 100
-				}
 			]
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
 				id: "1AA73DEFAA50FDF6"
-				item: { count: 1, id: "minecraft:cake" }
+				item: "minecraft:cake"
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.cake}"
 			x: -8.25d
 			y: 0.0d
 		}
 		{
 			dependencies: ["361DFDB1E1352D6B"]
+			description: ["{atm9.quest.farm.desc.sugar}"]
 			id: "1D48298525EEADC9"
 			rewards: [
 				{
 					count: 3
 					id: "7EAE8BCBABAA8B89"
-					item: {
-						count: 1
-						id: "minecraft:sugar_cane"
-					}
+					item: "minecraft:sugar_cane"
 					type: "item"
 				}
 				{
@@ -893,26 +1212,32 @@
 					xp: 10
 				}
 			]
+			subtitle: "{atm9.quest.farm.subt.sugar}"
 			tasks: [{
 				count: 3L
 				id: "56CAB3D2E3421C7C"
-				item: { count: 1, id: "minecraft:sugar" }
+				item: "minecraft:sugar"
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.sugar}"
 			x: -7.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["28C9EDBF6607E180"]
+			description: ["{atm9.quest.farm.desc.sink}"]
+			hide_dependency_lines: true
 			id: "0EFF1AA37772156B"
 			rewards: [
 				{
 					id: "2B2B365E281A6940"
-					item: {
-						count: 1
-						id: "minecraft:bucket"
-					}
+					item: "minecraft:bucket"
 					type: "item"
+				}
+				{
+					id: "62FB77230F1D9F9B"
+					type: "xp"
+					xp: 10
 				}
 				{
 					exclude_from_claim_all: true
@@ -920,145 +1245,111 @@
 					table_id: 487623848494439020L
 					type: "random"
 				}
-				{
-					id: "7F38B63C5879EF11"
-					type: "xp"
-					xp: 10
-				}
 			]
 			shape: "diamond"
+			subtitle: "{atm9.quest.farm.subt.sink}"
 			tasks: [{
 				id: "2872A1297BE6C40D"
-				item: { count: 1, id: "cookingforblockheads:sink" }
+				item: "cookingforblockheads:sink"
 				type: "item"
 			}]
+			title: "{atm9.quest.farm.sink}"
 			x: -1.0d
 			y: 8.0d
 		}
 		{
-			id: "55C4824DAD905512"
+			description: ["{atm9.quest.farm.desc.pot}"]
+			id: "01B70A4F230ED036"
+			rewards: [
+				{
+					count: 2
+					id: "0AC970B512BC6821"
+					item: "minecraft:terracotta"
+					type: "item"
+				}
+				{
+					id: "5E4853D67766A132"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [{
+				id: "1958DBFE401157E6"
+				item: "botanypots:terracotta_botany_pot"
+				type: "item"
+			}]
+			title: "{atm9.quest.farm.pot}"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["01B70A4F230ED036"]
+			description: ["{atm9.quest.farm.desc.botany}"]
+			id: "2715BECC5E6FFA64"
+			rewards: [
+				{
+					id: "3CE68937F914479A"
+					item: "minecraft:hopper"
+					type: "item"
+				}
+				{
+					id: "1AC7BCFCCC100F4C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			tasks: [{
+				id: "572F01124B2232CD"
+				item: "botanypots:terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			title: "{atm9.quest.farm.botany}"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			can_repeat: false
+			description: [
+				"This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks."
+				"As all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by the &6AllTheMods Team&r, without explicit permission."
+				""
+				""
+				""
+				"This quest is intentionally hidden, if you're seeing this, you're in editing mode."
+			]
+			disable_toast: true
+			hide_details_until_startable: true
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:item/barrier"
+				}
+			}
+			id: "3EA60EB491270B5F"
 			invisible: true
 			optional: true
-			shape: "circle"
+			shape: "octagon"
 			tasks: [
 				{
-					id: "5805158E69C05AED"
+					disable_toast: true
+					id: "3807253D85162D5C"
+					title: "Quests By AllTheMods"
 					type: "checkmark"
 				}
 				{
-					id: "1D8904E53906D972"
+					id: "2BAD52B6D293140F"
+					title: "Quests By AllTheMods"
 					type: "checkmark"
 				}
 			]
 			x: 0.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["28C9EDBF6607E180"]
-			icon: {
-				id: "cookingforblockheads:white_fridge"
-			}
-			id: "791AE62ACACBD5BA"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "4C3114E267797DC4"
-					table_id: 487623848494439020L
-					type: "random"
-				}
-				{
-					id: "252681E3107767E7"
-					type: "xp"
-					xp: 10
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "669DEA201002793D"
-				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(cookingforblockheads:fridges)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 8.5d
-		}
-		{
-			dependencies: ["28C9EDBF6607E180"]
-			id: "2786D5AC19163524"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "001D146FA176A7CE"
-					table_id: 5564196992594175882L
-					type: "random"
-				}
-				{
-					id: "3F16B93CAB0B6ECA"
-					type: "xp"
-					xp: 10
-				}
-			]
-			shape: "diamond"
-			tasks: [{
-				id: "758CA2EB2C92A6AA"
-				item: { count: 1, id: "cookingforblockheads:white_oven" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: 8.5d
-		}
-		{
-			dependencies: ["72717D1135486D7F"]
-			id: "56550CD12C681B0F"
-			rewards: [
-				{
-					id: "5BAD03B93921DAE9"
-					item: {
-						count: 1
-						id: "silentgear:flax_string"
-					}
-					type: "item"
-				}
-				{
-					id: "0D8DEA2CB39DB998"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [{
-				id: "39856D5B1340F958"
-				item: { count: 1, id: "silentgear:flax_seeds" }
-				type: "item"
-			}]
-			x: -5.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["56550CD12C681B0F"]
-			id: "04D0543FE2820F64"
-			rewards: [
-				{
-					count: 3
-					id: "62205F6BB445FAD2"
-					item: {
-						count: 1
-						id: "silentgear:flax_seeds"
-					}
-					type: "item"
-				}
-				{
-					id: "380633A1C13A3B2C"
-					type: "xp"
-					xp: 10
-				}
-			]
-			tasks: [{
-				count: 3L
-				id: "6D9DE56C95427085"
-				item: { count: 1, id: "silentgear:flax_string" }
-				type: "item"
-			}]
-			x: -7.0d
-			y: -1.0d
+			y: -1.5d
 		}
 	]
+	title: "{atm9.chapters.15.title}"
 }
