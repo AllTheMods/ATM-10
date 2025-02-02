@@ -22,20 +22,25 @@ ServerEvents.recipes(allthemods => {
     }).id(`allthemods:arcfurnace/${input.replace(/^.*?:/, '')}_to_${output.item.replace(/^.*?:/, '')}`)
   }
 
-  const ieIngots = ['electrum', 'aluminum', 'lead', 'silver', 'nickel', 'uranium', 'constantan', 'steel']
+  const ieIngots = ['electrum', 'aluminum', 'lead', 'silver', 'nickel', 'uranium', 'constantan', 'steel', 'osmium', 'platinum', 'tin', 'zinc']
 
   ieIngots.forEach(material => {
     //add sheetmetal scrapping back
+    if(Item.of(`immersiveengineering:sheetmetal_${material}`) !== undefined){
     arcfurnace(`immersiveengineering:sheetmetal_${material}`, 51200, {item: `alltheores:${material}_ingot`})
-    arcfurnace(`immersiveengineering:slab_sheetmetal_${material}`, 51200, {item: `alltheores:${material}_nugget`, count: 4})
+    arcfurnace(`immersiveengineering:slab_sheetmetal_${material}`, 51200, {item: `alltheores:${material}_nugget`, count: 4})}
     //replace nuggets from rod scrapping recipes
-    allthemods.replaceOutput({output: `immersiveengineering:nugget_${material}`}, `immersiveengineering:nugget_${material}`, `alltheores:${material}_nugget`)
+    if(Item.of(`immersiveengineering:nugget_${material}`) !== undefined){ allthemods.replaceOutput({output: `immersiveengineering:nugget_${material}`}, `immersiveengineering:nugget_${material}`, `alltheores:${material}_nugget`)}
     //remove duplicate raw block / raw ore recipes
     allthemods.remove({id: `immersiveengineering:arcfurnace/raw_block_${material}`})
     allthemods.remove({id: `immersiveengineering:arcfurnace/raw_ore_${material}`})
     //replace ingot in ore recipe
     allthemods.remove({id: `immersiveengineering:arcfurnace/ore_${material}`})
     arcfurnace(`#c:ores/${material}`, 102400, {item: `alltheores:${material}_ingot`, count: 2, slag: "#c:slag"})
+    //remove duplicate crusher recipes
+    allthemods.remove({id: `immersiveengineering:crusher/ore_${material}`})
+    allthemods.remove({id: `immersiveengineering:crusher/raw_ore_${material}`})
+    allthemods.remove({id: `immersiveengineering:crusher/raw_block_${material}`})
   })
 
   const ieAlloys = ['invar', 'electrum', 'brass', 'constantan', 'bronze']
