@@ -1,6 +1,6 @@
-PlayerEvents.loggedIn((e) => {
+PlayerEvents.loggedIn((allthemods) => {
     let $EnchHooks = Java.loadClass("dev.shadowsoffire.apothic_enchanting.asm.EnchHooks")
-    e.getPlayer().getInventory().allItems.forEach(
+    allthemods.getPlayer().getInventory().allItems.forEach(
         (item) => {
             item.enchantments.entrySet().forEach(
                 (enchant) => {
