@@ -165,6 +165,32 @@ ServerEvents.recipes(allthemods => {
 
     //Mekanism
 
+        allthemods.recipes.kubejs.shaped('mekanism:creative_chemical_tank',
+            [
+                'TUT',
+                'USU',
+                'TUT'
+            ],
+            {
+                T: 'mekanism:ultimate_chemical_tank',
+                U: 'allthemodium:unobtainium_ingot',
+                S: 'allthetweaks:atm_star_block',
+            }
+        ).id('allthemods:mekanism/creative_chemical_tank')
+
+        allthemods.recipes.kubejs.shaped('mekanism:creative_fluid_tank',
+            [
+                'TUT',
+                'USU',
+                'TUT'
+            ],
+            {
+                T: 'mekanism:ultimate_fluid_tank',
+                U: 'allthemodium:unobtainium_ingot',
+                S: 'allthetweaks:atm_star_block',
+            }
+        ).id('allthemods:mekanism/creative_fluid_tank')
+
         allthemods.recipes.kubejs.shaped('mekanism:creative_energy_cube',
             [
                 'ATA', 
