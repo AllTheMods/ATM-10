@@ -5,7 +5,7 @@ PlayerEvents.loggedIn((allthemods) => {
             item.enchantments.entrySet().forEach(
                 (enchant) => {
                     let maxLevel = $EnchHooks.getMaxLevel(enchant.getKey().value())
-                    if (enchant.getIntValue() > maxLevel) {
+                    if (enchant.getIntValue() > maxLevel + 5) {
                         enchant.setValue(maxLevel)
                     }
                 })
