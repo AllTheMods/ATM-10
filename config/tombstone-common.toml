@@ -1,0 +1,216 @@
+#Options related to player's death
+[player_death]
+	#Whether to unlock access to a grave if the player has been killed by another player [false/true|default:true]
+	pvp_unlock_grave = true
+	#Whether to restore beneficial effects after a player dies [false/true|default:true]
+	restore_effects_on_death = false
+	#Only abandoned graves can have losses of items (based on the decay_time) [false/true|default:true]
+	loss_on_death_only_for_abandoned_grave = true
+	#Only stackable items can be lost on death [false/true|default:true]
+	loss_on_death_only_for_stackable_items = true
+	#Prevents death outside the borders of the world [false/true|default:true]
+	prevent_death_outside_world_border = true
+	#Prevents death outside the build height [false/true|default:false]
+	prevent_death_outside_build_height = false
+	#Allows to fill an existing grave instead of creating a new one [false/true|default:true]
+	allow_to_fill_existing_grave = true
+	#Caps the duration of Ghostly Shape effect to 10 seconds when teleporting with a Grave's Key [false/true|default:true]
+	nerf_ghostly_shape_teleport_with_key = true
+	#The radius in which items should be collected when a grave is spawned [1..10|default:5]
+	# Default: 5
+	# Range: 1 ~ 10
+	sniffer_range = 5
+	#The chance that creatures appear after the contents of a grave are retrieved [0..100|default:0]
+	# Default: 0
+	# Range: 0 ~ 100
+	chance_mob_on_grave_recovery = 0
+	#Percent of stolen experience by killing a player when PvP mode is enabled [0..100|default:30]
+	# Default: 30
+	# Range: 0 ~ 100
+	pvp_stolen_xp = 30
+	#The chance that some items are lost on death [0..100|default:0]
+	# Default: 0
+	# Range: 0 ~ 100
+	chance_loss_on_death = 0
+	#The percentage of items that are lost on death [0..100|default:0]
+	# Default: 0
+	# Range: 0 ~ 100
+	percent_loss_on_death = 0
+	#Graveless Dimensions
+	no_grave_dimension = []
+
+#Options related to player's alignment
+[alignment]
+	#Points for freeing a soul in a receptacle [0..500|default:50]
+	# Default: 50
+	# Range: 0 ~ 500
+	points_free_soul_receptacle = 50
+	#Points for plundering a player's grave [-500..0|default:-10]
+	# Default: -10
+	# Range: -500 ~ 0
+	points_plunder_player_grave = -10
+	#Points for zombie villager exorcism [0..500|default:20]
+	# Default: 20
+	# Range: 0 ~ 500
+	points_exorcism_zombie_villager = 20
+	#Points for zombifying a villager [-500..0|default:-20]
+	# Default: -20
+	# Range: -500 ~ 0
+	points_zombify_villager = -20
+	#Points for killing a villager [-500..0|default:-15]
+	# Default: -15
+	# Range: -500 ~ 0
+	points_kill_villager = -15
+	#Points for killing a raider [0..500|default:5]
+	# Default: 5
+	# Range: 0 ~ 500
+	points_kill_raider = 5
+	#Points for tablet of cupidity [-500..0|default:-10]
+	# Default: -10
+	# Range: -500 ~ 0
+	points_tablet_of_cupidity = -10
+	#Points for Pray of Protection [0..500|default:20]
+	# Default: 20
+	# Range: 0 ~ 500
+	points_pray_of_protection = 20
+	#Points for using a Potion of Earthly Garden [0..500|default:10]
+	# Default: 10
+	# Range: 0 ~ 500
+	points_earthly_garden = 10
+	#Points for killing one of your tamed creatures [-500..0|default:-10]
+	# Default: -10
+	# Range: -500 ~ 0
+	points_kill_tamed_creature = -10
+
+#Miscellaneous options
+[general]
+	#Allows teleportation to other dimensions [false/true|default:true]
+	teleport_dim = true
+	#Increases the minimum time without sleeping for phantom spawn around player based on their level in Knowledge of Death [false/true|default:true]
+	knowledge_reduce_phantom_spawn = true
+	#Minimum time without sleeping for phantom to spawn around players [1200..MAX|default:72000]
+	# Default: 72000
+	# Range: > 1200
+	time_for_phantom_spawn = 72000
+	#Cooldown in minutes to use the command tbrequestteleport [-1..1440|default:-1]
+	# Default: -1
+	# Range: -1 ~ 1440
+	cooldown_request_teleport = -1
+	#Cooldown in minutes to use the command tbteleportdeath [-1..1440|default:-1]
+	# Default: -1
+	# Range: -1 ~ 1440
+	cooldown_teleport_death = -1
+	#Rarity for Easter Eggs to spawn during Easter [1000..100000|default:5000]
+	# Default: 5000
+	# Range: 1000 ~ 100000
+	easter_egg_spawn_rarity = 5000
+	#Beneficial effects that can't used by certain features such as ankh of prayer, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
+	unhandled_beneficial_effects = ["minecraft:hero_of_the_village", "relics:immortality"]
+	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer
+	unhandled_harmful_effects = ["minecraft:nausea"]
+
+#Allows to define the conditions for a village siege to begin
+[village_siege]
+	#Allows to handle village sieges [false/true|default:true]
+	handle_village_siege = true
+	#Logs the different states of a village siege while searching for an adequate place [false/true|default:false]
+	log_siege_state = false
+	#The creatures of the siege have a glowing effect (only uses this for test purposes) [false/true|default:false]
+	glowing_creature_test = false
+	#Allows to use the positions of creative players to define the siege location [false/true|default:true]
+	allow_creative_players_for_siege = true
+	#Undeads always wear a helm when sieging [false/true|default:false]
+	undead_wear_helm_in_siege = false
+	#Mobs in siege are persistent [false/true|default:false]
+	persistent_mob_in_siege = false
+	#Shuffles the list of players before testing the siege location [false/true|default:true]
+	shuffle_players_for_siege = true
+	#Chance for a siege to occur [0..100|default:10]
+	# Default: 10
+	# Range: 0 ~ 100
+	siege_chance = 10
+	#Maximum of creatures appearing in a siege [0..100|default:20]
+	# Default: 20
+	# Range: 0 ~ 100
+	siege_max_creature = 20
+	#Delay in seconds for a second test of siege when the first failed [0..1200|default:200]
+	# Default: 200
+	# Range: 0 ~ 1200
+	delay_siege_test = 200
+
+#For settings related to magic items
+[magic_item]
+	#Damaged items can be recycled with the Book of Recycling
+	can_recycle_damaged_item = true
+	#The items that can't be recycled by the Book of Recycling
+	denied_item_to_recycle = []
+	#Allows to disenchant enchanted books with the Book of Disenchantment
+	can_disenchant_enchanted_book = false
+	#Allows lost tablets to find locations outside the current world [false/true|default:true]
+	lost_tablet_search_outside_world = true
+	#Allows lost tablets to find modded structures [false/true|default:true]
+	lost_tablet_modded_structure = true
+	#The structures that can't be discovered by lost tablets
+	lost_tablet_denied_structures = []
+	#The worlds that can't be discovered by lost tablets
+	lost_tablet_denied_worlds = []
+
+#For settings related to decorative tombs and magic items
+[decorative_grave]
+	#Allows to replace a grave plate already set on a grave [false/true|default:true]
+	can_replace_grave_plate = true
+	#Allows the merchant grave gardian [false/true|default:true]
+	allow_grave_gardian = true
+	#Minimum distance between Grave Gardians to spawn [10..200|default:100]
+	# Default: 100
+	# Range: 10 ~ 200
+	distance_between_grave_guardian = 100
+	#Time in minutes for a Grave Guardian to restock its offers [1..1000|default:60]
+	# Default: 60
+	# Range: 1 ~ 1000
+	restock_time_grave_guardian = 60
+	#Time in minutes to check if a soul appears on a grave [1..10000|default:30]
+	# Default: 30
+	# Range: 1 ~ 10000
+	time_soul = 30
+	#Chance on 1000 that a soul appears on a grave [0..1000|default:100]
+	# Default: 100
+	# Range: 0 ~ 1000
+	chance_soul = 100
+	#Chance to receive a random beneficial spell effect when praying near a grave [0..100|default:30]
+	# Default: 30
+	# Range: 0 ~ 100
+	chance_pray_reward = 30
+
+#Options related to the command recovery and auto-save of players
+[recovery]
+	#Enables to backup automatically players [false/true|default:true]
+	recovery_player_enable = true
+	#Backup players on death [false/true|default:false]
+	backup_on_death = true
+	#Time in minutes between players' backups [10..1000|default:40]
+	# Default: 19
+	# Range: 5 ~ 1000
+	recovery_player_timer = 19
+	#Maximum number of backups per player [5..100|default:15]
+	# Default: 15
+	# Range: 5 ~ 100
+	recovery_player_max_saves = 15
+	#Log when players are automatically back up [false/true|default:false]
+	log_auto_backup = false
+
+#Options related to looted items
+[loot]
+	#Maximum xp rewarded with a Lost Page of Erdös [100..200000|default:2000]
+	# Default: 2000
+	# Range: 100 ~ 200000
+	max_xp_lost_page = 2000
+
+#Allows to enable some features related to others mods
+[compatibility]
+	#Allows to auto-equip the slots from Curio mod [false/true|default:true]
+	curio_auto_equip = true
+	#Keeps the cosmetic armor when you die [false/true|default:true]
+	keep_cosmetic_armor = true
+	#Ensure the potion effects to stay on the player after returning from end conquered [false/true|default:true]
+	preserve_effects_on_return_end_conquered = true
