@@ -97,6 +97,15 @@ ServerEvents.recipes(allthemods => {
         }
     })
 
+    allthemods.replaceInput({output: 'crafting_on_a_stick:crafting_table'}, 'minecraft:crafting_table', '#c:player_workstations/crafting_tables')
+
+    allthemods.shapeless(
+        Item.of('minecraft:crafting_table'),
+        [
+            '#c:player_workstations/crafting_tables'
+        ]
+    )
+
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
