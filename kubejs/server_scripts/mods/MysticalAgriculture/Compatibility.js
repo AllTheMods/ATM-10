@@ -60,7 +60,9 @@ const dusts = [
 const gems = [
   {resource: 'quartz', essence: 'tertium', seed: 'nether_quartz'},
   {resource: 'fluorite', essence: 'imperium', seed: undefined},
-  {resource: 'peridot', essence: 'imperium', seed: undefined}
+  {resource: 'peridot', essence: 'imperium', seed: undefined},
+  {resource: 'ruby', essence: 'imperium', seed: undefined},
+  {resource: 'sapphire', essence: 'imperium', seed: undefined}
 ]
 
 //ingredients in a different format to use tags
