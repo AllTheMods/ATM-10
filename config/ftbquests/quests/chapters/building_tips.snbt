@@ -2760,18 +2760,25 @@
 		}
 		{
 			dependencies: ["22D2CFDDB06C720C"]
+			icon: {
+				components: {
+					"compactmachines:machine_color": "#423F42"
+					"compactmachines:room_template": "compactmachines:colossal"
+				}
+				id: "compactmachines:new_machine"
+			}
 			id: "0539AF15A10B2859"
 			rewards: [{
-				id: "63AEC2E375A0D2A4"
+				id: "3600BF99CA3ABE73"
 				item: {
 					count: 1
-					id: "hyperbox:hyperbox"
+					id: "compactmachines:personal_shrinking_device"
 				}
 				type: "item"
 			}]
 			tasks: [{
-				id: "6595690884BBC50A"
-				item: { count: 1, id: "hyperbox:hyperbox" }
+				id: "609E3D4BBB326EEF"
+				item: { components: { "ftbfiltersystem:filter": "or(item(compactmachines:new_machine))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 1.5d
