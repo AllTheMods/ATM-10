@@ -13,7 +13,7 @@ let config
 let bannedBlockEntities
 
 // disabled, KubeJS/Rhino bug
-if (false) { // !Platform.isClientEnvironment()
+if (!Platform.isClientEnvironment()) {
   let configPath = "server_banlist_config.json"
   let defaultConfig = {
     server: {

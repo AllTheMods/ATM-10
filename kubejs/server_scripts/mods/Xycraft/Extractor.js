@@ -210,6 +210,14 @@ ServerEvents.recipes(allthemods => {
         catalyst: { type: "xycraft_core:block_rule", block: "minecraft:bedrock" },
         ticks: 5,
     })
+
+    extractor({
+        output: { item:"mysticalagriculture:soulstone_cobble", count: 1 },
+        target: { type: "xycraft_core:block_rule", block: "mysticalagriculture:soulstone_cobble" },
+        catalyst: {type: "xycraft_core:block_rule", block: "mysticalagriculture:soulstone_smooth" },
+        ticks: 30,
+        directions: ["down"]
+    })
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

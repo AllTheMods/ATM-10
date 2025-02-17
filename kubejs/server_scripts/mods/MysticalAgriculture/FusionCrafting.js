@@ -17,6 +17,7 @@ ServerEvents.recipes(allthemods => {
     essenceCircle('6x silentgear:crimson_iron_ingot', 'crimson_iron')
     essenceCircle('3x extendedae:entro_crystal', 'entro')
     essenceCircle('2x megacells:sky_steel_ingot', 'sky_steel')
+    essenceCircle('3x actuallyadditions:black_quartz', 'black_quartz')
 
     // infusion seed crafting
     function seedCrafting(output, middle, item1, item2, item3, item4, item5, item6, item7, item8){

@@ -62,7 +62,7 @@ ServerEvents.recipes(allthemods => {
   F: 'forbidden_arcanus:smelter_prism',
 	G: 'mysticalagriculture:awakened_supremium_ingot_block',
 	H: 'generatorgalore:magmatic_generator_64x',
-  I: 'evilcraft:dark_tank[cyclopscore:capacity=16000,cyclopscore:fluid_content={amount:16000,id:"justdirethings:refined_t4_fluid_source"}]'
+  I: 'evilcraft:dark_tank[cyclopscore:fluid_content={amount:16000,id:"justdirethings:refined_t4_fluid_source"}]'
   }).id('allthemods:allthetweaks/philosophers_fuel')
 
  // Nexium Emitter
