@@ -188,7 +188,7 @@
 				item: { count: 1, id: "hostilenetworks:overworld_prediction" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: -2.0d
 			y: 5.0d
 		}
 		{
@@ -217,7 +217,7 @@
 				item: { count: 1, id: "hostilenetworks:nether_prediction" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -1.0d
 			y: 5.0d
 		}
 		{
@@ -246,7 +246,7 @@
 				item: { count: 1, id: "hostilenetworks:end_prediction" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 5.0d
 		}
 		{
@@ -1403,7 +1403,7 @@
 					id: "5F818CD77D8AAAB0"
 					item: {
 						count: 1
-						id: "hostilenetworks:end_prediction"
+						id: "hostilenetworks:twilight_prediction"
 					}
 					type: "item"
 				}
@@ -1419,7 +1419,36 @@
 				item: { count: 1, id: "hostilenetworks:twilight_prediction" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["104EBBC08B4733F5"]
+			hide_dependency_lines: false
+			id: "4092E914B24C52A7"
+			rewards: [
+				{
+					count: 3
+					id: "2B43DB98C5DE206D"
+					item: {
+						count: 1
+						id: "kubejs:starlight_prediction"
+					}
+					type: "item"
+				}
+				{
+					id: "05386991D44196E2"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "78CDCCBB053CE95C"
+				item: { count: 1, id: "kubejs:starlight_prediction" }
+				type: "item"
+			}]
+			x: 2.0d
 			y: 5.0d
 		}
 	]

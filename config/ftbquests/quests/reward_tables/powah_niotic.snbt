@@ -4,6 +4,7 @@
 	order_index: 14
 	rewards: [
 		{
+			id: "0331C3BA241F3B89"
 			item: {
 				count: 1
 				id: "powah:capacitor_niotic"
@@ -11,10 +12,18 @@
 			random_bonus: 1
 			weight: 10.0f
 		}
-		{ item: { count: 1, id: "powah:crystal_niotic" }, weight: 25.0f }
-		{ item: { count: 1, id: "powah:energy_cell_niotic" } }
+		{
+			id: "17ADB4575FAE7F40"
+			item: {
+				count: 1
+				id: "powah:crystal_niotic"
+			}
+			weight: 25.0f
+		}
+		{ id: "6540A566536CCAB3", item: { count: 1, id: "powah:energy_cell_niotic" } }
 		{
 			count: 2
+			id: "4B5FB5D876C2B720"
 			item: {
 				count: 1
 				id: "powah:energy_cable_niotic"
@@ -22,9 +31,16 @@
 			random_bonus: 2
 			weight: 10.0f
 		}
-		{ item: { count: 1, id: "powah:energizing_rod_niotic" }, weight: 5.0f }
-		{ item: { count: 1, id: "powah:solar_panel_niotic" } }
-		{ item: { count: 1, id: "powah:niotic_crystal_block" } }
+		{
+			id: "38BEBD2707542E88"
+			item: {
+				count: 1
+				id: "powah:energizing_rod_niotic"
+			}
+			weight: 5.0f
+		}
+		{ id: "3570ED76CF536EF6", item: { count: 1, id: "powah:solar_panel_niotic" } }
+		{ id: "0611CBEDA9FA0BC7", item: { count: 1, id: "powah:niotic_crystal_block" } }
 	]
 	use_title: true
 }

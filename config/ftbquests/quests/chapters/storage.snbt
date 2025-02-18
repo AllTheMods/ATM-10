@@ -349,6 +349,9 @@
 		}
 		{
 			hide_dependency_lines: false
+			icon: {
+				id: "integratedterminals:terminal_storage_portable"
+			}
 			id: "5A94A2664BFDD7B9"
 			rewards: [{
 				id: "570FFAC4E65BBF46"
@@ -358,8 +361,9 @@
 			shape: "gear"
 			size: 2.0d
 			tasks: [{
-				id: "3E7F26D68D9A166B"
-				type: "checkmark"
+				id: "51CC9A8E36385400"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:chests)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
 			}]
 			x: 0.0d
 			y: 0.0d
@@ -1657,7 +1661,7 @@
 			]
 			tasks: [{
 				id: "33A616AC54DC23E7"
-				item: { count: 1, id: "functionalstorage:collector_upgrade" }
+				item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:collector_upgrade" }
 				type: "item"
 			}]
 			x: -8.5d
@@ -1681,7 +1685,7 @@
 			]
 			tasks: [{
 				id: "361C5BAD8E696654"
-				item: { count: 1, id: "functionalstorage:puller_upgrade" }
+				item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:puller_upgrade" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -1705,7 +1709,7 @@
 			]
 			tasks: [{
 				id: "7CE83107BC866C4F"
-				item: { count: 1, id: "functionalstorage:pusher_upgrade" }
+				item: { components: { "functionalstorage:direction": "north" }, count: 1, id: "functionalstorage:pusher_upgrade" }
 				type: "item"
 			}]
 			x: -5.5d
@@ -1753,7 +1757,7 @@
 			]
 			tasks: [{
 				id: "4960C5A7D9ADEE56"
-				item: { count: 1, id: "functionalstorage:redstone_upgrade" }
+				item: { components: { "functionalstorage:slot": 0 }, count: 1, id: "functionalstorage:redstone_upgrade" }
 				type: "item"
 			}]
 			x: -8.5d

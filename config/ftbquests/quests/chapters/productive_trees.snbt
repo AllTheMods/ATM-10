@@ -16,7 +16,7 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 4.5d
-			y: 11.5d
+			y: 12.0d
 		}
 		{
 			height: 0.3d
@@ -3858,7 +3858,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["5577F49A93ADB19C"]
@@ -3879,7 +3879,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 10.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["5577F49A93ADB19C"]
@@ -3900,7 +3900,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 10.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["5577F49A93ADB19C"]
@@ -3921,7 +3921,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: 10.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["5577F49A93ADB19C"]
@@ -3942,7 +3942,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 10.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["5577F49A93ADB19C"]
@@ -3963,7 +3963,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 10.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["5577F49A93ADB19C"]
@@ -3984,7 +3984,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 11.0d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -4007,7 +4007,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 9.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -4030,7 +4030,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -4053,7 +4053,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 9.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -4076,7 +4076,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 9.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -4099,7 +4099,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 7.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -4122,7 +4122,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 9.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -4145,7 +4145,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -4168,7 +4168,7 @@
 				type: "item"
 			}]
 			x: 7.0d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			dependencies: [
@@ -4191,7 +4191,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 8.0d
+			y: 8.5d
 		}
 		{
 			id: "25D8BE0280B6E7F1"
@@ -4209,7 +4209,7 @@
 				}
 			]
 			x: 6.0d
-			y: 14.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["5577F49A93ADB19C"]
@@ -4228,7 +4228,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 13.5d
+			y: 14.0d
 		}
 		{
 			dependencies: ["5577F49A93ADB19C"]
@@ -4248,7 +4248,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 13.5d
+			y: 14.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -4284,20 +4284,28 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 12.0d
+			y: 12.5d
 		}
 		{
 			dependencies: ["5577F49A93ADB19C"]
 			hide_dependent_lines: true
 			hide_details_until_startable: true
 			id: "0661E9669E639621"
+			rewards: [{
+				id: "0AB06BD8FFDD7B22"
+				item: {
+					count: 1
+					id: "minecraft:oak_sapling"
+				}
+				type: "item"
+			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "79889CC26DCD7F19"
 				type: "checkmark"
 			}]
-			x: -6.357142857142854d
-			y: 8.94642857142857d
+			x: 0.0d
+			y: 12.5d
 		}
 	]
 }

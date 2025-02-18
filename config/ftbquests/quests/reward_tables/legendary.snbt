@@ -3,14 +3,25 @@
 	loot_size: 1
 	order_index: 7
 	rewards: [
-		{ item: { count: 1, id: "powah:thermo_generator_nitro" } }
-		{ item: { count: 1, id: "minecraft:spawner" } }
-		{ item: { count: 1, id: "powah:solar_panel_nitro" } }
-		{ count: 36, item: { count: 1, id: "powah:reactor_niotic" } }
-		{ item: { count: 1, id: "productivebees:spawn_egg_configurable_bee" } }
-		{ type: "xp_levels", xp_levels: 100 }
-		{ item: { count: 1, id: "productivebees:spawn_egg_configurable_bee" } }
-		{ item: { count: 1, id: "productivebees:spawn_egg_configurable_bee" } }
+		{ id: "2F170CBB6EA5DEE4", item: { count: 1, id: "powah:thermo_generator_nitro" } }
+		{ id: "7971020D1B1B82D9", item: { count: 1, id: "minecraft:spawner" } }
+		{ id: "7147A8CE938E3B1A", item: { count: 1, id: "powah:solar_panel_nitro" } }
+		{
+			count: 36
+			id: "4BCA3467C8BC60A1"
+			item: {
+				count: 1
+				id: "powah:reactor_niotic"
+			}
+		}
+		{ id: "6159B6ADD18D59AC", item: { count: 1, id: "productivebees:spawn_egg_configurable_bee" } }
+		{
+			id: "07C32E8D96241C35"
+			type: "xp_levels"
+			xp_levels: 100
+		}
+		{ id: "5C7BAC8CAE97C4E4", item: { count: 1, id: "productivebees:spawn_egg_configurable_bee" } }
+		{ id: "743364960645C697", item: { count: 1, id: "productivebees:spawn_egg_configurable_bee" } }
 	]
 	use_title: true
 }
