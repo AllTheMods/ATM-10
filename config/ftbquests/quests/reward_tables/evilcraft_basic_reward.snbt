@@ -5,6 +5,7 @@
 	rewards: [
 		{
 			count: 3
+			id: "36D7F7EAA664E068"
 			item: {
 				count: 1
 				id: "evilcraft:dark_gem"
@@ -13,6 +14,7 @@
 			weight: 100.0f
 		}
 		{
+			id: "3B95647871409D05"
 			item: {
 				count: 1
 				id: "evilcraft:dark_power_gem"
@@ -20,9 +22,17 @@
 			random_bonus: 1
 			weight: 50.0f
 		}
-		{ item: { count: 1, id: "evilcraft:hardened_blood" }, weight: 50.0f }
+		{
+			id: "66997B00AC444579"
+			item: {
+				count: 1
+				id: "evilcraft:hardened_blood"
+			}
+			weight: 50.0f
+		}
 		{
 			count: 3
+			id: "1AD3E9E42272CA4C"
 			item: {
 				count: 1
 				id: "evilcraft:hardened_blood_shard"
@@ -30,9 +40,24 @@
 			random_bonus: 3
 			weight: 50.0f
 		}
-		{ item: { count: 1, id: "evilcraft:blood_extractor" }, weight: 25.0f }
-		{ item: { count: 1, id: "evilcraft:dark_tank" }, weight: 25.0f }
 		{
+			id: "55AA34B763E0D931"
+			item: {
+				count: 1
+				id: "evilcraft:blood_extractor"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "719BC084358F2785"
+			item: {
+				count: 1
+				id: "evilcraft:dark_tank"
+			}
+			weight: 25.0f
+		}
+		{
+			id: "58BEB7F406C87A51"
 			item: {
 				count: 1
 				id: "evilcraft:blook"
@@ -41,6 +66,7 @@
 			weight: 25.0f
 		}
 		{
+			id: "36AB7707748FD02A"
 			item: {
 				count: 1
 				id: "evilcraft:potentia_sphere"
@@ -50,6 +76,7 @@
 		}
 		{
 			count: 3
+			id: "54B484E18FF0F0A1"
 			item: {
 				count: 1
 				id: "evilcraft:dark_gem_crushed"
@@ -57,10 +84,25 @@
 			random_bonus: 3
 			weight: 100.0f
 		}
-		{ item: { count: 1, id: "evilcraft:box_of_eternal_closure" }, weight: 10.0f }
-		{ item: { count: 1, id: "evilcraft:bowl_of_promises_dusted" }, weight: 10.0f }
+		{
+			id: "21996A55A970D3C1"
+			item: {
+				count: 1
+				id: "evilcraft:box_of_eternal_closure"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "33E09DDB34972471"
+			item: {
+				count: 1
+				id: "evilcraft:bowl_of_promises_dusted"
+			}
+			weight: 10.0f
+		}
 		{
 			count: 5
+			id: "0C218526E6FEEFB7"
 			item: {
 				count: 1
 				id: "evilcraft:condensed_blood"
@@ -68,11 +110,49 @@
 			random_bonus: 5
 			weight: 75.0f
 		}
-		{ item: { count: 1, id: "evilcraft:blood_infusion_core" }, weight: 10.0f }
-		{ item: { count: 1, id: "evilcraft:vengeance_essence" }, weight: 10.0f }
-		{ item: { count: 1, id: "evilcraft:vengeance_pickaxe" }, weight: 7.5f }
-		{ item: { count: 1, id: "evilcraft:vein_sword" }, weight: 10.0f }
-		{ item: { components: { "evilcraft:weather_container_type": "EMPTY" }, count: 1, id: "evilcraft:weather_container" }, weight: 50.0f }
+		{
+			id: "4F930E1D54D97730"
+			item: {
+				count: 1
+				id: "evilcraft:blood_infusion_core"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "536D00B1FB6E7BE0"
+			item: {
+				count: 1
+				id: "evilcraft:vengeance_essence"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "30AC966B5CD17774"
+			item: {
+				count: 1
+				id: "evilcraft:vengeance_pickaxe"
+			}
+			weight: 7.5f
+		}
+		{
+			id: "553957DFACEBC614"
+			item: {
+				count: 1
+				id: "evilcraft:vein_sword"
+			}
+			weight: 10.0f
+		}
+		{
+			id: "43DB23B46305E29B"
+			item: {
+				components: {
+					"evilcraft:weather_container_type": "EMPTY"
+				}
+				count: 1
+				id: "evilcraft:weather_container"
+			}
+			weight: 50.0f
+		}
 	]
 	use_title: true
 }

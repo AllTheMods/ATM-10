@@ -34,7 +34,7 @@
 		}
 		{
 			height: 5.0d
-			image: "atm:textures/questpics/mystical_agriculture/infusion_alter.png"
+			image: "atm:textures/questpics/mystical_agriculture/infusion_altar.png"
 			rotation: 0.0d
 			width: 7.5d
 			x: -10.0d
@@ -911,7 +911,7 @@
 				{
 					id: "5EB9EF611C919F4D"
 					type: "xp_levels"
-					xp_levels: 17
+					xp_levels: 15
 				}
 			]
 			size: 1.0d
@@ -923,9 +923,9 @@
 					type: "item"
 				}
 				{
-					count: 17L
+					count: 15L
 					id: "0DAD392A4942D6A5"
-					item: { count: 17, id: "allthecompressed:nether_star_block_3x" }
+					item: { count: 1, id: "allthecompressed:nether_star_block_3x" }
 					type: "item"
 				}
 			]
@@ -994,11 +994,6 @@
 			id: "486B5A605D79EA10"
 			rewards: [
 				{
-					id: "5C494FE85EFC0150"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					count: 4
 					id: "31C9A7222A1F8D53"
 					item: {
@@ -1006,6 +1001,11 @@
 						id: "irons_spellbooks:fire_rune"
 					}
 					type: "item"
+				}
+				{
+					id: "3CD2EE0A3E930DD9"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -1052,11 +1052,6 @@
 			id: "6D1E8399AD39FFC8"
 			rewards: [
 				{
-					id: "128A582D3D1AA587"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					count: 8
 					id: "653A4613D2F1E68F"
 					item: {
@@ -1072,6 +1067,11 @@
 						id: "justdirethings:time_fluid_bucket"
 					}
 					type: "item"
+				}
+				{
+					id: "5A33CB8A834E86A6"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -1089,17 +1089,17 @@
 			id: "6877F33323910716"
 			rewards: [
 				{
-					id: "0320B0AE39E9368E"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					id: "63AB7C3C5D3EA9E8"
 					item: {
 						count: 1
 						id: "minecraft:nether_star"
 					}
 					type: "item"
+				}
+				{
+					id: "6C99B7FA3171941F"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -1322,11 +1322,6 @@
 			id: "7BC616DDB5933479"
 			rewards: [
 				{
-					id: "614B94154AB9697A"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					count: 3
 					id: "0B63779F27F3A6D3"
 					item: {
@@ -1335,11 +1330,17 @@
 					}
 					type: "item"
 				}
+				{
+					id: "7EB85603948FBAF0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
 			]
 			size: 1.25d
 			tasks: [{
 				id: "14D445E233DC9A67"
 				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:wither_skull", index: 0, level: 10, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				match_components: "strict"
 				type: "item"
 			}]
 			x: -4.0d
@@ -1433,17 +1434,17 @@
 			id: "750B6316267CF574"
 			rewards: [
 				{
-					id: "3C5FAEA19621E894"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					id: "62C184C3F2FC522C"
 					item: {
 						count: 1
 						id: "minecraft:wither_skeleton_skull"
 					}
 					type: "item"
+				}
+				{
+					id: "3F3BBEFFA8C9AD39"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -2026,11 +2027,6 @@
 			id: "4D135CE350C59120"
 			rewards: [
 				{
-					id: "194DDC7EF5A4DF58"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					count: 4
 					id: "60E707B3E6978AC3"
 					item: {
@@ -2038,6 +2034,11 @@
 						id: "productivebees:draconic_chunk"
 					}
 					type: "item"
+				}
+				{
+					id: "4C0FE92A27BC893B"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -2179,17 +2180,17 @@
 			id: "03564837ECB5CC79"
 			rewards: [
 				{
-					id: "539CD49CA1DE31DC"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					id: "101241398C854D0E"
 					item: {
 						count: 1
 						id: "occultism:spawn_egg/familiar_dragon"
 					}
 					type: "item"
+				}
+				{
+					id: "350523E96307E8C5"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -2207,18 +2208,18 @@
 			id: "67C76EDD4BCCFF3F"
 			rewards: [
 				{
-					id: "36ECAD7351CC3E3F"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					count: 2
 					id: "215F67733D7997FF"
 					item: {
 						count: 1
 						id: "occultism:soul_gem"
 					}
+					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "00D563ABAC5ECC49"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -2350,11 +2351,6 @@
 			id: "45D10F53CA18B8EE"
 			rewards: [
 				{
-					id: "008084DE04E33A04"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					count: 4
 					id: "5E5C4E952ED07415"
 					item: {
@@ -2362,6 +2358,11 @@
 						id: "irons_spellbooks:lightning_rune"
 					}
 					type: "item"
+				}
+				{
+					id: "18B8636E4C89D1C5"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -2713,17 +2714,17 @@
 			id: "535525EA4DF4AB59"
 			rewards: [
 				{
-					id: "2B862BFB4931187D"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					id: "18D4231C54A48C9E"
 					item: {
 						count: 1
 						id: "powah:nitro_crystal_block"
 					}
 					type: "item"
+				}
+				{
+					id: "4D927E88CF54032C"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -4020,12 +4021,12 @@
 			id: "55BF254B1831359B"
 			rewards: [
 				{
-					count: 2
 					id: "3E433E44D707F9EA"
 					item: {
 						count: 1
 						id: "minecraft:diamond_block"
 					}
+					random_bonus: 1
 					type: "item"
 				}
 				{
