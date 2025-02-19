@@ -6,31 +6,87 @@
 	loot_size: 1
 	order_index: 21
 	rewards: [
-		{ count: 4, item: { count: 1, id: "minecraft:raw_iron" } }
-		{ count: 8, item: { count: 1, id: "minecraft:iron_bars" } }
-		{ count: 10, item: { count: 1, id: "minecraft:bone_meal" } }
-		{ item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:fortune": 2 } } }, count: 1, id: "minecraft:enchanted_book" } }
-		{ item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:efficiency": 4 } } }, count: 1, id: "minecraft:enchanted_book" } }
-		{ item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:efficiency": 2 } } }, count: 1, id: "minecraft:enchanted_book" } }
-		{ item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:silk_touch": 1 } } }, count: 1, id: "minecraft:enchanted_book" } }
-		{ item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:looting": 2 } } }, count: 1, id: "minecraft:enchanted_book" } }
-		{ item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:looting": 1 } } }, count: 1, id: "minecraft:enchanted_book" } }
-		{ item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:blast_protection": 2 } } }, count: 1, id: "minecraft:enchanted_book" } }
-		{ item: { count: 1, id: "chipped:chisel" } }
-		{ item: { count: 1, id: "ironfurnaces:upgrade_copper" } }
-		{ count: 64, item: { count: 1, id: "minecraft:glass" } }
-		{ item: { count: 1, id: "minecraft:diamond_sword" } }
-		{ item: { count: 1, id: "minecraft:iron_axe" } }
-		{ item: { count: 1, id: "minecraft:iron_shovel" } }
-		{ count: 4, item: { count: 1, id: "minecraft:bread" } }
-		{ item: { count: 1, id: "mekanism:basic_fluid_tank" } }
-		{ count: 3, item: { count: 1, id: "minecraft:gold_ore" } }
-		{ item: { count: 1, id: "minecraft:diamond" } }
-		{ count: 2, item: { count: 1, id: "minecraft:wither_skeleton_skull" } }
-		{ count: 4, item: { count: 1, id: "minecraft:slime_ball" } }
-		{ item: { count: 1, id: "mekanism:personal_chest" } }
-		{ item: { count: 1, id: "chisel:chisel" } }
-		{ item: { count: 1, id: "minecraft:lava_bucket" } }
+		{
+			count: 4
+			id: "536BE5A7216A5989"
+			item: {
+				count: 1
+				id: "minecraft:raw_iron"
+			}
+		}
+		{
+			count: 8
+			id: "52671411FBEB7037"
+			item: {
+				count: 1
+				id: "minecraft:iron_bars"
+			}
+		}
+		{
+			count: 10
+			id: "16C9B5D3A6980A90"
+			item: {
+				count: 1
+				id: "minecraft:bone_meal"
+			}
+		}
+		{ id: "4FF469CFE648B3A5", item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:fortune": 2 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "1E9D0437AEC97053", item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:efficiency": 4 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "40D4B515406B2956", item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:efficiency": 2 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "0B43D6ED820A106A", item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:silk_touch": 1 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "411B037B718D798C", item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:looting": 2 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "68577939B052AD66", item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:looting": 1 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "3F56AAEEE7B4829B", item: { components: { "minecraft:stored_enchantments": { levels: { "minecraft:blast_protection": 2 } } }, count: 1, id: "minecraft:enchanted_book" } }
+		{ id: "361691F79EC5CB6D", item: { count: 1, id: "chipped:chisel" } }
+		{ id: "725C502A18E14F81", item: { count: 1, id: "ironfurnaces:upgrade_copper" } }
+		{
+			count: 64
+			id: "22BBDC0A291A9F4C"
+			item: {
+				count: 1
+				id: "minecraft:glass"
+			}
+		}
+		{ id: "1B4859F38A876BE5", item: { count: 1, id: "minecraft:diamond_sword" } }
+		{ id: "5B8C9DB8201A5CB0", item: { count: 1, id: "minecraft:iron_axe" } }
+		{ id: "31CFD6CBD34C09CA", item: { count: 1, id: "minecraft:iron_shovel" } }
+		{
+			count: 4
+			id: "294D32684109DD6B"
+			item: {
+				count: 1
+				id: "minecraft:bread"
+			}
+		}
+		{ id: "77184D192E0F4044", item: { count: 1, id: "mekanism:basic_fluid_tank" } }
+		{
+			count: 3
+			id: "5C5252BEC2E259BC"
+			item: {
+				count: 1
+				id: "minecraft:gold_ore"
+			}
+		}
+		{ id: "12111609C1D7CBBC", item: { count: 1, id: "minecraft:diamond" } }
+		{
+			count: 2
+			id: "6D9D3195BB9A9946"
+			item: {
+				count: 1
+				id: "minecraft:wither_skeleton_skull"
+			}
+		}
+		{
+			count: 4
+			id: "1F2A3C5BBE0324F1"
+			item: {
+				count: 1
+				id: "minecraft:slime_ball"
+			}
+		}
+		{ id: "06D2A4E15D28E567", item: { count: 1, id: "mekanism:personal_chest" } }
+		{ id: "28FE168D0366D40F", item: { count: 1, id: "chisel:chisel" } }
+		{ id: "542842FD5155A559", item: { count: 1, id: "minecraft:lava_bucket" } }
 	]
 	use_title: true
 }
