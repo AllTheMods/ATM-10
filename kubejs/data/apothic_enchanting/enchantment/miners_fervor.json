@@ -1,0 +1,30 @@
+{
+    "neoforge:conditions":[{"type":"neoforge:false"}],
+    "anvil_cost": 10,
+    "description": {
+      "color": "dark_purple",
+      "translate": "enchantment.apothic_enchanting.miners_fervor"
+    },
+    "effects": {
+      "apothic_enchanting:miners_fervor": {
+        "type": "minecraft:linear",
+        "base": 12.0,
+        "per_level_above_first": 4.5
+      }
+    },
+    "exclusive_set": "minecraft:efficiency",
+    "max_cost": {
+      "base": 240,
+      "per_level_above_first": 0
+    },
+    "max_level": 5,
+    "min_cost": {
+      "base": 210,
+      "per_level_above_first": 30
+    },
+    "slots": [
+      "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/mining",
+    "weight": 0
+  }
