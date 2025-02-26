@@ -19,6 +19,12 @@ ServerEvents.tags('block', allthemods => {
     '#c:storage_blocks/fire_essence',
     '#c:storage_blocks/water_essence'
   ])
+
+  //Entangled
+  allthemods.add('entangled:invalid_targets',
+      ['@ae2', '@advancedae', '@extended_ae', '@megacells', '@appflux', '@appmek']
+  )
+  
 })
 
 ServerEvents.tags('item', allthemods => {
