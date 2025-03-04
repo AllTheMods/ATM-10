@@ -88,6 +88,9 @@ ServerEvents.tags('entity_type', allthemods => {
   // Occultism
   allthemods.add('justdirethings:paradox_deny', /occultism:/);
   allthemods.add('industrialforegoing:mob_duplicator_blacklist', /occultism:/)
+
+  //Industrial Foregoing
+  allthemods.add('industrialforegoing:mob_crusher_blacklist', {})
 });
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
