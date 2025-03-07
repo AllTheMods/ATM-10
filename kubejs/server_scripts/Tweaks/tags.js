@@ -88,6 +88,36 @@ ServerEvents.tags('entity_type', allthemods => {
   // Occultism
   allthemods.add('justdirethings:paradox_deny', /occultism:/);
   allthemods.add('industrialforegoing:mob_duplicator_blacklist', /occultism:/)
+
+  //Industrial Foregoing
+  allthemods.add('industrialforegoing:mob_crusher_blacklist', [
+    "minecraft:warden",
+    "minecraft:elder_guardian",
+    "minecraft:ender_dragon",
+    "minecraft:wither",
+    "artifacts:mimic",
+    "twilightforest:swarm_spider",
+    "twilightforest:hedge_spider",
+    "cataclysm:ender_guarian",
+    "cataclysm:ender_golem",
+    "cataclysm:nether_monstrosity",
+    "cataclysm:ignis",
+    "cataclysm:the_harbringer",
+    "cataclysm:the_leviathan",
+    "cataclysm:ancient_remnant",
+    "cataclysm:maledictus",
+    "cataclysm:ignited_revenant",
+    "cataclysm:the_prowler",
+    "cataclysm:the_baby_leviathan",
+    "cataclysm:coralssus",
+    "cataclysm:amethyst_crab",
+    "cataclysm:modern_remnant",
+    "cataclysm:kobolediator",
+    "cataclysm:wadjet",
+    "eternal_starlight:the_gatekeeper",
+    "eternal_starlight:starlight_golem",
+    "allthemodium:piglich"
+  ])
 });
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

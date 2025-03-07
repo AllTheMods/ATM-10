@@ -26,7 +26,7 @@ ServerEvents.recipes(allthemods => {
 
     //Ars Noveau
 
-        allthemods.recipes.kubejs.shaped('ars_nouveau:creative_spell_book', 
+        allthemods.recipes.kubejs.shaped('allthearcanistgear:creative_spell_book', 
             [
                 'BSG', 
                 'GGE', 
