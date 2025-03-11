@@ -1,0 +1,51 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nuclear_age"
+	group: "6700DB960E16A321"
+	id: "399A4F6D9CF8E1C9"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "44AA909E4576B4F0"
+			tasks: [{
+				id: "6267FB10F8F87CA6"
+				item: { count: 1, id: "modern_industrialization:soldering_alloy_dust" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			id: "482C7EB2510CC0FB"
+			tasks: [{
+				id: "544BBBFF3FEAE348"
+				item: { count: 1, id: "modern_industrialization:uranium_fuel_rod" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			id: "037AB11DE86E8D0A"
+			tasks: [{
+				id: "0755158D5DFA3D09"
+				item: { count: 1, id: "modern_industrialization:uranium_fuel_rod_double" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "01AC14354264AF48"
+			tasks: [{
+				id: "2E279E51AA864E75"
+				item: { count: 1, id: "modern_industrialization:uranium_fuel_rod_quad" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+	]
+}
