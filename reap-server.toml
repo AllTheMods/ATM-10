@@ -1,0 +1,33 @@
+[crop_harvesting]
+	#The blocks that should get harvested by right-clicking
+	whitelist = ["minecraft:nether_wart", "minecraft:potatoes", "minecraft:carrots", "minecraft:wheat", "minecraft:beetroots", "minecraft:cocoa"]
+	#If the held tool should be considered when right-click harvesting
+	consider_tool = true
+
+[tree_harvesting]
+	#The log blocks that are allowed to get harvested by the tree harvester
+	#Examples: 'minecraft:oak_log', '#minecraft:logs'
+	log_types = ["minecraft:acacia_log", "minecraft:birch_log", "minecraft:dark_oak_log", "minecraft:jungle_log", "minecraft:oak_log", "minecraft:spruce_log", "minecraft:crimson_stem", "minecraft:warped_stem", "minecraft:mangrove_log", "minecraft:cherry_log"]
+	#The blocks that are allowed below logs that can be harvested
+	#Examples: 'minecraft:dirt', '#forge:sand/colorless'
+	ground_types = ["minecraft:dirt", "minecraft:grass_block", "minecraft:coarse_dirt", "minecraft:podzol", "minecraft:mycelium", "minecraft:warped_nylium", "minecraft:crimson_nylium", "minecraft:netherrack"]
+	#The tools which the player is allowed to harvest trees
+	allowed_tree_tools = ["minecraft:wooden_axe", "minecraft:golden_axe", "minecraft:stone_axe", "minecraft:iron_axe", "minecraft:diamond_axe", "minecraft:netherite_axe"]
+	#If the tree harvester should be enabled
+	enabled = true
+	#The maximum amount of logs one harvest is allowed to do
+	# Default: 128
+	# Range: 0 ~ 1024
+	max_harvesting_count = 128
+
+	[tree_harvesting.dynamic_breaking_speed]
+		#If bigger trees should be harder to break
+		enabled = true
+		#The maximum amount of time a tree should take to harvest
+		# Default: 10.0
+		# Range: 1.0 ~ 100.0
+		min_speed = 10.0
+		#The amount of breaking time that gets added per harvested log
+		# Default: 0.1
+		# Range: 0.0 ~ 100.0
+		per_log = 0.1
