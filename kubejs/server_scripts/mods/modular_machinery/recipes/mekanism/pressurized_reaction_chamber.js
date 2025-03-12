@@ -7,36 +7,41 @@ ServerEvents.recipes(allthemods => {
     let energy = 1024
 
     const recipes = {
-        'mekanism:dust_fluorite' : {
+        'polonium_pellets' : {
             amount : 1,
+            input: ['#c:dusts/fluorite', 1],
             fluid: ['minecraft:water', 1000],
             chemical: ['mekanism:polonium', 1000],
             output: ['mekanism:pellet_polonium', 1],
             byproduct: ['mekanism:spent_nuclear_waste', 1000]
         },
-        'mekanism:dust_fluorite' : {
+        'plutonium_pellets' : {
             amount : 1,
+            input: ['#c:dusts/fluorite', 1],
             fluid: ['minecraft:water', 1000],
             chemical: ['mekanism:plutonium', 1000],
             output: ['mekanism:pellet_plutonium', 1],
             byproduct: ['mekanism:spent_nuclear_waste', 1000]
         },
-        '#c:dusts/coal' : {
+        'sulfur_1' : {
             amount : 1,
+            input: ['#c:dusts/coal', 1],
             fluid: ['minecraft:water', 100],
             chemical: ['mekanism:oxygen', 100],
             output: ['alltheores:sulfur', 1],
             byproduct: ['mekanism:hydrogen', 100]
         },
-        '#minecraft:coals' : {
+        'sulfur_2' : {
             amount : 1,
+            input: ['#minecraft:coals', 1],
             fluid: ['minecraft:water', 100],
             chemical: ['mekanism:oxygen', 100],
             output: ['alltheores:sulfur', 1],
             byproduct: ['mekanism:hydrogen', 100]
         },
-        'mekanism:bio_fuel' : {
+        'substrate_ethene' : {
             amount : 2,
+            input: ['mekanism:bio_fuel', 1],
             fluid: ['minecraft:water', 10],
             chemical: ['mekanism:hydrogen', 100],
             output: ['mekanism:substrate', 1],
@@ -48,7 +53,7 @@ ServerEvents.recipes(allthemods => {
         if (values.output && values.byproduct) {
             allthemods.recipes.modular_machinery_reborn.machine_recipe('atm:pressurized_reaction_chamber', 100)
                 .requireEnergy(multiplier * energy, 8, 9)
-                .requireItem(`${values.amount * multiplier}x ${key}`, 31, 8)
+                .requireItem(`${values.amount * multiplier}x ${values.input[0]}`, 31, 8)
                 .requireFluid(`${values.fluid[1] * multiplier}x ${values.fluid[0]}`, 31, 27)
                 .requireChemical(`${values.chemical[1] * multiplier}x ${values.chemical[0]}`, 31, 46)
                 .progressX(64)
