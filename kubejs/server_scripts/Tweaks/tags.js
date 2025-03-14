@@ -22,7 +22,7 @@ ServerEvents.tags('block', allthemods => {
 
   //Entangled
   allthemods.add('entangled:invalid_targets',
-      ['@ae2', '@advancedae', '@extended_ae', '@megacells', '@appflux', '@appmek']
+      ['@ae2', '@advancedae', '@extendedae', '@megacells', '@appflux', '@appmek']
   )
   
 })
