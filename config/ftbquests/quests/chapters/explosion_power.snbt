@@ -1,0 +1,145 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "explosion_power"
+	group: "6700DB960E16A321"
+	id: "48DB721214AA88E0"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "54B05452E5C44F41"
+			tasks: [{
+				id: "556AEB583A4EEBBD"
+				item: { count: 1, id: "mekanism:dust_lapis_lazuli" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "5D6D97777BEDB590"
+			tasks: [{
+				id: "031A1BFF618ADDAB"
+				item: { count: 1, id: "modern_industrialization:sodium_dust" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "57A1DD482F68AE30"
+			tasks: [{
+				id: "77B2FCD55B6CCE5C"
+				item: { count: 1, id: "modern_industrialization:digital_circuit" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "7BB7D1779CFC8E44"
+			tasks: [{
+				id: "7AE05E3B5F00BCD4"
+				item: { count: 1, id: "modern_industrialization:sodium_battery" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "036CE7753F34415E"
+			tasks: [{
+				id: "603F3F753EBEBDB3"
+				item: { count: 1, id: "modern_industrialization:turbo_machine_hull" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "112D03DC037558A3"
+			tasks: [{
+				id: "11F7C5A23C45282A"
+				item: { count: 1, id: "modern_industrialization:implosion_compressor" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1CD86A425F86AE2D"
+				"24870139A1ABB87F"
+			]
+			id: "243A8F0BCB231A0A"
+			tasks: [{
+				id: "476F648E56CCD3F1"
+				item: { count: 1, id: "modern_industrialization:beryllium_plate" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			id: "4A5507F7FC1F3928"
+			tasks: [{
+				id: "05E073E419F2857D"
+				item: { count: 1, id: "modern_industrialization:toluene_bucket" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			id: "24870139A1ABB87F"
+			tasks: [{
+				id: "14CF5086B0AD3BD0"
+				item: { count: 1, id: "modern_industrialization:industrial_tnt" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "3BDDB3503A8118E1"
+			tasks: [{
+				id: "38C6785D54006BE4"
+				item: { count: 1, id: "modern_industrialization:blastproof_alloy_plate" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			id: "5469CC779084DF74"
+			tasks: [{
+				id: "6EAA874221938661"
+				item: { count: 1, id: "modern_industrialization:cadmium_plate" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			id: "2F85C34D559567AD"
+			tasks: [{
+				id: "5301C179A84E6D2E"
+				item: { count: 1, id: "modern_industrialization:nuclear_alloy_plate" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "1CD86A425F86AE2D"
+			tasks: [{
+				id: "73B18EDFDAE9BB7C"
+				item: { count: 1, id: "mekanism:dust_emerald" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.0d
+		}
+	]
+}
