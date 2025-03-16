@@ -3,7 +3,7 @@
 
 ServerEvents.tags('block', allthemods => {
     //Deny blocks
-    allthemods.add('buildinggadgets2:deny', ['enderstorage:ender_tank','enderstorage:ender_storage'])
+    allthemods.add('buildinggadgets2:deny', ['enderstorage:ender_tank','enderstorage:ender_chest'])
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
