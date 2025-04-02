@@ -16,12 +16,11 @@ ServerEvents.recipes(allthemods => {
   }).id('allthemods:allthetweaks/dragon_soul')
 
  // Improbable Probability Device
- allthemods.shaped('allthetweaks:improbable_probability_device', ['ABA', 'CGE', 'FDF'], {
+ allthemods.shaped('allthetweaks:improbable_probability_device', ['ABA', 'CGC', 'FDF'], {
   A: 'mekanism:pellet_antimatter',
   B: 'ae2:singularity',
-  C: 'megacells:portable_item_cell_256m',
+  C: Ingredient.of(['megacells:portable_item_cell_256m', 'modern_industrialization:blastproof_casing']),
   D: 'pneumaticcraft:aerial_interface',
-  E: 'modern_industrialization:blastproof_casing',
   F: 'ironfurnaces:million_furnace', 
   G: 'irons_spellbooks:lightning_upgrade_orb'
   }).id('allthemods:allthetweaks/improbable_probability_device')
@@ -57,7 +56,7 @@ ServerEvents.recipes(allthemods => {
   A: 'generatorgalore:ender_generator',
 	B: 'ironfurnaces:rainbow_coal'  ,
 	C: 'bigreactors:insanite_block' ,
-	D: 'modern_industrialization:uranium_fuel_rod_quad',
+	D: Ingredient.of(['modern_industrialization:uranium_fuel_rod_quad','create:blaze_burner']),
 	E: 'mysticalagradditions:insanium_coal_block',
   F: 'forbidden_arcanus:smelter_prism',
 	G: 'mysticalagriculture:awakened_supremium_ingot_block',
@@ -70,7 +69,7 @@ ServerEvents.recipes(allthemods => {
   A: 'powah:player_transmitter_nitro',
   B: 'ae2wtlib:wireless_universal_terminal[ae2wtlib:has_ex_pattern_access_terminal={},ae2wtlib:has_pattern_encoding_terminal={},ae2wtlib:has_crafting_terminal={},ae2wtlib:has_pattern_access_terminal={},ae2:stored_energy=6400000.0d]',
   F: [Item.of('mekanism:module_gravitational_modulating_unit')],
-  D: 'modern_industrialization:large_advanced_motor',
+  D: Ingredient.of(['modern_industrialization:large_advanced_motor',"create:mechanical_arm"]),
   E: 'immersiveengineering:tesla_coil',
   C: 'advanced_ae:quantum_multi_threader',
   G: 'aeinfinitybooster:infinity_card'

@@ -7,7 +7,7 @@ ServerEvents.recipes(allthemods => {
     allthemods.remove({ id: 'allthecompressed:compress/snow_1x'})
     allthemods.remove({ id: 'allthecompressed:decompress/snow_1x'})
     allthemods.shapeless('9x minecraft:snow_block', ['allthecompressed:snow_1x'])
-    allthemods.shapeless('allthecompressed:snow_1x', ['9x minecraft:snow_block'])
+    allthemods.shapeless('allthecompressed:snow_1x', ['9x minecraft:snow_block']).id(`allthecompressed:compress/snow_1x_manual_only`)
 
 const blockedMods = [ 'modern_industrialization', 'mysticalagriculture', 'mysticalagradditions', 'extendedae', 'mekanism' ]
 let ingots = []
