@@ -12,7 +12,6 @@ let $ArrayList = Java.loadClass("java.util.ArrayList")
 let config
 let bannedBlockEntities
 
-// disabled, KubeJS/Rhino bug
 if (!Platform.isClientEnvironment()) {
   let configPath = "server_banlist_config.json"
   let defaultConfig = {
@@ -68,11 +67,24 @@ if (!Platform.isClientEnvironment()) {
     })
   }
   let $ChunkEvent$Load = Java.loadClass("net.neoforged.neoforge.event.level.ChunkEvent$Load")
+  let $LevelTickEvent$Pre = Java.loadClass("net.neoforged.neoforge.event.tick.LevelTickEvent$Pre")
   if (!bannedBlockEntities.isEmpty()) {
     NativeEvents.onEvent($ChunkEvent$Load, event => {
       if (event.level.clientSide) return
 	  removeBlockEntities(event)
     })
+	NativeEvents.onEvent($LevelTickEvent$Pre, event => {
+	  let blocksToRemove = levelAndPosToRemove.get(event.level)
+	  if (blocksToRemove == null) return
+	  let pos
+	  while ((pos = blocksToRemove.poll()) != null) {
+		  addSignToPos(event.level, pos)
+		  event.level.server.tell("Removing banned block entity at " + pos.toShortString())
+	  }
+    })
+	LevelEvents.unloaded(event => {
+		levelAndPosToRemove.remove(event.level)
+	})
   }
 }
 
@@ -88,6 +100,8 @@ function sendMessageAndCancel(/** @type {$ItemClickedKubeEvent_} */event, type) 
 }
 
 let $LevelChunk = Java.loadClass("net.minecraft.world.level.chunk.LevelChunk")
+let levelAndPosToRemove = Utils.newMap()
+let $ConcurrentLinkedQueue = Java.loadClass("java.util.concurrent.ConcurrentLinkedQueue")
 let removeBlockEntities = (/** @type {$ChunkEvent$Load_} */ event) => {
   if (event.isNewChunk()) return
   let blocksToRemove = Utils.newList()
@@ -101,16 +115,20 @@ let removeBlockEntities = (/** @type {$ChunkEvent$Load_} */ event) => {
       }
     })
   }
-  blocksToRemove.forEach(pos => {
-    event.level.server.tell("Removing banned block entity at " + pos.toShortString())
-    // event.level.removeBlock(pos, false)
-    addSignToPos(event.level, pos)
-  })
+  if (!blocksToRemove.isEmpty()) {
+	  let original = levelAndPosToRemove.get(event.level)
+	  if (original == null) {
+		  let queue = new $ConcurrentLinkedQueue(blocksToRemove)
+		  levelAndPosToRemove.put(event.level, queue)
+	  } else {
+		  original.addAll(blocksToRemove)
+	  }
+  }
 }
 
 let addSignToPos = (/** @type {$ServerLevel_} */level, /** @type {$BlockPos_} */pos) => {
   let beRL = level.getBlock(pos).entityId
-  level.getBlock(pos).set("minecraft:oak_sign")
+  level.getBlock(pos).set("minecraft:oak_sign", {}, 18)
   /** @type {$SignBlockEntity_} */
   let oakSignBlockEntity = level.getBlockEntity(pos)
   let namespace = `'${beRL.split(":")[0]}:'`
