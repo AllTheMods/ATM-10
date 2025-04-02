@@ -19,27 +19,30 @@ Summary of changes here!
 </details>
 
 <details>
-<summary>Updated (95)</summary>
+<summary>Updated (109)</summary>
 
 - Actually Additions (1.3.16) -> (1.3.17)
 - Applied Energistics 2 (19.2.5-beta) -> (19.2.7)
 - AE2:Crafting Tree (1.21.1-1.0.5) -> (1.21.1-1.0.6)
+- Allthemodium (2.8.10) -> (2.9.1)
 - AllTheTweaks (2.6.0) -> (2.6.1)
 - AppliedFlux (1.21-2.0.5-neoforge) -> (1.21-2.1.0-neoforge)
 - Aquaculture 2 (2.7.13) -> (2.7.14)
 - Ars Additions (1.21.1-21.2.0) -> (1.21.1-21.2.1)
 - Ars Elemental (0.7.2.5) -> (0.7.2.7)
 - Ars Nouveau (5.5.1) -> (5.7.2)
-- Artifacts (12.0.5) -> (12.1.1)
+- Artifacts (12.0.5) -> (12.1.2)
 - Balm (21.0.31) -> (21.0.38)
 - Oh The Biomes We've Gone (2.3.10) -> (2.3.11)
 - UI Library Mod (1.0.195-1.21.1-snapshot) -> (1.0.199-1.21.1-snapshot)
+- Bookshelf (21.1.50) -> (21.1.51)
 - Byzantine (30) -> (31)
 - Camol (1.21.1-0.2.1) -> (1.21.1-0.2.3)
 - L_Ender's Cataclysm (2.58-1.21.1) -> (2.63-1.21.1)
 - Controlling (19.0.4) -> (19.0.5)
-- Crash Assistant (1.4.3) -> (1.5.0)
+- Crash Assistant (1.4.3) -> (1.5.1)
 - Create (6.0.3) -> (6.0.4)
+- Cucumber Library (8.0.10) -> (8.0.11)
 - Curios API (9.3.1+1.21.1) -> (9.4.0+1.21.1)
 - Domum Ornamentum (1.0.204-1.21.1-snapshot) -> (1.0.213-snapshot)
 - Easy Villagers (1.21.1-1.1.23) -> (1.21.1-1.1.24)
@@ -51,6 +54,8 @@ Summary of changes here!
 - Ender IO Conduits (7.1.7-alpha) -> (7.1.8-alpha)
 - Ender IO Modded Conduits (7.1.7-alpha) -> (7.1.8-alpha)
 - Ender IO Machines (7.1.7-alpha) -> (7.1.8-alpha)
+- Equipment Compare (1.3.12) -> (1.3.13)
+- Extended Industrialization (1.14.6-1.21.1) -> (1.14.7-1.21.1)
 - ExtendedAE (1.21-2.2.6-neoforge) -> (1.21-2.2.7-neoforge)
 - Flywheel (1.0.1-11) -> (1.0.2)
 - Forbidden Arcanus (2.5.14) -> (2.5.15)
@@ -60,7 +65,8 @@ Summary of changes here!
 - Glassential-renewed (3.1.5) -> (3.1.6)
 - GuideME (21.1.5) -> (21.1.6)
 - Handcrafted (4.0.2) -> (4.0.3)
-- ImmediatelyFast (1.6.2+1.21.1) -> (1.6.4+1.21.1)
+- Iceberg (1.2.9.2) -> (1.3.0)
+- ImmediatelyFast (1.6.2+1.21.1) -> (1.6.5+1.21.1)
 - IntegratedDynamics (1.25.9) -> (1.25.10)
 - IntegratedTunnels (1.8.36) -> (1.8.37)
 - IntegratedTunnels-Compat (1.8.36) -> (1.8.37)
@@ -71,6 +77,7 @@ Summary of changes here!
 - Journeymap (1.21.1-6.0.0-beta.40) -> (1.21.1-6.0.0-beta.43)
 - Just Dire Things (1.5.4) -> (1.5.5)
 - KumaAPI (21.0.5-SNAPSHOT) -> (21.0.5)
+- Legendary Tooltips (1.4.11) -> (1.5.2)
 - Lootr (1.21-1.10.35.90) -> (1.21-1.10.35.91)
 - McJtyLib (1.21-9.0.6) -> (1.21-9.0.8)
 - Macaw's Fences and Walls (1.1.2) -> (1.2.0)
@@ -79,23 +86,29 @@ Summary of changes here!
 - Mekanism: Generators (10.7.12) -> (10.7.13)
 - Mekanism: Tools (10.7.12) -> (10.7.13)
 - Modular Force Field System (5.4.16) -> (5.4.17)
-- MineColonies (1.1.905-1.21.1-snapshot) -> (1.1.918-1.21.1-snapshot)
-- Modern Industrialization (2.2.34) -> (2.2.31)
+- MineColonies (1.1.905-1.21.1-snapshot) -> (1.1.920-1.21.1-snapshot)
+- Modern Industrialization (2.2.34) -> (2.3.1)
 - Modonomicon (1.114.0) -> (1.114.1)
 - Moonlight Lib (1.21-2.17.36) -> (1.21-2.18.2)
-- NeoForge (21.1.133) -> (21.1.141)
+- Moog's Voyager Structures (4.2.8-1.21) -> (4.3.0-1.21)
+- Mystical Agradditions (8.0.4) -> (8.0.5)
+- Mystical Agriculture (8.0.13) -> (8.0.14)
+- NeoForge (21.1.133) -> (21.1.143)
 - Occultism (1.177.1) -> (1.179.3)
 - Oh The Trees You'll Grow (5.0.8) -> (5.0.9)
 - Placebo (9.7.0) -> (9.7.1)
 - PolyLib (2100.0.3-build.160) -> (2100.0.3-build.172)
+- Polymorph (1.0.7+1.21.1) -> (1.0.8+1.21.1)
 - Ponder (1.0.45) -> (1.0.46)
 - PotionsMaster (0.6.8-packdev) -> (0.6.9.1-packdev)
 - Powah (6.1.6) -> (6.2.1)
+- Prism (1.0.9) -> (1.0.11)
 - Productive Bees (1.21.1-13.6.11) -> (1.21.1-13.6.13)
 - Productive Lib (1.21.0-0.1.12) -> (1.21.0-0.1.14)
 - Productive Metalworks (1.21.1-1.2.5) -> (1.21.1-1.3.0)
 - Rainbows (1.3.1) -> (1.4)
 - Rechiseled: Chipped (1.2) -> (1.3)
+- Relics (0.10.7.2) -> (0.10.7.3)
 - Reliquary Reincarnations (2.0.47) -> (2.0.48)
 - Resourceful Lib (3.0.11) -> (3.0.12)
 - RFToolsBase (1.21-6.0.6) -> (1.21-6.0.7)
@@ -104,12 +117,13 @@ Summary of changes here!
 - Shrink (2.0.0.44) -> (2.0.1.47)
 - Silent Gear (4.0.15) -> (4.0.17)
 - Simple Magnets (1.1.12+b) -> (1.1.12+c)
-- Sophisticated Core (1.3.2) -> (1.3.9)
-- Sophisticated Storage (1.4.0) -> (1.4.3)
+- Sophisticated Backpacks (3.24.1) -> (3.24.2)
+- Sophisticated Core (1.3.2) -> (1.3.13)
+- Sophisticated Storage (1.4.0) -> (1.4.7)
 - Sophisticated Storage In Motion (0.10.5) -> (0.10.6)
 - Structurize (1.0.765-1.21.1-snapshot) -> (1.0.767-1.21.1-snapshot)
-- Supplementaries (1.21-3.0.41-beta) -> (1.21-3.1.0)
-- Tesseract API (1.8.3-1.21.1) -> (1.8.4-1.21.1)
+- Supplementaries (1.21-3.0.41-beta) -> (1.21-3.1.2)
+- Tesseract API (1.8.3-1.21.1) -> (1.8.5-1.21.1)
 - The Bumblezone (7.8.3+1.21.1-neoforge) -> (7.8.9+1.21.1-neoforge)
 - Titanium (4.0.35) -> (4.0.36)
 - TrashSlot (21.1.2) -> (21.1.4)
@@ -122,7 +136,7 @@ Summary of changes here!
 ## 🍳 Recipes
 
 <details>
-<summary>Added (273)</summary>
+<summary>Added (279)</summary>
 <blockquote>
 
 <details>
@@ -3433,6 +3447,192 @@ Summary of changes here!
 +{
 +  type: "sfm:label_gun_reset"
 +  category: "misc"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>modern_industrialization/cutting_machine/planks/cherry</summary>
+
+```diff
++{
++  type: "modern_industrialization:cutting_machine"
++  duration: 100
++  eu: 2
++  fluid_inputs: [
++    {
++      amount: 1
++      fluid: "modern_industrialization:lubricant"
++    }
++  ]
++  item_inputs: [
++    {
++      amount: 1
++      tag: "minecraft:cherry_logs"
++    }
++  ]
++  item_outputs: [
++    {
++      amount: 6
++      item: "minecraft:cherry_planks"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>modern_industrialization/cutting_machine/slabs/cherry</summary>
+
+```diff
++{
++  type: "modern_industrialization:cutting_machine"
++  duration: 100
++  eu: 2
++  fluid_inputs: [
++    {
++      amount: 1
++      fluid: "modern_industrialization:lubricant"
++    }
++  ]
++  item_inputs: [
++    {
++      amount: 1
++      item: "minecraft:cherry_planks"
++    }
++  ]
++  item_outputs: [
++    {
++      amount: 2
++      item: "minecraft:cherry_slab"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>modern_industrialization/cutting_machine/stripped/cherry</summary>
+
+```diff
++{
++  type: "modern_industrialization:cutting_machine"
++  duration: 100
++  eu: 2
++  fluid_inputs: [
++    {
++      amount: 1
++      fluid: "modern_industrialization:lubricant"
++    }
++  ]
++  item_inputs: [
++    {
++      amount: 1
++      item: "minecraft:cherry_log"
++    }
++  ]
++  item_outputs: [
++    {
++      amount: 1
++      item: "minecraft:stripped_cherry_log"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>modern_industrialization/cutting_machine/stripped_wood/cherry</summary>
+
+```diff
++{
++  type: "modern_industrialization:cutting_machine"
++  duration: 100
++  eu: 2
++  fluid_inputs: [
++    {
++      amount: 1
++      fluid: "modern_industrialization:lubricant"
++    }
++  ]
++  item_inputs: [
++    {
++      amount: 1
++      item: "minecraft:cherry_wood"
++    }
++  ]
++  item_outputs: [
++    {
++      amount: 1
++      item: "minecraft:stripped_cherry_wood"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>modern_industrialization/packer/stripped_wood/cherry</summary>
+
+```diff
++{
++  type: "modern_industrialization:packer"
++  duration: 100
++  eu: 2
++  item_inputs: [
++    {
++      amount: 4
++      item: "minecraft:stripped_cherry_log"
++    }
++  ]
++  item_outputs: [
++    {
++      amount: 3
++      item: "minecraft:stripped_cherry_wood"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>modern_industrialization/packer/wood/cherry</summary>
+
+```diff
++{
++  type: "modern_industrialization:packer"
++  duration: 100
++  eu: 2
++  item_inputs: [
++    {
++      amount: 4
++      item: "minecraft:cherry_log"
++    }
++  ]
++  item_outputs: [
++    {
++      amount: 3
++      item: "minecraft:cherry_wood"
++    }
++  ]
 +}
 
 ```
@@ -9086,7 +9286,7 @@ Summary of changes here!
 </details>
 
 <details>
-<summary>Changed (35)</summary>
+<summary>Changed (44)</summary>
 <blockquote>
 
 <details>
@@ -9116,626 +9316,6 @@ Summary of changes here!
      "1$crafting/lanterns/sourcestone_magelight_lantern"
      "1$handy_haversack"
      "1$wayfinder"
-   ]
- }
-
-```
-
-
-</details>
-
-<details>
-<summary>almostunified/modern_industrialization</summary>
-
-```diff
- {
-   type: "almostunified:client_recipe_tracker"
-   namespace: "modern_industrialization"
-   recipes: [
-     "1$alloy/mixer/bronze/dust"
-     "1$alloy/mixer/electrum/dust"
-     "1$alloy/mixer/invar/dust"
-     "1$assembler_generated/electric_age/battery/lv_battery"
-     "1$assembler_generated/electric_age/component/craft/redstone_control_module"
-     "1$assembler_generated/steam_age/bronze/cutting_machine"
-     "1$assembler_generated/steam_age/bronze/macerator"
-     "1$assembler_generated/vanilla_recipes/steel_anvil"
-     "1$compat/ae2/mixer/fluix"
-     "1$compat/mekanism/osmium_ingot_to_dust"
-     "1$compat/mekanism/osmium_ore_to_raw"
-     "1$compat/mekanism/quarry/digital_miner"
-     "1$compat/mekanism/raw_osmium_to_dust"
-     "1$electric_age/battery/lv_battery_asbl"
-     "1$electric_age/component/craft/redstone_control_module_asbl"
-     "1$electric_age/component/craft/steel_rod_magnetic"
-     "1$forge_hammer"
-     "1$materials/aluminum/assembler/gear"
-     "1$materials/aluminum/blast_furnace/dust"
-     "1$materials/aluminum/blast_furnace/tiny_dust"
-     "1$materials/aluminum/compressor/double_ingot"
-     "1$materials/aluminum/compressor/main"
-     "1$materials/aluminum/craft/dust_from_tiny_dust"
-     "1$materials/aluminum/craft/gear"
-     "1$materials/aluminum/craft/tiny_dust_from_dust"
-     "1$materials/aluminum/cutting_machine/double_ingot"
-     "1$materials/aluminum/cutting_machine/main"
-     "1$materials/aluminum/macerator/curved_plate"
-     "1$materials/aluminum/macerator/double_ingot"
-     "1$materials/aluminum/macerator/gear"
-     "1$materials/aluminum/macerator/ingot"
-     "1$materials/aluminum/macerator/large_plate"
-     "1$materials/aluminum/macerator/plate"
-     "1$materials/aluminum/macerator/rotor"
-     "1$materials/aluminum/packer/block"
-     "1$materials/aluminum/packer/dust"
-     "1$materials/aluminum/packer/ingot"
-     "1$materials/aluminum/unpacker/ingot"
-     "1$materials/aluminum/unpacker/nugget"
-     "1$materials/antimony/craft/block_from_ingot"
-     "1$materials/antimony/craft/deepslate_to_ore"
-     "1$materials/antimony/craft/ingot_from_block"
-     "1$materials/antimony/craft/ingot_from_nugget"
-     "1$materials/antimony/craft/nugget_from_ingot"
-     "1$materials/antimony/craft/raw_metal_block_from_raw_metal"
-     "1$materials/antimony/craft/raw_metal_from_raw_metal_block"
-     "1$materials/antimony/craft/tiny_dust_from_dust"
-     "1$materials/antimony/smelting/dust_to_ingot_blasting"
-     "1$materials/antimony/smelting/dust_to_ingot_smelting"
-     "1$materials/antimony/smelting/raw_metal_to_ingot_blasting"
-     "1$materials/antimony/smelting/raw_metal_to_ingot_smelting"
-     "1$materials/blast_furnace/bauxite_to_aluminum_ingot"
-     "1$materials/blast_furnace/bauxite_to_aluminum_nugget"
-     "1$materials/blast_furnace/molten_redstone"
-     "1$materials/blast_furnace/steel"
-     "1$materials/blast_furnace/steel_with_carbon"
-     "1$materials/bronze/assembler/gear"
-     "1$materials/bronze/compressor/double_ingot"
-     "1$materials/bronze/compressor/main"
-     "1$materials/bronze/craft/dust_from_tiny_dust"
-     "1$materials/bronze/craft/gear"
-     "1$materials/bronze/craft/tiny_dust_from_dust"
-     "1$materials/bronze/cutting_machine/double_ingot"
-     "1$materials/bronze/cutting_machine/main"
-     "1$materials/bronze/forge_hammer/double_ingot_to_plate"
-     "1$materials/bronze/forge_hammer/double_ingot_to_plate_with_tool"
-     "1$materials/bronze/forge_hammer/double_ingot_to_rod"
-     "1$materials/bronze/forge_hammer/double_ingot_to_rod_with_tool"
-     "1$materials/bronze/forge_hammer/ingot_to_dust"
-     "1$materials/bronze/forge_hammer/ingot_to_plate"
-     "1$materials/bronze/forge_hammer/ingot_to_plate_with_tool"
-     "1$materials/bronze/forge_hammer/ingot_to_rod"
-     "1$materials/bronze/forge_hammer/ingot_to_rod_with_tool"
-     "1$materials/bronze/macerator/curved_plate"
-     "1$materials/bronze/macerator/double_ingot"
-     "1$materials/bronze/macerator/gear"
-     "1$materials/bronze/macerator/ingot"
-     "1$materials/bronze/macerator/plate"
-     "1$materials/bronze/macerator/rotor"
-     "1$materials/bronze/packer/block"
-     "1$materials/bronze/packer/dust"
-     "1$materials/bronze/packer/ingot"
-     "1$materials/bronze/smelting/tiny_dust_to_nugget_blasting"
-     "1$materials/bronze/smelting/tiny_dust_to_nugget_smelting"
-     "1$materials/bronze/unpacker/ingot"
-     "1$materials/bronze/unpacker/nugget"
-     "1$materials/bronze_dust"
-     "1$materials/centrifuge/chromium_crushed_dust"
-     "1$materials/centrifuge/lignite_coal"
-     "1$materials/centrifuge/manganese_crushed_dust"
-     "1$materials/centrifuge/ruby_dust"
-+    "1$materials/chemical_reactor/platinum_sulfuric_solution"
-     "1$materials/coal/craft/deepslate_to_ore"
-     "1$materials/coal/craft/dust_from_tiny_dust"
-     "1$materials/coal/craft/tiny_dust_from_dust"
-     "1$materials/coal/forge_hammer/crushed_dust_to_dust_with_tool"
-     "1$materials/coal/forge_hammer/ore_to_dust_with_tool"
-     "1$materials/coal/macerator/crushed_dust"
-     "1$materials/coal/macerator/gem"
-     "1$materials/coal/packer/dust"
-     "1$materials/copper/assembler/gear"
-     "1$materials/copper/compressor/double_ingot"
-     "1$materials/copper/compressor/main"
-     "1$materials/copper/craft/deepslate_to_ore"
-     "1$materials/copper/craft/dust_from_tiny_dust"
-     "1$materials/copper/craft/gear"
-     "1$materials/copper/craft/tiny_dust_from_dust"
-     "1$materials/copper/cutting_machine/double_ingot"
-     "1$materials/copper/cutting_machine/main"
-     "1$materials/copper/forge_hammer/double_ingot_to_plate"
-     "1$materials/copper/forge_hammer/double_ingot_to_plate_with_tool"
-     "1$materials/copper/forge_hammer/double_ingot_to_rod"
-     "1$materials/copper/forge_hammer/double_ingot_to_rod_with_tool"
-     "1$materials/copper/forge_hammer/ingot_to_dust"
-     "1$materials/copper/forge_hammer/ingot_to_plate"
-     "1$materials/copper/forge_hammer/ingot_to_plate_with_tool"
-     "1$materials/copper/forge_hammer/ingot_to_rod"
-     "1$materials/copper/forge_hammer/ingot_to_rod_with_tool"
-     "1$materials/copper/forge_hammer/raw_metal_to_dust_with_tool"
-     "1$materials/copper/macerator/curved_plate"
-     "1$materials/copper/macerator/double_ingot"
-     "1$materials/copper/macerator/gear"
-     "1$materials/copper/macerator/ingot"
-     "1$materials/copper/macerator/plate"
-     "1$materials/copper/macerator/raw_metal"
-     "1$materials/copper/macerator/rotor"
-     "1$materials/copper/packer/dust"
-     "1$materials/copper/smelting/tiny_dust_to_nugget_blasting"
-     "1$materials/copper/smelting/tiny_dust_to_nugget_smelting"
-     "1$materials/copper/unpacker/nugget"
-     "1$materials/diamond/compressor/main"
-     "1$materials/diamond/craft/deepslate_to_ore"
-     "1$materials/diamond/craft/dust_from_tiny_dust"
-     "1$materials/diamond/craft/tiny_dust_from_dust"
-     "1$materials/diamond/macerator/crushed_dust"
-     "1$materials/diamond/macerator/gem"
-     "1$materials/diamond/macerator/large_plate"
-     "1$materials/diamond/macerator/plate"
-     "1$materials/diamond/packer/block"
-     "1$materials/diamond/packer/dust"
-     "1$materials/electrolyzer/bauxite"
-     "1$materials/electrolyzer/beryllium_dust"
-     "1$materials/electrolyzer/lapis"
-     "1$materials/electrolyzer/sulfuric_acid"
-     "1$materials/electrum/compressor/double_ingot"
-     "1$materials/electrum/compressor/main"
-     "1$materials/electrum/craft/dust_from_tiny_dust"
-     "1$materials/electrum/craft/tiny_dust_from_dust"
-     "1$materials/electrum/macerator/double_ingot"
-     "1$materials/electrum/macerator/ingot"
-     "1$materials/electrum/macerator/plate"
-     "1$materials/electrum/packer/block"
-     "1$materials/electrum/packer/dust"
-     "1$materials/electrum/packer/ingot"
-     "1$materials/electrum/smelting/tiny_dust_to_nugget_blasting"
-     "1$materials/electrum/smelting/tiny_dust_to_nugget_smelting"
-     "1$materials/electrum/unpacker/ingot"
-     "1$materials/electrum/unpacker/nugget"
-     "1$materials/emerald/compressor/main"
-     "1$materials/emerald/craft/deepslate_to_ore"
-     "1$materials/emerald/craft/dust_from_tiny_dust"
-     "1$materials/emerald/craft/tiny_dust_from_dust"
-     "1$materials/emerald/macerator/crushed_dust"
-     "1$materials/emerald/macerator/gem"
-     "1$materials/emerald/macerator/plate"
-     "1$materials/emerald/packer/block"
-     "1$materials/emerald/packer/dust"
-     "1$materials/forge_hammer/copper_ore_to_dust_with_tool"
-     "1$materials/gold/assembler/gear"
-     "1$materials/gold/compressor/double_ingot"
-     "1$materials/gold/compressor/main"
-     "1$materials/gold/craft/deepslate_to_ore"
-     "1$materials/gold/craft/dust_from_tiny_dust"
-     "1$materials/gold/craft/gear"
-     "1$materials/gold/craft/tiny_dust_from_dust"
-     "1$materials/gold/cutting_machine/double_ingot"
-     "1$materials/gold/cutting_machine/main"
-     "1$materials/gold/forge_hammer/double_ingot_to_plate"
-     "1$materials/gold/forge_hammer/double_ingot_to_plate_with_tool"
-     "1$materials/gold/forge_hammer/double_ingot_to_rod"
-     "1$materials/gold/forge_hammer/double_ingot_to_rod_with_tool"
-     "1$materials/gold/forge_hammer/ingot_to_dust"
-     "1$materials/gold/forge_hammer/ingot_to_plate"
-     "1$materials/gold/forge_hammer/ingot_to_plate_with_tool"
-     "1$materials/gold/forge_hammer/ingot_to_rod"
-     "1$materials/gold/forge_hammer/ingot_to_rod_with_tool"
-     "1$materials/gold/forge_hammer/ore_to_dust_with_tool"
-     "1$materials/gold/forge_hammer/raw_metal_to_dust_with_tool"
-     "1$materials/gold/macerator/curved_plate"
-     "1$materials/gold/macerator/double_ingot"
-     "1$materials/gold/macerator/gear"
-     "1$materials/gold/macerator/ingot"
-     "1$materials/gold/macerator/plate"
-     "1$materials/gold/macerator/raw_metal"
-     "1$materials/gold/packer/dust"
-     "1$materials/implosion_compressor/iridium_plate"
-     "1$materials/invar/assembler/gear"
-     "1$materials/invar/compressor/double_ingot"
-     "1$materials/invar/compressor/main"
-     "1$materials/invar/craft/dust_from_tiny_dust"
-     "1$materials/invar/craft/gear"
-     "1$materials/invar/craft/tiny_dust_from_dust"
-     "1$materials/invar/cutting_machine/double_ingot"
-     "1$materials/invar/cutting_machine/main"
-     "1$materials/invar/macerator/double_ingot"
-     "1$materials/invar/macerator/gear"
-     "1$materials/invar/macerator/ingot"
-     "1$materials/invar/macerator/large_plate"
-     "1$materials/invar/macerator/plate"
-     "1$materials/invar/packer/block"
-     "1$materials/invar/packer/dust"
-     "1$materials/invar/packer/ingot"
-     "1$materials/invar/smelting/tiny_dust_to_nugget_blasting"
-     "1$materials/invar/smelting/tiny_dust_to_nugget_smelting"
-     "1$materials/invar/unpacker/ingot"
-     "1$materials/invar/unpacker/nugget"
-     "1$materials/iridium/craft/deepslate_to_ore"
-     "1$materials/iridium/craft/dust_from_tiny_dust"
-     "1$materials/iridium/craft/tiny_dust_from_dust"
-     "1$materials/iridium/macerator/curved_plate"
-     "1$materials/iridium/macerator/ingot"
-     "1$materials/iridium/macerator/ore_to_raw"
-     "1$materials/iridium/macerator/plate"
-     "1$materials/iridium/macerator/raw_metal"
-     "1$materials/iridium/packer/block"
-     "1$materials/iridium/packer/dust"
-     "1$materials/iridium/packer/ingot"
-     "1$materials/iridium/packer/raw_metal_block"
-     "1$materials/iridium/smelting/tiny_dust_to_nugget_blasting"
-     "1$materials/iridium/smelting/tiny_dust_to_nugget_smelting"
-     "1$materials/iridium/unpacker/ingot"
-     "1$materials/iridium/unpacker/nugget"
-     "1$materials/iridium/unpacker/raw_metal"
-     "1$materials/iron/assembler/gear"
-     "1$materials/iron/compressor/double_ingot"
-     "1$materials/iron/compressor/main"
-     "1$materials/iron/craft/deepslate_to_ore"
-     "1$materials/iron/craft/dust_from_tiny_dust"
-     "1$materials/iron/craft/gear"
-     "1$materials/iron/craft/tiny_dust_from_dust"
-     "1$materials/iron/cutting_machine/double_ingot"
-     "1$materials/iron/cutting_machine/main"
-     "1$materials/iron/forge_hammer/double_ingot_to_plate"
-     "1$materials/iron/forge_hammer/double_ingot_to_plate_with_tool"
-     "1$materials/iron/forge_hammer/double_ingot_to_rod"
-     "1$materials/iron/forge_hammer/double_ingot_to_rod_with_tool"
-     "1$materials/iron/forge_hammer/ingot_to_dust"
-     "1$materials/iron/forge_hammer/ingot_to_plate"
-     "1$materials/iron/forge_hammer/ingot_to_plate_with_tool"
-     "1$materials/iron/forge_hammer/ingot_to_rod"
-     "1$materials/iron/forge_hammer/ingot_to_rod_with_tool"
-     "1$materials/iron/forge_hammer/ore_to_dust_with_tool"
-     "1$materials/iron/forge_hammer/raw_metal_to_dust_with_tool"
-     "1$materials/iron/macerator/double_ingot"
-     "1$materials/iron/macerator/gear"
-     "1$materials/iron/macerator/ingot"
-     "1$materials/iron/macerator/large_plate"
-     "1$materials/iron/macerator/plate"
-     "1$materials/iron/macerator/raw_metal"
-     "1$materials/iron/packer/dust"
-     "1$materials/lapis/craft/deepslate_to_ore"
-     "1$materials/lapis/craft/dust_from_tiny_dust"
-     "1$materials/lapis/craft/tiny_dust_from_dust"
-     "1$materials/lapis/macerator/crushed_dust"
-     "1$materials/lapis/macerator/gem"
-     "1$materials/lapis/packer/block"
-     "1$materials/lapis/packer/dust"
-     "1$materials/lead/compressor/double_ingot"
-     "1$materials/lead/compressor/main"
-     "1$materials/lead/craft/deepslate_to_ore"
-     "1$materials/lead/craft/dust_from_tiny_dust"
-     "1$materials/lead/craft/tiny_dust_from_dust"
-     "1$materials/lead/macerator/double_ingot"
-     "1$materials/lead/macerator/ingot"
-     "1$materials/lead/macerator/ore_to_raw"
-     "1$materials/lead/macerator/plate"
-     "1$materials/lead/packer/block"
-     "1$materials/lead/packer/dust"
-     "1$materials/lead/packer/ingot"
-     "1$materials/lead/packer/raw_metal_block"
-     "1$materials/lead/smelting/tiny_dust_to_nugget_blasting"
-     "1$materials/lead/smelting/tiny_dust_to_nugget_smelting"
-     "1$materials/lead/unpacker/ingot"
-     "1$materials/lead/unpacker/nugget"
-     "1$materials/lead/unpacker/raw_metal"
-     "1$materials/lignite_coal/craft/block_from_gem"
-     "1$materials/lignite_coal/craft/deepslate_to_ore"
-     "1$materials/lignite_coal/craft/gem_from_block"
-     "1$materials/lignite_coal/craft/tiny_dust_from_dust"
-     "1$materials/lignite_coal/macerator/gem"
-     "1$materials/lignite_coal/packer/block"
-     "1$materials/macerator/lead_crushed_to_dust"
-     "1$materials/macerator/lignite_coal_crushed_to_dust"
-     "1$materials/mixer/lubricant"
-     "1$materials/mixer/lubricant_oil"
-     "1$materials/nickel/compressor/double_ingot"
-     "1$materials/nickel/compressor/main"
-     "1$materials/nickel/craft/deepslate_to_ore"
-     "1$materials/nickel/craft/dust_from_tiny_dust"
-     "1$materials/nickel/craft/tiny_dust_from_dust"
-     "1$materials/nickel/macerator/double_ingot"
-     "1$materials/nickel/macerator/ingot"
-     "1$materials/nickel/macerator/ore_to_raw"
-     "1$materials/nickel/macerator/plate"
-     "1$materials/nickel/macerator/raw_metal"
-     "1$materials/nickel/packer/block"
-     "1$materials/nickel/packer/dust"
-     "1$materials/nickel/packer/ingot"
-     "1$materials/nickel/packer/raw_metal_block"
-     "1$materials/nickel/smelting/tiny_dust_to_nugget_blasting"
-     "1$materials/nickel/smelting/tiny_dust_to_nugget_smelting"
-     "1$materials/nickel/unpacker/ingot"
-     "1$materials/nickel/unpacker/nugget"
-     "1$materials/nickel/unpacker/raw_metal"
-     "1$materials/platinum/compressor/double_ingot"
-     "1$materials/platinum/compressor/main"
-     "1$materials/platinum/craft/dust_from_tiny_dust"
-     "1$materials/platinum/craft/tiny_dust_from_dust"
-     "1$materials/platinum/heat_exchanger/hot_ingot"
-     "1$materials/platinum/macerator/double_ingot"
-     "1$materials/platinum/macerator/ingot"
-     "1$materials/platinum/macerator/ore_to_raw"
-     "1$materials/platinum/macerator/plate"
-     "1$materials/platinum/packer/block"
-     "1$materials/platinum/packer/dust"
-     "1$materials/platinum/packer/ingot"
-     "1$materials/platinum/packer/raw_metal_block"
-     "1$materials/platinum/unpacker/ingot"
-     "1$materials/platinum/unpacker/nugget"
-     "1$materials/platinum/unpacker/raw_metal"
-     "1$materials/platinum/vacuum_freezer/hot_ingot"
-     "1$materials/redstone/craft/deepslate_to_ore"
-     "1$materials/redstone/craft/tiny_dust_from_dust"
-     "1$materials/redstone/packer/block"
-     "1$materials/redstone/unpacker/tiny_dust"
-     "1$materials/ruby/craft/dust_from_tiny_dust"
-     "1$materials/ruby/craft/tiny_dust_from_dust"
-     "1$materials/ruby/packer/dust"
-     "1$materials/silver/compressor/double_ingot"
-     "1$materials/silver/compressor/main"
-     "1$materials/silver/craft/dust_from_tiny_dust"
-     "1$materials/silver/craft/tiny_dust_from_dust"
-     "1$materials/silver/macerator/double_ingot"
-     "1$materials/silver/macerator/ingot"
-     "1$materials/silver/macerator/plate"
-     "1$materials/silver/macerator/raw_metal"
-     "1$materials/silver/packer/block"
-     "1$materials/silver/packer/dust"
-     "1$materials/silver/packer/ingot"
-     "1$materials/silver/packer/raw_metal_block"
-     "1$materials/silver/smelting/tiny_dust_to_nugget_blasting"
-     "1$materials/silver/smelting/tiny_dust_to_nugget_smelting"
-     "1$materials/silver/unpacker/ingot"
-     "1$materials/silver/unpacker/nugget"
-     "1$materials/silver/unpacker/raw_metal"
-     "1$materials/steel/assembler/gear"
-     "1$materials/steel/compressor/double_ingot"
-     "1$materials/steel/compressor/main"
-     "1$materials/steel/craft/dust_from_tiny_dust"
-     "1$materials/steel/craft/gear"
-     "1$materials/steel/craft/tiny_dust_from_dust"
-     "1$materials/steel/cutting_machine/double_ingot"
-     "1$materials/steel/cutting_machine/main"
-     "1$materials/steel/forge_hammer/double_ingot_to_plate"
-     "1$materials/steel/forge_hammer/double_ingot_to_plate_with_tool"
-     "1$materials/steel/forge_hammer/double_ingot_to_rod"
-     "1$materials/steel/forge_hammer/double_ingot_to_rod_with_tool"
-     "1$materials/steel/forge_hammer/ingot_to_dust"
-     "1$materials/steel/forge_hammer/ingot_to_plate"
-     "1$materials/steel/forge_hammer/ingot_to_plate_with_tool"
-     "1$materials/steel/forge_hammer/ingot_to_rod"
-     "1$materials/steel/forge_hammer/ingot_to_rod_with_tool"
-     "1$materials/steel/macerator/curved_plate"
-     "1$materials/steel/macerator/double_ingot"
-     "1$materials/steel/macerator/gear"
-     "1$materials/steel/macerator/ingot"
-     "1$materials/steel/macerator/large_plate"
-     "1$materials/steel/macerator/plate"
-     "1$materials/steel/packer/block"
-     "1$materials/steel/packer/dust"
-     "1$materials/steel/packer/ingot"
-     "1$materials/steel/smelting/rod_magnetic_to_rod_smelting"
-     "1$materials/steel/smelting/tiny_dust_to_nugget_blasting"
-     "1$materials/steel/smelting/tiny_dust_to_nugget_smelting"
-     "1$materials/steel/unpacker/ingot"
-     "1$materials/steel/unpacker/nugget"
-     "1$materials/sulfur/craft/dust_from_tiny_dust"
-     "1$materials/sulfur/craft/tiny_dust_from_dust"
-     "1$materials/sulfur/packer/block"
-     "1$materials/sulfur/packer/dust"
-     "1$materials/sulfur/unpacker/dust"
-     "1$materials/tin/assembler/gear"
-     "1$materials/tin/compressor/double_ingot"
-     "1$materials/tin/compressor/main"
-     "1$materials/tin/craft/deepslate_to_ore"
-     "1$materials/tin/craft/dust_from_tiny_dust"
-     "1$materials/tin/craft/gear"
-     "1$materials/tin/craft/tiny_dust_from_dust"
-     "1$materials/tin/cutting_machine/double_ingot"
-     "1$materials/tin/cutting_machine/main"
-     "1$materials/tin/forge_hammer/double_ingot_to_plate"
-     "1$materials/tin/forge_hammer/double_ingot_to_plate_with_tool"
-     "1$materials/tin/forge_hammer/double_ingot_to_rod"
-     "1$materials/tin/forge_hammer/double_ingot_to_rod_with_tool"
-     "1$materials/tin/forge_hammer/ingot_to_dust"
-     "1$materials/tin/forge_hammer/ingot_to_plate"
-     "1$materials/tin/forge_hammer/ingot_to_plate_with_tool"
-     "1$materials/tin/forge_hammer/ingot_to_rod"
-     "1$materials/tin/forge_hammer/ingot_to_rod_with_tool"
-     "1$materials/tin/forge_hammer/ore_to_dust_with_tool"
-     "1$materials/tin/forge_hammer/ore_to_raw_metal"
-     "1$materials/tin/forge_hammer/ore_to_raw_metal_with_tool"
-     "1$materials/tin/forge_hammer/raw_metal_to_dust_with_tool"
-     "1$materials/tin/macerator/curved_plate"
-     "1$materials/tin/macerator/double_ingot"
-     "1$materials/tin/macerator/gear"
-     "1$materials/tin/macerator/ingot"
-     "1$materials/tin/macerator/ore_to_raw"
-     "1$materials/tin/macerator/plate"
-     "1$materials/tin/macerator/raw_metal"
-     "1$materials/tin/macerator/rotor"
-     "1$materials/tin/packer/block"
-     "1$materials/tin/packer/dust"
-     "1$materials/tin/packer/ingot"
-     "1$materials/tin/packer/raw_metal_block"
-     "1$materials/tin/smelting/tiny_dust_to_nugget_blasting"
-     "1$materials/tin/smelting/tiny_dust_to_nugget_smelting"
-     "1$materials/tin/unpacker/ingot"
-     "1$materials/tin/unpacker/nugget"
-     "1$materials/tin/unpacker/raw_metal"
-     "1$materials/tungsten/craft/block_from_ingot"
-     "1$materials/tungsten/craft/deepslate_to_ore"
-     "1$materials/tungsten/craft/ingot_from_block"
-     "1$materials/tungsten/craft/ingot_from_nugget"
-     "1$materials/tungsten/craft/nugget_from_ingot"
-     "1$materials/tungsten/craft/raw_metal_block_from_raw_metal"
-     "1$materials/tungsten/craft/raw_metal_from_raw_metal_block"
-     "1$materials/tungsten/craft/tiny_dust_from_dust"
-     "1$materials/uranium/blast_furnace/dust"
-     "1$materials/uranium/blast_furnace/tiny_dust"
-     "1$materials/uranium/craft/deepslate_to_ore"
-     "1$materials/uranium/craft/dust_from_tiny_dust"
-     "1$materials/uranium/craft/tiny_dust_from_dust"
-     "1$materials/uranium/cutting_machine/main"
-     "1$materials/uranium/macerator/ingot"
-     "1$materials/uranium/macerator/ore_to_raw"
-     "1$materials/uranium/macerator/raw_metal"
-     "1$materials/uranium/packer/block"
-     "1$materials/uranium/packer/dust"
-     "1$materials/uranium/packer/ingot"
-     "1$materials/uranium/packer/raw_metal_block"
-     "1$materials/uranium/unpacker/ingot"
-     "1$materials/uranium/unpacker/nugget"
-     "1$materials/uranium/unpacker/raw_metal"
-     "1$oil/mixer/lubricant_from_plant_oil"
-     "1$quarry/allthemodium"
-     "1$quarry/bronze"
-     "1$quarry/stainless_steel"
-     "1$quarry/steel"
-     "1$quarry/titanium"
-     "1$quarry/unobtainium"
-     "1$steam_age/bronze/cutting_machine_asbl"
-     "1$steam_age/bronze/macerator_asbl"
-     "1$tools/smithing/netherite_hammer"
-     "1$tools/steam_mining_drill"
-     "1$vanilla_recipes/assembler/powered_rail"
-     "1$vanilla_recipes/centrifuge/lava"
-     "1$vanilla_recipes/chemical_reactor/waxing/copper_block"
-     "1$vanilla_recipes/compressor/diamond_from_coal"
-     "1$vanilla_recipes/lignite_torch"
-     "1$vanilla_recipes/mixer/dye/black_dye"
-     "1$vanilla_recipes/mixer/netherite"
-     "1$vanilla_recipes/mixer/red_sand"
-     "1$vanilla_recipes/oxidation/copper_block"
-     "1$vanilla_recipes/packer/detector_rail"
-     "1$vanilla_recipes/packer/glistering_melon_slice"
-     "1$vanilla_recipes/packer/golden_carrot"
-     "1$vanilla_recipes/packer/netherite"
-     "1$vanilla_recipes/steel_anvil_asbl"
-     "1$vanilla_recipes/waxing/copper_block"
-     "3$materials/aluminum/craft/block_from_ingot"
-     "3$materials/aluminum/craft/ingot_from_block"
-     "3$materials/aluminum/craft/ingot_from_nugget"
-     "3$materials/aluminum/craft/nugget_from_ingot"
-     "3$materials/antimony/smelting/ore_deepslate_to_ingot_blasting"
-     "3$materials/antimony/smelting/ore_deepslate_to_ingot_smelting"
-     "3$materials/antimony/smelting/ore_to_ingot_blasting"
-     "3$materials/antimony/smelting/ore_to_ingot_smelting"
-     "3$materials/bronze/craft/block_from_ingot"
-     "3$materials/bronze/craft/ingot_from_block"
-     "3$materials/bronze/craft/ingot_from_nugget"
-     "3$materials/bronze/craft/nugget_from_ingot"
-     "3$materials/bronze/smelting/dust_to_ingot_blasting"
-     "3$materials/bronze/smelting/dust_to_ingot_smelting"
-     "3$materials/copper/craft/ingot_from_nugget"
-     "3$materials/copper/craft/nugget_from_ingot"
-     "3$materials/copper/smelting/dust_to_ingot_blasting"
-     "3$materials/copper/smelting/dust_to_ingot_smelting"
-     "3$materials/electrum/craft/block_from_ingot"
-     "3$materials/electrum/craft/ingot_from_block"
-     "3$materials/electrum/craft/ingot_from_nugget"
-     "3$materials/electrum/craft/nugget_from_ingot"
-     "3$materials/electrum/smelting/dust_to_ingot_blasting"
-     "3$materials/electrum/smelting/dust_to_ingot_smelting"
-     "3$materials/gold/smelting/dust_to_ingot_blasting"
-     "3$materials/gold/smelting/dust_to_ingot_smelting"
-     "3$materials/invar/craft/block_from_ingot"
-     "3$materials/invar/craft/ingot_from_block"
-     "3$materials/invar/craft/ingot_from_nugget"
-     "3$materials/invar/craft/nugget_from_ingot"
-     "3$materials/invar/smelting/dust_to_ingot_blasting"
-     "3$materials/invar/smelting/dust_to_ingot_smelting"
-     "3$materials/iridium/craft/block_from_ingot"
-     "3$materials/iridium/craft/ingot_from_block"
-     "3$materials/iridium/craft/ingot_from_nugget"
-     "3$materials/iridium/craft/nugget_from_ingot"
-     "3$materials/iridium/craft/raw_metal_block_from_raw_metal"
-     "3$materials/iridium/craft/raw_metal_from_raw_metal_block"
-     "3$materials/iridium/smelting/dust_to_ingot_blasting"
-     "3$materials/iridium/smelting/dust_to_ingot_smelting"
-     "3$materials/iridium/smelting/ore_deepslate_to_ingot_blasting"
-     "3$materials/iridium/smelting/ore_deepslate_to_ingot_smelting"
-     "3$materials/iridium/smelting/ore_to_ingot_blasting"
-     "3$materials/iridium/smelting/ore_to_ingot_smelting"
-     "3$materials/iridium/smelting/raw_metal_to_ingot_blasting"
-     "3$materials/iridium/smelting/raw_metal_to_ingot_smelting"
-     "3$materials/iron/smelting/dust_to_ingot_blasting"
-     "3$materials/iron/smelting/dust_to_ingot_smelting"
-     "3$materials/lead/craft/block_from_ingot"
-     "3$materials/lead/craft/ingot_from_block"
-     "3$materials/lead/craft/ingot_from_nugget"
-     "3$materials/lead/craft/nugget_from_ingot"
-     "3$materials/lead/craft/raw_metal_block_from_raw_metal"
-     "3$materials/lead/craft/raw_metal_from_raw_metal_block"
-     "3$materials/lead/smelting/dust_to_ingot_blasting"
-     "3$materials/lead/smelting/dust_to_ingot_smelting"
-     "3$materials/lead/smelting/ore_deepslate_to_ingot_blasting"
-     "3$materials/lead/smelting/ore_deepslate_to_ingot_smelting"
-     "3$materials/lead/smelting/ore_to_ingot_blasting"
-     "3$materials/lead/smelting/ore_to_ingot_smelting"
-     "3$materials/lead/smelting/raw_metal_to_ingot_blasting"
-     "3$materials/lead/smelting/raw_metal_to_ingot_smelting"
-     "3$materials/lignite_coal/smelting/ore_deepslate_to_gem_blasting"
-     "3$materials/lignite_coal/smelting/ore_deepslate_to_gem_smelting"
-     "3$materials/lignite_coal/smelting/ore_to_gem_blasting"
-     "3$materials/lignite_coal/smelting/ore_to_gem_smelting"
-     "3$materials/nickel/craft/block_from_ingot"
-     "3$materials/nickel/craft/ingot_from_block"
-     "3$materials/nickel/craft/ingot_from_nugget"
-     "3$materials/nickel/craft/nugget_from_ingot"
-     "3$materials/nickel/craft/raw_metal_block_from_raw_metal"
-     "3$materials/nickel/craft/raw_metal_from_raw_metal_block"
-     "3$materials/nickel/smelting/dust_to_ingot_blasting"
-     "3$materials/nickel/smelting/dust_to_ingot_smelting"
-     "3$materials/nickel/smelting/ore_deepslate_to_ingot_blasting"
-     "3$materials/nickel/smelting/ore_deepslate_to_ingot_smelting"
-     "3$materials/nickel/smelting/ore_to_ingot_blasting"
-     "3$materials/nickel/smelting/ore_to_ingot_smelting"
-     "3$materials/nickel/smelting/raw_metal_to_ingot_blasting"
-     "3$materials/nickel/smelting/raw_metal_to_ingot_smelting"
-     "3$materials/platinum/craft/block_from_ingot"
-     "3$materials/platinum/craft/ingot_from_block"
-     "3$materials/platinum/craft/ingot_from_nugget"
-     "3$materials/platinum/craft/nugget_from_ingot"
-     "3$materials/platinum/craft/raw_metal_block_from_raw_metal"
-     "3$materials/platinum/craft/raw_metal_from_raw_metal_block"
-     "3$materials/silver/craft/block_from_ingot"
-     "3$materials/silver/craft/ingot_from_block"
-     "3$materials/silver/craft/ingot_from_nugget"
-     "3$materials/silver/craft/nugget_from_ingot"
-     "3$materials/silver/craft/raw_metal_block_from_raw_metal"
-     "3$materials/silver/craft/raw_metal_from_raw_metal_block"
-     "3$materials/silver/smelting/dust_to_ingot_blasting"
-     "3$materials/silver/smelting/dust_to_ingot_smelting"
-     "3$materials/silver/smelting/raw_metal_to_ingot_blasting"
-     "3$materials/silver/smelting/raw_metal_to_ingot_smelting"
-     "3$materials/steel/craft/block_from_ingot"
-     "3$materials/steel/craft/ingot_from_block"
-     "3$materials/steel/craft/ingot_from_nugget"
-     "3$materials/steel/craft/nugget_from_ingot"
-     "3$materials/steel/smelting/dust_to_ingot_blasting"
-     "3$materials/steel/smelting/dust_to_ingot_smelting"
-     "3$materials/sulfur/craft/block_from_dust"
-     "3$materials/sulfur/craft/dust_from_block"
-     "3$materials/tin/craft/block_from_ingot"
-     "3$materials/tin/craft/ingot_from_block"
-     "3$materials/tin/craft/ingot_from_nugget"
-     "3$materials/tin/craft/nugget_from_ingot"
-     "3$materials/tin/craft/raw_metal_block_from_raw_metal"
-     "3$materials/tin/craft/raw_metal_from_raw_metal_block"
-     "3$materials/tin/smelting/dust_to_ingot_blasting"
-     "3$materials/tin/smelting/dust_to_ingot_smelting"
-     "3$materials/tin/smelting/ore_deepslate_to_ingot_blasting"
-     "3$materials/tin/smelting/ore_deepslate_to_ingot_smelting"
-     "3$materials/tin/smelting/ore_to_ingot_blasting"
-     "3$materials/tin/smelting/ore_to_ingot_smelting"
-     "3$materials/tin/smelting/raw_metal_to_ingot_blasting"
-     "3$materials/tin/smelting/raw_metal_to_ingot_smelting"
-     "3$materials/uranium/craft/block_from_ingot"
-     "3$materials/uranium/craft/ingot_from_block"
-     "3$materials/uranium/craft/ingot_from_nugget"
-     "3$materials/uranium/craft/nugget_from_ingot"
-     "3$materials/uranium/craft/raw_metal_block_from_raw_metal"
-     "3$materials/uranium/craft/raw_metal_from_raw_metal_block"
    ]
  }
 
@@ -10281,77 +9861,26 @@ Summary of changes here!
 </details>
 
 <details>
-<summary>modern_industrialization/materials/annealed_copper/heat_exchanger/hot_ingot</summary>
+<summary>extended_industrialization/vanilla_recipes/blast_furnace/crystallized_honey</summary>
 
 ```diff
  {
-   type: "modern_industrialization:heat_exchanger"
-   duration: 10
-   eu: 8
-   fluid_inputs: [
-     {
--      amount: 20
-+      amount: 100
-       fluid: "modern_industrialization:cryofluid"
-     }
-   ]
-   fluid_outputs: [
-     {
--      amount: 13
-+      amount: 65
-       fluid: "modern_industrialization:argon"
-     }
-     {
--      amount: 5
-+      amount: 25
-       fluid: "modern_industrialization:helium"
-     }
-   ]
-   item_inputs: [
-     {
-       amount: 1
-       item: "modern_industrialization:annealed_copper_hot_ingot"
-     }
-   ]
-   item_outputs: [
-     {
-       amount: 1
-       item: "modern_industrialization:annealed_copper_ingot"
-     }
-   ]
- }
-
-```
-
-
-</details>
-
-<details>
-<summary>modern_industrialization/materials/chemical_reactor/platinum_sulfuric_solution</summary>
-
-```diff
- {
-   type: "modern_industrialization:chemical_reactor"
-   eu: 8
+   type: "modern_industrialization:blast_furnace"
    duration: 200
--  item_inputs: {
--    tag: "c:raw_materials/platinum"
--    amount: 1
--  }
-+  item_inputs: [
-+    {
-+      amount: 1
-+      tag: "c:raw_materials/platinum"
-+    }
-+  ]
-   fluid_inputs: {
-     fluid: "modern_industrialization:sulfuric_acid"
-     amount: 9000
-   }
-   fluid_outputs: {
-     fluid: "modern_industrialization:platinum_sulfuric_solution"
-     amount: 9000
-   }
+   eu: 2
+   fluid_inputs: [
+     {
+-      fluid: "extended_industrialization:honey"
++      tag: "c:honey"
+       amount: 250
+     }
+   ]
+   item_outputs: [
+     {
+       amount: 3
+       item: "extended_industrialization:crystallized_honey"
+     }
+   ]
  }
 
 ```
@@ -10360,42 +9889,30 @@ Summary of changes here!
 </details>
 
 <details>
-<summary>modern_industrialization/materials/chromium/heat_exchanger/hot_ingot</summary>
+<summary>extended_industrialization/vanilla_recipes/mixer/waxing_with_honey/copper_block</summary>
 
 ```diff
  {
-   type: "modern_industrialization:heat_exchanger"
-   duration: 10
-   eu: 8
+   type: "modern_industrialization:mixer"
+   duration: 100
+   eu: 2
    fluid_inputs: [
      {
--      amount: 20
-+      amount: 100
-       fluid: "modern_industrialization:cryofluid"
-     }
-   ]
-   fluid_outputs: [
-     {
--      amount: 13
-+      amount: 65
-       fluid: "modern_industrialization:argon"
-     }
-     {
--      amount: 5
-+      amount: 25
-       fluid: "modern_industrialization:helium"
+-      fluid: "extended_industrialization:honey"
++      tag: "c:honey"
+       amount: 1
      }
    ]
    item_inputs: [
      {
        amount: 1
-       item: "modern_industrialization:chromium_hot_ingot"
+       tag: "c:storage_blocks/copper"
      }
    ]
    item_outputs: [
      {
        amount: 1
-       item: "modern_industrialization:chromium_ingot"
+       item: "minecraft:waxed_copper_block"
      }
    ]
  }
@@ -10406,42 +9923,30 @@ Summary of changes here!
 </details>
 
 <details>
-<summary>modern_industrialization/materials/kanthal/heat_exchanger/hot_ingot</summary>
+<summary>extended_industrialization/vanilla_recipes/mixer/waxing_with_honey/cut_copper</summary>
 
 ```diff
  {
-   type: "modern_industrialization:heat_exchanger"
-   duration: 10
-   eu: 8
+   type: "modern_industrialization:mixer"
+   duration: 100
+   eu: 2
    fluid_inputs: [
      {
--      amount: 20
-+      amount: 100
-       fluid: "modern_industrialization:cryofluid"
-     }
-   ]
-   fluid_outputs: [
-     {
--      amount: 13
-+      amount: 65
-       fluid: "modern_industrialization:argon"
-     }
-     {
--      amount: 5
-+      amount: 25
-       fluid: "modern_industrialization:helium"
+-      fluid: "extended_industrialization:honey"
++      tag: "c:honey"
+       amount: 1
      }
    ]
    item_inputs: [
      {
        amount: 1
-       item: "modern_industrialization:kanthal_hot_ingot"
+       item: "minecraft:cut_copper"
      }
    ]
    item_outputs: [
      {
        amount: 1
-       item: "modern_industrialization:kanthal_ingot"
+       item: "minecraft:waxed_cut_copper"
      }
    ]
  }
@@ -10452,42 +9957,30 @@ Summary of changes here!
 </details>
 
 <details>
-<summary>modern_industrialization/materials/platinum/heat_exchanger/hot_ingot</summary>
+<summary>extended_industrialization/vanilla_recipes/mixer/waxing_with_honey/cut_copper_slab</summary>
 
 ```diff
  {
-   type: "modern_industrialization:heat_exchanger"
-   duration: 10
-   eu: 8
+   type: "modern_industrialization:mixer"
+   duration: 100
+   eu: 2
    fluid_inputs: [
      {
--      amount: 20
-+      amount: 100
-       fluid: "modern_industrialization:cryofluid"
-     }
-   ]
-   fluid_outputs: [
-     {
--      amount: 13
-+      amount: 65
-       fluid: "modern_industrialization:argon"
-     }
-     {
--      amount: 5
-+      amount: 25
-       fluid: "modern_industrialization:helium"
+-      fluid: "extended_industrialization:honey"
++      tag: "c:honey"
+       amount: 1
      }
    ]
    item_inputs: [
      {
        amount: 1
-       item: "modern_industrialization:platinum_hot_ingot"
+       item: "minecraft:cut_copper_slab"
      }
    ]
    item_outputs: [
      {
        amount: 1
-       item: "alltheores:platinum_ingot"
+       item: "minecraft:waxed_cut_copper_slab"
      }
    ]
  }
@@ -10498,42 +9991,30 @@ Summary of changes here!
 </details>
 
 <details>
-<summary>modern_industrialization/materials/stainless_steel/heat_exchanger/hot_ingot</summary>
+<summary>extended_industrialization/vanilla_recipes/mixer/waxing_with_honey/cut_copper_stairs</summary>
 
 ```diff
  {
-   type: "modern_industrialization:heat_exchanger"
-   duration: 10
-   eu: 8
+   type: "modern_industrialization:mixer"
+   duration: 100
+   eu: 2
    fluid_inputs: [
      {
--      amount: 20
-+      amount: 100
-       fluid: "modern_industrialization:cryofluid"
-     }
-   ]
-   fluid_outputs: [
-     {
--      amount: 13
-+      amount: 65
-       fluid: "modern_industrialization:argon"
-     }
-     {
--      amount: 5
-+      amount: 25
-       fluid: "modern_industrialization:helium"
+-      fluid: "extended_industrialization:honey"
++      tag: "c:honey"
+       amount: 1
      }
    ]
    item_inputs: [
      {
        amount: 1
-       item: "modern_industrialization:stainless_steel_hot_ingot"
+       item: "minecraft:cut_copper_stairs"
      }
    ]
    item_outputs: [
      {
        amount: 1
-       item: "modern_industrialization:stainless_steel_ingot"
+       item: "minecraft:waxed_cut_copper_stairs"
      }
    ]
  }
@@ -10544,42 +10025,30 @@ Summary of changes here!
 </details>
 
 <details>
-<summary>modern_industrialization/materials/superconductor/heat_exchanger/hot_ingot</summary>
+<summary>extended_industrialization/vanilla_recipes/mixer/waxing_with_honey/exposed_copper</summary>
 
 ```diff
  {
-   type: "modern_industrialization:heat_exchanger"
-   duration: 10
-   eu: 8
+   type: "modern_industrialization:mixer"
+   duration: 100
+   eu: 2
    fluid_inputs: [
      {
--      amount: 20
-+      amount: 100
-       fluid: "modern_industrialization:cryofluid"
-     }
-   ]
-   fluid_outputs: [
-     {
--      amount: 13
-+      amount: 65
-       fluid: "modern_industrialization:argon"
-     }
-     {
--      amount: 5
-+      amount: 25
-       fluid: "modern_industrialization:helium"
+-      fluid: "extended_industrialization:honey"
++      tag: "c:honey"
+       amount: 1
      }
    ]
    item_inputs: [
      {
        amount: 1
-       item: "modern_industrialization:superconductor_hot_ingot"
+       item: "minecraft:exposed_copper"
      }
    ]
    item_outputs: [
      {
        amount: 1
-       item: "modern_industrialization:superconductor_ingot"
+       item: "minecraft:waxed_exposed_copper"
      }
    ]
  }
@@ -10590,42 +10059,30 @@ Summary of changes here!
 </details>
 
 <details>
-<summary>modern_industrialization/materials/titanium/heat_exchanger/hot_ingot</summary>
+<summary>extended_industrialization/vanilla_recipes/mixer/waxing_with_honey/exposed_cut_copper</summary>
 
 ```diff
  {
-   type: "modern_industrialization:heat_exchanger"
-   duration: 10
-   eu: 8
+   type: "modern_industrialization:mixer"
+   duration: 100
+   eu: 2
    fluid_inputs: [
      {
--      amount: 20
-+      amount: 100
-       fluid: "modern_industrialization:cryofluid"
-     }
-   ]
-   fluid_outputs: [
-     {
--      amount: 13
-+      amount: 65
-       fluid: "modern_industrialization:argon"
-     }
-     {
--      amount: 5
-+      amount: 25
-       fluid: "modern_industrialization:helium"
+-      fluid: "extended_industrialization:honey"
++      tag: "c:honey"
+       amount: 1
      }
    ]
    item_inputs: [
      {
        amount: 1
-       item: "modern_industrialization:titanium_hot_ingot"
+       item: "minecraft:exposed_cut_copper"
      }
    ]
    item_outputs: [
      {
        amount: 1
-       item: "modern_industrialization:titanium_ingot"
+       item: "minecraft:waxed_exposed_cut_copper"
      }
    ]
  }
@@ -10636,31 +10093,366 @@ Summary of changes here!
 </details>
 
 <details>
-<summary>modern_industrialization/materials/vacuum_freezer/cryofluid</summary>
+<summary>extended_industrialization/vanilla_recipes/mixer/waxing_with_honey/exposed_cut_copper_slab</summary>
+
+```diff
+ {
+   type: "modern_industrialization:mixer"
+   duration: 100
+   eu: 2
+   fluid_inputs: [
+     {
+-      fluid: "extended_industrialization:honey"
++      tag: "c:honey"
+       amount: 1
+     }
+   ]
+   item_inputs: [
+     {
+       amount: 1
+       item: "minecraft:exposed_cut_copper_slab"
+     }
+   ]
+   item_outputs: [
+     {
+       amount: 1
+       item: "minecraft:waxed_exposed_cut_copper_slab"
+     }
+   ]
+ }
+
+```
+
+
+</details>
+
+<details>
+<summary>extended_industrialization/vanilla_recipes/mixer/waxing_with_honey/exposed_cut_copper_stairs</summary>
+
+```diff
+ {
+   type: "modern_industrialization:mixer"
+   duration: 100
+   eu: 2
+   fluid_inputs: [
+     {
+-      fluid: "extended_industrialization:honey"
++      tag: "c:honey"
+       amount: 1
+     }
+   ]
+   item_inputs: [
+     {
+       amount: 1
+       item: "minecraft:exposed_cut_copper_stairs"
+     }
+   ]
+   item_outputs: [
+     {
+       amount: 1
+       item: "minecraft:waxed_exposed_cut_copper_stairs"
+     }
+   ]
+ }
+
+```
+
+
+</details>
+
+<details>
+<summary>extended_industrialization/vanilla_recipes/mixer/waxing_with_honey/oxidized_copper</summary>
+
+```diff
+ {
+   type: "modern_industrialization:mixer"
+   duration: 100
+   eu: 2
+   fluid_inputs: [
+     {
+-      fluid: "extended_industrialization:honey"
++      tag: "c:honey"
+       amount: 1
+     }
+   ]
+   item_inputs: [
+     {
+       amount: 1
+       item: "minecraft:oxidized_copper"
+     }
+   ]
+   item_outputs: [
+     {
+       amount: 1
+       item: "minecraft:waxed_oxidized_copper"
+     }
+   ]
+ }
+
+```
+
+
+</details>
+
+<details>
+<summary>extended_industrialization/vanilla_recipes/mixer/waxing_with_honey/oxidized_cut_copper</summary>
+
+```diff
+ {
+   type: "modern_industrialization:mixer"
+   duration: 100
+   eu: 2
+   fluid_inputs: [
+     {
+-      fluid: "extended_industrialization:honey"
++      tag: "c:honey"
+       amount: 1
+     }
+   ]
+   item_inputs: [
+     {
+       amount: 1
+       item: "minecraft:oxidized_cut_copper"
+     }
+   ]
+   item_outputs: [
+     {
+       amount: 1
+       item: "minecraft:waxed_oxidized_cut_copper"
+     }
+   ]
+ }
+
+```
+
+
+</details>
+
+<details>
+<summary>extended_industrialization/vanilla_recipes/mixer/waxing_with_honey/oxidized_cut_copper_slab</summary>
+
+```diff
+ {
+   type: "modern_industrialization:mixer"
+   duration: 100
+   eu: 2
+   fluid_inputs: [
+     {
+-      fluid: "extended_industrialization:honey"
++      tag: "c:honey"
+       amount: 1
+     }
+   ]
+   item_inputs: [
+     {
+       amount: 1
+       item: "minecraft:oxidized_cut_copper_slab"
+     }
+   ]
+   item_outputs: [
+     {
+       amount: 1
+       item: "minecraft:waxed_oxidized_cut_copper_slab"
+     }
+   ]
+ }
+
+```
+
+
+</details>
+
+<details>
+<summary>extended_industrialization/vanilla_recipes/mixer/waxing_with_honey/oxidized_cut_copper_stairs</summary>
+
+```diff
+ {
+   type: "modern_industrialization:mixer"
+   duration: 100
+   eu: 2
+   fluid_inputs: [
+     {
+-      fluid: "extended_industrialization:honey"
++      tag: "c:honey"
+       amount: 1
+     }
+   ]
+   item_inputs: [
+     {
+       amount: 1
+       item: "minecraft:oxidized_cut_copper_stairs"
+     }
+   ]
+   item_outputs: [
+     {
+       amount: 1
+       item: "minecraft:waxed_oxidized_cut_copper_stairs"
+     }
+   ]
+ }
+
+```
+
+
+</details>
+
+<details>
+<summary>extended_industrialization/vanilla_recipes/mixer/waxing_with_honey/weathered_copper</summary>
+
+```diff
+ {
+   type: "modern_industrialization:mixer"
+   duration: 100
+   eu: 2
+   fluid_inputs: [
+     {
+-      fluid: "extended_industrialization:honey"
++      tag: "c:honey"
+       amount: 1
+     }
+   ]
+   item_inputs: [
+     {
+       amount: 1
+       item: "minecraft:weathered_copper"
+     }
+   ]
+   item_outputs: [
+     {
+       amount: 1
+       item: "minecraft:waxed_weathered_copper"
+     }
+   ]
+ }
+
+```
+
+
+</details>
+
+<details>
+<summary>extended_industrialization/vanilla_recipes/mixer/waxing_with_honey/weathered_cut_copper</summary>
+
+```diff
+ {
+   type: "modern_industrialization:mixer"
+   duration: 100
+   eu: 2
+   fluid_inputs: [
+     {
+-      fluid: "extended_industrialization:honey"
++      tag: "c:honey"
+       amount: 1
+     }
+   ]
+   item_inputs: [
+     {
+       amount: 1
+       item: "minecraft:weathered_cut_copper"
+     }
+   ]
+   item_outputs: [
+     {
+       amount: 1
+       item: "minecraft:waxed_weathered_cut_copper"
+     }
+   ]
+ }
+
+```
+
+
+</details>
+
+<details>
+<summary>extended_industrialization/vanilla_recipes/mixer/waxing_with_honey/weathered_cut_copper_slab</summary>
+
+```diff
+ {
+   type: "modern_industrialization:mixer"
+   duration: 100
+   eu: 2
+   fluid_inputs: [
+     {
+-      fluid: "extended_industrialization:honey"
++      tag: "c:honey"
+       amount: 1
+     }
+   ]
+   item_inputs: [
+     {
+       amount: 1
+       item: "minecraft:weathered_cut_copper_slab"
+     }
+   ]
+   item_outputs: [
+     {
+       amount: 1
+       item: "minecraft:waxed_weathered_cut_copper_slab"
+     }
+   ]
+ }
+
+```
+
+
+</details>
+
+<details>
+<summary>extended_industrialization/vanilla_recipes/mixer/waxing_with_honey/weathered_cut_copper_stairs</summary>
+
+```diff
+ {
+   type: "modern_industrialization:mixer"
+   duration: 100
+   eu: 2
+   fluid_inputs: [
+     {
+-      fluid: "extended_industrialization:honey"
++      tag: "c:honey"
+       amount: 1
+     }
+   ]
+   item_inputs: [
+     {
+       amount: 1
+       item: "minecraft:weathered_cut_copper_stairs"
+     }
+   ]
+   item_outputs: [
+     {
+       amount: 1
+       item: "minecraft:waxed_weathered_cut_copper_stairs"
+     }
+   ]
+ }
+
+```
+
+
+</details>
+
+<details>
+<summary>extended_industrialization/vanilla_recipes/vacuum_freezer/honey_block</summary>
 
 ```diff
  {
    type: "modern_industrialization:vacuum_freezer"
--  eu: 256
-+  eu: 64
-   duration: 250
+   duration: 200
+   eu: 16
    fluid_inputs: [
      {
-       fluid: "modern_industrialization:argon"
--      amount: 140
-+      amount: 35
-     }
-     {
-       fluid: "modern_industrialization:helium"
--      amount: 60
-+      amount: 15
+-      fluid: "extended_industrialization:honey"
++      tag: "c:honey"
+       amount: 1000
      }
    ]
-   fluid_outputs: {
-     fluid: "modern_industrialization:cryofluid"
--    amount: 200
-+    amount: 50
-   }
+   item_outputs: [
+     {
+       amount: 1
+       item: "minecraft:honey_block"
+     }
+   ]
  }
 
 ```
@@ -10892,6 +10684,48 @@ Summary of changes here!
      count: 1
      id: "sfm:water_tank"
    }
+ }
+
+```
+
+
+</details>
+
+<details>
+<summary>supplementaries/bubble_blower_charge</summary>
+
+```diff
+ {
++  can_overfill: true
+   fabric:load_conditions: [
+     {
+       condition: "supplementaries:flag"
+       flag: "bubble_blower"
+     }
+     {
+       condition: "supplementaries:flag"
+       flag: "soap"
+     }
+   ]
+   neoforge:conditions: [
+     {
+       type: "supplementaries:flag"
+       flag: "bubble_blower"
+     }
+     {
+       type: "supplementaries:flag"
+       flag: "soap"
+     }
+   ]
+   type: "supplementaries:add_charges"
+   ingredient: {
+     item: "supplementaries:bubble_blower"
+   }
+   charge: {
+     item: "supplementaries:soap"
+   }
+   charges_per_item: 250
+   result: "supplementaries:bubble_blower"
  }
 
 ```
@@ -11248,7 +11082,7 @@ Summary of changes here!
 ## 🏷️ Tags
 
 <details>
-<summary>Added (56)</summary>
+<summary>Added (57)</summary>
 <blockquote>
 
 <details>
@@ -12175,6 +12009,19 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>minecraft:item/werewolves:werewolf_food</summary>
+
+```diff
++[
++  "relics:infinity_ham"
++]
+
+```
+
+
+</details>
+
+<details>
 <summary>minecraft:worldgen/structure/ars_additions:trial_chambers</summary>
 
 ```diff
@@ -12192,7 +12039,7 @@ Summary of changes here!
 </details>
 
 <details>
-<summary>Changed (39)</summary>
+<summary>Changed (57)</summary>
 <blockquote>
 
 <details>
@@ -12820,6 +12667,21 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>minecraft:fluid/c:honey</summary>
+
+```diff
+ [
+   ... (5 entries)
++  "extended_industrialization:honey"
+   ... (2 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
 <summary>minecraft:item/c:armors</summary>
 
 ```diff
@@ -12847,6 +12709,206 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>minecraft:item/c:clumps</summary>
+
+```diff
+ [
+   ... (13 entries)
+-  "allthemodium:allthemodium_clump"
+-  "allthemodium:unobtainium_clump"
+-  "allthemodium:vibranium_clump"
++  "allthemodium:allthemodium_clump?"
++  "allthemodium:unobtainium_clump?"
++  "allthemodium:vibranium_clump?"
+   ... (2 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:clumps/allthemodium</summary>
+
+```diff
+ [
+-  "allthemodium:allthemodium_clump"
++  "allthemodium:allthemodium_clump?"
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:clumps/unobtainium</summary>
+
+```diff
+ [
+-  "allthemodium:unobtainium_clump"
++  "allthemodium:unobtainium_clump?"
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:clumps/vibranium</summary>
+
+```diff
+ [
+-  "allthemodium:vibranium_clump"
++  "allthemodium:vibranium_clump?"
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:crystals</summary>
+
+```diff
+ [
+   ... (13 entries)
+-  "allthemodium:allthemodium_crystal"
+-  "allthemodium:unobtainium_crystal"
+-  "allthemodium:vibranium_crystal"
++  "allthemodium:allthemodium_crystal?"
++  "allthemodium:unobtainium_crystal?"
++  "allthemodium:vibranium_crystal?"
+   ... (2 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:crystals/allthemodium</summary>
+
+```diff
+ [
+-  "allthemodium:allthemodium_crystal"
++  "allthemodium:allthemodium_crystal?"
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:crystals/unobtainium</summary>
+
+```diff
+ [
+-  "allthemodium:unobtainium_crystal"
++  "allthemodium:unobtainium_crystal?"
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:crystals/vibranium</summary>
+
+```diff
+ [
+-  "allthemodium:vibranium_crystal"
++  "allthemodium:vibranium_crystal?"
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:dirty_dusts</summary>
+
+```diff
+ [
+   ... (13 entries)
+-  "allthemodium:dirty_allthemodium_dust"
+-  "allthemodium:dirty_unobtainium_dust"
+-  "allthemodium:dirty_vibranium_dust"
++  "allthemodium:dirty_allthemodium_dust?"
++  "allthemodium:dirty_unobtainium_dust?"
++  "allthemodium:dirty_vibranium_dust?"
+   ... (2 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:dirty_dusts/allthemodium</summary>
+
+```diff
+ [
+-  "allthemodium:dirty_allthemodium_dust"
++  "allthemodium:dirty_allthemodium_dust?"
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:dirty_dusts/unobtainium</summary>
+
+```diff
+ [
+-  "allthemodium:dirty_unobtainium_dust"
++  "allthemodium:dirty_unobtainium_dust?"
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:dirty_dusts/vibranium</summary>
+
+```diff
+ [
+-  "allthemodium:dirty_vibranium_dust"
++  "allthemodium:dirty_vibranium_dust?"
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:ingots/unobtainium_allthemodium_alloy</summary>
+
+```diff
+ [
+   ... (1 entries)
++  "allthemodium:unobtainium_allthemodium_alloy_ingot"
+ ]
+
+```
+
+
+</details>
+
+<details>
 <summary>minecraft:item/c:seeds</summary>
 
 ```diff
@@ -12854,6 +12916,68 @@ Summary of changes here!
    ... (118 entries)
 -  "forbidden_arcanus:golden_orchid_seeds"
    ... (22 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:shards</summary>
+
+```diff
+ [
+   ... (13 entries)
+-  "allthemodium:allthemodium_shard"
+-  "allthemodium:unobtainium_shard"
+-  "allthemodium:vibranium_shard"
++  "allthemodium:allthemodium_shard?"
++  "allthemodium:unobtainium_shard?"
++  "allthemodium:vibranium_shard?"
+   ... (2 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:shards/allthemodium</summary>
+
+```diff
+ [
+-  "allthemodium:allthemodium_shard"
++  "allthemodium:allthemodium_shard?"
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:shards/unobtainium</summary>
+
+```diff
+ [
+-  "allthemodium:unobtainium_shard"
++  "allthemodium:unobtainium_shard?"
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:shards/vibranium</summary>
+
+```diff
+ [
+-  "allthemodium:vibranium_shard"
++  "allthemodium:vibranium_shard?"
  ]
 
 ```
@@ -12915,24 +13039,6 @@ Summary of changes here!
 -  "ars_nouveau:battlemage_robes"
 -  "ars_nouveau:sorcerer_robes"
    ... (67 entries)
- ]
-
-```
-
-
-</details>
-
-<details>
-<summary>minecraft:item/minecraft:enchantable/durability</summary>
-
-```diff
- [
-   ... (102 entries)
--  "modern_industrialization:diamond_hammer"
--  "modern_industrialization:iron_hammer"
--  "modern_industrialization:netherite_hammer"
--  "modern_industrialization:steel_hammer"
-   ... (72 entries)
  ]
 
 ```
@@ -13182,6 +13288,22 @@ Summary of changes here!
 +  "mcwfences:warped_wired_fence"
 +  "mcwfences:wooden_cheval_de_frise"
    ... (208 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/supplementaries:lunch_basket_blacklist</summary>
+
+```diff
+ [
++  "ars_nouveau:potion_flask?"
++  "ars_nouveau:potion_flask_amplify?"
++  "ars_nouveau:potion_flask_extend_time?"
+   ... (2 entries)
  ]
 
 ```
@@ -13441,21 +13563,6 @@ Summary of changes here!
    ... (143 entries)
 +  "twilightforest:ominous_candle"
    ... (53 entries)
- ]
-
-```
-
-
-</details>
-
-<details>
-<summary>dimension</summary>
-
-```diff
- [
-   ... (6 entries)
--  "hyperbox:747e03c1-e6b7-453b-ad58-549f8f0e9d14/firebox"
-   ... (7 entries)
  ]
 
 ```
@@ -13729,6 +13836,21 @@ Summary of changes here!
 
 </details>
 
+<details>
+<summary>worldgen/structure</summary>
+
+```diff
+ [
+   ... (456 entries)
+-  "mvs:houses/medium_igloo_2"
+   ... (370 entries)
+ ]
+
+```
+
+
+</details>
+
 </blockquote>
 
 </details>
@@ -13736,7 +13858,7 @@ Summary of changes here!
 ## 🗝️ Loot Table
 
 <details>
-<summary>Added (94)</summary>
+<summary>Added (95)</summary>
 <blockquote>
 
 <details>
@@ -18703,6 +18825,78 @@ Summary of changes here!
 +    }
 +  ]
 +  random_sequence: "sfm:blocks/fancy_cable_facade"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/supplementaries/blocks/cannonball</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      rolls: 1
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:item"
++          functions: [
++            {
++              function: "minecraft:set_count"
++              conditions: [
++                {
++                  condition: "minecraft:block_state_property"
++                  block: "supplementaries:cannonball"
++                  properties: {
++                    balls: "2"
++                  }
++                }
++              ]
++              count: 2
++              add: false
++            }
++            {
++              function: "minecraft:set_count"
++              conditions: [
++                {
++                  condition: "minecraft:block_state_property"
++                  block: "supplementaries:cannonball"
++                  properties: {
++                    balls: "3"
++                  }
++                }
++              ]
++              count: 3
++              add: false
++            }
++            {
++              function: "minecraft:set_count"
++              conditions: [
++                {
++                  condition: "minecraft:block_state_property"
++                  block: "supplementaries:cannonball"
++                  properties: {
++                    balls: "4"
++                  }
++                }
++              ]
++              count: 4
++              add: false
++            }
++            {
++              function: "minecraft:explosion_decay"
++            }
++          ]
++          name: "supplementaries:cannonball"
++        }
++      ]
++    }
++  ]
 +}
 
 ```

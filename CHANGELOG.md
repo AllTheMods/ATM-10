@@ -4,7 +4,7 @@
 In-depth changelog of the new versions of the pack.
 
 _Note: use some browser extension like [Markdown Viewer](https://chromewebstore.google.com/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk) if changelog is too big._
-## 📦 [2.42] - 🗓️ 2025-03-31
+## 📦 [2.42] - 🗓️ 2025-04-02
 
 ## 📦 [2.41] - 🗓️ 2025-03-16
 
