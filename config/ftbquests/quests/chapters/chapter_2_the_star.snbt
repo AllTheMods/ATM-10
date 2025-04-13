@@ -454,15 +454,13 @@
 		{
 			dependencies: [
 				"5869E198DA416346"
-				"42AF4EBDA5D6CC36"
 				"39F9C825B03DA317"
 				"45D10F53CA18B8EE"
-				"0923C941A9696122"
 				"0848056FDD3F9BDA"
 				"6A12188E50EAEB78"
+				"72266912E3FBA7F9"
 			]
 			id: "36DF0D83EBC2B6A9"
-			min_required_dependencies: 6
 			rewards: [
 				{
 					id: "27B9039F5119A16E"
@@ -4277,6 +4275,24 @@
 			}]
 			x: -11.232142857142854d
 			y: 10.642857142857146d
+		}
+		{
+			dependencies: [
+				"42AF4EBDA5D6CC36"
+				"0923C941A9696122"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "72266912E3FBA7F9"
+			size: 1.25d
+			tasks: [{
+				id: "6BD666BC1D3E0561"
+				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:blastproof_casing)item(megacells:portable_item_cell_256m))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -9.375d
+			y: 10.625d
 		}
 	]
 }
