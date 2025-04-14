@@ -1,0 +1,18 @@
+#How many Forge Energy units a single EU from MI is worth.
+# Default: 10
+# Range: 1 ~ 1000
+forgeEnergyPerEu = 10
+#Base amount of items transferred by item pipes every 3 seconds.
+# Default: 16
+# Range: 1 ~ 1024
+baseItemPipeTransfer = 16
+#Grant guidebook the first time a player joins the server.
+spawnWithGuideBook = false
+#Grant guidebook when a player respawns after death.
+respawnWithGuideBook = false
+
+[recipes]
+	#Generate plant oil recipes in the centrifuge for all compostable items.
+	compostableToPlantOil = true
+	#Generate cutting machine recipes for all stonecutter recipes.
+	stonecutterToCuttingMachine = true
