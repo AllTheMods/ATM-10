@@ -10,6 +10,15 @@ RecipeViewerEvents.removeEntriesCompletely('item', allthemods =>{
       allthemods.remove(`allthecompressed:greg_star_block_${i}x`)}
   
   allthemods.remove('relics:researching_table')
+  allthemods.remove("extradisks:infinite_chemical_storage_block")
+  allthemods.remove("extradisks:infinite_chemical_storage_disk")
+  allthemods.remove("extradisks:infinite_chemical_storage_part")
+  allthemods.remove("extradisks:infinite_fluid_storage_block")
+  allthemods.remove("extradisks:infinite_fluid_storage_disk")
+  allthemods.remove("extradisks:infinite_fluid_storage_part")
+  allthemods.remove("extradisks:infinite_item_storage_block")
+  allthemods.remove("extradisks:infinite_item_storage_disk")
+  allthemods.remove("extradisks:infinite_item_storage_part")
 })
 
 RecipeViewerEvents.addInformation('fluid', allthemods =>{
