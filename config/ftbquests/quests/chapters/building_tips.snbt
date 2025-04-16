@@ -644,8 +644,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(buildinggadgets2:gadget_building)item(buildinggadgets2:gadget_exchanging)item(buildinggadgets2:gadget_copy_paste)item(buildinggadgets2:gadget_cut_paste)item(buildinggadgets2:gadget_destruction))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -9.0d
+			x: 1.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["30B3BC91460C9B19"]
@@ -2371,8 +2371,8 @@
 				item: { components: { "relics:data": { abilities: { abilities: { claws: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { amount: { initialValue: 0.20861d } } }, fast_mining: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { modifier: { initialValue: 0.32347d } } }, passive: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "artifacts:digging_claws" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -10.0d
+			x: 1.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -2510,7 +2510,7 @@
 				item: { count: 1, id: "justdirethings:blockbreakert1" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 0.0d
 			y: -7.0d
 		}
 		{
@@ -2762,20 +2762,24 @@
 			dependencies: ["22D2CFDDB06C720C"]
 			id: "0539AF15A10B2859"
 			rewards: [{
-				id: "63AEC2E375A0D2A4"
+				id: "6D87ADF1EA21B091"
 				item: {
+					components: {
+						"compactmachines:machine_color": "#FBF236"
+						"compactmachines:room_template": "compactmachines:normal"
+					}
 					count: 1
-					id: "hyperbox:hyperbox"
+					id: "compactmachines:new_machine"
 				}
 				type: "item"
 			}]
 			tasks: [{
-				id: "6595690884BBC50A"
-				item: { count: 1, id: "hyperbox:hyperbox" }
+				id: "7BB15C37F0636EBD"
+				item: { count: 1, id: "compactmachines:personal_shrinking_device" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -7.0d
+			x: -1.0d
+			y: -8.0d
 		}
 		{
 			id: "266127E7947CB3D4"
@@ -2908,6 +2912,48 @@
 			}]
 			x: -2.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["22D2CFDDB06C720C"]
+			icon: {
+				id: "constructionstick:copper_stick"
+			}
+			id: "318A2CC03D1D0B04"
+			rewards: [{
+				id: "4F473795A580D7DC"
+				item: {
+					count: 1
+					id: "constructionstick:template_angel"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3BE936F7D054FDDA"
+				item: { components: { "ftbfiltersystem:filter": "or(item(constructionstick:wooden_stick)item(constructionstick:copper_stick)item(constructionstick:iron_stick)item(constructionstick:diamond_stick)item(constructionstick:netherite_stick))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["0FE30548F25FEDB1"]
+			id: "6258F26293B9C1C1"
+			rewards: [{
+				count: 16
+				id: "0E95D7138EEC2112"
+				item: {
+					count: 1
+					id: "minecraft:amethyst_shard"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0ED255BCB75ECCF1"
+				item: { components: { "ftbfiltersystem:filter": "or(mod(crystalix))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.0d
 		}
 	]
 }

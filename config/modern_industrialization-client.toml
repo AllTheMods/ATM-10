@@ -1,0 +1,27 @@
+[messages]
+	#Enable login message when EMI, JEI and REI are all missing.
+	missingRecipeViewerMessage = true
+	#Display when a new version is available
+	newVersionMessage = false
+
+[rendering]
+	#Space between the top of the screen and the jetpack/GraviChestPlate overlay text.
+	# Default: 4
+	# Range: 0 ~ 10000
+	armorHudYPosition = 4
+	#Enable rendering of barrel content: item icon, item amount, and item name.
+	barrelContentRendering = true
+	#Show valid positions in multiblocks when holding a hatch.
+	hatchPlacementOverlay = true
+	#Enable connected textures between machines that have the same casing. (Requires a suitable resource pack)
+	interMachineConnectedTextures = false
+
+[tooltips]
+	#Add the total EU value of fuel items to their tooltips.
+	fuelTooltips = true
+	#Add item tags to item tooltips.
+	itemTagTooltips = false
+	#Enable the default ore generation tooltips.
+	#These tooltips show how each MI ore generates, based on the default ore generation settings in MI.
+	#Set this to false if you change the ore features in a datapack.
+	defaultOreGenTooltips = true

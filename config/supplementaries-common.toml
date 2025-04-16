@@ -1,0 +1,720 @@
+[redstone]
+	wind_vane = true
+	clock_block = true
+	redstone_illuminator = true
+	crank = true
+	cog_block = true
+	gold_door = true
+	gold_trapdoor = true
+	lock_block = true
+	relayer = true
+
+	[redstone.speaker_block]
+		enabled = true
+		#Enable/disable speaker block narrator mode
+		narrator_enabled = true
+		#Max text
+		# Default: 32
+		# Range: 0 ~ 10000
+		max_text = 32
+		#Maximum block range
+		# Default: 64
+		# Range: 0 ~ 100000000
+		range = 64
+
+	[redstone.bellows]
+		enabled = true
+		#bellows pushes air following this equation: 
+		#air=(sin(2PI*ticks/period)<0), with period = base_period-(redstone_power-1)*power_scaling 
+		#represents base period at 1 power
+		# Default: 78
+		# Range: 1 ~ 512
+		base_period = 78
+		#entities with velocity greater than this won't be pushed
+		# Default: 2.0
+		# Range: 0.0 ~ 16.0
+		power_scaling = 2.0
+		#velocity increase uses this equation: 
+		#vel = base_vel*((range-entity_distance)/range) with base_vel = base_velocity_scaling/period 
+		#note that the block will push further the faster it's pulsing
+		# Default: 5.0
+		# Range: 0.0 ~ 64.0
+		base_velocity_scaling = 5.0
+		#maximum range
+		#note that it will still only keep alive the two fire blocks closer to it
+		# Default: 5
+		# Range: 0 ~ 16
+		range = 5
+
+	[redstone.spring_launcher]
+		enabled = true
+		#spring launcher launch speed
+		# Default: 1.5
+		# Range: 0.0 ~ 16.0
+		velocity = 1.5
+		#fall distance needed to trigger the automatic spring launch
+		# Default: 5
+		# Range: 0 ~ 512
+		fall_height_required = 5
+
+	[redstone.enderman_head]
+		enabled = true
+		drop_head = true
+		#Time to increase 1 power level when being looked at
+		# Default: 15
+		# Range: 0 ~ 10000
+		ticks_to_increase_power = 15
+		#do enderman heads work when looked from any side?
+		work_from_any_side = false
+
+	[redstone.turn_table]
+		enabled = true
+		#can rotate entities standing on it?
+		rotate_entities = true
+		#Allows turn table to shuffle containers content when rotated over horizontal axis
+		shuffle_containers = true
+
+	[redstone.pulley_block]
+		enabled = true
+		#Chance for a new mineshaft elevator piece to spawn
+		# Default: 0.035
+		# Range: 0.0 ~ 1.0
+		mineshaft_elevator = 0.035
+
+	[redstone.dispenser_minecart]
+		enabled = true
+		#Makes projectiles shot from dispenser minecart retain the minecart velocity and be shot at an angle when the minecart is on a rail slope
+		adjust_projectile_angle = true
+
+	[redstone.faucet]
+		enabled = true
+		#Turn off to prevent faucets from dropping items
+		spill_items = true
+		#Allows faucets to fill entities inventories
+		fill_entities_below = false
+
+	[redstone.crystal_display]
+		enabled = true
+		#Allows chaining 2 crystal displays, letting one power the other to its left IF its own power exceeds 10. Given power will be its own divided by 10. Note that to work the decimal display must NOT have power directly behind it. Doing so will override the behavior to non chaining mode
+		chaining = true
+
+[functional]
+	fodder = true
+	hourglass = true
+
+	[functional.rope]
+		#Allows ropes to be supported & attached to solid block sides
+		block_side_attachment = true
+		#Makes sliding down ropes as fast as free falling, still negating fall damage
+		slide_on_fall = true
+		#In case you want to disable supplementaries ropes you can specify here another mod rope and they will be used for rope arrows and in mineshafts instead
+		rope_override = "supplementaries:rope"
+		#Enables horizontal placement of ropes. Disabling will make ropes always non solid
+		horizontal_ropes = true
+		#Use this config to turn allow supplementaries to replace all items tagged as #supplementaies:ropes with supplementaries own rope or turn them to air instead. This is applied to all loot tables (chests and drops)
+		#Allowed Values: REPLACE, NONE, REMOVE
+		replace_in_loot_tables = "NONE"
+
+	[functional.jar]
+		enabled = true
+		#Jar liquid capacity: leave at 12 for pixel accuracy
+		# Default: 12
+		# Range: 0 ~ 1024
+		capacity = 12
+		#Allow right click to instantly eat or drink food or potions inside a placed jar.
+		#Disable if you think this ability is op (honey for example). Cookies are excluded
+		drink_from_jar = false
+		#Allows the player to directly drink from jar items
+		drink_from_jar_item = false
+		#Dynamically allows all small mobs inside jars depending on their hitbox size
+		jar_auto_detect = false
+		#Allow Jars to capture small mobs
+		jar_capture = true
+		#Allow Jars to hold cookies
+		jar_cookies = true
+		#Allow Jars to hold liquids from bottles, buckets and bowls
+		jar_liquids = true
+
+	[functional.cage]
+		enabled = true
+		#Allows all entities to be captured by cages and jars. Not meant for survival
+		allow_all_mobs = false
+		#Allows all baby mobs to be captured by cages
+		cage_allow_all_babies = false
+		#Dynamically allows all small mobs inside cages depending on their hitbox size
+		cage_auto_detect = false
+		#Makes it so all (hostile) mobs captured by cages and jars will be set to persistent so they won't despawn when released
+		persistent_mobs = false
+		#Health percentage under which mobs will be allowed to be captured by cages and jars. Leave at 100 to accept any health level
+		# Default: 100
+		# Range: 1 ~ 100
+		health_threshold = 100
+		#When on, if a mob is tameable, it will only be capturable when tamed.
+		require_taming = true
+
+	[functional.safe]
+		enabled = true
+		#Makes safes only breakable by their owner or by a player in creative
+		prevent_breaking = false
+		#Make safes simpler so they do not require keys:
+		#they will be bound to the first person that opens one and only that person will be able to interact with them
+		simple_safes = false
+
+	[functional.sack]
+		enabled = true
+		#Penalize the player with slowness effect when carrying too many sacks
+		sack_penalty = true
+		#Maximum number of sacks after which the overencumbered effect will be applied. Each multiple of this number will increase the effect strength by one
+		# Default: 2
+		# Range: 0 ~ 50
+		sack_increment = 2
+		#How many slots should a sack have
+		# Default: 9
+		# Range: 1 ~ 27
+		slots = 9
+
+	[functional.bamboo_spikes]
+		enabled = true
+		tipped_spikes = true
+		#Allows entities killed by spikes to drop loot as if they were killed by a player
+		player_loot = false
+		#Alternative mode for bamboo spikes. Allows only harmful effects to be applied on them and they obtain infinite durability
+		only_allow_harmful_effects = true
+		#Populate the creative inventory with all tipped spikes variations
+		populate_creative_tab = true
+
+	[functional.urn]
+		enabled = true
+		#Chance for an urn to spawn a critter from the urn_spawn tag
+		# Default: 0.01
+		# Range: 0.0 ~ 1.0
+		critter_spawn_chance = 0.01
+		cave_urns = true
+
+	[functional.soap]
+		enabled = true
+		#Dyed Bock types that cannot be cleaned with soap
+		clean_blacklist = ["minecraft:glazed_terracotta", "botania:mystical_flower", "mna:chimerite_crystal", "botania:floating_flower", ",minecraft:mushroom", "botania:mushroom", "botania:tall_mystical_flower", "botania:petal_block", "morered:network_cable", "xycraft_world:glowing_shiny_aurey_block", "xycraft_world:shiny_aurey_block", "xycraft_world:rgb_lamp", "xycraft_world:glowing_rgb_viewer", "xycraft_world:glowing_matte_rgb_block", "xycraft_world:rgb_lamp_pole"]
+
+		#This is a map of special blocks that can be cleaned with soap
+		[functional.soap.special_blocks]
+			"quark:dirty_glass" = "minecraft:glass"
+			"minecraft:sticky_piston" = "minecraft:piston"
+			"#alexscaves:cave_paintings" = "alexscaves:smooth_limestone"
+			"quark:dirty_glass_pane" = "minecraft:glass_pane"
+
+	[functional.cannon]
+		enabled = true
+		#Cannon fire power multiplier
+		# Default: 0.6
+		# Range: 0.0 ~ 5.0
+		fire_power = 0.6
+		#Time for a cannon to fire a projectile after it has been lit up
+		# Default: 40
+		# Range: 0 ~ 500
+		fuse_time = 40
+		#Time for a cannon to be able to fire again after it has been fired
+		# Default: 60
+		# Range: 0 ~ 500
+		cooldown = 60
+		music_disc_heave_ho = true
+
+		[functional.cannon.cannonball]
+			enabled = true
+			#Cannonball pierce radius. The bigger this is the less piercing power it will have as it will waste more energy breaking these blocks
+			# Default: 1.1
+			# Range: 0.0 ~ 5.0
+			radius = 1.1
+
+	[functional.present]
+		enabled = true
+		trapped_present = true
+
+	[functional.flax]
+		enabled = true
+		wild_flax = true
+
+	[functional.lumisene]
+		enabled = true
+		#Gives the flammable effext also when merely stepping on lumisene. Turning this off if you think effects are not something that should be applied like that and just by drinking it.
+		# Default: 50
+		# Range: 0 ~ 10000
+		flammable_from_lumisene_block_duration = 50
+
+		[functional.lumisene.lumisene_bottle]
+			#Enables lumisene bottles and the flammable effect and lumisene bottles. Turn off if you think its over the top and doesnt match with existing effects
+			enabled = true
+			#Duration of the flammable effect when you drink a lumisene bottle
+			# Default: 300
+			# Range: 0 ~ 10000
+			flammable_duration = 300
+			#Duration of the glowing effect when you drink a lumisene bottle
+			# Default: 200
+			# Range: 0 ~ 10000
+			glowing_duration = 200
+
+[building]
+	lapis_bricks = true
+	deepslate_lamp = true
+	end_stone_lamp = true
+	blackstone_lamp = true
+	stone_lamp = true
+	stone_tile = true
+	blackstone_tile = true
+	bunting = true
+	sconce = true
+	sconce_lever = true
+	pancake = true
+	checker_block = true
+	raked_gravel = true
+	feather_block = true
+	statue = true
+	doormat = true
+	flint_block = true
+	fine_wood = true
+	candle_holder = true
+	fire_pit = true
+	wicker_fence = true
+
+	[building.blackboard]
+		enabled = true
+		#Enable to draw directly on a blackboard using any dye. Gui still only works in black and white
+		colored_blackboard = false
+		#Interaction mode for blackboards
+		#Allowed Values: BOTH, GUI, MANUAL
+		interaction_mode = "BOTH"
+
+	[building.gravel_bricks]
+		enabled = true
+
+	[building.slidy_block]
+		enabled = true
+		#Slidy block speed
+		# Default: 0.125
+		# Range: 0.0 ~ 1.0
+		speed = 0.125
+
+	[building.timber_frame]
+		enabled = true
+		#Allow placing a timber frame directly on a block by holding shift
+		swap_on_shift = false
+		#Allows axes to remove a framed block leaving the contained block intact
+		axes_strip = true
+		#Replace a timber frame with wattle and daub block when daub is placed in it
+		replace_daub = true
+
+	[building.iron_gate]
+		enabled = true
+		#Allows two iron gates to be opened simultaneously when on top of the other
+		double_opening = true
+		#Makes iron (ang gold) gates behave like their door counterpart so for example iron gates will only be openable by redstone
+		door-like_gates = false
+
+	[building.item_shelf]
+		enabled = true
+		#Makes item shelves climbable
+		climbable_shelves = false
+
+	[building.sugar_cube]
+		enabled = true
+		#Duration in seconts of speed effect garanted to horses that eat a sugar cube
+		# Default: 10
+		# Range: 0 ~ 1000
+		horse_speed_duration = 10
+
+	[building.planter]
+		enabled = true
+		#Makes so saplings that grow in a planter will break it turning into rooted dirt
+		broken_by_sapling = false
+		#When Farmers Delight is on planter will also act like rich soil and use it in its recipe
+		rich_soil_planter = true
+
+	[building.notice_board]
+		enabled = true
+		#Allows notice boards to accept and display any item, not just maps and books
+		allow_any_item = false
+		#Enables a GUI for the block. Not needed as the block just holds one item which you can place by clicking on it
+		gui = true
+
+	[building.pedestal]
+		enabled = true
+		#If enabled end crystals placed on a pedestals will provide an enchantment power bonus equivalent to 3 bookshelves
+		# Default: 3.0
+		# Range: 0.0 ~ 100.0
+		crystal_enchanting = 3
+
+	[building.ash]
+		enabled = true
+		#Burnable blocks will have a chance to create ash layers when burned. Greater this number the greater the chance will be
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		ash_from_fire_chance = 1.0
+		#Burning mobs will drop ash when they die
+		ash_from_burning_mobs = true
+		#Allows rain to wash away ash layers overtime
+		rain_wash_ash = true
+		#Use a datapack to tweak rarity
+		basalt_ash = true
+
+	[building.flag]
+		enabled = true
+		#Allows right/left clicking on a stick to lower/raise a flag attached to it
+		stick_pole = true
+		#Maximum allowed pole length
+		# Default: 16
+		# Range: 0 ~ 256
+		pole_length = 16
+
+	[building.goblet]
+		enabled = true
+		#Allows drinking from goblets
+		allow_drinking = true
+
+	[building.globe]
+		enabled = true
+		sepia_globe = true
+
+	[building.way_sign]
+		enabled = true
+
+		[building.way_sign.road_signs]
+			#Entirely disables them from spawning
+			enabled = true
+			#With this option road signs will display the distance to the structure that they are pointing to
+			show_distance_text = true
+
+	[building.daub]
+		enabled = true
+		wattle_and_daub = true
+
+	[building.ash_bricks]
+		enabled = true
+
+	[building.hat_stand]
+		enabled = true
+		#Allow all items to go on hat stand
+		unrestricted = false
+
+	[building.awning]
+		enabled = true
+		#Allows having slanted awnings. Disabled if you feel its cursed.
+		slant = true
+		#Allows entities to fall through awnings, when shifting.
+		shift_through = true
+		#Bouncing angle of slanted awnings
+		# Default: 69.44395478041653
+		# Range: 0.0 ~ 90.0
+		angle = 69.44395478041653
+
+	[building.flower_box]
+		enabled = true
+		#Makes so flower boxes can only contain one tall flower item per block
+		simple_mode = true
+
+	[building.netherite_doors]
+		door = true
+		trapdoor = true
+		#Makes netherite doors and trapdoors unbreakable
+		unbreakable = false
+
+[tools]
+	candy = true
+	stasis = true
+	altimeter = true
+	confetti_popper = true
+
+	[tools.quiver]
+		enabled = true
+		#Allows using a quiver without being slowed down
+		use_without_slow = true
+		#Arrow stacks that can fit inside a quiver. Requires reboot
+		# Default: 6
+		# Range: 1 ~ 9
+		slots = 6
+		#Increase this number to alter the probability for a Skeleton with quiver to spawn. Note that this also depends on local difficulty so you wont ever see them on easy and very rarely on normal. Similar logic to equipment
+		# Default: 0.03
+		# Range: 0.0 ~ 1.0
+		quiver_skeleton_spawn_chance = 0.03
+		#Allows quiver to only be used when in offhand or in curio invSlot
+		only_works_in_curio = false
+		#Arrows you pickup will try to go in a quiver if available provided it has some arrow of the same explosionType
+		quiver_pickup = true
+
+	[tools.lunch_basket]
+		enabled = true
+		#Allows lunch baskets to be placed on the ground
+		placeable = true
+		#Arrow stacks that can fit inside a lunch basket. Requires reboot
+		# Default: 6
+		# Range: 1 ~ 9
+		slots = 6
+
+	[tools.slice_map]
+		enabled = true
+		#Multiplier that will be applied by slice maps to lower their range compared to normal maps
+		# Default: 0.25
+		# Range: 0.0 ~ 1.0
+		range_multiplier = 0.25
+
+	[tools.bubble_blower]
+		enabled = true
+		#Amount of soap consumed per bubble block placed
+		# Default: 5
+		# Range: 1 ~ 25
+		stasis_cost = 5
+
+		[tools.bubble_blower.bubble_block]
+			#Max lifetime of bubble blocks. Set to 10000 to have it infinite
+			# Default: 1200
+			# Range: 1 ~ 10000
+			lifetime = 1200
+			#Can bubble break when touched on?
+			break_when_touched = true
+
+	[tools.wrench]
+		enabled = true
+		#Allows wrenches to bypass a block interaction action prioritizing their own when on said hand
+		#Allowed Values: MAIN_HAND, OFF_HAND, BOTH, NONE
+		bypass_when_on = "MAIN_HAND"
+
+	[tools.rope_arrow]
+		enabled = true
+		#Max number of robe items allowed to be stored inside a rope arrow
+		# Default: 32
+		# Range: 1 ~ 256
+		capacity = 32
+		#Makes rope arrows exclusive to crossbows
+		exclusive_to_crossbows = false
+
+	[tools.flute]
+		enabled = true
+		#Radius in which an unbound flute will search pets
+		# Default: 64
+		# Range: 0 ~ 500
+		unbound_radius = 64
+		#Max distance at which a bound flute will allow a pet to teleport
+		# Default: 64
+		# Range: 0 ~ 500
+		bound_distance = 64
+
+	[tools.bomb]
+		enabled = true
+		#Bomb explosion radius (damage depends on this)
+		# Default: 2.0
+		# Range: 0.1 ~ 10.0
+		explosion_radius = 2.0
+		#Do bombs break blocks like tnt?
+		#Allowed Values: ALL, WEAK, NONE
+		break_blocks = "WEAK"
+		#Put here any number other than 0 to have your bombs explode after a certain amount of ticks instead than on contact
+		# Default: 0
+		# Range: 0 ~ 100000
+		bomb_fuse = 0
+		#Enable bomb item cooldown
+		cooldown = true
+
+		[tools.bomb.blue_bomb]
+			#Bomb explosion radius (damage depends on this)
+			# Default: 5.15
+			# Range: 0.1 ~ 10.0
+			explosion_radius = 5.15
+			#Do bombs break blocks like tnt?
+			#Allowed Values: ALL, WEAK, NONE
+			break_blocks = "WEAK"
+
+	[tools.slingshot]
+		enabled = true
+		#Slingshot range multiplier. Affect the initial projectile speed
+		# Default: 1.0
+		# Range: 0.0 ~ 5.0
+		range_multiplier = 1.0
+		#Time in ticks to fully charge a slingshot
+		# Default: 20
+		# Range: 0 ~ 100
+		charge_time = 20
+		#Deceleration for the stasis projectile
+		# Default: 0.9625
+		# Range: 0.1 ~ 1.0
+		stasis_deceleration = 0.9625
+		#Allow enderman to intercept any slingshot projectile
+		unrestricted_enderman_intercept = true
+		#Allows buckets to be thrown by slingshots. Thrown buckets will place their content when they land
+		allow_buckets = true
+		#Damage that items in the 'supplementaries:slingshot_damageable' tag will deal. Scales with thrown speed. Tag is empty by default.
+		# Default: 0.5
+		# Range: 0.0 ~ 100.0
+		damageable_damage = 0.5
+		#Allows splash potions to be thrown by slingshots
+		allow_splash_potions = false
+		#Allows bombs to be thrown by slingshots
+		allow_bombs = false
+		#Allows fire charges to be thrown by slingshots
+		allow_fire_charges = false
+		#Allows snowballs to be thrown by slingshots
+		allow_snowballs = false
+		#Allows enderpearls to be thrown by slingshots
+		allow_enderpearls = false
+
+	[tools.antique_ink]
+		enabled = true
+
+#General settings
+[general]
+	#Enable Creative Tab
+	creative_tab = false
+	#Set to false to disable custom dispenser behaviors (i.e: filling jars) if for some reason they are causing trouble
+	dispensers = true
+	#Creates a creative tab full of filled jars
+	jar_tab = false
+	#Save generated resources to disk in a 'debug' folder in your game directory. Mainly for debug purposes but can be used to generate assets in all wood types for your mods :0
+	debug_save_dynamic_pack = false
+	#Disable startup messages and sanity check that the mod performs to inform of possible detected crashes that might occur due to issues
+	sanity_checks_messages = true
+	#slightly increase this or decrease this number to tweak the red merchant spawn chance. Won't spawn at 0 and will spawn twice as often on 2
+	# Default: 1.0
+	# Range: 0.0 ~ 10.0
+	red_merchant_spawn_multiplier = 1.0
+
+#Vanilla tweaks
+[tweaks]
+
+	[tweaks.shulker_helmet]
+		#Allows wearing shulker shells
+		enabled = true
+
+	[tweaks.golden_apple_disenchant]
+		enabled = true
+
+	[tweaks.traders_open_doors]
+		#Allows traders to open doors (because they couldnt aparently)
+		enabled = true
+
+	[tweaks.dispenser_tweaks]
+		#Allows dispensers to use axes on blocks to strip logs and scrape off copper oxidation and wax
+		axe_strip = true
+		#Enables shooting ender pearls with dispensers
+		shoot_ender_pearls = true
+		#Enables extracting bundles items with dispensers
+		extract_from_bundles = true
+
+	[tweaks.throwable_bricks]
+		#Throw bricks at your foes! Might break glass blocks
+		enabled = true
+
+	[tweaks.placeable_sticks]
+		#Allow placeable sticks
+		sticks = true
+		#Allow placeable blaze rods
+		blaze_rods = true
+
+	[tweaks.placeable_gunpowder]
+		#Allow placeable gunpowder
+		enabled = true
+		#Number of ticks it takes for gunpowder to burn 1 stage (out of 8). Increase to slow it down
+		# Default: 2
+		# Range: 0 ~ 20
+		speed = 2
+		#Age at which it spread to the next gunpowder block. Also affects speed
+		# Default: 2
+		# Range: 0 ~ 8
+		spread_age = 2
+
+	[tweaks.raked_gravel]
+		#allow gravel to be raked with a hoe
+		enabled = true
+
+	[tweaks.bottle_xp]
+		#Allow bottling up xp by using a bottle on an enchanting table
+		enabled = false
+		#bottling health cost
+		# Default: 2
+		# Range: 0 ~ 20
+		cost = 2
+		#Block that should be clicked on for bottling to work. Leave blank for enchanting table. You can put another block here from another mod if you find it more fitting
+		target_block = ""
+
+	[tweaks.map_tweaks]
+		#Cartographers will sell 'adventurer maps' that will lead to a random vanilla structure (choosen from a thought out preset list).
+		#Best kept disabled if you are adding custom adventurer maps with datapack (check the wiki for more)
+		random_adventurer_maps = true
+		#Select a random structure to look for instead of iterating through all of the ones in the tag returning the closest. Turning on will make ones that have diff structures (aka all different ruined portals) show up more. On could take much more time to compute
+		random_adventurer_maps_select_random_structure = true
+		#Enables beacons, lodestones, respawn anchors, beds, conduits, portals to be displayed on maps by clicking one of them with a map
+		block_map_markers = true
+		#Shows a death marker on your map when you die. Requires a recovery compass in player inventory or similar
+		#Allowed Values: OFF, WITH_COMPASS, ALWAYS
+		death_marker = "WITH_COMPASS"
+		#If Quark is installed adventurer maps will be replaced by adventurer quills. These will not lag the server when generating
+		quill_adventurer_maps = true
+		#If Quark is installed replaces buried treasure and mansion maps with their equivalent quill form. This removes the lag spike they create when generating
+		quill_vanilla_maps = true
+		#Miminum search radius for quill. Used to incrase the radius of vanilla searches. For reference buried treasures are at 50 and locate is at 100 chunks
+		# Default: 75
+		# Range: 10 ~ 600
+		min_search_radius = 75
+		#Makes blocks tagged as 'tinted_on_map' use their tint color. This allows for accurate biome colors for water and grass as well as other custom block that use any tint
+		tinted_blocks_on_maps = true
+
+	[tweaks.placeable_books]
+		#Enchantment power bonus given by normal book piles with 4 books. Piles with less books will have their respective fraction of this total. For reference a vanilla bookshelf provides 1
+		# Default: 1.0
+		# Range: 0.0 ~ 5.0
+		book_power = 1.0
+		#Enchantment power bonus given by normal book piles with 4 books. Piles with less books will have their respective fraction of this total. For reference a vanilla bookshelf provides 1
+		# Default: 1.334
+		# Range: 0.0 ~ 5.0
+		enchanted_book_power = 1.334
+		#Allow all books to be placed both vertically and horizontally
+		mixed_books = false
+
+	[tweaks.zombie_horse]
+		#Feed a stack of rotten flesh to a skeleton horse to buff him up to a zombie horse
+		zombie_horse_conversion = true
+		#Amount of rotten flesh needed
+		# Default: 64
+		# Range: 1 ~ 1000
+		rotten_flesh = 64
+		#Allows zombie horses to be ridden underwater
+		rideable_underwater = true
+		#Convert a zombie horse back by feeding it a golden carrot
+		zombie_horse_inverse_conversion = true
+
+	[tweaks.noteblocks_scare]
+		#Noteblocks with a zombie head will scare off villagers
+		enabled = true
+
+	[tweaks.bad_luck_tweaks]
+		#Hit a void cat, get the unluck
+		cat_unluck = true
+		#If you have unluck you are more likely to get hit by a lighting
+		lightning_unluck = true
+
+	[tweaks.item_lore]
+		#Adds a recipe to add 'lore' strings to an item by combining it with a named nametag
+		enabled = true
+
+	[tweaks.sus_recipes]
+		#Adds recipes to craft suspicious gravel and suspicious sand
+		enabled = false
+
+	[tweaks.slimed_effect]
+		enabled = true
+		#Allow slimeballs to be thrown
+		throwable_slimeballs = true
+		#Show a slime overlay when you hit an entity with a slimeball
+		overlay = true
+		#Thrown slimeballs will shortly nerf the player jump height. Disable if you don't want this effect as it can be quite powerful
+		#Allowed Values: NEVER, ALWAYS, NORMAL_DIFFICULTY, HARD_DIFFICULTY
+		hinders_jump = "NORMAL_DIFFICULTY"
+		#Duration of the slimed effect in ticks
+		# Default: 300
+		# Range: 0 ~ 1000
+		duration = 300
+		#Chance that a slime mob will apply slimed effect on successful attack. Multiplied by the slime size
+		# Default: 0.15
+		# Range: 0.0 ~ 1.0
+		chance_per_slime_size = 0.15
+
+	[tweaks.dragon_banner_pattern]
+		#Adds dragon banner pattern made from dragon head
+		enabled = true

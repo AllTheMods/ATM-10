@@ -7,7 +7,7 @@ ServerEvents.recipes(allthemods => {
     allthemods.remove({ id: 'allthecompressed:compress/snow_1x'})
     allthemods.remove({ id: 'allthecompressed:decompress/snow_1x'})
     allthemods.shapeless('9x minecraft:snow_block', ['allthecompressed:snow_1x'])
-    allthemods.shapeless('allthecompressed:snow_1x', ['9x minecraft:snow_block'])
+    allthemods.shapeless('allthecompressed:snow_1x', ['9x minecraft:snow_block']).id(`allthecompressed:compress/snow_1x_manual_only`)
 
 const blockedMods = [ 'modern_industrialization', 'mysticalagriculture', 'mysticalagradditions', 'extendedae', 'mekanism' ]
 let ingots = []
@@ -24,7 +24,12 @@ Ingredient.of('#c:ingots').itemIds.forEach(id => {
         if(Item.exists(`${material.mod}:${material.resource}_dust`) || Item.exists(`${material.mod}:dust_${material.resource}`) || Item.exists(`alltheores:${material.resource}_dust`)){ //check if dust for item exists
             if(!JSON.stringify(ingots).includes(material.resource)){   //check if material already added to array of unique ingots
                 material.dust = `${material.mod}:${material.resource}_dust`
-                ingots.push(material)   //add to array of sorted materials
+                if (!Item.exists(material.dust)) {
+		  material.dust = `${material.mod}:dust_${material.resource}`
+		}
+                if (!Item.exists(material.dust)) {
+		  console.warn(`Dust does not exist for material mod: ${material.mod}, resource: ${material.resource}`)
+		} else ingots.push(material)   //add to array of sorted materials
             }
         }
     }
@@ -35,6 +40,7 @@ ingots.forEach(id => {
     if(!allthemods.countRecipes({input: `#c:ingots/${id.resource}`, output: `#c:dusts/${id.resource}`, type: 'minecraft:crafting_shapeless'})){
         if(AlmostUnified.getTagTargetItem(`c:dusts/${id.resource}`) !== 'minecraft:air'){ dust = AlmostUnified.getTagTargetItem(`c:dusts/${id.resource}`)} else {dust = id.dust}  //prefer unified dust
         //console.log(id.resource)
+        console.log(`Adding dust recipe: ${dust} with resource: ${id.resource}`)
         allthemods.shapeless(dust, [`#c:ingots/${id.resource}`, '#alltheores:ore_hammers']).id(`alltheores:processing/ore_hammer/${id.resource}_dust_from_ingot`)
     }
 })

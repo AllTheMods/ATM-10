@@ -34,7 +34,7 @@
 		}
 		{
 			height: 5.0d
-			image: "atm:textures/questpics/mystical_agriculture/infusion_alter.png"
+			image: "atm:textures/questpics/mystical_agriculture/infusion_altar.png"
 			rotation: 0.0d
 			width: 7.5d
 			x: -10.0d
@@ -221,8 +221,8 @@
 			image: "modern_industrialization:item/chromium_double_ingot"
 			rotation: 0.0d
 			width: 2.0d
-			x: -11.5d
-			y: 11.0d
+			x: -17.0d
+			y: 14.0d
 		}
 		{
 			height: 2.0d
@@ -454,12 +454,11 @@
 		{
 			dependencies: [
 				"5869E198DA416346"
-				"42AF4EBDA5D6CC36"
 				"39F9C825B03DA317"
 				"45D10F53CA18B8EE"
-				"0923C941A9696122"
 				"0848056FDD3F9BDA"
 				"6A12188E50EAEB78"
+				"72266912E3FBA7F9"
 			]
 			id: "36DF0D83EBC2B6A9"
 			rewards: [
@@ -505,12 +504,13 @@
 		}
 		{
 			dependencies: [
+				"601C719C8FD513F0"
 				"535525EA4DF4AB59"
 				"75EE965CBA598FEA"
 				"268EA2DEC8840D13"
 				"77F2271C45DB49BA"
-				"17598C171E610752"
 				"616F9B78B16B42A5"
+				"659A2705755DF730"
 			]
 			id: "6CAD67D21E1EA861"
 			rewards: [
@@ -674,10 +674,10 @@
 				"7766E66A14643F4D"
 				"1FCC474860587169"
 				"3145B847A15F97F2"
-				"2B0C3AAAA6D0B0D2"
 				"561B5FB009744D2B"
 				"59EC02C1FBCF14EA"
 				"7D972A3C4211EB26"
+				"307703F74A9068CA"
 			]
 			id: "2188C52C1F384DE4"
 			rewards: [
@@ -911,7 +911,7 @@
 				{
 					id: "5EB9EF611C919F4D"
 					type: "xp_levels"
-					xp_levels: 17
+					xp_levels: 15
 				}
 			]
 			size: 1.0d
@@ -923,9 +923,9 @@
 					type: "item"
 				}
 				{
-					count: 17L
+					count: 15L
 					id: "0DAD392A4942D6A5"
-					item: { count: 17, id: "allthecompressed:nether_star_block_3x" }
+					item: { count: 1, id: "allthecompressed:nether_star_block_3x" }
 					type: "item"
 				}
 			]
@@ -994,11 +994,6 @@
 			id: "486B5A605D79EA10"
 			rewards: [
 				{
-					id: "5C494FE85EFC0150"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					count: 4
 					id: "31C9A7222A1F8D53"
 					item: {
@@ -1006,6 +1001,11 @@
 						id: "irons_spellbooks:fire_rune"
 					}
 					type: "item"
+				}
+				{
+					id: "3CD2EE0A3E930DD9"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -1052,11 +1052,6 @@
 			id: "6D1E8399AD39FFC8"
 			rewards: [
 				{
-					id: "128A582D3D1AA587"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					count: 8
 					id: "653A4613D2F1E68F"
 					item: {
@@ -1072,6 +1067,11 @@
 						id: "justdirethings:time_fluid_bucket"
 					}
 					type: "item"
+				}
+				{
+					id: "5A33CB8A834E86A6"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -1089,17 +1089,17 @@
 			id: "6877F33323910716"
 			rewards: [
 				{
-					id: "0320B0AE39E9368E"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					id: "63AB7C3C5D3EA9E8"
 					item: {
 						count: 1
 						id: "minecraft:nether_star"
 					}
 					type: "item"
+				}
+				{
+					id: "6C99B7FA3171941F"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -1322,11 +1322,6 @@
 			id: "7BC616DDB5933479"
 			rewards: [
 				{
-					id: "614B94154AB9697A"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					count: 3
 					id: "0B63779F27F3A6D3"
 					item: {
@@ -1335,11 +1330,17 @@
 					}
 					type: "item"
 				}
+				{
+					id: "7EB85603948FBAF0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
 			]
 			size: 1.25d
 			tasks: [{
 				id: "14D445E233DC9A67"
 				item: { components: { "irons_spellbooks:spell_container": { data: [{ id: "irons_spellbooks:wither_skull", index: 0, level: 10, locked: 1b }], maxSpells: 1, mustEquip: 0b, spellWheel: 0b } }, count: 1, id: "irons_spellbooks:scroll" }
+				match_components: "strict"
 				type: "item"
 			}]
 			x: -4.0d
@@ -1433,17 +1434,17 @@
 			id: "750B6316267CF574"
 			rewards: [
 				{
-					id: "3C5FAEA19621E894"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					id: "62C184C3F2FC522C"
 					item: {
 						count: 1
 						id: "minecraft:wither_skeleton_skull"
 					}
 					type: "item"
+				}
+				{
+					id: "3F3BBEFFA8C9AD39"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -1618,6 +1619,7 @@
 			dependencies: ["24F3E90C14BFD1B4"]
 			hide_dependent_lines: true
 			id: "2B0C3AAAA6D0B0D2"
+			optional: true
 			rewards: [
 				{
 					count: 4
@@ -1649,8 +1651,8 @@
 				item: { count: 1, id: "modern_industrialization:uranium_fuel_rod_quad" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 10.0d
+			x: -13.553571428571423d
+			y: 12.25d
 		}
 		{
 			dependencies: ["76C63670624C3C56"]
@@ -2026,11 +2028,6 @@
 			id: "4D135CE350C59120"
 			rewards: [
 				{
-					id: "194DDC7EF5A4DF58"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					count: 4
 					id: "60E707B3E6978AC3"
 					item: {
@@ -2038,6 +2035,11 @@
 						id: "productivebees:draconic_chunk"
 					}
 					type: "item"
+				}
+				{
+					id: "4C0FE92A27BC893B"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -2179,17 +2181,17 @@
 			id: "03564837ECB5CC79"
 			rewards: [
 				{
-					id: "539CD49CA1DE31DC"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					id: "101241398C854D0E"
 					item: {
 						count: 1
 						id: "occultism:spawn_egg/familiar_dragon"
 					}
 					type: "item"
+				}
+				{
+					id: "350523E96307E8C5"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -2207,18 +2209,18 @@
 			id: "67C76EDD4BCCFF3F"
 			rewards: [
 				{
-					id: "36ECAD7351CC3E3F"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					count: 2
 					id: "215F67733D7997FF"
 					item: {
 						count: 1
 						id: "occultism:soul_gem"
 					}
+					random_bonus: 1
 					type: "item"
+				}
+				{
+					id: "00D563ABAC5ECC49"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -2320,6 +2322,7 @@
 			dependencies: ["4485C4ABD57874EB"]
 			hide_dependent_lines: true
 			id: "0923C941A9696122"
+			optional: true
 			rewards: [
 				{
 					id: "5709251152A23121"
@@ -2350,11 +2353,6 @@
 			id: "45D10F53CA18B8EE"
 			rewards: [
 				{
-					id: "008084DE04E33A04"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					count: 4
 					id: "5E5C4E952ED07415"
 					item: {
@@ -2362,6 +2360,11 @@
 						id: "irons_spellbooks:lightning_rune"
 					}
 					type: "item"
+				}
+				{
+					id: "18B8636E4C89D1C5"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -2405,6 +2408,7 @@
 			dependencies: ["24F3E90C14BFD1B4"]
 			hide_dependent_lines: true
 			id: "42AF4EBDA5D6CC36"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -2445,8 +2449,8 @@
 				item: { count: 1, id: "modern_industrialization:blastproof_casing" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 10.0d
+			x: -11.25d
+			y: 12.5d
 		}
 		{
 			dependencies: ["372B5BF416CA83A4"]
@@ -2569,6 +2573,7 @@
 			dependencies: ["24F3E90C14BFD1B4"]
 			hide_dependent_lines: true
 			id: "17598C171E610752"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -2591,11 +2596,12 @@
 				item: { count: 1, id: "modern_industrialization:large_advanced_motor" }
 				type: "item"
 			}]
-			x: -10.0d
-			y: 12.0d
+			x: -12.017857142857139d
+			y: 14.0d
 		}
 		{
 			dependencies: ["4485C4ABD57874EB"]
+			hide_dependent_lines: true
 			id: "601C719C8FD513F0"
 			rewards: [
 				{
@@ -2713,17 +2719,17 @@
 			id: "535525EA4DF4AB59"
 			rewards: [
 				{
-					id: "2B862BFB4931187D"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					id: "18D4231C54A48C9E"
 					item: {
 						count: 1
 						id: "powah:nitro_crystal_block"
 					}
 					type: "item"
+				}
+				{
+					id: "4D927E88CF54032C"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
 			size: 1.25d
@@ -3458,6 +3464,7 @@
 		}
 		{
 			id: "24F3E90C14BFD1B4"
+			optional: true
 			rewards: [
 				{
 					count: 3
@@ -3481,7 +3488,7 @@
 				item: { count: 1, id: "modern_industrialization:forge_hammer" }
 				type: "item"
 			}]
-			x: -12.0d
+			x: -15.0d
 			y: 14.0d
 		}
 		{
@@ -4020,12 +4027,12 @@
 			id: "55BF254B1831359B"
 			rewards: [
 				{
-					count: 2
 					id: "3E433E44D707F9EA"
 					item: {
 						count: 1
 						id: "minecraft:diamond_block"
 					}
+					random_bonus: 1
 					type: "item"
 				}
 				{
@@ -4141,6 +4148,151 @@
 			}]
 			x: 0.5d
 			y: 6.0d
+		}
+		{
+			id: "4B7D387CEFF9667E"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "3559AC4956B01FCB"
+					item: {
+						count: 1
+						id: "alltheores:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "2D24EFF6DFFE9309"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "73F844C83CF39E0B"
+				item: { count: 1, id: "create:precision_mechanism" }
+				type: "item"
+			}]
+			x: -16.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["4B7D387CEFF9667E"]
+			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
+			id: "30CC20E33EFA2EDA"
+			optional: true
+			rewards: [
+				{
+					id: "04B21AD545674E51"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 3
+					id: "7641174AFF591577"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "2F0965F9856AEF37"
+				item: { count: 1, id: "create:blaze_burner" }
+				type: "item"
+			}]
+			x: -13.553571428571423d
+			y: 10.92857142857143d
+		}
+		{
+			dependencies: ["4B7D387CEFF9667E"]
+			dependency_requirement: "one_completed"
+			hide_dependent_lines: true
+			id: "5608C74936CA9E81"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "07DBAA39A7D7185B"
+					item: {
+						count: 1
+						id: "alltheores:brass_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "383A3B5BA05B3A67"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.25d
+			tasks: [{
+				id: "5BE26F6787ECA4B6"
+				item: { count: 1, id: "create:mechanical_arm" }
+				type: "item"
+			}]
+			x: -15.982142857142854d
+			y: 8.857142857142861d
+		}
+		{
+			dependencies: [
+				"5608C74936CA9E81"
+				"17598C171E610752"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "659A2705755DF730"
+			size: 1.25d
+			tasks: [{
+				id: "0F3014881E66D09C"
+				item: { components: { "ftbfiltersystem:filter": "or(item(create:mechanical_arm)item(modern_industrialization:large_advanced_motor))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -12.375d
+			y: 8.92857142857143d
+		}
+		{
+			dependencies: [
+				"2B0C3AAAA6D0B0D2"
+				"30CC20E33EFA2EDA"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "307703F74A9068CA"
+			size: 1.25d
+			tasks: [{
+				id: "1A85A7229EC7E15C"
+				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:uranium_fuel_rod_quad)item(create:blaze_burner))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -11.232142857142854d
+			y: 10.642857142857146d
+		}
+		{
+			dependencies: [
+				"42AF4EBDA5D6CC36"
+				"0923C941A9696122"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			id: "72266912E3FBA7F9"
+			size: 1.25d
+			tasks: [{
+				id: "6BD666BC1D3E0561"
+				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:blastproof_casing)item(megacells:portable_item_cell_256m))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -9.375d
+			y: 10.625d
 		}
 	]
 }

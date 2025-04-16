@@ -25,7 +25,7 @@
 			y: 0.5d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -124,12 +124,13 @@
 			id: "7AE502EDB73BD57A"
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "62B555EE0C1159EA"
 					item: {
 						count: 1
-						id: "mekanism:dirty_dust_iron"
+						id: "alltheores:dirty_iron_dust"
 					}
+					random_bonus: 2
 					type: "item"
 				}
 				{
@@ -1242,10 +1243,11 @@
 			id: "31B73D16C0199785"
 			rewards: [
 				{
+					count: 2
 					id: "66D918CA2A6FE21B"
 					item: {
 						count: 1
-						id: "mekanism:enriched_refined_obsidian"
+						id: "mekanism:dust_obsidian"
 					}
 					type: "item"
 				}
@@ -1305,12 +1307,13 @@
 			id: "6C25D42C36175BF4"
 			rewards: [
 				{
-					count: 4
+					count: 2
 					id: "258304336DF472BB"
 					item: {
 						count: 1
-						id: "mekanism:clump_iron"
+						id: "alltheores:iron_clump"
 					}
+					random_bonus: 2
 					type: "item"
 				}
 				{
@@ -1408,6 +1411,7 @@
 						count: 1
 						id: "mekanism:alloy_infused"
 					}
+					random_bonus: 1
 					type: "item"
 				}
 				{
@@ -1419,12 +1423,6 @@
 					id: "56B7014FCB396F47"
 					type: "xp"
 					xp: 100
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1BD5BF3301C59FE5"
-					table_id: 487623848494439020L
-					type: "random"
 				}
 			]
 			tasks: [{
@@ -1440,12 +1438,12 @@
 			id: "4F1C04C0F6769825"
 			rewards: [
 				{
-					count: 2
 					id: "241F3906AE9BC520"
 					item: {
 						count: 1
 						id: "mekanism:alloy_infused"
 					}
+					random_bonus: 1
 					type: "item"
 				}
 				{
@@ -2131,6 +2129,7 @@
 						count: 1
 						id: "alltheores:osmium_ingot"
 					}
+					random_bonus: 1
 					type: "item"
 				}
 				{
@@ -2288,12 +2287,12 @@
 			id: "263220DCCDB90E29"
 			rewards: [
 				{
-					count: 2
 					id: "07F4FEA9CD91FB7B"
 					item: {
 						count: 1
 						id: "mekanism:alloy_infused"
 					}
+					random_bonus: 1
 					type: "item"
 				}
 				{
@@ -2340,6 +2339,7 @@
 						count: 1
 						id: "mekanism:basic_control_circuit"
 					}
+					random_bonus: 1
 					type: "item"
 				}
 				{
@@ -2371,6 +2371,7 @@
 						count: 1
 						id: "mekanism:bio_fuel"
 					}
+					random_bonus: 1
 					type: "item"
 				}
 				{
@@ -2380,7 +2381,6 @@
 				}
 			]
 			tasks: [{
-				count: 2L
 				id: "05138E2E906020F3"
 				item: { count: 1, id: "mekanism:bio_fuel" }
 				type: "item"
@@ -2398,6 +2398,7 @@
 						count: 1
 						id: "mekanism:substrate"
 					}
+					random_bonus: 1
 					type: "item"
 				}
 				{
@@ -2407,7 +2408,6 @@
 				}
 			]
 			tasks: [{
-				count: 3L
 				id: "1F6A5B58DF94730B"
 				item: { count: 1, id: "mekanism:substrate" }
 				type: "item"
@@ -2420,12 +2420,12 @@
 			id: "76A38CCA5816CDAD"
 			rewards: [
 				{
-					count: 2
 					id: "16F49D5355A06C1B"
 					item: {
 						count: 1
-						id: "mekanism:substrate"
+						id: "mekanism:hdpe_pellet"
 					}
+					random_bonus: 1
 					type: "item"
 				}
 				{
@@ -2448,12 +2448,12 @@
 			id: "47106CE1937C4340"
 			rewards: [
 				{
-					count: 3
 					id: "78A06CC539C1B6AE"
 					item: {
 						count: 1
-						id: "mekanism:hdpe_pellet"
+						id: "mekanism:hdpe_sheet"
 					}
+					random_bonus: 1
 					type: "item"
 				}
 				{
@@ -2514,6 +2514,7 @@
 						count: 1
 						id: "mekanism:enriched_carbon"
 					}
+					random_bonus: 1
 					type: "item"
 				}
 				{

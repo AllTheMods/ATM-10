@@ -9,7 +9,7 @@ ServerEvents.recipes(allthemods => {
             "input": [],
             "inputFluid": {
                 "amount": fluid.amount || 100,
-                "id": fluid.fluid
+                "fluid": fluid.fluid
             },
             "output": {
                 "count": output.count || 1,
