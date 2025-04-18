@@ -53,6 +53,8 @@ ServerEvents.recipes(allthemods => {
     })
   })
 
+  allthemods.replaceInput({ id: 'immersiveengineering:toolupgrade_revolver_bayonet' }, 'immersiveengineering:sword_steel', 'mekanismtools:steel_sword')
+
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
