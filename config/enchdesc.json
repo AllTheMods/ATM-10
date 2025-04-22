@@ -1,0 +1,70 @@
+{
+  "enabled": {
+    "//": "Determines if the mod and its features are enabled.",
+    "//default": true,
+    "value": true
+  },
+  "only_on_books": {
+    "//": [
+      "When enabled, descriptions will only be displayed when looking at an enchanted  ",
+      "book.                                                                           "
+    ],
+    "//default": false,
+    "value": true
+  },
+  "only_in_enchanting_table": {
+    "//": [
+      "When enabled, descriptions will only be displayed when inside the enchanting    ",
+      "table GUI.                                                                      "
+    ],
+    "//default": false,
+    "value": false
+  },
+  "require_keybind": {
+    "//": [
+      "When enabled, descriptions will only be displayed when the user holds the shift ",
+      "key.                                                                            "
+    ],
+    "//default": false,
+    "value": false
+  },
+  "activate_text": {
+    "//": [
+      "This text will be displayed when the require_keybind option is enabled and the  ",
+      "user has not held the keybind.                                                  "
+    ],
+    "//default": {
+      "translate": "enchdesc.activate.message",
+      "color": "dark_gray"
+    },
+    "value": {
+      "translate": "enchdesc.activate.message",
+      "color": "dark_gray"
+    }
+  },
+  "prefix": {
+    "//": [
+      "Text that will be added to the start of each description. This can be used to   ",
+      "add indents and other decorators.                                               "
+    ],
+    "//default": "",
+    "value": ""
+  },
+  "suffix": {
+    "//": "Text that will be added to the end of each description.",
+    "//default": "",
+    "value": ""
+  },
+  "style": {
+    "//": [
+      "The style of the description text. This controls the color, format, font, and   ",
+      "other visual properties of the description.                                     "
+    ],
+    "//default": {
+      "color": "dark_gray"
+    },
+    "value": {
+      "color": "dark_gray"
+    }
+  }
+}
