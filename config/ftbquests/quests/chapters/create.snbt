@@ -14,8 +14,8 @@
 			order: 1
 			rotation: 0.0d
 			width: 6.0d
-			x: -6.0d
-			y: -8.5d
+			x: -4.5d
+			y: 7.5d
 		}
 		{
 			height: 2.0d
@@ -32,7 +32,7 @@
 			order: 1
 			rotation: 45.0d
 			width: 4.0d
-			x: -2.0d
+			x: -3.0d
 			y: 4.5d
 		}
 		{
@@ -86,7 +86,7 @@
 			order: 1
 			rotation: 45.0d
 			width: 4.0d
-			x: 1.0d
+			x: 1.5d
 			y: 1.5d
 		}
 		{
@@ -344,14 +344,6 @@
 			rotation: 22.0d
 			width: 1.5d
 			x: 0.0d
-			y: 4.0d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: 1.0d
 			y: 4.0d
 		}
 		{
@@ -695,7 +687,7 @@
 			image: "atm:textures/questpics/create/create_background_title.png"
 			rotation: 45.0d
 			width: 5.0d
-			x: -2.0d
+			x: -3.0d
 			y: 4.5d
 		}
 		{
@@ -703,7 +695,7 @@
 			image: "atm:textures/questpics/create/create_background_title.png"
 			rotation: 45.0d
 			width: 5.0d
-			x: 1.0d
+			x: 1.5d
 			y: 1.5d
 		}
 		{
@@ -759,8 +751,114 @@
 			image: "atm:textures/questpics/create/create_background_title.png"
 			rotation: 0.0d
 			width: 7.0d
-			x: -6.0d
-			y: -8.5d
+			x: -4.5d
+			y: 7.5d
+		}
+		{
+			height: 1.5d
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			height: 1.5d
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			height: 1.5d
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			height: 1.5d
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			height: 1.5d
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			height: 1.5d
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			height: 1.5d
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 20.0d
+			width: 2.0d
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			height: 2.5d
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 2.5d
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/create/create_background_title.png"
+			rotation: 90.0d
+			width: 3.25d
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/create/create_title_trains.png"
+			order: 1
+			rotation: 90.0d
+			width: 2.5d
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/create/create_title_trains.png"
+			order: 1
+			rotation: 0.0d
+			width: 2.5d
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/create/create_background_title.png"
+			rotation: 0.0d
+			width: 3.25d
+			x: 1.0d
+			y: 9.5d
 		}
 	]
 	order_index: 0
@@ -2755,17 +2853,22 @@
 			dependencies: ["3C99017FD32B6DE2"]
 			id: "4EE10B8E194F5CA9"
 			rewards: [{
-				id: "183E138B33AC436B"
-				type: "xp"
-				xp: 1
+				count: 4
+				id: "2FA69107DDFCE2EF"
+				item: {
+					count: 1
+					id: "create:railway_casing"
+				}
+				type: "item"
 			}]
+			size: 1.25d
 			tasks: [{
 				id: "6E05725C7CE526E4"
 				item: { count: 1, id: "create:railway_casing" }
 				type: "item"
 			}]
 			x: 1.0d
-			y: 4.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5B36DE3826F26963"]
@@ -2934,6 +3037,297 @@
 			}]
 			x: -6.0d
 			y: -7.0d
+		}
+		{
+			dependencies: ["3314FBC4FEAE1D08"]
+			id: "5979DE0E2BA3DAE5"
+			rewards: [{
+				count: 32
+				id: "0DCC3B5FD11A6134"
+				item: {
+					count: 1
+					id: "create:track"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "051D4768F84DC286"
+				item: { count: 1, id: "create:track" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"4EE10B8E194F5CA9"
+				"5979DE0E2BA3DAE5"
+			]
+			id: "77BE3D9D274F72F1"
+			rewards: [
+				{
+					count: 2
+					id: "46FE91D2334886DB"
+					item: {
+						count: 1
+						id: "create:track_station"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "71BDFD8DD9A3E18D"
+					item: {
+						count: 1
+						id: "create:track"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3DB476E2DADD7187"
+				item: { count: 1, id: "create:track_station" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"5979DE0E2BA3DAE5"
+				"77BE3D9D274F72F1"
+			]
+			id: "3FBCBBEBB78B83FC"
+			rewards: [
+				{
+					count: 8
+					id: "40C2C8C5B9760FF1"
+					item: {
+						count: 1
+						id: "create:railway_casing"
+					}
+					type: "item"
+				}
+				{
+					id: "22E5C85C7775B1DB"
+					item: {
+						count: 1
+						id: "create:controls"
+					}
+					type: "item"
+				}
+				{
+					id: "28D5F07B6A35B022"
+					item: {
+						count: 1
+						id: "create:flywheel"
+					}
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "2B3FD4FFEE151284"
+					item: { count: 1, id: "create:controls" }
+					type: "item"
+				}
+				{
+					id: "0763F3E94EEAA348"
+					item: { count: 1, id: "create:super_glue" }
+					type: "item"
+				}
+				{
+					id: "1711FECCA86EE974"
+					item: { count: 1, id: "create:railway_casing" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3FBCBBEBB78B83FC"]
+			id: "30AC43222FF9B18A"
+			rewards: [
+				{
+					count: 4
+					id: "1FF513C3B3D3FF22"
+					item: {
+						count: 1
+						id: "create:nixie_tube"
+					}
+					type: "item"
+				}
+				{
+					id: "71D6356D4EEE383D"
+					item: {
+						count: 1
+						id: "create:red_seat"
+					}
+					type: "item"
+				}
+				{
+					id: "63738842A3A0257D"
+					item: {
+						count: 1
+						id: "minecraft:lead"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6A7CA672A7CD8588"
+				item: { count: 1, id: "create:track_signal" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3FBCBBEBB78B83FC"]
+			id: "5134C81D96C55375"
+			rewards: [
+				{
+					count: 3
+					id: "353282D45EE9273B"
+					item: {
+						count: 1
+						id: "minecraft:repeater"
+					}
+					type: "item"
+				}
+				{
+					count: 12
+					id: "20E571541F18612D"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4D074A7242534E62"
+				item: { count: 1, id: "create:track_observer" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3FBCBBEBB78B83FC"]
+			id: "2D96965317D3CFEC"
+			rewards: [
+				{
+					count: 3
+					id: "4C10DE58B9365242"
+					item: {
+						count: 1
+						id: "minecraft:lead"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "78F2FDB30706AAA9"
+					item: {
+						count: 1
+						id: "create:schedule"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "12A80F0E076ABA12"
+					item: { count: 1, id: "create:schedule" }
+					type: "item"
+				}
+				{
+					id: "21C5C92ABD91D795"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(create:seats))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3FBCBBEBB78B83FC"]
+			id: "7F0F7111552F95A9"
+			rewards: [{
+				id: "03C8EA7C3AD5F831"
+				item: {
+					count: 1
+					id: "create:track_station"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6D655D196188B795"
+				item: { count: 1, id: "create:controls" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3FBCBBEBB78B83FC"]
+			id: "12274935C3D20C74"
+			rewards: [
+				{
+					count: 2
+					id: "65E6594B42245128"
+					item: {
+						count: 1
+						id: "create:train_door"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "54DCBF76E47335D3"
+					item: {
+						count: 1
+						id: "create:train_trapdoor"
+					}
+					type: "item"
+				}
+				{
+					id: "23ADF464AA864FC5"
+					item: {
+						count: 1
+						id: "create:flywheel"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "73DDE4C590D52937"
+					item: {
+						count: 1
+						id: "create:cogwheel"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7C63D6E5CF6484F6"
+					item: {
+						count: 1
+						id: "create:large_cogwheel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0E7E55664641FDB0"
+				item: { count: 1, id: "create:super_glue" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
 		}
 	]
 }
