@@ -29,6 +29,8 @@ ServerEvents.tags('item', allthemods => {
     allthemods.add('c:grain', 'sushigocrafting:rice')
     allthemods.add('c:protein/rice', 'sushigocrafting:rice')
 //Avocado
+    allthemods.add('c:crops', 'sushigocrafting:avocado')
+    allthemods.add('c:crops/avocado', 'sushigocrafting:avocado')
     allthemods.add('c:egg', 'sushigocrafting:avocado')
     allthemods.add('c:egg/avocado', 'sushigocrafting:avocado')
     allthemods.add('c:vegetables', 'sushigocrafting:avocado')
