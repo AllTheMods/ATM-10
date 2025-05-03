@@ -1,0 +1,277 @@
+#Allowed Values: STRETCH, SMALL, MEDIUM, LARGE, EXTRA_LARGE
+screenSize = "STRETCH"
+smoothScrolling = true
+# Default: 256
+# Range: 3 ~ 256
+maxRowsStretch = 256
+searchBoxAutoSelected = false
+autocraftingNotification = true
+
+[cable]
+	# Default: 0
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 0
+
+[controller]
+	# Default: 1000
+	# Range: 0 ~ 9223372036854775807
+	energyCapacity = 50000
+
+[diskDrive]
+	# Default: 10
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 10
+	# Default: 4
+	# Range: 0 ~ 9223372036854775807
+	energyUsagePerDisk = 4
+
+[diskInterface]
+	# Default: 6
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 6
+	# Default: 4
+	# Range: 0 ~ 9223372036854775807
+	energyUsagePerDisk = 4
+
+[grid]
+	largeFont = false
+	preventSortingWhileShiftIsDown = true
+	detailedTooltip = true
+	rememberSearchQuery = false
+	# Default: 10
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 10
+	synchronizer = ""
+	resourceType = ""
+	#Allowed Values: ASCENDING, DESCENDING
+	sortingDirection = "ASCENDING"
+	#Allowed Values: QUANTITY, NAME, ID, LAST_MODIFIED
+	sortingType = "QUANTITY"
+	#Allowed Values: ALL, AUTOCRAFTABLE, NON_AUTOCRAFTABLE
+	viewType = "ALL"
+
+[craftingGrid]
+	# Default: 14
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 14
+	#Allowed Values: NONE, CLEAR_TO_NETWORK, CLEAR_TO_INVENTORY
+	craftingMatrixCloseBehavior = "NONE"
+
+[patternGrid]
+	# Default: 14
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 14
+
+[storageBlock]
+	# Default: 2
+	# Range: 0 ~ 9223372036854775807
+	1kEnergyUsage = 2
+	# Default: 4
+	# Range: 0 ~ 9223372036854775807
+	4kEnergyUsage = 4
+	# Default: 6
+	# Range: 0 ~ 9223372036854775807
+	16kEnergyUsage = 6
+	# Default: 8
+	# Range: 0 ~ 9223372036854775807
+	64kEnergyUsage = 8
+	# Default: 16
+	# Range: 0 ~ 9223372036854775807
+	creativeEnergyUsage = 16
+
+[fluidStorageBlock]
+	# Default: 2
+	# Range: 0 ~ 9223372036854775807
+	64bEnergyUsage = 2
+	# Default: 4
+	# Range: 0 ~ 9223372036854775807
+	256bEnergyUsage = 4
+	# Default: 6
+	# Range: 0 ~ 9223372036854775807
+	1024bEnergyUsage = 6
+	# Default: 8
+	# Range: 0 ~ 9223372036854775807
+	4096bEnergyUsage = 8
+	# Default: 16
+	# Range: 0 ~ 9223372036854775807
+	creativeEnergyUsage = 16
+
+[importer]
+	# Default: 2
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 2
+
+[exporter]
+	# Default: 2
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 2
+
+[upgrade]
+	# Default: 4
+	# Range: 0 ~ 9223372036854775807
+	speedUpgradeEnergyUsage = 4
+	# Default: 16
+	# Range: 0 ~ 9223372036854775807
+	stackUpgradeEnergyUsage = 16
+	# Default: 10
+	# Range: 0 ~ 9223372036854775807
+	fortune1UpgradeEnergyUsage = 10
+	# Default: 12
+	# Range: 0 ~ 9223372036854775807
+	fortune2UpgradeEnergyUsage = 12
+	# Default: 14
+	# Range: 0 ~ 9223372036854775807
+	fortune3UpgradeEnergyUsage = 14
+	# Default: 16
+	# Range: 0 ~ 9223372036854775807
+	silkTouchUpgradeEnergyUsage = 16
+	# Default: 16
+	# Range: 0 ~ 9223372036854775807
+	regulatorUpgradeEnergyUsage = 16
+	# Default: 8
+	# Range: 0 ~ 9223372036854775807
+	rangeUpgradeEnergyUsage = 8
+	# Default: 0
+	# Range: 0 ~ 9223372036854775807
+	creativeRangeUpgradeEnergyUsage = 0
+	# Default: 8
+	# Range: > 0
+	rangeUpgradeRange = 8
+	# Default: 8
+	# Range: 0 ~ 9223372036854775807
+	autocraftingUpgradeUsage = 8
+
+[interface]
+	# Default: 4
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 4
+
+[externalStorage]
+	# Default: 6
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 6
+
+[detector]
+	# Default: 2
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 2
+
+[destructor]
+	# Default: 3
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 3
+
+[constructor]
+	# Default: 3
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 3
+
+[wirelessGrid]
+	# Default: 1000
+	# Range: 0 ~ 9223372036854775807
+	energyCapacity = 1000
+	# Default: 5
+	# Range: 0 ~ 9223372036854775807
+	openEnergyUsage = 5
+	# Default: 5
+	# Range: 0 ~ 9223372036854775807
+	extractEnergyUsage = 5
+	# Default: 5
+	# Range: 0 ~ 9223372036854775807
+	insertEnergyUsage = 5
+
+[wirelessTransmitter]
+	# Default: 16
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 16
+	# Default: 16
+	# Range: > 0
+	baseRange = 16
+
+[storageMonitor]
+	# Default: 4
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 4
+
+[networkReceiver]
+	# Default: 8
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 8
+
+[networkTransmitter]
+	# Default: 32
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 32
+
+[portableGrid]
+	# Default: 1000
+	# Range: 0 ~ 9223372036854775807
+	energyCapacity = 1000
+	# Default: 5
+	# Range: 0 ~ 9223372036854775807
+	openEnergyUsage = 5
+	# Default: 5
+	# Range: 0 ~ 9223372036854775807
+	extractEnergyUsage = 5
+	# Default: 5
+	# Range: 0 ~ 9223372036854775807
+	insertEnergyUsage = 5
+
+[securityCard]
+	# Default: 2
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 2
+
+[fallbackSecurityCard]
+	# Default: 4
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 4
+
+[securityManager]
+	# Default: 16
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 16
+
+[relay]
+	# Default: 8
+	# Range: 0 ~ 9223372036854775807
+	inputNetworkEnergyUsage = 8
+	# Default: 8
+	# Range: 0 ~ 9223372036854775807
+	outputNetworkEnergyUsage = 8
+
+[autocrafter]
+	# Default: 4
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 4
+	# Default: 2
+	# Range: 0 ~ 9223372036854775807
+	energyUsagePerPattern = 2
+
+[autocrafterManager]
+	# Default: 16
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 16
+	#Allowed Values: ALL, PATTERN_INPUTS, PATTERN_OUTPUTS, AUTOCRAFTER_NAMES
+	searchMode = "ALL"
+	#Allowed Values: VISIBLE, NOT_FULL, ALL
+	viewType = "VISIBLE"
+
+[autocraftingMonitor]
+	# Default: 16
+	# Range: 0 ~ 9223372036854775807
+	energyUsage = 16
+
+[wirelessAutocraftingMonitor]
+	# Default: 1000
+	# Range: 0 ~ 9223372036854775807
+	energyCapacity = 1000
+	# Default: 5
+	# Range: 0 ~ 9223372036854775807
+	openEnergyUsage = 5
+	# Default: 5
+	# Range: 0 ~ 9223372036854775807
+	cancelEnergyUsage = 5
+	# Default: 5
+	# Range: 0 ~ 9223372036854775807
+	cancelAllEnergyUsage = 5
