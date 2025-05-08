@@ -125,6 +125,8 @@ ServerEvents.tags('entity_type', allthemods => {
             "twilightforest:hedge_spider",
         ]
     )
+    // Create
+    allthemods.add('justdirethings:paradox_deny', 'create:package');
 });
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
