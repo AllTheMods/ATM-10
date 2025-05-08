@@ -1,5 +1,5 @@
-name: Crash Report
-description: File a crash report
+name: Crash/Disconnect Report
+description: File a crash report or disconnect issue
 title: "[Crash]: "
 labels: [ Crash ]
 body:
@@ -8,15 +8,15 @@ body:
       value: |
         **Prior to filling out this crash report, please make sure of the following:**
         - You tried on the latest version of the pack.
-        - You don't have any other mods installed.
+        - You don't have any extra other mods installed.
   - type: dropdown
     id: fixes
     attributes:
       label: Possible Fixes
       description: Have you tried the above mentioned points?
       options:
-        - "Yes"
         - "No"
+        - "Yes"
     validations:
       required: true
   - type: input
@@ -28,6 +28,21 @@ body:
     validations:
       required: true
   - type: textarea
+    id: crash-assistant-message
+    attributes:
+      label: Crash Assistant Message
+      description: When you crash, Crash Assistant should popup and click Upload all and copy message, wait for logs to be uploaded, after it is done, paste here.
+      placeholder: |
+        All the Mods 10 - 2.47 crashed. The logs have been uploaded to `gnomebot.dev`:
+        ### [latest.log](<https://gnomebot.dev/paste/mclogs/...>)   |   [debug.log](<https://gnomebot.dev/paste/mclogs/...>)   |   [crash-2025-05-08_13.40.26-client.txt](<https://gnomebot.dev/paste/mclogs/...>)   |   CurseForge: [launcher_log.txt](<https://gnomebot.dev/paste/mclogs/...>)   |   KubeJS: [client.log](<https://gnomebot.dev/paste/mclogs/...>) / [startup.log](<https://gnomebot.dev/paste/mclogs/...>)   |   [crash_assistant_app.log](<https://gnomebot.dev/paste/mclogs/...>)
+        
+        ### Mod list changes beyond the modpack:
+        ```ansi
+        [2;34mMod list wasn't modified.[0m
+        ```
+    validations:
+      required: false
+  - type: textarea
     id: description
     attributes:
       label: What happened?
@@ -38,16 +53,16 @@ body:
   - type: input
     id: crash-log
     attributes:
-      label: Crash Log
-      description: Please upload your crash log to  https://gist.github.com/ and leave the link here. Located in `/<instance name>/crash-reports/`
-      placeholder: https://gist.github.com/
+      label: Crash Log or Disconnect Log
+      description: Please upload your crash log to https://mclo.gs/ and leave the link here. Located in `/<instance name>/crash-reports/` or `/<instance name>/debug/`
+      placeholder: https://mclo.gs/...
     validations:
-      required: true
+      required: false
   - type: input
     id: latest-log
     attributes:
       label: Latest.Log 
-      description: Please upload your latest.log to  https://gist.github.com/ and leave the link here. Note this file is different to a crash report. Located in `/<instance name>/logs/`.
-      placeholder: https://gist.github.com/
+      description: Please upload your latest.log to https://mclo.gs/ and leave the link here. Note this file is different to a crash report. Located in `/<instance name>/logs/`.
+      placeholder: https://mclo.gs/...
     validations:
       required: false
