@@ -16,12 +16,12 @@ If you don't know what to do, join our Discord and ask for help.
 [AI Improvements](https://www.curseforge.com/minecraft/mc-mods/ai-improvements) -> [Issue Page](https://github.com/BuiltBrokenModding/AI-Improvements/issues) [⚡](https://github.com/BuiltBrokenModding/AI-Improvements/issues/new/choose)<br>
 [Akashic Tome](https://www.curseforge.com/minecraft/mc-mods/akashic-tome) -> [Issue Page](https://github.com/Vazkii/AkashicTome/issues) [⚡](https://github.com/Vazkii/AkashicTome/issues/new/choose)<br>
 [All The Arcanist Gear](https://www.curseforge.com/minecraft/mc-mods/all-the-arcanist-gear) -> [Issue Page](https://github.com/Jarva/All-The-Arcanist-Gear/issues) [⚡](https://github.com/Jarva/All-The-Arcanist-Gear/issues/new/choose)<br>
-[All The Tweaks](https://www.curseforge.com/minecraft/mc-mods/all-the-tweaks) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/all-the-tweaks/issues)[^1]<br>
+[All The Tweaks](https://www.curseforge.com/minecraft/mc-mods/all-the-tweaks) -> [Issue Page](https://github.com/thevortex/AllTheTweaks/issues) [⚡](https://github.com/thevortex/AllTheTweaks/issues/new/choose)<br>
 [All the Wizard Gear](https://www.curseforge.com/minecraft/mc-mods/all-the-wizard-gear) -> [Issue Page](https://github.com/iron431/all-the-wizard-armor/issues) [⚡](https://github.com/iron431/all-the-wizard-armor/issues/new/choose)<br>
 [AllTheCompressed](https://www.curseforge.com/minecraft/mc-mods/allthecompressed) -> [Issue Page](https://github.com/Pdiddy973/AllTheCompressed/issues) [⚡](https://github.com/Pdiddy973/AllTheCompressed/issues/new/choose)<br>
 [AllTheLeaks (Memory Leak Fix)](https://www.curseforge.com/minecraft/mc-mods/alltheleaks) -> [Issue Page](https://github.com/pietro-lopes/AllTheLeaks/issues) [⚡](https://github.com/pietro-lopes/AllTheLeaks/issues/new/choose)<br>
-[Allthemodium](https://www.curseforge.com/minecraft/mc-mods/allthemodium) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/allthemodium/issues)[^1]<br>
-[Almanac Lib](https://www.curseforge.com/minecraft/mc-mods/almanac-lib) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/almanac-lib/issues)[^1]<br>
+[Allthemodium](https://www.curseforge.com/minecraft/mc-mods/allthemodium) -> [Issue Page](https://github.com/AllTheMods/AllTheModium/issues) [⚡](https://github.com/AllTheMods/AllTheModium/issues/new/choose)<br>
+[Almanac Lib](https://www.curseforge.com/minecraft/mc-mods/almanac-lib) -> [Issue Page](https://discord.gg/aPPEPJWG39)<br>
 [Almost Unified](https://www.curseforge.com/minecraft/mc-mods/almost-unified) -> [Issue Page](https://github.com/AlmostReliable/almostunified/issues) [⚡](https://github.com/AlmostReliable/almostunified/issues/new/choose)<br>
 [Amendments](https://www.curseforge.com/minecraft/mc-mods/amendments) -> [Issue Page](https://github.com/MehVahdJukaar/amendments/issues) [⚡](https://github.com/MehVahdJukaar/amendments/issues/new/choose)<br>
 [Apotheosis](https://www.curseforge.com/minecraft/mc-mods/apotheosis) -> [Issue Page](https://github.com/Shadows-of-Fire/Apotheosis/issues) [⚡](https://github.com/Shadows-of-Fire/Apotheosis/issues/new/choose)<br>
@@ -45,7 +45,7 @@ If you don't know what to do, join our Discord and ask for help.
 [Atlas API](https://www.curseforge.com/minecraft/mc-mods/atlas-api) -> [Issue Page](https://github.com/Respace-io/atlas-api/issues)[^1] [⚡](https://github.com/Respace-io/atlas-api/issues/new/choose)<br>
 [ATO - All the Ores](https://www.curseforge.com/minecraft/mc-mods/ato) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/ato/issues)[^1]<br>
 [AttributeFix](https://www.curseforge.com/minecraft/mc-mods/attributefix) -> [Issue Page](https://github.com/Darkhax-Minecraft/AttributeFix/issues) [⚡](https://github.com/Darkhax-Minecraft/AttributeFix/issues/new/choose)<br>
-[Auroras](https://www.curseforge.com/minecraft/mc-mods/auroras) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/auroras/issues)[^1]<br>
+[Auroras](https://www.curseforge.com/minecraft/mc-mods/auroras) -> [Issue Page](https://legacy.curseforge.com/private-messages/send?recipient=verph)<br>
 [Bad Wither No Cookie - Reloaded](https://www.curseforge.com/minecraft/mc-mods/bad-wither-no-cookie-reloaded) -> [Issue Page](https://gitlab.com/kreezxil/BadWitherNoCookie/-/issues)<br>
 [Balm](https://www.curseforge.com/minecraft/mc-mods/balm) -> [Issue Page](https://github.com/ModdingForBlockheads/Balm/issues) [⚡](https://github.com/ModdingForBlockheads/Balm/issues/new/choose)<br>
 [Baubley Heart Canisters](https://www.curseforge.com/minecraft/mc-mods/baubley-heart-canisters) -> [Issue Page](https://github.com/Radient-Sora/Baubley-Heart-Canisters/issues) [⚡](https://github.com/Radient-Sora/Baubley-Heart-Canisters/issues/new/choose)<br>
@@ -57,9 +57,9 @@ If you don't know what to do, join our Discord and ask for help.
 [Blue Flame Burning](https://www.curseforge.com/minecraft/mc-mods/blueflame) -> [Issue Page](https://github.com/JDKDigital/blueflame/issues) [⚡](https://github.com/JDKDigital/blueflame/issues/new/choose)<br>
 [Bookshelf](https://www.curseforge.com/minecraft/mc-mods/bookshelf) -> [Issue Page](https://github.com/Darkhax-Minecraft/Bookshelf/issues) [⚡](https://github.com/Darkhax-Minecraft/Bookshelf/issues/new/choose)<br>
 [Bridging Mod](https://www.curseforge.com/minecraft/mc-mods/bridging-mod) -> [Issue Page](https://github.com/squeeglii/BridgingMod) [⚡](https://github.com/squeeglii/BridgingMod/new/choose)<br>
-[BSL Shaders](https://www.curseforge.com/minecraft/shaders/bsl-shaders) -> [Issue Page](https://www.curseforge.com/minecraft/shaders/bsl-shaders/issues)[^1]<br>
+[BSL Shaders](https://www.curseforge.com/minecraft/shaders/bsl-shaders) -> [Issue Page](https://discord.com/invite/ZJd7jjA)<br>
 [Building Gadgets](https://www.curseforge.com/minecraft/mc-mods/building-gadgets) -> [Issue Page](https://github.com/Direwolf20-MC/BuildingGadgets2/issues) [⚡](https://github.com/Direwolf20-MC/BuildingGadgets2/issues/new/choose)<br>
-[Byzantine Styles Pack for Minecolonies](https://www.curseforge.com/minecraft/mc-mods/byzantine-styles-pack-for-minecolonies) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/byzantine-styles-pack-for-minecolonies/issues)[^1]<br>
+[Byzantine Styles Pack for Minecolonies](https://www.curseforge.com/minecraft/mc-mods/byzantine-styles-pack-for-minecolonies) -> [Issue Page](https://discord.gg/4C3f3aVaQP)<br>
 [Cable Tiers](https://www.curseforge.com/minecraft/mc-mods/cable-tiers) -> [Issue Page](https://github.com/starforcraft/Cable-Tiers/issues) [⚡](https://github.com/starforcraft/Cable-Tiers/issues/new/choose)<br>
 [Caelus API (Forge/NeoForge)](https://www.curseforge.com/minecraft/mc-mods/caelus) -> [Issue Page](https://github.com/TheIllusiveC4/Caelus/issues) [⚡](https://github.com/TheIllusiveC4/Caelus/issues/new/choose)<br>
 [Camol](https://www.curseforge.com/minecraft/mc-mods/camol) -> [Issue Page](https://github.com/JDKDigital/camol/issues) [⚡](https://github.com/JDKDigital/camol/issues/new/choose)<br>
@@ -131,7 +131,7 @@ If you don't know what to do, join our Discord and ask for help.
 [Euphoria Patches](https://www.curseforge.com/minecraft/mc-mods/euphoria-patches) -> [Issue Page](https://github.com/EuphoriaPatches/EuphoriaPatcher/issues)[^1] [⚡](https://github.com/EuphoriaPatches/EuphoriaPatcher/issues/new/choose)<br>
 [Everything is Copper](https://www.curseforge.com/minecraft/mc-mods/everythingcopper) -> [Issue Page](https://github.com/JDKDigital/everythingcopper/issues) [⚡](https://github.com/JDKDigital/everythingcopper/issues/new/choose)<br>
 [EvilCraft](https://www.curseforge.com/minecraft/mc-mods/evilcraft) -> [Issue Page](https://github.com/CyclopsMC/EvilCraft/issues?state=open) [⚡](https://github.com/CyclopsMC/EvilCraft/issues?state=open/new/choose)<br>
-[ExperienceLib](https://www.curseforge.com/minecraft/mc-mods/experiencelib) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/experiencelib/issues)[^1]<br>
+[ExperienceLib](https://www.curseforge.com/minecraft/mc-mods/experiencelib) -> [Issue Page](https://github.com/alec016/experiencelib/issues) [⚡](https://github.com/alec016/experiencelib/issues/new/choose)<br>
 [Explorer's Compass](https://www.curseforge.com/minecraft/mc-mods/explorers-compass) -> [Issue Page](https://github.com/MattCzyr/ExplorersCompass/issues) [⚡](https://github.com/MattCzyr/ExplorersCompass/issues/new/choose)<br>
 [Explorify – Dungeons & Structures](https://www.curseforge.com/minecraft/mc-mods/explorify) -> [Issue Page](https://github.com/everloste/my-mc-projects/issues) [⚡](https://github.com/everloste/my-mc-projects/issues/new/choose)<br>
 [Extended Industrialization](https://www.curseforge.com/minecraft/mc-mods/extended-industrialization) -> [Issue Page](https://github.com/Swedz/Extended-Industrialization/issues) [⚡](https://github.com/Swedz/Extended-Industrialization/issues/new/choose)<br>
@@ -179,16 +179,16 @@ If you don't know what to do, join our Discord and ask for help.
 [Gravitational Modulating Additional Unit](https://www.curseforge.com/minecraft/mc-mods/gravitational-modulating-additional-unit) -> [Issue Page](https://github.com/gisellevonbingen/Minecraft-GravitationalModulatingAdditionalUnit/issues) [⚡](https://github.com/gisellevonbingen/Minecraft-GravitationalModulatingAdditionalUnit/issues/new/choose)<br>
 [GuideME](https://www.curseforge.com/minecraft/mc-mods/guideme) -> [Issue Page](https://github.com/AppliedEnergistics/GuideME/issues) [⚡](https://github.com/AppliedEnergistics/GuideME/issues/new/choose)<br>
 [Handcrafted](https://www.curseforge.com/minecraft/mc-mods/handcrafted) -> [Issue Page](https://github.com/terrarium-earth/Handcrafted/issues) [⚡](https://github.com/terrarium-earth/Handcrafted/issues/new/choose)<br>
-[Hardened Armadillos](https://www.curseforge.com/minecraft/mc-mods/hardened-armadillos) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/hardened-armadillos/issues)[^1]<br>
+[Hardened Armadillos](https://www.curseforge.com/minecraft/mc-mods/hardened-armadillos) -> [Issue Page](https://discord.gg/x822BKu624)<br>
 [Harvest with ease](https://www.curseforge.com/minecraft/mc-mods/harvest-with-ease) -> [Issue Page](https://github.com/crystal-nest/harvest-with-ease/issues) [⚡](https://github.com/crystal-nest/harvest-with-ease/issues/new/choose)<br>
 [Hey Berry! SHUT UP](https://www.curseforge.com/minecraft/mc-mods/heyberryshutup) -> [Issue Page](https://github.com/JDKDigital/heyberry/issues) [⚡](https://github.com/JDKDigital/heyberry/issues/new/choose)<br>
 [Hostile Neural Networks](https://www.curseforge.com/minecraft/mc-mods/hostile-neural-networks) -> [Issue Page](https://github.com/Shadows-of-Fire/Hostile-Neural-Networks/issues) [⚡](https://github.com/Shadows-of-Fire/Hostile-Neural-Networks/issues/new/choose)<br>
 [Hyperbox](https://www.curseforge.com/minecraft/mc-mods/hyperbox) -> [Issue Page](https://github.com/Commoble/hyperbox/issues) [⚡](https://github.com/Commoble/hyperbox/issues/new/choose)<br>
 [I'm Fast](https://www.curseforge.com/minecraft/mc-mods/im-fast) -> [Issue Page](https://github.com/Gabriel-Hiss/Im-Fast/issues) [⚡](https://github.com/Gabriel-Hiss/Im-Fast/issues/new/choose)<br>
 [Iceberg [Neo/Forge]](https://www.curseforge.com/minecraft/mc-mods/iceberg) -> [Issue Page](https://discord.gg/UCKjnamDaW)<br>
-[Illager Warship](https://www.curseforge.com/minecraft/mc-mods/illager-warship) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/illager-warship/issues)[^1]<br>
+[Illager Warship](https://www.curseforge.com/minecraft/mc-mods/illager-warship) -> [Issue Page](https://legacy.curseforge.com/private-messages/send?recipient=wariomod_dev)<br>
 [ImmediatelyFast](https://www.curseforge.com/minecraft/mc-mods/immediatelyfast) -> [Issue Page](https://github.com/RaphiMC/ImmediatelyFast/issues) [⚡](https://github.com/RaphiMC/ImmediatelyFast/issues/new/choose)<br>
-[Immersive Energistics](https://www.curseforge.com/minecraft/mc-mods/immersive-energistics) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/immersive-energistics/issues)[^1]<br>
+[Immersive Energistics](https://www.curseforge.com/minecraft/mc-mods/immersive-energistics) -> [Issue Page](https://github.com/AppliedEnergistics/Immersive-Energistics/issues) [⚡](https://github.com/AppliedEnergistics/Immersive-Energistics/issues/new/choose)<br>
 [Immersive Engineering](https://www.curseforge.com/minecraft/mc-mods/immersive-engineering) -> [Issue Page](https://github.com/BluSunrize/ImmersiveEngineering/issues) [⚡](https://github.com/BluSunrize/ImmersiveEngineering/issues/new/choose)<br>
 [Industrial Foregoing](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing) -> [Issue Page](https://github.com/Buuz135/Industrial-Foregoing/issues) [⚡](https://github.com/Buuz135/Industrial-Foregoing/issues/new/choose)<br>
 [Industrial Foregoing Souls](https://www.curseforge.com/minecraft/mc-mods/industrial-foregoing-souls) -> [Issue Page](https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing-Souls/issues) [⚡](https://github.com/InnovativeOnlineIndustries/Industrial-Foregoing-Souls/issues/new/choose)<br>
@@ -247,8 +247,8 @@ If you don't know what to do, join our Discord and ask for help.
 [Macaw's Windows](https://www.curseforge.com/minecraft/mc-mods/macaws-windows) -> [Issue Page](https://github.com/sketchmacaw/MacawsModsIssues/issues) [⚡](https://github.com/sketchmacaw/MacawsModsIssues/issues/new/choose)<br>
 [Mahou Tsukai](https://www.curseforge.com/minecraft/mc-mods/mahou-tsukai) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/mahou-tsukai/issues)[^1]<br>
 [MakeUp - Ultra Fast | Shaders](https://www.curseforge.com/minecraft/shaders/makeup-ultra-fast-shader) -> [Issue Page](https://github.com/javiergcim/MakeUpUltraFast/issues)[^1] [⚡](https://github.com/javiergcim/MakeUpUltraFast/issues/new/choose)<br>
-[Mama's Herbs and Harvest](https://www.curseforge.com/minecraft/mc-mods/mamas-herbs-and-harvest) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/mamas-herbs-and-harvest/issues)[^1]<br>
-[Mama's Merrymaking - A Minecraft Christmas and Winter Holiday Mod](https://www.curseforge.com/minecraft/mc-mods/maidens-merry-making) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/maidens-merry-making/issues)[^1]<br>
+[Mama's Herbs and Harvest](https://www.curseforge.com/minecraft/mc-mods/mamas-herbs-and-harvest) -> [Issue Page](https://discord.gg/2QWyQ8fkUr)<br>
+[Mama's Merrymaking - A Minecraft Christmas and Winter Holiday Mod](https://www.curseforge.com/minecraft/mc-mods/maidens-merry-making) -> [Issue Page](https://discord.gg/2QWyQ8fkUr)<br>
 [McJtyLib](https://www.curseforge.com/minecraft/mc-mods/mcjtylib) -> [Issue Page](https://github.com/McJty/McJtyLib/issues) [⚡](https://github.com/McJty/McJtyLib/issues/new/choose)<br>
 [ME Requester](https://www.curseforge.com/minecraft/mc-mods/merequester) -> [Issue Page](https://github.com/AlmostReliable/merequester/issues) [⚡](https://github.com/AlmostReliable/merequester/issues/new/choose)<br>
 [Measurements](https://www.curseforge.com/minecraft/mc-mods/measurements) -> [Issue Page](https://github.com/Mrbysco/Measurements/issues) [⚡](https://github.com/Mrbysco/Measurements/issues/new/choose)<br>
@@ -262,7 +262,7 @@ If you don't know what to do, join our Discord and ask for help.
 [MineColonies](https://www.curseforge.com/minecraft/mc-mods/minecolonies) -> [Issue Page](https://github.com/ldtteam/minecolonies/issues/new/choose) [⚡](https://github.com/ldtteam/minecolonies/issues/new/choose/new/choose)<br>
 [Mining Gadgets](https://www.curseforge.com/minecraft/mc-mods/mining-gadgets) -> [Issue Page](https://github.com/Direwolf20-MC/MiningGadgets/issues) [⚡](https://github.com/Direwolf20-MC/MiningGadgets/issues/new/choose)<br>
 [MmmMmmMmmMmm (Target Dummy)](https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm) -> [Issue Page](https://github.com/MehVahdJukaar/DuMmmMmmy/issues) [⚡](https://github.com/MehVahdJukaar/DuMmmMmmy/issues/new/choose)<br>
-[MNS - Moog's Nether Structures](https://www.curseforge.com/minecraft/mc-mods/mns-moogs-nether-structures) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/mns-moogs-nether-structures/issues)[^1]<br>
+[MNS - Moog's Nether Structures](https://www.curseforge.com/minecraft/mc-mods/mns-moogs-nether-structures) -> [Issue Page](https://discord.com/invite/S5nffJbuvA)<br>
 [Mo' Structures (NeoForge/Fabric)](https://www.curseforge.com/minecraft/mc-mods/mo-structures) -> [Issue Page](https://github.com/frqnny/mostructures/issues) [⚡](https://github.com/frqnny/mostructures/issues/new/choose)<br>
 [Mob Grinding Utils](https://www.curseforge.com/minecraft/mc-mods/mob-grinding-utils) -> [Issue Page](https://github.com/vadis365/Mob-Grinding-Utils/issues) [⚡](https://github.com/vadis365/Mob-Grinding-Utils/issues/new/choose)<br>
 [Model Gap Fix](https://www.curseforge.com/minecraft/mc-mods/model-gap-fix) -> [Issue Page](https://github.com/MehVahdJukaar/modelfix-multi/issues) [⚡](https://github.com/MehVahdJukaar/modelfix-multi/issues/new/choose)<br>
@@ -299,7 +299,7 @@ If you don't know what to do, join our Discord and ask for help.
 [No Villager Death Messages](https://www.curseforge.com/minecraft/mc-mods/no-villager-death-messages) -> [Issue Page](https://github.com/jeremiahwinsley/novillagerdm/issues) [⚡](https://github.com/jeremiahwinsley/novillagerdm/issues/new/choose)<br>
 [Nolijium](https://www.curseforge.com/minecraft/mc-mods/nolijium) -> [Issue Page](https://github.com/Nolij/Nolijium/issues) [⚡](https://github.com/Nolij/Nolijium/issues/new/choose)<br>
 [Not Enough Glyphs](https://www.curseforge.com/minecraft/mc-mods/not-enough-glyphs) -> [Issue Page](https://github.com/Alexthw46/NotEnoughGlyphs/issues) [⚡](https://github.com/Alexthw46/NotEnoughGlyphs/issues/new/choose)<br>
-[Nullscape](https://www.curseforge.com/minecraft/mc-mods/nullscape) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/nullscape/issues)[^1]<br>
+[Nullscape](https://www.curseforge.com/minecraft/mc-mods/nullscape) -> [Issue Page](https://discord.gg/vdx7Y3FxyV)<br>
 [Observable](https://www.curseforge.com/minecraft/mc-mods/observable) -> [Issue Page](https://github.com/tasgon/observable/issues) [⚡](https://github.com/tasgon/observable/issues/new/choose)<br>
 [Occultism](https://www.curseforge.com/minecraft/mc-mods/occultism) -> [Issue Page](https://github.com/klikli-dev/occultism/issues) [⚡](https://github.com/klikli-dev/occultism/issues/new/choose)<br>
 [Occultism KubeJS](https://www.curseforge.com/minecraft/mc-mods/occultism-kubejs) -> [Issue Page](https://github.com/klikli-dev/occultism-kubejs/issues)[^1] [⚡](https://github.com/klikli-dev/occultism-kubejs/issues/new/choose)<br>
@@ -311,7 +311,7 @@ If you don't know what to do, join our Discord and ask for help.
 [PackMenu](https://www.curseforge.com/minecraft/mc-mods/packmenu) -> [Issue Page](https://github.com/Shadows-of-Fire/PackMenu/issues) [⚡](https://github.com/Shadows-of-Fire/PackMenu/issues/new/choose)<br>
 [Pam's HarvestCraft 2 - Crops](https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-crops) -> [Issue Page](https://github.com/MatrexsVigil/phc2crops/issues)[^1] [⚡](https://github.com/MatrexsVigil/phc2crops/issues/new/choose)<br>
 [Pam's HarvestCraft 2 - Food Core](https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-food-core) -> [Issue Page](https://github.com/MatrexsVigil/phc2foodcore-1.16.3/issues)[^1] [⚡](https://github.com/MatrexsVigil/phc2foodcore-1.16.3/issues/new/choose)<br>
-[Pam's HarvestCraft 2 - Food Extended](https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-food-extended) -> [Issue Page](https://github.com/MatrexsVigil/phc2foodextended-1.16.3/issues)[^1] [⚡](https://github.com/MatrexsVigil/phc2foodextended-1.16.3/issues/new/choose)<br>
+[Pam's HarvestCraft 2 - Food Extended](https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-food-extended) -> [Issue Page](https://github.com/MatrexsVigil/phc2foodextended/issues) [⚡](https://github.com/MatrexsVigil/phc2foodextended/issues/new/choose)<br>
 [Pam's HarvestCraft 2 - Trees](https://www.curseforge.com/minecraft/mc-mods/pams-harvestcraft-2-trees) -> [Issue Page](https://github.com/MatrexsVigil/phc2trees/issues)[^1] [⚡](https://github.com/MatrexsVigil/phc2trees/issues/new/choose)<br>
 [Patchouli](https://www.curseforge.com/minecraft/mc-mods/patchouli) -> [Issue Page](https://github.com/Vazkii/Patchouli/issues) [⚡](https://github.com/Vazkii/Patchouli/issues/new/choose)<br>
 [Pipez](https://www.curseforge.com/minecraft/mc-mods/pipez) -> [Issue Page](https://github.com/henkelmax/pipez/issues) [⚡](https://github.com/henkelmax/pipez/issues/new/choose)<br>
@@ -322,7 +322,7 @@ If you don't know what to do, join our Discord and ask for help.
 [PolyLib](https://www.curseforge.com/minecraft/mc-mods/polylib) -> [Issue Page](https://github.com/CreeperHost/PolyLib/issues) [⚡](https://github.com/CreeperHost/PolyLib/issues/new/choose)<br>
 [Polymorph (Fabric/Forge/Quilt)](https://www.curseforge.com/minecraft/mc-mods/polymorph) -> [Issue Page](https://github.com/TheIllusiveC4/Polymorph/issues) [⚡](https://github.com/TheIllusiveC4/Polymorph/issues/new/choose)<br>
 [Polymorphic Energistics](https://www.curseforge.com/minecraft/mc-mods/polymorphic-energistics) -> [Issue Page](https://github.com/62832/PolymorphicEnergistics/issues) [⚡](https://github.com/62832/PolymorphicEnergistics/issues/new/choose)<br>
-[Potions Master](https://www.curseforge.com/minecraft/mc-mods/potionsmaster) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/potionsmaster/issues)[^1]<br>
+[Potions Master](https://www.curseforge.com/minecraft/mc-mods/potionsmaster) -> [Issue Page](https://github.com/thevortex/PotionsMaster/issues) [⚡](https://github.com/thevortex/PotionsMaster/issues/new/choose)<br>
 [Powah! (Rearchitected)](https://www.curseforge.com/minecraft/mc-mods/powah-rearchitected) -> [Issue Page](https://github.com/Technici4n/Powah/issues)[^1] [⚡](https://github.com/Technici4n/Powah/issues/new/choose)<br>
 [Prickle](https://www.curseforge.com/minecraft/mc-mods/prickle) -> [Issue Page](https://github.com/Darkhax-Minecraft/PrickleMC/issues) [⚡](https://github.com/Darkhax-Minecraft/PrickleMC/issues/new/choose)<br>
 [Prism [Neo/Forge]](https://www.curseforge.com/minecraft/mc-mods/prism-lib) -> [Issue Page](https://discord.gg/UCKjnamDaW)<br>
@@ -331,12 +331,12 @@ If you don't know what to do, join our Discord and ask for help.
 [Productive Trees](https://www.curseforge.com/minecraft/mc-mods/productivetrees) -> [Issue Page](https://github.com/JDKDigital/productivetrees/issues) [⚡](https://github.com/JDKDigital/productivetrees/issues/new/choose)<br>
 [Pylons](https://www.curseforge.com/minecraft/mc-mods/pylons) -> [Issue Page](https://github.com/jeremiahwinsley/pylons/issues) [⚡](https://github.com/jeremiahwinsley/pylons/issues/new/choose)<br>
 [Railcraft Reborn](https://www.curseforge.com/minecraft/mc-mods/railcraft-reborn) -> [Issue Page](https://github.com/railcraft-reborn/railcraft/issues) [⚡](https://github.com/railcraft-reborn/railcraft/issues/new/choose)<br>
-[Rainbows!](https://www.curseforge.com/minecraft/mc-mods/rainboows) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/rainboows/issues)[^1]<br>
+[Rainbows!](https://www.curseforge.com/minecraft/mc-mods/rainboows) -> [Issue Page](https://legacy.curseforge.com/private-messages/send?recipient=verph)<br>
 [Ranged Pumps](https://www.curseforge.com/minecraft/mc-mods/ranged-pumps) -> [Issue Page](https://github.com/refinedmods/rangedpumps/issues) [⚡](https://github.com/refinedmods/rangedpumps/issues/new/choose)<br>
 [Reap Mod](https://www.curseforge.com/minecraft/mc-mods/reap-mod) -> [Issue Page](https://github.com/henkelmax/reap/issues) [⚡](https://github.com/henkelmax/reap/issues/new/choose)<br>
 [Rebind Narrator](https://www.curseforge.com/minecraft/mc-mods/rebind-narrator) -> [Issue Page](https://github.com/quat1024/RebindNarrator/issues) [⚡](https://github.com/quat1024/RebindNarrator/issues/new/choose)<br>
 [Rechiseled](https://www.curseforge.com/minecraft/mc-mods/rechiseled) -> [Issue Page](https://github.com/SuperMartijn642/Rechiseled/issues) [⚡](https://github.com/SuperMartijn642/Rechiseled/issues/new/choose)<br>
-[Rechiseled: Chipped](https://www.curseforge.com/minecraft/mc-mods/rechiseled-chipped) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/rechiseled-chipped/issues)[^1]<br>
+[Rechiseled: Chipped](https://www.curseforge.com/minecraft/mc-mods/rechiseled-chipped) -> [Issue Page](https://legacy.curseforge.com/private-messages/send?recipient=the_iwolfking)<br>
 [Rechiseled: Create](https://www.curseforge.com/minecraft/mc-mods/rechiseled-create) -> [Issue Page](https://github.com/SuperMartijn642/RechiseledCreate/issues) [⚡](https://github.com/SuperMartijn642/RechiseledCreate/issues/new/choose)<br>
 [Redstone Pen](https://www.curseforge.com/minecraft/mc-mods/redstone-pen) -> [Issue Page](https://github.com/stfwi/redstonepen/issues) [⚡](https://github.com/stfwi/redstonepen/issues/new/choose)<br>
 [Refined Storage](https://www.curseforge.com/minecraft/mc-mods/refined-storage) -> [Issue Page](https://github.com/refinedmods/refinedstorage/issues) [⚡](https://github.com/refinedmods/refinedstorage/issues/new/choose)<br>
@@ -354,7 +354,7 @@ If you don't know what to do, join our Discord and ask for help.
 [Resourceful Lib](https://www.curseforge.com/minecraft/mc-mods/resourceful-lib) -> [Issue Page](https://github.com/Resourceful-Bees/ResourcefulLib/issues) [⚡](https://github.com/Resourceful-Bees/ResourcefulLib/issues/new/choose)<br>
 [Restrictions](https://www.curseforge.com/minecraft/mc-mods/restrictions) -> [Issue Page](https://github.com/McJty/Restrictions/issues) [⚡](https://github.com/McJty/Restrictions/issues/new/choose)<br>
 [RFTools Base](https://www.curseforge.com/minecraft/mc-mods/rftools-base) -> [Issue Page](https://github.com/McJtyMods/RFToolsBase/issues) [⚡](https://github.com/McJtyMods/RFToolsBase/issues/new/choose)<br>
-[RFTools Builder](https://www.curseforge.com/minecraft/mc-mods/rftools-builder) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/rftools-builder/issues)[^1]<br>
+[RFTools Builder](https://www.curseforge.com/minecraft/mc-mods/rftools-builder) -> [Issue Page](https://github.com/McJtyMods/RFToolsBuilder/issues) [⚡](https://github.com/McJtyMods/RFToolsBuilder/issues/new/choose)<br>
 [RFTools Power](https://www.curseforge.com/minecraft/mc-mods/rftools-power) -> [Issue Page](https://github.com/McJty/RFToolsPower/issues) [⚡](https://github.com/McJty/RFToolsPower/issues/new/choose)<br>
 [RFTools Utility](https://www.curseforge.com/minecraft/mc-mods/rftools-utility) -> [Issue Page](https://github.com/McJtyMods/RFToolsUtility/issues) [⚡](https://github.com/McJtyMods/RFToolsUtility/issues/new/choose)<br>
 [Rhino](https://www.curseforge.com/minecraft/mc-mods/rhino) -> [Issue Page](https://kubejs.com/support?source=rhino)<br>
@@ -384,12 +384,12 @@ If you don't know what to do, join our Discord and ask for help.
 [Soulplied Energistics](https://www.curseforge.com/minecraft/mc-mods/soulplied-energistics) -> [Issue Page](https://github.com/InnovativeOnlineIndustries/Soulplied-Energistics/issues) [⚡](https://github.com/InnovativeOnlineIndustries/Soulplied-Energistics/issues/new/choose)<br>
 [spark](https://www.curseforge.com/minecraft/mc-mods/spark) -> [Issue Page](https://github.com/lucko/spark/issues) [⚡](https://github.com/lucko/spark/issues/new/choose)<br>
 [Spice of Life: Carrot Edition](https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition) -> [Issue Page](https://github.com/Cazsius/Spice-of-Life-Carrot-Edition/issues) [⚡](https://github.com/Cazsius/Spice-of-Life-Carrot-Edition/issues/new/choose)<br>
-[Stitch (formerly Athena)](https://www.curseforge.com/minecraft/mc-mods/stitch) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/stitch/issues)[^1]<br>
+[Stitch (formerly Athena)](https://www.curseforge.com/minecraft/mc-mods/stitch) -> [Issue Page](https://discord.com/invite/zGmQqM2CTC)<br>
 [Storage Delight (Forge & Neoforge)](https://www.curseforge.com/minecraft/mc-mods/storage-delight-forge) -> [Issue Page](https://github.com/axperty/storagedelight-forge/issues) [⚡](https://github.com/axperty/storagedelight-forge/issues/new/choose)<br>
-[Structory](https://www.curseforge.com/minecraft/mc-mods/structory) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/structory/issues)[^1]<br>
-[Structory: Towers](https://www.curseforge.com/minecraft/mc-mods/structory-towers) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/structory-towers/issues)[^1]<br>
+[Structory](https://www.curseforge.com/minecraft/mc-mods/structory) -> [Issue Page](https://discord.gg/jfGMW8rEAa)<br>
+[Structory: Towers](https://www.curseforge.com/minecraft/mc-mods/structory-towers) -> [Issue Page](https://discord.gg/jfGMW8rEAa)<br>
 [Structurize](https://www.curseforge.com/minecraft/mc-mods/structurize) -> [Issue Page](https://github.com/ldtteam/structurize/issues) [⚡](https://github.com/ldtteam/structurize/issues/new/choose)<br>
-[Stylecolonies](https://www.curseforge.com/minecraft/mc-mods/stylecolonies) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/stylecolonies/issues)[^1]<br>
+[Stylecolonies](https://www.curseforge.com/minecraft/mc-mods/stylecolonies) -> [Issue Page](https://discord.com/invite/fVfT38e)<br>
 [Super Factory Manager ( SFM )](https://www.curseforge.com/minecraft/mc-mods/super-factory-manager) -> [Issue Page](https://github.com/TeamDman/SuperFactoryManager/issues) [⚡](https://github.com/TeamDman/SuperFactoryManager/issues/new/choose)<br>
 [SuperMartijn642's Config Lib](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib) -> [Issue Page](https://github.com/SuperMartijn642/SuperMartijn642sConfigLib/issues) [⚡](https://github.com/SuperMartijn642/SuperMartijn642sConfigLib/issues/new/choose)<br>
 [SuperMartijn642's Core Lib](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib) -> [Issue Page](https://github.com/SuperMartijn642/SuperMartijn642sCoreLib/issues) [⚡](https://github.com/SuperMartijn642/SuperMartijn642sCoreLib/issues/new/choose)<br>
@@ -409,15 +409,15 @@ If you don't know what to do, join our Discord and ask for help.
 [Toast Control](https://www.curseforge.com/minecraft/mc-mods/toast-control) -> [Issue Page](https://github.com/Shadows-of-Fire/Toast-Control/issues) [⚡](https://github.com/Shadows-of-Fire/Toast-Control/issues/new/choose)<br>
 [Tool Belt](https://www.curseforge.com/minecraft/mc-mods/tool-belt) -> [Issue Page](https://github.com/gigaherz/ToolBelt/issues) [⚡](https://github.com/gigaherz/ToolBelt/issues/new/choose)<br>
 [Torchmaster](https://www.curseforge.com/minecraft/mc-mods/torchmaster) -> [Issue Page](https://github.com/Xalcon/TorchMaster/issues) [⚡](https://github.com/Xalcon/TorchMaster/issues/new/choose)<br>
-[Towns and Towers](https://www.curseforge.com/minecraft/mc-mods/towns-and-towers) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/towns-and-towers/issues)[^1]<br>
-[TownTalk](https://www.curseforge.com/minecraft/mc-mods/towntalk) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/towntalk/issues)[^1]<br>
+[Towns and Towers](https://www.curseforge.com/minecraft/mc-mods/towns-and-towers) -> [Issue Page](https://discord.com/invite/yJng7sC44x)<br>
+[TownTalk](https://www.curseforge.com/minecraft/mc-mods/towntalk) -> [Issue Page](https://discord.com/invite/fVfT38e)<br>
 [Trash Cans](https://www.curseforge.com/minecraft/mc-mods/trash-cans) -> [Issue Page](https://github.com/SuperMartijn642/TrashCans/issues) [⚡](https://github.com/SuperMartijn642/TrashCans/issues/new/choose)<br>
 [TrashSlot](https://www.curseforge.com/minecraft/mc-mods/trashslot) -> [Issue Page](https://github.com/ModdingForBlockheads/TrashSlot/issues) [⚡](https://github.com/ModdingForBlockheads/TrashSlot/issues/new/choose)<br>
 [Tree Tap](https://www.curseforge.com/minecraft/mc-mods/treetap) -> [Issue Page](https://github.com/JDKDigital/treetap/issues) [⚡](https://github.com/JDKDigital/treetap/issues/new/choose)<br>
 [Underground Villages](https://www.curseforge.com/minecraft/mc-mods/underground-villages) -> [Issue Page](https://github.com/Mrbysco/UndergroundVillages/issues) [⚡](https://github.com/Mrbysco/UndergroundVillages/issues/new/choose)<br>
 [Universal Grid](https://www.curseforge.com/minecraft/mc-mods/universal-grid) -> [Issue Page](https://github.com/starforcraft/Universal-Grid/issues) [⚡](https://github.com/starforcraft/Universal-Grid/issues/new/choose)<br>
 [Utilitarian](https://www.curseforge.com/minecraft/mc-mods/utilitarian) -> [Issue Page](https://github.com/JDKDigital/utilitarian/issues) [⚡](https://github.com/JDKDigital/utilitarian/issues/new/choose)<br>
-[Valhelsia Core](https://www.curseforge.com/minecraft/mc-mods/valhelsia-core) -> [Issue Page](https://www.curseforge.com/minecraft/mc-mods/valhelsia-core/issues)[^1]<br>
+[Valhelsia Core](https://www.curseforge.com/minecraft/mc-mods/valhelsia-core) -> [Issue Page](https://github.com/ValhelsiaTeam/Valhelsia-Core/issues) [⚡](https://github.com/ValhelsiaTeam/Valhelsia-Core/issues/new/choose)<br>
 [Variants&Ventures](https://www.curseforge.com/minecraft/mc-mods/variants-and-ventures) -> [Issue Page](https://github.com/Faboslav/variants-and-ventures/issues) [⚡](https://github.com/Faboslav/variants-and-ventures/issues/new/choose)<br>
 [Villages&Pillages](https://www.curseforge.com/minecraft/mc-mods/villages-and-pillages) -> [Issue Page](https://github.com/Faboslav/villages-and-pillages/issues) [⚡](https://github.com/Faboslav/villages-and-pillages/issues/new/choose)<br>
 [Waystones](https://www.curseforge.com/minecraft/mc-mods/waystones) -> [Issue Page](https://github.com/ModdingForBlockheads/Waystones/issues) [⚡](https://github.com/ModdingForBlockheads/Waystones/issues/new/choose)<br>
