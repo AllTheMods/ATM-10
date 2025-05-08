@@ -19,6 +19,12 @@ RecipeViewerEvents.removeEntriesCompletely('item', allthemods =>{
   allthemods.remove("extradisks:infinite_item_storage_block")
   allthemods.remove("extradisks:infinite_item_storage_disk")
   allthemods.remove("extradisks:infinite_item_storage_part")
+
+  let $DyeColor = Java.loadClass("net.minecraft.world.item.DyeColor")
+  for (let color of $DyeColor.values()){
+    let colorString = color.getSerializedName().toLowerCase()
+    allthemods.remove(`/refinedstorage:${colorString}_.*/`)
+  }
 })
 
 RecipeViewerEvents.addInformation('fluid', allthemods =>{
