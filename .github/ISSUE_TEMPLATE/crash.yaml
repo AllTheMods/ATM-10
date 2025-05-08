@@ -78,7 +78,7 @@ body:
       description: Please upload your crash log to https://mclo.gs/ and leave the link
         here. Located in `/<instance name>/crash-reports/` or `/<instance
         name>/debug/`
-      placeholder: https://mclo.gs/...
+      placeholder: https://mclo.gs/... (Not required if already sent message from Crash Assistant...)
     validations:
       required: false
   - type: input
@@ -88,6 +88,6 @@ body:
       description: Please upload your latest.log to https://mclo.gs/ and leave the
         link here. Note this file is different to a crash report. Located in
         `/<instance name>/logs/`.
-      placeholder: https://mclo.gs/...
+      placeholder: https://mclo.gs/... (Not required if already sent message from Crash Assistant...)
     validations:
       required: false
