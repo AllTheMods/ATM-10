@@ -1,0 +1,43 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "enderio"
+    }
+  ],
+  "type": "xycraft_machines:extractor",
+  "adjacent": [
+    {
+      "block": "minecraft:cobbled_deepslate",
+      "predicate_type": "xycraft_core:block_rule"
+    },
+    {
+      "block": "minecraft:cobbled_deepslate",
+      "predicate_type": "xycraft_core:block_rule"
+    },
+    {
+      "block": "minecraft:cobbled_deepslate",
+      "predicate_type": "xycraft_core:block_rule"
+    },
+    {
+      "block": "minecraft:cobbled_deepslate",
+      "predicate_type": "xycraft_core:block_rule"
+    }
+  ],
+  "catalyst": {
+    "block": "minecraft:campfire",
+    "predicate_type": "xycraft_core:block_rule"
+  },
+  "output": {
+    "Count": 1,
+    "id": "enderio:grains_of_infinity"
+  },
+  "target": {
+    "block": "enderio:reinforced_obsidian_block",
+    "predicate_type": "xycraft_core:block_rule"
+  },
+  "ticks": 200,
+  "valid_directions": [
+    "down"
+  ]
+}

@@ -27,6 +27,10 @@ RecipeViewerEvents.removeEntriesCompletely('item', allthemods =>{
   }
 })
 
+RecipeViewerEvents.removeRecipes(event => {
+  event.remove(["xycraft_machines:extractor/enderio/grains_of_infinity"])
+})
+
 RecipeViewerEvents.addInformation('fluid', allthemods =>{
   allthemods.add("advanced_ae:quantum_infusion_source", [
       'In the Reaction Chamber: §e4000mb of Water§f + §e1x Quantum Infused Dust§f = §b1000mb of Quantum Infusion'
