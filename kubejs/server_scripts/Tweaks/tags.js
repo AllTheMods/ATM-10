@@ -127,6 +127,9 @@ ServerEvents.tags('entity_type', allthemods => {
     )
     // Create
     allthemods.add('justdirethings:paradox_deny', 'create:package');
+
+    // Mekanism
+    allthemods.add('justdirethings:paradox_deny', 'mekanism:robit');
 });
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
