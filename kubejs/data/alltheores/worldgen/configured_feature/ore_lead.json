@@ -1,0 +1,103 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "discard_chance_on_air_exposure": 0.0,
+    "size": 12,
+    "targets": [
+      {
+        "state": {
+          "Name": "alltheores:lead_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "minecraft:stone_ore_replaceables"
+        }
+      },
+      {
+        "state": {
+          "Name": "alltheores:deepslate_lead_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "minecraft:deepslate_ore_replaceables"
+        }
+      },
+      {
+        "state": {
+          "Name": "alltheores:nether_lead_ore"
+        },
+        "target": {
+          "block": "minecraft:netherrack",
+          "predicate_type": "minecraft:block_match"
+        }
+      },
+      {
+        "state": {
+          "Name": "alltheores:end_lead_ore"
+        },
+        "target": {
+          "block": "minecraft:end_stone",
+          "predicate_type": "minecraft:block_match"
+        }
+      },
+      {
+        "state": {
+          "Name": "alltheores:other_lead_ore"
+        },
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "allthemodium:ancient_stone"
+        }
+      },
+      {
+        "state": {
+          "Name": "alltheores:raw_lead_block"
+        },
+        "target": {
+          "block": "minecraft:stone",
+          "predicate_type": "minecraft:random_block_match",
+          "probability": 0.005
+        }
+      },
+      {
+        "state": {
+          "Name": "alltheores:raw_lead_block"
+        },
+        "target": {
+          "block": "minecraft:deepslate",
+          "predicate_type": "minecraft:random_block_match",
+          "probability": 0.03
+        }
+      },
+      {
+        "state": {
+          "Name": "alltheores:raw_lead_block"
+        },
+        "target": {
+          "block": "minecraft:netherrack",
+          "predicate_type": "minecraft:random_block_match",
+          "probability": 0.01
+        }
+      },
+      {
+        "state": {
+          "Name": "alltheores:raw_lead_block"
+        },
+        "target": {
+          "block": "minecraft:end_stone",
+          "predicate_type": "minecraft:random_block_match",
+          "probability": 0.01
+        }
+      },
+      {
+        "state": {
+          "Name": "alltheores:raw_lead_block"
+        },
+        "target": {
+          "predicate_type": "minecraft:tag_match",
+          "tag": "allthemodium:ancient_stone"
+        }
+      }
+    ]
+  }
+}
