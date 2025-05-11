@@ -2,13 +2,14 @@
 title: "[Fill Mod Name Here]"
 body:
   - type: markdown
-    value: >
-      - Make sure this mod is available on the same Minecraft version of the
-      pack.
-
-      - Do not suggest multiple mods on same post. Create other discussion for that.
-
-      - Create one discussion per mod.
+    attributes:
+      value: >
+        - Make sure this mod is available on the same Minecraft version of the
+        pack.
+  
+        - Do not suggest multiple mods on same post. Create other discussion for that.
+  
+        - Create one discussion per mod.
   - type: input
     id: mod-cf-link
     attributes:
@@ -23,9 +24,9 @@ body:
       label: Did you test?
       description: Have you tried to add it and see if it runs?
       options:
-        - No
-        - Yes, runs fine
-        - Yes, crashed/had issues
+        - "No"
+        - "Yes, runs fine"
+        - "Yes, crashed/had issues"
     validations:
       required: true
   - type: dropdown
