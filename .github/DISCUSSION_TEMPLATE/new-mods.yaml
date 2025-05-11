@@ -1,9 +1,13 @@
+---
 title: "[Fill Mod Name Here]"
 body:
   - type: markdown
-    value: |
-      - Make sure this mod is available on the same Minecraft version of the pack.
+    value: >
+      - Make sure this mod is available on the same Minecraft version of the
+      pack.
+
       - Do not suggest multiple mods on same post. Create other discussion for that.
+
       - Create one discussion per mod.
   - type: input
     id: mod-cf-link
@@ -19,20 +23,21 @@ body:
       label: Did you test?
       description: Have you tried to add it and see if it runs?
       options:
-        - 'No'
-        - 'Yes, runs fine'
-        - 'Yes, crashed/had issues'
+        - No
+        - Yes, runs fine
+        - Yes, crashed/had issues
     validations:
       required: true
   - type: dropdown
     id: previous-packs
     attributes:
       label: Previously on our packs?
-      description: Have this mod been added to our previous packs like ATM9, ATM TTS, ATM8, etc?
+      description: Have this mod been added to our previous packs like ATM9, ATM TTS,
+        ATM8, etc?
       options:
-        - "Don't know"
-        - 'Yes'
-        - 'No'
+        - Don't know
+        - Yes
+        - No
     validations:
       required: true
   - type: input
@@ -47,4 +52,5 @@ body:
     id: reason
     attributes:
       label: Reason to be added
-      description: What kind of content this mod adds to the pack and why it is needed to be added
+      description: What kind of content this mod adds to the pack and why it is needed
+        to be added
