@@ -67,6 +67,7 @@ ServerEvents.tags('item', allthemods => {
         '#c:storage_blocks/water_essence'
     ])
 
+    // Bibliocraft compat
     // Ars Elemental Books
     allthemods.add('minecraft:bookshelf_books', 'ars_elemental:air_caster_tome')
     allthemods.add('minecraft:bookshelf_books', 'ars_elemental:fire_caster_tome')
@@ -74,6 +75,12 @@ ServerEvents.tags('item', allthemods => {
     allthemods.add('minecraft:bookshelf_books', 'ars_elemental:earth_caster_tome')
     allthemods.add('minecraft:bookshelf_books', 'ars_elemental:anima_caster_tome')
     allthemods.add('minecraft:bookshelf_books', 'ars_elemental:manipulation_caster_tome')
+
+    // More books
+    allthemods.add('minecraft:bookshelf_books', 'patchouli:guide_book')
+    allthemods.add('minecraft:bookshelf_books', 'evilcraft:origins_of_darkness')
+    allthemods.add('minecraft:bookshelf_books', 'ae2:guide')
+    allthemods.add('minecraft:bookshelf_books', 'powah:book')
 })
 
 ServerEvents.tags('entity_type', allthemods => {
