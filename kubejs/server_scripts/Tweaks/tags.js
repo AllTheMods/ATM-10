@@ -137,6 +137,9 @@ ServerEvents.tags('entity_type', allthemods => {
 
     // Mekanism
     allthemods.add('justdirethings:paradox_deny', 'mekanism:robit');
+
+    // Ars 
+    allthemods.add('justdirethings:paradox_deny', 'ars_nouveau:animated_block');
 });
 
 ServerEvents.tags('worldgen/structure', allthemods => {
