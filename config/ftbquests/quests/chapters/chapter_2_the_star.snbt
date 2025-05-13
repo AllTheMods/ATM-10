@@ -471,12 +471,11 @@
 		{
 			dependencies: [
 				"5869E198DA416346"
-				"42AF4EBDA5D6CC36"
 				"39F9C825B03DA317"
 				"45D10F53CA18B8EE"
-				"0923C941A9696122"
 				"0848056FDD3F9BDA"
 				"6A12188E50EAEB78"
+				"49FDD8666356A3E7"
 			]
 			id: "36DF0D83EBC2B6A9"
 			min_required_dependencies: 6
@@ -528,8 +527,7 @@
 				"268EA2DEC8840D13"
 				"77F2271C45DB49BA"
 				"616F9B78B16B42A5"
-				"5608C74936CA9E81"
-				"17598C171E610752"
+				"7B140A034DF1291C"
 			]
 			id: "6CAD67D21E1EA861"
 			rewards: [
@@ -696,10 +694,10 @@
 				"561B5FB009744D2B"
 				"59EC02C1FBCF14EA"
 				"7D972A3C4211EB26"
-				"30CC20E33EFA2EDA"
-				"2B0C3AAAA6D0B0D2"
+				"4E8C32CD6057A1AB"
 			]
 			id: "2188C52C1F384DE4"
+			min_required_dependencies: 10
 			rewards: [
 				{
 					id: "6E40EC46E76292C4"
@@ -934,7 +932,7 @@
 					xp_levels: 15
 				}
 			]
-			size: 1.0d
+			size: 1.25d
 			tasks: [
 				{
 					count: 28L
@@ -949,7 +947,7 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: -2.0d
 			y: 6.0d
 		}
 		{
@@ -1006,7 +1004,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["340CDF4357E22A43"]
@@ -1034,7 +1032,7 @@
 				item: { count: 1, id: "irons_spellbooks:fire_upgrade_orb" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -2.0d
 			y: 8.0d
 		}
 		{
@@ -1147,7 +1145,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["11374A3B5BD644F5"]
@@ -1263,7 +1261,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3CFD27F273B97FDD"]
@@ -1298,7 +1296,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["76C63670624C3C56"]
@@ -1637,7 +1635,6 @@
 		}
 		{
 			dependencies: ["24F3E90C14BFD1B4"]
-			hide_dependent_lines: true
 			id: "2B0C3AAAA6D0B0D2"
 			optional: true
 			rewards: [{
@@ -1647,11 +1644,8 @@
 			}]
 			size: 1.25d
 			tasks: [{
-				icon: {
-					id: "modern_industrialization:uranium_fuel_rod_quad"
-				}
-				id: "27E5276783B20D70"
-				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:uranium_fuel_rod_quad)item(create:blaze_burner))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "1BA740EE0607A00D"
+				item: { count: 1, id: "modern_industrialization:uranium_fuel_rod_quad" }
 				type: "item"
 			}]
 			x: -8.0d
@@ -1768,8 +1762,8 @@
 				item: { count: 1, id: "allthecompressed:diamond_block_4x" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 8.0d
+			x: 0.0d
+			y: -6.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -1824,7 +1818,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: 6.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["3CFD27F273B97FDD"]
@@ -1852,7 +1846,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -8.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["3CFD27F273B97FDD"]
@@ -1909,7 +1903,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -10.0d
+			y: -12.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -1962,8 +1956,8 @@
 				item: { count: 1, id: "allthecompressed:dirt_6x" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: -2.0d
+			x: -4.0d
+			y: -4.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -2323,7 +2317,6 @@
 		}
 		{
 			dependencies: ["4485C4ABD57874EB"]
-			hide_dependent_lines: true
 			icon: {
 				id: "megacells:portable_item_cell_256m"
 			}
@@ -2336,11 +2329,8 @@
 			}]
 			size: 1.25d
 			tasks: [{
-				icon: {
-					id: "megacells:portable_item_cell_256m"
-				}
-				id: "0B6A0248F5D5C83E"
-				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:blastproof_casing)item(megacells:portable_item_cell_256m))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "66B0E90537E8D8AC"
+				item: { count: 1, id: "megacells:portable_item_cell_256m" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -2401,11 +2391,10 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["24F3E90C14BFD1B4"]
-			hide_dependent_lines: true
 			icon: {
 				id: "modern_industrialization:blastproof_casing"
 			}
@@ -2418,11 +2407,8 @@
 			}]
 			size: 1.25d
 			tasks: [{
-				icon: {
-					id: "modern_industrialization:blastproof_casing"
-				}
-				id: "25EDC3156DAC8A53"
-				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:blastproof_casing)item(megacells:portable_item_cell_256m))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "25775593C01703BF"
+				item: { count: 1, id: "modern_industrialization:blastproof_casing" }
 				type: "item"
 			}]
 			x: -8.0d
@@ -2547,7 +2533,6 @@
 		}
 		{
 			dependencies: ["24F3E90C14BFD1B4"]
-			hide_dependent_lines: true
 			id: "17598C171E610752"
 			optional: true
 			rewards: [{
@@ -2557,11 +2542,8 @@
 			}]
 			size: 1.25d
 			tasks: [{
-				icon: {
-					id: "modern_industrialization:large_advanced_motor"
-				}
-				id: "16EB2D249A3FF197"
-				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:large_advanced_motor)item(create:mechanical_arm))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "48163F513DC0C58D"
+				item: { count: 1, id: "modern_industrialization:large_advanced_motor" }
 				type: "item"
 			}]
 			x: -10.0d
@@ -2592,7 +2574,7 @@
 				item: { count: 1, id: "aeinfinitybooster:infinity_card" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: -6.0d
 		}
 		{
@@ -2622,7 +2604,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -8.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["372B5BF416CA83A4"]
@@ -2678,7 +2660,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -6.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["7E4367252A39BE6C"]
@@ -2764,8 +2746,8 @@
 				item: { count: 1, id: "mysticalagradditions:insanium_gemstone_block" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 4.0d
+			x: -4.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["7377C657CED885AC"]
@@ -2830,7 +2812,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
 			hide_dependent_lines: true
@@ -3225,7 +3207,7 @@
 				item: { count: 1, id: "ars_nouveau:source_gem" }
 				type: "item"
 			}]
-			x: 5.0d
+			x: 5.5d
 			y: -8.0d
 		}
 		{
@@ -3510,7 +3492,7 @@
 				item: { count: 1, id: "rootsclassic:verdant_sprig" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -5.5d
 			y: -8.0d
 		}
 		{
@@ -3958,7 +3940,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -10.0d
+			y: -12.0d
 		}
 		{
 			icon: {
@@ -4049,13 +4031,14 @@
 					xp_levels: 5
 				}
 			]
+			size: 1.25d
 			tasks: [{
 				count: 2L
 				id: "6D38B25BA2016921"
 				item: { count: 1, id: "allthemodium:unobtainium_vibranium_alloy_block" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 0.0d
 			y: 6.0d
 		}
 		{
@@ -4077,7 +4060,6 @@
 		{
 			dependencies: ["4B7D387CEFF9667E"]
 			dependency_requirement: "one_completed"
-			hide_dependent_lines: true
 			id: "30CC20E33EFA2EDA"
 			optional: true
 			rewards: [{
@@ -4087,11 +4069,8 @@
 			}]
 			size: 1.25d
 			tasks: [{
-				icon: {
-					id: "create:blaze_burner"
-				}
-				id: "41B97A4DA9BF8D78"
-				item: { components: { "ftbfiltersystem:filter": "or(item(create:blaze_burner)item(modern_industrialization:uranium_fuel_rod_quad))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "63C76BC24DF941C2"
+				item: { count: 1, id: "create:blaze_burner" }
 				type: "item"
 			}]
 			x: 10.0d
@@ -4100,7 +4079,6 @@
 		{
 			dependencies: ["4B7D387CEFF9667E"]
 			dependency_requirement: "one_completed"
-			hide_dependent_lines: true
 			id: "5608C74936CA9E81"
 			optional: true
 			rewards: [{
@@ -4110,11 +4088,8 @@
 			}]
 			size: 1.25d
 			tasks: [{
-				icon: {
-					id: "create:mechanical_arm"
-				}
-				id: "3E394D5E7862ED08"
-				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:large_advanced_motor)item(create:mechanical_arm))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "4419D03B50AA5626"
+				item: { count: 1, id: "create:mechanical_arm" }
 				type: "item"
 			}]
 			x: 12.0d
@@ -4172,8 +4147,73 @@
 				item: { count: 1, id: "cataclysm:void_forge" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"42AF4EBDA5D6CC36"
+				"0923C941A9696122"
+			]
+			hide_dependency_lines: true
+			id: "49FDD8666356A3E7"
+			rewards: [{
+				id: "24515A90C6B390E1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "44013B23AB5873A2"
+				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:blastproof_casing)item(megacells:portable_item_cell_256m))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.0d
 			y: -2.0d
+		}
+		{
+			dependencies: [
+				"17598C171E610752"
+				"5608C74936CA9E81"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "7B140A034DF1291C"
+			rewards: [{
+				id: "308C686A4888EE0B"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "3043AA3A143C2F09"
+				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:large_advanced_motor)item(create:mechanical_arm))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"30CC20E33EFA2EDA"
+				"2B0C3AAAA6D0B0D2"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "4E8C32CD6057A1AB"
+			rewards: [{
+				id: "0EBE593E002AB633"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			size: 1.25d
+			tasks: [{
+				id: "7098EE34DE595CD4"
+				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:uranium_fuel_rod_quad)item(create:blaze_burner))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
 		}
 	]
 }
