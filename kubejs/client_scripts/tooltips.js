@@ -175,6 +175,25 @@ ItemEvents.modifyTooltips(allthemods => {
     allthemods.add('eternal_starlight:loot_bag[eternal_starlight:loot_table="eternal_starlight:bosses/lunar_monstrosity"]', [
         Text.of('This loot bag is from the \"Lunar Monstrosity\".')
     ])
+
+    if (Platform.isLoaded('modular_machinery_reborn')) {
+        allthemods.add('modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:runic_crucible"]', [
+            Text.of('§cWARNING, this machine has be depreciated.'),
+            Text.of('Use crafting table to convert to the new version.')
+        ])
+        allthemods.add('modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:runic_star_altar"]', [
+            Text.of('§cWARNING, this machine has be depreciated.'),
+            Text.of('Use crafting table to convert to the new version.')
+        ])
+        allthemods.add('modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:runic_enchanter"]', [
+            Text.of('§cWARNING, this machine has be depreciated.'),
+            Text.of('Use crafting table to convert to the new version.')
+        ])
+        allthemods.add('modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:auto_hepheastus_forge"]', [
+            Text.of('§cWARNING, this machine has be depreciated.'),
+            Text.of('Use crafting table to convert to the new version.')
+        ])
+    }
 })
 
 
