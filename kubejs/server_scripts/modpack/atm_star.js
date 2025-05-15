@@ -1,4 +1,4 @@
-﻿// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
 ServerEvents.recipes(allthemods => {
@@ -12,7 +12,7 @@ ServerEvents.recipes(allthemods => {
           .requireItem('4x mysticalagriculture:awakened_supremium_gemstone', 50, 37)
           .progressX(86)
           .progressY(27)
-          .produceItem(`allthemodium:unobtainium_vibranium_alloy_block[enchantments={levels:{"minecraft:unbreaking":1}},custom_name='{"extra":[{"italic":false,"text":"Awakened Unobtainium-Vibranium Alloy Block"}],"text":""}']`, 126, 27)
+          .produceItem(`allthemodium:unobtainium_vibranium_alloy_block[enchantments={levels:{"minecraft:unbreaking":1}},custom_name='{"italic":false,"translate":"custom_name.atm.awakened_unobtainium_vibranium_alloy_block"}']`, 126, 27)
           .width(152)
           .height(86)
 
@@ -28,7 +28,7 @@ ServerEvents.recipes(allthemods => {
           .requireItem('allthetweaks:patrick_star', 69, 27)
           .progressX(105)
           .progressY(27)
-          .produceItem(`allthetweaks:patrick_star[enchantments={levels:{"minecraft:mending":1}},custom_name='{"extra":[{"italic":false,"text":"Infused Patrick Star"}],"text":""}']`, 145, 27)
+          .produceItem(`allthetweaks:patrick_star[enchantments={levels:{"minecraft:mending":1}},custom_name='{"italic":false,"translate":"custom_name.atm.infused_patrick_star"}']`, 145, 27)
           .width(171)
           .height(90)
 
@@ -39,7 +39,7 @@ ServerEvents.recipes(allthemods => {
           .requireItem('kubejs:atm_star_shard_5', 31, 27)
           .requireItem('kubejs:atm_star_shard_4', 31, 46)
           .requireItem('kubejs:atm_star_shard_1', 50, 8)
-          .requireItem(`allthetweaks:patrick_star[enchantments={levels:{"minecraft:mending":1}},custom_name='{"extra":[{"italic":false,"text":"Infused Patrick Star"}],"text":""}']`, 50, 27)
+          .requireItem(`allthetweaks:patrick_star[enchantments={levels:{"minecraft:mending":1}},custom_name='{"italic":false,"translate":"custom_name.atm.infused_patrick_star"}']`, 50, 27)
           .requireItem('actuallyadditions:lens_of_the_killer', 50, 46)
           .requireItem('forbidden_arcanus:corrupti_dust', 69, 8)
           .requireItem('kubejs:atm_star_shard_2', 69, 27)
@@ -183,11 +183,11 @@ ServerEvents.recipes(allthemods => {
           .requireItem('allthemodium:unobtainium_allthemodium_alloy_block', 183, 65)
 
           .requireItem('allthemodium:unobtainium_allthemodium_alloy_block', 50, 84)
-          .requireItem(`allthemodium:unobtainium_vibranium_alloy_block[enchantments={levels:{"minecraft:unbreaking":1}},custom_name='{"extra":[{"italic":false,"text":"Awakened Unobtainium-Vibranium Alloy Block"}],"text":""}']`, 69, 84)
+          .requireItem(`allthemodium:unobtainium_vibranium_alloy_block[enchantments={levels:{"minecraft:unbreaking":1}},custom_name='{"italic":false,"translate":"custom_name.atm.awakened_unobtainium_vibranium_alloy_block"}']`, 69, 84)
           .requireItem('allthetweaks:nexium_emitter', 88, 84)
           .requireItem('allthetweaks:patrick_star', 107, 84)
           .requireItem('allthetweaks:dimensional_seed', 126, 84)
-          .requireItem(`allthemodium:unobtainium_vibranium_alloy_block[enchantments={levels:{"minecraft:unbreaking":1}},custom_name='{"extra":[{"italic":false,"text":"Awakened Unobtainium-Vibranium Alloy Block"}],"text":""}']`, 145, 84)
+          .requireItem(`allthemodium:unobtainium_vibranium_alloy_block[enchantments={levels:{"minecraft:unbreaking":1}},custom_name='{"italic":false,"translate":"custom_name.atm.awakened_unobtainium_vibranium_alloy_block"}']`, 145, 84)
           .requireItem('allthemodium:unobtainium_allthemodium_alloy_block', 164, 84)
 
           .requireItem('allthemodium:unobtainium_allthemodium_alloy_block', 69, 103)
