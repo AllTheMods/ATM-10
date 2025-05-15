@@ -5,175 +5,175 @@ ItemEvents.modifyTooltips(allthemods => {
 
     //AllTheModium
     allthemods.add('allthemodium:teleport_pad',[
-        Text.of('Place the pad down in the specified Dimension'),
-        Text.of('Sneak Right Click with both hands empty to teleport'),
-        Text.of('§aOverworld TO Mining Dimension'),
-        Text.of('§cThe Nether TO The Other'),
-        Text.of('§bThe End TO The Beyond')
+        Text.translate('tooltip.atm.teleport_pad_1'),
+        Text.translate('tooltip.atm.teleport_pad_2'),
+        Text.translate('tooltip.atm.teleport_pad_3'),
+        Text.translate('tooltip.atm.teleport_pad_4'),
+        Text.translate('tooltip.atm.teleport_pad_5')
     ])
 
     allthemods.add(['allthemodium:allthemodium_ore', 'allthemodium:allthemodium_slate_ore'],[
-        Text.of('§7Needs at least Netherite to be mined'),
-        Text.of('§6Found in the Deep Dark Biome and will always spawn air exposed'),
-        Text.of('§6Also found in the Deep Slate Layer of Mining Dimension')
+        Text.translate('tooltip.atm.allthemodium_ore_1'),
+        Text.translate('tooltip.atm.allthemodium_ore_2'),
+        Text.translate('tooltip.atm.allthemodium_ore_3')
     ])
     allthemods.add(['allthemodium:vibranium_ore', 'allthemodium:other_vibranium_ore'],[
-        Text.of('§7Needs at least AllTheModium to be mined'),
-        Text.of('§bFound in any Nether biome'),
-        Text.of('§bAlso found in The Other')
+        Text.translate('tooltip.atm.vibranium_ore_1'),
+        Text.translate('tooltip.atm.vibranium_ore_2'),
+        Text.translate('tooltip.atm.vibranium_ore_3')
     ])
     allthemods.add('allthemodium:unobtainium_ore',[
-        Text.of('§7Needs at least Vibranium to be mined'),
-        Text.of('§dFound in the End Highlands')
+        Text.translate('tooltip.atm.unobtainium_ore_1'),
+        Text.translate('tooltip.atm.unobtainium_ore_2')
     ])
 
     allthemods.add('kubejs:silent_allthemodium_plate',[
-        Text.of("§7§oIt's less... talkative now")
+        Text.translate('tooltip.atm.silent_allthemodium_plate')
     ])
     allthemods.add('kubejs:silent_vibranium_plate',[
-        Text.of("§7§oIt's less... talkative now")
+        Text.translate('tooltip.atm.silent_vibranium_plate')
     ])
     allthemods.add('kubejs:silent_unobtainium_plate',[
-        Text.of("§7§oIt's less... talkative now")
+        Text.translate('tooltip.atm.silent_unobtainium_plate')
     ])
 
     allthemods.add('allthemodium:allthemodium_ingot',[
-        Text.of("§7§oThese arent the ingots you are looking for"),
-        Text.of("§6Look for the [Silent Allthemodium Plate]")
+        Text.translate('tooltip.atm.silent_allthemodium_ingot_1'),
+        Text.translate('tooltip.atm.silent_allthemodium_ingot_2')
     ])
     allthemods.add('allthemodium:vibranium_ingot',[
-        Text.of("§7§oThese arent the ingots you are looking for"),
-        Text.of("§6Look for the [Silent Vibranium Plate]")
+        Text.translate('tooltip.atm.silent_vibranium_ingot_1'),
+        Text.translate('tooltip.atm.silent_vibranium_ingot_2')
     ])
     allthemods.add('allthemodium:unobtainium_ingot',[
-        Text.of("§7§oThese arent the ingots you are looking for"),
-        Text.of("§6Look for the [Silent Unobtainium Plate]")
+        Text.translate('tooltip.atm.silent_unobtainium_ingot_1'),
+        Text.translate('tooltip.atm.silent_unobtainium_ingot_2')
     ])
 
 
     allthemods.add('allthemodium:allthemodium_upgrade_smithing_template',[
-        Text.of('§6Found in Suspicious Clay in Ancient Cities')
+        Text.translate('tooltip.atm.allthemodium_upgrade_smithing_template')
     ])
     allthemods.add('allthemodium:vibranium_upgrade_smithing_template',[
-        Text.of('§bFound in Suspicious Soul Sand in Bastions')
+        Text.translate('tooltip.atm.vibranium_upgrade_smithing_template')
     ])
     allthemods.add('allthemodium:unobtainium_upgrade_smithing_template',[
-        Text.of('§dDropped by the Trial Spawner in the Library of the Dungeon within The Other')
+        Text.translate('tooltip.atm.unobtainium_upgrade_smithing_template')
     ])
 
     //Forbidden Arcanus
     allthemods.add('forbidden_arcanus:hephaestus_forge_tier_1',[
-        Text.of("§c§lShift-Right-Click§r§c the §c§lSmithing Table§r§c with §lMundabitur Dust"),
-        Text.of("§c█ = Gilded Chiseled Polished Darkstone with Smithing Table on top"),
-        Text.of("§7█ = Polished Darkstone"),
-        Text.of("§5█§7 = Gilded Chiseled Polished Darkstone"),
-        Text.of("§6█§7 = Chiseled Arcane Polished Darkstone"),
-        Text.of("§0███§7███§0███"),
-        Text.of("§0█§7███§5█§7███§0█"),
-        Text.of("§0█§7█§5█§7███§5█§7█§0█"),
-        Text.of("§7████§6█§7████"),
-        Text.of("§7█§5█§7█§6█§c█§6█§7█§5█§7█"),
-        Text.of("§7████§6█§7████"),
-        Text.of("§0█§7█§5█§7███§5█§7█§0█"),
-        Text.of("§0█§7███§5█§7███§0█"),
-        Text.of("§0███§7███§0███")
+        Text.translate('tooltip.atm.hephaestus_forge_1'),
+        Text.translate('tooltip.atm.hephaestus_forge_2'),
+        Text.translate('tooltip.atm.hephaestus_forge_3'),
+        Text.translate('tooltip.atm.hephaestus_forge_4'),
+        Text.translate('tooltip.atm.hephaestus_forge_5'),
+        Text.translate('tooltip.atm.hephaestus_forge_6'),
+        Text.translate('tooltip.atm.hephaestus_forge_7'),
+        Text.translate('tooltip.atm.hephaestus_forge_8'),
+        Text.translate('tooltip.atm.hephaestus_forge_9'),
+        Text.translate('tooltip.atm.hephaestus_forge_10'),
+        Text.translate('tooltip.atm.hephaestus_forge_11'),
+        Text.translate('tooltip.atm.hephaestus_forge_12'),
+        Text.translate('tooltip.atm.hephaestus_forge_13'),
+        Text.translate('tooltip.atm.hephaestus_forge_14')
 
     ])
     allthemods.add('forbidden_arcanus:clibano_core',[
-        Text.of("§c§lShift-Right-Click§r§c the §c§lClibano Core§r§c with §c§lMundabitur Dust"),
-        Text.of("§5█§7 = Polished Darkstone"),
-        Text.of("§7█ = Polished Darkstone Bricks"),
-        Text.of("§6█§7 = Clibano Core"),
-        Text.of("§7Right to Left -> Bottom to Top"),
-        Text.of("§5█§7█§5█§0█§7███§0█§5█§7█§5█"),
-        Text.of("§7███§0█§7█§0█§7█§0█§7███"),
-        Text.of("§5█§7█§5█§0█§7█§6█§7█§0█§5█§7█§5█"),
+        Text.translate('tooltip.atm.clibano_core_1'),
+        Text.translate('tooltip.atm.clibano_core_2'),
+        Text.translate('tooltip.atm.clibano_core_3'),
+        Text.translate('tooltip.atm.clibano_core_4'),
+        Text.translate('tooltip.atm.clibano_core_5'),
+        Text.translate('tooltip.atm.clibano_core_6'),
+        Text.translate('tooltip.atm.clibano_core_7'),
+        Text.translate('tooltip.atm.clibano_core_8'),
     ])
     allthemods.add('forbidden_arcanus:growing_edelwood',[
-        Text.of("§4Obtainable from the Wandering Trader"),
-        Text.of("§4Or by using a Corrupt Soul on an Oak Sapling"),
+        Text.translate('tooltip.atm.growing_edelwood_1'),
+        Text.translate('tooltip.atm.growing_edelwood_2'),
     ])
     allthemods.add('forbidden_arcanus:magnetized_darkstone_pedestal',[
-        Text.of("§7Use Ferrognetic Mixture on the Darkstone Pedesta"),
+        Text.translate('tooltip.atm.magnetized_darkstone_pedestal'),
     ])
     allthemods.add('forbidden_arcanus:soul',[
-        Text.of("§7Use a Soul Extractor on Soul Sand"),
-        Text.of("§7Rarely spawns in world"),
+        Text.translate('tooltip.atm.soul_1'),
+        Text.translate('tooltip.atm.soul_2'),
     ])
     allthemods.add('forbidden_arcanus:enchanted_soul',[
-        Text.of("§7Use a Splash Aureal Bottle on a normal soul")
+        Text.translate('tooltip.atm.enchanted_soul')
     ])
     allthemods.add('forbidden_arcanus:corrupt_soul',[
-        Text.of("§7Rarely spawns when killing mobs")
+        Text.translate('tooltip.atm.corrupt_soul')
     ])
     allthemods.add('forbidden_arcanus:blood_test_tube',[
-        Text.of("§7Hold a test tube in your off-hand and then kill mobs")
+        Text.translate('tooltip.atm.blood_test_tube')
     ])
     allthemods.add('forbidden_arcanus:xpetrified_orb',[
-        Text.of("§7Only obtainable via the Black Hole"),
-        Text.of("§7To make a Black Hole throw Dark Matter together with Corrupti Dust on the ground"),
-        Text.of("§7Feed it enough xp to make it spit out an Xpetrified Orb")
+        Text.translate('tooltip.atm.xpetrified_orb_1'),
+        Text.translate('tooltip.atm.xpetrified_orb_2'),
+        Text.translate('tooltip.atm.xpetrified_orb_3')
     ])
     allthemods.add('forbidden_arcanus:dragon_scale',[
-        Text.of("§7Dropped by the Ender Dragon")
+        Text.translate('tooltip.atm.dragon_scale')
     ])
     allthemods.add('forbidden_arcanus:stella_arcanum',[
-        Text.of("§7Very rarely spawns between Y -44 and Y 42"),
-        Text.of("§cWill explode when you mine it!")
+        Text.translate('tooltip.atm.stella_arcanum_1'),
+        Text.translate('tooltip.atm.stella_arcanum_2')
     ])
     allthemods.add(/forbidden_arcanus:runic_[sd]/,[
-        Text.of("§7Spawns at the bottom of the world up to Y 2"),
+        Text.translate('tooltip.atm.runic'),
     ])
     allthemods.add(['forbidden_arcanus:arcane_crystal_ore', 'forbidden_arcanus:deepslate_arcane_crystal_ore'],[
-        Text.of("§7Very rarely spawns between Y -40 and Y 14"),
-        Text.of("§7Most common at Y -13")
+        Text.translate('tooltip.atm.arcane_crystal_ore_1'),
+        Text.translate('tooltip.atm.arcane_crystal_ore_2')
     ])
     allthemods.add('forbidden_arcanus:artisan_relic',[
-        Text.of("§aFound in the Armorer, Toolsmith, or Weaponsmith villager buildings"),
+        Text.translate('tooltip.atm.artisan_relic'),
     ])
     allthemods.add('forbidden_arcanus:crescent_moon',[
-        Text.of("§cUnobtainable"),
+        Text.translate('tooltip.atm.crescent_moon'),
     ])
     allthemods.add('forbidden_arcanus:crimson_stone',[
-        Text.of("§aFound in Pillager Outposts"),
+        Text.translate('tooltip.atm.crimson_stone'),
     ])
     allthemods.add('forbidden_arcanus:soul_crimson_stone',[
-        Text.of("§cWill turn into a Crimson Stone after 1 use"),
+        Text.translate('tooltip.atm.soul_crimson_stone'),
     ])
     allthemods.add('forbidden_arcanus:elementarium',[
-        Text.of("§aFound in Jungle Temples, Desert Pyramids, and Underwater Ruins"),
+        Text.translate('tooltip.atm.elementarium'),
     ])
     allthemods.add('forbidden_arcanus:divine_pact',[
-        Text.of("§aFound in the Village and Pyramid in The Other"),
+        Text.translate('tooltip.atm.divine_pact'),
     ])
     allthemods.add('forbidden_arcanus:maledictus_pact',[
-        Text.of("§aFound in Treasure Bastions"),
+        Text.translate('tooltip.atm.maledictus_pact'),
     ])
 
     //Mystical Agriculture
     allthemods.add(/mysticalagriculture:.*watering_can/,[
-        Text.of("§cDisabled for Fake Player"),
-        Text.of("§c(Blocks like Modular Routers, Clickers, etc)")
+        Text.translate('tooltip.atm.watering_can_1'),
+        Text.translate('tooltip.atm.watering_can_2')
     ])
 
     allthemods.add('toolbelt:belt', [
-        Text.of("§7Has it's own slot to be placed in"),
-        Text.of("§7Check your Keybinds for \"Open Belt Slot Inventory\"")
+        Text.translate('tooltip.atm.belt_1'),
+        Text.translate('tooltip.atm.belt_2')
     ])
 
 	//Easy Villagers
     allthemods.add(['easy_villagers:trader', 'easy_villagers:auto_trader'], [
-        Text.of("§aRight click with job site block to put it inside and allow trade restocking")
+        Text.translate('tooltip.atm.trader')
     ])
 
 	//Hyperbox
     allthemods.add('hyperbox:hyperbox', [
-        Text.of("§aDue to a memory leak, these are no longer craftable.  If it is fixed in the future they will be reenabled.")
+        Text.translate('tooltip.atm.hyperbox')
     ])
 
 	//Eternal Starlight
     allthemods.add('eternal_starlight:loot_bag[eternal_starlight:loot_table="eternal_starlight:bosses/lunar_monstrosity"]', [
-        Text.of('This loot bag is from the \"Lunar Monstrosity\".')
+        Text.translate('tooltip.atm.eternal_starlight_loot_bag_lunar_monstrosity')
     ])
 })
 
