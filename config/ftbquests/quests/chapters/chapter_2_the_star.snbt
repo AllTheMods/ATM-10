@@ -622,7 +622,7 @@
 					id: "57154693C64ED404"
 					item: {
 						components: {
-							"minecraft:custom_name": "\"Allthemodium Block\""
+							"minecraft:custom_name": "{\"translate\":\"custom_name.atm.quest.allthemodium_block\"}"
 						}
 						count: 1
 						id: "chipped:smooth_yellow_concrete"
@@ -633,7 +633,7 @@
 					id: "0EA9DD3E195C7188"
 					item: {
 						components: {
-							"minecraft:custom_name": "\"Vibranium Block\""
+							"minecraft:custom_name": "{\"translate\":\"custom_name.atm.quest.vibranium_block\"}"
 						}
 						count: 1
 						id: "chipped:cyan_concrete_bricks"
@@ -644,7 +644,7 @@
 					id: "03CF07B77F451AB1"
 					item: {
 						components: {
-							"minecraft:custom_name": "\"Unobtainium Block\""
+							"minecraft:custom_name": "{\"translate\":\"custom_name.atm.quest.unobtainium_block\"}"
 						}
 						count: 1
 						id: "chipped:purple_concrete_panel"
@@ -4143,7 +4143,7 @@
 			tasks: [{
 				count: 2L
 				id: "6D38B25BA2016921"
-				item: { count: 1, id: "allthemodium:unobtainium_vibranium_alloy_block" }
+				item: { components: { "minecraft:custom_name": "{\"italic\":false,\"translate\":\"custom_name.atm.awakened_unobtainium_vibranium_alloy_block\"}", "minecraft:enchantments": { levels: { "minecraft:unbreaking": 1 } } }, count: 1, id: "allthemodium:unobtainium_vibranium_alloy_block" }
 				type: "item"
 			}]
 			x: 0.5d
