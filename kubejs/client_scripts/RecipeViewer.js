@@ -33,8 +33,7 @@ RecipeViewerEvents.removeEntriesCompletely('item', allthemods =>{
 
   let $DyeColor = Java.loadClass("net.minecraft.world.item.DyeColor")
   for (let color of $DyeColor.values()){
-    let colorString = color.getSerializedName().toLowerCase()
-    allthemods.remove(`/refinedstorage:${colorString}_.*/`)
+    allthemods.remove(`/refinedstorage:${color}_.*/`)
   }
 })
 
