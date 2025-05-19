@@ -81,6 +81,9 @@ ServerEvents.tags('item', allthemods => {
     allthemods.add('minecraft:bookshelf_books', 'evilcraft:origins_of_darkness')
     allthemods.add('minecraft:bookshelf_books', 'ae2:guide')
     allthemods.add('minecraft:bookshelf_books', 'powah:book')
+
+    // Forbiden Arcanus Stellar Blacklist
+    allthemods.add('forbidden_arcanus:modifier/eternal_incompatible', 'ars_additions:undying_charm')
 })
 
 ServerEvents.tags('entity_type', allthemods => {
