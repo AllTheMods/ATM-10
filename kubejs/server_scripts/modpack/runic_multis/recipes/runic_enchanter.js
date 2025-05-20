@@ -3,7 +3,7 @@ ServerEvents.recipes(allthemods => {
         .itemIn('minecraft:witch_spawn_egg')
         .itemIn('enderio:broken_spawner')
         .fluidIn('25000x starbunclemania:source_fluid')
-        .fluidIn('15000x justdirethings:xp_fluid_source')
+        .fluidIn('15000x #c:experience')
         .itemOut('enderio:broken_spawner[enderio:stored_entity={entityTag:{id:"minecraft:witch"},maxHealth:0.0f}]')
 
      allthemods.recipes.modern_industrialization.runic_enchanter(512, 200)
@@ -11,7 +11,7 @@ ServerEvents.recipes(allthemods => {
         .itemIn('enderio:broken_spawner[enderio:stored_entity={entityTag:{id:"minecraft:witch"},maxHealth:0.0f}]', 0)
         .itemIn('forbidden_arcanus:soul')
         .fluidIn('5000x starbunclemania:source_fluid')
-        .fluidIn('7500x justdirethings:xp_fluid_source')
+        .fluidIn('7500x #c:experience')
         .itemOut('enderio:filled_soul_vial[enderio:stored_entity={entityTag:{id:"minecraft:witch"},maxHealth:0.0f}]') 
         
     let enchantingBase = [
@@ -55,7 +55,7 @@ ServerEvents.recipes(allthemods => {
     for (let base of enchantingBase) {
         allthemods.recipes.modern_industrialization.runic_enchanter(512, 100)
             .fluidIn(`${500 * base.level}x starbunclemania:source_fluid`)
-            .fluidIn(`${140 * base.level}x justdirethings:xp_fluid_source`)
+            .fluidIn(`${140 * base.level}x #c:experience`)
             .itemIn(base.catalyst)
             .itemIn(base.input)
             .itemIn(base.essence)
@@ -974,7 +974,7 @@ ServerEvents.recipes(allthemods => {
     for (let enchant of enchanting) {
         allthemods.recipes.modern_industrialization.runic_enchanter(512, 100)
             .fluidIn(`${500 * enchant.level}x starbunclemania:source_fluid`)
-            .fluidIn(`${140 * enchant.level}x justdirethings:xp_fluid_source`)
+            .fluidIn(`${140 * enchant.level}x #c:experience`)
             .itemIn(enchant.base)
             .itemIn(enchant.input)
             .itemIn(`${enchant.lapis}x minecraft:lapis_lazuli`)
@@ -983,49 +983,49 @@ ServerEvents.recipes(allthemods => {
 
     allthemods.recipes.modern_industrialization.runic_enchanter(512, 100)
         .fluidIn(`${500 * 45}x starbunclemania:source_fluid`)
-        .fluidIn(`${140 * 45}x justdirethings:xp_fluid_source`)
+        .fluidIn(`${140 * 45}x #c:experience`)
         .itemIn('apothic_enchanting:scrap_tome')
         .itemOut('4x apothic_enchanting:improved_scrap_tome')
 
     allthemods.recipes.modern_industrialization.runic_enchanter(512, 100)
         .fluidIn(`${500 * 45}x starbunclemania:source_fluid`)
-        .fluidIn(`${140 * 45}x justdirethings:xp_fluid_source`)
+        .fluidIn(`${140 * 45}x #c:experience`)
         .itemIn('apothic_enchanting:improved_scrap_tome')
         .itemOut('4x apothic_enchanting:extraction_tome')
 
     allthemods.recipes.modern_industrialization.runic_enchanter(512, 100)
         .fluidIn(`${500 * 45}x starbunclemania:source_fluid`)
-        .fluidIn(`${140 * 45}x justdirethings:xp_fluid_source`)
+        .fluidIn(`${140 * 45}x #c:experience`)
         .itemIn('minecraft:echo_shard')
         .itemOut('4x minecraft:echo_shard')
 
     allthemods.recipes.modern_industrialization.runic_enchanter(512, 100)
         .fluidIn(`${500 * 45}x starbunclemania:source_fluid`)
-        .fluidIn(`${140 * 45}x justdirethings:xp_fluid_source`)
+        .fluidIn(`${140 * 45}x #c:experience`)
         .itemIn('minecraft:honey_bottle')
         .itemOut('32x minecraft:experience_bottle')
 
     allthemods.recipes.modern_industrialization.runic_enchanter(512, 100)
         .fluidIn(`${500 * 45}x starbunclemania:source_fluid`)
-        .fluidIn(`${140 * 45}x justdirethings:xp_fluid_source`)
+        .fluidIn(`${140 * 45}x #c:experience`)
         .itemIn('minecraft:amethyst_block')
         .itemOut('minecraft:budding_amethyst')
 
     allthemods.recipes.modern_industrialization.runic_enchanter(512, 100)
         .fluidIn(`${500 * 45}x starbunclemania:source_fluid`)
-        .fluidIn(`${140 * 45}x justdirethings:xp_fluid_source`)
+        .fluidIn(`${140 * 45}x #c:experience`)
         .itemIn('apothic_enchanting:dormant_deepshelf')
         .itemOut('apothic_enchanting:deepshelf')
 
     allthemods.recipes.modern_industrialization.runic_enchanter(512, 100)
         .fluidIn(`${500 * 45}x starbunclemania:source_fluid`)
-        .fluidIn(`${140 * 45}x justdirethings:xp_fluid_source`)
+        .fluidIn(`${140 * 45}x #c:experience`)
         .itemIn('minecraft:dragon_breath')
         .itemOut('3x apothic_enchanting:infused_breath')
 
     allthemods.recipes.modern_industrialization.runic_enchanter(512, 100)
         .fluidIn(`${500 * 45}x starbunclemania:source_fluid`)
-        .fluidIn(`${140 * 45}x justdirethings:xp_fluid_source`)
+        .fluidIn(`${140 * 45}x #c:experience`)
         .itemIn('apothic_enchanting:hellshelf')
         .itemOut('apothic_enchanting:infused_hellshelf')
 })
