@@ -53,8 +53,8 @@ ServerEvents.recipes(allthemods => {
     })
   })
 
-  allthemods.replaceInput({ id: 'immersiveengineering:toolupgrade_revolver_bayonet' }, 'immersiveengineering:sword_steel', 'mekanismtools:steel_sword')
-
+  allthemods.replaceInput({ id: 'immersiveengineering:crafting/toolupgrade_revolver_bayonet' }, 'immersiveengineering:sword_steel', 'mekanismtools:steel_sword')
+  allthemods.remove({id: "immersiveengineering:crafting/ingot_uranium_to_storage_uranium"})
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

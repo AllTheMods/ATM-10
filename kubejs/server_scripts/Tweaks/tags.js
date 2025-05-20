@@ -67,6 +67,7 @@ ServerEvents.tags('item', allthemods => {
         '#c:storage_blocks/water_essence'
     ])
 
+    // Bibliocraft compat
     // Ars Elemental Books
     allthemods.add('minecraft:bookshelf_books', 'ars_elemental:air_caster_tome')
     allthemods.add('minecraft:bookshelf_books', 'ars_elemental:fire_caster_tome')
@@ -74,6 +75,15 @@ ServerEvents.tags('item', allthemods => {
     allthemods.add('minecraft:bookshelf_books', 'ars_elemental:earth_caster_tome')
     allthemods.add('minecraft:bookshelf_books', 'ars_elemental:anima_caster_tome')
     allthemods.add('minecraft:bookshelf_books', 'ars_elemental:manipulation_caster_tome')
+
+    // More books
+    allthemods.add('minecraft:bookshelf_books', 'patchouli:guide_book')
+    allthemods.add('minecraft:bookshelf_books', 'evilcraft:origins_of_darkness')
+    allthemods.add('minecraft:bookshelf_books', 'ae2:guide')
+    allthemods.add('minecraft:bookshelf_books', 'powah:book')
+
+    // Forbiden Arcanus Stellar Blacklist
+    allthemods.add('forbidden_arcanus:modifier/eternal_incompatible', 'ars_additions:undying_charm')
 })
 
 ServerEvents.tags('entity_type', allthemods => {
@@ -125,6 +135,19 @@ ServerEvents.tags('entity_type', allthemods => {
             "twilightforest:hedge_spider",
         ]
     )
+    // Create
+    allthemods.add('justdirethings:paradox_deny', 'create:package');
+
+    // Mekanism
+    allthemods.add('justdirethings:paradox_deny', 'mekanism:robit');
+
+    // Ars 
+    allthemods.add('justdirethings:paradox_deny', 'ars_nouveau:animated_block');
+});
+
+ServerEvents.tags('worldgen/structure', allthemods => {
+    // Cataclysm
+    allthemods.add('cataclysm:berserker_spawn', "betterfortresses:fortress");
 });
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
