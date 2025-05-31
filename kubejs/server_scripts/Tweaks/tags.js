@@ -28,9 +28,9 @@ ServerEvents.tags('block', allthemods => {
 })
 
 ServerEvents.tags('item', allthemods => {
-    // Extreme Reactors
-    allthemods.add('c:ingots/yellorium', 'alltheores:uranium_ingot')
-    allthemods.add('c:storage_blocks/yellorium', 'alltheores:uranium_block')
+    // Extreme Reactors (using config/almostunified/tags.json)
+    // allthemods.add('c:ingots/yellorium', 'alltheores:uranium_ingot')
+    // allthemods.add('c:storage_blocks/yellorium', 'alltheores:uranium_block')
 
     // Tiny Coal
     allthemods.add('atm10:tiny_coals', [
