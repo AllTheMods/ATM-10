@@ -25,6 +25,8 @@ ServerEvents.tags('block', allthemods => {
         ['@ae2', '@advancedae', '@extendedae', '@megacells', '@appflux', '@appmek']
     )
 
+    // Just Dire Things
+    allthemods.add('justdirethings:lawnmowerable', '#c:grass')
 })
 
 ServerEvents.tags('item', allthemods => {
