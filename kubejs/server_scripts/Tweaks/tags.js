@@ -29,6 +29,11 @@ ServerEvents.tags('block', allthemods => {
     allthemods.add('justdirethings:lawnmowerable', '#c:grass')
 })
 
+ServerEvents.tags('fluid', allthemods => {
+    // Pneumaticcraft
+    allthemods.add('c:ethanol', 'pneumaticcraft:ethanol')
+})
+
 ServerEvents.tags('item', allthemods => {
     // Extreme Reactors (using config/almostunified/tags.json)
     // allthemods.add('c:ingots/yellorium', 'alltheores:uranium_ingot')
