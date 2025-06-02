@@ -87,14 +87,20 @@ ServerEvents.recipes(allthemods => {
         ).id(`allthemods:fluidizersolidmixing/${id}`)
     }
 
-    fluidizer('#c:ingots/yellorium', 1 , 'bigreactors:yellorium', 1000, 'ingot_yellorium')
-    fluidizer('#c:storage_blocks/yellorium', 1 , 'bigreactors:yellorium', 9000, 'block_yellorium')
+    fluidizer('#c:ingots/uranium', 1 , 'bigreactors:yellorium', 1000, 'ingot_yellorium')
+    fluidizer('#c:storage_blocks/uranium', 1 , 'bigreactors:yellorium', 9000, 'block_yellorium')
 
-    fluidizersolidmixing('#c:ingots/yellorium', 2 , 'bigreactors:blutonium_ingot' , 1 , 'bigreactors:verderium', 2000, 'verderium_1')
-    fluidizersolidmixing('bigreactors:blutonium_ingot' , 1 , '#c:ingots/yellorium', 2 , 'bigreactors:verderium', 2000, 'verderium_2')
-    fluidizersolidmixing('#c:storage_blocks/yellorium', 2 , 'bigreactors:blutonium_block' , 1 , 'bigreactors:verderium', 18000, 'verderium9_1')
-    fluidizersolidmixing('bigreactors:blutonium_block' , 1 , '#c:storage_blocks/yellorium', 2 , 'bigreactors:verderium', 18000, 'verderium9_2')
+    fluidizersolidmixing('#c:ingots/uranium', 2 , 'bigreactors:blutonium_ingot' , 1 , 'bigreactors:verderium', 2000, 'verderium_1')
+    fluidizersolidmixing('bigreactors:blutonium_ingot' , 1 , '#c:ingots/uranium', 2 , 'bigreactors:verderium', 2000, 'verderium_2')
+    fluidizersolidmixing('#c:storage_blocks/uranium', 2 , 'bigreactors:blutonium_block' , 1 , 'bigreactors:verderium', 18000, 'verderium9_1')
+    fluidizersolidmixing('bigreactors:blutonium_block' , 1 , '#c:storage_blocks/uranium', 2 , 'bigreactors:verderium', 18000, 'verderium9_2')
 
+    allthemods.remove({id: "bigreactors:fluidizer/solid/yellorium"})
+	allthemods.remove({id: "bigreactors:fluidizer/solid/yellorium9"})
+	allthemods.remove({id: "bigreactors:fluidizer/solidmixing/verderium9_1"})
+	allthemods.remove({id: "bigreactors:fluidizer/solidmixing/verderium9_2"})
+	allthemods.remove({id: "bigreactors:fluidizer/solidmixing/verderium_1"})
+	allthemods.remove({id: "bigreactors:fluidizer/solidmixing/verderium_2"})
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

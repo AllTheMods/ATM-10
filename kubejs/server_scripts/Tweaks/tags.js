@@ -25,12 +25,19 @@ ServerEvents.tags('block', allthemods => {
         ['@ae2', '@advancedae', '@extendedae', '@megacells', '@appflux', '@appmek']
     )
 
+    // Just Dire Things
+    allthemods.add('justdirethings:lawnmowerable', '#c:grass')
+})
+
+ServerEvents.tags('fluid', allthemods => {
+    // Pneumaticcraft
+    allthemods.add('c:ethanol', 'pneumaticcraft:ethanol')
 })
 
 ServerEvents.tags('item', allthemods => {
     // Extreme Reactors (using config/almostunified/tags.json)
     // allthemods.add('c:ingots/yellorium', 'alltheores:uranium_ingot')
-    // allthemods.add('c:storage_blocks/yellorium', 'alltheores:uranium_block')
+    allthemods.add('c:storage_blocks/raw_yellorium', 'bigreactors:raw_yellorium_block')
 
     // Tiny Coal
     allthemods.add('atm10:tiny_coals', [
@@ -148,6 +155,16 @@ ServerEvents.tags('entity_type', allthemods => {
 ServerEvents.tags('worldgen/structure', allthemods => {
     // Cataclysm
     allthemods.add('cataclysm:berserker_spawn', "betterfortresses:fortress");
+});
+
+ServerEvents.tags('enchantment', allthemods => {
+    // Apoth Enchanting
+    allthemods.remove('minecraft:non_treasure', "apothic_enchanting:miners_fervor");
+});
+
+ServerEvents.tags('block_entity_type', allthemods => {
+    // Apoth Enchanting
+    allthemods.remove('packingtape:blacklist/problematic', ["extrastorage:block_16384k_fluid", "extrastorage:block_65536k_fluid", "extrastorage:block_262144k_fluid", "extrastorage:block_1048576k_fluid"]);
 });
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

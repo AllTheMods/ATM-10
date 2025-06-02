@@ -1,0 +1,63 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "mysticalagriculture:crop_enabled",
+      "crop": "mysticalagriculture:hop_graphite"
+    },
+    {
+      "type": "mysticalagriculture:crop_has_material",
+      "crop": "mysticalagriculture:hop_graphite"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "neoforge:tag_empty",
+        "tag": "c:dusts/hop_graphite"
+      }
+    }
+  ],
+  "type": "mysticalagriculture:infusion",
+  "ingredients": [
+    {
+      "tag": "c:dusts/hop_graphite"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:hop_graphite"
+    },
+    {
+      "tag": "c:dusts/hop_graphite"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:hop_graphite"
+    },
+    {
+      "tag": "c:dusts/hop_graphite"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:hop_graphite"
+    },
+    {
+      "tag": "c:dusts/hop_graphite"
+    },
+    {
+      "type": "mysticalagriculture:crop_component",
+      "component": "essence",
+      "crop": "mysticalagriculture:hop_graphite"
+    }
+  ],
+  "input": {
+    "type": "mysticalagriculture:crop_component",
+    "component": "seed",
+    "crop": "mysticalagriculture:hop_graphite"
+  },
+  "result": {
+    "count": 1,
+    "id": "mysticalagriculture:hop_graphite_seeds"
+  }
+}
