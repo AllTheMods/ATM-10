@@ -5,5 +5,6 @@ allthemods.replaceInput(
   {input:'#c:onions'},
   '#c:onions',
   '#c:crops/onion'
-  )}
+  )
+})
   
