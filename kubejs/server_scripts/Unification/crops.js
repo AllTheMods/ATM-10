@@ -120,7 +120,7 @@ ServerEvents.tags('item', allthemods => {
 
   // Not present in other mods
   const spices = ['herbsandharvest:turmeric_root', 'herbsandharvest:fresh_basil', 'herbsandharvest:fresh_bay_leaf', 'herbsandharvest:fresh_bay_leaf', 'herbsandharvest:fresh_chive', 'herbsandharvest:fresh_cilantro', 'herbsandharvest:fresh_dill', 'herbsandharvest:fresh_lemongrass', 'herbsandharvest:fresh_mint']
-  allthemods.add('c:spices', 'herbsandharvest:turmeric_root')
+  spices.forEach(spice => { allthemods.add('c:spices', spice) })
 
   // Small tweaks
   allthemods.add('c:onions/onion', 'farmersdelight:onion')
