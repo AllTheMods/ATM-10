@@ -1,12 +1,12 @@
 All The Mods 10
 ======
-This is the official repository and issue-tracker for All The Mods 10 1.21
+This is the official repository and issue-tracker for All The Mods 10 1.21.1
 
 Does "All The Mods" *really* contain ALL THE MODS? No, of course not.
 
 Need Help?
 ======
-When reporting an issue put the version number before the issue title! Such as [FULL][1.37] My game is broken! Also include any added mods you may have put in, into the description of the issue.
+When reporting an issue, please follow the templates!
 
 |You can also find us on Discord for help<br>or just to chat as well as Reddit|
 |:------------:|
