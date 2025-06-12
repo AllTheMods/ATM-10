@@ -477,7 +477,6 @@
 				"49FDD8666356A3E7"
 			]
 			id: "36DF0D83EBC2B6A9"
-			min_required_dependencies: 0
 			rewards: [
 				{
 					id: "27B9039F5119A16E"
@@ -696,7 +695,6 @@
 				"4E8C32CD6057A1AB"
 			]
 			id: "2188C52C1F384DE4"
-			min_required_dependencies: 0
 			rewards: [
 				{
 					id: "6E40EC46E76292C4"
@@ -3644,11 +3642,6 @@
 			size: 2.0d
 			tasks: [
 				{
-					id: "17A89BD6DB6560D7"
-					item: { components: { "modular_machinery_reborn:machine": "atm:runic_star_altar" }, count: 1, id: "modular_machinery_reborn:controller" }
-					type: "item"
-				}
-				{
 					count: 64L
 					id: "58064333E54BF3A9"
 					item: { count: 1, id: "forbidden_arcanus:polished_darkstone" }
@@ -3667,7 +3660,7 @@
 					type: "item"
 				}
 				{
-					count: 48L
+					count: 40L
 					id: "66F847D1DFAEE4D7"
 					item: { count: 1, id: "forbidden_arcanus:arcane_polished_darkstone_pillar" }
 					type: "item"
@@ -3758,6 +3751,11 @@
 					count: 2L
 					id: "7A88277A22BBC23D"
 					item: { count: 2, id: "forbidden_arcanus:polished_darkstone" }
+					type: "item"
+				}
+				{
+					id: "79091A03D874F1A7"
+					item: { count: 1, id: "modern_industrialization:star_altar" }
 					type: "item"
 				}
 			]
