@@ -1,0 +1,47 @@
+[IFSoulsMachines]
+	#How many souls each pipe can hold
+	# Default: 4
+	# Range: > 0
+	SOUL_AMOUNT_PER_PIPE = 4
+
+	[IFSoulsMachines.ConfigSoulLaserBase]
+		#Max soul storage tank amount
+		# Default: 1350
+		# Range: > 1
+		SOUL_STORAGE_AMOUNT = 1500
+		#Max progress of the machine
+		# Default: 20
+		# Range: > 1
+		MAX_PROGRESS = 30
+		#Kill the warden when it's life reaches near to 0 or keep it alive
+		KILL_WARDEN = true
+		#Damage done to the warden when an operation is done
+		# Default: 4
+		# Range: > 0
+		DAMAGE_PER_OPERATION = 12
+		#Souls generated when an operation is done
+		# Default: 2
+		# Range: > 1
+		SOULS_PER_OPERATION = 4
+
+	[IFSoulsMachines.ConfigSoulSurge]
+		#How long in ticks a soul last to accelerate ticks
+		# Default: 300
+		# Range: > 1
+		SOUL_TIME = 200
+		#How many extra ticks the surge will accelerate for tile entities
+		# Default: 4
+		# Range: > 0
+		ACCELERATION_TICK = 4
+		#How many extra ticks the surge will accelerate for mobs
+		# Default: 4
+		# Range: > 0
+		ENTITIES_ACCELERATION_TICK = 4
+		#How many extra ticks the surge will accelerate for blocks
+		# Default: 4
+		# Range: > 0
+		BLOCK_ACCELERATION_TICK = 4
+		#How often a random tick block will be accelerated, by default 3% of the ticks (random)
+		# Default: 0.03
+		# Range: 0.0 ~ 1.0
+		RANDOM_TICK_ACCELERATION_CHANCE = 0.025
