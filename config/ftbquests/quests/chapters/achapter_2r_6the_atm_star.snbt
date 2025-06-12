@@ -58,15 +58,15 @@
 		}
 		{
 			height: 7.0d
-			image: "atm:textures/questpics/chap3/creative_enchanter7.png"
+			image: "atm:textures/questpics/chap3/creative_enchanter5.png"
 			rotation: 0.0d
-			width: 5.283478260869565d
+			width: 6.0d
 			x: -1.5d
 			y: 3.0d
 		}
 		{
 			height: 6.0d
-			image: "atm:textures/questpics/chap2/atmstar_layer9.png"
+			image: "atm:textures/questpics/chap2/atmstar_layer8.png"
 			rotation: 0.0d
 			width: 6.060362173038229d
 			x: 12.5d
@@ -167,11 +167,6 @@
 			shape: "hexagon"
 			tasks: [
 				{
-					id: "3DD43DB1E1426800"
-					item: { components: { "modular_machinery_reborn:machine": "atm:runic_crucible" }, count: 1, id: "modular_machinery_reborn:controller" }
-					type: "item"
-				}
-				{
 					count: 4L
 					id: "30026129352C0400"
 					item: { count: 4, id: "forbidden_arcanus:rune_block" }
@@ -215,6 +210,11 @@
 					count: 16L
 					id: "7E2C80E3065D9F70"
 					item: { count: 16, id: "forbidden_arcanus:polished_darkstone" }
+					type: "item"
+				}
+				{
+					id: "1A074A68B6495F89"
+					item: { count: 1, id: "modern_industrialization:runic_crucible" }
 					type: "item"
 				}
 			]
@@ -267,97 +267,84 @@
 			shape: "hexagon"
 			tasks: [
 				{
-					id: "3CE1D92302647E1C"
-					item: { components: { "modular_machinery_reborn:machine": "atm:auto_hepheastus_forge" }, count: 1, id: "modular_machinery_reborn:controller" }
+					id: "13537E6BC509C205"
+					item: { count: 1, id: "modern_industrialization:auto_forge" }
 					type: "item"
 				}
 				{
-					id: "5BB2435FD71ED7BB"
+					id: "1C16EA0ED72AA58D"
+					item: { count: 1, id: "forbidden_arcanus:quantum_injector" }
+					type: "item"
+				}
+				{
+					id: "7132EDBAF11818AF"
 					item: { count: 1, id: "forbidden_arcanus:hephaestus_forge_tier_5" }
 					type: "item"
 				}
 				{
 					count: 8L
-					id: "16A47B1902BDDEE5"
+					id: "3898B85A22E7379E"
 					item: { count: 8, id: "forbidden_arcanus:darkstone_pedestal" }
 					type: "item"
 				}
 				{
-					count: 8L
-					id: "25CD3046EEAA5568"
-					item: { count: 8, id: "forbidden_arcanus:arcane_crystal_obelisk" }
-					type: "item"
-				}
-				{
-					count: 24L
-					id: "4C74B0CF78EAEF8B"
-					item: { count: 24, id: "forbidden_arcanus:polished_darkstone_slab" }
-					type: "item"
-				}
-				{
-					count: 28L
-					id: "5C4C031943E0BF8D"
-					item: { count: 28, id: "forbidden_arcanus:polished_darkstone_stairs" }
-					type: "item"
-				}
-				{
-					count: 68L
-					id: "0C4AD4D1BCE35192"
-					item: { count: 68, id: "forbidden_arcanus:polished_darkstone" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "29E7491E9B18ADA6"
-					item: { count: 4, id: "forbidden_arcanus:chiseled_arcane_polished_darkstone" }
-					type: "item"
-				}
-				{
 					count: 9L
-					id: "3492CF6A080879DE"
+					id: "2B28D1AD78B524D7"
 					item: { count: 9, id: "forbidden_arcanus:gilded_chiseled_polished_darkstone" }
 					type: "item"
 				}
 				{
+					count: 4L
+					id: "4F50E1232E3644B7"
+					item: { count: 4, id: "forbidden_arcanus:chiseled_arcane_polished_darkstone" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0DEBFF0F14C61C43"
+					item: { count: 4, id: "forbidden_arcanus:arcane_crystal_obelisk" }
+					type: "item"
+				}
+				{
+					count: 24L
+					id: "5B8929528E39AB08"
+					item: { count: 24, id: "forbidden_arcanus:polished_darkstone_slab" }
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "44FD818326EEC3AD"
+					item: { count: 32, id: "forbidden_arcanus:polished_darkstone_stairs" }
+					type: "item"
+				}
+				{
 					count: 8L
-					id: "6F77827EE1E44D10"
+					id: "011E30F347E83CB2"
 					item: { count: 8, id: "forbidden_arcanus:arcane_polished_darkstone" }
 					type: "item"
 				}
 				{
 					count: 4L
-					id: "3E952C2393839EAC"
-					item: { count: 4, id: "forbidden_arcanus:arcane_crystal_block" }
+					id: "17E7292A23B7575C"
+					item: { count: 4, id: "forbidden_arcanus:rune_block" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "427E0446EBF8DB9C"
+					item: { count: 64, id: "forbidden_arcanus:polished_darkstone" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "32A9FB970942639D"
+					item: { count: 64, id: "forbidden_arcanus:polished_darkstone" }
 					type: "item"
 				}
 				{
 					count: 8L
-					id: "10DE2AFD22C1AF17"
-					item: { count: 8, id: "forbidden_arcanus:rune_block" }
-					type: "item"
-				}
-				{
-					count: 44L
-					id: "2777C9B596EA064A"
-					item: { count: 44, id: "modular_machinery_reborn:casing_plain" }
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "02E371882874B725"
-					item: { count: 9, id: "modular_machinery_reborn:casing_gearbox" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "6384BF13C889F5F4"
-					item: { count: 4, id: "modular_machinery_reborn:casing_vent" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "7874CA2943589544"
-					item: { count: 8, id: "modular_machinery_reborn:casing_reinforced" }
+					id: "1F7290B6CB87B34C"
+					item: { count: 8, id: "forbidden_arcanus:polished_darkstone" }
 					type: "item"
 				}
 			]
@@ -373,8 +360,8 @@
 			}]
 			shape: "hexagon"
 			tasks: [{
-				id: "6FB01036A03AB5E3"
-				item: { components: { "modular_machinery_reborn:machine": "atm:runic_star_altar" }, count: 1, id: "modular_machinery_reborn:controller" }
+				id: "5B01815F8338D67D"
+				item: { count: 1, id: "modern_industrialization:star_altar" }
 				type: "item"
 			}]
 			x: 5.5d
@@ -423,120 +410,78 @@
 			size: 1.2d
 			tasks: [
 				{
-					id: "2E3572F45C2D68C2"
-					item: { components: { "modular_machinery_reborn:machine": "atm:runic_enchanter" }, count: 1, id: "modular_machinery_reborn:controller" }
+					id: "7A2327D70A6D7B81"
+					item: { count: 1, id: "modern_industrialization:runic_enchanter" }
 					type: "item"
 				}
 				{
-					id: "0F2FB74F41368098"
+					id: "61ADB88357040DC1"
 					item: { count: 1, id: "forbidden_arcanus:quantum_injector" }
 					type: "item"
 				}
 				{
-					id: "1BC31E2C08726232"
+					count: 4L
+					id: "4994EFF3C153220F"
+					item: { count: 4, id: "minecraft:soul_lantern" }
+					type: "item"
+				}
+				{
+					id: "5BCD83C6A9F1AE62"
 					item: { count: 1, id: "minecraft:enchanting_table" }
 					type: "item"
 				}
 				{
-					count: 5L
-					id: "53C19284505DDAD7"
-					item: { count: 5, id: "apothic_enchanting:treasure_shelf" }
-					type: "item"
-				}
-				{
-					count: 7L
-					id: "4D5C534037223CF9"
-					item: { count: 5, id: "apothic_enchanting:echoing_sculkshelf" }
-					type: "item"
-				}
-				{
-					count: 17L
-					id: "5A6152A72B7B6350"
-					item: { count: 17, id: "apothic_enchanting:soul_touched_sculkshelf" }
-					type: "item"
-				}
-				{
 					count: 8L
-					id: "694638C9D2A7B20C"
-					item: { count: 5, id: "apothic_enchanting:soul_touched_deepshelf" }
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "56C1F1B245416DED"
-					item: { count: 9, id: "minecraft:soul_lantern" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "179480E0B8EAAC09"
-					item: { count: 8, id: "biomeswevegone:ebony_fence" }
-					type: "item"
-				}
-				{
-					count: 10L
-					id: "5AB45CD4B44CE7BF"
-					item: { count: 10, id: "eternal_starlight:lunar_fence" }
-					type: "item"
-				}
-				{
-					count: 18L
-					id: "58BC7201E082BD92"
-					item: { count: 18, id: "forbidden_arcanus:polished_darkstone_wall" }
-					type: "item"
-				}
-				{
-					count: 28L
-					id: "69925DB8759F667B"
-					item: { count: 28, id: "forbidden_arcanus:polished_darkstone_slab" }
-					type: "item"
-				}
-				{
-					count: 88L
-					id: "6742576AD1200373"
-					item: { count: 88, id: "forbidden_arcanus:polished_darkstone_stairs" }
-					type: "item"
-				}
-				{
-					count: 87L
-					id: "3B19141310B717E1"
-					item: { count: 87, id: "forbidden_arcanus:polished_darkstone" }
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "2143768A3B8A48A4"
-					item: { count: 9, id: "forbidden_arcanus:gilded_chiseled_polished_darkstone" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "562412F446714410"
-					item: { count: 4, id: "forbidden_arcanus:rune_block" }
-					type: "item"
-				}
-				{
-					count: 5L
-					id: "490DF4F67F77956B"
-					item: { count: 5, id: "modular_machinery_reborn:casing_reinforced" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "057DCBABFBFC6A35"
-					item: { count: 4, id: "modular_machinery_reborn:casing_firebox" }
+					id: "2B37453057B67C7F"
+					item: { count: 8, id: "forbidden_arcanus:darkstone_pedestal" }
 					type: "item"
 				}
 				{
 					count: 12L
-					id: "3EFF576599AE07AD"
-					item: { count: 12, id: "modular_machinery_reborn:casing_vent" }
+					id: "2C465A0C9D467EE6"
+					item: { count: 12, id: "forbidden_arcanus:arcane_polished_darkstone_pillar" }
 					type: "item"
 				}
 				{
-					count: 60L
-					id: "64871AFEBE91FF69"
-					item: { count: 60, id: "modular_machinery_reborn:casing_plain" }
+					count: 9L
+					id: "06B684FC67357904"
+					item: { count: 9, id: "forbidden_arcanus:gilded_chiseled_polished_darkstone" }
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "47305ED54BCD86EE"
+					item: { count: 20, id: "forbidden_arcanus:polished_darkstone_slab" }
+					type: "item"
+				}
+				{
+					count: 42L
+					id: "66210A64E26E2AAD"
+					item: { count: 42, id: "forbidden_arcanus:polished_darkstone_stairs" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "111A01CE548EA9D2"
+					item: { count: 16, id: "forbidden_arcanus:rune_block" }
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "41C5BF6EDEF88B0B"
+					item: { count: 12, id: "forbidden_arcanus:arcane_crystal_block" }
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "78C75365A80FF86C"
+					item: { count: 64, id: "forbidden_arcanus:polished_darkstone" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "549AEB818E9FBE83"
+					item: { count: 8, id: "forbidden_arcanus:polished_darkstone" }
 					type: "item"
 				}
 			]
