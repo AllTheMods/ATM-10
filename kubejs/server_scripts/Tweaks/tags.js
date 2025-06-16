@@ -158,6 +158,8 @@ ServerEvents.tags('entity_type', allthemods => {
 	
 	// EnderIO
 	allthemods.add('enderio:soul_vial_blacklist', '#c:bosses')
+	// Tombstone
+	allthemods.add('tombstone:unhandled_tamable', '#c:bosses')
 });
 
 ServerEvents.tags('worldgen/structure', allthemods => {
