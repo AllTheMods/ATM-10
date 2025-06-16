@@ -123,7 +123,8 @@ ServerEvents.tags('entity_type', allthemods => {
         "cataclysm:modern_remnant",
         "cataclysm:kobolediator",
         "cataclysm:wadjet",
-        "allthemodium:piglich"
+        "allthemodium:piglich",
+		"@iceandfire"
     ])
 
     //Industrial Foregoing
@@ -150,6 +151,13 @@ ServerEvents.tags('entity_type', allthemods => {
 
     // Ars 
     allthemods.add('justdirethings:paradox_deny', 'ars_nouveau:animated_block');
+	
+	// Ice and Fire
+    allthemods.add('justdirethings:paradox_deny', '@iceandfire');
+	allthemods.add('industrialforegoing:mob_duplicator_blacklist', '@iceandfire')
+	
+	// EnderIO
+	allthemods.add('enderio:soul_vial_blacklist', '#c:bosses')
 });
 
 ServerEvents.tags('worldgen/structure', allthemods => {
