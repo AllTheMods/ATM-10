@@ -34,6 +34,14 @@ StartupEvents.registry('item', allthemods => {
     allthemods.create('tertium_enchanting_base').texture('minecraft:item/enchanted_book').color(0xEB7114)
     allthemods.create('imperium_enchanting_base').texture('minecraft:item/enchanted_book').color(0x5555FF)
     allthemods.create('supremium_enchanting_base').texture('minecraft:item/enchanted_book').color(0xFF5555)
+	
+	allthemods.create('fire_eye').texture('kubejs:item/fire_eye')
+	allthemods.create('fire_pearl').texture('kubejs:item/fire_pearl')
+	allthemods.create('lightning_eye').texture('kubejs:item/lightning_eye')
+	allthemods.create('lightning_pearl').texture('kubejs:item/lightning_pearl')
+	allthemods.create('ice_eye').texture('kubejs:item/ice_eye')
+	allthemods.create('ice_pearl').texture('kubejs:item/ice_pearl')
+	
 })
 
 StartupEvents.registry('fluid', allthemods => {
