@@ -197,8 +197,8 @@
 			image: "atm:textures/questpics/iron_spells/spells_scroll.png"
 			rotation: 0.0d
 			width: 2.3376623376623376d
-			x: -2.0d
-			y: 10.5d
+			x: -1.25d
+			y: 11.642857142857139d
 		}
 		{
 			height: 2.0d
@@ -1004,29 +1004,18 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["340CDF4357E22A43"]
+			dependencies: ["28DB59B20109D0D4"]
 			hide_dependent_lines: true
 			id: "486B5A605D79EA10"
-			rewards: [
-				{
-					count: 4
-					id: "31C9A7222A1F8D53"
-					item: {
-						count: 1
-						id: "irons_spellbooks:fire_rune"
-					}
-					type: "item"
-				}
-				{
-					id: "3CD2EE0A3E930DD9"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
+			rewards: [{
+				id: "3CD2EE0A3E930DD9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
 			size: 1.25d
 			tasks: [{
 				id: "22EFA1D6F9F98242"
-				item: { count: 1, id: "irons_spellbooks:fire_upgrade_orb" }
+				item: { count: 1, id: "oritech:nuke" }
 				type: "item"
 			}]
 			x: -2.0d
@@ -3777,8 +3766,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
-			y: 12.0d
+			x: 2.0d
+			y: 13.5d
 		}
 		{
 			id: "5EC1B868720BF521"
@@ -4183,6 +4172,18 @@
 			}]
 			x: 6.0d
 			y: 0.0d
+		}
+		{
+			id: "28DB59B20109D0D4"
+			shape: "rsquare"
+			size: 2.0d
+			tasks: [{
+				id: "38348DA04593A4ED"
+				item: { count: 1, id: "oritech:magnetic_coil" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 14.0d
 		}
 	]
 }

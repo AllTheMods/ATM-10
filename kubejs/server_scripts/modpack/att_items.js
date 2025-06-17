@@ -89,7 +89,7 @@ allthemods.shaped('allthetweaks:oblivion_shard', ['DAB', 'ECF', 'BGD'], {
 
 // Pulsating Black Hole
 allthemods.shaped('allthetweaks:pulsating_black_hole', ['ABC', 'DEF', 'GHI'], {
-  A: 'irons_spellbooks:fire_upgrade_orb',
+  A: 'oritech:nuke',
   B: 'ae2:quantum_ring'  ,
   C: 'pneumaticcraft:micromissiles' ,
   D: 'justdirethings:paradoxmachine',
