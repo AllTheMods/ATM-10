@@ -27,6 +27,7 @@ ServerEvents.tags('block', allthemods => {
 
     // Just Dire Things
     allthemods.add('justdirethings:lawnmowerable', '#c:grass')
+    allthemods.add('justdirethings:tick_speed_deny', '@industrialforegoingsouls')
 })
 
 ServerEvents.tags('fluid', allthemods => {
