@@ -1,0 +1,609 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rust_free_and_oiled"
+	group: "6700DB960E16A321"
+	icon: {
+		id: "modern_industrialization:digital_circuit"
+	}
+	id: "3B1C95642D1861F7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["353E8B82D51CA31E"]
+			icon: {
+				id: "modern_industrialization:large_motor"
+			}
+			id: "0D705F03FB44510C"
+			tasks: [
+				{
+					id: "6A6B30BD8A9AA6B2"
+					item: { count: 1, id: "modern_industrialization:large_pump" }
+					type: "item"
+				}
+				{
+					id: "3AFAFADA1598994E"
+					item: { count: 1, id: "modern_industrialization:large_motor" }
+					type: "item"
+				}
+			]
+			x: -16.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2E47EF385592F150"]
+			icon: {
+				id: "modern_industrialization:chromium_nugget"
+			}
+			id: "025CFCC2206C8FD7"
+			tasks: [{
+				id: "52684B962657BE21"
+				item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:chromium_nugget)item(modern_industrialization:chromium_dust))", "minecraft:custom_name": "\"Chromium\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["2E47EF385592F150"]
+			id: "12C32D9415FF8F0E"
+			tasks: [{
+				id: "22FCA8D9A2AF45EC"
+				item: { count: 1, id: "modern_industrialization:manganese_crushed_dust" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["78BB476DE42D7956"]
+			id: "7578ED590C84EA3A"
+			tasks: [{
+				id: "27F937A81BBBF19D"
+				item: { count: 1, id: "modern_industrialization:stainless_steel_hot_ingot" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["508420BF29CBB792"]
+			icon: {
+				id: "modern_industrialization:vacuum_freezer"
+			}
+			id: "61EBF4DC73EC8D58"
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "3D0C884A432D9867"
+					item: { count: 1, id: "modern_industrialization:vacuum_freezer" }
+					type: "item"
+				}
+				{
+					id: "37DA0815A0098998"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:advanced_item_input_hatch)item(modern_industrialization:bronze_item_input_hatch)item(modern_industrialization:highly_advanced_item_input_hatch)item(modern_industrialization:steel_item_input_hatch)item(modern_industrialization:turbo_item_input_hatch))", "minecraft:custom_name": "\"Item Input Hatch\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "562ABD731E0F8C92"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:advanced_item_output_hatch)item(modern_industrialization:bronze_item_output_hatch)item(modern_industrialization:highly_advanced_item_output_hatch)item(modern_industrialization:steel_item_output_hatch)item(modern_industrialization:turbo_item_output_hatch))", "minecraft:custom_name": "\"Item Output Hatch\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "4A2D54C19ED05C1A"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:lv_energy_input_hatch)item(modern_industrialization:mv_energy_input_hatch)item(modern_industrialization:hv_energy_input_hatch)item(modern_industrialization:ev_energy_input_hatch)item(modern_industrialization:superconductor_energy_input_hatch))", "minecraft:custom_name": "\"Energy Hatch\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					count: 30L
+					id: "393A55967351655D"
+					item: { count: 30, id: "modern_industrialization:frostproof_machine_casing" }
+					type: "item"
+				}
+			]
+			x: -11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44BB58229F68DF5B"]
+			id: "0EE9BA9653F483E5"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "3EF0D0181F5A2C09"
+				item: { count: 1, id: "alltheores:aluminum_ingot" }
+				type: "item"
+			}]
+			x: -20.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"61EBF4DC73EC8D58"
+				"7578ED590C84EA3A"
+			]
+			id: "2DE9A4B9D493AAC7"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "4A6D21BFAD0DD167"
+				item: { count: 1, id: "modern_industrialization:stainless_steel_ingot" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"37E9222A50021B0E"
+				"08C0B0FD4DEA4E15"
+				"2A942E4D328160E7"
+				"12C32D9415FF8F0E"
+				"2C8152581F9FBCB7"
+				"025CFCC2206C8FD7"
+			]
+			id: "78BB476DE42D7956"
+			tasks: [{
+				id: "68CD54B1C4C76B70"
+				item: { count: 1, id: "modern_industrialization:stainless_steel_dust" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["65979FF491293C42"]
+			id: "08C0B0FD4DEA4E15"
+			tasks: [{
+				id: "0F71D9E50FEAF8F3"
+				item: { count: 1, id: "modern_industrialization:manganese_sulfuric_solution_bucket" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["69D4AE31A79CE376"]
+			id: "2C8152581F9FBCB7"
+			tasks: [{
+				id: "1B8EA459F2140968"
+				item: { count: 1, id: "modern_industrialization:manganese_tiny_dust" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["69D4AE31A79CE376"]
+			id: "37E9222A50021B0E"
+			tasks: [{
+				id: "27667F3BDC18D533"
+				item: { count: 1, id: "modern_industrialization:oxygen_bucket" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["65979FF491293C42"]
+			icon: {
+				id: "modern_industrialization:sulfuric_acid_bucket"
+			}
+			id: "2A942E4D328160E7"
+			tasks: [
+				{
+					id: "3B4084F656ADF050"
+					item: { count: 1, id: "modern_industrialization:sulfuric_acid_bucket" }
+					type: "item"
+				}
+				{
+					fluid: {
+						amount: 1000
+						id: "modern_industrialization:sulfuric_acid"
+					}
+					id: "785957D4602B376C"
+					type: "fluid"
+				}
+			]
+			x: -13.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6ACEEF0B32C7770A"]
+			id: "353E8B82D51CA31E"
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "0DC97E4C8D641BC2"
+				item: { count: 1, id: "modern_industrialization:electronic_circuit" }
+				type: "item"
+			}]
+			x: -20.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"508420BF29CBB792"
+				"0D705F03FB44510C"
+			]
+			icon: {
+				id: "modern_industrialization:electric_quarry"
+			}
+			id: "20CAEF615D7A6506"
+			ignore_reward_blocking: true
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "10F214167F0118DA"
+					item: { count: 1, id: "modern_industrialization:electric_quarry" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "772D6D41817DFBBA"
+					item: { count: 4, id: "minecraft:chain" }
+					type: "item"
+				}
+				{
+					id: "71C0B5CE99AAD545"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:advanced_item_input_hatch)item(modern_industrialization:bronze_item_input_hatch)item(modern_industrialization:highly_advanced_item_input_hatch)item(modern_industrialization:steel_item_input_hatch)item(modern_industrialization:turbo_item_input_hatch))", "minecraft:custom_name": "\"Item Input Hatch\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "33923CECC5F5707D"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:advanced_item_output_hatch)item(modern_industrialization:bronze_item_output_hatch)item(modern_industrialization:highly_advanced_item_output_hatch)item(modern_industrialization:steel_item_output_hatch)item(modern_industrialization:turbo_item_output_hatch))", "minecraft:custom_name": "\"Item Output Hatch\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "6405D90DF4A61A99"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:lv_energy_input_hatch)item(modern_industrialization:mv_energy_input_hatch)item(modern_industrialization:hv_energy_input_hatch)item(modern_industrialization:ev_energy_input_hatch)item(modern_industrialization:superconductor_energy_input_hatch))", "minecraft:custom_name": "\"Energy Hatch\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "22716B7AE8B5C488"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:steel_drill)item(modern_industrialization:stainless_steel_drill)item(modern_industrialization:gold_drill)item(modern_industrialization:copper_drill)item(modern_industrialization:titanium_drill)item(modern_industrialization:bronze_drill)item(kubejs:allthemodium_drill)item(kubejs:vibranium_drill)item(kubejs:unobtainium_drill))", "minecraft:custom_name": "\"Mining Drill\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "0F4B5DEFC4AA69F0"
+					item: { count: 13, id: "modern_industrialization:steel_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "1D6C8A556DF1F7AF"
+					item: { count: 6, id: "modern_industrialization:steel_machine_casing_pipe" }
+					type: "item"
+				}
+			]
+			x: -20.25d
+			y: -8.25d
+		}
+		{
+			dependencies: ["0D705F03FB44510C"]
+			id: "65979FF491293C42"
+			tasks: [{
+				id: "53C5032CCF501691"
+				item: { count: 1, id: "modern_industrialization:chemical_reactor" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["0D705F03FB44510C"]
+			id: "69D4AE31A79CE376"
+			tasks: [{
+				id: "1AAB3A03207F8926"
+				item: { count: 1, id: "modern_industrialization:electrolyzer" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["025CFCC2206C8FD7"]
+			id: "11A655E88A4360D7"
+			optional: true
+			tasks: [{
+				id: "5103F425F13CF5A5"
+				item: { components: { "productivebees:bee_type": "productivebees:chromium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["12C32D9415FF8F0E"]
+			id: "5304C30730A0B528"
+			optional: true
+			tasks: [{
+				id: "5BCF90DC92438178"
+				item: { components: { "productivebees:bee_type": "productivebees:manganese" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0D705F03FB44510C"]
+			icon: {
+				id: "modern_industrialization:oil_drilling_rig"
+			}
+			id: "1130C09090FD0ED7"
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "28E0EAD16C519C75"
+					item: { count: 1, id: "modern_industrialization:oil_drilling_rig" }
+					type: "item"
+				}
+				{
+					count: 33L
+					id: "7D5EE5B6A4BA3FDF"
+					item: { count: 33, id: "modern_industrialization:steel_machine_casing" }
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "2F5BEF2F48728B0E"
+					item: { count: 6, id: "modern_industrialization:steel_machine_casing_pipe" }
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "2C9ED1E514F3F0AA"
+					item: { count: 18, id: "minecraft:chain" }
+					type: "item"
+				}
+				{
+					id: "5A3DAC344E25B71F"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:lv_energy_input_hatch)item(modern_industrialization:mv_energy_input_hatch)item(modern_industrialization:hv_energy_input_hatch)item(modern_industrialization:ev_energy_input_hatch)item(modern_industrialization:superconductor_energy_input_hatch))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "2B6596D69DFFFA10"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:steel_fluid_output_hatch)item(modern_industrialization:bronze_fluid_output_hatch)item(modern_industrialization:advanced_fluid_output_hatch)item(modern_industrialization:highly_advanced_fluid_output_hatch)item(modern_industrialization:turbo_fluid_output_hatch))", "minecraft:custom_name": "\"Fluid Output Hatch\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "257B4DCAE0BBFB8A"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:advanced_item_input_hatch)item(modern_industrialization:bronze_item_input_hatch)item(modern_industrialization:highly_advanced_item_input_hatch)item(modern_industrialization:steel_item_input_hatch)item(modern_industrialization:turbo_item_input_hatch))", "minecraft:custom_name": "\"Item Input Hatch\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "30D0A945D19242DE"
+					item: { count: 1, id: "modern_industrialization:aluminum_drill" }
+					type: "item"
+				}
+			]
+			x: -14.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["0EE9BA9653F483E5"]
+			id: "508420BF29CBB792"
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "383186598CB5697B"
+				item: { count: 1, id: "modern_industrialization:advanced_machine_hull" }
+				type: "item"
+			}]
+			x: -17.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"0D0F42162510F32A"
+				"2A82913F02CEB496"
+				"71D73AA2A1EDD0A4"
+				"479C91B96285B98B"
+			]
+			id: "493DD11054318A8A"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "6D122BE43108AB09"
+				item: { count: 1, id: "modern_industrialization:digital_circuit" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["65979FF491293C42"]
+			id: "2876A1C04A122B4D"
+			tasks: [
+				{
+					id: "6F5844C302DD8591"
+					item: { count: 1, id: "modern_industrialization:silicon_p_doped_plate" }
+					type: "item"
+				}
+				{
+					id: "7B0DA01CEE3898F1"
+					item: { count: 1, id: "modern_industrialization:silicon_n_doped_plate" }
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["2876A1C04A122B4D"]
+			id: "4D94A914787FD296"
+			tasks: [{
+				id: "571653AC256D30D1"
+				item: { count: 1, id: "modern_industrialization:op_amp" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["4D94A914787FD296"]
+			id: "0D0F42162510F32A"
+			tasks: [{
+				id: "0A1625F3E618624F"
+				item: { count: 1, id: "modern_industrialization:and_gate" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["4D94A914787FD296"]
+			id: "2A82913F02CEB496"
+			tasks: [{
+				id: "0ABC8649769A9546"
+				item: { count: 1, id: "modern_industrialization:not_gate" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["4D94A914787FD296"]
+			id: "71D73AA2A1EDD0A4"
+			tasks: [{
+				id: "53A60FF799C1C5F3"
+				item: { count: 1, id: "modern_industrialization:or_gate" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"2DE9A4B9D493AAC7"
+				"3B8D815AA99511A6"
+			]
+			id: "479C91B96285B98B"
+			tasks: [{
+				id: "00FF16FBCD7B713C"
+				item: { count: 1, id: "modern_industrialization:digital_circuit_board" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["0D705F03FB44510C"]
+			id: "2DCDD37933172A55"
+			tasks: [{
+				id: "19125CC448A64705"
+				item: { count: 1, id: "modern_industrialization:distillery" }
+				type: "item"
+			}]
+			x: -18.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["1130C09090FD0ED7"]
+			id: "32263E5A5D364416"
+			tasks: [{
+				id: "116C1ED1A2C7AFAA"
+				item: { count: 1, id: "modern_industrialization:crude_oil_bucket" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["25EF6C8B77F36181"]
+			id: "3B8D815AA99511A6"
+			tasks: [{
+				id: "24F5E0C9A7675B49"
+				item: { count: 1, id: "modern_industrialization:polyethylene_bucket" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["15518EE6E9494614"]
+			id: "25EF6C8B77F36181"
+			tasks: [{
+				id: "5682945CB44B87CB"
+				item: { count: 1, id: "modern_industrialization:ethylene_bucket" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["24DFE0CDF7728E62"]
+			id: "15518EE6E9494614"
+			tasks: [{
+				id: "036DEBD0B3020D5C"
+				item: { count: 1, id: "modern_industrialization:steam_cracked_light_fuel_bucket" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["4A45B1515CE9B720"]
+			id: "24DFE0CDF7728E62"
+			tasks: [{
+				id: "19BADF1AE7ABDE25"
+				item: { count: 1, id: "modern_industrialization:light_fuel_bucket" }
+				type: "item"
+			}]
+			x: -14.5d
+			y: -19.5d
+		}
+		{
+			dependencies: [
+				"32263E5A5D364416"
+				"2DCDD37933172A55"
+			]
+			id: "4A45B1515CE9B720"
+			tasks: [{
+				id: "032A590787B209FC"
+				item: { count: 1, id: "modern_industrialization:sulfuric_light_fuel_bucket" }
+				type: "item"
+			}]
+			x: -16.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["32263E5A5D364416"]
+			id: "65C067A4B41C16B7"
+			tasks: [{
+				id: "05F752C192E09EDE"
+				item: { components: { "productivebees:bee_type": "productivebees:oily" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["479C91B96285B98B"]
+			id: "1AD64B3A13E2AA65"
+			tasks: [{
+				id: "739FE02554264D8B"
+				item: { count: 1, id: "modern_industrialization:turbo_upgrade" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -19.5d
+		}
+		{
+			id: "274101D77B0FC60D"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "482E6C2E6E2CB051"
+				type: "checkmark"
+			}]
+			x: -20.0d
+			y: -14.5d
+		}
+	]
+}
