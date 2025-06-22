@@ -146,6 +146,12 @@ ServerEvents.tags('entity_type', allthemods => {
                                       'oritech:machine_core_5',
                                       'oritech:machine_core_6',
                                       'oritech:machine_core_7',])
+    allthemods.add('c:origems', ['oritech:iron_gem',
+                                'oritech:diamond_gem',
+                                'oritech:gold_gem',
+                                'oritech:copper_gem',
+                                'oritech:nickel_gem',
+                                'oritech:uranium_gem',])
 });
 
 ServerEvents.tags('worldgen/structure', allthemods => {
