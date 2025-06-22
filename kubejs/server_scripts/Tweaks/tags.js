@@ -137,6 +137,15 @@ ServerEvents.tags('entity_type', allthemods => {
     allthemods.add('industrialforegoing:mob_crusher_blacklist', 'allthemods:jank_blacklist')
     allthemods.add('justdirethings:paradox_deny', 'allthemods:jank_blacklist');
     allthemods.add('tombstone:unhandled_tamable', 'allthemods:jank_blacklist')
+
+    //oritech
+    allthemods.add('c:machinecores', ['oritech:machine_core_1',
+                                      'oritech:machine_core_2',
+                                      'oritech:machine_core_3',
+                                      'oritech:machine_core_4',
+                                      'oritech:machine_core_5',
+                                      'oritech:machine_core_6',
+                                      'oritech:machine_core_7',])
 });
 
 ServerEvents.tags('worldgen/structure', allthemods => {
