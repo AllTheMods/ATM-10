@@ -62,25 +62,25 @@
 			"energyCapacity": 50000,
 			"maxEnergyInsertion": 0,
 			"maxEnergyExtraction": 256,
-			"energyPerTick": 32
+			"energyPerTick": 80
 		},
 		"bioGeneratorData": {
 			"energyCapacity": 100000,
 			"maxEnergyInsertion": 0,
 			"maxEnergyExtraction": 512,
-			"energyPerTick": 64
+			"energyPerTick": 120
 		},
 		"lavaGeneratorData": {
 			"energyCapacity": 100000,
 			"maxEnergyInsertion": 0,
 			"maxEnergyExtraction": 512,
-			"energyPerTick": 64
+			"energyPerTick": 100
 		},
 		"fuelGeneratorData": {
 			"energyCapacity": 250000,
 			"maxEnergyInsertion": 0,
 			"maxEnergyExtraction": 2048,
-			"energyPerTick": 256
+			"energyPerTick": 320
 		},
 		"steamEngineData": {
 			"energyCapacity": 100000,
@@ -94,13 +94,13 @@
 			"energyCapacity": 100000,
 			"maxEnergyInsertion": 0,
 			"maxEnergyExtraction": 256,
-			"energyPerTick": 32
+			"energyPerTick": 60
 		}
 	},
 	"laserArmConfig": {
 		"energyCapacity": 20000,
 		"maxEnergyInsertion": 1024,
-		"energyPerTick": 128,
+		"energyPerTick": 256,
 		"blockBreakEnergyBase": 1024,
 		"damageTickBase": 2.0,
 		"range": 128
@@ -207,7 +207,7 @@
 		"energyCapacity": 500000,
 		"energyUsage": 2048,
 		"chargeSpeed": 50000,
-		"baseDamage": 8,
+		"baseDamage": 12,
 		"lightningCostMultiplier": 8
 	},
 	"portableLaserConfig": {
@@ -219,7 +219,7 @@
 		"explosionStrength": 6
 	},
 	"chainsawTreeCutting": true,
-	"generateOres": true,
+	"generateOres": false,
 	"easyFindFeatures": true,
 	"safeMode": false,
 	"safeModeCooldown": 2400,
