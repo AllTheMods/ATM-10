@@ -89,6 +89,7 @@ ServerEvents.tags('item', allthemods => {
     allthemods.add('minecraft:bookshelf_books', 'evilcraft:origins_of_darkness')
     allthemods.add('minecraft:bookshelf_books', 'ae2:guide')
     allthemods.add('minecraft:bookshelf_books', 'powah:book')
+    allthemods.add('minecraft:bookshelf_books', 'actuallyadditions:booklet')
 
     // Forbiden Arcanus Stellar Blacklist
     allthemods.add('forbidden_arcanus:modifier/eternal_incompatible', 'ars_additions:undying_charm')
@@ -97,7 +98,6 @@ ServerEvents.tags('item', allthemods => {
 ServerEvents.tags('entity_type', allthemods => {
 
     allthemods.add('c:bosses', [
-        "@iceandfire",
         "allthemodium:piglich",
         "cataclysm:amethyst_crab",
         "cataclysm:ancient_remnant",
@@ -109,9 +109,9 @@ ServerEvents.tags('entity_type', allthemods => {
         "cataclysm:kobolediator",
         "cataclysm:maledictus",
         "cataclysm:modern_remnant",
-        "cataclysm:nether_monstrosity",
+        "cataclysm:netherite_monstrosity",
         "cataclysm:the_baby_leviathan",
-        "cataclysm:the_harbringer",
+        "cataclysm:the_harbinger",
         "cataclysm:the_leviathan",
         "cataclysm:the_prowler",
         "cataclysm:wadjet",
@@ -120,6 +120,7 @@ ServerEvents.tags('entity_type', allthemods => {
     ])
 
     allthemods.add('allthemods:jank_blacklist', [
+        "@iceandfire",
         'ars_nouveau:animated_block',
         'artifacts:mimic',
         'create:package',
@@ -131,12 +132,15 @@ ServerEvents.tags('entity_type', allthemods => {
         /productivebees:/
     ])
 
-    allthemods.add('apothic_spawners:blacklisted_from_spawners', 'allthemods:jank_blacklist')
-    allthemods.add('enderio:soul_vial_blacklist', 'allthemods:jank_blacklist')
-    allthemods.add('industrialforegoing:mob_duplicator_blacklist', 'allthemods:jank_blacklist')
-    allthemods.add('industrialforegoing:mob_crusher_blacklist', 'allthemods:jank_blacklist')
-    allthemods.add('justdirethings:paradox_deny', 'allthemods:jank_blacklist');
-    allthemods.add('tombstone:unhandled_tamable', 'allthemods:jank_blacklist')
+    allthemods.add('apothic_spawners:blacklisted_from_spawners', '#allthemods:jank_blacklist')
+    allthemods.add('enderio:soul_vial_blacklist', '#allthemods:jank_blacklist')
+    allthemods.add('industrialforegoing:mob_duplicator_blacklist', '#allthemods:jank_blacklist')
+    allthemods.add('industrialforegoing:mob_crusher_blacklist', '#allthemods:jank_blacklist')
+    allthemods.add('justdirethings:paradox_deny', '#allthemods:jank_blacklist');
+    allthemods.add('tombstone:unhandled_tamable', '#allthemods:jank_blacklist')
+    allthemods.add('mob_grinding_utils:no_swab', '#allthemods:jank_blacklist')
+    allthemods.add('mob_grinding_utils:no_spawn', '#allthemods:jank_blacklist')
+    allthemods.add('enderio:spawner_blacklist', '#allthemods:jank_blacklist')
 });
 
 ServerEvents.tags('worldgen/structure', allthemods => {
