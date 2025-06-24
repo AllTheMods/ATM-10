@@ -45,7 +45,7 @@
 	chapter.59395B6806F2A98A.title: "Cataclysm"
 	chapter.5B00676D79306EA2.title: "Ласкаво просимо"
 	chapter.5C764279146E5E66.title: "Mystical Agriculture"
-	chapter.5D045EF1AB73DF70.title: "Basic Power"
+	chapter.5D045EF1AB73DF70.title: "Базова енергія"
 	chapter.5E31DF282998B992.title: "PneumaticCraft"
 	chapter.65A95C2312976E49.title: "The Undergarden"
 	chapter.69299302373C4CBC.title: "Integrated Dynamics"
@@ -69,7 +69,7 @@
 	chapter_group.295BE417292024EC.title: "Modern Industrialization"
 	chapter_group.2B51AC12041E3F89.title: "Tech"
 	chapter_group.3D4E23B1100491AB.title: "Логістика"
-	chapter_group.49AECADBA9E79A3B.title: "Power"
+	chapter_group.49AECADBA9E79A3B.title: "Енергія"
 	chapter_group.5A4775CCD6D26C80.title: "Exploration"
 	chapter_group.6614EE2378B8AFB9.title: "Ресурси"
 	chapter_group.6700DB960E16A321.title: "Modern Industrialization"
@@ -637,7 +637,7 @@
 	quest.05B0A7D0B991050F.title: "Reactor (Hardened)"
 	quest.05B5E640F1B68A28.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_golem.png width:100 height:150 align:center}"]
 	quest.05B5E640F1B68A28.title: "&3Golem Steel&r"
-	quest.05B6DB75AEC01187.quest_desc: ["RFTools Power has &9Powercells&r to store power, which are multi-block storage units that can be customized and upgraded to store power.\\n\\nYou will need a Wrench to determine inputs and outputs for power."]
+	quest.05B6DB75AEC01187.quest_desc: ["RFTools Power має &9Powercells&r для зберігання енергії — це багатоблочні сховища, які можна налаштовувати та покращувати.\\n\\nВам знадобиться гайковий ключ, щоб визначити входи та виходи енергії."]
 	quest.05B6DB75AEC01187.title: "&9RFTools Power: &cPowercells"
 	quest.05B8C64EB012F6EA.quest_desc: ["Another option is using Chronal exchange; gain mahou for 12 hours, then spend it for 12 hours. If you make a second Chronal exchange circle when the first starts spending, it becomes a loop. "]
 	quest.05B8C64EB012F6EA.title: "Chronal Exchange"
@@ -1172,9 +1172,9 @@
 	quest.0AE6AD813928DE4F.quest_desc: ["The External Heater can be used with Furnaces, like the &2&lVanilla&r ones, not &c&lCrude Blast Furnace&r! \\n\\nIt takes in &cEnergy&r from the Bottom and uses it for Heat. \\n\\nThe Heat comes out of the other sides of it, to adjacent Blocks. \\n\\nIt is technically used for the &4&lImproved Blast Furnace&r, by Crafting the Preheaters but I don't count that!"]
 	quest.0AEAEA976ED0C470.quest_desc: ["The &3Charging Station&r is used to charge various tools and gadgets in &aPneumaticCraft&r using pressure."]
 	quest.0AEAEA976ED0C470.quest_subtitle: "Where's the cord?"
-	quest.0AEC181F5E21A299.quest_desc: ["If you've ever heard of someone talking about \"Melon Power\", this is it. Mekanism's &dGas-Burning Generator&r can produce a good amount of power by pumping in &9Ethylene&r made from Melon Slices.\\n\\nTo produce &dEthylene&r, start by crushing organic materials in a &eCrusher&r to create &6Bio Fuel&r. Melon Slices are typically used for this! This is then pumped into a &dPressurized Reaction Chamber&r (PRC for short).\\n\\nThe PRC needs Water, Bio Fuel, and some Hydrogen to create Ethylene. You can get the Hydrogen from separating water in an &9Electrolytic Separator&r.\\n\\nOnce you've started producing the Ethylene, pump it into the Gas-Burning Generator to start generating power!"]
-	quest.0AEC181F5E21A299.quest_subtitle: "MELON POWER!"
-	quest.0AEC181F5E21A299.title: "&9Mekanism: &dGas-Burning Generator"
+	quest.0AEC181F5E21A299.quest_desc: ["Якщо ти коли-небудь чув про «Кавунову енергію», то ось вона! &dГазогенератор&r з Mekanism може виробляти чимало енергії, якщо подавати в нього &9Етилен&r, зроблений із скибок кавуна.\\n\\nЩоб отримати &dЕтилен&r, спочатку подрібни органічні матеріали у &eДробарці&r, щоб створити &6Біопаливо&r. Для цього зазвичай використовують саме скибки кавуна! Далі це біопаливо подається у &dРеакційну камеру під тиском&r (PRC).\\n\\nPRC потребує воду, біопаливо та трохи водню, щоб створити етилен. Водень можна отримати шляхом розщеплення води у &9Електролітичному сепараторі&r.\\n\\nКоли почнеш виробляти етилен, подавай його у Газогенератор, щоб генерувати енергію!"]
+	quest.0AEC181F5E21A299.quest_subtitle: "Кавунова енергія!"
+	quest.0AEC181F5E21A299.title: "&9Mekanism: &dГазогенератор"
 	quest.0AF5FB1B5AA5AA11.quest_subtitle: "Tier: &b4"
 	quest.0AFC5B1AF055811A.quest_desc: [
 		"The &2Edelwood Bucket&r can store more than one bucket of liquid, and can also be used to capture small animals like chickens or squids."
@@ -1224,12 +1224,12 @@
 	]
 	quest.0BB0DF36B079558F.quest_desc: ["When the &6Entangled Chalice&r is placed in the world, it can pump in Blood. When activated in your inventory, it will try to fill up your items that use &cBlood&r as a resource.\\n\\nIf you want to make more Chalices using the same network, just use the crafting recipe that uses a Chalice instead of a Gold Ingot"]
 	quest.0BB0DF36B079558F.title: "&6Entangled Chalice"
-	quest.0BB367839D28607D.quest_desc: ["These &8Coal Generators&r are some of the easiest generators to make.\\n\\nThey are very simple to use and create a decent amount of power based on the combustible material you put in. They also automatically distributes power to adjacent blocks."]
-	quest.0BB367839D28607D.quest_subtitle: "Fossil Fuels"
-	quest.0BB367839D28607D.title: "&8Coal Generators"
-	quest.0BB42C5861B22D32.quest_desc: ["The &bMycelial Reactor&r consists of all the Mycelial Generators working at the same time, near the reactor block, and it produces a total of &a25MFE/t&r.\\n\\nAll sounds good, but you need to automate some stuff to get it working, see what each Mycelial Generator consumes to work, and automate it, most things are simple, but others, not that much... &olooking at Disenchanting Mycelial Generator&r.\\n\\nBut after you get it all automated, you don't need to stop at one, you can make more reactors."]
-	quest.0BB42C5861B22D32.quest_subtitle: "It's not Yourcelial Reactor"
-	quest.0BB42C5861B22D32.title: "&9Industrial Foregoing: &bMycelial Reactor"
+	quest.0BB367839D28607D.quest_desc: ["Ці &8вугільні генератори&r — одні з найпростіших у виготовленні.\\n\\nВони дуже легкі у використанні та виробляють пристойну кількість енергії залежно від пального, яке ви покладете всередину. Також вони автоматично передають енергію до сусідніх блоків."]
+	quest.0BB367839D28607D.quest_subtitle: "Викопне паливо"
+	quest.0BB367839D28607D.title: "&8Вугільні генератори"
+	quest.0BB42C5861B22D32.quest_desc: ["&bМіцеліальний реактор&r складається з усіх міцеліальних генераторів, що працюють одночасно біля блоку реактора, і виробляє загалом &a25MFE/т&r.\\n\\nВсе звучить добре, але вам потрібно автоматизувати деякі речі, щоб він працював: дізнайтеся, що споживає кожен міцеліальний генератор, і автоматизуйте це. Більшість речей прості, але деякі — не дуже... &oдивимось на Disenchanting Mycelial Generator&r.\\n\\nАле після повної автоматизації ви не зобов'язані зупинятися на одному — можна створити ще більше реакторів."]
+	quest.0BB42C5861B22D32.quest_subtitle: "Це не Yourcelial Reactor"
+	quest.0BB42C5861B22D32.title: "&9Industrial Foregoing: &bМіцеліальний реактор"
 	quest.0BB562FB44B0AAA7.quest_desc: ["Обмеження мають не лише картки, тому й прискорювачі можна ставити не лише в них! \\n\\nВони вставляються безпосередньо в &cВузол&r у нижньому правому куті та пришвидшують виконання операцій."]
 	quest.0BB562FB44B0AAA7.quest_subtitle: "Макс: 8"
 	quest.0BB8D556305EB307.quest_desc: [
@@ -1846,8 +1846,8 @@
 	quest.11C5F17C6BB1237B.quest_desc: ["While wearing the &5Withered Bracelet&r Melee Attacks have a chance to give the Wither Effect.\\n\\nSorry Bow users!"]
 	quest.11C5F17C6BB1237B.quest_subtitle: "Wrists (Hands)"
 	quest.11C5F17C6BB1237B.title: "&5Withered Bracelet&r"
-	quest.11D09E918015355C.quest_desc: ["Mekanism's &cHeat Generator&r is a different take on basic power production. It has two modes of creating power:\\n\\n&9Passive:&r Surrounding the generator with Lava source or flowing blocks creates passive power over time through heat. Place one Lava source block on top and let it flow over the sides. Make sure to have Pipes connected for energy first!\\n\\n&9Active:&r Placing combustible materials such as Coal or Wood into the generator will burn the fuel to create power. This is not very efficient."]
-	quest.11D09E918015355C.title: "&cHeat Generator"
+	quest.11D09E918015355C.quest_desc: ["&cТеплогенератор&r Mekanism — це інший підхід до базового виробництва енергії. Він має два режими роботи:\\n\\n&9Пасивний:&r Оточення генератора джерелами або потоками лави створює пасивну енергію з часом через тепло. Поставте один блок лави зверху, щоб вона розтікалася по боках. Спочатку підключіть труби для енергії!\\n\\n&9Активний:&r Поміщення пального, наприклад, вугілля чи дерева, у генератор спалює паливо для отримання енергії. Це не дуже ефективно."]
+	quest.11D09E918015355C.title: "&cТеплогенератор"
 	quest.11D16434F78D2C2C.quest_desc: [
 		"You can use an Extractor to get glass in a liquid state for making the diode"
 		""
@@ -2123,8 +2123,8 @@
 		"{image:atm:textures/questpics/iron_spells/spells_mountaintower.png width:200 height:100 align:center}"
 	]
 	quest.13F77C38AC015E9F.title: "&bMountain Tower"
-	quest.1409C17773B6A131.quest_desc: ["All Upgrades increase the amount the &e&lPipez&r move but each grant more options to use with the &e&lPipe&r. \\n\\nBasic Upgrade allows Redstone Activation with &e&lPipez&r.\\n\\nImproved Upgrade allows you to change distribution either:Closest First, Farthest First, Round-Robin, or Random.\\n\\nAdvanced Upgrade gives you option to add Filters.\\n\\nUltimate doesn't grant anything new it just moves a lot!"]
-	quest.1409C17773B6A131.title: "&9Pipez: &aUpgrades"
+	quest.1409C17773B6A131.quest_desc: ["Усі оновлення збільшують кількість енергії, яку &e&lPipez&r можуть передавати, але кожне дає додаткові можливості для &e&lТруби&r. \\n\\nБазове покращення дозволяє активувати труби редстоуном у &e&lPipez&r.\\n\\nПокращене дає змогу змінювати розподіл: найближчий, найдальший, по колу або випадково.\\n\\nПокращення 'Просунутий' дає можливість додавати фільтри.\\n\\n'Ультимативне' не дає нових функцій, але значно збільшує швидкість!"]
+	quest.1409C17773B6A131.title: "&9Pipez: &aОновлення"
 	quest.140DADB32EF10D58.quest_desc: ["Dragon Egg Seeds require a Dragon Egg Crux placed below in order for them to grow."]
 	quest.140DADB32EF10D58.quest_subtitle: "Tier: &56"
 	quest.140DE53DC0FCD9F4.quest_desc: [
@@ -2902,9 +2902,9 @@
 		"- Has a smaller experience requirement increase for repeated edits on the same item."
 		"- Increases the maximum xp level at which you can edit items (the point at which it says \"Too Expensive!\")."
 	]
-	quest.1BE26A00A420DAE3.quest_desc: ["In this mod, you'll need &aFlux Cores&r and &aFlux Blocks&r to craft the core parts of your network. Make a few of each!"]
-	quest.1BE26A00A420DAE3.quest_subtitle: "Of Cores you need these"
-	quest.1BE26A00A420DAE3.title: "The \"Core\" Crafting Materials"
+	quest.1BE26A00A420DAE3.quest_desc: ["У цьому моді вам знадобляться &aFlux Cores&r та &aFlux Blocks&r для створення основних частин вашої мережі. Зробіть кілька кожного!"]
+	quest.1BE26A00A420DAE3.quest_subtitle: "Ядра — це основа"
+	quest.1BE26A00A420DAE3.title: "Основні матеріали для мережі"
 	quest.1BE2CB4684AF7DFB.quest_subtitle: "Diamonds may be hidden in here"
 	quest.1BE2CB4684AF7DFB.title: "Graphite Vein"
 	quest.1BE69992D2C5085B.quest_desc: ["&n&aEvocation:&r\\nTo invoke a Spirit or Deity. \\n\\n&a&lEvokation&r is all about what &aEvokers&r do, mainly summoning. Whether it be &aFangs&r or &aVexes&r if it's summoned it's most likely an &aEvokation&r. \\n\\n&a&lEvokation's&r Focus Material is &aEmeralds&r. You can either craft the Rune or get it from the &a&lArchevoker&r. \\n\\n&aEvokation Scrolls&r are &fWhite&r with &0Black&r texts."]
@@ -3214,8 +3214,8 @@
 	]
 	quest.1F7DA060792D716A.title: "&l&dMixer"
 	quest.1F7DFA5AA65F2812.quest_desc: ["The &bAcceleration Card&f, depending on the device being upgraded with it, will either increase the speed at which the device operates or allow the device to carry out more operations in one go.\\n\\nIn the case of the &eMolecular Assembler&f, a full set of 5 cards reduces the time taken for the MA to fulfil a craft from one second (with no cards) to one &otick&r."]
-	quest.1F81EA5E45424308.quest_desc: ["If you're looking for different ways to get power out of your machines, this is where you can find it!\\n\\nThere are several options, both &awired&r and &9wireless&r, for transferring power."]
-	quest.1F81EA5E45424308.title: "&f&lTransferring Power"
+	quest.1F81EA5E45424308.quest_desc: ["Якщо ви шукаєте різні способи отримати енергію з ваших механізмів — це місце для вас!\\n\\nЄ кілька варіантів, як &aдротових&r, так і &9бездротових&r, для передачі енергії."]
+	quest.1F81EA5E45424308.title: "&f&lПередача енергії"
 	quest.1F82DBE75059C139.title: "&9The Starter Dungeons"
 	quest.1F88C697817A7680.quest_desc: ["Buffs:\\n\\n - Absorption II (3:00)"]
 	quest.1F88C697817A7680.title: "&aInferium Apple"
@@ -4093,10 +4093,10 @@
 	quest.279BC6FAF7827738.quest_subtitle: "IV"
 	quest.27A0BCE75F198A82.quest_subtitle: "Tier: &e1"
 	quest.27A4FA38992448A0.quest_desc: [
-		"Flux Networks also provides a way to charge your items wirelessly, even across dimensions!\\n\\nOnce you have a Plug attached to your power system, you'll want to make the &9Flux Controller&r and place it down.\\n\\nRight-click on it to bring up the interface, and go to the \"Wireless Charging\" tab. From there, you can select each section of your inventory you'd like to keep charged. To activate, make sure to hit the toggle button at the bottom to enable Wireless Charging, then click apply!\\n"
+		"Flux Networks також дозволяє заряджати ваші предмети бездротово, навіть між вимірами!\\n\\nКоли ви під'єднаєте Plug до вашої енергосистеми, вам потрібно створити &9Flux Controller&r і розмістити його.\\n\\nКлацніть правою кнопкою миші по ньому, щоб відкрити інтерфейс, і перейдіть на вкладку \"Wireless Charging\" (Бездротова зарядка). Тут ви можете обрати, які частини вашого інвентаря будуть заряджатися. Щоб активувати, обов'язково натисніть перемикач унизу для увімкнення бездротової зарядки, а потім натисніть \"Застосувати\"!\\n"
 		"{image:atm:textures/questpics/basic_power/wireless_ui.png width:125 height:150 align:center}"
 	]
-	quest.27A4FA38992448A0.title: "Wireless Charging"
+	quest.27A4FA38992448A0.title: "Бездротова зарядка"
 	quest.27B5D0329DD92126.quest_desc: ["Soup... made from Bees? Seems kinda inhumane... \\n\\nEating/Drinking this will give you Beenergized Effect for awhile and gives a chance at giving Luck! \\n\\nAlso a chance at Levitation, Slow Falling, Poison, and Paralized. \\n\\nAlso while talking about Paralized you can make Paralizing Potions using the Soup."]
 	quest.27CF1A2587321A2C.quest_desc: ["The best &eSpell Book&r you can imagine! 15 &3Spell&r Slots! Are there even 15 &3Spells&r?!?! Oh wait yeah there is 15 isn't that much... \\n\\nDo the same as before: previous Book, Ingot, and Template."]
 	quest.27CF1A2587321A2C.title: "&5Unobtainium&r Spell Book"
@@ -4852,7 +4852,7 @@
 	]
 	quest.2EB6088D4E85DA42.title: "Flattening the Land"
 	quest.2EB7784D5296F410.quest_desc: [
-		"Right clicking a functional Flux Network block will give you this UI.\\n\\nEach Plug or Point can be named, have a custom priority level, and have a custom power transfer limit. This allows complete control over all parts of your system.\\n\\n&aBypass Limit&r ignores the limit set.\\n\\nThere are several other tabs to check out, mostly for statistics on your network!\\n"
+		"Коли ви натиснете ПКМ на робочий блок Flux Network, відкриється цей інтерфейс.\\n\\nКожен Plug або Point можна перейменувати, задати власний пріоритет і обмеження на передачу енергії. Це дає повний контроль над усіма частинами вашої системи.\\n\\n&aBypass Limit&r ігнорує встановлене обмеження.\\n\\nЄ ще кілька вкладок, переважно для перегляду статистики вашої мережі!\\n"
 		"{image:atm:textures/questpics/basic_power/flux_ui.png width:125 height:150 align:center}"
 	]
 	quest.2EB96FF06627FD9A.quest_desc: ["The Salvager allows you to break down gear into the items they from.\\n\\nFor example: If you put in some Diamond Boots you will get 4 Diamonds back."]
@@ -5531,12 +5531,12 @@
 	quest.359E1FFAB18FE50F.quest_desc: ["You got tools and Gems so how do we combine them? First, make sure your tool has an open Socket. (For more on Sockets check the Vials and Sigils section). If one is open, you can combine your tool and Gem in a Smithing Table. If you aren't happy with your current Gems then you might need a..."]
 	quest.359E1FFAB18FE50F.title: "Applying Gems (and others)"
 	quest.35A014F1B4506CCA.title: "LV Tier"
-	quest.35ABB0DEE70DF7FD.quest_desc: ["Believe it or not, the &aPowah&r mod has some great options for getting... powwe.\\n\\nMake sure to check out the &cPowah&r qyest chapter to learn more!"]
-	quest.35ABB0DEE70DF7FD.title: "More &aPowah&r!"
+	quest.35ABB0DEE70DF7FD.quest_desc: ["Вірите чи ні, але мод &aPowah&r має чудові варіанти отримання... енергії.\\n\\nОбов'язково перегляньте розділ квестів &cPowah&r, щоб дізнатися більше!"]
+	quest.35ABB0DEE70DF7FD.title: "Більше &aPowah&r!"
 	quest.35C46E6E27C9CB1A.quest_desc: ["The 10 &2Vanilla&r Logs are wonderful, but they only have so many designs! \\n\\nSo of course &l&bChipped&r, chipped in by adding dozens of new designs for those Logs!"]
 	quest.35C46E6E27C9CB1A.title: "&l&bChipped&r Logs"
-	quest.35CC898E0E49FE58.quest_desc: ["&9Flux Networks&r is a mod that aims to be the solution to all of your wireless power needs.\\n\\nThe mod itself does not have a way to generate power, but it can store and wirelessly transmit power, even across dimensions. It can even charge your items in your inventory.\\n\\nYou can even charge your Jetpacks while you are flying with this mod.\\n\\nTo get started with the mod, you'll need some Flux Dust. Head to Bedrock, then throw some Redstone on top of some Bedrock. Place some Obsidian right above the floating Redstone, then left click the Obsidian."]
-	quest.35CC898E0E49FE58.quest_subtitle: "The Ultimate Wireless Power Solution"
+	quest.35CC898E0E49FE58.quest_desc: ["&9Flux Networks&r — це мод, який прагне стати рішенням для всіх ваших потреб у бездротовій енергії.\\n\\nСам мод не генерує енергію, але може зберігати та передавати її бездротово, навіть між вимірами. Також він може заряджати предмети у вашому інвентарі.\\n\\nВи навіть можете заряджати свої реактивні ранці під час польоту з цим модом.\\n\\nЩоб почати, вам знадобиться трохи Flux Dust. Йдіть до корінної породи, киньте редстоун на неї, поставте обсидіан над редстоуном, а потім клацніть ЛКМ по обсидіану."]
+	quest.35CC898E0E49FE58.quest_subtitle: "Ультимативне бездротове рішення"
 	quest.35CC898E0E49FE58.title: "&8Flux Networks"
 	quest.35E399D88D2EDCB6.quest_desc: ["With this Upgrade everyone who attacks you will 1. be Stunned which will stop them for a second 2. hurt them and 3. destroy any Projectiles. \\n\\nI think it's worth the Upgrade!"]
 	quest.35E399D88D2EDCB6.quest_subtitle: "Clash?"
@@ -5654,8 +5654,8 @@
 	quest.36CF8D1DD1EF6307.quest_subtitle: "2 Wet Light Green Blocks"
 	quest.36D72D759C4E8823.quest_desc: ["Maybe a little too fast even."]
 	quest.36D72D759C4E8823.quest_subtitle: "Max: 1"
-	quest.36DEA17CBB696CC7.quest_desc: ["If you right-click on the Plug, you'll see the Flux Network UI. On the far top-right corner, click on the + button to create your first network. You'll need to set a password to create the network, but you can also set a color!\\n\\nFrom here, you can go to the Network Selection tab to activate your network on the Plug. If the Plug is attached to a power source, you can now harness that power anywhere in your system using a Flux Point!\\n\\nPro Tip: You can create multiple networks if you want to have different power sources powering different parts of your systems!"]
-	quest.36DEA17CBB696CC7.quest_subtitle: "Becoming a Network Admin!"
+	quest.36DEA17CBB696CC7.quest_desc: ["Якщо ви натиснете ПКМ по Plug, побачите інтерфейс Flux Network. У правому верхньому куті натисніть кнопку +, щоб створити свою першу мережу. Для створення мережі потрібно встановити пароль, а також можна вибрати колір!\\n\\nПісля цього перейдіть на вкладку вибору мережі, щоб активувати її на Plug. Якщо Plug підключено до джерела енергії, ви зможете використовувати цю енергію будь-де у своїй системі за допомогою Flux Point!\\n\\nПорада: ви можете створювати кілька мереж, якщо хочете, щоб різні джерела енергії живили різні частини вашої системи!"]
+	quest.36DEA17CBB696CC7.quest_subtitle: "Стаємо адміністратором мережі!"
 	quest.36DED7099E80ED51.quest_desc: ["Цей модуль робить саме те, що у назві — розміщує блоки. \\n\\nВкажіть напрямок, у якому потрібно розмістити блок, бажано встановіть фільтр, потім покладіть модуль і блоки в роутер! Коли подасте сигнал редстоуну — блоки будуть розміщені!"]
 	quest.36DF0D83EBC2B6A9.quest_desc: [""]
 	quest.36DF0D83EBC2B6A9.quest_subtitle: "&oLack of wisdom is a thing of the past with this."
@@ -6136,9 +6136,9 @@
 	quest.3BD73FEAE853D350.quest_desc: ["Ever hate how slow &bIce&r is unless using a Boat? Which still doesn't make sense to me! &bIce Skates&r change that now you accelerate on &bIce&r while wearing &bIce Skates&r. You can upgrade them to accel faster! \\n \\nAfter upgrading them you can get a Second Ability which allows you to damage Mobs by running into them while wearing &bIce Skates&r."]
 	quest.3BD73FEAE853D350.quest_subtitle: "Found in Villages in Taigas or Snowy Taigas"
 	quest.3BD73FEAE853D350.title: "&bIce Skates"
-	quest.3BDB94F17765EE77.quest_desc: ["If you're looking to generate a ton of power, you can start by scaling up some of the options from the &9Mid Game Power&r section. Make your &aReactors&r bigger. Upgrade your &9Thermo Generators&r to Nitro. Go wild.\\n\\nHowever, you may need even more power."]
-	quest.3BDB94F17765EE77.quest_subtitle: "More Power Than You'll Need"
-	quest.3BDB94F17765EE77.title: "End Game Power Options"
+	quest.3BDB94F17765EE77.quest_desc: ["Якщо ви хочете генерувати багато енергії, почніть масштабувати деякі варіанти з розділу &9Середньої гри&r. Збільшуйте свої &aРеактори&r. Оновіть &9Термогенератори&r до Нітро. Експериментуйте!\\n\\nОднак, можливо, вам знадобиться ще більше енергії."]
+	quest.3BDB94F17765EE77.quest_subtitle: "Більше енергії, ніж вам потрібно"
+	quest.3BDB94F17765EE77.title: "Варіанти енергії для кінцевої гри"
 	quest.3BE5CD0C7CC4BCC6.quest_desc: ["Soul Lava is a part of &6&lAllthemodium&r. It can be found in &b&lThe Other&r very rarely underground, or common in Piglich Villages!\\n\\nWe'll need to feed a Bucket of &9Soul Lava&r to a Ghostly Bee to make a &9Soul Lava Bee&r.\\n\\nThen, you'll need to squish them or poke them for it's DNA to make a Spawn Egg!  "]
 	quest.3BE5CD0C7CC4BCC6.title: "&9Soul Lava Bee&r Spawn Egg"
 	quest.3BEDF19CD79D53D5.quest_desc: [
@@ -6928,9 +6928,9 @@
 		"There is also a ton of rare loot, so make sure to keep an eye out for Intricate Hellforged Parts."
 	]
 	quest.42CDD69527871332.title: "&cThe Demon Realm"
-	quest.42D173B9FF8D16E4.quest_desc: ["Looking for early game power options? These are good ways to get you started with generating power.\\n\\nThese don't produce a ton of power, but they are typically easy or cheap to get in the early game!"]
-	quest.42D173B9FF8D16E4.quest_subtitle: "Starter Power"
-	quest.42D173B9FF8D16E4.title: "&8&lEarly Game Power Options"
+	quest.42D173B9FF8D16E4.quest_desc: ["Шукаєте варіанти енергії для початку гри? Ось хороші способи розпочати генерацію енергії.\\n\\nВони не виробляють багато енергії, але зазвичай прості або дешеві для отримання на старті!"]
+	quest.42D173B9FF8D16E4.quest_subtitle: "Стартова енергія"
+	quest.42D173B9FF8D16E4.title: "&8&lВаріанти енергії для початку гри"
 	quest.42D7C8CD8E6F5CD7.quest_desc: ["Якщо використати фрукт хорусу на спавнері, ви висмокчете душі з мобів, які мають з'явитися, залишивши лише порожню оболонку. Моби втратять весь ШІ, поводитимуться як стійка для броні: не атакують, не телепортуються, не рухаються самостійно. Вони просто чекають, поки їх уб'ють — як захопливо!"]
 	quest.42D7C8CD8E6F5CD7.title: "Без ШІ"
 	quest.42E5B5C27799DD93.quest_desc: [
@@ -7024,9 +7024,9 @@
 	quest.43CE45F9FDDB91EE.title: "&6Master of Creation&r"
 	quest.43D3E61FA314E3C3.quest_desc: ["Exchanging heat in any case is usually very expensive in Energy cost. In this case, some Tritainium coils, Ultimate Voltage Coils, and Large Naquadria Batteries will do the trick."]
 	quest.43D3E61FA314E3C3.quest_subtitle: "Thermal Exchange"
-	quest.43D83CFA824B0A70.quest_desc: ["&9Mekanism&r has an end game power option that is tough to beat. The &dFusion Reactor&r can produce up to 80MRF/t, and if you want to learn how to build it, make sure to check out the &aMekanism: &dReactors&r quest chapter!"]
-	quest.43D83CFA824B0A70.quest_subtitle: "Fusion Activate!"
-	quest.43D83CFA824B0A70.title: "&9Mekanism: &dFusion Reactor"
+	quest.43D83CFA824B0A70.quest_desc: ["&9Mekanism&r має кінцевий варіант генерації енергії, який важко перевершити. &dТермоядерний реактор&r може виробляти до 80MRF/т, і якщо хочете дізнатися, як його побудувати, обов'язково перегляньте розділ квестів &aMekanism: &dРеактори&r!"]
+	quest.43D83CFA824B0A70.quest_subtitle: "Активація синтезу!"
+	quest.43D83CFA824B0A70.title: "&9Mekanism: &dТермоядерний реактор"
 	quest.43E8912CB307E421.quest_desc: [
 		"Great! We can store items virtually, but how do we see what is on the network? "
 		""
@@ -7416,8 +7416,8 @@
 	quest.47764EFC822E462A.title: "A Cow in a Jar"
 	quest.47768B1FFD57D56E.quest_desc: ["Дратує, що &4редстоун&r треба проводити всюди дротами? Якщо вже є бездротова енергія, чому б не зробити бездротовий &4редстоун&r? Нарешті це можливо завдяки &c&lLaserIO&r. Ви можете подати &4сигнал редстоуну&r через &4картку&r, а потім вивести цей &4сигнал&r в іншому місці за допомогою &4картки виходу&r!"]
 	quest.47768B1FFD57D56E.title: "&4Картка редстоуну"
-	quest.477B411F84342EEA.quest_desc: ["Mekanism is one of the best mods for energy storage, especially in the early game.\\n\\nThe Basic Energy Cube is easy to configure, easy to craft, and stores a lot of power. It can also be upgraded, and can charge items inside of the interface!\\n\\nTo learn more about upgrading the Energy Cube as well as the mod, head over to the &aMekanism&r quest chapter!"]
-	quest.477B411F84342EEA.title: "&9Mekanism: &aEnergy Cubes"
+	quest.477B411F84342EEA.quest_desc: ["Mekanism — один із найкращих модів для зберігання енергії, особливо на початку гри.\\n\\nБазовий енергокуб легко налаштовується, просто крафтиться та зберігає багато енергії. Його можна покращувати, а також заряджати предмети всередині інтерфейсу!\\n\\nЩоб дізнатися більше про покращення енергокуба та сам мод, перейдіть до розділу квестів &aMekanism&r!"]
+	quest.477B411F84342EEA.title: "&9Mekanism: &aЕнергокуби"
 	quest.478352E24CE1F45F.quest_desc: ["Allows the Mana Bursts to launch festive fireworks when they hit a block."]
 	quest.4785659E5022FEE7.quest_desc: [
 		"Just like a car, you can't fuel a Rocket off of hopes and dreams. But how do we get fuel?"
@@ -7541,9 +7541,9 @@
 	quest.48C68664319B0294.quest_desc: ["To obtain this special Spell Book you'll need to slay the &4&lDead King&r! \\n\\nIt has 10 &3Spell&r Slots but 4 are taken up already. &4Blood Slash&r, &4Blood Step&r, &4Ray of Siphoning&r, and &4Blaze Storm&r come on it already and can't be taken off."]
 	quest.48C68664319B0294.title: "Necronomicom"
 	quest.48D358470A019E7A.title: "Tier 1 Starlight Charger Catalyst"
-	quest.48DC9E8E9D21A2FA.quest_desc: ["Mekanism provides several ways to make power using renewable resources.\\n\\nThe &9Solar Generators&r harness the power of the Sun to provide basic power needs. It does not work during the night, and must have access to the sky. Glass is okay.\\n\\nThe &9Wind Generator&r provides power via the wind. Unless you've figured out a way for your character to manually spin this, the speed it spins is based off of the Y lvl it is placed at. It also needs direct access to the sky without any blocks above it."]
-	quest.48DC9E8E9D21A2FA.quest_subtitle: "The Power of the Sun..."
-	quest.48DC9E8E9D21A2FA.title: "&9Mekanism: &aRenewable Energy"
+	quest.48DC9E8E9D21A2FA.quest_desc: ["Mekanism пропонує кілька способів отримання енергії з відновлюваних джерел.\\n\\n&9Сонячні генератори&r використовують силу Сонця для забезпечення базових потреб в енергії. Вночі не працюють і мають мати доступ до неба. Скло не заважає.\\n\\n&9Вітряк&r виробляє енергію від вітру. Якщо ви не навчилися крутити його вручну, швидкість обертання залежить від висоти (Y-рівня), на якій він встановлений. Також потрібен прямий доступ до неба без блоків зверху."]
+	quest.48DC9E8E9D21A2FA.quest_subtitle: "Сила Сонця..."
+	quest.48DC9E8E9D21A2FA.title: "&9Mekanism: &aВідновлювана енергія"
 	quest.48EE6C807C1668D4.quest_desc: ["If you need Wires to go either farther or connect to more places, you might need a Connector Node. \\n\\nSimple as that!"]
 	quest.48EE6C807C1668D4.title: "Wires go here, Wires go there"
 	quest.49109192F6D95AB4.quest_desc: [
@@ -7704,9 +7704,9 @@
 		""
 		"Both water and salt water are good sources of hydrogen, and salt water comes with the added benefit of giving you chlorine too!"
 	]
-	quest.4AB0DD227471FDBF.quest_desc: ["This chapter is dedicated to all things power related!\\n\\nHere you'll find the basic ways to generate, store, and transfer power."]
-	quest.4AB0DD227471FDBF.quest_subtitle: "All The Power!"
-	quest.4AB0DD227471FDBF.title: "&cBasic Power"
+	quest.4AB0DD227471FDBF.quest_desc: ["Цей розділ присвячений всьому, що пов'язано з енергією!\\n\\nТут ви знайдете основні способи генерації, зберігання та передачі енергії."]
+	quest.4AB0DD227471FDBF.quest_subtitle: "Вся енергія!"
+	quest.4AB0DD227471FDBF.title: "&cБазова енергія"
 	quest.4ABF0727AA569DD9.quest_desc: [
 		"To fuel our Fusion Reactor, we'll need to create two different gases, this one being &cDeuterium&r."
 		""
@@ -8282,8 +8282,8 @@
 	quest.4EE10B8E194F5CA9.quest_desc: ["&6&lCreate&r 1.21 also now comes with Trains included with the base Mod. \\n\\nFirst, you'll need &5Sturdy Metal&r! \\n\\nCrush &5Obsidian&r to get &5Obsidian Dust&r. Then, use a &bSpout&r to place &cLava&r into the &5Crushed Obsidian&r. \\n\\nAfter that, Press it twice with &6Mechanical Presses&r and you'll get &5Sturdy Metal&r. \\n\\n&5Sturdy Metal&r can then be applied to a &eBrass Casing&r to make &5Train Casings&r."]
 	quest.4EE10B8E194F5CA9.title: "&5&lTrains"
 	quest.4EE482B9D61B5933.quest_desc: ["Of course &2Vanilla&r isn't our max, there's much more and much rarer in Modded! "]
-	quest.4EEAB467C722ECE7.quest_desc: ["These are simple pipes that can be upgraded with Pipe Upgrades.\\n\\nTo 'extract' power from a block, place the pipe down next to the block, and on the side that is connected, shift+right-click with the pipe wrench to set the pipe to extract.\\n\\nThe &e&lPipez&r mod also offers ways to transport items, gases, and liquids as well! Or you can make an All-In-One Pipe called the &aUniversal Pipe&r.\\n\\nOther Wrenches work with &e&lPipez&r as well!"]
-	quest.4EEAB467C722ECE7.title: "&9Pipez: &aEnergy Pipes"
+	quest.4EEAB467C722ECE7.quest_desc: ["Це прості труби, які можна покращувати за допомогою Оновлень Труби.\\n\\nЩоб 'витягнути' енергію з блоку, поставте трубу поруч із блоком, а на стороні з'єднання затисніть Shift і натисніть ПКМ трубним ключем, щоб встановити режим витягання.\\n\\nМод &e&lPipez&r також дозволяє транспортувати предмети, гази та рідини! Або ви можете зробити &aУніверсальну Трубу&r.\\n\\nІнші гайкові ключі також працюють із &e&lPipez&r!"]
+	quest.4EEAB467C722ECE7.title: "&9Pipez: &aТруби для Енергії"
 	quest.4EEFECB9D741B371.quest_desc: [
 		"As previously stated, alloys are going to continue to increase in complexity, as it should be expected."
 		""
@@ -9107,8 +9107,8 @@
 	]
 	quest.56A5C102BDD74ED8.title: "Vibranium Ore"
 	quest.56B58CAFCB707565.quest_subtitle: "Tier: &63"
-	quest.56B6ABF3D6EA0D84.quest_desc: ["With our Plug set up, we can now tap into the power from our network. The &9Flux Point&r does exactly that. It points the power from your network to whatever block it is attached to, including Pipes or Cables, or just directly on machines!\\n\\nOnce you've placed your Point on the machine or block you want to power, right-click on it and select your network in the \"Network Selection\" tab. Just like the Plug, you can adjust how much power the Point pulls, priority level, etc."]
-	quest.56B6ABF3D6EA0D84.title: "Accessing Network Power"
+	quest.56B6ABF3D6EA0D84.quest_desc: ["Тепер, коли наш Plug встановлено, ми можемо підключитися до енергії нашої мережі. Саме для цього існує &9Flux Point&r. Він передає енергію з вашої мережі до будь-якого блоку, до якого його підключено — це можуть бути труби, кабелі або навіть безпосередньо машини!\\n\\nПісля встановлення Point на потрібний блок або машину, натисніть на нього ПКМ та оберіть свою мережу у вкладці \"Network Selection\". Так само, як і для Plug, ви можете налаштувати, скільки енергії Point буде споживати, пріоритет, тощо."]
+	quest.56B6ABF3D6EA0D84.title: "Доступ до енергії мережі"
 	quest.56B7CC072B8E9B48.quest_desc: [
 		"Sodium Hydroxide Dust is useful yet again! &eChemical React&r it with the Epichlorohydrin and Bisphenol A to make liquid Epoxy"
 		""
@@ -9681,9 +9681,9 @@
 	quest.5C3FF43CF16BCF30.quest_desc: ["With Source Gems, you can get started crafting the various machines by creating &5Sourcestones&r."]
 	quest.5C3FF43CF16BCF30.quest_subtitle: "Formerly \"Arcane Stones\""
 	quest.5C3FF43CF16BCF30.title: "Sourcestone"
-	quest.5C47935A3B2877FF.quest_desc: ["Mekanism offers a nice looking Cable to transfer your power.\\n\\nIf the machine you are connecting to already pulls or pushes power, you will not need to configure the Cable. Otherwise, you'll need a &9Configurator&r to configure the Cable. Shift right-clicking will change the Cable to pull or push mode."]
-	quest.5C47935A3B2877FF.quest_subtitle: "Mekanism's Energy Transfer Pipe"
-	quest.5C47935A3B2877FF.title: "&9Mekanism: &aUniversal Cables"
+	quest.5C47935A3B2877FF.quest_desc: ["Mekanism пропонує гарний кабель для передачі енергії.\\n\\nЯкщо машина, до якої ви підключаєтеся, вже приймає або віддає енергію, налаштовувати кабель не потрібно. В іншому випадку вам знадобиться &9Конфігуратор&r для налаштування кабелю. Shift+ПКМ змінює режим кабелю на прийом або передачу."]
+	quest.5C47935A3B2877FF.quest_subtitle: "Кабель для передачі енергії Mekanism"
+	quest.5C47935A3B2877FF.title: "&9Mekanism: &aУніверсальні кабелі"
 	quest.5C5546A5103BCF55.quest_desc: ["This one is supposed to shoot Chemicals like &bFluids&r or Gases... but it won't do it for me. \\n\\nIt can hold 2 Upgrades atleast! Those work!"]
 	quest.5C5546A5103BCF55.title: "&b&lChemical Thrower"
 	quest.5C56452BE7879D0A.quest_desc: ["{atm9.quest.enchant.desc.negative}"]
@@ -9882,8 +9882,8 @@
 	]
 	quest.5E3263ACE170A8E3.quest_desc: ["The &dGauntlet of &eMaelstorm&r is made with the &dGauntlet of Guard&r and &eSandstorm in a Bottle&r in a &4Mechanical Fusion Anvil&r. \\n\\nThis one is unique from all Weapons I've seen from &4&lCataclysm&r. \\n\\nWhen you Hold Right Click, a &dVoid &eVortex&r will spawn where you are aiming. \\n\\nThe &dVoid &eVortex&r will suck in all Entities nearby, then after a few seconds, it will close and explode! Dealing Damage to all near it."]
 	quest.5E3263ACE170A8E3.title: "&dGauntlet of &eMaelstorm"
-	quest.5E41363F9AE243F3.quest_desc: ["You can't power your base off of Coal forever! If you've got a decent amount of resources available, it's time to upgrade your power setup!\\n\\nThese options usually require a little setting up, but produce enough power to carry you far into your playthrough."]
-	quest.5E41363F9AE243F3.title: "&b&lMid Game Power Options"
+	quest.5E41363F9AE243F3.quest_desc: ["Ви не зможете живити свою базу лише вугіллям вічно! Якщо у вас вже є достатньо ресурсів, час оновити свою енергосистему!\\n\\nЦі варіанти зазвичай потребують трохи налаштувань, але виробляють достатньо енергії, щоб просунутися далеко у грі."]
+	quest.5E41363F9AE243F3.title: "&b&lВаріанти енергії для середньої гри"
 	quest.5E45D2A2FDD67495.quest_desc: ["This goes in the right side of the forge."]
 	quest.5E45D2A2FDD67495.quest_subtitle: "Experience in a bottle"
 	quest.5E45D2A2FDD67495.title: "&aBottle O' Enchanting"
@@ -9994,10 +9994,10 @@
 	quest.5EFC63CF97D97AB5.quest_subtitle: "Armor of the Dead"
 	quest.5EFC63CF97D97AB5.title: "Mortem Armor"
 	quest.5F00A66CC1FE1F9F.quest_desc: ["Honestly the only difficult part of this recipe is the Bat Wing, how many times are you killing Bats let alone Farming them? \\n\\nThis one is pretty new and doesn't combine with Armor, it is only used for the end game!"]
+	quest.5F078A574A783B02.quest_desc: ["Перший предмет, який вам знадобиться для запуску вашої Flux-мережі — це &9Flux Plug&r.\\n\\nPlug використовується для «зняття» енергії з блока, до якого він підключений. Окрім невеликого буфера, Plug не зберігає енергію, тож не хвилюйтеся, що він забере всю вашу потужність.\\n\\nРекомендується встановлювати Plug на блок зберігання енергії, наприклад, на Енергетичний куб. Він може підключатися до кабелів, труб або виходу будь-якої машини, що виробляє енергію.\\n\\nЩоб дізнатися, як налаштувати свою першу мережу, перегляньте наступний квест!"]
 	quest.5F0482CDD3FC667D.title: "Dirt 6X"
-	quest.5F078A574A783B02.quest_desc: ["The first item you'll need to start your Flux Network is a &9Flux Plug&r.\\n\\nThe Plug is used to \"draw\" power from the block it is attached to. Aside from a small buffer, the Plug does not store any power itself, so don't worry about it zapping up all of your power.\\n\\nIt is suggested to place the Plug on a power storage block like an Energy Cube. It can connect to Cables, Pipes, or the output of any power producing machine.\\n\\nTo learn how to set up your first network, check the next quest!"]
-	quest.5F078A574A783B02.quest_subtitle: "Just plug it in!"
-	quest.5F078A574A783B02.title: "Starting Your Network"
+	quest.5F078A574A783B02.quest_subtitle: "Просто підключіть!"
+	quest.5F078A574A783B02.title: "Початок роботи з мережею"
 	quest.5F080CFA1DC7F435.quest_subtitle: "Spawned using a Soul Sand Nest in the Nether."
 	quest.5F080CFA1DC7F435.title: "Ghostly Bee"
 	quest.5F09F75A97C6C6DB.quest_desc: [
@@ -10973,10 +10973,10 @@
 	quest.681A3F31FB242555.quest_desc: ["&3Ethanol&r can be used to make Biodiesel."]
 	quest.681A3F31FB242555.title: "Ethanol"
 	quest.682034C680FDEDC2.quest_desc: [
-		"&9Mekanism's&r &aInduction Matrix&r is the ultimate way to store your power.\\n\\nIf you're looking for the best power storage in the game, check out the &aMekanism:&r &dReactors&r quest chapter.\\n"
+		"&9Індукційна матриця&r з &aMekanism&r — це найкращий спосіб зберігати вашу енергію.\\n\\nЯкщо ви шукаєте найефективніше сховище енергії у грі, зверніть увагу на розділ квестів &aMekanism:&r &dРеактори&r.\\n"
 		"{image:atm:textures/questpics/mek/mek_induction_matrix_small.png width:125 height:150 align:center fit:true}"
 	]
-	quest.682034C680FDEDC2.title: "More Power Storage"
+	quest.682034C680FDEDC2.title: "Більше сховищ енергії"
 	quest.6827836C8E675A94.quest_desc: ["Скелети мають різні варіанти, як і зомбі! \\n\\nПримара — у холодних біомах. \\nБолотяник — у болотах та Палаці випробувань. \\nМорок — під водою в коралових рифах. \\nЗарослий — у джунглях."]
 	quest.6827836C8E675A94.title: "Варіанти скелетів"
 	quest.6829D2769ACC1BDB.quest_desc: ["ME Fluid Output! Takes the resulting fluids, or outputting byproduct fluids directly back to the ME system! Streamlined for sure!"]
@@ -11511,9 +11511,9 @@
 		""
 		"You need a higher tier cutter to cut the higher tier chips to achieve higher tiers of power"
 	]
-	quest.6D6E07564D8FDD8D.quest_desc: ["&aExtreme Reactors&r offers multi-block Reactors that are completely customizable in size, efficiency, and more.\\n\\nTo learn more about getting started with Extreme Reactors, check out the quest chapter for the mod!"]
-	quest.6D6E07564D8FDD8D.quest_subtitle: "Customizable Reactors!"
-	quest.6D6E07564D8FDD8D.title: "&9Extreme Reactors: &aReactors"
+	quest.6D6E07564D8FDD8D.quest_desc: ["&aExtreme Reactors&r пропонує багатоблочні реактори, які можна повністю налаштовувати за розміром, ефективністю та іншими параметрами.\\n\\nЩоб дізнатися більше про початок роботи з Extreme Reactors, перегляньте розділ квестів для цього мода!"]
+	quest.6D6E07564D8FDD8D.quest_subtitle: "Налаштовувані реактори!"
+	quest.6D6E07564D8FDD8D.title: "&9Extreme Reactors: &aРеактори"
 	quest.6D738730B371B152.quest_desc: ["&l&7Вимір добування&r — це суперплоский світ, на поверхні якого абсолютно нічого немає. \\n\\nПід поверхнею — майже всі руди. \\n\\nУ &7&lВимірі добування&r немає печер, спавнів мобів і нічого, що заважало б вам. Лише різні типи каменю та руди! \\n\\nРуди з'являються на різних рівнях Y та шарах у &7&lВимірі добування&r.\\n\\nРекомендую встановити кар'єр."]
 	quest.6D738730B371B152.title: "&l&7Вимір добування"
 	quest.6D750A38944E9B68.quest_desc: [
@@ -12219,9 +12219,9 @@
 		""
 		"Replace the Cupronickel Coils on your &aEBF&r with this stuff"
 	]
-	quest.72EA25D05C46D39A.quest_desc: ["&9Integrated Dynamics&r provides a simple power storage system. The Batteries can be combined in a crafting grid to increase the overall storage!"]
-	quest.72EA25D05C46D39A.quest_subtitle: "Batteries Included"
-	quest.72EA25D05C46D39A.title: "&9Integrated Dynamics: &bEnergy Battery"
+	quest.72EA25D05C46D39A.quest_desc: ["&9Integrated Dynamics&r пропонує просту систему зберігання енергії. Батареї можна об'єднувати у сітці майстрування для збільшення загального обсягу зберігання!"]
+	quest.72EA25D05C46D39A.quest_subtitle: "Батареї в комплекті"
+	quest.72EA25D05C46D39A.title: "&9Integrated Dynamics: &bЕнергетична батарея"
 	quest.72F57D77C3FB366D.quest_desc: ["Блоки кристалізованого менрілу можна переробити на шматки кристалізованого менрілу. Ці шматки — основний інгредієнт майстрування у ID."]
 	quest.72F57D77C3FB366D.quest_subtitle: "Головний інгредієнт майстрування"
 	quest.72F57D77C3FB366D.title: "Шматки кристалізованого менрілу"
@@ -12627,8 +12627,8 @@
 	quest.76E94639E90FEB4E.quest_desc: ["Place some empty &eAdvanced Beehives&r in an unlit area. The bees will move in over time."]
 	quest.76E94639E90FEB4E.quest_subtitle: "Spawned with empty Beehives in the Dark"
 	quest.76E94639E90FEB4E.title: "Skeletal Bee"
-	quest.76EA017B12E8F01B.quest_desc: ["This section shows you different ways to store your power!"]
-	quest.76EA017B12E8F01B.title: "&f&lStoring Power"
+	quest.76EA017B12E8F01B.quest_desc: ["У цьому розділі показано різні способи зберігання вашої енергії!"]
+	quest.76EA017B12E8F01B.title: "&f&lЗберігання енергії"
 	quest.76ECB0EF7A5E410A.quest_desc: [
 		"Electrolyzers are important, but they are also small, and we use them for quite a few processing lines. "
 		""
@@ -12938,8 +12938,8 @@
 	quest.7992C63F063BE908.title: "&7Scroll of Explosive Mana Condensation"
 	quest.799CC9FEEDE471B1.quest_subtitle: "Mango + Star Anise"
 	quest.79A19D0B2F94EFDC.quest_desc: ["Allows a Mana Burst to home in on any nearby blocks that can receive Mana. This also slightly decreases the speed of the burst."]
-	quest.79AD74A863EA43CB.quest_desc: ["Flux Networks does provide a way to store the power you generate for your network!\\n\\nThese hold massive amounts of power overall, and can be upgraded to store even more!"]
-	quest.79AD74A863EA43CB.quest_subtitle: "Storing Power"
+	quest.79AD74A863EA43CB.quest_desc: ["Flux Networks також дозволяє зберігати енергію, яку ви генеруєте для своєї мережі!\\n\\nВони зберігають величезну кількість енергії та можуть бути покращені для ще більшого обсягу!"]
+	quest.79AD74A863EA43CB.quest_subtitle: "Зберігання енергії"
 	quest.79AD74A863EA43CB.title: "Flux Storage"
 	quest.79AF63E77AD70A93.quest_desc: ["&7Bookshelves&r are your starting point, but definitely not your end point. Atleast not normal &7Bookshelves&r. \\n\\nWith only normal &7Bookshelves&r you can only get &aEterna&r up and to a max of 30. \\n(I will explain the &5Enchantment Levels&r soon but just know you need them up)"]
 	quest.79AF63E77AD70A93.title: "&2&lVanilla&r Max is just the start"
@@ -13057,8 +13057,8 @@
 	quest.7A89560F303A8BE6.quest_subtitle: "Tier: &63"
 	quest.7A93F07BE2E6EC97.quest_desc: ["When it's raining, throwing in a &aWeather Container&r will harness the power of the rain.\\n\\nWith this, you can create an &9Infinite Water Bucket&r, or an &9Infinite Water Source Block&r. These are both incredibly useful items to have!\\n\\nYou can also just do this to get rid of the rain!"]
 	quest.7A93F07BE2E6EC97.title: "&aStop the &9Rain!"
-	quest.7A979BEB20C9591E.quest_desc: ["Flux Dust can be automated using &6Productive Bees&r!\\n\\nRedstone Bee Spawn Eggs can be converted to Flux Dust Bee Spawn Eggs using an Obsidian Bee."]
-	quest.7A979BEB20C9591E.title: "Automated Flux Dust"
+	quest.7A979BEB20C9591E.quest_desc: ["Flux Dust можна автоматизувати за допомогою &6Productive Bees&r!\\n\\nЯйця появи Redstone Bee можна перетворити на яйця появи Flux Dust Bee за допомогою Obsidian Bee."]
+	quest.7A979BEB20C9591E.title: "Автоматизований Flux Dust"
 	quest.7A9AE63998BB41FF.quest_desc: ["Щоб визначити, коли спавнер спрацює, він обирає випадкове число між максимальною та мінімальною затримкою. Мінімальна може бути від 20 до 32 767. Кожен шматочок цукру змінює мінімальну затримку на 10."]
 	quest.7A9AE63998BB41FF.title: "Мінімальна затримка спавну"
 	quest.7AADB58621BC1254.quest_desc: ["The Forge Hammer and the Hammer will save you a lot of resources early game by allowing you to turn ingots into plates and other different shapes at a reduced cost! Eventually you'll use Steam to do this for you, but early on this will help you save costs while you work towards your automation."]
@@ -13601,9 +13601,9 @@
 	quest.7FE273141D3DFFFD.title: "Fusilier"
 	quest.7FE2EED58AB791E8.quest_desc: ["Note: This accepts Tree Oil, Creosote Oil, and Refined Fuel."]
 	quest.7FE2EED58AB791E8.quest_subtitle: "Generates Power using Liquid Fuel!"
-	quest.7FE969CB4B419FC6.quest_desc: ["With a little work into Mekanism, this machine allows you to transfer anything wirelessly.\\n\\nYou can set specific channels to transfer individual items, energy, or even gases from Mekanism. It's pretty cool."]
-	quest.7FE969CB4B419FC6.quest_subtitle: "Doesn't just work for Power"
-	quest.7FE969CB4B419FC6.title: "&9Mekanism: &6Quantum Entangloporter"
+	quest.7FE969CB4B419FC6.quest_desc: ["З невеликими зусиллями у Mekanism ця машина дозволяє передавати будь-що бездротово.\\n\\nВи можете налаштувати окремі канали для передачі предметів, енергії чи навіть газів із Mekanism. Це справді круто."]
+	quest.7FE969CB4B419FC6.quest_subtitle: "Працює не лише для енергії"
+	quest.7FE969CB4B419FC6.title: "&9Mekanism: &6Квантовий Ентанглопортер"
 	quest.7FF77463F2A0E210.quest_desc: ["Nightfall Mud can only be found within the Dark Swamps. \\n\\nYou can make more Blocks out of it!"]
 	reward_table.04285B94275AB879.title: "Powah: Rods and Cables"
 	reward_table.047C4C58EC06DBF3.title: "Powah: Hardened"
@@ -13695,7 +13695,7 @@
 	task.0896EE64F92CCD86.title: "Macaw's Doors"
 	task.08DA73B1AC17E5F5.title: "Crafting Storage"
 	task.09788D3638E59F3B.title: "Tier Installers"
-	task.098F1B932F851616.title: "Pipe Upgrades"
+	task.098F1B932F851616.title: "Оновлення труб"
 	task.09C7E50E7E13C53C.title: "AllRightsReserved"
 	task.0A77407CE9055F04.title: "Sweat Bee"
 	task.0AD65BDFBE16460E.title: "Observe Complete Large Extraction Machine"
@@ -13730,7 +13730,7 @@
 	task.0F0F3C716F921B64.title: "Voltage"
 	task.0F2BCC279B5731AB.title: "Amethyst Comb"
 	task.0F3014881E66D09C.title: "&6Mechanical Arm &rOR &6Large Advanced Motor"
-	task.0F7D7AE91E20F778.title: "Coal Generators"
+	task.0F7D7AE91E20F778.title: "Вугільні генератори"
 	task.0F9FCFCEE795FD41.title: "Відвідайте Потойбіччя"
 	task.100BBEDCB73557BC.title: "Pressure Mechanic"
 	task.1038F300D9F8EF3C.title: "Observe formed Large Chemical Reactor"
@@ -13872,7 +13872,7 @@
 	task.2C816285392535F0.title: "AllRightsReserved"
 	task.2CC38211F4C54ED8.title: "Draconic Comb"
 	task.2CE553B282962E01.title: "Відра"
-	task.2D0212699F99459F.title: "The First Network"
+	task.2D0212699F99459F.title: "Перша мережа"
 	task.2D783271D8830D0E.title: "Steam Boilers"
 	task.2D9B8AF6C76D9CEA.title: "Tungsten Ingot"
 	task.2DA0BD7B2834A560.title: "Witherproof Blocks"
@@ -13924,7 +13924,7 @@
 	task.34E5BD34C83CD6F9.title: "AllRightsReserved"
 	task.35320BB07FB39D05.title: "AllRightsReserved"
 	task.359396879CBA62D5.title: "Nest Spawning"
-	task.35C1DBD4544C9BB0.title: "Induction Cells"
+	task.35C1DBD4544C9BB0.title: "Індукційні елементи"
 	task.3621D48E2CFAF2C2.title: "Any #c:wools"
 	task.362D501E0D663695.title: "RFTools Storage"
 	task.36397CBA6D39DC0D.title: "Tungsten Ingot"
@@ -13971,7 +13971,7 @@
 	task.3D3F0DB8237E5856.title: "AllRightsReserved"
 	task.3D62C020980A2DEC.title: "Bookshelves"
 	task.3D6A9C7EE22C2ADF.title: "Multi-Cycle Injectors"
-	task.3D721B55E8D33FE8.title: "The Flux Networks UI"
+	task.3D721B55E8D33FE8.title: "Інтерфейс Flux Networks"
 	task.3DA6D564BBFB1F50.title: "Observe Completed Cleanroom"
 	task.3DC008A578A93CCF.title: "Поради та хитрощі!"
 	task.3DE460F842195173.title: "Ashy Mining Bee"
@@ -14007,7 +14007,7 @@
 	task.4471A530B55D4140.title: "Osmium Comb"
 	task.44A3CDE54F2A5149.title: "Gaia Trinkets"
 	task.44BDEA5268F6ABE6.title: "Supply Camps"
-	task.44C02386C9B8E0D3.title: "Induction Providers"
+	task.44C02386C9B8E0D3.title: "Постачальники індукції"
 	task.44CEA28EBD6C0898.title: "AllRightsReserved"
 	task.452736994864F623.title: "Visit a Shimmer River"
 	task.452B65E139D9E12D.title: "Вбийте 1 Вілден-Химеру"
@@ -14120,7 +14120,7 @@
 	task.596ABB45C0612AAF.title: "Вбийте 1 Мандрівного крамаря"
 	task.59DC19A11848EFE1.title: "Connectors"
 	task.59DD89698DBAA215.title: "AllRightsReserved"
-	task.59DE118DD6597A4E.title: "Renewable Mekanism Energy Generators"
+	task.59DE118DD6597A4E.title: "Відновлювані генератори енергії Mekanism"
 	task.59F0226D83026397.title: "AllRightsReserved"
 	task.5A06ED36DD9E9681.title: "Basic Runes"
 	task.5A1784C5676CDC62.title: "Welcome!"
@@ -14214,7 +14214,7 @@
 	task.6BD970777103D55D.title: "Stairs"
 	task.6C12449632AD53DC.title: "Track Kits"
 	task.6C3887D42B6B2122.title: "Familiars"
-	task.6C4B8A2662030CB0.title: "Universal Cables"
+	task.6C4B8A2662030CB0.title: "Універсальні кабелі"
 	task.6C841FAADFD094AC.title: "Automation"
 	task.6C974DF242CFDB8E.title: "Знайдіть Стародавню піраміду"
 	task.6C996D5E63879519.title: "Catalytic Reclamation Chamber"
@@ -14260,7 +14260,7 @@
 	task.74CA4DE423248784.title: "Wall Lamps"
 	task.7536DA5A948671F2.title: "Observe completed Vacuum Freezer"
 	task.75924053D6F5B242.title: "Spatial Storage Cells"
-	task.76378687551A79C3.title: "Energy Cubes"
+	task.76378687551A79C3.title: "Енергокуби"
 	task.76B722B1AE7B6CF2.title: "AllRightsReserved"
 	task.76C41881A02F2098.title: "Вбийте 1 Візера"
 	task.76C92D826994D92B.title: "Chipped Glass"
