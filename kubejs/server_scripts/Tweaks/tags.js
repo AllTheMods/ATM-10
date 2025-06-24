@@ -132,15 +132,15 @@ ServerEvents.tags('entity_type', allthemods => {
         /productivebees:/
     ])
 
-    allthemods.add('apothic_spawners:blacklisted_from_spawners', 'allthemods:jank_blacklist')
-    allthemods.add('enderio:soul_vial_blacklist', 'allthemods:jank_blacklist')
-    allthemods.add('industrialforegoing:mob_duplicator_blacklist', 'allthemods:jank_blacklist')
-    allthemods.add('industrialforegoing:mob_crusher_blacklist', 'allthemods:jank_blacklist')
-    allthemods.add('justdirethings:paradox_deny', 'allthemods:jank_blacklist');
-    allthemods.add('tombstone:unhandled_tamable', 'allthemods:jank_blacklist')
-    allthemods.add('mob_grinding_utils:no_swab', 'allthemods:jank_blacklist')
-    allthemods.add('mob_grinding_utils:no_spawn', 'allthemods:jank_blacklist')
-    allthemods.add('enderio:spawner_blacklist', 'allthemods:jank_blacklist')
+    allthemods.add('apothic_spawners:blacklisted_from_spawners', '#allthemods:jank_blacklist')
+    allthemods.add('enderio:soul_vial_blacklist', '#allthemods:jank_blacklist')
+    allthemods.add('industrialforegoing:mob_duplicator_blacklist', '#allthemods:jank_blacklist')
+    allthemods.add('industrialforegoing:mob_crusher_blacklist', '#allthemods:jank_blacklist')
+    allthemods.add('justdirethings:paradox_deny', '#allthemods:jank_blacklist');
+    allthemods.add('tombstone:unhandled_tamable', '#allthemods:jank_blacklist')
+    allthemods.add('mob_grinding_utils:no_swab', '#allthemods:jank_blacklist')
+    allthemods.add('mob_grinding_utils:no_spawn', '#allthemods:jank_blacklist')
+    allthemods.add('enderio:spawner_blacklist', '#allthemods:jank_blacklist')
 });
 
 ServerEvents.tags('worldgen/structure', allthemods => {
