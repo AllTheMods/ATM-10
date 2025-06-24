@@ -98,7 +98,6 @@ ServerEvents.tags('item', allthemods => {
 ServerEvents.tags('entity_type', allthemods => {
 
     allthemods.add('c:bosses', [
-        "@iceandfire",
         "allthemodium:piglich",
         "cataclysm:amethyst_crab",
         "cataclysm:ancient_remnant",
@@ -121,6 +120,7 @@ ServerEvents.tags('entity_type', allthemods => {
     ])
 
     allthemods.add('allthemods:jank_blacklist', [
+        "@iceandfire",
         'ars_nouveau:animated_block',
         'artifacts:mimic',
         'create:package',
@@ -138,6 +138,9 @@ ServerEvents.tags('entity_type', allthemods => {
     allthemods.add('industrialforegoing:mob_crusher_blacklist', 'allthemods:jank_blacklist')
     allthemods.add('justdirethings:paradox_deny', 'allthemods:jank_blacklist');
     allthemods.add('tombstone:unhandled_tamable', 'allthemods:jank_blacklist')
+    allthemods.add('mob_grinding_utils:no_swab', 'allthemods:jank_blacklist')
+    allthemods.add('mob_grinding_utils:no_spawn', 'allthemods:jank_blacklist')
+    allthemods.add('enderio:spawner_blacklist', 'allthemods:jank_blacklist')
 });
 
 ServerEvents.tags('worldgen/structure', allthemods => {
