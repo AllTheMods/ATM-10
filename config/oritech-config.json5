@@ -1,96 +1,263 @@
 {
-  "addonSettings": [
-    {
-      "speedMultiplier": 0.79,
-      "efficiencyDown": 1.1,
-      "efficiencyUp": 0.86,
-      "capacitorCapacity": 4000000,
-      "capacitorRate": 2000,
-      "acceptorCapacity": 1000000,
-      "acceptorRate": 4000,
-      "processingEfficiency": 2.5,
-      "processingChambers": 2
-    },
-    {
-      "speedMultiplier": 0.7,
-      "efficiencyDown": 1.15,
-      "efficiencyUp": 0.81,
-      "capacitorCapacity": 6000000,
-      "capacitorRate": 3000,
-      "acceptorCapacity": 1500000,
-      "acceptorRate": 6000,
-      "processingEfficiency": 3.0,
-      "processingChambers": 3
-    },
-    {
-      "speedMultiplier": 0.6,
-      "efficiencyDown": 1.22,
-      "efficiencyUp": 0.725,
-      "capacitorCapacity": 8000000,
-      "capacitorRate": 4000,
-      "acceptorCapacity": 2000000,
-      "acceptorRate": 8000,
-      "processingEfficiency": 3.7,
-      "processingChambers": 4
-    },
-    {
-      "speedMultiplier": 0.5,
-      "efficiencyDown": 1.36,
-      "efficiencyUp": 0.62,
-      "capacitorCapacity": 10000000,
-      "capacitorRate": 5000,
-      "acceptorCapacity": 2500000,
-      "acceptorRate": 10000,
-      "processingEfficiency": 4.5,
-      "processingChambers": 5
-    },
-    {
-      "speedMultiplier": 0.4,
-      "efficiencyDown": 1.6,
-      "efficiencyUp": 0.47,
-      "capacitorCapacity": 12000000,
-      "capacitorRate": 6000,
-      "acceptorCapacity": 3000000,
-      "acceptorRate": 12000,
-      "processingEfficiency": 5.2,
-      "processingChambers": 6
-    },
-    {
-      "speedMultiplier": 0.3,
-      "efficiencyDown": 2.1,
-      "efficiencyUp": 0.3,
-      "capacitorCapacity": 14000000,
-      "capacitorRate": 7000,
-      "acceptorCapacity": 3500000,
-      "acceptorRate": 14000,
-      "processingEfficiency": 5.9,
-      "processingChambers": 7
-    },
-    {
-      "speedMultiplier": 0.2,
-      "efficiencyDown": 3.3,
-      "efficiencyUp": 0.153,
-      "capacitorCapacity": 16000000,
-      "capacitorRate": 8000,
-      "acceptorCapacity": 4000000,
-      "acceptorRate": 14000,
-      "processingEfficiency": 6.6,
-      "processingChambers": 8
-    },
-    {
-      "speedMultiplier": 0.1,
-      "efficiencyDown": 6.3,
-      "efficiencyUp": 0.1,
-      "capacitorCapacity": 18000000,
-      "capacitorRate": 9000,
-      "acceptorCapacity": 4500000,
-      "acceptorRate": 18000,
-      "processingEfficiency": 7.5,
-      "processingChambers": 9
-    }
-  ],
-  "exoJetPackSettings": {
-    "enabledCreativeFlight": true,
-    "rfThreshold": 10000
-  }
+	"processingMachines": {
+		"machineFrameMaxLength": 64,
+		"assemblerData": {
+			"energyCapacity": 50000,
+			"maxEnergyInsertion": 1024,
+			"maxEnergyExtraction": 0,
+			"energyPerTick": 128
+		},
+		"atomicForgeData": {
+			"energyCapacity": 1024,
+			"maxEnergyInsertion": 0,
+			"maxEnergyExtraction": 0,
+			"energyPerTick": 1024
+		},
+		"centrifugeData": {
+			"energyCapacity": 10000,
+			"maxEnergyInsertion": 512,
+			"energyPerTick": 64,
+			"tankSizeInBuckets": 8
+		},
+		"foundryData": {
+			"energyCapacity": 50000,
+			"maxEnergyInsertion": 1024,
+			"maxEnergyExtraction": 0,
+			"energyPerTick": 128
+		},
+		"coolerData": {
+			"energyCapacity": 50000,
+			"maxEnergyInsertion": 256,
+			"maxEnergyExtraction": 0,
+			"energyPerTick": 32
+		},
+		"fragmentForgeData": {
+			"energyCapacity": 50000,
+			"maxEnergyInsertion": 2048,
+			"maxEnergyExtraction": 0,
+			"energyPerTick": 256
+		},
+		"furnaceData": {
+			"energyCapacity": 10000,
+			"maxEnergyInsertion": 256,
+			"energyPerTick": 32,
+			"speedMultiplier": 0.5
+		},
+		"pulverizerData": {
+			"energyCapacity": 25000,
+			"maxEnergyInsertion": 256,
+			"maxEnergyExtraction": 0,
+			"energyPerTick": 32
+		},
+		"refineryData": {
+			"energyCapacity": 50000,
+			"maxEnergyInsertion": 512,
+			"maxEnergyExtraction": 0,
+			"energyPerTick": 64
+		}
+	},
+	"generators": {
+		"animationSpeedMultiplier": 10.0,
+		"basicGeneratorData": {
+			"energyCapacity": 50000,
+			"maxEnergyInsertion": 0,
+			"maxEnergyExtraction": 256,
+			"energyPerTick": 32
+		},
+		"bioGeneratorData": {
+			"energyCapacity": 100000,
+			"maxEnergyInsertion": 0,
+			"maxEnergyExtraction": 512,
+			"energyPerTick": 64
+		},
+		"lavaGeneratorData": {
+			"energyCapacity": 100000,
+			"maxEnergyInsertion": 0,
+			"maxEnergyExtraction": 512,
+			"energyPerTick": 64
+		},
+		"fuelGeneratorData": {
+			"energyCapacity": 250000,
+			"maxEnergyInsertion": 0,
+			"maxEnergyExtraction": 2048,
+			"energyPerTick": 256
+		},
+		"steamEngineData": {
+			"energyCapacity": 100000,
+			"maxEnergyExtraction": 50000,
+			"rfToSteamRatio": 2.0,
+			"steamToRfRatio": 1,
+			"stopOnEnergyFull": false,
+			"stopOnWaterFull": true
+		},
+		"solarGeneratorData": {
+			"energyCapacity": 100000,
+			"maxEnergyInsertion": 0,
+			"maxEnergyExtraction": 256,
+			"energyPerTick": 32
+		}
+	},
+	"laserArmConfig": {
+		"energyCapacity": 20000,
+		"maxEnergyInsertion": 1024,
+		"energyPerTick": 128,
+		"blockBreakEnergyBase": 1024,
+		"damageTickBase": 2.0,
+		"range": 128
+	},
+	"deepDrillConfig": {
+		"energyCapacity": 20000,
+		"stepsPerOre": 20,
+		"energyPerStep": 1024
+	},
+	"destroyerConfig": {
+		"moveDuration": 15,
+		"workDuration": 40,
+		"moveEnergyUsage": 8,
+		"workEnergyUsage": 128
+	},
+	"fertilizerConfig": {
+		"moveDuration": 10,
+		"workDuration": 20,
+		"moveEnergyUsage": 8,
+		"workEnergyUsage": 128,
+		"liquidPerBlockUsage": 0.25
+	},
+	"placerConfig": {
+		"moveDuration": 10,
+		"workDuration": 5,
+		"moveEnergyUsage": 8,
+		"workEnergyUsage": 64
+	},
+	"smallEnergyStorage": {
+		"energyCapacity": 1000000,
+		"maxEnergyInsertion": 5000,
+		"maxEnergyExtraction": 5000,
+		"energyPerTick": 0
+	},
+	"largeEnergyStorage": {
+		"energyCapacity": 20000000,
+		"maxEnergyInsertion": 10000,
+		"maxEnergyExtraction": 10000,
+		"energyPerTick": 0
+	},
+	"portableTankCapacityBuckets": 256,
+	"overchargedCrystalChargeRate": 10,
+	"itemPipeTransferAmount": 8,
+	"itemPipeIntervalDuration": 5,
+	"fluidPipeExtractAmountBuckets": 0.5,
+	"fluidPipeExtractIntervalDuration": 3,
+	"fluidPipeInternalStorageBuckets": 2.0,
+	"energyPipeTransferRate": 10000,
+	"superConductorTransferRate": 4194304,
+	"charger": {
+		"energyCapacity": 500000,
+		"maxEnergyInsertion": 10000,
+		"maxEnergyExtraction": 5000,
+		"energyPerTick": 0
+	},
+	"basicJetpack": {
+		"energyCapacity": 100000,
+		"fuelCapacity": 4000,
+		"energyUsage": 128,
+		"fuelUsage": 10,
+		"chargeSpeed": 1024,
+		"speed": 0.4000000059604645
+	},
+	"exoJetpack": {
+		"energyCapacity": 5000000,
+		"fuelCapacity": 32000,
+		"energyUsage": 256,
+		"fuelUsage": 15,
+		"chargeSpeed": 10000,
+		"speed": 1.5
+	},
+	"elytraJetpack": {
+		"energyCapacity": 100000,
+		"fuelCapacity": 4000,
+		"energyUsage": 128,
+		"fuelUsage": 10,
+		"chargeSpeed": 1024,
+		"speed": 0.6000000238418579
+	},
+	"exoElytraJetpack": {
+		"energyCapacity": 5000000,
+		"fuelCapacity": 32000,
+		"energyUsage": 256,
+		"fuelUsage": 15,
+		"chargeSpeed": 10000,
+		"speed": 1.399999976158142
+	},
+	"exoChestplate": {
+		"energyCapacity": 5000000,
+		"energyUsage": 10000,
+		"chargeSpeed": 10000
+	},
+	"basicDrill": {
+		"energyCapacity": 10000,
+		"energyUsage": 10,
+		"chargeSpeed": 512
+	},
+	"chainSaw": {
+		"energyCapacity": 10000,
+		"energyUsage": 10,
+		"chargeSpeed": 512
+	},
+	"electricMace": {
+		"energyCapacity": 500000,
+		"energyUsage": 2048,
+		"chargeSpeed": 50000,
+		"baseDamage": 8,
+		"lightningCostMultiplier": 8
+	},
+	"portableLaserConfig": {
+		"energyCapacity": 5000000,
+		"energyPerTick": 4096,
+		"energyPerBoom": 100000,
+		"blockBreakSpeed": 0.125,
+		"damageBase": 4,
+		"explosionStrength": 6
+	},
+	"chainsawTreeCutting": true,
+	"generateOres": false,
+	"easyFindFeatures": true,
+	"safeMode": false,
+	"safeModeCooldown": 2400,
+	"maxSize": 64,
+	"reactorMaxEnergyStored": 1500000000,
+	"reactorMaxEnergyOutput": 120000,
+	"rfPerPulse": 320,
+	"absorberRate": 24,
+	"ventBaseRate": 6,
+	"ventRelativeRate": 120,
+	"maxHeat": 2000,
+	"maxUnstableTicks": 600,
+	"boringNukes": true,
+	"enchanterCostMultiplier": 5,
+	"catalystBaseSouls": 50,
+	"catalystRFPerSoul": 20,
+	"catalystCostMultiplier": 2,
+	"catalystHyperMultiplier": 2,
+	"spawnerCostMultiplier": 1,
+	"maxGateDist": 10,
+	"bendFactor": 2.5,
+	"accelerationRFCost": 10,
+	"acceleratorMotorRFCapacity": 5000000,
+	"endPortalRequiredSpeed": 10000,
+	"netherPortalRequiredSpeed": 5000,
+	"blackHoleRequiredSpeed": 15000,
+	"collectorEnergyStorage": 1000000,
+	"tachyonCollisionEnergyFactor": 1.0,
+	"pullTimeMultiplier": 8,
+	"pullRange": 16,
+	"idleWaitTicks": 200,
+	"blackHoleTachyonEnergy": 50000,
+	"unstableContainerBaseCapacity": 20000000,
+	"augmenterMaxEnergy": 500000000,
+	"tightMachineAddonHitboxes": true,
+	"tightMachineFrameHitboxes": false,
+	"tightCableHitboxes": true,
+	"machineVolumeMultiplier": 1.0,
+	"showMachinePreview": true,
+	"enableHelpButton": true
 }
