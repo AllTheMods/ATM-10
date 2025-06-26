@@ -6,7 +6,7 @@ ServerEvents.recipes(allthemods => {
   allthemods.shaped('allthetweaks:dragon_soul', ['CDA', 'SNI', 'BGE'], {
     C: 'apothic_enchanting:infused_breath',
     D: 'occultism:soul_gem',
-    A: 'occultism:spawn_egg/familiar_dragon',
+    A: 'justdirethings:creaturecatcher[justdirethings:entitytype="occultism:dragon_familiar"]',
     S: 'productivetrees:socotra_dragon_sapling',
     N: ['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ender_dragon",hostilenetworks:data=1255]', 'hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ender_dragon",hostilenetworks:data=1254]'],
     I: 'allthemodium:piglich_heart_block',

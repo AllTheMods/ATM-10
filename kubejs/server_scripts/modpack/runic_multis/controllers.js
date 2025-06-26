@@ -86,7 +86,8 @@ ServerEvents.recipes(allthemods => {
             souls: 5000,
             xp: 5000,
             top: 'actuallyadditions:laser_relay_item',
-            bottom: 'forbidden_arcanus:quantum_injector'
+            bottom: 'forbidden_arcanus:quantum_injector',
+            middle: 'forbidden_arcanus:polished_darkstone'
         },
         {
             id: 'modern_industrialization:runic_item_output_hatch',
@@ -95,7 +96,8 @@ ServerEvents.recipes(allthemods => {
             souls: 5000,
             xp: 5000,
             top: 'forbidden_arcanus:quantum_injector',
-            bottom: 'actuallyadditions:laser_relay_item'
+            bottom: 'actuallyadditions:laser_relay_item',
+            middle: 'forbidden_arcanus:chiseled_polished_darkstone'
         },
         {
             id: 'modern_industrialization:runic_fluid_input_hatch',
@@ -104,7 +106,8 @@ ServerEvents.recipes(allthemods => {
             souls: 5000,
             xp: 5000,
             top: 'actuallyadditions:laser_relay_fluids',
-            bottom: 'forbidden_arcanus:quantum_injector'
+            bottom: 'forbidden_arcanus:quantum_injector',
+            middle: 'forbidden_arcanus:polished_darkstone'
         },
         {
             id: 'modern_industrialization:runic_fluid_output_hatch',
@@ -113,7 +116,8 @@ ServerEvents.recipes(allthemods => {
             souls: 5000,
             xp: 5000,
             top: 'forbidden_arcanus:quantum_injector',
-            bottom: 'actuallyadditions:laser_relay_fluids'
+            bottom: 'actuallyadditions:laser_relay_fluids',
+            middle: 'forbidden_arcanus:chiseled_polished_darkstone'
         },
         {
             id: 'modern_industrialization:runic_energy_input_hatch',
@@ -122,7 +126,8 @@ ServerEvents.recipes(allthemods => {
             souls: 5000,
             xp: 5000,
             top: 'actuallyadditions:laser_relay',
-            bottom: 'forbidden_arcanus:quantum_injector'
+            bottom: 'forbidden_arcanus:quantum_injector',
+            middle: 'forbidden_arcanus:polished_darkstone'
         }
     ]
 
@@ -136,7 +141,7 @@ ServerEvents.recipes(allthemods => {
             .itemIn(item.top)
             .itemIn('mekanism:ultimate_control_circuit')
             .itemIn('alltheores:enderium_gear')
-            .itemIn('forbidden_arcanus:polished_darkstone')
+            .itemIn(item.middle)
             .itemIn('alltheores:enderium_gear')
             .itemIn('mekanism:ultimate_control_circuit')
             .itemIn(item.bottom)

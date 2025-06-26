@@ -65,7 +65,7 @@
 			y: -2.5d
 		}
 	]
-	order_index: 6
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -412,25 +412,6 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["46EFCAE81C09368A"]
-			id: "48869FD66E86EEAB"
-			rewards: [{
-				id: "28C44F6615411904"
-				item: {
-					count: 1
-					id: "oritechthings:addon_block_efficiency_tier_2"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "24CB922754FB98B5"
-				item: { count: 1, id: "oritech:machine_core_2" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 3.5d
-		}
-		{
 			dependencies: ["48869FD66E86EEAB"]
 			id: "2A69272FD3C57924"
 			rewards: [{
@@ -493,25 +474,6 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["114EACA9B32B32FB"]
-			id: "2689483E67F6DEA8"
-			rewards: [{
-				id: "09BBBAB353E00B65"
-				item: {
-					count: 1
-					id: "oritechthings:addon_block_processing_tier_2"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "263BE3BB5A9A2ACD"
-				item: { count: 1, id: "oritech:machine_core_7" }
-				type: "item"
-			}]
-			x: 0.5d
 			y: 5.5d
 		}
 		{
@@ -798,8 +760,8 @@
 				item: { count: 1, id: "oritech:basic_generator_block" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: 8.5d
+			x: 8.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0C9F9196CA49FF8D"]
@@ -820,8 +782,8 @@
 				item: { count: 1, id: "oritech:lava_generator_block" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: 8.5d
+			x: 14.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0C9F9196CA49FF8D"]
@@ -843,8 +805,8 @@
 				item: { count: 1, id: "oritech:bio_generator_block" }
 				type: "item"
 			}]
-			x: 9.5d
-			y: 11.5d
+			x: 8.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["0C9F9196CA49FF8D"]
@@ -857,8 +819,8 @@
 				item: { count: 1, id: "oritech:fuel_generator_block" }
 				type: "item"
 			}]
-			x: 12.5d
-			y: 11.5d
+			x: 14.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["0C9F9196CA49FF8D"]
@@ -943,26 +905,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"70FAD4013FA8A14A"
-				"6FFD0301AC8C83ED"
-			]
-			id: "6A098A003B689DFF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "664ADD0640A71F0E"
-				table_id: 4537986191417388492L
-				type: "choice"
-			}]
-			tasks: [{
-				id: "2FBFC0CAC11AD572"
-				item: { count: 1, id: "oritechthings:addon_block_efficient_speed_tier_2" }
-				type: "item"
-			}]
-			x: 15.5d
-			y: 0.5d
-		}
-		{
 			dependencies: ["0C9F9196CA49FF8D"]
 			hide_dependency_lines: true
 			id: "5932B5AD48F6AB74"
@@ -992,6 +934,105 @@
 			}]
 			x: 9.0d
 			y: 0.5d
+		}
+		{
+			dependencies: ["418E0A23EC74F320"]
+			id: "1DBF1D4061518B0B"
+			tasks: [{
+				id: "77B1D066EC79E0C1"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1DBF1D4061518B0B"]
+			id: "74AD63F738A5441F"
+			rewards: [{
+				id: "3A8415E5B1790DCA"
+				item: {
+					count: 1
+					id: "oritech:still_sheol_fire_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6F10EB317EE4DEA9"
+					item: { count: 1, id: "oritech:refinery_block" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2A48DB69DAF5DE76"
+					item: { count: 2, id: "oritech:refinery_module_block" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["74AD63F738A5441F"]
+			id: "4EAD06B0B3AD7D6E"
+			rewards: [{
+				id: "4F8F2CB9668A9451"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3CC9C741B461AD4B"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:clumps))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4EAD06B0B3AD7D6E"]
+			id: "7CBAD1047B087803"
+			rewards: [{
+				id: "4AF2FEEA731E81F4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "6E85FE06F0AA556A"
+				item: { components: { "ftbfiltersystem:filter": "or(item(oritech:copper_gem)item(oritech:platinum_gem)item(oritech:gold_gem)item(oritech:nickel_gem)item(oritech:uranium_gem)item(oritech:iron_gem))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7CBAD1047B087803"]
+			id: "4F89C04CEBF812F9"
+			rewards: [{
+				id: "1477627C920B77EE"
+				type: "xp"
+				xp: 200
+			}]
+			tasks: [{
+				id: "400E42F53FDE783C"
+				item: { components: { "ftbfiltersystem:filter": "or(item_tag(c:ingots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["0C9F9196CA49FF8D"]
+			hide_dependency_lines: true
+			id: "4B5EBB46A1E58D53"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "6A06EB448BDE885D"
+				item: { count: 1, id: "oritech:reactor_controller" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: 10.0d
 		}
 	]
 }
