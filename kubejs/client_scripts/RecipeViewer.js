@@ -36,7 +36,20 @@ RecipeViewerEvents.removeEntriesCompletely('item', allthemods => {
     for (let color of $DyeColor.values()) {
         allthemods.remove(`/refinedstorage:${color}_.*/`)
     }
+
+    allthemods.remove('mekmm:scrap')
+    allthemods.remove('mekmm:scrap_box')
+    allthemods.remove('mekmm:empty_crystal')
+    allthemods.remove('mekmm:uu_matter')
+    allthemods.remove('mekmm:ambient_gas_collector')
+    allthemods.remove(/mekmm:.*replicat.*/)
 })
+
+// RecipeViewerEvents.removeEntriesCompletely('mekanism:chemical', allthemods => {
+//
+//     allthemods.remove('mekmm:uu_matter')
+//     allthemods.remove('mekmm:unstable_dimensional_gas')
+// })
 
 RecipeViewerEvents.removeRecipes(event => {
     event.remove(["xycraft_machines:extractor/enderio/grains_of_infinity"])
