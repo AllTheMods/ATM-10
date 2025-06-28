@@ -16,44 +16,44 @@
 		"centrifugeData": {
 			"energyCapacity": 10000,
 			"maxEnergyInsertion": 512,
-			"energyPerTick": 64,
+			"energyPerTick": 128,
 			"tankSizeInBuckets": 8
 		},
 		"foundryData": {
 			"energyCapacity": 50000,
 			"maxEnergyInsertion": 1024,
 			"maxEnergyExtraction": 0,
-			"energyPerTick": 128
+			"energyPerTick": 256
 		},
 		"coolerData": {
 			"energyCapacity": 50000,
 			"maxEnergyInsertion": 256,
 			"maxEnergyExtraction": 0,
-			"energyPerTick": 32
+			"energyPerTick": 128
 		},
 		"fragmentForgeData": {
 			"energyCapacity": 50000,
 			"maxEnergyInsertion": 2048,
 			"maxEnergyExtraction": 0,
-			"energyPerTick": 256
+			"energyPerTick": 512
 		},
 		"furnaceData": {
 			"energyCapacity": 10000,
 			"maxEnergyInsertion": 256,
-			"energyPerTick": 32,
+			"energyPerTick": 64,
 			"speedMultiplier": 0.5
 		},
 		"pulverizerData": {
 			"energyCapacity": 25000,
 			"maxEnergyInsertion": 256,
 			"maxEnergyExtraction": 0,
-			"energyPerTick": 32
+			"energyPerTick": 64
 		},
 		"refineryData": {
 			"energyCapacity": 50000,
 			"maxEnergyInsertion": 512,
 			"maxEnergyExtraction": 0,
-			"energyPerTick": 64
+			"energyPerTick": 128
 		}
 	},
 	"generators": {
@@ -99,8 +99,8 @@
 	},
 	"laserArmConfig": {
 		"energyCapacity": 20000,
-		"maxEnergyInsertion": 1024,
-		"energyPerTick": 128,
+		"maxEnergyInsertion": 2048,
+		"energyPerTick": 512,
 		"blockBreakEnergyBase": 1024,
 		"damageTickBase": 2.0,
 		"range": 128
@@ -119,24 +119,24 @@
 	"fertilizerConfig": {
 		"moveDuration": 10,
 		"workDuration": 20,
-		"moveEnergyUsage": 8,
-		"workEnergyUsage": 128,
+		"moveEnergyUsage": 16,
+		"workEnergyUsage": 256,
 		"liquidPerBlockUsage": 0.25
 	},
 	"placerConfig": {
 		"moveDuration": 10,
 		"workDuration": 5,
-		"moveEnergyUsage": 8,
-		"workEnergyUsage": 64
+		"moveEnergyUsage": 16,
+		"workEnergyUsage": 128
 	},
 	"smallEnergyStorage": {
-		"energyCapacity": 1000000,
+		"energyCapacity": 5000000,
 		"maxEnergyInsertion": 5000,
 		"maxEnergyExtraction": 5000,
 		"energyPerTick": 0
 	},
 	"largeEnergyStorage": {
-		"energyCapacity": 20000000,
+		"energyCapacity": 60000000,
 		"maxEnergyInsertion": 10000,
 		"maxEnergyExtraction": 10000,
 		"energyPerTick": 0
@@ -223,15 +223,15 @@
 	"easyFindFeatures": true,
 	"safeMode": false,
 	"safeModeCooldown": 2400,
-	"maxSize": 64,
-	"reactorMaxEnergyStored": 50000000,
-	"reactorMaxEnergyOutput": 25000,
-	"rfPerPulse": 64,
-	"absorberRate": 16,
-	"ventBaseRate": 4,
-	"ventRelativeRate": 100,
+	"maxSize": 32,
+	"reactorMaxEnergyStored": 150000000,
+	"reactorMaxEnergyOutput": 125000,
+	"rfPerPulse": 1100,
+	"absorberRate": 64,
+	"ventBaseRate": 24,
+	"ventRelativeRate": 160,
 	"maxHeat": 2000,
-	"maxUnstableTicks": 400,
+	"maxUnstableTicks": 600,
 	"boringNukes": true,
 	"enchanterCostMultiplier": 5,
 	"catalystBaseSouls": 50,
