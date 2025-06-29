@@ -49,6 +49,62 @@
                 B: 'oritech:machine_core_3'
             }
         )
+        // Oil compatibility
+        allthemods.remove({id: 'oritech:refinery/oilalt'})
+        allthemods.remove({id: 'oritech:refinery/oilbase'})
+
+        allthemods.custom({
+  "type": "oritech:refinery",
+  "fluidInput": {
+    "amount": 1000,
+    "fluid": "#c:crude_oil"
+  },
+  "fluidOutputs": [
+    {
+      "amount": 500,
+      "fluid": "oritech:still_heavy_oil"
+    },
+    {
+      "amount": 250,
+      "fluid": "oritech:still_naphtha"
+    },
+    {
+      "amount": 250,
+      "fluid": "oritech:still_sulfuric_acid"
+    }
+  ],
+  "ingredients": [],
+  "results": [],
+  "time": 120
+})
+    allthemods.custom({
+  "type": "oritech:refinery",
+  "fluidInput": {
+    "amount": 1000,
+    "fluid": "#c:crude_oil"
+  },
+  "fluidOutputs": [
+    {
+      "amount": 500,
+      "fluid": "oritech:still_diesel"
+    },
+    {
+      "amount": 500,
+      "fluid": "oritech:still_naphtha"
+    },
+    {
+      "amount": 500,
+      "fluid": "oritech:still_sulfuric_acid"
+    }
+  ],
+  "ingredients": [
+    {
+      "item": "oritech:clay_catalyst_beads"
+    }
+  ],
+  "results": [],
+  "time": 120
+})
 
     })
 
