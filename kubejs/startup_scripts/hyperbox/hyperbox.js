@@ -1,5 +1,5 @@
 NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.PlayerEvent$PlayerChangedDimensionEvent", event => {
-    if (event.to.location().namespace.equals("hyperbox")){
+    if (event.to.location().getNamespace().equals("hyperbox")){
         event.entity.tell("Hyperboxes may soon be removed, please move to Compact Machines")
         if (Platform.clientEnvironment) {
             Client["submit(java.lang.Runnable)"](() => {

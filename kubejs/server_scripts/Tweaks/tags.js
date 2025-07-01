@@ -27,6 +27,7 @@ ServerEvents.tags('block', allthemods => {
 
     // Just Dire Things
     allthemods.add('justdirethings:lawnmowerable', '#c:grass')
+    allthemods.add('justdirethings:tick_speed_deny', '@industrialforegoingsouls')
 })
 
 ServerEvents.tags('fluid', allthemods => {
@@ -88,68 +89,59 @@ ServerEvents.tags('item', allthemods => {
     allthemods.add('minecraft:bookshelf_books', 'evilcraft:origins_of_darkness')
     allthemods.add('minecraft:bookshelf_books', 'ae2:guide')
     allthemods.add('minecraft:bookshelf_books', 'powah:book')
+    allthemods.add('minecraft:bookshelf_books', 'actuallyadditions:booklet')
 
     // Forbiden Arcanus Stellar Blacklist
     allthemods.add('forbidden_arcanus:modifier/eternal_incompatible', 'ars_additions:undying_charm')
 })
 
 ServerEvents.tags('entity_type', allthemods => {
-    // Productive Bees
-    allthemods.add('justdirethings:paradox_deny', /productivebees:/);
-    allthemods.add('industrialforegoing:mob_duplicator_blacklist', /productivebees:/)
-
-    // Allthemodium
-    allthemods.add('justdirethings:paradox_deny', 'allthemodium:piglich');
-    allthemods.add('industrialforegoing:mob_duplicator_blacklist', 'allthemodium:piglich')
-
-    // Occultism
-    allthemods.add('justdirethings:paradox_deny', /occultism:/);
-    allthemods.add('industrialforegoing:mob_duplicator_blacklist', /occultism:/)
 
     allthemods.add('c:bosses', [
-        "cataclysm:ender_guardian",
-        "cataclysm:ender_golem",
-        "cataclysm:nether_monstrosity",
-        "cataclysm:ignis",
-        "cataclysm:the_harbringer",
-        "cataclysm:the_leviathan",
-        "cataclysm:ancient_remnant",
-        "cataclysm:maledictus",
-        "cataclysm:ignited_revenant",
-        "cataclysm:the_prowler",
-        "cataclysm:the_baby_leviathan",
-        "cataclysm:coralssus",
+        "allthemodium:piglich",
         "cataclysm:amethyst_crab",
-        "cataclysm:modern_remnant",
+        "cataclysm:ancient_remnant",
+        "cataclysm:coralssus",
+        "cataclysm:ender_golem",
+        "cataclysm:ender_guardian",
+        "cataclysm:ignis",
+        "cataclysm:ignited_revenant",
         "cataclysm:kobolediator",
+        "cataclysm:maledictus",
+        "cataclysm:modern_remnant",
+        "cataclysm:netherite_monstrosity",
+        "cataclysm:the_baby_leviathan",
+        "cataclysm:the_harbinger",
+        "cataclysm:the_leviathan",
+        "cataclysm:the_prowler",
         "cataclysm:wadjet",
-        "allthemodium:piglich"
-    ])
-
-    //Industrial Foregoing
-    allthemods.add('industrialforegoing:mob_crusher_blacklist', [
-        "#c:bosses",
-        "eternal_starlight:the_gatekeeper",
         "eternal_starlight:starlight_golem",
-        "allthemodium:piglich"
+        "eternal_starlight:the_gatekeeper",
+        "#neoforge:bosses"
     ])
 
-    //Apothic Spawners
-    allthemods.add('apothic_spawners:blacklisted_from_spawners', [
-            /productivebees/,
-            "artifacts:mimic",
-            "twilightforest:swarm_spider",
-            "twilightforest:hedge_spider",
-        ]
-    )
-    // Create
-    allthemods.add('justdirethings:paradox_deny', 'create:package');
+    allthemods.add('allthemods:jank_blacklist', [
+        "@iceandfire",
+        'ars_nouveau:animated_block',
+        'artifacts:mimic',
+        'create:package',
+        'mekanism:robit',
+        'twilightforest:hedge_spider',
+        'twilightforest:swarm_spider',
+        '#c:bosses',
+        /occultism:/,
+        /productivebees:/
+    ])
 
-    // Mekanism
-    allthemods.add('justdirethings:paradox_deny', 'mekanism:robit');
-
-    // Ars 
-    allthemods.add('justdirethings:paradox_deny', 'ars_nouveau:animated_block');
+    allthemods.add('apothic_spawners:blacklisted_from_spawners', '#allthemods:jank_blacklist')
+    allthemods.add('enderio:soul_vial_blacklist', '#allthemods:jank_blacklist')
+    allthemods.add('industrialforegoing:mob_duplicator_blacklist', '#allthemods:jank_blacklist')
+    allthemods.add('industrialforegoing:mob_crusher_blacklist', '#allthemods:jank_blacklist')
+    allthemods.add('justdirethings:paradox_deny', '#allthemods:jank_blacklist');
+    allthemods.add('tombstone:unhandled_tamable', '#allthemods:jank_blacklist')
+    allthemods.add('mob_grinding_utils:no_swab', '#allthemods:jank_blacklist')
+    allthemods.add('mob_grinding_utils:no_spawn', '#allthemods:jank_blacklist')
+    allthemods.add('enderio:spawner_blacklist', '#allthemods:jank_blacklist')
 });
 
 ServerEvents.tags('worldgen/structure', allthemods => {
