@@ -142,6 +142,7 @@ ServerEvents.tags('entity_type', allthemods => {
     allthemods.add('mob_grinding_utils:no_swab', '#allthemods:jank_blacklist')
     allthemods.add('mob_grinding_utils:no_spawn', '#allthemods:jank_blacklist')
     allthemods.add('enderio:spawner_blacklist', '#allthemods:jank_blacklist')
+    allthemods.add('ars_additions:source_spawner_denylist', '#allthemods:jank_blacklist')
 });
 
 ServerEvents.tags('worldgen/structure', allthemods => {
