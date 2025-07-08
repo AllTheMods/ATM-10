@@ -240,7 +240,7 @@ ServerEvents.recipes(allthemods => {
 
     // 2 Tall flower recipes
     allthemods.shaped(
-    Item.of('minecraft:rose_bush', 1),
+    Item.of('minecraft:rose_bush', 2),
   [
     'ABA',
     'BCA', 
@@ -253,7 +253,7 @@ ServerEvents.recipes(allthemods => {
   }
 )
     allthemods.shaped(
-    Item.of('minecraft:peony', 1),
+    Item.of('minecraft:peony', 2),
   [
     'BAA',
     'ACA', 
@@ -266,7 +266,7 @@ ServerEvents.recipes(allthemods => {
   }
 )
     allthemods.shaped(
-    Item.of('minecraft:sunflower', 1),
+    Item.of('minecraft:sunflower', 2),
   [
     'AAB',
     'BCA', 
@@ -279,7 +279,7 @@ ServerEvents.recipes(allthemods => {
   }
 )
     allthemods.shaped(
-    Item.of('minecraft:lilac', 1),
+    Item.of('minecraft:lilac', 2),
   [
     'ABA',
     'ACB', 
