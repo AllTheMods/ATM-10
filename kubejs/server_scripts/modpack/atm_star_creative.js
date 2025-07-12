@@ -305,6 +305,69 @@ ServerEvents.recipes(allthemods => {
         }
     )
 
+    // Create
+    allthemods.custom({
+        "type": "create:mechanical_crafting",
+        "accept_mirrored": false,
+        "category": "misc",
+        "key": {
+            "A": {
+            "item": 'pamhc2foodextended:lemondrizzlecakeitem'
+            },
+            "B": {
+            "item": 'pamhc2foodcore:pumpkincheesecakeitem'
+            },
+            "C": {
+            "item": 'pamhc2foodextended:fruitcakeitem'
+            },
+            "D": {
+            "item": 'pamhc2foodextended:chocolatesprinklecakeitem'
+            },
+            "E": {
+            "item": 'pamhc2foodextended:holidaycakeitem'
+            },
+            "F": {
+            "item": 'pamhc2foodextended:mochicakeitem'
+            },
+            "G": {
+            "item": 'pamhc2foodcore:chocolatecakeitem'
+            },
+            "H": {
+            "item": 'allthetweaks:atm_star'
+            },
+            "I": {
+            "item": 'pamhc2foodcore:carrotcakeitem'
+            },
+            "J": {
+            "item": 'pamhc2foodcore:cheesecakeitem'
+            },
+            "K": {
+            "item": 'pamhc2foodextended:pineappleupsidedowncakeitem'
+            },
+            "L": {
+            "item": 'create_enchantment_industry:experience_cake'
+            },
+            "M": {
+            "item": 'createaddition:honey_cake'
+            },
+            "N": {
+            "item": 'createaddition:chocolate_cake'
+            },
+            "O": {
+            "item": 'create:blaze_cake'
+            }
+        },
+        "pattern": [
+            "ABCDE",
+            "FGHIJ",
+            "KLMNO"
+        ],
+        "result": {
+            "count": 1,
+            "id": 'create:creative_blaze_cake'
+        },
+        "show_notification": false
+    }).id("allthemods:create/creative_blaze_cake")
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
