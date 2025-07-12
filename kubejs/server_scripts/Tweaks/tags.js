@@ -129,8 +129,11 @@ ServerEvents.tags('entity_type', allthemods => {
         'twilightforest:hedge_spider',
         'twilightforest:swarm_spider',
         '#c:bosses',
-        /occultism:/,
-        /productivebees:/
+        "@occultism",
+        "@productivebees",
+        "forbidden_arcanus:corrupt_lost_soul",
+        "forbidden_arcanus:lost_soul",
+        "forbidden_arcanus:enchanted_lost_soul"
     ])
 
     allthemods.add('apothic_spawners:blacklisted_from_spawners', '#allthemods:jank_blacklist')
