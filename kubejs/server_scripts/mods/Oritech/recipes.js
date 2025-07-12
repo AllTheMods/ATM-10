@@ -2,7 +2,6 @@
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
     ServerEvents.recipes(allthemods => {
-
         // Rebalance of 'machine addon extender'
         allthemods.remove({id: 'oritech:crafting/core3alt'})
         allthemods.remove({id: 'oritech:crafting/core3'})
@@ -87,12 +86,15 @@
   "results": [],
   "time": 120
 })
-
         // Remove enchanting stuff
         allthemods.remove({id: 'oritech:crafting/catalyst_alt'})
         allthemods.remove({id: 'oritech:crafting/catalyst'})
         allthemods.remove({id: 'oritech:crafting/enchanter'})
-    })
+
+        // Cheaty alloys
+        allthemods.remove({id: 'oritech:crafting/alloy/steel'})
+        allthemods.remove({id: 'oritech:crafting/alloy/electrum'})
+})
+
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
-
