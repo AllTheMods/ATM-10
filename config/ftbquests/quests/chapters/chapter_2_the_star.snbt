@@ -2150,8 +2150,14 @@
 			]
 			size: 1.25d
 			tasks: [{
+				icon: {
+					components: {
+						"justdirethings:entitytype": "occultism:dragon_familiar"
+					}
+					id: "justdirethings:creaturecatcher"
+				}
 				id: "01B68403D63A86C5"
-				item: { count: 1, id: "occultism:spawn_egg/familiar_dragon" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(occultism:spawn_egg/familiar_dragon)and(item(justdirethings:creaturecatcher)component(fuzzy:{\"justdirethings:entitytype\":\"occultism:dragon_familiar\"})))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -8.0d
