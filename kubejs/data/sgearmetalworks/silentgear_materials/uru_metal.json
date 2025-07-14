@@ -1,0 +1,163 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": false,
+    "categories": [
+      "metal",
+      "endgame",
+      "casting",
+      "infusing"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "c:ingots/uru_metal"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#FF0B2037",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.sgearmetalworks.uru_metal"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 42.0,
+      "armor/boots": 8.0,
+      "armor/chestplate": 14.0,
+      "armor/helmet": 8.0,
+      "armor/leggings": 12.0,
+      "armor_durability": 50000.0,
+      "armor_toughness": 100.0,
+      "attack_damage": 35.0,
+      "attack_speed": 18.0,
+      "charging_value": 1.5,
+      "draw_speed": 0.5,
+      "durability": 15000.0,
+      "enchantment_value": 1500.0,
+      "harvest_speed": 29.0,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "c:incorrect_for_unobtainium_tool",
+        "level_hint": "7",
+        "name": "unobtainium"
+      },
+      "magic_armor": 600.0,
+      "magic_damage": 11.0,
+      "projectile_accuracy": 2.5,
+      "projectile_speed": 2.0,
+      "ranged_damage": 8.0,
+      "rarity": 200.0,
+      "repair_value": 0.5,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 6,
+          "trait": "silentgear:malleable"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:indestructible"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:aquatic"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:brilliant"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:flame_ward"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:cure_wither"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:cure_poison"
+        },
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:sting_resist"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 3.5
+      },
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 23.0
+      },
+      "rarity": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 99.0
+      },
+      "traits": [
+        {
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.66
+            }
+          ],
+          "level": 5,
+          "trait": "silentgear:hard"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 1.0
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 16.0
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 6.0
+      },
+      "projectile_speed": {
+        "operation": "ADD",
+        "value": 0.7
+      },
+      "rarity": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 60.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 5,
+          "trait": "silentgear:malleable"
+        },
+        {
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.66
+            }
+          ],
+          "level": 5,
+          "trait": "silentgear:hard"
+        }
+      ]
+    }
+  }
+}
