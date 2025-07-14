@@ -1,0 +1,38 @@
+{
+  "type": "productivemetalworks:item_casting",
+  "cast": {
+    "type": "sgearmetalworks:component",
+    "components": {
+      "silentgear:material_list": [
+        {
+          "item": {
+            "count": 1,
+            "id": "kubejs:silent_unobtainium_plate"
+          },
+          "material": "silentgear:unobtainium"
+        }
+      ]
+    },
+    "items": "silentgear:dagger_blade"
+  },
+  "consume_cast": true,
+  "fluid": {
+    "amount": 90,
+    "tag": "c:molten_uru_metal"
+  },
+  "result": {
+    "components": {
+      "silentgear:material_list": [
+        {
+          "item": {
+            "count": 1,
+            "id": "sgearmetalworks:uru_metal_ingot"
+          },
+          "material": "sgearmetalworks:uru_metal"
+        }
+      ]
+    },
+    "count": 1,
+    "id": "silentgear:dagger_blade"
+  }
+}
