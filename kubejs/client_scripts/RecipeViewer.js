@@ -43,6 +43,10 @@ RecipeViewerEvents.removeEntriesCompletely('item', allthemods => {
     allthemods.remove('mekmm:uu_matter')
     allthemods.remove('mekmm:ambient_gas_collector')
     allthemods.remove(/mekmm:.*replicat.*/)
+    allthemods.remove(/mekmm:.*recycl.*/)
+    allthemods.remove(/mekmm:.*planting.*/)
+    allthemods.remove(/mekmm:.*lathing.*/)
+    allthemods.remove(/mekmm:.*rolling_mill.*/)
 })
 
 // RecipeViewerEvents.removeEntriesCompletely('mekanism:chemical', allthemods => {
