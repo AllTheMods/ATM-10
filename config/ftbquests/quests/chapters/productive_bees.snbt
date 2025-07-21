@@ -518,8 +518,8 @@
 				id: "3DE460F842195173"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: 18.0d
+			x: -8.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
@@ -1249,8 +1249,8 @@
 				id: "12A2CE1C3AE8A033"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: 22.0d
+			x: -9.5d
+			y: 16.5d
 		}
 		{
 			dependencies: [
@@ -1788,8 +1788,8 @@
 				id: "4A6ADD52B113E3CA"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: 20.0d
+			x: -10.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
@@ -2764,8 +2764,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 22.0d
+			x: 9.5d
+			y: 16.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2860,8 +2860,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 18.0d
+			x: 8.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -3327,8 +3327,8 @@
 				item: { components: { "productivebees:bee_type": "productivebees:lava" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 20.0d
+			x: 10.5d
+			y: 17.0d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
@@ -4669,8 +4669,8 @@
 				item: { components: { "productivebees:bee_type": "productivebees:bloody" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				type: "item"
 			}]
-			x: -9.5d
-			y: 26.5d
+			x: 8.5d
+			y: 24.0d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
@@ -4867,8 +4867,8 @@
 				item: { components: { "productivebees:bee_type": "productivebees:insanite" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				type: "item"
 			}]
-			x: 8.5d
-			y: 24.0d
+			x: -9.5d
+			y: 26.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
@@ -5001,6 +5001,531 @@
 			}]
 			x: 2.0d
 			y: 27.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "forbidden_arcanus:deorum_ingot"
+			}
+			id: "037FBF06E59E1027"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C1A58BA0E205BE1"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1A4FA075F64B4B36"
+				item: { components: { "productivebees:bee_type": "productivebees:deorum" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "enderio:dark_steel_ingot"
+			}
+			id: "2FE088899C1AF39B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AC21386ED132BC3"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "17D6DDC91314D567"
+				item: { components: { "productivebees:bee_type": "productivebees:dark_steel" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "enderio:energetic_alloy_ingot"
+			}
+			id: "692BC8AADCBF76C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1A06BFF7352E51C5"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "23990980C3CC2B9E"
+				item: { components: { "productivebees:bee_type": "productivebees:energetic_alloy" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "enderio:soularium_ingot"
+			}
+			id: "010A970FC91BD617"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3FEEBEA5841AC919"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "175934F1753DCA3D"
+				item: { components: { "productivebees:bee_type": "productivebees:soularium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "enderio:redstone_alloy_ingot"
+			}
+			id: "728189EE56E5CAF7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2BDB84AAFC35347B"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "7EA1558DA5C148BD"
+				item: { components: { "productivebees:bee_type": "productivebees:redstone_alloy" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "enderio:end_steel_ingot"
+			}
+			id: "7A2B26CF0EDAA724"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09A02272848BD87B"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4465AFD9F6A30EFD"
+				item: { components: { "productivebees:bee_type": "productivebees:end_steel" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "enderio:conductive_alloy_ingot"
+			}
+			id: "205DE46ABA1CCC8F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "441C701CF1DCED08"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "285F60B54ADB5273"
+				item: { components: { "productivebees:bee_type": "productivebees:conductive_alloy" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "enderio:copper_alloy_ingot"
+			}
+			id: "16987C41D4F5BA47"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F85503A2D7D256C"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "52213CAAC7B43162"
+				item: { components: { "productivebees:bee_type": "productivebees:copper_alloy" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 22.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "enderio:vibrant_alloy_ingot"
+			}
+			id: "0691BDE968724213"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1829469075113DEE"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "1900643544CEF8F3"
+				item: { components: { "productivebees:bee_type": "productivebees:vibrant_alloy" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "enderio:pulsating_alloy_ingot"
+			}
+			id: "035495984F84FB44"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38FE4C06DE39BBB9"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0707EB9CA86A52AC"
+				item: { components: { "productivebees:bee_type": "productivebees:pulsating_alloy" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 21.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "tombstone:grave_dust"
+			}
+			id: "573BC5360C5CA675"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "13B6E279E6C0F4B2"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "40C0F6F01D2D2346"
+				item: { components: { "productivebees:bee_type": "productivebees:grave" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "occultism:iesnium_ingot"
+			}
+			id: "41FD145B911BD625"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DCEAEACE4853B72"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "49F034204B75FF3D"
+				item: { components: { "productivebees:bee_type": "productivebees:iesnium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 20.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "create:builders_tea"
+			}
+			id: "7E57964F6AD5B060"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4367959450B9A978"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "79B59DEBAF9B75C6"
+				item: { components: { "productivebees:bee_type": "productivebees:tea" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "actuallyadditions:black_quartz"
+			}
+			id: "15C9CCCC8E06D430"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70ED3620A124FF72"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "721F87434ECF59E2"
+				item: { components: { "productivebees:bee_type": "productivebees:black_quartz" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 20.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "minecraft:prismarine_shard"
+			}
+			id: "1C40B30823B2A254"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "14271BB7D8AAF1BA"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "591B132D28D8D75D"
+				item: { components: { "productivebees:bee_type": "productivebees:prismarine" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "industrialforegoing:plastic"
+			}
+			id: "23820B0DCEC022D1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0BD298F334EA57E1"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "172C9DA04257D5BB"
+				item: { components: { "productivebees:bee_type": "productivebees:plastic" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "minecraft:torchflower"
+			}
+			id: "2AEC294578952BFD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "502F9E3A1D9A99E8"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "23553673B9AC2E61"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(productivebees:default_flowering)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "undergarden:utheric_shard"
+			}
+			id: "26B9909717528D5E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0ED62BD0FAAA4291"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "68A3F9A74575FFAA"
+				item: { components: { "productivebees:bee_type": "productivebees:utheric" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: 10.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "undergarden:regalium_crystal"
+			}
+			id: "17A322C3B309A4D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BDC58A3E031885C"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6A1032C05E7555A8"
+				item: { components: { "productivebees:bee_type": "productivebees:regalium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "undergarden:forgotten_ingot"
+			}
+			id: "4F4C1A349F953013"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "05F096360739BB4F"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "22F147E40C3A7A7D"
+				item: { components: { "productivebees:bee_type": "productivebees:forgotten" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "undergarden:cloggrum_ingot"
+			}
+			id: "59135B04FC7C3E61"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4644E849D811A5EB"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "395BD3CD6324B733"
+				item: { components: { "productivebees:bee_type": "productivebees:cloggrum" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 19.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "undergarden:froststeel_ingot"
+			}
+			id: "68DFFEA05553B67E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "151763848DA0DA10"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4078067ED75C506E"
+				item: { components: { "productivebees:bee_type": "productivebees:froststeel" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -9.5d
+			y: 18.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "forbidden_arcanus:arcane_crystal"
+			}
+			id: "54CBCD9D2F1AD907"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "72A8882814FAD2DF"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "56CD62A93F21828E"
+				item: { components: { "productivebees:bee_type": "productivebees:arcane_crystal" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4292B49178E36D4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "055A672E5116E640"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2CB6634396220B5C"
+				item: { count: 1, id: "minecraft:white_concrete" }
+				type: "item"
+			}]
+			x: -8.5d
+			y: 18.0d
 		}
 	]
 }
