@@ -3481,8 +3481,8 @@
 				item: { components: { "productivebees:bee_type": "productivebees:arcane" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 25.5d
+			x: 6.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
@@ -3790,7 +3790,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 26.5d
+			y: 25.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
@@ -5512,20 +5512,316 @@
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
-			id: "4292B49178E36D4C"
+			icon: {
+				id: "rftoolsbase:dimensionalshard"
+			}
+			id: "177199FED92C3B5B"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "055A672E5116E640"
+				id: "4C70630A040CF3E6"
 				table_id: 6438168168113377309L
 				type: "loot"
 			}]
 			tasks: [{
-				id: "2CB6634396220B5C"
-				item: { count: 1, id: "minecraft:white_concrete" }
+				id: "388AE1A7CEA324DC"
+				item: { components: { "productivebees:bee_type": "productivebees:dimensional_shard" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "bigreactors:benitoite_crystal"
+			}
+			id: "36541A2179A7E76B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56470C22C1BB238F"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "197C43E679F30D5A"
+				item: { components: { "productivebees:bee_type": "productivebees:benitoite_crystal" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "bigreactors:anglesite_crystal"
+			}
+			id: "5D71589555637DB0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2476A4AD4E49CE14"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "70C7078E8E2FDFED"
+				item: { components: { "productivebees:bee_type": "productivebees:anglesite_crystal" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "naturesaura:depth_ingot"
+			}
+			id: "003AA945CACCD641"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "252932102525A1FC"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "58A7E4DD511FF23A"
+				item: { components: { "productivebees:bee_type": "productivebees:depth_ingot" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 21.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "oritech:biosteel_ingot"
+			}
+			id: "065196033249A0AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "57BF2BD2D44319FE"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "74EC41D4632076FD"
+				item: { components: { "productivebees:bee_type": "productivebees:biosteel" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				type: "item"
 			}]
 			x: -8.5d
 			y: 18.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "oritech:energite_ingot"
+			}
+			id: "101E3A21FEE00E3F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46A14ACF46345FB9"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "166CF1C4C89BA227"
+				item: { components: { "productivebees:bee_type": "productivebees:energite" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "oritech:duratium_ingot"
+			}
+			id: "041CDB45450A67E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A4C9CCA904E4A6B"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4F8210935F06822A"
+				item: { components: { "productivebees:bee_type": "productivebees:duratium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "oritech:fluxite"
+			}
+			id: "6DC826659699E638"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76011744FD3646B6"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6674F55EF313BFFF"
+				item: { components: { "productivebees:bee_type": "productivebees:fluxite" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "oritech:prometheum_ingot"
+			}
+			id: "2F2597122C6202EF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "49403AF69E6F47A2"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "008C03517817C239"
+				item: { components: { "productivebees:bee_type": "productivebees:prometheum" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"undergarden:stored_fluid": {
+						amount: 1000
+						id: "oritech:still_strange_matter"
+					}
+				}
+				id: "undergarden:cloggrum_bucket"
+			}
+			id: "003FF3813A864BA1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6C60ACB87989B723"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "5C2FCAD6A5889DCC"
+				item: { components: { "productivebees:bee_type": "productivebees:strange_matter" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "oritech:still_sheol_fire_bucket"
+			}
+			id: "3157BD833FCE8CD3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F1C60ACCB91D884"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "150FE2E917C5B19E"
+				item: { components: { "productivebees:bee_type": "productivebees:sheol_fire" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 16.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "oritech:uranium_crystal"
+			}
+			id: "618411DCC5C1A13C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E12200DCD8BAC7A"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2DD3804E11DF22A0"
+				item: { components: { "productivebees:bee_type": "productivebees:uranite_crystal" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 15.5d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "oritech:still_sulfuric_acid_bucket"
+			}
+			id: "2086C73688C8BA51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A5CF3DF2C728598"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "26436DD0B7A192ED"
+				item: { components: { "productivebees:bee_type": "productivebees:sulfuric_acid" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["131EC039435B8878"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "oritech:adamant_ingot"
+			}
+			id: "13C5C06278DD9C95"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4198B6EC82FF79B6"
+				table_id: 6438168168113377309L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5B39148378EC5DA0"
+				item: { components: { "productivebees:bee_type": "productivebees:adamant" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 15.5d
 		}
 	]
 }
