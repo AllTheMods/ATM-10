@@ -8,7 +8,12 @@
 	}
 	id: "306DBE1EBB85D02E"
 	order_index: 1
-	quest_links: [ ]
+	quest_links: [{
+		id: "4B3FDE79AEF00694"
+		linked_quest: "017194E29D6745E8"
+		x: -6.0d
+		y: -1.5d
+	}]
 	quests: [
 		{
 			dependencies: [
@@ -336,10 +341,7 @@
 			y: -7.5d
 		}
 		{
-			dependencies: [
-				"26CBB7DE460797C6"
-				"1FD772F0EE254527"
-			]
+			dependencies: ["1FD772F0EE254527"]
 			dependency_requirement: "one_completed"
 			id: "44BB58229F68DF5B"
 			shape: "hexagon"
@@ -351,16 +353,6 @@
 			}]
 			x: 4.5d
 			y: -7.5d
-		}
-		{
-			id: "26CBB7DE460797C6"
-			optional: true
-			tasks: [{
-				id: "7E963DEB685D0CAF"
-				type: "checkmark"
-			}]
-			x: 4.5d
-			y: -10.0d
 		}
 		{
 			dependencies: ["4636B6C2381448E9"]
@@ -577,17 +569,6 @@
 			y: -9.5d
 		}
 		{
-			id: "15081293B22C3570"
-			shape: "gear"
-			size: 2.0d
-			tasks: [{
-				id: "46C3A1FB21FD0215"
-				type: "checkmark"
-			}]
-			x: -17.0d
-			y: 0.0d
-		}
-		{
 			id: "5147FF1121CE0473"
 			shape: "gear"
 			size: 2.0d
@@ -595,20 +576,8 @@
 				id: "0D50029F6EC32921"
 				type: "checkmark"
 			}]
-			x: -14.0d
-			y: 0.0d
-		}
-		{
-			id: "588C5A29AF61BD9B"
-			invisible: true
-			invisible_until_tasks: 1
-			optional: true
-			tasks: [{
-				id: "16BD631F5960F6F7"
-				type: "checkmark"
-			}]
-			x: -18.0d
-			y: -3.0d
+			x: -9.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["78E5A99A4190FC64"]

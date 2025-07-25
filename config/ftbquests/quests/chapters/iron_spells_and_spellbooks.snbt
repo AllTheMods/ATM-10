@@ -409,7 +409,7 @@
 			shape: "square"
 			tasks: [{
 				id: "63FB8946440CCEDB"
-				item: { components: { "irons_spellbooks:affinity_data": { id: "irons_spellbooks:raise_dead" }, "irons_spellbooks:spell_container": { data: [ { id: "irons_spellbooks:blood_slash", index: 0, level: 5, locked: 1b }, { id: "irons_spellbooks:blood_step", index: 1, level: 5, locked: 1b }, { id: "irons_spellbooks:ray_of_siphoning", index: 2, level: 5, locked: 1b }, { id: "irons_spellbooks:blaze_storm", index: 3, level: 5, locked: 1b } ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:necronomicon_spell_book" }
+				item: { components: { "irons_spellbooks:affinity_data": { bonuses: { "irons_spellbooks:raise_dead": 2 } }, "irons_spellbooks:spell_container": { data: [ { id: "irons_spellbooks:blood_slash", index: 0, level: 5, locked: 1b }, { id: "irons_spellbooks:blood_step", index: 1, level: 5, locked: 1b }, { id: "irons_spellbooks:ray_of_siphoning", index: 2, level: 5, locked: 1b }, { id: "irons_spellbooks:blaze_storm", index: 3, level: 5, locked: 1b } ], maxSpells: 10, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:necronomicon_spell_book" }
 				type: "item"
 			}]
 			x: 0.0d

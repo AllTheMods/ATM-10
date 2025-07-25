@@ -349,29 +349,6 @@
 			y: -7.0d
 		}
 		{
-			dependencies: ["4B90B3B38E08A218"]
-			hide_dependent_lines: true
-			id: "5F0C9D4344046F5E"
-			invisible: true
-			optional: true
-			rewards: [{
-				id: "1F48CF279DCBE25D"
-				item: {
-					count: 1
-					id: "productivebees:honey_treat"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "63E67494927B11C8"
-				item: { components: { "productivebees:bee_type": "productivebees:steel" }, count: 1, id: "productivebees:configurable_honeycomb" }
-				match_components: "fuzzy"
-				type: "item"
-			}]
-			x: 14.0d
-			y: 0.0d
-		}
-		{
 			dependencies: ["4C08862F47696F6F"]
 			id: "4586338386F85112"
 			rewards: [
@@ -845,6 +822,18 @@
 			}]
 			x: 2.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["4B90B3B38E08A218"]
+			hide_details_until_startable: false
+			hide_until_deps_complete: true
+			id: "7963DAA5B4441989"
+			tasks: [{
+				id: "12C6A68633F6B0AB"
+				type: "checkmark"
+			}]
+			x: 14.0d
+			y: 0.0d
 		}
 	]
 }

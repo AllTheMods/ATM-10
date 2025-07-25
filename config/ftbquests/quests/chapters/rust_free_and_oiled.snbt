@@ -8,7 +8,12 @@
 	}
 	id: "3B1C95642D1861F7"
 	order_index: 2
-	quest_links: [ ]
+	quest_links: [{
+		id: "6121FEB7DFD64283"
+		linked_quest: "017194E29D6745E8"
+		x: -10.5d
+		y: -16.5d
+	}]
 	quests: [
 		{
 			dependencies: ["353E8B82D51CA31E"]
@@ -192,21 +197,11 @@
 				id: "modern_industrialization:sulfuric_acid_bucket"
 			}
 			id: "2A942E4D328160E7"
-			tasks: [
-				{
-					id: "3B4084F656ADF050"
-					item: { count: 1, id: "modern_industrialization:sulfuric_acid_bucket" }
-					type: "item"
-				}
-				{
-					fluid: {
-						amount: 1000
-						id: "modern_industrialization:sulfuric_acid"
-					}
-					id: "785957D4602B376C"
-					type: "fluid"
-				}
-			]
+			tasks: [{
+				id: "3B4084F656ADF050"
+				item: { count: 1, id: "modern_industrialization:sulfuric_acid_bucket" }
+				type: "item"
+			}]
 			x: -13.5d
 			y: -10.5d
 		}
@@ -593,17 +588,6 @@
 			}]
 			x: -2.0d
 			y: -19.5d
-		}
-		{
-			id: "274101D77B0FC60D"
-			invisible: true
-			optional: true
-			tasks: [{
-				id: "482E6C2E6E2CB051"
-				type: "checkmark"
-			}]
-			x: -20.0d
-			y: -14.5d
 		}
 	]
 }

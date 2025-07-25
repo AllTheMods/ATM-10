@@ -114,8 +114,8 @@
 			image: "mysticalagriculture:item/gear/prudentium_watering_can"
 			rotation: 0.0d
 			width: 1.5d
-			x: 15.0d
-			y: -8.375d
+			x: 14.7d
+			y: -9.0d
 		}
 		{
 			height: 1.0d
@@ -148,8 +148,8 @@
 			image: "mysticalagriculture:item/gear/tertium_watering_can"
 			rotation: 0.0d
 			width: 1.5d
-			x: 20.0d
-			y: -11.875d
+			x: 19.8d
+			y: -12.299999999999999d
 		}
 		{
 			height: 1.0d
@@ -318,8 +318,8 @@
 			image: "mysticalagriculture:item/gear/imperium_watering_can"
 			rotation: 0.0d
 			width: 1.5d
-			x: 25.0d
-			y: -12.375d
+			x: 24.9d
+			y: -12.899999999999999d
 		}
 		{
 			height: 1.0d
@@ -5884,6 +5884,91 @@
 			}]
 			x: 20.5d
 			y: -10.375d
+		}
+		{
+			dependencies: ["66C52B137A4FF869"]
+			id: "5F57DD0F07312092"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C9AE137DDF2F9ED"
+				table_id: 1937853580808181092L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "196076A20355CDB9"
+				item: { count: 1, id: "mysticalagriculture:steel_seeds" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: -11.87d
+		}
+		{
+			dependencies: ["2C9C9CB71941DC01"]
+			id: "65215D055B2B940B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4673EC766D400BBF"
+				table_id: 7270734658375550536L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "31CAD2F589C7DB2F"
+				item: { count: 1, id: "mysticalagriculture:phantom_seeds" }
+				type: "item"
+			}]
+			x: 20.0d
+			y: -10.87d
+		}
+		{
+			dependencies: ["2C9C9CB71941DC01"]
+			id: "5B63BFC957AB942D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B785CE307F01AD8"
+				table_id: 2427872771413920777L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "34D1EA1ADF66A7C5"
+				item: { count: 1, id: "mysticalagriculture:rubber_seeds" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -11.37d
+		}
+		{
+			dependencies: ["2C9C9CB71941DC01"]
+			id: "382A4D7DED77C640"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1299DF844BF637DC"
+				table_id: 7270734658375550536L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "2993DBACFB25B473"
+				item: { count: 1, id: "mysticalagriculture:quartz_enriched_iron_seeds" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: -11.37d
+		}
+		{
+			dependencies: ["73350AD668200E99"]
+			id: "25B05F99B7262555"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32D476B743A9B49A"
+				table_id: 2427872771413920777L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "27602DDA7AB880DD"
+				item: { count: 1, id: "mysticalagriculture:limestone_seeds" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: -7.87d
 		}
 	]
 }
