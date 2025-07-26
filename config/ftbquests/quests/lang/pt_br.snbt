@@ -1726,7 +1726,11 @@
 		"{image:atm:textures/questpics/theurgy/theurgy_vessel_3.png width:100 height:125 align:center}"
 	]
 	quest.0F7BB4ECCA5C082C.title: "Recipiente de &eEnxofre&r"
-	quest.0F89BFD4A3F63A48.quest_desc: ["Alguns mobs (principalmente monstros) precisam de certos &3Níveis de Luz&r para aparecer. Os hostis precisando de níveis mais baixos e os passivos precisando de níveis mais altos. Usar uma &bLanterna das Almas&r faz com que você nunca precise se preocupar com os &3Níveis de Luz&r, pois ela os ignora! Isso não ignora outros requisitos para o surgimento, como animais de criação que precisam de Grama."]
+	quest.0F89BFD4A3F63A48.quest_desc: [
+		"Alguns mobs (principalmente monstros) precisam de certos &3Níveis de Luz&r para aparecer.\\n"
+		"Os hostis precisando de níveis mais baixos e os passivos precisando de níveis mais altos.\\n"
+		"Usar uma &bLanterna das Almas&r faz com que você nunca precise se preocupar com os &3Níveis de Luz&r, pois ela os ignora! Isso não ignora outros requisitos para o surgimento, como animais de criação que precisam de Grama."
+	]
 	quest.0F89BFD4A3F63A48.title: "&bIgnorar Luz"
 	quest.0F8F0F7880235BA2.quest_desc: [
 		"&cO Ferreiro das Almas&r reside no Nether&r. Não o subestime pensando que é um Bastião, é muito pior.\\n\\nVocê pode encontrar Ouro, Blackstone e Netherita aqui.\\n\\nO único Mob hostil que aparece aqui é o chefe... a &c&lMonstruosidade de Netherita&r!"
@@ -2407,7 +2411,12 @@
 	quest.166971866A9234C7.title: "Liga &cFundida"
 	quest.166DF03D93BC11F1.quest_desc: ["A Mesa de Reforja faz tudo que uma simples faz, mas melhor, ela pode fazer Afixos Épicos e Míticos!"]
 	quest.166DF03D93BC11F1.title: "Mesa de Reforja (Melhor)"
-	quest.167E1474644C9908.quest_desc: ["O Quartzo faz o que quer que o outro item faça, mas faz o oposto para o Spawner. Com Quartzo na sua mão secundária e o outro item de Modificação de Spawner na sua mão principal, ele fará o oposto de seu papel. Com Quartzo e Varas de Blaze, em vez de aumentar o Alcance de Spawn, ele o diminuirá. Com Quartzo e Lágrimas de Ghast, ele diminuirá o Máximo de Entidades."]
+	quest.167E1474644C9908.quest_desc: [
+		"O Quartzo faz o oposto do que o outro item faria no &9Modificador de Gerador&r.\\n"
+		"Com o Quartzo na mão secundária e o outro item de modificação de gerador na mão principal, ele fará o oposto da função original.\\n"
+		"Por exemplo, com Quartzo e &cBastões de Blaze&r, em vez de aumentar o &9Alcance de Geração&r, ele o diminuirá.\\n"
+		"Com Quartzo e Lágrimas de Ghast, ele reduzirá o número máximo de entidades e pro assim vai."
+	]
 	quest.167E1474644C9908.title: "Dia do Contrário"
 	quest.1682CED78D9D4BA7.quest_desc: ["&9&lTwilight Forest&r é um dos Mods mais conhecidos e reconhecidos, e por um bom motivo. Ele praticamente definiu os Mods de Aventura! \\n\\nPara chegar lá, basta ter uma piscina de 2x2 de Água, cercá-la com Flores e jogar um Diamante nela! \\n\\nEntão, seu Portal se abrirá, e você poderá entrar na &l&9Twilight Forest&r. \\n\\nAqui você precisará seguir uma ordem estrita de Chefes para matar e progredir!"]
 	quest.1682CED78D9D4BA7.title: "&9&lTwilight Forest"
@@ -6509,7 +6518,10 @@
 	]
 	quest.3E1A86A6D2155B53.quest_subtitle: "Primeiro Madeira, depois Pedra... depois... o quê?"
 	quest.3E1A86A6D2155B53.title: "Conseguindo um Aprimoramento"
-	quest.3E2A411FF5B4B0E7.quest_desc: ["O &3Alcance de Ativação&r é a distância que o Jogador (você) precisa estar do Gerador para que ele funcione. O menor valor possível é 1 bloco de distância, e o maior é um raio de 48 blocos."]
+	quest.3E2A411FF5B4B0E7.quest_desc: [
+		"O &3Alcance de Ativação&r é a distância que o Jogador (você) precisa estar do Gerador para que ele funcione.\\n"
+		"O menor valor possível é 1 bloco de distância, e o maior é um raio de 48 blocos."
+	]
 	quest.3E2A411FF5B4B0E7.title: "&3Raio de Ativação"
 	quest.3E301F3EEC8C763A.quest_desc: [
 		"Isso pode ser usado para acelerar a taxa de crescimento de abelhas bebês ou para criar novos Ovos de Spawn."
@@ -8202,7 +8214,12 @@
 	quest.4CED346215DDBAC0.quest_desc: ["Aumenta significativamente a quantidade de tempo que uma Explosão de Mana pode durar sem começar a perder Mana, mas também a retarda."]
 	quest.4CFE097D0A8683C8.quest_desc: ["A &5Crânio de Obsidiana&r é um Elmo que, quando usado, pode protegê-lo de dano de Fogo/Lava! \\n\\nCom o tempo, ele se desgastará, e você precisará repará-lo com &5Obsidiansteel&r. \\n\\nÉ também assim que você o fabrica, um Crânio de Esqueleto com 8 &5Obsidiansteel&r."]
 	quest.4CFE097D0A8683C8.title: "&5Crânio de Obsidiana"
-	quest.4D07B0A4A2E77CDA.quest_desc: ["Entidades máximas é a quantidade de mobs que podem ser gerados por um spawner e mantidos. Se for apenas 6 entidades máximas quando 6 mobs já estão gerados, nenhum outro será gerado até que eles morram ou sejam movidos. Cada Lágrima de Ghast aumenta ou diminui em 2 Entidades. Máximo de 16 Entidades e Mínimo de 1."]
+	quest.4D07B0A4A2E77CDA.quest_desc: [
+		"&9Entidades máximas&r é a quantidade de mobs que podem ser gerados por um &9Spawner&r e &9Mantidos&r.\\n"
+		"Se for apenas 6 entidades máximas quando 6 mobs já estão gerados, nenhum outro será gerado até que eles morram ou sejam movidos.\\n"
+		"Cada Lágrima de Ghast aumenta ou diminui em 2 Entidades.\\n"
+		"Máximo de 16 Entidades e Mínimo de 1."
+	]
 	quest.4D07B0A4A2E77CDA.title: "&fEntidades Máximas"
 	quest.4D0B50731FED3CEE.quest_desc: ["Para obter a Lança Crescente, você precisará fabricá-la a partir de Itens derrubados pela Monstruosidade Lunar e pelo Ódio Emaranhado, ou tê-la derrubada pela Monstruosidade Lunar. (Você terá que matá-lo de qualquer maneira, basicamente). \\n\\nVocê pode usar a Lança como um Tridente e apenas bater nos Mobs ou pode segurar o Clique Direito para ser lançado para a frente com ela. Se você atingir algum Mob com o segundo ataque, qualquer Mob próximo também sofrerá dano."]
 	quest.4D160570DC0C8898.quest_desc: [
@@ -11486,7 +11503,11 @@
 	quest.6A452BFC8A967C39.title: "&aGarras Ferais&r"
 	quest.6A46A9F04D2A0748.quest_desc: ["Direwolf é um nome sinônimo de Minecraft Modificado e &3&lJust Dire Things&r é uma de suas criações. \\n\\nEle gira em torno de Gosma, sim, eu sei, parece tentador!"]
 	quest.6A46A9F04D2A0748.title: "&3&lJust Dire Things"
-	quest.6A497B063CF32A5C.quest_desc: ["O &cOlho de Aranha Fermentado&r pode ser usado para aumentar a quantidade de mobs que &6PODEM&r nascer de um gerador. Os mobs gerados são aleatórios, com uma quantidade máxima determinada pelo número. Esse valor aumenta ou diminui em 1 para cada olho, até um máximo de 16."]
+	quest.6A497B063CF32A5C.quest_desc: [
+		"O &cOlho de Aranha Fermentado&r pode ser usado para aumentar a quantidade de mobs que &6PODEM&r nascer de um gerador.\\n"
+		"Os mobs gerados são aleatórios, com uma quantidade máxima determinada pelo número.\\n"
+		"Esse valor aumenta ou diminui em 1 para cada olho, até um máximo de 16."
+	]
 	quest.6A497B063CF32A5C.title: "&cContagem de Surgimento"
 	quest.6A4C49AE72E98727.quest_desc: [
 		"A &9Mesa de Ajustes&r é usada para aprimorar &aEquipamentos de Essência&r com &dAugments&r. "
@@ -13412,7 +13433,11 @@
 	quest.7A93F07BE2E6EC97.title: "&aPare a &9Chuva!"
 	quest.7A979BEB20C9591E.quest_desc: ["Pó de Flux pode ser automatizado usando &6Productive Bees&r!\\n\\nOvos de Geração de Abelha de Redstone podem ser convertidos em Ovos de Geração de Abelha de Pó de Flux usando uma Abelha de Obsidiana."]
 	quest.7A979BEB20C9591E.title: "Pó de Flux Automatizado"
-	quest.7A9AE63998BB41FF.quest_desc: ["Para determinar quando o Gerador vai gerar, ele escolhe um número aleatório entre o atraso de geração máximo e mínimo. O Mínimo pode ser tão baixo quanto 20 e tão alto quanto 32.767. Cada pedaço de açúcar modifica o atraso mínimo para cima ou para baixo em 10."]
+	quest.7A9AE63998BB41FF.quest_desc: [
+		"Para determinar quando o &9Gerador&r vai gerar, ele escolhe um número aleatório entre o atraso de geração máximo e mínimo.\\n"
+		"O Mínimo pode ser tão baixo quanto &620&r e tão alto quanto &632.767&r.\\n"
+		"Cada pedaço de açúcar modifica o atraso mínimo para cima ou para baixo em &610&r."
+	]
 	quest.7A9AE63998BB41FF.title: "&fAtraso Mínimo de Geração"
 	quest.7AADB58621BC1254.quest_desc: ["O Martelo de Forja e o Martelo economizarão muitos recursos no início do jogo, permitindo que você transforme lingotes em chapas e outras formas diferentes a um custo reduzido! Eventualmente, você usará Vapor para fazer isso por você, mas no início isso ajudará a economizar custos enquanto você trabalha em sua automação."]
 	quest.7AADB58621BC1254.title: "Forja e Martelo"
