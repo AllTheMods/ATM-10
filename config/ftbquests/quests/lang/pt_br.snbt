@@ -1071,7 +1071,7 @@
 	]
 	quest.09D18512037386C1.quest_desc: ["Para inserir Efeitos de Poção, você precisará preencher um Filtro de Poção.\\n\\nPara fazer isso: tenha um Efeito de Poção em você, então clique com o botão direito com o Filtro de Poção para removê-lo de você e adicioná-lo ao Filtro, e repita até que esteja cheio e ativo.\\n\\nIsso também funciona com Efeitos de Poção de mods ou aqueles que você normalmente não consegue através de Poções, como Pressa ou Resistência."]
 	quest.09D2137B4F42006E.quest_desc: ["Eclipse Ember é um novo material adicionado pelo JDT. Eclipse Ember é adquirido realizando a Disseminação de Gosma em Blocos de Carvão Voidflame usando gosma de nível quatro. O Minério de Eclipse Ember é afetado por fortuna."]
-	quest.09D76E9B8CABC31E.quest_desc: ["Para a &5&lCreative Essence&r você precisará de 4 &5Blocos de Essência de Insanium&r. Cada Bloco equivale a 9 &5Essências&r, agora deixe-me fazer as contas...\\n\\nVocê precisará de 9.216 &aEssências de Inferium&r para obter apenas um desses Blocos. Então, você precisará de 36.864 &aEssências de Inferium&r no total!"]
+	quest.09D76E9B8CABC31E.quest_desc: ["Para a &5&lEssência Criativa&r você precisará de 4 &5Blocos de Essência de Insanium&r. Cada Bloco equivale a 9 &5Essências&r, agora deixe-me fazer as contas...\\n\\nVocê precisará de 9.216 &aEssências de Inferium&r para obter apenas um desses Blocos. Então, você precisará de 36.864 &aEssências de Inferium&r no total!"]
 	quest.09D76E9B8CABC31E.title: "4 &5Blocos de Insanium"
 	quest.09D7D3CF61E156B1.quest_desc: ["Os &2Conjuntos de Combustível de Fissão&r são o que compõe o armazenamento para o &2Combustível Fóssil&r. Eles também ajudam a determinar a Eficiência. \\n\\nOs &2Conjuntos de Combustível de Fissão&r precisarão ser colocados no &2&lReator de Fissão&r para poderem funcionar. \\n\\nEles podem ser empilhados uns sobre os outros e uns ao lado dos outros, mas cada pilha precisará de um... \\n\\n&2Conjunto da Haste de Controle&r em cima dela! Os &2Conjuntos da Haste de Controle&r não alteram nada como a Eficiência, mas o &2Conjunto de Combustível de Fissão&r não funcionará se não houver um &2Conjunto da Haste de Controle&r acima dele dentro do &2&lReator de Fissão&r!"]
 	quest.09D7D3CF61E156B1.quest_subtitle: "Empilhe com cuidado… ou tudo vai pelos ares."
@@ -1340,7 +1340,7 @@
 	quest.0C78FB6EB275960B.title: "Veio de Sheldonita"
 	quest.0C7D96DB3573EF9C.quest_desc: [""]
 	quest.0C7D96DB3573EF9C.quest_subtitle: "&oHabilidade de criar vida."
-	quest.0C7D96DB3573EF9C.title: "&5&lCreative Essence"
+	quest.0C7D96DB3573EF9C.title: "&5&lEssência Criativa"
 	quest.0C8180524757B238.quest_desc: [
 		"&7Flutuadores&r não são tecnicamente estruturas nos arquivos do Minecraft, mas ainda são em termos leigos.\\n\\nEles podem aparecer em qualquer Bioma, mas sempre e abundantemente nas &7&lConstruções Uivantes&r!\\n\\nSão estruturas flutuantes em forma de disco feitas de Cera Ancestral. Se você ainda não usou a Essência de Abelhas, receberá Fraqueza, Lentidão e Fadiga de Mineração ao tocar na Cera Ancestral. Há também &6Casulos de Mel&r ou &5Cristais&r neles!"
 		"{image:atm:textures/questpics/bumblezone/bumble_floaters.png width:200 height:100 align:center}"
@@ -1379,7 +1379,7 @@
 		""
 		"Aumenta a altura do pulo do jogador."
 	]
-	quest.0CC0632E8276C787.quest_desc: ["Coloque a Plataforma de Teleporte no &l&cNether&r para ir para &b&lThe Other&r."]
+	quest.0CC0632E8276C787.quest_desc: ["Coloque a Plataforma de Teleporte no &l&cNether&r para ir para &b&lO Outro&r."]
 	quest.0CC0632E8276C787.title: "&c&lO Nether"
 	quest.0CC48C2AA553A314.quest_desc: ["&3Brocas&r podem ser usadas em uma Britadeira Pneumática."]
 	quest.0CD04A00529FE1C9.quest_desc: ["O Baú de Cobre pode ser feito, mas não é necessário para fazer um Baú de Ferro, pode ser usado se você quiser economizar um pouco de Ferro."]
@@ -1476,8 +1476,14 @@
 		""
 		"Caso contrário, você está preso usando o &eReator Químico&r com uma &6Pilha Minúscula de Pó de Cobre&r, &9Hidrogênio&r e &2NitroChlorobenzene&r"
 	]
-	quest.0D6D45DBA64E612D.quest_desc: ["O Atraso Máximo de Spawn é quanto tempo pode levar para gerar mobs. Assim como o Mínimo, pode ser tão baixo quanto 20 e tão alto quanto 32.767. Cada Relógio modifica a velocidade do spawner em 10. A velocidade é expressa em ticks, onde 20 ticks equivalem a 1 segundo. Então, o atraso de spawn mais rápido seria de 1 segundo entre cada um."]
-	quest.0D6D45DBA64E612D.title: "Atraso Máximo de Spawn"
+	quest.0D6D45DBA64E612D.quest_desc: [
+		"O &9Atraso Máximo de Spawn&r é o tempo máximo que pode levar para &9Gerar Mobs&r.\\n"
+		"Assim como o &9Mínimo&r, ele pode ser tão baixo quanto &e20&r e tão alto quanto &e32.767&r.\\n"
+		"Cada Relógio modifica a velocidade do gerador em &e10&r.\\n"
+		"A velocidade é expressa em ticks, sendo que &e20 ticks&r equivalem a 1 segundo.\\n"
+		"Então, o menor atraso de spawn seria &e1 segundo&r entre cada geração."
+	]
+	quest.0D6D45DBA64E612D.title: "&fAtraso Máximo de Spawn"
 	quest.0D888A4C5EF0073E.quest_subtitle: "Mogno + Kapok"
 	quest.0D8AC4FB1F61B07A.title: "&dPara as Estrelas!&r"
 	quest.0D91A6B36BD2F526.quest_desc: ["Melhore seu &7Machado de Batalha de Cloggrum&r para fazer a melhor arma que o &2&lUndergarden&r pode oferecer!"]
@@ -1514,7 +1520,10 @@
 		""
 		"Você tem algumas opções quando se trata de fazer os anéis de NZF e o fio fino, uma &eExtrusora&r lhe dará o máximo de anéis por um lingote e um &eLaminador de Fio&r transformará lingotes em fio e fio em fio fino"
 	]
-	quest.0E02CE4469FCA4C9.quest_desc: ["A Ativação por Redstone dá ao seu spawner um interruptor de ligar/desligar. Sem Energia de Redstone, ele não gerará mobs."]
+	quest.0E02CE4469FCA4C9.quest_desc: [
+		"A &cAtivação por Redstone&r dá ao seu spawner um interruptor de ligar/desligar.\\n"
+		"&2Sem Energia&r de Redstone, ele não gerará mobs."
+	]
 	quest.0E02CE4469FCA4C9.title: "Ativo por Redstone"
 	quest.0E03F5EAE4963ECB.quest_subtitle: "8 Blocos Verdes Secos"
 	quest.0E057B7F76401421.quest_subtitle: "A Primeira Melhoria"
@@ -1717,8 +1726,8 @@
 		"{image:atm:textures/questpics/theurgy/theurgy_vessel_3.png width:100 height:125 align:center}"
 	]
 	quest.0F7BB4ECCA5C082C.title: "Recipiente de &eEnxofre&r"
-	quest.0F89BFD4A3F63A48.quest_desc: ["Alguns mobs (principalmente monstros) precisam de certos Níveis de Luz para aparecer. Os hostis precisando de níveis mais baixos e os passivos precisando de níveis mais altos. Usar uma Lanterna das Almas faz com que você nunca precise se preocupar com os Níveis de Luz, pois ela os ignora! Isso não ignora outros requisitos para o surgimento, como animais de criação que precisam de Grama."]
-	quest.0F89BFD4A3F63A48.title: "Ignorar Luz"
+	quest.0F89BFD4A3F63A48.quest_desc: ["Alguns mobs (principalmente monstros) precisam de certos &3Níveis de Luz&r para aparecer. Os hostis precisando de níveis mais baixos e os passivos precisando de níveis mais altos. Usar uma &bLanterna das Almas&r faz com que você nunca precise se preocupar com os &3Níveis de Luz&r, pois ela os ignora! Isso não ignora outros requisitos para o surgimento, como animais de criação que precisam de Grama."]
+	quest.0F89BFD4A3F63A48.title: "&bIgnorar Luz"
 	quest.0F8F0F7880235BA2.quest_desc: [
 		"&cO Ferreiro das Almas&r reside no Nether&r. Não o subestime pensando que é um Bastião, é muito pior.\\n\\nVocê pode encontrar Ouro, Blackstone e Netherita aqui.\\n\\nO único Mob hostil que aparece aqui é o chefe... a &c&lMonstruosidade de Netherita&r!"
 		"{image:atm:textures/questpics/cataclysm/cataclysm_blacksmith.png width:200 height:100 align:center}"
@@ -2640,7 +2649,10 @@
 	]
 	quest.185DBBDD252CBA0C.title: "&6Forja &l&cTier 1"
 	quest.18601369F049D10D.quest_subtitle: "Ébano do Ceilão + Murta-de-crepe Roxa"
-	quest.186593EBCE3FE8D8.quest_desc: ["O Raio de Spawn é a área onde os mobs podem aparecer. Quanto maior a área, mais espaço para eles aparecerem. Quanto menor a área, mais barata a fábrica."]
+	quest.186593EBCE3FE8D8.quest_desc: [
+		"O &9Alcance de Nascimento&r é a área onde os mobs podem aparecer.\\n "
+		"Quanto maior a área, mais espaço eles terão para nascer. Quanto menor a área, mais barata será a fábrica."
+	]
 	quest.186593EBCE3FE8D8.title: "Raio de Spawn"
 	quest.186731580B14F9D2.quest_desc: ["Para interagir com nossa Turbina, precisaremos de várias &6Portas&r.\\n\\nA &9Porta de Fluido&r é usada para inserir vapores como &bVapor&r, ou extrair exaustão, como &9água&r. Por causa disso, você precisará de duas para sua Turbina.\\n\\nA &cTomada de Energia&r extrai energia e é necessária para completar o multibloco."]
 	quest.186731580B14F9D2.title: "Portas da Turbina"
@@ -2683,8 +2695,8 @@
 		"Além disso, esteja ciente de que cada pilar individual (independentemente de seu comprimento) ocupa um canal. Para espaços particularmente grandes, você pode querer construir uma rede dedicada com um controlador para acomodar todos os pilares necessários."
 	]
 	quest.18DFB25DC48D8BF7.title: "&6Pilão Espacial"
-	quest.18E0F5A78F696FA3.quest_desc: ["Fragmentos de eco dão um efeito especial ao spawner. Qualquer mob gerado terá o saque que ele dropa multiplicado."]
-	quest.18E0F5A78F696FA3.title: "Ecoante"
+	quest.18E0F5A78F696FA3.quest_desc: ["&3Fragmentos de Eco&r concedem um efeito especial aos &3Spawners&r. Qualquer mob gerado por um &3Spawner&r afetado deixará mais itens ao ser derrotado, multiplicando a quantidade de saque dropada."]
+	quest.18E0F5A78F696FA3.title: "&#11767DEcoante"
 	quest.18EADBAFC932F864.quest_desc: ["Para tosquiar Ovelhas você precisa de Tesouras, você não conseguiria Lã de outra forma... certo?"]
 	quest.18EADBAFC932F864.quest_subtitle: "Modo Pacifista"
 	quest.18EADBAFC932F864.title: "É Hora de Tosquiar"
@@ -2900,8 +2912,12 @@
 	quest.1AC3485AB2EA13E5.title: "Regador de &2Prudentium&r"
 	quest.1ACB3EDBCB732514.quest_subtitle: "Alimente um Bloco de Monazita para a Abelha de Enxofre"
 	quest.1ACD6672F72664D6.quest_desc: ["Use o cortador com um bloco de esmeralda para obter chapas de esmeralda"]
-	quest.1AD87CB3226ED224.quest_desc: ["Lã só faz uma coisa no spawner e é calá-lo. Não gosta de ouvir os barulhos estúpidos do Spawner? Então use Lã! Qualquer cor, contagem de fios ou design!"]
-	quest.1AD87CB3226ED224.title: "Silêncio, você vai acordar os mobs!"
+	quest.1AD87CB3226ED224.quest_desc: [
+		"Lã só faz uma coisa com o gerador: &9Silenciá-lo&r. "
+		"- Não gosta de ouvir os sons irritantes do &aGerador&r? Então use a Lã! Qualquer cor, espessura ou estampa serve!"
+	]
+	quest.1AD87CB3226ED224.quest_subtitle: "Tá, tá, tá e tá! Silêncio na sala! (Sem referências, juro!)"
+	quest.1AD87CB3226ED224.title: "&fSilêncio, você vai acordar os mobs!"
 	quest.1AE7E363AFDC976B.quest_desc: ["Em algum momento, você provavelmente vai querer trocar o vapor pela produção de Benzeno ou Gasolina de Alta Octanagem e geradores a gás ou de combustão"]
 	quest.1AEFF93A398B8BBF.quest_desc: ["O &b&lTier Elite&r vem logo após o &c&lAvançado&r. Estes têm os mesmos bônus que o &c&lAvançado&r... só que mais! \\n\\n&b&lElite&r são feitos com &bLigas Reforçadas&f, &bCircuitos de Controle Elite&f, e na maioria das vezes &eGold Ingots&r. \\n\\nVocê pode obter &bLigas Reforçadas&r infundindo uma &cLiga Infundida&r com 20mb de &bDiamante&r. Isso são 2 &bPós de Diamante&r ou 1/4 de &bDiamante Enriquecido&r! \\n\\nVocê pode então usar essas &bLigas Reforçadas&r (2 delas) com um &cCircuito de Controle Avançado&r para fazer o &bCircuito de Controle Elite&r."]
 	quest.1AEFF93A398B8BBF.title: "&b&lTier Elite"
@@ -2937,8 +2953,15 @@
 	quest.1B72E95569B07E18.title: "Melhoria de &bDiamante"
 	quest.1BA11428DF7541AD.quest_desc: ["Como o &eCâmbio Sequenciado&r usa &eItens&r muito mais chiques, ele é claramente uma &6Máquina&r muito mais chique! \\n\\nA julgar por quão confusa é sua GUI, eu diria que sim... Espero poder ajudar a torná-la menos confusa! Sem promessas, no entanto. \\n\\nComo o &dCâmbio&r normal, ele precisará de um &4Sinal de Redstone&r para fazer o que for projetado. Precisaremos configurar sua INTERFACE para criar um \"script\". \\n\\nPrimeiro, são as Instruções, estas são as tarefas reais que ele executará. Aqui ele pode girar seu &8Eixo&r, afetar uma Polia, esperar ou simplesmente parar. Ele precisará parar no final, é inevitável. \\n\\nEm seguida, é o Ângulo. O Ângulo que o &8Eixo&r ou a Polia girará. De 360 a 1 grau! \\n\\nPor último, é a Velocidade e Direção. Muda a rapidez com que o Eixo ou a Polia se movem e se é no &e&oSentido Horário&r ou &9&oAnti-Horário&r."]
 	quest.1BA11428DF7541AD.title: "Câmbio &eSequenciado"
-	quest.1BA3D15FFE7DBE59.quest_desc: ["Em &bIndustrial Foregoing&r, um dos principais recursos é o &fLátex.&r É usado para criar Armações de Máquina, necessárias para fazer máquinas e melhorias.\\n\\nFazer Látex é bem simples, o &aFluid Extrator&r extrai Látex de &6Troncos&r (Acácia dá mais).\\n\\n------------------------\\n\\nAgora sobre fazer Plástico: Plástico resulta da fundição de Borracha Seca - que é feita na &aUnidade de Processamento de Látex&r, que transforma Látex em Borracha Seca.\\n\\n&bEntão, basicamente, Látex -> Borracha Seca -> Plástico."]
-	quest.1BA3D15FFE7DBE59.quest_subtitle: "Látex e Plástico? Hã?"
+	quest.1BA3D15FFE7DBE59.quest_desc: [
+		"No &bIndustrial Foregoing&r, um dos principais recursos é o &fLátex.&r Ele é usado para fabricar &6Estruturas de Máquina&r, necessárias para fabricar máquinas e melhorias.\\n"
+		"Produzir Látex é bem simples, o &aExtrator de Fluidos&r extrai Látex de &6Troncos&r (Acácia fornece mais).\\n"
+		"       ------------------------\\n"
+		"Agora sobre fabricar Plástico: Plástico é obtido ao fundir a Borracha Seca - que é feita na &aUnidade de Processamento de Látex&r, que transforma Látex em Borracha Seca.\\n"
+		"           &bEntão, basicamente:\\n"
+		"&6Látex -> Borracha Seca -> Plástico."
+	]
+	quest.1BA3D15FFE7DBE59.quest_subtitle: "Acho que não é a borracha da infância, mas quase!"
 	quest.1BA3D15FFE7DBE59.title: "Látex e Plástico? Hã?"
 	quest.1BAE1519E44E40CE.quest_desc: [
 		"Imagine o Mar Ancestral. Ok, agora remova todas as Algas e remova todos os &bGwibs&r e &bGwiblings&r. \\n\\nEsse é o Mar Morto para você!"
@@ -3885,7 +3908,7 @@
 	quest.24888CAD50B32B04.quest_subtitle: "Gerado usando um Ninho de Pedra"
 	quest.248AEF5537E48B1A.quest_subtitle: "Tier: &b4"
 	quest.24934231538B6492.quest_desc: [
-		"A Pirâmide Ancestral é uma das 3 Estruturas em &b&lThe Other&r. \\n\\nClaramente é uma Pirâmide e não, esta não tem um porão! \\n\\nEm vez disso, ela tem o Piglich.\\n"
+		"A Pirâmide Ancestral é uma das 3 Estruturas em &b&lO Outro&r. \\n\\nClaramente é uma Pirâmide e não, esta não tem um porão! \\n\\nEm vez disso, ela tem o Piglich.\\n"
 		"{image:atm:textures/questpics/allthemodium/all_pyramid.png width:200 height:100 align:center}"
 	]
 	quest.24934231538B6492.title: "Pirâmide Ancestral"
@@ -5143,14 +5166,24 @@
 	quest.30E9255DEC69C061.title: "&4Ferramentas de Supremium"
 	quest.30EA16BB8C169F86.quest_desc: ["Este é uma combinação de &6Cobre&r e &7Estanho&r! \\n\\nÉ muito usado em &7&lModern Industrialization&r! Mas em &8&lIE&r... nem tanto..."]
 	quest.30EA16BB8C169F86.title: "&6Lingote de Bronze"
-	quest.30EB438C66324213.quest_desc: ["Uma Estrela do Nether fará o que os Fragmentos de Prismarinho fazem, mas muito melhor. Os jogadores não precisam mais estar perto do spawner. Contanto que seu chunk esteja carregado, ele irá spawnar."]
-	quest.30EB438C66324213.title: "Ignorar Jogadores"
+	quest.30EB438C66324213.quest_desc: [
+		"Uma &9Estrela do Nether&r fará o que os &2Fragmentos de Prismarinho&r fazem, mas muito melhor.\\n "
+		"Os jogadores não precisam mais estar perto do spawner.\\n"
+		"Contanto que seu chunk esteja carregado, ele irá spawnar."
+	]
+	quest.30EB438C66324213.quest_subtitle: "Uma estrela Antissocial!"
+	quest.30EB438C66324213.title: "&fIgnorar Jogadores"
 	quest.30F16A6BD3C7F4FC.title: "Veio de Cassiterita"
 	quest.30F7B68093D76590.quest_desc: ["Usando frascos, Mana e reagentes em uma &aCervejaria Botânica&r, você pode criar &9Brews&r que são como Poções."]
 	quest.31094CC16E710040.quest_desc: ["O &4Pé de Cabra&r é a principal ferramenta do RailCraft. \\n\\nQuando usado em uma &5Locomotiva&r, ele mudará a direção que ela está virada. \\n\\nQuando clicado com shift, você pode conectar &5Locomotivas&r e &7Carrinhos&r. \\n\\nQuando apenas usado em &7Carrinhos&r, ele lhes dá um leve empurrão. \\n\\nE quando usado em trilhos especiais, ele muda seu modo. \\n\\nOs diferentes &4Pés de Cabra&r apenas dão aparências e danos diferentes."]
 	quest.31094CC16E710040.quest_subtitle: "\"O quê, vai me roubar?\""
-	quest.310969B8FE0A94DE.quest_desc: ["Outra mudança no jogo que Apotheosis traz é para os Spawners. Lembra de poder minerar Spawners com Toque Suave? Bem, está de volta graças ao Apotheosis! Há também muitas novas Modificações que você pode adicionar aos Spawners clicando com o botão direito em qualquer um desses itens."]
-	quest.310969B8FE0A94DE.title: "Spawners Apóticos"
+	quest.310969B8FE0A94DE.quest_desc: [
+		"Outra mudança que o &9Apotheosis&r traz para o jogo é nos &9Geradores&r.\\n"
+		"Lembra de poder minerar &9Geradores&r com &6Toque Suave&r?\\n"
+		"- Pois é, isso voltou graças ao &9Apotheosis&r!\\n"
+		"Além disso, há muitas novas Modificações que você pode adicionar aos &9Geradores&r clicando com o botão direito em qualquer um desses itens."
+	]
+	quest.310969B8FE0A94DE.title: "&9Spawners Apóticos"
 	quest.3109C8221B6FA608.quest_desc: [
 		"Usando os &aAltares do Despertar&r de &2Mystical Agriculture&r, você pode fundir blocos de Vibranium e Unobtainium."
 		""
@@ -6236,7 +6269,7 @@
 	quest.3BDB94F17765EE77.quest_subtitle: "Mais Energia do que Você Precisará"
 	quest.3BDB94F17765EE77.title: "Opções de Energia de Fim de Jogo"
 	quest.3BE5CD0C7CC4BCC6.quest_desc: [
-		"Soul Lava faz parte do &6&lAllthemodium&r. Pode ser encontrada no mundo &b&lThe Other&r muito raramente no subsolo, ou comum nas Vilas Piglich!\\n\\nPrecisamos pegar um Balde de &9Soul Lava&r e despejá-lo sobre um Ovo de Abelha Fantasma para fazer um &9Ovo de Abelha Soul Lava&r.\\n\\nDepois, será necessário esmagá-los ou cutucá-los para obter o DNA e fazer um Ovo de Spawn!  "
+		"Soul Lava faz parte do &6&lAllthemodium&r. Pode ser encontrada no mundo &b&lO Outro&r muito raramente no subsolo, ou comum nas Vilas Piglich!\\n\\nPrecisamos pegar um Balde de &9Soul Lava&r e despejá-lo sobre um Ovo de Abelha Fantasma para fazer um &9Ovo de Abelha Soul Lava&r.\\n\\nDepois, será necessário esmagá-los ou cutucá-los para obter o DNA e fazer um Ovo de Spawn!  "
 		""
 		""
 		"{image:atm:textures/questpics/soul_lava_process.png width:100 height:100 align:center}"
@@ -6476,8 +6509,8 @@
 	]
 	quest.3E1A86A6D2155B53.quest_subtitle: "Primeiro Madeira, depois Pedra... depois... o quê?"
 	quest.3E1A86A6D2155B53.title: "Conseguindo um Aprimoramento"
-	quest.3E2A411FF5B4B0E7.quest_desc: ["O Raio de Ativação é a proximidade que o Jogador (Você) deve estar do Gerador para que ele funcione. O mínimo pode ser de 1 bloco de distância e o máximo é um raio de 48 blocos."]
-	quest.3E2A411FF5B4B0E7.title: "Raio de Ativação"
+	quest.3E2A411FF5B4B0E7.quest_desc: ["O &3Alcance de Ativação&r é a distância que o Jogador (você) precisa estar do Gerador para que ele funcione. O menor valor possível é 1 bloco de distância, e o maior é um raio de 48 blocos."]
+	quest.3E2A411FF5B4B0E7.title: "&3Raio de Ativação"
 	quest.3E301F3EEC8C763A.quest_desc: [
 		"Isso pode ser usado para acelerar a taxa de crescimento de abelhas bebês ou para criar novos Ovos de Spawn."
 		""
@@ -6710,7 +6743,7 @@
 	quest.3FEA99DD35D4B7CF.quest_desc: [
 		"O &2Mystical Agriculture&r permite que você cultive a maioria dos recursos como uma Plantação! Isso inclui Diamantes, Quartzo ou até mesmo materiais de mods como os &6Metais ATM&r! "
 		""
-		"Você também precisará criar a &5Creative Essence&r a partir de Inferium, então isso é necessário!"
+		"Você também precisará criar a &5Essência Criativa&r a partir de Inferium, então isso é necessário!"
 		""
 		"{\"clickEvent\": {\"action\": \"change_page\", \"value\": \"5C764279146E5E66\"}, \"text\": \"Clique aqui para conferir a linha de missões!\", \"color\": \"#55FF55\", \"underlined\": \"true\"}"
 	]
@@ -6722,8 +6755,12 @@
 	quest.3FF97A4B5029C0E7.title: "&7Pergaminho de Projéteis de Arma"
 	quest.4007DFA7CC3A5FF2.quest_desc: ["Para evitar que esta &oseção de missões inteira&r seja coberta de aprimoramentos, dê uma olhada nos aprimoramentos da Sophisticated Backpack.\\n\\nVocê precisará fazer o equivalente do Sophisticated Storage, mas eles funcionam da mesma forma."]
 	quest.4007DFA7CC3A5FF2.quest_subtitle: "A Base para Aprimoramentos"
-	quest.40096ED0B04C3EC5.quest_desc: ["O item indispensável para todos os Geradores. Quando diz que ignora todas as condições, significa a maioria. Ignora níveis de luz, blocos necessários para a geração e biomas. Condições de espaço ainda são necessárias, como slimes precisando de uma área de 3x3 para gerar, e o mesmo vale para jogadores precisando estar por perto."]
-	quest.40096ED0B04C3EC5.title: "Ignorar Todas as Condições"
+	quest.40096ED0B04C3EC5.quest_desc: [
+		"O item indispensável para todos os &2Geradores&r. Quando diz que ignora todas as condições, significa a maioria.\\n"
+		"Ignora Níveis de Luz, Blocos necessários para a Geração e Biomas.\\n"
+		"Condições de espaço ainda são necessárias, como &aSlimes&r precisando de uma área de &a3x3&r para Gerar, e o mesmo vale para jogadores precisando estar por perto."
+	]
+	quest.40096ED0B04C3EC5.title: "&fIgnorar Todas as Condições"
 	quest.400E51BB469CB023.quest_desc: [
 		"Ainda em 2 por 1 com ZPM, mas estamos progredindo. "
 		""
@@ -7054,8 +7091,17 @@
 	quest.42D173B9FF8D16E4.quest_desc: ["Procurando por opções de energia no início do jogo? Estas são boas maneiras de começar a gerar energia.\\n\\nElas não produzem uma tonelada de energia, mas geralmente são fáceis ou baratas de obter no início do jogo!"]
 	quest.42D173B9FF8D16E4.quest_subtitle: "Energia Inicial"
 	quest.42D173B9FF8D16E4.title: "&8&lOpções de Energia de Início de Jogo"
-	quest.42D7C8CD8E6F5CD7.quest_desc: ["Ao usar uma Fruta do Coro em um Gerador, você suga as almas dos mobs que seriam gerados, deixando apenas uma casca vazia do que eles eram. Os mobs perderão toda a IA, então eles farão basicamente o que um suporte de armadura faz. Eles não podem te atingir, não podem se teletransportar, não podem se mover sozinhos. Eles ficam lá prontos para serem mortos, que emocionante!"]
-	quest.42D7C8CD8E6F5CD7.title: "Sem IA"
+	quest.42D7C8CD8E6F5CD7.quest_desc: [
+		"Ao usar uma &5Fruta do Coro&r em um &2Gerador&r, você suga as almas dos mobs que seriam gerados, restando apenas uma casca vazia do que eles costumavam ser. \\n"
+		""
+		"Os mobs perderão toda a sua &5IA&r, então basicamente agirão como um suporte de armadura. "
+		""
+		"Eles não podem te atacar, não podem se teletransportar, não podem se mover sozinhos. Eles apenas ficam lá, prontos para serem mortos... \\n"
+		""
+		"              &6Que empolgante!&r"
+	]
+	quest.42D7C8CD8E6F5CD7.quest_subtitle: "Mais inofensivos que um aldeão com medo"
+	quest.42D7C8CD8E6F5CD7.title: "&fSem IA"
 	quest.42E5B5C27799DD93.quest_desc: [
 		"&dPowah&r é exatamente o que você pensa que é: tudo sobre obter POWAH ILIMITADO!!! "
 		""
@@ -8157,7 +8203,7 @@
 	quest.4CFE097D0A8683C8.quest_desc: ["A &5Crânio de Obsidiana&r é um Elmo que, quando usado, pode protegê-lo de dano de Fogo/Lava! \\n\\nCom o tempo, ele se desgastará, e você precisará repará-lo com &5Obsidiansteel&r. \\n\\nÉ também assim que você o fabrica, um Crânio de Esqueleto com 8 &5Obsidiansteel&r."]
 	quest.4CFE097D0A8683C8.title: "&5Crânio de Obsidiana"
 	quest.4D07B0A4A2E77CDA.quest_desc: ["Entidades máximas é a quantidade de mobs que podem ser gerados por um spawner e mantidos. Se for apenas 6 entidades máximas quando 6 mobs já estão gerados, nenhum outro será gerado até que eles morram ou sejam movidos. Cada Lágrima de Ghast aumenta ou diminui em 2 Entidades. Máximo de 16 Entidades e Mínimo de 1."]
-	quest.4D07B0A4A2E77CDA.title: "Entidades Máximas"
+	quest.4D07B0A4A2E77CDA.title: "&fEntidades Máximas"
 	quest.4D0B50731FED3CEE.quest_desc: ["Para obter a Lança Crescente, você precisará fabricá-la a partir de Itens derrubados pela Monstruosidade Lunar e pelo Ódio Emaranhado, ou tê-la derrubada pela Monstruosidade Lunar. (Você terá que matá-lo de qualquer maneira, basicamente). \\n\\nVocê pode usar a Lança como um Tridente e apenas bater nos Mobs ou pode segurar o Clique Direito para ser lançado para a frente com ela. Se você atingir algum Mob com o segundo ataque, qualquer Mob próximo também sofrerá dano."]
 	quest.4D160570DC0C8898.quest_desc: [
 		"Situado além da borda do End, está o Além, um espaço completamente inevitável para aqueles construtores que querem muita área livre para trabalhar."
@@ -8499,7 +8545,7 @@
 	quest.4F5348D0C83C3B0D.quest_subtitle: "As Células do Sol"
 	quest.4F5348D0C83C3B0D.title: "Células Solares"
 	quest.4F56BFE6E4716F6D.quest_desc: [
-		"O &8&lForno a Arco&r é uma Máquina massiva e útil. Ele torna a maioria das outras Máquinas inúteis! \\n\\nPara começar, você precisará de Entrada de &cEnergia&r pelas saídas na Parte Traseira do &8&lForno a Arco&r. Ele então precisará de Combustível, que são &0Eletrodos de Grafite&r. Estes só podem ser colocados em sua GUI, não podem ser automatizados. \\n\\nVocê então precisará &6Inserir&r os &eItens&r nos Portos Superiores, perto de onde os &0Eletrodos de Grafite&r estão. Quando abastecido e ligado, ele derreterá praticamente qualquer coisa. De &7Varas de Ferro&r a &7Iron Ingots&r, de &bElmos de Aço Gelado&r a &bAço Gelado&r, de &ePicaretas de Ouro&r a &eOuro&r! \\n\\nOs &eItens&r derretidos serão &6Saída&r na Parte Traseira, abaixo das Saídas de Energia. \\n\\nEle também pode fazer Ligas de Metais!"
+		"O &8&lForno a Arco&r é uma Máquina massiva e útil. Ele torna a maioria das outras Máquinas inúteis! \\n\\nPara começar, você precisará de Entrada de &cEnergia&r pelas saídas na Parte Traseira do &8&lForno a Arco&r. Ele então precisará de Combustível, que são &0Eletrodos de Grafite&r. Estes só podem ser colocados em sua GUI, não podem ser automatizados. \\n\\nVocê então precisará &6Inserir&r os &eItens&r nos Portas Superiores, perto de onde os &0Eletrodos de Grafite&r estão. Quando abastecido e ligado, ele derreterá praticamente qualquer coisa. De &7Varas de Ferro&r a &7Iron Ingots&r, de &bElmos de Aço Gelado&r a &bAço Gelado&r, de &ePicaretas de Ouro&r a &eOuro&r! \\n\\nOs &eItens&r derretidos serão &6Saída&r na Parte Traseira, abaixo das Saídas de Energia. \\n\\nEle também pode fazer Ligas de Metais!"
 		"{@pagebreak}"
 		"A 1ª camada começa com um U feito de &8Chapa de Aço&r com o centro sendo um &7Bloco de Engenharia Pesada&r e as pontas sendo &8Blocos de Aço&r. O resto será de &8Lajes de Chapa de Aço&r com um &8Andaime de Aço&r e um Caldeirão perdidos."
 		"{image:atm:textures/questpics/immersive/immersive_arc1.png width:100 height:100 align:center}"
@@ -8524,8 +8570,8 @@
 	quest.4F6E6AF1D9E74CB7.title: "Minério de Unobtainium"
 	quest.4F7F0A5162D70082.quest_desc: ["Não se confunda, existe um &5Cubo de Energia &aCriativo&r cheio e vazio. \\n\\nOs &aCubos Vazios&r funcionam como uma Lixeira de Energia, anulando qualquer Energia que entre neles. \\n\\nOs &aCubos Cheios&r funcionam como um armazenamento infinito de energia. Você precisará de &aCubos de Energia vazios&r para fazê-lo, no entanto... e eles são caros! \\n\\nEnergizando 4 &aCubos de Energia vazios&r com uma &6&lEstrela ATM&r, você pode obter o cheio."]
 	quest.4F7F0A5162D70082.title: "&5&lCubo de Energia &aCriativo"
-	quest.4F7F8F4ED1CA0550.quest_desc: ["Uma Fogueira usada no gerador fará com que os mobs apareçam pegando fogo. Perfeito para um bom Bife."]
-	quest.4F7F8F4ED1CA0550.title: "Queimando"
+	quest.4F7F8F4ED1CA0550.quest_desc: ["Uma &cFogueira&r usada no gerador fará com que os mobs apareçam pegando fogo. Perfeito para um bom &cBife&r."]
+	quest.4F7F8F4ED1CA0550.title: "&cQueimando"
 	quest.4F84C91128C9DCED.title: "Picareta de Liga"
 	quest.4F8C6F49F9D7EE4D.quest_desc: ["Atualizando o MPIC para alcançar níveis ainda mais altos de poder!"]
 	quest.4F8E090CB349A681.title: "Veio de Bastnasita"
@@ -10174,7 +10220,7 @@
 		""
 		"Insira \"combustível\" como Carvão e ele produzirá Coque de Carvão e um subproduto."
 	]
-	quest.5ED0DA95BAE43D88.quest_desc: ["O último dos Prismas, bem, este é um &dCristal&r, mas você entendeu a ideia! \\n\\nPrimeiro, você precisará de uma Relíquia &eDivine Pact&r, que é encontrada em &b&lThe Other&r. \\n\\nEntão, você precisará de &3Fragmentos de Enderpearl&r, &5Ametista&r e Quartzo do Nether. Não se preocupe, fica mais difícil! \\n\\nAgora precisaremos de todos os tipos de Alma. Eu ensinei como obter Almas e &9Almas Corrompidas&r em outras Missões, agora vou ensinar sobre &dAlmas Encantadas&r. \\n\\nEncontre uma Alma Perdida voando pelo seu mundo, então jogue uma &bPoção de Aureal Arremessável&r nela! Então, ela se tornará uma &dAlma Perdida Encantada&r, mate-a! \\n\\nCom isso, você agora pode fazer o &dCristal&r, que pode ser aplicado a Ferramentas e Armaduras para dar-lhes Soulbound. Isso significa que quando você morrer, você reaparecerá com esses Itens em seu Inventário ainda."]
+	quest.5ED0DA95BAE43D88.quest_desc: ["O último dos Prismas, bem, este é um &dCristal&r, mas você entendeu a ideia! \\n\\nPrimeiro, você precisará de uma Relíquia &eDivine Pact&r, que é encontrada em &b&lO Outro&r. \\n\\nEntão, você precisará de &3Fragmentos de Enderpearl&r, &5Ametista&r e Quartzo do Nether. Não se preocupe, fica mais difícil! \\n\\nAgora precisaremos de todos os tipos de Alma. Eu ensinei como obter Almas e &9Almas Corrompidas&r em outras Missões, agora vou ensinar sobre &dAlmas Encantadas&r. \\n\\nEncontre uma Alma Perdida voando pelo seu mundo, então jogue uma &bPoção de Aureal Arremessável&r nela! Então, ela se tornará uma &dAlma Perdida Encantada&r, mate-a! \\n\\nCom isso, você agora pode fazer o &dCristal&r, que pode ser aplicado a Ferramentas e Armaduras para dar-lhes Soulbound. Isso significa que quando você morrer, você reaparecerá com esses Itens em seu Inventário ainda."]
 	quest.5ED0DA95BAE43D88.title: "&dCristal de Vínculo de Alma"
 	quest.5ED1896F1986BD2B.quest_desc: [
 		"Estas podem ser plantadas para cultivar &6Nuggets de Deorum&r."
@@ -11147,7 +11193,7 @@
 	quest.67C76EDD4BCCFF3F.quest_desc: ["Através do &bVínculo Superior de Strigeor&r podemos fazer uma &bGema de Alma Vazia&r. \\n\\nElas podem ser usadas para transportar Mobs com segurança, ou para fazer a &d&lAlma de Dragão&r. \\n\\nPessoalmente, acho que deveríamos fazer ambos!"]
 	quest.67C76EDD4BCCFF3F.title: "&bGema de Alma Vazia"
 	quest.67C9D2712EA1F637.title: "Tier ULV"
-	quest.67CCEFEBA4D79429.quest_desc: ["O &ePacto Divino&r é o mais difícil de obter, você precisará procurar em Vilas de Piglins e Pirâmides Ancestrais em &b&lThe Other&r para encontrá-los! \\n\\nÉ usado para criar o Cristal de Vínculo de Alma e os Multiblocos de Fim de Jogo!"]
+	quest.67CCEFEBA4D79429.quest_desc: ["O &ePacto Divino&r é o mais difícil de obter, você precisará procurar em Vilas de Piglins e Pirâmides Ancestrais em &b&lO Outro&r para encontrá-los! \\n\\nÉ usado para criar o Cristal de Vínculo de Alma e os Multiblocos de Fim de Jogo!"]
 	quest.67CCEFEBA4D79429.title: "&ePacto Divino"
 	quest.67D40A1A9332C03D.title: "Tinta &6Lendária&r"
 	quest.67D6C82D8AAE1C3B.quest_desc: ["Se você viu o que o desempacotador pode fazer, espere até ver o empacotador... Ele é limitado em suas habilidades, no entanto!"]
@@ -11440,8 +11486,8 @@
 	quest.6A452BFC8A967C39.title: "&aGarras Ferais&r"
 	quest.6A46A9F04D2A0748.quest_desc: ["Direwolf é um nome sinônimo de Minecraft Modificado e &3&lJust Dire Things&r é uma de suas criações. \\n\\nEle gira em torno de Gosma, sim, eu sei, parece tentador!"]
 	quest.6A46A9F04D2A0748.title: "&3&lJust Dire Things"
-	quest.6A497B063CF32A5C.quest_desc: ["Um Olho de Aranha Fermentado pode ser usado para aumentar a quantidade de mobs que PODEM surgir de um spawner. Os Mobs gerados são aleatórios com uma quantidade Máxima determinada pelo número. Aumenta ou diminui em 1 para cada olho até um máximo de 16."]
-	quest.6A497B063CF32A5C.title: "Contagem de Surgimento"
+	quest.6A497B063CF32A5C.quest_desc: ["O &cOlho de Aranha Fermentado&r pode ser usado para aumentar a quantidade de mobs que &6PODEM&r nascer de um gerador. Os mobs gerados são aleatórios, com uma quantidade máxima determinada pelo número. Esse valor aumenta ou diminui em 1 para cada olho, até um máximo de 16."]
+	quest.6A497B063CF32A5C.title: "&cContagem de Surgimento"
 	quest.6A4C49AE72E98727.quest_desc: [
 		"A &9Mesa de Ajustes&r é usada para aprimorar &aEquipamentos de Essência&r com &dAugments&r. "
 		""
@@ -11742,9 +11788,9 @@
 	quest.6D0876A402C22067.title: "&6Armazenamento e Manipulação de Itens"
 	quest.6D09511D64DDC282.quest_desc: ["O &dWarden&r pode ser invocado acionando um &5Sensor de Sculk&r que está perto de um &3Gritador de Sculk&r pelo menos 3 vezes.\\n\\nFato Divertido: O Warden é cego! Ele só pode encontrá-lo se ouvi-lo, então voe por aí ou se esgueire!\\n\\nDica: Não importa se você usa ataques de Longo Alcance ou Corpo a Corpo, porque ele vai encontrá-lo. E vai te acertar. Se você for muito longe, ele vai se enterrar no chão e aparecer ao seu lado! Boa sorte :D"]
 	quest.6D09511D64DDC282.title: "&5Mate o Warden"
-	quest.6D0A876D4E4D35AB.quest_desc: ["Creative Essence é necessária para criar a &6Estrela ATM&r."]
+	quest.6D0A876D4E4D35AB.quest_desc: ["Essência Criativa é necessária para criar a &6Estrela ATM&r."]
 	quest.6D0A876D4E4D35AB.quest_subtitle: "Tier: &5Criativo"
-	quest.6D0A876D4E4D35AB.title: "&5Creative Essence"
+	quest.6D0A876D4E4D35AB.title: "&5Essência Criativa"
 	quest.6D124ACF4AE80490.quest_desc: ["Com Micromísseis você pode disparar explosões de longe! Agora ninguém pode escapar!\\n\\nEstes são necessários para criar a &6Estrela ATM&r."]
 	quest.6D124ACF4AE80490.quest_subtitle: "Disparando Explosões de longe!"
 	quest.6D14ACECD2084456.quest_subtitle: "Wenge + Carvalho"
@@ -12020,7 +12066,11 @@
 	quest.6F67079A453DAABE.quest_desc: ["O &cAmuleto da Vida I&r é um item de uso único que evitará a morte. Em vez de morrer, o amuleto será consumido e você receberá regeneração de vida por um curto período de tempo.\\n\\nEstes podem ser encontrados em baús de tesouro."]
 	quest.6F67079A453DAABE.title: "&cAmuleto da Vida I"
 	quest.6F709652A2B88C78.quest_desc: ["O transmissor de energia fornece energia aos blocos dentro de seu alcance de trabalho, ele só pode aceitar energia pela parte inferior."]
-	quest.6F71FD826C29C31A.quest_desc: ["Este pode ser novo para quem retorna de versões anteriores. Usando um ovo de tartaruga em um gerador, ele só gerará versões bebês dos mobs nele. Isso só funciona com versões bebês de mobs do Vanilla, não de mods."]
+	quest.6F71FD826C29C31A.quest_desc: [
+		"Essa pode ser nova para quem está voltando de versões anteriores.\\n"
+		"Ao usar um &9Ovo de Tartaruga&r em um &6Gerador&r, ele passará a gerar apenas versões bebês dos mobs contidos nele.\\n"
+		"Isso só funciona com versões bebês dos mobs do &2Vanilla&r, não com mobs de mods."
+	]
 	quest.6F71FD826C29C31A.title: "Jovem"
 	quest.6F76DA3BBAE8337B.quest_desc: ["A melhor Armadura que podemos obter de &6&lAllthemodium&r, &5Unobtainium&r! \\n\\nAgora com 100% de Resistência a Repulsão e atributos mais altos em tudo! \\n\\nTambém precisa de &3Armadura de Vibranium&r para ser feita."]
 	quest.6F76DA3BBAE8337B.quest_subtitle: "40"
@@ -13363,7 +13413,7 @@
 	quest.7A979BEB20C9591E.quest_desc: ["Pó de Flux pode ser automatizado usando &6Productive Bees&r!\\n\\nOvos de Geração de Abelha de Redstone podem ser convertidos em Ovos de Geração de Abelha de Pó de Flux usando uma Abelha de Obsidiana."]
 	quest.7A979BEB20C9591E.title: "Pó de Flux Automatizado"
 	quest.7A9AE63998BB41FF.quest_desc: ["Para determinar quando o Gerador vai gerar, ele escolhe um número aleatório entre o atraso de geração máximo e mínimo. O Mínimo pode ser tão baixo quanto 20 e tão alto quanto 32.767. Cada pedaço de açúcar modifica o atraso mínimo para cima ou para baixo em 10."]
-	quest.7A9AE63998BB41FF.title: "Atraso Mínimo de Geração"
+	quest.7A9AE63998BB41FF.title: "&fAtraso Mínimo de Geração"
 	quest.7AADB58621BC1254.quest_desc: ["O Martelo de Forja e o Martelo economizarão muitos recursos no início do jogo, permitindo que você transforme lingotes em chapas e outras formas diferentes a um custo reduzido! Eventualmente, você usará Vapor para fazer isso por você, mas no início isso ajudará a economizar custos enquanto você trabalha em sua automação."]
 	quest.7AADB58621BC1254.title: "Forja e Martelo"
 	quest.7AAEFA2A349D3F82.quest_subtitle: "Um Auto-Criador!"
@@ -13384,7 +13434,7 @@
 	quest.7AD22973EDC05877.quest_subtitle: "Compressão Estelar"
 	quest.7AD4D212633DAEC8.quest_desc: ["Imbui uma Rajada de Mana com forças entrópicas, ou em termos simples, a transforma em uma bomba quando atinge algo que não pode receber Mana."]
 	quest.7AD83A26A52C0983.quest_desc: ["Esta essência especial é usada para fazer a &6Estrela ATM&r."]
-	quest.7AD83A26A52C0983.title: "Creative Essence"
+	quest.7AD83A26A52C0983.title: "Essência Criativa"
 	quest.7AD9DF3FFCB03495.quest_subtitle: "Nível: &a2"
 	quest.7ADE214373DE135F.quest_subtitle: "Nível: &63"
 	quest.7ADE27F9398D97F1.quest_desc: ["Esta não é diferente, por que você está verificando?"]
@@ -13900,8 +13950,8 @@
 	quest.7F64202F2C0BAD2A.quest_subtitle: "Tem energia?"
 	quest.7F67849DE9F700D8.quest_desc: ["&2Aprimoramento&r: Velocidade faz com que sua Fornalha seja mais rápida! A &bFornalha de Diamante&r irá, em vez disso, derreter a cada 40 Ticks em vez de 80 Ticks. Ao custo do dobro do uso de Combustível."]
 	quest.7F67849DE9F700D8.title: "&2Aprimoramento&r: Velocidade"
-	quest.7F6B66566C211735.quest_desc: ["Dripstone usada no gerador reduzirá a saúde máxima do mob gerado. Isso pode diminuir sua saúde para até 20%"]
-	quest.7F6B66566C211735.title: "Saúde"
+	quest.7F6B66566C211735.quest_desc: ["&3Espeleotema Pontiagudo&r usada no gerador reduzirá a &csaúde máxima&r do mob gerado. Isso pode diminuir sua saúde em até 20%"]
+	quest.7F6B66566C211735.title: "&5Saúde"
 	quest.7F7ED94590B5B857.quest_desc: ["Alguns &eFeitiços&r podem ser colocados em &7Pergaminhos&r para serem usados onde for necessário. \\n\\nPrimeiro, você precisará de um &7Pano de Feitiço&r e colocá-lo no chão. Então, faça o mesmo ritual, mas sobre o &7Pano de Feitiço&r. \\n\\nQuando todo o &4Sangue&r e &bPó&r estiverem prontos, Clique com o Botão Direito no &7Pano de Feitiço&r e BOOM &7Pergaminho&r! \\n\\nAlguns &eFeitiços&r não podem ser transformados em &7Pergaminhos&r, então não sou responsável por materiais desperdiçados por isso."]
 	quest.7F7ED94590B5B857.title: "&eFeitiços&r para levar!"
 	quest.7F85669FEA41CD97.quest_desc: [
@@ -14218,7 +14268,7 @@
 	task.2905C4386A407A1E.title: "Uma Interface da Turbina"
 	task.293B86458729C26E.title: "TodosOsDireitosReservados"
 	task.2962DF63EE602AD6.title: "Picaretas de Ferro do Mekanism"
-	task.298EA976A7627731.title: "Localizar uma Cidade Ancestral"
+	task.298EA976A7627731.title: "Localize uma Cidade Ancestral"
 	task.299DE26FF7293F34.title: "Electrum Comb"
 	task.29D6CA9A77ACACC6.title: "Observe o Uranium Oxide em uma Máquina"
 	task.29F056B23D70B9F7.title: "Quests By AllTheMods"
