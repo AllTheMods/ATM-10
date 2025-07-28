@@ -65,8 +65,13 @@
 			y: -2.5d
 		}
 	]
-	order_index: 7
-	quest_links: [ ]
+	order_index: 8
+	quest_links: [{
+		id: "5AFC27C7C61DB808"
+		linked_quest: "017194E29D6745E8"
+		x: 7.0d
+		y: -5.0d
+	}]
 	quests: [
 		{
 			id: "0C9F9196CA49FF8D"
@@ -106,7 +111,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["0C9F9196CA49FF8D"]
+			dependencies: [
+				"0C9F9196CA49FF8D"
+				"58819CE09A648A43"
+			]
 			id: "6134991F25B25B42"
 			rewards: [{
 				count: 4
@@ -126,10 +134,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"0C9F9196CA49FF8D"
-				"6134991F25B25B42"
-			]
+			dependencies: ["0C9F9196CA49FF8D"]
 			id: "58819CE09A648A43"
 			rewards: [{
 				id: "114D2D6FAA32983E"
@@ -412,7 +417,6 @@
 			y: -8.5d
 		}
 		{
-			dependencies: ["48869FD66E86EEAB"]
 			id: "2A69272FD3C57924"
 			rewards: [{
 				id: "0296993AB9BC0BD8"
@@ -877,7 +881,7 @@
 				item: { count: 1, id: "oritech:machine_fluid_addon" }
 				type: "item"
 			}]
-			x: 17.5d
+			x: 15.5d
 			y: -1.0d
 		}
 		{
@@ -889,7 +893,7 @@
 				item: { count: 1, id: "oritech:machine_capacitor_addon" }
 				type: "item"
 			}]
-			x: 17.5d
+			x: 15.5d
 			y: 0.5d
 		}
 		{
@@ -901,7 +905,7 @@
 				item: { count: 1, id: "oritech:machine_acceptor_addon" }
 				type: "item"
 			}]
-			x: 17.5d
+			x: 15.5d
 			y: 2.0d
 		}
 		{
