@@ -93,6 +93,14 @@ ServerEvents.tags('item', allthemods => {
 
     // Forbiden Arcanus Stellar Blacklist
     allthemods.add('forbidden_arcanus:modifier/eternal_incompatible', 'ars_additions:undying_charm')
+
+    // Overdrive
+    allthemods.add("industrialization_overdrive:multi_processing_array_blacklist", [
+      "modern_industrialization:auto_forge",
+      "modern_industrialization:star_altar",
+      "modern_industrialization:runic_crucible",
+      "modern_industrialization:runic_enchanter"
+    ])
 })
 
 ServerEvents.tags('entity_type', allthemods => {
