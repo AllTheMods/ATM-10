@@ -1606,199 +1606,6 @@
 		}
 		{
 			dependencies: ["15849165CA8C00F9"]
-			hide_until_deps_complete: true
-			id: "32543DA54C684E4E"
-			rewards: [{
-				count: 24
-				id: "574745880EA0A792"
-				item: {
-					count: 1
-					id: "modular_machinery_reborn:modularium"
-				}
-				type: "item"
-			}]
-			shape: "square"
-			tasks: [{
-				id: "05C1740D4583F594"
-				item: { count: 1, id: "modular_machinery_reborn:modularium" }
-				type: "item"
-			}]
-			x: 27.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["32543DA54C684E4E"]
-			id: "1D8C7F3965CAF6FA"
-			rewards: [{
-				count: 4
-				id: "0586E47C4181D878"
-				item: {
-					count: 1
-					id: "modular_machinery_reborn:casing_plain"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "592472BB22FCD287"
-				item: { count: 1, id: "modular_machinery_reborn:casing_plain" }
-				type: "item"
-			}]
-			x: 29.0d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"4E014B495668A601"
-				"67258590FA14BE44"
-				"0DC0E236C8213050"
-				"0447551EF7FB171B"
-				"1D8C7F3965CAF6FA"
-			]
-			hide_dependent_lines: true
-			icon: {
-				components: {
-					"modular_machinery_reborn:machine": "atm:auto_hepheastus_forge"
-				}
-				id: "modular_machinery_reborn:controller"
-			}
-			id: "3162ECE7625E1629"
-			rewards: [
-				{
-					count: 32
-					id: "0280142691A5E28E"
-					item: {
-						count: 1
-						id: "forbidden_arcanus:arcane_crystal"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "1EF4B60D9B87ED2D"
-					item: {
-						count: 1
-						id: "forbidden_arcanus:soul"
-					}
-					type: "item"
-				}
-				{
-					id: "2CF9F8520DB350D8"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-				{
-					count: 5
-					id: "4513556A9BE62D51"
-					item: {
-						count: 1
-						id: "evilcraft:condensed_blood"
-					}
-					type: "item"
-				}
-			]
-			shape: "hexagon"
-			size: 2.5d
-			tasks: [
-				{
-					id: "6308B5E55946CBF1"
-					item: { components: { "modular_machinery_reborn:machine": "atm:auto_hepheastus_forge" }, count: 1, id: "modular_machinery_reborn:controller" }
-					type: "item"
-				}
-				{
-					id: "70AC9587589F2D33"
-					item: { count: 1, id: "forbidden_arcanus:hephaestus_forge_tier_5" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "3A287C5F8D5F6E4A"
-					item: { count: 8, id: "forbidden_arcanus:darkstone_pedestal" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "38B1DB8C6867AD92"
-					item: { count: 8, id: "forbidden_arcanus:arcane_crystal_obelisk" }
-					type: "item"
-				}
-				{
-					count: 24L
-					id: "55C2F4241A7EB4B6"
-					item: { count: 24, id: "forbidden_arcanus:polished_darkstone_slab" }
-					type: "item"
-				}
-				{
-					count: 28L
-					id: "62EC486C004B4ACC"
-					item: { count: 28, id: "forbidden_arcanus:polished_darkstone_stairs" }
-					type: "item"
-				}
-				{
-					count: 68L
-					id: "5E2CF2A49388EE00"
-					item: { count: 68, id: "forbidden_arcanus:polished_darkstone" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "127BEA0593DBF8F6"
-					item: { count: 4, id: "forbidden_arcanus:chiseled_arcane_polished_darkstone" }
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "4F06BEBEE9552108"
-					item: { count: 9, id: "forbidden_arcanus:gilded_chiseled_polished_darkstone" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "694F4AD31750F7A4"
-					item: { count: 8, id: "forbidden_arcanus:arcane_polished_darkstone" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "15A652EC9E532F57"
-					item: { count: 4, id: "forbidden_arcanus:arcane_crystal_block" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "07B372BEFF13052E"
-					item: { count: 8, id: "forbidden_arcanus:rune_block" }
-					type: "item"
-				}
-				{
-					count: 44L
-					id: "279161814D29EF32"
-					item: { count: 44, id: "modular_machinery_reborn:casing_plain" }
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "222C8FBCA4BF1463"
-					item: { count: 9, id: "modular_machinery_reborn:casing_gearbox" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "0A301CA5023D5B45"
-					item: { count: 4, id: "modular_machinery_reborn:casing_vent" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "6FD9D45CC137E967"
-					item: { count: 8, id: "modular_machinery_reborn:casing_reinforced" }
-					type: "item"
-				}
-			]
-			x: 31.5d
-			y: -1.0d
-		}
-		{
-			dependencies: ["15849165CA8C00F9"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			id: "3DF1435A15515DA9"
@@ -1918,10 +1725,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"1D8C7F3965CAF6FA"
-				"15849165CA8C00F9"
-			]
+			dependencies: ["15849165CA8C00F9"]
 			hide_dependency_lines: true
 			hide_until_deps_complete: true
 			icon: {
@@ -2118,7 +1922,9 @@
 				"1D94F59F13667DCF"
 				"3DF1435A15515DA9"
 				"798B592E956AD28C"
+				"0D61473D7A09CD48"
 			]
+			hide_until_deps_complete: true
 			id: "0DC0E236C8213050"
 			rewards: [{
 				count: 3
@@ -2143,7 +1949,9 @@
 				"798B592E956AD28C"
 				"12256A90B1CE3F90"
 				"0BCC79C1D002F532"
+				"0D61473D7A09CD48"
 			]
+			hide_until_deps_complete: true
 			id: "67258590FA14BE44"
 			rewards: [{
 				count: 3
@@ -2164,7 +1972,11 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["3C5A5432E6B1EF9E"]
+			dependencies: [
+				"3C5A5432E6B1EF9E"
+				"0D61473D7A09CD48"
+			]
+			hide_until_deps_complete: true
 			id: "0447551EF7FB171B"
 			rewards: [{
 				count: 3
@@ -2185,7 +1997,11 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["0C25F73C0E0FB22A"]
+			dependencies: [
+				"0C25F73C0E0FB22A"
+				"0D61473D7A09CD48"
+			]
+			hide_until_deps_complete: true
 			id: "4E014B495668A601"
 			rewards: [{
 				count: 3
@@ -2204,6 +2020,58 @@
 			}]
 			x: 30.5d
 			y: 0.5d
+		}
+		{
+			dependencies: ["15849165CA8C00F9"]
+			hide_until_deps_complete: true
+			id: "0D61473D7A09CD48"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "04FDBB71CF4A7948"
+				table_id: 5196609362437981520L
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0912CAC19BBA29D1"
+				item: { count: 1, id: "modern_industrialization:auto_forge" }
+				type: "item"
+			}]
+			x: 31.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0D61473D7A09CD48"]
+			id: "3B5DEB942752B3BF"
+			rewards: [
+				{
+					count: 4
+					id: "6AD7085528178C32"
+					item: {
+						count: 1
+						id: "modern_industrialization:advanced_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "79E1FB97671560EF"
+					item: {
+						count: 1
+						id: "enderio:sentient_ender"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.3d
+			tasks: [{
+				id: "0D1806A422DCCE39"
+				item: { components: { "ftbfiltersystem:filter": "or(item(forbidden_arcanus:corrupted_arcane_crystal)item(modern_industrialization:turbo_upgrade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 34.5d
+			y: -1.0d
 		}
 	]
 }
