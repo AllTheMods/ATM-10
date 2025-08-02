@@ -503,7 +503,7 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			icon: {
 				id: "regions_unexplored:ash"
@@ -522,7 +522,7 @@
 			y: 17.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:quartz"
@@ -640,7 +640,7 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:clay_ball"
@@ -1215,7 +1215,7 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			icon: {
 				id: "pamhc2foodcore:chocolatebaritem"
@@ -1234,7 +1234,7 @@
 			y: 18.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:blue_dye"
@@ -1773,7 +1773,7 @@
 			y: 20.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			icon: {
 				id: "regions_unexplored:maple_leaf_pile"
@@ -1792,7 +1792,7 @@
 			y: 17.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			icon: {
 				id: "luminax:red_luminax_block"
@@ -1811,7 +1811,7 @@
 			y: 22.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:wooden_sword"
@@ -1830,7 +1830,7 @@
 			y: 21.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:sugar_cane"
@@ -1849,7 +1849,7 @@
 			y: 21.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			id: "40E4F1172A164DD1"
 			rewards: [{
@@ -1867,7 +1867,7 @@
 			y: 23.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:snowball"
@@ -1886,7 +1886,7 @@
 			y: 19.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:yellow_dye"
@@ -1905,7 +1905,7 @@
 			y: 20.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:zombie_head"
@@ -2467,7 +2467,7 @@
 			y: 22.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:soul_sand"
@@ -2487,7 +2487,7 @@
 			y: 22.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:magma_block"
@@ -2508,7 +2508,7 @@
 			y: 17.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			icon: {
 				id: "productivebees:treat_on_a_stick"
@@ -2535,7 +2535,7 @@
 			y: 20.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			icon: {
 				id: "minecraft:iron_shovel"
@@ -3292,6 +3292,7 @@
 			tasks: [{
 				id: "12599B994EC77977"
 				item: { components: { "productivebees:bee_type": "productivebees:sky_steel" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 0.0d
@@ -3309,7 +3310,7 @@
 			y: 14.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3325,13 +3326,14 @@
 			tasks: [{
 				id: "48A2F90949FB7EC9"
 				item: { components: { "productivebees:bee_type": "productivebees:lava" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 10.5d
 			y: 17.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3347,13 +3349,14 @@
 			tasks: [{
 				id: "41351D7240292847"
 				item: { components: { "productivebees:bee_type": "productivebees:uraninite" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -2.0d
 			y: 23.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3369,13 +3372,14 @@
 			tasks: [{
 				id: "0E325B0ADF203F38"
 				item: { components: { "productivebees:bee_type": "productivebees:energized_steel" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -1.0d
 			y: 24.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3391,13 +3395,14 @@
 			tasks: [{
 				id: "49D76998A43273C1"
 				item: { components: { "productivebees:bee_type": "productivebees:blazing_crystal" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 1.0d
 			y: 24.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3413,13 +3418,14 @@
 			tasks: [{
 				id: "3BADC91DCAA52853"
 				item: { components: { "productivebees:bee_type": "productivebees:niotic_crystal" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 2.0d
 			y: 23.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3435,13 +3441,14 @@
 			tasks: [{
 				id: "2487C037A5AADC19"
 				item: { components: { "productivebees:bee_type": "productivebees:spirited_crystal" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 2.0d
 			y: 24.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3457,13 +3464,14 @@
 			tasks: [{
 				id: "1D30DF8E4FE2516B"
 				item: { components: { "productivebees:bee_type": "productivebees:nitro_crystal" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 0.0d
 			y: 24.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3479,13 +3487,14 @@
 			tasks: [{
 				id: "38450A89EE1B9591"
 				item: { components: { "productivebees:bee_type": "productivebees:arcane" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 6.0d
 			y: 16.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3501,13 +3510,14 @@
 			tasks: [{
 				id: "6B592E07B3F0D879"
 				item: { components: { "productivebees:bee_type": "productivebees:sky_osmium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -2.0d
 			y: 24.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3523,13 +3533,14 @@
 			tasks: [{
 				id: "1237E333E9A8B717"
 				item: { components: { "productivebees:bee_type": "productivebees:sulfur" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -2.0d
 			y: 25.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3545,13 +3556,14 @@
 			tasks: [{
 				id: "544C1B8DFB239CCA"
 				item: { components: { "productivebees:bee_type": "productivebees:crimson_iron" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -1.0d
 			y: 26.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3567,13 +3579,14 @@
 			tasks: [{
 				id: "6D7CE2D54977D44B"
 				item: { components: { "productivebees:bee_type": "productivebees:uru_metal" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 1.0d
 			y: 26.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3589,13 +3602,14 @@
 			tasks: [{
 				id: "5FA942A9356D08CB"
 				item: { components: { "productivebees:bee_type": "productivebees:flux" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 2.0d
 			y: 25.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3611,13 +3625,14 @@
 			tasks: [{
 				id: "1F1B3799948F0CCE"
 				item: { components: { "productivebees:bee_type": "productivebees:stellarite" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 1.0d
 			y: 19.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3633,13 +3648,14 @@
 			tasks: [{
 				id: "733ED19C9DA65FA9"
 				item: { components: { "productivebees:bee_type": "productivebees:redstone_crystal" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -1.0d
 			y: 19.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3655,13 +3671,14 @@
 			tasks: [{
 				id: "504CD35693E1D00D"
 				item: { components: { "productivebees:bee_type": "productivebees:quartz_enriched_iron" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -1.0d
 			y: 21.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3677,13 +3694,14 @@
 			tasks: [{
 				id: "768328EACCBF6754"
 				item: { components: { "productivebees:bee_type": "productivebees:experience" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 1.0d
 			y: 21.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3699,13 +3717,14 @@
 			tasks: [{
 				id: "4F2AC1AFF77A052A"
 				item: { components: { "productivebees:bee_type": "productivebees:super_experience" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 1.0d
 			y: 23.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3721,13 +3740,14 @@
 			tasks: [{
 				id: "5ECB6A6341889839"
 				item: { components: { "productivebees:bee_type": "productivebees:spacial" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -1.0d
 			y: 23.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3743,13 +3763,14 @@
 			tasks: [{
 				id: "4814F40AAEFE50B4"
 				item: { components: { "productivebees:bee_type": "productivebees:manganese" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -2.0d
 			y: 26.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3765,13 +3786,14 @@
 			tasks: [{
 				id: "343F5CE5124C58E4"
 				item: { components: { "productivebees:bee_type": "productivebees:monazite" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -1.0d
 			y: 27.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3787,13 +3809,14 @@
 			tasks: [{
 				id: "12C532235F31D1E0"
 				item: { components: { "productivebees:bee_type": "productivebees:antimony" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 0.0d
 			y: 25.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3809,13 +3832,14 @@
 			tasks: [{
 				id: "06BE87B101BE8F8A"
 				item: { components: { "productivebees:bee_type": "productivebees:chromium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 1.0d
 			y: 27.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3831,13 +3855,14 @@
 			tasks: [{
 				id: "6E847E67C6408FD8"
 				item: { components: { "productivebees:bee_type": "productivebees:beryllium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 2.0d
 			y: 26.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3853,13 +3878,14 @@
 			tasks: [{
 				id: "270C7058C51FE6CE"
 				item: { components: { "productivebees:bee_type": "productivebees:compressed_iron" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 1.0d
 			y: 25.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3875,13 +3901,14 @@
 			tasks: [{
 				id: "187A3F4ED46B2D6D"
 				item: { components: { "productivebees:bee_type": "productivebees:titanium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 0.0d
 			y: 27.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3897,13 +3924,14 @@
 			tasks: [{
 				id: "45D4C7CD808F5038"
 				item: { components: { "productivebees:bee_type": "productivebees:inferium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -2.0d
 			y: 27.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3919,13 +3947,14 @@
 			tasks: [{
 				id: "27264B705D5F75DB"
 				item: { components: { "productivebees:bee_type": "productivebees:prudentium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -1.0d
 			y: 28.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3941,13 +3970,14 @@
 			tasks: [{
 				id: "127651D10332E2CB"
 				item: { components: { "productivebees:bee_type": "productivebees:tertium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 0.0d
 			y: 28.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3963,13 +3993,14 @@
 			tasks: [{
 				id: "6074407A169BBC27"
 				item: { components: { "productivebees:bee_type": "productivebees:imperium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 1.0d
 			y: 28.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -3985,13 +4016,14 @@
 			tasks: [{
 				id: "5130318378870692"
 				item: { components: { "productivebees:bee_type": "productivebees:awakened_supremium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 0.0d
 			y: 29.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4007,13 +4039,14 @@
 			tasks: [{
 				id: "6B03F43CA0B09C58"
 				item: { components: { "productivebees:bee_type": "productivebees:insanium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -1.0d
 			y: 29.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4029,13 +4062,14 @@
 			tasks: [{
 				id: "1E4EDAB9526D9CC3"
 				item: { components: { "productivebees:bee_type": "productivebees:soulium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 1.0d
 			y: 29.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4051,13 +4085,14 @@
 			tasks: [{
 				id: "646A4E41C3DC3065"
 				item: { components: { "productivebees:bee_type": "productivebees:rune" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -1.0d
 			y: 25.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4073,13 +4108,14 @@
 			tasks: [{
 				id: "5F805C40CF18FAEF"
 				item: { components: { "productivebees:bee_type": "productivebees:ferricore" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 3.0d
 			y: 25.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4095,13 +4131,14 @@
 			tasks: [{
 				id: "43F015DD4F9901B1"
 				item: { components: { "productivebees:bee_type": "productivebees:blazegold" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 4.0d
 			y: 25.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4117,13 +4154,14 @@
 			tasks: [{
 				id: "3C1968E833D31EFA"
 				item: { components: { "productivebees:bee_type": "productivebees:celestigem" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 5.0d
 			y: 25.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4139,13 +4177,14 @@
 			tasks: [{
 				id: "043209D260360C6B"
 				item: { components: { "productivebees:bee_type": "productivebees:eclipsealloy" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 6.0d
 			y: 25.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4161,13 +4200,14 @@
 			tasks: [{
 				id: "60D7E15CD22A5776"
 				item: { components: { "productivebees:bee_type": "productivebees:time_crystal" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 7.0d
 			y: 25.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4183,13 +4223,14 @@
 			tasks: [{
 				id: "051334CB867AB795"
 				item: { components: { "productivebees:bee_type": "productivebees:air_essence" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 3.5d
 			y: 26.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4205,13 +4246,14 @@
 			tasks: [{
 				id: "038816EB13D85540"
 				item: { components: { "productivebees:bee_type": "productivebees:water_essence" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 4.5d
 			y: 26.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4227,13 +4269,14 @@
 			tasks: [{
 				id: "583B01396DBBAECA"
 				item: { components: { "productivebees:bee_type": "productivebees:fire_essence" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 5.5d
 			y: 26.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4249,13 +4292,14 @@
 			tasks: [{
 				id: "00ED4CA6F2A559FA"
 				item: { components: { "productivebees:bee_type": "productivebees:earth_essence" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 6.5d
 			y: 26.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4271,13 +4315,14 @@
 			tasks: [{
 				id: "5FC817E1EAC1E8DA"
 				item: { components: { "productivebees:bee_type": "productivebees:dark_gem" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -3.0d
 			y: 25.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4293,13 +4338,14 @@
 			tasks: [{
 				id: "557E3C9E965DAAB2"
 				item: { components: { "productivebees:bee_type": "productivebees:fire_dragonsteel" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -4.0d
 			y: 25.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4315,13 +4361,14 @@
 			tasks: [{
 				id: "44659B4B22DDB519"
 				item: { components: { "productivebees:bee_type": "productivebees:ice_dragonsteel" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -5.0d
 			y: 25.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4337,13 +4384,14 @@
 			tasks: [{
 				id: "4D6ED5F13C898C79"
 				item: { components: { "productivebees:bee_type": "productivebees:lightning_dragonsteel" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -6.0d
 			y: 25.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4359,13 +4407,14 @@
 			tasks: [{
 				id: "1A62D744CFE59EEA"
 				item: { components: { "productivebees:bee_type": "productivebees:entro" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -7.0d
 			y: 25.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4381,13 +4430,14 @@
 			tasks: [{
 				id: "59A6D914642D32B3"
 				item: { components: { "productivebees:bee_type": "productivebees:infinity" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -3.5d
 			y: 26.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4403,13 +4453,14 @@
 			tasks: [{
 				id: "47BAB34821C8DA2E"
 				item: { components: { "productivebees:bee_type": "productivebees:graphite" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -4.5d
 			y: 26.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4425,13 +4476,14 @@
 			tasks: [{
 				id: "3943B4B5DE8F0DD1"
 				item: { components: { "productivebees:bee_type": "productivebees:cyanite" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -5.5d
 			y: 26.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4447,13 +4499,14 @@
 			tasks: [{
 				id: "655B8EE92E304C2D"
 				item: { components: { "productivebees:bee_type": "productivebees:blutonium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -6.5d
 			y: 26.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4469,13 +4522,14 @@
 			tasks: [{
 				id: "54C932E82A676099"
 				item: { components: { "productivebees:bee_type": "productivebees:ludicrite" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -7.5d
 			y: 26.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4491,13 +4545,14 @@
 			tasks: [{
 				id: "32182E312A238B4C"
 				item: { components: { "productivebees:bee_type": "productivebees:magentite" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -8.0d
 			y: 25.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4513,13 +4568,14 @@
 			tasks: [{
 				id: "7B86DEFAFADF2867"
 				item: { components: { "productivebees:bee_type": "productivebees:ridiculite" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -8.5d
 			y: 26.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4535,13 +4591,14 @@
 			tasks: [{
 				id: "40825247F787611F"
 				item: { components: { "productivebees:bee_type": "productivebees:inanite" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -9.0d
 			y: 25.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4557,13 +4614,14 @@
 			tasks: [{
 				id: "65D734C52D618E50"
 				item: { components: { "productivebees:bee_type": "productivebees:fluorite" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 8.0d
 			y: 25.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4579,13 +4637,14 @@
 			tasks: [{
 				id: "1D3D7E4EB0115D8B"
 				item: { components: { "productivebees:bee_type": "productivebees:wasted_radioactive" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 7.5d
 			y: 26.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4601,13 +4660,14 @@
 			tasks: [{
 				id: "31962FC969C944A2"
 				item: { components: { "productivebees:bee_type": "productivebees:lithium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 9.0d
 			y: 25.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4623,13 +4683,14 @@
 			tasks: [{
 				id: "0CAAB8353944D6D0"
 				item: { components: { "productivebees:bee_type": "productivebees:refined_obsidian" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 8.5d
 			y: 26.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4645,13 +4706,14 @@
 			tasks: [{
 				id: "070926B416ED07FF"
 				item: { components: { "productivebees:bee_type": "productivebees:refined_glowstone" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 9.5d
 			y: 26.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4667,13 +4729,14 @@
 			tasks: [{
 				id: "29095E2123F8A1BF"
 				item: { components: { "productivebees:bee_type": "productivebees:bloody" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 8.5d
 			y: 24.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4689,13 +4752,14 @@
 			tasks: [{
 				id: "23B7842BA790C6E3"
 				item: { components: { "productivebees:bee_type": "productivebees:blazing" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -10.0d
 			y: 25.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4711,13 +4775,14 @@
 			tasks: [{
 				id: "4199972914998BB4"
 				item: { components: { "productivebees:bee_type": "productivebees:breeze" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 10.0d
 			y: 25.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4733,13 +4798,14 @@
 			tasks: [{
 				id: "075AE7405B546B33"
 				item: { components: { "productivebees:bee_type": "productivebees:sculk" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -9.5d
 			y: 24.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4755,13 +4821,14 @@
 			tasks: [{
 				id: "246F829AEDCD224C"
 				item: { components: { "productivebees:bee_type": "productivebees:oily" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 9.5d
 			y: 24.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4777,13 +4844,14 @@
 			tasks: [{
 				id: "441C3200B68E54B0"
 				item: { components: { "productivebees:bee_type": "productivebees:sky_ingot" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -8.5d
 			y: 24.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4799,13 +4867,14 @@
 			tasks: [{
 				id: "20A7F62EEC3C6027"
 				item: { components: { "productivebees:bee_type": "productivebees:tainted_gold" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -10.5d
 			y: 24.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4821,13 +4890,14 @@
 			tasks: [{
 				id: "056002F20E08F091"
 				item: { components: { "productivebees:bee_type": "productivebees:infused_iron" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -8.5d
 			y: 23.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4843,13 +4913,14 @@
 			tasks: [{
 				id: "5771733193B8182E"
 				item: { components: { "productivebees:bee_type": "productivebees:ether_gas" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -10.5d
 			y: 23.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4865,13 +4936,14 @@
 			tasks: [{
 				id: "205D3555947105A9"
 				item: { components: { "productivebees:bee_type": "productivebees:insanite" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -9.5d
 			y: 26.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4887,13 +4959,14 @@
 			tasks: [{
 				id: "53B34960A7D288A2"
 				item: { components: { "productivebees:bee_type": "productivebees:menril" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 10.5d
 			y: 24.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4909,13 +4982,14 @@
 			tasks: [{
 				id: "39C71739102E4DA3"
 				item: { components: { "productivebees:bee_type": "productivebees:silicon" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 8.5d
 			y: 23.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4931,13 +5005,14 @@
 			tasks: [{
 				id: "21F42FED104DAAD4"
 				item: { components: { "productivebees:bee_type": "productivebees:hop_graphite" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 10.5d
 			y: 23.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4953,13 +5028,14 @@
 			tasks: [{
 				id: "77E4F9C6DB9F7164"
 				item: { components: { "productivebees:bee_type": "productivebees:rose_quartz" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 9.5d
 			y: 22.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4975,13 +5051,14 @@
 			tasks: [{
 				id: "5EF73DBB90394861"
 				item: { components: { "productivebees:bee_type": "productivebees:arcane_essence" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -9.5d
 			y: 22.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -4997,13 +5074,14 @@
 			tasks: [{
 				id: "6146BFBBAB79D46B"
 				item: { components: { "productivebees:bee_type": "productivebees:supremium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 2.0d
 			y: 27.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5019,13 +5097,14 @@
 			tasks: [{
 				id: "1A4FA075F64B4B36"
 				item: { components: { "productivebees:bee_type": "productivebees:deorum" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -8.5d
 			y: 22.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5041,13 +5120,14 @@
 			tasks: [{
 				id: "17D6DDC91314D567"
 				item: { components: { "productivebees:bee_type": "productivebees:dark_steel" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -10.5d
 			y: 22.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5063,13 +5143,14 @@
 			tasks: [{
 				id: "23990980C3CC2B9E"
 				item: { components: { "productivebees:bee_type": "productivebees:energetic_alloy" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -8.5d
 			y: 21.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5085,13 +5166,14 @@
 			tasks: [{
 				id: "175934F1753DCA3D"
 				item: { components: { "productivebees:bee_type": "productivebees:soularium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -10.5d
 			y: 21.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5107,13 +5189,14 @@
 			tasks: [{
 				id: "7EA1558DA5C148BD"
 				item: { components: { "productivebees:bee_type": "productivebees:redstone_alloy" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -10.5d
 			y: 20.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5129,13 +5212,14 @@
 			tasks: [{
 				id: "4465AFD9F6A30EFD"
 				item: { components: { "productivebees:bee_type": "productivebees:end_steel" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -8.5d
 			y: 20.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5151,13 +5235,14 @@
 			tasks: [{
 				id: "285F60B54ADB5273"
 				item: { components: { "productivebees:bee_type": "productivebees:conductive_alloy" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 8.5d
 			y: 22.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5173,13 +5258,14 @@
 			tasks: [{
 				id: "52213CAAC7B43162"
 				item: { components: { "productivebees:bee_type": "productivebees:copper_alloy" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 10.5d
 			y: 22.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5195,13 +5281,14 @@
 			tasks: [{
 				id: "1900643544CEF8F3"
 				item: { components: { "productivebees:bee_type": "productivebees:vibrant_alloy" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 8.5d
 			y: 21.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5217,13 +5304,14 @@
 			tasks: [{
 				id: "0707EB9CA86A52AC"
 				item: { components: { "productivebees:bee_type": "productivebees:pulsating_alloy" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 10.5d
 			y: 21.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5239,13 +5327,14 @@
 			tasks: [{
 				id: "40C0F6F01D2D2346"
 				item: { components: { "productivebees:bee_type": "productivebees:grave" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 8.5d
 			y: 20.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5261,13 +5350,14 @@
 			tasks: [{
 				id: "49F034204B75FF3D"
 				item: { components: { "productivebees:bee_type": "productivebees:iesnium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 10.5d
 			y: 20.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5283,13 +5373,14 @@
 			tasks: [{
 				id: "79B59DEBAF9B75C6"
 				item: { components: { "productivebees:bee_type": "productivebees:tea" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 9.5d
 			y: 20.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5305,13 +5396,14 @@
 			tasks: [{
 				id: "721F87434ECF59E2"
 				item: { components: { "productivebees:bee_type": "productivebees:black_quartz" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -9.5d
 			y: 20.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5327,13 +5419,14 @@
 			tasks: [{
 				id: "591B132D28D8D75D"
 				item: { components: { "productivebees:bee_type": "productivebees:prismarine" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 8.5d
 			y: 19.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5349,13 +5442,14 @@
 			tasks: [{
 				id: "172C9DA04257D5BB"
 				item: { components: { "productivebees:bee_type": "productivebees:plastic" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 10.5d
 			y: 19.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5377,7 +5471,7 @@
 			y: 18.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5393,13 +5487,14 @@
 			tasks: [{
 				id: "68A3F9A74575FFAA"
 				item: { components: { "productivebees:bee_type": "productivebees:utheric" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 10.5d
 			y: 18.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5415,13 +5510,14 @@
 			tasks: [{
 				id: "6A1032C05E7555A8"
 				item: { components: { "productivebees:bee_type": "productivebees:regalium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 9.5d
 			y: 18.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5437,13 +5533,14 @@
 			tasks: [{
 				id: "22F147E40C3A7A7D"
 				item: { components: { "productivebees:bee_type": "productivebees:forgotten" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -10.5d
 			y: 19.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5459,13 +5556,14 @@
 			tasks: [{
 				id: "395BD3CD6324B733"
 				item: { components: { "productivebees:bee_type": "productivebees:cloggrum" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -8.5d
 			y: 19.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5481,13 +5579,14 @@
 			tasks: [{
 				id: "4078067ED75C506E"
 				item: { components: { "productivebees:bee_type": "productivebees:froststeel" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -9.5d
 			y: 18.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5503,13 +5602,14 @@
 			tasks: [{
 				id: "56CD62A93F21828E"
 				item: { components: { "productivebees:bee_type": "productivebees:arcane_crystal" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -10.5d
 			y: 18.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5525,13 +5625,14 @@
 			tasks: [{
 				id: "388AE1A7CEA324DC"
 				item: { components: { "productivebees:bee_type": "productivebees:dimensional_shard" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -5.0d
 			y: 19.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5547,13 +5648,14 @@
 			tasks: [{
 				id: "197C43E679F30D5A"
 				item: { components: { "productivebees:bee_type": "productivebees:benitoite_crystal" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -5.0d
 			y: 21.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5569,13 +5671,14 @@
 			tasks: [{
 				id: "70C7078E8E2FDFED"
 				item: { components: { "productivebees:bee_type": "productivebees:anglesite_crystal" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 5.0d
 			y: 19.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5591,13 +5694,14 @@
 			tasks: [{
 				id: "58A7E4DD511FF23A"
 				item: { components: { "productivebees:bee_type": "productivebees:depth_ingot" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 5.0d
 			y: 21.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5613,13 +5717,14 @@
 			tasks: [{
 				id: "74EC41D4632076FD"
 				item: { components: { "productivebees:bee_type": "productivebees:biosteel" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -8.5d
 			y: 18.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5635,13 +5740,14 @@
 			tasks: [{
 				id: "166CF1C4C89BA227"
 				item: { components: { "productivebees:bee_type": "productivebees:energite" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -6.0d
 			y: 16.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5657,13 +5763,14 @@
 			tasks: [{
 				id: "4F8210935F06822A"
 				item: { components: { "productivebees:bee_type": "productivebees:duratium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -6.0d
 			y: 15.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5679,13 +5786,14 @@
 			tasks: [{
 				id: "6674F55EF313BFFF"
 				item: { components: { "productivebees:bee_type": "productivebees:fluxite" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -5.0d
 			y: 15.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5701,13 +5809,14 @@
 			tasks: [{
 				id: "008C03517817C239"
 				item: { components: { "productivebees:bee_type": "productivebees:prometheum" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -4.0d
 			y: 16.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5730,13 +5839,14 @@
 			tasks: [{
 				id: "5C2FCAD6A5889DCC"
 				item: { components: { "productivebees:bee_type": "productivebees:strange_matter" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -4.0d
 			y: 15.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5752,13 +5862,14 @@
 			tasks: [{
 				id: "150FE2E917C5B19E"
 				item: { components: { "productivebees:bee_type": "productivebees:sheol_fire" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 4.0d
 			y: 16.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5774,13 +5885,14 @@
 			tasks: [{
 				id: "2DD3804E11DF22A0"
 				item: { components: { "productivebees:bee_type": "productivebees:uranite_crystal" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 4.0d
 			y: 15.5d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5796,13 +5908,14 @@
 			tasks: [{
 				id: "26436DD0B7A192ED"
 				item: { components: { "productivebees:bee_type": "productivebees:sulfuric_acid" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 5.0d
 			y: 15.0d
 		}
 		{
-			dependencies: ["131EC039435B8878"]
+			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
 			hide_dependent_lines: true
 			icon: {
@@ -5818,6 +5931,7 @@
 			tasks: [{
 				id: "5B39148378EC5DA0"
 				item: { components: { "productivebees:bee_type": "productivebees:adamant" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: 6.0d
