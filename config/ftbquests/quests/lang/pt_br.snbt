@@ -971,7 +971,12 @@
 	quest.087726194EED4BDF.title: "Escudo Forte"
 	quest.087F6C09CB5B2D1A.quest_desc: ["Os &bCanos de Fluido Inteligentes&r nos darão Filtragem para os &bCanos de Fluido&r.\\n\\nQuando colocados na Máquina de onde os &bCanos&r estão extraindo, podem ser configurados para retirar apenas um &bFluido&r. Isso é definido adicionando um Balde cheio desse &bLíquido&r no Slot de Filtro.\\n\\nVocê pode colocar o &bCano de Fluido Inteligente&r mais adiante no &bsistema de Canos&r para enviar apenas aquele &bFluido&r específico através dos &bCanos&r depois dele.\\n\\nIsso é útil para a classificação em massa de um monte de &bTanques de Fluido&r!"]
 	quest.087F6C09CB5B2D1A.title: "&bCano de Fluido Inteligente"
-	quest.088CA7B6D4899846.quest_desc: ["A &#65C2A6Empacotadora&r é usada para criar &#53E67BBarras Duplas&r, &#53E67BLâminas&r e &#53E67BCabos&r. Além disso, há muitos outros usos para a máquina, mas esses serão os principais para você."]
+	quest.088CA7B6D4899846.quest_desc: [
+		"A &#65C2A6Empacotadora&r é usada para fabricar &#53E67BCabos&r, &#53E67BBarras Duplas&r, &#53E67BPós&r, &#53E67BChapas Grande&r, &#53E67BBarras em Blocos&r e &#53E67BLâminas&r. "
+		""
+		"Além disso, há muitos outros usos para a máquina, mas esses serão os principais para você."
+	]
+	quest.088CA7B6D4899846.title: "&fO &7Empacotador"
 	quest.088D685775ED92EE.quest_desc: [
 		"Precisar de 6 baldes de &aCombustível&r toda vez que queremos viajar para outros planetas pode acumular rápido."
 		""
@@ -1581,11 +1586,11 @@
 	quest.0DABAD0803DCEA1E.quest_desc: ["O &c&lDragão&r agora é nosso! Como usamos ele?\\n\\nPrimeiro, vamos precisar de algumas Ferramentas! O &7Cajado de Comando de Dragão&r para dar instruções. A &7Trompa de Dragão&r para guardar e transportar &c&lDragões&r. E a &7Flauta de Dragão&r para chamar &c&lDragões Voadores&r ao chão.\\n\\nVocê pode clicar com Shift + Botão Direito no &c&lDragão&r para ver seu Inventário e Interface. Aqui veremos sua Idade, &4Vida&f, &lEstágio&r e alterar seu Inventário. Ver que Armadura ele está usando e se está usando Bandeiras!\\n\\nPodemos usar o &7Cajado de Comando de Dragão&r neles para alterar se estão Escoltando, Vagueando ou Parados. Escoltando significa que vão te seguir e lutar com você. Vagueando significa que vão voar por uma área específica, atacando quaisquer Monstros dentro dela. Parado significa que ele vai sentar onde está e não fazer nada!\\n\\nA &7Trompa de Dragão&r pode ser usada em um &c&lDragão&r para colocá-lo dentro dela. Assim, ele será guardado com segurança no item, onde você poderá ver sua Idade, Gênero e Nome.\\n\\nO último item, a &7Flauta de Dragão&r, é usada para todos os Mobs Voadores Domados. Se eles estiverem voando quando você usar a &7Flauta&r, eles descerão ao chão."]
 	quest.0DABAD0803DCEA1E.title: "Comandando seu &c&lDragão"
 	quest.0DAF5D42694EA8C9.quest_desc: [
-		"O &#6E6D6D&nMartelo de Forja&r é o começo da sua jornada. Ele tem muitos usos, como obter um &#B53A3Amelhor rendimento&r dos seus minérios até fabricar &#DBD25Acomponentes&r para receitas futuras."
+		"O &9Martelo de Forja&r é o começo da sua jornada. Ele tem muitos usos, como obter um &#B53A3Amelhor rendimento&r dos seus minérios até fabricar &#DBD25Acomponentes&r para receitas futuras."
 		""
-		"O &7Martelo&r que você criou não é necessário para nenhuma receita, mas fornecerá um melhor rendimento nos &#DBD25Acomponentes&r que você fabricar."
+		"O &9Martelo&r que você fabricou não é necessário para nenhuma receita, mas fornecerá um melhor rendimento nos &#DBD25Acomponentes&r que você fabricar."
 	]
-	quest.0DAF5D42694EA8C9.title: "&#949494Martelo de Forja"
+	quest.0DAF5D42694EA8C9.title: "&9Martelo de Forja"
 	quest.0DB1A5763EDD6A7F.quest_subtitle: "O Chefe da Masmorra de Veneno"
 	quest.0DB4226BA23A5C09.quest_desc: ["Mova esse &bMontador de Circuitos Avançado&r para sua &eSala Limpa&r e dê as boas-vindas à Era &5EV&r!"]
 	quest.0DB4226BA23A5C09.quest_subtitle: "Este supercomputador consegue vencer no xadrez?"
@@ -2179,15 +2184,17 @@
 		""
 		"A &#EDD653&nMáquina de Corte&r funciona com &#E3993DLubrificante&r, que é obtido usando a &#EDD653&nMisturadora&r."
 	]
+	quest.12F9705ACB8FB300.title: "&fA &#ED9553Máquina de Corte&r"
 	quest.12FB3990CA1653A4.quest_desc: [
-		"A &#DBA15Broca a Vapor&r será sua melhor amiga na mineração do início do jogo. Ela pode minerar uma área de &53 por 3&r blocos e também possui &#EEF768Toque Suave ativável&r."
+		"A &#DBA15BBroca a Vapor&r será sua melhor amiga na mineração no início do jogo. Ela pode minerar uma área de &53 por 3&r blocos e também possui &#EEF768Toque Suave&r ativável."
 		""
-		"Você pode alternar o modo &53 por 3&r pressionando a tecla de atalho \"Alternar Mineração 3x3\", que por padrão é &7'Y'&r."
+		"Você pode alternar o modo &53 por 3&r pressionando a tecla de atalho \"Alternar Mineração 3x3\", que por padrão é &9'Y'&r."
 		""
-		"O &#EEF768Toque Suave&r pode ser ativado com &7Shift + Clique Direito&r com a Broca a Vapor."
+		"O &#EEF768Toque Suave&r pode ser ativado com &9Shift + Clique Direito&r com a Broca a Vapor."
 		""
-		"Para abastecer a &#DBA15ABroca a Vapor&r, segure-a sobre um &6combustível&r no seu inventário e &7clique com o botão direito&r. A &9Água&r pode ser adicionada clicando com o botão direito em uma fonte ou carregando um balde de água."
+		"Para abastecer a &#DBA15ABroca a Vapor&r, segure-a sobre um &6combustível&r no seu inventário e &9Clique com o Botão Direito&r. A &9Água&r pode ser adicionada clicando com o botão direito em uma fonte ou carregando um &9Balde de Água&r."
 	]
+	quest.12FB3990CA1653A4.title: "&fA &#DBA15BBroca a Vapor&r"
 	quest.130577AD1A1A8222.quest_desc: ["&7Cloggrum&r tem status um pouco piores que a Armadura de Ferro, mas praticamente cresce em Árvores, então acho que é justo. \\n\\nAs Botas também ajudam a atravessar a Scintling Goo!"]
 	quest.130577AD1A1A8222.title: "Armadura de &7Cloggrum&r"
 	quest.130DDACA0E38A8E8.quest_desc: ["Queimar 16 Troncos no &bPrograma 3&r produzirá Óleo Pesado"]
@@ -2555,6 +2562,8 @@
 		""
 		"Regadores de Essência têm a capacidade de regar automaticamente. Apenas clique com shift-direito no Regador no ar para ativar ou desativar a rega automática. Parecerá que o Regador está encantado quando estiver ligado."
 	]
+	quest.164EA8EE10CA1583.quest_desc: ["&fO &#ED9553Macerator&r transforma &6minérios brutos&r em pós. Ele também pode reciclar todos os tipos de &6materiais&r, transformando-os em pó."]
+	quest.164EA8EE10CA1583.title: "&fO &#ED9553Macerador de Bronze"
 	quest.16522A3A1E66C914.quest_desc: ["Mais uma vez, revisitamos os EBFs e atualizamos as bobinas, um processo necessário para que possamos processar metais e ligas através dos EBFs."]
 	quest.16522A3A1E66C914.quest_subtitle: "Bobinas de Trínio são legais"
 	quest.1659A59303C15CC9.quest_desc: ["Barris funcionam da mesma forma que Baús, só que não podem ser combinados. Mas eles são legais."]
@@ -3250,6 +3259,7 @@
 		"Pode ser usado para te dar experiência, ou para fazer a Estrela Eterna."
 	]
 	quest.1C9D3FC67D58AC02.quest_desc: ["O &#EDD653&nMisturador&r nos permitirá combinar itens e fluidos. Eles podem ser usados para tingir itens ou até mesmo duplicá-los."]
+	quest.1C9D3FC67D58AC02.title: "&fO &#ED9553Misturador de Bronze"
 	quest.1CACE201C6AA0913.quest_desc: ["Esta melhoria anulará itens extras que chegam quando asGavetas estão cheias.\\n\\nIsso pode ser útil para evitar transbordamento ou para impedir que uma configuração fique congestionada devido ao armazenamento estar cheio."]
 	quest.1CAEC4C273EDDB99.quest_desc: ["Está aqui! Está ali! Está em todo lugar e está podre! Você pode encontrá-los na maioria dos Baús. \\n\\nEles podem conter 8 &3Feitiços&r, mas te dão menos Resistência a Feitiços."]
 	quest.1CAEC4C273EDDB99.title: "Livro de Feitiços Podre"
@@ -3426,6 +3436,7 @@
 		""
 		"O &7&nForno de Coque&r é um multibloco oco feito principalmente de tijolos."
 	]
+	quest.1E4E462928F2A71C.title: "&fO &#8C4715Forno de Coque"
 	quest.1E7DC8E0493BE99E.quest_subtitle: "Tier: &e1"
 	quest.1E811D532BC593F2.quest_desc: ["E eu achando que usaríamos protoboards"]
 	quest.1E81B903137BB62A.quest_desc: ["Ferramentas normais simplesmente não são suficientes, especialmente ao lidar com os Mobs perigosos no &2&lUndergarden&r. \\n\\nPodemos criar o &7Escudo de Cloggrum&r, que age como um escudo normal. \\n\\nMas precisaremos obter o &7Machado de Batalha&r como um drop raro dos &7Forgottens&r."]
@@ -3797,7 +3808,7 @@
 		"A Mineradora a Vapor só pode usar &#DEA14BCobre&r e &#DE9531Broca de Bronze&r. Ela também pode usar &#8A5C1ETerra&r para gerar Pedras."
 	]
 	quest.21A4FE1741E4E78C.quest_subtitle: "Infinite Resources"
-	quest.21A4FE1741E4E78C.title: "&fMineradora a Vapor"
+	quest.21A4FE1741E4E78C.title: "&fA &7Mineradora a Vapor"
 	quest.21A90474590FCDB8.quest_desc: ["A \"Fornalha\" é uma versão aprimorada de uma fornalha vanilla que pode ser melhorada para maior velocidade e eficiência."]
 	quest.21A90474590FCDB8.title: "\"Fornalha\""
 	quest.21AB14A8553896E9.quest_desc: ["Pessoal, acho que não me ouviram direito, eu disse &e&lProductive Bees&r! Ah, espere, há outro Mod! \\n\\nEste está relacionado às &e&lProductive Bees&r, pois você precisará delas para cruzar Árvores. \\n\\nNão, as Árvores não usam Trigo para cruzar, elas usam Abelhas. \\n\\n&oAs Árvores e as Abelhas&r."]
@@ -4015,7 +4026,11 @@
 	quest.23631A4A743D4F0C.title: "&fMetais &l&bChipped"
 	quest.236EA8D18ECD5FE8.quest_desc: ["Este é bem único em seu aparecimento! Depois que você mata o &b&lIgnis&r, há uma chance de &bBerserkers Incendiados&r aparecerem em Fortalezas do Nether. \\n\\nEles são como &bRevenants&r, só que em vez de Escudos, eles têm Espadas! Suas Espadas não protegem contra danos como os Escudos, em vez disso, causam mais dano. \\n\\nEles têm muito menos vida, com 65 &4Corações&r e droparão Brasas Moribundas ao serem mortos. 4 Brasas Moribundas podem ser transformadas em 1 &bCinza Ardente&r."]
 	quest.236EA8D18ECD5FE8.title: "&bBerserker Incendiado"
-	quest.23708582B1064C9D.quest_desc: ["Um &#46DBBBcircuito&r exigirá alguns desses componentes básicos para funcionar. Automatizar partes disso será útil no futuro."]
+	quest.23708582B1064C9D.quest_desc: [
+		"Um &#46DBBBCircuito&r exigirá alguns desses componentes básicos para funcionar. "
+		""
+		"Automatizar partes disso será útil no futuro."
+	]
 	quest.23708582B1064C9D.title: "Capacitância e Resistência"
 	quest.23737103592776C2.quest_desc: ["A &3Lâmpada de Querosene&r é uma ótima fonte de luz que usa combustível (sendo o Querosene o melhor) para produzir luz."]
 	quest.23737103592776C2.quest_subtitle: "Mega Tochas não são nada!"
@@ -4098,7 +4113,7 @@
 	quest.24261D6C5C5A6CB4.quest_desc: ["Este Ovo de Dragão é uma peça de decoração legal. É basicamente isso."]
 	quest.24285F25F9563B02.quest_desc: ["O &#467FDB&nCircuito Analógico&r, ah! você finalmente o fez. Normalmente, outras pessoas levavam metade do tempo que você, mas não vou guardar rancor por isso..."]
 	quest.24285F25F9563B02.quest_subtitle: "Noções Básicas de Eletrônica"
-	quest.24285F25F9563B02.title: "&fCircuito Analógico"
+	quest.24285F25F9563B02.title: "&cCircuito Analógico"
 	quest.242F74010488F261.quest_desc: ["O Galão dessas Barras ustível é um item que permite um uso mais eficiente do combustível. Ele pode armazenar 50.000 de combustível, cada item queimável tem um valor de combustível diferente dependendo da quantidade de itens fundidos. Um combustível é suficiente para fundir um item."]
 	quest.243008D4DCD789D0.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_wild.png width:100 height:150 align:center}"]
 	quest.243008D4DCD789D0.quest_subtitle: "Templos da Selva"
@@ -4243,6 +4258,8 @@
 	]
 	quest.253657BE5D9D9162.title: "Armazenamento Externo"
 	quest.253822C64BBBB1EB.quest_desc: ["O &#6E6D6DMartelo de Forja&r permitirá que você esmague facilmente os &#9AD5EDBarras&r ou minérios de Estanho em seus respectivos pós."]
+	quest.253822C64BBBB1EB.quest_subtitle: "Nem tão 'estranho' assim."
+	quest.253822C64BBBB1EB.title: "&fPó de Estanho"
 	quest.253957D992A88C88.quest_desc: [
 		"Este Escudo, como parece ser o caso da maioria dos Itens aqui, pode ser: encontrado em estruturas, criado ou trocado com a &5Rainha Abelha&r. \\n\\nFunciona como um Escudo &2Vanilla&r, segure-o na sua mão secundária e bloqueie ataques. \\n\\nO que o torna diferente (e melhor) é que, depois de repará-lo com &5Cristais de Mel&r, ele ficará mais forte."
 		"{image:atm:textures/questpics/bumblezone/bumble_shield.png width:100 height:150 align:center}"
@@ -4309,6 +4326,7 @@
 	quest.25DBFE887B041E94.title: "Processamento de Minério"
 	quest.25E782DB4309A1B8.quest_desc: ["Galhadas de Aurora Deer são dropadas por Aurora Deers ao morrer. \\n\\nPode ser usado como uma Espada ou uma Enxada."]
 	quest.25E915AE1FC53254.quest_desc: ["Modelos de Celestigem são usados para aprimorar armaduras e ferramentas de Blazegold para Celestigem, mantendo encantamentos e melhorias instaladas."]
+	quest.25EE7E0119010291.title: "&fA Barra de &7Aço"
 	quest.25EFC21A3C48E0B6.title: "Tier: &2Spirited"
 	quest.25F4D4A723B298A4.quest_subtitle: "Maçã Red Delicious + Bétula"
 	quest.26004F997C758011.quest_desc: ["Uma placa de rubi no Torno (Lathe) fará uma Lente de Rubi"]
@@ -5921,6 +5939,7 @@
 	quest.3567306F2B66BD20.title: "&fAbelha de Imperium"
 	quest.356F450F4ADD22D7.title: "Atuador de Armazenamento Bidimensional"
 	quest.357DDE894EB512F7.quest_desc: ["A &#65C2A6Cortador de Fios&r é capaz de aplicar exatamente a quantidade certa de força para fazer &#53E67BFios&r para nós. Eletrizante!! Eu sei..."]
+	quest.357DDE894EB512F7.title: "&fO &7Cortador de Fios"
 	quest.358706CA93DC2A9C.quest_desc: ["Cozinhe o pó na &aEBF&r e esfrie-o no &eBanho Químico&r"]
 	quest.358D4F507521075F.quest_desc: [
 		"&eColmeia&r dentro de uma &eColmeia&r, &eColmeia&r-cepção.\\n"
@@ -6422,7 +6441,12 @@
 		"Tenho certeza de que você não quer pegar uma infecção dele."
 	]
 	quest.3AA49DDE45705233.quest_subtitle: "Infeccioso"
-	quest.3AA4D1B60E4E71A5.quest_desc: ["Todos os &cmultiblocos&r são definidos pelos &ehatches&r instalados neles. Atualizar esses &ehatches&r nos &cmultiblocos&r atualizará a máquina como um todo."]
+	quest.3AA4D1B60E4E71A5.quest_desc: [
+		"Todos os &cMultiblocos&r são definidos pelas &eEscotilhas&r instalados neles. "
+		""
+		"Atualizar essas &eEscotilhas&r nos &cMultiblocos&r atualizará a máquina como um todo."
+	]
+	quest.3AA4D1B60E4E71A5.title: "&fNíveis dos Multiblocos"
 	quest.3AA836E8EDB52097.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_lapis.png width:100 height:150 align:center}"]
 	quest.3AA836E8EDB52097.title: "&9Lápis-lazúli&r"
 	quest.3AAB71E9BDFD4C1E.quest_desc: ["Sem pressão! Bem, na verdade, você precisará de muita Pressão ao usar o &4&lPneumaticCraft&r. \\n\\nÉ meio que sobre isso que ele se trata..."]
@@ -7258,6 +7282,7 @@
 	quest.41752862D7B29F80.title: "Era da Alta Tensão"
 	quest.417B88FEB1B8F44E.quest_desc: ["Caramba, esses Suck! Literalmente! \\n\\nO Módulo de Vácuo sugará quaisquer itens na área definida e os moverá para o Buffer do Roteador. Semelhante ao Funil de Absorção. \\n\\nTambém pode ser usado com o Aumento de Experiência!"]
 	quest.41877F44CD3D1EDB.quest_desc: ["A &#E3BC19Fornalha de Bronze&r funciona como uma comum, só que a grande diferença é que ela usa vapor e é duas vezes mais rápida."]
+	quest.41877F44CD3D1EDB.title: "&fA &#ED9553Fornalha de Bronze"
 	quest.418E02FFE241A734.quest_desc: ["Plasma de Hélio Líquido. Garanta que suas linhas de processamento estejam produzindo Hélio suficiente."]
 	quest.418E02FFE241A734.quest_subtitle: "O"
 	quest.418E0A23EC74F320.quest_desc: ["Girar as coisas rápido o suficiente parece mudar suas propriedades. Não consegue fazer isso manualmente? Então vale a pena tentar a &#BA49E3Centrífuga&r."]
@@ -7753,7 +7778,12 @@
 	quest.4586338386F85112.quest_desc: ["Você aprendeu como fazer as máquinas obedecerem às suas ordens com vapor e finalmente está pronto para começar a se aventurar no mundo da eletrônica. Construa o Wiremill e prepare-se."]
 	quest.45899579D9B92D91.quest_desc: ["O &aControlador&r é o coração da &c&lFundição&r. \\n\\nCada &c&lFundição&r precisará de pelo menos 1 para ser feita. \\n\\nPodemos usar a &c&lFundição&r para visualizar a INTERFACE da &c&lFundição&r. Aqui podemos ver as quantidades de Líquidos dentro da &c&lFundição&r. \\n\\nTambém podemos usá-la para colocar e tirar Itens da &c&lFundição&r."]
 	quest.45899579D9B92D91.title: "&aControlador&r da &c&lFundição"
-	quest.458BFDB636F8B495.quest_desc: ["Combinar o pó de Coque com Ferro resultará em Pó de Aço Cru. Cozinhá-lo na Fornalha a Vapor gerará Barras de Aço necessários para o progresso futuro."]
+	quest.458BFDB636F8B495.quest_desc: [
+		"Combinar o &6Pó de Coque&r com &8Ferro&r resultará em &8Pó de Aço Cru&r. "
+		""
+		"Cozinhá-lo na &eFornalha a Vapor&r gerará &8Barras de Aço&r necessários para o progresso futuro."
+	]
+	quest.458BFDB636F8B495.title: "&fPó de Aço Cru"
 	quest.459787E9F1029CC6.quest_desc: [
 		"Fios e cabos são imperfeitos e perdem parte da energia que transportam na forma de calor"
 		""
@@ -8017,6 +8047,7 @@
 	quest.47897D827C50629D.quest_subtitle: "Por que mover só até aqui?"
 	quest.47897D827C50629D.title: "&aExtensão de Pistão"
 	quest.478C1AF86610A8B7.quest_desc: ["O &#EDD653&nCompressor&r é usado para fazer &#53EDAAChapas&r, &#53EDAACurvas&r e &#53EDAAAnéis&r."]
+	quest.478C1AF86610A8B7.title: "&fO &#ED9553Compressor de Bronze"
 	quest.47932104E994DBE9.quest_desc: ["As chapas para os Cascos ficam mais complicadas a cada nível. Mas é um processo necessário. Tente automatizar este processo para poder encher sua fábrica com máquinas UV!"]
 	quest.47932104E994DBE9.quest_subtitle: "Este Darmstadtium é grande demais!"
 	quest.47A2BEFB11F4D581.quest_desc: ["O Filtro Básico é bem... fácil de usar! Simplesmente coloque Itens nele e eles agora estão filtrados. \\n\\nVocê pode alterá-lo para que ele Coloque na Lista Branca/permita apenas esses Itens ou que ele Coloque na Lista Negra/negue apenas esses Itens. \\n\\nVocê também pode fazer com que ele corresponda aos dados NBT ou não. Corresponder aos Dados NBT significaria ter os mesmos Encantamentos, Durabilidade ou até mesmo Mobs dentro de qualquer Item. Se selecionado para não corresponder, ele fará qualquer um desse Item, independentemente do NBT."]
@@ -8143,8 +8174,8 @@
 	quest.48F496BD0FFE5A34.quest_desc: ["A &4Unidade de Atração Magnética&r funciona como um Ímã Simples. Quando usada/vestida, ela atrairá &eItens&r em sua direção que estão fora do alcance. \\n\\nQuanto mais &4Unidades de Atração Magnética&r, de mais longe os &eItens&r podem ser puxados em sua direção."]
 	quest.48F496BD0FFE5A34.quest_subtitle: "Vem cá rapidinho!"
 	quest.48F496BD0FFE5A34.title: "&4Unidade de &9Atração &4Magnética"
-	quest.48F77A0BE1F33B29.quest_desc: ["Usando a recém-construída &#65C2A6Cortadora de Fios&r, agora podemos fazer &#53E67BFios&r e &#53E67BFios Finos&r, o que nos levará ao mundo da eletricidade."]
-	quest.48F77A0BE1F33B29.title: "Fio Linear"
+	quest.48F77A0BE1F33B29.quest_desc: ["Usando a recém-fabricada &#65C2A6Cortadora de Fios&r, agora podemos fazer &#53E67BFios&r e &#53E67BFios Finos&r, o que nos levará ao mundo da eletricidade."]
+	quest.48F77A0BE1F33B29.title: "&cFio Linear"
 	quest.49109192F6D95AB4.quest_desc: [
 		"Para todas as suas necessidades de processamento de nível UV!"
 		""
@@ -8830,6 +8861,7 @@
 	]
 	quest.4E67C04AD43EB70D.quest_subtitle: "Tesla não tem nada contra este motor!"
 	quest.4E69C6ABFE467C25.quest_desc: ["O &#65C2A6Fundidor de Ligas&r vem do &#3187C4Extended Industrialization&r. Ele combina as funções do &#4C4BDEMisturador&r e da &#954BDEFornalha&r em um só, tornando o trabalho menos cansativo."]
+	quest.4E69C6ABFE467C25.title: "&fO &7Forno de Ligas"
 	quest.4E737C490DCC5D6C.quest_desc: [
 		"A &5Armadura de Unobtainium&r é o melhor que podemos obter do &6&lAllTheModium&r! Precisaremos dela para as verdadeiras melhores Armaduras! \\n\\nA &5Armadura de Unobtainium&r dá 40 Pontos de Armadura, 60 de Resistência de Armadura, mais 100% de Resistência a Repulsão. Você não vai a lugar nenhum! \\n\\nAgora, junto com os outros efeitos dados pelas Armaduras anteriores, teremos 90% de &dResistência a Dano Mágico&r."
 		"{image:atm:textures/questpics/allthemodium/all_armor_uno.png width:100 height:175 align:center}"
@@ -9745,11 +9777,14 @@
 	quest.55C47B868C5ECF54.quest_desc: ["Precisa de ajuda para encontrar minérios? Faça um desses para você e carregue-o colocando-o no slot de energia de qualquer máquina"]
 	quest.55C4824DAD905512.quest_desc: ["Esta Missão foi criada pela &6Equipe AllTheMods&r, ou por um &2contribuidor da Comunidade&r para uso nos Modpacks AllTheMods.\\n\\nComo todos os pacotes &6AllTheMods&r são licenciados sob &eTodos os Direitos Reservados&r, esta Missão não pode ser usada em nenhum pacote público não lançado pela &6Equipe AllTheMods&r sem permissão explícita.\\n\\nEsta missão está intencionalmente oculta, se você está vendo isso, está no modo de edição."]
 	quest.55C6BBC996B51838.quest_desc: [
-		"&#ED9553Caldeira de Bronze&r converte &9água&r em vapor. O vapor atuará como combustível para suas máquinas funcionarem na &7&nEra do Vapor&r."
+		"A &#ED9553Caldeira de Bronze&r converte &9água&r em vapor. O vapor atuará como combustível para suas máquinas funcionarem na &7&nEra do Vapor&r."
 		""
-		"Para usar a máquina, basta fornecer &9água&r e qualquer &#ED5353combustível de fornalha&r. Isso aumentará a temperatura da máquina; na temperatura máxima, ela poderá operar 4 máquinas simultaneamente."
+		"Para usar a máquina, basta fornecer &9água&r e qualquer &#ED5353combustível de fornalha&r. "
+		""
+		"Isso aumentará a temperatura da máquina; na temperatura máxima, ela poderá operar 4 máquinas simultaneamente."
 	]
 	quest.55C6BBC996B51838.quest_subtitle: "Fervendo água"
+	quest.55C6BBC996B51838.title: "&fA &#ED9553Caldeira de Bronze&r"
 	quest.55C8DD9A754545BD.quest_desc: ["O Pulverizador quebra minérios brutos em pós, e também tem 25% de chance de criar um pó extra."]
 	quest.55C8DD9A754545BD.quest_subtitle: "Quebra Minérios em Pós"
 	quest.55D7CD0FA8F1AE48.quest_desc: ["A razão pela qual estamos todos aqui, &5Trens&r. O mod se chama &l&7RailCraft&r, não finja surpresa. \\n\\nExistem 2 &5Trens&r principais diferentes e 1 &5Trem&r de mineração especial. \\n\\nEsses &5Trens&r, por si só, podem ficar um pouco chatos, então por que não anexar &7Carrinhos&r a eles! Conectar &7Carrinhos&r com &7Carrinhos&r e com &5Trens&r é chamado de Acoplamento, e desconectá-los é Desacoplar. Para Acoplar &5Trens&r e &7Carrinhos&r, use uma &4Pé-de-cabra&r ou um &6Trilho&r com o &cKit de Trilho&r de Acoplamento."]
@@ -10022,8 +10057,12 @@
 	quest.5886C648D14180E1.title: "Atualizando o Altar: Nível 3"
 	quest.5894A9DB9C379E91.quest_subtitle: "Fabricação por Infusão"
 	quest.5894A9DB9C379E91.title: "&fAbelha de Prudentium"
-	quest.589DFDB8FB7211AA.quest_desc: ["A produção de &7Borracha&r para sua transição para a &#C1DB46&nEra Elétrica&r é simples. Automatizá-la o quanto antes vai te levar mais longe do que imagina."]
-	quest.589DFDB8FB7211AA.title: "Borracha e Placa de Circuito"
+	quest.589DFDB8FB7211AA.quest_desc: [
+		"A produção de &7Borracha&r para sua transição para a &#C1DB46&nEra Elétrica&r é simples. "
+		""
+		"Automatizá-la o quanto antes vai te levar mais longe do que imagina."
+	]
+	quest.589DFDB8FB7211AA.title: "&fA &7Borracha&f e &cPlaca de Circuito"
 	quest.589EB4602E3F9EEE.quest_desc: ["Abelhas de Estanho são feitas cruzando uma Abelha Cristalina com uma Abelha Mineradora Cinzenta."]
 	quest.589EB4602E3F9EEE.quest_subtitle: "Mineira Cinzenta + Cristalina"
 	quest.589EB4602E3F9EEE.title: "&fAbelha de Estanho"
@@ -10471,12 +10510,12 @@
 	quest.5CC9CB0911954215.quest_subtitle: "Atrai abelhas em qualquer Bioma do Mundo Superior"
 	quest.5CC9CB0911954215.title: "&fNinho de &aCana"
 	quest.5CCF92238B23EDC9.quest_desc: [
-		"O &#A0DE45&nModern Industrialization&r é um mod semelhante ao &#D93D3DIC2&r e ao &#D93D3DGregTech&r em sua natureza, mas você deve progredir de forma diferente desses dois mods."
+		"O &9Modern Industrialization&r é um mod semelhante ao &#D93D3DIC2&r e ao &#D93D3DGregTech&r em sua natureza, mas você deve progredir de forma diferente desses dois mods."
 		""
 		"Por meio destas quests, vou te guiar na fabricação das peças necessárias para a &#E8C843Estrela do AllTheMods&r e, mais tarde, para a &#43E898Armadura do Infinito&r."
 	]
 	quest.5CCF92238B23EDC9.quest_subtitle: "Ler vai ajudar"
-	quest.5CCF92238B23EDC9.title: "&#A0DE45Bem-vindo ao Modern Industrialization"
+	quest.5CCF92238B23EDC9.title: "&#A0DE45Bem-vindo ao &9Modern Industrialization&r"
 	quest.5CD0E6F349F2F32D.quest_desc: ["Não tenha medo, isso não é um bicho-papão, é uma Edelwood totalmente crescida! \\n\\nA Árvore terá um Tronco de Edelwood Esculpido no topo e Galhos de Edelwood saindo dela, estes podem ser quebrados para obter Varetas de Edelwood. \\n\\nOs Troncos são ocos por dentro, espaço semelhante a um Caldeirão. Curiosamente, também pode conter Água como um Caldeirão!"]
 	quest.5CD65553EF60029B.quest_desc: ["A Picareta do Caçador do Céu teleporta os blocos minerados diretamente para o inventário do jogador."]
 	quest.5CD65553EF60029B.quest_subtitle: "Nível: &54"
@@ -11884,6 +11923,7 @@
 		""
 		"Esse multibloco não apenas permitirá fabricar &7Barras de Aço&r, mas também processar &#696E60Óleo Sintético Bruto&r em &#494D43Óleo Sintético&r, que será usado posteriormente para &#36472ABorracha&r e outras coisas."
 	]
+	quest.68EAB0248989FC97.title: "&fO &eAlto-forno a Vapor"
 	quest.68F03C08B1AE45FF.quest_desc: [
 		"&2Industrial Foregoing&r é um mod destinado a ajudá-lo durante toda a sua jornada no modded. "
 		""
@@ -12719,6 +12759,17 @@
 		"{image:atm:textures/questpics/iceandfire/iaf_struct_icecave.png width:200 height:100 align:center}"
 	]
 	quest.70099F9B69F9D055.title: "&bCaverna do Dragão de Gelo"
+	quest.700F346E3361E9AF.quest_desc: [
+		"Agora que você tem &8Aço&r, pode melhorar suas &6Máquinas de Bronze&r, se quiser. "
+		""
+		"As &8Máquinas de Aço&r podem processar receitas de até &64 EU/t&r, e irão processá-las com o dobro da velocidade, desde que o consumo de energia não ultrapasse &64 EU/t&r. "
+		""
+		"Basicamente, elas são duas vezes mais rápidas que as &6Máquinas de Bronze&r e podem até desbloquear novas receitas."
+		""
+		"Para aprimorar uma &6Máquina de Bronze&r, crie uma &8Melhoria de Aço&r e aplique-a em uma &e&nBancada de Trabalho&r."
+		""
+		"Você também pode agachar e clicar com o botão direito em uma &6Máquina de Bronze&r com a melhoria para aplicá-la diretamente."
+	]
 	quest.700F3FF7C23D0C0F.quest_desc: ["A &5Célula do End&r armazenará energia para um canal em sua &7Rede do End&r. Para aumentar a capacidade de energia da rede, clique com o botão direito na Célula do End para abrir a interface e adicione uma &aBateria&r ou uma &9Célula de Energia&r para aumentar a capacidade geral."]
 	quest.70112194DFFD15D3.title: "Armadura de &5Tyr"
 	quest.7026E46FD8B3A81D.quest_desc: ["A &9 Hidra&r é a infame besta de múltiplas cabeças da Mitologia Grega.\\n\\nAtaques à distância não são tão eficazes, o que significa que você precisará chegar perto e pessoalmente.\\n\\nUma vez derrotada, você poderá encontrar o próximo chefe na &2Floresta Sombria&r."]
@@ -13042,7 +13093,11 @@
 	quest.7279700A93E8630B.quest_desc: ["{image:atm:textures/questpics/basicarmor/armor_unobtainium.png width:100 height:150 align:center}"]
 	quest.7279700A93E8630B.title: "&5Unobtainium&r"
 	quest.728189EE56E5CAF7.quest_subtitle: "Feito na Fundição de Ligas"
-	quest.7282DCB1547CEB63.quest_desc: ["O &#ED9553Bronze&r será o bloco de construção da &7&nEra do Vapor&r. Cozinhar esse pó renderá as &#ED9553Barras de Bronze&r que usaremos adiante."]
+	quest.7282DCB1547CEB63.quest_desc: [
+		"O &#ED9553Bronze&r será o bloco de construção da &7&nEra do Vapor&r. "
+		""
+		"Cozinhar esse pó renderá as &#ED9553Barras de Bronze&r que usaremos adiante."
+	]
 	quest.7282DCB1547CEB63.title: "&#EDD653Bronze"
 	quest.728BE1816DA23DC0.quest_desc: ["O Dragão do End é o Chefe que guarda O Fim. \\n\\nQuando você entra em um Portal do End, chegará à Ilha do End onde ele aparece. \\n\\nEle tem 200 Corações e pode atacar com Bolas de Fogo ou te atingindo. \\n\\nVocê terá que quebrar os Cristais do End nos pilares, pois eles o curam, para poder matá-lo! \\n\\nUma vez que você o mate, ele dropará: Essência Arcana, Shaderbags Épicos, Pele de Dragão, Escamas de Dragão de dois mods diferentes e um monte de experiência! \\n\\nEntão, o Portal se abrirá para que você possa retornar ao Mundo Superior, ou você pode encontrar um Portal do End para explorar as ilhas externas. Você também encontrará um Ovo de Dragão no Portal."]
 	quest.728BE1816DA23DC0.title: "&fMate o &5Dragão &fdo &eEnd"
@@ -13352,6 +13407,7 @@
 	quest.748A01B5607C475B.quest_desc: ["Guarda Talismãs... não muito mais. Pode também segurar suas Calças, mas ainda não testei."]
 	quest.748A01B5607C475B.quest_subtitle: "Encontrado em Minas Abandonadas ou Fortalezas"
 	quest.748A01B5607C475B.title: "&6Cinto de Couro"
+	quest.7493CDDE7861709C.title: "&fCarcaça de Máquina de &7Aço"
 	quest.74ACCEB6DC9EF6F7.quest_desc: ["A &dArma de Ombro de Assalto do Vazio &4(A.&4O.A.V.)&r é como a versão do Wither, mas melhor! \\n\\nAgora ela só dispara &dHowitzers do Vazio&r que causarão mais Dano e farão &dRunas do Vazio&r saírem do chão, na área que o &4Howitzer&r atingiu. \\n\\nSó ao custo do longo tempo de recarga, mas temos tempo para esperar. \\n\\nPode ser criada combinando o &4A.O.A.V.&r e um &dNúcleo do Vazio&r na &4Bigorna de Infusão Mecânica&r."]
 	quest.74ACCEB6DC9EF6F7.title: "&dA.&4O.A.V. &d(Arma de Ombro de Assalto do &4Vazio)"
 	quest.74AE214747A3DB1A.quest_desc: ["Aumenta a quantidade de pressão que as coisas podem suportar."]
@@ -14018,7 +14074,8 @@
 	quest.7A8242E6D0BC6294.quest_desc: ["A centrífuga permite separar compostos em seus respectivos materiais girando muito rápido"]
 	quest.7A8242E6D0BC6294.quest_subtitle: "Você me faz girar"
 	quest.7A82D66B1B138F0F.quest_desc: ["Dobra a quantidade de Mana que uma Rajada de Mana pode carregar, ao custo de velocidade e maior perda de mana em distâncias mais longas."]
-	quest.7A873E48E38B5C0E.quest_desc: ["As Máquinas de Aço usam o dobro de vapor comparadas às de Bronze, mas compensam com o dobro de velocidade."]
+	quest.7A873E48E38B5C0E.quest_desc: ["As &8Máquinas de Aço&r usam o dobro de vapor comparadas às de &6Bronze&r, mas compensam com o dobro de velocidade."]
+	quest.7A873E48E38B5C0E.title: "&fA Era do &7Aço"
 	quest.7A89560F303A8BE6.quest_subtitle: "Nível: &63"
 	quest.7A93F07BE2E6EC97.quest_desc: ["Quando está chovendo, jogar um &aRecipiente Climático&r irá aproveitar o poder da chuva.\\n\\nCom isso, você pode criar um &9Balde de Água Infinita&r, ou um &9Bloco de Fonte de Água Infinita&r. Ambos são itens incrivelmente úteis de se ter!\\n\\nVocê também pode apenas fazer isso para se livrar da chuva!"]
 	quest.7A93F07BE2E6EC97.title: "&aPare a &9Chuva!"
@@ -14325,10 +14382,11 @@
 	quest.7D1A27CBF1508712.title: "&3Troféu da Rainha da Neve &e"
 	quest.7D1D2A4E07E98709.quest_desc: ["Um simples quebrador de blocos que requer uma ferramenta para quebrar blocos."]
 	quest.7D220876E8FF7AED.quest_desc: [
-		"O &#65C2A6Descompactador&r tem muitos usos, desde descompactar &#53E67BBlocos em Barras&r até &#53E67Breciclar partes&r de máquinas."
+		"O &#65C2A6Desempacotador&r tem muitos usos, desde descompactar &#53E67BBlocos em Barras&r até &#53E67Breciclar partes&r de máquinas."
 		""
 		"&oVocê pode até conseguir Barras de Silício mais facilmente com ele.&r"
 	]
+	quest.7D220876E8FF7AED.title: "&fO &7Desempacotador"
 	quest.7D279FC39DA5C630.quest_desc: ["Ainda não terminamos com nosso &cTrióxido de Enxofre&r! No entanto, precisaremos de um pouco de Vapor d'Água para processá-lo ainda mais. \\n\\nPara obter Vapor d'Água, podemos usar o &c&lCondensentrador Rotativo&r para transformar &9Água&r em Vapor d'Água! \\nMais &cInfusão&r! Combine nosso Vapor d'Água com nosso &cTrióxido de Enxofre&r para fazer &aÁcido Sulfúrico&r. \\n\\nBem, agora é um Ácido... mas não o correto... \\n\\nAh sim, precisaremos de &dFluorita&r, que podemos obter minerando minérios. Então, use a &3&lCâmara de Dissolução Química&r para diluir o &aÁcido Sulfúrico&r com &dFluorita&r para finalmente obter nosso &7Ácido Fluorídrico&r!"]
 	quest.7D279FC39DA5C630.title: "&cTrióxido de Enxofre&r em &7Ácido Fluorídrico"
 	quest.7D359283625C1869.quest_desc: ["&4&lCataclysm&r é um Mod de aventura que se concentra em adicionar novos Chefes! E tudo que vem deles e ao redor deles! \\n\\nVocê encontrará as Estruturas por todo o &2&lMundo Superior&r, &4&lO Nether&r e &5&lO End&r. \\n\\nDentro haverá novos Mobs, Minichefes e Chefes muito difíceis. Você pode matá-los todos para obter novas Armas, Armaduras e Itens!"]
@@ -14975,7 +15033,7 @@
 	task.309F610CA713BB20.title: "Tantalum Dust"
 	task.3165B02F2BFFEDDA.title: "Reator Químico"
 	task.317121010F937E4F.title: "Opções de Energia Criativa"
-	task.31BE41B971794377.title: "Era do Aço"
+	task.31BE41B971794377.title: "&fA Era do &7Aço"
 	task.31E6FDB712244B72.title: "64x Generators"
 	task.3209E46C9B05C163.title: "Engrenagem de Diamante"
 	task.32309011F80C0A9E.title: "NOTA"
@@ -15100,7 +15158,7 @@
 	task.452B65E139D9E12D.title: "Mate 1 Wilden Chimera"
 	task.45328A46A34ABDC2.title: "Laje de Alimentação"
 	task.4558919345C3BE5D.title: "Enrichers"
-	task.45C5CAC94406DF41.title: "Níveis de Multiblocos"
+	task.45C5CAC94406DF41.title: "&fNíveis de Multiblocos"
 	task.4632192573FD8501.title: "Canos Mecânicos"
 	task.46905D1E23255397.title: "Macaw's Windows"
 	task.46B42667B6BC1A3C.title: "Visite o Nether"
