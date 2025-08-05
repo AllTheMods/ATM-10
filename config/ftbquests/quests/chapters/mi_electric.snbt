@@ -272,18 +272,18 @@
 					type: "item"
 				}
 				{
-					id: "7066D6275BFF4C48"
-					item: { count: 1, id: "modern_industrialization:lv_energy_input_hatch" }
+					id: "6DB29EED4570EE19"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:bronze_item_input_hatch)item(modern_industrialization:steel_item_input_hatch)item(modern_industrialization:advanced_item_input_hatch)item(modern_industrialization:turbo_item_input_hatch)item(modern_industrialization:highly_advanced_item_input_hatch))", "minecraft:custom_name": "\"Item Input\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
-					id: "0E659D82A57397F5"
-					item: { count: 1, id: "modern_industrialization:advanced_item_input_hatch" }
+					id: "78EE7446E663633D"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:advanced_item_output_hatch)item(modern_industrialization:highly_advanced_item_output_hatch)item(modern_industrialization:bronze_item_output_hatch)item(modern_industrialization:steel_item_output_hatch)item(modern_industrialization:turbo_item_output_hatch))", "minecraft:custom_name": "\"Item Output\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
-					id: "1277413E18B1F073"
-					item: { count: 1, id: "modern_industrialization:advanced_item_output_hatch" }
+					id: "44E2B847A30E2B55"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:hv_energy_input_hatch)item(modern_industrialization:lv_energy_input_hatch)item(modern_industrialization:superconductor_energy_input_hatch)item(modern_industrialization:ev_energy_input_hatch)item(modern_industrialization:mv_energy_input_hatch)item(modern_industrialization:steel_fluid_output_hatch))", "minecraft:custom_name": "\"Energy Input\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -499,23 +499,28 @@
 					type: "item"
 				}
 				{
-					id: "786D83D2E703EF5D"
-					item: { count: 1, id: "modern_industrialization:advanced_item_input_hatch" }
+					id: "6B10A4FF15C36AEA"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:hv_energy_input_hatch)item(modern_industrialization:lv_energy_input_hatch)item(modern_industrialization:superconductor_energy_input_hatch)item(modern_industrialization:ev_energy_input_hatch)item(modern_industrialization:mv_energy_input_hatch)item(modern_industrialization:steel_fluid_output_hatch))", "minecraft:custom_name": "\"Energy Input\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
-					id: "4D6F5DF3AFEB9A22"
-					item: { count: 1, id: "modern_industrialization:mv_energy_input_hatch" }
+					id: "09E07C7A9BE00673"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:bronze_item_input_hatch)item(modern_industrialization:steel_item_input_hatch)item(modern_industrialization:advanced_item_input_hatch)item(modern_industrialization:turbo_item_input_hatch)item(modern_industrialization:highly_advanced_item_input_hatch))", "minecraft:custom_name": "\"Item Input\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
-					id: "0D43BD54800C106F"
-					item: { count: 1, id: "modern_industrialization:advanced_fluid_input_hatch" }
+					id: "38890F614E8CFDF6"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:advanced_item_output_hatch)item(modern_industrialization:highly_advanced_item_output_hatch)item(modern_industrialization:bronze_item_output_hatch)item(modern_industrialization:steel_item_output_hatch)item(modern_industrialization:turbo_item_output_hatch))", "minecraft:custom_name": "\"Item Output\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
-					id: "0DB9B5B3204F3DAE"
-					item: { count: 1, id: "modern_industrialization:advanced_fluid_output_hatch" }
+					id: "00BBEE30A3FDC60A"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:advanced_fluid_input_hatch)item(modern_industrialization:highly_advanced_fluid_input_hatch)item(modern_industrialization:steel_fluid_input_hatch)item(modern_industrialization:steel_fluid_input_hatch)item(modern_industrialization:turbo_fluid_input_hatch)item(modern_industrialization:bronze_fluid_input_hatch))", "minecraft:custom_name": "\"Fluid Input\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "440F7D598456C842"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:advanced_fluid_output_hatch)item(modern_industrialization:turbo_fluid_output_hatch)item(modern_industrialization:steel_fluid_output_hatch)item(modern_industrialization:highly_advanced_fluid_output_hatch)item(modern_industrialization:bronze_fluid_output_hatch))", "minecraft:custom_name": "\"Fluid Output\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -538,18 +543,18 @@
 					type: "item"
 				}
 				{
-					id: "733C59EA284366C1"
-					item: { count: 1, id: "modern_industrialization:advanced_fluid_output_hatch" }
+					id: "0F867DF3E927354D"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:advanced_fluid_output_hatch)item(modern_industrialization:turbo_fluid_output_hatch)item(modern_industrialization:steel_fluid_output_hatch)item(modern_industrialization:highly_advanced_fluid_output_hatch)item(modern_industrialization:bronze_fluid_output_hatch))", "minecraft:custom_name": "\"Fluid Output\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
-					id: "7C4D48FC079E251A"
-					item: { count: 1, id: "modern_industrialization:mv_energy_input_hatch" }
+					id: "0D0FE7C150C1D1AC"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:hv_energy_input_hatch)item(modern_industrialization:lv_energy_input_hatch)item(modern_industrialization:superconductor_energy_input_hatch)item(modern_industrialization:ev_energy_input_hatch)item(modern_industrialization:mv_energy_input_hatch)item(modern_industrialization:steel_fluid_output_hatch))", "minecraft:custom_name": "\"Energy Input\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
-					id: "226348D8A1AB13E1"
-					item: { count: 1, id: "modern_industrialization:advanced_item_input_hatch" }
+					id: "12161B084B0E5AFA"
+					item: { components: { "ftbfiltersystem:filter": "or(item(modern_industrialization:bronze_item_input_hatch)item(modern_industrialization:steel_item_input_hatch)item(modern_industrialization:advanced_item_input_hatch)item(modern_industrialization:turbo_item_input_hatch)item(modern_industrialization:highly_advanced_item_input_hatch))", "minecraft:custom_name": "\"Item Input\"" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
