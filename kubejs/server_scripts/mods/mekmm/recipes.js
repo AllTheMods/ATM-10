@@ -16,6 +16,7 @@ ServerEvents.recipes(allthemods => {
     allthemods.remove({id: /mekmm:.*replicat.*/})
     allthemods.remove({id: /mekmm:.*recycl.*/})
     allthemods.remove({id: /mekmm:.*planting.*/})
+    allthemods.remove({id: 'mekmm:cnc_lathe'})
     allthemods.remove({id: /mekmm:.*lathing.*/})
     allthemods.remove({id: /mekmm:.*rolling_mill.*/})
     allthemods.remove({type: 'mekmm:recycling'})
