@@ -1,0 +1,19 @@
+{
+	quest.7B0764DDE94E73D0.quest_desc: [
+		"Using some vanilla mechanics and 2 &aFission Reactor Logic Adapters&r, we can create a simple circuit breaker to trip and turn off the reactor &o&ein case things get a little crazy&r."
+		""
+		"To do this, we'll need a single piece of Redstone, a Piston, a block of either sand or gravel, and an Observer."
+		""
+		"On one of the faces, we'll want to put a Logic Adapter down, then skip a block above it and then place another Adapter. Set the top Adapter to &9\\\"Activation\\\"&r, and the bottom Adapter to &c\\\"Damage Critical\\\"&r."
+		""
+		"Next, in front and underneath the bottom Adapter, place any building block and stick a piece of Redstone on it leading from the Adapter. We'll then place a Piston facing up in front of that Redstone, then place our piece of sand or gravel on that Piston."
+		""
+		"For the final part of our breaker, place the Observer with the face pointing &boutwards towards the Piston setup&r. &9This is important&r!"
+		""
+		"Whenever the Reactor has critical damage, it will then activate the bottom Adapter, causing the redstone to get a signal, which then activates the Piston and pushes up the Gravel/Sand. This will activate the Observer, which then turns off the Reactor."
+		""
+		"{image:atm:textures/questpics/mek/example_circuit.png width:200 height:250 align:1}"
+	]
+	quest.7B0764DDE94E73D0.quest_subtitle: "Need a visual? Watch the Ponder!"
+	quest.7B0764DDE94E73D0.title: "Example Circuit Breaker"
+}

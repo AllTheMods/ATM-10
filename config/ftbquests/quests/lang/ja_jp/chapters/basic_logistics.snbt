@@ -1,0 +1,144 @@
+{
+	quest.034F2CDF0830254B.quest_desc: [
+		"Item Importer と同じように動作します。液体が入ったタンクに &eFluid Importer&r を設置し、移動先に &eFluid Interface&r を設置して Logic Cable で接続します。最後に Variable Card を前と同じように設定します！\n\nInteger Limit まで液体を引き出すことができます。\n\nワールド内の液体ソースの設置や取り出しはできず、タンク間の液体の移動のみ行えます"
+		"{image:atm:textures/questpics/logistics/id_fluid.png width:200 height:50 align:center}"
+	]
+	quest.034F2CDF0830254B.title: "&e液体のインポート"
+	quest.03C40D6A5D722543.quest_desc: ["Variable Cards はアイテムのインポートなどのインタラクションを開始するために必要です。インポーターのスロットの1つに入れて追加します。\n\n+ ボタンを使用してすべてを編集できます。インポートする量、アイテムスロット、チャンネルなど、そのカード1枚でほぼすべてを変更できます。\n\n私のように単にアイテムを移動したいだけなら、入れて移動する量の制限を変更するだけでOKです"]
+	quest.046C417B2ADF3AA7.quest_desc: ["カードには制限があります。アイテム抽出は1回の操作で8個のアイテムしか抽出できません。液体抽出は5バケツのみです。Chemical と Energy については神のみぞ知ります。\n\nこれは MOD化された&2&lMinecraft&r です。これらの制限では不十分で、オーバークロックする必要があります。\n\nカードの右上にオーバークロッカーを入れると、転送できる上限がアップグレードされます！"]
+	quest.046C417B2ADF3AA7.quest_subtitle: "最大: 4"
+	quest.06767BA0AFE8C1EE.quest_desc: ["1... 2... 4もどこかにあります。\n\nアイテムを入れて数値を設定し、左クリックまたは右クリックで数量を変更できます。Shiftを押しながらクリックすると10単位で変更できます。設定した数値をカードに入れましょう！\n\nその後、設定した数量のアイテムが存在するまで待ってからアイテムを取り出し始めます。また、最初のインベントリにはその数量を残します"]
+	quest.0BB562FB44B0AAA7.quest_desc: ["カードだけが制限を持っているわけではありません。そのため、Overclocker も同様です！\n\nこれらは &cNode&r 自体の右下に入れ、Operation の実行速度を上げます"]
+	quest.0BB562FB44B0AAA7.quest_subtitle: "最大: 8"
+	quest.1834B5C1F8435D7A.quest_desc: [
+		"Mechanical Pipe は &5&lMeka&r が液体を流す方法です"
+		""
+		"&5&lMeka&r の一部のマシンは、Electrolytic Separator が水を必要としたり、Evaporation Plant が Lithium を作るために液体を必要とします"
+		"{image:atm:textures/questpics/logistics/meka_pipe.png width:200 height:50 align:center}"
+	]
+	quest.1834B5C1F8435D7A.quest_subtitle: "液体"
+	quest.1C70D739CE464E25.quest_desc: ["&2Item Cards&rと全く同じように機能し、Extract カードと Insert カードが必要です。今回は&9液体&rを保持するタンクから別のタンクに移動します。ワールド内の&9液体&rソースを出し入れすることはできません"]
+	quest.1C70D739CE464E25.title: "&9液体カード"
+	quest.230582AAFC0A1632.quest_desc: ["これらのクエストは &6AllTheModsスタッフ &rまたは &2コミュニティ寄与者 &rによって AllTheModsモッドパック 内での使用目的のために作成されました。\n\nすべての&6AllTheMods&rパックは &eAll Rights Reserved &r（著作権留保）ライセンス下のため、これらのクエストは &6AllTheModsチーム &rにより公式に配布されていない公開パッケージにおいて、明示的な許可なく本クエストを使用することは禁止されています。\n\nこのクエストは意図的に非表示になっています。クエストが見えている場合は編集モードになっています。"]
+	quest.2329AA0AFBEF1E13.quest_desc: [
+		"&e&lPipez&r は最もシンプルな &f&lLogistics&r Mod です。とてもシンプルなので、このクエストページにMod全体を収めることができ、さらに他のModのための余裕もあります！"
+		""
+		"特定のパイプをアイテムを移動させたい場所に取り付け、Pipe Wrench を使用して引き出し、押し出し、または接続しない側を設定します"
+		""
+		"他のレンチも &e&lPipez&r で使用できます！"
+		""
+		"(大量に使用すると重くなる可能性がありますが、&5&lMekanism&r のパイプほどは重くありません)"
+	]
+	quest.2329AA0AFBEF1E13.title: "&l&ePipez"
+	quest.2A6900E87DE8BAE0.quest_desc: ["Mod フィルターは別の基本的なフィルターです。これにアイテムを入れると、ホワイトリストまたはブラックリストで同じように機能します。ただし、特定のアイテムだけでなく、そのModのすべてのアイテムが対象となります。\n\nApotheosis Gemは Apotheosis アイテムのみを許可します。Mekanism Alloyは Mekanism アイテムのみを許可します。以下同様です"]
+	quest.2A976D41F79C34B1.quest_desc: ["&e&lPipez&r には独自のアイテムフィルタリング方法がありますが、Advanced Upgrade 以上が必要です。Advanced Upgrade を入れると、Add ボタンをクリックしてフィルターを追加できます。\nそこでアイテム、タグ、NBT をフィルターに追加できます。\n\nまた、目的地フィルターを設定することもできます。設定するには、Shift 右クリックでインベントリを指定します。\n\nフィルターをホワイトリストにするかブラックリストにするかも設定する必要があります。フィルターに一致するものだけ、またはフィルター以外のすべてを通すかを選択できます"]
+	quest.2F4458E9921DEB86.quest_desc: [
+		"これらの &e&lPipez&r は主に &5&lMekanism&r によるものです。&5&lMekanism&r は &aGas&r の形で最後の物質の状態を追加します。&aGas&r は他の &e&lPipez&r では移動できないので、水素やリチウムを移動させる必要がある場合は &aGas Pipez&r が必要です。\n\n（&5&lMekanism&r のアイテムが &aGas&r なのか &b液体&r なのか、はたまた Infuse Type なのかを判断するのは常に難しいです。機械の中にある時は &aGas&r や &b液体&r と表示されることがあり、それが参考になります。表示されない場合は、JEI で他のレシピを確認すると良いでしょう！）"
+		"{image:atm:textures/questpics/logistics/pipez_gas.png width:200 height:50 align:center}"
+	]
+	quest.2F4458E9921DEB86.title: "&aGas Pipez&r"
+	quest.3065EA195D0A36BA.quest_desc: ["タグは Minecraft でアイテムをグループ化する上で非常に重要な要素です。もちろん、フィルターにもこれを活用できます！\n\nアイテムを入れてタグを選択するか、タグを知っている場合は自分で入力することができます。\n\n道具のタグを使用してシステムから装備を取り出すなど、とても便利です。\n\n（/kubejs hand コマンドを使用して、手に持っているアイテムのタグを確認することもできます。）"]
+	quest.308935C85364B04D.quest_desc: ["各カードが独自のデータを保持しているため、カードの設定を常に変更するのは面倒かもしれません。そこで、クローンを作りましょう！\n\nクローナーで左クリックしてカードのデータをコピーし、右クリックで別のカードにそのデータを転送できます！"]
+	quest.30DE4F5BC3EDB555.quest_desc: [
+		"Logical Transporters は &5&lMeka&r がアイテムとブロックを遠距離に移動するために使用するものです。\n\nチェストや Drawers のようなインベントリに対して Pull または Push を設定する必要があります"
+		"{image:atm:textures/questpics/logistics/meka_transporter.png width:200 height:50 align:center}"
+	]
+	quest.30DE4F5BC3EDB555.quest_subtitle: "ブロック+アイテム"
+	quest.316B513FE568EF57.quest_desc: [
+		"熱は&5&lMekanism&rのもう一つの要素で、多くの機械やマルチブロックの燃料となります。Thermal Evaporation Plant と Fusion Reactor は両方とも熱を使用して動作します。そして Conductor は熱を移動させる方法です！"
+		"{image:atm:textures/questpics/logistics/meka_conductor.png width:200 height:50 align:center}"
+	]
+	quest.316B513FE568EF57.quest_subtitle: "熱"
+	quest.33433A443B65D252.quest_desc: [
+		"&b水&r=&b青&r &b水&r=&b液体&rだから &b青&r=&b液体&r\n\n多くのModには独自の&b液体&rがあり、マインクラフトにも&b水&rと&c溶岩&rという独自の液体があります。これらの&b液体&rを移動する必要が出てくるでしょう。そのための良い方法が&b液体パイプ&rです。\n\n無限の&b水&rを移動させるために、シンクに接続することができます！"
+		"{image:atm:textures/questpics/logistics/pipez_fluid.png width:200 height:50 align:center}"
+	]
+	quest.33433A443B65D252.title: "&b液体パイプ"
+	quest.34CFE1439262AA72.quest_desc: [
+		"&5&lMekanism&r は大規模で人気のある Tech Mod なので、もちろん &lLogistics&r も備えています"
+		""
+		"様々なマシンは設定にうるさく、アイテムを適切に移動させるにはGUIで設定を変更する必要があります。その後、&5&lMeka パイプ&r を使用して必要なものを移動させることができます！"
+		""
+		"しかも &5&lMekanism&r だけでなく、他の多くのマシンでも使えます！レンチで Push と Pull を設定するだけです"
+		""
+		"（大量に使用すると少しラグの原因になる可能性があるので注意してください）"
+	]
+	quest.34CFE1439262AA72.title: "&5&lMekanism"
+	quest.36836AD948F96B9F.quest_desc: [
+		"最もシンプルな&e&lパイプ&rである&eアイテムパイプ&rです。\n\nアイテムをあるインベントリから別のインベントリに移動させます。チェストからチェストへ、農場からシステムへ、採掘機から精錬機へなど、様々な用途に使えます。\n\n非常にシンプルで、&eパイプ&rを移動させたいものに接続し、レンチを使用して引き出す側を設定するだけです"
+		"{image:atm:textures/questpics/logistics/pipez_item.png width:200 height:50 align:center}"
+	]
+	quest.36836AD948F96B9F.title: "&eItem Pipez"
+	quest.47768B1FFD57D56E.quest_desc: ["&4レッドストーン&r を至る所に配線しなければならないのが嫌ではありませんか？ワイヤレス FE があるのなら、なぜワイヤレス &4レッドストーン&r がないのでしょうか？ついに &c&lLaserIO&r のおかげで可能になりました。&4Card&r で &4レッドストーン信号&r を入力し、&4Output Card&r を使用して別の場所で &4信号&r を出力することができます！"]
+	quest.47768B1FFD57D56E.title: "&4Redstone Card"
+	quest.47A2BEFB11F4D581.quest_desc: ["Basic Filter はとても...使いやすいです！アイテムを入れるだけでフィルタリングされます。\n\nホワイトリスト（これらのアイテムのみを許可）またはブラックリスト（これらのアイテムのみを拒否）に変更することができます。\n\nまた、NBTデータを照合するかしないかを設定することもできます。NBTデータの照合とは、エンチャント、耐久値、またはアイテム内のモブなどが同じであることを意味します。照合しない設定の場合、NBTに関係なくそのアイテムすべてが対象となります"]
+	quest.493D04D954E4FBA0.quest_desc: [
+		"&5&lMekanism&r はテックMODです...マシンにエネルギーが必要なことに驚いているのですか？"
+		"{image:atm:textures/questpics/logistics/meka_cable.png width:200 height:50 align:center}"
+	]
+	quest.493D04D954E4FBA0.quest_subtitle: "Energy"
+	quest.4BC2D7FCDD792DBA.quest_desc: [
+		"通常の&2&lMinecraft&rのアイテム、ブロック、液体だけでは足りませんでした。そして追加された熱とエネルギーも足りませんでした。\n\n&5&lMekanism&rの残りの部分は加圧チューブで移動します。ガスが主なものです。&5&lMekanism&rを使用する場合、水素や酸素などのガスを使用することになります。\n注入タイプも石炭注入やレッドストーン注入のように似ています。スラリーは鉱石処理に使用されます。\n染料顔料は色の本質で、染色されたアイテムは&5&lMekanism&rのその部分で変更できます"
+		"{image:atm:textures/questpics/logistics/meka_tube.png width:200 height:50 align:center}"
+	]
+	quest.4BC2D7FCDD792DBA.quest_subtitle: "ガス+その他"
+	quest.4C41FD926F31180B.quest_desc: ["&2アイテム&rを &c&lLaserIO&r で移動させるには、&2Item Card&r が必要です。\n\nExtract に設定して、インポートしたい側の &cLaser Node&r に設置します。次に、もう1つを Insert に設定し、アイテムをエクスポートしたい側に設置します。\n\nExtract には複数の設定があり、インポート元が複数ある場合にアイテムをどこに送るかを指定できます。Round Robin を使用すると、最も近いインベントリから順番にアイテムを抽出する代わりに、順番に抽出します"]
+	quest.4C41FD926F31180B.title: "&2Item Card"
+	quest.4FBAB3A0FBF8CE2F.quest_desc: [
+		"何を運ぶか心配する必要はありません。すべてを運べるのですから！ &5Universal Pipez&r は &cEnergy Pipez&r よりもさらに制限がありません。&eアイテム&r、&b液体&r、&cエネルギー&r を運ぶことができます"
+		"{image:atm:textures/questpics/logistics/pipez_universal.png width:200 height:50 align:center}"
+	]
+	quest.4FBAB3A0FBF8CE2F.title: "&5Universal Pipez"
+	quest.52F85CED20C8B1E9.quest_desc: ["&eエネルギー&r は何らかの方法で移動する必要があります。できれば私たちが望む場所へ。&2アイテム&r、&9液体&r、&5化学物質&r と同じように移動させましょう！"]
+	quest.52F85CED20C8B1E9.title: "&eエネルギーカード"
+	quest.53EC96FA0E7C4ED4.quest_desc: [
+		"すべての Tech Mod には &cエネルギー&r が必要です。FE、RF、その他何であれ！ &cEnergy Pipez&r は区別しません、ただ移動するだけです！ \n\nいくつかのマシンには &cエネルギー&r の厳密な IO ポートがあるので、それらを確認してください！"
+		"{image:atm:textures/questpics/logistics/pipez_energy.png width:200 height:50 align:center}"
+	]
+	quest.53EC96FA0E7C4ED4.title: "&cEnergy Pipez"
+	quest.5C0F6B1C93A52113.quest_desc: ["これこそが &c&lLaserIO&r の真髄です！&cLaser Nodes&r は実際に Card を挿入して動作させる場所です。\n\n上下と4方向に隣接するインベントリからアイテムを移動させます。より遠くのインベントリに移動させるには、2つ目の &cNode&r が必要で、レンチを使って1つ目を Shift 右クリックし、2つ目を右クリックして接続します。\n\n正しい方向のスロットに Card を入れ、Node Overclocker も設置することで動作が速くなります"]
+	quest.5F1218CF8EFC607B.quest_desc: [
+		"&c&lLaserIO&r は DireWolf による &a&lEnderIO&r の &lLogistics&r の後継です"
+		""
+		"&cレーザー&r でアイテムを移動させるのが全てです！誰が &cレーザー&r を好きにならないでしょうか？！"
+		""
+		"そしてそれは全て Logic Chip から始まります"
+	]
+	quest.5F1218CF8EFC607B.title: "&c&lLaser IO"
+	quest.6112956E19017D2D.quest_desc: ["Logic Cable は他の &e&lPipez&r や &5&lMeka パイプ&r とは異なります。他のパイプはホッパーのように動作し、アイテムは1つのインベントリからパイプを通って2つ目のインベントリへと移動します。Logic Cable は中間を省略することでラグも大幅に削減します。\n\nこれらは Importer と Interface を接続するためだけのものです"]
+	quest.617695A9CA45D88F.quest_desc: ["&c&lLaserIO&r を &lLogistics&r に使用する場合、多くの Card を持つことになるかもしれません。それぞれがインベントリのスロットを占めるため、かなり窮屈になる可能性があります。Card の保管場所があればいいのに...待てよ、あります。それが Card Holder です！\n\n複数の Card を保管でき、Laser Node を開くと Card Holder も第二のインベントリのように開きます。とても便利です！"]
+	quest.6718043D0F2D1830.quest_desc: ["DireWolf は彼のカードを &5&lMekanism&r とその...他の物質の状態で動作するように追加するよう依頼されました。Pressurized Tubes が移動できるものはすべて、これらのカードで移動できます。ガス、注入タイプ、顔料など"]
+	quest.6718043D0F2D1830.title: "&5Chemical Card"
+	quest.6A962535CD68713E.quest_desc: ["&e&lPipez&rはより多くを移動させます！\\n\\nすべてのアップグレードは&e&lPipez&rが移動する量を増加させますが、それぞれが&e&lパイプ&rで使用するためのより多くのオプションを提供します。\\n\\n基本アップグレードは&e&lPipez&rでレッドストーン起動を可能にします。\\n改良アップグレードでは配布方法を変更できます：最も近いものから、最も遠いものから、ラウンドロビン、またはランダム。\\n高度なアップグレードではフィルターを追加するオプションが提供されます。\\nアルティメットは新しいものを提供しませんが、とにかくたくさん移動します！"]
+	quest.6CD7D99AA102A5C3.quest_desc: ["&n&f&lロジスティクス (物流)&r: \nアイテムやリソースを移動、管理、保管するシステムです。\n\nMOD化されたMinecraft でも同じで、アイテムを移動させます！MOD環境ではアイテムが必要で、それも数千単位で、&6&lStar&r を目指すなら数百万単位になります！そのため、工場、機械、農場、特にチェストからアイテムを移動させる必要があります。それが &l&fロジスティクス&r の目的です"]
+	quest.6CD7D99AA102A5C3.title: "&lロジスティクス（物流）"
+	quest.6E05B62A40D5A891.quest_desc: [
+		"&3&lIntegrated Dynamics&r は &f&l物流&r に関するものです！これは文字通り &l物流&r の定義と言えます"
+		""
+		"アイテムの移動、管理、保管に関するすべてです。設計が非常に優れているため、レンチさえ必要ないかもしれません！念のため1つ用意しておきましょう"
+		""
+		"(最も遅延の少ないパイプソリューションで、これらが推奨されています)"
+	]
+	quest.6E05B62A40D5A891.title: "&3&lIntegrated Dynamics"
+	quest.6F152402756DA35E.quest_desc: [
+		"これを動作させるには、アイテムを取り出したいインベントリに Item Importer を設置します。次に、2つ目のインベントリに Interface を設置し、Logic Cables で接続します。そして、Importer に Variable Card を入れ、必要に応じて設定を変更します。\n\nInteger Limit（20億以上）でアイテムをインポートするように変更できます"
+		"{image:atm:textures/questpics/logistics/id_item.png width:200 height:50 align:center}"
+	]
+	quest.6F152402756DA35E.title: "アイテムのインポート"
+	quest.76CECFB244F39F18.quest_desc: [
+		"&3Energy Importer&r を電源に取り付け、Logic Cable で &3Energy Interface&r に接続するだけです！Variable Card を設置して編集すれば、プロのようにパワーを移動できます！\n\nFlux Plug と Point のインポートやエクスポートに問題があることがありますので、注意してください"
+		"{image:atm:textures/questpics/logistics/id_energy.png width:200 height:50 align:center}"
+	]
+	quest.76CECFB244F39F18.title: "&3Energy Importing"
+	quest.7BC8F50A89A3BE1A.quest_desc: ["これらは &cLaser Nodes&r を互いに、そしてコネクターに接続するためだけに使用されます。あまり重要ではありませんが、レンチのテーマを保ちたかっただけです。\n\n他の設定にもレンチとして機能します！"]
+	quest.7EE27C3908008E20.quest_desc: ["&cLaser Nodes&rを遠くまで繋げる必要がある場合は、Connectorsを使ってみてください！通常通りレンチを使用するだけです"]
+	task.2BA7FC10243AA011.title: "加圧チューブ"
+	task.337725ECA2C04090.title: "論理輸送機"
+	task.4448DE84ABA737BE.title: "ユニバーサルケーブル"
+	task.48A30B08A090BD75.title: "レンチ"
+	task.48CF7A7622423DEA.title: "パイプアップグレード"
+	task.4CCB830CFDD43B5E.title: "AllRightsReserved"
+	task.5B7926B511000F1F.title: "機械パイプ"
+	task.5E4B74F97BDED243.title: "AllRightsReserved"
+	task.79E961F671475850.title: "熱力学伝導体"
+}

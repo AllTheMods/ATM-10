@@ -1,0 +1,508 @@
+{
+	quest.007A11C49E06F15F.quest_desc: ["これらは作成可能です。\n\n&9Crafting Component Blueprint&r は最も重要な &9Blueprint&r の1つです。\n\n&6Engineer's Workbench&r で作業台より安価に小さな機械部品を作るのに使用されます。\n\n電球や回路などのユニークなアイテムの作成にも使用できます！"]
+	quest.007A11C49E06F15F.title: "&9Crafting Components Blueprints"
+	quest.04DD3F761C210822.quest_desc: [
+		"&c&l粗製溶鉱炉&rは &8鋼鉄&r を生産するための非常にシンプル（そして粗い）方法です。\n\n&7鉄インゴット&rと &0木炭&rまたは &0コークス&rが必要です。\n\n各 &8鋼鉄インゴット&r の製造には60秒かかります。&0木炭&rは15秒、&0コークス&rは60秒全体を与えます。これらはブロック形態で倍増することもできます。\n\nスラグも得られますが...ほとんど役に立ちません"
+		"{@pagebreak}"
+		"これはもう一つの3x3x3で、今度は &c耐火レンガ&r を使用します"
+		"{image:atm:textures/questpics/immersive/immersive_crude1.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_crude2.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_crude3.png width:100 height:100 align:center}"
+		"信頼できる &6ハンマー&r で前面中央のブロックを右クリックする必要があります！"
+		"{image:atm:textures/questpics/immersive/immersive_crude.png width:100 height:100 align:center}"
+	]
+	quest.04DD3F761C210822.title: "&l&c粗製溶鉱炉"
+	quest.063241B72BB3403E.quest_desc: ["&0&lHeavy Plated Shield&r は通常の盾と同じように使用します。オフハンドに持って自分を守るために使用します。\n&0&lHeavy Plated Shield&r はより多くの耐久力を持ち、より多くのダメージから保護します。\n\nそうそう、アップグレードもできます！これらのアップグレードは &6Engineer's Workbench&r で追加できます。\n\n盾は2つのアップグレードを保持できます"]
+	quest.063241B72BB3403E.title: "&8&lHeavy Plated Shield"
+	quest.066B8A75B299AED8.quest_desc: [
+		"&9&lSqueezer&rはシンプルな機械で、&eアイテム&rを圧搾して他の&eアイテム&rや&b液体&rを作ります。\n\n背面の2つのポートを使用して&eアイテム&rを&9入力&rできます。樽の右側のポートを使用して&eアイテム&rを&6取り出し&rます。その下のポートは&b液体&rを&6出力&rします。\n\n主に小麦の種や麻の種などの作物の種から植物油を搾り出すために使用されます！\n\nいくつかの種はより多くの油を生成します。各種がどれだけ生成するかは&6ガイド&rで確認してください。\n\nまた、8個の&0コークダスト&rから&0HOP グラファイトダスト&rを得るためにも&9&lSqueezer&rを使用する必要があります"
+		"{@pagebreak}"
+		"&2&lFermenter&rとまったく同じ始め方です"
+		"{image:atm:textures/questpics/immersive/immersive_squeezer1.png width:100 height:100 align:center}"
+		"&2&lFermenter&rと同様に、大釜の代わりに樽を使用するだけです！"
+		"{image:atm:textures/questpics/immersive/immersive_squeezer2.png width:100 height:100 align:center}"
+		"&eライトエンジニアブロック&rと&4レッドストーンエンジニアブロック&rの間の樽の上にピストンを設置します。他の3つの樽の上に&8Steel Fence&rを設置します！"
+		"{image:atm:textures/questpics/immersive/immersive_squeezer3.png width:100 height:100 align:center}"
+		"ピストンの下の樽を&6ハンマー&rで右クリックするだけです"
+		"{image:atm:textures/questpics/immersive/immersive_squeezer.png width:100 height:100 align:center}"
+	]
+	quest.066B8A75B299AED8.title: "&9&lSqueezer"
+	quest.0A7B0D0B81E138DE.quest_desc: ["&e&lEngineer's Toolbox&r は区分けされたシュルカーのように機能します。\n\n食べ物、道具（&8&lIE&r の道具や他の道具を入れられますが &bバケツ&r は不可）、&c配線&r（&cワイヤー&r、&cコネクター&r、&cリレー&r を入れられます）、そして何でも入れられる区画があります。何でも入れられる区画のように寛容になりましょう！\n\n&b液体の入ったバケツ&r やアキュムレーターバックパックなど、入れられないアイテムもあります。\n\n&e&lToolbox&r をチェストのように使用するにはシフト右クリックで設置し、同じように回収できます"]
+	quest.0A7B0D0B81E138DE.title: "&e&lEngineer's Toolbox"
+	quest.0ACC0092A8F722C6.quest_desc: ["&8&lIE&r のほとんどの機械は動作に &cEnergy&r が必要で、&cWires&r でそれを送ります！\n\n&cWires&r は &cWire Coil&r で一方を右クリックし、同じ &cCoil&r で別の場所を右クリックして接続します。その経路に障害物があると接続できません。\n\n&cWires&r を回収するには、接続されているものを壊すか、trusty &6Wire Cutters&r を使用します！\n\n&cWires&r の異なる Tier は転送量に影響し、&5HV&r が最も多く転送できます"]
+	quest.0ACC0092A8F722C6.title: "&cWire Coils"
+	quest.0AE6AD813928DE4F.quest_desc: ["外部ヒーターは &2&lバニラ&r のかまどで使用できます。&c&l粗製溶鉱炉&r では使えません！\n\n底面から &cエネルギー&r を受け取り、それを熱に変換します。\n\n熱は隣接するブロックに対して他の面から出力されます。\n\n技術的には &4&l改良型溶鉱炉&r でプリヒーターをクラフトする際に使用されますが、それはカウントしません！"]
+	quest.0D212038C0A45E0B.quest_desc: ["Casull Cartridges はデフォルトの弾丸です。5ハートのダメージを与えるだけです！\n\nArmor Piercing Cartridges は防具値を無視する確率が高くなります。これは Bulwark のようなモブに対して完璧です。\n\nBuckshot Shells は1発の弾丸の代わりに複数の弾丸を発射します。近距離での使用が最も効果的です！\n\nSilver Cartridges は Casull Cartridges のように機能しますが、アンデッド系モブ（ゾンビやスケルトン）に対してより高いダメージを与えます！"]
+	quest.0D212038C0A45E0B.title: "一般的な弾薬"
+	quest.0D2D1F99945BA209.quest_desc: ["Sキーをダブルタップすると &8&lHeavy Plated Shield&r を装備するはずです...はずですが。\n\n&8&lIE&r はまだベータ版であることを忘れないでください！MOD開発には多くの時間と労力が必要です。敬意を持って接しましょう！"]
+	quest.0F14270F0A718C01.quest_desc: ["&cマグマ&r- 1300 K \n&c溶岩&r- 1300 K \n&aウラン&r- 2000 K"]
+	quest.0F14270F0A718C01.title: "&c温かいアイテム"
+	quest.13471E64CDE49D27.quest_desc: [
+		"&a&l精製所&r は2つの&b液体&r を組み合わせて1つのより良い&b液体&r に精製します！\n\n2つの&b液体&r は左右の側面のポートから&9入力&r できます。液体の出力は正面のポートから出てきます。\n\nタンクに&b液体&r を入れるために&bバケツ&r も使用できます！&a&l精製所&r を右クリックしてGUIを開くことを忘れないでください。そこで機械を起動するためにカタリストを設置する必要があります。\nカタリストに加えて、背面のポートから追加できる&cエネルギー&r も必要です！"
+		"{@pagebreak}"
+		"まず、5つの&b液体パイプ&r を一列に並べます。中央に片側に&eLight Engineering Block&r を、もう片側に&7Heavy Engineering Block&r を設置します。残りの&b液体パイプ&r の隣に&8Steel Scaffolding&r を設置します"
+		"{image:atm:textures/questpics/immersive/immersive_refinery1.png width:150 height:100 align:center}"
+		"前のEngineering Blocksの上にさらにブロックを設置します。&7Heavy Engineering Block&r の右側に1ブロック空けて&4Redstone Engineering Block&r を設置します。&eLight Engineering Block&r の隣に2x2の&7Iron Sheetmetal&r を設置します"
+		"{image:atm:textures/questpics/immersive/immersive_refinery2.png width:150 height:100 align:center}"
+		"あとは&7Iron Sheetmetal&r をいくつか追加するだけです！"
+		"{image:atm:textures/questpics/immersive/immersive_refinery3.png width:150 height:100 align:center}"
+		"このために上部の&7Heavy Engineering Block&r を&6ハンマー&r で右クリックする必要があります"
+		"{image:atm:textures/questpics/immersive/immersive_refinery.png width:100 height:100 align:center}"
+	]
+	quest.13471E64CDE49D27.title: "&l&aRefinery"
+	quest.135A16EDEEE27FA9.quest_desc: ["&8&lIE&rの&c配線&rと&c電力&rに関するすべてのものは段階があります。&6低電圧&r(&6LV&r)、&e中電圧&r(&eMV&r)、そして&5高電圧&r(&5HV&r)です。\n\n電圧が高いほど、より多くの&cエネルギー&rを移動して使用できます。一部のマシンは使用するために高い電圧が必要です。\n\n異なる電圧を変換するには&cトランスフォーマー&rが必要です。そのクエストをチェックしてください！"]
+	quest.135A16EDEEE27FA9.title: "段階的な電圧"
+	quest.13AF35A3108B02AF.quest_desc: ["速く進まなきゃ！"]
+	quest.1759A4E2AF0D2C88.quest_desc: ["&eLight Engineering Block&r を思い浮かべてください。今回はその部品をもっと作るのが大変になっただけです！\n\nまず &eエレクトラム&r が必要です。これは &6&lAlloy Kiln&r で &e金&r と &7銀&r を合金化して作ります。\n\n次に &8Steel Sheetmetal&r が4つ必要です。&7Iron Sheetmetal&r と同様に、&8プレート&r を4つ組み合わせて作ります。\n\n3つ目は &8Steel Mechanical Components&r です。作業台で &6銅インゴット&r 1つと &8Steel Plates&r 4つを使って作るか、&6Engineer's Workbench&r でより安く作ることができます"]
+	quest.1759A4E2AF0D2C88.title: "&7Heavy Engineering Block"
+	quest.18A9392BBCF5A871.quest_desc: ["すべての Machine Mod と同様に、&8&lImmersive Engineering&r は &eアイテム&r、&b液体&r、その他を移動する方法が必要です！\n\nほとんどのマシンにはデフォルトで設定された &6出力&r と &9入力&r がありますが、&6Engineer's Screwdriver&r を使用して設定を変更できます！また、&6Engineer's Hammer&r を使用する必要がある場合もありますが、それは別の話です"]
+	quest.18A9392BBCF5A871.title: "&8&lImmersive Engineering&r Logistics"
+	quest.1A13039D6302ADA5.quest_desc: ["これらの作り方は以前のクエストで確認できます：&eLight Engineering Blocks&r の &7鉄の機械部品&r と &7Heavy Engineering Blocks&r の &8鋼板金&r。\n&eエレクトラムコイル&r は少し異なります...\n\n&eエレクトラムコイル&r には鉄インゴットと8つの MV ワイヤーコイルが必要です。MV ワイヤーコイルを入手するには、Engineer's Wire Cutters で &eエレクトラム&r を切断する必要があります"]
+	quest.1A13039D6302ADA5.title: "&6発電機ブロック"
+	quest.1A3F053E0F693002.quest_desc: ["Advanced Lubrication System は &8ドリルヘッド&r と &8ノコギリの刃&r に耐久力エンチャントのように機能します。\n\n使用時の耐久値の消費が少なくなります"]
+	quest.1A3F053E0F693002.quest_subtitle: "その名前で笑うのはやめて！"
+	quest.1A6A383B4EF26B20.quest_desc: ["&4&lマイニングドリル&r には多くの選択肢がありません。&7鉄のドリルヘッド&r か &8鋼鉄のドリルヘッド&r があります。\n\n&7鉄のドリルヘッド&r は &7鉄のツルハシ&r と同じ採掘レベルで2x2エリアを採掘します。また、6ダメージを与え、以下より耐久値が低いです...\n\n&8鋼鉄のドリルヘッド&r は &bダイアモンドのツルハシ&r と同じ採掘レベルで3x3エリアを採掘します。7ダメージを与え、より高い耐久値を持ちます！"]
+	quest.1A6A383B4EF26B20.title: "&8ドリルヘッド"
+	quest.1A8F2408970BFCCF.quest_desc: ["&eエレクトラム&r は &e金&r と &7銀&r から作られる合金です。\n\n名前から推測できるように、これは電気関連のあらゆるものに大量に使用されます。ワイヤー、コネクター、トランスフォーマーなど！"]
+	quest.1A8F2408970BFCCF.title: "&eエレクトラムインゴット&r"
+	quest.1BF02D43986ABB03.quest_desc: ["&eベルト&rにはさまざまな形状や用途があります！\n\nまず、すべての&eコンベアベルト&rは&8Steel Scaffolding&rでクラフトしてカバーを付けることができます。&eカバー付きベルト&rは、プレイヤーが上にある&eアイテム&rを拾えないようにします。\n\n&eベルト&rの最も基本的なバージョンは&e垂直ベルト&rです。単純に&eアイテム&rを上方向に運びます！\n\n&e分岐ベルト&rは...&eアイテム&rの進行方向を分岐させます。&eアイテム&rごとに方向が切り替わります：1つは左、1つは右、1つは左、1つは右というように。\n\n&eドロッピングベルト&rは&eアイテム&rを下のインベントリに落とすか、空きスペースがある場合は単に&eアイテム&rをドロップします。これらは&4レッドストーン&rで&eアイテム&rをドロップしないように設定できます。\n\n最後は&e抽出ベルト&rで、これはインベントリから自動的に&eアイテム&rを取り出して&eベルト&rに配置します。これらは一部のマシンでも使用できます！"]
+	quest.1BF02D43986ABB03.title: "&eベルト&rの種類"
+	quest.1C76E244AE3582E6.quest_desc: [
+		"&5&lAssembler&rは、ほとんどのマシンとは異なり、主にGUI内で動作します。\n\nマシンを右クリックし、画面上部のグリッドにレシピを配置して3つのレシピを設定します。配置された順序が優先順位となります。\n\n&eベルト&rから&eアイテム&rを&9入力&rすると、背面の&aベルト&rから&6出力&rされます。クラフトに使用される&bバケツ&rや&bタンク&rを補充するために&b液体&rを&6入力&rすることもできます！\n\n上部から&cエネルギー&rを供給する必要もあります"
+		"{@pagebreak}"
+		"2本の &8Steel Scaffolding&r を3ブロックずつ、1ブロック空けて平行に設置します。その間に &eLight Engineering Block&r を中央に、その周りに &4Redstone Engineering Block&r を設置します"
+		"{image:atm:textures/questpics/immersive/immersive_assembler1.png width:100 height:100 align:center}"
+		"&4Redstone Engineering Block&r の側面に &7Iron Sheetmetal&r を設置します。そして、&eLight Engineering Block&r の上にもう1つ設置する必要があります。その後、&eConveyor Belt&r を &eLight Engineering Block&r に向かって、そして通り抜けるように設置します！"
+		"{image:atm:textures/questpics/immersive/immersive_assemble2.png width:100 height:100 align:center}"
+		"見ただけでは少し分かりにくいかもしれません。先ほど設置した &7Iron Sheetmetal&r の上に &7Iron Sheetmetal Slab&r を設置します。そして、その間に &7Iron Sheetmetal&r を設置します"
+		"{image:atm:textures/questpics/immersive/immersive_assembler3.png width:100 height:100 align:center}"
+		"&5&lAssembler&r を作るには、最初の &eConveyor Belt&r を &6ハンマー&r で右クリックします！"
+		"{image:atm:textures/questpics/immersive/immersive_assembler.png width:100 height:100 align:center}"
+	]
+	quest.1C76E244AE3582E6.title: "&5&lAssembler"
+	quest.1D4E7F548431263A.quest_desc: ["これらのブロックの中で最も簡単に作れるものです。\n\n鉄と&4レッドストーン&rは&2&lバニラ&rのゲームプレイで入手できます。唯一の「難しい」アイテムは&7鉄のシートメタル&rです"]
+	quest.1D4E7F548431263A.title: "&4レッドストーン エンジニアリング ブロック"
+	quest.1F7DA060792D716A.quest_desc: [
+		"&d&lMixer&r は、お母さんやおばあちゃんが卵を小麦粉や砂糖と混ぜて美味しいお菓子を作るときに使うものと同じです！\n\n&d&lMixer&r は &eアイテム&r と &b液体&r を混ぜ合わせます。&b液体&r を入れるには、&d&lMixer&r の左側にあるポートを使用します。&eアイテム&r を入れるには、背面のポートを使用します。\n\n動作させるには、&d&lMixer&r の前面上部にあるポートから &cエネルギー&r を供給する必要があります。\n\n混合が完了すると、結果はマシンの前面のポートから出てきます！"
+		"{@pagebreak}"
+		"&d&lMixer&r の最初の層は WiFi シンボルのように作ります！最初に &eLight Engineering Block&r、次に &b液体パイプ&r、そして &8Steel Scaffolding&r です"
+		"{image:atm:textures/questpics/immersive/immersive_mixer1.png width:100 height:100 align:center}"
+		"&eLight Engineering Block&r の上にもう1つ置き、新しく置いたものの左にもう1つ置きます。右端の &8Scaffolding&r の上に &4Redstone Engineering Block&r を置きます。そして、マシンの背面に 2x2 の &7Iron Sheetmetal&r を置きます"
+		"{image:atm:textures/questpics/immersive/immersive_mixer2.png width:100 height:100 align:center}"
+		"3つ目の &eLight Engineering Block&r の上に1つの &8Steel Fence&r を置き、その右側に4つ目の &eLight Engineering Block&r を置きます"
+		"{image:atm:textures/questpics/immersive/immersive_mixer3.png width:100 height:100 align:center}"
+		"&d&lMixer&r を作成するには、&eLight Engineering Block&r と &4Redstone Engineering Block&r の間にある &7Iron Sheetmetal&r を &6Engineer's Hammer&r で右クリックします！"
+		"{image:atm:textures/questpics/immersive/immersive_mixer.png width:100 height:100 align:center}"
+	]
+	quest.1F7DA060792D716A.title: "&l&dMixer"
+	quest.1FA44E8FEE004AB4.quest_desc: ["Hemp Rope と &8Steel Cables&r は通常の &cWires&r のように &cConnectors &fと &cRelays&r に設置できますが、&cEnergy&r は伝送しません。\n\n代わりに装飾用や &6&lEngineer's Skyhook&r を使用するためのものです！"]
+	quest.1FA44E8FEE004AB4.title: "&6&lSkyhook&r 使用に安全！"
+	quest.2224AA108FC006F3.quest_desc: ["リボルバーのスピードローダーはアップグレードではなく、補助的なアイテムです。\n\n&d&lリボルバー&rと同じように弾薬を装填し、&d&lリボルバー&rをリロードする必要があるときは右クリックするだけで即座にリロードできます！"]
+	quest.2224AA108FC006F3.quest_subtitle: "6発撃ったかな？それとも5発だったかな？"
+	quest.2262AB9F934165D0.quest_desc: ["どうやって手に入れたかは気にしません、とにかく入手してください！\n\n&8&lImmersive Engineering&r は &8Steel&r にシンプルな建築以外にもたくさんの用途を追加します。ほとんどすべてのものを作るのに &8Steel&r が必要になります！\n\n主にツール、機械部品、建築ブロックです。多くは &8Steel Plates&r や &8Scaffolding&r で作られています。\n\nたくさん必要になりますが、&l&cCrude Blast Furnace&r と &l&6Alloy Kin&r は自動化できないので、私たちには..."]
+	quest.2262AB9F934165D0.title: "&8Steel Ingot"
+	quest.231E0C0A9B0C0509.quest_desc: ["これは &c&lAccumulator Backpack&r に装着できます。\n\n&c&lBackpack&r を装備している時、近くの &eアイテム&r がインベントリに吸い込まれます！"]
+	quest.23FDFA44A162023A.quest_desc: [
+		"&6Engineer's Workbench&rは多くのクラフトとアップグレードに必要なブロックです"
+		""
+		"&9Blueprints&rを使用して、他の場所ではクラフトできない特別なアイテムをクラフトできます。&9Blueprints&rを左スロットに、&eクラフト用アイテム&rを右スロットに入れます"
+		""
+		"また、リボルバーやマイニングドリルのように、ツールをアップグレードするためにも使用できます！"
+		""
+		"さらに、&eアイテム&rと&9Blueprints&rを追加すると、&6ブロック&r自体で確認できます。とてもクールですね！"
+	]
+	quest.23FDFA44A162023A.title: "&6Engineer's Workbench"
+	quest.251464B43353D4C6.quest_desc: ["私たちの愛する Garden Cloche！これは自動農場で、このクエストで使い方は簡単です！\n\n始めるには左、右、または上から &cエネルギー &6入力&r が必要です！\n\n次に、背面のポートから &9水&r が必要です（&9Sink&r を使ってみてください）。\n\n次に、底部の &eアイテム &6入力&r から種、耕地、オプションの肥料を入力する必要があります！\n\n種には適切な耕地が必要です。これらはすべて右クリックで GUI を確認できます！\n\nすべてが揃うと、素早く作物を成長させて収穫し、ドームの前面に &6出力&r します。\n\n最後に注意点：元の種と耕地は消費されません。土は耕地に変換され、肥料として硫黄、スラグ、硝酸塩、工業用肥料が使用できます"]
+	quest.252A24CED69C1882.quest_desc: ["Thermoelectric Generator（以下、Thermo と呼びます）は独特な発電機です。\n\n単体では何もしませんが、Thermo の異なる面に異なる温度のブロックや液体を設置する必要があります。\n\n温度差が大きいほど、より多くのエネルギーを生成します！"]
+	quest.252A24CED69C1882.title: "温度差からのエネルギー"
+	quest.257C80468B080B3C.quest_desc: ["電磁石は&8&lIE&rのAbsorption Hopperに対する解釈です。\n\nまあ、ある意味では！&eアイテム&rを保持するのではなく、電磁石の上面に最も近い位置に移動させます。\n\nこれを使って&eベルト&rやホッパーに乗せることができます！\n\nただし、使用するには&cエネルギー&rが必要です"]
+	quest.27FA2DB7839172BB.quest_desc: ["&c&lバックパック&r はデフォルトでは手に持っている &eアイテム&r と装備している防具のみを充電します。でも、もっと多くのものを充電したい場合はどうすればいいでしょう！\n\nInduction Charger が必要です！これを装着すると、インベントリ内の充電可能な &eアイテム&r すべてが充電されます"]
+	quest.288406DE6DA31BA6.quest_desc: ["特に &8&lIE&r では多くのものに &cエネルギー&r が必要です。まずは &6Engineer's Wire Cutters&r が必要です！\n\nこれを使って Plates から &cワイヤー&r を切り出し、それを &cコイル&r にして使用できます。\n\nまた、&cコネクター&r から &cワイヤー&r を取り外すのにも使用します"]
+	quest.288406DE6DA31BA6.title: "&8&lImmersive Engineering&r の電力！"
+	quest.28847A536C38EEA0.quest_desc: ["&cトランスフォーマー&r は &6LV&r から &eMV&r への接続を可能にします。小さい方の &cコネクター&r が &6LV&r で、大きい方が &eMV&r です！\n\n&eMV&r から &5HV&r に変換するには &5HV トランスフォーマー&r が必要です。これも他の &cトランスフォーマー&r と同じように機能し、小さい方の &cコネクター&r が &eMV&r で大きい方が &5HV&r です！\n\n&6LV&r から直接 &5HV&r へは &eMV&r を経由せずには変換できません！"]
+	quest.28847A536C38EEA0.quest_subtitle: "監督：マイケル・ベイ"
+	quest.28847A536C38EEA0.title: "&cトランスフォーマー"
+	quest.28E99A6E17E86709.quest_desc: ["&b液体&rの移動は&8&lIE&rの重要な部分です。クレオソートオイルやプラントオイルを考えてみてください！\n\n&b液体パイプ&rは&b液体&rを移動させる基本的な方法です。より速く移動させたい場合は&b液体ポンプ&rを確認してください。\n\n&b液体パイプ&rは、エネルギーコネクタと同様に、接続先から&9入力&rと&6出力&rが決定されます。&b&lタンク&rのように、一部のマシンは&b液体パイプ&rに&6出力&rするために&4レッドストーン信号&rが必要です！\n\n&6エンジニアのハンマー&rを使用して&bパイプ&rの接続先を変更できます。また、&8鉄足場&rを使用してカバーしたり、染料で染色したりすることもできます！"]
+	quest.28E99A6E17E86709.title: "&b液体&rの移動"
+	quest.29C9F8719DA63D8D.quest_desc: [
+		"&2&lBuzzsaw&r は &4&lMining Drill&r と同様に機能しますが、&2木&r 用です！"
+		""
+		"燃料として &2Bio-Diesel&r が必要ですが、ここではその入手方法は説明しません！"
+		""
+		"また、何らかの &8のこぎり刃&r が必要です。これは &6Engineer's Workbench&r の上部スロットに取り付けることができます"
+		""
+		"&2木&r の原木を破壊すると、すべての原木、葉、鳥の巣が一緒に落下します！Shift キーを押すことで、接続されているものすべてを破壊しないようにすることもできます"
+		""
+		"&2&lBuzzsaw&r は10ダメージも与えます！なぜ剣を使う必要があるのでしょうか？ああそうです、&8のこぎり&r は耐久値があり、&2Bio-Diesel&r も必要です"
+		""
+		"&2&lBuzzsaw&r は1つの &8のこぎり刃&r または &8ディスク&r と2つのアップグレードを装着できます"
+	]
+	quest.29C9F8719DA63D8D.title: "&2&lBuzzsaw"
+	quest.2A1BFB2E0F1F3312.quest_desc: ["&dエンドロッド&rは10ダメージを与え、エンダーマンにも命中します。\n&5エンダーパール&rはモブに命中せず、代わりに射出時にさらに遠くにテレポートします。\n&3トライデント&rは通常の&3トライデント&r投擲のように機能し、8ダメージを与えます。\n&cブレイズロッド&rは10ダメージを与え、モブを炎上させます！"]
+	quest.2A1BFB2E0F1F3312.title: "&2&lMinecraft&rからの&5&lRailgun&r弾薬"
+	quest.2E89A03BA809634E.quest_desc: ["これらは Gunsmith とのトレードでのみ入手できます。\n\nSpecialized Projectile は特殊な効果を持つものです！\n\n誘導、爆発、フレアは&9設計図&rを使ってクラフトする必要があります"]
+	quest.2E89A03BA809634E.title: "&9Specialized Projectiles 設計図"
+	quest.2E9D1131DC21CC5B.quest_desc: ["&lIndustrial Foregoing&r はスタイリッシュな未来的デザイン、&5&lMekanism&r は地味なモダンデザイン、そして &8&lImmersive Engineering&r はよりレトロな雰囲気です！\n\nすべてが &6茶色&r、&7灰色&r、そして &8濃い灰色&r です！\n\nこの Mod は &6Engineer's Hammer&r から始まります。これらは Plate、Dust の作成、または Multiblock の建設に使用できます！\n\nところで、この Mod では多くのマルチブロックを立てる羽目になるでしょう。楽しみにしていてください！"]
+	quest.2E9D1131DC21CC5B.title: "&8&lImmersive Engineering"
+	quest.2F19529214CA9559.quest_desc: ["棘の鎧 のようですが、ダメージを与えず、攻撃者を混乱させるだけです。\n\nモブを少しの間止めるだけですが、プレイヤーにはより効果的（そしてイライラさせる）です！"]
+	quest.2F19529214CA9559.quest_subtitle: "Blitz?"
+	quest.2F8D117F802FEAF0.quest_desc: ["Commandos は軽装の部隊です。\n\n12のハートを持ち、防具はありません。\n\n武器は &d&lリボルバー&r で、オフハンドに盾を持っています。\n\n死亡時には Apotheosis のステータスと同様に、異なるステータスを持つリボルバーのパーツをドロップします！"]
+	quest.2F8D117F802FEAF0.title: "Commando"
+	quest.30EA16BB8C169F86.quest_desc: ["これは&6銅&rと&7錫&rの組み合わせです！\n\n&7&lModern Industrialization&rでたくさん使用されます！しかし&8&lIE&rでは...そこまで使いません..."]
+	quest.30EA16BB8C169F86.title: "青銅インゴット"
+	quest.31324A6F96CAC112.quest_desc: ["&b液体ポンプ&rはボトラーだけでなく、&b液体&rをより素早く移動させるためにも使用できます！\n\n&6エンジニアのハンマー&rを使用して、&b液体ポンプ&rの側面を&9入力&rと&6出力&rに設定できます。\n\nその後、&4レッドストーン&rまたは&cエネルギー&rで動力を供給でき、&cエネルギー&rは&4レッドストーン&rよりもはるかに速く&b液体&rを移動させます"]
+	quest.31324A6F96CAC112.title: "&b液体ポンプ"
+	quest.320EE52EB022FAD3.quest_desc: ["これは面白いものです！\n\n&b液体アウトレット&rは&9入力 &b液体&rに設定でき、&6出力&r側の隣に&b液体&rをソースブロックとして設置することができます！\n\nこれは&9水&r、&c溶岩&r、またはほぼすべての&b液体&rの設置を自動化できることを意味します！"]
+	quest.320EE52EB022FAD3.title: "&b液体アウトレット"
+	quest.32384DE59539557D.quest_desc: [
+		"&4&lクラッシャー&rは非常に危険で騒々しいマシンです。\n\n上部の格子に&9入力&rとして&eアイテム&r（またはMob）を入れると、それらを&4&l粉砕&rしてドロップアイテムにします！\n\n特に未加工の鉱石を粉にする際に非常に役立ちます。未加工の鉱石ブロックを使用すると、&6ハンマー&rよりも多くの粉を得ることができ、さらに全く新しい種類の粉を得るチャンスもあります！\n\nすべてのドロップは底面の前方ブロックから自動的に&6排出&rされます。また、上部右側から&cエネルギー&r入力が必要です"
+		"{@pagebreak}"
+		"&4&lクラッシャー&rはかなり大きく、&8Steel Scaffolding&rと&eLight Engineering Block&rのこのレイアウトを配置する必要があります。&eLight Engineering Block&rが向いている方向が前面になります！"
+		"{image:atm:textures/questpics/immersive/immersive_crusher1.png width:100 height:150 align:center}"
+		"3つの&eLight Engineering Block&rの上にさらに3つ配置します。左側に&4Redstone Engineering Block&rと&eLight Engineering Block&rを配置します。次に、中央に別の&eLight Block&rを置き、&8Steel Fence&rで囲みます"
+		"{image:atm:textures/questpics/immersive/immersive_crusher2.png width:100 height:100 align:center}"
+		"最後に、&8Steel Fence&rの上と中央にホッパーを9つ設置するだけです！"
+		"{image:atm:textures/questpics/immersive/immersive_crusher3.png width:100 height:100 align:center}"
+		"マルチブロックを形成するには、中央の&8Fence&rを叩く必要があります"
+		"{image:atm:textures/questpics/immersive/immersive_crusher.png width:100 height:100 align:center}"
+	]
+	quest.32384DE59539557D.title: "&l&4クラッシャー"
+	quest.33732EE8110A0911.quest_desc: ["&8&lIE&rの開発者は&4&l採掘ドリル&rが採掘にも使用できることを忘れていたので、最後の最後に幸運IIIを追加しました。\n\nそれが岩石軟化酸です"]
+	quest.340F93695FFF8D76.quest_desc: ["これにより&b&lChemical Thrower&rはより Chemical Shooter のようになります。\n\n射程距離は増加しますが、噴射幅は減少します。そのため、より正確になります！"]
+	quest.341BB1353A1E45EA.quest_desc: ["Gun Turret は &d&lリボルバー&r のように動作するコンピューター制御の砲台です！\n\n下から &cエネルギー&r を供給し、&4レッドストーン信号&r で起動する必要があります。または &6Engineer's Screwdriver&r を使用して常時起動にすることもできます。\n\n&d&lリボルバー&r と同じ弾薬を使用し、特殊な弾丸も使えます！弾丸を &9入力&r し、薬莢を &6排出&r するか、薬莢排出ボタンで単に排出することができます。\n\n射撃を開始する前に、ターゲットを設定する必要があります。まず、設置者は攻撃されません。Type Bar にプレイヤーやモブの名前を追加して、それらを攻撃対象から除外することができます！\n\nデフォルトでブラックリストに設定されており、リストに記載されたものを攻撃します。Animals は平和的なモブ、Players はプレイヤー、Neutral は中立的なモブと村人を意味します。敵対的なモブは常に攻撃対象となります！"]
+	quest.34D09336FA3E272A.quest_desc: ["Chemthrower Turret は Gun Turret と全く同じターゲティングを持っているので、詳しくはそちらを確認してください！\n\nGun Turret と同様に、Chemthrower Turret はポートから&cエネルギー&rが必要です。また、保持して発射するための&b液体&rをパイプで供給する必要があります。&b液体&rは&bバケツ&rで補充することはできず、&bパイプ&rでのみ&9入力&r可能です。\n\nChemthrower Turret は4,000mBまたは4&bバケツ&r分の容量があります。また、ボタンを押すことで発射される&b液体&rを発火させることができます。これにより可燃性の&b液体&rが発火します！"]
+	quest.35E399D88D2EDCB6.quest_desc: ["このアップグレードにより、あなたを攻撃する者は 1. スタンして一瞬動きを止め 2. ダメージを受け 3. 飛び道具を破壊します。\n\nアップグレードする価値は十分にあると思います！"]
+	quest.35E399D88D2EDCB6.quest_subtitle: "クラッシュ？"
+	quest.36EB83BB41A9E621.quest_desc: [
+		"&b&lTank&r は &l&eSilo&r と同じようなものですが、&b液体&r 用です！\n\n1種類の &b液体&r しか保持できませんが、その &b液体&r を512バケツ分保持できます。\n\n上部または底部から &b液体&r を &9入力&r できますが、&6出力&r は底部からのみ可能です"
+		"{@pagebreak}"
+		"&b&lTank&r は &e&lSilo&r と同様に構築されます。Treated Fence と単一の &7Iron Sheetmetal&r から始めます"
+		"{image:atm:textures/questpics/immersive/immersive_tank1.png width:125 height:100 align:center}"
+		"次に、Fence の上に &7Iron Sheetmetal&r の中空の四角形を3ブロックの高さまで積み上げます"
+		"{image:atm:textures/questpics/immersive/immersive_tank2.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_tank3.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_tank4.png width:100 height:100 align:center}"
+		"最後に、&7Iron Sheetmetal&r で四角形を埋めて上部を完成させます！"
+		"{image:atm:textures/questpics/immersive/immersive_tank5.png width:100 height:100 align:center}"
+		"&e&lSilo&r と同じブロックを右クリックして &b&lTank&r を作成します"
+		"{image:atm:textures/questpics/immersive/immersive_tank.png width:100 height:120 align:center}"
+	]
+	quest.36EB83BB41A9E621.title: "&b&lTank"
+	quest.373668AE257A7A94.quest_desc: ["High Explosive Cartridges は敵に向かって爆発物を発射し、TNT のように周囲のすべてを爆破します！\n\nDragon's Breath Shells は Buckshot のように機能しますが、発射物が炎上します！！！！！\n\nPhial Cartridges は作成時に使用したポーションに基づいたポーション効果を与えます。\n\nFlare Shells はクロスボウの花火のように機能します。\n\nHoming Cartridges はあなたの最も近くにいるモブを狙います...危険なモブであることを願いましょう。\n\nWolfpack Shells は Buckshot Shells のようですが、発射物が Homing Cartridges になっています！"]
+	quest.373668AE257A7A94.title: "特殊な発射物"
+	quest.38C98FCB6A2D4226.quest_desc: ["Miniature Tesla Coil はトゲの付与と同じように機能します。\n\nあなたが &c&lBackpack&r を装備している時に誰かがあなたを攻撃すると、相手は感電します。ダメージを与え、効果を付与します！"]
+	quest.38F01BAEC74D5D68.quest_desc: ["これは他の Preheater と同じですが、対称性を保つために追加しました :D"]
+	quest.39DAC0592300992A.quest_desc: ["&9Metal Press の金型設計図&r はクラフトできます。\n\n&7&lMetal Press マルチブロック&r は &7金属プレート&r と &eアイテム&r の作成を自動化します。\n\n&7金属&r をプレスするには金型が必要です。\n\n金型を作るにはこれらの &9設計図&r が必要になります！"]
+	quest.39DAC0592300992A.title: "&9Metal Press の金型設計図"
+	quest.3A4A8EAA3022C7BA.quest_desc: ["水車は Kinetic Dynamo で使用できる機械の1つです。\n\n風車と比べてコンパクトですが、高価です。\n\n使用するには水車の周りに&9水&rを流す必要があります。周りの&9水&rが多いほど、速く回転します。ただし、&9水&rが2つの異なる方向に流れないようにしてください！\n\nよりコンパクトであることは、1つの Kinetic Dynamo に3つの水車を設置してさらに多くのエネルギーを得ることができることを意味します"]
+	quest.3DE14F16F3109229.quest_desc: ["任意の木材8個と&7クレオソートオイルバケツ&rを組み合わせることで、防腐処理された木材を作ることができます！\n\n防腐処理された木材は、&8&lIE&rが提供するほぼすべてのアイテムと、ほとんどの基本的な機械に使用されます。\n\n最も重要なのは&6エンジニアの作業台&rです！これにより、多くの新しいレシピが解放されます"]
+	quest.3DE14F16F3109229.title: "防腐処理された木材"
+	quest.3E32450DBB7529AA.quest_desc: ["Item Batcher はジェットコースターの列のように動作します。\n\nジェットコースターは全ての席が埋まるまで出発しません！同じように Batcher は設定されたフィルターと数量が一致するまでアイテムを出力しません。\n\n特定の数量のアイテムが必要な Mekanism の鉱石処理のような作業に最適です。そうでないとボトルネックになってしまいます"]
+	quest.3E32450DBB7529AA.title: "Item Batcher"
+	quest.3E89034E0CB8D687.quest_desc: ["木製の Crate は樽のように機能します...しかし &2&lMinecraft&r のものなので、どの面からでも開けることができるチェストです！\n\n27 スロットありますが、&6Engineer's Hammer&r で Shift 右クリック（複数回）することで閉じることができます！これにより、中の &eアイテム&r を保持したまま壊すことができます。\n\nまた、金床のように Crate のテキストを編集して名前を変更することもできます。\n\n強化された Crate は通常のものと全く同じように機能しますが、爆発で破壊されることはありません！"]
+	quest.3E89034E0CB8D687.title: "&eアイテム&rの保管"
+	quest.3ED40CC40458087E.quest_desc: ["&c&lAccumulator Backpack&r は単体ではあまり機能しません。動作させるためには &cAccumulator&r を取り付ける必要があります！どの &cAccumulator&r でも構いません！\n\n&6Engineer's Workbench&r で &cAccumulator&r を取り付けると、充電できるようになります。充電すると、手に持っているアイテムと装備している防具に &cEnergy&r を供給します。\n\nCurios の Back スロット、チェストプレートスロットに装備できます。または作業台でチェストプレートと組み合わせることもできます。\n\nBackpack は1つの &cAccumulator&r と3つのアップグレードを収納できます"]
+	quest.3ED40CC40458087E.title: "&c&lAccumulator Backpack"
+	quest.3EDDF96EA5056D28.quest_desc: ["&6銅&r と &7ニッケル&r で &6Constantan&r を作ります！\nこれは &8&lIE&r で頻繁に使用され、特に発電機のような熱と金属を使用するマシンやアイテムに使われます"]
+	quest.3EDDF96EA5056D28.title: "&6コンスタンタンインゴット&r"
+	quest.3EE95747CA6DFB1A.quest_desc: [
+		"&7&lMetal Press&r は &7金属&r を使用したすべてのクラフトレシピにおいて最高の味方です！\n\nとても簡単で、金型を Press に設置し、上部に &cEnergy&r を接続し、&eアイテム&r を &eConveyor Belt&r に投入します。\n\n&eアイテム&r は通過し、&7&lPress&r で加工され、新しい &eアイテム&r となって &eBelt&r 上を移動し続けます！\n\nこれらは &cワイヤー&r、&7プレート&r、&8ロッド&r、そして... &2スイカのスライス&r を作るのに使用できます"
+		"{@pagebreak}"
+		"最初の層はとても簡単で、&8Steel Scaffolding&r と &4Redstone Engineering Block&r の両側だけです"
+		"{image:atm:textures/questpics/immersive/immersive_press1.png width:150 height:75 align:center}"
+		"次に、&4Redstone Engineering Block&r の上に下向きのピストンを設置し、その横に2つの Conveyor Belt を追加します"
+		"{image:atm:textures/questpics/immersive/immersive_press2.png width:125 height:100 align:center}"
+		"そして、ピストンの上に1つの &7Heavy Engineering Block&r を設置します！"
+		"{image:atm:textures/questpics/immersive/immersive_press3.png width:100 height:100 align:center}"
+		"最後に、Engineer's Hammer でピストンを右クリックします！"
+	]
+	quest.3EE95747CA6DFB1A.title: "&l&7Metal Press"
+	quest.407C2D00F22BD89D.quest_desc: ["このアップグレードは6つの弾丸スペースを追加します！合計14になります"]
+	quest.4104C5D003D4705A.quest_desc: [
+		"また別のベルトを使用するマルチブロックです。パターンが見えてきましたね。まず、&9Blueprint&r を設定する必要があります。&6&lAutomated Workbench&r を右クリックして GUI を開き、一番右のスロットに &9Blueprint&r を配置します。\n\nその後、アイテムをベルトに流して可能なレシピに使用することができます。\n\nクラフトされたアイテム（およびベルトに誤って置かれたアイテム）はベルトから出ていきます。\n\nこれは弾丸、&0HOP Graphite&r、&7Mechanical Components&r の自動化に便利です"
+		"{@pagebreak}"
+		"多くの場合、&8Steel Scaffolding&r を使用して形を作り始めます。今回は斜めのラインです。小さい角には &7Heavy Engineering Block&r を配置します。大きい角には 2つの &eLight Engineering Blocks&r と &4Redstone Engineering Block&r を配置します"
+		"{image:atm:textures/questpics/immersive/immersive_automated1.png width:100 height:100 align:center}"
+		"次に、&eLight Engineering&r と &7Heavy Engineering Blocks&r を前のものの上に重ねて配置します。&4Redstone Engineering Block&r の上とその左の &8Steel Scaffolding&r の上に Treated Wood Slab を配置します。残りのスペースには図のように &eConveyor Belts&r を配置します"
+		"{image:atm:textures/questpics/immersive/immersive_automated2.png width:100 height:100 align:center}"
+		"&6&lAutomated Workbench&r を作るには、左の Treated Wood Slab を &6Engineer's Hammer&r で叩きます！"
+		"{image:atm:textures/questpics/immersive/immersive_automated.png width:100 height:100 align:center}"
+	]
+	quest.4104C5D003D4705A.title: "&l&6Automated Workbench"
+	quest.41B99DBD03EB74FF.quest_desc: [
+		"マルチブロックが改良されていると言っているのは本当です！\n\n上部から&9入力&rを受け取り、前面と背面のスロットから&6出力&rを行うように自動化できます。\n\nさらに、左右にプリヒーターを追加することもできます！\n\nこれらすべてにより、より高速で効率的になります！"
+		"{@pagebreak}"
+		"ついに異なるものが登場！3x3x3の&4強化された溶鉱炉レンガ&rを基礎として始めます"
+		"{image:atm:textures/questpics/immersive/immersive_blast1.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_blast2.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_blast3.png width:100 height:100 align:center}"
+		"次に、中央ブロックの上部にホッパーを設置します"
+		"{image:atm:textures/questpics/immersive/immersive_blast4.png width:100 height:125 align:center}"
+		"そして、2段目の中央ブロックを&6エンジニアのハンマー&rで右クリックします"
+		"{image:atm:textures/questpics/immersive/immersive_blast.png width:100 height:150 align:center}"
+	]
+	quest.41B99DBD03EB74FF.title: "&l&4改良型溶鉱炉"
+	quest.4295C863C9A81F28.quest_desc: ["テスラコイルは非常に楽しく、&cエネルギー&rを大量に消費するホームディフェンスです！\n\nまず、任意のポートから&cエネルギー&rを供給します。次に、&4レッドストーン信号&rを与えて起動するか、&6エンジニアのスクリュードライバー&rを使用して常時オンにします！\n\n起動中は常に&cエネルギー&rを使用し、モブが近づくと気絶させてダメージを与えます！モブにダメージを与えるとより多くの&cエネルギー&rを消費します。\n\n&6エンジニアのスクリュードライバー&rでシフト右クリックすると、低出力モードに設定できます。&cエネルギー&r消費は少なくなりますが、射程とダメージも減少します！"]
+	quest.431C62A6F8ECB4EC.quest_desc: ["&7Aluminum Rod&r - 10 \n&7Iron Rod&r - 16 \n&8Steel Rod&r - 24 \n&8Sawblade&r - 12 \n&0Graphite Electrode&r - 30"]
+	quest.431C62A6F8ECB4EC.title: "&5&lRailgun&r の弾薬 from &8&lIE&r"
+	quest.442B1A1900BADAFC.quest_desc: ["&8&lIE&r の一部のマシンはマルチブロックではなく、シングルブロックです！\n\n1ブロックで作られているからといって、重要でないと考えないでください！"]
+	quest.442B1A1900BADAFC.title: "小型マシン"
+	quest.452EF09F6CB4AD99.quest_desc: ["&cRelay&r は &cWire&r を機械に接続するのではなく、&cWire&r を他の &cWire&r に接続します！\n\n&cRelay&r は多くの &cWire&r を1つの場所にまとめることで機能し、すべての &9入力 &cエネルギー&r を取り込み、接続されているすべての &6出力&r の &cConnector&r に送ります。\n\n1つの発電機から複数の機械に電力を供給したい場合に便利です！"]
+	quest.452EF09F6CB4AD99.title: "&cRelay"
+	quest.458265FCD6B3068E.quest_desc: ["誰もが &lTinker's Construct&r の作業台を愛していて、明らかに &8&lIE&r の開発者たちもそうでした！\n\n&6Engineer's Crafting Table&r は通常の作業台のように機能し、18スロットの追加ストレージがあり、さらにグリッド内の &eアイテム&r を表示を終了しても保持します！\n\nこれ以上何が必要でしょうか！"]
+	quest.458265FCD6B3068E.title: "&6Engineer's Crafting Table"
+	quest.47656073894224AF.quest_desc: ["はい、巨大な戦艦にあるものと同じです！\n\n&5&lRailgun&r は特別な銃です。1つ目は、リボルバーが使用するカートリッジではなく、特別な弾薬を使用します。2つ目は、&cエネルギー&r を使用し、発射前に充電が必要です。\n\nこの銃が使用する弾薬は、インベントリにある &eアイテム&r です：&7アルミニウム&r、&7鉄&r、&8スチールロッド&r、&0グラファイト電極&r、のこぎり刃、エンダーパール、トライデント、ブレイズロッド、エンドロッドです。\n\nインベントリにあるものを使用します。発射物を変更するには、Shiftを押しながらスクロールします。\n\n次に、発射するために &cエネルギー&r が必要です。充電には、&8&lImmersive Engineering&r が追加したものを含む、任意の &cアイテムチャージャー&r を使用できます！\n\nすべての準備ができたら、Railgunがレベル99になるまで右クリックを押し続け、その後離します！\n\n&5&lRailgun&r のアップグレードは：Precision ScopeとHeatsinksです。\n\n2つのアップグレードを保持できます。それ以上使用できないのは当然ですね！"]
+	quest.47656073894224AF.title: "&5&lRailgun"
+	quest.47E32A084CAA1512.quest_desc: ["銃職人と交換するか、クラフトすることができます。\n\n銃は弾丸がないと面白くありません。だから弾丸を作りましょう！ただし、クラフトするには &9設計図&r が必要です"]
+	quest.47E32A084CAA1512.title: "&9一般的な弾丸の設計図"
+	quest.481735FE3164C8D5.quest_desc: ["&b青氷&r- 200 K\n&b氷塊&r- 240 K\n&b氷&r- 260 K\n雪- 273 K\n&9水&r- 300"]
+	quest.481735FE3164C8D5.title: "&b冷たいアイテム"
+	quest.4AAB3899F530CC19.quest_desc: ["Chutes は &eアイテム&r（および一部のエンティティ）を消滅の心配なく落とすことができます！\n\nまた、&eアイテム&r をかなり速く落とします。\n\n&6Engineer's Hammer&r を使用して Chute を曲げ、&eアイテム&r を &eベルト&r に投げ込むことができます！"]
+	quest.4AAB3899F530CC19.quest_subtitle: "はしごはない？"
+	quest.4B42D962FE910CB3.quest_desc: ["これを &d&lリボルバー&r に追加すると、弾丸が当たったモブにスタン効果を与えます"]
+	quest.4BA2F4AC2A08C294.quest_desc: [
+		"何でしょう？それは &8&lImmersive Engineering&r で最も難しく、最も高価なマルチブロックです。&c&lExcavator&r です！"
+		""
+		"この巨大な怪物は地面から自動的に鉱石とブロックを収集します"
+		""
+		"収集したアイテムは背面のポートから &6出力&r されます。隣にインベントリがない場合、アイテムは放出されます"
+		""
+		"これは非常に &cエネルギー&r を消費するマシンでもあり、左側のエネルギーポートを使用してエネルギーを供給する必要があります！"
+		"{@pagebreak}"
+		"&8Steel Block&r を設置します"
+		"{image:atm:textures/questpics/immersive/immersive_excavator1.png width:100 height:100 align:center}"
+		"&8Steel Block&r の上に3つの &8Steel Scaffolding&r を追加し、端に2つの &8Steel Block&r を設置します"
+		"{image:atm:textures/questpics/immersive/immersive_excavator2.png width:175 height:100 align:center}"
+		"その後、前の &8Scaffolding&r の上に3x3の &8Steel Scaffolding&r を設置し、各 &8Steel Block&r の上にもう1つ追加します。次に、&8Steel Sheetmetal&r を使用して &8Scaffolding&r からフープを作り、&eLight Engineering Block&r と &8Radiator Block&r を含めます"
+		"{image:atm:textures/questpics/immersive/immersive_excavator3.png width:150 height:100 align:center}"
+		"&8Steel Scaffolding&r の上にさらに追加し、中央に &8Steel Block&r を設置します。次に、その端に &8Steel Block&r をさらに取り付けます。片側には3つの &eLight Engineering Block&r、もう片側には3つの &7Heavy Engineering Block&r を設置します。最後の層の &eLight Engineering Block&r の上にもう1つ設置します。&8Radiator Block&r の上には &4Redstone Engineering Block&r を設置します。その隣には &7Heavy Engineering Block&r をもう1つ設置し、残りは &8Steel Sheetmetal&r で埋めます"
+		"{image:atm:textures/questpics/immersive/immersive_excavator4.png width:150 height:100 align:center}"
+		"中央部分では、下半分で行ったことを繰り返します。今度は &8Steel Scaffolding&r だけです。&eLight Engineering Block&r がある側には3つ追加し、反対側のランダムな &eLight Engineering Block&r も同様です。3つの &eLight Engineering Block&r の隣には2つの &8Radiator Block&r を設置し、残りはすべて &8Sheetmetal&r です"
+		"{image:atm:textures/questpics/immersive/immersive_excavator5.png width:150 height:100 align:center}"
+		"&8Steel Scaffolding&r の上には1つの &8Steel Block&r、その後に3つの &8Scaffolding&r、そしてもう1つの &8Block&r を設置します"
+		"{image:atm:textures/questpics/immersive/immersive_excavator6.png width:150 height:100 align:center}"
+		"最後の仕上げとして、&8Steel Block&r を設置！"
+		"{image:atm:textures/questpics/immersive/immersive_excavator7.png width:150 height:100 align:center}"
+		"そして、背面の &7Heavy Engineering Block&r を &6ハンマー&r で右クリックすると、強力な &c&lExcavator&r が完成します！"
+		"{image:atm:textures/questpics/immersive/immersive_excavator.png width:125 height:100 align:center}"
+	]
+	quest.4BA2F4AC2A08C294.title: "&l&cExcavator"
+	quest.4BBF987FEF639801.quest_desc: [
+		"合金は2つの異なる金属の組み合わせです。\n\n金属は通常、室温では液体ではないので、少し溶かす必要があります（水銀のおかげで）！\n\n上部のスロットに2つの金属を入れ、下部のスロットに&0木炭&rなどの燃料を入れます。\n\nちょっと待って... &8鋼鉄&rも合金ですね！"
+		"{@pagebreak}"
+		"&6&lるつぼ窯&rは&6るつぼレンガ&rで2x2x2の構造を作ります"
+		"{image:atm:textures/questpics/immersive/immersive_alloy1.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_alloy2.png width:100 height:100 align:center}"
+		"そして右上のブロックを&6エンジニアのハンマー&rで右クリックして完成させます！"
+		"{image:atm:textures/questpics/immersive/immersive_alloy.png width:100 height:100 align:center}"
+	]
+	quest.4BBF987FEF639801.title: "&l&6るつぼ窯"
+	quest.4C4C9ADAC6107F89.quest_desc: ["&eLight Engineering Block&r は比較的簡単なレシピです。\n\n1つの &6銅インゴット&r が必要です。これは &2&lバニラ&r の機能なので説明は不要でしょう。\n\n4つの &7Iron Sheetmetal&r が必要です。これは単に4つの &7鉄の板&r を組み合わせたものです！\n\nまた、4つの &7Iron Mechanical Component&r も必要です。これは作業台で4つの &7鉄の板&r と &6銅インゴット&r を組み合わせるか、&6Engineer's Workbench&r で2つの &7鉄の板&r と &6銅インゴット&r を組み合わせて作ります"]
+	quest.4C4C9ADAC6107F89.title: "&eLight Engineering Block"
+	quest.4D193D60A3CAF435.quest_desc: [
+		"これはおそらくあなたが使用することになる発電機、&2&lディーゼル発電機&rです！\n\n&2&lディーゼル発電機&rの左下と右下の角に燃料を&9入力&rします。燃料には：クレオソート オイル、バイオディーゼル、高セタン価バイオディーゼルが使用できます。これらは性能の低い順に並んでいます！\n\n&2&lディーゼル発電機&rは燃料を燃焼させて&cエネルギー&rを生成し、前面の3つのコネクタから&6出力&rすることができます"
+		"{@pagebreak}"
+		"&2&lディーゼルジェネレーター&r の背面には3つの &8ラジエーターブロック&r が必要です。中央は &bFluid Pipe&r を &8Steel Scaffolding&r で囲みます。前面には &6Generator Block&r と2つの &bFluid Pipe&r を配置します"
+		"{image:atm:textures/questpics/immersive/immersive_diesel1.png width:100 height:150 align:center}"
+		"3つの &8ラジエーターブロック&r の上にさらに3つの &8ラジエーターブロック&r を配置します！そして &6Generator Block&r と隣接する &bFluid Pipe&r の上には3つの &6Generator Block&r を配置します。残りの部分は &7Heavy Engineering Block&r と1つの &4Redstone Engineering Block&r で埋めます"
+		"{image:atm:textures/questpics/immersive/immersive_diesel2.png width:100 height:100 align:center}"
+		"最後に、他のブロックの上にさらに3つの &8ラジエーターブロック&r を配置し、その隣に &7Heavy Engineering Block&r で十字を作ります"
+		"{image:atm:textures/questpics/immersive/immersive_diesel3.png width:100 height:100 align:center}"
+		"最後のステップは、中央と上部の &6Generator Block&r を &6Engineer's Hammer&r で右クリックすることです！"
+		"{image:atm:textures/questpics/immersive/immersive_diesel.png width:100 height:100 align:center}"
+	]
+	quest.4D193D60A3CAF435.title: "&2&lディーゼルジェネレーター"
+	quest.4D8190E94851C546.quest_desc: ["通電している &cワイヤー&r（&cエネルギー&r を伝送している &cワイヤー&r）は &6&lSkyhook&r を使用すると痛みを伴います。\n\nグリップを絶縁しない限り！"]
+	quest.4E297778DCEEC963.quest_desc: ["Advanced Heatsink は &5&lRailgun&r 専用のアップグレードです。\n\n&5&lRailgun&r の充電速度が大幅に向上します！"]
+	quest.4E8860056D068610.quest_desc: ["これらはクラフトできません。代わりに Machinist 村人の最後の取引で入手できます。\n\n&0グラファイト電極&r は &8&lアーク炉&r の燃料として使用されます（蛍光灯にも使用）。\n\nこれらを入手するには、この特別な &9設計図&r が必要です"]
+	quest.4E8860056D068610.title: "&9アーク炉電極の設計図"
+	quest.4F56BFE6E4716F6D.quest_desc: [
+		"&8&lArc Furnace&r は巨大で便利なマシンです。他のほとんどのマシンを不要にします！\n\n始めるには、&8&lArc Furnace&r の背面にある出力口から &c電力&r を入力する必要があります。次に燃料として &0Graphite Electrodes&r が必要です。これらは GUI にのみ配置でき、自動化はできません。\n\n&eアイテム&r を &0Graphite Electrodes&r の近くの上部ポートから &6入力&r する必要があります。燃料と電力が供給されると、ほぼすべてのものを溶かすことができます。&7鉄の棒&r から &7鉄インゴット&r 、&bFroststeel ヘルメット&r から &bFroststeel&r 、&e金のツルハシ&r から &e金&r まで！\n\n溶かされた &eアイテム&r は電源出力口の下の背面から &6出力&r されます。\n\n金属から合金を作ることもできます！"
+		"{@pagebreak}"
+		"1層目は &8Steel Sheetmetal&r で U 字を作り、中央を &7Heavy Engineering Block&r 、先端を &8Steel Block&r にします。残りは &8Steel Sheetmetal Slab&r で、&8Steel Scaffolding&r と大釜を1つずつ配置します"
+		"{image:atm:textures/questpics/immersive/immersive_arc1.png width:100 height:100 align:center}"
+		"2層目は、&7Heavy Engineering Block&r の上とその隣の2ブロックを &eLight Engineering Block&r にします。U 字の側面は &7Heavy Engineering Block&r にします。前の &8Steel Block&r の上にもさらに配置します。また、&8Slab&r の上に 2x3 の &4Reinforced Blast Brick&r が必要です。&8Scaffolding&r の上の &4Redstone Engineering Block&r も忘れずに！"
+		"{image:atm:textures/questpics/immersive/immersive_arc2.png width:100 height:100 align:center}"
+		"3層目には更に &8Steel Block&r 、&eLight Engineering Block&r 、そして &4Reinforced Blast Brick&r の拡張部分を配置します。また、両側に &8Steel Sheetmetal&r を1つずつ配置する必要があります"
+		"{image:atm:textures/questpics/immersive/immersive_arc3.png width:100 height:100 align:center}"
+		"4層目は他の &eLight Engineering Block&r の上の中央に &eLight Engineering Block&r を配置します。その隣には &8Steel Scaffolding&r を2つ配置します。そして &4Reinforced Blast Brick&r を追加しますが、今回は1ブロック短くします！"
+		"{image:atm:textures/questpics/immersive/immersive_arc4.png width:100 height:100 align:center}"
+		"5層目は最終層で、前の &8Steel Scaffolding&r の上にさらに2つ配置します。そして前の &eLight Engineering Block&r の上とその前に一列に配置します"
+		"{image:atm:textures/questpics/immersive/immersive_arc5.png width:100 height:100 align:center}"
+		"最後に &6ハンマー&r で大釜を右クリックして完成です！"
+		"{image:atm:textures/questpics/immersive/immersive_arc.png width:100 height:100 align:center}"
+	]
+	quest.4F56BFE6E4716F6D.title: "&8&lArc Furnace"
+	quest.50326B1D6EE8FA0B.quest_desc: ["&cAccumulator&r は &8&lIE&r のバッテリーバージョンです。\n\n&cエネルギー&rを貯蔵でき、&6LV&r は100kFE、&eMV&r は1MFE、&5HV&r は4MFE保持できます！\n\nデフォルトでは上部スロットは&9入力&rのみ許可されますが、&6Engineer's Hammer&r を使用して任意の面を&9入力&r、&6出力&r、または無効に変更できます"]
+	quest.50326B1D6EE8FA0B.title: "&cAccumulator"
+	quest.506F20AF8E857559.quest_desc: ["Kinetic Dynamo は運動量を使用してエネルギーを生成する発電機です！\n\nエネルギーの生成を開始するには、大きな穴が開いている側に Waterwheel か Windmill を取り付ける必要があります！\n\nKinetic Dynamo には内部エネルギー貯蔵がありません。代わりに、Connector や Accumulator のような接続されたブロックにエネルギーを供給します"]
+	quest.506F20AF8E857559.title: "動くものからエネルギーを！"
+	quest.50F1C4521D282C60.quest_desc: ["Bulwark は、これらの戦闘員の重装備ユニットです。\n\n12のハートと18のアーマーポイントを持っています！\n\n彼らの武器は、オフハンドに&8&l重装甲シールド&rを持った&b&lケムスロワー&rです。\n\nもし倒すことができれば、&aエメラルド&rとマスターワーク シェーダー バッグを入手できます！"]
+	quest.50F1C4521D282C60.title: "Bulwark"
+	quest.520904C106D7D93D.quest_desc: [
+		"これにより &6&lSkyhook&r がメイスのように機能し、落下中にモブを攻撃すると追加ダメージを与えます"
+		""
+		"Bioshock Infinite では Skystrike と呼ばれています！"
+	]
+	quest.520904C106D7D93D.quest_subtitle: "左クリックで Skystrike"
+	quest.5218DAE147AC9F44.quest_desc: [
+		"Blade Quiver を使用すると、&2&lBuzzsaw&r に より多くの &8Blades&r や &8Blade like Items&r を保持できます"
+		""
+		"&8Blades&r（または &8Blade like Items&r）を切り替えるには、Shift を押しながらスクロールします"
+		""
+		"これは壊れた &8Blades&r の交換や、&8Grinding Disks&r への切り替えに便利です！"
+	]
+	quest.553ADA7040B652CD.quest_desc: ["&4&lMining Drill&r、&2&lBuzzsaw&r、&b&lChemical Thrower&r は通常 1,000mB または1バケツ分の&b液体&rを保持します。\n\n通常とは限りません！Large Tank があれば 2,000mB または2バケツ分保持できます。\n\n大した量に聞こえないかもしれませんが、信じてください、十分な量です"]
+	quest.5585130028BB8298.quest_desc: ["&6&lATM10&r で見つけることができる最も基本的な銃、&d&lリボルバー&r！\n\nシフト右クリックで&d&lリボルバー&rを開き、弾薬をスロットに入れます。その後、右クリックで発射するだけです！\n\n2つのアップグレードを適用できます。アップグレードには：Bayonet、Speedloader、Extended Magazine、Amplifier Electron Tubes、Precision Scope があります。\n\n&d&lリボルバー&rは2つのアップグレードしか保持できませんが、Speedloader は技術的に異なります"]
+	quest.5585130028BB8298.quest_subtitle: "運が良いと思う？パンク野郎？"
+	quest.5585130028BB8298.title: "&d&lリボルバー"
+	quest.56CE6CF9C99FB522.quest_desc: ["&8ラジエーター&rには通常の&8鋼の薄板&r、新しい&9水入りバケツ&r、そして&6コンスタンタンプレート&rが必要です。\n\n&6コンスタンタン&rは&6銅&rと&7ニッケル&rを&l&6合金窯&rで組み合わせて作る合金です"]
+	quest.56CE6CF9C99FB522.title: "&8ラジエーターブロック"
+	quest.56E30438AE512475.quest_desc: ["炎を燃やしましょう！\n\nプレヒーターは&l&4改良型溶鉱炉&rへのとてもシンプルな追加です。\n\n単に&l&4改良型溶鉱炉&rの左右に設置してください。その後、上部に電力を接続すると&l&4改良型溶鉱炉&rの速度が上がり始めます"]
+	quest.573C2242EAB85B49.quest_desc: [
+		"&0&lコークス炉&rは&0コークス&rを作る方法です。何から作られるか想像できますか！\n\n&0&l炉&rを使って原木を&0木炭&rに、または&0石炭&rと&0石炭ブロック&rを&0コークス&rに精錬できます！\n\nこれらはどちらも通常のレシピに加えてクレオソート油も生産します"
+		"{@pagebreak}"
+		"&0&lコークス炉&rはとてもシンプルなマルチブロックで、3x3x3の&0コークスレンガ&rで構成されます"
+		"{image:atm:textures/questpics/immersive/immersive_coke1.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_coke2.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_coke3.png width:100 height:100 align:center}"
+		"前面の中央ブロックを&6エンジニアのハンマー&rで右クリックするだけで作成できます"
+		"{image:atm:textures/questpics/immersive/immersive_coke.png width:100 height:100 align:center}"
+	]
+	quest.573C2242EAB85B49.title: "&l&8コークス炉"
+	quest.586F6FD38CF85DCA.quest_desc: ["&4&lマイニングドリル&r は名前の通り、採掘を行います！\n\nツルハシのように機能しますが、&8ドリルヘッド&r と &2バイオディーゼル&r が必要です。&8ドリルヘッド&r は採掘レベルを決定し、耐久値があるため交換が必要になります。&8ドリルヘッド&r は &6エンジニアの作業台&r の上部スロットで取り付けることができます。\n\n&2バイオディーゼル&r は &b液体燃料&r で、非常に複雑なレシピで作られます...それは別のクエストのためのものですが、今は燃料の入れ方を見ていきましょう！&2バイオディーゼル&r が入った &bタンク&r やマシンに &4&lドリル&r を使用して充填できます。\n\n&4&lマイニングドリル&r はシフトキーを押しながら破壊しない限り、3x3 または 2x2 の範囲を採掘します！\n\nまた、モブを攻撃するとネザライトの剣と同じダメージを与えることができますが、これは燃料と耐久値の両方を消費します。\n\n&4&lマイニングドリル&r は1つのドリルヘッドと3つのアップグレードを装着できます"]
+	quest.586F6FD38CF85DCA.quest_subtitle: "お願いできますか？"
+	quest.586F6FD38CF85DCA.title: "&4&lマイニングドリル"
+	quest.591E6964ABCC638C.quest_desc: ["&eコンベアベルト&rはアイテムや一部のエンティティを移動させる方法です。\n\nアイテムが&eベルト&rの上に落とされると、それらを保持して移動させます。これらは異なるインベントリに移動させることができます。インベントリから取り出したい場合は、特別な種類の&eベルト&rが必要になります！\n\n&eベルト&rの設置方向によって移動方向が決まり、これは&6エンジニアのハンマー&rで変更することもできます！\nブロックの上に設置する必要がありますが、面白いことに下にブロックがなくても立ったまま動作します！"]
+	quest.591E6964ABCC638C.quest_subtitle: "そしてエンティティも！"
+	quest.591E6964ABCC638C.title: "&eアイテム&rの移動"
+	quest.598DE7CEDA864B50.quest_desc: ["なぜ1つのタンクだけにしますか？3つ使えるんです！\n\nあなたの&b&lケミカルスローワー&rで3つの異なる&b液体&rを保持できるようになりました。Shiftを押しながらスクロールして切り替えることができます。\n\nただし、大型タンクでは使用できません..."]
+	quest.5A2A718C569F3C19.quest_desc: ["&0石炭&rを&lコークス炉&rで精錬することで&0コークス&rを得ることができます！\n\n基本的には&0石炭&rですが、&8&lIE&rでより多くの用途があります。\n\n鉄と組み合わせて&7鋼鉄&rを作ったり、粉砕して&0コークスの粉&rを作り&0黒鉛&rの材料にしたり、高炉の燃料として使用したりできます"]
+	quest.5A2A718C569F3C19.title: "&8コークス&r"
+	quest.5C5546A5103BCF55.quest_desc: ["これは&b液体&rやガスなどの化学物質を発射するはずですが、私には動作しません。\n\nアップグレードスロットが2つあり、それらは機能します！"]
+	quest.5C5546A5103BCF55.title: "&b&lケミカルスロワー"
+	quest.5DE3F2A96715BA2E.quest_desc: [
+		"&e&lSilo&rは1種類の&eアイテム&rを大量に保管するためのマルチブロック構造で、Drawerのような機能を持ちます。\n\n上面または下面から&eアイテム&rとその複製を&9投入&rできますが、&6取り出し&rは下面からのみ可能です！\n\n同じ種類のアイテムを41,472個保管できます"
+		"{@pagebreak}"
+		"まず、中央に&7Iron Sheetmetal&rを置いて、Treated Wood Fenceで四角を作ります"
+		"{image:atm:textures/questpics/immersive/immersive_silo1.png width:125 height:100 align:center}"
+		"次に、Fenceの上に&7Iron Sheetmetal&rで中央を空洞にした完全な四角を作ります。これを5回繰り返します！"
+		"{image:atm:textures/questpics/immersive/immersive_silo2.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_silo3.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_silo4.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_silo5.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_silo6.png width:100 height:100 align:center}"
+		"最後に、中央のブロックも含めて&7Iron Sheetmetal&rで完全な四角を作ります"
+		"{image:atm:textures/questpics/immersive/immersive_silo7.png width:100 height:100 align:center}"
+		"その後、2層目の中央の&7Iron Sheetmetal&rを&6ハンマー&rで右クリックして&e&lSilo&rを作成します！"
+		"{image:atm:textures/questpics/immersive/immersive_silo.png width:100 height:125 align:center}"
+	]
+	quest.5DE3F2A96715BA2E.title: "&l&eSilo"
+	quest.5E228ACA1B13AD04.quest_desc: ["今度は撃って叩きます！"]
+	quest.5EE1DF1C8F0C1FF9.quest_desc: [
+		"&l&5Lightning Coil&r を建設した後、&8Steel Fence&r に雷を落とすことができ、それは独自の &cEnergy&r 貯蔵庫に &cEnergy&r として蓄えられます。\n\n&8Steel Fence&r が多いほど、雷が落ちる確率が高くなります！\n\n他の Mod を使って雷を呼び出すことができるのでしょうか？"
+		"{@pagebreak}"
+		"自然界で最も破壊的な力を利用するには、まず &5High-Voltage Coil Block&r から始める必要があります。次に、&5High-Voltage Coil Block&r の隣に &5HV Accumulator&r を設置します。角には &8Steel Scaffolding&r を設置します"
+		"{image:atm:textures/questpics/immersive/immersive_lightning1.png width:100 height:100 align:center}"
+		"次の層では、前の &5High-Voltage Coil Block&r の上に別の &5High-Voltage Coil Block&r を設置します。その隣には &eLight Engineering Block&r を設置します。角には単純な Treated Fence を設置します！"
+		"{image:atm:textures/questpics/immersive/immersive_lightning2.png width:100 height:100 align:center}"
+		"次に、3つ目の &5High-Voltage Coil Block&r を他の上に設置し、その周りを8つの &6Copper Coil Block&r で囲みます"
+		"{image:atm:textures/questpics/immersive/immersive_lightning3.png width:100 height:100 align:center}"
+		"そして、正面の &eLight Engineering Block&r を &6ハンマー&r で右クリックして &5&lLightning Coil&r に変換します！"
+		"{image:atm:textures/questpics/immersive/immersive_lightning.png width:100 height:100 align:center}"
+		"この手順の画像は作っていませんが、雷を落とすためには &5&lLightning Coil&r の上に &8Steel Fence&r を設置する必要があります！"
+	]
+	quest.5EE1DF1C8F0C1FF9.title: "&5&lLightning Coil"
+	quest.5F4F7637044BD4F1.quest_desc: [
+		"&2&lFermenter&r は食料アイテムを保持し、しばらくするとエタノールに変換します。\n\n&6Engineer's Manual&r には、&2&lFermenter&r の背面と左側のポートに入れることができるアイテムのリストがあります。\n\n&6ハチミツの瓶&r を使用する場合、右側のポートから瓶を &6抽出&r できます。\n\n&2&lFermenter&r は &cエネルギー&r が必要で、これは &2&lFermenter&r の上部のポートから供給されます！"
+		"{@pagebreak}"
+		"簡単な始め方として、&8Steel Scaffolding&r で後ろ向きの n を作り、その中に &b液体パイプ&r を設置し、角に &eLight Engineering Block&r を設置します"
+		"{image:atm:textures/questpics/immersive/immersive_fermenter1.png width:100 height:100 align:center}"
+		"&eLight Engineering Block&r の上にもう1つ設置します。その右側に1ブロック空けて &4Redstone Engineering Block&r を設置します。&eLight Engineering Block&r の左側に大釜を2x2で設置します"
+		"{image:atm:textures/questpics/immersive/immersive_fermenter2.png width:100 height:100 align:center}"
+		"次の簡単なステップは、全ての大釜の上に &7Iron Sheetmetal&r を設置するだけです！"
+		"{image:atm:textures/questpics/immersive/immersive_fermenter3.png width:100 height:100 align:center}"
+		"&eLight Engineering Block&r と &4Redstone Engineering Block&r の間にある大釜を &6ハンマー&r で右クリックします"
+		"{image:atm:textures/questpics/immersive/immersive_fermenter.png width:100 height:100 align:center}"
+	]
+	quest.5F4F7637044BD4F1.title: "&l&2Fermenter"
+	quest.607D9B53C632DEDE.quest_desc: ["&bパイプバルブ&rは&b液体&rの流れを制御し停止させるのに役立ちます！\n\n&b液体パイプ&rと一緒に使用すると、&b液体&rは&bパイプバルブ&rの矢印の方向にのみ流れるようになります。\n\n&4レッドストーン信号&rを送ることで、&b液体&rの流れを完全に停止させることもできます！"]
+	quest.607D9B53C632DEDE.title: "&bパイプバルブ"
+	quest.6140EAA6E042EF7C.quest_desc: ["&6&lSkyhook&r はツールと武器の両方として機能します。\n\nモブを剣のように攻撃することもできますし、拠点内の移動にも使えます！\n\n&cワイヤー&r (&6LV&r、&eMV&r、&5HV&r、絶縁、Hemp、&8Steel&r、&4Redstone&r) に近づいて右クリックを押し続けると、それらに取り付くことができます。そして、移動して &cワイヤー&r に沿って滑ることができます！\n\n通電している &cワイヤー&r で使用したい場合は、アップグレードが必要です！High Torque Motor、Insulated Grip、Heavy Impact Hooks などのアップグレードがあります。\n\n2つのアップグレードを装着できます"]
+	quest.6140EAA6E042EF7C.quest_subtitle: "Booker catch!"
+	quest.6140EAA6E042EF7C.title: "&6&lEngineer's Skyhook"
+	quest.63F5314A1072FA05.quest_desc: [
+		"&e&l製材機&rは&7&l金属プレス機&rと同様に動作し、&eコンベアベルト&rを使用し、追加のアイテムが必要です。\n\n2段階で動作し、最初に原木を剥ぎます。のこぎり刃が入っていない場合は、原木を剥ぐだけです。第2段階では原木を板材に切断しますが、これにはのこぎり刃が必要です。\n\nのこぎり刃は大量の&8鋼鉄&rで作られています。耐久性があり、製材機の背面近くのスロットを右クリックして挿入します。取り出したい場合は、&4レッドストーン&rで製材機の電源を切り、挿入した場所をシフト右クリックします。\n\n背面上部に&cエネルギー&rを供給する必要があり、&eコンベアベルト&rを介して&eアイテム&rを&9入力&rできます。&eアイテム&rは同じ&eベルト&rで&6出力&rされますが、おがくずは&e&lマシン&rの前面のポートから出てきます"
+		"{@pagebreak}"
+		"&8鋼鉄の足場&rでI字型を作り（&7重機械ブロック&rを忘れずに）、一部を&e軽機械ブロック&rで、もう一部を&7鉄板金&rで埋めます"
+		"{image:atm:textures/questpics/immersive/immersive_saw1.png width:150 height:100 align:center}"
+		"下の仲間の上に3つの&e軽機械ブロック&rを配置します。左端の&7鉄板金&rの上に1つの&7鉄板金&rを追加し、その隣に&4レッドストーン制御ブロック&rを配置します。上部の&7鉄板金&rの隣にもう1つの&7重機械ブロック&rが必要です。コンベアベルトを追加するのを忘れないでください。これらは建設に必要です！"
+		"{image:atm:textures/questpics/immersive/immersive_saw2.png width:100 height:100 align:center}"
+		"真ん中の&7鉄板金&rをハンマーで右クリックしてください！"
+		"{image:atm:textures/questpics/immersive/immersive_saw.png width:100 height:100 align:center}"
+	]
+	quest.63F5314A1072FA05.title: "&e&l製材機"
+	quest.662DD269B027B6C8.quest_desc: ["&c&lAccumulator Backpack&r をワイヤレス充電することはできませんが... &c有線&r で充電することはできます！\n\nCharging Antenna を &c&lAccumulator Backpack&r に取り付けて、&cエネルギー&r を運ぶ &cWire&r の近くを歩くだけで、エネルギーが &c&lBackpack&r に充電されます"]
+	quest.67940C0774E73217.quest_desc: ["&eItem Router&r は &9入力 &eアイテム&r を受け取り、UI で設定されたフィルタリングに基づいて特定の場所に &6出力&r します！\n\nこれらは &eベルト&r、木箱、その他のインベントリに設定できます"]
+	quest.67940C0774E73217.title: "&eItem Router"
+	quest.679E80EBB9A2AE7E.quest_desc: ["&b液体 Router&r は通過する &b液体&r を仕分けしフィルタリングします。\n\nフィルターと出力面を設定するために UI で設定を行う必要があります。設定が完了すると、入ってくる全ての &b液体&r を設定された場所に送ります！"]
+	quest.679E80EBB9A2AE7E.title: "&b液体 Router"
+	quest.67FB03BE6685AFE1.quest_desc: ["戦争を始めるには、まず宣言する必要があります！\n\n冗談です、ここでは直接撃ちます！外交的なことは必要ありません！\n\nまず、&d&lリボルバー&rでピリジャーを撃ちましょう。\n\nこれにより、新しくより強力なピリジャーのスポーンが始まります！"]
+	quest.67FB03BE6685AFE1.title: "攻撃と防御"
+	quest.6B2BD6F939136F50.quest_desc: ["Turntable はとてもシンプルです。&7グレー&r の四角がある上面が動く部分です。\n\nその他の面は &4レッドストーンポート&r で、&4レッドストーン信号&r を与えることで作動します。\n\n作動すると上面に接続されたブロックが回転します。\n\n回転方法を変更するには &6Engineer's Hammer&r を使用する必要があるかもしれません！"]
+	quest.6BD348735C27BB44.quest_desc: [
+		"&b&lBottling Machine&r は &eベルト&r の上を通過する &eアイテム&r を充填します。\n\n背面のポートを使用して &b&lマシン&r に &b液体&r を充填します。タンクがその &b液体&r で満たされると、動作していることがわかります！\n\n&bバケツ&r、&bタンク&r、または任意の &b液体ストレージ&r が &eベルト&r を通過すると、その &b液体&r で充填されます。\n\n&bバケツ&r、&bタンク&r、またはその他のものは、その &b液体&r で満たされた状態で &eベルト&r を移動します！\n\nちなみに、人生のすべてのものと同様に、&b&lBottling Machine&r は背面上部のポートで &cエネルギー&r が必要です！"
+		"{@pagebreak}"
+		"まず、&8Steel Scaffolding&r で三角形を作ります。次に、穴を &7Iron Sheetmetal&r、&4Redstone Engineering Block&r、&eLight Engineering Block&r で埋めます"
+		"{image:atm:textures/questpics/immersive/immersive_bottler1.png width:100 height:100 align:center}"
+		"次に、前面に &eコンベアベルト&r を設置します。その後、もう1つの &7Iron Sheetmetal&r を反対側に、その隣に &b液体ポンプ&r を、そして前の &eLight Engineering Block&r の上にもう1つ設置します！"
+		"{image:atm:textures/questpics/immersive/immersive_bottler2.png width:100 height:100 align:center}"
+		"中央の &eコンベアベルト&r を &6ハンマー&r で叩けば完成です！"
+		"{image:atm:textures/questpics/immersive/immersive_bottler.png width:100 height:100 align:center}"
+	]
+	quest.6BD348735C27BB44.title: "&b&lBottling Machine"
+	quest.6D42D0102D1CBC19.quest_desc: ["Additional Augers は &4&lドリル&r 専用の切れ味です！\n\n同時に3つまで装着でき、パワーが重なります"]
+	quest.6F3C82072672FD17.quest_desc: ["これらのクエストは &6AllTheModsスタッフ &rまたは &2コミュニティ寄与者 &rによって AllTheModsモッドパック 内での使用目的のために作成されました。\n\nすべての&6AllTheMods&rパックは &eAll Rights Reserved &r（著作権留保）ライセンス下のため、これらのクエストは &6AllTheModsチーム &rにより公式に配布されていない公開パッケージにおいて、明示的な許可なく本クエストを使用することは禁止されています。\n\nこのクエストは意図的に非表示になっています。クエストが見えている場合は編集モードになっています。"]
+	quest.7060290E107D92AB.quest_desc: ["多くのものが &cエネルギー&r を必要とします。&5&lRailgun&r のような設置できない &eアイテム&r も含めてです！ではどうやって充電するのでしょうか？\n\nCharging Station がその仕事を担当します！\n\n単純に背面か底面から &cエネルギー&r を &6入力&r するだけで、中に入れたどんな &eアイテム&r も充電できます！\n\nこれには &5&lRailgun&r や &cAccumulator&r、他の Mod のアイテムも含まれます！ただし、近くのブロックは充電できません..."]
+	quest.72CE46D28C9E7452.quest_desc: ["Precision Scope は &5&lRailgun&r と &d&lRevolver&r の両方で使用できます。\n\n&d&lRevolver&r と &5&lRailgun&r では、中クリックを押し続けることでスコープを使用でき、スクロールで倍率を調整できます"]
+	quest.73110103EF23BFDF.quest_desc: ["&6銅&r と &7亜鉛&r の混合物です。\n\n&8&lIE&r ではあまり使用されません... 看板を作るくらいですかね..."]
+	quest.73110103EF23BFDF.title: "真鍮インゴット"
+	quest.763AE58CF620695E.quest_desc: ["この&9設計図&rは、他の多くと同様に作成可能です。\n\n&8&lImmersive Engineering&rには独自の旗のパターンがあります！\n\nただし、作成には&9設計図&rが必要です"]
+	quest.763AE58CF620695E.title: "&9旗のパターン設計図"
+	quest.767E4FC03B6F6534.quest_desc: ["Invar Ingot は &7鉄&r と &7Nickel&r で作られます。\n\nこれらの合金の多くと同様に、&8&lIE&r では有用ではありません"]
+	quest.767E4FC03B6F6534.title: "インバーインゴット"
+	quest.7744BEC5CD328262.quest_desc: ["&b水中&rでブロックを採掘するためには、このアップグレードが必要です。\n\nまた、水中採掘速度上昇も付与されます！（つまり、&b水中&rにいても採掘速度が遅くなりません。）"]
+	quest.78DA970F97002975.quest_desc: ["樽は&b液体&rを保持するシンプルな方法です。\n\n木製の樽と金属製の樽があります。木製の樽は冷たい&b液体&rと常温の&b液体&rのみを保持でき、熱い&b液体&rやガスは保持できません。一方、金属製の樽はすべての種類の&b液体&rとガスを保持できます。\n\n両方の樽は12バケツ分の&b液体&rを保持できます。自動的に上面から&9入力&rし、底面から&6出力&rしますが、これは変更可能です"]
+	quest.78DA970F97002975.title: "&b液体&rの保管"
+	quest.79BEECD4E545793F.quest_desc: ["Razor Wire はクモの巣のように機能します...ただし、より鋭いです！\n\nRazor Wire は通過しようとするものすべてにダメージを与え、速度を低下させます。これは私たちも例外ではありません！\n\n&6Engineer's Wirecutters&r を使えば安全に解体できます。\n\nまたは &6LV &cWires&r を使用して、より多くのダメージとスタン効果を与えることができます！"]
+	quest.7A1E3E7E2DF17AD2.quest_desc: ["まず、&8のこぎり刃&r です。これは &2木&r を切るのに使用します。切った原木より上にある全ての原木と葉を切り倒します。\n\n次に、&8岩切断刃&r です。これは &2木&r を切ることはできませんが、シルクタッチ付きのツルハシとして使用できます。石を採掘すると丸石ではなく石がドロップします。\n\n3つ目は &8研削ディスク&r です。これは &2木&r や石を壊すことはできませんが、&7金属ブロック&r を壊すことができます！&8鉄の足場&r や &6銅&r の酸化を削り取るのに便利です！"]
+	quest.7A1E3E7E2DF17AD2.title: "&2&lチェーンソー&r の弾薬"
+	quest.7A41038180C06B00.quest_desc: ["&cコネクター&rは、その名の通り接続するものです！マシンから&cワイヤー&rを&cアキュムレーター&rやジェネレーターへ、ほぼすべてのものを接続します！\n\n&cコネクター&rが&9入力&fか&6出力&rかは、接続先の設定によって決まります！\n\nまた、内部に&cエネルギー&r貯蔵機能があり、電圧のティアによって容量が決まります"]
+	quest.7A41038180C06B00.title: "&cコネクター"
+	quest.7AE85F4FF4DDF4F2.quest_desc: ["Windmill は Kinetic Dynamo で使用できるもう1つの選択肢です！\n\nこれらは自動的に動き始め、その速度によってエネルギーを得られます。つまり、速度が速いほど多くのエネルギーが得られます。\n\n速度を上げるにはどうすればよいでしょうか？まず、動作するには前方にスペースが必要です。前方のブロックが少ないほど、速く回転します！\n\nもう1つの速度要因は Windmill Sails です。中央の Windmill Block に Sails を持って右クリックすることで、合計8つの Windmill Sails を追加できます"]
+	quest.7B447E986493AD6B.quest_desc: ["&7クレオソート オイル&rは&lコークス炉&rの副産物です。\n\nその主な用途は、&8&lIE&rの重要な建材である Treated Wood の作成です。\n\n後で別の液体にも必要になりますが、その時が来たら考えましょう"]
+	quest.7B447E986493AD6B.title: "&7クレオソート オイル"
+	quest.7B9672C4FCFFB887.quest_desc: ["これらの &9設計図&r はクラフトできて、とても安価です！\n\n警告サインは &7Metal Plates&r、染料、そしてこの &9設計図&r で作れる非常にシンプルな装飾品です"]
+	quest.7B9672C4FCFFB887.title: "&9Warning Signs 設計図"
+	quest.7FE273141D3DFFFD.quest_desc: ["Fusilier は新しい Pillager の中型ユニットです！\n\n体力は12ハートでアーマーはありません。\n\n彼らの武器は &5&lRailgun&r で、背負っている Accumulator Backpack によって充電されます！\n\n倒すと &aエメラルド&r と &7Iron Rods&r をドロップします"]
+	quest.7FE273141D3DFFFD.title: "Fusilier"
+	task.02B26D0D73E5E361.title: "ベルトの種類"
+	task.0837FA64B9C50048.title: "Ammo for Buzzsaw"
+	task.0B62C759781950A1.title: "IE レールガン弾薬"
+	task.0CD67A3D64E9B49B.title: "装飾用ワイヤー"
+	task.0D7C60D7BFBD8CF0.title: "AllRightsReserved"
+	task.15795AB2872E2DEE.title: "シュート"
+	task.173B725A839DEEAA.title: "一般的な発射物"
+	task.20D0DB49AFA7976F.title: "アキュムレーター"
+	task.4025792887CB9BE2.title: "Wire Coils"
+	task.43FDC45CF464047E.title: "暖かいアイテム"
+	task.440F173D6B5EE74E.title: "中継器"
+	task.529FFD7D692AEFA5.title: "特殊な発射物"
+	task.5580FF146C9E7EA0.title: "Barrels"
+	task.56D7513E9D02F900.title: "ドリルヘッド"
+	task.59DC19A11848EFE1.title: "コネクター"
+	task.5CEB2D56A9EA74D0.title: "冷たいアイテム"
+	task.603A16080675C348.title: "AllRightsReserved"
+	task.79F67E07C28F8E97.title: "Minecraft レールガンの弾薬"
+	task.7FED013A7F667CC6.title: "木箱"
+}
