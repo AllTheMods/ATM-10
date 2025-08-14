@@ -112,6 +112,18 @@ ServerEvents.recipes(allthemods => {
         'soul_network_pipe'
     );
 
+    allthemods.remove({id: 'industrialforegoing:dissolution_chamber/xp_bottles'})
+    dissolution_chamber(
+        {item: 'minecraft:experience_bottle'},
+        [
+            {item: 'minecraft:glass_bottle'}],
+        {
+            fluid: 'industrialforegoing:essence',
+            amount: 250
+        },
+        5,
+        'xp_bottle'
+    );
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
