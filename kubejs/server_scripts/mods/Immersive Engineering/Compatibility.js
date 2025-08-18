@@ -55,6 +55,60 @@ ServerEvents.recipes(allthemods => {
 
   allthemods.replaceInput({ id: 'immersiveengineering:crafting/toolupgrade_revolver_bayonet' }, 'immersiveengineering:sword_steel', 'mekanismtools:steel_sword')
   allthemods.remove({id: "immersiveengineering:crafting/ingot_uranium_to_storage_uranium"})
+
+  function cloche(input, render, output, soil) {
+    if (soil === undefined){soil = 'minecraft:dirt'}
+    allthemods.custom(
+      {
+        type: "immersiveengineering:cloche",
+        input: {
+          item: input
+        },
+        render: {
+          type: "immersiveengineering:crop",
+          block: render
+        },
+        results: [
+          {
+            count: 2,
+            id: output
+          },
+          {
+            chance: 0.25,
+            output: {
+              id: input
+            }
+          }
+        ],
+        soil: {
+          item: soil
+        },
+        time: 640
+      }
+    )
+  }
+
+  //(Mama's) Herbs and Harvest Seeds
+  const hSeeds = ['asparagus', 'barley', 'blackberry', 'blueberry', 'broccoli', 'cabbage', 'cauliflower', 'celery', 'cucumber', 'eggplant', 'green_bean', 'green_pepper', 'lettuce', 'pineapple', 'radish', 'raspberry', 'rye', 'squash', 'strawberry', 'tomato','turnip', 'zucchini']
+  const hHerbs = ['basil', 'bay_leaf', 'chive', 'cilantro', 'dill', 'lemongrass', 'mint', 'mustard', 'oregano', 'parsley', 'peppercorn', 'rosemary', 'sage', 'thyme']
+  hSeeds.forEach(seed => {
+    cloche(`herbsandharvest:${seed}_seeds`, `herbsandharvest:${seed}_plant`, `herbsandharvest:${seed}`)
+  })
+  hHerbs.forEach(seed => {
+    cloche(`herbsandharvest:${seed}_seeds`, `herbsandharvest:${seed}_herb`, `herbsandharvest:fresh_${seed}`)
+  })
+
+  //Pam's seeds
+  const pamSeeds = []
+  let j = 0
+  Ingredient.of("#c:seeds").itemIds.forEach(itemId => {
+    if (itemId.includes('pamhc2crops'&&'seeditem')){pamSeeds[j] = itemId, j++}  
+  })
+  pamSeeds.forEach(seed => {
+    cloche(seed, seed.replace('seeditem', 'crop').replace(':', ':pam'), seed.replace('seeditem', 'item'))
+  })
+
+  //TODO: sushigocrafting, silentgear, undergarden, supplementaries, biomeswevegone, occultism
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
