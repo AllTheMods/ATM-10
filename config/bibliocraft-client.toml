@@ -1,0 +1,16 @@
+#Contains cosmetic options.
+[cosmetic]
+	#Whether to enable pride-themed cosmetics during pride month or not.
+	enable_pride = false
+	#Whether to enable pride-themed cosmetics all year or only during pride month. Does nothing if enable_pride is false.
+	enable_pride_always = false
+
+#Contains compatibility options.
+[compatibility]
+
+	#Contains compatibility options for the JEI mod.
+	[compatibility.compatibility]
+		#Whether to show blocks for all wood types in JEI, or just the default oak.
+		show_wood_types = false
+		#Whether to show blocks for all color types in JEI, or just the default white.
+		show_color_types = true
