@@ -155,5 +155,12 @@ KubeJSTweaks.beforeRecipes(event => {
   // old recipe
   event.disable("factory_blocks:mason_table_old")
 
+  event.disable("supplementaries:botany_flax")
+
+  event.getEntry(["mekmm:compat/immersiveengineering/lathe/aluminum_stick", "mekmm:compat/immersiveengineering/lathe/steel_stick"])
+    .forEach(entry => {
+      entry.renameKey("main_input", "input", false)
+    })
+
   console.log(`Fixing recipes took ${timer.stop().elapsed("milliseconds")} ms...`)
 })
