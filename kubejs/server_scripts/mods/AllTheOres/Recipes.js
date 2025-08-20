@@ -23,6 +23,7 @@ ServerEvents.recipes(allthemods => {
 
       let dust = getDustFromMaterial(id.namespace, resource)
       if (dust == null) return
+      if (resource == "awakened_draconium") resource = "draconium_awakened" // flip draconium name because :shrug:
       materials.putIfAbsent(resource, dust)
     }
   })
