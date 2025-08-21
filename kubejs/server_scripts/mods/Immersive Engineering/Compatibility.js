@@ -92,16 +92,13 @@ ServerEvents.recipes(allthemods => {
   const hPlants = ['asparagus', 'barley', 'blackberry', 'blueberry', 'broccoli', 'cabbage', 'cauliflower', 'celery', 'cucumber', 'eggplant', 'green_bean', 'green_pepper', 'lettuce', 'pineapple', 'radish', 'raspberry', 'rye', 'squash', 'strawberry', 'tomato','turnip', 'zucchini']
   const hHerbs = ['basil', 'bay_leaf', 'chive', 'cilantro', 'dill', 'lemongrass', 'mint', 'mustard', 'oregano', 'parsley', 'peppercorn', 'rosemary', 'sage', 'thyme']
   const hSeeds = []
-  let y = 0
   hPlants.forEach(seed => {
     let crop = {seed: `${seed}_seeds`, render: `${seed}_plant`, result: `${seed}`}
     hSeeds.push(crop)
-    y++
   })
   hHerbs.forEach(seed => {
     let crop = {seed: `${seed}_seeds`, render: `${seed}_herb`, result: `fresh_${seed}`}
     hSeeds.push(crop)
-    y++
   })
   hSeeds.forEach(crop => {
     let mod = 'herbsandharvest:'
@@ -111,12 +108,10 @@ ServerEvents.recipes(allthemods => {
 
   //Pam's seeds
   const pamSeeds = []
-  let j = 0
   Ingredient.of("#c:seeds").itemIds.forEach(seed => {
     if (seed.includes('pamhc2crops'&&'seeditem')){
       let crop = {seed: seed.replace('pamhc2crops:', ''), render: seed.replace('pamhc2crops', '').replace('seeditem', 'crop').replace(':', 'pam'), result: seed.replace('pamhc2crops:', '').replace('seeditem', 'item')}
       pamSeeds.push(crop)
-      j++
     }
   })
   pamSeeds.forEach(crop => {
