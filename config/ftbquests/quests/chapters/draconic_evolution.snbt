@@ -57,7 +57,7 @@
 			y: -7.5d
 		}
 	]
-	order_index: 3
+	order_index: 4
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -633,6 +633,9 @@
 		{
 			dependencies: ["45EE60207C466D6C"]
 			icon: {
+				components: {
+					"draconicevolution:soul_id": "draconicevolution:guardian_crystal"
+				}
 				id: "draconicevolution:mob_soul"
 			}
 			id: "106D08542AAFA166"
@@ -673,6 +676,9 @@
 		{
 			dependencies: ["106D08542AAFA166"]
 			icon: {
+				components: {
+					"draconicevolution:soul_id": "draconicevolution:draconic_guardian"
+				}
 				id: "draconicevolution:mob_soul"
 			}
 			icon_scale: 2.0d
