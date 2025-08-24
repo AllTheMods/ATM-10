@@ -3,7 +3,7 @@
 
 KubeJSTweaks.checkCompatibility(event => {
   event.checkModVersion("jei", "19.22.0.316", "This version is causing durability tools issues")
-  event.checkModVersion("uranus", "[2.3.1-bugfix1,2.3.1-bugfix2]", "This version is causing TPS and memory leak issues")
+  event.checkModVersion("uranus", "[2.3.1-bugfix,2.3.1-bugfix2]", "This version is causing TPS and memory leak issues")
   event.checkModVersion("octolib", "0.6.0.2", "This version is causing high CPU usage issues")
   event.checkModVersion("utilitarian", "1.21.1-0.15.0", "This version is crashing when bonemealing small flowers")
   event.checkModVersion("amendments", "1.21-2.0.4", "This version is crashing when opening lecterns")
