@@ -295,7 +295,7 @@
 			y: 0.0d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -323,7 +323,7 @@
 			size: 2.0d
 			tasks: [{
 				id: "42D3D4E96812274C"
-				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:beehive)item_tag(productivebees:advanced_beehives))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbquests:missing_item": "ftbfiltersystem:smart_filter" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -391,6 +391,7 @@
 				id: "minecraft:sugar"
 			}
 			id: "2A6FC21142E75DD5"
+			optional: true
 			rewards: [{
 				count: 2
 				id: "71E8BC9C85CBA694"
@@ -415,6 +416,7 @@
 				id: "the_bumblezone:pile_of_pollen"
 			}
 			id: "041D16DA96BC4253"
+			optional: true
 			rewards: [{
 				count: 16
 				id: "7A823DC3045356F2"
@@ -439,6 +441,7 @@
 				id: "the_bumblezone:pollen_puff"
 			}
 			id: "513060836057E5B7"
+			optional: true
 			rewards: [{
 				count: 16
 				id: "203C39BA6736FD24"
@@ -463,6 +466,7 @@
 				id: "the_bumblezone:sugar_infused_stone"
 			}
 			id: "2AD13B965611DC86"
+			optional: true
 			rewards: [{
 				count: 10
 				id: "594ECEF1263CBC1E"
@@ -487,6 +491,7 @@
 				id: "the_bumblezone:filled_porous_honeycomb_block"
 			}
 			id: "2A50A687C40DB864"
+			optional: true
 			rewards: [{
 				count: 10
 				id: "220EBCF5E2491A0F"
@@ -511,6 +516,7 @@
 				id: "the_bumblezone:porous_honeycomb_block"
 			}
 			id: "540895E6C9E724AD"
+			optional: true
 			rewards: [{
 				count: 10
 				id: "2EB9C721E628053F"
@@ -535,6 +541,7 @@
 				id: "minecraft:cornflower"
 			}
 			id: "1C6B815C0F43312D"
+			optional: true
 			rewards: [{
 				count: 10
 				id: "39C01EEAB238A814"
@@ -559,6 +566,7 @@
 				id: "the_bumblezone:glistering_honey_crystal"
 			}
 			id: "680E960554CEE76B"
+			optional: true
 			rewards: [{
 				count: 10
 				id: "29345B24A06FF209"
@@ -579,9 +587,13 @@
 		}
 		{
 			icon: {
-				id: "modern_industrialization:copper_ring"
+				components: {
+					"ftbquests:missing_item": "modern_industrialization:copper_ring"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "0B0BDC37185AF9EC"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -608,6 +620,7 @@
 				id: "minecraft:amethyst_cluster"
 			}
 			id: "288A4A32CDBB14D5"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -630,12 +643,12 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["396CEB9D05700927"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "the_bumblezone:carvable_wax_chiseled"
 			}
 			id: "46FEF3DB6A5B52A0"
+			optional: true
 			rewards: [
 				{
 					id: "25AF4055A035DA19"
@@ -654,14 +667,15 @@
 				structure: "the_bumblezone:battle_cubes"
 				type: "structure"
 			}]
-			x: 13.5d
-			y: -4.0d
+			x: 3.0d
+			y: -4.5d
 		}
 		{
 			icon: {
 				id: "the_bumblezone:stingless_bee_helmet_1"
 			}
 			id: "719D5CEB4217B734"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -688,6 +702,7 @@
 				id: "the_bumblezone:super_candle"
 			}
 			id: "0980661B2F7FBC10"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -714,6 +729,7 @@
 				id: "the_bumblezone:crystal_cannon"
 			}
 			id: "571CC5558B87377D"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -736,11 +752,11 @@
 			y: -4.5d
 		}
 		{
-			dependencies: ["0910C28A609ECBC1"]
 			icon: {
 				id: "the_bumblezone:honey_cocoon"
 			}
 			id: "30C12E249F7E2D52"
+			optional: true
 			rewards: [
 				{
 					id: "6A9BA7DEF65CF524"
@@ -759,8 +775,8 @@
 				structure: "the_bumblezone:cell_maze"
 				type: "structure"
 			}]
-			x: 14.5d
-			y: -4.0d
+			x: 3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["1C6B815C0F43312D"]
@@ -768,6 +784,7 @@
 				id: "minecraft:cherry_sapling"
 			}
 			id: "0BE2E7C9454058C3"
+			optional: true
 			rewards: [{
 				count: 4
 				id: "1CB8379C43ECEDD1"
@@ -790,6 +807,7 @@
 				id: "minecraft:jukebox"
 			}
 			id: "4A5F84912C755688"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -816,6 +834,7 @@
 				id: "minecraft:chain"
 			}
 			id: "02F4C3BEBD8427AD"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -842,6 +861,7 @@
 				id: "minecraft:beehive"
 			}
 			id: "358D4F507521075F"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -868,6 +888,7 @@
 				id: "minecraft:honey_block"
 			}
 			id: "3B9E6FBEDABA4F7E"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -894,6 +915,7 @@
 				id: "the_bumblezone:sugar_water_bucket"
 			}
 			id: "73C7F57B90731010"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -920,6 +942,7 @@
 				id: "the_bumblezone:honey_slime_spawn_egg"
 			}
 			id: "29E2033EA65E706E"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -942,12 +965,12 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["396CEB9D05700927"]
 			hide_until_deps_complete: true
 			icon: {
 				id: "minecraft:yellow_bed"
 			}
 			id: "4040BFCD4BE56621"
+			optional: true
 			rewards: [
 				{
 					id: "2DFB36712B85AD73"
@@ -966,14 +989,15 @@
 				structure: "the_bumblezone:honitel"
 				type: "structure"
 			}]
-			x: 15.5d
-			y: -4.0d
+			x: 3.0d
+			y: -2.5d
 		}
 		{
 			icon: {
 				id: "minecraft:ice"
 			}
 			id: "13E3DE157B89E847"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1001,6 +1025,7 @@
 				id: "the_bumblezone:crystalline_flower"
 			}
 			id: "55B9B9C3AA01D323"
+			optional: true
 			rewards: [{
 				count: 3
 				id: "4BA2FF55D5DD634E"
@@ -1024,6 +1049,7 @@
 				id: "minecraft:iron_sword"
 			}
 			id: "79FF12D7A4C8E821"
+			optional: true
 			rewards: [{
 				id: "5F055CB705A7CFE5"
 				item: {
@@ -1050,6 +1076,7 @@
 				id: "the_bumblezone:sugar_water_bucket"
 			}
 			id: "5728D87E3240AF0D"
+			optional: true
 			rewards: [{
 				count: 4
 				id: "54F79D6BD779BAD9"
@@ -1115,6 +1142,7 @@
 				id: "the_bumblezone:stinger_spear"
 			}
 			id: "5B4397D4EC23E702"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1141,6 +1169,7 @@
 				id: "the_bumblezone:windy_air"
 			}
 			id: "7231F6177EEF5BF0"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -1184,6 +1213,7 @@
 		}
 		{
 			id: "1A67F4F87B3D456C"
+			optional: true
 			rewards: [{
 				id: "64EA26D25B3E9B0A"
 				item: {
@@ -1202,6 +1232,7 @@
 		}
 		{
 			id: "2149833F65D523E5"
+			optional: true
 			rewards: [{
 				count: 10
 				id: "52723061BE6D5407"
@@ -1221,12 +1252,16 @@
 		}
 		{
 			id: "5219D2F2B13F57F3"
+			optional: true
 			rewards: [{
 				count: 3
 				id: "565C758EBB300ABC"
 				item: {
+					components: {
+						"ftbquests:missing_item": "productivebees:sturdy_bee_cage"
+					}
 					count: 1
-					id: "productivebees:sturdy_bee_cage"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
@@ -1265,6 +1300,7 @@
 		}
 		{
 			id: "253957D992A88C88"
+			optional: true
 			rewards: [{
 				count: 10
 				id: "4D617B815F9312E0"
@@ -1284,6 +1320,7 @@
 		}
 		{
 			id: "2DE2E5A1275E4B20"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "00898989D688D2A4"
@@ -1300,6 +1337,7 @@
 		}
 		{
 			id: "7C7C0D3D7FCB0297"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "09006699FDFB9EE3"
@@ -1316,6 +1354,7 @@
 		}
 		{
 			id: "5F834F8C607A8B77"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "53B82D5907266608"
@@ -1332,6 +1371,7 @@
 		}
 		{
 			id: "78B7FC6A868F5C4D"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7C6251A539F370DA"
@@ -1348,6 +1388,7 @@
 		}
 		{
 			id: "2B857941D7BBA0B8"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "56D14079D9AF10AC"
@@ -1364,6 +1405,7 @@
 		}
 		{
 			id: "78E40BDB0E54B638"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "79E07BD2FD8026D6"
@@ -1380,6 +1422,7 @@
 		}
 		{
 			id: "72489FB9D9A5A24B"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "13D0BEC7DFBCEC45"
@@ -1396,6 +1439,7 @@
 		}
 		{
 			id: "7208CB011F6E2ACF"
+			optional: true
 			rewards: [{
 				exclude_from_claim_all: true
 				id: "7276FCAFA93DA415"
@@ -1437,6 +1481,7 @@
 				id: "the_bumblezone:ancient_wax_diamond"
 			}
 			id: "0C8180524757B238"
+			optional: true
 			rewards: [{
 				count: 10
 				id: "721FA4D8DBEA690A"
@@ -1466,6 +1511,7 @@
 				id: "the_bumblezone:honeycomb_brood_block"
 			}
 			id: "6013C6B2E0B81D73"
+			optional: true
 			rewards: [{
 				count: 4
 				id: "13552CE13799852D"
@@ -1486,11 +1532,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: [
-				"4040BFCD4BE56621"
-				"30C12E249F7E2D52"
-				"46FEF3DB6A5B52A0"
-			]
+			dependencies: ["0910C28A609ECBC1"]
 			dependency_requirement: "one_completed"
 			id: "67A0F6661D658A52"
 			rewards: [{
@@ -1505,7 +1547,7 @@
 				type: "item"
 			}]
 			x: 14.5d
-			y: -3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6474FE12450A4A7D"]
@@ -1628,11 +1670,6 @@
 				{
 					id: "56BB0EE71DDEF0DC"
 					item: {
-						components: {
-							"minecraft:potion_contents": {
-								potion: "apothic_attributes:resistance"
-							}
-						}
 						count: 1
 						id: "minecraft:potion"
 					}
@@ -2403,6 +2440,7 @@
 		}
 		{
 			id: "21BFDE6AD1C0F62A"
+			optional: true
 			rewards: [{
 				id: "7A81EC903D6C50A2"
 				item: {
@@ -2427,6 +2465,7 @@
 		}
 		{
 			id: "05A4496705B6C6AF"
+			optional: true
 			rewards: [{
 				id: "39B9DCC66E003756"
 				item: {
@@ -2446,6 +2485,7 @@
 		}
 		{
 			id: "61500C8F68509E5D"
+			optional: true
 			rewards: [
 				{
 					id: "599E43679867F462"
@@ -2483,6 +2523,7 @@
 		}
 		{
 			id: "454AC491FDFC3FDB"
+			optional: true
 			rewards: [{
 				count: 10
 				id: "70B2DF8B1166B1BB"
@@ -2503,6 +2544,7 @@
 		}
 		{
 			id: "50150380043F97F9"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -2526,6 +2568,7 @@
 		}
 		{
 			id: "3C413D4A210A3BDE"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -2549,6 +2592,7 @@
 		}
 		{
 			id: "72917C96C322A922"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -2572,6 +2616,7 @@
 		}
 		{
 			id: "351769579833FA9E"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -2595,6 +2640,7 @@
 		}
 		{
 			id: "65D993EB95726067"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -2618,6 +2664,7 @@
 		}
 		{
 			id: "339384ADC9CDB944"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -2641,6 +2688,7 @@
 		}
 		{
 			id: "29DF2E7D0402284F"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -2664,6 +2712,7 @@
 		}
 		{
 			id: "262B307753106817"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -2687,6 +2736,7 @@
 		}
 		{
 			id: "497FA7CA04117995"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -2710,6 +2760,7 @@
 		}
 		{
 			id: "206918773B0BD7A0"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -2733,12 +2784,16 @@
 		}
 		{
 			id: "6C5D61A704DC125A"
+			optional: true
 			rewards: [{
 				count: 3
 				id: "4B64997D81D9EB84"
 				item: {
+					components: {
+						"ftbquests:missing_item": "mysticalagriculture:dye_essence"
+					}
 					count: 1
-					id: "mysticalagriculture:dye_essence"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
@@ -2771,6 +2826,7 @@
 		}
 		{
 			id: "27B5D0329DD92126"
+			optional: true
 			rewards: [{
 				count: 3
 				id: "0F798BFFFF4B8166"
@@ -2795,6 +2851,7 @@
 		}
 		{
 			id: "270498437D938DD4"
+			optional: true
 			rewards: [
 				{
 					id: "600A6B8059340AF4"
@@ -2848,6 +2905,7 @@
 		}
 		{
 			id: "1207E5C3E7BD0584"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -2871,6 +2929,7 @@
 		}
 		{
 			id: "2ABAE97E992BB800"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -2894,6 +2953,7 @@
 		}
 		{
 			id: "13681866CE6A831C"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -2917,6 +2977,7 @@
 		}
 		{
 			id: "74D4E51A6381DB24"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -2940,6 +3001,7 @@
 		}
 		{
 			id: "772C65FC32AECD6B"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -2963,6 +3025,7 @@
 		}
 		{
 			id: "786073B57C901DB7"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -2986,6 +3049,7 @@
 		}
 		{
 			id: "29E9E361DDC8041B"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -3009,6 +3073,7 @@
 		}
 		{
 			id: "26988330D3E5BF95"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -3034,17 +3099,21 @@
 			dependencies: ["396CEB9D05700927"]
 			hide_until_deps_complete: true
 			id: "0E32DB6B8E023764"
+			optional: true
 			rewards: [{
 				id: "4817918CC7505E40"
 				item: {
+					components: {
+						"ftbquests:missing_item": "productivebees:centrifuge"
+					}
 					count: 1
-					id: "productivebees:centrifuge"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "1256A95F7D5C782F"
-				item: { components: { "ftbfiltersystem:filter": "or(item(productivebees:configurable_comb)item(productivebees:configurable_comb)item(productivebees:configurable_comb)item(productivebees:configurable_comb)item(productivebees:configurable_comb)item(productivebees:configurable_comb))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbquests:missing_item": "ftbfiltersystem:smart_filter" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -0.5d
@@ -3073,6 +3142,7 @@
 				id: "the_bumblezone:carvable_wax_chains"
 			}
 			id: "613AC4DF39E5621D"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -3099,6 +3169,7 @@
 				id: "the_bumblezone:honey_bucket"
 			}
 			id: "41D539DA3B3EC287"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -3125,6 +3196,7 @@
 				id: "minecraft:purpur_block"
 			}
 			id: "0584073A7383E0EA"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
@@ -3151,6 +3223,7 @@
 				id: "minecraft:phantom_spawn_egg"
 			}
 			id: "4F144E5F70932C7D"
+			optional: true
 			rewards: [
 				{
 					exclude_from_claim_all: true
