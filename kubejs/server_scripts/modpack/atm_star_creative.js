@@ -227,6 +227,9 @@ ServerEvents.recipes(allthemods => {
                 S: 'allthetweaks:atm_star_block',
             }
         ).id('allthemods:mekanism/creative_fluid_tank')
+		// Empty Creative Fluid and Chemical Tanks
+		allthemods.recipes.kubejs.shapeless('mekanism:creative_fluid_tank',['mekanism:creative_fluid_tank']).id('allthemods:mekanism/clear_creative_fluid_tank')
+		allthemods.recipes.kubejs.shapeless('mekanism:creative_chemical_tank',['mekanism:creative_chemical_tank']).id('allthemods:mekanism/clear_creative_chemical_tank')	
 
         allthemods.recipes.kubejs.shaped('mekanism:creative_energy_cube',
             [
