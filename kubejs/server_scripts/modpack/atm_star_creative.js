@@ -263,7 +263,8 @@ ServerEvents.recipes(allthemods => {
             }
         ).id('allthemods:energizing/mekanism_creative_energy_cube')
 	//Oritech
-       allthemods.recipes.kubejs.shaped('oritech:creative_tank_block',
+	//Removed based on recommendation by Almana
+       /* allthemods.recipes.kubejs.shaped('oritech:creative_tank_block',
             [
                 'TUT',
                 'USU',
@@ -274,7 +275,7 @@ ServerEvents.recipes(allthemods => {
                 U: 'allthemodium:unobtainium_ingot',
                 S: 'allthetweaks:atm_star_block',
             }
-        ).id('allthemods:oritech/creative_tank_block')
+        ).id('allthemods:oritech/creative_tank_block') */
     //Powah
 
         allthemods.custom(
@@ -549,8 +550,8 @@ ServerEvents.recipes(allthemods => {
     "id": "kubejs:incomplete_creative_worldshaper"
   }
 }).id("allthemods:create/handheld_worldshaper") */
-		
-	allthemods.custom({
+	// Removed based on recommendation by Almana	
+	/* allthemods.custom({
   "type": "create:compacting",
   "heat_requirement": "superheated",
   "ingredients": [
@@ -587,7 +588,7 @@ ServerEvents.recipes(allthemods => {
       "id": "create:creative_fluid_tank"
     }
   ]
-}).id("allthemods:create/creative_fluid_tank")
+}).id("allthemods:create/creative_fluid_tank") */
 	// Tempad
         allthemods.recipes.kubejs.shaped('tempad:creative_chronometer', 
             [
