@@ -561,7 +561,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "4CBB52C7D0BF9B28"
-				item: { count: 1, id: "immersiveengineering:coal_coke" }
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:coal_coke)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -3.5d
@@ -4231,3 +4231,5 @@
 		}
 	]
 }
+
+
