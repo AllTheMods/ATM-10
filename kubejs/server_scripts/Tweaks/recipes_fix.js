@@ -76,6 +76,12 @@ KubeJSTweaks.beforeRecipes(event => {
       entry.addConditionsFromKey("ingredients")
     })
 
+  event.getEntry(["merrymaking:aged_pine_mantel","merrymaking:exposed_pine_mantel","merrymaking:pine_mantel","merrymaking:weathered_pine_mantel"])
+    .forEach(entry => {
+      entry.addConditionsFromKey("key")
+    })	
+
+
   // Fix a typo, they missed a `s`
   event.getEntry([
     "mekanism:compat/biomeswevegone/enriching/dacite/conversion_dacite_tile",
