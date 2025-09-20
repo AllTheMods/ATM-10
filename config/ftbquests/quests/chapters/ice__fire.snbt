@@ -411,29 +411,6 @@
 		{
 			dependencies: ["48B1BD7D86CAC4A0"]
 			icon: {
-				id: "minecraft:gravel"
-			}
-			id: "136C40D8350651DC"
-			rewards: [{
-				id: "5AAE18C543D84F16"
-				item: {
-					count: 1
-					id: "iceandfire:earplugs"
-				}
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				id: "285FF72E7A57C8FA"
-				structure: "iceandfire:siren_island"
-				type: "structure"
-			}]
-			x: 22.5d
-			y: -10.0d
-		}
-		{
-			dependencies: ["136C40D8350651DC"]
-			icon: {
 				components: {
 					"ftbquests:icon": "ftbchunks:textures/faces/iceandfire/siren.png"
 				}
@@ -459,7 +436,7 @@
 			shape: "rsquare"
 			size: 1.5d
 			tasks: [{
-				entity: "ars_elemental:siren_entity"
+				entity: "iceandfire:siren"
 				id: "4A5A8491B4195EF1"
 				type: "kill"
 				value: 1L
@@ -642,39 +619,6 @@
 		{
 			dependencies: ["02DEAB3F1198BFBE"]
 			icon: {
-				id: "minecraft:skeleton_skull"
-			}
-			id: "0FE94BE5ADB6E595"
-			rewards: [
-				{
-					id: "130241B5638EE088"
-					item: {
-						count: 1
-						id: "minecraft:skeleton_skull"
-					}
-					type: "item"
-				}
-				{
-					id: "71A0FC02F0AF30DE"
-					item: {
-						count: 1
-						id: "minecraft:milk_bucket"
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [{
-				id: "4CABDAEC3F3F1F11"
-				structure: "iceandfire:hydra_cave"
-				type: "structure"
-			}]
-			x: 27.5d
-			y: -18.5d
-		}
-		{
-			dependencies: ["0FE94BE5ADB6E595"]
-			icon: {
 				components: {
 					"ftbquests:icon": "ftbchunks:textures/faces/iceandfire/hydra.png"
 				}
@@ -770,41 +714,6 @@
 		}
 		{
 			dependencies: ["10CA52D15EAB71A3"]
-			icon: {
-				id: "minecraft:white_wool"
-			}
-			id: "435890CE1A1B3C04"
-			rewards: [
-				{
-					count: 9
-					id: "6350A44630AFC173"
-					item: {
-						count: 1
-						id: "minecraft:wheat"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "6B52EB3D8CC0CC31"
-					item: {
-						count: 1
-						id: "minecraft:lead"
-					}
-					type: "item"
-				}
-			]
-			shape: "octagon"
-			tasks: [{
-				id: "3255658206244B26"
-				structure: "iceandfire:cyclops_cave"
-				type: "structure"
-			}]
-			x: 32.5d
-			y: -14.5d
-		}
-		{
-			dependencies: ["435890CE1A1B3C04"]
 			icon: {
 				components: {
 					"ftbquests:icon": "ftbchunks:textures/faces/iceandfire/cyclops.png"
@@ -1049,30 +958,6 @@
 		}
 		{
 			dependencies: ["59D91C5E11F67FC3"]
-			icon: {
-				id: "iceandfire:pixie_house_mushroom_red"
-			}
-			id: "5E45C9C2D72EDBCC"
-			rewards: [{
-				count: 3
-				id: "7DB05CF705D6F879"
-				item: {
-					count: 1
-					id: "iceandfire:pixie_dust"
-				}
-				type: "item"
-			}]
-			shape: "octagon"
-			tasks: [{
-				id: "3F5CDB32322A8D04"
-				structure: "iceandfire:pixie_village"
-				type: "structure"
-			}]
-			x: 22.5d
-			y: -14.5d
-		}
-		{
-			dependencies: ["5E45C9C2D72EDBCC"]
 			icon: {
 				components: {
 					"ftbquests:icon": "ftbchunks:textures/faces/iceandfire/pixie.png"
