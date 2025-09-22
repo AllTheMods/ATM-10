@@ -228,8 +228,29 @@ ServerEvents.recipes(allthemods => {
             }
         ).id('allthemods:mekanism/creative_fluid_tank')
 		// Empty Creative Fluid and Chemical Tanks
-		allthemods.recipes.kubejs.shapeless('mekanism:creative_fluid_tank',['mekanism:creative_fluid_tank']).id('allthemods:mekanism/clear_creative_fluid_tank')
-		allthemods.recipes.kubejs.shapeless('mekanism:creative_chemical_tank',['mekanism:creative_chemical_tank']).id('allthemods:mekanism/clear_creative_chemical_tank')	
+		allthemods.recipes.kubejs.shaped('mekanism:creative_chemical_tank',
+            [
+                'TTT',
+                'TST',
+                'TTT'
+            ],
+            {
+                T: 'allthetweaks:atm_star',
+                S: 'mekanism:creative_chemical_tank',
+            }
+        ).id('allthemods:mekanism/clear_creative_chemical_tank')
+
+        allthemods.recipes.kubejs.shaped('mekanism:creative_fluid_tank',
+            [
+                'TTT',
+                'TST',
+                'TTT'
+            ],
+            {
+                T: 'allthetweaks:atm_star',
+                S: 'mekanism:creative_fluid_tank',
+            }
+        ).id('allthemods:mekanism/clear_creative_fluid_tank')
 
         allthemods.recipes.kubejs.shaped('mekanism:creative_energy_cube',
             [
@@ -607,3 +628,4 @@ ServerEvents.recipes(allthemods => {
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
