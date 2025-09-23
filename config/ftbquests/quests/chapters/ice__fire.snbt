@@ -411,6 +411,36 @@
 		{
 			dependencies: ["48B1BD7D86CAC4A0"]
 			icon: {
+				id: "minecraft:gravel"
+			}
+			id: "136C40D8350651DC"
+			rewards: [{
+				id: "5AAE18C543D84F16"
+				item: {
+					count: 1
+					id: "iceandfire:earplugs"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "285FF72E7A57C8FA"
+					optional_task: true
+					structure: "iceandfire:siren_island"
+					type: "structure"
+				}
+				{
+					id: "161CAC97460D6FE5"
+					type: "checkmark"
+				}
+			]
+			x: 22.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["136C40D8350651DC"]
+			icon: {
 				components: {
 					"ftbquests:icon": "ftbchunks:textures/faces/iceandfire/siren.png"
 				}
@@ -619,6 +649,46 @@
 		{
 			dependencies: ["02DEAB3F1198BFBE"]
 			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "0FE94BE5ADB6E595"
+			rewards: [
+				{
+					id: "130241B5638EE088"
+					item: {
+						count: 1
+						id: "minecraft:skeleton_skull"
+					}
+					type: "item"
+				}
+				{
+					id: "71A0FC02F0AF30DE"
+					item: {
+						count: 1
+						id: "minecraft:milk_bucket"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "4CABDAEC3F3F1F11"
+					optional_task: true
+					structure: "iceandfire:hydra_cave"
+					type: "structure"
+				}
+				{
+					id: "65596CCE3478A35E"
+					type: "checkmark"
+				}
+			]
+			x: 27.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["0FE94BE5ADB6E595"]
+			icon: {
 				components: {
 					"ftbquests:icon": "ftbchunks:textures/faces/iceandfire/hydra.png"
 				}
@@ -714,6 +784,48 @@
 		}
 		{
 			dependencies: ["10CA52D15EAB71A3"]
+			icon: {
+				id: "minecraft:white_wool"
+			}
+			id: "435890CE1A1B3C04"
+			rewards: [
+				{
+					count: 9
+					id: "6350A44630AFC173"
+					item: {
+						count: 1
+						id: "minecraft:wheat"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6B52EB3D8CC0CC31"
+					item: {
+						count: 1
+						id: "minecraft:lead"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "3255658206244B26"
+					optional_task: true
+					structure: "iceandfire:cyclops_cave"
+					type: "structure"
+				}
+				{
+					id: "59C940FE309D3857"
+					type: "checkmark"
+				}
+			]
+			x: 32.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["435890CE1A1B3C04"]
 			icon: {
 				components: {
 					"ftbquests:icon": "ftbchunks:textures/faces/iceandfire/cyclops.png"
@@ -875,11 +987,18 @@
 				type: "item"
 			}]
 			shape: "octagon"
-			tasks: [{
-				id: "5B975D6E9F9CA297"
-				structure: "iceandfire:graveyard"
-				type: "structure"
-			}]
+			tasks: [
+				{
+					id: "5B975D6E9F9CA297"
+					optional_task: true
+					structure: "iceandfire:graveyard"
+					type: "structure"
+				}
+				{
+					id: "30E83AA304449592"
+					type: "checkmark"
+				}
+			]
 			x: 28.5d
 			y: -7.0d
 		}
@@ -958,6 +1077,37 @@
 		}
 		{
 			dependencies: ["59D91C5E11F67FC3"]
+			icon: {
+				id: "iceandfire:pixie_house_mushroom_red"
+			}
+			id: "5E45C9C2D72EDBCC"
+			rewards: [{
+				count: 3
+				id: "7DB05CF705D6F879"
+				item: {
+					count: 1
+					id: "iceandfire:pixie_dust"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "3F5CDB32322A8D04"
+					optional_task: true
+					structure: "iceandfire:pixie_village"
+					type: "structure"
+				}
+				{
+					id: "73E16BC9DE52CEDF"
+					type: "checkmark"
+				}
+			]
+			x: 22.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["5E45C9C2D72EDBCC"]
 			icon: {
 				components: {
 					"ftbquests:icon": "ftbchunks:textures/faces/iceandfire/pixie.png"
@@ -1075,9 +1225,324 @@
 		}
 		{
 			dependencies: [
-				"59D91C5E11F67FC3"
 				"6800E0113DE9A4DB"
+				"59D91C5E11F67FC3"
 			]
+			hide_dependency_lines: true
+			icon: {
+				id: "iceandfire:chared_grass"
+			}
+			id: "7FA9EA93602A98EC"
+			rewards: [
+				{
+					count: 5
+					id: "3D22D7D6124B2FC4"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "2C27894C6B1B7D20"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_fire_resistance"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "4A701B5690DF9EF1"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "565B8C25FBA06F96"
+					optional_task: true
+					structure: "iceandfire:fire_dragon_roost"
+					type: "structure"
+				}
+				{
+					id: "57E566B3DA44E11E"
+					type: "checkmark"
+				}
+			]
+			x: 25.0d
+			y: -38.0d
+		}
+		{
+			dependencies: [
+				"6800E0113DE9A4DB"
+				"02DEAB3F1198BFBE"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "iceandfire:frozen_grass"
+			}
+			id: "70AD5D79881EE1B5"
+			rewards: [
+				{
+					count: 5
+					id: "402E5826EFBD7C04"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "6387A0F9A46CA8E0"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_swiftness"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "777ADC9832232888"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "7F104F1116B969DA"
+					optional_task: true
+					structure: "iceandfire:ice_dragon_roost"
+					type: "structure"
+				}
+				{
+					id: "548C00E9E5868B0B"
+					type: "checkmark"
+				}
+			]
+			x: 27.5d
+			y: -37.5d
+		}
+		{
+			dependencies: [
+				"6800E0113DE9A4DB"
+				"10CA52D15EAB71A3"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "iceandfire:crackled_grass"
+			}
+			id: "42626A0CD814353D"
+			rewards: [
+				{
+					count: 5
+					id: "6A898D0464DD2A43"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "0707B4686771F2D3"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_strength"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "6406DAE229BD5026"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "15F4F0FABA54C6AE"
+					optional_task: true
+					structure: "iceandfire:lightning_dragon_roost"
+					type: "structure"
+				}
+				{
+					id: "28C955994022694C"
+					type: "checkmark"
+				}
+			]
+			x: 30.0d
+			y: -38.0d
+		}
+		{
+			dependencies: ["6800E0113DE9A4DB"]
+			icon: {
+				id: "minecraft:raw_gold_block"
+			}
+			id: "43630EF0B85AE7E1"
+			rewards: [
+				{
+					count: 10
+					id: "063C07057F1324DC"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "1C35012D62927870"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:fire_resistance"
+							}
+						}
+						count: 1
+						id: "apotheosis:potion_charm"
+					}
+					type: "item"
+				}
+				{
+					id: "2CB2A24520107ED9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "7A931B7C3BF01FC7"
+					optional_task: true
+					structure: "iceandfire:fire_dragon_cave"
+					type: "structure"
+				}
+				{
+					id: "0E023DC786B0472F"
+					type: "checkmark"
+				}
+			]
+			x: 25.0d
+			y: -40.5d
+		}
+		{
+			dependencies: ["6800E0113DE9A4DB"]
+			icon: {
+				id: "alltheores:raw_silver_block"
+			}
+			id: "70099F9B69F9D055"
+			rewards: [
+				{
+					count: 10
+					id: "709655CA8BC5BF3F"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "45D8405B5C800953"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:swiftness"
+							}
+						}
+						count: 1
+						id: "apotheosis:potion_charm"
+					}
+					type: "item"
+				}
+				{
+					id: "0769121CB755B39D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "48B38176DBF65168"
+					optional_task: true
+					structure: "iceandfire:ice_dragon_cave"
+					type: "structure"
+				}
+				{
+					id: "72485C6D3EE8E7F1"
+					type: "checkmark"
+				}
+			]
+			x: 27.5d
+			y: -40.0d
+		}
+		{
+			dependencies: ["6800E0113DE9A4DB"]
+			icon: {
+				id: "minecraft:raw_copper_block"
+			}
+			id: "1CB063BBEC35712B"
+			rewards: [
+				{
+					count: 10
+					id: "1E3EA1228CAC82DC"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "71FB3B438B85DC69"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:strength"
+							}
+						}
+						count: 1
+						id: "apotheosis:potion_charm"
+					}
+					type: "item"
+				}
+				{
+					id: "48E008D2F1B16F36"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "octagon"
+			tasks: [
+				{
+					id: "5B3640F3D347CB3A"
+					optional_task: true
+					structure: "iceandfire:lightning_dragon_cave"
+					type: "structure"
+				}
+				{
+					id: "2B89ED37F2CF63EB"
+					type: "checkmark"
+				}
+			]
+			x: 30.0d
+			y: -40.5d
+		}
+		{
+			dependencies: ["7FA9EA93602A98EC"]
 			id: "32992E3534B86521"
 			rewards: [
 				{
@@ -1121,10 +1586,7 @@
 			y: -39.0d
 		}
 		{
-			dependencies: [
-				"6800E0113DE9A4DB"
-				"02DEAB3F1198BFBE"
-			]
+			dependencies: ["70AD5D79881EE1B5"]
 			id: "43922DB543DC05C0"
 			rewards: [
 				{
@@ -1168,10 +1630,7 @@
 			y: -38.5d
 		}
 		{
-			dependencies: [
-				"6800E0113DE9A4DB"
-				"10CA52D15EAB71A3"
-			]
+			dependencies: ["42626A0CD814353D"]
 			id: "4B65720872B062F8"
 			rewards: [
 				{
@@ -1215,10 +1674,7 @@
 			y: -39.0d
 		}
 		{
-			dependencies: [
-				"6800E0113DE9A4DB"
-				"32992E3534B86521"
-			]
+			dependencies: ["43630EF0B85AE7E1"]
 			id: "765CD913CC3896B2"
 			rewards: [
 				{
@@ -1274,10 +1730,7 @@
 			y: -41.5d
 		}
 		{
-			dependencies: [
-				"6800E0113DE9A4DB"
-				"43922DB543DC05C0"
-			]
+			dependencies: ["70099F9B69F9D055"]
 			id: "0B3AC4E923332AC6"
 			rewards: [
 				{
@@ -1333,10 +1786,7 @@
 			y: -41.0d
 		}
 		{
-			dependencies: [
-				"6800E0113DE9A4DB"
-				"4B65720872B062F8"
-			]
+			dependencies: ["1CB063BBEC35712B"]
 			id: "1042A0DC0A9321BB"
 			rewards: [
 				{
