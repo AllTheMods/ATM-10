@@ -390,7 +390,7 @@
 			progression_mode: "linear"
 			rewards: [
 				{
-					id: "23AF44F7396B0FD8"
+					id: "2A969E408A3A696F"
 					item: {
 						components: {
 							"mekanism:chemicals": {
@@ -555,35 +555,6 @@
 			}]
 			x: 0.0d
 			y: -3.0d
-		}
-		{
-			dependencies: ["4935209D870E25F2"]
-			id: "3EC9D0DA61B45328"
-			rewards: [{
-				id: "604EE00C7A202C34"
-				item: {
-					components: {
-						"mekanism:chemicals": {
-							chemical_tanks: [{
-								amount: 64000L
-								id: "mekanism:hydrogen"
-							}]
-						}
-					}
-					count: 1
-					id: "mekanism:basic_chemical_tank"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.2d
-			tasks: [{
-				id: "2C13E8B67BC61E34"
-				item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 4.0d
 		}
 		{
 			dependencies: ["162CE44400A63575"]
@@ -1486,7 +1457,7 @@
 			id: "33415CB421F7620A"
 			rewards: [
 				{
-					id: "768D21672E548D85"
+					id: "05476026B011B7F3"
 					item: {
 						components: {
 							"mekanism:chemicals": {
@@ -1646,7 +1617,7 @@
 			id: "60B52705049D1BA5"
 			rewards: [
 				{
-					id: "7502E7AF8D63C798"
+					id: "3501EAECA7D7B468"
 					item: {
 						components: {
 							"mekanism:fluids": {
@@ -2426,7 +2397,7 @@
 			id: "445CC9AAA6F8AAB6"
 			rewards: [
 				{
-					id: "2C1402877A465D63"
+					id: "6545A9A44AC20C75"
 					item: {
 						components: {
 							"mekanism:chemicals": {
@@ -2526,7 +2497,7 @@
 			id: "7485BCBE366501DF"
 			rewards: [
 				{
-					id: "5548E23B2042B3F8"
+					id: "292B18BEC429B4D0"
 					item: {
 						components: {
 							"mekanism:chemicals": {
@@ -2684,7 +2655,7 @@
 			id: "0E175356D43E6A10"
 			rewards: [
 				{
-					id: "3766B23E5C03E7A6"
+					id: "1DDB046FBFC93324"
 					item: {
 						components: {
 							"mekanism:chemicals": {
@@ -2860,7 +2831,7 @@
 			min_width: 300
 			rewards: [
 				{
-					id: "15A129D2054D4D12"
+					id: "011C82C32E2D5318"
 					item: {
 						components: {
 							"mekanism:chemicals": {
@@ -2914,7 +2885,7 @@
 			min_width: 300
 			rewards: [
 				{
-					id: "6E134BF594F9975E"
+					id: "6064CA02EC67EB58"
 					item: {
 						components: {
 							"mekanism:chemicals": {
@@ -3150,39 +3121,6 @@
 			y: 5.0d
 		}
 		{
-			id: "63F41475236F99D2"
-			rewards: [
-				{
-					id: "6957BC31AFBC4515"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:copper_backpack"
-					}
-					type: "item"
-				}
-				{
-					id: "0D12B9D563107C9C"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "5661977C70D996AF"
-					item: { count: 1, id: "mekanism:seismic_vibrator" }
-					type: "item"
-				}
-				{
-					id: "6521C465ECC5152F"
-					item: { count: 1, id: "mekanism:seismic_reader" }
-					type: "item"
-				}
-			]
-			x: 5.5d
-			y: -7.5d
-		}
-		{
 			dependencies: [
 				"081DC030A0546549"
 				"71869B1D81D6A7EF"
@@ -3333,7 +3271,7 @@
 			id: "47E79DFD123BF617"
 			rewards: [
 				{
-					id: "6276CAD56B9B62FC"
+					id: "6F7C2465564E5F6E"
 					item: {
 						components: {
 							"mekanism:chemicals": {
@@ -3375,7 +3313,7 @@
 			id: "109310AF19AAC482"
 			rewards: [
 				{
-					id: "5AAA75EEE63A64D0"
+					id: "4AA0BADBC8E67240"
 					item: {
 						components: {
 							"mekanism:chemicals": {
@@ -3545,8 +3483,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: -8.5d
+			x: 5.425000000000001d
+			y: -7.600000000000001d
 		}
 	]
 }
