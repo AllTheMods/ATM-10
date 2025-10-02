@@ -102,7 +102,7 @@
 			image: "atm:textures/questpics/forbidden/forbidden_tier4.png"
 			rotation: 0.0d
 			width: 4.0771084337349395d
-			x: 22.0d
+			x: 25.0d
 			y: -0.5d
 		}
 		{
@@ -110,7 +110,7 @@
 			image: "atm:textures/questpics/forbidden/forbidden_tier5.png"
 			rotation: 0.0d
 			width: 4.12621359223301d
-			x: 25.0d
+			x: 22.0d
 			y: -0.5d
 		}
 		{
@@ -180,8 +180,8 @@
 			image: "atm:textures/questpics/forbidden/forbidden_pedestal.png"
 			rotation: 0.0d
 			width: 1.9162995594713657d
-			x: 34.0d
-			y: 0.5d
+			x: 35.0d
+			y: 2.0d
 		}
 		{
 			dependency: "15849165CA8C00F9"
@@ -189,8 +189,8 @@
 			image: "atm:textures/questpics/forbidden/forbidden_holder.png"
 			rotation: 0.0d
 			width: 1.7149425287356321d
-			x: 29.0d
-			y: 0.5d
+			x: 28.0d
+			y: 2.0d
 		}
 	]
 	order_index: 3
@@ -1756,11 +1756,6 @@
 			size: 1.5d
 			tasks: [
 				{
-					id: "22CBE132DB4C745D"
-					item: { components: { "modular_machinery_reborn:machine": "atm:runic_crucible" }, count: 1, id: "modular_machinery_reborn:controller" }
-					type: "item"
-				}
-				{
 					count: 4L
 					id: "6AEEE6865507F52C"
 					item: { count: 4, id: "forbidden_arcanus:rune_block" }
@@ -1806,6 +1801,11 @@
 					item: { count: 16, id: "forbidden_arcanus:polished_darkstone" }
 					type: "item"
 				}
+				{
+					id: "01D16EA4A29E7C91"
+					item: { count: 1, id: "modern_industrialization:runic_crucible" }
+					type: "item"
+				}
 			]
 			x: 31.5d
 			y: -3.75d
@@ -1834,6 +1834,7 @@
 			tasks: [{
 				id: "787280D3C1229DA5"
 				item: { components: { "productivebees:bee_type": "productivebees:arcane_crystal" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "strict"
 				type: "item"
 			}]
 			x: 29.5d

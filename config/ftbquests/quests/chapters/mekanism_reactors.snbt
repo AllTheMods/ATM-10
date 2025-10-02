@@ -153,16 +153,8 @@
 			x: 11.5d
 			y: -23.0d
 		}
-		{
-			height: 1.0d
-			image: "atm:textures/questpics/mek/mek_title_multi.png"
-			rotation: 0.0d
-			width: 6.0d
-			x: 15.0d
-			y: -21.5d
-		}
 	]
-	order_index: 5
+	order_index: 6
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -242,12 +234,6 @@
 								id: "mekanism:fissile_fuel"
 							}]
 						}
-						"mekanism:owner": [I;
-							1448333235
-							-1957933073
-							-1931931567
-							1246553530
-						]
 					}
 					count: 1
 					id: "mekanism:basic_chemical_tank"
@@ -509,12 +495,6 @@
 									id: "mekanism:fissile_fuel"
 								}]
 							}
-							"mekanism:owner": [I;
-								1448333235
-								-1957933073
-								-1931931567
-								1246553530
-							]
 						}
 						count: 1
 						id: "mekanism:basic_chemical_tank"
@@ -773,12 +753,6 @@
 								id: "mekanism:fissile_fuel"
 							}]
 						}
-						"mekanism:owner": [I;
-							1448333235
-							-1957933073
-							-1931931567
-							1246553530
-						]
 					}
 					count: 1
 					id: "mekanism:basic_chemical_tank"
@@ -986,7 +960,6 @@
 			y: -3.0d
 		}
 		{
-			hide_dependent_lines: true
 			id: "6A1174845810C7A1"
 			rewards: [{
 				count: 16
@@ -1530,12 +1503,6 @@
 									id: "mekanism:antimatter"
 								}]
 							}
-							"mekanism:owner": [I;
-								1448333235
-								-1957933073
-								-1931931567
-								1246553530
-							]
 						}
 						count: 1
 						id: "mekanism:ultimate_chemical_tank"
@@ -1598,12 +1565,6 @@
 								id: "mekanism:fissile_fuel"
 							}]
 						}
-						"mekanism:owner": [I;
-							1448333235
-							-1957933073
-							-1931931567
-							1246553530
-						]
 					}
 					count: 1
 					id: "mekanism:basic_chemical_tank"
@@ -1788,12 +1749,6 @@
 									id: "mekanismgenerators:deuterium"
 								}]
 							}
-							"mekanism:owner": [I;
-								1448333235
-								-1957933073
-								-1931931567
-								1246553530
-							]
 							"mekanism:side_config": {
 								config: {
 									chemicals: {
@@ -1867,12 +1822,6 @@
 									id: "mekanismgenerators:tritium"
 								}]
 							}
-							"mekanism:owner": [I;
-								1448333235
-								-1957933073
-								-1931931567
-								1246553530
-							]
 							"mekanism:side_config": {
 								config: {
 									chemicals: {
@@ -1952,12 +1901,6 @@
 								id: "mekanismgenerators:fusion_fuel"
 							}]
 						}
-						"mekanism:owner": [I;
-							1448333235
-							-1957933073
-							-1931931567
-							1246553530
-						]
 						"mekanism:side_config": {
 							config: {
 								chemicals: {
@@ -2050,12 +1993,6 @@
 									id: "mekanismgenerators:fusion_fuel"
 								}]
 							}
-							"mekanism:owner": [I;
-								1448333235
-								-1957933073
-								-1931931567
-								1246553530
-							]
 							"mekanism:side_config": {
 								config: {
 									chemicals: {
@@ -2305,12 +2242,6 @@
 									id: "mekanism:steam"
 								}]
 							}
-							"mekanism:owner": [I;
-								1448333235
-								-1957933073
-								-1931931567
-								1246553530
-							]
 						}
 						count: 1
 						id: "mekanism:elite_chemical_tank"
@@ -2434,12 +2365,6 @@
 									id: "mekanism:superheated_sodium"
 								}]
 							}
-							"mekanism:owner": [I;
-								1448333235
-								-1957933073
-								-1931931567
-								1246553530
-							]
 							"mekanism:side_config": {
 								config: {
 									chemicals: {
@@ -2561,361 +2486,6 @@
 			]
 			x: 15.0d
 			y: -12.0d
-		}
-		{
-			dependencies: ["505799C894C771B2"]
-			icon: {
-				id: "mekanism:chemical_crystallizer"
-			}
-			id: "46932D87871BE12F"
-			rewards: [
-				{
-					count: 32
-					id: "3984BBE58BD0F9C6"
-					item: {
-						count: 1
-						id: "modular_machinery_reborn:modularium"
-					}
-					type: "item"
-				}
-				{
-					count: 32
-					id: "30A0A807523ACE79"
-					item: {
-						count: 1
-						id: "alltheores:iron_crystal"
-					}
-					type: "item"
-				}
-				{
-					id: "0DDACFC4CC7AE916"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			size: 1.2d
-			tasks: [{
-				id: "428F86619E6F8634"
-				item: { components: { "modular_machinery_reborn:machine": "atm:chemical_crystallizer" }, count: 1, id: "modular_machinery_reborn:controller" }
-				type: "item"
-			}]
-			x: 17.0d
-			y: -20.5d
-		}
-		{
-			dependencies: ["505799C894C771B2"]
-			icon: {
-				id: "mekanism:chemical_infuser"
-			}
-			id: "50B62CF314648881"
-			rewards: [
-				{
-					count: 32
-					id: "682B585BFDFF0118"
-					item: {
-						count: 1
-						id: "modular_machinery_reborn:modularium"
-					}
-					type: "item"
-				}
-				{
-					id: "0CAE6C54B9F33A38"
-					item: {
-						count: 1
-						id: "mekanism:ultimate_chemical_tank"
-					}
-					type: "item"
-				}
-				{
-					id: "7E45C8A9AD56A26F"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			size: 1.2d
-			tasks: [{
-				id: "6CF069683E5451C8"
-				item: { components: { "modular_machinery_reborn:machine": "atm:chemical_infuser" }, count: 1, id: "modular_machinery_reborn:controller" }
-				type: "item"
-			}]
-			x: 18.0d
-			y: -20.5d
-		}
-		{
-			dependencies: ["505799C894C771B2"]
-			icon: {
-				id: "mekanism:isotopic_centrifuge"
-			}
-			id: "54255B7820A0F0B1"
-			rewards: [
-				{
-					count: 32
-					id: "355348763311853C"
-					item: {
-						count: 1
-						id: "modular_machinery_reborn:modularium"
-					}
-					type: "item"
-				}
-				{
-					id: "47FEE8341E4D08FC"
-					item: {
-						count: 1
-						id: "mekanism:ultimate_chemical_tank"
-					}
-					type: "item"
-				}
-				{
-					id: "5310512232931D07"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			size: 1.2d
-			tasks: [{
-				id: "6ED62CB51A93695C"
-				item: { components: { "modular_machinery_reborn:machine": "atm:isotopic_centrifuge" }, count: 1, id: "modular_machinery_reborn:controller" }
-				type: "item"
-			}]
-			x: 19.0d
-			y: -20.5d
-		}
-		{
-			dependencies: ["505799C894C771B2"]
-			icon: {
-				id: "mekanism:solar_neutron_activator"
-			}
-			id: "6B56F92E28C92A0F"
-			rewards: [
-				{
-					count: 32
-					id: "26A5F5A72379DDBF"
-					item: {
-						count: 1
-						id: "modular_machinery_reborn:modularium"
-					}
-					type: "item"
-				}
-				{
-					id: "1FFA9750ACDE764F"
-					item: {
-						count: 1
-						id: "modular_machinery_reborn:time_counter"
-					}
-					type: "item"
-				}
-				{
-					id: "19C726DBDA5BC132"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			size: 1.2d
-			tasks: [{
-				id: "508859148760CE17"
-				item: { components: { "modular_machinery_reborn:machine": "atm:solar_neutron_activator" }, count: 1, id: "modular_machinery_reborn:controller" }
-				type: "item"
-			}]
-			x: 20.0d
-			y: -20.5d
-		}
-		{
-			dependencies: ["505799C894C771B2"]
-			icon: {
-				id: "mekanism:pressurized_reaction_chamber"
-			}
-			id: "234C2C3144817018"
-			rewards: [
-				{
-					count: 32
-					id: "29D36D0C29603AC8"
-					item: {
-						count: 1
-						id: "modular_machinery_reborn:modularium"
-					}
-					type: "item"
-				}
-				{
-					count: 8
-					id: "32E52ABA9C48F23F"
-					item: {
-						count: 1
-						id: "mekanism:substrate"
-					}
-					type: "item"
-				}
-				{
-					id: "2102939C873951BE"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			size: 1.2d
-			tasks: [{
-				id: "65961E5715BD3F10"
-				item: { components: { "modular_machinery_reborn:machine": "atm:pressurized_reaction_chamber" }, count: 1, id: "modular_machinery_reborn:controller" }
-				type: "item"
-			}]
-			x: 16.5d
-			y: -19.5d
-		}
-		{
-			dependencies: ["505799C894C771B2"]
-			icon: {
-				id: "mekanism:chemical_oxidizer"
-			}
-			id: "72B7C09AFA2245E1"
-			rewards: [
-				{
-					count: 32
-					id: "13BBE5EF14CD3C3B"
-					item: {
-						count: 1
-						id: "modular_machinery_reborn:modularium"
-					}
-					type: "item"
-				}
-				{
-					count: 32
-					id: "1C877107475A8515"
-					item: {
-						count: 1
-						id: "mekanism:enriched_carbon"
-					}
-					type: "item"
-				}
-				{
-					id: "5D590347D48370F8"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			size: 1.2d
-			tasks: [{
-				id: "2DB38C57EC369D95"
-				item: { components: { "modular_machinery_reborn:machine": "atm:chemical_oxidizer" }, count: 1, id: "modular_machinery_reborn:controller" }
-				type: "item"
-			}]
-			x: 17.5d
-			y: -19.5d
-		}
-		{
-			dependencies: ["505799C894C771B2"]
-			icon: {
-				id: "mekanism:chemical_dissolution_chamber"
-			}
-			id: "60A1AEEDB0C44663"
-			rewards: [
-				{
-					count: 32
-					id: "189542FDFA822D54"
-					item: {
-						count: 1
-						id: "modular_machinery_reborn:modularium"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "336016C9130D9BAF"
-					item: {
-						count: 1
-						id: "minecraft:raw_iron_block"
-					}
-					type: "item"
-				}
-				{
-					id: "0CBAB25CA25A62A0"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			size: 1.2d
-			tasks: [{
-				id: "047BE09637E11176"
-				item: { components: { "modular_machinery_reborn:machine": "atm:chemical_dissolution_chamber" }, count: 1, id: "modular_machinery_reborn:controller" }
-				type: "item"
-			}]
-			x: 18.5d
-			y: -19.5d
-		}
-		{
-			dependencies: ["505799C894C771B2"]
-			icon: {
-				id: "mekanism:chemical_washer"
-			}
-			id: "359934E888495E5E"
-			rewards: [
-				{
-					count: 32
-					id: "2CD241CC01D7D27B"
-					item: {
-						count: 1
-						id: "modular_machinery_reborn:modularium"
-					}
-					type: "item"
-				}
-				{
-					id: "1DF7C04C4505D65B"
-					item: {
-						count: 1
-						id: "cookingforblockheads:sink"
-					}
-					type: "item"
-				}
-				{
-					id: "1D6A14BB64B4A06C"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			size: 1.2d
-			tasks: [{
-				id: "18B36549C203B046"
-				item: { components: { "modular_machinery_reborn:machine": "atm:chemical_washer" }, count: 1, id: "modular_machinery_reborn:controller" }
-				type: "item"
-			}]
-			x: 19.5d
-			y: -19.5d
-		}
-		{
-			dependencies: ["505799C894C771B2"]
-			icon: {
-				id: "mekanism:electrolytic_separator"
-			}
-			id: "106C4EB6002B8B41"
-			rewards: [
-				{
-					count: 32
-					id: "6DD07AE96D50CB9B"
-					item: {
-						count: 1
-						id: "modular_machinery_reborn:modularium"
-					}
-					type: "item"
-				}
-				{
-					id: "528C92EAB9ADA205"
-					item: {
-						count: 1
-						id: "cookingforblockheads:sink"
-					}
-					type: "item"
-				}
-				{
-					id: "184A6E1DBF96B562"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-			]
-			size: 1.2d
-			tasks: [{
-				id: "33A0FDCC57AD7863"
-				item: { components: { "modular_machinery_reborn:machine": "atm:electrolytic_seperator" }, count: 1, id: "modular_machinery_reborn:controller" }
-				type: "item"
-			}]
-			x: 20.5d
-			y: -19.5d
 		}
 		{
 			dependencies: ["6A1174845810C7A1"]
@@ -3504,131 +3074,14 @@
 			y: -20.0d
 		}
 		{
-			icon: {
-				id: "forbidden_arcanus:quantum_injector"
-			}
 			id: "505799C894C771B2"
-			rewards: [
-				{
-					count: 64
-					id: "4C90272E94244D63"
-					item: {
-						count: 1
-						id: "forbidden_arcanus:darkstone"
-					}
-					type: "item"
-				}
-				{
-					count: 64
-					id: "23899A057632D7A8"
-					item: {
-						count: 1
-						id: "forbidden_arcanus:darkstone"
-					}
-					type: "item"
-				}
-				{
-					count: 3
-					id: "407A44D325D51D89"
-					item: {
-						count: 1
-						id: "mekanism:ultimate_energy_cube"
-					}
-					type: "item"
-				}
-				{
-					count: 16
-					id: "7B82223838F9268B"
-					item: {
-						count: 1
-						id: "modular_machinery_reborn:modularium"
-					}
-					type: "item"
-				}
-			]
-			shape: "pentagon"
-			size: 1.4d
-			tasks: [
-				{
-					id: "392142C7548546F0"
-					item: { count: 1, id: "forbidden_arcanus:quantum_injector" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "713358A504867E25"
-					item: { count: 4, id: "forbidden_arcanus:arcane_crystal_block" }
-					type: "item"
-				}
-				{
-					count: 5L
-					id: "5DAEE6C8FDCDCCAB"
-					item: { count: 5, id: "forbidden_arcanus:rune_block" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "567732B5F8D32AD5"
-					item: { count: 8, id: "forbidden_arcanus:arcane_polished_darkstone_pillar" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "4D7510983B1DFB39"
-					item: { count: 4, id: "forbidden_arcanus:gilded_chiseled_polished_darkstone" }
-					type: "item"
-				}
-				{
-					count: 12L
-					id: "359C02DAFBD6B119"
-					item: { count: 12, id: "forbidden_arcanus:polished_darkstone_slab" }
-					type: "item"
-				}
-				{
-					count: 23L
-					id: "1085C5E27DA11B21"
-					item: { count: 11, id: "forbidden_arcanus:polished_darkstone" }
-					type: "item"
-				}
-				{
-					count: 48L
-					id: "367DA5785819B44E"
-					item: { count: 48, id: "forbidden_arcanus:polished_darkstone_stairs" }
-					type: "item"
-				}
-				{
-					count: 12L
-					id: "0045CCD9AB2908B6"
-					item: { count: 12, id: "modular_machinery_reborn:casing_plain" }
-					type: "item"
-				}
-				{
-					count: 9L
-					id: "61B2D8A6D79F4832"
-					item: { count: 9, id: "modular_machinery_reborn:casing_reinforced" }
-					type: "item"
-				}
-				{
-					count: 8L
-					id: "39C7C191077E814A"
-					item: { count: 8, id: "modular_machinery_reborn:casing_circuitry" }
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "6B9087515DFB0BDF"
-					item: { count: 4, id: "modular_machinery_reborn:casing_gearbox" }
-					type: "item"
-				}
-				{
-					count: 12L
-					id: "44AB277C075E3F60"
-					item: { count: 12, id: "modular_machinery_reborn:casing_firebox" }
-					type: "item"
-				}
-			]
-			x: 18.5d
-			y: -22.0d
+			invisible: true
+			tasks: [{
+				id: "74E743C093C7EC3B"
+				type: "checkmark"
+			}]
+			x: 16.5d
+			y: -21.5d
 		}
 	]
 }
