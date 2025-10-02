@@ -1,0 +1,210 @@
+{
+	"apothic_attributes.gui.attributes": "Атрибуты",
+	"apothic_attributes.gui.base": "База: %s",
+	"apothic_attributes.gui.min": "Мин: %s",
+	"apothic_attributes.gui.max": "Макс: %s",
+	"apothic_attributes.gui.modifiers": "Модификаторы",
+	"apothic_attributes.gui.add_value": "Добавление: %s",
+	"apothic_attributes.gui.add_multiplied_base": "Множитель базы: %s",
+	"apothic_attributes.gui.add_multiplied_total": "Множитель итога: %s",
+	"apothic_attributes.gui.press_shift": "Удерживайте Shift для подробностей.",
+	"apothic_attributes.gui.current": "Текущий: %s",
+	"apothic_attributes.gui.show_attributes": "Показать атрибуты",
+	"apothic_attributes.gui.dynamic": "(динамический)",
+	"apothic_attributes.gui.formula": "Формула модификатора",
+	"apothic_attributes.gui.formula.base": "База",
+	"apothic_attributes.gui.formula.value": "Значение",
+	"apothic_attributes.gui.no_modifiers": "Нет модификаторов",
+
+	"attribute.name.generic.armor.desc": "Увеличивает снижение физического урона.",
+	"attribute.name.generic.armor_toughness.desc": "Снижает эффективность вражеского пробития брони.",
+	"attribute.name.generic.attack_damage.desc": "Физический урон от полностью заряженной атаки.",
+	"attribute.name.generic.attack_knockback.desc": "Расстояние отбрасывания атаками ближнего боя, в полублоках.",
+	"attribute.name.generic.attack_speed.desc": "Сколько полностью заряженных атак можно выполнить в секунду.",
+	"attribute.name.generic.knockback_resistance.desc": "Сколько отбрасывания вы игнорируете.",
+	"attribute.name.generic.luck.desc": "Увеличивает шанс хороших событий.",
+	"attribute.name.generic.max_health.desc": "Максимальное количество очков здоровья.",
+	"attribute.name.generic.movement_speed.desc": "Скорость передвижения при ходьбе.",
+
+	"neoforge.entity_reach.desc": "Расстояние взаимодействия с существами, в блоках.",
+	"neoforge.entity_gravity.desc": "Ускорение к земле, в блоках/с².",
+	"neoforge.name_tag_distance.desc": "На каком расстоянии игроки видят ваше имя.",
+	"neoforge.block_reach.desc": "Расстояние взаимодействия с блоками, в блоках.",
+	"neoforge.step_height.desc": "Сколько блоков можно преодолеть без прыжка.",
+	"neoforge.swim_speed.desc": "Насколько быстро вы плаваете относительно нормы.",
+
+	"button.apothic_attributes.hide_unchanged": "Скрыть неизменённые атрибуты",
+	"text.apothic_attributes.hide_unchanged": "Скрыть неизменённые",
+
+	"apothic_attributes:draw_speed": "Скорость натяжения",
+	"apothic_attributes:draw_speed.desc": "Скорость натягивания оружия дальнего боя (лук, арбалет, трезубец).",
+
+	"apothic_attributes:crit_chance": "Шанс крита",
+	"apothic_attributes:crit_chance.desc": "Шанс нанести критический удар, увеличивая урон в зависимости от критического урона.",
+
+	"apothic_attributes:crit_damage": "Критический урон",
+	"apothic_attributes:crit_damage.desc": "Множитель урона критических ударов, включая стандартные прыжковые криты.",
+
+	"apothic_attributes:cold_damage": "Урон холодом",
+	"apothic_attributes:cold_damage.desc": "Дополнительный магический урон в ближнем бою, замедляющий врагов.",
+
+	"apothic_attributes:fire_damage": "Урон огнём",
+	"apothic_attributes:fire_damage.desc": "Дополнительный магический урон в ближнем бою, поджигающий врагов.",
+
+	"apothic_attributes:life_steal": "Вампиризм",
+	"apothic_attributes:life_steal.desc": "Процент урона после защиты, восстанавливающий здоровье.",
+
+	"apothic_attributes:current_hp_damage": "Урон от текущего HP",
+	"apothic_attributes:current_hp_damage.desc": "Дополнительный физический урон в ближнем бою, зависящий от здоровья цели.",
+
+	"apothic_attributes:overheal": "Сверхлечение",
+	"apothic_attributes:overheal.desc": "Процент урона после защиты, дающий щит поглощения.",
+
+	"apothic_attributes:ghost_health": "Призрачное здоровье",
+	"apothic_attributes:ghost_health.desc": "Ещё не реализовано.",
+
+	"apothic_attributes:mining_speed": "Скорость добычи",
+	"apothic_attributes:mining_speed.desc": "Скорость добычи блоков относительно обычной.",
+
+	"apothic_attributes:arrow_damage": "Урон от стрел",
+	"apothic_attributes:arrow_damage.desc": "Множитель урона стрел. Трезубцы считаются стрелами.",
+
+	"apothic_attributes:arrow_velocity": "Скорость стрел",
+	"apothic_attributes:arrow_velocity.desc": "Множитель скорости стрел. Урон зависит от скорости.",
+
+	"apothic_attributes:experience_gained": "Получаемый опыт",
+	"apothic_attributes:experience_gained.desc": "Множитель получаемого опыта за добычу блоков и убийство мобов.",
+
+	"apothic_attributes:healing_received": "Получаемое исцеление",
+	"apothic_attributes:healing_received.desc": "Множитель всего входящего исцеления.",
+
+	"apothic_attributes:armor_pierce": "Пробитие брони",
+	"apothic_attributes:armor_pierce.desc": "Фиксированное снижение значения брони цели.",
+
+	"apothic_attributes:armor_shred": "Срез брони",
+	"apothic_attributes:armor_shred.desc": "Процентное снижение значения брони цели.",
+
+	"apothic_attributes:projectile_damage": "Урон от снарядов",
+	"apothic_attributes:projectile_damage.desc": "Множитель урона всех выпущенных снарядов.",
+
+	"apothic_attributes:prot_pierce": "Пробитие защиты",
+	"apothic_attributes:prot_pierce.desc": "Фиксированное снижение очков защиты цели.",
+
+	"apothic_attributes:prot_shred": "Срез защиты",
+	"apothic_attributes:prot_shred.desc": "Процентное снижение очков защиты цели.",
+
+	"apothic_attributes:dodge_chance": "Шанс уклонения",
+	"apothic_attributes:dodge_chance.desc": "Шанс увернуться от атаки ближнего боя или снаряда.",
+
+	"apothic_attributes:elytra_flight": "Полет с элитрами",
+	"apothic_attributes:elytra_flight.desc": "Позволяет летать так, будто на вас надеты элитры.",
+
+	"apothic_attributes:creative_flight": "Творческий полёт",
+	"apothic_attributes:creative_flight.desc": "Позволяет летать как в творческом режиме.",
+
+	"comment_id": "MobFx — описания продублированы для поддержки JEED.",
+
+	"effect.apothic_attributes.knowledge": "Древние знания",
+	"effect.apothic_attributes.vitality": "Взрывная жизненная сила",
+	"effect.apothic_attributes.grievous": "Тяжёлые раны",
+	"effect.apothic_attributes.flying": "Полет",
+
+	"effect.apothic_attributes.sundering": "Раскол",
+	"effect.apothic_attributes.sundering.desc": "Увеличивает получаемый урон.",
+	"effect.apothic_attributes.sundering.description": "Увеличивает получаемый урон.",
+
+	"effect.apothic_attributes.bleeding": "Кровотечение",
+	"effect.apothic_attributes.bleeding.desc": "Наносит урон каждые 2 секунды.",
+	"effect.apothic_attributes.bleeding.description": "Наносит урон каждые 2 секунды.",
+
+	"effect.apothic_attributes.detonation": "Огненная детонация",
+	"effect.apothic_attributes.detonation.desc": "По окончании накладывает урон в зависимости от оставшихся огненных тиков.",
+	"effect.apothic_attributes.detonation.description": "По окончании накладывает урон в зависимости от оставшихся огненных тиков.",
+
+	"effect.minecraft.night_vision.desc": "Позволяет видеть в темноте.",
+	"effect.minecraft.invisibility.desc": "Делает невидимым (кроме экипировки).",
+	"effect.minecraft.jump_boost.desc": "Увеличивает высоту прыжка.",
+	"effect.minecraft.fire_resistance.desc": "Делает невосприимчивым к урону от огня.",
+	"effect.minecraft.water_breathing.desc": "Позволяет не захлёбываться под водой.",
+	"effect.minecraft.instant_health.desc": "Мгновенно восстанавливает здоровье.",
+	"effect.minecraft.instant_damage.desc": "Мгновенно наносит магический урон.",
+	"effect.minecraft.poison.desc": "Периодически наносит нелетальный урон.",
+	"effect.minecraft.regeneration.desc": "Постепенно восстанавливает здоровье.",
+
+	"comment_id": "Источники урона",
+
+	"death.attack.apothic_attributes:bleeding": "%1$s истёк кровью",
+	"death.attack.apothic_attributes:bleeding.item": "%1$s истёк кровью от %2$s с помощью %3$s",
+	"death.attack.apothic_attributes:bleeding.player": "%1$s истёк кровью, пытаясь сбежать от %2$s",
+
+	"death.attack.apothic_attributes:detonation": "%1$s сгорел в детонации",
+	"death.attack.apothic_attributes:detonation.item": "%1$s сгорел в детонации",
+	"death.attack.apothic_attributes:detonation.player": "%1$s сгорел в детонации",
+
+	"death.attack.apothic_attributes:current_hp_damage": "%1$s был повержен",
+	"death.attack.apothic_attributes:current_hp_damage.item": "%1$s был повержен %2$s с помощью %3$s",
+	"death.attack.apothic_attributes:current_hp_damage.player": "%1$s был повержен в бою с %2$s",
+
+	"death.attack.apothic_attributes:fire_damage": "%1$s сгорел заживо",
+	"death.attack.apothic_attributes:fire_damage.item": "%1$s сгорел заживо от %2$s с помощью %3$s",
+	"death.attack.apothic_attributes:fire_damage.player": "%1$s сгорел заживо в бою с %2$s",
+
+	"death.attack.apothic_attributes:cold_damage": "%1$s замёрз насмерть",
+	"death.attack.apothic_attributes:cold_damage.item": "%1$s замёрз насмерть от %2$s с помощью %3$s",
+	"death.attack.apothic_attributes:cold_damage.player": "%1$s замёрз насмерть в бою с %2$s",
+
+	"item.minecraft.potion.effect.minecraft.resistance": "Зелье сопротивления",
+	"item.minecraft.splash_potion.effect.minecraft.resistance": "Взрывное зелье сопротивления",
+	"item.minecraft.lingering_potion.effect.minecraft.resistance": "Туманное зелье сопротивления",
+	"item.minecraft.tipped_arrow.effect.minecraft.resistance": "Стрела сопротивления",
+
+	"item.minecraft.potion.effect.minecraft.absorption": "Зелье поглощения",
+	"item.minecraft.splash_potion.effect.minecraft.absorption": "Взрывное зелье поглощения",
+	"item.minecraft.lingering_potion.effect.minecraft.absorption": "Туманное зелье поглощения",
+	"item.minecraft.tipped_arrow.effect.minecraft.absorption": "Стрела поглощения",
+
+	"item.minecraft.potion.effect.minecraft.haste": "Зелье спешки",
+	"item.minecraft.splash_potion.effect.minecraft.haste": "Взрывное зелье спешки",
+	"item.minecraft.lingering_potion.effect.minecraft.haste": "Туманное зелье спешки",
+	"item.minecraft.tipped_arrow.effect.minecraft.haste": "Стрела спешки",
+
+	"item.minecraft.potion.effect.minecraft.mining_fatigue": "Зелье усталости",
+	"item.minecraft.splash_potion.effect.minecraft.mining_fatigue": "Взрывное зелье усталости",
+	"item.minecraft.lingering_potion.effect.minecraft.mining_fatigue": "Туманное зелье усталости",
+	"item.minecraft.tipped_arrow.effect.minecraft.mining_fatigue": "Стрела усталости",
+
+	"item.minecraft.potion.effect.minecraft.wither": "Зелье иссушения",
+	"item.minecraft.splash_potion.effect.minecraft.wither": "Взрывное зелье иссушения",
+	"item.minecraft.lingering_potion.effect.minecraft.wither": "Туманное зелье иссушения",
+	"item.minecraft.tipped_arrow.effect.minecraft.wither": "Стрела иссушения",
+
+	"item.minecraft.potion.effect.minecraft.levitation": "Зелье левитации",
+	"item.minecraft.splash_potion.effect.minecraft.levitation": "Взрывное зелье левитации",
+	"item.minecraft.lingering_potion.effect.minecraft.levitation": "Туманное зелье левитации",
+	"item.minecraft.tipped_arrow.effect.minecraft.levitation": "Стрела левитации",
+
+	"item.minecraft.potion.effect.apothic_attributes.sundering": "Зелье раскола",
+	"item.minecraft.splash_potion.effect.apothic_attributes.sundering": "Взрывное зелье раскола",
+	"item.minecraft.lingering_potion.effect.apothic_attributes.sundering": "Туманное зелье раскола",
+	"item.minecraft.tipped_arrow.effect.apothic_attributes.sundering": "Стрела раскола",
+
+	"item.minecraft.potion.effect.apothic_attributes.knowledge": "Зелье древних знаний",
+	"item.minecraft.splash_potion.effect.apothic_attributes.knowledge": "Взрывное зелье древних знаний",
+	"item.minecraft.lingering_potion.effect.apothic_attributes.knowledge": "Туманное зелье древних знаний",
+	"item.minecraft.tipped_arrow.effect.apothic_attributes.knowledge": "Стрела древних знаний",
+
+	"item.minecraft.potion.effect.apothic_attributes.vitality": "Зелье силы исцеления",
+	"item.minecraft.splash_potion.effect.apothic_attributes.vitality": "Взрывное зелье силы исцеления",
+	"item.minecraft.lingering_potion.effect.apothic_attributes.vitality": "Туманное зелье силы исцеления",
+	"item.minecraft.tipped_arrow.effect.apothic_attributes.vitality": "Стрела силы исцеления",
+
+	"item.minecraft.potion.effect.apothic_attributes.grievous": "Зелье ослабления исцеления",
+	"item.minecraft.splash_potion.effect.apothic_attributes.grievous": "Взрывное зелье ослабления исцеления",
+	"item.minecraft.lingering_potion.effect.apothic_attributes.grievous": "Туманное зелье ослабления исцеления",
+	"item.minecraft.tipped_arrow.effect.apothic_attributes.grievous": "Стрела ослабления исцеления",
+
+	"item.minecraft.potion.effect.apothic_attributes.flying": "Зелье полёта",
+	"item.minecraft.splash_potion.effect.apothic_attributes.flying": "Взрывное зелье полёта",
+	"item.minecraft.lingering_potion.effect.apothic_attributes.flying": "Туманное зелье полёта",
+	"item.minecraft.tipped_arrow.effect.apothic_attributes.flying": "Стрела полёта"
+}
