@@ -217,7 +217,7 @@
 			y: -9.5d
 		}
 	]
-	order_index: 4
+	order_index: 5
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -399,12 +399,6 @@
 									id: "mekanism:hydrogen"
 								}]
 							}
-							"mekanism:owner": [I;
-								1448333235
-								-1957933073
-								-1931931567
-								1246553530
-							]
 						}
 						count: 1
 						id: "mekanism:basic_chemical_tank"
@@ -561,41 +555,6 @@
 			}]
 			x: 0.0d
 			y: -3.0d
-		}
-		{
-			dependencies: ["4935209D870E25F2"]
-			id: "3EC9D0DA61B45328"
-			rewards: [{
-				id: "47E08EEBE900A773"
-				item: {
-					components: {
-						"mekanism:chemicals": {
-							chemical_tanks: [{
-								amount: 64000L
-								id: "mekanism:hydrogen"
-							}]
-						}
-						"mekanism:owner": [I;
-							1448333235
-							-1957933073
-							-1931931567
-							1246553530
-						]
-					}
-					count: 1
-					id: "mekanism:basic_chemical_tank"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			size: 1.2d
-			tasks: [{
-				id: "2C13E8B67BC61E34"
-				item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
-				type: "item"
-			}]
-			x: -2.5d
-			y: 4.0d
 		}
 		{
 			dependencies: ["162CE44400A63575"]
@@ -1498,7 +1457,7 @@
 			id: "33415CB421F7620A"
 			rewards: [
 				{
-					id: "7471F83634E79C9F"
+					id: "05476026B011B7F3"
 					item: {
 						components: {
 							"mekanism:chemicals": {
@@ -1507,12 +1466,6 @@
 									id: "mekanism:oxygen"
 								}]
 							}
-							"mekanism:owner": [I;
-								1448333235
-								-1957933073
-								-1931931567
-								1246553530
-							]
 						}
 						count: 1
 						id: "mekanism:basic_chemical_tank"
@@ -1673,12 +1626,6 @@
 									id: "minecraft:water"
 								}]
 							}
-							"mekanism:owner": [I;
-								1448333235
-								-1957933073
-								-1931931567
-								1246553530
-							]
 						}
 						count: 1
 						id: "mekanism:advanced_fluid_tank"
@@ -2459,12 +2406,6 @@
 									id: "mekanism:oxygen"
 								}]
 							}
-							"mekanism:owner": [I;
-								1448333235
-								-1957933073
-								-1931931567
-								1246553530
-							]
 						}
 						count: 1
 						id: "mekanism:basic_chemical_tank"
@@ -2565,12 +2506,6 @@
 									id: "mekanism:brine"
 								}]
 							}
-							"mekanism:owner": [I;
-								1448333235
-								-1957933073
-								-1931931567
-								1246553530
-							]
 						}
 						count: 1
 						id: "mekanism:basic_chemical_tank"
@@ -2729,12 +2664,6 @@
 									id: "mekanism:hydrogen"
 								}]
 							}
-							"mekanism:owner": [I;
-								1448333235
-								-1957933073
-								-1931931567
-								1246553530
-							]
 						}
 						count: 1
 						id: "mekanism:basic_chemical_tank"
@@ -2911,12 +2840,6 @@
 									id: "mekanism:sulfuric_acid"
 								}]
 							}
-							"mekanism:owner": [I;
-								1448333235
-								-1957933073
-								-1931931567
-								1246553530
-							]
 						}
 						count: 1
 						id: "mekanism:basic_chemical_tank"
@@ -2971,12 +2894,6 @@
 									id: "mekanism:hydrogen_chloride"
 								}]
 							}
-							"mekanism:owner": [I;
-								1448333235
-								-1957933073
-								-1931931567
-								1246553530
-							]
 						}
 						count: 1
 						id: "mekanism:basic_chemical_tank"
@@ -3204,39 +3121,6 @@
 			y: 5.0d
 		}
 		{
-			id: "63F41475236F99D2"
-			rewards: [
-				{
-					id: "6957BC31AFBC4515"
-					item: {
-						count: 1
-						id: "sophisticatedbackpacks:copper_backpack"
-					}
-					type: "item"
-				}
-				{
-					id: "0D12B9D563107C9C"
-					type: "xp_levels"
-					xp_levels: 3
-				}
-			]
-			size: 1.25d
-			tasks: [
-				{
-					id: "5661977C70D996AF"
-					item: { count: 1, id: "mekanism:seismic_vibrator" }
-					type: "item"
-				}
-				{
-					id: "6521C465ECC5152F"
-					item: { count: 1, id: "mekanism:seismic_reader" }
-					type: "item"
-				}
-			]
-			x: 5.5d
-			y: -7.5d
-		}
-		{
 			dependencies: [
 				"081DC030A0546549"
 				"71869B1D81D6A7EF"
@@ -3396,12 +3280,6 @@
 									id: "mekanism:oxygen"
 								}]
 							}
-							"mekanism:owner": [I;
-								1448333235
-								-1957933073
-								-1931931567
-								1246553530
-							]
 						}
 						count: 1
 						id: "mekanism:basic_chemical_tank"
@@ -3444,12 +3322,6 @@
 									id: "mekanism:hydrogen"
 								}]
 							}
-							"mekanism:owner": [I;
-								1448333235
-								-1957933073
-								-1931931567
-								1246553530
-							]
 						}
 						count: 1
 						id: "mekanism:basic_chemical_tank"
@@ -3611,8 +3483,8 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: -8.5d
+			x: 5.425000000000001d
+			y: -7.600000000000001d
 		}
 	]
 }
