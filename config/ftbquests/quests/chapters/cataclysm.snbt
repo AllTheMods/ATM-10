@@ -15,7 +15,7 @@
 			rotation: 0.0d
 			width: 9.354545454545455d
 			x: 0.0d
-			y: -13.0d
+			y: -9.0d
 		}
 		{
 			height: 1.0d
@@ -103,7 +103,7 @@
 			image: "atm:textures/questpics/cataclysm/cataclysm_title_maledictus.png"
 			rotation: -90.0d
 			width: 3.978021978021978d
-			x: -9.5d
+			x: -9.0d
 			y: -0.5d
 		}
 		{
@@ -111,7 +111,7 @@
 			image: "atm:textures/questpics/cataclysm/cataclysm_bar_maledictus2.png"
 			rotation: -90.0d
 			width: 7.0d
-			x: -8.5d
+			x: -8.0d
 			y: -1.0d
 		}
 		{
@@ -362,54 +362,6 @@
 			x: 7.5d
 			y: -9.5d
 		}
-		{
-			height: 1.0d
-			image: "cataclysm:textures/gui/boss_bar/scylla_bar_overlay.png"
-			rotation: 0.0d
-			width: 8.0d
-			x: 0.75d
-			y: -9.0d
-		}
-		{
-			height: 1.0d
-			image: "atm:textures/questpics/cataclysm/cataclysm_title_scylla.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 0.0d
-			y: -10.0d
-		}
-		{
-			height: 2.0d
-			image: "atm:textures/questpics/cataclysm/cataclysm_acropolis.png"
-			rotation: 0.0d
-			width: 4.0d
-			x: 4.0d
-			y: -11.0d
-		}
-		{
-			height: 2.0d
-			image: "atm:textures/questpics/cataclysm/cataclysm_scylla.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: -3.5d
-			y: -11.0d
-		}
-		{
-			height: 2.5d
-			image: "atm:textures/questpics/cataclysm/cataclysm_frame.png"
-			rotation: 0.0d
-			width: 2.4d
-			x: -3.5d
-			y: -11.0d
-		}
-		{
-			height: 2.5d
-			image: "atm:textures/questpics/cataclysm/cataclysm_frame.png"
-			rotation: 0.0d
-			width: 4.5d
-			x: 4.0d
-			y: -11.0d
-		}
 	]
 	order_index: 1
 	progression_mode: "flexible"
@@ -417,7 +369,6 @@
 	quests: [
 		{
 			dependencies: ["689F32883C4E9502"]
-			hide_dependency_lines: true
 			icon_scale: 2.0d
 			id: "18EB86F91CBBCCC6"
 			optional: true
@@ -438,7 +389,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -17.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["18EB86F91CBBCCC6"]
@@ -472,8 +423,8 @@
 				item: { count: 1, id: "cataclysm:mech_eye" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -15.5d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["18EB86F91CBBCCC6"]
@@ -508,7 +459,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -17.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["18EB86F91CBBCCC6"]
@@ -543,7 +494,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -18.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["18EB86F91CBBCCC6"]
@@ -577,8 +528,8 @@
 				item: { count: 1, id: "cataclysm:monstrous_eye" }
 				type: "item"
 			}]
-			x: 1.5d
-			y: -16.5d
+			x: 1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["18EB86F91CBBCCC6"]
@@ -613,7 +564,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -18.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["18EB86F91CBBCCC6"]
@@ -647,8 +598,8 @@
 				item: { count: 1, id: "cataclysm:desert_eye" }
 				type: "item"
 			}]
-			x: -1.5d
-			y: -16.5d
+			x: -1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["689F32883C4E9502"]
@@ -1958,7 +1909,7 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["55278DDC31951DA5"]
+			dependencies: ["1A8F438DB8508276"]
 			hide_dependent_lines: true
 			id: "71055E7BBB337C4D"
 			rewards: [
@@ -1984,7 +1935,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -7.5d
+			x: -7.0d
 			y: -0.5d
 		}
 		{
@@ -2020,7 +1971,7 @@
 				item: { count: 1, id: "cataclysm:cursium_ingot" }
 				type: "item"
 			}]
-			x: -10.5d
+			x: -10.0d
 			y: -0.5d
 		}
 		{
@@ -2056,7 +2007,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -17.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["45FBEABEBA7CC09E"]
@@ -2200,7 +2151,7 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -6.5d
+			x: -6.0d
 			y: 1.0d
 		}
 		{
@@ -2250,7 +2201,7 @@
 					value: 1L
 				}
 			]
-			x: -6.5d
+			x: -6.0d
 			y: -2.0d
 		}
 		{
@@ -2374,7 +2325,7 @@
 				item: { count: 1, id: "cataclysm:the_annihilator" }
 				type: "item"
 			}]
-			x: -12.0d
+			x: -11.5d
 			y: -0.5d
 		}
 		{
@@ -2390,7 +2341,7 @@
 				item: { count: 1, id: "cataclysm:soul_render" }
 				type: "item"
 			}]
-			x: -12.5d
+			x: -12.0d
 			y: -1.5d
 		}
 		{
@@ -2407,7 +2358,7 @@
 				item: { count: 1, id: "cataclysm:cursed_bow" }
 				type: "item"
 			}]
-			x: -12.5d
+			x: -12.0d
 			y: 0.5d
 		}
 		{
@@ -2440,7 +2391,7 @@
 					type: "item"
 				}
 			]
-			x: -13.0d
+			x: -12.5d
 			y: -0.5d
 		}
 		{
@@ -2667,181 +2618,6 @@
 			]
 			x: 0.0d
 			y: 1.5d
-		}
-		{
-			dependencies: ["0496E8E786262464"]
-			icon: {
-				id: "cataclysm:azure_seastone_bricks"
-			}
-			icon_scale: 1.6d
-			id: "573DD5834B321D0A"
-			shape: "square"
-			size: 1.25d
-			tasks: [{
-				id: "4A6DE7C971D4DBE2"
-				structure: "cataclysm:acropolis"
-				type: "structure"
-			}]
-			x: 0.0d
-			y: -5.0d
-		}
-		{
-			dependencies: ["655FF7295B688354"]
-			hide_dependency_lines: true
-			id: "3C0F8EB779E56F2A"
-			tasks: [{
-				id: "1D1F9207DD5E36B5"
-				item: { count: 1, id: "cataclysm:chitin_claw" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: -11.0d
-		}
-		{
-			dependencies: ["713006AB89E43C6D"]
-			hide_dependency_lines: true
-			id: "2011638351B67396"
-			size: 1.2d
-			tasks: [{
-				id: "3749918766468C2B"
-				item: { count: 1, id: "cataclysm:astrape" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: -11.0d
-		}
-		{
-			dependencies: ["713006AB89E43C6D"]
-			hide_dependency_lines: true
-			id: "6CB8D3919B16784B"
-			size: 1.2d
-			tasks: [{
-				id: "7DCF623D6E648C6A"
-				item: { count: 1, id: "cataclysm:ceraunus" }
-				type: "item"
-			}]
-			x: 1.5d
-			y: -11.0d
-		}
-		{
-			dependencies: ["1A8F438DB8508276"]
-			id: "55278DDC31951DA5"
-			rewards: [{
-				id: "129F8BF259695EBC"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "diamond"
-			tasks: [{
-				id: "781F4F988B317FEA"
-				item: { count: 1, id: "cataclysm:strange_key" }
-				type: "item"
-			}]
-			x: -6.0d
-			y: -0.5d
-		}
-		{
-			dependencies: ["18EB86F91CBBCCC6"]
-			id: "30C5D432C810F904"
-			optional: true
-			rewards: [
-				{
-					count: 3
-					id: "451630BFF5E6F2FA"
-					item: {
-						components: {
-							"minecraft:potion_contents": {
-								potion: "minecraft:healing"
-							}
-						}
-						count: 1
-						id: "minecraft:potion"
-					}
-					type: "item"
-				}
-				{
-					id: "6683F63843A63CDE"
-					type: "xp"
-					xp: 100
-				}
-			]
-			shape: "circle"
-			size: 1.1d
-			tasks: [{
-				id: "7F53E5F334E98681"
-				item: { count: 1, id: "cataclysm:storm_eye" }
-				type: "item"
-			}]
-			x: -0.5d
-			y: -15.5d
-		}
-		{
-			dependencies: ["573DD5834B321D0A"]
-			id: "713006AB89E43C6D"
-			shape: "octagon"
-			size: 1.5d
-			tasks: [{
-				id: "039DA35EE3CFCB63"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: -8.0d
-		}
-		{
-			id: "5BD22081ED81BCC6"
-			shape: "circle"
-			tasks: [{
-				id: "282338796CA2996C"
-				type: "checkmark"
-			}]
-			x: 1.5d
-			y: -6.5d
-		}
-		{
-			id: "5FBA199E0B7F1585"
-			shape: "circle"
-			tasks: [
-				{
-					id: "5A473B1D9AC342E4"
-					type: "checkmark"
-				}
-				{
-					id: "33C6EDC7E28F973F"
-					type: "checkmark"
-				}
-			]
-			x: 2.0d
-			y: -7.5d
-		}
-		{
-			id: "696A33E7D91A487E"
-			shape: "circle"
-			tasks: [{
-				id: "447DF924202135B3"
-				type: "checkmark"
-			}]
-			x: -1.5d
-			y: -7.5d
-		}
-		{
-			id: "655FF7295B688354"
-			shape: "circle"
-			tasks: [{
-				id: "1D59AEE075C91CA5"
-				type: "checkmark"
-			}]
-			x: -2.5d
-			y: -7.0d
-		}
-		{
-			id: "0741FABE57CA1A7D"
-			shape: "circle"
-			tasks: [{
-				id: "292DE68AB3309B32"
-				type: "checkmark"
-			}]
-			x: -1.5d
-			y: -6.5d
 		}
 	]
 }
