@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "extended__advanced_ae"
-	group: "1AC60211DE7427FC"
+	group: "759EEB9DC52686ED"
 	icon: {
 		id: "advanced_ae:shattered_singularity"
 	}
@@ -39,7 +39,9 @@
 			y: 6.5d
 		}
 		{
+			click: "#78215D704E6095B0"
 			height: 1.0d
+			hover: ["Quantum Boots"]
 			image: "advanced_ae:item/quantum_boots"
 			rotation: 0.0d
 			width: 1.0d
@@ -48,30 +50,30 @@
 		}
 		{
 			height: 5.0d
-			image: "atm:textures/questpics/extended_advanced_ae/assembler_matrix.png"
-			rotation: 0.0d
-			width: 5.0d
-			x: 2.5d
-			y: -7.5d
-		}
-		{
-			height: 5.0d
 			image: "atm:textures/questpics/extended_advanced_ae/quantum_computer.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: 9.5d
-			y: 8.0d
+			x: 10.0d
+			y: 7.0d
 		}
 		{
-			height: 0.25d
-			image: "allthetweaks:item/atm_star"
+			height: 5.0d
+			image: "atm:textures/questpics/extended_advanced_ae/assembler_matrix.png"
 			rotation: 0.0d
-			width: 0.25d
-			x: 7.526190476190479d
-			y: 3.9345238095238173d
+			width: 5.0d
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/extended_advanced_ae/title.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -6.0d
+			y: -2.5d
 		}
 	]
-	order_index: 2
+	order_index: 8
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -318,7 +320,7 @@
 			size: 1.5d
 			tasks: [
 				{
-					count: 34L
+					count: 43L
 					id: "438D5F2C7BBDD0E2"
 					item: { count: 1, id: "extendedae:assembler_matrix_frame" }
 					type: "item"
@@ -770,7 +772,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 11.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["0B4CE3969067FA31"]
@@ -895,7 +897,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 13.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["0B4CE3969067FA31"]
@@ -1023,12 +1025,7 @@
 			y: 12.5d
 		}
 		{
-			dependencies: [
-				"0D3874835F1367EE"
-				"188C9E5D340C5A0A"
-				"70395883E97AE897"
-				"6559C57A1A476489"
-			]
+			dependencies: ["0B4CE3969067FA31"]
 			id: "07E5B0BF7D8E055A"
 			rewards: [
 				{
@@ -1050,7 +1047,7 @@
 				type: "item"
 			}]
 			x: 7.5d
-			y: 10.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["0B4CE3969067FA31"]
@@ -1125,7 +1122,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 11.5d
+			y: 13.5d
 		}
 		{
 			dependencies: ["0B4CE3969067FA31"]
@@ -1250,7 +1247,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 13.5d
+			y: 11.5d
 		}
 		{
 			dependencies: ["0B4CE3969067FA31"]
@@ -1341,8 +1338,9 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "1854DDA036C8A2BA"
-				item: { components: { "ftbfiltersystem:filter": "or(item(mysticalagriculture:entro_seeds)component(fuzzy:{\"productivebees:bee_type\":\"productivebees:entro\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "1E4C8AEA0EB2DC2F"
+				item: { components: { "productivebees:bee_type": "productivebees:entro" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
 			x: -1.5d
