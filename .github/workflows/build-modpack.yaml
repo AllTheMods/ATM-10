@@ -16,20 +16,16 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: Upload modpack.zip
-      uses: actions/upload-artifact@v4
-      with:
-        name: modpack
-        path: modpack.zip
-
     - name: Upload modpack files
       uses: actions/upload-artifact@v4
       with:
         name: modpack
         path: |
-          overrides/**
+          defaultconfigs/**
+          kubejs/**
+          mods/**
+          packmenu/**
           changelogs/**
           README.md
           manifest.json
           CHANGELOG.md
-          
