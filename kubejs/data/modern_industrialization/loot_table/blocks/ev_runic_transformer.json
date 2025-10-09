@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "modern_industrialization:ev_runic_transformer"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "modern_industrialization:blocks/ev_runic_transformer"
+}

@@ -154,6 +154,86 @@
 			x: -2.0d
 			y: -6.0d
 		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/building_tips/building_frame.png"
+			rotation: 90.0d
+			width: 4.0d
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/building_tips/building_frame.png"
+			rotation: 90.0d
+			width: 4.0d
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/building_tips/building_frame.png"
+			rotation: 90.0d
+			width: 4.0d
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/building_tips/building_frame.png"
+			rotation: 90.0d
+			width: 4.0d
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/building_tips/building_frame.png"
+			rotation: 90.0d
+			width: 4.0d
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/building_tips/building_frame.png"
+			rotation: 90.0d
+			width: 4.0d
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/building_tips/building_frame.png"
+			rotation: 90.0d
+			width: 4.0d
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/building_tips/building_frame.png"
+			rotation: 90.0d
+			width: 4.0d
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/building_tips/building_frame.png"
+			rotation: 90.0d
+			width: 4.0d
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/building_tips/building_frame.png"
+			rotation: 90.0d
+			width: 4.0d
+			x: -5.5d
+			y: -3.5d
+		}
 	]
 	order_index: 4
 	quest_links: [ ]
@@ -441,8 +521,8 @@
 				item: { components: { "relics:data": { abilities: { abilities: { ram: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 0.0833d } } }, skating: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 46.01314d }, speed: { initialValue: 0.02342d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:ice_skates" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -3.0d
+			x: -2.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2B08B19B35EEBCBA"]
@@ -652,7 +732,7 @@
 				item: { components: { "relics:data": { abilities: { abilities: { teleport: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 108.32252d }, distance: { initialValue: 770.48916d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:magic_mirror" }
 				type: "item"
 			}]
-			x: -1.0d
+			x: 0.0d
 			y: -4.0d
 		}
 		{
@@ -684,8 +764,8 @@
 				item: { components: { "relics:data": { abilities: { abilities: { impact: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 3.08172d }, size: { initialValue: 3.91007d } } }, sustainability: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { modifier: { initialValue: 0.55833d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:ice_breaker" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -3.5d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2B08B19B35EEBCBA"]
@@ -822,8 +902,8 @@
 				item: { components: { "relics:charge": 10, "relics:data": { abilities: { abilities: { autophagy: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { feed: { initialValue: 1.2101d } } }, infusion: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 1.81235d } } }, marinade: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { duration: { initialValue: 2.66365d } } }, meat_bat: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 0 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 1.3012d }, stun: { initialValue: 0.15986d } } }, regeneration: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { cooldown: { initialValue: 20.61477d }, feed: { initialValue: 2.15003d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:infinity_ham" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -4.0d
+			x: -3.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["730130CCF1CF5119"]
@@ -886,8 +966,8 @@
 				item: { components: { "relics:data": { abilities: { abilities: { mold: { extender: { cooldown: 0, cooldownCap: 0, ticking: 0b }, lock: { breaks: 5 }, points: 0, research: { links: { }, researched: 0b }, stats: { damage: { initialValue: 0.19817d }, freeze: { initialValue: 1.83337d }, size: { initialValue: 23.33331d }, stun: { initialValue: 0.02823d } } } } }, leveling: { experience: 0, level: 0, luck: 0, points: 0 } } }, count: 1, id: "relics:wool_mitten" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -2.0d
+			x: -3.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["730130CCF1CF5119"]

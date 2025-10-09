@@ -1,0 +1,142 @@
+{
+	quest.034F2CDF0830254B.quest_desc: [
+		"Works just like the Item Importer, put the &eFluid Importer&r onto a Tank with Liquid. Then the &eFluid Interface&r on where you want it to go and connect with Logic Cables. Finally Variable Card just like before! \\n\\nAlso can pull Liquids at the Integer Limit. \\n\\nDoes not place or take Fluid Sources from in the world, it only moves Fluids from one Tank to another."
+		"{image:atm:textures/questpics/logistics/id_fluid.png width:200 height:50 align:center}"
+	]
+	quest.034F2CDF0830254B.title: "&eFluid Importing"
+	quest.03C40D6A5D722543.quest_desc: ["Variable Cards are necessary for starting Interactions like Importing Items. You will put them in one of the slots of the Importer to add them. \\n\\nFrom there you can edit everything via the + Button. You can change how much is Importer, which Item Slot, which Channel, practically everything with just that Card. \\n\\nIf you're like me just wanting to move items, nothing too fancy just put it in and maybe change the Limit for how much is moved."]
+	quest.046C417B2ADF3AA7.quest_desc: ["Cards have their limits. Item Extration can only extract 8 items per Operation. Fluid Extract at only 5 Buckets. God knows with Chemical and Energy. \\n\\nThis is Modded &2&lMinecraft&r these limits won't suffice we need to Overclock them. \\n\\nThrow some Overclockers in the top right of the Card and it'll upgrade the cap they can transfer!"]
+	quest.046C417B2ADF3AA7.quest_subtitle: "Max: 4"
+	quest.06767BA0AFE8C1EE.quest_desc: ["1... 2... there's a 4 somewhere as well. \\n\\nTo set a Number put the Item in then you can Left or Right Click to change the amount. Shift and do the same to go by 10s. Once you have a set Number through it into a Card! \\n\\nIt will then wait until that set Number of Items is there to start taking Items. It will also leave that amount in the first Inventory."]
+	quest.0BB562FB44B0AAA7.quest_desc: ["Cards aren't the only ones with limits, so they also aren't the only ones with Overclockers! \\n\\nThese go into the &cNode&r itself on bottom right and boost how fast it does Operations."]
+	quest.0BB562FB44B0AAA7.quest_subtitle: "Max: 8"
+	quest.1834B5C1F8435D7A.quest_desc: [
+		"Mechanical Pipes are how &5&lMeka&r lets the Fluids flow.\\n\\nSome Machines in &5&lMeka&r will need Fluids like Electrolytic Separator needing Water or Evaporation Plants to make Lithium."
+		"{image:atm:textures/questpics/logistics/meka_pipe.png width:200 height:50 align:center}"
+	]
+	quest.1834B5C1F8435D7A.quest_subtitle: "Fluids"
+	quest.1C70D739CE464E25.quest_desc: ["Works exactly like the &2Item Cards&r, you need Extract and Insert Cards. Just this time you take from Tanks holding &9Fluids&r to another Tank. No, it doesn't move Sources of &9Fluid&r in or out of the World."]
+	quest.1C70D739CE464E25.title: "&9Fluid Card"
+	quest.230582AAFC0A1632.quest_desc: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks.\\n\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission.\\n\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
+	quest.2329AA0AFBEF1E13.quest_desc: [
+		"&e&lPipez&r is the simplest &f&lLogistics&r Mod. It's so simple that the entire mod is fit in this Quest Page while having room for more Mods!"
+		""
+		"Attach the specific Pipe to where you want to move items and use the Pipe Wrench to configure what side Pulls, Pushes, or doesn't connect."
+		""
+		"Other Wrenches do work with &e&lPipez&r as well!"
+		""
+		"(Can be laggy when used in mass, still not as laggy as &5&lMekanism&r pipes though)."
+	]
+	quest.2329AA0AFBEF1E13.title: "&l&ePipez"
+	quest.2A6900E87DE8BAE0.quest_desc: ["Mod Filter is another pretty basic Filter. This one you put Items in and it will do the same with either Whitelisting or Blacklisting. But instead of only being that Item it will be any Item from that Mod. \\n\\nApotheosis Gem will only allow Apotheosis Items. Mekanism Alloy will only allow Mekanism Items. And so on."]
+	quest.2A976D41F79C34B1.quest_desc: ["&e&lPipez&r do have their own way of Filtering Items, you need atleast an Advanced Upgrade to get it though. When an Advanced Upgrade is in you can click the Add button to add Filters. \\nThen you can add: Item, Tag, or NBT in the Filter. \\n\\nThere you can also add the set Destination Filter. To set it, Shift Right Click an Inventory with it. \\n\\nYou'll also have to set it to either Whitelist the Filter or Blacklist, so only the Filter or everything but the Filter."]
+	quest.2F4458E9921DEB86.quest_desc: [
+		"These &e&lPipez&r are mostly due to &5&lMekanism&r. &5&lMekanism&r adds the last state of matter in the form of &aGas&r. &aGas&r can't be moved with any of the other &e&lPipez&r so if you need to move Hydrogen or Lithium you'll need &aGas Pipez&r. \\n\\n(I've always had problems telling whether the &5&lMekanism&r item is &aGas&r, &bFluid&r, or even Infuse Type. When it's in a Machine it might tell &aGas&r or &bFluid&r, which can help teach you. If it doesn't you can check JEI for other recipes that might involve it!)"
+		"{image:atm:textures/questpics/logistics/pipez_gas.png width:200 height:50 align:center}"
+	]
+	quest.2F4458E9921DEB86.title: "&aGas Pipez&r"
+	quest.3065EA195D0A36BA.quest_desc: ["Tags are very important part of grouping Items in Minecraft. So of course we can take advantage of that for Filters! \\n\\nYou can put an Item in and select a Tag or if you know it, type it in yourself. \\n\\nReally helpful for ones like taking Gear out of a system by using Tag for Tools. \\n\\n(You can also find Tags by doing /kubejs hand to find what's the Tags of the Item in your hand.)"]
+	quest.308935C85364B04D.quest_desc: ["With each Card holding their own data it can be pretty annoying constantly changing each Cards settings. So lets just clone them instead! \\n\\nLeft Click a Card with the Cloner to copy its Data, then Right Click a Card to give it that Data!"]
+	quest.30DE4F5BC3EDB555.quest_desc: [
+		"Logical Transporters are what &5&lMeka&r uses to move Items and Blocks across distance. \\n\\nThey will need to be Configured to Pull or Push to Inventories like Chests or Drawers."
+		"{image:atm:textures/questpics/logistics/meka_transporter.png width:200 height:50 align:center}"
+	]
+	quest.30DE4F5BC3EDB555.quest_subtitle: "Blocks+Items"
+	quest.316B513FE568EF57.quest_desc: [
+		"Heat is another factor in &5&lMekanism&r and it Fuels a lot of Machines and Multiblocks. Thermal Evaporation Plants and Fusion Reactors both use Heat to work. And Conductors is how you will be moving Heat!"
+		"{image:atm:textures/questpics/logistics/meka_conductor.png width:200 height:50 align:center}"
+	]
+	quest.316B513FE568EF57.quest_subtitle: "Heat"
+	quest.33433A443B65D252.quest_desc: [
+		"&bWater&r=&bBlue&r &bWater&r=&bFluid&r therefore &bBlue&r=&bFluid&r\\n\\nLots of Mods have their own &bFluids&r, with even Minecraft having their own, with &bWater&r and &cLava&r. You'll most likely need to move those &bFluids&r and a good way of doing so is with &bFluid Pipes&r. \\n\\nThis can be connected to Sinks to move Infinite &bWater&r!"
+		"{image:atm:textures/questpics/logistics/pipez_fluid.png width:200 height:50 align:center}"
+	]
+	quest.33433A443B65D252.title: "&bFluid Pipez"
+	quest.34CFE1439262AA72.quest_desc: [
+		"&5&lMekanism&r is a huge and popular Tech Mod, so of course it has &lLogistics&r with it."
+		""
+		"The different Machines are picky with Configurations and will need to be changed in their GUI to properly move items. Then you can use the &5&lMeka Pipes&r to move whatever you need to move!"
+		""
+		"But wait it's not just &5&lMekanism&r these work for! They work for plenty of other machines as well! Just need to be Configured with a Wrench to Push and Pull."
+		""
+		"(These can cause a bit of lag when used in mass so be careful with them)."
+	]
+	quest.34CFE1439262AA72.title: "&5&lMekanism"
+	quest.36836AD948F96B9F.quest_desc: [
+		"The simplest of the simplest of &e&lPipes&r, the &eItem Pipe&r. \\n\\nIt will move Items from one Inventory to another. Could be from one Chest to another, could be a Farm to a System, or even a Quarry to a Smelter. \\n\\nVery simple just connect the &ePipes&r to what you want moved, and use your Wrench to configure which side it Pulls from. "
+		"{image:atm:textures/questpics/logistics/pipez_item.png width:200 height:50 align:center}"
+	]
+	quest.36836AD948F96B9F.title: "&eItem Pipez"
+	quest.47768B1FFD57D56E.quest_desc: ["Don't you just hate &4Redstone&r having to be wired to everywhere? If we can have Wireless FE why not Wireless &4Redstone&r? Finally we can thanks to &c&lLaserIO&r. You can Input a &4Redstone Signal&r with the &4Card&r then use an &4Output Card&r to Output the &4Signal&r somewhere else!"]
+	quest.47768B1FFD57D56E.title: "&4Redstone Card"
+	quest.47A2BEFB11F4D581.quest_desc: ["The Basic Filter is pretty... easy to use! Simply put Items into it and they are now filtered. \\n\\nYou can change it so it either Whitelists/allows only those Items or that is Blacklists/denies only those Items. \\n\\nYou can also have it so it either matches NBT data or not. Matching NBT Data would mean having same Enchantments, Durabilitiy, or even Mobs inside of whatever Item. If selected to not match it will do any of that Item regardless of NBT."]
+	quest.493D04D954E4FBA0.quest_desc: [
+		"&5&lMekanism&r is Tech Mod... why are you surprised it needs Energy for its Machines?"
+		"{image:atm:textures/questpics/logistics/meka_cable.png width:200 height:50 align:center}"
+	]
+	quest.493D04D954E4FBA0.quest_subtitle: "Energy"
+	quest.4BC2D7FCDD792DBA.quest_desc: [
+		"Because the normal &2&lMinecraft&r Items, Blocks, and Fluids wasn't enough. And the added Heat and Energy wasn't either. \\n\\nThe rest of &5&lMekanism&r is moved with Pressurized Tubes. Gases are the main ones as if you're using &5&lMekanism&r you will be using Gases like Hydrogen and Oxygen. \\nInfuse Types are similar like Coal Infuse and Redstone Infuse. Slurries are used with Ore Processing. \\nAnd Dye Pigments are the essence of Color, any item that is Dyed can be changed with that part of &5&lMekanism&r."
+		"{image:atm:textures/questpics/logistics/meka_tube.png width:200 height:50 align:center}"
+	]
+	quest.4BC2D7FCDD792DBA.quest_subtitle: "Gas+More"
+	quest.4C41FD926F31180B.quest_desc: ["In order to move &2Items&r with &c&lLaserIO&r you'll need some &2Item Cards&r. \\n\\nSet one to Extract and put it on the side of the &cLaser Node&r you want to Import from. Then set the other to Insert and put it to the side you want the Items to Export to. \\n\\nThere are mutliple settings you can change with the Extract in order of where you want the Items to go if there's multiple places to Extract from. Round Robin will make it Extract items in an order instead of closest Inventory first."]
+	quest.4C41FD926F31180B.title: "&2Item Card"
+	quest.4FBAB3A0FBF8CE2F.quest_desc: [
+		"Why worry about what's being moved when you can just move everything! &5Universal Pipez&r are even less discriminatory than &cEnergy Pipez&r. They can move &eItems&r, &bFluids&r, or &cEnergy&r. "
+		"{image:atm:textures/questpics/logistics/pipez_universal.png width:200 height:50 align:center}"
+	]
+	quest.4FBAB3A0FBF8CE2F.title: "&5Universal Pipez"
+	quest.52F85CED20C8B1E9.quest_desc: ["&eEnergy&r has to get around somehow, preferably where we want it to go. Move it around just the same as with &2Items&r, &9Fluids&r, and &5Chemicals&r!"]
+	quest.52F85CED20C8B1E9.title: "&eEnergy Card"
+	quest.53EC96FA0E7C4ED4.quest_desc: [
+		"Every Tech Mod needs &cEnergy&r, whether it's FE, RF or something else! &cEnergy Pipez&r don't discriminate, it just moves! \\n\\nSome Machines have strict IO ports for &cEnergy&r so make sure to check for those!"
+		"{image:atm:textures/questpics/logistics/pipez_energy.png width:200 height:50 align:center}"
+	]
+	quest.53EC96FA0E7C4ED4.title: "&cEnergy Pipez"
+	quest.5C0F6B1C93A52113.quest_desc: ["Now this is the true Heart of &c&lLaserIO&r! The &cLaser Nodes&r are where the actual Cards will go into in order to work. \\n\\nThey will move Items from any adjacent Inventory in the 4 Cardinal Directions and Up and Down. In order to move to Farther Inventories you'll need a second &cNode&r and Connect them with the Wrench by Shift Right Clicking 1 and Right Clicking the 2nd. \\n\\nYou'll put the Cards into the Slots of the correct Direction and you can put Node Overclockers there as well to make it work faster. "]
+	quest.5F1218CF8EFC607B.quest_desc: [
+		"&c&lLaserIO&r is DireWolf's continuation of &a&lEnderIO&r's &lLogistics&r."
+		""
+		"It's all about moving items via &cLasers&r! Who doesn't love &cLasers&r?!"
+		""
+		"And it all starts with the Logic Chip."
+	]
+	quest.5F1218CF8EFC607B.title: "&c&lLaser IO"
+	quest.6112956E19017D2D.quest_desc: ["Logic Cables are different from other &e&lPipez&r or &5&lMeka pipes&r. The other Pipes act as hoppers, the items move from 1 Inventory, into the Pipe, then into the 2nd Inventory. Logic Cables just skip the middle man which also skips a lotta lag. \\n\\nThey are just for connecting Importers and Interfaces."]
+	quest.617695A9CA45D88F.quest_desc: ["When using &c&lLaserIO&r for &lLogistics&r you might end up with MANY Cards. With each taking a slot in your Inventory it can get pretty crampt. I wish they had a storage for Cards... oh wait they do, it's the Card Holder! \\n\\nYou can store multiple Cards in it and when you open a Laser Node the Card Holder will open up as well like a second Inventory. Very helpful!"]
+	quest.6718043D0F2D1830.quest_desc: ["DireWolf was asked to make an addition of his Cards to work with &5&lMekanism&r and its... other states of matter. Everything Pressurized Tubes can move, these cards can. Gas, Infuse Types, and Pigments."]
+	quest.6718043D0F2D1830.title: "&5Chemical Card"
+	quest.6A962535CD68713E.quest_desc: ["&e&lPipez&r move more! \\n\\nAll Upgrades increase the amount the &e&lPipez&r move but each grant more options to use with the &e&lPipe&r. \\n\\nBasic Upgrade allows Redstone Activation with &e&lPipez&r.\\n\\nImproved Upgrade allows you to change distribution either:Closest First, Farthest First, Round-Robin, or Random.\\n\\nAdvanced Upgrade gives you option to add Filters.\\n\\nUltimate doesn't grant anything new it just moves a lot!"]
+	quest.6CD7D99AA102A5C3.quest_desc: ["&n&f&lLogistics&r: \\nA system of moving, managing, and storing items or resources. \\n\\nIn Modded Minecraft it's quite the same, moving items! With Modded you will need items and by the thousands, heck if you want the &6&lStar&r it gets in the millions! So you'll need to move items from factories, machines, farms, and especially chests. That's what &l&fLogistics&r is for."]
+	quest.6CD7D99AA102A5C3.title: "&lLogistics"
+	quest.6E05B62A40D5A891.quest_desc: [
+		"&3&lIntegrated Dynamics&r is all about &f&lLogistics&r! It's practically the definition of &lLogistic&r."
+		""
+		"It's all about moving, managing, and storing items. Heck you might not even need the Wrench for it, it's so well designed! Get one just incase though."
+		""
+		"(Least laggy pipe solution, these are recommended)."
+	]
+	quest.6E05B62A40D5A891.title: "&3&lIntegrated Dynamics"
+	quest.6F152402756DA35E.quest_desc: [
+		"To get this working put the Item Importer onto the Inventory you want Items pulled from. Next, put the Interface on the second Inventory and connect them with Logic Cables. Then, put in the Variable Card into the Importer and change it as you please. \\n\\nIt can be changed to Import Items at the Integer Limit (Over 2 Billion)."
+		"{image:atm:textures/questpics/logistics/id_item.png width:200 height:50 align:center}"
+	]
+	quest.6F152402756DA35E.title: "&fItem Importing"
+	quest.76CECFB244F39F18.quest_desc: [
+		"Just smack an &3Energy Importer&r onto a Power Source and connect it to an &3Energy Interface&r with Logic Cables! Put and edit the Variable Cards and you'll be moving Power like a pro! \\n\\nI do have to say I found it having problems with Importing or Exporting to Flux Plugs and Points so be mindful of that."
+		"{image:atm:textures/questpics/logistics/id_energy.png width:200 height:50 align:center}"
+	]
+	quest.76CECFB244F39F18.title: "&3Energy Importing"
+	quest.7BC8F50A89A3BE1A.quest_desc: ["These are just used to Connect &cLaser Nodes&r to each other and to Connectors. Not too important I just wanted to keep with the theme of Wrenches. \\n\\nIt does work as a Wrench for other Configs!"]
+	quest.7EE27C3908008E20.quest_desc: ["If you need to string your &cLaser Nodes&r a far distance try using Connectors! Just use the Wrench like normal."]
+	task.2BA7FC10243AA011.title: "Pressurized Tubes"
+	task.337725ECA2C04090.title: "Logical Transporters"
+	task.4448DE84ABA737BE.title: "Universal Cables"
+	task.48A30B08A090BD75.title: "Wrenches"
+	task.48CF7A7622423DEA.title: "Pipe Upgrades"
+	task.4CCB830CFDD43B5E.title: "AllRightsReserved"
+	task.5B7926B511000F1F.title: "Mechanical Pipes"
+	task.5E4B74F97BDED243.title: "AllRightsReserved"
+	task.79E961F671475850.title: "Thermodynamic Conductors"
+}

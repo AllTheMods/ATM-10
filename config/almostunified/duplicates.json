@@ -1,0 +1,36 @@
+{
+  "ignored_recipe_types": [
+    "cucumber:shaped_tag"
+  ],
+  "ignored_recipe_ids": [
+  ],
+  "default_duplicate_rules": {
+    "ignored_fields": [
+      "neoforge:conditions",
+      "show_notification",
+      "category",
+      "group"
+    ],
+    "rules": {
+      "cookingtime": "HigherRule",
+      "energy": "HigherRule",
+      "experience": "HigherRule"
+    },
+    "handle_implicit_counts": false
+  },
+  "override_duplicate_rules": {
+    "minecraft:crafting_shaped": {
+      "ignored_fields": [
+        "neoforge:conditions",
+        "pattern",
+        "show_notification",
+        "category",
+        "key",
+        "group"
+      ],
+      "rules": {},
+      "handle_implicit_counts": false
+    }
+  },
+  "compare_all": false
+}

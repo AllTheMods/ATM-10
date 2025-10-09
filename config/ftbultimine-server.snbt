@@ -1,0 +1,78 @@
+# Server-specific configuration for FTB Ultimine
+# Modpack defaults should be defined in <instance>/config/ftbultimine-server.snbt
+#   (may be overwritten on modpack update)
+# Server admins may locally override this by copying into <instance>/world/serverconfig/ftbultimine-server.snbt
+#   (will NOT be overwritten on modpack update)
+
+{
+	costs_limits: {
+		# Hunger multiplier for each block ultimined (fractional values allowed)
+		# Default: 20.0
+		# Range: 0.0 ~ 10000.0
+		exhaustion_per_block: 20.0d
+		
+		# Amount of experience taken per block ultimined (fractional values allowed)
+		# Default: 0.0
+		# Range: 0.0 ~ 20000.0
+		experience_per_block: 0.0d
+		
+		# Max amount of blocks that can be ultimined at once
+		# Default: 64
+		# Range: 0 ~ 32768
+		max_blocks: 64
+		
+		# Require a damageable tool, or an item in the 'ftbultimine:tools' tag, to ultimine.
+		# Default: false
+		require_tool: false
+		
+		# Cooldown in ticks between successive uses of the Ultimine feature
+		# Default: 0
+		# Range: 0 ~ 9223372036854775807
+		ultimine_cooldown: 0L
+	}
+	features: {
+		# Right-click with an axe with the Ultimine key held to strip multiple logs and scrape/unwax copper blocks
+		# Default: true
+		right_click_axe: true
+		
+		# Right-click budding crystals (e.g. amethyst, AE2 certus) with the Ultimine key held to harvest multiple crystals
+		# FTB EZ Crystals must also be installed
+		# Default: true
+		right_click_crystals: true
+		
+		# Right-click crops with the Ultimine key held to harvest multiple crop blocks
+		# Default: true
+		right_click_harvesting: true
+		
+		# Right-click with a hoe with the Ultimine key held to till multiple grass/dirt blocks into farmland
+		# Default: true
+		right_click_hoe: true
+		
+		# Right-click with a shovel with the Ultimine key held to flatten multiple grass/dirt blocks into dirt paths
+		# Default: true
+		right_click_shovel: true
+	}
+	misc: {
+		# If a block couldn't be broken (even though it should be), stop ultimining immediately instead of skipping to the next block.
+		# Default: false
+		cancel_on_block_break_fail: false
+		
+		# These tags will be considered the same block when checking for blocks to Ultimine in shapeless mining mode
+		# Default: ["minecraft:base_stone_overworld", "c:ores/*", "forge:ores/*"]
+		merge_tags: [
+			"minecraft:base_stone_overworld"
+			"c:ores/*"
+			"forge:ores/*"
+			"integrateddynamics:menril_logs"
+		]
+		
+		# These tags will be considered the same block when checking for blocks to Ultimine in shaped mining modes
+		# Default: ["*"]
+		merge_tags_shaped: ["*"]
+		
+		# This will stop mining if tool reaches X durability. It's possible this won't work with some modded tools if they use non-standard durability handling.
+		# Default: 0
+		# Range: 0 ~ 100
+		prevent_tool_break: 0
+	}
+}

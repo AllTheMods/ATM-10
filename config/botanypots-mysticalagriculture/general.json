@@ -1,0 +1,27 @@
+{
+  "require_soil_tier": {
+    "//": [
+      "When enabled mystical crops will only grow in soils of their tier or higher.    ",
+      "Disabling this option will let them grow in any dirt-like soil.                 "
+    ],
+    "//default": true,
+    "value": true
+  },
+  "allow_fertilized_essence_drops": {
+    "//": [
+      "When enabled botany pots will be allowed to produce fertilized essence when     ",
+      "harvesting mystical crops. Drop rates are based on how Mystical Agriculture is  ",
+      "configured.                                                                     "
+    ],
+    "//default": true,
+    "value": true
+  },
+  "allow_seed_drops": {
+    "//": [
+      "When enabled botany pots will be allowed to produce excess mystical seeds. Drop ",
+      "rates are based on how Mystical Agriculture is configured.                      "
+    ],
+    "//default": true,
+    "value": false
+  }
+}

@@ -1,0 +1,21 @@
+name: 👨‍🍳 Recipe Issues
+description: Issues relating recipes like missing, incomplete, unbalanced, etc.
+title: "[Recipe Issue]: "
+labels: [ Recipe Issue ]
+body:
+  - type: input
+    id: pack-version
+    attributes:
+      label: Modpack Version
+      description: What version of the pack are you using?
+      placeholder: Pack version
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the issue
+      description: Please give the details on how it is now and how it should be!
+      placeholder: Also add a JEI recipe screenshot if possible.
+    validations:
+      required: true

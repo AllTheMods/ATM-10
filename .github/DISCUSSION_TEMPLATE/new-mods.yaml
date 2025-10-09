@@ -1,0 +1,55 @@
+---
+title: "[Fill Mod Name Here]"
+body:
+  - type: markdown
+    attributes:
+      value: >
+        - Make sure this mod is available on the same Minecraft version of the
+        pack.
+  
+        - Do not suggest multiple mods on same post. Create other discussion for that.
+  - type: input
+    id: mod-cf-link
+    attributes:
+      label: CurseForge Project Page
+      description: Link to the project on CurseForge
+      placeholder: https://www.curseforge.com/minecraft/mc-mods/...
+    validations:
+      required: true
+  - type: dropdown
+    id: tested
+    attributes:
+      label: Did you test?
+      description: Have you tried to add it and see if it runs?
+      options:
+        - "No"
+        - "Yes, runs fine"
+        - "Yes, crashed/had issues"
+    validations:
+      required: true
+  - type: dropdown
+    id: previous-packs
+    attributes:
+      label: Previously on our packs?
+      description: Have this mod been added to our previous packs like ATM9, ATM TTS,
+        ATM8, etc?
+      options:
+        - "Don't know"
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+  - type: input
+    id: overlaps
+    attributes:
+      label: Overlaping Mods
+      description: List the mods that it might overlap contents and might need balance
+      placeholder: Immersive Eng, Modern Industrialization, etc...
+    validations:
+      required: false
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason to be added
+      description: What kind of content this mod adds to the pack and why it is needed
+        to be added

@@ -1,0 +1,11 @@
+{
+	quest.066F78936C8F943B.quest_desc: ["Esta Misión ha sido creada por el &6Personal de AllTheMods&r, o un &2contribuidor de la Comunidad&r para su uso en los Modpacks de AllTheMods. \\n\\nComo todos los packs de &6AllTheMods&r están licenciados bajo &eTodos los Derechos Reservados&r, esta Misión no puede ser utilizada en ningún pack público no lanzado por el &6Equipo de AllTheMods&r sin permiso explícito. \\n\\nEsta misión está intencionalmente oculta, si estás viendo esto, estás en modo edición."]
+	quest.7B0764DDE94E73D0.quest_desc: [
+		"Usando algunas mecánicas de vainilla y 2 &aAdaptadores Lógicos de Reactor de Fisión&r, podemos crear un interruptor de circuito simple para disparar y apagar el reactor &o&een caso de que las cosas se pongan un poco locas&r.\\n\\nPara hacer esto, necesitaremos una sola pieza de Redstone, un Pistón, un bloque de arena o grava, y un Observador.\\n\\nEn una de las caras, querremos poner un Adaptador Lógico, luego saltar un bloque por encima y luego colocar otro Adaptador. Configura el Adaptador superior en \"&9Activación&r\", y el Adaptador inferior en \"&cDaño Crítico&r\".\\n\\nLuego, delante y debajo del Adaptador inferior, coloca cualquier bloque de construcción y pégale una pieza de Redstone que salga del Adaptador. Luego colocaremos un Pistón mirando hacia arriba delante de esa Redstone, y luego colocaremos nuestra pieza de arena o grava en ese Pistón.\\n\\nPara la parte final de nuestro interruptor, coloca el Observador con la cara apuntando &hacia afuera, hacia la configuración del Pistón&r. ¡&9Esto es importante&r!\\n\\nCuando el Reactor tenga daño crítico, activará el Adaptador inferior, lo que hará que la redstone reciba una señal, que luego activa el Pistón y empuja hacia arriba la Grava/Arena. Esto activará el Observador, que luego apaga el Reactor.\\n"
+		"{image:atm:textures/questpics/mek/example_circuit.png width:200 height:250 align:1}"
+	]
+	quest.7B0764DDE94E73D0.quest_subtitle: "¿Necesitas una imagen? ¡Mira el Ponder!"
+	quest.7B0764DDE94E73D0.title: "Ejemplo de Interruptor de Circuito"
+	task.363BADA865C39474.title: "TodosLosDerechosReservados"
+	task.59F0226D83026397.title: "TodosLosDerechosReservados"
+}

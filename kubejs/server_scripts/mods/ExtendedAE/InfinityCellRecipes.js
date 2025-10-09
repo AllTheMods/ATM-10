@@ -30,7 +30,7 @@ ServerEvents.recipes(allthemods => {
     cell('kubejs:tuff_cell', 'allthecompressed:tuff_5x', 'minecraft:water_bucket', 'minecraft:lava_bucket', 'megacells:cell_component_256m')
     cell('kubejs:gravel_cell', 'allthecompressed:gravel_6x', 'mekanism:crusher', 'mekanism:crusher', 'extendedae:infinity_cobblestone_cell')
     cell('kubejs:sand_cell', 'allthecompressed:sand_6x', 'mekanism:crusher', 'mekanism:crusher', 'kubejs:gravel_cell')
-    cell('kubejs:red_sand_cell', 'allthecompressed:red_sand_5x', 'minecraft:lava_bucket', 'minecraft:lava_bucket', 'kubejs:sand_cell')
+    cell('kubejs:red_sand_cell', 'allthecompressed:red_sand_5x', 'minecraft:lava_bucket', 'minecraft:lava_bucket', 'megacells:cell_component_256m')
     cell('kubejs:end_stone_cell', 'allthecompressed:end_stone_6x', 'minecraft:purpur_block', 'minecraft:purpur_block', 'megacells:cell_component_256m')
     cell('kubejs:netherrack_cell', 'allthecompressed:netherrack_6x', 'minecraft:lava_bucket', 'minecraft:gravel', 'megacells:cell_component_256m')
     cell('kubejs:clay_cell', 'allthecompressed:clay_5x', 'minecraft:mud', 'minecraft:mud', 'megacells:cell_component_256m')

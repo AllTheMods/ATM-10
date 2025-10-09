@@ -1,0 +1,263 @@
+{
+	"processingMachines": {
+		"machineFrameMaxLength": 64,
+		"assemblerData": {
+			"energyCapacity": 50000,
+			"maxEnergyInsertion": 1024,
+			"maxEnergyExtraction": 0,
+			"energyPerTick": 128
+		},
+		"atomicForgeData": {
+			"energyCapacity": 1024,
+			"maxEnergyInsertion": 0,
+			"maxEnergyExtraction": 0,
+			"energyPerTick": 1024
+		},
+		"centrifugeData": {
+			"energyCapacity": 10000,
+			"maxEnergyInsertion": 512,
+			"energyPerTick": 128,
+			"tankSizeInBuckets": 8
+		},
+		"foundryData": {
+			"energyCapacity": 50000,
+			"maxEnergyInsertion": 1024,
+			"maxEnergyExtraction": 0,
+			"energyPerTick": 256
+		},
+		"coolerData": {
+			"energyCapacity": 50000,
+			"maxEnergyInsertion": 256,
+			"maxEnergyExtraction": 0,
+			"energyPerTick": 128
+		},
+		"fragmentForgeData": {
+			"energyCapacity": 50000,
+			"maxEnergyInsertion": 2048,
+			"maxEnergyExtraction": 0,
+			"energyPerTick": 512
+		},
+		"furnaceData": {
+			"energyCapacity": 10000,
+			"maxEnergyInsertion": 256,
+			"energyPerTick": 64,
+			"speedMultiplier": 0.5
+		},
+		"pulverizerData": {
+			"energyCapacity": 25000,
+			"maxEnergyInsertion": 256,
+			"maxEnergyExtraction": 0,
+			"energyPerTick": 64
+		},
+		"refineryData": {
+			"energyCapacity": 50000,
+			"maxEnergyInsertion": 512,
+			"maxEnergyExtraction": 0,
+			"energyPerTick": 128
+		}
+	},
+	"generators": {
+		"animationSpeedMultiplier": 10.0,
+		"basicGeneratorData": {
+			"energyCapacity": 50000,
+			"maxEnergyInsertion": 0,
+			"maxEnergyExtraction": 256,
+			"energyPerTick": 32
+		},
+		"bioGeneratorData": {
+			"energyCapacity": 100000,
+			"maxEnergyInsertion": 0,
+			"maxEnergyExtraction": 512,
+			"energyPerTick": 64
+		},
+		"lavaGeneratorData": {
+			"energyCapacity": 100000,
+			"maxEnergyInsertion": 0,
+			"maxEnergyExtraction": 512,
+			"energyPerTick": 64
+		},
+		"fuelGeneratorData": {
+			"energyCapacity": 250000,
+			"maxEnergyInsertion": 0,
+			"maxEnergyExtraction": 2048,
+			"energyPerTick": 256
+		},
+		"steamEngineData": {
+			"energyCapacity": 100000,
+			"maxEnergyExtraction": 50000,
+			"rfToSteamRatio": 2.0,
+			"steamToRfRatio": 1,
+			"stopOnEnergyFull": false,
+			"stopOnWaterFull": true
+		},
+		"solarGeneratorData": {
+			"energyCapacity": 100000,
+			"maxEnergyInsertion": 0,
+			"maxEnergyExtraction": 256,
+			"energyPerTick": 32
+		}
+	},
+	"laserArmConfig": {
+		"energyCapacity": 20000,
+		"maxEnergyInsertion": 2048,
+		"energyPerTick": 512,
+		"blockBreakEnergyBase": 1024,
+		"damageTickBase": 2.0,
+		"range": 128
+	},
+	"deepDrillConfig": {
+		"energyCapacity": 20000,
+		"stepsPerOre": 20,
+		"energyPerStep": 1024
+	},
+	"destroyerConfig": {
+		"moveDuration": 15,
+		"workDuration": 40,
+		"moveEnergyUsage": 8,
+		"workEnergyUsage": 128
+	},
+	"fertilizerConfig": {
+		"moveDuration": 10,
+		"workDuration": 20,
+		"moveEnergyUsage": 16,
+		"workEnergyUsage": 256,
+		"liquidPerBlockUsage": 0.25
+	},
+	"placerConfig": {
+		"moveDuration": 10,
+		"workDuration": 5,
+		"moveEnergyUsage": 16,
+		"workEnergyUsage": 128
+	},
+	"smallEnergyStorage": {
+		"energyCapacity": 5000000,
+		"maxEnergyInsertion": 5000,
+		"maxEnergyExtraction": 5000,
+		"energyPerTick": 0
+	},
+	"largeEnergyStorage": {
+		"energyCapacity": 60000000,
+		"maxEnergyInsertion": 10000,
+		"maxEnergyExtraction": 10000,
+		"energyPerTick": 0
+	},
+	"portableTankCapacityBuckets": 256,
+	"overchargedCrystalChargeRate": 10,
+	"itemPipeTransferAmount": 8,
+	"itemPipeIntervalDuration": 5,
+	"fluidPipeExtractAmountBuckets": 0.5,
+	"fluidPipeExtractIntervalDuration": 3,
+	"fluidPipeInternalStorageBuckets": 2.0,
+	"energyPipeTransferRate": 10000,
+	"superConductorTransferRate": 4194304,
+	"charger": {
+		"energyCapacity": 500000,
+		"maxEnergyInsertion": 10000,
+		"maxEnergyExtraction": 5000,
+		"energyPerTick": 0
+	},
+	"basicJetpack": {
+		"energyCapacity": 100000,
+		"fuelCapacity": 4000,
+		"energyUsage": 128,
+		"fuelUsage": 10,
+		"chargeSpeed": 1024,
+		"speed": 0.4000000059604645
+	},
+	"exoJetpack": {
+		"energyCapacity": 5000000,
+		"fuelCapacity": 32000,
+		"energyUsage": 256,
+		"fuelUsage": 15,
+		"chargeSpeed": 10000,
+		"speed": 1.5
+	},
+	"elytraJetpack": {
+		"energyCapacity": 100000,
+		"fuelCapacity": 4000,
+		"energyUsage": 128,
+		"fuelUsage": 10,
+		"chargeSpeed": 1024,
+		"speed": 0.6000000238418579
+	},
+	"exoElytraJetpack": {
+		"energyCapacity": 5000000,
+		"fuelCapacity": 32000,
+		"energyUsage": 256,
+		"fuelUsage": 15,
+		"chargeSpeed": 10000,
+		"speed": 1.399999976158142
+	},
+	"exoChestplate": {
+		"energyCapacity": 5000000,
+		"energyUsage": 10000,
+		"chargeSpeed": 10000
+	},
+	"basicDrill": {
+		"energyCapacity": 10000,
+		"energyUsage": 10,
+		"chargeSpeed": 512
+	},
+	"chainSaw": {
+		"energyCapacity": 10000,
+		"energyUsage": 10,
+		"chargeSpeed": 512
+	},
+	"electricMace": {
+		"energyCapacity": 500000,
+		"energyUsage": 2048,
+		"chargeSpeed": 50000,
+		"baseDamage": 8,
+		"lightningCostMultiplier": 8
+	},
+	"portableLaserConfig": {
+		"energyCapacity": 5000000,
+		"energyPerTick": 4096,
+		"energyPerBoom": 100000,
+		"blockBreakSpeed": 0.125,
+		"damageBase": 4,
+		"explosionStrength": 6
+	},
+	"chainsawTreeCutting": true,
+	"generateOres": false,
+	"easyFindFeatures": true,
+	"safeMode": false,
+	"safeModeCooldown": 2400,
+	"maxSize": 32,
+	"reactorMaxEnergyStored": 150000000,
+	"reactorMaxEnergyOutput": 125000,
+	"rfPerPulse": 1100,
+	"absorberRate": 64,
+	"ventBaseRate": 24,
+	"ventRelativeRate": 160,
+	"maxHeat": 2000,
+	"maxUnstableTicks": 600,
+	"boringNukes": true,
+	"enchanterCostMultiplier": 5,
+	"catalystBaseSouls": 50,
+	"catalystRFPerSoul": 20,
+	"catalystCostMultiplier": 2,
+	"catalystHyperMultiplier": 2,
+	"spawnerCostMultiplier": 1,
+	"maxGateDist": 10,
+	"bendFactor": 2.5,
+	"accelerationRFCost": 10,
+	"acceleratorMotorRFCapacity": 5000000,
+	"endPortalRequiredSpeed": 10000,
+	"netherPortalRequiredSpeed": 5000,
+	"blackHoleRequiredSpeed": 15000,
+	"collectorEnergyStorage": 1000000,
+	"tachyonCollisionEnergyFactor": 1.0,
+	"pullTimeMultiplier": 8,
+	"pullRange": 16,
+	"idleWaitTicks": 200,
+	"blackHoleTachyonEnergy": 50000,
+	"unstableContainerBaseCapacity": 20000000,
+	"augmenterMaxEnergy": 500000000,
+	"tightMachineAddonHitboxes": true,
+	"tightMachineFrameHitboxes": false,
+	"tightCableHitboxes": true,
+	"machineVolumeMultiplier": 1.0,
+	"showMachinePreview": true,
+	"enableHelpButton": true
+}

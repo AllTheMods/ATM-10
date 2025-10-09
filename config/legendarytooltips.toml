@@ -1,0 +1,138 @@
+# Legendary Tooltips Configuration Instructions
+#
+# *** READ THIS FIRST ***
+#
+# By default, this mod does not apply special borders to most items.  It was designed to work well with mod packs where
+# the available selection of items can vary widely, so it is up to the user or mod pack designer to customize as needed.
+# There are many options available for setting up which custom borders (also called frames) apply to which items.  Follow these steps:
+#   1. Decide which items you want to have custom borders, and which borders.  Note that each custom border has a number associated with it (starting at 0).
+#   2. For each custom border you want to use, fill out the associated list in the "definitions" section.  This will be filled out with a list of "selectors",
+#      each of which tell the mod what items have that border.  Please read the information above the definitions section for specifics.
+#   3. Selectors for borders are checked in the order provided in the "priorities" section.  Once a match is found, that border is displayed.
+#      For example, if border 0 had the selector "%Diamond" and border 1 had the selector "diamond_sword", they would both match for diamond swords.
+#      In this case, whichever border number came first in the priority list would be the border that would get drawn in-game.
+#   4. Optionally, border colors associated with custom borders can be set in the "colors" section.  The start color is the color at the top of the tooltip,
+#      and the end color is the bottom, with a smooth transition between.  Please read the information above the color section for specifics.
+[client]
+
+	[client.visual_options]
+		# Whether item names in tooltips should have a line under them separating them from the rest of the tooltip.
+		name_separator = true
+		# If enabled, the name separator will be shown for all tooltips.  If disabled, it will only be shown for item tooltips.
+		show_separator_for_empty = true
+		# If enabled, tooltip border colors will match item rarity colors (except for custom borders).
+		borders_match_rarity = true
+		# If enabled, tooltips will display a drop shadow.
+		tooltip_shadow = true
+		# If enabled, items showing a custom border will have a special shine effect when hovered over.
+		shine_effect = true
+		# If enabled, tooltip titles will be drawn centered.
+		centered_title = true
+		# If enabled, tooltips with custom borders will always be at least wide enough to display all border decorations.
+		enforce_minimum_width = false
+		# If enabled, some unnecessary text and spacing will be removed from equipment tooltips.
+		compact_tooltips = true
+		# Which items should have a 3D model rendered in the tooltip.  If set to "equipment", the model will only be rendered for armor, tools, and items with durability.
+		#Allowed Values: NONE, EQUIPMENT, ALL
+		render_item_model = "NONE"
+		# The speed at which 3D models in tooltips will rotate.  Lower values rotate faster, set to 0 to disable rotation.
+		# Default: 12.0
+		# Range: 0.0 ~ 50.0
+		model_rotation_speed = 12.0
+		# If enabled, fixes a vanilla bug where displayed tooltip damage values are incorrect for weapons with the Sharpness enchantment.
+		fix_mc271840 = true
+		# (EXPERIMENTAL) The maximum width of tooltips.  Set to 0 for no limit.
+		# Default: 0
+		# Range: > 0
+		max_tooltip_width = 0
+		# (EXPERIMENTAL) The maximum height of tooltips.  Set to 0 for no limit.
+		# Default: 0
+		# Range: > 0
+		max_tooltip_height = 0
+		# (EXPERIMENTAL) If enabled, tooltips that are larger than the maximum height specified (or the screen if not specified) will be scrollable with the mouse wheel.
+		#Allowed Values: ALWAYS, WITH_KEYBIND, NEVER
+		enable_tooltip_scrolling = "NEVER"
+		# (EXPERIMENTAL) The speed at which tooltips will scroll when scrolling is enabled.
+		# Default: 10.0
+		# Range: 1.0 ~ 50.0
+		scroll_speed = 10.0
+
+	# Entry types:
+	#    Match all - Specifying just an asterisk (*) will match all items.  Examples: "*"
+	#    Item ID - Use item ID to match single items.  Must include mod name for modded items.  Examples: "minecraft:stick", "iron_ore", "spoiledeggs:spoiled_egg"
+	#    Tag - $ followed by tag name to match all items with that tag.  Examples: "$forge:stone", "$planks"
+	#    Mod name - @ followed by mod identifier to match all items from that mod.  Examples: "@spoiledeggs"
+	#    Rarity - ! followed by item's rarity to match all items with that rarity.  This is ONLY vanilla rarities.  Examples: "!uncommon", "!rare", "!epic"
+	#    Item name color - # followed by color hex code, to match all items with that exact color item name.  Examples: "#23F632"
+	#    Display name - % followed by any text.  Will match any item with this text (case-sensitive) in its tooltip display name.  Examples: "%Netherite", "%Uncommon"
+	#    Tooltip text - ^ followed by any text.  Will match any item with this text (case-sensitive) anywhere in the tooltip text (besides the name).  Examples: "^Legendary"
+	#    NBT/Item component - & followed by tag or component name and optional comparator (=, >, <, or !=) and value, in the format <name><comparator><value> or just <name>.  Examples: "&damage>100", "&Tier>1", "&map_id!=128", "&enchantments"
+	#    Negation - ~ followed by any selector above.  This selector will be negated, matching every item that does NOT match the selector.  Examples: "~minecraft:stick", "~!uncommon", "~@minecraft"
+	#    Combining selectors - Any number of selectors can be combined by separating them with a plus sign.  Examples: "minecraft:diamond_sword+&enchantments", "minecraft:stick+~!common+&damage>100"
+	[client.definitions]
+		level0_entries = ["!epic", "!rare"]
+		level1_entries = []
+		level2_entries = []
+		level3_entries = []
+		level4_entries = []
+		level5_entries = []
+		level6_entries = []
+		level7_entries = []
+		level8_entries = []
+		level9_entries = []
+		level10_entries = []
+		level11_entries = []
+		level12_entries = []
+		level13_entries = []
+		level14_entries = []
+		level15_entries = []
+		# Enter blacklist selectors here using the same format as above. Any items that match these selectors will NOT show a border.
+		blacklist = []
+
+	# Set border priorities here.  This should be a list of numbers that correspond to border levels, with numbers coming first being higher priority.
+	# Optionally, -1 can be inserted to indicate relative priority of data and api-defined borders.  If you don't know what that means, you don't need to worry about it.
+	[client.priorities]
+		priorities = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+
+	# The colors used for each tooltip, in this order: top border color, bottom border color, top background color, bottom background color.
+	# None of these colors are required, though any colors not specified will be replaced with the default tooltip colors.
+	#
+	# VALID COLOR FORMATS
+	#   Hex color code - A hex color code is preceded by # or 0x and must be quoted.  Supports 3, 4, 6, or 8 digit codes in the formats RGB, ARGB, RRGGBB, AARRGGBB.
+	#     Examples: "#F4C", "0xFEE0", "#40FF2E", "#CC00E2EE"
+	#
+	#   Decimal color code - A decimal color code, which is just a hex color code converted to decimal.  May or may not be quoted.
+	#     Examples: 15614720, "4278251143"
+	#
+	#   Minecraft color name - One of the standard 16 Minecraft color names.  Must be quoted.
+	#     Examples: "red", "dark_purple", "gold"
+	#
+	#   Web color name - One of the standard 140 web/HTML color names or "transparent".  Must be quoted.
+	#     Examples: "chartreuse", "darkorange", "deeppink", "deepskyblue"
+	#
+	#   Modifiers - Colors specified in any of the above formats can be modified by using modifiers.
+	#         Modifiers are specified after any color in the format "<+, -, or =><h, s, v, r, g, b, or a><amount>".
+	#         The letters represent h - hue, s - saturation, v - value, r - red, g - green, b - blue, a - alpha.
+	#         Valid amounts are 0 to 255 for all types except hue, which accepts 0 to 359.
+	#     Examples: "red+h15", "#saddlebrown-v20+s5", "10_aqua_aqua+v15-h5", "#F4C-r15-v10=a40"
+	#
+	#   Animated color - An animated color that fades from one to another in sequence.
+	#         A string in the format "<duration in seconds>_<list of color definitions separated by underscores>".  Must be quoted.
+	#     Examples: "10_black_#7FFF00", "5.5_gold_orange_orangered", "20_red_orange_yellow_green_blue_purple"
+	[client.colors]
+		level0_colors = [-6723294, -10864099, -266991104, -401208832]
+		level1_colors = ["auto", "auto", "auto", "auto"]
+		level2_colors = ["auto", "auto", "auto", "auto"]
+		level3_colors = ["auto", "auto", "auto", "auto"]
+		level4_colors = ["auto", "auto", "auto", "auto"]
+		level5_colors = ["auto", "auto", "auto", "auto"]
+		level6_colors = ["auto", "auto", "auto", "auto"]
+		level7_colors = ["auto", "auto", "auto", "auto"]
+		level8_colors = ["auto", "auto", "auto", "auto"]
+		level9_colors = ["auto", "auto", "auto", "auto"]
+		level10_colors = ["auto", "auto", "auto", "auto"]
+		level11_colors = ["auto", "auto", "auto", "auto"]
+		level12_colors = ["auto", "auto", "auto", "auto"]
+		level13_colors = ["auto", "auto", "auto", "auto"]
+		level14_colors = ["auto", "auto", "auto", "auto"]
+		level15_colors = ["auto", "auto", "auto", "auto"]

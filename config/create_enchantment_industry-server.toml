@@ -1,0 +1,168 @@
+#.
+#Parameters and abilities of kinetic mechanisms
+[kinetics]
+	#.
+	#.
+	#Whether Deployer killed entities should drop experience.
+	deployerKillDropXp = true
+	#.
+	#Scale for experience dropped from Deployer killed entities.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	deployerKillXpScale = 1.0
+	#.
+	#Whether Deployer mined blocks should drop experience.
+	deployerMineDropXp = true
+	#.
+	#Scale for experience dropped from Deployer mined blocks.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	deployerMineXpScale = 1.0
+	#.
+	#Whether Deployer collect dropped experience as Experience Nugget.
+	deployerCollectXp = true
+	#.
+	#Whether Mending enchantment applies to Deployer held item (Needs deployerCollectXp = true).
+	deployerMendItem = true
+	#.
+	#Whether Deployer can perform sweep attack.
+	deployerSweepAttack = true
+	#.
+	#Whether Crushing Wheel killed entities should drop experience.
+	crushingWheelKillDropXp = true
+	#.
+	#Probability of Crushing Wheel killed entities dropping experience.
+	# Default: 0.30000001192092896
+	# Range: 0.0 ~ 1.0
+	crushingWheelKillDropXpChance = 0.30000001192092896
+	#.
+	#Scale for experience dropped from Crushing Wheel killed entities.
+	# Default: 0.3400000035762787
+	# Range: 0.0 ~ 1.0
+	crushingWheelKillDropXpScale = 0.3400000035762787
+
+		#.
+		#Fine tune the kinetic stats of individual components
+		[kinetics.stressValues.v1]
+
+			#.
+			#.
+			#[in Stress Units]
+			#Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives.
+			[kinetics.stressValues.v1.impact]
+				mechanical_grindstone = 4.0
+				grindstone_drain = 4.0
+
+	#.
+	#Parameters and abilities of fluids and fluid operating components
+	[kinetics.fluids]
+		#.
+		#.
+		#Whether Liquid Experience vaporize into Experience Orbs upon placement.
+		experienceVaporizeOnPlacement = true
+		#.
+		#The amount of liquid a Printer can hold (mB).
+		#[@cui:RequiresReload:server]
+		# Default: 4000
+		# Range: > 1000
+		printerFluidCapacity = 4000
+		#.
+		#If printing Written Book function of Printer should be enabled.
+		#[@cui:RequiresReload:server]
+		enableWrittenBookPrinting = true
+		#.
+		#If printing Enchanted Book function of Printer should be enabled.
+		#[@cui:RequiresReload:server]
+		enableEnchantedBookPrinting = true
+		#.
+		#If printing Create's copiable item of Printer should be enabled.
+		#[@cui:RequiresReload:server]
+		enableCreateCopiableItemPrinting = true
+		#.
+		#If changing package pattern function of Printer should be enabled.
+		#[@cui:RequiresReload:server]
+		enablePackagePatternPrinting = true
+		#.
+		#If assigning package address function of Printer should be enabled.
+		#[@cui:RequiresReload:server]
+		enablePackageAddressPrinting = true
+		#.
+		#If assigning custom name function of Printer should be enabled.
+		#[@cui:RequiresReload:server]
+		enableCustomNamePrinting = true
+		#.
+		#Whether printing custom name (displayed in italic) as item name (displayed in non-italic).
+		printingCustomNameAsItemName = false
+		#.
+		#The generation change when copy written books, value of 1 will prevent copying copy of copy
+		# Default: -3
+		# Range: -3 ~ 1
+		printingGenerationChange = -3
+		#.
+		#The cost multiplier of printing Enchanted Book.
+		# Default: 1.0
+		# Range: 0.009999999776482582 ~ 100.0
+		printingEnchantedBookCostMultiplier = 1.0
+		#.
+		#Whether Printer denylist prevents enchanted book from being copying.Setting false allows copying enchanted book without denied enchantment
+		printingEnchantedBookDenylistStopCopying = true
+		#.
+		#The amount of liquid a Blaze Enchanter can hold (mB).
+		#[@cui:RequiresReload:server]
+		# Default: 4000
+		# Range: > 1000
+		blazeEnchanterFluidCapacity = 4000
+		#.
+		#The amount of liquid a Blaze Forger can hold (mB).
+		#[@cui:RequiresReload:server]
+		# Default: 4000
+		# Range: > 1000
+		blazeForgerFluidCapacity = 4000
+		#.
+		#The amount of liquid an Experience Lantern can hold (mB).
+		#[@cui:RequiresReload:server]
+		# Default: 1000
+		# Range: > 100
+		experienceLanternFluidCapacity = 1000
+		#.
+		#The amount of Experience an Experience Lantern can drain from player per 0.5 tick (mB).
+		#[@cui:RequiresReload:server]
+		# Default: 50
+		# Range: > 1
+		experienceLanternDrainRate = 50
+
+	#.
+	#Parameters and abilities of enchantment operating components
+	[kinetics.enchantments]
+		#.
+		#.
+		#The max experience level a Blaze Enchanter can use in Regular Enchanting
+		# Default: 30
+		# Range: > 0
+		blazeEnchanterMaxEnchantLevel = 50
+		#.
+		#The max experience level a Blaze Enchanter can use in Super Enchanting
+		# Default: 60
+		# Range: > 0
+		blazeEnchanterMaxSuperEnchantLevel = 100
+		#.
+		#Max enchantment level in Super Enchanting will be extended by this value
+		# Default: 1
+		# Range: 0 ~ 255
+		enchantmentMaxLevelExtension = 1
+		#.
+		#If Super Enchanting and Super Forging ignores enchantment compatibility
+		ignoreEnchantmentCompatibility = true
+		#.
+		#If Enchantment splitting respects over-capped level
+		splitEnchantmentRespectLevelExtension = false
+
+	#.
+	#Parameters and abilities of processing mechanisms and appliances
+	[kinetics.processing]
+		#.
+		#.
+		#Probability of regular lightning strike transforming Block of Experience.
+		# Default: 1.0
+		# Range: 0.0 ~ 1.0
+		regularLightningStrikeTransformXpBlockChance = 1.0

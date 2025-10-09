@@ -1,0 +1,263 @@
+{
+	quest.00611844AFD5C31E.quest_desc: ["While the Inscriber and Charger will natively accept RF/FE, the vast majority of an ME network uses its own dedicated power system called AE.\\n\\nRF/FE can be converted into the native AE at a ratio of 2:1 RF:AE, either directly through an ME Controller, or through the &bEnergy Acceptor&f, which can instead be connected to any part of the network."]
+	quest.00611844AFD5C31E.quest_subtitle: "Plug in"
+	quest.01F3F0C25BA72BDA.quest_desc: [
+		"Aside from the storage of items and fluids, AE2 also provides a native way of storing entire &estructures&f inside of storage cells, not too dissimilarly to the Compact Machines mod. "
+		""
+		"The &bSpatial IO Port&f allows structures contained within a &bSpatial Containment Structure&f to be captured within a specially-designed storage cell, activated via a redstone signal. "
+		""
+		"If a mob or player happens to stand inside of the SCS while the space is being captured, they too will be transported to where the rest of the space goes, i.e. in a dedicated dimension. Just make sure you have a way to get back out and in if you're the one being captured."
+	]
+	quest.01F3F0C25BA72BDA.title: "Spatial IO"
+	quest.037488EF1F3581CE.quest_desc: ["By default, an ME network on its own only has an internal buffer of 800AE without an ME Controller, with the controller adding an extra 8kAE per block. For large enough networks, this can be insufficient and may cause a network to power off intermittently when trying to recoup power for any connected devices.\\n\\nThe &bEnergy Cell&f allows for an ME network to hold significantly more energy, adding another 200kAE per regular Energy Cell and 1.6MAE per &bDense&f Energy Cell. These can also be placed anywhere in the network to provide the increased energy buffer."]
+	quest.03E6FA4DCB71162E.quest_desc: ["The &bColor Applicator&f is a chargeable tool that allows for in-world dyeing of cables. It functions more or less as a specialised &estorage cell&f to be loaded up with either vanilla dyes or &epaint balls&f for specific colours, along with &esnowballs&f to wash colours off and turn cables back to their Fluix variant.\\n\\nApplying colour to a cable uses 100AE of energy from its internal battery, for a total of 3400 cable segments in a single charge."]
+	quest.03E6FA4DCB71162E.title: "Color Applicator"
+	quest.083D458032F0325C.quest_desc: ["The &bME Export Bus&f periodically spits items in its whitelist filter out to whatever external storage the bus is facing. Unlike the Import Bus, the Export Bus cannot work without being filtered."]
+	quest.083D458032F0325C.quest_subtitle: "The O"
+	quest.0B218DD73FE8D985.quest_desc: ["If you did that last quest correctly, you should have turned that singularity into a pair of &bQuantum Entangled Singularities&f. These new singularities are used to link together a ring-shaped device known as a &eQuantum Network Bridge&f.\\n\\nWhen two of these individual rings have been linked using the Quantum Entangled Singularities and jumpstarted with some AE power (e.g. an energy cell), an ME network can be expanded wirelessly on the other side of the bridge, across either long distances or even dimensions."]
+	quest.0B218DD73FE8D985.title: "Quantum Network Bridge"
+	quest.0E809747193ED3A9.quest_desc: ["The third MEGA tier of storage component, providing &e16777216&f (16384k) bytes of storage."]
+	quest.0E809747193ED3A9.quest_subtitle: "x4^2"
+	quest.0E809747193ED3A9.title: "16M Storage Component"
+	quest.0F03E75CF79BADD7.quest_desc: ["MEGA Cells&f offers the bespoke &bBulk Item Storage Cell&f, which is limited to no more than &oone&r type of item storeable per cell but can store a practically &o&lINFINITE&r* number of that item type. Before it can accept an item type, it must be filtered in advance using a Cell Workbench.\\n\\n*&oTechnically \"max long\". If you know, you know.&r"]
+	quest.0F03E75CF79BADD7.quest_subtitle: "Bulk and cut"
+	quest.0F03E75CF79BADD7.title: "Bulk Item Storage"
+	quest.1348995F64A94396.quest_desc: ["The &bCrafting Monitor&f displays the overall item being crafted, along with the remaining quantity of that item still being crafted.\\n\\nBoth the base AE2 monitor and the MEGA monitor function identically, but are provided for aesthetic purposes."]
+	quest.1348995F64A94396.quest_subtitle: "Download more VRAM"
+	quest.140DE53DC0FCD9F4.quest_desc: [
+		"The &bME Annihilation Plane&f can be used to automatically break any blocks in front of it and return anything dropped by the block directly to the ME network. "
+		""
+		"As an added bonus, the Annihilation Plane can be enchanted in the same way as a regular digging tool, affecting block drops in the same way as that enchanted tool would. This makes it ideal for processing ore blocks when enchanted with Fortune, for example. "
+		"Any added enchantments significantly increase the amount of energy used by the plane every time a block is broken. Enchanting the plane with &eEfficiency&f will decrease the overall energy use incurred by all other enchantments, while the &eUnbreaking&f enchantment gives the plane the chance to only use any energy sometimes, similarly to Unbreaking on regular tools."
+	]
+	quest.140DE53DC0FCD9F4.quest_subtitle: "GET IN"
+	quest.15564C11744D6AA0.quest_desc: ["Once you have obtained a full set of the required &eInscriber Presses&r, it's time to start making some &eProcessors&f. These are an important crafting ingredient used to make the large majority of ME-connected devices."]
+	quest.15564C11744D6AA0.title: "Processors"
+	quest.16299B9AE87257DC.quest_desc: ["The &bWireless Terminal&f functions identically to a regular terminal, but wirelessly.\\n\\nBefore it can be used to access a network, it must first be &elinked&f to the network by placing it into the top-right slot of the &eWireless Access Point&r. If it is not linked to a network, or is out of either range or power, the terminal will not function.\\n\\nWireless terminals can also be upgraded with &eEnergy Cards&f to provide a larger internal battery."]
+	quest.16299B9AE87257DC.quest_subtitle: "This is what you're here for"
+	quest.16299B9AE87257DC.title: "Wireless Terminals"
+	quest.1710B3D05215A71E.quest_desc: [
+		"&bP2P&f (peer-to-peer) is a powerful system within AE2, allowing for the transfer of items, fluids and even more without the need for any intermediary ME storage. "
+		""
+		"Right-clicking on a P2P tunnel with certain items will &eattune&f the tunnel into one capable of transferring something else, such as items through pipes, energy through cables, redstone signals and (by default) even ME connections themselves. "
+		""
+		"P2P tunnels must be linked to one another with the use of a &eMemory Card&f, detailed in the next quest."
+	]
+	quest.1710B3D05215A71E.quest_subtitle: "Cut out the middleman"
+	quest.1710B3D05215A71E.title: "P2P Tunnels"
+	quest.18DFB25DC48D8BF7.quest_desc: [
+		"The Spatial Containment Structure (SCS) consists of a cage of &bSpatial Pylons&f covering the volume you wish to enclose in a Spatial IO cell. At the absolute minimum, an SCS requires three lines of spatial pylon blocks, one for each dimension of the space being contained (length, width, height). "
+		""
+		"However, Spatial IO is an extremely power-hungry feature, especially when trying to capture much larger spaces (up to 128x128x128). Having more spatial pylons included in the SCS around the desired volume will increase its overall &eefficiency&f, allowing it to use less energy to capture. "
+		""
+		"Also, be mindful that each individual pylon (regardless of its length) takes up one channel. For particularly large spaces, you may wish to build a dedicated network with a controller to fit all the required pylons."
+	]
+	quest.1AAF0B31B47AF23D.quest_desc: ["Individual ME devices can also be configured to respond to redstone signals. When upgraded with a &bRedstone Card&f, a device can be configured to do work only when powered with redstone or otherwise as needed.\\n\\nThis behavior can also apply to entire &osections&r of an ME network by using an &bME Toggle Bus&f. This allows a section of the network on the other side of the bus to come online only when the bus is powered by redstone, or to go offline if using an &einverted&f toggle bus."]
+	quest.1AAF0B31B47AF23D.title: "Redstone-Controlled ME"
+	quest.1B686954D34A0F23.quest_desc: ["The &bQuartz Wrench&f does what any regular tech mod wrench would do. It rotates blocks and devices along the face you right-click on and dismantles them when right-clicked while sneaking.\\n\\nThis Wrench comes in both Certus Quartz and Nether Quartz varieties."]
+	quest.1B686954D34A0F23.quest_subtitle: "Does exactly what you'd expect"
+	quest.1B686954D34A0F23.title: "Quartz Wrench"
+	quest.1F7DFA5AA65F2812.quest_desc: ["The &bAcceleration Card&f, depending on the device being upgraded with it, will either increase the speed at which the device operates or allow the device to carry out more operations in one go.\\n\\nIn the case of the &eMolecular Assembler&f, a full set of 5 cards reduces the time taken for the MA to fulfil a craft from one second (with no cards) to one &otick&r."]
+	quest.2077D64428E9C067.quest_desc: [
+		"An important concept within AE2 is a technique known as '&esubnetting&f', wherein an extra separate ME network (a &esubnetwork&f) acts in conjunction with the main network to perform some specialised function or process. "
+		""
+		"What separates a subnetwork from a completely detached separate network is usually the use of the &bQuartz Fiber&f as a cable part. When placed between two otherwise unconnected lengths of cable, the Quartz Fiber transfers no data or channels between the two whatsoever, instead only transmitting power. "
+		""
+		"Thus, a subnetwork on the other side of the Fiber can be powered wholly by the main network's power source, without requiring any extra dedicated powergen."
+	]
+	quest.2077D64428E9C067.quest_subtitle: "This has a use outside of crafting cables."
+	quest.2077D64428E9C067.title: "Forgot to Mention"
+	quest.219932CB19258C16.quest_desc: ["The third tier of storage component, providing &e16384&f bytes of storage."]
+	quest.219932CB19258C16.quest_subtitle: "x4^2"
+	quest.219932CB19258C16.title: "16k Storage Component"
+	quest.22C4318523A43B49.quest_desc: ["&eTerminals&f provide access to any of the contents of an ME network. The standard &eME Terminal&f simply lists everything in the network as one large grid to pull from and insert into, akin to a single inventory.\\n\\nThe &eME Crafting Terminal&f is an extension of the ME Terminal which also provides a built-in crafting grid, allowing for convenient crafting using any item contained in the network and visible through the terminal screen."]
+	quest.22C4318523A43B49.quest_subtitle: "[Linux user joke goes here]"
+	quest.22C4318523A43B49.title: "Terminals"
+	quest.234DC1702333EB18.quest_desc: ["The &dAEInfinityBooster&f add-on provides two bespoke wireless boosters allowing for infinite connectivity range, with optional cross-dimensional support."]
+	quest.234DC1702333EB18.quest_subtitle: "I'm not writing the Toy Story line"
+	quest.234DC1702333EB18.title: "Infinity Booster"
+	quest.25DBA00422301EDC.quest_desc: ["The second MEGA tier of storage component, providing &e4194304&f (4096k) bytes of storage."]
+	quest.25DBA00422301EDC.quest_subtitle: "x4"
+	quest.25DBA00422301EDC.title: "4M Storage Component"
+	quest.2893F483C10293E6.quest_desc: [
+		"&lWelcome to &bApplied Energistics 2&f!\\n\\nApplied Energistics 2 (or &oAE2&r for short) is an incredibly versatile &bdigital storage&f mod, allowing for extremely efficient storage and all sorts of automation capabilities to greatly augment your modded Minecraft experience from as early as you want to the very endgame.\\n\\nFor more information on AE2 beyond this chapter, consult the wiki over at"
+		"&o&bappliedenergistics.github.io&f&r."
+	]
+	quest.2893F483C10293E6.quest_subtitle: "Virtual Storage System"
+	quest.2893F483C10293E6.title: "Applied Energistics 2"
+	quest.2897FA291E5A38D8.quest_desc: ["The &bSpatial Anchor&f is a companion device from the Spatial IO lineage that simply functions as a chunk loader. When connected to an ME network, the Anchor will force-load all the chunks occupied by the ME network across all cables and devices, excluding subnetworks, as long as the network remains powered."]
+	quest.2B31E6C1707D8195.quest_desc: ["The next thing to make to allow for wireless network access is the &bME Wireless Access Point&f. The Access Point is used to open the network to wireless access via a &ewireless terminal&f, and has a set (finite) range depending on how many &bWireless Boosters&f are inserted into the access point."]
+	quest.2C04B3BA507D5673.quest_desc: ["&bPatterns&f are what hold an encoded recipe to be fulfilled by a Pattern Provider. To encode a recipe onto a Pattern, the &bME Pattern Encoding Terminal&f must be used.\\n\\nPatterns can be set to hold either a regular &ecrafting&f recipe, which will require the use of a &eMolecular Assembler&f on the face of its Provider, or a more general '&eprocessing&f' recipe, wherein any input items can be sent out by the provider into some other machine block or specialised processing plant."]
+	quest.2C04B3BA507D5673.title: "Patterns"
+	quest.2F16B6A173525277.quest_desc: [
+		"The last piece of the puzzle for any large ME network is the &bME Controller&f. "
+		""
+		"A controller supplies an ME Network with a far larger number of channels than the standard 8 channels for ad-hoc networks, providing 32 channels out of each face of the block for a total of 216 channels. "
+		""
+		"That's only for a single-block controller, however, since the ME Controller is in fact a multi-block structure. The controller can be up to 7x7x7 blocks in size and can come in any freeform arrangement within that maximum size. Each individual block can then provide its own separate set of channels, so long as no single controller block is surrounded by 4 other blocks along the same plane. "
+		""
+		"An ME Network may only contain one multiblock controller at any given time. Attempting to connect more than one controller on separate parts of the network will cause a conflict, shutting down the whole network."
+	]
+	quest.2F556E7919582D2D.quest_desc: ["The &bCell Workbench&f allows for cells to be 'partitioned' to hold specific items, i.e. given a whitelist filter. It also allows the cell to be upgraded with certain upgrade cards such as the Inverter Card, which sets the aforementioned whitelist to be a blacklist instead.\\n\\nCells can also be given a higher or lower 'priority' via the workbench, i.e. allow the cell to be the first to receive certain items until full, or made to wait for other higher-priority cells to fill up first."]
+	quest.2FB231069D2E4E77.quest_desc: ["Each individual cell has a certain capacity dictated by the &ecomponent&f that the cell has been crafted with.\\n\\nThe first of the components is the &b1k ME Storage Component&f, providing &e1024&f 'bytes' of storage for a given cell. More on that later."]
+	quest.2FB231069D2E4E77.quest_subtitle: "The first kilobyte."
+	quest.2FB231069D2E4E77.title: "Creating your first Storage Cell"
+	quest.30E853CE699E669B.quest_desc: ["Before you can carry out an auto-crafting job, you need a device to actually store the request itself along with any interim items for multi-step crafts. This device is known as a &ecrafting CPU&f.\\n\\nA crafting CPU is a multiblock structure requiring at least one &bCrafting Storage&f block, optionally along with any other Crafting Unit. The multiblock can be made in any size, but must be a solid cuboid in order to form and function accordingly."]
+	quest.30E853CE699E669B.quest_subtitle: "Download more RAM"
+	quest.3195A7AA874163CD.quest_desc: ["The &bEqual Distribution Card&f is an upgrade for storage cells that pre-allocates a certain amount of items that can be taken up by any individual type.\\n\\nThis behaviour is comparable to something like a Functional Storage drawer, wherein each compartment holds a set number of stacks as opposed to allowing items from one compartment to leak into the others and crowd other kinds of items out."]
+	quest.3195A7AA874163CD.quest_subtitle: "ME Storage &mCells&r Drawers"
+	quest.33ADE41526C39AFD.quest_desc: ["This behaviour is comparable to something like a Functional Storage drawer, wherein each compartment holds a set number of stacks as opposed to allowing items from one compartment to leak into the others and crowd other kinds of items out."]
+	quest.361CCBD353D6FF34.quest_desc: [
+		"With the 1k Storage Component, you can now craft yourself a 1k ME Item Storage Cell to start your digital item storage system. You'll most likely want the majority of your storage to be for items, so you'll probably want to make a few &bME Item Storage Cells&f. "
+		""
+		"ME Item Storage Cells can each hold up to 63 different types of items. Each new type of item added to a cell will take up a certain fraction of the storage cell's total capacity in bytes. For each type already present, 1 'byte' counts for 8 items of that same type. "
+		""
+		"As an example, a 1k Item Storage Cell containing only cobblestone can hold up to 8128 cobblestone (8*1024b - 8b/type * 1 type). "
+		""
+		"If a cell is empty, it can be repurposed by disassembling it into its respective component and housing. This is done by sneaking and right-clicking in the air with the cell in your hand."
+	]
+	quest.361CCBD353D6FF34.title: "Item Storage"
+	quest.371A382CF1DDF2B2.quest_desc: ["The &bCapacity Card&f allows a bus upgraded with it to carry a larger filter. Import and Export buses upgraded with capacity cards can go from supporting only one filtered item each to their maximum nine-slot filter, while Storage buses will go from 18 slots to a maximum of 63."]
+	quest.3B42CCC19D23EC6D.quest_desc: ["The second tier of storage component, providing &e4096&f bytes of storage."]
+	quest.3B42CCC19D23EC6D.quest_subtitle: "x4"
+	quest.3B42CCC19D23EC6D.title: "4k Storage Component"
+	quest.3CE3D9245F8EC005.quest_desc: ["The fourth MEGA tier of storage component, providing &e67108864&f (65536k) bytes of storage."]
+	quest.3CE3D9245F8EC005.quest_subtitle: "x4^3"
+	quest.3CE3D9245F8EC005.title: "64M Storage Component"
+	quest.3DDB0DDA7571B2C1.quest_desc: ["The &bME Level Emitter&f, when configured with a specific item and quantity of it to respond to, will emit a redstone signal depending on whether that item stored in the network either falls below, goes above or equals the given quantity.\\n\\nThis can be used, for example, to automatically switch certain machines on with redstone to auto-craft a resource when it falls below a given minimum amount."]
+	quest.3DDB0DDA7571B2C1.title: "ME Level Emitter"
+	quest.3E3DF8E967D95DB0.quest_desc: ["When using a 64k storage component or higher, the Matter Condenser becomes able to condense significantly more to produce a &bSingularity&f. A single singularity requires 256000 items to be voided. That's exactly &o4000 stacks&r!\\n\\nSee what happens when you throw this singularity on the ground with a piece of &eEnder Dust&f. You'll have to deal some damage to the surroundings while you're at it, but thankfully AE2 offers its own &bTiny TNT&f to minimise that."]
+	quest.3E3DF8E967D95DB0.quest_subtitle: "Hyper-Condensed Matter"
+	quest.3E3DF8E967D95DB0.title: "Hyper-Condensed Matter"
+	quest.4597D3B3BDC2BED5.quest_desc: ["The &bMolecular Assembler&f is AE2's equivalent of an automatic crafting table, required to fulfil any and all &ecrafting&f pattern jobs.\\n\\nMolecular Assemblers are capable of transferring power and channels to other ME devices connected to it, but will not themselves take up a channel. Up to 6 MAs can be connected to a single Pattern Provider (if employed) to allow for more crafts to be done in parallel.\\n\\nMAs also each have their own dedicated slot for a single crafting pattern, allowing them to function standalone when powered. When operated in this way, any matching items inserted into the MA will be automatically crafted into the result of the pattern."]
+	quest.460A8F17F3ED6CAF.quest_desc: ["There comes a point in any playthrough of a large modpack where even the highest standard tier of storage cell doesn't cut it for the amount of items and resources that you may be accumulating.\\n\\nThis is where the &dMEGA Cells&f add-on comes in, extending the available tiers of storage into the megabyte territory. The first of these new tiers is given by the &b1M MEGA Storage Component&f, providing 1024 &okilo&rbytes, or &e1048576&f bytes, of storage."]
+	quest.460A8F17F3ED6CAF.quest_subtitle: "The first MEGAbyte."
+	quest.460A8F17F3ED6CAF.title: "1M Storage Component"
+	quest.4B76FE0348DB0E45.quest_desc: ["The Quantum Bridge Card is an alternate method to get wireless interdimensional access to your Applied Energistics system. You will need a Quantum Bridge connected at your base and a Quantum Bridge Card in your terminal. These tunnels are then bound together with a Quantum Entangled Singularity to gain access wherever you go."]
+	quest.4BF0BB763BFFACF0.quest_desc: [
+		"Arguably the most important resource you will need next is &eFluix&f, used throughout the vast majority of AE2 devices and serving as a base for crafting all of the cabling within an ME network. "
+		""
+		"You'll typically want to mass produce these, and the way to do so is to make a &bFluix Crystal&f by throwing &eNether Quartz&f, &e&oCharged&r&e Certus quartz&r and &eRedstone&f together in a pool of water. This will give you a &eFluix Crystal&r which you can turn to dust in an Inscriber."
+	]
+	quest.4BF0BB763BFFACF0.title: "Fluix"
+	quest.4E8A05C3BFA80540.quest_desc: ["Arguably the most important aspect of Applied Energistics 2 is its storage system, making use of digital &eStorage Cells&f. These cells are accessible through either an &eME Chest&r for single cells, or an &eME Drive&r for multiple cells.\\n\\nThe &bME Chest&f holds a single Cell at a time, which can then be read from and written to from any other terminal on the same network. The ME Chest itself also provides its own terminal screen on the top with specific access only to the cell it contains.\\n\\nThe &bME Drive&f can hold up to 10 assorted Storage Cells in the space of a single block and a single ME channel. However, it does not provide its own terminal screen, requiring some external terminal elsewhere on the network for storage access."]
+	quest.4E8A05C3BFA80540.quest_subtitle: "Items as a file system"
+	quest.4E8A05C3BFA80540.title: "The Storage"
+	quest.5034A9137E0F3D3D.quest_desc: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks.\\n\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission.\\n\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
+	quest.51236544BFEF487B.quest_desc: ["It is time to find &eMeteorites&f that contain &bSky Stone&f. These can be either on the surface or underground, and contain a &bMysterious Cube&f in its center.\\n\\nThis cube contains all of the different &ePresses&f used in the Inscriber to make AE2's special crafting components.\\n\\nThe easiest way to locate a meteorite is by crafting a &eMeteorite Compass&r by placing a compass inside of a Charger."]
+	quest.51236544BFEF487B.quest_subtitle: "'COMIC #42: shearching 4 bobby [Fischer]'"
+	quest.51236544BFEF487B.title: "Meteorite hunting"
+	quest.51A57E142C686C8F.quest_desc: ["The fifth and final MEGA tier of storage component, providing &e268435456&f (262144k) bytes of storage."]
+	quest.51A57E142C686C8F.quest_subtitle: "x4^4"
+	quest.51A57E142C686C8F.title: "256M Storage Component"
+	quest.51DE3157DE3E57B8.quest_desc: [
+		"Storage is nice and all that, but what good is a storage system if it's clogged up with raw materials needing to be crafted and processed into something and you're still stuck with having to do so manually? "
+		""
+		"AE2's &eauto-crafting&f system begins with the &bME Pattern Provider&f. The Pattern Provider holds certain items called &bPatterns&f (covered in the next quest) which are programmed to hold some recipe that turns input items into a certain output. Up to 9 patterns can fit in one provider. "
+		""
+		"You'll often be making use of multiple pattern providers scattered all throughout your base, which is why it's useful to have a &bPattern Access Terminal&f to remotely access the contents of any and all providers on your wider ME network."
+	]
+	quest.51DE3157DE3E57B8.quest_subtitle: "Order up"
+	quest.51DE3157DE3E57B8.title: "Auto-Crafting"
+	quest.5233A447BAA4593C.quest_desc: ["The &bME Smart Cable&f and &bDense Smart Cable&f function identically to the covered cables in terms of channel distribution, but will also visibly display the amount of channels they are using as coloured lines along themselves."]
+	quest.5233A447BAA4593C.quest_subtitle: "'S.M.R.T.'"
+	quest.5233A447BAA4593C.title: "Advanced Cabling"
+	quest.523853C1C4E688BA.quest_desc: ["The fourth tier of storage component, providing &e65536&f bytes of storage."]
+	quest.523853C1C4E688BA.quest_subtitle: "x4^3"
+	quest.523853C1C4E688BA.title: "64k Storage Component"
+	quest.525F25F4ADE45B50.quest_desc: [
+		"The &bME Formation Plane&f acts similarly to the Storage Bus, but treats the world itself as its storage medium. In other words, it will place down any block in its filter directly in front of itself. "
+		""
+		"This can be useful for situations where a block can be processed simply by placing it and breaking it with a certain tool."
+	]
+	quest.525F25F4ADE45B50.quest_subtitle: "GET OUT"
+	quest.55186B8602689B66.quest_desc: [
+		"The &bMemory Card&f is a tool with two different functions. The simplest of the two is to save various devices' configurations (such as whitelist filters) to be copied over to another device of the same kind. "
+		""
+		"The second function of a memory card is to link &eP2P tunnels&f together. When doing so, the P2P tunnel being linked will be assigned a unique ID, which is stored on the memory card for further linking."
+	]
+	quest.5AA3E5DFECB4AC4D.quest_desc: ["Naturally, AE2 provides its own way to dramatically speed up crystal growth.\\n\\nPlace these around your Budding Crystals, give them some power, and watch your crystals grow!"]
+	quest.5BB887411B8B38FA.quest_desc: ["As for wirelessly expanding the ME Network itself, the first step is admittedly somewhat unorthodox.\\n\\nThe &bMatter Condenser&f is AE2's take on a trash can, voiding any items inserted into it. When fitted with a &eStorage Component&f, however, the condenser can harness some left-over energy from the item being voided and store it to make two special crafting items out of enough concentrated energy.\\n\\nThe first of these two items is the &bMatter Ball&f, requiring at least a 1k storage component and 256 items' worth of voided material."]
+	quest.5BB887411B8B38FA.title: "Condensed Matter"
+	quest.5C22E3103544B120.quest_desc: ["To connect the vast majority of your ME network together, you will need some cable. &eME Glass Cable&f is the first and most basic kind of cable, and you'll be making this all throughout as the first step towards crafting the other kinds of cable.\\n\\nBoth glass cables and their &ecovered&f counterpart can carry up to 8 channels along a single section of cabling. Unlike glass cables, covered cables can subsequently be crafted into &edense&f covered cables, capable of carrying up to 32 channels. However, most 'multipart' devices such as buses and terminals cannot be directly attached to dense cables, requiring normal-width cables to form a connection instead.\\n\\nAll cables can also be crafted with dye to colour them. Uncoloured ('Fluix') cables can connect to any other colour of cable, but otherwise differently-coloured cables will never connect to one another."]
+	quest.5C22E3103544B120.title: "Basic Cabling"
+	quest.5CD8D169181C7339.quest_desc: ["These last three items are more or less some extra toys provided by AE2 and don't necessarily fit under any of these quest trees.\\n\\nThe &bCharged Staff&f is just a simple powered staff which deals 3 hearts of damage and consumes 300AE per hit. It also uses pre-1.9 combat mechanics, meaning that you can spam-click with this like in the good old days.\\n\\nThe &bEntropy Manipulator&f, when &oused&r on certain blocks in the world, will smelt them in-place, such as sand to glass and metal ores to metal ingots. If not, it will simply light a fire on the block.\\n\\nFinally, the &bMatter Cannon&f functions similarly to the Color Applicator as a dedicated cell for holding 'ammo' items such as Matter Balls and iron/gold nuggets, which can then be fired out to deal damage to mobs or break blocks. Heavier 'ammo'Matter Balls in a Matter Cannon can be substituted with &bPaint Balls&f, which will apply a paint splatter effect on the face of whatever block being fired at. &bLumen Paint Balls&f are a variant of paint balls exclusively used by the Matter Cannon, whose paint splatters also give off some light once present in the world."]
+	quest.5CD8D169181C7339.quest_subtitle: "Too hot for the ATF"
+	quest.5CD8D169181C7339.title: "The... Weapons?"
+	quest.5E24012A3D9B72A1.quest_desc: [
+		"Items are not the only things that can be stored in ME cells. &bME Fluid Storage Cells&f can store liquids such as water, lava and any variety of modded oils and fuels, just to give a few examples. "
+		""
+		"Note that all storage cells, regardless of what they're designed to store, only differ in terms of their housing; both item and fluid cells use the same kind of storage component to make. "
+		""
+		"For fluids, 1 byte equals 8 buckets (8000mb)."
+	]
+	quest.5E6585F7627247E3.quest_desc: ["When applied as an upgrade to any supported device such as an Interface or Export Bus, the &bCrafting Card&f allows the device in question to automatically send out its own crafting requests for a required (filtered) item. Crafting CPUs can be set to respond only to these requests to prevent taking up CPUs meant for player-requested crafts.\\n\\nWhen the &eLevel Emitter&f is upgraded with the Crafting Card, it can be configured to emit redstone in order to directly facilitate in crafting, by emitting a signal either &owhile&r a crafting job for its given item is detected or specifically &oto&r craft the item. The latter would apply for cases where the only thing needed to make a given item is a redstone signal, without even requiring a crafting pattern."]
+	quest.5E6585F7627247E3.quest_subtitle: "Automation in upgrade form!"
+	quest.5E7E35CCAF1C88EE.quest_desc: ["The &bME Import Bus&f periodically sucks items in from whatever external storage the bus is facing. It can optionally be filtered to only take in certain items from said inventory."]
+	quest.5E7E35CCAF1C88EE.quest_subtitle: "The I"
+	quest.5F56892CD904C40F.quest_desc: ["The fifth and final AE2-standard tier of storage component, providing &e262144&f bytes of storage."]
+	quest.5F56892CD904C40F.quest_subtitle: "x4^4"
+	quest.5F56892CD904C40F.title: "256k Storage Component"
+	quest.6144202A97C6CD1C.quest_desc: ["The &bQuartz Cutting Knife&f, like the wrench, comes in both nether and certus quartz flavours and is a useful crafting tool to have on hand.\\n\\nCables can also be separated without needing to be coloured by attaching a &bCable Anchor&f between them, crafted using this knife and craftable up to 50 times with the same knife before it breaks.\\n\\nCable Anchors can also be used to craft &bCable Facades&f, allowing you to disguise cables within walls by covering them with the face of an arbitrary block. While facade recipes are hidden in JEI, you can still craft them by taking any regular block and surrounding it with 4 cable anchors in the crafting grid.\\n\\nAside from crafting anchors, the cutting knife also has another use: right-clicking with the knife will open a small GUI that allows you to craft &bInscriber Name Presses&f. When given a name, these presses can be used inside of an Inscriber to rename any input item with the name of the press. Two of these presses can be concatenated in the inscriber to rename the item to the name of the top press, followed by the bottom one."]
+	quest.6144202A97C6CD1C.quest_subtitle: "Under the knife"
+	quest.6144202A97C6CD1C.title: "Cable Anchor"
+	quest.6431A384DDFBF439.quest_desc: [
+		"The &bNetwork Tool&f is an important tool throughout AE2, which is used to display various details of a network on-screen such as overall power consumption and storage. "
+		""
+		"As an added bonus, it also provides its own small inventory used to hold &eupgrade cards&f, which can be accessed when looking at any upgradeable device's screen for easy replacement. However, it cannot rotate blocks attached to the ME network like a regular wrench, only dismantle them when sneaking."
+	]
+	quest.6431A384DDFBF439.title: "Network Tools"
+	quest.68B0B3DAF1145191.quest_desc: ["Two of the very first things you will need to get started in AE2 are the &bCharger&f and the &bInscriber&f.\\n\\nThe &bCharger&f, when supplied with power, will take &eCertus Quartz Crystals&r and charge them. These &eCharged Certus Crystals&r can then be used in the production of &eFluix&f, another important resource in the mod. It can also be used to charge any item that stores power.\\n\\nThe &bInscriber&f can be used to turn the various quartz crystals in AE2 into their dust form, but more importantly is used to fabricate special &ePrinted Circuits&f and &eProcessors&f, as will become clearer in the next quest."]
+	quest.68B0B3DAF1145191.quest_subtitle: "First Things First"
+	quest.68B0B3DAF1145191.title: "First Things First"
+	quest.69B7DE2283B4EE6C.quest_desc: ["The &bCrafting Co-Processing Unit&f helps speed up crafting jobs by allowing pattern providers to either send items out to their connected devices faster or to work concurrently to make multiple required ingredients.\\n\\nThe base AE2 co-processor provides one co-processor 'thread' to assist this, while the co-processing unit from &dMEGA Cells&f provides 4 threads in a single such block."]
+	quest.69B7DE2283B4EE6C.quest_subtitle: "Download more CPU cores"
+	quest.6D54B45CDA70FEAB.quest_desc: ["The &bEnergy Card&f can be applied to most chargeable devices like Portable Cells and Wireless Terminals (covered later) to also increase &otheir&r energy buffer."]
+	quest.6E15447FC3D678E0.quest_desc: ["The &bFuzzy Card&f allows a filtered item to be matched regardless of any (NBT) metadata such as damage or enchantments, while the &bInverter Card&f toggles the filter on such buses from being a whitelist to being a blacklist."]
+	quest.6E15447FC3D678E0.quest_subtitle: "The remaining two IO cards"
+	quest.6E15447FC3D678E0.title: "Loosely Speaking"
+	quest.6F3D0A248B5A9CA2.quest_desc: [
+		"&bSpatial Storage Cells&f are used to hold one defined volume each, and come in three different capacities allowing for a maximum of 2x2x2, 16x16x16 and 128x128x128 blocks' worth of space. "
+		""
+		"Upon encoding, a cell is allocated a section of space within the spatial storage &edimension&f, along with a unique ID corresponding to the region allocated to the cell. An encoded cell can still be used within the Spatial IO Port to retrieve any stored blocks and entities. "
+		""
+		"From then on, any blocks contained either within the cell's region of space or in an SCS with the same size as the one used for the initial encoding can be moved back into the overworld or into the spatial dimension respectively. If there are blocks both within the spatial region and within the SCS, these will simply swap places accordingly."
+	]
+	quest.6F3D0A248B5A9CA2.title: "Spatial Storage Cell"
+	quest.74FC0DDDB91DB172.quest_desc: ["To make life that much easier, AE2 provides a whole suite of devices for the manipulation of ME data, i.e. moving stored items around the world.\\n\\nThe &bME Interface&f is one of these devices. As an input device, the Interface allows any item/fluid/etc to be piped externally through it, which is then automatically stored in the ME Network that the interface is connected to.\\n\\nAs an output device, the Interface can be configured to keep a certain available amount of a stored item in stock, from the ME network to its own internal inventory. This allows items to then be received by some external source like another player or some pipe."]
+	quest.74FC0DDDB91DB172.quest_subtitle: "OI, OI, OI!"
+	quest.74FC0DDDB91DB172.title: "The IO"
+	quest.77C9EE701F72586D.quest_desc: [
+		"&bPortable Cells&f function identically to regular cells in that they can be inserted into a chest or drive and filled accordingly. "
+		""
+		"However, unlike regular cells, their contents can also be accessed standalone via the cell item itself, a bit like a digital ME-flavoured backpack."
+	]
+	quest.78311531069807DE.quest_desc: ["In Applied Energistics 2, every ME network has a certain number of &echannels&f available, which simply means how many networked devices can fit on the whole network.\\n\\nAs a rule of thumb, any device that more or less handles ME data directly (items stored within the network) and carries out some form of I/O will take up a channel. Usually components that are only concerned with the internal power storage of the network, like &eEnergy Cells&f and &eInscribers&f, do &onot&r take up channels.\\n\\nNetworks without an &bME Controller&f are known as 'ad-hoc' networks and only support a maximum of 8 channels."]
+	quest.79D2617E01481281.quest_desc: ["To get started with AE2, you will need to mine an important resource for the mod known as &bCertus Quartz&f. You will find Certus Quartz Crystals in Meteroites that you can mine for Certus Quartz &eDust&f and &eCrystals&f."]
+	quest.79D2617E01481281.title: "Certus Quartz"
+	quest.7B7D1F0CB326B28F.quest_desc: ["The &bME IO Port&f allows for the contents of an ME network's storage to be quickly rearranged between different storage media such as ME cells and external containers connected to storage buses.\\n\\nWhen a cell is inserted in an input slot on the left, the IO Port can be toggled to either empty the cell out into other ME storages or fill the (ideally, partitioned) cell with certain items spread out across other storages."]
+	quest.7B7D1F0CB326B28F.quest_subtitle: "Defragmentation"
+	quest.7EFBAF3E281D2EBE.quest_desc: [
+		"The &bME Storage Bus&f, when facing some external storage container, will allow the container to be used as though it were part of the ME network, allowing items to be taken out from the container or inserted into it purely via ME. "
+		""
+		"Storage buses can be filtered and given specific priorities such that specific items will try to go to the attached storage first, however it will not retroactively move any filtered items from anywhere else in the network to its attached storage."
+	]
+	quest.7EFBAF3E281D2EBE.quest_subtitle: "The spare chest"
+	task.08DA73B1AC17E5F5.title: "Crafting Storage"
+	task.1076BC82EECB73F5.title: "Quartz Wrenches"
+	task.14DEFFB80CC96BC1.title: "ME Dense Covered Cables"
+	task.23D186249A999B8C.title: "Quartz Cutting Knives"
+	task.338A6DA0D711B7DC.title: "ME Pattern Provider"
+	task.38E290AC5E011888.title: "ME Dense Smart Cables"
+	task.408C5263C4664195.title: "Chests"
+	task.40A7CC56DACC2623.title: "ME Glass Cables"
+	task.4C5435BE5560E71B.title: "AllRightsReserved"
+	task.61D93B13D496547D.title: "Fluid Storage"
+	task.64EAD3DE84E94F02.title: "ME Covered Cables"
+	task.65C439FD14C5EEB9.title: "Portable Storage"
+	task.7241918F270CA402.title: "ME Interface"
+	task.729773FF26CBB542.title: "AllRightsReserved"
+	task.75924053D6F5B242.title: "Spatial Storage Cells"
+	task.7E0D9E6342295AB0.title: "Foreword on Channels"
+	task.7FC3DAA1BD5016A0.title: "ME Smart Cables"
+}

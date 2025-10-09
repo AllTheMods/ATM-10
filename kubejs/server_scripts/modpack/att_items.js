@@ -6,7 +6,7 @@ ServerEvents.recipes(allthemods => {
   allthemods.shaped('allthetweaks:dragon_soul', ['CDA', 'SNI', 'BGE'], {
     C: 'apothic_enchanting:infused_breath',
     D: 'occultism:soul_gem',
-    A: 'occultism:spawn_egg/familiar_dragon',
+    A: Ingredient.of('justdirethings:creaturecatcher[justdirethings:entitytype="occultism:dragon_familiar"]').or('occultism:spawn_egg/familiar_dragon'),
     S: 'productivetrees:socotra_dragon_sapling',
     N: ['hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ender_dragon",hostilenetworks:data=1255]', 'hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ender_dragon",hostilenetworks:data=1254]'],
     I: 'allthemodium:piglich_heart_block',
@@ -89,7 +89,7 @@ allthemods.shaped('allthetweaks:oblivion_shard', ['DAB', 'ECF', 'BGD'], {
 
 // Pulsating Black Hole
 allthemods.shaped('allthetweaks:pulsating_black_hole', ['ABC', 'DEF', 'GHI'], {
-  A: 'irons_spellbooks:fire_upgrade_orb',
+  A: 'oritech:nuke',
   B: 'ae2:quantum_ring'  ,
   C: 'pneumaticcraft:micromissiles' ,
   D: 'justdirethings:paradoxmachine',

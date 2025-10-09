@@ -1,0 +1,252 @@
+#General settings
+[general]
+	#The minimum tick speed machines can be set to. Defaults to 1, meaning every tick
+	#Range: 1 ~ 100
+	minimum_machine_tick_speed = 20
+
+#Ability settings: For disabling certain abilities
+[abilities]
+	#mobscanner
+	mobscanner = true
+	#oreminer
+	oreminer = true
+	#orescanner
+	orescanner = false
+	#lawnmower
+	lawnmower = true
+	#skysweeper
+	skysweeper = true
+	#treefeller
+	treefeller = true
+	#leafbreaker
+	leafbreaker = true
+	#runspeed
+	runspeed = true
+	#walkspeed
+	walkspeed = true
+	#stepheight
+	stepheight = true
+	#jumpboost
+	jumpboost = true
+	#mindfog
+	mindfog = true
+	#invulnerability
+	invulnerability = true
+	#smelter
+	smelter = true
+	#smoker
+	smoker = true
+	#hammer
+	hammer = true
+	#lavarepair
+	lavarepair = true
+	#cauterizewounds
+	cauterizewounds = true
+	#airburst
+	airburst = true
+	#dropteleport
+	dropteleport = true
+	#voidshift
+	voidshift = true
+	#orexray
+	orexray = true
+	#glowing
+	glowing = true
+	#instabreak
+	instabreak = true
+	#eclipsegate
+	eclipsegate = true
+	#potionarrow
+	potionarrow = true
+	#swimspeed
+	swimspeed = true
+	#groundstomp
+	groundstomp = true
+	#extinguish
+	extinguish = true
+	#stupefy
+	stupefy = true
+	#splash
+	splash = true
+	#negatefalldamage
+	negatefalldamage = true
+	#nightvision
+	nightvision = true
+	#elytra
+	elytra = true
+	#decoy
+	decoy = true
+	#lingering
+	lingering = true
+	#homing
+	homing = true
+	#deathprotection
+	deathprotection = true
+	#debuffremover
+	debuffremover = true
+	#earthquake
+	earthquake = true
+	#noai
+	noai = true
+	#flight
+	flight = true
+	#lavaimmunity
+	lavaimmunity = true
+	#phase
+	phase = true
+	#timeprotection
+	timeprotection = true
+	#epicarrow
+	epicarrow = true
+	#The maximum number of blocks that a Ferricore tool can break as a result of abilities, such as ore miner or tree feller.
+	#Range: 1 ~ 2048
+	tool_max_break_ferricore = 64
+	#The maximum number of blocks that a Blazegold tool can break as a result of abilities, such as ore miner or tree feller.
+	#Range: 1 ~ 2048
+	tool_max_break_blazegold = 128
+	#The maximum number of blocks that a Celestigem tool can break as a result of abilities, such as ore miner or tree feller.
+	#Range: 1 ~ 2048
+	tool_max_break_celestigem = 192
+	#The maximum number of blocks that a Eclipse Alloy tool can break as a result of abilities, such as ore miner or tree feller.
+	#Range: 1 ~ 2048
+	tool_max_break_eclipsealloy = 256
+
+#Generator T1
+[generator_t1]
+	#The amount of Forge Energy created per burn tick of fuel. Coal has 1600 burn ticks. Sticks have 100 burn ticks.
+	#Range: > 1
+	generator_t1_fe_per_fuel_tick = 15
+	#The multiplier for the burn speed, making the generator run faster. Coal is 1600 ticks to burn, if you set this to 10, it will burn in 160 ticks
+	#Range: 1 ~ 1000
+	generator_t1_burn_speed_multiplier = 4
+	#The maximum amount of Forge Energy the generator can hold in its buffer
+	#Range: > 1
+	generator_t1_max_fe = 1000000
+	#The FE per Tick that the generator outputs
+	#Range: > 1
+	generator_t1_fe_per_tick = 1000
+
+#Fluid Generator T1
+[generator_fluid_t1]
+	#The maximum amount of Forge Energy the generator can hold in its buffer
+	#Range: > 1
+	generator_fluid_t1_max_fe = 5000000
+	#The FE per Tick that the generator outputs
+	#Range: > 1
+	generator_fluid_t1_fe_per_tick = 5000
+	#The FE per produced per MB of Tier 2 fuel (Blaze Ember)
+	#Range: > 1
+	fuel_tier2_fe_per_mb = 450
+	#The FE per produced per MB of Tier 3 fuel (Voidflame)
+	#Range: > 1
+	fuel_tier3_fe_per_mb = 1300
+	#The FE per produced per MB of Tier 4 fuel (Eclipse Ember)
+	#Range: > 1
+	fuel_tier4_fe_per_mb = 4000
+
+#Energy Transmitter T1
+[energy_transmitter_t1]
+	#The maximum energy storage
+	#Range: > 1
+	energy_transmitter_t1_max_rf = 1000000
+	#The maximum RF transmitted per tick to machines and other transmitters
+	#Range: > 1
+	energy_transmitter_t1_rf_per_tick = 1000
+	#The energy loss per block distance in percent
+	#Range: 0.0 ~ 100.0
+	energy_transmitter_t1_loss_per_block = 1.0
+
+#Fuel Canister
+[fuel_canister]
+	#The amount of ticks 'consumed' per operation in the furnace. Lower is more efficient fuel use.
+	#Range: > 100
+	fuel_canister_minimum_ticks_consumed = 200
+	#The maximum amount of fuel (in ticks) permitted in the fuel canister.
+	#Range: > 100
+	fuel_canister_maximum_fuel = 10000000
+
+#Pocket Generator
+[pocket_generator]
+	#The amount of Forge Energy created per burn tick of fuel. Coal has 1600 burn ticks. Sticks have 100 burn ticks.
+	#Range: > 1
+	pocket_gen_fe_per_fuel_tick = 15
+	#The multiplier for the burn speed, making the generator run faster. Coal is 1600 ticks to burn, if you set this to 10, it will burn in 160 ticks
+	#Range: 1 ~ 1000
+	pocket_gen_burn_speed_multiplier = 4
+	#The maximum amount of Forge Energy the generator can hold in its buffer
+	#Range: > 1
+	pocket_gen_max_fe = 1000000
+	#The FE per Tick that the generator charges other items at
+	#Range: > 1
+	pocket_gen_fe_per_tick = 5000
+
+#Portal Guns
+[portal_gun]
+	#The maximum amount of Forge Energy the Portal Gun (V1) can hold in its buffer
+	#Range: > 1
+	portal_gun_v1_rf_capacity = 100000
+	#The Forge Energy cost to fire the Portal Gun (V1) projectile
+	#Range: > 1
+	portal_gun_v1_rf_cost = 1000
+	#The maximum amount of Forge Energy the Portal Gun (V2) can hold in its buffer
+	#Range: > 1
+	portal_gun_v2_rf_capacity = 1000000
+	#The Forge Energy cost to fire the Portal Gun (V2) projectile
+	#Range: > 1
+	portal_gun_v2_rf_cost = 5000
+
+#Goo settings
+[goo]
+	#Can goo randomly die, needing to be revived by right clicking with an item?
+	goo_can_die = true
+	#The random chance that a goo block can 'die' when it finishes crafting. Set to 1.0 to guarantee it dies every time.  Default is 0.1, which is a 10% chance.
+	#Range: 0.0 ~ 1.0
+	goo_death_chance = 0.1
+
+#Time Wand
+[time_wand]
+	#The maximum amount of Forge Energy the Time Wand can hold in its buffer
+	#Range: > 1
+	time_wand_rf_capacity = 100000
+	#The Forge Energy cost to use the Time wand. This value is multiplied by the acceleration amount. For example, when you go from 128 to 256, it will charge 256 x <this value> in FE cost.
+	#Range: > 0
+	time_wand_rf_cost = 750
+	#The Time Fluid cost to use the time wand.  This value is multiplied by the acceleration amount. For example, when you go from 128 to 256, it will charge 256 x <this value> in Time Fluid.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	time_wand_fluid_cost = 0.5
+	#The maximum speed multiplier that can be applied using a Time Wand. This value should be a power of two.
+	time_wand_max_multiplier = 128
+	#Can fake players use the Time Wand (Like in the clickers)?
+	time_wand_fake_player_allowed = false
+
+#Paradox Machine
+[paradox_machine]
+	#The maximum amount of Forge Energy the Paradox Machine can hold in its buffer
+	#Range: > 1
+	paradox_rf_capacity = 10000000
+	#The Forge Energy cost to Restore 1 block with the Paradox Machine.  This value is multiplied by the number of blocks the machine is restoring.
+	#Range: > 0
+	paradox_rf_per_block = 250000
+	#The Forge Energy cost to Restore 1 entity with the Paradox Machine.  This value is multiplied by the number of entities the machine is restoring.
+	#Range: > 0
+	paradox_rf_per_entity = 250000
+	#The maximum amount of Time Fluid the Paradox Machine can hold in its buffer
+	#Range: > 1
+	paradox_fluid_capacity = 16000
+	#The Time Fluid cost (in mb) to Restore 1 block with the Paradox Machine.  This value is multiplied by the number of blocks the machine is restoring.
+	#Range: > 0
+	paradox_fluid_per_block = 50
+	#The Time Fluid cost (in mb) to Restore 1 entity with the Paradox Machine.  This value is multiplied by the number of entities the machine is restoring.
+	#Range: > 0
+	paradox_fluid_per_entity = 50
+	#The amount of Paradox Energy accumulated in the Paradox Machine when it restores a single block. This value is multiplied by the number of blocks the machine is restoring.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	paradox_energy_per_block = 0.25
+	#The amount of Paradox Energy accumulated in the Paradox Machine when it restores a single entity. This value is multiplied by the number of blocks the machine is restoring.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	paradox_energy_per_entity = 0.25
+	#The maximum amount of Paradox Energy the Paradox Machine can hold in its buffer, before it spawns a Paradox!
+	#Range: 0.0 ~ 1.7976931348623157E308
+	paradox_energy_max = 100.0
+	#Use a more restrictive data filtering for mobs cloned by the paradox machine. When enabled, most modded mobs may not work very well.  When disabled, theres a small chance of item dupe bugs.  Recommended to leave this set to false, and add any mobs that allow dupes to the paradox machines deny entity tag.
+	paradox_restricted_mobs = false

@@ -33,7 +33,7 @@ var miningDimOres = [
     {path: 'dimensionalshard',                  id:'allthemodium:dimensionalshard',              min:-63, max:250,size:12,count:2,   stoneReplaces:"rftoolsbase:dimensionalshard_overworld",     deepslateReplaces:null,                                                  endStoneReplaces:"rftoolsbase:dimensionalshard_end",               netherrackReplaces:"rftoolsbase:dimensionalshard_nether"},
     {path: 'crimson_iron_ore',                  id:'allthemodium:crimson_iron_ore',              min:-63, max:63, size:8, count:3,   stoneReplaces:null,                                         deepslateReplaces:null,                                                  endStoneReplaces:null,                                             netherrackReplaces:"silentgear:crimson_iron_ore"},
     {path: 'azure_silver_ore',                  id:'allthemodium:azure_silver_ore',              min:-63, max:63, size:8, count:3,   stoneReplaces:null,                                         deepslateReplaces:null,                                                  endStoneReplaces:"silentgear:azure_silver_ore",                    netherrackReplaces:null},
-
+    {path: 'draconium_ore',                     id:'allthemodium:draconium_ore',                 min:-63, max:250,size:4,count:8,    stoneReplaces:"draconicevolution:overworld_draconium_ore",  deepslateReplaces:null,                                                  endStoneReplaces:null,                                             netherrackReplaces:null}
 ]
 
 ServerEvents.generateData('after_mods', allthemods => {

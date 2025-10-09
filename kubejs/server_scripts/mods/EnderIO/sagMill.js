@@ -36,6 +36,7 @@ ServerEvents.recipes(allthemods => {
     global.xycraftColours.forEach(colour => {
         sagMill(`#c:ores/xychorium_${colour}`, 2400, {item: `xycraft_world:xychorium_gem_${colour}`, count: 4})
       })
+    allthemods.remove({id: 'enderio:sag_milling/ender_pearl'})
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

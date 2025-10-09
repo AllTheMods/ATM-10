@@ -1,0 +1,3374 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "ice__fire"
+	group: "5A4775CCD6D26C80"
+	icon: {
+		id: "iceandfire:dragon_skull_fire"
+	}
+	id: "5D8E83698AEF1092"
+	images: [
+		{
+			height: 4.0d
+			image: "atm:textures/questpics/iceandfire/iaf_title_1.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 23.5d
+			y: -28.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/iceandfire/iaf_title_2.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 27.5d
+			y: -27.5d
+		}
+		{
+			height: 4.0d
+			image: "atm:textures/questpics/iceandfire/iaf_title_3.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 31.5d
+			y: -28.0d
+		}
+		{
+			height: 1.5d
+			image: "atm:textures/questpics/iceandfire/iaf_title_pets.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 27.5d
+			y: -33.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/iceandfire/iaf_title_amphithere.png"
+			rotation: -45.0d
+			width: 5.0d
+			x: 36.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/iceandfire/iaf_title_siren.png"
+			rotation: 45.0d
+			width: 3.0d
+			x: 17.5d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/iceandfire/iaf_title_hippocampus.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 39.0d
+			y: -5.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/iceandfire/iaf_title_serpent.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 44.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/iceandfire/iaf_title_cockatrice.png"
+			rotation: 90.0d
+			width: 4.0d
+			x: 37.5d
+			y: -12.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/iceandfire/iaf_title_hydra.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 27.5d
+			y: -22.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/iceandfire/iaf_title_stymphalian.png"
+			rotation: -45.0d
+			width: 5.0d
+			x: 22.5d
+			y: -21.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/iceandfire/iaf_title_birds.png"
+			rotation: -45.0d
+			width: 2.0d
+			x: 23.0d
+			y: -21.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/iceandfire/iaf_title_ghosts.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 27.5d
+			y: -2.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/iceandfire/iaf_title_cyclops.png"
+			rotation: 45.0d
+			width: 4.0d
+			x: 36.5d
+			y: -16.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/iceandfire/iaf_title_pixie.png"
+			rotation: -45.0d
+			width: 2.5d
+			x: 19.0d
+			y: -17.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/iceandfire/iaf_title_hippogryth.png"
+			rotation: -45.0d
+			width: 5.0d
+			x: 31.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/iceandfire/iaf_title_trolls.png"
+			rotation: 90.0d
+			width: 3.0d
+			x: 16.5d
+			y: -12.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/iceandfire/iaf_title_gorgon.png"
+			rotation: 45.0d
+			width: 3.5d
+			x: 23.5d
+			y: -3.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/iceandfire/iaf_title_worm.png"
+			rotation: 45.0d
+			width: 6.0d
+			x: 32.0d
+			y: -21.0d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/iceandfire/iaf_ghost.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 28.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/iceandfire/iaf_bird.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 21.0d
+			y: -22.5d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/iceandfire/iaf_hydra.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 27.5d
+			y: -24.5d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/iceandfire/iaf_cockatrice.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 40.0d
+			y: -12.0d
+		}
+		{
+			height: 4.0d
+			image: "atm:textures/questpics/iceandfire/iaf_serpent.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 44.5d
+			y: -6.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/iceandfire/iaf_hippocampus.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 39.0d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/iceandfire/iaf_siren.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 16.5d
+			y: -7.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/iceandfire/iaf_amphithere.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 38.0d
+			y: -7.5d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/iceandfire/iaf_worm.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 33.5d
+			y: -22.5d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/iceandfire/iaf_gorgon.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.5d
+			y: -2.0d
+		}
+		{
+			height: 4.0d
+			image: "atm:textures/questpics/iceandfire/iaf_troll.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 15.0d
+			y: -12.5d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/iceandfire/iaf_hippogryth.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 33.5d
+			y: -2.0d
+		}
+		{
+			height: 2.0d
+			image: "atm:textures/questpics/iceandfire/iaf_pixie.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 18.0d
+			y: -18.0d
+		}
+		{
+			height: 6.0d
+			image: "atm:textures/questpics/iceandfire/iaf_cyclops.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 38.5d
+			y: -18.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/iceandfire/iaf_title_firedragon.png"
+			rotation: 90.0d
+			width: 5.0d
+			x: 23.5d
+			y: -39.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/iceandfire/iaf_title_icedragon.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 27.5d
+			y: -48.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/iceandfire/iaf_title_lightningdragon.png"
+			rotation: 90.0d
+			width: 6.0d
+			x: 32.0d
+			y: -39.5d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/iceandfire/iaf_firedragon.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 20.5d
+			y: -39.0d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/iceandfire/iaf_lightningdragon.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 35.0d
+			y: -39.0d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/iceandfire/iaf_icedragon.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 27.5d
+			y: -49.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["48B1BD7D86CAC4A0"]
+			icon: {
+				id: "minecraft:mossy_stone_bricks"
+			}
+			id: "121DE9824813D558"
+			rewards: [{
+				id: "1171AAAC86DAAE14"
+				item: {
+					count: 1
+					id: "iceandfire:blindfold"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "5D8E5A7F92C88F44"
+				structure: "iceandfire:gorgon_temple"
+				type: "structure"
+			}]
+			x: 25.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["48B1BD7D86CAC4A0"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/iceandfire/gorgon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "41C7DEAB41F4B700"
+			rewards: [
+				{
+					id: "40094E883287F615"
+					item: {
+						count: 1
+						id: "iceandfire:gorgon_head"
+					}
+					type: "item"
+				}
+				{
+					id: "137DA6FDD6AC226A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "iceandfire:gorgon"
+				id: "38F3C03364C441E4"
+				type: "kill"
+				value: 1L
+			}]
+			x: 25.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["41C7DEAB41F4B700"]
+			id: "395417A7ABC3658F"
+			rewards: [
+				{
+					id: "350381EE0DEFB2D4"
+					item: {
+						count: 1
+						id: "iceandfire:podium_spruce"
+					}
+					type: "item"
+				}
+				{
+					id: "5F815DCBD01892D5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "1494733856F6E4A8"
+				item: { count: 1, id: "iceandfire:gorgon_head" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["48B1BD7D86CAC4A0"]
+			icon: {
+				id: "minecraft:gravel"
+			}
+			id: "136C40D8350651DC"
+			rewards: [{
+				id: "5AAE18C543D84F16"
+				item: {
+					count: 1
+					id: "iceandfire:earplugs"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "285FF72E7A57C8FA"
+				structure: "iceandfire:siren_island"
+				type: "structure"
+			}]
+			x: 22.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["48B1BD7D86CAC4A0"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/iceandfire/siren.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1713E5D74658F095"
+			rewards: [
+				{
+					count: 6
+					id: "3F1311F11555D9A5"
+					item: {
+						count: 1
+						id: "iceandfire:shiny_scales"
+					}
+					type: "item"
+				}
+				{
+					id: "0FE0F3AF71C47330"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "ars_elemental:siren_entity"
+				id: "4A5A8491B4195EF1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 21.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["1713E5D74658F095"]
+			dependency_requirement: "one_completed"
+			id: "7D086BC5AC152E27"
+			rewards: [
+				{
+					id: "2A4DC8D5B839FD63"
+					item: {
+						count: 1
+						id: "iceandfire:dragon_flute"
+					}
+					type: "item"
+				}
+				{
+					id: "70EE34FFCD4B4BFF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7D5A9EAB8115BEEE"
+				item: { count: 1, id: "iceandfire:shiny_scales" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -9.5d
+		}
+		{
+			icon: {
+				id: "minecraft:water_bucket"
+			}
+			id: "6ECB27052FCB874E"
+			rewards: [
+				{
+					id: "0D935234F9A13C00"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:water_breathing"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "5EAECB0D188553DE"
+					item: {
+						count: 1
+						id: "minecraft:bamboo_raft"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				biome: "#c:is_ocean"
+				id: "759571AAA3323C3C"
+				type: "biome"
+			}]
+			x: 41.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6ECB27052FCB874E"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/iceandfire/hippocampus.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "760864EE43FB33AC"
+			rewards: [
+				{
+					count: 10
+					id: "191C656121902C31"
+					item: {
+						count: 1
+						id: "minecraft:kelp"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2A65215739454463"
+					item: {
+						count: 1
+						id: "iceandfire:shiny_scales"
+					}
+					type: "item"
+				}
+				{
+					id: "4B784FDE94515ED7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "iceandfire:hippocampus"
+				id: "5870EE53D7903B79"
+				type: "kill"
+				value: 1L
+			}]
+			x: 39.25d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6ECB27052FCB874E"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/iceandfire/sea_serpent.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "74C648FC8733310B"
+			rewards: [
+				{
+					count: 5
+					id: "417CAD892B7CDA58"
+					item: {
+						count: 1
+						id: "iceandfire:sea_serpent_fang"
+					}
+					type: "item"
+				}
+				{
+					id: "7B0E687BC86BE89E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_sea_serpent"
+				criterion: ""
+				id: "5FCC313B7A243C14"
+				type: "advancement"
+			}]
+			x: 43.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["760864EE43FB33AC"]
+			id: "41F9CC26C7D86AE9"
+			rewards: [
+				{
+					id: "10512F1A1E8147F9"
+					item: {
+						count: 1
+						id: "iceandfire:podium_acacia"
+					}
+					type: "item"
+				}
+				{
+					id: "2A02748E9D34F3C7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "61221620C0A33E76"
+				item: { count: 1, id: "iceandfire:hippocampus_slapper" }
+				type: "item"
+			}]
+			x: 37.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["02DEAB3F1198BFBE"]
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "0FE94BE5ADB6E595"
+			rewards: [
+				{
+					id: "130241B5638EE088"
+					item: {
+						count: 1
+						id: "minecraft:skeleton_skull"
+					}
+					type: "item"
+				}
+				{
+					id: "71A0FC02F0AF30DE"
+					item: {
+						count: 1
+						id: "minecraft:milk_bucket"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "4CABDAEC3F3F1F11"
+				structure: "iceandfire:hydra_cave"
+				type: "structure"
+			}]
+			x: 27.5d
+			y: -18.5d
+		}
+		{
+			dependencies: ["02DEAB3F1198BFBE"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/iceandfire/hydra.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "05113AC92BC1B192"
+			rewards: [
+				{
+					id: "20E7E1498DE46682"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:fire_aspect": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "55992F4DA22296F6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_hydra"
+				criterion: ""
+				id: "7C0E4ABB6C65209E"
+				type: "advancement"
+			}]
+			x: 27.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["05113AC92BC1B192"]
+			id: "09ABD5D978373A54"
+			rewards: [
+				{
+					id: "27FDACA2782941DA"
+					item: {
+						count: 1
+						id: "iceandfire:hydra_skull"
+					}
+					type: "item"
+				}
+				{
+					id: "51145CC5AD6A7328"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "28B0E1A879CD61B0"
+				item: { count: 1, id: "iceandfire:hydra_heart" }
+				type: "item"
+			}]
+			x: 27.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["05113AC92BC1B192"]
+			id: "65E98FCE27B552F4"
+			rewards: [
+				{
+					count: 12
+					id: "0E40D54F879FBC55"
+					item: {
+						count: 1
+						id: "iceandfire:hydra_arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "21CCDAA6B49A8FD1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "05F354B18789BB1A"
+				item: { count: 8, id: "iceandfire:hydra_arrow" }
+				type: "item"
+			}]
+			x: 28.0d
+			y: -21.5d
+		}
+		{
+			dependencies: ["10CA52D15EAB71A3"]
+			icon: {
+				id: "minecraft:white_wool"
+			}
+			id: "435890CE1A1B3C04"
+			rewards: [
+				{
+					count: 9
+					id: "6350A44630AFC173"
+					item: {
+						count: 1
+						id: "minecraft:wheat"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6B52EB3D8CC0CC31"
+					item: {
+						count: 1
+						id: "minecraft:lead"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "3255658206244B26"
+				structure: "iceandfire:cyclops_cave"
+				type: "structure"
+			}]
+			x: 32.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["10CA52D15EAB71A3"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/iceandfire/cyclops.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3C0671BE5E94730E"
+			rewards: [
+				{
+					count: 16
+					id: "2AD0763DDE8C3E77"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "104B98FE45BA0BD5"
+					item: {
+						count: 1
+						id: "minecraft:sheep_spawn_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "187BD0E4F0CA775E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "iceandfire:cyclops"
+				id: "6EB647A53A11DE56"
+				type: "kill"
+				value: 1L
+			}]
+			x: 34.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["3C0671BE5E94730E"]
+			id: "2A26CE0E88B62002"
+			rewards: [
+				{
+					id: "784F4F143E369D7E"
+					item: {
+						count: 1
+						id: "iceandfire:cyclops_skull"
+					}
+					type: "item"
+				}
+				{
+					id: "7C7962252A452193"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "587B3F36D9262E76"
+				item: { count: 1, id: "iceandfire:cyclops_eye" }
+				type: "item"
+			}]
+			x: 35.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["10CA52D15EAB71A3"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/iceandfire/amphithere.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "2D71532A99C167AA"
+			rewards: [
+				{
+					count: 3
+					id: "0C89CB730C922989"
+					item: {
+						count: 1
+						id: "iceandfire:amphithere_feather"
+					}
+					type: "item"
+				}
+				{
+					id: "4E3404ABEA24DC16"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "08D02CC21A08D203"
+				item: { count: 1, id: "iceandfire:amphithere_feather" }
+				type: "item"
+			}]
+			x: 34.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["74C648FC8733310B"]
+			id: "2B84A4377688B189"
+			rewards: [
+				{
+					id: "067E8C8ACD72FBE6"
+					item: {
+						count: 1
+						id: "iceandfire:dragonbone"
+					}
+					type: "item"
+				}
+				{
+					id: "7F047CC4A9741B6E"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					id: "46560B92C82799C7"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "047744035FE7C4C6"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(iceandfire:scales/sea_serpent))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "56EE83CE2BAF71DC"
+					item: { count: 1, id: "iceandfire:sea_serpent_fang" }
+					type: "item"
+				}
+			]
+			x: 45.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["703790CCCE440946"]
+			icon: {
+				id: "iceandfire:graveyard_soil"
+			}
+			id: "661114AFCBBD5F28"
+			rewards: [{
+				id: "75164A5CAE4C7D91"
+				item: {
+					count: 1
+					id: "minecraft:wither_rose"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "5B975D6E9F9CA297"
+				structure: "iceandfire:graveyard"
+				type: "structure"
+			}]
+			x: 28.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["703790CCCE440946"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/iceandfire/ghost.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "14CF23064A6035CD"
+			rewards: [
+				{
+					count: 6
+					id: "26DBB289D1B7521E"
+					item: {
+						count: 1
+						id: "iceandfire:ectoplasm"
+					}
+					type: "item"
+				}
+				{
+					id: "6FDD5372E7B47FCF"
+					item: {
+						count: 1
+						id: "iceandfire:ghost_chest"
+					}
+					type: "item"
+				}
+				{
+					id: "20804AD8D9374C3B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_ghost"
+				criterion: ""
+				id: "51788617A8177A2E"
+				type: "advancement"
+			}]
+			x: 27.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["10CA52D15EAB71A3"]
+			id: "4ED6B18DF7D51E13"
+			rewards: [
+				{
+					id: "23063A5D0B310E9F"
+					item: {
+						count: 1
+						id: "minecraft:fishing_rod"
+					}
+					type: "item"
+				}
+				{
+					id: "526C3390005E1981"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_deathworm"
+				criterion: ""
+				id: "2A3B3D5B7E30D978"
+				type: "advancement"
+			}]
+			x: 30.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["59D91C5E11F67FC3"]
+			icon: {
+				id: "iceandfire:pixie_house_mushroom_red"
+			}
+			id: "5E45C9C2D72EDBCC"
+			rewards: [{
+				count: 3
+				id: "7DB05CF705D6F879"
+				item: {
+					count: 1
+					id: "iceandfire:pixie_dust"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "3F5CDB32322A8D04"
+				structure: "iceandfire:pixie_village"
+				type: "structure"
+			}]
+			x: 22.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["59D91C5E11F67FC3"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/iceandfire/pixie.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "617C6D6C35B4917D"
+			rewards: [
+				{
+					id: "634487BACBC1C819"
+					item: {
+						count: 1
+						id: "minecraft:cake"
+					}
+					type: "item"
+				}
+				{
+					id: "781674DD249B05AE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "0F93AA0655EB66FB"
+				item: { count: 1, id: "iceandfire:pixie_dust" }
+				type: "item"
+			}]
+			x: 21.0d
+			y: -15.0d
+		}
+		{
+			dependencies: [
+				"59D91C5E11F67FC3"
+				"02DEAB3F1198BFBE"
+				"703790CCCE440946"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "iceandfire:textures/entity_icon/troll/troll_mountain.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5D6A4E574823446F"
+			rewards: [
+				{
+					count: 3
+					id: "07CBFEFB4DA85D89"
+					item: {
+						count: 1
+						id: "iceandfire:troll_tusk"
+					}
+					type: "item"
+				}
+				{
+					id: "05F44D59FE0A97AA"
+					item: {
+						count: 1
+						id: "iceandfire:troll_weapon_axe"
+					}
+					type: "item"
+				}
+				{
+					id: "55770941ACFEA0C2"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "iceandfire:troll"
+				id: "4EF4052D397751EB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 20.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["5D6A4E574823446F"]
+			id: "45084D3A3E5DB63B"
+			rewards: [
+				{
+					count: 3
+					id: "2A8C58F86FEE3666"
+					item: {
+						count: 1
+						id: "iceandfire:troll_tusk"
+					}
+					type: "item"
+				}
+				{
+					id: "4D4AEE963E881B57"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4FDAD86E9BC70A05"
+					item: { count: 1, id: "iceandfire:troll_tusk" }
+					type: "item"
+				}
+				{
+					id: "413E2B1199F7B2FE"
+					item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:troll_leather_forest)item(iceandfire:troll_leather_frost)item(iceandfire:troll_leather_mountain))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 19.0d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"6800E0113DE9A4DB"
+				"59D91C5E11F67FC3"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "iceandfire:chared_grass"
+			}
+			id: "7FA9EA93602A98EC"
+			rewards: [
+				{
+					count: 5
+					id: "3D22D7D6124B2FC4"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "2C27894C6B1B7D20"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_fire_resistance"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "4A701B5690DF9EF1"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "565B8C25FBA06F96"
+				structure: "iceandfire:fire_dragon_roost"
+				type: "structure"
+			}]
+			x: 25.0d
+			y: -38.0d
+		}
+		{
+			dependencies: [
+				"6800E0113DE9A4DB"
+				"02DEAB3F1198BFBE"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "iceandfire:frozen_grass"
+			}
+			id: "70AD5D79881EE1B5"
+			rewards: [
+				{
+					count: 5
+					id: "402E5826EFBD7C04"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "6387A0F9A46CA8E0"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_swiftness"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "777ADC9832232888"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "7F104F1116B969DA"
+				structure: "iceandfire:ice_dragon_roost"
+				type: "structure"
+			}]
+			x: 27.5d
+			y: -37.5d
+		}
+		{
+			dependencies: [
+				"6800E0113DE9A4DB"
+				"10CA52D15EAB71A3"
+			]
+			hide_dependency_lines: true
+			icon: {
+				id: "iceandfire:crackled_grass"
+			}
+			id: "42626A0CD814353D"
+			rewards: [
+				{
+					count: 5
+					id: "6A898D0464DD2A43"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "0707B4686771F2D3"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_strength"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "6406DAE229BD5026"
+					type: "xp"
+					xp: 200
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "15F4F0FABA54C6AE"
+				structure: "iceandfire:lightning_dragon_roost"
+				type: "structure"
+			}]
+			x: 30.0d
+			y: -38.0d
+		}
+		{
+			dependencies: ["6800E0113DE9A4DB"]
+			icon: {
+				id: "minecraft:raw_gold_block"
+			}
+			id: "43630EF0B85AE7E1"
+			rewards: [
+				{
+					count: 10
+					id: "063C07057F1324DC"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "1C35012D62927870"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:fire_resistance"
+							}
+						}
+						count: 1
+						id: "apotheosis:potion_charm"
+					}
+					type: "item"
+				}
+				{
+					id: "2CB2A24520107ED9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "7A931B7C3BF01FC7"
+				structure: "iceandfire:fire_dragon_cave"
+				type: "structure"
+			}]
+			x: 25.0d
+			y: -40.5d
+		}
+		{
+			dependencies: ["6800E0113DE9A4DB"]
+			icon: {
+				id: "alltheores:raw_silver_block"
+			}
+			id: "70099F9B69F9D055"
+			rewards: [
+				{
+					count: 10
+					id: "709655CA8BC5BF3F"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "45D8405B5C800953"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:swiftness"
+							}
+						}
+						count: 1
+						id: "apotheosis:potion_charm"
+					}
+					type: "item"
+				}
+				{
+					id: "0769121CB755B39D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "48B38176DBF65168"
+				structure: "iceandfire:ice_dragon_cave"
+				type: "structure"
+			}]
+			x: 27.5d
+			y: -40.0d
+		}
+		{
+			dependencies: ["6800E0113DE9A4DB"]
+			icon: {
+				id: "minecraft:raw_copper_block"
+			}
+			id: "1CB063BBEC35712B"
+			rewards: [
+				{
+					count: 10
+					id: "1E3EA1228CAC82DC"
+					item: {
+						count: 1
+						id: "minecraft:enchanted_golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "71FB3B438B85DC69"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:strength"
+							}
+						}
+						count: 1
+						id: "apotheosis:potion_charm"
+					}
+					type: "item"
+				}
+				{
+					id: "48E008D2F1B16F36"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "5B3640F3D347CB3A"
+				structure: "iceandfire:lightning_dragon_cave"
+				type: "structure"
+			}]
+			x: 30.0d
+			y: -40.5d
+		}
+		{
+			dependencies: ["6800E0113DE9A4DB"]
+			id: "32992E3534B86521"
+			rewards: [
+				{
+					id: "23EE06D807DA5238"
+					item: {
+						count: 1
+						id: "iceandfire:fire_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "139B29EC0F12053A"
+					item: {
+						count: 1
+						id: "iceandfire:fire_dragon_blood"
+					}
+					type: "item"
+				}
+				{
+					id: "08F921FCFF8F73F0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4F3D1BF4E10770D2"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(iceandfire:scales/dragon/fire))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "54DE1FB742295FA9"
+					item: { count: 1, id: "iceandfire:fire_dragon_blood" }
+					type: "item"
+				}
+			]
+			x: 25.0d
+			y: -39.0d
+		}
+		{
+			dependencies: ["6800E0113DE9A4DB"]
+			id: "43922DB543DC05C0"
+			rewards: [
+				{
+					id: "3392A2868F6D4CB7"
+					item: {
+						count: 1
+						id: "iceandfire:ice_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7E15DBFFA59C6617"
+					item: {
+						count: 1
+						id: "iceandfire:ice_dragon_blood"
+					}
+					type: "item"
+				}
+				{
+					id: "0DCF00EDADB5A4F4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0620A9784793301A"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(iceandfire:scales/dragon/ice))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "163D463630E6AD8D"
+					item: { count: 1, id: "iceandfire:ice_dragon_blood" }
+					type: "item"
+				}
+			]
+			x: 27.5d
+			y: -38.5d
+		}
+		{
+			dependencies: ["6800E0113DE9A4DB"]
+			id: "4B65720872B062F8"
+			rewards: [
+				{
+					id: "2FB7355AFFCF1181"
+					item: {
+						count: 1
+						id: "iceandfire:lightning_dragon_heart"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "04ECBE0892A0CF1D"
+					item: {
+						count: 1
+						id: "iceandfire:lightning_dragon_blood"
+					}
+					type: "item"
+				}
+				{
+					id: "0572472B9638713E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					id: "4BFCCD15D178ED0D"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(iceandfire:scales/dragon/lightning))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "7538AE48DD0CB96B"
+					item: { count: 1, id: "iceandfire:lightning_dragon_blood" }
+					type: "item"
+				}
+			]
+			x: 30.0d
+			y: -39.0d
+		}
+		{
+			dependencies: ["6800E0113DE9A4DB"]
+			id: "765CD913CC3896B2"
+			rewards: [
+				{
+					count: 2
+					id: "3A0C759085B87E3B"
+					item: {
+						count: 1
+						id: "iceandfire:dragonscale_red"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5441EAE443B1806F"
+					item: {
+						count: 1
+						id: "iceandfire:dragonscale_green"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "044B626529F05B11"
+					item: {
+						count: 1
+						id: "iceandfire:dragonscale_bronze"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6B4BE884950F3241"
+					item: {
+						count: 1
+						id: "iceandfire:dragonscale_gray"
+					}
+					type: "item"
+				}
+				{
+					id: "26AE1C878ED68EFC"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "73A02CA0F7204A81"
+				item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:dragonegg_red)item(iceandfire:dragonegg_green)item(iceandfire:dragonegg_bronze)item(iceandfire:dragonegg_gray))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: -41.5d
+		}
+		{
+			dependencies: ["6800E0113DE9A4DB"]
+			id: "0B3AC4E923332AC6"
+			rewards: [
+				{
+					count: 2
+					id: "34DE03219C20BDC0"
+					item: {
+						count: 1
+						id: "iceandfire:dragonscale_blue"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2E661BF4DF36AEDB"
+					item: {
+						count: 1
+						id: "iceandfire:dragonscale_white"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4DFC6AF19776AB84"
+					item: {
+						count: 1
+						id: "iceandfire:dragonscale_sapphire"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "117D10B5F3372A6E"
+					item: {
+						count: 1
+						id: "iceandfire:dragonscale_silver"
+					}
+					type: "item"
+				}
+				{
+					id: "70CDD1C27278A324"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "4703C2FA0B8E7CA5"
+				item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:dragonegg_blue)item(iceandfire:dragonegg_white)item(iceandfire:dragonegg_sapphire)item(iceandfire:dragonegg_silver))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: -41.0d
+		}
+		{
+			dependencies: ["6800E0113DE9A4DB"]
+			id: "1042A0DC0A9321BB"
+			rewards: [
+				{
+					count: 2
+					id: "330380BB76C70BF6"
+					item: {
+						count: 1
+						id: "iceandfire:dragonscale_electric"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "4BE5BFBB690B5014"
+					item: {
+						count: 1
+						id: "iceandfire:dragonscale_amethyst"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "682192EA8E7BAB7D"
+					item: {
+						count: 1
+						id: "iceandfire:dragonscale_copper"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7EE594E5702BA04D"
+					item: {
+						count: 1
+						id: "iceandfire:dragonscale_black"
+					}
+					type: "item"
+				}
+				{
+					id: "56B670222267BAED"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "721D4B2BCA090BEE"
+				item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:dragonegg_electric)item(iceandfire:dragonegg_amethyst)item(iceandfire:dragonegg_copper)item(iceandfire:dragonegg_black))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 30.0d
+			y: -41.5d
+		}
+		{
+			dependencies: ["02DEAB3F1198BFBE"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/iceandfire/stymphalian_bird.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "666FFDFDB7C869F5"
+			rewards: [
+				{
+					count: 5
+					id: "3C8806480B9349E0"
+					item: {
+						count: 1
+						id: "iceandfire:stymphalian_bird_feather"
+					}
+					type: "item"
+				}
+				{
+					id: "67A09E7BA929CA33"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				advancement: "iceandfire:iceandfire/kill_stymphalian_bird"
+				criterion: ""
+				id: "2CA26752EEF201B1"
+				type: "advancement"
+			}]
+			x: 25.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["77793642678CB886"]
+			id: "176D31AF1B0925AA"
+			rewards: [
+				{
+					count: 3
+					id: "04DA3E5603F3A056"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "27A138AD4064173C"
+					item: {
+						count: 1
+						id: "iceandfire:dragon_bone_block"
+					}
+					type: "item"
+				}
+				{
+					id: "4C9D3D863FCFBAAD"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					count: 8L
+					id: "0E9B4F4A00E26E63"
+					item: { count: 4, id: "iceandfire:dragon_bone_block" }
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "6830A36E7241CC4A"
+					item: { count: 1, id: "iceandfire:dragonforge_fire_brick" }
+					type: "item"
+				}
+				{
+					id: "7712FBE2D5F31D8E"
+					item: { count: 1, id: "iceandfire:dragonforge_fire_input" }
+					type: "item"
+				}
+				{
+					id: "4B9CDCD867DA1114"
+					item: { count: 1, id: "iceandfire:dragonforge_fire_core_disabled" }
+					type: "item"
+				}
+			]
+			x: 24.0d
+			y: -45.0d
+		}
+		{
+			dependencies: ["2B2BB53FA86A07B7"]
+			id: "45068FB6758D3BA1"
+			rewards: [
+				{
+					count: 3
+					id: "012FCD3DE0C3DA32"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7BA601D5EE720502"
+					item: {
+						count: 1
+						id: "iceandfire:dragon_bone_block"
+					}
+					type: "item"
+				}
+				{
+					id: "65808A93CD60CC67"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					count: 8L
+					id: "58AF4278D8C796E8"
+					item: { count: 8, id: "iceandfire:dragon_bone_block" }
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "0FA90251FC56217A"
+					item: { count: 17, id: "iceandfire:dragonforge_ice_brick" }
+					type: "item"
+				}
+				{
+					id: "41092B8251BA373C"
+					item: { count: 1, id: "iceandfire:dragonforge_ice_input" }
+					type: "item"
+				}
+				{
+					id: "573F7F097FFFDC31"
+					item: { count: 1, id: "iceandfire:dragonforge_ice_core_disabled" }
+					type: "item"
+				}
+			]
+			x: 27.5d
+			y: -45.5d
+		}
+		{
+			dependencies: ["0481E975F317F64D"]
+			id: "210542B036255FBF"
+			rewards: [
+				{
+					count: 3
+					id: "2CD3EDC1E56F57EB"
+					item: {
+						count: 1
+						id: "minecraft:iron_block"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5F63FE2F95F801CC"
+					item: {
+						count: 1
+						id: "iceandfire:dragon_bone_block"
+					}
+					type: "item"
+				}
+				{
+					id: "4F57C1FF8612DA0D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					count: 8L
+					id: "290E080FC208757E"
+					item: { count: 8, id: "iceandfire:dragon_bone_block" }
+					type: "item"
+				}
+				{
+					count: 17L
+					id: "3F28CACFA8B8D68A"
+					item: { count: 17, id: "iceandfire:dragonforge_lightning_brick" }
+					type: "item"
+				}
+				{
+					id: "369CAB512FEAEE0E"
+					item: { count: 1, id: "iceandfire:dragonforge_lightning_input" }
+					type: "item"
+				}
+				{
+					id: "1239D87B4EDAF26B"
+					item: { count: 1, id: "iceandfire:dragonforge_lightning_core_disabled" }
+					type: "item"
+				}
+			]
+			x: 31.0d
+			y: -45.0d
+		}
+		{
+			dependencies: ["666FFDFDB7C869F5"]
+			id: "2E7D6A54B361B727"
+			rewards: [
+				{
+					id: "2747640752D472CF"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:sharpness": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "3C7261102870874C"
+					item: {
+						count: 1
+						id: "iceandfire:stymphalian_skull"
+					}
+					type: "item"
+				}
+				{
+					id: "794FA420A2D2EA76"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "4AFEDE13A758B44D"
+				item: { count: 1, id: "iceandfire:stymphalian_bird_dagger" }
+				type: "item"
+			}]
+			x: 24.5d
+			y: -20.5d
+		}
+		{
+			dependencies: ["666FFDFDB7C869F5"]
+			id: "2738184B6A688D2C"
+			rewards: [
+				{
+					count: 12
+					id: "032267148F5DC091"
+					item: {
+						count: 1
+						id: "iceandfire:stymphalian_arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "61582B734F1ED5CD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "62663F4A25870879"
+				item: { count: 1, id: "iceandfire:stymphalian_arrow" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: -19.5d
+		}
+		{
+			dependencies: [
+				"7D086BC5AC152E27"
+				"1713E5D74658F095"
+			]
+			id: "7CBF22CCCF599F26"
+			rewards: [
+				{
+					id: "4CE0057AF72795CA"
+					item: {
+						count: 1
+						id: "iceandfire:dragon_bone_block"
+					}
+					type: "item"
+				}
+				{
+					id: "62A3448FA79C4582"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "54D8620F0F9CFC01"
+				item: { count: 1, id: "iceandfire:siren_flute" }
+				type: "item"
+			}]
+			x: 18.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["14CF23064A6035CD"]
+			id: "39107884D6C80D41"
+			rewards: [
+				{
+					id: "77EBECB469EDC7BE"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:sharpness": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "5729704C65A07D2E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "206FFEC41FF12130"
+				item: { count: 1, id: "iceandfire:ghost_sword" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"760864EE43FB33AC"
+				"3166CA00032C18F7"
+			]
+			hide_dependency_lines: true
+			id: "37DB7871590921CF"
+			rewards: [
+				{
+					id: "016DBC5D8A8ACABA"
+					item: {
+						count: 1
+						id: "minecraft:saddle"
+					}
+					type: "item"
+				}
+				{
+					id: "40FA6F1A1C24E20B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "4A894487D6AEA124"
+				item: { count: 1, id: "minecraft:kelp" }
+				type: "item"
+			}]
+			x: 29.0d
+			y: -30.5d
+		}
+		{
+			dependencies: ["2B84A4377688B189"]
+			id: "43008E93B34F4F06"
+			rewards: [
+				{
+					count: 12
+					id: "5221F5FF3698B088"
+					item: {
+						count: 1
+						id: "iceandfire:sea_serpent_arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "2CFE49BAEA6FA85E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "484E79013543D76D"
+				item: { count: 1, id: "iceandfire:sea_serpent_arrow" }
+				type: "item"
+			}]
+			x: 46.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2B84A4377688B189"]
+			id: "6FE6F50029D690C0"
+			rewards: [
+				{
+					id: "798017FFD5ED158D"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:loyalty": 5
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "6F70D3833DD18205"
+					item: {
+						count: 1
+						id: "iceandfire:seaserpent_skull"
+					}
+					type: "item"
+				}
+				{
+					id: "6ABAFCC9B29F96E5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "2D60CE44A290C710"
+				item: { count: 1, id: "iceandfire:tide_trident" }
+				type: "item"
+			}]
+			x: 46.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5D6A4E574823446F"]
+			id: "7C5FC2015F1E6DB1"
+			rewards: [
+				{
+					id: "38AF49F3C9D68959"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:unbreaking": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "4D0DFACEBE05EEDB"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "4F3B27F987FA751B"
+				item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:troll_weapon_axe)item(iceandfire:troll_weapon_column)item(iceandfire:troll_weapon_column_forest)item(iceandfire:troll_weapon_column_frost)item(iceandfire:troll_weapon_hammer)item(iceandfire:troll_weapon_trunk)item(iceandfire:troll_weapon_trunk_frost))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["45084D3A3E5DB63B"]
+			id: "03326C2FF16F64C3"
+			rewards: [
+				{
+					id: "711D3934D67E5E17"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:projectile_protection": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "31ED243544E87200"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "2F6DA7A9259F8585"
+				item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:forest_troll_leather_helmet)item(iceandfire:forest_troll_leather_chestplate)item(iceandfire:forest_troll_leather_leggings)item(iceandfire:forest_troll_leather_boots)item(iceandfire:frost_troll_leather_helmet)item(iceandfire:frost_troll_leather_chestplate)item(iceandfire:frost_troll_leather_leggings)item(iceandfire:frost_troll_leather_boots)item(iceandfire:mountain_troll_leather_helmet)item(iceandfire:mountain_troll_leather_chestplate)item(iceandfire:mountain_troll_leather_leggings)item(iceandfire:mountain_troll_leather_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 18.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["4ED6B18DF7D51E13"]
+			id: "4A84C8578C2F7F71"
+			rewards: [
+				{
+					id: "1260B601FCF4BA0B"
+					item: {
+						count: 1
+						id: "iceandfire:deathworm_egg_giant"
+					}
+					type: "item"
+				}
+				{
+					id: "08859AD5D985D6AA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "3014A3CA3C73E6D4"
+				item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:deathworm_gauntlet_yellow)item(iceandfire:deathworm_gauntlet_white)item(iceandfire:deathworm_gauntlet_red))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 31.5d
+			y: -19.5d
+		}
+		{
+			dependencies: ["4ED6B18DF7D51E13"]
+			id: "6774BBE7C7C5D7EB"
+			rewards: [
+				{
+					count: 3
+					id: "0524DC2EBDFD4DE4"
+					item: {
+						count: 1
+						id: "iceandfire:deathworm_chitin_yellow"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "261373BD978C8170"
+					item: {
+						count: 1
+						id: "iceandfire:deathworm_chitin_white"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1B955769C8EBE4E1"
+					item: {
+						count: 1
+						id: "iceandfire:deathworm_chitin_red"
+					}
+					type: "item"
+				}
+				{
+					id: "5398A111DF5426BA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "433EA38A6B260048"
+				item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:deathworm_chitin_yellow)item(iceandfire:deathworm_chitin_white)item(iceandfire:deathworm_chitin_red))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 30.5d
+			y: -20.5d
+		}
+		{
+			dependencies: [
+				"4ED6B18DF7D51E13"
+				"3166CA00032C18F7"
+			]
+			hide_dependency_lines: true
+			id: "06ECF443FBCC12FC"
+			rewards: [
+				{
+					id: "7670835027D2B9A0"
+					item: {
+						count: 1
+						id: "iceandfire:deathworm_egg"
+					}
+					type: "item"
+				}
+				{
+					id: "0D31FDC2F9D48EE8"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				count: 2L
+				id: "091437742C548F81"
+				item: { count: 1, id: "minecraft:fishing_rod" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: -30.5d
+		}
+		{
+			dependencies: ["703790CCCE440946"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/iceandfire/hippogryph.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "6009E239E2E15236"
+			rewards: [
+				{
+					count: 4
+					id: "75E8954933D28018"
+					item: {
+						count: 1
+						id: "minecraft:rabbit_foot"
+					}
+					type: "item"
+				}
+				{
+					id: "011DA2A87C2FC576"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				entity: "iceandfire:hippogryph"
+				id: "7B8C0D61ADC2D7E8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 30.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"6009E239E2E15236"
+				"3166CA00032C18F7"
+			]
+			hide_dependency_lines: true
+			id: "131164DA08BB87B3"
+			rewards: [
+				{
+					id: "6D21118276DC1B24"
+					item: {
+						count: 1
+						id: "iceandfire:diamond_hippogryph_armor"
+					}
+					type: "item"
+				}
+				{
+					id: "2ADEEC030E0FFB9B"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_hippogryph"
+				criterion: ""
+				id: "377931E8EF5278C9"
+				type: "advancement"
+			}]
+			x: 29.0d
+			y: -31.5d
+		}
+		{
+			dependencies: ["6009E239E2E15236"]
+			id: "69211D34F8182976"
+			rewards: [
+				{
+					id: "0828AEE9A897E54A"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:sharpness": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "4DF9A4AF13A07602"
+					item: {
+						count: 1
+						id: "iceandfire:hippogryph_skull"
+					}
+					type: "item"
+				}
+				{
+					id: "22FDB38B8421C450"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "39019B44DB379EA1"
+				item: { count: 1, id: "iceandfire:hippogryph_sword" }
+				type: "item"
+			}]
+			x: 30.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2D71532A99C167AA"]
+			id: "10642351AD9A9907"
+			rewards: [
+				{
+					count: 12
+					id: "36F008D0B3D118E0"
+					item: {
+						count: 1
+						id: "iceandfire:amphithere_arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "65493E74E3BA0F28"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "0E94CCAA969BB3F8"
+				item: { count: 1, id: "iceandfire:amphithere_arrow" }
+				type: "item"
+			}]
+			x: 35.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2D71532A99C167AA"]
+			id: "445DB66B81146E91"
+			rewards: [
+				{
+					count: 12
+					id: "012D79A527AF2F61"
+					item: {
+						count: 1
+						id: "minecraft:obsidian"
+					}
+					type: "item"
+				}
+				{
+					id: "57F4DE085A5BAFD5"
+					item: {
+						count: 1
+						id: "iceandfire:amphithere_skull"
+					}
+					type: "item"
+				}
+				{
+					id: "191F1CBD5DC03063"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "1B8D94634F27443D"
+				item: { count: 1, id: "iceandfire:amphithere_macuahuitl" }
+				type: "item"
+			}]
+			x: 35.5d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"2D71532A99C167AA"
+				"3166CA00032C18F7"
+			]
+			hide_dependency_lines: true
+			id: "47E4BA6643A4BA85"
+			rewards: [
+				{
+					count: 5
+					id: "4C7954880B4F44FF"
+					item: {
+						count: 1
+						id: "iceandfire:amphithere_feather"
+					}
+					type: "item"
+				}
+				{
+					id: "67B378E7CEE38B03"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_amphithere"
+				criterion: ""
+				id: "53A4389C698BF294"
+				type: "advancement"
+			}]
+			x: 27.0d
+			y: -32.5d
+		}
+		{
+			dependencies: ["10CA52D15EAB71A3"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbchunks:textures/faces/iceandfire/cockatrice.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "38CAB3EF0D89B8F4"
+			rewards: [
+				{
+					count: 2
+					id: "5FB20240F76F4547"
+					item: {
+						count: 1
+						id: "iceandfire:witherbone"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "490E87A9D45ECC6F"
+					item: {
+						count: 1
+						id: "iceandfire:wither_shard"
+					}
+					type: "item"
+				}
+				{
+					id: "00056142FA7F5123"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "32057A4DB1ED95AD"
+				item: { count: 1, id: "iceandfire:witherbone" }
+				type: "item"
+			}]
+			x: 34.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["38CAB3EF0D89B8F4"]
+			id: "07AF1D5C24B069DD"
+			rewards: [
+				{
+					id: "70CD3767901CA450"
+					item: {
+						count: 1
+						id: "iceandfire:cockatrice_skull"
+					}
+					type: "item"
+				}
+				{
+					id: "254B5A8CAE748966"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "1CD90E48172E5690"
+				item: { count: 1, id: "iceandfire:cockatrice_scepter" }
+				type: "item"
+			}]
+			x: 36.0d
+			y: -12.0d
+		}
+		{
+			id: "4AFDC9ACAC926654"
+			rewards: [
+				{
+					count: 16
+					id: "21AFE28FC7F3AD23"
+					item: {
+						count: 1
+						id: "minecraft:egg"
+					}
+					type: "item"
+				}
+				{
+					id: "3C5227B76C083C65"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "3872480FD8C46F6A"
+				item: { count: 1, id: "iceandfire:rotten_egg" }
+				type: "item"
+			}]
+			x: 36.0d
+			y: -13.0d
+		}
+		{
+			dependencies: [
+				"38CAB3EF0D89B8F4"
+				"4AFDC9ACAC926654"
+				"3166CA00032C18F7"
+			]
+			hide_dependency_lines: true
+			id: "46AADB01BBD156D2"
+			rewards: [
+				{
+					count: 10
+					id: "20DDF779304E39CB"
+					item: {
+						count: 1
+						id: "iceandfire:witherbone"
+					}
+					type: "item"
+				}
+				{
+					id: "17C021E0EF61958F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				advancement: "iceandfire:iceandfire/tame_cockatrice"
+				criterion: ""
+				id: "0CB6EDF9702986B4"
+				type: "advancement"
+			}]
+			x: 28.0d
+			y: -32.5d
+		}
+		{
+			dependencies: ["7B21D2FAD5F3246A"]
+			id: "2B90982E3B1E545C"
+			rewards: [{
+				count: 6
+				id: "3D4588B2A640F9C4"
+				item: {
+					count: 1
+					id: "iceandfire:manuscript"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "37B0B634DF925107"
+					item: { count: 1, id: "iceandfire:bestiary" }
+					type: "item"
+				}
+				{
+					id: "39BFF49C6D983775"
+					item: { count: 1, id: "iceandfire:lectern" }
+					type: "item"
+				}
+			]
+			x: 27.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"617C6D6C35B4917D"
+				"3166CA00032C18F7"
+			]
+			hide_dependency_lines: true
+			id: "32C45C6C811FB5F9"
+			rewards: [
+				{
+					count: 3
+					id: "2B65A0B7AB3351CD"
+					item: {
+						count: 1
+						id: "minecraft:cake"
+					}
+					type: "item"
+				}
+				{
+					id: "5D7AF37A4EEDB451"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "diamond"
+			size: 1.2d
+			tasks: [{
+				id: "2BCD016F70368254"
+				item: { count: 1, id: "minecraft:cake" }
+				type: "item"
+			}]
+			x: 26.0d
+			y: -31.5d
+		}
+		{
+			dependencies: ["617C6D6C35B4917D"]
+			id: "315913D32319F010"
+			rewards: [{
+				count: 3
+				id: "2639588D7CDF3F86"
+				item: {
+					count: 1
+					id: "iceandfire:pixie_jar_empty"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "353106C55857698B"
+				item: { count: 1, id: "iceandfire:pixie_jar_empty" }
+				type: "item"
+			}]
+			x: 20.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["617C6D6C35B4917D"]
+			id: "3804364077F4BAD4"
+			rewards: [
+				{
+					count: 10
+					id: "63AEB649B6A944D4"
+					item: {
+						count: 1
+						id: "iceandfire:pixie_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "2F232C5F103A7218"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "01763766EFCD88FF"
+				item: { count: 1, id: "iceandfire:pixie_wand" }
+				type: "item"
+			}]
+			x: 19.5d
+			y: -15.5d
+		}
+		{
+			hide_dependency_lines: true
+			id: "6800E0113DE9A4DB"
+			rewards: [
+				{
+					count: 9
+					id: "65C77681311DD64C"
+					item: {
+						count: 1
+						id: "iceandfire:dragonbone"
+					}
+					type: "item"
+				}
+				{
+					id: "0839D2E7ABC98A14"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "51EE1671000347A4"
+				item: { count: 1, id: "iceandfire:dragonbone" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: -35.5d
+		}
+		{
+			dependencies: ["765CD913CC3896B2"]
+			id: "77793642678CB886"
+			rewards: [{
+				id: "23242D3D1618EF4E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3E3EBDB1D26C3117"
+				item: { count: 9, id: "minecraft:netherrack" }
+				type: "item"
+			}]
+			x: 24.0d
+			y: -43.0d
+		}
+		{
+			dependencies: ["0B3AC4E923332AC6"]
+			id: "2B2BB53FA86A07B7"
+			rewards: [{
+				id: "2F8F7AFAC88C1744"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "71321938044ADBE4"
+				item: { count: 1, id: "minecraft:water_bucket" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: -43.5d
+		}
+		{
+			dependencies: ["1042A0DC0A9321BB"]
+			id: "0481E975F317F64D"
+			rewards: [{
+				id: "29F325C8D7F860EB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "7CC983792E1265FD"
+				ignore_dimension: false
+				position: [I;
+					-1000000
+					80
+					-1000000
+				]
+				size: [I;
+					2000000
+					20
+					2000000
+				]
+				type: "location"
+			}]
+			x: 31.0d
+			y: -43.0d
+		}
+		{
+			hide_dependency_lines: true
+			id: "3166CA00032C18F7"
+			rewards: [{
+				id: "5B2B212F50BC74F6"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "3CC50EAEEE1E8A56"
+				item: { count: 1, id: "minecraft:stick" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: -31.0d
+		}
+		{
+			dependencies: [
+				"77793642678CB886"
+				"2B2BB53FA86A07B7"
+				"0481E975F317F64D"
+			]
+			id: "0DABAD0803DCEA1E"
+			rewards: [
+				{
+					count: 4
+					id: "2B049727F86CCB37"
+					item: {
+						count: 1
+						id: "iceandfire:dragon_bone_block"
+					}
+					type: "item"
+				}
+				{
+					id: "1EE08953E02507F6"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [
+				{
+					id: "6F732623B498EE87"
+					item: { count: 1, id: "iceandfire:dragon_stick" }
+					type: "item"
+				}
+				{
+					id: "24B27CCD01B77A0A"
+					item: { count: 1, id: "iceandfire:dragon_horn" }
+					type: "item"
+				}
+				{
+					id: "688B2A12311EED3D"
+					item: { count: 1, id: "iceandfire:dragon_flute" }
+					type: "item"
+				}
+			]
+			x: 26.5d
+			y: -44.5d
+		}
+		{
+			dependencies: [
+				"77793642678CB886"
+				"2B2BB53FA86A07B7"
+				"0481E975F317F64D"
+			]
+			id: "47A7F4972D58A7D5"
+			rewards: [
+				{
+					count: 5
+					id: "0914C216DE80223B"
+					item: {
+						count: 1
+						id: "iceandfire:dragon_meal"
+					}
+					type: "item"
+				}
+				{
+					id: "32FBE12A7C9385D8"
+					item: {
+						count: 1
+						id: "iceandfire:sickly_dragon_meal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4308BE39F35E2298"
+				item: { count: 1, id: "iceandfire:dragon_meal" }
+				type: "item"
+			}]
+			x: 28.5d
+			y: -44.5d
+		}
+		{
+			dependencies: ["3166CA00032C18F7"]
+			id: "2E0FBBE43D92CA42"
+			rewards: [
+				{
+					count: 16
+					id: "3977B295C59AD500"
+					item: {
+						count: 1
+						id: "minecraft:cobblestone_wall"
+					}
+					type: "item"
+				}
+				{
+					id: "0398B6CFF503739A"
+					item: {
+						count: 1
+						id: "iceandfire:chain_sticky"
+					}
+					type: "item"
+				}
+				{
+					id: "32A5AC24E1F6182E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "circle"
+			tasks: [{
+				id: "0ABD29C3A5B5B876"
+				item: { count: 1, id: "iceandfire:chain" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: -29.5d
+		}
+		{
+			dependencies: ["176D31AF1B0925AA"]
+			id: "0C176F04D32B75DD"
+			rewards: [
+				{
+					count: 4
+					id: "530CD02A3C2C664A"
+					item: {
+						count: 1
+						id: "iceandfire:dragonsteel_fire_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "550A7934C915ACB9"
+					item: {
+						count: 1
+						id: "iceandfire:fire_dragon_blood"
+					}
+					type: "item"
+				}
+				{
+					id: "63B420D4B35E7175"
+					item: {
+						count: 1
+						id: "iceandfire:summoning_crystal_fire"
+					}
+					type: "item"
+				}
+				{
+					id: "4FB23A427197823B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "3BED9AF0C1BD57B7"
+				item: { count: 1, id: "iceandfire:dragonsteel_fire_ingot" }
+				type: "item"
+			}]
+			x: 23.5d
+			y: -46.0d
+		}
+		{
+			dependencies: ["45068FB6758D3BA1"]
+			id: "406433F7FF3B0E7B"
+			rewards: [
+				{
+					count: 4
+					id: "555B98587FB8F621"
+					item: {
+						count: 1
+						id: "iceandfire:dragonsteel_ice_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "6DFB663AC83A45CB"
+					item: {
+						count: 1
+						id: "iceandfire:ice_dragon_blood"
+					}
+					type: "item"
+				}
+				{
+					id: "4B81F218EC22F21F"
+					item: {
+						count: 1
+						id: "iceandfire:summoning_crystal_ice"
+					}
+					type: "item"
+				}
+				{
+					id: "50CE029DDDC1FB93"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "26E4867B6DA3058D"
+				item: { count: 1, id: "iceandfire:dragonsteel_ice_ingot" }
+				type: "item"
+			}]
+			x: 27.5d
+			y: -47.0d
+		}
+		{
+			dependencies: ["210542B036255FBF"]
+			id: "72FB345F3A7E7288"
+			rewards: [
+				{
+					count: 4
+					id: "76612669FFB8BACA"
+					item: {
+						count: 1
+						id: "iceandfire:dragonsteel_lightning_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "3D510E185F8E9237"
+					item: {
+						count: 1
+						id: "iceandfire:lightning_dragon_blood"
+					}
+					type: "item"
+				}
+				{
+					id: "079D9EAD1C5DEE49"
+					item: {
+						count: 1
+						id: "iceandfire:summoning_crystal_lightning"
+					}
+					type: "item"
+				}
+				{
+					id: "619B5267C9965A40"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "4179FBF3C2120214"
+				item: { count: 1, id: "iceandfire:dragonsteel_lightning_ingot" }
+				type: "item"
+			}]
+			x: 31.5d
+			y: -46.0d
+		}
+		{
+			dependencies: ["2B84A4377688B189"]
+			id: "0F9DCF36112C9922"
+			rewards: [
+				{
+					id: "0A1CA0E35D820FB4"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:protection": 4
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "78F2DAE925C03F4E"
+					item: {
+						count: 1
+						id: "iceandfire:shiny_scales"
+					}
+					type: "item"
+				}
+				{
+					id: "787BBC9B4AFE3E97"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "2519E6394D62203F"
+				item: { components: { "ftbfiltersystem:filter": "or(item(iceandfire:tide_blue_helmet)item(iceandfire:tide_blue_chestplate)item(iceandfire:tide_blue_leggings)item(iceandfire:tide_blue_boots)item(iceandfire:tide_bronze_helmet)item(iceandfire:tide_bronze_chestplate)item(iceandfire:tide_bronze_leggings)item(iceandfire:tide_bronze_boots)item(iceandfire:tide_deepblue_helmet)item(iceandfire:tide_deepblue_chestplate)item(iceandfire:tide_deepblue_leggings)item(iceandfire:tide_deepblue_boots)item(iceandfire:tide_green_helmet)item(iceandfire:tide_green_chestplate)item(iceandfire:tide_green_leggings)item(iceandfire:tide_green_boots)item(iceandfire:tide_purple_helmet)item(iceandfire:tide_purple_chestplate)item(iceandfire:tide_purple_leggings)item(iceandfire:tide_purple_boots)item(iceandfire:tide_red_helmet)item(iceandfire:tide_red_chestplate)item(iceandfire:tide_red_leggings)item(iceandfire:tide_red_boots)item(iceandfire:tide_teal_helmet)item(iceandfire:tide_teal_chestplate)item(iceandfire:tide_teal_leggings)item(iceandfire:tide_teal_boots))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 46.0d
+			y: -2.5d
+		}
+		{
+			id: "3D88FEFA4C63CB20"
+			invisible: true
+			optional: true
+			shape: "circle"
+			tasks: [{
+				id: "73AE639A41A16778"
+				type: "checkmark"
+			}]
+			x: 29.0d
+			y: -15.0d
+		}
+		{
+			id: "7B21D2FAD5F3246A"
+			rewards: [{
+				count: 9
+				id: "64565824195E28FD"
+				item: {
+					count: 1
+					id: "iceandfire:manuscript"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				dimension: "allthemodium:the_other"
+				id: "2CD913A5FD480693"
+				type: "dimension"
+			}]
+			x: 27.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["7B21D2FAD5F3246A"]
+			icon: {
+				id: "allthemodium:ancient_sapling"
+			}
+			id: "703790CCCE440946"
+			rewards: [{
+				count: 5
+				id: "29109342CDCC3B9C"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				biome: "allthemodium:the_other"
+				id: "7CE87FBDC9B7B169"
+				type: "biome"
+			}]
+			x: 29.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7B21D2FAD5F3246A"]
+			icon: {
+				id: "minecraft:soul_sand"
+			}
+			id: "48B1BD7D86CAC4A0"
+			rewards: [{
+				count: 5
+				id: "6F368F7596EF556E"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				biome: "allthemodium:soul_sand_valley"
+				id: "5338E22A0D50350E"
+				type: "biome"
+			}]
+			x: 25.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7B21D2FAD5F3246A"]
+			icon: {
+				id: "allthemodium:soul_sapling"
+			}
+			id: "02DEAB3F1198BFBE"
+			rewards: [{
+				count: 5
+				id: "6B20397855DABF86"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				biome: "allthemodium:warped_forest"
+				id: "17FA8796C5D6324B"
+				type: "biome"
+			}]
+			x: 27.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["7B21D2FAD5F3246A"]
+			icon: {
+				id: "minecraft:sand"
+			}
+			id: "10CA52D15EAB71A3"
+			rewards: [{
+				count: 5
+				id: "4617D01F8310B50A"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				biome: "allthemodium:desert"
+				id: "0C81BFBEC5769F4B"
+				type: "biome"
+			}]
+			x: 31.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["7B21D2FAD5F3246A"]
+			icon: {
+				id: "allthemodium:demonic_sapling"
+			}
+			id: "59D91C5E11F67FC3"
+			rewards: [{
+				count: 5
+				id: "56F0FF233F854911"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			tasks: [{
+				biome: "allthemodium:crimson_forest"
+				id: "56420F84AC34D9F0"
+				type: "biome"
+			}]
+			x: 23.5d
+			y: -13.0d
+		}
+	]
+}

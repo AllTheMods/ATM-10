@@ -4,6 +4,36 @@
 In-depth changelog of the new versions of the pack.
 
 _Note: use some browser extension like [Markdown Viewer](https://chromewebstore.google.com/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk) if changelog is too big._
+## 📦 [4.12] - 🗓️ 2025-10-02
+
+## 📦 [4.11] - 🗓️ 2025-09-20
+
+## 📦 [4.10] - 🗓️ 2025-08-24
+
+## 📦 [4.9] - 🗓️ 2025-08-23
+
+## 📦 [4.8] - 🗓️ 2025-08-23
+
+## 📦 [4.7] - 🗓️ 2025-08-23
+
+## 📦 [4.6] - 🗓️ 2025-08-19
+
+## 📦 [4.5] - 🗓️ 2025-07-29
+
+## 📦 [4.4] - 🗓️ 2025-07-13
+
+## 📦 [4.3] - 🗓️ 2025-07-12
+
+## 📦 [4.2] - 🗓️ 2025-06-26
+
+## 📦 [4.1] - 🗓️ 2025-06-24
+
+## 📦 [4.0] - 🗓️ 2025-06-17
+
+## 📦 [3.2] - 🗓️ 2025-06-01
+
+## 📦 [3.0] - 🗓️ 2025-05-20
+
 ## 📦 [2.47] - 🗓️ 2025-05-06
 
 ## 📦 [2.44] - 🗓️ 2025-04-15
@@ -58,3 +88,15 @@ _Note: use some browser extension like [Markdown Viewer](https://chromewebstore.
 [2.43]: ./changelogs/CHANGELOG-ATM10-2.42-2.43.md
 [2.44]: ./changelogs/CHANGELOG-ATM10-2.43-2.44.md
 [2.47]: ./changelogs/CHANGELOG-ATM10-2.44-2.47.md
+[3.0]: ./changelogs/CHANGELOG-ATM10-2.47-3.0.md
+[3.2]: ./changelogs/CHANGELOG-ATM10-3.0-3.2.md
+[4.0]: ./changelogs/CHANGELOG-ATM10-3.2-4.0.md
+[4.1]: ./changelogs/CHANGELOG-ATM10-4.0-4.1.md
+[4.2]: ./changelogs/CHANGELOG-ATM10-4.1-4.2.md
+[4.3]: ./changelogs/CHANGELOG-ATM10-4.2-4.3.md
+[4.4]: ./changelogs/CHANGELOG-ATM10-4.3-4.4.md
+[4.5]: ./changelogs/CHANGELOG-ATM10-4.4-4.5.md
+[4.6]: ./changelogs/CHANGELOG-ATM10-4.5-4.6.md
+[4.7]: ./changelogs/CHANGELOG-ATM10-4.6-4.7.md
+[4.11]: ./changelogs/CHANGELOG-ATM10-4.7-4.11.md
+[4.12]: ./changelogs/CHANGELOG-ATM10-4.11-4.12.md
