@@ -19,16 +19,14 @@ jobs:
     - name: Prepare overrides directory
       run: |
         mkdir -p overrides
-        mv kubejs mods packmenu overrides/
+        mv config datapacks defaultconfigs kubejs local mods overrides/
 
     - name: Upload modpack files
       uses: actions/upload-artifact@v4
       with:
         name: modpack
         path: |
-          defaultconfigs/**
-          kubejs/**
-          mods/**
+          overrides/**
           packmenu/**
           changelogs/**
           README.md
