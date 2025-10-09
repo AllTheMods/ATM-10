@@ -16,6 +16,11 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
+    - name: Prepare overrides directory
+      run: |
+        mkdir -p overrides
+        mv kubejs mods packmenu overrides/
+
     - name: Upload modpack files
       uses: actions/upload-artifact@v4
       with:
