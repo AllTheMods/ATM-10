@@ -176,7 +176,7 @@ ServerEvents.recipes(allthemods => {
                     { item: 'ae2:printed_silicon' }
                 ],
                 results: [{ id: `${recipe.processor.mod}:${recipe.processor.item}` }],
-                time: 5
+                time: 160
             }).id(`allthemods:oritech/assembler/${recipe.processor.item}`);
         }
     });
