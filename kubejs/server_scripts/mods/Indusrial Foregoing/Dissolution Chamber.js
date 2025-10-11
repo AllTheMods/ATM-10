@@ -33,6 +33,35 @@ ServerEvents.recipes(allthemods => {
 
         allthemods.custom(recipe).id(`kubejs:dissolution_chamber/${id}`);
     }
+	function dissolution_chamber_fluidtag(output, inputs, fluid, time, id) {
+    let recipe = {
+      type: "industrialforegoing:dissolution_chamber",
+      input: [],
+      inputFluid: {
+        amount: fluid.amount || 100,
+        tag: fluid.fluid
+      },
+      output: {
+        count: output.count || 1,
+        id: output.item
+      },
+      processingTime: time
+    }
+
+    inputs.forEach((input) => {
+      let ingredients = {}
+
+      if (input.tag) {
+        ingredients.tag = input.tag
+      } else {
+        ingredients.item = input.item
+      }
+
+      recipe.input.push(ingredients)
+    })
+
+    allthemods.custom(recipe).id(`kubejs:dissolution_chamber/${id}`)
+  }
 
     dissolution_chamber(
         {item: 'industrialforegoing:pink_slime_block'},
@@ -113,12 +142,12 @@ ServerEvents.recipes(allthemods => {
     );
 
     allthemods.remove({id: 'industrialforegoing:dissolution_chamber/xp_bottles'})
-    dissolution_chamber(
+    dissolution_chamber_fluidtag(
         {item: 'minecraft:experience_bottle'},
         [
             {item: 'minecraft:glass_bottle'}],
         {
-            fluid: 'industrialforegoing:essence',
+            fluid: 'c:experience',
             amount: 250
         },
         5,
