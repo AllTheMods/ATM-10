@@ -92,7 +92,13 @@ ServerEvents.tags('item', allthemods => {
     allthemods.add('minecraft:bookshelf_books', 'actuallyadditions:booklet')
 
     // Forbiden Arcanus Stellar Blacklist
-    allthemods.add('forbidden_arcanus:modifier/eternal_incompatible', 'ars_additions:undying_charm')
+    allthemods.add('forbidden_arcanus:modifier/eternal_incompatible', [
+        'ars_additions:undying_charm'
+        'modularbees:electrode_copper',
+        'modularbees:electrode_iron',
+        'modularbees:electrode_gold'.
+        'modularbees:electrode_netherite'
+    ])
 
     // Overdrive
     allthemods.add("industrialization_overdrive:multi_processing_array_blacklist", [
@@ -501,4 +507,5 @@ ServerEvents.tags('mob_effect', allthemods => {
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
 
