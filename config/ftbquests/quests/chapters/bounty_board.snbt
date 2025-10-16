@@ -1733,7 +1733,8 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "ftbchunks:textures/faces/undergarden/forgotten_guardian.png"
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "undergarden:forgotten_guardian"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -1863,7 +1864,8 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "ftbchunks:textures/faces/undergarden/rotbeast.png"
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "undergarden:rotbeast"
 				}
 				id: "ftbquests:custom_icon"
 			}
