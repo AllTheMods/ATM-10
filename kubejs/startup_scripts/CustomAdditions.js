@@ -208,6 +208,14 @@ StartupEvents.postInit((allthemods) => {
         $BuiltInRegistries.BLOCK.addAlias(`antiblocksrechiseled:pressure_plate_wool_${color}`, `luminax:dim_${color}_pressure_plate`)
         $BuiltInRegistries.ITEM.addAlias(`antiblocksrechiseled:pressure_plate_wool_${color}`, `luminax:dim_${color}_pressure_plate`)
     })
+    
+    // EnderIO removed those
+    $BuiltInRegistries.ITEM.addAlias("enderio:wood_gear", "minecraft:oak_planks")
+    $BuiltInRegistries.ITEM.addAlias("enderio:stone_gear", "minecraft:cobblestone")
+
+    // MI removed those deepslate
+    $BuiltInRegistries.ITEM.addAlias("modern_industrialization:deepslate_iridium_ore", "modern_industrialization:iridium_ore")
+    $BuiltInRegistries.BLOCK.addAlias("modern_industrialization:deepslate_iridium_ore", "modern_industrialization:iridium_ore")
 })
 
 
