@@ -1,0 +1,24 @@
+{
+  "keys": [
+    {
+      "name": "output",
+      "role": "output",
+      "type": "ingredient"
+    },
+    {
+      "name": "catalyst",
+      "type": "ingredient"
+    },
+    {
+      "name": "rarity",
+      "type": {
+        "type": "list",
+        "component": {
+          "type": "kubejstweaks:codec",
+          "class": "com.buuz135.industrial.recipe.LaserDrillRarity"
+        }
+      }
+    }
+  ],
+  "unique": ["output"]
+}

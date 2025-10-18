@@ -1,0 +1,36 @@
+{
+  "keys": [
+    {
+      "name": "input",
+      "role": "input",
+      "type": {
+        "type": "list",
+        "component": "optional_ingredient",
+        "min": 0
+      }
+    },
+    {
+      "name": "inputFluid",
+      "role": "input",
+      "type": "flat_sized_fluid_ingredient"
+    },
+    {
+      "name": "processingTime",
+      "role": "other",
+      "type": "int"
+    },
+    {
+      "name": "output",
+      "role": "output",
+      "type": "optional_item_stack",
+      "default_optional": true
+    },
+    {
+      "name": "outputFluid",
+      "role": "output",
+      "type": "optional_fluid_stack",
+      "default_optional": true
+    }
+  ],
+  "unique": ["output"]
+}
