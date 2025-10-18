@@ -93,10 +93,10 @@ ServerEvents.tags('item', allthemods => {
 
     // Forbiden Arcanus Stellar Blacklist
     allthemods.add('forbidden_arcanus:modifier/eternal_incompatible', [
-        'ars_additions:undying_charm'
+        'ars_additions:undying_charm',
         'modularbees:electrode_copper',
         'modularbees:electrode_iron',
-        'modularbees:electrode_gold'.
+        'modularbees:electrode_gold',
         'modularbees:electrode_netherite'
     ])
 
