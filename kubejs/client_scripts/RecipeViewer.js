@@ -66,6 +66,90 @@ RecipeViewerEvents.removeEntries('item', allthemods => {
     for (let yeet of runicYEET) {
         allthemods.remove(yeet)
     }
+
+    // From JEI blacklist.json
+    allthemods.remove(["immersiveengineering:pickaxe_steel",
+        "immersiveengineering:shovel_steel",
+        "immersiveengineering:axe_steel",
+        "immersiveengineering:hoe_steel",
+        "immersiveengineering:sword_steel",
+        "railcraft:steel_sword",
+        "railcraft:steel_hoe",
+        "railcraft:steel_axe",
+        "railcraft:steel_pickaxe",
+        "railcraft:steel_shovel",
+        "railcraft:steel_boots",
+        "railcraft:steel_chestplate",
+        "railcraft:steel_helmet",
+        "railcraft:steel_leggings",
+        "immersiveengineering:armor_steel_boots",
+        "immersiveengineering:armor_steel_leggings",
+        "immersiveengineering:armor_steel_chestplate",
+        "immersiveengineering:armor_steel_helmet",
+        "mekanism:creative_chemical_tank",
+        "mekanism:creative_fluid_tank",
+        "mekanism:creative_bin",
+        "bigreactors:reinforced_reactorcreativewatergenerator",
+        "bigreactors:basic_turbinecreativesteamgenerator",
+        "bigreactors:reinforced_turbinecreativesteamgenerator",
+        "functionalstorage:creative_vending_upgrade",
+        "enderio:creative_power",
+        "ae2:creative_storage_cell",
+        "mysticalagriculture:creative_soulium_dagger",
+        "modularrouters:creative_module",
+        "modern_industrialization:creative_tank",
+        "modern_industrialization:creative_storage_unit",
+        "pneumaticcraft:creative_upgrade",
+        "quarryplus:creative_generator",
+        "rftoolspower:dimensionalcell_creative",
+        "xycraft_machines:item_selector",
+        "xycraft_machines:fluid_selector",
+        "stevescarts:module_creative_engine",
+        "stevescarts:module_creative_hull",
+        "stevescarts:upgrade_creative_mode",
+        "ftbquests:stage_barrier",
+        "ftbquests:barrier",
+        "forbidden_arcanus:draco_arcanus_boots",
+        "forbidden_arcanus:draco_arcanus_leggings",
+        "forbidden_arcanus:draco_arcanus_chestplate",
+        "forbidden_arcanus:draco_arcanus_helmet",
+        "forbidden_arcanus:draco_arcanus_scepter",
+        "forbidden_arcanus:draco_arcanus_hoe",
+        "forbidden_arcanus:draco_arcanus_axe",
+        "forbidden_arcanus:draco_arcanus_pickaxe",
+        "forbidden_arcanus:draco_arcanus_shovel",
+        "forbidden_arcanus:draco_arcanus_sword",
+        "forbidden_arcanus:draco_arcanus_staff",
+        "naturesaura:multiblock_maker",
+        "modern_industrialization:creative_barrel",
+        "mininggadgets:upgrade_battery_creative",
+        "immersiveengineering:capacitor_creative",
+        "twilightforest:uncrafting_table",
+        "hyperbox:hyperbox",
+        "mifa:efficiency_addon_5",
+        "mifa:efficiency_addon_6",
+        "mifa:efficiency_addon_7",
+        "mifa:efficiency_addon_8",
+        "mifa:processing_addon_5",
+        "mifa:processing_addon_6",
+        "mifa:processing_addon_7",
+        "mifa:processing_addon_8",
+        "mifa:speed_addon_5",
+        "mifa:speed_addon_6",
+        "mifa:speed_addon_7",
+        "mifa:speed_addon_8"]
+    )
+
+    allthemods.remove(stack => {
+        if (stack.id == "evilcraft:dark_tank") {
+            // console.log("stack is: " + stack.id)
+            let component = stack.get("cyclopscore:fluid_content")
+            // console.log("component is: " + component)
+            if (component) return true
+        }
+        return false
+    })
+
 })
 
 RecipeViewerEvents.addInformation('item', allthemods => {
