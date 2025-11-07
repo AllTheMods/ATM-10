@@ -1137,43 +1137,6 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["40786B63E2901D11"]
-			hide_dependent_lines: true
-			icon: {
-				id: "eternal_starlight:tenacious_vine"
-			}
-			id: "350A78BA973FD04B"
-			rewards: [
-				{
-					count: 3
-					id: "6ACF102B085418B7"
-					item: {
-						count: 1
-						id: "eternal_starlight:tenacious_vine"
-					}
-					type: "item"
-				}
-				{
-					id: "4D9C7A7CB1410D69"
-					item: {
-						count: 1
-						id: "eternal_starlight:trapped_soul"
-					}
-					type: "item"
-				}
-			]
-			shape: "circle"
-			size: 1.2d
-			tasks: [{
-				entity: "eternal_starlight:tangled_hatred"
-				id: "248965307983FAA5"
-				type: "kill"
-				value: 1L
-			}]
-			x: 9.5d
-			y: -7.0d
-		}
-		{
 			dependencies: ["6E970CF05B96EB20"]
 			hide_dependent_lines: true
 			icon: {
@@ -2649,7 +2612,7 @@
 			]
 			tasks: [{
 				id: "6487AFCE3F35E3D0"
-				item: { count: 1, id: "eternal_starlight:amaramber_helmet" }
+				item: { components: { "ftbquests:missing_item": "eternal_starlight:amaramber_helmet" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -14.0d
@@ -2849,10 +2812,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"0576C32B0FB360B0"
-				"350A78BA973FD04B"
-			]
+			dependencies: ["0576C32B0FB360B0"]
 			id: "713EF442D59501BA"
 			rewards: [{
 				id: "64BD7A242E300236"
