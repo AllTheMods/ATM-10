@@ -40,8 +40,10 @@ StartupEvents.registry('item', allthemods => {
 	allthemods.create('lightning_eye').use((level, player, hand) => global.iceAndFirePearls(level, player, hand)).texture('kubejs:item/lightning_eye')
 	allthemods.create('lightning_pearl').texture('kubejs:item/lightning_pearl')
 	allthemods.create('ice_eye').use((level, player, hand) => global.iceAndFirePearls(level, player, hand)).texture('kubejs:item/ice_eye')
-	allthemods.create('ice_pearl').texture('kubejs:item/ice_pearl')
-	
+    allthemods.create('ice_pearl').texture('kubejs:item/ice_pearl')
+    
+    allthemods.create("allthemodium_solar_sail_package").displayName("Allthemodium Solar Sail Package").component("dysoncubeproject:sphere_component_solar_sail", Java.cast("java.lang.Integer", 64))
+    allthemods.create("allthemodium_beam_package").displayName("Allthemodium Beam Package").component("dysoncubeproject:sphere_component_beam", Java.cast("java.lang.Integer", 16))
 })
 
 let $Stopwatch = Java.loadClass("com.google.common.base.Stopwatch")
@@ -208,6 +210,14 @@ StartupEvents.postInit((allthemods) => {
         $BuiltInRegistries.BLOCK.addAlias(`antiblocksrechiseled:pressure_plate_wool_${color}`, `luminax:dim_${color}_pressure_plate`)
         $BuiltInRegistries.ITEM.addAlias(`antiblocksrechiseled:pressure_plate_wool_${color}`, `luminax:dim_${color}_pressure_plate`)
     })
+    
+    // EnderIO removed those
+    $BuiltInRegistries.ITEM.addAlias("enderio:wood_gear", "minecraft:oak_planks")
+    $BuiltInRegistries.ITEM.addAlias("enderio:stone_gear", "minecraft:cobblestone")
+
+    // MI removed those deepslate
+    $BuiltInRegistries.ITEM.addAlias("modern_industrialization:deepslate_iridium_ore", "modern_industrialization:iridium_ore")
+    $BuiltInRegistries.BLOCK.addAlias("modern_industrialization:deepslate_iridium_ore", "modern_industrialization:iridium_ore")
 })
 
 

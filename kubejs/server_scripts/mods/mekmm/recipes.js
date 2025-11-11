@@ -27,6 +27,111 @@ ServerEvents.recipes(allthemods => {
     allthemods.remove({id: /mekmm:compat\/extendedae.*/})
     allthemods.remove({id: /mekmm:compat\/megacells.*/})
 
+    // add CNC stamper recipes for gears, plates and rods for ores listed in @alltheores
+    const gear_metals = [
+        "aluminum",
+        "lead",
+        "nickel",
+        "osmium",
+        "platinum",
+        "silver",
+        "tin",
+        "uranium",
+        "zinc",
+        "iridium",
+        "steel",
+        "invar",
+        "electrum",
+        "bronze",
+        "brass",
+        "enderium",
+        "lumium",
+        "signalum",
+        "constantan",
+        "copper",
+        "iron",
+        "gold",
+        "netherite"
+    ]
+    gear_metals.forEach(metal => {
+        allthemods.custom({
+            type: "mekmm:stamper",
+            input: { tag: `c:ingots/${metal}`, count: 4 },
+            mold: { item: "immersiveengineering:mold_gear" },
+            output: { id: `alltheores:${metal}_gear`, count: 1 }
+        })
+    })
+    allthemods.custom({
+        type: "mekmm:stamper",
+        input: { tag: `c:gems/diamond`, count: 4 },
+        mold: { item: "immersiveengineering:mold_gear" },
+        output: { id: `alltheores:diamond_gear`, count: 1 }
+    })
+
+    const plate_metals = [
+        "osmium",
+        "platinum",
+        "tin",
+        "zinc",
+        "iridium",
+        "invar",
+        "bronze",
+        "brass",
+        "enderium",
+        "lumium",
+        "signalum",
+        "netherite"
+    ]
+    plate_metals.forEach(metal => {
+        allthemods.custom({
+            type: "mekmm:stamper",
+            input: { tag: `c:ingots/${metal}`, count: 1 },
+            mold: { item: "immersiveengineering:mold_plate" },
+            output: { id: `alltheores:${metal}_plate`, count: 1 }
+        })
+    })
+    allthemods.custom({
+        type: "mekmm:stamper",
+        input: { tag: `c:gems/diamond`, count: 1 },
+        mold: { item: "immersiveengineering:mold_plate" },
+        output: { id: `alltheores:diamond_plate`, count: 1 }
+    })
+
+    const rod_metals = [
+        "lead",
+        "nickel",
+        "osmium",
+        "platinum",
+        "silver",
+        "tin",
+        "uranium",
+        "zinc",
+        "iridium",
+        "invar",
+        "electrum",
+        "bronze",
+        "brass",
+        "enderium",
+        "lumium",
+        "signalum",
+        "constantan",
+        "copper",
+        "gold",
+    ]
+    rod_metals.forEach(metal => {
+        allthemods.custom({
+            type: "mekmm:stamper",
+            input: { tag: `c:ingots/${metal}`, count: 1 },
+            mold: { item: "immersiveengineering:mold_rod" },
+            output: { id: `alltheores:${metal}_rod`, count: 2 }
+        })
+    })
+    allthemods.custom({
+        type: "mekmm:stamper",
+        input: { tag: `c:gems/diamond`, count: 1 },
+        mold: { item: "immersiveengineering:mold_rod" },
+        output: { id: `alltheores:diamond_rod`, count: 2 }
+    })
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

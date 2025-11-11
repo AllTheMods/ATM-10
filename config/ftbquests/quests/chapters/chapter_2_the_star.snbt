@@ -14,7 +14,7 @@
 			rotation: 0.0d
 			width: 3.4029850746268657d
 			x: 6.0d
-			y: 14.5d
+			y: 16.0d
 		}
 		{
 			height: 2.0d
@@ -69,8 +69,8 @@
 			image: "atm:textures/questpics/justdirethings/goo_spread_ferricore.png"
 			rotation: 0.0d
 			width: 3.003550295857988d
-			x: -10.5d
-			y: 16.0d
+			x: -11.0d
+			y: 16.5d
 		}
 		{
 			height: 3.0d
@@ -174,22 +174,22 @@
 			rotation: 0.0d
 			width: 2.0d
 			x: 2.0d
-			y: 10.5d
+			y: 12.0d
 		}
 		{
 			height: 2.0d
 			image: "atm:textures/questpics/iron_spells/spells_anvil.png"
 			rotation: 0.0d
 			width: 1.9232409381663114d
-			x: -5.5d
-			y: 14.0d
+			x: -6.5d
+			y: 15.5d
 		}
 		{
 			height: 5.0d
 			image: "immersiveengineering:textures/gui/workbench.png"
 			rotation: 0.0d
 			width: 5.0d
-			x: 11.0d
+			x: 11.5d
 			y: 17.0d
 		}
 		{
@@ -197,8 +197,8 @@
 			image: "atm:textures/questpics/iron_spells/spells_scroll.png"
 			rotation: 0.0d
 			width: 2.3376623376623376d
-			x: -1.25d
-			y: 11.642857142857139d
+			x: -2.0d
+			y: 12.0d
 		}
 		{
 			height: 2.0d
@@ -934,7 +934,7 @@
 				{
 					count: 28L
 					id: "1C6FD3400BF1D256"
-					item: { count: 28, id: "allthemodium:unobtainium_allthemodium_alloy_block" }
+					item: { count: 1, id: "allthemodium:unobtainium_allthemodium_alloy_block" }
 					type: "item"
 				}
 				{
@@ -944,7 +944,7 @@
 					type: "item"
 				}
 			]
-			x: -0.5d
+			x: 0.0d
 			y: 6.0d
 		}
 		{
@@ -1007,11 +1007,30 @@
 			dependencies: ["28DB59B20109D0D4"]
 			hide_dependent_lines: true
 			id: "486B5A605D79EA10"
-			rewards: [{
-				id: "3CD2EE0A3E930DD9"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			rewards: [
+				{
+					id: "4838E5D175E614DC"
+					item: {
+						count: 1
+						id: "oritech:nuke"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "22A2EE0351BA977B"
+					item: {
+						count: 1
+						id: "oritech:plutonium_dust"
+					}
+					type: "item"
+				}
+				{
+					id: "3CD2EE0A3E930DD9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			size: 1.25d
 			tasks: [{
 				id: "22EFA1D6F9F98242"
@@ -2771,7 +2790,7 @@
 			tasks: [{
 				count: 8L
 				id: "1BDB9CA7D068A432"
-				item: { count: 8, id: "minecraft:green_concrete_powder" }
+				item: { count: 1, id: "minecraft:green_concrete_powder" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -2789,7 +2808,7 @@
 			tasks: [{
 				count: 2L
 				id: "7777B968A5342389"
-				item: { count: 2, id: "minecraft:lime_concrete" }
+				item: { count: 1, id: "minecraft:lime_concrete" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -2807,7 +2826,7 @@
 			tasks: [{
 				count: 13L
 				id: "1DFED38C1282DAFE"
-				item: { count: 17, id: "minecraft:magenta_concrete" }
+				item: { count: 1, id: "minecraft:magenta_concrete" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -2825,7 +2844,7 @@
 			tasks: [{
 				count: 8L
 				id: "284C5A44EECDB0F2"
-				item: { count: 8, id: "minecraft:magenta_concrete_powder" }
+				item: { count: 1, id: "minecraft:magenta_concrete_powder" }
 				type: "item"
 			}]
 			x: 6.0d
@@ -2843,7 +2862,7 @@
 			tasks: [{
 				count: 11L
 				id: "68D520511388D29F"
-				item: { count: 11, id: "minecraft:pink_concrete" }
+				item: { count: 1, id: "minecraft:pink_concrete" }
 				type: "item"
 			}]
 			x: 4.0d
@@ -2861,7 +2880,7 @@
 			tasks: [{
 				count: 5L
 				id: "28BB20E22FFCBBC1"
-				item: { count: 11, id: "minecraft:pink_concrete_powder" }
+				item: { count: 1, id: "minecraft:pink_concrete_powder" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -3025,8 +3044,8 @@
 				item: { count: 1, id: "irons_spellbooks:arcane_essence" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 12.0d
+			x: -4.5d
+			y: 13.5d
 		}
 		{
 			icon: {
@@ -3084,8 +3103,8 @@
 				item: { count: 1, id: "industrialforegoing:dryrubber" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 12.0d
+			x: 4.5d
+			y: 13.5d
 		}
 		{
 			icon: {
@@ -3115,7 +3134,7 @@
 				item: { count: 1, id: "minecraft:furnace" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 2.0d
 			y: 10.0d
 		}
 		{
@@ -3230,8 +3249,8 @@
 				item: { count: 1, id: "alltheores:steel_ingot" }
 				type: "item"
 			}]
-			x: -13.0d
-			y: 16.0d
+			x: -13.5d
+			y: 16.5d
 		}
 		{
 			icon: {
@@ -3488,8 +3507,8 @@
 				item: { count: 1, id: "justdirethings:gooblock_tier1" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 15.0d
+			x: -8.5d
+			y: 15.5d
 		}
 		{
 			id: "7A579E233C69871F"
@@ -3515,8 +3534,8 @@
 				item: { count: 1, id: "hostilenetworks:blank_data_model" }
 				type: "item"
 			}]
-			x: 13.0d
-			y: 16.0d
+			x: 13.5d
+			y: 16.5d
 		}
 		{
 			id: "2E88CCBC7B97A1F0"
@@ -3666,37 +3685,37 @@
 				{
 					count: 8L
 					id: "67A533CBB47640D3"
-					item: { count: 8, id: "forbidden_arcanus:arcane_polished_darkstone" }
+					item: { count: 1, id: "forbidden_arcanus:arcane_polished_darkstone" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "318AD48CD9B5AE51"
-					item: { count: 4, id: "forbidden_arcanus:chiseled_arcane_polished_darkstone" }
+					item: { count: 1, id: "forbidden_arcanus:chiseled_arcane_polished_darkstone" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "0A40DB7C36ADC441"
-					item: { count: 8, id: "forbidden_arcanus:darkstone_pedestal" }
+					item: { count: 1, id: "forbidden_arcanus:darkstone_pedestal" }
 					type: "item"
 				}
 				{
 					count: 8L
 					id: "19710811292FFD8F"
-					item: { count: 8, id: "forbidden_arcanus:arcane_crystal_obelisk" }
+					item: { count: 1, id: "forbidden_arcanus:arcane_crystal_obelisk" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "67D42E0DB8AA7578"
-					item: { count: 4, id: "forbidden_arcanus:arcane_crystal_block" }
+					item: { count: 1, id: "forbidden_arcanus:arcane_crystal_block" }
 					type: "item"
 				}
 				{
 					count: 16L
 					id: "15AE854C96012C43"
-					item: { count: 16, id: "forbidden_arcanus:rune_block" }
+					item: { count: 1, id: "forbidden_arcanus:rune_block" }
 					type: "item"
 				}
 				{
@@ -3712,37 +3731,37 @@
 				{
 					count: 48L
 					id: "12C139C9F719CDA4"
-					item: { count: 48, id: "forbidden_arcanus:polished_darkstone_stairs" }
+					item: { count: 1, id: "forbidden_arcanus:polished_darkstone_stairs" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "180F54EFAC7A51F5"
-					item: { count: 64, id: "forbidden_arcanus:polished_darkstone" }
+					item: { count: 1, id: "forbidden_arcanus:polished_darkstone" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "79962A6232D7FAA5"
-					item: { count: 64, id: "forbidden_arcanus:polished_darkstone" }
+					item: { count: 1, id: "forbidden_arcanus:polished_darkstone" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "13D2C035C8E5A6A6"
-					item: { count: 64, id: "forbidden_arcanus:polished_darkstone" }
+					item: { count: 1, id: "forbidden_arcanus:polished_darkstone" }
 					type: "item"
 				}
 				{
 					count: 64L
 					id: "306B1B0DCA17C47A"
-					item: { count: 64, id: "forbidden_arcanus:polished_darkstone" }
+					item: { count: 1, id: "forbidden_arcanus:polished_darkstone" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "7A88277A22BBC23D"
-					item: { count: 2, id: "forbidden_arcanus:polished_darkstone" }
+					item: { count: 1, id: "forbidden_arcanus:polished_darkstone" }
 					type: "item"
 				}
 				{
@@ -3752,7 +3771,7 @@
 				}
 			]
 			x: 0.0d
-			y: 8.0d
+			y: 10.0d
 		}
 		{
 			id: "31B0267C47DB9D98"
@@ -3769,8 +3788,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 2.0d
-			y: 13.5d
+			x: 0.0d
+			y: 12.0d
 		}
 		{
 			id: "5EC1B868720BF521"
@@ -3796,8 +3815,8 @@
 				item: { count: 1, id: "immersiveengineering:hammer" }
 				type: "item"
 			}]
-			x: 8.0d
-			y: 15.0d
+			x: 8.5d
+			y: 15.5d
 		}
 		{
 			dependencies: ["5EC1B868720BF521"]
@@ -3998,8 +4017,8 @@
 				item: { count: 1, id: "allthemodium:unobtainium_vibranium_alloy_block" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 6.0d
+			x: 0.0d
+			y: 8.0d
 		}
 		{
 			icon: {
@@ -4178,6 +4197,31 @@
 		}
 		{
 			id: "28DB59B20109D0D4"
+			rewards: [
+				{
+					count: 4
+					id: "03980F15628EBE76"
+					item: {
+						count: 1
+						id: "oritech:magnetic_coil"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5B363435B404BFC0"
+					item: {
+						count: 1
+						id: "alltheores:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "626A297241734228"
+					type: "xp"
+					xp: 100
+				}
+			]
 			shape: "rsquare"
 			size: 2.0d
 			tasks: [{
@@ -4185,8 +4229,8 @@
 				item: { count: 1, id: "oritech:magnetic_coil" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 14.0d
+			x: -2.0d
+			y: 10.0d
 		}
 	]
 }

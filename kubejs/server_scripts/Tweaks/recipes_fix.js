@@ -168,5 +168,10 @@ KubeJSTweaks.beforeRecipes(event => {
       entry.renameKey("main_input", "input", false)
     })
 
+  event.getEntry(/^create:.*\/compat\/(biomeswevegone|silentgems)\//)
+    .forEach(entry => {
+      entry.addConditionsFromKey("ingredients")
+    })
+
   console.log(`Fixing recipes took ${timer.stop().elapsed("milliseconds")} ms...`)
 })

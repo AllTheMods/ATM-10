@@ -1,0 +1,20 @@
+{
+  "keys": [
+    {
+      "name": "output",
+      "role": "output",
+      "type": "ingredient"
+    },
+    {
+      "name": "catalyst",
+      "role": "other",
+      "type": "ingredient"
+    },
+    {
+      "name": "rarity",
+      "role": "other",
+      "type": "codec<com.buuz135.industrial.recipe.LaserDrillRarity>[]"
+    }
+  ],
+  "unique": ["output"]
+}
