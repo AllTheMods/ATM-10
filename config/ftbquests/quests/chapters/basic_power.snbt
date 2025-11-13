@@ -307,8 +307,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(mekanism:basic_energy_cube)item(mekanism:advanced_energy_cube)item(mekanism:elite_energy_cube)item(mekanism:ultimate_energy_cube)item(mekanism:creative_energy_cube))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 5.5d
-			y: 1.5d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["76EA017B12E8F01B"]
@@ -337,7 +337,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["76EA017B12E8F01B"]
@@ -362,7 +362,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4AB0DD227471FDBF"]
@@ -497,8 +497,8 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 3.0d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["1F81EA5E45424308"]
@@ -846,6 +846,72 @@
 			]
 			x: 0.0d
 			y: 6.0d
+		}
+		{
+			dependencies: ["76EA017B12E8F01B"]
+			icon: {
+				id: "draconicevolution:energy_core"
+			}
+			id: "677D0C23D53A77CA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0846E066332FBFCE"
+					table_id: 5036812014823277174L
+					type: "random"
+				}
+				{
+					id: "788EAA17663077E5"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "7EFDC209D199681D"
+				item: { count: 1, id: "draconicevolution:energy_core" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["35CC898E0E49FE58"]
+			hide_until_deps_complete: true
+			id: "1EECA19DF9CF6A0C"
+			optional: true
+			rewards: [
+				{
+					count: 5
+					id: "7A4E9CB6E67430E6"
+					item: {
+						count: 1
+						id: "fluxnetworks:flux_dust"
+					}
+					random_bonus: 5
+					type: "item"
+				}
+				{
+					id: "00E3D3B0B266F9FE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "122A80350E32318A"
+					item: { count: 1, id: "xycraft_machines:extractor" }
+					type: "item"
+				}
+				{
+					id: "0E8994B88ABB9271"
+					item: { count: 1, id: "appflux:charged_redstone_block" }
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 2.0d
 		}
 	]
 }
