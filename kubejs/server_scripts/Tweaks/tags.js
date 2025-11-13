@@ -147,7 +147,8 @@ ServerEvents.tags('entity_type', allthemods => {
         "@productivebees",
         "forbidden_arcanus:corrupt_lost_soul",
         "forbidden_arcanus:lost_soul",
-        "forbidden_arcanus:enchanted_lost_soul"
+        "forbidden_arcanus:enchanted_lost_soul",
+		    "evilcraft:vengeance_spirit"
     ])
 
     allthemods.add('apothic_spawners:blacklisted_from_spawners', '#allthemods:jank_blacklist')

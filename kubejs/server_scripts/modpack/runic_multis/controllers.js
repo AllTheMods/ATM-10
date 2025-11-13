@@ -1,10 +1,5 @@
 ServerEvents.recipes(allthemods => {
 
-    allthemods.shapeless('modern_industrialization:auto_forge', `modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:auto_hepheastus_forge"]`)
-    allthemods.shapeless('modern_industrialization:star_altar', `modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:runic_star_altar"]`)
-    allthemods.shapeless('modern_industrialization:runic_crucible', `modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:runic_crucible"]`)
-    allthemods.shapeless('modern_industrialization:runic_enchanter', `modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:runic_enchanter"]`)
-
     allthemods.shapeless('modern_industrialization:runic_fluid_input_hatch', 'modern_industrialization:runic_fluid_output_hatch')
     allthemods.shapeless('modern_industrialization:runic_fluid_output_hatch', 'modern_industrialization:runic_fluid_input_hatch')
 
@@ -12,6 +7,11 @@ ServerEvents.recipes(allthemods => {
     allthemods.shapeless('modern_industrialization:runic_item_output_hatch', 'modern_industrialization:runic_item_input_hatch')
 
     if (Platform.isLoaded('modular_machinery_reborn')) {
+        allthemods.shapeless('modern_industrialization:auto_forge', `modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:auto_hepheastus_forge"]`)
+        allthemods.shapeless('modern_industrialization:star_altar', `modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:runic_star_altar"]`)
+        allthemods.shapeless('modern_industrialization:runic_crucible', `modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:runic_crucible"]`)
+        allthemods.shapeless('modern_industrialization:runic_enchanter', `modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:runic_enchanter"]`)
+
         allthemods.shapeless('modern_industrialization:runic_item_input_hatch', 'modular_machinery_reborn:inputbus_ludicrous')
         allthemods.shapeless('modern_industrialization:runic_item_output_hatch', 'modular_machinery_reborn:outputbus_ludicrous')
 
