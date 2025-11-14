@@ -17,7 +17,7 @@ ServerEvents.recipes(allthemods => {
           count: output.count || 1
         }
         ],
-        slag: Ingredient.of(output.slag).toJson() || "" ,
+        slag: output.slag != null ? Ingredient.of(output.slag).toJson() : Ingredient.of("-").toJson(),
         time: 100
     }).id(`allthemods:arcfurnace/${input.replace(/^.*?:/, '')}_to_${output.item.replace(/^.*?:/, '')}`)
   }
@@ -26,11 +26,11 @@ ServerEvents.recipes(allthemods => {
 
   ieIngots.forEach(material => {
     //add sheetmetal scrapping back
-    if(Item.of(`immersiveengineering:sheetmetal_${material}`) !== undefined){
+    if(Item.exists(`immersiveengineering:sheetmetal_${material}`)){
     arcfurnace(`immersiveengineering:sheetmetal_${material}`, 51200, {item: `alltheores:${material}_ingot`})
     arcfurnace(`immersiveengineering:slab_sheetmetal_${material}`, 51200, {item: `alltheores:${material}_nugget`, count: 4})}
     //replace nuggets from rod scrapping recipes
-    if(Item.of(`immersiveengineering:nugget_${material}`) !== undefined){ allthemods.replaceOutput({output: `immersiveengineering:nugget_${material}`}, `immersiveengineering:nugget_${material}`, `alltheores:${material}_nugget`)}
+    if(Item.exists(`immersiveengineering:nugget_${material}`)){ allthemods.replaceOutput({output: `immersiveengineering:nugget_${material}`}, `immersiveengineering:nugget_${material}`, `alltheores:${material}_nugget`)}
     //remove duplicate raw block / raw ore recipes
     allthemods.remove({id: `immersiveengineering:arcfurnace/raw_block_${material}`})
     allthemods.remove({id: `immersiveengineering:arcfurnace/raw_ore_${material}`})
