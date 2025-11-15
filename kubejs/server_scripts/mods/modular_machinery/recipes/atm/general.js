@@ -3,36 +3,67 @@
 
 ServerEvents.recipes(allthemods => {
     //Modularium Plates
-        allthemods.recipes.modern_industrialization.compressor(2, 200)
-            .itemIn('modular_machinery_reborn:modularium')
-            .itemOut('kubejs:modularium_plate')
+        if (Platform.isLoaded('modular_machinery_reborn')) {
+            allthemods.recipes.modern_industrialization.compressor(2, 200)
+                .itemIn('modular_machinery_reborn:modularium')
+                .itemOut('kubejs:modularium_plate')
 
-        allthemods.custom(
-            {
-                type: 'immersiveengineering:metal_press',
-                energy: 2400,
-                input: {
-                  item: 'modular_machinery_reborn:modularium'
-                },
-                mold: 'immersiveengineering:mold_plate',
-                result: {
-                  item: 'kubejs:modularium_plate'
+            allthemods.custom(
+                {
+                    type: 'immersiveengineering:metal_press',
+                    energy: 2400,
+                    input: {
+                    item: 'modular_machinery_reborn:modularium'
+                    },
+                    mold: 'immersiveengineering:mold_plate',
+                    result: {
+                    item: 'kubejs:modularium_plate'
+                    }
                 }
-            }
-        )
+            )
 
-        allthemods.shaped('modular_machinery_reborn:blueprint', 
-            [
-                'plp',
-                'pwp',
-                'ppp'
-            ],
-            {
-                p: 'kubejs:modularium_plate',
-                l: 'actuallyadditions:lens_of_color',
-                w: 'actuallyadditions:laser_wrench'
-            }
-        )
+            allthemods.shaped('modular_machinery_reborn:blueprint', 
+                [
+                    'plp',
+                    'pwp',
+                    'ppp'
+                ],
+                {
+                    p: 'kubejs:modularium_plate',
+                    l: 'actuallyadditions:lens_of_color',
+                    w: 'actuallyadditions:laser_wrench'
+                }
+            )
+            allthemods.remove({id: /modular_machinery_reborn:.*input.*/})
+            allthemods.remove({id: /modular_machinery_reborn:.*output.*/})
+            allthemods.remove({id: /modular_machinery_reborn:casing.*/})
+            allthemods.remove({id: /modular_machinery_reborn:.*ingot/})
+            allthemods.remove({id: /modular_machinery_reborn_ars:.*input.*/})
+            allthemods.remove({id: /modular_machinery_reborn_ars:.*output.*/})
+            allthemods.remove({id: /modular_machinery_reborn_mekanism:.*input.*/})
+            allthemods.remove({id: /modular_machinery_reborn_mekanism:.*output.*/})
+
+        } else {
+            allthemods.recipes.modern_industrialization.compressor(2, 200)
+                .itemIn('kubejs:modularium')
+                .itemOut('kubejs:modularium_plate')
+
+            allthemods.custom(
+                {
+                    type: 'immersiveengineering:metal_press',
+                    energy: 2400,
+                    input: {
+                    item: 'kubejs:modularium'
+                    },
+                    mold: 'immersiveengineering:mold_plate',
+                    result: {
+                    item: 'kubejs:modularium_plate'
+                    }
+                }
+            )
+        }
+    
+
 
         allthemods.custom(
             {
@@ -74,14 +105,7 @@ ServerEvents.recipes(allthemods => {
         )
 
     //Removal
-        allthemods.remove({id: /modular_machinery_reborn:.*input.*/})
-        allthemods.remove({id: /modular_machinery_reborn:.*output.*/})
-        allthemods.remove({id: /modular_machinery_reborn:casing.*/})
-        allthemods.remove({id: /modular_machinery_reborn:.*ingot/})
-        allthemods.remove({id: /modular_machinery_reborn_ars:.*input.*/})
-        allthemods.remove({id: /modular_machinery_reborn_ars:.*output.*/})
-        allthemods.remove({id: /modular_machinery_reborn_mekanism:.*input.*/})
-        allthemods.remove({id: /modular_machinery_reborn_mekanism:.*output.*/})
+
 })
 
 
@@ -157,7 +181,7 @@ ServerEvents.generateData('after_mods', allthemods => {
                 type: 'forbidden_arcanus:create_item',
                 result_item: {
                     count: 24,
-                    id: 'modular_machinery_reborn:modularium'
+                    id: Platform.isLoaded('modular_machinery_reborn') ? 'modular_machinery_reborn:modularium' : 'kubejs:modularium'
                 }
             }
         }

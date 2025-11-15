@@ -44,6 +44,10 @@ StartupEvents.registry('item', allthemods => {
     
     allthemods.create("allthemodium_solar_sail_package").displayName("Allthemodium Solar Sail Package").component("dysoncubeproject:sphere_component_solar_sail", Java.cast("java.lang.Integer", 64))
     allthemods.create("allthemodium_beam_package").displayName("Allthemodium Beam Package").component("dysoncubeproject:sphere_component_beam", Java.cast("java.lang.Integer", 16))
+
+    if (!Platform.isLoaded('modular_machinery_reborn')) {
+        allthemods.create('modularium').color(0xe64200).texture('minecraft:item/iron_ingot')
+    }
 })
 
 let $Stopwatch = Java.loadClass("com.google.common.base.Stopwatch")
@@ -218,6 +222,10 @@ StartupEvents.postInit((allthemods) => {
     // MI removed those deepslate
     $BuiltInRegistries.ITEM.addAlias("modern_industrialization:deepslate_iridium_ore", "modern_industrialization:iridium_ore")
     $BuiltInRegistries.BLOCK.addAlias("modern_industrialization:deepslate_iridium_ore", "modern_industrialization:iridium_ore")
+
+    if (!Platform.isLoaded('modular_machinery_reborn')) {
+        $BuiltInRegistries.ITEM.addAlias("modular_machinery_reborn:modularium", "kubejs:modularium")
+    }
 })
 
 
