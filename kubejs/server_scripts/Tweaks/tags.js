@@ -33,6 +33,7 @@ ServerEvents.tags('block', allthemods => {
 ServerEvents.tags('fluid', allthemods => {
     // Pneumaticcraft
     allthemods.add('c:ethanol', 'pneumaticcraft:ethanol')
+    allthemods.add("c:experience", "create_enchantment_industry:experience")
 })
 
 ServerEvents.tags('item', allthemods => {

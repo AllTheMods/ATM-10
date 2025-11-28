@@ -173,5 +173,10 @@ KubeJSTweaks.beforeRecipes(event => {
       entry.addConditionsFromKey("ingredients")
     })
 
+  event.getEntry("farmersdelight:integration/create/filling/chocolate_pie")
+    .forEach(entry => {
+      entry.replaceValueAtKey("ingredients", "fluid_tag", "c:chocolates", "c:chocolate")
+    })
+
   console.log(`Fixing recipes took ${timer.stop().elapsed("milliseconds")} ms...`)
 })
