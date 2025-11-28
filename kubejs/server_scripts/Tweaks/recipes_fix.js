@@ -178,5 +178,12 @@ KubeJSTweaks.beforeRecipes(event => {
       entry.replaceValueAtKey("ingredients", "fluid_tag", "c:chocolates", "c:chocolate")
     })
 
+  event.getEntry("mekmm:compat/mysticalagradditions/planting/awakened_draconium")
+    .forEach(entry => {
+	    entry.fixItemAtKey("main_output")
+	    let ci = entry.json().get("chemical_input")
+      ci.add("chemical", ci.remove("gas"))
+	  })
+
   console.log(`Fixing recipes took ${timer.stop().elapsed("milliseconds")} ms...`)
 })
