@@ -100,6 +100,19 @@ ServerEvents.recipes(allthemods => {
         9000000000,
         'vibranium_allthemodium_alloy_block'
     );
+    for (let i = 3; i < 10; i++) {
+        energizing(
+            { item: `allthecompressed:vibranium_allthemodium_alloy_block_${i-2}x` },
+            [
+                { item: `allthecompressed:allthemodium_block_${i-2}x`},
+                { item: `allthecompressed:piglich_heart_block_${i-2}x` },
+                { item: `allthecompressed:nitro_crystal_block_${i}x` },
+                { item: `allthecompressed:piglich_heart_block_${i-2}x` },
+                { item: `allthecompressed:vibranium_block_${i-2}x` }],
+             9000000000 * Math.pow(3, i - 2),
+            `vibranium_allthemodium_alloy_block_${i-2}x`
+        );
+    }
 
     function enchanting_apparatus(output, pedestalItems, reagent, nbt, sourceCost, id) {
         let recipe = {
