@@ -149,7 +149,8 @@ ServerEvents.tags('entity_type', allthemods => {
         "forbidden_arcanus:corrupt_lost_soul",
         "forbidden_arcanus:lost_soul",
         "forbidden_arcanus:enchanted_lost_soul",
-		    "evilcraft:vengeance_spirit"
+        "evilcraft:vengeance_spirit",
+        "the_bumblezone:bee_queen"
     ])
 
     allthemods.add('apothic_spawners:blacklisted_from_spawners', '#allthemods:jank_blacklist')
@@ -163,6 +164,7 @@ ServerEvents.tags('entity_type', allthemods => {
     allthemods.add('enderio:spawner_blacklist', '#allthemods:jank_blacklist')
     allthemods.add('ars_additions:source_spawner_denylist', '#allthemods:jank_blacklist')
     allthemods.add('oritech:spawner_blacklist', '#allthemods:jank_blacklist')
+    allthemods.add('ars_nouveau:jar_blacklist', '#allthemods:jank_blacklist')
 });
 
 ServerEvents.tags('worldgen/structure', allthemods => {
