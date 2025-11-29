@@ -890,7 +890,7 @@
 				{
 					count: 2L
 					id: "2119DB35CADF61FC"
-					item: { count: 2, id: "minecraft:experience_bottle" }
+					item: { count: 1, id: "minecraft:experience_bottle" }
 					type: "item"
 				}
 				{
@@ -1240,7 +1240,7 @@
 				{
 					count: 3L
 					id: "01ED52CC3C6D512C"
-					item: { count: 3, id: "minecraft:wither_rose" }
+					item: { count: 1, id: "minecraft:wither_rose" }
 					type: "item"
 				}
 				{
@@ -1251,7 +1251,7 @@
 				{
 					count: 2L
 					id: "5CAE467165ED08FA"
-					item: { count: 2, id: "occultism:crushed_blackstone" }
+					item: { count: 1, id: "occultism:crushed_blackstone" }
 					type: "item"
 				}
 			]
@@ -1562,19 +1562,19 @@
 				{
 					count: 4L
 					id: "0D81CA284D83545D"
-					item: { count: 4, id: "minecraft:armadillo_scute" }
+					item: { count: 1, id: "minecraft:armadillo_scute" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "1F1BB862B01DF36B"
-					item: { count: 4, id: "minecraft:rabbit_foot" }
+					item: { count: 1, id: "minecraft:rabbit_foot" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "2EF2B9AE4AA75FBC"
-					item: { count: 2, id: "minecraft:pointed_dripstone" }
+					item: { count: 1, id: "minecraft:pointed_dripstone" }
 					type: "item"
 				}
 				{
@@ -1606,13 +1606,13 @@
 				{
 					count: 3L
 					id: "3CF54D9FD7B66E32"
-					item: { count: 3, id: "minecraft:dragon_breath" }
+					item: { count: 1, id: "minecraft:dragon_breath" }
 					type: "item"
 				}
 				{
 					count: 2L
 					id: "2096CB75E157FAE6"
-					item: { count: 2, id: "occultism:amethyst_dust" }
+					item: { count: 1, id: "occultism:amethyst_dust" }
 					type: "item"
 				}
 				{
@@ -1623,7 +1623,7 @@
 				{
 					count: 4L
 					id: "2C16905913038FD5"
-					item: { count: 4, id: "minecraft:end_crystal" }
+					item: { count: 1, id: "minecraft:end_crystal" }
 					type: "item"
 				}
 			]
@@ -1884,7 +1884,14 @@
 		{
 			dependencies: ["690B89D23134B624"]
 			id: "54378277B8D28B1D"
-			optional: true
+			rewards: [{
+				id: "2B2B8B432F1AF6A4"
+				item: {
+					count: 1
+					id: "actuallyadditions:void_crystal"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "4A935B03FA1DD7C3"
 				item: { count: 1, id: "occultism:chalk_void" }
