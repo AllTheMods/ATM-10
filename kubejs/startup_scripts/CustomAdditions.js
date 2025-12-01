@@ -16,7 +16,10 @@ StartupEvents.registry('block', allthemods => {
 })
 
 StartupEvents.registry('item', allthemods => {
-    allthemods.create('starlight_prediction').displayName('Generalized Starlight Prediction');
+    
+    if (Platform.isLoaded("eternal_starlight")) {
+        allthemods.create('starlight_prediction').displayName('Generalized Starlight Prediction');
+    }
 
     allthemods.create('silent_allthemodium_plate').displayName('Silent Allthemodium Plate').glow(true);
     allthemods.create('silent_vibranium_plate').displayName('Silent Vibranium Plate').glow(true);
