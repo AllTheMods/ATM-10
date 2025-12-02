@@ -137,7 +137,7 @@ ServerEvents.tags('entity_type', allthemods => {
     allthemods.add('c:bosses', [
       "eternal_starlight:starlight_golem",
       "eternal_starlight:the_gatekeeper"
-    ])
+  ])}
     
   allthemods.add('allthemods:jank_blacklist', [
     "@iceandfire",
