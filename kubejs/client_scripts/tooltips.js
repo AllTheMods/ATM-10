@@ -167,14 +167,18 @@ ItemEvents.modifyTooltips(allthemods => {
     ])
 
 	//Hyperbox
-    allthemods.add('hyperbox:hyperbox', [
-        Text.of("§aDue to a memory leak, these are no longer craftable.  If it is fixed in the future they will be reenabled.")
-    ])
+    if (Platform.isLoaded("hyperbox")) {
+        allthemods.add('hyperbox:hyperbox', [
+            Text.of("§aThis mod will be removed on version 6.0+")
+        ])
+    }
 
-	//Eternal Starlight
-    allthemods.add('eternal_starlight:loot_bag[eternal_starlight:loot_table="eternal_starlight:bosses/lunar_monstrosity"]', [
-        Text.of('This loot bag is from the \"Lunar Monstrosity\".')
-    ])
+    //Eternal Starlight
+    if (Platform.isLoaded("eternal_starlight")) {
+        allthemods.add('eternal_starlight:loot_bag[eternal_starlight:loot_table="eternal_starlight:bosses/lunar_monstrosity"]', [
+            Text.of('This loot bag is from the \"Lunar Monstrosity\".')
+        ])
+    }
 
     if (Platform.isLoaded('modular_machinery_reborn')) {
         allthemods.add('modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:runic_crucible"]', [

@@ -4,10 +4,11 @@
 	quest.03250A0202C25E80.quest_desc: ["After you've successfully slain the &9Unbound Marid&r Demon that you summoned with &4Abras' Fortified Conjure&r, you can use the &9Marid Essence&r that it drops to craft the \"highest\" colored Chalk, Blue Chalk."]
 	quest.03250A0202C25E80.title: "&9Blue Chalk"
 	quest.08697EB269B011FD.quest_desc: [
-		"With &dRonaza's Contact&r, you can upgrade your &bIesnium Sacrificial Bowl&r to the Eldritch Chalice. When used in a ritual, reduces the time it takes to complete... entirely. "
+		"With &dRonaza's Contact&r, you can upgrade your &bIesnium Ritual Bowl&r to the Eldritch Chalice. When used in a ritual, reduces the time it takes to complete... entirely. "
 		""
 		"Yes, the Eldritch Chalice makes it so that all rituals complete instantly!"
 	]
+	quest.08697EB269B011FD.title: "Eldritch Chalice"
 	quest.0A25276925EB0CBA.quest_desc: [
 		"Once you've gathered every single colored Chalk and Foundation Chalk, you can perform the second &dDemon-less&r type ritual, &dRonaza's Contact&r. This is the ultimate ritual, using everything you've learned so far!"
 		""
@@ -116,7 +117,7 @@
 	]
 	quest.2CF96A264EB5522C.quest_subtitle: "Maximum Infusion"
 	quest.2CF96A264EB5522C.title: "&9Uphyxes' Inverted Tower"
-	quest.2E68E1D96B25336D.quest_desc: ["After fighting through a few Demon Possessed Zombified Piglins summoned by &6Abras' Open Commanding Conjure&r, you can use the Demonic Meat dropped by them to craft some Pink Chalk."]
+	quest.2E68E1D96B25336D.quest_desc: ["After fighting through a few Demon Possessed Zombified Piglins summoned by &6Odus' Open Convocation&r, you can use the Demonic Meat dropped by them to craft some Pink Chalk."]
 	quest.2E68E1D96B25336D.title: "&dPink Chalk"
 	quest.2FD22502E6481269.quest_desc: ["Using &dRonaza's Contact&r, you can upgrade your Soul Gem to create a Trinity Gem. It's basically just a beefed up version of the Soul Gem that can capture larger enemies, although it still can't contain most bosses."]
 	quest.2FD22502E6481269.title: "Trinity Gem"
@@ -167,14 +168,14 @@
 	]
 	quest.3D41D0092D94636B.title: "The Flames of &9The Otherworld"
 	quest.429B5A81DF6C43FE.quest_desc: [
-		"&6Abras' Open Commanding Conjure&r is used to bring an &cAfrit&r demon into a Pig. Because this ritual is performed without the use of Red Chalk, it's only powerful enough to summon an &9unbound&r demon."
+		"&6Odus' Open Convocation&r is used to bring an &cAfrit&r demon into a Pig. Because this ritual is performed without the use of Red Chalk, it's only powerful enough to summon an &9unbound&r demon."
 		""
 		"In particular, this ritual will create an &cAfrit&r-possessed Zombified Piglin, which will drop some Demonic Meat, which is used to craft Pink Chalk"
 		""
 		"&4WARNING: YOU MAY HAVE TO DO THIS ONE MULTIPLE TIMES TO GET ENOUGH DEMONIC MEAT."
 	]
 	quest.429B5A81DF6C43FE.quest_subtitle: "How... Fleshy..."
-	quest.429B5A81DF6C43FE.title: "&6Abras' Open Commanding Conjure"
+	quest.429B5A81DF6C43FE.title: "&6Odus' Open Convocation"
 	quest.42F50CE7FE715583.quest_desc: [
 		"To upgrade the amount of stacks your magical storage can hold, you'll need to make &dStorage Stabilizers&r."
 		""
@@ -249,7 +250,7 @@
 	quest.54378277B8D28B1D.quest_desc: [
 		"An \"upgrade\" to the Rainbow Chalk, for those who don't like the rapid color-switching runes ruining their tediously crafted aesthetic. "
 		""
-		"Has the same function as the Rainbow Chalk, except all the runes will show up as white."
+		"Has the same function as the Rainbow Chalk, except all the runes will show up as white. Additionally, it works for foundation chalk as well."
 	]
 	quest.56EC79AF11B0869E.quest_desc: ["&9Xeovrenth Adjure&r is the maximum tier of &5Possession Rituals&r. It only has two uses: creating Cruelty Essence, the main ingredient in Brown Chalk, and creating an Iesnium Golem, which is basically just an Iron Golem that's immortal and does more damage."]
 	quest.56EC79AF11B0869E.quest_subtitle: "Maximum Possession"
@@ -301,6 +302,9 @@
 	]
 	quest.5AE80FF518B1BBA6.quest_subtitle: "Pocket Ritual!"
 	quest.5AE80FF518B1BBA6.title: "Tools of the Trade: Ritual Satchel"
+	quest.5FE507DAEE770507.quest_desc: ["Don't want to get a &9Marid Crusher&r for &bLight Blue Chalk&r? Then you can settle for a &aDjinni Crusher&r instead. &aOphyx' Calling&r is used for summoning &aDjinnis&r. This includes a Demonic Wife/Husband. &aDjinnis&r are able to crush ores more efficiently than Foliots, but not as efficiently as &cAfrits&r or &9Marids&r. They're also capable of crushing ice without melting it."]
+	quest.5FE507DAEE770507.quest_subtitle: "An alternate path for light blue"
+	quest.5FE507DAEE770507.title: "&aOphyx' Calling"
 	quest.61999669BDE127F9.quest_desc: [
 		"If you haven't noticed already, making and re-making rituals over and over again is very taxing on the durability of your Chalks. "
 		""
@@ -324,11 +328,13 @@
 	quest.67884BFA27870CCE.quest_subtitle: "For the less trial-chamber-inclined of us"
 	quest.67884BFA27870CCE.title: "&dOsorin's Unbound Calling"
 	quest.690B89D23134B624.quest_desc: [
-		"Grab your chalks, draw your &dRonaza's Contact&r ritual, and get ready to create the ULTIMATE CHALK!"
+		"Grab your chalks, draw your &dRonaza's Contact&r ritual, and get ready to create the ULTIMATE CHALK*!"
 		""
-		"Instead of having to lug around a full set of 16 chalks, you can use the Rainbow Chalk to paint a color-changing Rune that counts as any of them! "
+		"Instead of having to lug around a full set of 16 chalks, you can use the Rainbow Chalk to paint a color-changing Rune that counts as any of them!"
+		""
+		"&8*Does not include Foundation Chalk. Make the Void Chalk to include those&r"
 	]
-	quest.690B89D23134B624.title: "&cR&6a&ei&an&9b&5o&dw&r Chalk"
+	quest.690B89D23134B624.title: "&zRainbow&r Chalk"
 	quest.6C1BBA559963B3DF.quest_desc: [
 		"The &aDictionary Of Spirits&r serves as the Guide Book for &dOccultism&r. You'll absolutely need to make this if you want to continue with the mod!"
 		""
@@ -356,6 +362,7 @@
 		"When using this in place of a Golden Ritual Bowl, it greatly reduces how long it takes to perform a ritual, taking it down to one fourth of its original time!"
 	]
 	quest.6FFFAE334DFAAAAB.quest_subtitle: "Super-speed Rituals!"
+	quest.6FFFAE334DFAAAAB.title: "Iesnium Ritual Bowl"
 	quest.74130EB1E4B8586D.quest_desc: ["Using &aIhagan's Enthrallment&r, you can sacrifice an Allay, Bat, Bee, or Parrot to summon a &6Possessed Bee&r. Upon defeating one, it will drop Cursed Honey, the main ingredient for making Orange Chalk!"]
 	quest.74130EB1E4B8586D.title: "&6Orange Chalk"
 	quest.78ECC28DD4BA9696.quest_desc: [
@@ -374,7 +381,7 @@
 	quest.7F09F8F98C13F11B.quest_desc: [
 		"What is a Demonic Ritual without a &cSacrifice&r! :D\\n\\nMost of the time, Demons just like items so don't be too afraid yet. However, if you have a favorite Cow, you might need to be worried. Sorry Betsy.\\n\\n&aSacrifical Bowls&r are used to place items needed for Rituals. These can be placed anywhere within the Ritual, as long as it isn't convering up any of the required Chalk. "
 		""
-		"For now, you'll only need four, but later on you'll need upwards of ten bowls for each ritual!\\n\\nThe &6Golden Sacrificial Bowl&r is used in the middle of the Ritual to activate it, and also usually needs a Book of Binding for the Ritual in it."
+		"For now, you'll only need four, but later on you'll need upwards of ten bowls for each ritual!\\n\\nThe &6Golden Ritual Bowl&r is used in the middle of the Ritual to activate it, and also usually needs a Book of Binding for the Ritual in it."
 	]
 	quest.7F09F8F98C13F11B.title: "Preparing for a Ritual: &6Bowls"
 	quest.7F59941D62E672B0.quest_desc: [
@@ -386,14 +393,16 @@
 	]
 	quest.7F59941D62E672B0.title: "&dFamiliars"
 	task.036759CF4EEFFC7D.title: "AllRightsReserved"
+	task.0446B7C6DBB5DDF9.title: "Golden Ritual Bowls"
+	task.05A43D4098C30ED1.title: "Eldritch Chalices"
 	task.0EE813C344409F59.title: "Candles"
+	task.10037D5225C2D20E.title: "Iesnium Ritual Bowls"
 	task.1709A45C149125F1.title: "AllRightsReserved"
 	task.2C5C6F411E2F0CAF.title: "Any #c:dusts/netherite"
 	task.348A7E3E3A3D324E.title: "Yes, I've read this and totally won't forget it!"
 	task.3621D48E2CFAF2C2.title: "Any #c:wools"
+	task.3A9C5AE548810FA6.title: "Sacrificial Bowls"
 	task.523951BF097BA61F.title: "Any #c:dusts/emerald"
 	task.53DE943DF951696B.title: "Demon Miner"
-	task.57108C994437F25B.title: "Any #ae2:all_nether_quartz"
 	task.6C3887D42B6B2122.title: "Familiars"
 }
-

@@ -7,5 +7,6 @@ NativeEvents.onEvent("net.neoforged.neoforge.event.entity.player.PlayerEvent$Pla
                 Client.gui.setSubtitle(Text.white("Due to lag, all progress won't be saved at ").append(Text.blue("Eternal Starlight")))
             })
         }
+        event.entity.tell("Eternal Starlight, will be removed on version 6.0+")
     }
 })
