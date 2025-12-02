@@ -137,9 +137,8 @@ ServerEvents.tags('entity_type', allthemods => {
     allthemods.add('c:bosses', [
       "eternal_starlight:starlight_golem",
       "eternal_starlight:the_gatekeeper"
-    ])
-  }
-
+  ])}
+    
   allthemods.add('allthemods:jank_blacklist', [
     "@iceandfire",
     'ars_nouveau:animated_block',
@@ -157,20 +156,22 @@ ServerEvents.tags('entity_type', allthemods => {
     "evilcraft:vengeance_spirit",
     "the_bumblezone:bee_queen"
   ])
+	allthemods.add('ars_nouveau:jar_blacklist', "the_bumblezone:bee_queen")
 
-  allthemods.add('apothic_spawners:blacklisted_from_spawners', '#allthemods:jank_blacklist')
-  allthemods.add('enderio:soul_vial_blacklist', '#allthemods:jank_blacklist')
-  allthemods.add('industrialforegoing:mob_duplicator_blacklist', '#allthemods:jank_blacklist')
-  allthemods.add('industrialforegoing:mob_crusher_blacklist', '#allthemods:jank_blacklist')
-  allthemods.add('justdirethings:paradox_deny', '#allthemods:jank_blacklist');
-  allthemods.add('tombstone:unhandled_tamable', '#allthemods:jank_blacklist')
-  allthemods.add('mob_grinding_utils:no_swab', '#allthemods:jank_blacklist')
-  allthemods.add('mob_grinding_utils:no_spawn', '#allthemods:jank_blacklist')
-  allthemods.add('enderio:spawner_blacklist', '#allthemods:jank_blacklist')
-  allthemods.add('ars_additions:source_spawner_denylist', '#allthemods:jank_blacklist')
-  allthemods.add('oritech:spawner_blacklist', '#allthemods:jank_blacklist')
-  allthemods.add('ars_nouveau:jar_blacklist', '#allthemods:jank_blacklist')
-});
+    allthemods.add('apothic_spawners:blacklisted_from_spawners', '#allthemods:jank_blacklist')
+    allthemods.add('enderio:soul_vial_blacklist', '#allthemods:jank_blacklist')
+    allthemods.add('industrialforegoing:mob_duplicator_blacklist', '#allthemods:jank_blacklist')
+    allthemods.add('industrialforegoing:mob_crusher_blacklist', '#allthemods:jank_blacklist')
+    allthemods.add('justdirethings:paradox_deny', '#allthemods:jank_blacklist');
+    allthemods.add('tombstone:unhandled_tamable', '#allthemods:jank_blacklist')
+    allthemods.add('mob_grinding_utils:no_swab', '#allthemods:jank_blacklist')
+    allthemods.add('mob_grinding_utils:no_spawn', '#allthemods:jank_blacklist')
+    allthemods.add('enderio:spawner_blacklist', '#allthemods:jank_blacklist')
+    allthemods.add('ars_additions:source_spawner_denylist', '#allthemods:jank_blacklist')
+    allthemods.add('oritech:spawner_blacklist', '#allthemods:jank_blacklist')
+  }
+
+
 
 ServerEvents.tags('worldgen/structure', allthemods => {
   // Cataclysm
