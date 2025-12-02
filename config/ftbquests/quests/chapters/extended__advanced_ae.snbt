@@ -10,6 +10,7 @@
 	images: [
 		{
 			click: "#78215D704E6095B0"
+			color: 7344293
 			height: 1.0d
 			hover: ["Quantum Helmet"]
 			image: "advanced_ae:item/quantum_helmet_tint"
@@ -20,6 +21,7 @@
 		}
 		{
 			click: "#78215D704E6095B0"
+			color: 7344293
 			height: 1.0d
 			hover: ["Quantum Chestplate"]
 			image: "advanced_ae:item/quantum_chestplate_tint"
@@ -30,6 +32,7 @@
 		}
 		{
 			click: "#78215D704E6095B0"
+			color: 7344293
 			height: 1.0d
 			hover: ["Quantum Leggings"]
 			image: "advanced_ae:item/quantum_leggings_tint"
@@ -40,6 +43,7 @@
 		}
 		{
 			click: "#78215D704E6095B0"
+			color: 7344293
 			height: 1.0d
 			hover: ["Quantum Boots"]
 			image: "advanced_ae:item/quantum_boots_tint"
@@ -79,6 +83,38 @@
 			width: 10.0d
 			x: -7.5d
 			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "advanced_ae:item/quantum_helmet_base"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "advanced_ae:item/quantum_chestplate_base"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "advanced_ae:item/quantum_leggings_base"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "advanced_ae:item/quantum_boots_base"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 6.5d
 		}
 	]
 	order_index: 2
@@ -453,11 +489,18 @@
 					xp_levels: 3
 				}
 			]
-			tasks: [{
-				id: "7BE7E513F11A3C35"
-				item: { count: 1, id: "advanced_ae:quantum_unit" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7BE7E513F11A3C35"
+					item: { count: 1, id: "advanced_ae:quantum_unit" }
+					type: "item"
+				}
+				{
+					id: "637D2A0BA1A46912"
+					item: { count: 1, id: "advanced_ae:quantum_structure" }
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 5.0d
 		}
@@ -780,7 +823,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 11.5d
+			y: 12.5d
 		}
 		{
 			dependencies: ["0B4CE3969067FA31"]
@@ -1210,7 +1253,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 9.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["0B4CE3969067FA31"]
@@ -1259,7 +1302,7 @@
 				item: { count: 1, id: "advanced_ae:flight_drift_card" }
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.5d
 			y: 13.5d
 		}
 		{
