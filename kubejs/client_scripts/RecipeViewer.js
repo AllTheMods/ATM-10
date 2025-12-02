@@ -125,7 +125,6 @@ RecipeViewerEvents.removeEntries('item', allthemods => {
         "mininggadgets:upgrade_battery_creative",
         "immersiveengineering:capacitor_creative",
         "twilightforest:uncrafting_table",
-        "hyperbox:hyperbox",
         "mifa:efficiency_addon_5",
         "mifa:efficiency_addon_6",
         "mifa:efficiency_addon_7",
@@ -139,6 +138,10 @@ RecipeViewerEvents.removeEntries('item', allthemods => {
         "mifa:speed_addon_7",
         "mifa:speed_addon_8"]
     )
+
+    if (Platform.isLoaded("hyperbox")) {
+        allthemods.remove("hyperbox:hyperbox")
+    }
 
     allthemods.remove(stack => {
         if (stack.id == "evilcraft:dark_tank") {
