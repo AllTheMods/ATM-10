@@ -98,7 +98,12 @@ ServerEvents.tags('item', allthemods => {
     'modularbees:electrode_copper',
     'modularbees:electrode_iron',
     'modularbees:electrode_gold',
-    'modularbees:electrode_netherite'
+    'modularbees:electrode_netherite',
+    "modern_industrialization:forge_hammer",
+    "modern_industrialization:iron_hammer",
+    "modern_industrialization:steel_hammer",
+    "modern_industrialization:netherite_hammer",
+    "modern_industrialization:diamond_hammer"
   ])
 
   // Overdrive
