@@ -1539,5 +1539,68 @@
 			x: 4.5d
 			y: -1.0d
 		}
+		{
+			dependencies: ["1A20BBBAFBEDF911"]
+			icon: {
+				components: {
+					"ftbquests:icon": "advanced_ae:block/crafting/quantum_internal_powered_animation"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "7E35ED5B30697722"
+			rewards: [
+				{
+					count: 18
+					id: "6832FF42E2515750"
+					item: {
+						count: 1
+						id: "advanced_ae:quantum_structure"
+					}
+					type: "item"
+				}
+				{
+					count: 23
+					id: "19E4D618AEC46183"
+					item: {
+						count: 1
+						id: "advanced_ae:quantum_accelerator"
+					}
+					type: "item"
+				}
+				{
+					id: "5E7F9624CC692B0C"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			shape: "none"
+			size: 2.0d
+			tasks: [
+				{
+					count: 200L
+					id: "3171E55D6D6BD6D4"
+					item: { count: 1, id: "advanced_ae:quantum_structure" }
+					type: "item"
+				}
+				{
+					count: 100L
+					id: "1BD31EF16F5BB8FB"
+					item: { count: 1, id: "advanced_ae:quantum_accelerator" }
+					type: "item"
+				}
+				{
+					id: "26C2ACE06AFD6863"
+					item: { count: 1, id: "advanced_ae:quantum_core" }
+					type: "item"
+				}
+				{
+					id: "0F49E7950B0C2F41"
+					item: { count: 1, id: "advanced_ae:quantum_multi_threader" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 5.0d
+		}
 	]
 }

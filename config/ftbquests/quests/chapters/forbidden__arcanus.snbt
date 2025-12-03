@@ -440,13 +440,13 @@
 				{
 					count: 48L
 					id: "1F69FA94F4B3CB37"
-					item: { count: 48, id: "forbidden_arcanus:polished_darkstone" }
+					item: { count: 1, id: "forbidden_arcanus:polished_darkstone" }
 					type: "item"
 				}
 				{
 					count: 9L
 					id: "22ECC8138C9286AD"
-					item: { count: 9, id: "forbidden_arcanus:gilded_chiseled_polished_darkstone" }
+					item: { count: 1, id: "forbidden_arcanus:gilded_chiseled_polished_darkstone" }
 					type: "item"
 				}
 				{
@@ -458,7 +458,7 @@
 				{
 					count: 8L
 					id: "5F985E5DA92CF2C5"
-					item: { count: 8, id: "forbidden_arcanus:darkstone_pedestal" }
+					item: { count: 1, id: "forbidden_arcanus:darkstone_pedestal" }
 					type: "item"
 				}
 				{
@@ -1098,6 +1098,14 @@
 					}
 					type: "item"
 				}
+				{
+					id: "2959A3E2AC7AD0FA"
+					item: {
+						count: 1
+						id: "industrialization_overdrive:terminal"
+					}
+					type: "item"
+				}
 			]
 			shape: "hexagon"
 			size: 2.0d
@@ -1182,7 +1190,7 @@
 				{
 					count: 2L
 					id: "2F6E6A8E20D0884E"
-					item: { count: 2, id: "forbidden_arcanus:arcane_crystal_block" }
+					item: { count: 1, id: "forbidden_arcanus:arcane_crystal_block" }
 					type: "item"
 				}
 				{
@@ -1286,13 +1294,13 @@
 				{
 					count: 8L
 					id: "1A8C2612F1B274EF"
-					item: { count: 8, id: "forbidden_arcanus:polished_darkstone" }
+					item: { count: 1, id: "forbidden_arcanus:polished_darkstone" }
 					type: "item"
 				}
 				{
 					count: 17L
 					id: "7534ED761938BADE"
-					item: { count: 17, id: "forbidden_arcanus:polished_darkstone_bricks" }
+					item: { count: 1, id: "forbidden_arcanus:polished_darkstone_bricks" }
 					type: "item"
 				}
 				{
@@ -1758,7 +1766,7 @@
 				{
 					count: 4L
 					id: "6AEEE6865507F52C"
-					item: { count: 4, id: "forbidden_arcanus:rune_block" }
+					item: { count: 1, id: "forbidden_arcanus:rune_block" }
 					type: "item"
 				}
 				{
@@ -1769,25 +1777,25 @@
 				{
 					count: 5L
 					id: "4559773DB06CEDD6"
-					item: { count: 5, id: "forbidden_arcanus:arcane_crystal_block" }
+					item: { count: 1, id: "forbidden_arcanus:arcane_crystal_block" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "408B0D55BCF10C19"
-					item: { count: 4, id: "forbidden_arcanus:arcane_polished_darkstone_pillar" }
+					item: { count: 1, id: "forbidden_arcanus:arcane_polished_darkstone_pillar" }
 					type: "item"
 				}
 				{
 					count: 4L
 					id: "57350D94298AF86F"
-					item: { count: 4, id: "forbidden_arcanus:arcane_polished_darkstone" }
+					item: { count: 1, id: "forbidden_arcanus:arcane_polished_darkstone" }
 					type: "item"
 				}
 				{
 					count: 19L
 					id: "48768AB29200654C"
-					item: { count: 19, id: "forbidden_arcanus:polished_darkstone_stairs" }
+					item: { count: 1, id: "forbidden_arcanus:polished_darkstone_stairs" }
 					type: "item"
 				}
 				{
@@ -1798,7 +1806,7 @@
 				{
 					count: 16L
 					id: "0845E29E22AED37B"
-					item: { count: 16, id: "forbidden_arcanus:polished_darkstone" }
+					item: { count: 1, id: "forbidden_arcanus:polished_darkstone" }
 					type: "item"
 				}
 				{
@@ -1923,9 +1931,8 @@
 				"1D94F59F13667DCF"
 				"3DF1435A15515DA9"
 				"798B592E956AD28C"
-				"0D61473D7A09CD48"
 			]
-			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "0DC0E236C8213050"
 			rewards: [{
 				count: 3
@@ -1950,9 +1957,8 @@
 				"798B592E956AD28C"
 				"12256A90B1CE3F90"
 				"0BCC79C1D002F532"
-				"0D61473D7A09CD48"
 			]
-			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "67258590FA14BE44"
 			rewards: [{
 				count: 3
@@ -1973,10 +1979,7 @@
 			y: -2.5d
 		}
 		{
-			dependencies: [
-				"3C5A5432E6B1EF9E"
-				"0D61473D7A09CD48"
-			]
+			dependencies: ["3C5A5432E6B1EF9E"]
 			hide_until_deps_complete: true
 			id: "0447551EF7FB171B"
 			rewards: [{
@@ -1998,10 +2001,7 @@
 			y: 0.5d
 		}
 		{
-			dependencies: [
-				"0C25F73C0E0FB22A"
-				"0D61473D7A09CD48"
-			]
+			dependencies: ["0C25F73C0E0FB22A"]
 			hide_until_deps_complete: true
 			id: "4E014B495668A601"
 			rewards: [{
@@ -2023,8 +2023,14 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["15849165CA8C00F9"]
-			hide_until_deps_complete: true
+			dependencies: [
+				"15849165CA8C00F9"
+				"4E014B495668A601"
+				"67258590FA14BE44"
+				"0DC0E236C8213050"
+				"0447551EF7FB171B"
+			]
+			hide_until_deps_visible: true
 			id: "0D61473D7A09CD48"
 			rewards: [{
 				exclude_from_claim_all: true
