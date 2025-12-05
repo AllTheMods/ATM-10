@@ -75,6 +75,11 @@ ServerEvents.tags('item', allthemods => {
     '#c:storage_blocks/fire_essence',
     '#c:storage_blocks/water_essence'
   ])
+  // Eldritch Chalices
+  allthemods.add('allthemods:eldritch_chalices', [
+	'occultism:eldritch_chalice',
+	'occultism:celestial_chalice'
+  ])
 
   // Bibliocraft compat
   // Ars Elemental Books
