@@ -4,13 +4,6 @@
 ItemEvents.modifyTooltips(allthemods => {
 
     //AllTheModium
-    allthemods.add('allthemodium:teleport_pad',[
-        Text.of('Place the pad down in the specified Dimension'),
-        Text.of('Sneak Right Click with both hands empty to teleport'),
-        Text.of('§aOverworld TO Mining Dimension'),
-        Text.of('§cThe Nether TO The Other'),
-        Text.of('§bThe End TO The Beyond')
-    ])
 
     allthemods.add(['allthemodium:allthemodium_ore', 'allthemodium:allthemodium_slate_ore'],[
         Text.of('§7Needs at least Netherite to be mined'),
@@ -94,7 +87,7 @@ ItemEvents.modifyTooltips(allthemods => {
         Text.of("§4Or by using a Corrupt Soul on an Oak Sapling"),
     ])
     allthemods.add('forbidden_arcanus:magnetized_darkstone_pedestal',[
-        Text.of("§7Use Ferrognetic Mixture on the Darkstone Pedesta"),
+        Text.of("§7Use Ferrognetic Mixture on the Darkstone Pedestal"),
     ])
     allthemods.add('forbidden_arcanus:soul',[
         Text.of("§7Use a Soul Extractor on Soul Sand"),
@@ -198,6 +191,15 @@ ItemEvents.modifyTooltips(allthemods => {
             Text.of('Use crafting table to convert to the new version.')
         ])
     }
+	allthemods.add([
+	'gateways:gate_pearl[gateways:gateway="apotheosis:tiered/frontier"]',
+	'gateways:gate_pearl[gateways:gateway="apotheosis:tiered/ascent"]',
+	'gateways:gate_pearl[gateways:gateway="apotheosis:tiered/summit"]',
+	'gateways:gate_pearl[gateways:gateway="apotheosis:tiered/pinnacle"]'],
+	[
+		Text.of("§cWARNING: Will implode at wave 3 outside of the following dimensions:"),
+		Text.of("§cOverworld, The Nether, The End, The Twilight Forest")
+	])
 })
 
 
