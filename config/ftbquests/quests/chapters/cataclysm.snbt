@@ -2977,14 +2977,63 @@
 				id: "cataclysm:music_disc_the_cataclysmfarer"
 			}
 			id: "2790EB2E347D28DE"
-			rewards: [{
-				id: "53C53B97C22A576D"
-				item: {
-					count: 1
-					id: "cataclysm:music_disc_the_cataclysmfarer"
+			rewards: [
+				{
+					id: "53C53B97C22A576D"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_the_cataclysmfarer"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 2
+					id: "388C6D4D376FAA2E"
+					item: {
+						components: {
+							"minecraft:custom_name": "\"ATM Star Block\""
+						}
+						count: 1
+						id: "dyenamics:amber_glazed_terracotta"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "36085102DFDE5810"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "476BC912A8D98B1A"
+					table_id: 4196188979167302596L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0F9000022FE357BA"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7DFC39278AB7E425"
+					table_id: 7025454341029952768L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "590E340DD8B24EA5"
+					table_id: 5196609362437981520L
+					type: "random"
+				}
+				{
+					id: "5F1C78B88693B3EC"
+					type: "xp_levels"
+					xp_levels: 250
+				}
+			]
 			tasks: [{
 				id: "01063DC98BCE5A91"
 				type: "checkmark"
