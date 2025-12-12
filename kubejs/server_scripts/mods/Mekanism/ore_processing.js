@@ -125,6 +125,11 @@ ServerEvents.recipes(allthemods => {
             }
         ).id(id)
     }
+  allthemods.remove({ id: `xycraft_machines:compat/mek/processing/aluminum/slurry/dirty/from_raw_block`})
+  allthemods.remove({ id: `xycraft_machines:compat/mek/processing/aluminum/slurry/dirty/from_raw_ore`})
+  allthemods.remove({ id: `xycraft_machines:compat/mek/processing/aluminum/slurry/dirty/from_ore`})
+  allthemods.remove({ id: `xycraft_machines:compat/mek/processing/aluminum/slurry/clean`})
+  allthemods.remove({ id: `xycraft_machines:compat/mek/processing/aluminum/crystal/from_slurry`})
 
 })
 
