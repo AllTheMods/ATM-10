@@ -3059,6 +3059,9 @@
 		{
 			dependencies: ["25213DBA6E6CEDD2"]
 			hide_dependent_lines: true
+			icon: {
+				id: "justdirethings:time_crystal"
+			}
 			id: "6ADE6F9E004055F7"
 			rewards: [
 				{
@@ -3077,11 +3080,23 @@
 					xp: 240
 				}
 			]
-			tasks: [{
-				id: "49BF75629F74C10B"
-				item: { count: 1, id: "justdirethings:time_crystal" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					icon: {
+						id: "justdirethings:time_crystal_budding_block"
+					}
+					id: "0FB06A55F5FE6F26"
+					observe_type: 0
+					timer: 0L
+					to_observe: "justdirethings:time_crystal_budding_block"
+					type: "observation"
+				}
+				{
+					id: "49BF75629F74C10B"
+					item: { count: 1, id: "justdirethings:time_crystal" }
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -4.0d
 		}
@@ -3094,14 +3109,21 @@
 				"48E4D75FD3145AD6"
 			]
 			id: "76B1C5AFC5D6B7CF"
-			rewards: [{
-				id: "58FCDEDEC85FBFC2"
-				item: {
-					count: 1
-					id: "justdirethings:time_fluid_bucket"
+			rewards: [
+				{
+					id: "58FCDEDEC85FBFC2"
+					item: {
+						count: 1
+						id: "justdirethings:time_fluid_bucket"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "2EDA9576EE3854AD"
+					type: "xp"
+					xp: 240
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "0961FA9C18C59B6C"
@@ -3119,15 +3141,22 @@
 				"5F5120451BA5B2FE"
 			]
 			id: "41E8C93A44559E48"
-			rewards: [{
-				count: 9
-				id: "1A51616F0BF9D119"
-				item: {
-					count: 1
-					id: "justdirethings:time_crystal"
+			rewards: [
+				{
+					count: 9
+					id: "1A51616F0BF9D119"
+					item: {
+						count: 1
+						id: "justdirethings:time_crystal"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "6804CF4FE5619D05"
+					type: "xp"
+					xp: 240
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "21576FD266357CAF"
@@ -3144,6 +3173,29 @@
 			]
 			hide_dependent_lines: true
 			id: "48E4D75FD3145AD6"
+			rewards: [
+				{
+					id: "3F97CDC52897BBDE"
+					item: {
+						components: {
+							"mekanism:fluids": {
+								fluid_tanks: [{
+									amount: 12000
+									id: "justdirethings:time_fluid_source"
+								}]
+							}
+						}
+						count: 1
+						id: "mekanism:basic_fluid_tank"
+					}
+					type: "item"
+				}
+				{
+					id: "5112A4F8A083057B"
+					type: "xp"
+					xp: 240
+				}
+			]
 			shape: "diamond"
 			tasks: [{
 				id: "0C4A8B7C384A147E"

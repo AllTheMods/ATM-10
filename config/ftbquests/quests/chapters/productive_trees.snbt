@@ -3745,7 +3745,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 5.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["01F51EBFEC660549"]
@@ -4306,6 +4306,26 @@
 			}]
 			x: 0.0d
 			y: 12.5d
+		}
+		{
+			dependencies: ["291EE514A1602C46"]
+			id: "4DC4FFD69B1688BF"
+			rewards: [{
+				count: 16
+				id: "103BB12E39B55875"
+				item: {
+					count: 1
+					id: "productivetrees:rainbow_gum_log"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2193A637936B1FCD"
+				item: { count: 1, id: "productivetrees:rainbow_gum_sapling" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
 		}
 	]
 }
