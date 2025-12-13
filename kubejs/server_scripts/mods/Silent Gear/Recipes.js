@@ -161,6 +161,448 @@ ServerEvents.recipes(allthemods => {
 		    "results": [{"count":1, "id": "minecraft:copper_ingot" }, {"count":2,"id":"minecraft:stick"}]
 	    }
     )
+    //	MEKANISM
+    //	LAPIS LAZULI TOOLS
+    //	PAXEL
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:lapis_lazuli_paxel" },
+            "results": [{"count":2, "id": "minecraft:lapis_lazuli" }, {"count":1,"id":"minecraft:stick"}]
+        }
+    )
+    //	SWORD
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:lapis_lazuli_sword" },
+            "results": [{"count":2, "id": "minecraft:lapis_lazuli" }, {"count":1,"id":"minecraft:stick"}]
+        }
+    );
+    //	PICKAXE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:lapis_lazuli_pickaxe" },
+            "results": [{"count":3, "id": "minecraft:lapis_lazuli" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+    //	AXE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:lapis_lazuli_axe" },
+            "results": [{"count":3, "id": "minecraft:lapis_lazuli" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+    //	SHOVEL
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:lapis_lazuli_shovel" },
+            "results": [{"count":1, "id": "minecraft:lapis_lazuli" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+    //	HOE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:lapis_lazuli_hoe" },
+            "results": [{"count":2, "id": "minecraft:lapis_lazuli" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+
+    //	LAPIS LAZULI ARMOR
+    //	HELMET
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:lapis_lazuli_helmet" },
+            "results": [{"count":5, "id": "minecraft:lapis_lazuli" }]
+        }
+    );
+    //	CHESTPLATE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:lapis_lazuli_chestplate" },
+            "results": [{"count":8, "id": "minecraft:lapis_lazuli" }]
+        }
+    );
+    //	LEGGINS
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:lapis_lazuli_leggings" },
+            "results": [{"count":7, "id": "minecraft:lapis_lazuli" }]
+        }
+    );
+    //	BOOTS
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:lapis_lazuli_boots" },
+            "results": [{"count":4, "id": "minecraft:lapis_lazuli" }]
+        }
+    );
+
+    // BRONZE TOOLS
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:bronze_paxel" },
+            "results": [{"count":2, "id": "alltheores:bronze_ingot" }, {"count":1,"id":"minecraft:stick"}]
+        }
+    );
+    //	SWORD
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:bronze_sword" },
+            "results": [{"count":2, "id": "alltheores:bronze_ingot" }, {"count":1,"id":"minecraft:stick"}]
+        }
+    );
+    //	PICKAXE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:bronze_pickaxe" },
+            "results": [{"count":3, "id": "alltheores:bronze_ingot" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+    //	AXE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:bronze_axe" },
+            "results": [{"count":3, "id": "alltheores:bronze_ingot" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+    //	SHOVEL
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:bronze_shovel" },
+            "results": [{"count":1, "id": "alltheores:bronze_ingot" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+    //	HOE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:bronze_hoe" },
+            "results": [{"count":2, "id": "alltheores:bronze_ingot" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+
+    // BRONZE ARMOR
+    //	HELMET
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:bronze_helmet" },
+            "results": [{"count":5, "id": "alltheores:bronze_ingot" }]
+        }
+    );
+    //	CHESTPLATE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:bronze_chestplate" },
+            "results": [{"count":8, "id": "alltheores:bronze_ingot" }]
+        }
+    );
+    //	LEGGINS
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:bronze_leggings" },
+            "results": [{"count":7, "id": "alltheores:bronze_ingot" }]
+        }
+    );
+    //	BOOTS
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:bronze_boots" },
+            "results": [{"count":4, "id": "alltheores:bronze_ingot" }]
+        }
+    );
+
+
+    // OSMIUM TOOLS
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:osmium_paxel" },
+            "results": [{"count":2, "id": "alltheores:osmium_ingot" }, {"count":1,"id":"minecraft:stick"}]
+        }
+    );
+    //	SWORD
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:osmium_sword" },
+            "results": [{"count":2, "id": "alltheores:osmium_ingot" }, {"count":1,"id":"minecraft:stick"}]
+        }
+    );
+    //	PICKAXE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:osmium_pickaxe" },
+            "results": [{"count":3, "id": "alltheores:osmium_ingot" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+    //	AXE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:osmium_axe" },
+            "results": [{"count":3, "id": "alltheores:osmium_ingot" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+    //	SHOVEL
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:osmium_shovel" },
+            "results": [{"count":1, "id": "alltheores:osmium_ingot" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+    //	HOE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:osmium_hoe" },
+            "results": [{"count":2, "id": "alltheores:osmium_ingot" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+
+    // OSMIUM ARMOR
+    //	HELMET
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:osmium_helmet" },
+            "results": [{"count":5, "id": "alltheores:osmium_ingot" }]
+        }
+    );
+    //	CHESTPLATE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:osmium_chestplate" },
+            "results": [{"count":8, "id": "alltheores:osmium_ingot" }]
+        }
+    );
+    //	LEGGINS
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:osmium_leggings" },
+            "results": [{"count":7, "id": "alltheores:osmium_ingot" }]
+        }
+    );
+    //	BOOTS
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:osmium_boots" },
+            "results": [{"count":4, "id": "alltheores:osmium_ingot" }]
+        }
+    );
+
+
+    // REFINED OBSIDIAN TOOLS
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:refined_obsidian_paxel" },
+            "results": [{"count":2, "id": "mekanism:ingot_refined_obsidian" }, {"count":1,"id":"minecraft:stick"}]
+        }
+    );
+    //	SWORD
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:refined_obsidian_sword" },
+            "results": [{"count":2, "id": "mekanism:ingot_refined_obsidian" }, {"count":1,"id":"minecraft:stick"}]
+        }
+    );
+    //	PICKAXE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:refined_obsidian_pickaxe" },
+            "results": [{"count":3, "id": "mekanism:ingot_refined_obsidian" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+    //	AXE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:refined_obsidian_axe" },
+            "results": [{"count":3, "id": "mekanism:ingot_refined_obsidian" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+    //	SHOVEL
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:refined_obsidian_shovel" },
+            "results": [{"count":1, "id": "mekanism:ingot_refined_obsidian" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+    //	HOE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:refined_obsidian_hoe" },
+            "results": [{"count":2, "id": "mekanism:ingot_refined_obsidian" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+
+    // REFINED OBSIDIAN ARMOR
+    //	HELMET
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:refined_obsidian_helmet" },
+            "results": [{"count":5, "id": "mekanism:ingot_refined_obsidian" }]
+        }
+    );
+    //	CHESTPLATE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:refined_obsidian_chestplate" },
+            "results": [{"count":8, "id": "mekanism:ingot_refined_obsidian" }]
+        }
+    );
+    //	LEGGINS
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:refined_obsidian_leggings" },
+            "results": [{"count":7, "id": "mekanism:ingot_refined_obsidian" }]
+        }
+    );
+    //	BOOTS
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:refined_obsidian_boots" },
+            "results": [{"count":4, "id": "mekanism:ingot_refined_obsidian" }]
+        }
+    );
+
+    // REFINED GLOWSTONE TOOLS
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:refined_glowstone_paxel" },
+            "results": [{"count":2, "id": "mekanism:ingot_refined_glowstone" }, {"count":1,"id":"minecraft:stick"}]
+        }
+    );
+    //	SWORD
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:refined_glowstone_sword" },
+            "results": [{"count":2, "id": "mekanism:ingot_refined_glowstone" }, {"count":1,"id":"minecraft:stick"}]
+        }
+    );
+    //	PICKAXE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:refined_glowstone_pickaxe" },
+            "results": [{"count":3, "id": "mekanism:ingot_refined_glowstone" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+    //	AXE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:refined_glowstone_axe" },
+            "results": [{"count":3, "id": "mekanism:ingot_refined_glowstone" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+    //	SHOVEL
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:refined_glowstone_shovel" },
+            "results": [{"count":1, "id": "mekanism:ingot_refined_glowstone" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+    //	HOE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:refined_glowstone_hoe" },
+            "results": [{"count":2, "id": "mekanism:ingot_refined_glowstone" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+
+    // REFINED GLOWSTONE ARMOR
+    //	HELMET
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:refined_glowstone_helmet" },
+            "results": [{"count":5, "id": "mekanism:ingot_refined_glowstone" }]
+        }
+    );
+    //	CHESTPLATE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:refined_glowstone_chestplate" },
+            "results": [{"count":8, "id": "mekanism:ingot_refined_glowstone" }]
+        }
+    );
+    //	LEGGINS
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:refined_glowstone_leggings" },
+            "results": [{"count":7, "id": "mekanism:ingot_refined_glowstone" }]
+        }
+    );
+    //	BOOTS
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:refined_glowstone_boots" },
+            "results": [{"count":4, "id": "mekanism:ingot_refined_glowstone" }]
+        }
+    );
+
+    // STEEL GLOWSTONE TOOLS
+    //	PAXEL
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:steel_paxel" },
+            "results": [{"count":2, "id": "mekanism:ingot_steel" }, {"count":1,"id":"minecraft:stick"}]
+        }
+    );
+    //	SWORD
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:steel_sword" },
+            "results": [{"count":2, "id": "mekanism:ingot_steel" }, {"count":1,"id":"minecraft:stick"}]
+        }
+    );
+    //	PICKAXE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:steel_pickaxe" },
+            "results": [{"count":3, "id": "mekanism:ingot_steel" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+    //	AXE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:steel_axe" },
+            "results": [{"count":3, "id": "mekanism:ingot_steel" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+    //	SHOVEL
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:steel_shovel" },
+            "results": [{"count":1, "id": "mekanism:ingot_steel" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+    //	HOE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:steel_hoe" },
+            "results": [{"count":2, "id": "mekanism:ingot_steel" }, {"count":2,"id":"minecraft:stick"}]
+        }
+    );
+
+    // STEEL ARMOR
+    //	HELMET
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:steel_helmet" },
+            "results": [{"count":5, "id": "mekanism:ingot_steel" }]
+        }
+    );
+    //	CHESTPLATE
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:steel_chestplate" },
+            "results": [{"count":8, "id": "mekanism:ingot_steel" }]
+        }
+    );
+    //	LEGGINS
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:steel_leggings" },
+            "results": [{"count":7, "id": "mekanism:ingot_steel" }]
+        }
+    );
+    //	BOOTS
+    allthemods.custom(
+        { "type": "silentgear:salvaging",
+            "ingredient": {"item":"mekanismtools:steel_boots" },
+            "results": [{"count":4, "id": "mekanism:ingot_steel" }]
+        }
+    );
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
