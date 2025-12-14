@@ -145,7 +145,7 @@
 			rotation: 0.0d
 			width: 9.547619047619047d
 			x: 31.5d
-			y: -5.0d
+			y: -7.0d
 		}
 		{
 			dependency: "15849165CA8C00F9"
@@ -191,6 +191,15 @@
 			width: 1.7149425287356321d
 			x: 28.0d
 			y: 2.0d
+		}
+		{
+			dependency: "15849165CA8C00F9"
+			height: 1.0d
+			image: "atm:textures/questpics/forbidden/forbidden_condenser.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 31.464285714285708d
+			y: -6.160714285714295d
 		}
 	]
 	order_index: 3
@@ -1733,9 +1742,8 @@
 			y: 2.5d
 		}
 		{
-			dependencies: ["15849165CA8C00F9"]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
+			dependencies: ["00F2C4A528873A6B"]
+			hide_until_deps_visible: true
 			icon: {
 				id: "minecraft:cauldron"
 			}
@@ -1980,7 +1988,7 @@
 		}
 		{
 			dependencies: ["3C5A5432E6B1EF9E"]
-			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "0447551EF7FB171B"
 			rewards: [{
 				count: 3
@@ -2002,7 +2010,7 @@
 		}
 		{
 			dependencies: ["0C25F73C0E0FB22A"]
-			hide_until_deps_complete: true
+			hide_until_deps_visible: true
 			id: "4E014B495668A601"
 			rewards: [{
 				count: 3
@@ -2079,6 +2087,36 @@
 			}]
 			x: 34.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["15849165CA8C00F9"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "00F2C4A528873A6B"
+			rewards: [{
+				count: 3
+				id: "59E9F7821DE7F56B"
+				item: {
+					count: 1
+					id: "sauce:source_fluid_bucket"
+				}
+				type: "item"
+			}]
+			size: 1.3d
+			tasks: [
+				{
+					id: "637F0048D3CAD8B4"
+					item: { count: 1, id: "starbunclemania:source_condenser" }
+					type: "item"
+				}
+				{
+					id: "3C7296E2E064C061"
+					item: { count: 1, id: "sauce:source_fluid_bucket" }
+					type: "item"
+				}
+			]
+			x: 31.5d
+			y: -5.0d
 		}
 	]
 }

@@ -119,8 +119,8 @@
 		}
 		{
 			height: 2.0d
-			image: "occultism:item/divination_rod/divination_rod_animation"
-			rotation: -45.0d
+			image: "occultism:textures/gui/book/familiar_dragon.png"
+			rotation: 0.0d
 			width: 2.0d
 			x: 18.0d
 			y: 15.5d
@@ -878,7 +878,6 @@
 			}
 			id: "39647A2473F6F7D7"
 			min_width: 300
-			require_sequential_tasks: true
 			rewards: [{
 				id: "4AD6D3E0605F8F3C"
 				type: "xp"
@@ -955,7 +954,6 @@
 			}
 			id: "0BD6365534BF04D5"
 			min_width: 300
-			require_sequential_tasks: true
 			rewards: [{
 				id: "7911ABFD485D38FB"
 				type: "xp"
@@ -1020,7 +1018,6 @@
 			}
 			id: "38A1295878B68F83"
 			min_width: 300
-			require_sequential_tasks: true
 			rewards: [{
 				id: "1412ED0B0BCBCBA2"
 				type: "xp"
@@ -1060,7 +1057,6 @@
 			}
 			id: "0D18BBB04693885A"
 			min_width: 300
-			require_sequential_tasks: true
 			rewards: [{
 				id: "7363A3F35687ED86"
 				type: "xp"
@@ -1229,7 +1225,6 @@
 			}
 			id: "2960FFE0C53DFEB1"
 			min_width: 300
-			require_sequential_tasks: true
 			rewards: [{
 				id: "32B5A1C3342B5DD9"
 				type: "xp"
@@ -1341,7 +1336,6 @@
 			}
 			id: "429B5A81DF6C43FE"
 			min_width: 300
-			require_sequential_tasks: true
 			rewards: [{
 				id: "57CB202D58CB3A82"
 				type: "xp"
@@ -1436,7 +1430,6 @@
 			}
 			id: "53DEA3DFEDC4809E"
 			min_width: 300
-			require_sequential_tasks: true
 			rewards: [{
 				id: "689F05C25DEFD7E1"
 				type: "xp"
@@ -1515,7 +1508,6 @@
 			}
 			id: "2AD68066C1948C90"
 			min_width: 300
-			require_sequential_tasks: true
 			rewards: [{
 				id: "0252C0BC3DEF31F5"
 				type: "xp"
@@ -1555,7 +1547,6 @@
 			}
 			id: "56EC79AF11B0869E"
 			min_width: 300
-			require_sequential_tasks: true
 			rewards: [{
 				id: "51B3FB4AEFE0E2A2"
 				type: "xp"
@@ -1599,7 +1590,6 @@
 			}
 			id: "2CF96A264EB5522C"
 			min_width: 300
-			require_sequential_tasks: true
 			rewards: [{
 				id: "624180C81D6D3EB9"
 				type: "xp"
@@ -2020,7 +2010,6 @@
 			id: "5FE507DAEE770507"
 			min_width: 300
 			optional: true
-			require_sequential_tasks: true
 			rewards: [{
 				id: "4513633F31D351C3"
 				type: "xp"
@@ -2052,6 +2041,57 @@
 			]
 			x: 13.5d
 			y: 10.5d
+		}
+		{
+			dependencies: ["0BD6365534BF04D5"]
+			id: "4ABACE222E647E2C"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "186996882BC44AA7"
+				table_id: 6355363837720688303L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0302ED7FA7BA437A"
+				item: { count: 1, id: "ars_ocultas:altar" }
+				type: "item"
+			}]
+			x: 15.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["4F35D04721DFC9FF"]
+			icon: {
+				id: "ars_nouveau:mob_jar"
+			}
+			id: "06B9D8973E9C6A2C"
+			optional: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35C70F9B5B94F9DE"
+				table_id: 6355363837720688303L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0A25C5F48854A7A9"
+					item: { count: 1, id: "ars_nouveau:ritual_containment" }
+					type: "item"
+				}
+				{
+					id: "1887A99C193C9BBF"
+					item: { count: 1, id: "ars_nouveau:ritual_brazier" }
+					type: "item"
+				}
+				{
+					id: "0AA7DBDCA30404EC"
+					item: { count: 1, id: "ars_nouveau:mob_jar" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 11.5d
 		}
 	]
 }
