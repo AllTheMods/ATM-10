@@ -17,7 +17,7 @@
 	quest.1684D52FDAAC894B.quest_subtitle: "Ore Processing: Step 2"
 	quest.1823CC81D613892B.quest_desc: ["The Mob Slaughter Factory &ldeletes&r mobs in its working area, and converts that mob into &#FF69B4Pink Slime&r and &6Liquid Meat&r.\\n\\nPassive Mobs -> More &#FF69B4Pink Slime&r\\nHostile Mobs -> More &6Meat&r\\n\\nThis machine supports Range Addons."]
 	quest.1BA3D15FFE7DBE59.quest_desc: ["In &bIndustrial Foregoing&r, one of the main resources is &fLatex.&r Its used to craft Machine Frames, needed to make machines and upgrades.\\n\\nMaking Latex is pretty simple, &aFluid Extractor&r extracts Latex from &6Logs&r (Acacia and Mangrove give the most).\\n\\n------------------------\\n\\nNow about making Plastic: Plastic results from smelting Dry Rubber - which is made in the &aLatex Processing Unit&r, that transforms Latex into Dry Rubber.\\n\\n&bSo basically Latex -> Dry Rubber -> Plastic."]
-	quest.1BA3D15FFE7DBE59.quest_subtitle: "Latex and Plastic? Huh?"
+	quest.1BA3D15FFE7DBE59.quest_subtitle: ""
 	quest.1BA3D15FFE7DBE59.title: "Latex and Plastic? Huh?"
 	quest.1F66CDC9799B5DEC.quest_desc: ["I found myself annoyed at being unable to rotate &bIndustrial Foregoing&r Machines with most Wrenches. To help with this, I have compiled a list of all the wrenches that I can find that are capable of rotating &bIF&r machines. These were tested primarily on the Laser Drill, so the results will focus primarily on that. Some wrenches might not work with other machines.\\n\\nClick the task in this quest to view all valid Wrenches for this quest."]
 	quest.224C07AC71C5F40E.quest_desc: ["Applies &lBone Meal&r or &#8B4513Fertilizer&r to plants in its working area. This will continue applying &#8B4513Fertilizer&r to the same crop until that crop can no longer accept &lBone Meal&r before moving on to the next plant. This means that the machine can get stuck on plants that always accept &lBone Meal&r, such as &eSunflowers&r, or plants that never reach their final growth state.\\n\\nThis machine supports Range Addons."]
@@ -64,7 +64,7 @@
 	quest.485AFAE5BBEF2FC7.title: "Animals"
 	quest.4A8C60412E59E971.quest_desc: ["This machine can sort enchanted items and unenchanted items. The enchanted items end up in the top inventory, while the unenchanted items end up in the bottom inventory."]
 	quest.4C366515E3CCB0B2.quest_desc: ["Meat through a tube, yummy."]
-	quest.4DB5DD6E20619B4D.quest_desc: ["Used to make machines better."]
+	quest.4DB5DD6E20619B4D.quest_desc: ["Used to make machines better. There are 4 tiers of addons, and 8 more specifically for Range."]
 	quest.4F3EF1574F31A7E2.quest_desc: ["The Stasis Chamber can hold mobs in place in its working area. The mobs held under stasis are also healed by the Chamber. Need more healing? Get some addons!"]
 	quest.538186D01429F05F.quest_desc: [
 		"In this quest, we will be focusing on using AE2 to automate the &cPotion Brewer&r. First, build a setup like so:"
@@ -107,7 +107,13 @@
 	quest.6C001E18093FC037.title: "Plants"
 	quest.6E131A32A96D7BF5.quest_desc: ["The Sludge Refiner can use &#5919B6Sludge&r to produce stuff like Dirt, Gravel, Soul Sand...whatever...check JEI for the rest."]
 	quest.6FF04DD735346BED.quest_desc: ["Turns Latex into Dry Rubber. Uses 750 mB of Latex and 500 mB of &9Water&r to produce 1 Dry Rubber."]
-	quest.79D48F8F31B152C3.quest_desc: ["&bIndustrial Foregoing &#27AEB9Souls&r adds machines to allow you to accelerate other machinery.\\n\\nThe &#27AEB9Soul Laser Base&r is the heart of this, working similarly to a Fluid Laser Base extracting Ether Gas from a Wither. It uses &9Blue Laser Lens&r to extract &#27AEB9Souls&r from a &#27AEB9Warden&r, which can be extracted with &#27AEB9Soul Pipes&r, or used with one of the two major digital storage mods (AE2 and RS). These &#27AEB9Souls&r will be used by &#27AEB9Soul Surges&r, in order to accelerate blocks.\\n\\nExtracting &#27AEB9Souls&r from the &#27AEB9Warden&r is a &4&lpainful&r process to the creature, meaning it takes damage from the process, and can even die from it. Stasis Chambers are highly recommended, especially with upgrades to make the healing faster."]
+	quest.79D48F8F31B152C3.quest_desc: [
+		"&bIndustrial Foregoing &#27AEB9Souls&r adds machines to allow you to accelerate other machinery.\\n\\nThe &#27AEB9Soul Laser Base&r is the heart of this, working similarly to a Fluid Laser Base extracting Ether Gas from a Wither. It uses &9Blue Laser Lens&r to extract &#27AEB9Souls&r from a &#27AEB9Warden&r, which can be extracted with &#27AEB9Soul Pipes&r, or used with one of the two major digital storage mods (AE2 and RS). These &#27AEB9Souls&r will be used by &#27AEB9Soul Surges&r, in order to accelerate blocks.\\n\\nExtracting &#27AEB9Souls&r from the &#27AEB9Warden&r is a &4&lpainful&r process to the creature, meaning it takes damage from the process, and can even die from it. Stasis Chambers are highly recommended, especially with upgrades to make the healing faster."
+		"{@pagebreak}"
+		"Ensure there's a 3 block gap between the floor and the &#27AEB9Soul Laser Base&r, like so:"
+		"{image:atm:textures/questpics/industrialforegoing/soul_laser_gap.png width:100 height:100 align:center}"
+		"Additionally, ensure the &#27AEB9Warden&r has fully emerged before putting it under stasis."
+	]
 	quest.79D48F8F31B152C3.quest_subtitle: "Gotta go fast!"
 	quest.79D48F8F31B152C3.title: "&bIndustrial Foregoing &#27AEB9Souls"
 	quest.7B4AF35313D7D779.quest_subtitle: "Tier: &64"
