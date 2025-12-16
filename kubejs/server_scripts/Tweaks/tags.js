@@ -28,6 +28,10 @@ ServerEvents.tags('block', allthemods => {
   // Just Dire Things
   allthemods.add('justdirethings:lawnmowerable', '#c:grass')
   allthemods.add('justdirethings:tick_speed_deny', '@industrialforegoingsouls')
+  // Saltpeter Block
+  allthemods.add('c:storage_blocks/niter', 'kubejs:saltpeter_block')
+  allthemods.add('c:storage_blocks/saltpeter', 'kubejs:saltpeter_block')
+  allthemods.add('c:storage_blocks', '#c:storage_blocks/niter')
 })
 
 ServerEvents.tags('fluid', allthemods => {

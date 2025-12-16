@@ -113,6 +113,20 @@ ServerEvents.recipes(allthemods => {
 			'minecraft:white_dye'
         ]
     ).id("allthemods:example_firework_star")
+	// Saltpeter Block Recipes
+	allthemods.shaped(
+        Item.of(`kubejs:saltpeter_block`),
+        ['CCC','CCC','CCC'],
+        {
+            C: `#c:dusts/saltpeter`
+        }
+    ).id("allthemods:saltpeter_block")
+	allthemods.shapeless(
+        Item.of('railcraft:saltpeter_dust', 9),
+        [
+            'kubejs:saltpeter_block'
+        ]
+	).id("allthemods:saltpeter_dust_from_block")
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
