@@ -974,6 +974,12 @@
 				"22E57BF23B9BA2C5"
 				"7EF873DCEB3B9D48"
 			]
+			icon: {
+				components: {
+					"gateways:gateway": "apotheosis:endless_invader"
+				}
+				id: "gateways:gate_pearl"
+			}
 			id: "6B5B01C612951BAF"
 			rewards: [
 				{
@@ -1035,12 +1041,20 @@
 					xp_levels: 15
 				}
 			]
-			tasks: [{
-				id: "3CD3B96BCB661E58"
-				item: { components: { "gateways:gateway": "apotheosis:endless_invader" }, count: 1, id: "gateways:gate_pearl" }
-				match_components: "strict"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "68A6804F5E9D1B90"
+					item: { components: { "gateways:gateway": "apotheosis:tiered/pinnacle" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "strict"
+					type: "item"
+				}
+				{
+					id: "3CD3B96BCB661E58"
+					item: { components: { "gateways:gateway": "apotheosis:endless_invader" }, count: 1, id: "gateways:gate_pearl" }
+					match_components: "strict"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: 3.0d
 		}

@@ -227,7 +227,7 @@
 			y: 8.5d
 		}
 	]
-	order_index: 9
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
@@ -392,6 +392,7 @@
 		{
 			id: "6E7C4228CD2B6BB9"
 			invisible: true
+			optional: true
 			rewards: [{
 				id: "0FD69563E29D5235"
 				type: "xp"
@@ -1227,7 +1228,7 @@
 			tasks: [{
 				count: 26L
 				id: "7448F49F4C7F8DBB"
-				item: { count: 26, id: "railcraft:coke_oven_bricks" }
+				item: { count: 1, id: "railcraft:coke_oven_bricks" }
 				type: "item"
 			}]
 			x: 7.5d
@@ -1249,7 +1250,7 @@
 			tasks: [{
 				count: 34L
 				id: "1671149B2E170E87"
-				item: { count: 34, id: "railcraft:blast_furnace_bricks" }
+				item: { count: 1, id: "railcraft:blast_furnace_bricks" }
 				type: "item"
 			}]
 			x: 7.5d
