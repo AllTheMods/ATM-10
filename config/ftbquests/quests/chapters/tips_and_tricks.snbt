@@ -108,6 +108,13 @@
 				"6E17595887A051C2"
 				"01EC5DB1A4A25B0B"
 				"69F7A0DE8D70AC44"
+				"2837E05AD0B67189"
+				"70B6C9409AE69284"
+				"5EE945A1185E8336"
+				"7A514E27E1A7FE32"
+				"219AA017149C36E2"
+				"0790D3BB481162A6"
+				"030DCC13171C3E16"
 			]
 			hide_dependency_lines: true
 			id: "0F8F37D7E12078F5"
@@ -554,6 +561,59 @@
 			}]
 			x: -2.0d
 			y: 3.5d
+		}
+		{
+			icon: {
+				id: "mob_grinding_utils:mob_swab"
+			}
+			id: "2837E05AD0B67189"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D0397294B7C5937"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "1F5114FCB7AD1D34"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "62D780CE710CC05C"
+					item: { count: 1, id: "mob_grinding_utils:mob_swab" }
+					type: "item"
+				}
+				{
+					id: "605E66D5A025D45C"
+					item: { count: 1, id: "mob_grinding_utils:gm_chicken_feed" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/sprites/toast/movement_keys.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "030DCC13171C3E16"
+			rewards: [{
+				id: "76C648C872A99C5C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "19E660235EADB8AA"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 3.0d
 		}
 	]
 }
