@@ -170,7 +170,7 @@
 			y: 0.0d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -941,7 +941,7 @@
 			}]
 			tasks: [{
 				id: "30921D2007B35206"
-				item: { components: { "ftbfiltersystem:filter": "or(item(eternal_starlight:swamp_silver_pickaxe)item(aquaculture:neptunium_pickaxe)item(deeperdarker:resonarium_pickaxe)item(undergarden:utherium_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(aquaculture:neptunium_pickaxe)item(deeperdarker:resonarium_pickaxe)item(undergarden:utherium_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -958,7 +958,7 @@
 			}]
 			tasks: [{
 				id: "735F8BA70FBE24BF"
-				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:froststeel_pickaxe)item(undergarden:cloggrum_pickaxe)item(eternal_starlight:thermal_springstone_pickaxe)item(eternal_starlight:glacite_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(undergarden:froststeel_pickaxe)item(undergarden:cloggrum_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -1276,45 +1276,11 @@
 			}]
 			tasks: [{
 				id: "20210147BF5613E5"
-				item: { components: { "ftbfiltersystem:filter": "or(item(eternal_starlight:thermal_springstone_sword)item(eternal_starlight:swamp_silver_sword)item(eternal_starlight:shattered_sword)item(eternal_starlight:energy_sword)item(undergarden:froststeel_sword))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { count: 1, id: "undergarden:froststeel_sword" }
 				type: "item"
 			}]
 			x: 1.0d
 			y: 4.0d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "784D6D11C4F41215"
-			optional: true
-			rewards: [{
-				id: "6055569D4A2F1227"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "398AB707BAAEF3CE"
-				item: { count: 1, id: "eternal_starlight:glacite_sword" }
-				type: "item"
-			}]
-			x: 0.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "106C552DDD95543C"
-			optional: true
-			rewards: [{
-				id: "5E47073920434DDD"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "687C1BED1DF2D760"
-				item: { count: 1, id: "eternal_starlight:moonring_greatsword" }
-				type: "item"
-			}]
-			x: -1.5d
-			y: 7.5d
 		}
 		{
 			dependencies: ["5151CDD8FCDE7A07"]
@@ -1452,23 +1418,6 @@
 			}]
 			x: 1.5d
 			y: -4.0d
-		}
-		{
-			dependencies: ["5151CDD8FCDE7A07"]
-			id: "41C661E8630D0146"
-			optional: true
-			rewards: [{
-				id: "61EFFBA205DE755D"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "7AF710A066D3A627"
-				item: { count: 1, id: "eternal_starlight:rage_of_stars" }
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
 		}
 		{
 			dependencies: ["5151CDD8FCDE7A07"]

@@ -501,8 +501,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: 5.5d
+			x: -1.5d
+			y: 5.25d
 		}
 		{
 			id: "56DA46DC82F6665D"
@@ -536,7 +536,7 @@
 				value: 1L
 			}]
 			x: 0.75d
-			y: 4.0d
+			y: 3.75d
 		}
 		{
 			icon: {
@@ -582,7 +582,7 @@
 				}
 			]
 			x: 0.0d
-			y: 8.25d
+			y: 5.25d
 		}
 		{
 			id: "17F3AC15ADCFB175"
@@ -1659,80 +1659,6 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "eternal_starlight:textures/painting/monstrous.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "13BB75A7E1973488"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "47EE9DED85C4DFB2"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2A3EF5F2876D7235"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					id: "2FE20DB8B55821D1"
-					type: "xp"
-					xp: 500
-				}
-			]
-			size: 1.5d
-			tasks: [{
-				entity: "eternal_starlight:lunar_monstrosity"
-				id: "17866842A275B4AA"
-				type: "kill"
-				value: 1L
-			}]
-			x: -2.25d
-			y: 4.0d
-		}
-		{
-			icon: {
-				components: {
-					"ftbquests:icon": "eternal_starlight:block/chiseled_golem_steel_block"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "6DCDD55786025911"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0FEDB3F957B8EFBA"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4B040CCA92509D76"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					id: "327AD5CF0D35765B"
-					type: "xp"
-					xp: 500
-				}
-			]
-			size: 1.5d
-			tasks: [{
-				entity: "eternal_starlight:starlight_golem"
-				id: "38E34F997A59FDC3"
-				type: "kill"
-				value: 1L
-			}]
-			x: -0.75d
-			y: 4.0d
-		}
-		{
-			icon: {
-				components: {
 					"!ftbquests:icon": { }
 					"ftbquests:entity_face": "undergarden:forgotten_guardian"
 				}
@@ -1766,7 +1692,7 @@
 				value: 1L
 			}]
 			x: 2.25d
-			y: 4.0d
+			y: 3.75d
 		}
 		{
 			icon: {
@@ -1796,8 +1722,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.5d
-			y: 5.5d
+			x: -2.25d
+			y: 3.75d
 		}
 		{
 			icon: {
@@ -1828,7 +1754,7 @@
 				value: 1L
 			}]
 			x: 1.5d
-			y: 5.5d
+			y: 5.25d
 		}
 		{
 			icon: {
@@ -1859,8 +1785,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.0d
-			y: 6.875000000000007d
+			x: -0.75d
+			y: 3.75d
 		}
 	]
 }

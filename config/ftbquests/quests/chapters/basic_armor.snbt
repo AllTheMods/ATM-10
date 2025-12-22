@@ -234,7 +234,7 @@
 			y: -0.5d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{
@@ -1064,138 +1064,6 @@
 			]
 			x: 11.5d
 			y: -4.5d
-		}
-		{
-			id: "3260EDAD3A619479"
-			optional: true
-			rewards: [{
-				id: "48A31F437A38BFAC"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [
-				{
-					id: "7DF76CCA946FFB62"
-					item: { count: 1, id: "eternal_starlight:aethersent_hood" }
-					type: "item"
-				}
-				{
-					id: "03946DC5ADBBC657"
-					item: { count: 1, id: "eternal_starlight:aethersent_cape" }
-					type: "item"
-				}
-				{
-					id: "207706D3F119081D"
-					item: { count: 1, id: "eternal_starlight:aethersent_bottoms" }
-					type: "item"
-				}
-				{
-					id: "215D467B16C305A7"
-					item: { count: 1, id: "eternal_starlight:aethersent_boots" }
-					type: "item"
-				}
-			]
-			x: -2.0d
-			y: -6.0d
-		}
-		{
-			id: "50429F57480F44DA"
-			optional: true
-			rewards: [{
-				id: "07AE0FA43B5464D6"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			tasks: [
-				{
-					id: "494C61837E233B58"
-					item: { count: 1, id: "eternal_starlight:thermal_springstone_helmet" }
-					type: "item"
-				}
-				{
-					id: "2AD58BF2916FC968"
-					item: { count: 1, id: "eternal_starlight:thermal_springstone_chestplate" }
-					type: "item"
-				}
-				{
-					id: "6D3E07BB6D334BED"
-					item: { count: 1, id: "eternal_starlight:thermal_springstone_leggings" }
-					type: "item"
-				}
-				{
-					id: "4FD071335DA99132"
-					item: { count: 1, id: "eternal_starlight:thermal_springstone_boots" }
-					type: "item"
-				}
-			]
-			x: 2.0d
-			y: -6.0d
-		}
-		{
-			id: "4664AFCFB5618CEB"
-			optional: true
-			rewards: [{
-				id: "4CE50AF5B49F283F"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			tasks: [
-				{
-					id: "479E31348A23690C"
-					item: { count: 1, id: "eternal_starlight:glacite_helmet" }
-					type: "item"
-				}
-				{
-					id: "2E5D2CBF1D3BFD88"
-					item: { count: 1, id: "eternal_starlight:glacite_chestplate" }
-					type: "item"
-				}
-				{
-					id: "0467A83E14EF5D20"
-					item: { count: 1, id: "eternal_starlight:glacite_leggings" }
-					type: "item"
-				}
-				{
-					id: "52211CFC06C84C16"
-					item: { count: 1, id: "eternal_starlight:glacite_boots" }
-					type: "item"
-				}
-			]
-			x: 3.0d
-			y: -6.5d
-		}
-		{
-			id: "459BB5B4CDB21773"
-			optional: true
-			rewards: [{
-				id: "37A6CE8F11A87914"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [
-				{
-					id: "7FE454AB1A3D8C04"
-					item: { count: 1, id: "eternal_starlight:swamp_silver_helmet" }
-					type: "item"
-				}
-				{
-					id: "336F743A90D79EA5"
-					item: { count: 1, id: "eternal_starlight:swamp_silver_chestplate" }
-					type: "item"
-				}
-				{
-					id: "4FD31875EE131079"
-					item: { count: 1, id: "eternal_starlight:swamp_silver_leggings" }
-					type: "item"
-				}
-				{
-					id: "0B2D12F2EEAE26B5"
-					item: { count: 1, id: "eternal_starlight:swamp_silver_boots" }
-					type: "item"
-				}
-			]
-			x: 0.0d
-			y: -2.5d
 		}
 		{
 			id: "50B127137AA9E660"
@@ -2153,7 +2021,7 @@
 				}
 			]
 			x: -2.0d
-			y: -7.0d
+			y: -6.5d
 		}
 		{
 			id: "3A2047CC0F59C6CC"
@@ -2285,7 +2153,7 @@
 				}
 			]
 			x: -2.0d
-			y: -5.0d
+			y: -5.5d
 		}
 		{
 			id: "041ED280691BB05D"
@@ -2455,7 +2323,7 @@
 				item: { count: 1, id: "minecraft:dune_armor_trim_smithing_template" }
 				type: "item"
 			}]
-			x: -6.0d
+			x: -5.0d
 			y: 4.5d
 		}
 		{
@@ -2560,7 +2428,7 @@
 				item: { count: 1, id: "minecraft:ward_armor_trim_smithing_template" }
 				type: "item"
 			}]
-			x: -5.0d
+			x: -4.0d
 			y: 4.5d
 		}
 		{
@@ -2581,7 +2449,7 @@
 				item: { count: 1, id: "minecraft:silence_armor_trim_smithing_template" }
 				type: "item"
 			}]
-			x: -4.0d
+			x: -3.0d
 			y: 4.5d
 		}
 		{
@@ -2730,48 +2598,6 @@
 			}]
 			x: -2.0d
 			y: 1.5d
-		}
-		{
-			id: "361C9D90617E6D38"
-			optional: true
-			rewards: [{
-				count: 2
-				id: "3EBF08632A102810"
-				item: {
-					count: 1
-					id: "eternal_starlight:keeper_armor_trim_smithing_template"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "0A0D098A38CAB990"
-				item: { count: 1, id: "eternal_starlight:keeper_armor_trim_smithing_template" }
-				type: "item"
-			}]
-			x: -3.0d
-			y: 4.5d
-		}
-		{
-			id: "3F0CD2C03CD7D730"
-			optional: true
-			rewards: [{
-				count: 2
-				id: "2D457AD19A78B00B"
-				item: {
-					count: 1
-					id: "eternal_starlight:forge_armor_trim_smithing_template"
-				}
-				type: "item"
-			}]
-			shape: "hexagon"
-			tasks: [{
-				id: "5A6306A622D2BFF6"
-				item: { count: 1, id: "eternal_starlight:forge_armor_trim_smithing_template" }
-				type: "item"
-			}]
-			x: -2.0d
-			y: 4.5d
 		}
 		{
 			id: "1FC7ABEAB5018E79"
@@ -2932,176 +2758,6 @@
 			}]
 			x: 13.5d
 			y: 1.5d
-		}
-		{
-			id: "72D578686C47B154"
-			optional: true
-			rewards: [{
-				id: "45E17580CCFB2497"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "circle"
-			tasks: [{
-				id: "1FC1155134A6CD18"
-				item: { count: 1, id: "eternal_starlight:red_starlight_crystal_shard" }
-				type: "item"
-			}]
-			x: 16.5d
-			y: 1.5d
-		}
-		{
-			id: "2D93888313B03029"
-			optional: true
-			rewards: [{
-				id: "55341BA803F79B74"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "circle"
-			tasks: [{
-				id: "7604AD27B50D8665"
-				item: { count: 1, id: "eternal_starlight:blue_starlight_crystal_shard" }
-				type: "item"
-			}]
-			x: 17.5d
-			y: 1.5d
-		}
-		{
-			id: "333682022948E2F3"
-			optional: true
-			rewards: [{
-				id: "34749D2D82463B89"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "circle"
-			tasks: [{
-				id: "611F7B6AE18204B5"
-				item: { count: 1, id: "eternal_starlight:thioquartz_shard" }
-				type: "item"
-			}]
-			x: 18.5d
-			y: 1.5d
-		}
-		{
-			id: "7B76EC62E3F7E12C"
-			optional: true
-			rewards: [{
-				id: "6C1ADF1B6F1BBF24"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "circle"
-			tasks: [{
-				id: "0A585E6868ED8B8E"
-				item: { count: 1, id: "eternal_starlight:aethersent_ingot" }
-				type: "item"
-			}]
-			x: 17.5d
-			y: 3.5d
-		}
-		{
-			id: "672AC964851832EB"
-			optional: true
-			rewards: [{
-				id: "3EB06C0957B5895E"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "circle"
-			tasks: [{
-				id: "53E8D3055F57BC80"
-				item: { count: 1, id: "eternal_starlight:swamp_silver_ingot" }
-				type: "item"
-			}]
-			x: 18.5d
-			y: 3.5d
-		}
-		{
-			id: "6A21228B0511FF85"
-			optional: true
-			rewards: [{
-				id: "0BF87630A60C28C2"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "circle"
-			tasks: [{
-				id: "32B8B7FDC67AEB9D"
-				item: { count: 1, id: "eternal_starlight:thermal_springstone_ingot" }
-				type: "item"
-			}]
-			x: 19.5d
-			y: 3.5d
-		}
-		{
-			id: "42AAEC41F2BC2474"
-			optional: true
-			rewards: [{
-				id: "37AA71D404447956"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "circle"
-			tasks: [{
-				id: "0370427C9119331B"
-				item: { count: 1, id: "eternal_starlight:glacite_shard" }
-				type: "item"
-			}]
-			x: 19.5d
-			y: 1.5d
-		}
-		{
-			id: "756628F4B7F79446"
-			optional: true
-			rewards: [{
-				id: "048122844E56B6AE"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "circle"
-			tasks: [{
-				id: "5B674D7133C6F38D"
-				item: { count: 1, id: "eternal_starlight:amaramber_ingot" }
-				type: "item"
-			}]
-			x: 16.5d
-			y: 3.5d
-		}
-		{
-			id: "05B5E640F1B68A28"
-			optional: true
-			rewards: [{
-				id: "1795D00DE70B3AFB"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "circle"
-			tasks: [{
-				id: "766133F757184296"
-				item: { count: 1, id: "eternal_starlight:golem_steel_ingot" }
-				type: "item"
-			}]
-			x: 17.0d
-			y: 2.5d
-		}
-		{
-			id: "3B4511E7DC788AB3"
-			optional: true
-			rewards: [{
-				id: "196F0DEA920C3DEF"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			shape: "circle"
-			tasks: [{
-				id: "2252C19CFA6C4B9D"
-				item: { count: 1, id: "eternal_starlight:tenacious_petal" }
-				type: "item"
-			}]
-			x: 19.0d
-			y: 2.5d
 		}
 		{
 			id: "5E7CCDE9229A646A"
@@ -3339,8 +2995,8 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
-			y: -7.0d
+			x: 3.0d
+			y: -6.5d
 		}
 		{
 			id: "30A61E1A1EFA81E6"
@@ -3472,7 +3128,7 @@
 				}
 			]
 			x: 2.0d
-			y: -5.0d
+			y: -6.0d
 		}
 		{
 			id: "52A29269A23F85B3"
