@@ -219,6 +219,8 @@ ItemEvents.modifyTooltips(allthemods => {
 	[
 		Text.of("§9In a Botany Pot: Requires a hoe enchanted with Silk Touch to be harvested")
 	])
+	// Productive Bees
+	allthemods.add("productivebees:gene_bottle", [Text.of("§6Put this into a Centrifuge.")])
 })
 
 
