@@ -7,14 +7,24 @@
 		id: "silentgear:pickaxe_blueprint"
 	}
 	id: "1D42B373285DEF81"
-	images: [{
-		height: 1.5d
-		image: "silentgear:item/azure_repair_kit"
-		rotation: 0.0d
-		width: 1.5d
-		x: 16.0d
-		y: 3.0d
-	}]
+	images: [
+		{
+			height: 1.5d
+			image: "silentgear:item/azure_repair_kit"
+			rotation: 0.0d
+			width: 1.5d
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/silentgear/starcharger.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 21.5d
+			y: -5.0d
+		}
+	]
 	order_index: 6
 	progression_mode: "flexible"
 	quest_links: [ ]
