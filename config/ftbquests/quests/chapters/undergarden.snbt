@@ -1251,10 +1251,17 @@
 			}]
 			size: 1.5d
 			tasks: [{
-				entity: "undergarden:minion"
-				id: "26C44A9E20C98FF9"
-				type: "kill"
-				value: 1L
+				icon: {
+					components: {
+						"draconicevolution:soul_id": "undergarden:minion"
+					}
+					id: "draconicevolution:mob_soul"
+				}
+				id: "6043A40C2B121AF9"
+				observe_type: 5
+				timer: 0L
+				to_observe: "undergarden:minion"
+				type: "observation"
 			}]
 			x: -5.5d
 			y: -2.0d
@@ -1935,6 +1942,29 @@
 					type: "checkmark"
 				}
 			]
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["1C232674CD04024D"]
+			icon: {
+				id: "immersiveengineering:warning_sign_attention"
+			}
+			id: "76CDC18D7A208512"
+			rewards: [{
+				count: 4
+				id: "775E4E9F9CCECE4F"
+				item: {
+					count: 1
+					id: "undergarden:rogdorium"
+				}
+				type: "item"
+			}]
+			size: 1.5d
+			tasks: [{
+				id: "2116DA966E4C7711"
+				type: "checkmark"
+			}]
 			x: 2.0d
 			y: -4.5d
 		}
