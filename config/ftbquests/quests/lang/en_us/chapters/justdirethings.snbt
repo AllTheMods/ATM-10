@@ -39,6 +39,13 @@
 		"- Run Speed"
 		"- Walk Speed"
 	]
+	quest.05056CAA64E3971B.quest_desc: [
+		"&lAbility Type:&r Passive"
+		""
+		"&lAbility Function:&r"
+		""
+		"Makes arrows fired by the Bow apply a potion effect based on your Potion Canister."
+	]
 	quest.05D8C6EF8FCD6250.quest_desc: [
 		"Primogel Goo is the first tier of goo added by JDT and requires basic Overworld materials to craft."
 		""
@@ -122,6 +129,13 @@
 		""
 		"Grants the player Night Vision."
 	]
+	quest.1256F280F3669DDA.quest_desc: [
+		"&lAbility Type:&r Active"
+		""
+		"&lAbility Function:&r"
+		""
+		"Makes Arrows chain to nearby enemies."
+	]
 	quest.132F4671E121C7B8.quest_desc: [
 		"&lAbility Type:&r Passive"
 		""
@@ -137,7 +151,7 @@
 		""
 		"&lAbility Function:&r"
 		""
-		"Automaticly smelts items dropped from mined blocks."
+		"Automatically smelts items dropped from mined blocks."
 	]
 	quest.176A1CC43467EF23.quest_desc: [
 		"Valid Upgrades:"
@@ -258,6 +272,7 @@
 		"Crafts Unlocked:"
 		"- Eclipse Alloy"
 		"- Eclipse Ember"
+		"- Time Crystal"
 	]
 	quest.25E915AE1FC53254.quest_desc: ["Celestigem Templetes are used to upgrade Blazegold armor and tools to Celestigem while retaining enchantments and installed upgrades."]
 	quest.27FD46A8C958D259.quest_desc: ["Totem of Death Recall is a one time use time that allows a player to teleport back to thier location of death."]
@@ -316,6 +331,13 @@
 		"Valid Upgrade:"
 		"- Drops Teleporter"
 	]
+	quest.35A78E04092767AD.quest_desc: [
+		"Valid Upgrades:"
+		"- Potion Arrow"
+		"- Splash"
+		"- Lingering"
+		"- Homing Arrow"
+	]
 	quest.37B903620493A354.quest_desc: [
 		"Valid Upgrades:"
 		"- Auto Smoker"
@@ -360,8 +382,23 @@
 		""
 		"Reduces the dectection range of hostile mobs."
 	]
+	quest.3CFD798362605880.quest_desc: [
+		"&lAbility Type:&r Passive"
+		""
+		"&lAbility Function:&r"
+		""
+		"Makes Potion Arrows fired by the Bow have a Splash effect, hitting multiple targets in an area."
+	]
 	quest.3D9964CB0440DD5A.quest_desc: ["Dropping Blaze Ember into Polymorphic Fluid will create Unrefined Blaze Ember Fuel. Perfoming Goo Spread with Tier Two goo or higher will convert Unrefined Blaze Ember Fuel into Blaze Ember Fuel."]
+	quest.3F3559EF5D08B706.quest_desc: [
+		"&lAbility Type:&r Passive"
+		""
+		"&lAbility Function:&r"
+		""
+		"Makes Arrows actively seek their targets."
+	]
 	quest.40C5C355B6DA1893.quest_desc: ["The Pocket Generator is a handheld generator that uses burnable items to charge items and tools in the player's inventory, the Pocket Generator is compatable with the Fuel Canister."]
+	quest.41E8C93A44559E48.quest_desc: ["The &7Paradox Machine&r can, for a price of a lot of Power and &aTime Fluid&r, take a Snapshot of blocks and entities in the designated area; then it can duplicate it. \\n\\nLots of Blocks and Entities are blacklisted by configs so no duplicating Bees!"]
 	quest.433117EEA55B6A54.quest_desc: ["Just a simple fluid placer."]
 	quest.441F37A95AB66E6B.quest_desc: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. \\n\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. \\n\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
 	quest.4458F8829800A950.quest_desc: ["Polymorphic Fluid is the base of all Fluids / Fuels in JDT. Polymorphic Fluid is crafted by dropping Polymorphic Catalyst into water."]
@@ -371,7 +408,8 @@
 		""
 		"&lAbility Function:&r"
 		""
-		"Allows the player to walk though block. There is a block tag to blacklist blocks from being able to be phased through."
+		"Allows the player to walk though blocks when applied to leggings. There is a block tag to blacklist blocks from being able to be phased through."
+		"When applied to a bow, allows arrows to phase through walls."
 	]
 	quest.454CA1F8CC198D9D.quest_desc: [
 		"Valid Upgrades:"
@@ -400,14 +438,22 @@
 		""
 		"&lAbility Function:&r"
 		""
-		"Automaticly clears any blocks affected by gravity directly above the block mined."
+		"Automatically clears any blocks affected by gravity directly above the block mined."
 	]
 	quest.4773421DC70009AB.quest_desc: [
 		"Intrinsic Ability:"
 		"- No Trampling"
 		"- Accelerated Crop Growth I"
 	]
+	quest.48E4D75FD3145AD6.quest_desc: ["Time Fluid is used by the Paradox Machine and Time Wand. It is obtained by dropping a Time Crystal into Polymorphic Fluid.\\n\\nFor a crystal so tough to get, I'm glad they gave us an easy fluid for once."]
 	quest.49636B3C6E6D0C2A.quest_desc: ["Has no uses, looks cool though."]
+	quest.4987759CF379C1EB.quest_desc: [
+		"&lAbility Type:&r Passive"
+		""
+		"&lAbility Function:&r"
+		""
+		"Prevents slowness and speed effects from being given while you have Time Crystals in your inventory."
+	]
 	quest.49EF8A4346AEF582.quest_desc: ["Dropping Eclipse Ember into Voidflame Fuel will create Unrefined Eclipse Ember Fuel. Perfoming Goo Spread with Tier Four goo will convert Unrefined Eclipse Ember Fuel into Eclipse Ember Fuel."]
 	quest.4A5937F6E5D06BE1.quest_desc: ["A simple liquid fuel generator that runs off the liquid fuels added by JDT."]
 	quest.4ACB72F3A23A5A19.quest_desc: [
@@ -468,12 +514,20 @@
 		"- Accelerated Crop Growth II"
 	]
 	quest.53F9E5CE7EE6F852.quest_desc: ["The Creature Catcher allows for the transport of mobs. Mobs can be blacklisted via an entitiy tag."]
+	quest.567005978482235F.quest_desc: [
+		"Valid Upgrades:"
+		"- Potion Arrow"
+		"- Splash"
+		""
+		"Intrinsic Ability:"
+		"- Lava Repair"
+	]
 	quest.5961C1ED32522BEF.quest_desc: [
 		"&lAbility Type:&r Active"
 		""
 		"&lAbility Function:&r "
 		""
-		"Spwans a decoy of the player that pulls agro away from the player, has a cooldown."
+		"Spawns a decoy of the player that pulls aggro away from the player, has a cooldown."
 	]
 	quest.5A1AB1AD7DEFDD9A.quest_desc: [
 		"Valid Upgrades:"
@@ -483,6 +537,7 @@
 		"- Death Protection"
 		"- Flight"
 		"- Lava Immunity"
+		"- Time Protection"
 	]
 	quest.5A38E9F68570F7F3.quest_desc: [
 		"Valid Upgrades:"
@@ -492,6 +547,10 @@
 		""
 		"Intrinsic Ability:"
 		"- Lava Ability"
+	]
+	quest.5A9436B100FC1E67.quest_desc: [
+		"Valid Upgrades:"
+		"- Potion Arrow"
 	]
 	quest.5B02719C13B1FFE2.quest_desc: [
 		"Abilities:"
@@ -530,21 +589,28 @@
 		""
 		"&lAbility Function:&r"
 		""
-		"Automaticly smokes items dropped by kills."
+		"Automatically smokes items dropped by kills."
 	]
 	quest.636854555AD75DC3.quest_desc: [
 		"&lAbility Type:&r Passive"
 		""
 		"&lAbility Function:&r"
 		""
-		"Automaticly teleports item drops to the inventory bound to the tool. Shift Right Clicking the tool on an inventory binds it. Note when on a JDT hoe items dropped by the auto harvest ability of the voidshimmer / shadowpulse farmland are teleported to the bound inventory, also right clicking voidshimmer / shadowpulse farmland will re-bind them if the bound inventory of the tool has been changed."
+		"Automatically teleports item drops to the inventory bound to the tool. Shift Right Clicking the tool on an inventory binds it. Note when on a JDT hoe items dropped by the auto harvest ability of the voidshimmer / shadowpulse farmland are teleported to the bound inventory, also right clicking voidshimmer / shadowpulse farmland will re-bind them if the bound inventory of the tool has been changed."
 	]
 	quest.6690AEE064DC2A7C.quest_desc: [
 		"&lAbility Type:&r Passive"
 		""
 		"&lAbility Function:"
 		""
-		"Increases area mined at once. When installed on higher tier tools the maximum area mined is increase. Mined area can be configured in the menu."
+		"Increases area mined at once. When installed on higher tier tools the maximum area mined is increased. Mined area can be configured in the menu."
+	]
+	quest.6720F863B907A5F1.quest_desc: [
+		"&lAbility Type:&r Passive"
+		""
+		"&lAbility Function:&r"
+		""
+		"Makes Potion Arrows fired by the bow have a Lingering effect, applying effects to an area over time."
 	]
 	quest.6737CB17D562B134.quest_desc: ["Just a simple clicker that clicks with the item it is given."]
 	quest.67B87570C340C243.title: "Armor Upgrades"
@@ -568,6 +634,12 @@
 		"- X-Ray"
 		"- Instant Break"
 	]
+	quest.6ADE6F9E004055F7.quest_desc: [
+		"Time Crystals are a new material added by JDT. These grow on Budding Time Crystal Blocks, which are created by performing goo spread on Budding Amethyst or a Time Crystal Block.\\n\\nHOWEVER, the Budding Time Crystal Block must collect time from the Overworld, the Nether, and The End to be able to grow Time Crystal Clusters. You CANNOT break or use silk touch on the Budding Time Crystal Block. You must use a Swapper, Cardboard Box, or Cut Paste Gadget to move them.\\n\\nAfter a while, the Budding Time Crystal Block will run out of energy, and must go for another trip to the Overworld, Nether, and End."
+		"{@pagebreak}"
+		"To automate this process, look at the video linked in the image above this quest."
+	]
+	quest.6ADE6F9E004055F7.quest_subtitle: "Timey Wimey"
 	quest.6D9CFCD81A23BB3B.quest_desc: [
 		"&lAbility Type:&r Passive"
 		""
@@ -596,6 +668,15 @@
 	quest.70AD088336748892.quest_desc: ["Just a simple coal generator."]
 	quest.70BF85E2D235BAD5.quest_desc: ["Dropping Voidflame Coal into Blaze Ember Fuel will create Unrefined Voidflame Fuel. Perfoming Goo Spread with Tier Three goo or higher will convert Unrefined Voidflame Fuel into Voidflame Fuel."]
 	quest.70C404E5685E4E91.quest_desc: ["Just a simple block placer."]
+	quest.71128E508D810DDF.quest_desc: [
+		"Valid Upgrades:"
+		"- Potion Arrow"
+		"- Splash"
+		"- Lingering"
+		"- Homing Arrow"
+		"- Phase"
+		"- Yondu Arrow"
+	]
 	quest.71441DFA05FD73E5.quest_desc: [
 		"Valid Upgrades:"
 		"- Mind Fog"
@@ -603,10 +684,13 @@
 		"- Night Vision"
 	]
 	quest.7305EE0F7D73C231.quest_desc: ["Blank Upgrades are the base of all abilities. Abilities are seperated into two types, passive and active.\\n\\nPassive abilities require no active input by the player to work, however Active abilities only work when triggered by a keybind players set in the configuration menu, also active abilities consume durability/power when used. When installed on higher tier armor Active abilities have reduced cooldowns and Passived abilities have greater effects.\\n\\nThe smithing table is used to apply upgrades to JDT tools and armor. Holding shift when hovering over JDT tools or armor shows what upgrades are valid."]
+	quest.73552A4BA0687962.quest_desc: ["These upgrades can go into either tools or armor."]
 	quest.7464CA1290B3474B.quest_desc: [
 		"Valid Upgrades:"
 		"- Invulnerability"
 	]
+	quest.76B1C5AFC5D6B7CF.quest_desc: ["The Time Wand can be used to accelerate blocks, similarly to the Time in a Bottle, up to x128 speed. Unlike TIAB, it uses FE and Time Fluid rather than stored time as fuel, making it considerably easier to refill.\\n\\nIt is blacklisted for fake players, though. We don't want you automating THIS."]
+	quest.76B1C5AFC5D6B7CF.quest_subtitle: "Cousin of the Time in a Bottle"
 	quest.78840993C7832E89.quest_desc: [
 		"Valid Upgrades:"
 		"- Tree Feller"
@@ -633,6 +717,7 @@
 	quest.7D1D2A4E07E98709.quest_desc: ["A simple block breaker that requires a tool to break blocks."]
 	quest.7F0B2D58361FB00E.quest_desc: ["Just Dire Things is a jack of all trades mod. Just Dire Things adds a new crafting mechanic called Goo Spread, along with machines that assist in the automation of Goo Spread and other utilities."]
 	quest.7F0B2D58361FB00E.title: "Just Dire Things"
+	task.00B0A3B14DEB34B9.title: "Hybrid Upgrades"
 	task.03982D782B426ABB.title: "AllRightsReserved"
 	task.19931057AAC1A03A.title: "AllRightsReserved"
 	task.32309011F80C0A9E.title: "NOTE"
@@ -646,3 +731,4 @@
 	task.67B21CF59C3D02E5.title: "Advanced Machines"
 	task.7197FBBA21C0F94A.title: "Armor"
 }
+

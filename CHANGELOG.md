@@ -4,6 +4,20 @@
 In-depth changelog of the new versions of the pack.
 
 _Note: use some browser extension like [Markdown Viewer](https://chromewebstore.google.com/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk) if changelog is too big._
+## 📦 [5.3] - 🗓️ 2025-12-02
+
+## 📦 [5.2] - 🗓️ 2025-11-28
+
+## 📦 [5.1] - 🗓️ 2025-11-14
+
+## 📦 [5.0] - 🗓️ 2025-11-13
+
+## 📦 [4.15] - 🗓️ 2025-11-11
+
+## 📦 [4.13] - 🗓️ 2025-10-18
+
+## 📦 [4.12] - 🗓️ 2025-10-02
+
 ## 📦 [4.11] - 🗓️ 2025-09-20
 
 ## 📦 [4.10] - 🗓️ 2025-08-24
@@ -97,3 +111,10 @@ _Note: use some browser extension like [Markdown Viewer](https://chromewebstore.
 [4.6]: ./changelogs/CHANGELOG-ATM10-4.5-4.6.md
 [4.7]: ./changelogs/CHANGELOG-ATM10-4.6-4.7.md
 [4.11]: ./changelogs/CHANGELOG-ATM10-4.7-4.11.md
+[4.12]: ./changelogs/CHANGELOG-ATM10-4.11-4.12.md
+[4.13]: ./changelogs/CHANGELOG-ATM10-4.12-4.13.md
+[4.15]: ./changelogs/CHANGELOG-ATM10-4.13-4.15.md
+[5.0]: ./changelogs/CHANGELOG-ATM10-4.15-5.0.md
+[5.1]: ./changelogs/CHANGELOG-ATM10-5.0-5.1.md
+[5.2]: ./changelogs/CHANGELOG-ATM10-5.1-5.2.md
+[5.3]: ./changelogs/CHANGELOG-ATM10-5.2-5.3.md

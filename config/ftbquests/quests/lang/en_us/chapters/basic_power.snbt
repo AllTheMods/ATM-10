@@ -17,6 +17,8 @@
 	quest.1BE26A00A420DAE3.quest_desc: ["In this mod, you'll need &aFlux Cores&r and &aFlux Blocks&r to craft the core parts of your network. Make a few of each!"]
 	quest.1BE26A00A420DAE3.quest_subtitle: "Of Cores you need these"
 	quest.1BE26A00A420DAE3.title: "The \"Core\" Crafting Materials"
+	quest.1EECA19DF9CF6A0C.quest_desc: ["Flux Dust can also be automated using &6XyCraft&r!\\n\\nPlace a charged redstone crystal block on bedrock, surround the crystal block with 4 obsidian on all sides and place the extractor on top.\\nThen just place a storage on top of the extractor and you're done!"]
+	quest.1EECA19DF9CF6A0C.title: "Automated Flux Dust"
 	quest.1F81EA5E45424308.quest_desc: ["If you're looking for different ways to get power out of your machines, this is where you can find it!\\n\\nThere are several options, both &awired&r and &9wireless&r, for transferring power."]
 	quest.1F81EA5E45424308.title: "&f&lTransferring Power"
 	quest.27A4FA38992448A0.quest_desc: [
@@ -24,6 +26,21 @@
 		"{image:atm:textures/questpics/basic_power/wireless_ui.png width:125 height:150 align:center}"
 	]
 	quest.27A4FA38992448A0.title: "Wireless Charging"
+	quest.2D4749DF9642F334.quest_desc: [
+		"The &eDyson Cube&r is the ultimate power source, producing an insane &l&a1GFE/t&r&r!"
+		""
+		"Set up an &eEM Rail Ejector Controller&r to launch &bSolar Sails&r and &bBeams&r into orbit around the Sun. You can input items &bautomatically&r through the center of the bottom face (you’ll definitely need automation to reach maximum power output). Unfortunately, it &ocannot fire&r at midday, at night, or during rain."
+		""
+		"To collect that glorious energy, build a &bRay Receiver Controller&r. It outputs power from the center of its bottom face but &ocannot receive power&r during &enight&r or &erain&r."
+		""
+		"You can &epackage&r beams and sails into bundles for faster launches, which is much easier than sending them one by one."
+		""
+		"For maximum output, you’ll need to send &c8,333,333&r beams and &c49,999,998&r sails into orbit, which is quite a lot."
+		""
+		"Before you start scaling up to that level, make sure you’ve got some &arobust resource generation&r in place."
+	]
+	quest.2D4749DF9642F334.quest_subtitle: "The power of the Sun, in the palm of your hand"
+	quest.2D4749DF9642F334.title: "&eDyson Cube"
 	quest.2EB7784D5296F410.quest_desc: [
 		"Right clicking a functional Flux Network block will give you this UI.\\n\\nEach Plug or Point can be named, have a custom priority level, and have a custom power transfer limit. This allows complete control over all parts of your system.\\n\\n&aBypass Limit&r ignores the limit set.\\n\\nThere are several other tabs to check out, mostly for statistics on your network!\\n"
 		"{image:atm:textures/questpics/basic_power/flux_ui.png width:125 height:150 align:center}"
@@ -64,8 +81,18 @@
 	quest.5F078A574A783B02.quest_desc: ["The first item you'll need to start your Flux Network is a &9Flux Plug&r.\\n\\nThe Plug is used to \"draw\" power from the block it is attached to. Aside from a small buffer, the Plug does not store any power itself, so don't worry about it zapping up all of your power.\\n\\nIt is suggested to place the Plug on a power storage block like an Energy Cube. It can connect to Cables, Pipes, or the output of any power producing machine.\\n\\nTo learn how to set up your first network, check the next quest!"]
 	quest.5F078A574A783B02.quest_subtitle: "Just plug it in!"
 	quest.5F078A574A783B02.title: "Starting Your Network"
+	quest.677D0C23D53A77CA.quest_desc: [
+		"&bDraconic Evolution&r adds a multiblock called the &dEnergy Core&r."
+		""
+		"While it may seem confusing, the final tier can hold &m9,223,372,036,854,775,808 FE&r basically infinite power."
+		""
+		"For more information check out the Draconic Evolution Chapter"
+		"{image:atm:textures/questpics/draconic/draconic_core_8on.png width:100 height:100 align:1}"
+	]
+	quest.677D0C23D53A77CA.quest_subtitle: "Basically Infinite Storage"
+	quest.677D0C23D53A77CA.title: "&9Draconic Evolution: &dEnergy Core"
 	quest.682034C680FDEDC2.quest_desc: [
-		"&9Mekanism's&r &aInduction Matrix&r is the ultimate way to store your power.\\n\\nIf you're looking for the best power storage in the game, check out the &aMekanism:&r &dReactors&r quest chapter.\\n"
+		"&9Mekanism's&r &aInduction Matrix&r is one of the best ways to store your power.\\n\\nIf you're looking for the best power storage Mekanism has to offer, check out the &aMekanism:&r &dReactors&r quest chapter.\\n"
 		"{image:atm:textures/questpics/mek/mek_induction_matrix_small.png width:125 height:150 align:center fit:true}"
 	]
 	quest.682034C680FDEDC2.title: "More Power Storage"

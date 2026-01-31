@@ -1,0 +1,29 @@
+{
+  "keys": [
+    {
+      "name": "fluid",
+      "type": "fluid_stack"
+    },
+    {
+      "name": "input",
+      "role": "input",
+      "type": "optional_ingredient"
+    },
+    {
+      "name": "result",
+      "role": "output",
+      "type": "item_stack"
+    },
+    {
+      "name": "mustFitAll",
+      "type": "boolean",
+      "optional": true
+    },
+    {
+      "name": "sound",
+      "type": {"type": "registry_element","registry": "minecraft:sound_event"},
+      "default_optional": true
+    }
+  ],
+  "unique": ["fluid"]
+}

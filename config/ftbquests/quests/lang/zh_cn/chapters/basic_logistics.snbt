@@ -1,0 +1,145 @@
+{
+	quest.034F2CDF0830254B.quest_desc: [
+		"功能与物品导入器类似，将&e流体导入器&r放置在装有液体的储罐上。然后在目标位置放置&e流体接口&r并用逻辑线缆连接。最后插入变量卡，就像之前一样！\\n\\n还可以在整数限制下提取液体。\\n\\n不会在世界中放置或提取流体源，它只会将流体从一个储罐转移到另一个储罐。"
+		"{image:atm:textures/questpics/logistics/id_fluid.png width:200 height:50 align:center}"
+	]
+	quest.034F2CDF0830254B.title: "&e流体导入"
+	quest.03C40D6A5D722543.quest_desc: ["变量卡对于启动导入物品等交互是必需的。将它们插入导入器的插槽之一以添加它们。\\n\\n从那里你可以通过 + 按钮编辑所有内容。你可以更改导入数量、物品插槽、频道，实际上只需使用该卡即可更改所有内容。\\n\\n如果你和我一样只想移动物品，不需要太复杂的功能，只需插入它并可能更改移动数量的限制。"]
+	quest.046C417B2ADF3AA7.quest_desc: ["卡片有其限制。物品提取每次操作只能提取 8 个物品。流体提取每次只能提取 5 桶。至于化学品和能量，天知道。\\n\\n在这个模组化的 &2&lMinecraft&r 中，这些限制不够，我们需要超频它们。\\n\\n在卡片的右上角放入一些超频器，它将升级它们可以传输的上限！"]
+	quest.046C417B2ADF3AA7.quest_subtitle: "最大：4"
+	quest.06767BA0AFE8C1EE.quest_desc: ["1... 2... 还有某个地方的 4。\\n\\n要设置一个数字，先将物品放入，然后你可以左键或右键点击来更改数量。按住 Shift 并执行相同操作，可以以 10 为单位更改。一旦设置了数字，将其放入卡片中！\\n\\n它将等待该设定数量的物品到达后才开始提取物品。它还会在第一个库存中保留该数量的物品。"]
+	quest.0BB562FB44B0AAA7.quest_desc: ["卡片并不是唯一有上限的，它们也不是唯一可以超频的！\\n\\n这些超频器放入&c节点&r本身的右下角，可以提升其操作速度。"]
+	quest.0BB562FB44B0AAA7.quest_subtitle: "最大：8"
+	quest.1834B5C1F8435D7A.quest_desc: [
+		"机械管道是&5&l通用机械&r让流体流动的方式。\\n\\n一些&5&l通用机械&r中的机器需要流体，例如电解分离器需要水，蒸发工厂用于制造锂。"
+		"{image:atm:textures/questpics/logistics/meka_pipe.png width:200 height:50 align:center}"
+	]
+	quest.1834B5C1F8435D7A.quest_subtitle: "流体"
+	quest.1C70D739CE464E25.quest_desc: ["功能与&2物品卡&r完全相同，你需要提取卡和插入卡。这次你从装有&9流体&r的储罐转移到另一个储罐。不，它不会在世界中移动&9流体&r的来源。"]
+	quest.1C70D739CE464E25.title: "&9流体卡"
+	quest.230582AAFC0A1632.quest_desc: ["此任务由 &6AllTheMods 制作组&r 或 &2社区贡献者&r 为 AllTheMods 模组包编写。\\n\\n由于所有 &6AllTheMods&r 包都采用 &eAll Rights Reserved&r 许可，此任务不得在未经 &6AllTheMods 团队&r 明确许可的情况下用于任何非 AllTheMods 团队发布的公共包。\\n\\n此任务是故意隐藏的，如果你看到此内容，说明你正在编辑模式。"]
+	quest.2329AA0AFBEF1E13.quest_desc: [
+		"&e&lPipez&r 是最简单的&f&l物流&r模组。它非常简单，以至于整个模组都适合在本任务页面中，还有空间容纳更多模组！"
+		""
+		"将特定的管道连接到你想要移动物品的地方，并使用管道扳手配置哪一侧拉取、推送或不连接。"
+		""
+		"其他扳手也可以与 &e&lPipez&r 一起使用！"
+		""
+		"(当大量使用时可能会导致延迟，但仍然不如&5&l通用机械&r的管道那样延迟严重)。"
+	]
+	quest.2329AA0AFBEF1E13.title: "&l&ePipez"
+	quest.2A6900E87DE8BAE0.quest_desc: ["模组过滤器是另一个相当基础的过滤器。你将物品放入其中，它会以白名单或黑名单的方式处理。但与仅限于该物品不同，它会处理来自该模组的任何物品。\\n\\n阿波提西斯宝石只会允许阿波提西斯物品。通用机械合金只会允许通用机械物品。依此类推。"]
+	quest.2A976D41F79C34B1.quest_desc: ["&e&lPipez&r 有自己的物品过滤方式，你需要至少一个高级升级才能获得它。当插入高级升级时，你可以点击添加按钮来添加过滤器。\\n然后你可以添加：物品、标签或 NBT 到过滤器中。\\n\\n在那里你还可以添加设定的目标过滤器。要设置它，Shift 右键点击一个库存。\\n\\n你还需要设置它是白名单过滤器还是黑名单，即仅允许过滤器中的物品或所有非过滤器中的物品。"]
+	quest.2F4458E9921DEB86.quest_desc: [
+		"这些 &e&lPipez&r 主要归功于&5&l通用机械&r。&5&l通用机械&r添加了最后一种物质状态，即&a气体&r。&a气体&r无法通过其他任何 &e&lPipez&r 移动，因此如果你需要移动氢气或锂，你需要&a气体管道&r。\\n\\n（我一直很难分辨&5&l通用机械&r的物品是&a气体&r、&b流体&r，甚至是注入类型。当它在机器中时，可能会显示&a气体&r或&b流体&r，这可以帮助你学习。如果它不显示，你可以通过 JEI 查看其他可能涉及它的配方！）"
+		"{image:atm:textures/questpics/logistics/pipez_gas.png width:200 height:50 align:center}"
+	]
+	quest.2F4458E9921DEB86.title: "&a气体管道"
+	quest.3065EA195D0A36BA.quest_desc: ["标签是 Minecraft 中分组物品的重要部分，因此我们当然可以利用它来作为过滤器！\\n\\n你可以放入一个物品并选择一个标签，或者如果你知道它，可以自己输入。\\n\\n对于从系统中取出工具等操作非常有用。\\n\\n（你还可以通过输入 /kubejs hand 来查找你手中的物品的标签。）"]
+	quest.308935C85364B04D.quest_desc: ["由于每张卡都保存自己的数据，不断更改每张卡的设置可能会很烦人。所以我们来克隆它们吧！\\n\\n用克隆器左键点击一张卡以复制其数据，然后右键点击一张卡以赋予它该数据！"]
+	quest.30DE4F5BC3EDB555.quest_desc: [
+		"逻辑运输器是&5&l通用机械&r用来在远处移动物品和方块的工具。\\n\\n它们需要配置为从箱子或抽屉等库存中拉取或推送。"
+		"{image:atm:textures/questpics/logistics/meka_transporter.png width:200 height:50 align:center}"
+	]
+	quest.30DE4F5BC3EDB555.quest_subtitle: "方块+物品"
+	quest.316B513FE568EF57.quest_desc: [
+		"热量是&5&l通用机械&r的另一个因素，并且为许多机器和多块机器提供动力。热蒸发工厂和聚变反应堆都使用热量来工作。导体是你移动热量的方式！"
+		"{image:atm:textures/questpics/logistics/meka_conductor.png width:200 height:50 align:center}"
+	]
+	quest.316B513FE568EF57.quest_subtitle: "热量"
+	quest.33433A443B65D252.quest_desc: [
+		"&b水&r=&b蓝色&r &b水&r=&b流体&r 因此 &b蓝色&r=&b流体&r\\n\\n许多模组都有自己的&b流体&r，甚至 Minecraft 也有自己的，如&b水&r和&c熔岩&r。你很可能需要移动这些&b流体&r，一个很好的方法是使用&b流体管道&r。\\n\\n它可以连接到水槽以移动无限的&b水&r！"
+		"{image:atm:textures/questpics/logistics/pipez_fluid.png width:200 height:50 align:center}"
+	]
+	quest.33433A443B65D252.title: "&b流体管道"
+	quest.34CFE1439262AA72.quest_desc: [
+		"&5&l通用机械&r是一个巨大且受欢迎的科技模组，因此它当然有&l物流&r功能。"
+		""
+		"不同的机器对配置要求很严格，需要在它们的 GUI 中更改以正确移动物品。然后你可以使用&5&l通用机械管道&r来移动你需要移动的任何东西！"
+		""
+		"但等等，这不仅仅是&5&l通用机械&r的功能，它们还适用于其他许多机器！只需用扳手配置它们以推送和拉取即可。"
+		""
+		"(当大量使用时这些可能会导致一些延迟，所以请小心使用它们)。"
+	]
+	quest.34CFE1439262AA72.title: "&5&l通用机械"
+	quest.36836AD948F96B9F.quest_desc: [
+		"&e&l管道&r中最简单的，是&e物品管道&r。\\n\\n它会将物品从一个库存移动到另一个库存。可以是从一个箱子到另一个箱子，也可以是从一个农场到一个系统，甚至是从一个采矿机到一个熔炉。\\n\\n非常简单，只需将&e管道&r连接到你想要移动的地方，并使用你的扳手配置哪一侧拉取。"
+		"{image:atm:textures/questpics/logistics/pipez_item.png width:200 height:50 align:center}"
+	]
+	quest.36836AD948F96B9F.title: "&e物品管道"
+	quest.47768B1FFD57D56E.quest_desc: [
+		"难道你不讨厌&4红石&r必须连接到每个地方吗？如果我们可以有无线 FE，为什么不能有无线&4红石&r？感谢 &c&lLaserIO&r，我们终于可以了。你可以用&4卡&r输入一个&4红石信号&r，然后使用一个&4输出卡&r将&4信号&r输出到其他地方！"
+		"{image:atm:textures/questpics/logistics/pipez_item.png width:200 height:50 align:center}"
+	]
+	quest.47768B1FFD57D56E.title: "&4红石卡"
+	quest.47A2BEFB11F4D581.quest_desc: ["基础过滤器非常……容易使用！只需将物品放入其中，它们就会被过滤。\\n\\n你可以更改它，使其只允许那些物品（白名单）或只拒绝那些物品（黑名单）。\\n\\n你还可以选择是否匹配 NBT 数据。匹配 NBT 数据意味着具有相同的附魔、耐久度，甚至是物品中的生物。如果选择不匹配，它将接受任何该物品，不管 NBT 是什么。"]
+	quest.493D04D954E4FBA0.quest_desc: [
+		"&5&l通用机械&r是一个科技模组……你对它需要能量驱动机器感到惊讶吗？"
+		"{image:atm:textures/questpics/logistics/meka_cable.png width:200 height:50 align:center}"
+	]
+	quest.493D04D954E4FBA0.quest_subtitle: "能量"
+	quest.4BC2D7FCDD792DBA.quest_desc: [
+		"因为普通的 &2&lMinecraft&r 物品、方块和流体还不够。添加的热量和能量也不够。\\n\\n其余的&5&l通用机械&r通过加压管道传输。气体是主要的，如果你使用&5&l通用机械&r，你将使用氢气和氧气等气体。\\n注入类型类似于煤注入和红石注入。浆液用于矿石处理。\\n染料色素是颜色的本质，任何可以染色的物品都可以通过&5&l通用机械&r的这一部分进行更改。"
+		"{image:atm:textures/questpics/logistics/meka_tube.png width:200 height:50 align:center}"
+	]
+	quest.4BC2D7FCDD792DBA.quest_subtitle: "气体+更多"
+	quest.4C41FD926F31180B.quest_desc: ["为了使用 &c&lLaserIO&r 移动&2物品&r，你需要一些&2物品卡&r。\\n\\n将一张设置为提取，并将其放在你想要导入的&c激光节点&r的一侧。然后将另一张设置为插入，并将其放在你想要物品导出的侧面。\\n\\n你可以更改提取的多个设置，以决定在有多个地方可以提取时物品的去向。轮询模式将按顺序提取物品，而不是优先从最近的库存中提取。"]
+	quest.4C41FD926F31180B.title: "&2物品卡"
+	quest.4FBAB3A0FBF8CE2F.quest_desc: [
+		"为什么还要担心移动什么，当你可以直接移动一切！&5通用管道&r比&c能量管道&r更不挑剔。它们可以移动&e物品&r、&b流体&r或&c能量&r。"
+		"{image:atm:textures/questpics/logistics/pipez_universal.png width:200 height:50 align:center}"
+	]
+	quest.4FBAB3A0FBF8CE2F.title: "&5通用管道"
+	quest.52F85CED20C8B1E9.quest_desc: ["&e能量&r必须以某种方式传输，最好是到我们想要的地方。像&2物品&r、&9流体&r和&5化学品&r一样移动它！"]
+	quest.52F85CED20C8B1E9.title: "&e能量卡"
+	quest.53EC96FA0E7C4ED4.quest_desc: [
+		"每个科技模组都需要&c能量&r，无论是 FE、RF 还是其他形式！&c能量管道&r不偏不倚，它只是移动！\\n\\n一些机器对&c能量&r的输入输出端口有严格要求，所以请确保检查这些端口！"
+		"{image:atm:textures/questpics/logistics/pipez_energy.png width:200 height:50 align:center}"
+	]
+	quest.53EC96FA0E7C4ED4.title: "&c能量管道"
+	quest.5C0F6B1C93A52113.quest_desc: ["现在这才是 &c&lLaserIO&r 的真正核心！&c激光节点&r是实际插入卡以使其工作的位置。\\n\\n它们会从相邻的四个方向和上下方向的任何库存中移动物品。为了移动到更远的库存，你需要第二个&c节点&r，并通过扳手连接它们，方法是 Shift 右键点击第一个节点，然后右键点击第二个节点。\\n\\n你将把卡插入到正确方向的插槽中，并且还可以在节点中插入节点超频器以使其运行得更快。"]
+	quest.5F1218CF8EFC607B.quest_desc: [
+		"&c&lLaserIO&r 是 DireWolf 对 &a&lEnderIO&r 的&l物流&r的延续。"
+		""
+		"它全部关于通过&c激光&r移动物品！谁不喜欢&c激光&r呢？！"
+		""
+		"这一切都从逻辑芯片开始。"
+	]
+	quest.5F1218CF8EFC607B.title: "&c&lLaser IO"
+	quest.6112956E19017D2D.quest_desc: ["逻辑线缆与其他 &e&lPipez&r 或&5&l通用机械管道&r不同。其他管道像漏斗一样工作，物品从一个库存移动到管道，然后移动到第二个库存。逻辑线缆跳过了中间步骤，也跳过了很多延迟。\\n\\n它们仅用于连接导入器和接口。"]
+	quest.617695A9CA45D88F.quest_desc: ["当你使用 &c&lLaserIO&r 进行&l物流&r时，你可能会有很多卡。每张卡占用一个库存插槽，这可能会很拥挤。我希望它们有一个卡的存储器……哦，它们确实有，那就是卡存储器！\\n\\n你可以在其中存储多张卡，当你打开激光节点时，卡存储器也会打开，就像第二个库存。非常有用！"]
+	quest.6718043D0F2D1830.quest_desc: ["DireWolf 被要求让他的卡与&5&l通用机械&r及其……其他物质状态一起工作。加压管道可以移动的一切，这些卡也可以。气体、注入类型和色素。"]
+	quest.6718043D0F2D1830.title: "&5化学品卡"
+	quest.6A962535CD68713E.quest_desc: ["&e&lPipez&r 移动更多！\\n\\n所有升级都会增加 &e&lPipez&r 的移动量，但每个升级都为 &e&lPipe&r 提供更多选项。\\n\\n基础升级允许 &e&lPipez&r 的红石激活。\\n\\n改进升级允许你更改分配方式：最近优先、最远优先、轮询或随机。\\n\\n高级升级允许你添加过滤器。\\n\\n终极升级不会提供新功能，但它移动得非常多！"]
+	quest.6CD7D99AA102A5C3.quest_desc: ["&n&f&l物流&r：\\n一种移动、管理和存储物品或资源的系统。\\n\\n在模组化的 Minecraft 中，它几乎是一样的，移动物品！在模组化的 Minecraft 中，你需要物品，而且成千上万，如果想要&6&l星&r，那可能达到数百万！因此你需要从工厂、机器、农场，尤其是箱子中移动物品。这就是&l&f物流&r的作用。"]
+	quest.6CD7D99AA102A5C3.title: "&l物流"
+	quest.6E05B62A40D5A891.quest_desc: [
+		"&3&lIntegrated Dynamics&r 全部关于&f&l物流&r！它几乎就是&l物流&r的定义。"
+		""
+		"它全部关于移动、管理和存储物品。说实话，你甚至可能不需要扳手，它的设计非常出色！不过为了以防万一，还是拿一个。"
+		""
+		"(这是延迟最少的管道解决方案，推荐使用)。"
+	]
+	quest.6E05B62A40D5A891.title: "&3&lIntegrated Dynamics"
+	quest.6F152402756DA35E.quest_desc: [
+		"要让这个工作，将物品导入器放在你想要提取物品的库存上。接下来，在第二个库存上放置接口，并用逻辑线缆连接它们。然后，将变量卡插入导入器并根据需要进行更改。\\n\\n它可以设置为在整数限制下导入物品（超过 20 亿）。"
+		"{image:atm:textures/questpics/logistics/id_item.png width:200 height:50 align:center}"
+	]
+	quest.6F152402756DA35E.title: "&f物品导入"
+	quest.76CECFB244F39F18.quest_desc: [
+		"只需将&3能量导入器&r放置在电源上，并用逻辑线缆连接到&3能量接口&r！插入并编辑变量卡，你就可以像专业人士一样移动能量！\\n\\n我必须说，我发现它在导入或导出到 Flux 插头和点时有问题，所以请留意这一点。"
+		"{image:atm:textures/questpics/logistics/id_energy.png width:200 height:50 align:center}"
+	]
+	quest.76CECFB244F39F18.title: "&3能量导入"
+	quest.7BC8F50A89A3BE1A.quest_desc: ["这些只是用于连接&c激光节点&r和连接器。不太重要，我只是想保持扳手的主题。\\n\\n它确实可以作为其他配置的扳手使用！"]
+	quest.7EE27C3908008E20.quest_desc: ["如果你需要将&c激光节点&r连接得很远，可以尝试使用连接器！只需像平常一样使用扳手。"]
+	task.2BA7FC10243AA011.title: "加压管道"
+	task.337725ECA2C04090.title: "逻辑运输器"
+	task.4448DE84ABA737BE.title: "通用线缆"
+	task.48A30B08A090BD75.title: "扳手"
+	task.48CF7A7622423DEA.title: "管道升级"
+	task.4CCB830CFDD43B5E.title: "保留所有权利"
+	task.5B7926B511000F1F.title: "机械管道"
+	task.5E4B74F97BDED243.title: "保留所有权利"
+	task.79E961F671475850.title: "热力学导体"
+}

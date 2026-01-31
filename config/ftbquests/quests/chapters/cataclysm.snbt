@@ -411,7 +411,7 @@
 			y: -11.0d
 		}
 	]
-	order_index: 0
+	order_index: 1
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -1421,7 +1421,6 @@
 				"683C260C854C5AA3"
 				"4D644A9829C240CB"
 				"2CD58FC229BC0C28"
-				"1178E4123E8818E2"
 			]
 			id: "1D56D3B444A4B2D4"
 			rewards: [{
@@ -2444,7 +2443,11 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["683C260C854C5AA3"]
+			dependencies: [
+				"683C260C854C5AA3"
+				"1178E4123E8818E2"
+				"2CD58FC229BC0C28"
+			]
 			id: "5E3263ACE170A8E3"
 			rewards: [{
 				id: "4D01FB40571C4EFF"
@@ -2689,6 +2692,11 @@
 			dependencies: ["655FF7295B688354"]
 			hide_dependency_lines: true
 			id: "3C0F8EB779E56F2A"
+			rewards: [{
+				id: "525A2591ADE675A1"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
 			tasks: [{
 				id: "1D1F9207DD5E36B5"
 				item: { count: 1, id: "cataclysm:chitin_claw" }
@@ -2701,6 +2709,11 @@
 			dependencies: ["713006AB89E43C6D"]
 			hide_dependency_lines: true
 			id: "2011638351B67396"
+			rewards: [{
+				id: "3E8EA35B7EEC2C67"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 1.2d
 			tasks: [{
 				id: "3749918766468C2B"
@@ -2714,6 +2727,11 @@
 			dependencies: ["713006AB89E43C6D"]
 			hide_dependency_lines: true
 			id: "6CB8D3919B16784B"
+			rewards: [{
+				id: "02AD865CE2B43640"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			size: 1.2d
 			tasks: [{
 				id: "7DCF623D6E648C6A"
@@ -2778,67 +2796,167 @@
 		{
 			dependencies: ["573DD5834B321D0A"]
 			id: "713006AB89E43C6D"
+			rewards: [
+				{
+					id: "7FF1086F44128F32"
+					item: {
+						count: 1
+						id: "cataclysm:music_disc_scylla"
+					}
+					type: "item"
+				}
+				{
+					id: "0BDAE90E90C9DF04"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
 			shape: "octagon"
 			size: 1.5d
 			tasks: [{
-				id: "039DA35EE3CFCB63"
-				type: "checkmark"
+				entity: "cataclysm:scylla"
+				id: "3A1225710734FE89"
+				type: "kill"
+				value: 1L
 			}]
 			x: 0.0d
 			y: -8.0d
 		}
 		{
+			dependencies: ["573DD5834B321D0A"]
 			id: "5BD22081ED81BCC6"
+			rewards: [{
+				id: "05C62E3F7540A5F1"
+				type: "xp"
+				xp: 300
+			}]
 			shape: "circle"
 			tasks: [{
-				id: "282338796CA2996C"
-				type: "checkmark"
+				entity: "cataclysm:urchinkin"
+				id: "43D4C5A2A9258E6D"
+				type: "kill"
+				value: 1L
 			}]
 			x: 1.5d
 			y: -6.5d
 		}
 		{
+			dependencies: ["573DD5834B321D0A"]
 			id: "5FBA199E0B7F1585"
+			rewards: [
+				{
+					count: 3
+					id: "5B5E83870620078D"
+					item: {
+						count: 1
+						id: "minecraft:ink_sac"
+					}
+					type: "item"
+				}
+				{
+					id: "6116121EBF25EBC9"
+					type: "xp"
+					xp: 300
+				}
+			]
 			shape: "circle"
 			tasks: [
 				{
-					id: "5A473B1D9AC342E4"
-					type: "checkmark"
+					entity: "cataclysm:symbiocto"
+					id: "4FD03130879688D5"
+					type: "kill"
+					value: 1L
 				}
 				{
-					id: "33C6EDC7E28F973F"
-					type: "checkmark"
+					entity: "cataclysm:drowned_host"
+					id: "7E5824C2C5FCBDD8"
+					type: "kill"
+					value: 1L
 				}
 			]
 			x: 2.0d
 			y: -7.5d
 		}
 		{
+			dependencies: ["573DD5834B321D0A"]
 			id: "696A33E7D91A487E"
+			rewards: [
+				{
+					id: "0A59C5DC26E2D2CB"
+					item: {
+						count: 1
+						id: "cataclysm:lacrima"
+					}
+					type: "item"
+				}
+				{
+					id: "67C82857D53117EB"
+					type: "xp"
+					xp: 300
+				}
+			]
 			shape: "circle"
 			tasks: [{
-				id: "447DF924202135B3"
-				type: "checkmark"
+				entity: "cataclysm:cindaria"
+				id: "6041EBC003D45F5A"
+				type: "kill"
+				value: 1L
 			}]
 			x: -1.5d
 			y: -7.5d
 		}
 		{
+			dependencies: ["573DD5834B321D0A"]
 			id: "655FF7295B688354"
+			rewards: [
+				{
+					id: "450E90461D727691"
+					item: {
+						count: 1
+						id: "cataclysm:chitin_claw"
+					}
+					type: "item"
+				}
+				{
+					id: "4448411A960BB353"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
 			shape: "circle"
 			tasks: [{
-				id: "1D59AEE075C91CA5"
-				type: "checkmark"
+				entity: "cataclysm:clawdian"
+				id: "099FF4BCCD3E612D"
+				type: "kill"
+				value: 1L
 			}]
 			x: -2.5d
 			y: -7.0d
 		}
 		{
+			dependencies: ["573DD5834B321D0A"]
 			id: "0741FABE57CA1A7D"
+			rewards: [
+				{
+					id: "702E8E39F0ADBE9F"
+					item: {
+						count: 1
+						id: "cataclysm:lacrima"
+					}
+					type: "item"
+				}
+				{
+					id: "137DCA519BDF280E"
+					type: "xp"
+					xp: 300
+				}
+			]
 			shape: "circle"
 			tasks: [{
-				id: "292DE68AB3309B32"
-				type: "checkmark"
+				entity: "cataclysm:hippocamtus"
+				id: "2362A07A36DDFB22"
+				type: "kill"
+				value: 1L
 			}]
 			x: -1.5d
 			y: -6.5d

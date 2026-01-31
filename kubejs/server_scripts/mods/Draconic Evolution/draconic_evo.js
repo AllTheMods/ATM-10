@@ -12,7 +12,7 @@ ServerEvents.recipes(allthemods =>{
     }).id(`allthemods:create/crushing/awakened_draconium_dust`)
 
     allthemods.recipes.occultism.crushing(RecipeResult.of("draconicevolution:awakened_draconium_dust"), Ingredient.of("draconicevolution:awakened_draconium_ingot"))
-	  .ignore_crushing_multiplier(true)
+	  .ignoreCrushingMultiplier(true)
 	  .id(`allthemods:occultism/crushing/awakened_draconium_dust`)
     
     allthemods.custom({
@@ -39,7 +39,7 @@ ServerEvents.recipes(allthemods =>{
     }).id(`allthemods:create/crushing/draconium_dust`)
 
     allthemods.recipes.occultism.crushing(RecipeResult.of("draconicevolution:draconium_dust"), "draconicevolution:draconium_ingot")
-	  .ignore_crushing_multiplier(true)
+	  .ignoreCrushingMultiplier(true)
 	  .id(`allthemods:occultism/crushing/draconium_dust`)
 
     allthemods.custom({

@@ -1,0 +1,1543 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "extended__advanced_ae"
+	group: "1AC60211DE7427FC"
+	icon: {
+		id: "advanced_ae:shattered_singularity"
+	}
+	id: "51A2FE60D8B76FC6"
+	images: [
+		{
+			click: "#78215D704E6095B0"
+			color: 7344293
+			height: 1.0d
+			hover: ["Quantum Helmet"]
+			image: "advanced_ae:item/quantum_helmet_tint"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			click: "#78215D704E6095B0"
+			color: 7344293
+			height: 1.0d
+			hover: ["Quantum Chestplate"]
+			image: "advanced_ae:item/quantum_chestplate_tint"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			click: "#78215D704E6095B0"
+			color: 7344293
+			height: 1.0d
+			hover: ["Quantum Leggings"]
+			image: "advanced_ae:item/quantum_leggings_tint"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			click: "#78215D704E6095B0"
+			color: 7344293
+			height: 1.0d
+			hover: ["Quantum Boots"]
+			image: "advanced_ae:item/quantum_boots_tint"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/extended_advanced_ae/assembler_matrix.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/extended_advanced_ae/quantum_computer.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 9.5d
+			y: 8.0d
+		}
+		{
+			height: 0.25d
+			image: "allthetweaks:item/atm_star"
+			rotation: 0.0d
+			width: 0.25d
+			x: 7.526190476190479d
+			y: 3.9345238095238173d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/extended_advanced_ae/title.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			height: 1.0d
+			image: "advanced_ae:item/quantum_helmet_base"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "advanced_ae:item/quantum_chestplate_base"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "advanced_ae:item/quantum_leggings_base"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			height: 1.0d
+			image: "advanced_ae:item/quantum_boots_base"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 6.5d
+		}
+	]
+	order_index: 2
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3972EE0ECB215843"]
+			id: "4818C8387C0DBBE7"
+			rewards: [{
+				id: "1FA4E03D9C6C2902"
+				type: "xp"
+				xp: 50
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5F7AE60DC477C888"
+				item: { count: 1, id: "ae2:fluix_block" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4818C8387C0DBBE7"]
+			icon: {
+				id: "extendedae:entro_crystal"
+			}
+			id: "34FBD04361657724"
+			rewards: [
+				{
+					count: 4
+					id: "115BCC63AE09A4D7"
+					item: {
+						count: 1
+						id: "extendedae:entro_crystal"
+					}
+					type: "item"
+				}
+				{
+					id: "3C42475F91FB1230"
+					type: "xp"
+					xp: 50
+				}
+			]
+			tasks: [
+				{
+					id: "5F082F52423D46A2"
+					item: { count: 1, id: "extendedae:entro_seed" }
+					type: "item"
+				}
+				{
+					icon: {
+						id: "extendedae:entro_budding_fully"
+					}
+					id: "565F08113205DDBA"
+					observe_type: 0
+					timer: 0L
+					to_observe: "extendedae:entro_budding_fully"
+					type: "observation"
+				}
+				{
+					id: "35F9754B6A905D64"
+					item: { count: 1, id: "extendedae:entro_crystal" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34FBD04361657724"]
+			hide_dependent_lines: true
+			id: "1B90B94D07BBDD09"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7D376A1B80ADA4BF"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+				{
+					id: "4652B95DB0D7ABDB"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "268DD5AFBD2C199A"
+				item: { count: 1, id: "extendedae:crystal_assembler" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1A815711703E4A24"
+			invisible: true
+			optional: true
+			tasks: [{
+				id: "3E8E72F0861329B6"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1B90B94D07BBDD09"]
+			id: "3FE739EA7E297DF3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "361687021C65F4E0"
+				table_id: 5871764666515020368L
+				type: "random"
+			}]
+			tasks: [{
+				id: "475B673DC78361D2"
+				item: { components: { "ftbfiltersystem:filter": "or(item(extendedae:ex_import_bus_part)item(extendedae:ex_export_bus_part)item(extendedae:ex_charger)item(extendedae:ex_inscriber)item(extendedae:ex_molecular_assembler)item(extendedae:ex_drive)item(extendedae:ex_io_port)item(extendedae:ex_interface)item(extendedae:ex_pattern_provider))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1B90B94D07BBDD09"]
+			id: "48357A7486125C52"
+			tasks: [{
+				id: "215D0E1A9BF15323"
+				item: { count: 1, id: "extendedae:circuit_cutter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B90B94D07BBDD09"]
+			id: "52CD31F48715B17C"
+			rewards: [{
+				count: 2
+				id: "6CB2B0728027A4EE"
+				item: {
+					count: 1
+					id: "extendedae:wireless_connect"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "42C00862ECBD956C"
+					item: { count: 1, id: "extendedae:wireless_connect" }
+					type: "item"
+				}
+				{
+					id: "429BAE443AE2ADF0"
+					item: { count: 1, id: "extendedae:wireless_tool" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E535784A9D3DE89"]
+			id: "36FB694262102CFD"
+			rewards: [{
+				count: 4
+				id: "102AA747572098B7"
+				item: {
+					count: 1
+					id: "enderio:grains_of_infinity"
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "13FF4A021BBF1451"
+				item: { components: { "ftbfiltersystem:filter": "or(item(kubejs:lava_cell)item(kubejs:dirt_cell)item(kubejs:moss_cell)item(kubejs:andesite_cell)item(kubejs:diorite_cell)item(kubejs:granite_cell)item(kubejs:tuff_cell)item(kubejs:gravel_cell)item(kubejs:sand_cell)item(kubejs:red_sand_cell)item(kubejs:end_stone_cell)item(kubejs:netherrack_cell)item(kubejs:clay_cell)item(kubejs:blackstone_cell)item(kubejs:basalt_cell)item(kubejs:calcite_cell)item(kubejs:cobbled_deepslate_cell)item(kubejs:soul_sand_cell)item(kubejs:sky_stone_cell)item(kubejs:kivi_cell)item(kubejs:ancient_stone_cell)item(kubejs:white_cell)item(kubejs:light_gray_cell)item(kubejs:gray_cell)item(kubejs:black_cell)item(extendedae:infinity_water_cell)item(extendedae:infinity_cobblestone_cell))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1B90B94D07BBDD09"]
+			id: "534D827A628907F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "526921A8F545731F"
+				table_id: 5871764666515020368L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2896085D4D721380"
+				item: { count: 1, id: "extendedae:ex_pattern_access_part" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B90B94D07BBDD09"]
+			id: "27FC0C092EE00532"
+			rewards: [{
+				id: "52771710E0B970FC"
+				item: {
+					count: 1
+					id: "minecraft:water_bucket"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "0252475A740C3E4D"
+				item: { count: 1, id: "extendedae:caner" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3FE739EA7E297DF3"]
+			id: "7900A4836CC55428"
+			rewards: [
+				{
+					count: 25
+					id: "5009245B99B05280"
+					item: {
+						count: 1
+						id: "extendedae:assembler_matrix_frame"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "75C740729CBBDE92"
+					item: {
+						count: 1
+						id: "extendedae:assembler_matrix_wall"
+					}
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [
+				{
+					count: 43L
+					id: "438D5F2C7BBDD0E2"
+					item: { count: 1, id: "extendedae:assembler_matrix_frame" }
+					type: "item"
+				}
+				{
+					count: 125L
+					id: "3E945BEFF5CE78F5"
+					item: { count: 1, id: "extendedae:assembler_matrix_wall" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3972EE0ECB215843"]
+			icon: {
+				id: "advanced_ae:shattered_singularity"
+			}
+			id: "7725CB7D0AE55180"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5406F9E51B9034C3"
+				item: { count: 1, id: "ae2:logic_processor" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7725CB7D0AE55180"]
+			id: "14FC9E4A3C80C0AE"
+			rewards: [
+				{
+					count: 16
+					id: "259384770809AEA3"
+					item: {
+						count: 1
+						id: "ae2:charged_certus_quartz_crystal"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "42A7D7E7CA2D39D7"
+					item: {
+						count: 1
+						id: "minecraft:redstone"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "27C367225CF1627A"
+					item: {
+						count: 1
+						id: "minecraft:quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "3A7CC98BCE02AF41"
+					item: {
+						count: 1
+						id: "minecraft:water_bucket"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "578D8531914D0678"
+				item: { count: 1, id: "advanced_ae:reaction_chamber" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7725CB7D0AE55180"]
+			id: "56DE217FEAE3F036"
+			rewards: [{
+				count: 4
+				id: "33EF0DE48230B78D"
+				item: {
+					count: 1
+					id: "ae2:blank_pattern"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "3A76350DDF5A318D"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(advanced_ae:adv_pattern_provider)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "5795FD378D55DB36"
+					item: { count: 1, id: "advanced_ae:adv_pattern_encoder" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["411A463E98C3B102"]
+			id: "03164C4C7813CE2B"
+			rewards: [
+				{
+					count: 3
+					id: "240F36D5E1EDA70D"
+					item: {
+						count: 1
+						id: "advanced_ae:quantum_unit"
+					}
+					type: "item"
+				}
+				{
+					id: "08B854693E481DE1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [
+				{
+					id: "7BE7E513F11A3C35"
+					item: { count: 1, id: "advanced_ae:quantum_unit" }
+					type: "item"
+				}
+				{
+					id: "637D2A0BA1A46912"
+					item: { count: 1, id: "advanced_ae:quantum_structure" }
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7900A4836CC55428"]
+			id: "034AB493E1EC2E63"
+			rewards: [
+				{
+					count: 25
+					id: "6F835807046FA8FB"
+					item: {
+						count: 1
+						id: "extendedae:assembler_matrix_pattern"
+					}
+					type: "item"
+				}
+				{
+					count: 25
+					id: "1BCFD4D051029CAE"
+					item: {
+						count: 1
+						id: "extendedae:assembler_matrix_crafter"
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 35L
+					id: "1500062658C417AA"
+					item: { count: 1, id: "extendedae:assembler_matrix_pattern" }
+					type: "item"
+				}
+				{
+					count: 35L
+					id: "306C914B74A7828A"
+					item: { count: 1, id: "extendedae:assembler_matrix_crafter" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "1766170684DD8C07"
+					item: { count: 1, id: "extendedae:assembler_matrix_speed" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["03164C4C7813CE2B"]
+			id: "658DEAAD1E68E549"
+			rewards: [
+				{
+					id: "27B415009ACAE5CF"
+					item: {
+						count: 1
+						id: "advanced_ae:quantum_storage_256"
+					}
+					type: "item"
+				}
+				{
+					id: "0B3B01AEA37505FF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					count: 2L
+					id: "388502737919E69F"
+					item: { count: 1, id: "advanced_ae:quantum_storage_128" }
+					type: "item"
+				}
+				{
+					id: "2C547406F10F1C14"
+					item: { count: 1, id: "advanced_ae:quantum_storage_256" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["03164C4C7813CE2B"]
+			id: "0D8B4DAB82ABEF9D"
+			rewards: [
+				{
+					id: "639A01DA81E22769"
+					item: {
+						count: 1
+						id: "advanced_ae:quantum_accelerator"
+					}
+					type: "item"
+				}
+				{
+					id: "2A24436A2AD1BB50"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "58E89008C58BDEA5"
+				item: { count: 1, id: "advanced_ae:quantum_accelerator" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0D8B4DAB82ABEF9D"
+				"658DEAAD1E68E549"
+			]
+			disable_recipe_mod: true
+			id: "55DFC96B4CDBFA7D"
+			rewards: [
+				{
+					count: 2
+					id: "31EF288177ABB992"
+					item: {
+						count: 1
+						id: "advanced_ae:quantum_accelerator"
+					}
+					type: "item"
+				}
+				{
+					id: "7BEC337DCC98CDA4"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "heart"
+			size: 1.5d
+			tasks: [{
+				id: "25A95685F009FEC1"
+				item: { count: 1, id: "advanced_ae:quantum_core" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"55DFC96B4CDBFA7D"
+				"1B90B94D07BBDD09"
+			]
+			id: "1A20BBBAFBEDF911"
+			rewards: [
+				{
+					count: 4
+					id: "1CCE0F79015CA55C"
+					item: {
+						count: 1
+						id: "advanced_ae:quantum_accelerator"
+					}
+					type: "item"
+				}
+				{
+					id: "223F47A521C99DE5"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				id: "2928E71D218FDE3C"
+				item: { count: 1, id: "advanced_ae:quantum_multi_threader" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"55DFC96B4CDBFA7D"
+				"1B90B94D07BBDD09"
+			]
+			id: "09F43EB79DDBD127"
+			optional: true
+			rewards: [
+				{
+					count: 4
+					id: "498F686921328D45"
+					item: {
+						count: 1
+						id: "advanced_ae:quantum_storage_256"
+					}
+					type: "item"
+				}
+				{
+					id: "1FEB115DECF62BA7"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			tasks: [{
+				id: "256682BFD257244D"
+				item: { count: 1, id: "advanced_ae:data_entangler" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0D8B4DAB82ABEF9D"]
+			id: "12749A25600C7FF3"
+			rewards: [{
+				id: "5A35C4C633165852"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "636197CAC21C3FDA"
+				item: { count: 1, id: "advanced_ae:quantum_crafter" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["411A463E98C3B102"]
+			id: "78215D704E6095B0"
+			rewards: [
+				{
+					count: 2
+					id: "4D416AB1BB6AA9C7"
+					item: {
+						count: 1
+						id: "advanced_ae:quantum_storage_component"
+					}
+					type: "item"
+				}
+				{
+					id: "073818ABBBA9F808"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					id: "505D04F4E0F6795F"
+					item: { count: 1, id: "advanced_ae:quantum_helmet" }
+					type: "item"
+				}
+				{
+					id: "3C4764C4EE2ED51F"
+					item: { count: 1, id: "advanced_ae:quantum_chestplate" }
+					type: "item"
+				}
+				{
+					id: "40BA14BD280DC10A"
+					item: { count: 1, id: "advanced_ae:quantum_leggings" }
+					type: "item"
+				}
+				{
+					id: "0B8E3C8D6C6AA3EE"
+					item: { count: 1, id: "advanced_ae:quantum_boots" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["78215D704E6095B0"]
+			hide_dependent_lines: true
+			id: "0B4CE3969067FA31"
+			rewards: [
+				{
+					count: 2
+					id: "32A080956FB2DAB8"
+					item: {
+						count: 1
+						id: "advanced_ae:quantum_upgrade_base"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EC0D5C4C25B4B7F"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+				{
+					id: "0E99199227CD64E5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "3C5234F0EC6C7E39"
+				item: { count: 1, id: "advanced_ae:quantum_upgrade_base" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0B4CE3969067FA31"]
+			id: "188C9E5D340C5A0A"
+			rewards: [
+				{
+					id: "6F3A8025653CFD02"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24990ACB0B363885"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6CFEDFF83FB5AD18"
+				item: { count: 1, id: "advanced_ae:walk_speed_card" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0B4CE3969067FA31"]
+			id: "70395883E97AE897"
+			rewards: [
+				{
+					id: "5AFD5B21CC66DF84"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "214FB72AB89EDDFD"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "540BD5249CF3D84F"
+				item: { count: 1, id: "advanced_ae:sprint_speed_card" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0B4CE3969067FA31"]
+			id: "5E610C059737628B"
+			rewards: [
+				{
+					id: "3681E65AEB89FED0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6740380A7C2324C6"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "7870E757CC4BF1E2"
+				item: { count: 1, id: "advanced_ae:step_assist_card" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0B4CE3969067FA31"]
+			id: "0A354B4707894A62"
+			rewards: [
+				{
+					id: "7EFC75964051F3D9"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6394CD694587BEEC"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "63A7871AE2F7804B"
+				item: { count: 1, id: "advanced_ae:jump_height_card" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0B4CE3969067FA31"]
+			id: "130A300418962332"
+			rewards: [
+				{
+					id: "411479067F86CB15"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "282B0E8729FBD572"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "12EC69F1C523B343"
+				item: { count: 1, id: "advanced_ae:lava_immunity_card" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0B4CE3969067FA31"]
+			id: "67C7EF299BEC37DE"
+			rewards: [
+				{
+					id: "702BC4ECE071A87D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "511331117FD0A560"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "2A1746B22A6D57BD"
+				item: { count: 1, id: "advanced_ae:flight_card" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0B4CE3969067FA31"]
+			id: "580624D24AE2DB4B"
+			rewards: [
+				{
+					id: "7CDB7B5287EBE63C"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5BF4C28265F414D0"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "39B2E6372F94DB1D"
+				item: { count: 1, id: "advanced_ae:water_breathing_card" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0B4CE3969067FA31"]
+			id: "451A6EEF33395A29"
+			rewards: [
+				{
+					id: "30E2024F528F8778"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B63BE19278FAA5D"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0377F7E698E93C26"
+				item: { count: 1, id: "advanced_ae:auto_feeding_card" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0B4CE3969067FA31"]
+			id: "621A996C7802D057"
+			rewards: [
+				{
+					id: "060323C883AB2CF0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A9788F7679E703C"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "285D24FF6039D443"
+				item: { count: 1, id: "advanced_ae:auto_stock_card" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0B4CE3969067FA31"]
+			id: "2303BB17339B240D"
+			rewards: [
+				{
+					id: "4CBACE4CAA3EFEF0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "73543B5BDCD596F7"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "24A3CE515DF0186E"
+				item: { count: 1, id: "advanced_ae:magnet_card" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0B4CE3969067FA31"]
+			id: "4AC3EA41234BC5F0"
+			rewards: [
+				{
+					id: "0E7955395C8FC66E"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "478F8DE1376C8A51"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "4BEF9B9ABAB44B5E"
+				item: { count: 1, id: "advanced_ae:hp_buffer_card" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"0D3874835F1367EE"
+				"188C9E5D340C5A0A"
+				"70395883E97AE897"
+				"6559C57A1A476489"
+			]
+			id: "07E5B0BF7D8E055A"
+			rewards: [
+				{
+					id: "7B63F80ADBF4AFBE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FB0ACC2AA29DA8A"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "5325DB5C52F45993"
+				item: { count: 1, id: "advanced_ae:evasion_card" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0B4CE3969067FA31"]
+			id: "7610A0BB77AC8037"
+			rewards: [
+				{
+					id: "7CA13C98F5C573E1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DD4B58B8157B2D7"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0E52901C7E98A54B"
+				item: { count: 1, id: "advanced_ae:regeneration_card" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0B4CE3969067FA31"]
+			id: "3B3F1DE1AF6EBC1E"
+			rewards: [
+				{
+					id: "081321A994CE191F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "374BE919EAD4A1C0"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "2F453BCF48FB1F9C"
+				item: { count: 1, id: "advanced_ae:strength_card" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["0B4CE3969067FA31"]
+			id: "6559C57A1A476489"
+			rewards: [
+				{
+					id: "06B6630AC045C896"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "37E8A3D0C1A4B8C0"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6B4E7B0E83D95DEE"
+				item: { count: 1, id: "advanced_ae:attack_speed_card" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0B4CE3969067FA31"]
+			id: "763A19067AEEF6D5"
+			rewards: [
+				{
+					id: "2D36804939CBA032"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FF6BBD585494ACB"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "4B929C61FE6B2283"
+				item: { count: 1, id: "advanced_ae:luck_card" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0B4CE3969067FA31"]
+			id: "2E61219FC0BAB675"
+			rewards: [
+				{
+					id: "36F25FE56BD935F2"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "772F0D1752BC6A81"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "3854179CE74EE997"
+				item: { count: 1, id: "advanced_ae:reach_card" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0B4CE3969067FA31"]
+			id: "0D3874835F1367EE"
+			rewards: [
+				{
+					id: "45CC49368FEE55AF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "297B708AC787A03B"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "5A4815C07DB2039D"
+				item: { count: 1, id: "advanced_ae:swim_speed_card" }
+				type: "item"
+			}]
+			x: 6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0B4CE3969067FA31"]
+			id: "188952FC58EB40BC"
+			rewards: [
+				{
+					id: "06D55D6E2ED41DAD"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "431AF9823002DC05"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "7C1C34179BB3552E"
+				item: { count: 1, id: "advanced_ae:night_vision_card" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["67C7EF299BEC37DE"]
+			id: "6033ABA2088BA70C"
+			rewards: [
+				{
+					id: "3384FD4B8DC80238"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "02488633AC72D341"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "478C30108F304D74"
+				item: { count: 1, id: "advanced_ae:flight_drift_card" }
+				type: "item"
+			}]
+			x: 7.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["0B4CE3969067FA31"]
+			id: "38D0BBD5F699EF41"
+			rewards: [
+				{
+					id: "6A07C4B39EA4C743"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "52F88AB8332B3E1A"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "6ED37C922A9A48F0"
+				item: { count: 1, id: "advanced_ae:recharging_card" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["0B4CE3969067FA31"]
+			id: "3347CB6478F486C6"
+			rewards: [
+				{
+					id: "7378F6775BDE93F6"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B6D9AFFD1BADC7C"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "29B75C2F61F66FEE"
+				item: { count: 1, id: "advanced_ae:portable_workbench_card" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["0B4CE3969067FA31"]
+			id: "468E8D7CF9B83FEE"
+			rewards: [
+				{
+					id: "547396E9455A06B5"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16FE28EEE9702DE3"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "736770B054073D65"
+				item: { count: 1, id: "advanced_ae:pick_craft_card" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["34FBD04361657724"]
+			id: "0E06F323BF8C1D73"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "00B94BA913CDAB01"
+				item: {
+					count: 1
+					id: "extendedae:entro_crystal"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1854DDA036C8A2BA"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mysticalagriculture:entro_seeds)component(fuzzy:{\"productivebees:bee_type\":\"productivebees:entro\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14FC9E4A3C80C0AE"]
+			id: "411A463E98C3B102"
+			tasks: [
+				{
+					id: "250C092092F5F167"
+					item: { count: 1, id: "advanced_ae:shattered_singularity" }
+					type: "item"
+				}
+				{
+					id: "6D3FB478C48A2B98"
+					item: { count: 1, id: "advanced_ae:quantum_alloy" }
+					type: "item"
+				}
+				{
+					id: "6BDE1F55FC7D6CBD"
+					item: { count: 1, id: "advanced_ae:quantum_processor" }
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4818C8387C0DBBE7"]
+			id: "1E535784A9D3DE89"
+			tasks: [{
+				id: "1B927BD83D40F37D"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1E535784A9D3DE89"]
+			id: "3621155A4138EBCA"
+			tasks: [{
+				id: "178EE4CAC1E1A581"
+				item: { count: 1, id: "extendedae:void_cell" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1B90B94D07BBDD09"]
+			id: "3CF32F2314839B1D"
+			rewards: [
+				{
+					id: "7D10EFDF082FE004"
+					item: {
+						count: 1
+						id: "ae2:chipped_budding_quartz"
+					}
+					type: "item"
+				}
+				{
+					id: "7D025884D7B25563"
+					item: {
+						count: 1
+						id: "extendedae:entro_budding_half"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "709BC1FC30595717"
+					item: {
+						count: 1
+						id: "ae2:charged_certus_quartz_crystal"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "6B639A0152FA4F72"
+					item: {
+						count: 1
+						id: "ae2:ender_dust"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3DBD19E7F036C211"
+				item: { count: 1, id: "extendedae:crystal_fixer" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			id: "3972EE0ECB215843"
+			size: 2.0d
+			tasks: [{
+				id: "3EC615C0AE2B9860"
+				item: { count: 1, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["52CD31F48715B17C"]
+			id: "3916B48D7F294932"
+			rewards: [{
+				id: "661FB462D7297CAD"
+				item: {
+					count: 1
+					id: "extendedae:wireless_hub"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DEF1EE085B98E5E"
+				item: { count: 1, id: "extendedae:wireless_hub" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B90B94D07BBDD09"]
+			id: "18499D33BA12A8A9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61C2A2FC116F6951"
+				table_id: 5871764666515020368L
+				type: "random"
+			}]
+			tasks: [{
+				id: "430E98968D04916E"
+				item: { count: 1, id: "extendedae:active_formation_plane" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
+		}
+	]
+}

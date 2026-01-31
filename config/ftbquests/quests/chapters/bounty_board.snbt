@@ -1733,7 +1733,8 @@
 		{
 			icon: {
 				components: {
-					"ftbquests:icon": "ftbchunks:textures/faces/undergarden/forgotten_guardian.png"
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "undergarden:forgotten_guardian"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -1832,38 +1833,8 @@
 		{
 			icon: {
 				components: {
-					"hostilenetworks:data_model": "hostilenetworks:tangled_hatred"
-				}
-				id: "hostilenetworks:data_model"
-			}
-			id: "2001998045ABC04C"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "45464BCE599CBDEE"
-					table_id: 4196188979167302596L
-					type: "random"
-				}
-				{
-					id: "01EE7F8B1CA150E2"
-					type: "xp"
-					xp: 250
-				}
-			]
-			size: 1.5d
-			tasks: [{
-				entity: "eternal_starlight:tangled_hatred"
-				id: "42D1B6FC8C202EF7"
-				type: "kill"
-				value: 1L
-			}]
-			x: -0.75d
-			y: 7.0d
-		}
-		{
-			icon: {
-				components: {
-					"ftbquests:icon": "ftbchunks:textures/faces/undergarden/rotbeast.png"
+					"!ftbquests:icon": { }
+					"ftbquests:entity_face": "undergarden:rotbeast"
 				}
 				id: "ftbquests:custom_icon"
 			}
@@ -1888,8 +1859,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: 0.75d
-			y: 7.0d
+			x: 0.0d
+			y: 6.875000000000007d
 		}
 	]
 }
