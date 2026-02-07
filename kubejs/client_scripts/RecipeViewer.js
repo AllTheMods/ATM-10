@@ -124,19 +124,7 @@ RecipeViewerEvents.removeEntries('item', allthemods => {
         "modern_industrialization:creative_barrel",
         "mininggadgets:upgrade_battery_creative",
         "immersiveengineering:capacitor_creative",
-        "twilightforest:uncrafting_table",
-        "mifa:efficiency_addon_5",
-        "mifa:efficiency_addon_6",
-        "mifa:efficiency_addon_7",
-        "mifa:efficiency_addon_8",
-        "mifa:processing_addon_5",
-        "mifa:processing_addon_6",
-        "mifa:processing_addon_7",
-        "mifa:processing_addon_8",
-        "mifa:speed_addon_5",
-        "mifa:speed_addon_6",
-        "mifa:speed_addon_7",
-        "mifa:speed_addon_8"]
+        "twilightforest:uncrafting_table"]
     )
 
     if (Platform.isLoaded("hyperbox")) {
