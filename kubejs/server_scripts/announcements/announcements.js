@@ -23,14 +23,15 @@ function initAnnouncements(){
   addAnnouncement("4.13", "Added mods: Dyson Cube Project")
   addAnnouncement("5.0", "Removed mods: Modular Machinery Reborn, use Modern Industrialization")
   addAnnouncement("5.3", Text.of("We are preparing to ").append(Text.red("REMOVE")).append(" mods ").append(Text.blue("Eternal Starlight")).append(" and ").append(Text.blue("Hyperbox")).append(", be ready when updating to version 6.0+"))
+  addAnnouncement("5.5", Text.of("We just launched ").append(Text.green("All The Mons (ATM10 + Cobblemon)").clickOpenUrl("https://www.curseforge.com/minecraft/modpacks/all-the-mons").hover(Text.translatable("mco.notification.visitUrl.buttonText.default"))).append(" for public beta testing!"))
 }
 
 ServerEvents.loaded(event => {
   if (!Platform.isLoaded("bcc")) return
   announcements.clear()
-  /** @type {import("dev.wuffs.bcc.data.BetterStatusServerHolder").$BetterStatusServerHolder$$Original} */
-  let $BccInstance = Java.loadClass("dev.wuffs.bcc.data.BetterStatusServerHolder").INSTANCE
-  currentVersion = new $DefaultArtifactVersion($BccInstance.status.version())
+  /** @type {import("dev.wuffs.bcc.BetterCompatibilityChecker").$BetterCompatibilityChecker$$Original} */
+  let $BccInstance = Java.loadClass("dev.wuffs.bcc.BetterCompatibilityChecker")
+  currentVersion = new $DefaultArtifactVersion($BccInstance.betterStatus.version())
   initAnnouncements()
 })
 
