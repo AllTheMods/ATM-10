@@ -372,7 +372,7 @@
 				{
 					count: 125L
 					id: "3E945BEFF5CE78F5"
-					item: { count: 1, id: "extendedae:assembler_matrix_wall" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(extendedae:assembler_matrix_wall)item(extendedae:assembler_matrix_glass))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
