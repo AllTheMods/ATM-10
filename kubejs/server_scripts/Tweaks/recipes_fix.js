@@ -192,5 +192,25 @@ KubeJSTweaks.beforeRecipes(event => {
       entry.addConditionsFromKey("input")
     })
 
+  event.getEntry("bellsandwhistles:metro/metro_window").forEach(entry => {
+    entry.replaceValueAtKey("ingredients", "tag", "c:glass", "c:glass_blocks/colorless")
+  })
+
+  event.getEntry(/^regions_unexplored:.*_snowbelle$/)
+    .forEach(entry => {
+      let ings = entry.json().get("ingredients")
+      if (ings != null) {
+        for (let ing of ings) {
+          let tag = ing.get("tag")
+          if (tag != null) {
+            if (tag.getAsString().endsWith("_dyes")) {
+              let color = tag.getAsString().replace("c:","").replace("_dyes","")
+              ing["addProperty(java.lang.String,java.lang.String)"]("tag", "c:dyes/" + color)
+            }
+          }
+        }
+      }
+    })
+
   console.log(`Fixing recipes took ${timer.stop().elapsed("milliseconds")} ms...`)
 })
