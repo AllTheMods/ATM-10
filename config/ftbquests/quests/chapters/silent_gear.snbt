@@ -7,15 +7,25 @@
 		id: "silentgear:pickaxe_blueprint"
 	}
 	id: "1D42B373285DEF81"
-	images: [{
-		height: 1.5d
-		image: "silentgear:item/azure_repair_kit"
-		rotation: 0.0d
-		width: 1.5d
-		x: 16.0d
-		y: 3.0d
-	}]
-	order_index: 5
+	images: [
+		{
+			height: 1.5d
+			image: "silentgear:item/azure_repair_kit"
+			rotation: 0.0d
+			width: 1.5d
+			x: 16.0d
+			y: 3.0d
+		}
+		{
+			height: 5.0d
+			image: "atm:textures/questpics/silentgear/starcharger.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: 21.5d
+			y: -5.0d
+		}
+	]
+	order_index: 6
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -1563,7 +1573,7 @@
 			shape: "circle"
 			tasks: [{
 				id: "29FFC1A3BFF17BBC"
-				item: { count: 4, id: "silentgear:crimson_steel_block" }
+				item: { count: 1, id: "silentgear:crimson_steel_block" }
 				type: "item"
 			}]
 			x: 19.5d
@@ -1886,7 +1896,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "7D9F2C8E7C65B654"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(productivemetalworks:foundry_controllers))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { count: 1, id: "productivemetalworks:black_foundry_controller" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -1906,7 +1916,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "54EF988F476C9208"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(productivemetalworks:foundry_drains))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { count: 1, id: "productivemetalworks:black_foundry_drain" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -1927,7 +1937,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "155D4ED18738E127"
-				item: { components: { "ftbfiltersystem:filter": "or(item_tag(productivemetalworks:foundry_tanks))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { count: 1, id: "productivemetalworks:black_foundry_tank" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -1971,7 +1981,7 @@
 				}
 				{
 					id: "2AE89914A34BF3AD"
-					item: { components: { "ftbfiltersystem:filter": "or(item_tag(productivemetalworks:fire_bricks)item_tag(productivemetalworks:foundry_windows))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					item: { components: { "ftbfiltersystem:filter": "or(item(productivemetalworks:black_foundry_window)item(productivemetalworks:black_fire_bricks))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -2362,6 +2372,46 @@
 			}]
 			x: 2.5d
 			y: 5.5d
+		}
+		{
+			dependencies: ["061A51A0EC13CA0F"]
+			hide_until_deps_complete: true
+			id: "0EF9F10A2178451F"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "7E752D98E60CEB9E"
+				item: {
+					count: 1
+					id: "mysticalagriculture:dye_essence"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "76E296A2AD3EFE92"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivemetalworks:foundry_controllers)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "511ECEA2E9BD1F71"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivemetalworks:foundry_drains)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "51297F6E0D9BB58C"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(productivemetalworks:foundry_tanks)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "3B23E744D3B72AE8"
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(productivemetalworks:fire_bricks)item_tag(productivemetalworks:foundry_windows))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 1.5d
 		}
 	]
 }
