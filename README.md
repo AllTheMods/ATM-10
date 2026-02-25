@@ -37,4 +37,7 @@ When reporting an issue, please follow the templates!
 + [![Maul The Odds](http://cf.way2muchnoise.eu/987792.svg "MTO") Maul The Odds - MTO](https://www.curseforge.com/minecraft/modpacks/maul-the-odds)
 + [![All the Mods 9Sky](http://cf.way2muchnoise.eu/967745.svg "ATM9Sky") All The Mods 9 - To The Sky - ATM9Sky](https://www.curseforge.com/minecraft/modpacks/all-the-mods-9-to-the-sky)
 + [![All the Mods 10](http://cf.way2muchnoise.eu/925200.svg "ATM10") All The Mods 10 - ATM10](https://www.curseforge.com/minecraft/modpacks/all-the-mods-10)
++ [![All the Mods 10Sky](http://cf.way2muchnoise.eu/1298402.svg "ATM10Sky") All The Mods 10 - To The Sky - ATM10Sky](https://www.curseforge.com/minecraft/modpacks/all-the-mods-10-sky)
 + [![All the Magic Arcana](http://cf.way2muchnoise.eu/1190911.svg "ATMA") All The Magic - Arcana - ATMA](https://www.curseforge.com/minecraft/modpacks/all-the-magic-arcana)
++ [![All the Mods 10 Lite](http://cf.way2muchnoise.eu/1298400.svg "ATMA") All The Mods 10 Lite - ATM10L](https://www.curseforge.com/minecraft/modpacks/all-the-mods-10-lite)
+
