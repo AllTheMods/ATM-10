@@ -161,6 +161,49 @@ ServerEvents.recipes(allthemods => {
 		    "results": [{"count":1, "id": "minecraft:copper_ingot" }, {"count":2,"id":"minecraft:stick"}]
 	    }
     )
+	 //Aether gloves salvaging
+    //Leather Gloves
+    allthemods.custom(
+           { "type": "silentgear:salvaging",
+                   "ingredient": {"item":"aether:leather_gloves" },
+		    "results": [{"count":2, "id": "minecraft:leather"}]
+	    }
+    )
+    //Chainmail Gloves
+    allthemods.custom(
+           { "type": "silentgear:salvaging",
+                   "ingredient": {"item":"aether:chainmail_gloves" },
+		    "results": [{"count":4, "id": "minecraft:iron_nugget"}]
+	    }
+    )
+   //Iron Gloves
+   allthemods.custom(
+           { "type": "silentgear:salvaging",
+                   "ingredient": {"item":"aether:iron_gloves" },
+		    "results": [{"count":2, "id": "minecraft:iron_ingot"}]
+	    }
+    )
+   //Gold Gloves
+   allthemods.custom(
+           { "type": "silentgear:salvaging",
+                   "ingredient": {"item":"aether:golden_gloves" },
+		    "results": [{"count":2, "id": "minecraft:gold_ingot"}]
+	    }
+    )
+   //Diamond Gloves
+   allthemods.custom(
+           { "type": "silentgear:salvaging",
+                   "ingredient": {"item":"aether:diamond_gloves" },
+		    "results": [{"count":2, "id": "minecraft:diamond"}]
+	    }
+    )
+   //Netherite Gloves
+   allthemods.custom(
+           { "type": "silentgear:salvaging",
+                   "ingredient": {"item":"aether:netherite_gloves" },
+		    "results": [{"count":2, "id": "minecraft:diamond"}, {"count":1, "id":"minecraft:netherite_ingot"}]
+	    }
+    )
     //	MEKANISM
     //	LAPIS LAZULI TOOLS
     //	PAXEL
