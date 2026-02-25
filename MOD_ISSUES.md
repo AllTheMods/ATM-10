@@ -35,7 +35,7 @@ If you don't know what to do, join our Discord and ask for help.
 [Applied Mekanistics](https://www.curseforge.com/minecraft/mc-mods/applied-mekanistics) -> [Issue Page](https://github.com/AppliedEnergistics/Applied-Mekanistics/issues) [⚡](https://github.com/AppliedEnergistics/Applied-Mekanistics/issues/new/choose)<br>
 [Aquaculture 2](https://www.curseforge.com/minecraft/mc-mods/aquaculture) -> [Issue Page](https://github.com/TeamMetallurgy/Aquaculture/issues) [⚡](https://github.com/TeamMetallurgy/Aquaculture/issues/new/choose)<br>
 [Architectury API](https://www.curseforge.com/minecraft/mc-mods/architectury-api) -> [Issue Page](https://github.com/architectury/architectury/issues) [⚡](https://github.com/architectury/architectury/issues/new/choose)<br>
-[Ars Additions](https://www.curseforge.com/minecraft/mc-mods/ars-additions) -> [Issue Page](https://discord.com/invite/kxUxmhQguE)<br>
+[Ars Additions](https://www.curseforge.com/minecraft/mc-mods/ars-additions) -> [Issue Page](https://github.com/Jarva/Ars-Additions/issues) [⚡](https://github.com/Jarva/Ars-Additions/issues/new/choose)<br>
 [Ars Controle](https://www.curseforge.com/minecraft/mc-mods/ars-controle) -> [Issue Page](https://github.com/Vonr/Ars-Controle/issues) [⚡](https://github.com/Vonr/Ars-Controle/issues/new/choose)<br>
 [Ars Creo](https://www.curseforge.com/minecraft/mc-mods/ars-creo) -> [Issue Page](https://github.com/baileyholl/Ars-Creo/issues)[^1] [⚡](https://github.com/baileyholl/Ars-Creo/issues/new/choose)<br>
 [Ars Elemancy](https://www.curseforge.com/minecraft/mc-mods/ars-elemancy) -> [Issue Page](https://github.com/Lyrellion/Ars-Elemancy/issues)[^1] [⚡](https://github.com/Lyrellion/Ars-Elemancy/issues/new/choose)<br>
@@ -47,7 +47,7 @@ If you don't know what to do, join our Discord and ask for help.
 [Ars Unification](https://www.curseforge.com/minecraft/mc-mods/ars-unification) -> [Issue Page](https://github.com/Vonr/Ars-Unification/issues) [⚡](https://github.com/Vonr/Ars-Unification/issues/new/choose)<br>
 [Ars Énergistique](https://www.curseforge.com/minecraft/mc-mods/ars-energistique) -> [Issue Page](https://github.com/62832/ArsEnergistique/issues) [⚡](https://github.com/62832/ArsEnergistique/issues/new/choose)<br>
 [Artifacts](https://www.curseforge.com/minecraft/mc-mods/artifacts) -> [Issue Page](https://github.com/ochotonida/artifacts/issues) [⚡](https://github.com/ochotonida/artifacts/issues/new/choose)<br>
-[Athena](https://www.curseforge.com/minecraft/mc-mods/athena) -> [Issue Page](https://discord.com/invite/zGmQqM2CTC)<br>
+[Athena](https://www.curseforge.com/minecraft/mc-mods/athena) -> [Issue Page](https://github.com/terrarium-earth/Athena/issues) [⚡](https://github.com/terrarium-earth/Athena/issues/new/choose)<br>
 [Atlas API](https://www.curseforge.com/minecraft/mc-mods/atlas-api) -> [Issue Page](https://github.com/Respace-io/atlas-api/issues)[^1] [⚡](https://github.com/Respace-io/atlas-api/issues/new/choose)<br>
 [ATO - All the Ores](https://www.curseforge.com/minecraft/mc-mods/ato) -> [Issue Page](https://github.com/AllTheMods/AllTheOres/issues) [⚡](https://github.com/AllTheMods/AllTheOres/issues/new/choose)<br>
 [AttributeFix](https://www.curseforge.com/minecraft/mc-mods/attributefix) -> [Issue Page](https://github.com/Darkhax-Minecraft/AttributeFix/issues) [⚡](https://github.com/Darkhax-Minecraft/AttributeFix/issues/new/choose)<br>
@@ -384,8 +384,8 @@ If you don't know what to do, join our Discord and ask for help.
 [Refined Storage - Quartz Arsenal](https://www.curseforge.com/minecraft/mc-mods/refined-storage-quartz-arsenal) -> [Issue Page](https://github.com/refinedmods/refinedstorage-quartz-arsenal/issues)[^1] [⚡](https://github.com/refinedmods/refinedstorage-quartz-arsenal/issues/new/choose)<br>
 [Refined Types](https://www.curseforge.com/minecraft/mc-mods/refined-types) -> [Issue Page](https://github.com/starforcraft/Refined-Types/issues) [⚡](https://github.com/starforcraft/Refined-Types/issues/new/choose)<br>
 [Regions Unexplored (forge/fabric)](https://www.curseforge.com/minecraft/mc-mods/regions-unexplored) -> [Issue Page](https://github.com/UHQ-GAMES-MODS/REGIONS_UNEXPLORED_FORGE/issues) [⚡](https://github.com/UHQ-GAMES-MODS/REGIONS_UNEXPLORED_FORGE/issues/new/choose)<br>
-[Relics](https://www.curseforge.com/minecraft/mc-mods/relics-mod) -> [Issue Page](https://discord.gg/pHren9yxzW)<br>
-[Relics: Artifacts Compat](https://www.curseforge.com/minecraft/mc-mods/rar-compat) -> [Issue Page](https://discord.gg/pHren9yxzW)<br>
+[Relics](https://www.curseforge.com/minecraft/mc-mods/relics-mod) -> [Issue Page](https://github.com/Octo-Studios/relics/issues) [⚡](https://github.com/Octo-Studios/relics/issues/new/choose)<br>
+[Relics: Artifacts Compat](https://www.curseforge.com/minecraft/mc-mods/rar-compat) -> [Issue Page](https://github.com/Octo-Studios/rar-compat/issues) [⚡](https://github.com/Octo-Studios/rar-compat/issues/new/choose)<br>
 [Reliquary Reincarnations](https://www.curseforge.com/minecraft/mc-mods/reliquary-reincarnations) -> [Issue Page](https://github.com/P3pp3rF1y/Reliquary/issues) [⚡](https://github.com/P3pp3rF1y/Reliquary/issues/new/choose)<br>
 [Repeatable Trial Vaults](https://www.curseforge.com/minecraft/mc-mods/repeatable-trial-vaults) -> [Issue Page](https://github.com/Buuz135/Repeatable-Trial-Vaults/issues) [⚡](https://github.com/Buuz135/Repeatable-Trial-Vaults/issues/new/choose)<br>
 [Repurposed Structures (Neoforge/Forge)](https://www.curseforge.com/minecraft/mc-mods/repurposed-structures) -> [Issue Page](https://github.com/TelepathicGrunt/RepurposedStructures/issues) [⚡](https://github.com/TelepathicGrunt/RepurposedStructures/issues/new/choose)<br>
@@ -428,8 +428,8 @@ If you don't know what to do, join our Discord and ask for help.
 [Spice of Life: Carrot Edition](https://www.curseforge.com/minecraft/mc-mods/spice-of-life-carrot-edition) -> [Issue Page](https://github.com/Cazsius/Spice-of-Life-Carrot-Edition/issues) [⚡](https://github.com/Cazsius/Spice-of-Life-Carrot-Edition/issues/new/choose)<br>
 [StarbuncleMania](https://www.curseforge.com/minecraft/mc-mods/starbunclemania) -> [Issue Page](https://github.com/Alexthw46/StarbuncleMania/issues) [⚡](https://github.com/Alexthw46/StarbuncleMania/issues/new/choose)<br>
 [Storage Delight (Forge & Neoforge)](https://www.curseforge.com/minecraft/mc-mods/storage-delight-forge) -> [Issue Page](https://github.com/axperty/storagedelight-forge/issues) [⚡](https://github.com/axperty/storagedelight-forge/issues/new/choose)<br>
-[Structory](https://www.curseforge.com/minecraft/mc-mods/structory) -> [Issue Page](https://discord.gg/jfGMW8rEAa)<br>
-[Structory: Towers](https://www.curseforge.com/minecraft/mc-mods/structory-towers) -> [Issue Page](https://discord.gg/jfGMW8rEAa)<br>
+[Structory](https://www.curseforge.com/minecraft/mc-mods/structory) -> [Issue Page](https://github.com/Stardust-Labs-MC/Structory/issues) [⚡](https://github.com/Stardust-Labs-MC/Structory/issues/new/choose)<br>
+[Structory: Towers](https://www.curseforge.com/minecraft/mc-mods/structory-towers) -> [Issue Page](https://github.com/Stardust-Labs-MC/Structory-Towers/issues) [⚡](https://github.com/Stardust-Labs-MC/Structory-Towers/issues/new/choose)<br>
 [Structurize](https://www.curseforge.com/minecraft/mc-mods/structurize) -> [Issue Page](https://github.com/ldtteam/structurize/issues) [⚡](https://github.com/ldtteam/structurize/issues/new/choose)<br>
 [Stylecolonies](https://www.curseforge.com/minecraft/mc-mods/stylecolonies) -> [Issue Page](https://discord.com/invite/fVfT38e)<br>
 [Super Factory Manager ( SFM )](https://www.curseforge.com/minecraft/mc-mods/super-factory-manager) -> [Issue Page](https://github.com/TeamDman/SuperFactoryManager/issues) [⚡](https://github.com/TeamDman/SuperFactoryManager/issues/new/choose)<br>
