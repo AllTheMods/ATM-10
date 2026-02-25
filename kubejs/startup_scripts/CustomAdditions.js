@@ -13,6 +13,7 @@ StartupEvents.registry('block', allthemods => {
 
     allthemods.create('blaze_powder_block').displayName('Blaze Powder Block').stoneSoundType().mapColor('stone').hardness(1);
     // allthemods.create('blaze_block').displayName('Blaze Block').stoneSoundType().mapColor('stone').hardness(1);
+    allthemods.create('saltpeter_block').displayName('Saltpeter Block').stoneSoundType().mapColor('stone').hardness(1);
 })
 
 StartupEvents.registry('item', allthemods => {
