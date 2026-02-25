@@ -106,6 +106,15 @@
 				"47043AF7D1FABC43"
 				"51538F4DCE24E3E7"
 				"6E17595887A051C2"
+				"01EC5DB1A4A25B0B"
+				"69F7A0DE8D70AC44"
+				"2837E05AD0B67189"
+				"70B6C9409AE69284"
+				"5EE945A1185E8336"
+				"7A514E27E1A7FE32"
+				"219AA017149C36E2"
+				"0790D3BB481162A6"
+				"030DCC13171C3E16"
 			]
 			hide_dependency_lines: true
 			id: "0F8F37D7E12078F5"
@@ -419,7 +428,7 @@
 			]
 			tasks: [{
 				id: "279AB1DAAFD60C52"
-				item: { count: 1, id: "disenchanting_table:disenchanting_table" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(disenchanting_table:disenchanting_table)item(draconicevolution:disenchanter)item(tombstone:book_of_disenchantment)item(actuallyadditions:lens_of_disenchanting)item(apothic_enchanting:scrap_tome)item(apothic_enchanting:improved_scrap_tome)item(apothic_enchanting:extraction_tome)item(minecraft:anvil)item(industrialforegoing:enchantment_extractor)item(evilcraft:purifier)item(evilcraft:blook))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 1.5d
@@ -498,6 +507,113 @@
 			}]
 			x: 0.0d
 			y: 3.5d
+		}
+		{
+			id: "01EC5DB1A4A25B0B"
+			rewards: [
+				{
+					id: "521785B7BFC658D2"
+					item: {
+						components: {
+							"gateways:gateway": "gateways:basic/enderman"
+						}
+						count: 1
+						id: "gateways:gate_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "3C93E099D1A2D2FA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "4410E4942D7C15E9"
+				item: { components: { "ftbfiltersystem:filter": "item(gateways:gate_pearl)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			id: "69F7A0DE8D70AC44"
+			rewards: [
+				{
+					count: 16
+					id: "180FE1902B5E7DE7"
+					item: {
+						count: 1
+						id: "modern_industrialization:coke"
+					}
+					type: "item"
+				}
+				{
+					id: "0CF3F96157750B1C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "1667AB546C55A285"
+				item: { count: 1, id: "modern_industrialization:steam_mining_drill" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				id: "mob_grinding_utils:mob_swab"
+			}
+			id: "2837E05AD0B67189"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D0397294B7C5937"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "1F5114FCB7AD1D34"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [
+				{
+					id: "62D780CE710CC05C"
+					item: { count: 1, id: "mob_grinding_utils:mob_swab" }
+					type: "item"
+				}
+				{
+					id: "605E66D5A025D45C"
+					item: { count: 1, id: "mob_grinding_utils:gm_chicken_feed" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/sprites/toast/movement_keys.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "030DCC13171C3E16"
+			rewards: [{
+				id: "76C648C872A99C5C"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "19E660235EADB8AA"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 3.0d
 		}
 	]
 }

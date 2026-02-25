@@ -28,6 +28,10 @@ ServerEvents.tags('block', allthemods => {
   // Just Dire Things
   allthemods.add('justdirethings:lawnmowerable', '#c:grass')
   allthemods.add('justdirethings:tick_speed_deny', '@industrialforegoingsouls')
+  // Saltpeter Block
+  allthemods.add('c:storage_blocks/niter', 'kubejs:saltpeter_block')
+  allthemods.add('c:storage_blocks/saltpeter', 'kubejs:saltpeter_block')
+  allthemods.add('c:storage_blocks', '#c:storage_blocks/niter')
 })
 
 ServerEvents.tags('fluid', allthemods => {
@@ -113,6 +117,9 @@ ServerEvents.tags('item', allthemods => {
     "modern_industrialization:runic_crucible",
     "modern_industrialization:runic_enchanter"
   ])
+  
+  // Trial Vault Repeatability for Decrepit Keys
+  allthemods.add("repeatable_trial_vaults:can_reset_trial_vaults","irons_spellbooks:decrepit_key")
 })
 
 ServerEvents.tags('entity_type', allthemods => {

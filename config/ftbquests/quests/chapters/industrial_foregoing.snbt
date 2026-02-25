@@ -267,6 +267,16 @@
 			x: 22.5d
 			y: 5.9d
 		}
+		{
+			click: "https://youtu.be/d4XVnLaHgrc?si=u_DIyC_FU7ZrNsgA"
+			height: 1.0d
+			hover: ["BucketSt's Industrial Foregoing Video"]
+			image: "actuallyadditions:item/youtube"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.0d
+			y: -3.0d
+		}
 	]
 	order_index: 3
 	progression_mode: "flexible"
@@ -587,6 +597,7 @@
 				{
 					id: "6F7BCA742E93DB2A"
 					item: { count: 1, id: "industrialforegoing:meat_bucket" }
+					optional_task: true
 					type: "item"
 				}
 			]
@@ -918,11 +929,24 @@
 		{
 			dependencies: ["3514E9C1A8C7400C"]
 			id: "22702838FC507A2E"
-			rewards: [{
-				id: "3BA98A7B936CA54C"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "3054D88BA5043C5E"
+					item: {
+						components: {
+							"industrialforegoing:hydroponic_simulation_processor": { }
+						}
+						count: 1
+						id: "industrialforegoing:hydroponic_simulation_processor"
+					}
+					type: "item"
+				}
+				{
+					id: "3BA98A7B936CA54C"
+					type: "xp"
+					xp: 100
+				}
+			]
 			tasks: [{
 				id: "2A7583C77451F99F"
 				item: { count: 1, id: "industrialforegoing:hydroponic_bed" }
@@ -1626,6 +1650,11 @@
 					item: { components: { "industrialforegoing:infinity_can_charge": 1b, "industrialforegoing:infinity_item_power": 0L, "industrialforegoing:infinity_item_selected_tier": "poor", "industrialforegoing:infinity_item_special": 0b }, count: 1, id: "industrialforegoing:infinity_backpack" }
 					type: "item"
 				}
+				{
+					id: "2A17E564B75F2C7C"
+					item: { components: { "industrialforegoing:infinity_can_charge": 1b, "industrialforegoing:infinity_item_power": 0L, "industrialforegoing:infinity_item_selected_tier": "poor", "industrialforegoing:infinity_item_special": 0b }, count: 1, id: "industrialforegoing:infinity_nuke" }
+					type: "item"
+				}
 			]
 			x: 11.5d
 			y: -3.0d
@@ -1848,6 +1877,210 @@
 			}]
 			x: 8.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["690CFF61CE787D43"]
+			icon: {
+				id: "industrialforegoing:sludge_refiner"
+			}
+			id: "6E131A32A96D7BF5"
+			rewards: [{
+				id: "6A7FDC60BB35267E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4E46DFEA15F79AF1"
+					item: { count: 1, id: "industrialforegoing:sludge_refiner" }
+					type: "item"
+				}
+				{
+					id: "707D3AE9D7B98CF0"
+					item: { count: 1, id: "industrialforegoing:sludge_bucket" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["22702838FC507A2E"]
+			icon: {
+				id: "industrialforegoing:simulated_hydroponic_bed"
+			}
+			id: "2580135392DEF522"
+			rewards: [{
+				id: "4AB87799305FFC83"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "31BE1171159B7FA0"
+					item: { components: { "industrialforegoing:hydroponic_simulation_processor": { } }, count: 1, id: "industrialforegoing:hydroponic_simulation_processor" }
+					type: "item"
+				}
+				{
+					id: "4FF24F0190153DD5"
+					item: { count: 1, id: "industrialforegoing:simulated_hydroponic_bed" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7B4AF35313D7D779"]
+			icon: {
+				id: "industrialforegoingsouls:soul_laser_base"
+			}
+			id: "79D48F8F31B152C3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "69D188940E91B206"
+					table_id: 8352280757313595670L
+					type: "random"
+				}
+				{
+					id: "67C1E597ACC7D6B3"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+					id: "6CB105B7421A5DC5"
+					item: { count: 1, id: "industrialforegoing:blue_laser_lens" }
+					type: "item"
+				}
+				{
+					id: "1F9D857338C9731B"
+					item: { count: 1, id: "industrialforegoingsouls:soul_laser_base" }
+					type: "item"
+				}
+				{
+					id: "3053F8371CE0158E"
+					item: { count: 1, id: "industrialforegoingsouls:soul_network_pipe" }
+					type: "item"
+				}
+				{
+					id: "127F33E4DD658827"
+					item: { count: 1, id: "industrialforegoingsouls:soul_surge" }
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["79D48F8F31B152C3"]
+			id: "3924975B48F5A482"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3FEEC25E09DC8FE5"
+					table_id: 5871764666515020368L
+					type: "random"
+				}
+				{
+					id: "0B5CF9273D336DF7"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [
+				{
+					id: "12A668ED9379E8DC"
+					item: { count: 1, id: "ae2:interface" }
+					type: "item"
+				}
+				{
+					id: "6E4A9D2048668D03"
+					item: { count: 1, id: "ae2:storage_bus" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["79D48F8F31B152C3"]
+			id: "7EA218A489641684"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2CB5D355ADB3AE52"
+					table_id: 8687331957824657773L
+					type: "random"
+				}
+				{
+					id: "226C12B76E3AD163"
+					type: "xp"
+					xp: 250
+				}
+			]
+			tasks: [{
+				id: "7683CF8C750FE6DB"
+				item: { count: 1, id: "refinedtypes:1k_soul_storage_part" }
+				type: "item"
+			}]
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["7CB4D47ABC295B92"]
+			id: "538186D01429F05F"
+			rewards: [{
+				id: "05077CD1671CFFA7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6D00B76B8A141BB8"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(advanced_ae:adv_pattern_provider)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "7FE0E65F41036C78"
+					item: { count: 1, id: "advanced_ae:adv_pattern_encoder" }
+					type: "item"
+				}
+				{
+					id: "7FBDB1383D052B82"
+					item: { components: { "ftbfiltersystem:filter": "or(item(ae2:export_bus)item_tag(ae2:interface))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "4031B8B8FBDDEEE4"
+					item: { components: { "ftbfiltersystem:filter": "mod(transfer_labels)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["55820773BDD5319D"]
+			id: "1F66CDC9799B5DEC"
+			rewards: [{
+				id: "64162638B8DA4CF9"
+				type: "xp"
+				xp: 25
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "5BCE4EFD40BF767D"
+				item: { components: { "ftbfiltersystem:filter": "or(item(supplementaries:wrench)item(enderio:yeta_wrench)item(immersiveengineering:hammer)item(justdirethings:ferricore_wrench)item(pneumaticcraft:pneumatic_wrench))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
 		}
 	]
 }

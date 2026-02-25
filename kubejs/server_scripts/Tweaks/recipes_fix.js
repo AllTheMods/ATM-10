@@ -11,8 +11,8 @@ KubeJSTweaks.beforeRecipes(event => {
     "apotheosis:book",
     "treetap:id_menril",
     "treetap:id_menril_tfc",
-	/^silentgear:woodcutting\//,
-	"silentgear:sapling/netherwood"
+    /^silentgear:woodcutting\//,
+    "silentgear:sapling/netherwood"
   ])
 
   // Fix "item" -> "id"
@@ -28,7 +28,7 @@ KubeJSTweaks.beforeRecipes(event => {
       entry.replaceValueAtKey("tool", "type", "farmersdelight:tool_action", "farmersdelight:item_ability")
 
       entry.fromPath("sound").ifPresent(result => {
-        result.first.add("sound", {sound_id: result.second})
+        result.first.add("sound", { sound_id: result.second })
       })
       if (entry.id() == "farmersdelight:integration/silentgear/cutting/netherwood") {
         let resultArray = entry.json().get("result")
@@ -76,10 +76,10 @@ KubeJSTweaks.beforeRecipes(event => {
       entry.addConditionsFromKey("ingredients")
     })
 
-  event.getEntry(["merrymaking:aged_pine_mantel","merrymaking:exposed_pine_mantel","merrymaking:pine_mantel","merrymaking:weathered_pine_mantel"])
+  event.getEntry(["merrymaking:aged_pine_mantel", "merrymaking:exposed_pine_mantel", "merrymaking:pine_mantel", "merrymaking:weathered_pine_mantel"])
     .forEach(entry => {
       entry.addConditionsFromKey("key")
-    })	
+    })
 
 
   // Fix a typo, they missed a `s`
@@ -90,14 +90,14 @@ KubeJSTweaks.beforeRecipes(event => {
     "mekanism:compat/biomeswevegone/crushing/dacite/conversion_dacite_tile"
   ]).forEach(entry => {
     entry.replaceValueAtKey("input", "item", "biomeswevegone:dacite_tile", "biomeswevegone:dacite_tiles")
-	entry.replaceValueAtKey("output", "id", "biomeswevegone:dacite_tile", "biomeswevegone:dacite_tiles")
+    entry.replaceValueAtKey("output", "id", "biomeswevegone:dacite_tile", "biomeswevegone:dacite_tiles")
   })
 
   // Another typo, a wild `'` at the name of the item
   event.getEntry("mekmm:compat/ars_nouveau/planting/magebloom").forEach(entry => {
     entry.fromPath("secondary_output.id").ifPresent(result => {
-		result.first.add("id", result.second.getAsString().replace("'",""))
-	})
+      result.first.add("id", result.second.getAsString().replace("'", ""))
+    })
   })
 
   // RIP Jonn, forgot `s`
@@ -108,12 +108,12 @@ KubeJSTweaks.beforeRecipes(event => {
 
   // RIP Jonn2, forgot another `s`
   event.getEntry("productivetrees:crates/coffee_bean_crate").forEach(entry => {
-	entry.replaceValueAtKey("key", "tag", "c:coffee_bean", "c:coffee_beans")
+    entry.replaceValueAtKey("key", "tag", "c:coffee_bean", "c:coffee_beans")
   })
 
   // RIP Jonn2, looks like it was changed to `_blocks` now
   event.getEntry("productivetrees:time_traveller_display").forEach(entry => {
-	entry.replaceValueAtKey("key", "tag", "c:glass/colorless", "c:glass_blocks/colorless")
+    entry.replaceValueAtKey("key", "tag", "c:glass/colorless", "c:glass_blocks/colorless")
   })
 
   // Ignore warnings because silent gear ingredients
@@ -153,7 +153,7 @@ KubeJSTweaks.beforeRecipes(event => {
     .forEach(entry => {
       entry.fromPath("template", "[]").ifPresent(result => entry.ignoreWarning())
     })
-  
+
   // Adds mod condition check
   event.getEntry("productivebees:elementalcraft/pureinfusion/pure_crystal_bee")
     .forEach(entry => entry.addModConditionFromType())
@@ -180,10 +180,37 @@ KubeJSTweaks.beforeRecipes(event => {
 
   event.getEntry("mekmm:compat/mysticalagradditions/planting/awakened_draconium")
     .forEach(entry => {
-	    entry.fixItemAtKey("main_output")
-	    let ci = entry.json().get("chemical_input")
-      ci.add("chemical", ci.remove("gas"))
-	  })
+      entry.fixItemAtKey("main_output")
+      let ci = entry.json().get("chemical_input")
+      if (ci.has("gas")) {
+        ci.add("chemical", ci.remove("gas"))
+      }
+    })
+
+  event.getEntry("botanypots:allthemodium/crop/ancient_soulberries")
+    .forEach(entry => {
+      entry.addConditionsFromKey("input")
+    })
+
+  event.getEntry("bellsandwhistles:metro/metro_window").forEach(entry => {
+    entry.replaceValueAtKey("ingredients", "tag", "c:glass", "c:glass_blocks/colorless")
+  })
+
+  event.getEntry(/^regions_unexplored:.*_snowbelle$/)
+    .forEach(entry => {
+      let ings = entry.json().get("ingredients")
+      if (ings != null) {
+        for (let ing of ings) {
+          let tag = ing.get("tag")
+          if (tag != null) {
+            if (tag.getAsString().endsWith("_dyes")) {
+              let color = tag.getAsString().replace("c:","").replace("_dyes","")
+              ing["addProperty(java.lang.String,java.lang.String)"]("tag", "c:dyes/" + color)
+            }
+          }
+        }
+      }
+    })
 
   console.log(`Fixing recipes took ${timer.stop().elapsed("milliseconds")} ms...`)
 })
