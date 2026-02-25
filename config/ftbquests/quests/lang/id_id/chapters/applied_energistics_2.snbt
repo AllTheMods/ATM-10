@@ -1,0 +1,285 @@
+{
+	quest.00611844AFD5C31E.quest_desc: ["Meskipun Inscriber dan Charger menerima daya RF/FE secara bawaan, sebagian besar jaringan ME menggunakan sistem dayanya sendiri yang disebut AE.\\n\\nRF/FE dapat diubah menjadi AE dengan rasio 2:1 (RF:AE), baik langsung melalui ME Controller, atau melalui &bEnergy Acceptor&f, yang bisa dihubungkan ke bagian mana pun dari jaringan."]
+	quest.00611844AFD5C31E.quest_subtitle: "Hubungkan Daya"
+	quest.01F3F0C25BA72BDA.quest_desc: [
+		"Selain penyimpanan item dan cairan, AE2 juga menyediakan cara untuk menyimpan seluruh &estruktur&f di dalam storage cell, mirip dengan mod Compact Machines. "
+		""
+		"&bSpatial IO Port&f memungkinkan struktur yang berada di dalam &bSpatial Containment Structure&f ditangkap ke dalam storage cell khusus yang dirancang khusus, diaktifkan melalui sinyal redstone. "
+		""
+		"Jika ada mob atau pemain yang berdiri di dalam SCS saat ruang tersebut ditangkap, mereka juga akan ikut berpindah ke tempat ruang tersebut disimpan, yaitu di dimensi khusus. Pastikan kamu punya jalan keluar jika kamu sendiri yang tertangkap."
+	]
+	quest.01F3F0C25BA72BDA.title: "Spatial IO"
+	quest.037488EF1F3581CE.quest_desc: ["Secara standar, jaringan ME tanpa ME Controller hanya memiliki buffer internal sebesar 800AE, sedangkan controller menambah 8kAE per blok. Untuk jaringan besar, ini mungkin tidak cukup dan bisa menyebabkan jaringan mati mendadak saat mencoba mengisi daya semua perangkat.\\n\\n&bEnergy Cell&f memungkinkan jaringan ME menampung lebih banyak energi, menambah 200kAE per Energy Cell biasa dan 1.6MAE per &bDense&f Energy Cell. Ini bisa diletakkan di mana saja dalam jaringan."]
+	quest.03E6FA4DCB71162E.quest_desc: ["&bColor Applicator&f adalah alat bertenaga baterai yang memungkinkan pewarnaan kabel langsung di dunia. Alat ini berfungsi sebagai &estorage cell&f khusus yang diisi dengan pewarna vanilla atau &epaint ball&f, serta &esnowball&f untuk membersihkan warna dan mengembalikan kabel ke varian Fluix.\\n\\nMewarnai satu bagian kabel membutuhkan 100AE, dengan total 3400 segmen kabel dalam satu kali pengisian daya."]
+	quest.03E6FA4DCB71162E.title: "Color Applicator"
+	quest.083D458032F0325C.quest_desc: ["&bME Export Bus&f secara berkala mengeluarkan item yang ada di filter whitelist-nya ke penyimpanan eksternal yang dihadapinya. Berbeda dengan Import Bus, Export Bus tidak bisa bekerja tanpa adanya filter."]
+	quest.083D458032F0325C.quest_subtitle: "Output (Keluar)"
+	quest.0B218DD73FE8D985.quest_desc: ["Jika kamu menyelesaikan quest sebelumnya dengan benar, kamu seharusnya sudah mengubah singularity tersebut menjadi sepasang &bQuantum Entangled Singularities&f. Singularity baru ini digunakan untuk menghubungkan perangkat berbentuk cincin yang dikenal sebagai &eQuantum Network Bridge&f.\\n\\nSaat dua cincin ini telah dihubungkan menggunakan Quantum Entangled Singularities dan dipancing dengan daya AE (misal: energy cell), jaringan ME dapat diperluas secara nirkabel (wireless) ke sisi lain jembatan, baik dalam jarak jauh maupun lintas dimensi."]
+	quest.0B218DD73FE8D985.title: "Quantum Network Bridge"
+	quest.0E809747193ED3A9.quest_desc: ["Tingkat MEGA ketiga dari komponen penyimpanan, menyediakan &e16.777.216&f (16384k) byte penyimpanan."]
+	quest.0E809747193ED3A9.quest_subtitle: "x4^2"
+	quest.0E809747193ED3A9.title: "Komponen Penyimpanan 16M"
+	quest.0F03E75CF79BADD7.quest_desc: ["&fMEGA Cells&f menawarkan &bBulk Item Storage Cell&f, yang dibatasi hanya untuk &osatu&r jenis item per cell tetapi dapat menyimpan jumlah yang secara praktis &o&lTAK TERHINGGA&r* dari jenis item tersebut. Sebelum bisa menerima item, cell ini harus difilter terlebih dahulu menggunakan Cell Workbench.\\n\\n*&oSecara teknis batas maksimal variabel 'long'.&r"]
+	quest.0F03E75CF79BADD7.quest_subtitle: "Penyimpanan Masal"
+	quest.0F03E75CF79BADD7.title: "Bulk Item Storage"
+	quest.1348995F64A94396.quest_desc: ["&bCrafting Monitor&f menampilkan item yang sedang dibuat, beserta jumlah sisa dari item tersebut yang masih dalam proses.\\n\\nBaik monitor AE2 dasar maupun monitor MEGA berfungsi identik, hanya disediakan untuk tujuan estetika."]
+	quest.1348995F64A94396.quest_subtitle: "Pantau Progres"
+	quest.1348995F64A94396.title: "Crafting Monitor"
+	quest.140DE53DC0FCD9F4.quest_desc: [
+		"&bME Annihilation Plane&f dapat digunakan untuk menghancurkan blok di depannya secara otomatis dan memasukkan hasil jatuhan blok tersebut langsung ke jaringan ME. "
+		""
+		"Sebagai bonus, Annihilation Plane dapat diberi enchant seperti alat gali biasa, memberikan efek yang sama pada hasil jatuhan blok. Ini sangat ideal untuk memproses bijih (ore) jika diberi enchant Fortune. "
+		"Setiap enchant yang ditambahkan akan meningkatkan konsumsi energi secara signifikan. Memberi enchant &eEfficiency&f akan mengurangi penggunaan energi secara keseluruhan, sementara &eUnbreaking&f memberikan peluang bagi plane untuk tidak mengonsumsi energi saat bekerja."
+	]
+	quest.140DE53DC0FCD9F4.quest_subtitle: "Sedot Masuk"
+	quest.140DE53DC0FCD9F4.title: "ME Annihilation Plane"
+	quest.15564C11744D6AA0.quest_desc: ["Setelah kamu mendapatkan set lengkap &eInscriber Press&r yang dibutuhkan, saatnya mulai membuat &eProcessor&f. Ini adalah bahan crafting penting yang digunakan untuk membuat sebagian besar perangkat yang terhubung ke ME."]
+	quest.15564C11744D6AA0.title: "Processor"
+	quest.16299B9AE87257DC.quest_desc: ["&bWireless Terminal&f berfungsi identik dengan terminal biasa, tetapi secara nirkabel.\\n\\nSebelum bisa digunakan untuk mengakses jaringan, terminal ini harus &edihubungkan&f (link) terlebih dahulu dengan menaruhnya di slot kanan atas pada &eWireless Access Point&r. Jika tidak terhubung, atau berada di luar jangkauan atau kehabisan daya, terminal tidak akan berfungsi.\\n\\nWireless terminal juga dapat di-upgrade dengan &eEnergy Card&f untuk memberikan kapasitas baterai yang lebih besar."]
+	quest.16299B9AE87257DC.quest_subtitle: "Inilah yang kamu cari"
+	quest.16299B9AE87257DC.title: "Wireless Terminal"
+	quest.1710B3D05215A71E.quest_desc: [
+		"&bP2P&f (peer-to-peer) adalah sistem yang sangat kuat dalam AE2, memungkinkan transfer item, cairan, dan bahkan lebih banyak lagi tanpa perlu penyimpanan perantara ME. "
+		""
+		"Klik kanan pada P2P tunnel dengan item tertentu akan &emelaraskan&f (attune) tunnel tersebut agar mampu mentransfer sesuatu yang lain, seperti item melalui pipa, energi melalui kabel, sinyal redstone, dan bahkan koneksi ME itu sendiri. "
+		""
+		"P2P tunnel harus dihubungkan satu sama lain menggunakan &eMemory Card&f, yang dijelaskan di quest berikutnya."
+	]
+	quest.1710B3D05215A71E.quest_subtitle: "Tanpa Perantara"
+	quest.1710B3D05215A71E.title: "P2P Tunnel"
+	quest.18DFB25DC48D8BF7.quest_desc: [
+		"Spatial Containment Structure (SCS) terdiri dari sangkar &bSpatial Pylon&f yang menutupi volume yang ingin kamu masukkan ke dalam Spatial IO cell. Minimal, sebuah SCS membutuhkan tiga baris blok pylon, satu untuk setiap dimensi ruang (panjang, lebar, tinggi). "
+		""
+		"Namun, Spatial IO sangat boros energi, terutama saat menangkap ruang yang besar (hingga 128x128x128). Memiliki lebih banyak pylon di sekitar volume yang diinginkan akan meningkatkan &eefisiensi&f secara keseluruhan, sehingga menggunakan lebih sedikit energi untuk menangkap. "
+		""
+		"Juga, ingatlah bahwa setiap pylon (terlepas dari panjangnya) memakan satu channel. Untuk ruang yang sangat besar, kamu mungkin ingin membangun jaringan khusus dengan controller sendiri."
+	]
+	quest.18DFB25DC48D8BF7.title: "Spatial Pylon"
+	quest.1AAF0B31B47AF23D.quest_desc: ["Perangkat ME individu juga dapat dikonfigurasi untuk merespons sinyal redstone. Saat ditingkatkan dengan &bRedstone Card&f, perangkat dapat diatur untuk bekerja hanya saat diberi daya redstone atau sebaliknya.\\n\\nPerilaku ini juga bisa diterapkan pada seluruh &obagian&r jaringan ME menggunakan &bME Toggle Bus&f. Ini memungkinkan bagian jaringan di sisi lain bus online hanya saat bus diberi daya redstone, atau offline jika menggunakan &einverted&f toggle bus."]
+	quest.1AAF0B31B47AF23D.title: "ME Terkendali Redstone"
+	quest.1B686954D34A0F23.quest_desc: ["&bQuartz Wrench&f berfungsi seperti kunci inggris pada mod teknologi lainnya. Ia memutar blok dan perangkat di sisi yang kamu klik kanan, serta membongkarnya jika diklik kanan sambil berjongkok (sneak).\\n\\nWrench ini tersedia dalam varian Certus Quartz dan Nether Quartz."]
+	quest.1B686954D34A0F23.quest_subtitle: "Sesuai Fungsinya"
+	quest.1B686954D34A0F23.title: "Quartz Wrench"
+	quest.1F7DFA5AA65F2812.quest_desc: ["&bAcceleration Card&f, tergantung pada perangkat yang ditingkatkan, akan meningkatkan kecepatan operasi perangkat atau memungkinkan perangkat melakukan lebih banyak operasi sekaligus.\\n\\nDalam kasus &eMolecular Assembler&f, set lengkap isi 5 kartu akan mengurangi waktu pembuatan dari satu detik menjadi hanya satu &otick&r."]
+	quest.1F7DFA5AA65F2812.title: "Acceleration Card"
+	quest.2077D64428E9C067.quest_desc: [
+		"Konsep penting dalam AE2 adalah teknik yang dikenal sebagai '&esubnetting&f', di mana jaringan ME tambahan yang terpisah (sebuah &esubnetwork&f) bekerja bersama jaringan utama untuk melakukan fungsi khusus. "
+		""
+		"Yang membedakan subnetwork dari jaringan terpisah sepenuhnya adalah penggunaan &bQuartz Fiber&f. Saat diletakkan di antara dua kabel yang tidak terhubung, Quartz Fiber tidak mentransfer data atau channel sama sekali, melainkan hanya menyalurkan daya listrik. "
+		""
+		"Dengan demikian, subnetwork di sisi lain Fiber dapat ditenagai sepenuhnya oleh sumber daya jaringan utama tanpa memerlukan pembangkit listrik tambahan."
+	]
+	quest.2077D64428E9C067.quest_subtitle: "Bukan Cuma Buat Crafting Kabel"
+	quest.2077D64428E9C067.title: "Tentang Subnetwork"
+	quest.219932CB19258C16.quest_desc: ["Tingkat ketiga dari komponen penyimpanan, menyediakan &e16.384&f byte penyimpanan."]
+	quest.219932CB19258C16.quest_subtitle: "x4^2"
+	quest.219932CB19258C16.title: "Komponen Penyimpanan 16k"
+	quest.22C4318523A43B49.quest_desc: ["&eTerminal&f memberikan akses ke semua konten dalam jaringan ME. &eME Terminal&f standar mencantumkan semua yang ada di jaringan sebagai satu kotak besar untuk diambil atau dimasukkan, seperti inventaris tunggal.\\n\\n&eME Crafting Terminal&f adalah ekstensi dari ME Terminal yang juga menyediakan kotak crafting bawaan, memungkinkan pembuatan barang dengan nyaman menggunakan item apa pun yang ada di jaringan."]
+	quest.22C4318523A43B49.quest_subtitle: "Pusat Kontrol Inventaris"
+	quest.22C4318523A43B49.title: "Terminal"
+	quest.234DC1702333EB18.quest_desc: ["Add-on &dAEInfinityBooster&f menyediakan dua booster nirkabel khusus yang memungkinkan jangkauan koneksi tak terbatas, dengan dukungan lintas dimensi opsional."]
+	quest.234DC1702333EB18.quest_subtitle: "Menuju Tak Terbatas"
+	quest.234DC1702333EB18.title: "Infinity Booster"
+	quest.25DBA00422301EDC.quest_desc: ["Tingkat MEGA kedua dari komponen penyimpanan, menyediakan &e4.194.304&f (4096k) byte penyimpanan."]
+	quest.25DBA00422301EDC.quest_subtitle: "x4"
+	quest.25DBA00422301EDC.title: "Komponen Penyimpanan 4M"
+	quest.2893F483C10293E6.quest_desc: [
+		"&lSelamat datang di &bApplied Energistics 2&f!\\n\\nApplied Energistics 2 (atau singkatnya &oAE2&r) adalah mod &bpenyimpanan digital&f yang sangat serbaguna, memungkinkan penyimpanan yang sangat efisien dan segala macam kemampuan otomatisasi untuk memperhebat pengalaman Minecraft modded kamu.\\n\\nUntuk informasi lebih lanjut, kunjungi wiki mereka di"
+		"&o&bappliedenergistics.github.io&f&r."
+	]
+	quest.2893F483C10293E6.quest_subtitle: "Sistem Penyimpanan Virtual"
+	quest.2893F483C10293E6.title: "Applied Energistics 2"
+	quest.2897FA291E5A38D8.quest_desc: ["&bSpatial Anchor&f adalah perangkat pendamping dari lini Spatial IO yang berfungsi sebagai pemuat chunk (chunk loader). Saat terhubung ke jaringan ME, Anchor akan memaksa pemuatan semua chunk yang ditempati oleh jaringan ME di seluruh kabel dan perangkat, tidak termasuk subnetwork, selama jaringan tetap bertenaga."]
+	quest.2897FA291E5A38D8.title: "Spatial Anchor"
+	quest.2B31E6C1707D8195.quest_desc: ["Langkah selanjutnya untuk memungkinkan akses jaringan nirkabel adalah &bME Wireless Access Point&f. Access Point ini digunakan untuk membuka jaringan agar bisa diakses secara nirkabel melalui &ewireless terminal&f, dan memiliki jangkauan terbatas tergantung pada berapa banyak &bWireless Booster&f yang dimasukkan."]
+	quest.2B31E6C1707D8195.title: "Wireless Access Point"
+	quest.2C04B3BA507D5673.quest_desc: ["&bPattern&f adalah tempat menyimpan resep yang telah dikodekan untuk dikerjakan oleh Pattern Provider. Untuk memasukkan resep ke dalam Pattern, &bME Pattern Encoding Terminal&f harus digunakan.\\n\\nPattern dapat diatur untuk menyimpan resep &ecrafting&f biasa (membutuhkan &eMolecular Assembler&f), atau resep '&eprocessing&f' yang lebih umum di mana item input dikirim ke mesin lain untuk diproses."]
+	quest.2C04B3BA507D5673.title: "Pattern"
+	quest.2F16B6A173525277.quest_desc: [
+		"Bagian terakhir dari teka-teki jaringan ME besar adalah &bME Controller&f. "
+		""
+		"Sebuah controller menyediakan jumlah channel yang jauh lebih besar daripada standar 8 channel pada jaringan ad-hoc, memberikan 32 channel dari setiap sisi blok dengan total 216 channel. "
+		""
+		"Namun, itu baru untuk controller satu blok, karena ME Controller sebenarnya adalah struktur multi-blok. Controller dapat berukuran hingga 7x7x7 blok. Setiap blok individu dapat menyediakan set channel-nya sendiri, selama tidak ada blok controller tunggal yang dikelilingi oleh 4 blok lainnya pada bidang yang sama. "
+		""
+		"Sebuah Jaringan ME hanya boleh memiliki satu multiblock controller dalam satu waktu. Mencoba menghubungkan lebih dari satu controller akan menyebabkan konflik dan mematikan seluruh jaringan."
+	]
+	quest.2F16B6A173525277.title: "ME Controller"
+	quest.2F556E7919582D2D.quest_desc: ["&bCell Workbench&f memungkinkan cell untuk 'disekat' (partitioned) agar hanya menampung item tertentu, yaitu memberinya filter whitelist. Ini juga memungkinkan cell ditingkatkan dengan kartu tertentu seperti Inverter Card, yang mengubah whitelist menjadi blacklist.\\n\\nCell juga bisa diberi 'prioritas' lebih tinggi atau rendah, sehingga cell tersebut menjadi yang pertama menerima item tertentu sampai penuh, atau menunggu cell prioritas tinggi lainnya terisi terlebih dahulu."]
+	quest.2F556E7919582D2D.title: "Cell Workbench"
+	quest.2FB231069D2E4E77.quest_desc: ["Setiap cell individu memiliki kapasitas tertentu yang ditentukan oleh &ekomponen&f yang digunakan saat pembuatannya.\\n\\nKomponen pertama adalah &bKomponen Penyimpanan ME 1k&f, yang menyediakan &e1024&f 'byte' penyimpanan untuk satu cell. Penjelasan lebih lanjut akan menyusul."]
+	quest.2FB231069D2E4E77.quest_subtitle: "Kilobyte Pertama"
+	quest.2FB231069D2E4E77.title: "Membuat Storage Cell Pertama"
+	quest.30E853CE699E669B.quest_desc: ["Sebelum kamu bisa menjalankan tugas otomatisasi crafting, kamu butuh perangkat untuk menyimpan permintaan itu sendiri beserta item perantara untuk proses yang panjang. Perangkat ini dikenal sebagai &ecrafting CPU&f.\\n\\nCrafting CPU adalah struktur multiblock yang membutuhkan setidaknya satu blok &bCrafting Storage&f. Multiblock ini bisa dibuat dalam berbagai ukuran, tetapi harus berbentuk balok solid agar berfungsi."]
+	quest.30E853CE699E669B.quest_subtitle: "Instal RAM Jaringan"
+	quest.30E853CE699E669B.title: "Crafting CPU"
+	quest.3195A7AA874163CD.quest_desc: ["&bEqual Distribution Card&f adalah upgrade untuk storage cell yang mengalokasikan jumlah item tertentu yang bisa diambil oleh setiap jenis item.\\n\\nPerilaku ini sebanding dengan laci Functional Storage, di mana setiap kompartemen menampung jumlah stack yang ditentukan sehingga item dari satu kompartemen tidak memenuhi kompartemen lainnya."]
+	quest.3195A7AA874163CD.quest_subtitle: "Manajemen Kapasitas Cell"
+	quest.3195A7AA874163CD.title: "Equal Distribution Card"
+	quest.33ADE41526C39AFD.quest_desc: ["Item ini memiliki fungsi yang sama dengan laci Functional Storage, membantu dalam mengelola bagaimana item didistribusikan dalam penyimpanan digital."]
+	quest.33ADE41526C39AFD.title: "Penyimpanan Terdistribusi"
+	quest.361CCBD353D6FF34.quest_desc: [
+		"Dengan Komponen Penyimpanan 1k, kamu sekarang bisa membuat 1k ME Item Storage Cell. Kamu mungkin ingin sebagian besar penyimpananmu berupa item, jadi buatlah beberapa &bME Item Storage Cell&f. "
+		""
+		"ME Item Storage Cell masing-masing dapat menampung hingga 63 jenis item berbeda. Setiap jenis item baru akan memakan sebagian kapasitas cell dalam hitungan byte. Untuk setiap jenis yang sudah ada, 1 'byte' setara dengan 8 item dari jenis tersebut. "
+		""
+		"Sebagai contoh, 1k Item Storage Cell yang hanya berisi cobblestone dapat menampung hingga 8128 cobblestone (8*1024b - 8b/tipe * 1 tipe). "
+		""
+		"Jika cell kosong, kamu bisa membongkarnya kembali menjadi komponen dan housing-nya dengan cara berjongkok (sneak) dan klik kanan di udara saat memegang cell tersebut."
+	]
+	quest.361CCBD353D6FF34.title: "Penyimpanan Item"
+	quest.371A382CF1DDF2B2.quest_desc: ["&bCapacity Card&f memungkinkan bus yang ditingkatkan untuk menampung filter yang lebih besar. Import dan Export bus yang ditingkatkan dengan kartu ini bisa mendukung hingga sembilan slot filter, sementara Storage bus akan meningkat dari 18 slot menjadi maksimal 63."]
+	quest.371A382CF1DDF2B2.title: "Capacity Card"
+	quest.3B42CCC19D23EC6D.quest_desc: ["Tingkat kedua dari komponen penyimpanan, menyediakan &e4.096&f byte penyimpanan."]
+	quest.3B42CCC19D23EC6D.quest_subtitle: "x4"
+	quest.3B42CCC19D23EC6D.title: "Komponen Penyimpanan 4k"
+	quest.3CE3D9245F8EC005.quest_desc: ["Tingkat MEGA keempat dari komponen penyimpanan, menyediakan &e67.108.864&f (65536k) byte penyimpanan."]
+	quest.3CE3D9245F8EC005.quest_subtitle: "x4^3"
+	quest.3CE3D9245F8EC005.title: "Komponen Penyimpanan 64M"
+	quest.3DDB0DDA7571B2C1.quest_desc: ["&bME Level Emitter&f, saat dikonfigurasi dengan item dan jumlah tertentu, akan memancarkan sinyal redstone tergantung pada apakah item di jaringan kurang dari, lebih dari, atau sama dengan jumlah yang ditentukan.\\n\\nIni bisa digunakan, misalnya, untuk menyalakan mesin otomatis saat sumber daya tertentu mulai menipis."]
+	quest.3DDB0DDA7571B2C1.title: "ME Level Emitter"
+	quest.3E3DF8E967D95DB0.quest_desc: ["Saat menggunakan komponen penyimpanan 64k atau lebih tinggi, Matter Condenser mampu memadatkan lebih banyak barang untuk menghasilkan &bSingularity&f. Satu singularity membutuhkan 256.000 item untuk dimusnahkan. Itu tepat &o4000 stack&r!\\n\\nLihat apa yang terjadi jika kamu melempar singularity ini ke tanah bersama &eEnder Dust&f. Kamu perlu memberikan sedikit ledakan di sekitarnya, untungnya AE2 menawarkan &bTiny TNT&f untuk meminimalkan kerusakan."]
+	quest.3E3DF8E967D95DB0.quest_subtitle: "Materi Sangat Padat"
+	quest.3E3DF8E967D95DB0.title: "Hyper-Condensed Matter"
+	quest.4597D3B3BDC2BED5.quest_desc: ["&bMolecular Assembler&f adalah meja crafting otomatis versi AE2, yang dibutuhkan untuk menjalankan tugas pola &ecrafting&f apa pun.\\n\\nMolecular Assembler mampu mentransfer daya dan channel ke perangkat ME lain yang terhubung, tetapi ia sendiri tidak memakan channel. Hingga 6 MA dapat dihubungkan ke satu Pattern Provider (jika digunakan) untuk memungkinkan lebih banyak proses pembuatan dilakukan secara paralel.\\n\\nMA juga masing-masing memiliki slot khusus untuk satu pola crafting, memungkinkannya berfungsi sendiri jika diberi daya. Jika dioperasikan dengan cara ini, item apa pun yang cocok yang dimasukkan ke dalam MA akan secara otomatis dibuat menjadi hasil dari pola tersebut."]
+	quest.4597D3B3BDC2BED5.title: "Molecular Assembler"
+	quest.460A8F17F3ED6CAF.quest_desc: ["Ada titik di mana tingkat penyimpanan standar tidak lagi cukup untuk menampung sumber daya yang kamu kumpulkan.\\n\\nDi sinilah add-on &dMEGA Cells&f berperan, memperluas tingkat penyimpanan ke wilayah megabyte. Tingkat pertama dari komponen ini adalah &bKomponen Penyimpanan MEGA 1M&f, menyediakan 1024 &okilo&rbyte, atau &e1.048.576&f byte penyimpanan."]
+	quest.460A8F17F3ED6CAF.quest_subtitle: "Megabyte Pertama"
+	quest.460A8F17F3ED6CAF.title: "Komponen Penyimpanan 1M"
+	quest.4B76FE0348DB0E45.quest_desc: ["Quantum Bridge Card adalah metode alternatif untuk mendapatkan akses nirkabel lintas dimensi ke sistem AE2 kamu. Kamu butuh Quantum Bridge di markasmu dan kartu ini di terminalmu. Keduanya diikat menggunakan Quantum Entangled Singularity agar bisa diakses di mana pun."]
+	quest.4B76FE0348DB0E45.title: "Quantum Bridge Card"
+	quest.4BF0BB763BFFACF0.quest_desc: [
+		"Sumber daya paling penting yang kamu butuhkan selanjutnya adalah &eFluix&f, yang digunakan di hampir semua perangkat AE2 dan menjadi dasar pembuatan kabel ME. "
+		""
+		"Kamu bisa memproduksinya secara masal dengan membuat &bFluix Crystal&r; lemparkan &eNether Quartz&f, &e&oCharged&r&e Certus Quartz&r, dan &eRedstone&f secara bersamaan ke dalam air. Ini akan memberimu &eFluix Crystal&r yang bisa diubah menjadi dust di Inscriber."
+	]
+	quest.4BF0BB763BFFACF0.title: "Fluix"
+	quest.4E8A05C3BFA80540.quest_desc: ["Aspek terpenting dari AE2 adalah sistem penyimpanannya yang menggunakan &eStorage Cell&f digital. Cell ini dapat diakses melalui &eME Chest&r (untuk cell tunggal) atau &eME Drive&r (untuk banyak cell).\\n\\n&bME Chest&f menampung satu Cell, yang bisa dibaca dan ditulis dari terminal lain di jaringan yang sama. ME Chest itu sendiri juga menyediakan layar terminal di bagian atasnya.\\n\\n&bME Drive&f dapat menampung hingga 10 Storage Cell dalam satu blok dan hanya memakan satu channel ME. Namun, ia tidak menyediakan layar terminal sendiri, sehingga memerlukan terminal eksternal di tempat lain."]
+	quest.4E8A05C3BFA80540.quest_subtitle: "Item Sebagai Sistem File"
+	quest.4E8A05C3BFA80540.title: "Penyimpanan ME"
+	quest.5034A9137E0F3D3D.quest_desc: ["Quest ini ditulis oleh &6Staf AllTheMods&r, atau &2Kontributor Komunitas&r untuk digunakan dalam Modpack AllTheMods. \\n\\nKarena semua pack &6AllTheMods&r dilisensikan di bawah &eAll Rights Reserved&r, quest ini tidak diperbolehkan untuk digunakan dalam pack publik mana pun yang tidak dirilis oleh &6Tim AllTheMods&r tanpa izin eksplisit."]
+	quest.51236544BFEF487B.quest_desc: ["Saatnya mencari &eMeteorit&f yang mengandung &bSky Stone&f. Meteorit ini bisa berada di permukaan atau di bawah tanah, dan memiliki &bMysterious Cube&f di tengahnya.\\n\\nKubus ini berisi berbagai &ePress&r yang digunakan di Inscriber untuk membuat komponen crafting spesial AE2.\\n\\nCara termudah menemukannya adalah dengan membuat &eMeteorite Compass&r dengan menaruh kompas di dalam Charger."]
+	quest.51236544BFEF487B.quest_subtitle: "Berburu Meteorit"
+	quest.51236544BFEF487B.title: "Meteorite Hunting"
+	quest.51A57E142C686C8F.quest_desc: ["Tingkat MEGA kelima dan terakhir dari komponen penyimpanan, menyediakan &e268.435.456&f (262144k) byte penyimpanan."]
+	quest.51A57E142C686C8F.quest_subtitle: "x4^4"
+	quest.51A57E142C686C8F.title: "Komponen Penyimpanan 256M"
+	quest.51DE3157DE3E57B8.quest_desc: [
+		"Penyimpanan memang bagus, tapi apa gunanya jika sistem penuh dengan bahan mentah yang masih harus diproses secara manual?"
+		""
+		"Otomatisasi crafting AE2 dimulai dengan &bME Pattern Provider&f. Alat ini menampung item yang disebut &bPattern&r yang diprogram untuk menyimpan resep. Hingga 9 pattern dapat dimasukkan ke dalam satu provider."
+		""
+		"Kamu akan sering menggunakan banyak Pattern Provider di markasmu, itulah sebabnya &bPattern Access Terminal&f sangat berguna untuk mengakses semua konten provider di jaringan ME kamu dari jarak jauh."
+	]
+	quest.51DE3157DE3E57B8.quest_subtitle: "Sesuai Pesanan"
+	quest.51DE3157DE3E57B8.title: "Otomatisasi Crafting"
+	quest.5233A447BAA4593C.quest_desc: ["&bME Smart Cable&f dan &bDense Smart Cable&f berfungsi sama dengan kabel covered dalam hal distribusi channel, tetapi juga menampilkan jumlah channel yang sedang digunakan berupa garis-garis berwarna pada kabel tersebut."]
+	quest.5233A447BAA4593C.quest_subtitle: "Kabel Pintar"
+	quest.5233A447BAA4593C.title: "Kabel Canggih"
+	quest.523853C1C4E688BA.quest_desc: ["Tingkat keempat dari komponen penyimpanan, menyediakan &e65.536&f byte penyimpanan."]
+	quest.523853C1C4E688BA.quest_subtitle: "x4^3"
+	quest.523853C1C4E688BA.title: "Komponen Penyimpanan 64k"
+	quest.525F25F4ADE45B50.quest_desc: [
+		"&bME Formation Plane&f bertindak mirip dengan Storage Bus, tetapi memperlakukan dunia luar sebagai media penyimpanannya. Dengan kata lain, ia akan meletakkan blok apa pun yang ada di filternya tepat di depannya. "
+		""
+		"Ini berguna untuk situasi di mana blok bisa diproses hanya dengan meletakkannya dan menghancurkannya dengan alat tertentu."
+	]
+	quest.525F25F4ADE45B50.quest_subtitle: "Keluarkan ke Dunia"
+	quest.525F25F4ADE45B50.title: "ME Formation Plane"
+	quest.55186B8602689B66.quest_desc: [
+		"&bMemory Card&f memiliki dua fungsi. Pertama, menyimpan konfigurasi perangkat (seperti filter whitelist) untuk disalin ke perangkat lain yang sejenis. "
+		""
+		"Fungsi kedua adalah untuk menghubungkan &eP2P tunnel&f bersama-sama. Saat dilakukan, P2P tunnel yang dihubungkan akan diberikan ID unik yang disimpan di dalam memory card untuk sinkronisasi lebih lanjut."
+	]
+	quest.55186B8602689B66.title: "Memory Card"
+	quest.5AA3E5DFECB4AC4D.quest_desc: ["AE2 menyediakan cara untuk mempercepat pertumbuhan kristal secara drastis.\\n\\nLetakkan perangkat ini di sekitar Budding Crystal-mu, beri daya, dan lihatlah kristalmu tumbuh dengan cepat!"]
+	quest.5AA3E5DFECB4AC4D.title: "Crystal Growth Accelerator"
+	quest.5BB887411B8B38FA.quest_desc: ["Mengenai perluasan jaringan ME secara nirkabel, langkah pertamanya mungkin agak tidak biasa.\\n\\n&bMatter Condenser&f adalah tempat pembuangan barang versi AE2 yang menghancurkan item apa pun. Saat dipasangi &eStorage Component&f, ia bisa menghasilkan dua item crafting spesial dari energi item yang dimusnahkan.\\n\\nItem pertama adalah &bMatter Ball&f, membutuhkan setidaknya komponen penyimpanan 1k dan 256 item yang dimusnahkan."]
+	quest.5BB887411B8B38FA.title: "Condensed Matter"
+	quest.5C22E3103544B120.quest_desc: ["&eME Glass Cable&f adalah jenis kabel yang paling dasar. Glass cable dan &ecovered&f cable dapat menampung hingga 8 channel. Varian &edense&f covered cable dapat menampung hingga 32 channel, tetapi perangkat seperti bus tidak bisa langsung dipasang padanya.\\n\\nSemua kabel dapat di-craft dengan pewarna. Kabel tanpa warna ('Fluix') bisa terhubung ke warna apa pun, namun kabel dengan warna berbeda tidak akan pernah saling terhubung."]
+	quest.5C22E3103544B120.title: "Kabel Dasar"
+	quest.5CD8D169181C7339.quest_desc: ["Tiga item terakhir ini lebih ke arah mainan tambahan dari AE2.\\n\\n&bCharged Staff&f adalah tongkat bertenaga untuk menyerang (3 heart damage) yang mengonsumsi 300AE tiap pukulan. Alat ini menggunakan mekanik combat lama (pre-1.9), jadi kamu bisa melakukan spam-klik.\\n\\n&bEntropy Manipulator&f dapat digunakan untuk melelehkan blok di tempat, seperti pasir menjadi kaca atau bijih menjadi ingot. Jika tidak bisa dilelehkan, ia akan membakarnya.\\n\\n&bMatter Cannon&f berfungsi untuk menembakkan 'amunisi' seperti Matter Ball atau nugget emas/besi untuk menyerang mob atau menghancurkan blok. Kamu juga bisa menggunakan &bPaint Ball&f atau &bLumen Paint Ball&f untuk efek percikan cat (dan cahaya)."]
+	quest.5CD8D169181C7339.quest_subtitle: "Peralatan Unik"
+	quest.5CD8D169181C7339.title: "Senjata...?"
+	quest.5E24012A3D9B72A1.quest_desc: [
+		"Bukan hanya item yang bisa disimpan. &bME Fluid Storage Cell&f dapat menyimpan cairan seperti air, lava, atau bahan bakar modded. "
+		""
+		"Perlu dicatat bahwa seluruh cell penyimpanan hanya berbeda pada bagian luarnya (housing); baik cell item maupun cairan menggunakan komponen penyimpanan yang sama. "
+		""
+		"Untuk cairan, 1 byte setara dengan 8 bucket (8000mb)."
+	]
+	quest.5E24012A3D9B72A1.title: "Penyimpanan Cairan"
+	quest.5E6585F7627247E3.quest_desc: ["&bCrafting Card&f memungkinkan perangkat seperti Interface atau Export Bus untuk secara otomatis mengirim permintaan crafting-nya sendiri untuk item yang difilter. Crafting CPU dapat diatur untuk hanya merespons permintaan otomatis ini.\\n\\nSaat &eLevel Emitter&f ditingkatkan dengan kartu ini, ia bisa diatur untuk memancarkan redstone guna memfasilitasi pembuatan item secara langsung saat terdeteksi pekerjaan crafting sedang berjalan."]
+	quest.5E6585F7627247E3.quest_subtitle: "Otomatisasi Dalam Bentuk Upgrade"
+	quest.5E6585F7627247E3.title: "Crafting Card"
+	quest.5E7E35CCAF1C88EE.quest_desc: ["&bME Import Bus&f secara berkala menyedot item dari penyimpanan eksternal yang dihadapinya ke dalam jaringan ME. Opsionalnya, bus ini bisa difilter agar hanya mengambil item tertentu saja."]
+	quest.5E7E35CCAF1C88EE.quest_subtitle: "Input (Masuk)"
+	quest.5F56892CD904C40F.quest_desc: ["Tingkat kelima dan terakhir dari komponen penyimpanan standar AE2, menyediakan &e262.144&f byte penyimpanan."]
+	quest.5F56892CD904C40F.quest_subtitle: "x4^4"
+	quest.5F56892CD904C40F.title: "Komponen Penyimpanan 256k"
+	quest.6144202A97C6CD1C.quest_desc: ["&bQuartz Cutting Knife&f adalah alat bantu crafting yang berguna. Kabel dapat dipisahkan tanpa perlu diwarnai dengan memasang &bCable Anchor&f di antaranya yang dibuat menggunakan pisau ini.\\n\\nCable Anchor juga digunakan untuk membuat &bCable Facade&f guna menyamarkan kabel di dalam dinding dengan blok lain. Klik kanan dengan pisau ini juga akan membuka GUI untuk membuat &bInscriber Name Press&f yang berguna untuk memberi nama pada item lewat Inscriber."]
+	quest.6144202A97C6CD1C.quest_subtitle: "Pisau Quartz"
+	quest.6144202A97C6CD1C.title: "Cable Anchor"
+	quest.6431A384DDFBF439.quest_desc: [
+		"&bNetwork Tool&f adalah alat penting untuk menampilkan detail jaringan seperti konsumsi daya dan penyimpanan. "
+		""
+		"Sebagai bonus, alat ini menyediakan slot inventaris kecil untuk menyimpan &eupgrade card&f, yang bisa diakses saat melihat layar perangkat apa pun untuk penggantian cepat. Alat ini tidak bisa memutar blok, hanya bisa membongkarnya."]
+	quest.6431A384DDFBF439.title: "Network Tool"
+	quest.68B0B3DAF1145191.quest_desc: ["Hal pertama yang kamu butuhkan adalah &bCharger&f dan &bInscriber&f.\\n\\n&bCharger&f digunakan untuk mengisi daya Certus Quartz. &eCharged Certus Crystal&r ini kemudian digunakan untuk memproduksi &eFluix&f. Alat ini juga bisa mengisi daya item bertenaga baterai.\\n\\n&bInscriber&r digunakan untuk memproses kristal menjadi dust atau membuat &ePrinted Circuit&f dan &eProcessor&f."]
+	quest.68B0B3DAF1145191.quest_subtitle: "Langkah Awal"
+	quest.68B0B3DAF1145191.title: "Langkah Awal"
+	quest.69B7DE2283B4EE6C.quest_desc: ["&bCrafting Co-Processing Unit&f membantu mempercepat tugas crafting dengan memungkinkan Pattern Provider mengirim item lebih cepat atau bekerja secara paralel untuk membuat beberapa bahan sekaligus.\\n\\nVarian dari &dMEGA Cells&f menyediakan 4 thread dalam satu blok."]
+	quest.69B7DE2283B4EE6C.quest_subtitle: "Tambah Inti CPU"
+	quest.69B7DE2283B4EE6C.title: "Crafting Co-Processing Unit"
+	quest.6D54B45CDA70FEAB.quest_desc: ["&bEnergy Card&f dapat dipasang pada perangkat portabel seperti Wireless Terminal untuk meningkatkan kapasitas buffer energinya."]
+	quest.6D54B45CDA70FEAB.title: "Energy Card"
+	quest.6E15447FC3D678E0.quest_desc: ["&bFuzzy Card&f memungkinkan filter item mengabaikan data NBT (seperti damage atau enchant). &bInverter Card&f mengubah whitelist menjadi blacklist."]
+	quest.6E15447FC3D678E0.quest_subtitle: "Kartu Filter Tambahan"
+	quest.6E15447FC3D678E0.title: "Manajemen Filter"
+	quest.6F3D0A248B5A9CA2.quest_desc: [
+		"&bSpatial Storage Cell&f digunakan untuk menyimpan volume ruang tertentu, tersedia dalam kapasitas 2x2x2, 16x16x16, dan 128x128x128. "
+		""
+		"Saat dikodekan, cell ini dialokasikan ke &edimensi&f penyimpanan spasial dengan ID unik. Cell ini kemudian bisa digunakan di Spatial IO Port untuk mengambil atau menukar blok dan entitas antara dunia biasa dan dimensi spasial tersebut."
+	]
+	quest.6F3D0A248B5A9CA2.title: "Spatial Storage Cell"
+	quest.74FC0DDDB91DB172.quest_desc: ["&bME Interface&f memungkinkan item/cairan yang dimasukkan dari luar disimpan otomatis ke jaringan ME. Sebagai perangkat output, Interface bisa dikonfigurasi untuk selalu menyediakan stok item tertentu dalam inventaris internalnya agar bisa diambil oleh pemain lain atau pipa."]
+	quest.74FC0DDDB91DB172.quest_subtitle: "Keluar Masuk Data"
+	quest.74FC0DDDB91DB172.title: "Interface"
+	quest.77C9EE701F72586D.quest_desc: [
+		"&bPortable Cell&f berfungsi seperti cell biasa yang bisa dimasukkan ke drive penyimpanan. "
+		""
+		"Namun, isinya bisa diakses langsung melalui item tersebut tanpa perlu terminal, mirip seperti ransel digital bertenaga ME."
+	]
+	quest.77C9EE701F72586D.title: "Portable Cell"
+	quest.78311531069807DE.quest_desc: ["Setiap jaringan ME memiliki sejumlah &echannels&f yang tersedia, yang menentukan berapa banyak perangkat yang bisa terhubung. Perangkat yang menangani I/O data akan memakan channel, sedangkan komponen daya seperti Energy Cell tidak.\\n\\nJaringan tanpa controller (ad-hoc) hanya mendukung maksimal 8 channel."]
+	quest.78311531069807DE.title: "Sistem Channel"
+	quest.79D2617E01481281.quest_desc: ["Kamu perlu menambang &bCertus Quartz&f dari Meteorit untuk mendapatkan Dust dan Crystal-nya sebagai bahan dasar mod ini."]
+	quest.79D2617E01481281.title: "Certus Quartz"
+	quest.7B7D1F0CB326B28F.quest_desc: ["&bME IO Port&f memungkinkan pemindahan isi penyimpanan digital dengan cepat antara cell dan media penyimpanan eksternal yang terhubung ke bus jaringan."]
+	quest.7B7D1F0CB326B28F.quest_subtitle: "Defragmentasi"
+	quest.7B7D1F0CB326B28F.title: "ME IO Port"
+	quest.7EFBAF3E281D2EBE.quest_desc: [
+		"&bME Storage Bus&f memungkinkan peti atau penyimpanan eksternal dianggap sebagai bagian dari jaringan ME. Kamu bisa mengambil atau memasukkan item ke sana murni melalui antarmuka ME. "
+		""
+		"Storage bus bisa difilter dan diberikan prioritas agar item tertentu selalu masuk ke sana terlebih dahulu."
+	]
+	quest.7EFBAF3E281D2EBE.quest_subtitle: "Peti Cadangan Jaringan"
+	quest.7EFBAF3E281D2EBE.title: "Storage Bus"
+	task.08DA73B1AC17E5F5.title: "Penyimpanan Crafting"
+	task.1076BC82EECB73F5.title: "Kunci Inggris Quartz"
+	task.14DEFFB80CC96BC1.title: "Kabel ME Dense Covered"
+	task.23D186249A999B8C.title: "Pisau Pemotong Quartz"
+	task.338A6DA0D711B7DC.title: "ME Pattern Provider"
+	task.38E290AC5E011888.title: "Kabel ME Dense Smart"
+	task.408C5263C4664195.title: "Peti ME"
+	task.40A7CC56DACC2623.title: "Kabel ME Glass"
+	task.4C5435BE5560E71B.title: "Hak Cipta Dilindungi"
+	task.61D93B13D496547D.title: "Penyimpanan Cairan"
+	task.64EAD3DE84E94F02.title: "Kabel ME Covered"
+	task.65C439FD14C5EEB9.title: "Penyimpanan Portabel"
+	task.7241918F270CA402.title: "Antarmuka ME"
+	task.729773FF26CBB542.title: "Hak Cipta Dilindungi"
+	task.75924053D6F5B242.title: "Spatial Storage Cells"
+	task.7E0D9E6342295AB0.title: "Tentang Channel"
+	task.7FC3DAA1BD5016A0.title: "Kabel ME Smart"
+}
