@@ -65,6 +65,43 @@ ServerEvents.recipes(allthemods => {
                 sourceCost: 0
             }
         ).id('allthemods:enchanting_apparatus/creative_source_jar')
+		
+    // Draconic Evolution
+    allthemods.custom(
+        {
+            type: 'powah:energizing',
+            energy: 2147483647,
+            ingredients: [
+                Ingredient.of('draconicevolution:dragon_heart').toJson(),
+                Ingredient.of('draconicevolution:chaotic_core').toJson(),
+                Ingredient.of('allthetweaks:atm_star').toJson(),
+                Ingredient.of('draconicevolution:chaotic_core').toJson(),
+                Ingredient.of('draconicevolution:dragon_heart').toJson()
+            ],
+            result: {
+                count: 1,
+                id: 'draconicevolution:creative_op_capacitor'
+            }
+        }
+    ).id('allthemods:energizing/draconicevolution_creative_power_source')
+
+    allthemods.custom(
+        {
+            type: 'powah:energizing',
+            energy: 2147483647,
+            ingredients: [
+                Ingredient.of('draconicevolution:dragon_heart').toJson(),
+                Ingredient.of('draconicevolution:chaotic_capacitor').toJson(),
+                Ingredient.of('allthetweaks:atm_star').toJson(),
+                Ingredient.of('draconicevolution:chaotic_capacitor').toJson(),
+                Ingredient.of('draconicevolution:dragon_heart').toJson()
+            ],
+            result: {
+                count: 1,
+                id: 'draconicevolution:creative_capacitor'
+            }
+        }
+    ).id('allthemods:energizing/draconicevolution_creative_capacitor')
 
     //EvilCraft
 
@@ -190,6 +227,30 @@ ServerEvents.recipes(allthemods => {
                 S: 'allthetweaks:atm_star_block',
             }
         ).id('allthemods:mekanism/creative_fluid_tank')
+		// Empty Creative Fluid and Chemical Tanks
+		allthemods.recipes.kubejs.shaped('mekanism:creative_chemical_tank',
+            [
+                'TTT',
+                'TST',
+                'TTT'
+            ],
+            {
+                T: 'allthetweaks:atm_star',
+                S: 'mekanism:creative_chemical_tank',
+            }
+        ).id('allthemods:mekanism/clear_creative_chemical_tank')
+
+        allthemods.recipes.kubejs.shaped('mekanism:creative_fluid_tank',
+            [
+                'TTT',
+                'TST',
+                'TTT'
+            ],
+            {
+                T: 'allthetweaks:atm_star',
+                S: 'mekanism:creative_fluid_tank',
+            }
+        ).id('allthemods:mekanism/clear_creative_fluid_tank')
 
         allthemods.recipes.kubejs.shaped('mekanism:creative_energy_cube',
             [
@@ -222,7 +283,20 @@ ServerEvents.recipes(allthemods => {
                     ).toJson()
             }
         ).id('allthemods:energizing/mekanism_creative_energy_cube')
-    
+	//Oritech
+	//Removed based on recommendation by Almana
+       /* allthemods.recipes.kubejs.shaped('oritech:creative_tank_block',
+            [
+                'TUT',
+                'USU',
+                'TUT'
+            ],
+            {
+                T: 'oritech:small_tank_block',
+                U: 'allthemodium:unobtainium_ingot',
+                S: 'allthetweaks:atm_star_block',
+            }
+        ).id('allthemods:oritech/creative_tank_block') */
     //Powah
 
         allthemods.custom(
@@ -368,7 +442,190 @@ ServerEvents.recipes(allthemods => {
         },
         "show_notification": false
     }).id("allthemods:create/creative_blaze_cake")
+    allthemods.custom({
+        "type": "create:mechanical_crafting",
+        "accept_mirrored": false,
+        "category": "misc",
+        "key": {
+            "P": {
+            "item": 'allthemodium:unobtainium_plate'
+			},
+			"W": {
+            "item": 'createaddition:electrum_spool'
+			},
+			"V": {
+            "item": 'allthemodium:vibranium_allthemodium_alloy_ingot'
+			},
+			"R": {
+            "item": 'allthemodium:allthemodium_rod'
+			},
+			"C": {
+            "item": 'allthetweaks:atm_star'
+			}
+        },
+        "pattern": [
+            "  V  ",
+            " PWP ",
+            "PWRWP",
+			" PCP "
+        ],
+        "result": {
+            "count": 1,
+            "id": 'create:creative_motor'
+        },
+        "show_notification": false
+    }).id("allthemods:create/creative_motor")
+// Worldshaper Recipe. Scrapped due to concerns of being too OP, even with the ridiculous recipe
+// When reimplementing, add the following to startup scripts: allthemods.create('incomplete_creative_worldshaper').texture('constructionstick:item/iron_stick').color(0xB200FF)
+/* 	allthemods.custom({
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "constructionstick:netherite_stick"
+  },
+  "loops": 531441,
+  "results": [
+    {
+      "id": "create:handheld_worldshaper"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_creative_worldshaper"
+        },
+        {
+          "item": "allthemodium:unobtainium_allthemodium_alloy_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:incomplete_creative_worldshaper"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_creative_worldshaper"
+        },
+        {
+          "item": "allthemodium:vibranium_allthemodium_alloy_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:incomplete_creative_worldshaper"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_creative_worldshaper"
+        },
+        {
+          "item": "allthemodium:unobtainium_vibranium_alloy_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:incomplete_creative_worldshaper"
+        }
+      ]
+    },
+	{
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_creative_worldshaper"
+        },
+        {
+          "item": "allthetweaks:atm_star_block"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:incomplete_creative_worldshaper"
+        }
+      ]
+    },
+	{
+      "type": "create:pressing",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_creative_worldshaper"
+        }
+      ],
+      "results": [
+        {
+          "id": "kubejs:incomplete_creative_worldshaper"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "kubejs:incomplete_creative_worldshaper"
+  }
+}).id("allthemods:create/handheld_worldshaper") */
+	// Removed based on recommendation by Almana	
+	/* allthemods.custom({
+  "type": "create:compacting",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "item": "create:fluid_tank"
+    },
+    {
+      "item": "create:fluid_tank"
+    },
+    {
+      "item": "create:fluid_tank"
+    },
+    {
+      "item": "create:fluid_tank"
+    },
+    {
+      "item": "allthetweaks:atm_star_block"
+    },
+    {
+      "tag": "c:plates/unobtainium"
+    },
+    {
+      "tag": "c:plates/unobtainium"
+    },
+    {
+      "tag": "c:plates/unobtainium"
+    },
+    {
+      "tag": "c:plates/unobtainium"
+    }
+  ],
+  "results": [
+    {
+      "id": "create:creative_fluid_tank"
+    }
+  ]
+}).id("allthemods:create/creative_fluid_tank") */
+	// Tempad
+        allthemods.recipes.kubejs.shaped('tempad:creative_chronometer', 
+            [
+                ' G ', 
+                'USU', 
+                ' C '
+            ],
+            {
+                G: '#c:glass_blocks/tinted',
+				U: '#c:ingots/unobtainium',
+				S: 'allthetweaks:atm_star',
+				C: 'tempad:chronometer'
+        }
+    )
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
