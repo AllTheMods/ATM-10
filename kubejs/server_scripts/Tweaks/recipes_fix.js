@@ -196,6 +196,10 @@ KubeJSTweaks.beforeRecipes(event => {
     entry.replaceValueAtKey("ingredients", "tag", "c:glass", "c:glass_blocks/colorless")
   })
 
+  event.getEntry("regions_unexplored:prismaglass").forEach(entry => {
+    entry.replaceValueAtKey("key", "tag", "c:glass", "c:glass_blocks/colorless")
+  })
+
   event.getEntry(/^regions_unexplored:.*_snowbelle$/)
     .forEach(entry => {
       let ings = entry.json().get("ingredients")
@@ -206,6 +210,22 @@ KubeJSTweaks.beforeRecipes(event => {
             if (tag.getAsString().endsWith("_dyes")) {
               let color = tag.getAsString().replace("c:","").replace("_dyes","")
               ing["addProperty(java.lang.String,java.lang.String)"]("tag", "c:dyes/" + color)
+            }
+          }
+        }
+      }
+    })
+
+  event.getEntry(/^regions_unexplored:.*_painted_planks$/)
+    .forEach(entry => {
+      let keys = entry.json().get("key")
+      if (keys != null) {
+        for (let key of keys.asMap().values()) {
+          let tag = key.get("tag")
+          if (tag != null) {
+            if (tag.getAsString().endsWith("_dyes")) {
+              let color = tag.getAsString().replace("c:","").replace("_dyes","")
+              key["addProperty(java.lang.String,java.lang.String)"]("tag", "c:dyes/" + color)
             }
           }
         }
