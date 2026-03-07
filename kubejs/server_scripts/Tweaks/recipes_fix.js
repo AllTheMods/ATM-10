@@ -232,5 +232,10 @@ KubeJSTweaks.beforeRecipes(event => {
       }
     })
 
+  event.getEntry(["pneumaticcraft:block_heat_properties/createlowheated/basic_burner_empowered","pneumaticcraft:block_heat_properties/createlowheated/basic_burner_lit"])
+    .forEach(entry => {
+      entry.json().add("neoforge:conditions", [{ "type": "neoforge:mod_loaded", "modid": "createlowheated"}])
+    })
+
   console.log(`Fixing recipes took ${timer.stop().elapsed("milliseconds")} ms...`)
 })
