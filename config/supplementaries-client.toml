@@ -1,0 +1,260 @@
+#Tweak and change the various block animations.
+#Only cosmetic stuff in here so to leave default if not interested.
+#Remember to delete this and server configs and let it refresh every once in a while since I might have tweaked it
+[blocks]
+
+	[blocks.globe]
+		#Enable a random globe texture for each world
+		random_world = true
+
+	[blocks.notice_board]
+		#Allows notice board displayed text to be centered instead of being left aligned
+		centered_text = true
+
+	[blocks.bunting]
+		#Makes buntings use normal block models with no animation for faster performance. When off this is only active when viewed from a distance
+		fast_buntings = false
+
+	[blocks.clock_block]
+		#Display 24h time format. False for 12h format
+		24h_format = true
+
+	[blocks.pedestal]
+		#Enable displayed item spin
+		spin = true
+		#Spin speed
+		# Default: 2.0
+		# Range: 0.0 ~ 100.0
+		speed = 2.0
+		#Enable special display types for items like swords, tridents or end crystals
+		fancy_renderers = true
+
+	[blocks.bubble_block]
+		#Wobbling intensity. set to 0 to disable
+		# Default: 0.2
+		# Range: 0.0 ~ 1.0
+		wobble = 0.2
+		#How fast it grows when created. 1 to be instant
+		# Default: 0.4
+		# Range: 0.0 ~ 1.0
+		grow_speed = 0.4
+
+	[blocks.item_shelf]
+		#Translate down displayed 3d blocks so that they are touching the shelf.
+		#Note that they will not be centered vertically this way
+		supported_blocks = true
+
+	[blocks.wind_vane]
+		#Wind vane animation swings according to this equation: 
+		#pitch(time) = max_angle_1*sin(2pi*time*pow/period_1) + <max_angle_2>*sin(2pi*time*pow/<period_2>)
+		#where:
+		# - pow = max(1,redstone_power*<power_scaling>)
+		# - time = time in ticks
+		# - redstone_power = block redstone power
+		#<power_scaling> = how much frequency changes depending on power. 2 means it spins twice as fast each power level (2* for rain, 4* for thunder)
+		#increase to have more distinct indication when weather changes
+		# Default: 3.0
+		# Range: 1.0 ~ 100.0
+		power_scaling = 3.0
+		#Amplitude (maximum pitch) of first sine wave
+		# Default: 30.0
+		# Range: 0.0 ~ 360.0
+		max_angle_1 = 30.0
+		# Default: 10.0
+		# Range: 0.0 ~ 360.0
+		max_angle_2 = 10.0
+		#Base period in ticks at 0 power of first sine wave
+		# Default: 450.0
+		# Range: 0.0 ~ 2000.0
+		period_1 = 450.0
+		#This should be kept period_1/3 for a symmetric animation
+		# Default: 150.0
+		# Range: 0.0 ~ 2000.0
+		period_2 = 150.0
+
+	[blocks.flag]
+		#How slow a flag will oscillate. (Period of oscillation)
+		#Lower value = faster oscillation
+		# Default: 100
+		# Range: 0 ~ 10000
+		slowness = 100
+		#How wavy the animation will be in pixels. (Wavelength)
+		# Default: 4.0
+		# Range: 0.001 ~ 100.0
+		wavyness = 4.0
+		#How tall the wave lobes will be. (Wave amplitude)
+		# Default: 1.0
+		# Range: 0.0 ~ 100.0
+		intensity = 1.0
+		#How much the wave amplitude increases each pixel. (Amplitude increment per pixel)
+		# Default: 0.3
+		# Range: 0.0 ~ 10.0
+		intensity_increment = 0.3
+		#At which graphic settings flags will have a fancy renderer: 0=fast, 1=fancy, 2=fabulous
+		#Allowed Values: FAST, FANCY, FABULOUS
+		fanciness = "FABULOUS"
+		#Makes flags render as sideways banner. Ignores many of the previously defined configs
+		render_as_banner = false
+
+	[blocks.captured_mobs]
+		#THIS IS ONLY FOR VISUALS! To allow more entities in cages you need to edit the respective tags!
+		#A list of mobs that can be ticked on client side when inside jars. Mainly used for stuff that has particles. Can cause issues and side effects so use with care
+		tickable_inside_jars = ["iceandfire:pixie", "druidcraft:dreadfish", "druidcraft:lunar_moth", "alexsmobs:hummingbird"]
+
+		[blocks.hat_stand.swing_physics]
+			min_angle = 0.0
+			collision_force = 15.0
+			damping = 1.625
+			collision_inertia = 1.5
+			collision_considers_entity_hitbox = true
+			frequency = 1.5
+			max_angle = 54.999996
+
+	[blocks.turn_table]
+		#Display visual particles when a block is rotated
+		turn_particles = true
+
+	[blocks.speaker_block]
+		#Mute speaker block incoming narrator messages and displays them in chat instead
+		mute_narrator = false
+
+	[blocks.rope]
+		#Amplitude of rope wobbling effect
+		# Default: 1.2
+		# Range: 0.0 ~ 20.0
+		wobbling_amplitude = 1.2
+		#Period of rope wobbling effect
+		# Default: 12.0
+		# Range: 0.01 ~ 200.0
+		wobbling_period = 12.0
+
+#Particle parameters
+[particles]
+
+	#Rotation particle
+	[particles.turn_particle]
+		#An RGBA color
+		initial_color = "#002A77EA"
+		#An RGBA color
+		fade_color = "#0032BEFA"
+
+#General settings
+[general]
+	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
+	dynamic_assets_generation_mode = "CACHED"
+	#Disables Optifine warn screen
+	no_optifine_warn_screen = false
+	#Disables Amendments suggestion screen
+	no_amendments_screen = false
+	#Disable incompatible mods warning screen
+	no_incompatible_mods_screen = false
+	#Enable Quark style config button on main menu. Needs Configured installed to work
+	config_button = false
+	#Config button Y offset
+	# Default: 0
+	# Range: -10000 ~ 10000
+	config_button_y_offset = 0
+	#Show some tooltip hints to guide players through the mod
+	tooltip_hints = true
+	#Show tooltips items that have been made placeable
+	placeable_tooltips = true
+	#Enables custom Configured config screen
+	custom_configured_screen = true
+	#unfunny
+	"I am very boring" = true
+
+#Game tweaks
+[tweaks]
+	#Adds an overlay to projectile weapons in gui displaying currently selected ammo
+	projectile_weapon_overlay = true
+	#Renders an enchantment glint on placeable enchanted booksNote that turning this on will make book piles use tile renderer instead of baked models making them slower to render
+	placeable_books_glint = false
+	#Enables banner pattern tooltip image preview
+	banner_pattern_tooltip = true
+	#Enables paintings tooltip image preview
+	paintings_tooltip = true
+	#Enables sherds tooltip image preview
+	sherds_tooltip = true
+	#Size of the tooltip image used for Sherds, Blackboards, Banner patterns and Paintings
+	# Default: 80
+	# Range: 1 ~ 255
+	tooltip_image_size = 80
+	#Wearing mob heads will apply post processing
+	mob_head_shaders = true
+	#Sends your current chat when you die while typing
+	send_chat_on_death = true
+	#Makes enderman and spider heads use vanilla texture. Enable for texture pack support
+	enderman_and_spider_head_texture_pack_support = true
+	#Show a slime overlay when you hit an entity with a slimeball
+	slime_effect_overlay = true
+
+	[tweaks.colored_maps]
+		#Needs the server config with same name on. If on here it will ignore the server one and keep vanilla colors
+		tinted_blocks_on_maps = true
+		#Colors tall grass same color as grass
+		tall_grass_color = true
+		#Makes colored maps a bit more accurate. Might affect performance
+		accurate_colors = false
+
+	[items.slingshot]
+		#Adds an overlay to slingshots in gui displaying currently selected ammo
+		overlay = true
+		#Render the block outline for distant blocks that are reachable with a slingshot enchanted with Stasis
+		stasis_block_outline = true
+		#An RGBA color for the block outline in hex format, for example 0x00000066 for vanilla outline colors
+		block_outline_color = "#FFFFFFFF"
+		#How big should a slingshot projectile look
+		# Default: 0.5
+		# Range: 0.0 ~ 1.0
+		projectile_scale = 0.5
+
+	[items.lunch_basket]
+		#Adds an overlay to lunch boxes in gui displaying currently selected food
+		overlay = true
+
+	[items.altimeter]
+		#Click action for depth meter which displays current depth
+		click_action = true
+		#Allows depth meter to have unique textures per each dimension. Add more dimensions IDs and a matching texture in the correct path replacing ':' with '_'
+		#This is a list. Add more entries with syntax [[...]]
+		extra_dimension_textures = ["minecraft:the_nether", "minecraft:the_end"]
+		#Increasing this to be more than 1 will result in delth meter display image to be shown in float amounts instead of pixel perfect ones
+		# Default: 1
+		# Range: 1 ~ 10
+		texture_precision_multiplier = 1
+
+	[items.cannonball]
+		#Render cannonballs as 3D models
+		3d_model = true
+
+	[items.quiver]
+		#Z offset for quiver render when wearing armor. Useful for when you have custom armor bigger than vanilla to void clipping. Leave at -1 for automatic offset
+		# Default: -1.0
+		# Range: -1.0 ~ 1.0
+		armor_render_offset = -1.0
+		#How quivers should render onto players
+		#Allowed Values: HIDDEN, BACK, HIP, THIGH
+		render_mode = "THIGH"
+		#How skeleton with quivers should render it
+		#Allowed Values: HIDDEN, BACK, HIP, THIGH
+		skeleton_render_mode = "THIGH"
+		#Adds an overlay to quivers in gui displaying currently selected arrow
+		overlay = true
+		#Allows using your mouse to select an arrow in the quiver GUI
+		mouse_movement_in_gui = true
+		#Quiver GUI X offset from default position
+		# Default: 0
+		# Range: -1000 ~ 1000
+		gui_x_offset = 0
+		#Quiver GUI Y offset from default position
+		# Default: 0
+		# Range: -1000 ~ 1000
+		gui_y_offset = 0
+
+	[items.wrench]
+		#Display visual particles when a block is rotated
+		turn_particles = true
+
+	[items.flute]
+		#Display visual particles when a playing a flute
+		note_particles = true
