@@ -1,0 +1,27 @@
+[packmode]
+	#ATM = 0 SLOP = 1 SKY = 2 MAGIC = 3 EXPERT = 4 GRAVITAS = 5 LITE = 6 AOA = 7 MON = 8
+	# Default: 0
+	# Range: 0 ~ 8
+	enable = 0
+
+[discord]
+	#Enable Discord Rich Prescence
+	discord = false
+
+[packversionmaj]
+	#Pack Release Version Format : X
+	# Default: 1
+	# Range: 0 ~ 32768
+	major = 1
+
+[packversionmin]
+	#Pack Minor Version : X
+	# Default: 0
+	# Range: 0 ~ 32768
+	minor = 0
+
+[packversionminrev]
+	#Pack Minor Version Revision : X
+	# Default: 0
+	# Range: 0 ~ 32768
+	minorrev = 0
