@@ -87,9 +87,7 @@
   "time": 120
 })
         // Remove enchanting stuff
-        allthemods.remove({id: 'oritech:crafting/catalyst_alt'})
-        allthemods.remove({id: 'oritech:crafting/catalyst'})
-        allthemods.remove({id: 'oritech:crafting/enchanter'})
+
 
         // Cheaty alloys
         allthemods.remove({id: 'oritech:crafting/alloy/steel'})
