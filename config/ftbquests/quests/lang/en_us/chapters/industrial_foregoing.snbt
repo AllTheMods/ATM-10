@@ -1,48 +1,97 @@
 {
 	quest.06094615950AC062.title: "Other Conveyor Upgrades"
+	quest.06F84E2C484FAC5B.quest_desc: ["Ever heard of a cobblestone generator? The Material StoneWork Factory works like one, but takes it to the next level. You can get it to crush stone into gravel, sand, silicon, you can get it to smelt it into stone, you can make Obsidian with it, and whatever else JEI shows for this machine."]
+	quest.0B35172E47705205.quest_desc: ["Yes, &bIndustrial Foregoing&r has ore processing too. This one uses &6Liquid Meat&r to convert an ore into Raw Ore Meat. I'm not an ore doctor, so I can't exactly do anything with this Raw Ore Meat. Maybe give it to the Fermentation Station?"]
+	quest.0B35172E47705205.quest_subtitle: "Ore Processing: Step 1"
 	quest.0BCCDE24D378F260.quest_subtitle: "Tier: &d3"
 	quest.0BCCDE24D378F260.title: "&dAdvanced Machine Frame"
-	quest.0E8647B8EB4AAC41.quest_desc: ["Passive Mobs -> More Pink Slime.\\nHostile Mobs -> More Meat."]
+	quest.0D2DD9AA960843A3.quest_desc: ["The Mob Detector will detect entities in its working area, and output a redstone signal behind it with strength equal to the amount of entities in the working area.\\n\\nThis machine supports Range Addons."]
+	quest.0E8647B8EB4AAC41.quest_desc: ["Passive Mobs -> More &#FF69B4Pink Slime&r\\nHostile Mobs -> More &6Meat&r"]
 	quest.0E8647B8EB4AAC41.title: "Pink Slime \\& Liquid Meat"
 	quest.0EA9E52B67B533DF.quest_desc: ["When Rubber is smelted it turns into Plastic, which is the main resource in Industrial Foregoing."]
-	quest.0EC2053B191C55C6.quest_desc: ["Extracts latex from logs, runs faster when given power.\\n\\nCheck JEI for acceptable logs and Latex amounts. The best log to use is Acacia."]
+	quest.0EC2053B191C55C6.quest_desc: ["Extracts Latex from logs, runs faster when given power.\\n\\nCheck JEI for acceptable logs and Latex amounts. The best log to use is Acacia or Mangrove."]
 	quest.0FAAE744E156D8EF.quest_desc: ["The &bMycelial Reactor&r consists of all the Mycelial Generators working at the same time, near the reactor block, and it produces a total of &a25MFE/t&r.\\n\\nAll sounds good, but you need to automate some stuff to get it working, see what each Mycelial Generator consumes to work, and automate it, most things are simple, but others, not that much... &olooking at Disenchanting Mycelial Generator&r.\\n\\nBut after you get it all automated, you don't need to stop at one, you can make more reactors."]
 	quest.0FAAE744E156D8EF.quest_subtitle: "Mycelial Reactor, huh?"
-	quest.1823CC81D613892B.quest_desc: [
-		"Passive Mobs -> More Pink Slime"
-		"Hostile Mobs -> More Meat"
-	]
-	quest.1BA3D15FFE7DBE59.quest_desc: ["In &bIndustrial Foregoing&r, one of the main resources is &fLatex.&r Its used to craft Machine Frames, needed to make machines and upgrades.\\n\\nMaking Latex is pretty simple, &aFluid Extractor&r extracts Latex from &6Logs&r (Acacia gives the most).\\n\\n------------------------\\n\\nNow about making Plastic: Plastic results from smelting Dry Rubber - which is made in the &aLatex Processing Unit&r, that transforms Latex into Dry Rubber.\\n\\n&bSo basically Latex -> Dry Rubber -> Plastic."]
-	quest.1BA3D15FFE7DBE59.quest_subtitle: "Latex and Plastic? Huh?"
+	quest.15551AC6C68E12E0.quest_desc: ["Basically the spawner of &bIndustrial Foregoing&r. It uses &aEssence&r along with a mob in a Mob Imprisonment Tool to spawn a copy of that mob.\\n\\nBosses and other mobs that cannot be put into a spawner* are blacklisted from the Mob Duplicator as well.\\n\\n*&8With a few exceptions, hold SHIFT on a spawn egg while advanced tooltips (F3 + H) are enabled to see if you can find the Mob Duplicator Blacklist tag."]
+	quest.1684D52FDAAC894B.quest_desc: ["Remember that Not-An-Ore-Doctor fella? The Washing Factory fills in for him, to handle the Raw Ore Meat from the Washing Factory, turning it into Fermented Ore Meat. This machine has 4 modes.\\n\\n1. 2x ore processing rate, 5 seconds to process.\\n2. 3x ore processing rate, 45 seconds to process.\\n3. 4x ore processing rate, 120 seconds to process. Uses &#FF69B4Pink Slime&r as a catalyst.\\n4. 5x ore processing rate, 300 seconds to process. Uses &bEther Gas&r as a catalyst."]
+	quest.1684D52FDAAC894B.quest_subtitle: "Ore Processing: Step 2"
+	quest.1823CC81D613892B.quest_desc: ["The Mob Slaughter Factory &ldeletes&r mobs in its working area, and converts that mob into &#FF69B4Pink Slime&r and &6Liquid Meat&r.\\n\\nPassive Mobs -> More &#FF69B4Pink Slime&r\\nHostile Mobs -> More &6Meat&r\\n\\nThis machine supports Range Addons."]
+	quest.1BA3D15FFE7DBE59.quest_desc: ["In &bIndustrial Foregoing&r, one of the main resources is &fLatex.&r Its used to craft Machine Frames, needed to make machines and upgrades.\\n\\nMaking Latex is pretty simple, &aFluid Extractor&r extracts Latex from &6Logs&r (Acacia and Mangrove give the most).\\n\\n------------------------\\n\\nNow about making Plastic: Plastic results from smelting Dry Rubber - which is made in the &aLatex Processing Unit&r, that transforms Latex into Dry Rubber.\\n\\n&bSo basically Latex -> Dry Rubber -> Plastic."]
+	quest.1BA3D15FFE7DBE59.quest_subtitle: ""
 	quest.1BA3D15FFE7DBE59.title: "Latex and Plastic? Huh?"
-	quest.2CCFEE98FE3B2E97.quest_desc: ["These machines are used to automate block placing/breaking. This is especially useful when automating latex."]
+	quest.1F66CDC9799B5DEC.quest_desc: ["I found myself annoyed at being unable to rotate &bIndustrial Foregoing&r Machines with most Wrenches. To help with this, I have compiled a list of all the wrenches that I can find that are capable of rotating &bIF&r machines. These were tested primarily on the Laser Drill, so the results will focus primarily on that. Some wrenches might not work with other machines.\\n\\nClick the task in this quest to view all valid Wrenches for this quest."]
+	quest.224C07AC71C5F40E.quest_desc: ["Applies &lBone Meal&r or &#8B4513Fertilizer&r to plants in its working area. This will continue applying &#8B4513Fertilizer&r to the same crop until that crop can no longer accept &lBone Meal&r before moving on to the next plant. This means that the machine can get stuck on plants that always accept &lBone Meal&r, such as &eSunflowers&r, or plants that never reach their final growth state.\\n\\nThis machine supports Range Addons."]
+	quest.22702838FC507A2E.quest_desc: ["The Hydroponic Bed uses Energy and &9Water&r to grow crops and saplings planted on it. It supports pretty much any crop you can imagine. You can also provide &bEther Gas&r so the machine automatically harvests the crop and puts the crop's results into its internal buffer. This can also gather crop data for a Hydroponic Simulation Processor, to use in a Simulated Hydroponic Bed.\\n\\nSaplings will require space to grow."]
+	quest.2580135392DEF522.quest_desc: ["Ever feel like the standard Hydroponic Bed is too laggy? Can't fit enough Soul Surges? Allow me to introduce the Simulated Hydroponic Bed. This will use a Hydroponic Simulation Processor and a seed/sapling to grow any crop of your choice...virtually. You don't even need &9Water&r and &bEther Gas&r for this one. On top of this, Hydroponic Simulation Processors get better over time as they grow more crops, though the rate at which it scales is slower in a Simulated Hydroponic Bed.\\n\\nDon't even bother trying to maximize the Processor. It will take an unfathomably long time. Much longer than what it would take for me to make the quests for Ender IO, for sure."]
+	quest.2580135392DEF522.quest_subtitle: "HNN but for crops?"
+	quest.2580135392DEF522.title: "Simulated Hydroponic Bed"
+	quest.2782EA80C1C74EBD.quest_desc: ["The Mob Crusher &ldeletes&r mobs in its working area, collecting that mob's loot, as well as converting the &aExperience&r that mob would get into &aEssence&r. You can also optionally use the would be Experience to apply Looting to the Mob Crusher instead.\\n\\nBosses and other mobs that cannot go into spawners are \"blacklisted\" from the Mob Crusher. Instead of being &ldeleted&r, they take 75 damage per operation.\\n\\nThis machine supports Range Addons."]
+	quest.2782EA80C1C74EBD.quest_subtitle: "Endless Gateway Crusher, too"
+	quest.287B47E27EBC2C18.quest_desc: ["The Enchantment Factory is basically an automated Enchanting Table. When provided with Gear/Books and &aEssence&r, it will enchant that item with something random. This machine can use fluids from tanks directly above it, to allow for an increased potential for enchanting gear and books."]
+	quest.28B3591BFC0FA08B.quest_desc: ["The Wither Builder, as its name implies, builds Withers. It's part of the Wither's Compass for the ATM Star.\\n\\n&8You may want to encase the Wither Builder in some witherproof glass, to prevent Withers from blowing it up."]
+	quest.2CCFEE98FE3B2E97.quest_desc: ["These machines are used to automate block placing/breaking. This is especially useful when automating Latex."]
 	quest.2CCFEE98FE3B2E97.title: "Blocks"
+	quest.2DC012EF21FB359E.quest_desc: ["The Enchantment Extractor can automatically remove enchantments from gear. You can have it either go onto a Book, or have the enchantment be converted into &aEssence&r."]
+	quest.2E8E292ED596A104.quest_desc: ["Laser Lens can make Ore Lasers focus more on a certain color of ore. Check in JEI to see what lens work best for a certain type of ore. It also determines what fluid type can be produced by Fluid Lasers."]
 	quest.2F69010E1FA2787D.quest_desc: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks. \\n\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission. \\n\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
 	quest.3027584AA6138E6D.title: "Conveyor Insertion \\& Extraction"
+	quest.321FA7348E532F4E.quest_desc: ["Latex is a fluid used to make Dry Rubber, but it can also be used for some things in the Dissolution Chamber."]
 	quest.321FA7348E532F4E.title: "Latex"
 	quest.33532408B21A5378.quest_desc: ["The Pitiful Generator generates a small amount of FE using burnable fuels like Coal."]
+	quest.339DF320DDCAD98B.quest_desc: ["Transporters can be used to transport Items and/or Fluids between inventories that are 1 block away. You need a Transporter in the extraction side and another in the insertion side. To change these modes, right click the middle area.\\n\\nYou can have multiple transporter types in the same block. You can upgrade these with Addons. Speed to increase transfer speed, Efficiency to increase transfer amount."]
 	quest.339DF320DDCAD98B.title: "Item \\& Fluid Transport"
+	quest.34AA079FFAFC64BD.quest_desc: ["The final step of the ore processing lineup of &bIndustrial Foregoing&r, the Fluid Sieving Machine. This will use sand to filter out the useful part of Fermented Ore Meat, giving us some dust. Do whatever you want with that dust. Smelt it, mix it into an alloy."]
+	quest.34AA079FFAFC64BD.quest_subtitle: "Ore Processing: Step 3"
 	quest.3514E9C1A8C7400C.quest_subtitle: "Tier: &b2"
 	quest.3514E9C1A8C7400C.title: "&bSimple Machine Frame"
-	quest.3CB7884B7B32CF00.quest_desc: [
-		"Getting your first &bEther Gas&r might be a little bit scary.\\n\\n&bEther Gas&r is made from drilling a Wither, using a Fluid Drill with a &5Purple Lens&r."
-		""
-		"But don't worry about the Wither, Industrial Foregoing has a machine just to help you with that task. The &4Stasis Chamber&r is a machine that freezes in place anything that is on top of it in a 3x3 area, including the Wither."
-		""
-		"&cHope you don't run out of power, because if you do... I hope you're ready to fight the &0Wither&c."
-	]
+	quest.3924975B48F5A482.quest_desc: ["If you prefer not bringing &#27AEB9Soul Pipes&r around, you can use AE2 instead.\\n\\nYou can put an ME Storage Bus on top of the &#27AEB9Soul Laser Base&r to allow your ME network to access the &#27AEB9Souls&r inside. These can be requested to be held in ME Interfaces."]
+	quest.3924975B48F5A482.title: "Soulplied Energistics"
+	quest.3AFDE3396861A944.quest_desc: ["The Enchantment Applicator is an automated Anvil. It can apply Enchanted Books to gear automatically. Uses &aEssence&r in place of &aExperience&r. This machine can use fluids from tanks directly above it, to allow for an increased potential for enchanting gear."]
+	quest.3CB7884B7B32CF00.quest_desc: ["Getting your first &bEther Gas&r might be a little bit scary.\\n\\n&bEther Gas&r is made from drilling a Wither, using a Fluid Drill with a &5Purple Lens&r.\\n\\nBut don't worry about the Wither, Industrial Foregoing has a machine just to help you with that task. The &4Stasis Chamber&r is a machine that freezes in place anything that is on top of it in a 3x3 area, including the Wither.\\n\\n&cHope you don't run out of power, because if you do... I hope you're ready to fight the &0Wither&c. Because of this, I recommend using some kind of Wither-Proof Glass, such as Tinted Glass from Mob Grinding Utils, or Crystalix Glass with Reinforced Mode enabled.&c"]
 	quest.3CB7884B7B32CF00.quest_subtitle: "Ether Gas? Huh?"
-	quest.3E6706BC4C318A40.quest_desc: ["The Sewer is used to make Sewage, which is used to make Fertilizer."]
+	quest.3E6706BC4C318A40.quest_desc: ["The Sewer makes &#8B4513Sewage&r from animals in its working area, as well as absorb &aExperience&r from players to convert into &aEssence&r.\\n\\nThe Sewage Composter can turn &#8B4513Sewage&r into &#8B4513Fertilizer&r.\\n\\nThe Sewer supports Range Addons."]
+	quest.3E6706BC4C318A40.quest_subtitle: "Fresh from the Manure Field, your spookiness"
 	quest.3E6706BC4C318A40.title: "Sewer"
-	quest.418E57E34FFC19E1.quest_desc: ["Suggestion: Use some sort of Wither-Proof Glass."]
+	quest.408203C29BAABA44.quest_desc: ["Only used for one thing."]
+	quest.418E57E34FFC19E1.quest_desc: ["The Ore Laser Base is &bIndustrial Foregoing&r's Void Miner, being able to conjure ores out of thin air. Lens allow you to favor a specific color of ore, such as Blue for Lapis.\\n\\nThe Fluid Laser Base produces Fluids out of either thin air or from specific mobs. These require you to use specific Lens. Mobs that are used to produce Fluids will take damage, so using a Stasis Chamber for it is recommended.\\n\\nLaser Drills provide progress to the Laser Base in its working area."]
 	quest.418E57E34FFC19E1.quest_subtitle: "Void Miner"
 	quest.418E57E34FFC19E1.title: "Laser Drill"
+	quest.41E8550FC36ABCA5.quest_desc: ["Infinity Tools, so called because of their ability to be charged near-infinitely. Increasing the tier of the tool can give said tool special perks. Having &5Biofuel&r in them will make them more efficient, by consuming the fuel instead of power when used.\\n\\nThere are 7 tiers:\\nPoor\\nCommon\\nUncommon\\nRare\\nEpic\\nLegendary\\nArtifact\\n\\nTo learn more about each Infinity Tool, check out Industrial Foregoing's Manual (so that I don't have to cover so many infinity tools in one quest)!"]
 	quest.41E8550FC36ABCA5.title: "Infinity Tools"
 	quest.427C3AFC0FF131CD.title: "Fluids"
+	quest.483E93500E645835.quest_desc: ["It's at least more versatile than the ingot."]
+	quest.485AFAE5BBEF2FC7.quest_desc: ["The Animal Rancher shears &zSheep&r and milks &8C&ro&8w&rs.\\n\\nThe Animal Feeder feeds animals so they can breed.\\n\\nThe Animal Baby Separator teleports babies behind it.\\n\\nAll of these machines support Range Addons."]
 	quest.485AFAE5BBEF2FC7.title: "Animals"
+	quest.4A8C60412E59E971.quest_desc: ["This machine can sort enchanted items and unenchanted items. The enchanted items end up in the top inventory, while the unenchanted items end up in the bottom inventory."]
 	quest.4C366515E3CCB0B2.quest_desc: ["Meat through a tube, yummy."]
-	quest.4DB5DD6E20619B4D.quest_desc: ["Used to make machines better."]
-	quest.540B857F043C24D5.quest_desc: ["The Bioreactor uses Biofuel made from the Biofuel Generator to generate FE."]
+	quest.4DB5DD6E20619B4D.quest_desc: ["Used to make machines better. There are 4 tiers of addons, and 8 more specifically for Range."]
+	quest.4F3EF1574F31A7E2.quest_desc: ["The Stasis Chamber can hold mobs in place in its working area. The mobs held under stasis are also healed by the Chamber. Need more healing? Get some addons!"]
+	quest.538186D01429F05F.quest_desc: [
+		"In this quest, we will be focusing on using AE2 to automate the &cPotion Brewer&r. First, build a setup like so:"
+		"{image:atm:textures/questpics/industrialforegoing/potionbrewerdemonstration.png width:175 height:200 align:center}"
+		"(The Creative Energy Cell serves as a placeholder for your main network)"
+		"{@pagebreak}"
+		"We'll need either an &9Export Bus&r or an &9Interface&r to fill the &cPotion Brewer&r with &1Water&r and &6Blaze Powder&r. The &6Blaze Powder&r will be used as fuel. Do not provide bottles yet, as they will fill your network with Water Bottles."
+		"{@pagebreak}"
+		"The next step will be to get an"
+		"&5Advanced Pattern Provider&r. Check the Extended \\& Advanced AE chapter to learn more about how to use it. Next, we'll need to encode a pattern. An example will be to brew a &4Potion of Healing&r, focused on Royal Treats for Modular Bees. Encode the pattern like so: 3 Glass Bottles, 1 Nether Wart, 1 Glistering Melon Slice, to produce 3 &4Potions of Healing&r. We'll be using both of the &5Advanced Provider&r's special abilities here. First is its ability to send items to a specific side. We'll be using this to send Glass Bottles to the TOP side of the machine. Use the &5Advanced Pattern Encoder&r to encode the pattern, like so:"
+		"{image:atm:textures/questpics/industrialforegoing/advanced_pattern.png width:200 height:100 align:center}"
+		"{@pagebreak}"
+		"Next, we need to enable Filtered Import on the &5Advanced Provider&r. This will make it so that the &5Advanced Provider&r only accepts items that match currently active crafting jobs. This means it won't accept potions prematurely. You can also add Processing Addons to aid with this, especially with large enough crafting jobs that may use that same provider.\\n\\nLastly, you'll have to configure the sides of the Potion Brewer like so:"
+		"{image:atm:textures/questpics/industrialforegoing/blaze_input.png width:125 height:100 align:center}"
+		"{image:atm:textures/questpics/industrialforegoing/bottle_input.png width:125 height:100 align:center}"
+		"{image:atm:textures/questpics/industrialforegoing/brewing_input.png width:125 height:100 align:center}"
+		"{image:atm:textures/questpics/industrialforegoing/output.png width:125 height:100 align:center}"
+		"If you're using the &9Interface&r method, configure the sides like so:"
+		"{image:atm:textures/questpics/industrialforegoing/blaze_input_for_interface.png width:125 height:100 align:center}"
+		"{image:atm:textures/questpics/industrialforegoing/water_for_interface.png width:125 height:100 align:center}"
+		"{@pagebreak}"
+		"Optionally, you can place a Transfer Label between the &5Advanced Provider&r and the &cBrewer&r.\\n\\nIf you're still confused by this setup, or would rather watch a video, check out the video I have linked here, from ChosenArchitect:"
+		"{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://youtu.be/DOW4xkxqp6g?si=paZ2xFKyycPumqaS&t=427\"},\"color\":\"blue\",\"text\":\"VIDEO LINK HERE\",\"underlined\":true} "
+	]
+	quest.538186D01429F05F.quest_subtitle: "Using AE2"
+	quest.538186D01429F05F.title: "Automating the Potion Brewer"
+	quest.540B857F043C24D5.quest_desc: ["The Bioreactor produces &5Biofuel&r with &9Water&r and a bunch of different materials (check JEI for all valid Bioreactor Inputs). The more types of materials you provide, the more efficient the Bioreactor is at producing &5Biofuel&r.\\n\\nThe Biofuel Generator uses &5Biofuel&r made from the &5Bioreactor&r to generate FE."]
 	quest.540B857F043C24D5.title: "Bio Power"
 	quest.55820773BDD5319D.quest_desc: ["&bIndustrial Foregoing&r (IF for short) is a tech mod that adds many machines with various different uses.\\n\\nTo get started, craft a &aPity Machine Frame&r."]
 	quest.55820773BDD5319D.quest_subtitle: "Tier: &a1"
@@ -50,16 +99,39 @@
 	quest.57C4A0BAE739E903.quest_desc: ["The Dissolution Chamber is used to craft more advanced machines.\\n\\nYou will need to put a certain fluid in it along with the items needed for what you are crafting. Check JEI."]
 	quest.57C4A0BAE739E903.quest_subtitle: "The Crafting Table?"
 	quest.5FE631066CAB7397.quest_desc: ["Used to trap and transport mobs easily."]
+	quest.605A5AC65BC7E864.quest_desc: ["The Marine Fisher can fish automatically. Can catch fish, treasures, enchanted books, and some other stuff. Can't catch bees, though, you'll have to fish manually for that one.\\n\\nMust be placed above a 3x3 &9Water&r pool (or bigger)."]
+	quest.616CFD4078D67B51.quest_desc: ["Conveyors are another way to transport stuff. They work with items, entites, and even fluids. They can interact with the world with Conveyor Upgrades.\\n\\nYou can upgrade conveyors with Glowstone to make them faster, and with Plastic to stop them from picking up items. "]
+	quest.65C147F5282E8FCD.quest_desc: ["The Infinity Charger is your best option for charging Infinity Tools. It holds a &llot&r of FE, perfect for the Infinity Tools.\\n\\nIt can charge other stuff, too."]
 	quest.690CFF61CE787D43.quest_desc: ["Plastic is the main resource of &bIndustrial Foregoing&r, you now have access to some very useful machines!"]
+	quest.6C001E18093FC037.quest_desc: ["The Plant Gatherer harvests plants in its working area. Harvested plants can give &#5919B6Sludge&r, which can be used in a Sludge Refiner. When supplied with &bEther Gas&r, the Plant Gatherer will automatically replant crops.\\n\\nThe Plant Sower automatically plants crops and saplings. It has 9 color coded inventory slots, which correspond to the colored markings on top of the Plant Sower. The working area of the machine is divided into 9 segments, which correspond to the various inventory slots.\\n\\nBoth of these machines support Range Addons."]
 	quest.6C001E18093FC037.title: "Plants"
-	quest.6FF04DD735346BED.quest_desc: ["Turns Latex into Dry Rubber."]
+	quest.6E131A32A96D7BF5.quest_desc: ["The Sludge Refiner can use &#5919B6Sludge&r to produce stuff like Dirt, Gravel, Soul Sand...whatever...check JEI for the rest."]
+	quest.6FF04DD735346BED.quest_desc: ["Turns Latex into Dry Rubber. Uses 750 mB of Latex and 500 mB of &9Water&r to produce 1 Dry Rubber."]
+	quest.79D48F8F31B152C3.quest_desc: [
+		"&bIndustrial Foregoing &#27AEB9Souls&r adds machines to allow you to accelerate other machinery.\\n\\nThe &#27AEB9Soul Laser Base&r is the heart of this, working similarly to a Fluid Laser Base extracting Ether Gas from a Wither. It uses &9Blue Laser Lens&r to extract &#27AEB9Souls&r from a &#27AEB9Warden&r, which can be extracted with &#27AEB9Soul Pipes&r, or used with one of the two major digital storage mods (AE2 and RS). These &#27AEB9Souls&r will be used by &#27AEB9Soul Surges&r, in order to accelerate blocks.\\n\\nExtracting &#27AEB9Souls&r from the &#27AEB9Warden&r is a &4&lpainful&r process to the creature, meaning it takes damage from the process, and can even die from it. Stasis Chambers are highly recommended, especially with upgrades to make the healing faster."
+		"{@pagebreak}"
+		"Ensure there's a 3 block gap between the floor and the &#27AEB9Soul Laser Base&r, like so:"
+		"{image:atm:textures/questpics/industrialforegoing/soul_laser_gap.png width:100 height:100 align:center}"
+		"Additionally, ensure the &#27AEB9Warden&r has fully emerged before putting it under stasis."
+	]
+	quest.79D48F8F31B152C3.quest_subtitle: "Gotta go fast!"
+	quest.79D48F8F31B152C3.title: "&bIndustrial Foregoing &#27AEB9Souls"
 	quest.7B4AF35313D7D779.quest_subtitle: "Tier: &64"
 	quest.7B4AF35313D7D779.title: "&6Supreme Machine Frame"
+	quest.7CB4D47ABC295B92.quest_desc: ["It brews potions. Much like a standard Brewing Stand, it requires Blaze Powder as fuel, and uses bottles. Unlike a Brewing Stand, though, it can autofill those bottles with water.\\n\\nUnlike with other quests where I give a brief overview of the machine, I will provide a setup in another quest to automate this machine, as it is fairly janky and unintuitive in some areas."]
+	quest.7E39FB9F3E973009.quest_subtitle: "No, it's not a Mekanism Chemical, it's Wither Milk"
 	quest.7E39FB9F3E973009.title: "Ether Gas"
+	quest.7EA218A489641684.quest_desc: ["Buuz135 (developer of &bIndustrial Foregoing&r) didn't want Souls to be a resource you store. Ultramega makes it storable anyway.\\n\\nTip: Use a Regulator Upgrade to prevent the Exporter from dumping all your souls into the connected Soul Pipe."]
+	quest.7EA218A489641684.quest_subtitle: "Buuz didn't want this"
+	quest.7EA218A489641684.title: "Soul Storage?"
 	task.1F1A69738DE70DB6.title: "The Mycelial Reactor"
 	task.335D80E83360A7DB.title: "Understanding Ether Gas"
 	task.38E166AC8F55D42E.title: "Upgrades"
 	task.391AB5CA0E5C35FD.title: "Understanding Latex and Plastic"
+	task.4031B8B8FBDDEEE4.title: "Transfer Labels"
+	task.5BCE4EFD40BF767D.title: "Wrenches that work with IF Machines"
 	task.6B17A0D9906E8C90.title: "AllRightsReserved"
+	task.6D00B76B8A141BB8.title: "Any #advanced_ae:adv_pattern_provider"
 	task.7058D3373DA87B34.title: "AllRightsReserved"
+	task.7FBDB1383D052B82.title: "ME Export Bus OR ME Interface"
 }

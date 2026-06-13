@@ -9,6 +9,9 @@ ServerEvents.recipes(allthemods => {
   allthemods.shapeless('9x minecraft:snow_block', ['allthecompressed:snow_1x'])
   allthemods.shapeless('allthecompressed:snow_1x', ['9x minecraft:snow_block']).id(`allthecompressed:compress/snow_1x_manual_only`)
 
+  // Fix fluorite recipe conflict
+  allthemods.remove({ id: 'alltheores:processing/fluorite/dust/from_ore' })
+
   let $HashSet = Java.loadClass("java.util.HashSet")
 
   const blockedMods = new $HashSet(['modern_industrialization', 'mysticalagriculture', 'mysticalagradditions', 'extendedae', 'mekanism'])

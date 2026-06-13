@@ -1,0 +1,61 @@
+{
+	quest.1568CBFA09827137.quest_desc: ["Sama seperti Logic Programmer, cuma yang ini bisa dipakai di mana saja."]
+	quest.1B5C86AE05678420.quest_desc: ["Saat klik kanan pada interface, akan muncul beberapa opsi, ini fungsinya:\\n\\n&lSet Side&r: Di bagian atas layar, bisa mengatur sisi yang \"bertindak\" seperti interface. Berguna untuk mesin dengan sisi input/output tertentu.\\n\\n&lTicks/Operation&r: Kalau interface diatur 10 ticks/operation, akan import/export sekali setiap 10 tick (0.5 detik).\\n\\n&lPriority&r: Mengirim item ke inventory dengan interface prioritas lebih tinggi.\\n\\n&lItem/Energy Channels&r: Ini akan membagi sistem menjadi beberapa channel. Bisa push dan pull dari tempat berbeda di network."]
+	quest.232A06C9FF0EE7B2.quest_desc: ["Menril Seeds bisa dipakai untuk mengotomasi Menril Berries, Menril Logs dan Menril Saplings."]
+	quest.232A06C9FF0EE7B2.quest_subtitle: "Mengotomasi Menril"
+	quest.2F37E284BB83BFF6.quest_desc: ["Wrench dipakai untuk memutar atau menghancurkan block tertentu, shift klik kanan di udara untuk ganti mode."]
+	quest.33F4A7613764A016.quest_desc: ["Kerjanya seperti Importer, cuma ini export."]
+	quest.33F4A7613764A016.quest_subtitle: "Exporting"
+	quest.3BC94B0B922C0708.quest_desc: ["Ini adalah bahan crafting untuk barang yang melakukan importing, baik itu item, fluid, atau energy."]
+	quest.3C9539083BCC145C.quest_desc: ["Menril Bees bisa dipakai untuk mengotomasi Crystallized Menril Chunks."]
+	quest.3C9539083BCC145C.quest_subtitle: "Mengotomasi Menril"
+	quest.437F4945AFBE0825.quest_desc: ["Saat klik kanan pada Importer atau Exporter, akan muncul menu. Menu ini terutama untuk filtering, misalnya punya Variable Card yang diatur ke Cobblestone, Exporter hanya akan mengirim Cobblestone.\\n\\nAda tanda \"+\" kecil di sebelah kiri variable saat dimasukkan, klik untuk membuka GUI lain. Di sini bisa mengubah transfer rate untuk bisa mengirim item/fluid/energy &dTANPA BATAS&r, dan bisa melakukan hal lain juga.\\n\\nDi kiri atas ada settings, ini sebagian besar sama dengan interface settings."]
+	quest.44DA091B53473723.quest_desc: ["Mechanical Squeezer menggunakan energy untuk squeeze."]
+	quest.450EDE68EC992A5A.quest_desc: ["Interface &cmembaca&r apapun yang dilihatnya. Bisa dianggap seperti &bAE2&r Storage Bus.\\n\\nBelum tahu itu apa? Ini contohnya: Chest dengan 100 Cobblestone di dalamnya punya interface, berarti network ID punya 100 Cobblestone di sistemnya, cukup simpel kan?"]
+	quest.450EDE68EC992A5A.quest_subtitle: "Interface Punya GUI!"
+	quest.499CF9F39CED8899.quest_desc: ["&bIntegrated Dynamics&r (ID) adalah mod logistics yang bisa dipakai untuk storage, transfer item/power/fluid dan lainnya!\\n\\nPohon Menril bisa ditemukan di biome Meneglin.\\n\\nQuest ini akan membahas beberapa konsep dasar mod ini, baca guidebook yang diberikan sebagai reward untuk quest ini kalau ingin lebih dalam."]
+	quest.499CF9F39CED8899.quest_subtitle: "Menumbuhkan Menril"
+	quest.499CF9F39CED8899.title: "&bIntegrated Dynamics"
+	quest.4A05C037C0EE40BD.quest_desc: ["Logic Cables berbeda dari cable lain. Cable lain bertindak seperti Hopper, item bergerak dari 1 Inventory, ke cable, lalu ke inventory ke-2. Logic Cables langsung skip perantara yang juga skip banyak lag.\\n\\nIni hanya untuk menghubungkan Importer dan Interface."]
+	quest.4A05C037C0EE40BD.quest_subtitle: "Membuat Network"
+	quest.4A05C037C0EE40BD.title: "Logic Cables"
+	quest.4D4152032F0410D2.quest_desc: ["Logic Programmer memungkinkan mengatur nilai variable. Bisa diatur ke item dan fluid untuk filtering, atau bahkan nilai. \\n\\nContoh sederhana: Pilih &bItem&r dari sisi kiri, masukkan item pilihan ke slot tengah GUI yang muncul, dan masukkan &bVariable Card&r di slot kanan bawah. Kalau kemudian memasukkan variable card itu di importer/exporter, hanya akan import/export block itu!"]
+	quest.4D4152032F0410D2.quest_subtitle: "Jadi Advanced"
+	quest.4D62C62B523C69EC.quest_desc: ["Generator menghasilkan FE menggunakan fuel yang bisa dibakar seperti Coal."]
+	quest.4D62C62B523C69EC.quest_subtitle: "Menyediakan Energy!"
+	quest.56BF647EA84FFF7E.quest_desc: ["Menunjukkan resep crafting mana yang sedang terjadi kapan saja."]
+	quest.56BF647EA84FFF7E.quest_subtitle: "Menampilkan Resep"
+	quest.60D9F04E91171D16.quest_desc: ["Ini bisa bertindak sebagai Chest untuk Variable, atau bisa benar-benar dipakai di network advanced.\\n\\nKalau ingin network advanced, pastikan membaca tentang mereka di &eDynamics of Integration&r."]
+	quest.62B4A37CFDECA679.quest_desc: ["Menril Resin akan pergi ke 2 sisi Squeezer. Menempatkan Drying Basin di sebelah Squeezer akan membuat Drying Basin mengambil Menril Resin.\\n\\nSetelah 7.5 detik Menril Resin akan berubah jadi Block of Crystallized Menril."]
+	quest.65D89991A45BC042.quest_desc: ["Taruh Crafting Interface pada crafting table dan klik kanan, ini akan memberikan beberapa slot untuk &bVariable Card&r. \\n\\nMenggunakan Logic Programmer, cari &eRecipe&r di kiri atas, dan buat satu untuk autocrafting, lalu simpan ke &bVariable Card&r. Kalau resep &c&lmembutuhkan&r item yang perlu di-craft, buat resep untuk masing-masing, lalu masukkan semuanya ke Crafting Interface."]
+	quest.65D89991A45BC042.quest_subtitle: "&l&cA&6U&eT&aO &bC&dR&9A&3F&0T"
+	quest.65FA86357BC60573.quest_desc: ["Saatnya memindahkan barang dari satu tempat ke tempat lain. Ini langkah-langkahnya:\\n\\n&l1.&r Taruh interface pada inventory (seperti Chest atau Tank)\\n\\n&l2.&r Taruh Importer atau Exporter pada inventory lain, tergantung mau pull atau send barang ke sana.\\n\\n&l3.&r Hubungkan keduanya dengan Cable, masukkan Variable Card ke Importer atau Exporter, dan selesai!"]
+	quest.65FA86357BC60573.quest_subtitle: "Memindahkan Barang!"
+	quest.68498ADEF9765F81.quest_desc: ["Untuk membuat Crystallized Menril Chunks pertama taruh beberapa Menril Logs di Squeezer. Lompat di Squeezer untuk mengubahnya jadi Menril Resin.\\n\\nBisa mengosongkan Squeezer dengan memberi sinyal Redstone."]
+	quest.6ABDBE41880CFDA9.quest_desc: ["Quest ini dibuat oleh &6AllTheMods Staff&r, atau &2Community contributor&r untuk dipakai di AllTheMods Modpack.\\n\\nKarena semua pack &6AllTheMods&r dilisensikan dengan &eAll Rights Reserved&r, Quest ini tidak boleh dipakai di pack publik manapun yang tidak dirilis oleh &6AllTheMods Team&r tanpa izin eksplisit.\\n\\nQuest ini sengaja disembunyikan, kalau terlihat, berarti sedang di editing mode."]
+	quest.6C9191DA4B1039D6.quest_desc: ["Menril Berries memberikan Night Vision untuk waktu singkat saat dimakan."]
+	quest.6D75CF34957ECCD9.quest_desc: ["Energy Battery memungkinkan menyimpan FE. Untuk mentransfernya, butuh &6Energy Interface&r."]
+	quest.6D75CF34957ECCD9.quest_subtitle: "Menyimpan Energy"
+	quest.72F57D77C3FB366D.quest_desc: ["Block of Crystallized Menril bisa di-craft jadi Crystallized Menril Chunks. Chunk ini adalah bahan crafting utama ID."]
+	quest.72F57D77C3FB366D.quest_subtitle: "Bahan Crafting Utama"
+	quest.72F57D77C3FB366D.title: "Crystallized Menril Chunks"
+	quest.73EA326304C01C3B.quest_desc: [
+		"Taruh Importer pada inventory yang ingin diambil barangnya. Selanjutnya, taruh Interface pada inventory kedua dan hubungkan dengan Logic Cables. Lalu, masukkan Variable Card ke Importer dan ubah sesuai keinginan.\\n\\nBisa diubah untuk import barang pada batas Integer (Lebih dari 2 miliar)."
+		"{image:atm:textures/questpics/logistics/id_item.png width:200 height:50 align:center}"
+		"{image:atm:textures/questpics/logistics/id_fluid.png width:200 height:50 align:center}"
+		"{image:atm:textures/questpics/logistics/id_energy.png width:200 height:50 align:center}"
+	]
+	quest.73EA326304C01C3B.quest_subtitle: "Importing"
+	quest.7413BB136EF9D6C5.quest_desc: ["Mechanical Drying Basin menggunakan energy untuk dry"]
+	quest.79C1105A84B8BF8F.quest_desc: ["Variable Cards diperlukan untuk memulai Interaksi seperti Importing Items. Akan dimasukkan ke salah satu slot Importer untuk menambahkannya.\\n\\nDari sana bisa mengedit semuanya lewat tombol +. Bisa mengubah berapa banyak yang di-Import, slot Item mana, Channel mana, hampir semuanya hanya dengan Card itu.\\n\\nKalau hanya ingin memindahkan item, tidak terlalu rumit, cukup masukkan dan mungkin ubah Limit untuk berapa banyak yang dipindahkan."]
+	quest.79C1105A84B8BF8F.title: "Variable Cards"
+	task.166BA23E49F6DCD6.title: "Importer"
+	task.1C045BB5FAFCF4D3.title: "Interface"
+	task.1C7C0F345759111C.title: "Exporter"
+	task.22CCBBC66D509404.title: "Network!"
+	task.238B5BA2FAE9785B.title: "Hak Cipta Dilindungi"
+	task.2656ACB55A33D4FE.title: "Interface GUI"
+	task.267CE316E1F8FA83.title: "Hak Cipta Dilindungi"
+	task.4209A06A392362DB.title: "Importer \\& Exporter GUI"
+	task.5DD862CF56AF7BF9.title: "Menril Logs"
+}

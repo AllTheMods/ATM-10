@@ -1,10 +1,5 @@
 ServerEvents.recipes(allthemods => {
 
-    allthemods.shapeless('modern_industrialization:auto_forge', `modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:auto_hepheastus_forge"]`)
-    allthemods.shapeless('modern_industrialization:star_altar', `modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:runic_star_altar"]`)
-    allthemods.shapeless('modern_industrialization:runic_crucible', `modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:runic_crucible"]`)
-    allthemods.shapeless('modern_industrialization:runic_enchanter', `modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:runic_enchanter"]`)
-
     allthemods.shapeless('modern_industrialization:runic_fluid_input_hatch', 'modern_industrialization:runic_fluid_output_hatch')
     allthemods.shapeless('modern_industrialization:runic_fluid_output_hatch', 'modern_industrialization:runic_fluid_input_hatch')
 
@@ -12,6 +7,11 @@ ServerEvents.recipes(allthemods => {
     allthemods.shapeless('modern_industrialization:runic_item_output_hatch', 'modern_industrialization:runic_item_input_hatch')
 
     if (Platform.isLoaded('modular_machinery_reborn')) {
+        allthemods.shapeless('modern_industrialization:auto_forge', `modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:auto_hepheastus_forge"]`)
+        allthemods.shapeless('modern_industrialization:star_altar', `modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:runic_star_altar"]`)
+        allthemods.shapeless('modern_industrialization:runic_crucible', `modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:runic_crucible"]`)
+        allthemods.shapeless('modern_industrialization:runic_enchanter', `modular_machinery_reborn:controller[modular_machinery_reborn:machine="atm:runic_enchanter"]`)
+
         allthemods.shapeless('modern_industrialization:runic_item_input_hatch', 'modular_machinery_reborn:inputbus_ludicrous')
         allthemods.shapeless('modern_industrialization:runic_item_output_hatch', 'modular_machinery_reborn:outputbus_ludicrous')
 
@@ -29,15 +29,6 @@ ServerEvents.recipes(allthemods => {
             souls: 1000,
             xp: 25000,
             main: 'forbidden_arcanus:hephaestus_forge_tier_5',
-            secondary: 'alltheores:enderium_gear'
-        },
-        {
-            id: 'modern_industrialization:star_altar',
-            aureal: 200000,
-            blood: 1000000,
-            souls: 10000,
-            xp: 75000,
-            main: 'eternal_starlight:loot_bag[eternal_starlight:loot_table="eternal_starlight:bosses/lunar_monstrosity"]',
             secondary: 'alltheores:enderium_gear'
         },
         {
@@ -59,6 +50,18 @@ ServerEvents.recipes(allthemods => {
             secondary: 'apothic_enchanting:treasure_shelf'
         }
     ]
+
+    if (Platform.isLoaded("eternal_starlight")) {
+        runic_controllers.push({
+            id: 'modern_industrialization:star_altar',
+            aureal: 200000,
+            blood: 1000000,
+            souls: 10000,
+            xp: 75000,
+            main: 'eternal_starlight:loot_bag[eternal_starlight:loot_table="eternal_starlight:bosses/lunar_monstrosity"]',
+            secondary: 'alltheores:enderium_gear'
+        })
+    }
 
     for (let item of runic_controllers) {
         allthemods.recipes.modern_industrialization.auto_forge(512, 300)
@@ -370,7 +373,7 @@ ServerEvents.generateData('after_mods', allthemods => {
             },
             forge_tier: 5,
             inputs: [
-                { amount: 1, ingredient: Ingredient.of('eternal_starlight:loot_bag[eternal_starlight:loot_table="eternal_starlight:bosses/lunar_monstrosity"]').toJson() },
+                { amount: 1, ingredient: Ingredient.of(Platform.isLoaded("eternal_starlight") ? 'eternal_starlight:loot_bag[eternal_starlight:loot_table="eternal_starlight:bosses/lunar_monstrosity"]' : 'ftbquests:missing_item[ftbquests:missing_item="eternal_starlight:loot_bag"]').toJson() },
                 { amount: 1, ingredient: Ingredient.of('enderio:z_logic_controller').toJson() },
                 { amount: 1, ingredient: Ingredient.of('alltheores:enderium_gear').toJson() },
                 { amount: 1, ingredient: Ingredient.of('forbidden_arcanus:mundabitur_dust').toJson() },

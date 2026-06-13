@@ -1,6 +1,7 @@
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
+if (Platform.isLoaded('modular_machinery_reborn')) {
 MMREvents.machines(allthemods => {
     allthemods.create('atm:auto_hepheastus_forge')
         .color('#FF1b1625')
@@ -46,6 +47,7 @@ MMREvents.machines(allthemods => {
                 )
         )
 })
+}
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

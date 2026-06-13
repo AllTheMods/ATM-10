@@ -1,0 +1,29 @@
+{
+  "keys": [
+    {
+      "name": "output",
+      "role": "output",
+      "type": "optional_item_stack",
+      "optional": {},
+      "excluded": true,
+      "allow_empty": true,
+      "always_write": true,
+      "function_names": [
+        "remains"
+      ]
+    },
+    {
+      "name": "food",
+      "role": "input",
+      "type": "optional_ingredient"
+    },
+    {
+      "name": "boost",
+      "role": "other",
+      "type": "positive_float",
+      "optional": 1.0,
+      "always_write": true
+    }
+  ],
+  "unique": ["food"]
+}

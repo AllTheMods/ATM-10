@@ -1,0 +1,30 @@
+{
+  "keys": [
+    {
+      "name": "results",
+      "role": "output",
+      "type": {
+        "type": "list",
+        "component": "fluid_stack",
+        "min": 0
+      }
+    },
+    {
+      "name": "input",
+      "role": "input",
+      "type": "optional_ingredient"
+    },
+    {
+      "name": "base_fluid",
+      "role": "input",
+      "type": "fluid_stack"
+    },
+    {
+      "name": "byproduct",
+      "role": "output",
+      "type": "optional_item_stack",
+      "default_optional": true
+    }
+  ],
+  "unique": ["results"]
+}

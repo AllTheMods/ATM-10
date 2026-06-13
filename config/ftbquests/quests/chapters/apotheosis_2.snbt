@@ -7,14 +7,40 @@
 		id: "minecraft:spawner"
 	}
 	id: "0E81CBCD6B1D1895"
-	images: [{
-		height: 2.5d
-		image: "atm:textures/questpics/apothic/apothic_spawners.png"
-		rotation: 0.0d
-		width: 2.5d
-		x: 1.0d
-		y: -3.5d
-	}]
+	images: [
+		{
+			height: 2.5d
+			image: "atm:textures/questpics/apothic/apothic_spawners.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			height: 3.0d
+			image: "atm:textures/questpics/apothic/spawners_title.png"
+			rotation: 0.0d
+			width: 7.5d
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/apothic/spawn_eggs.png"
+			rotation: 0.0d
+			width: 4.25d
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/apothic/other_spawners.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -4.0d
+			y: 6.0d
+		}
+	]
 	order_index: 0
 	progression_mode: "flexible"
 	quest_links: [ ]
@@ -296,8 +322,8 @@
 				item: { count: 1, id: "minecraft:pointed_dripstone" }
 				type: "item"
 			}]
-			x: 0.013605442176867655d
-			y: 1.1921768707483054d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["310969B8FE0A94DE"]
@@ -332,6 +358,288 @@
 			]
 			x: -2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["310969B8FE0A94DE"]
+			icon: {
+				id: "minecraft:creeper_spawn_egg"
+			}
+			id: "78E94C386B1E7359"
+			size: 1.5d
+			tasks: [{
+				id: "55587BA32D30318C"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["78E94C386B1E7359"]
+			id: "223A5BDB5056B781"
+			rewards: [{
+				id: "347FCC7238BED717"
+				type: "xp"
+				xp: 250
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "45250DA4433007C6"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"minecraft:stored_enchantments\":{levels:{\"apothic_spawners:capturing\":1}}})component(fuzzy:{\"minecraft:stored_enchantments\":{levels:{\"apothic_spawners:capturing\":2}}})component(fuzzy:{\"minecraft:stored_enchantments\":{levels:{\"apothic_spawners:capturing\":3}}})component(fuzzy:{\"minecraft:stored_enchantments\":{levels:{\"apothic_spawners:capturing\":4}}})component(fuzzy:{\"minecraft:stored_enchantments\":{levels:{\"apothic_spawners:capturing\":5}}})component(fuzzy:{\"minecraft:stored_enchantments\":{levels:{\"apothic_spawners:capturing\":6}}})component(fuzzy:{\"minecraft:stored_enchantments\":{levels:{\"apothic_spawners:capturing\":7}}}))item(minecraft:enchanted_book)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["78E94C386B1E7359"]
+			icon: {
+				id: "mob_grinding_utils:mob_swab"
+			}
+			id: "2D8A7065F8CDDDDD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14AB7688476C1E7A"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+				{
+					id: "025B994E9FD2A991"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "09A203572F22E8C0"
+					item: { count: 1, id: "mob_grinding_utils:mob_swab" }
+					type: "item"
+				}
+				{
+					id: "6A994FB418E4E4F9"
+					item: { count: 1, id: "mob_grinding_utils:gm_chicken_feed" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78E94C386B1E7359"]
+			id: "6D3B958E49AE7BDB"
+			rewards: [{
+				id: "20864F3CFAEE9AC2"
+				item: {
+					count: 1
+					id: "reliquary:mob_charm_belt"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "24893D6EDE0BD819"
+				item: { components: { "ftbfiltersystem:filter": "item(reliquary:mob_charm_fragment)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["78E94C386B1E7359"]
+			id: "76A3A2A97AB66C43"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A03461ED7CB7A80"
+				table_id: 7482740998888138375L
+				type: "random"
+			}]
+			shape: "gear"
+			tasks: [{
+				id: "66A1606D1C71B9A0"
+				item: { count: 1, id: "evilcraft:spirit_reanimator" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			id: "0F0E227FC3EC0D90"
+			tasks: [{
+				id: "524CBF7058496E7F"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0F0E227FC3EC0D90"]
+			id: "263860CADB3D76C6"
+			rewards: [{
+				id: "62BCE23F19CA2F37"
+				item: {
+					count: 1
+					id: "enderio:soul_vial"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6AA7603047B9C2C3"
+				item: { count: 1, id: "enderio:powered_spawner" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["310969B8FE0A94DE"]
+			id: "1102B27CBF564127"
+			rewards: [{
+				id: "4D4E6410478D7BD0"
+				type: "xp"
+				xp: 50
+			}]
+			tasks: [{
+				id: "3839A67493B2E5C3"
+				item: { count: 1, id: "pneumaticcraft:spawner_agitator" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F0E227FC3EC0D90"]
+			id: "52FAF122466FDDC9"
+			rewards: [{
+				id: "2C50289EC000A6F5"
+				item: {
+					count: 1
+					id: "draconicevolution:wyvern_core"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7F1DCDE71D01DE02"
+				item: { count: 1, id: "draconicevolution:stabilized_spawner" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0F0E227FC3EC0D90"]
+			id: "6D68D9941049E806"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B334A14FC74C8DD"
+				table_id: 6355363837720688303L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6D7441BB9E437F9F"
+				item: { count: 1, id: "ars_additions:source_spawner" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["0F0E227FC3EC0D90"]
+			icon: {
+				id: "mob_grinding_utils:entity_spawner"
+			}
+			id: "39E822440E7D2E04"
+			rewards: [{
+				count: 10
+				id: "11BAFE64320D8A4A"
+				item: {
+					count: 1
+					id: "mob_grinding_utils:solid_xp_baby"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "34F104E7633BBBD5"
+					item: { count: 1, id: "mob_grinding_utils:entity_spawner" }
+					type: "item"
+				}
+				{
+					id: "53D49F15F44633C5"
+					item: { count: 1, id: "mob_grinding_utils:xpsolidifier" }
+					type: "item"
+				}
+				{
+					id: "3DA4F5633DF0D9A2"
+					item: { count: 1, id: "mob_grinding_utils:solid_xp_mould_baby" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0F0E227FC3EC0D90"]
+			id: "3F55F3CC8519D783"
+			rewards: [{
+				count: 8
+				id: "2F9367F293B4C29E"
+				item: {
+					count: 1
+					id: "mysticalagriculture:soulium_dust"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3723217873D61097"
+				item: { count: 1, id: "mysticalagriculture:soulium_spawner" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0F0E227FC3EC0D90"]
+			id: "72AE56D34834D28E"
+			tasks: [{
+				id: "4CE833AB331E43E6"
+				item: { count: 1, id: "pneumaticcraft:pressurized_spawner" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0F0E227FC3EC0D90"]
+			id: "21C2458FED19363C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F9C649B1E5EB36A"
+				table_id: 5124217649411489500L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0B123D1F8C297D24"
+				item: { count: 1, id: "industrialforegoing:mob_duplicator" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["78E94C386B1E7359"]
+			id: "77A8E8122870BBCE"
+			rewards: [{
+				id: "4BAB5A158ADC1B51"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "3FE2620CFA1EA910"
+				item: { count: 1, id: "apothic_enchanting:occult_ender_lead" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
 		}
 	]
 }

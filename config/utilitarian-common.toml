@@ -8,3 +8,13 @@ disableRecipeAdvancements = true
 enableDingDongStartupSound = true
 #Name of sound to play. Default is entity.experience_orb.pickup
 dingDongSound = "entity.experience_orb.pickup"
+#Enable log supressor
+logSuppressorEnabled = true
+#A list of word sequences that if a log message starts with will be stopped.
+logSuppressorStartsWithMessages = ["Encountered unknown"]
+#A list of word sequences that if a log message ends with will be stopped.
+logSuppressorEndsWithMessages = []
+#A list of word sequences that if contained in a log message will be stopped.
+logSuppressorContainsMessages = []
+#A list of regex that if a log message matches it will be stopped. Don't use this if you don't know what you're doing.
+logSuppressorRegexMessages = []

@@ -1,0 +1,27 @@
+#General settings
+[general]
+	#Is Enabled?
+	enabled = true
+	#Cost
+	# Default: 100
+	# Range: > -2147483648
+	cost = 100
+	#Is Starter Glyph?
+	starter = false
+	#The maximum number of times this glyph may appear in a single spell
+	# Default: 2147483647
+	# Range: > 1
+	per_spell_limit = 2147483647
+	#The tier of the glyph
+	# Default: 3
+	# Range: 1 ~ 99
+	glyph_tier = 3
+	#Limits the number of times a given augment may be applied to a given effect
+	#Example entry: "glyph_amplify=5"
+	augment_limits = ["ars_nouveau:glyph_fortune=4"]
+	#How much an augment should cost when used on this effect or form. This overrides the default cost in the augment config.
+	#Example entry: "glyph_amplify=50"
+	augment_cost_overrides = []
+	#Prevents the given glyph from being used in the same spell as the given glyph
+	#Example entry: "glyph_burst"
+	invalid_combos = ["ars_nouveau:glyph_fortune"]

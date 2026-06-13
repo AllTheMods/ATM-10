@@ -21,7 +21,7 @@ ServerEvents.recipes(allthemods => {
     allthemods.recipes.modern_industrialization.runic_crucible(32, 100)
         .itemIn('4x forbidden_arcanus:corrupti_dust')
         .itemIn('forbidden_arcanus:soul')
-        .itemIn('4x eternal_starlight:trapped_soul')
+        .itemIn(Platform.isLoaded("eternal_starlight") ? '4x eternal_starlight:trapped_soul' : 'ftbquests:missing_item[ftbquests:missing_item="eternal_starlight:trapped_soul"]')
         .fluidIn("2500x starbunclemania:source_fluid")
         .itemOut('forbidden_arcanus:corrupt_soul')
 

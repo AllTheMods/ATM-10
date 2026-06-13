@@ -46,8 +46,8 @@ StartupEvents.registry('item', allthemods => {
 
 StartupEvents.registry('mekanism:chemical', allthemods => {
     global.mekStackAdditions.forEach(entry => {
-    allthemods.createCustom(`clean_${entry.material}`, () => Chemical(ChemicalBuilder.cleanSlurry().tint(Color.of(entry.color).getRgb()).ore(`c:ores/${entry.material}`)))
-    allthemods.createCustom(`dirty_${entry.material}`, () => Chemical(ChemicalBuilder.dirtySlurry().tint(Color.of(entry.color).getRgb()).ore(`c:ores/${entry.material}`)))
+    allthemods.createCustom(`clean_${entry.material}`, () => Chemical(ChemicalBuilder.cleanSlurry().tint(Color.wrap(entry.color).getRgb()).ore(`c:ores/${entry.material}`)))
+    allthemods.createCustom(`dirty_${entry.material}`, () => Chemical(ChemicalBuilder.dirtySlurry().tint(Color.wrap(entry.color).getRgb()).ore(`c:ores/${entry.material}`)))
 })
 })
 

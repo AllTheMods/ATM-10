@@ -12,7 +12,7 @@ ServerEvents.recipes(allthemods => {
     I: 'allthemodium:piglich_heart_block',
     B: 'productivebees:spawn_egg_configurable_bee[entity_data={id:"productivebees:configurable_bee",type:"productivebees:soul_lava"}]',
 	  G: 'cataclysm:abyssal_sacrifice',
-    E: 'eternal_starlight:chain_of_souls'
+    E: Platform.isLoaded("eternal_starlight") ? 'eternal_starlight:chain_of_souls' : 'ftbquests:missing_item[ftbquests:missing_item="eternal_starlight:chain_of_souls"]'
   }).id('allthemods:allthetweaks/dragon_soul')
 
  // Improbable Probability Device

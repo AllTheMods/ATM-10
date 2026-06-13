@@ -601,18 +601,11 @@
 				}
 			]
 			shape: "diamond"
-			tasks: [
-				{
-					id: "048E4473A97AD33E"
-					item: { count: 1, id: "evilcraft:vengeance_ring" }
-					type: "item"
-				}
-				{
-					id: "1F78BC1E71207D66"
-					item: { count: 1, id: "evilcraft:vengeance_essence" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "048E4473A97AD33E"
+				item: { count: 1, id: "evilcraft:vengeance_ring" }
+				type: "item"
+			}]
 			x: 1.5d
 			y: 1.5d
 		}
@@ -796,7 +789,7 @@
 				{
 					count: 33L
 					id: "3CD25851F90C3E12"
-					item: { count: 33, id: "evilcraft:dark_blood_brick" }
+					item: { count: 1, id: "evilcraft:dark_blood_brick" }
 					type: "item"
 				}
 			]
@@ -1472,6 +1465,42 @@
 			}]
 			x: -2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["066438B01655D866"]
+			icon: {
+				id: "evilcraft:piercing_vengeance_focus"
+			}
+			id: "6B7C016407F7AE3C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "65149F8E8F302BA8"
+					table_id: 7482740998888138375L
+					type: "random"
+				}
+				{
+					id: "2CD79ECB72D7D3D9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					id: "525E20417F77B456"
+					item: { count: 1, id: "evilcraft:piercing_vengeance_focus" }
+					type: "item"
+				}
+				{
+					id: "05BDFDBF2FCE8A50"
+					item: { count: 1, id: "evilcraft:vengeance_essence" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 2.5d
 		}
 	]
 }

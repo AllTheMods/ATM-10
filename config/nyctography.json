@@ -1,0 +1,46 @@
+{
+  "banner_stencil_trade": {
+    "//": [
+      "The wandering trader may sell the nyctograph alphabet banner pattern to players.",
+      "These options configure the properties of that trade entry.                     "
+    ],
+    "value": {
+      "enabled": {
+        "//": "Determines if the trade should be registered or not.",
+        "//default": true,
+        "value": true
+      },
+      "currency_item": {
+        "//": "The ID of the item used to buy this trade.",
+        "//default": "minecraft:emerald",
+        "value": "minecraft:emerald"
+      },
+      "cost": {
+        "//": "The amount of the currency item required.",
+        "//default": 5,
+        "value": 5
+      },
+      "uses": {
+        "//": [
+          "The amount of times the trade can be performed before the villager needs to     ",
+          "restock.                                                                        "
+        ],
+        "//default": 4,
+        "value": 4
+      },
+      "is_rare": {
+        "//": [
+          "Determines if the trade should be registered to the rare pool or the common     ",
+          "pool.                                                                           "
+        ],
+        "//default": true,
+        "value": true
+      }
+    }
+  },
+  "craftable_banner_pattern": {
+    "//": "Determines if the nyctograph banner pattern recipe should be craftable.",
+    "//default": true,
+    "value": true
+  }
+}

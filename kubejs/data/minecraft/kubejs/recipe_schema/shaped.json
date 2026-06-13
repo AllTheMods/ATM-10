@@ -1,0 +1,93 @@
+{
+	"factory": "kubejs:shaped",
+	"keys": [
+		{
+			"name": "result",
+			"role": "output",
+			"type": "item_stack"
+		},
+		{
+			"name": "pattern",
+			"type": {
+				"type": "list",
+				"component": "string"
+			}
+		},
+		{
+			"name": "key",
+			"role": "input",
+			"type": {
+				"type": "pattern",
+				"component": "ingredient"
+			}
+		},
+		{
+			"name": "kubejs:mirror",
+			"type": "boolean",
+			"function_names": ["kjsMirror"],
+			"optional": true,
+			"excluded": true
+		},
+		{
+			"name": "kubejs:shrink",
+			"type": "boolean",
+			"function_names": ["kjsShrink"],
+			"optional": true,
+			"excluded": true
+		},
+		{
+			"name": "category",
+			"role": "other",
+			"type": "crafting_book_category",
+			"optional": "misc",
+			"excluded": true
+		},
+		{
+			"name": "show_notification",
+			"role": "other",
+			"type": "boolean",
+			"optional": true,
+			"excluded": true
+		}
+	],
+	"unique": ["result"],
+	"constructors": [
+		{
+			"keys": ["result", "pattern", "key"]
+		}
+	],
+	"functions": {
+		"noMirror": {
+			"type": "set",
+			"key": "kubejs:mirror",
+			"value": false
+		},
+		"noShrink": {
+			"type": "set",
+			"key": "kubejs:shrink",
+			"value": false
+		},
+		"noNotification": {
+			"type": "set",
+			"key": "show_notification",
+			"value": false
+		},
+		"buildingCategory": {
+			"type": "set",
+			"key": "category",
+			"value": "building"
+		},
+		"redstoneCategory": {
+			"type": "set",
+			"key": "category",
+			"value": "redstone"
+		},
+		"equipmentCategory": {
+			"type": "set",
+			"key": "category",
+			"value": "equipment"
+		}
+	},
+	"post_processors": [
+	]
+}

@@ -1,0 +1,66 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "create_hypertube:redstone_detector_tube_attachment"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "chance": 100.0,
+      "id": "create_hypertube:tube_scanner_attachment"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_hypertube:tube_scanner_unfinished"
+        },
+        {
+          "tag": "c:plates/brass"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_hypertube:tube_scanner_unfinished"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_hypertube:tube_scanner_unfinished"
+        },
+        {
+          "item": "create:electron_tube"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_hypertube:tube_scanner_unfinished"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "create_hypertube:tube_scanner_unfinished"
+        },
+        {
+          "tag": "c:plates/brass"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_hypertube:tube_scanner_unfinished"
+        }
+      ]
+    }
+  ],
+  "transitional_item": {
+    "id": "create_hypertube:tube_scanner_unfinished"
+  }
+}
