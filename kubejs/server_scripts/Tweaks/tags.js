@@ -522,6 +522,7 @@ ServerEvents.tags('block', allthemods => {
 ServerEvents.tags('worldgen/biome', allthemods => {
   // JustDireThings
   allthemods.add('justdirethings:unstable_portal_fluid_viable', ["nullscape:crystal_peaks", "nullscape:shadowlands", "nullscape:void_barrens"]);
+  allthemods.add("c:mushroom",["#c:is_mushroom"])
 });
 
 ServerEvents.tags('mob_effect', allthemods => {
