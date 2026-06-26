@@ -240,6 +240,10 @@ KubeJSTweaks.beforeRecipes(event => {
   if (!Platform.isLoaded("aeronautics")){
     event.disable(["create_dragons_plus:crafting/fragile_fluid_tank","create_dragons_plus:crafting/levitite_fragile_fluid_tank"])
   }
+  
+  event.getEntry("justenoughbreeding:breeding/iceandfire/lightning_dragon").forEach(entry => {
+    entry.replaceValueAtKey("outputs", "item", "iceandfire:dragonegg_amythest", "iceandfire:dragonegg_amethyst")
+  })  
 
   console.log(`Fixing recipes took ${timer.stop().elapsed("milliseconds")} ms...`)
 })

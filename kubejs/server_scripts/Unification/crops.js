@@ -168,13 +168,13 @@ ServerEvents.recipes(allthemods => {
 
   allthemods.shapeless('merrymaking:sweet_potato_pie', ['#c:milk', 'minecraft:wheat', 'minecraft:sugar', 'minecraft:egg', '#c:vegetables/sweet_potato']).id('allthemods:merrymaking/sweet_potato_pie')
 
-  allthemods.shapeless('8xmerrymaking:icing', ['minecraft:sugar', '#c:milk', 'minecraft:bowl']).id('allthemods:merrymaking/icing')
+  allthemods.shapeless('8x merrymaking:icing', ['minecraft:sugar', '#c:milk', 'minecraft:bowl']).id('allthemods:merrymaking/icing')
 
-  allthemods.shapeless('8xmerrymaking:ground_ginger', ['#c:crops/ginger']).id('allthemods:merrymaking/ground_ginger')
+  //allthemods.shapeless('8x merrymaking:ground_ginger', ['#c:crops/ginger']).id('allthemods:merrymaking/ground_ginger')
 
   allthemods.shapeless('merrymaking:cookie_dough', ['#c:milk', 'minecraft:wheat', 'minecraft:sugar', 'minecraft:egg']).id('allthemods:merrymaking/cookie_dough')
 
-  allthemods.shapeless('merrymaking:gingerbread_dough', ['merrymaking:ground_ginger', '#c:milk', 'minecraft:wheat', 'minecraft:sugar', 'minecraft:egg']).id('allthemods:merrymaking/gingerbread_dough')
+  //allthemods.shapeless('merrymaking:gingerbread_dough', ['merrymaking:ground_ginger', '#c:milk', 'minecraft:wheat', 'minecraft:sugar', 'minecraft:egg']).id('allthemods:merrymaking/gingerbread_dough')
 
   allthemods.shapeless('merrymaking:harvest_tray', ['merrymaking:empty_tray', '#c:vegetables/sweet_potato', '#c:grain/corn', 'minecraft:carrot', 'minecraft:apple', 'minecraft:potato', 'minecraft:sweet_berries', 'minecraft:beetroot', 'minecraft:wheat']).id('allthemods:merrymaking/harvest_tray')
 
