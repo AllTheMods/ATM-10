@@ -41,3 +41,18 @@ maxEnergyExtraction = 0
 # Default: 1024
 # Range: > 0
 energyPerTick = 1024
+
+[machineSettings.processingMachines.centrifugeData]
+# Default: 10000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 10000
+# Default: 512
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 512
+# Default: 64
+# Range: > 0
+energyPerTick = 128
+#Fluid tank size in buckets
+# Default: 8
+# Range: 0 ~ 9223372036854775807
+tankSizeInBuckets = 8
