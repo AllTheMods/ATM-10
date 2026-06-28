@@ -266,3 +266,16 @@ damageTickBase = 2.0
 # Default: 128
 # Range: > 1
 range = 128
+
+[machineSettings.deepDrillConfig]
+# Default: 20000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 20000
+#Work steps required per ore output
+# Default: 20
+# Range: > 1
+stepsPerOre = 20
+#RF consumed per work step
+# Default: 1024
+# Range: > 0
+energyPerStep = 1024
