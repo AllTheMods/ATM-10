@@ -97,3 +97,24 @@ chargeSpeed = 1024
 # Default: 0.6
 # Range: 0.0 ~ 100.0
 speed = 0.6
+
+[exoElytraJetpack]
+# Default: 5000000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 5000000
+# Default: 32000
+# Range: 0 ~ 9223372036854775807
+fuelCapacity = 32000
+# Default: 256
+# Range: > 0
+energyUsage = 256
+# Default: 15
+# Range: > 0
+fuelUsage = 15
+# Default: 10000
+# Range: > 0
+chargeSpeed = 10000
+#Flight speed multiplier
+# Default: 1.4
+# Range: 0.0 ~ 100.0
+speed = 1.4
