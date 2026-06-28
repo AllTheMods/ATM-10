@@ -127,3 +127,17 @@ maxEnergyExtraction = 0
 # Default: 32
 # Range: > 0
 energyPerTick = 64
+
+[machineSettings.processingMachines.refineryData]
+# Default: 50000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 50000
+# Default: 512
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 512
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 0
+# Default: 64
+# Range: > 0
+energyPerTick = 128
