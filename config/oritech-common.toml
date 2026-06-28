@@ -311,3 +311,17 @@ workEnergyUsage = 256
 # Default: 0.25
 # Range: 0.0 ~ 100.0
 liquidPerBlockUsage = 0.25
+
+[machineSettings.placerConfig]
+# Default: 10
+# Range: > 1
+moveDuration = 10
+# Default: 5
+# Range: > 1
+workDuration = 5
+# Default: 8
+# Range: > 0
+moveEnergyUsage = 16
+# Default: 64
+# Range: > 0
+workEnergyUsage = 128
