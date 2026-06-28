@@ -149,3 +149,17 @@ energyPerTick = 128
 animationSpeedMultiplier = 10.0
 #Fluid ID for steam produced by the steam boiler. Only this is accepted by steam engines.
 steamId = "oritech:still_steam"
+
+[machineSettings.generators.basicGeneratorData]
+# Default: 50000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 50000
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 0
+# Default: 256
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 256
+# Default: 32
+# Range: > 0
+energyPerTick = 64
