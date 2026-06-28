@@ -167,3 +167,28 @@ chargeSpeed = 50000
 # Default: 8
 # Range: > 0
 lightningCostMultiplier = 8
+
+[portableLaserConfig]
+# Default: 5000000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 5000000
+#RF consumed per tick while firing
+# Default: 4096
+# Range: > 0
+energyPerTick = 4096
+#RF consumed per explosion
+# Default: 100000
+# Range: > 0
+energyPerBoom = 100000
+#Block breaking speed multiplier
+# Default: 0.125
+# Range: 0.0 ~ 100.0
+blockBreakSpeed = 0.125
+#Base damage to entities
+# Default: 4
+# Range: > 0
+damageBase = 4
+#Explosion power
+# Default: 6
+# Range: > 0
+explosionStrength = 6
