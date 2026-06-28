@@ -377,3 +377,33 @@ maxEnergyExtraction = 10000
 # Default: 0
 # Range: > 0
 energyPerTick = 0
+
+[logistics]
+#Items transferred per pipe cycle
+# Default: 8
+# Range: > 1
+itemPipeTransferAmount = 8
+#Ticks between item pipe transfers
+# Default: 5
+# Range: > 1
+itemPipeIntervalDuration = 5
+#Fluid extracted per pipe cycle in buckets
+# Default: 0.5
+# Range: 0.0 ~ 1000.0
+fluidPipeExtractAmountBuckets = 0.5
+#Ticks between fluid pipe extractions
+# Default: 3
+# Range: > 1
+fluidPipeExtractIntervalDuration = 3
+#Fluid pipe internal buffer size in buckets
+# Default: 2.0
+# Range: 0.0 ~ 1000.0
+fluidPipeInternalStorageBuckets = 2.0
+#Energy pipe transfer rate in RF/t
+# Default: 10000
+# Range: 0 ~ 9223372036854775807
+energyPipeTransferRate = 10000
+#Superconductor cable transfer rate in RF/t
+# Default: 4194304
+# Range: 0 ~ 9223372036854775807
+superConductorTransferRate = 4194304
