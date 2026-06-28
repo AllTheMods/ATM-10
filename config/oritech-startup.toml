@@ -1,2 +1,30 @@
 #[Fabric Only] Whether ores are generated. On NeoForge, use a datapack instead.
 generateOresFabricOnly = false
+#Speed addon processing speed multiplier
+# Default: 0.5
+# Range: 0.0 ~ 100.0
+speedAddonSpeed = 0.5
+#Speed addon energy efficiency multiplier
+# Default: 1.2
+# Range: 0.0 ~ 100.0
+speedAddonEfficiency = 1.2
+#Efficiency addon energy multiplier
+# Default: 0.8
+# Range: 0.0 ~ 100.0
+efficiencyAddonEfficiency = 0.8
+#Ultimate addon speed multiplier
+# Default: 0.25
+# Range: 0.0 ~ 100.0
+ultimateAddonSpeed = 0.25
+#Ultimate addon efficiency multiplier
+# Default: 1.1
+# Range: 0.0 ~ 100.0
+ultimateAddonEfficiency = 1.1
+#Processing chamber efficiency multiplier
+# Default: 1.5
+# Range: 0.0 ~ 100.0
+chamberAddonEfficiency = 1.5
+#Burst time in ticks per addon
+# Default: 240
+# Range: > 0
+burstAddonTicks = 240
