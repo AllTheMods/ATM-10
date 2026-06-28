@@ -443,3 +443,49 @@ energyPerTick = 0
 [worldGeneration]
 #Makes oil wells and bedrock ore nodes easier to find. Oil wells show a small fountain, ore nodes a boulder on the surface.
 easyFindFeatures = true
+
+[reactor]
+#With safe mode enabled, the reactor enters a cooldown period instead of exploding when overheated
+safeMode = false
+#Reactor safe mode cooldown duration in ticks
+# Default: 2400
+# Range: > 0
+safeModeCooldown = 2400
+#Maximum reactor multiblock size
+# Default: 64
+# Range: > 1
+maxSize = 32
+#Maximum energy stored in the reactor in RF
+# Default: 50000000
+# Range: > 0
+reactorMaxEnergyStored = 150000000
+#Maximum energy output in RF/t per energy port
+# Default: 25000
+# Range: > 0
+reactorMaxEnergyOutput = 125000
+#RF generated per reactor pulse
+# Default: 64
+# Range: > 0
+rfPerPulse = 1100
+#Neutron absorber heat reduction rate
+# Default: 16
+# Range: > 0
+absorberRate = 64
+#Vent base cooling rate
+# Default: 4
+# Range: > 0
+ventBaseRate = 24
+#Vent proportional cooling rate
+# Default: 100
+# Range: > 0
+ventRelativeRate = 160
+#Maximum heat before reactor meltdown
+# Default: 2000
+# Range: > 0
+maxHeat = 2000
+#Ticks before an overheated reactor explodes
+# Default: 600
+# Range: > 0
+maxUnstableTicks = 600
+#Disable fancy reactor explosion effects
+boringNukes = true
