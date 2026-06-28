@@ -519,3 +519,41 @@ catalystHyperExpFactor = 1.15
 # Default: 1
 # Range: > 0
 spawnerCostMultiplier = 1
+
+[particleAccelerator]
+#Maximum particle gate distance
+# Default: 10
+# Range: > 1
+maxGateDist = 10
+#Particle curve requirement factor
+# Default: 2.5
+# Range: 0.0 ~ 100.0
+bendFactor = 2.5
+#Base RF cost per particle acceleration step
+# Default: 10
+# Range: > 0
+accelerationRFCost = 10
+#Accelerator motor RF storage capacity
+# Default: 5000000
+# Range: 0 ~ 9223372036854775807
+acceleratorMotorRFCapacity = 5000000
+#Minimum collision energy to activate an end portal
+# Default: 10000
+# Range: > 0
+endPortalRequiredSpeed = 10000
+#Minimum collision energy to activate a nether portal
+# Default: 5000
+# Range: > 0
+netherPortalRequiredSpeed = 5000
+#Minimum collision energy to create a black hole
+# Default: 15000
+# Range: > 0
+blackHoleRequiredSpeed = 15000
+#Tachyon collector energy capacity in RF
+# Default: 1000000
+# Range: > 0
+collectorEnergyStorage = 1000000
+#Particle collision tachyon RF multiplier
+# Default: 1.0
+# Range: 0.0 ~ 100.0
+tachyonCollisionEnergyFactor = 1.0
