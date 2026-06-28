@@ -557,3 +557,25 @@ collectorEnergyStorage = 1000000
 # Default: 1.0
 # Range: 0.0 ~ 100.0
 tachyonCollisionEnergyFactor = 1.0
+
+[blackHole]
+#Black hole pull time multiplier
+# Default: 8
+# Range: > 0
+pullTimeMultiplier = 8
+#Black hole pull range in blocks
+# Default: 16
+# Range: > 0
+pullRange = 16
+#Black hole idle wait ticks between operations
+# Default: 200
+# Range: > 0
+idleWaitTicks = 200
+#Energy of tachyons produced by black holes
+# Default: 50000
+# Range: > 0
+blackHoleTachyonEnergy = 50000
+#Unstable container base RF storage capacity
+# Default: 20000000
+# Range: 0 ~ 9223372036854775807
+unstableContainerBaseCapacity = 20000000
