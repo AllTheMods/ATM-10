@@ -325,3 +325,17 @@ moveEnergyUsage = 16
 # Default: 64
 # Range: > 0
 workEnergyUsage = 128
+
+[machineSettings.addonConfig]
+#Burst addon processing speed multiplier
+# Default: 8.0
+# Range: 0.0 ~ 1000.0
+burstAddonSpeedMultiplier = 8.0
+#Burst addon throttle energy multiplier
+# Default: 1.2
+# Range: 0.0 ~ 100.0
+burstAddonThrottleMultiplier = 1.2
+#Addon splicer RF storage capacity
+# Default: 50000000
+# Range: 0 ~ 9223372036854775807
+addonShrinkerRF = 50000000
