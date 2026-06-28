@@ -151,3 +151,19 @@ energyUsage = 10
 # Default: 512
 # Range: > 0
 chargeSpeed = 512
+
+[electricMace]
+# Default: 500000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 500000
+#RF consumed per hit
+# Default: 2048
+# Range: > 0
+energyUsage = 2048
+# Default: 50000
+# Range: > 0
+chargeSpeed = 50000
+#Lightning attack RF usage multiplier
+# Default: 8
+# Range: > 0
+lightningCostMultiplier = 8
