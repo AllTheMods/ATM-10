@@ -191,3 +191,17 @@ maxEnergyExtraction = 2048
 # Default: 64
 # Range: > 0
 energyPerTick = 256
+
+[machineSettings.generators.fuelGeneratorData]
+# Default: 250000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 1000000
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 0
+# Default: 2048
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 16000
+# Default: 256
+# Range: > 0
+energyPerTick = 2048
