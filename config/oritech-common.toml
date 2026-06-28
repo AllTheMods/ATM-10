@@ -489,3 +489,29 @@ maxHeat = 2000
 maxUnstableTicks = 600
 #Disable fancy reactor explosion effects
 boringNukes = true
+
+[arcane]
+#Enchanter soul cost multiplier
+# Default: 5
+# Range: > 0
+enchanterCostMultiplier = 5
+#Catalyst base soul capacity
+# Default: 50
+# Range: > 0
+catalystBaseSouls = 50
+#RF/t per catalyst soul capacity level increase
+# Default: 20
+# Range: > 0
+catalystRFPerSoul = 20
+#Catalyst soul cost multiplier
+# Default: 2
+# Range: > 0
+catalystCostMultiplier = 2
+#Additional hyper enchanting cost multiplier
+# Default: 2
+# Range: > 0
+catalystHyperMultiplier = 2
+#Spawner soul cost multiplier
+# Default: 1
+# Range: > 0
+spawnerCostMultiplier = 1
