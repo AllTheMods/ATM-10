@@ -27,3 +27,17 @@ maxEnergyExtraction = 0
 # Default: 128
 # Range: > 0
 energyPerTick = 128
+
+[machineSettings.processingMachines.atomicForgeData]
+# Default: 1024
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 1024
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 0
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 0
+# Default: 1024
+# Range: > 0
+energyPerTick = 1024
