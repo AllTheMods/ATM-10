@@ -511,6 +511,10 @@ catalystCostMultiplier = 2
 # Default: 2
 # Range: > 0
 catalystHyperMultiplier = 2
+#Exponential factor for hyper enchanting cost. Increase carefully, makes higher levels MUCH more expensive.
+# Default: 1.15
+# Range: 0.0 ~ 100.0
+catalystHyperExpFactor = 1.15
 #Spawner soul cost multiplier
 # Default: 1
 # Range: > 0
