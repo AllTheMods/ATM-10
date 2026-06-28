@@ -7,3 +7,9 @@ layeredExtenders = false
 # Default: 0.5
 # Range: 0.0 ~ 10.0
 blockBreakHardnessExponentialFactor = 0.5
+
+[machineSettings.processingMachines]
+#Maximum machine frame chain length
+# Default: 64
+# Range: > 1
+machineFrameMaxLength = 64
