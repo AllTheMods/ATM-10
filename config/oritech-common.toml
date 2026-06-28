@@ -13,3 +13,17 @@ blockBreakHardnessExponentialFactor = 0.5
 # Default: 64
 # Range: > 1
 machineFrameMaxLength = 64
+
+[machineSettings.processingMachines.assemblerData]
+# Default: 50000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 50000
+# Default: 1024
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 1024
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 0
+# Default: 128
+# Range: > 0
+energyPerTick = 128
