@@ -243,3 +243,26 @@ maxEnergyExtraction = 25600
 # Default: 32
 # Range: > 0
 energyPerTick = 1600
+
+[machineSettings.laserArmConfig]
+# Default: 20000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 20000
+# Default: 1024
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 2048
+# Default: 128
+# Range: 0 ~ 9223372036854775807
+energyPerTick = 512
+#Base RF cost to break a block
+# Default: 1024
+# Range: > 0
+blockBreakEnergyBase = 1024
+#Base damage per tick to entities
+# Default: 2.0
+# Range: 0.0 ~ 1000.0
+damageTickBase = 2.0
+#Maximum targeting range in blocks
+# Default: 128
+# Range: > 1
+range = 128
