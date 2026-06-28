@@ -205,3 +205,23 @@ maxEnergyExtraction = 16000
 # Default: 256
 # Range: > 0
 energyPerTick = 2048
+
+[machineSettings.generators.steamEngineData]
+# Default: 100000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 100000
+# Default: 50000
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 50000
+#Applies to generators with the steam addon. Droplets of steam produced per the usual RF.
+# Default: 2.0
+# Range: 0.0 ~ 1000.0
+rfToSteamRatio = 2.0
+#Energy per steam unit in the steam engine
+# Default: 1
+# Range: > 0
+steamToRfRatio = 1
+#When enabled, the steam engine stops when energy storage is full
+stopOnEnergyFull = false
+#When enabled, the steam engine stops when the water tank is full. Must be pumped out to resume.
+stopOnWaterFull = true
