@@ -113,3 +113,17 @@ energyPerTick = 64
 # Default: 0.5
 # Range: 0.0 ~ 100.0
 speedMultiplier = 0.5
+
+[machineSettings.processingMachines.pulverizerData]
+# Default: 25000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 25000
+# Default: 256
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 256
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 0
+# Default: 32
+# Range: > 0
+energyPerTick = 64
