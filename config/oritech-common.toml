@@ -425,3 +425,17 @@ maxRange = 1000
 [equipment]
 #Enable tree cutting for the chainsaw
 chainsawTreeCutting = true
+
+[equipment.charger]
+# Default: 500000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 500000
+# Default: 10000
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 10000
+# Default: 5000
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 5000
+# Default: 0
+# Range: > 0
+energyPerTick = 0
