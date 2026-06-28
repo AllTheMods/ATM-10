@@ -229,3 +229,17 @@ stopOnWaterFull = true
 # Default: 8.0
 # Range: 0.0 ~ 1000.0
 steamBoilerCapacityBuckets = 8.0
+
+[machineSettings.generators.solarGeneratorData]
+# Default: 100000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 1000000
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 0
+# Default: 256
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 25600
+# Default: 32
+# Range: > 0
+energyPerTick = 1600
