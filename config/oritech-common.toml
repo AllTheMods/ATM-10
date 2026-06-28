@@ -363,3 +363,17 @@ maxEnergyExtraction = 5000
 # Default: 0
 # Range: > 0
 energyPerTick = 0
+
+[storageBlocks.largeEnergyStorage]
+# Default: 20000000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 60000000
+# Default: 10000
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 10000
+# Default: 10000
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 10000
+# Default: 0
+# Range: > 0
+energyPerTick = 0
