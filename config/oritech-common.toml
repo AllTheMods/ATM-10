@@ -293,3 +293,21 @@ moveEnergyUsage = 8
 # Default: 128
 # Range: > 0
 workEnergyUsage = 128
+
+[machineSettings.fertilizerConfig]
+# Default: 10
+# Range: > 1
+moveDuration = 10
+# Default: 20
+# Range: > 1
+workDuration = 20
+# Default: 8
+# Range: > 0
+moveEnergyUsage = 16
+# Default: 128
+# Range: > 0
+workEnergyUsage = 256
+#Liquid consumed per fertilized block in buckets
+# Default: 0.25
+# Range: 0.0 ~ 100.0
+liquidPerBlockUsage = 0.25
