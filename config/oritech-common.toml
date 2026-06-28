@@ -279,3 +279,17 @@ stepsPerOre = 20
 # Default: 1024
 # Range: > 0
 energyPerStep = 1024
+
+[machineSettings.destroyerConfig]
+# Default: 15
+# Range: > 1
+moveDuration = 15
+# Default: 40
+# Range: > 1
+workDuration = 40
+# Default: 8
+# Range: > 0
+moveEnergyUsage = 8
+# Default: 128
+# Range: > 0
+workEnergyUsage = 128
