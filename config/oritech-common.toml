@@ -1,1 +1,9 @@
 [machineSettings]
+#Whether addon bonuses are added additive or multiplicative
+additiveAddons = true
+#When enabled, machine core quality determines how many layers of machine extenders can be used. If false, it's the direct amount.
+layeredExtenders = false
+#Applies to the destroyer block and enderic laser. Lower = hardness has a lower effect on speed.
+# Default: 0.5
+# Range: 0.0 ~ 10.0
+blockBreakHardnessExponentialFactor = 0.5
