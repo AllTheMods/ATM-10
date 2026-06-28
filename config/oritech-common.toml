@@ -84,3 +84,17 @@ maxEnergyExtraction = 0
 # Default: 32
 # Range: > 0
 energyPerTick = 128
+
+[machineSettings.processingMachines.fragmentForgeData]
+# Default: 50000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 50000
+# Default: 2048
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 2048
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 0
+# Default: 256
+# Range: > 0
+energyPerTick = 512
