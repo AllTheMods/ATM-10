@@ -349,3 +349,17 @@ portableTankCapacityBuckets = 256
 # Default: 10
 # Range: > 1
 overchargedCrystalChargeRate = 10
+
+[storageBlocks.smallEnergyStorage]
+# Default: 1000000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 5000000
+# Default: 5000
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 5000
+# Default: 5000
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 5000
+# Default: 0
+# Range: > 0
+energyPerTick = 0
