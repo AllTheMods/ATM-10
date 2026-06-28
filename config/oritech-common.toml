@@ -407,3 +407,17 @@ energyPipeTransferRate = 10000
 # Default: 4194304
 # Range: 0 ~ 9223372036854775807
 superConductorTransferRate = 4194304
+
+[logistics.poleConfig]
+#Energy transmission rate and capacity in RF/t
+# Default: 1000000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 1000000
+#Minimum separation distance between poles
+# Default: 50
+# Range: > 0
+minRange = 50
+#Maximum separation distance between poles
+# Default: 1000
+# Range: > 0
+maxRange = 1000
