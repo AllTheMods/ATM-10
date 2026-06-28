@@ -98,3 +98,18 @@ maxEnergyExtraction = 0
 # Default: 256
 # Range: > 0
 energyPerTick = 512
+
+[machineSettings.processingMachines.furnaceData]
+# Default: 10000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 10000
+# Default: 256
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 256
+# Default: 32
+# Range: > 0
+energyPerTick = 64
+#Furnace speed multiplier relative to vanilla
+# Default: 0.5
+# Range: 0.0 ~ 100.0
+speedMultiplier = 0.5
