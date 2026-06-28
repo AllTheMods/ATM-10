@@ -163,3 +163,17 @@ maxEnergyExtraction = 256
 # Default: 32
 # Range: > 0
 energyPerTick = 64
+
+[machineSettings.generators.bioGeneratorData]
+# Default: 100000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 400000
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 0
+# Default: 512
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 2048
+# Default: 64
+# Range: > 0
+energyPerTick = 256
