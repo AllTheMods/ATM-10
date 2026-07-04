@@ -736,18 +736,18 @@
 			shape: "diamond"
 			tasks: [
 				{
-					id: "1BBB313192F51FA8"
-					item: { count: 1, id: "occultism:storage_controller_base" }
-					type: "item"
-				}
-				{
-					id: "4EDB733716D494CE"
-					item: { count: 1, id: "occultism:storage_controller" }
-					type: "item"
-				}
-				{
 					id: "60BC2FA707A9B073"
 					item: { count: 1, id: "occultism:dimensional_matrix" }
+					type: "item"
+				}
+				{
+					id: "7A2052D6BCF7F667"
+					item: { components: { "ftbfiltersystem:filter": "or(item(occultism:storage_controller_base)item(occultism:storage_controller_base_dark))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					id: "726FB111FEEAA617"
+					item: { components: { "ftbfiltersystem:filter": "or(item(occultism:storage_controller)item(occultism:storage_controller_dark))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 			]
@@ -775,8 +775,8 @@
 			shape: "hexagon"
 			size: 2.0d
 			tasks: [{
-				id: "51F520BF7DA37873"
-				item: { components: { "ftbfiltersystem:filter": "or(item(occultism:storage_stabilizer_tier1)item(occultism:storage_stabilizer_tier2)item(occultism:storage_stabilizer_tier3)item(occultism:storage_stabilizer_tier4))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "5A70EA7F9D922945"
+				item: { components: { "ftbfiltersystem:filter": "or(item(occultism:storage_stabilizer_tier0)item(occultism:storage_stabilizer_tier1)item(occultism:storage_stabilizer_tier2)item(occultism:storage_stabilizer_tier3)item(occultism:storage_stabilizer_tier4)item(occultism:storage_stabilizer_tier5)item(occultism:storage_stabilizer_tier0_dark)item(occultism:storage_stabilizer_tier1_dark)item(occultism:storage_stabilizer_tier2_dark)item(occultism:storage_stabilizer_tier3_dark)item(occultism:storage_stabilizer_tier4_dark)item(occultism:storage_stabilizer_tier5_dark))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 8.0d
@@ -818,8 +818,8 @@
 			]
 			tasks: [
 				{
-					id: "792FA8ED0719803C"
-					item: { count: 1, id: "occultism:stable_wormhole" }
+					id: "31290830C6767E5B"
+					item: { components: { "ftbfiltersystem:filter": "or(item(occultism:stable_wormhole)item(occultism:stable_wormhole_dark))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
@@ -1881,8 +1881,9 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["690B89D23134B624"]
+			dependencies: ["0A25276925EB0CBA"]
 			id: "54378277B8D28B1D"
+			optional: true
 			rewards: [{
 				id: "2B2B8B432F1AF6A4"
 				item: {

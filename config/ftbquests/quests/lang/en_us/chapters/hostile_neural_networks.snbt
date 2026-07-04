@@ -1,5 +1,5 @@
 {
-	quest.104EBBC08B4733F5.quest_desc: ["The &dSimulation Chamber&r is the main machine within HNN.\\n\\nWhen given power, it will run simulations based on the &bData Model&r that is placed inside. The power required also depends on the Data Model placed inside, and can be seen within the Model's tooltip. \\n\\nThe machine also requires at least one &9Prediction Matrix&r to run a simulation.\\n\\nThe result of the simulation will be output onto the Matrix. Simulations will always produce some kind of &eGeneralized Prediction&r, which can be used in various crafting recipes. They also vary depending on the origin of the mob in the Data Model.\\n\\nIf the simulation succeeds, you will receive a &dMob Prediction&r based off of the model. The higher the tier of the Data Model used, the higher the success rate is for a simulation."]
+	quest.104EBBC08B4733F5.quest_desc: ["The &dSimulation Chamber&r is the main machine within HNN.\\n\\nWhen given power, it will run simulations based on the &bData Model&r that is placed inside. The power required also depends on the &bData Model&r placed inside, and can be seen within the &bModel&r's tooltip. \\n\\nThe machine also requires at least one &9Prediction Matrix&r to run a simulation.\\n\\nSimulations have two modes.\\n\\n&a&lTraining:&r\\nThe &bData Model&r gains data, without producing any &eGeneralized Predictions&r or &dMob Predictions&r.\\n\\n&2&lInference:&r\\nThe result of the simulation will be output onto the Matrix, without the &bData Model&r gaining any Data.\\n\\nIf the simulation succeeds, you will receive a &dMob Prediction&r based off of the model. The higher the tier of the Data Model used, the higher the success rate is for a simulation.\\n\\nIf the simulation fails, you will instead receive some kind of &eGeneralized Prediction&r, which can be used in various crafting recipes. They also vary depending on the origin of the mob in the Data Model."]
 	quest.104EBBC08B4733F5.title: "&aSimulating Deaths"
 	quest.10E8BC20D406D9FB.quest_subtitle: "Makes various Nether Materials"
 	quest.12AE2856444996F6.quest_desc: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks.\\n\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission.\\n\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
@@ -17,6 +17,14 @@
 	quest.3E3CBDCEAB0FF28F.quest_desc: ["The &9Deep Learner&r is one of the core components of HNN.\\n\\nWith this item, you can right click to open up a HUD and store &6Data Models&r to gather data while killing mobs.\\n\\nEach Learner can hold 4 Data Models, and as long as you have the Learner anywhere in your inventory, it will collect data for the models placed inside!\\n\\nNote: You can have multiple Deep Learners in your inventory, and it will count the kills for all Data Models inside all of the Learners."]
 	quest.3E3CBDCEAB0FF28F.quest_subtitle: "The Learning HUD"
 	quest.3E3CBDCEAB0FF28F.title: "&aLearning Mobs"
+	quest.3F3F3174BD9D03BD.quest_desc: [
+		"The &dData &5Center&r is a 7x7x7 multiblock combining the functionalities of the &dSimulation Chamber&r and the &5Loot Fabricator&r in a unique way.\\n\\nIt is capable of handling 25 &6Self Aware &bData Models&r concurrently, with the same effects as &2&lInference&r simulations, with the following difference:\\n\\nInstead of producing Mob Predictions, the &dData &5Center&r produces loot directly, with the same possible modes as the &5Loot Fabricator&r."
+		"{@pagebreak}"
+		"To build the multiblock, the floor (first layer) must be made of Obsidian (check the Obsidians task to see what forms of Obsidian are accepted by the &dData &5Center&r).\\n\\nThe walls and ceiling of the multiblock must be made of Black Stained Glass. The controller may substitute one bottom-wall block, and IO Ports can substitute Black Stained Glass."
+		"{image:atm:textures/questpics/hnn/datacenterintheend.png width:100 height:100 align:center}"
+	]
+	quest.3F3F3174BD9D03BD.quest_subtitle: "No Generative AI was used to make this quest"
+	quest.3F3F3174BD9D03BD.title: "The &dData &5Center"
 	quest.4092E914B24C52A7.quest_subtitle: "Makes various Starlight Materials"
 	quest.58C2ABED43B2EA61.quest_desc: ["&9Model Frameworks&r are the starting point for creating Data Models.\\n\\nTo start collecting data on a specific mob, you'll want to make one of these then &9right click&r the mob you'd like to gather data on. When done properly, the Model Framework will turn into the Data Model of the mob you clicked on.\\n\\nTo gather data for that mob, place the newly created Data Model inside of a &aDeep Learner&r, then start killing that specific mob with the Deep Learner in your inventory."]
 	quest.58C2ABED43B2EA61.quest_subtitle: "\"Gathering Data\""
@@ -24,5 +32,6 @@
 	quest.5A23107C363A209E.quest_subtitle: "Makes various End Materials"
 	task.15D2A03410859443.title: "AllRightsReserved"
 	task.6B580F95A2E5A465.title: "AllRightsReserved"
+	task.6B84DAA99028ACEA.title: "Obsidians"
 	task.7F17E48ACE65C84E.title: "Data Models"
 }

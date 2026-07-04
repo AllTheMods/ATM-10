@@ -1441,7 +1441,7 @@
 				item: { count: 1, id: "apothic_enchanting:flimsy_ender_lead" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 3.0d
 			y: 4.0d
 		}
 		{
@@ -1470,7 +1470,7 @@
 				item: { count: 1, id: "apothic_enchanting:ender_lead" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.0d
 			y: 4.0d
 		}
 		{
@@ -1499,8 +1499,70 @@
 				item: { count: 1, id: "apothic_enchanting:occult_ender_lead" }
 				type: "item"
 			}]
-			x: 2.5d
+			x: 4.0d
 			y: 5.0d
+		}
+		{
+			dependencies: [
+				"729E3E382B3726D1"
+				"31E7F7464D79F881"
+			]
+			id: "0976331FEC5E9624"
+			rewards: [
+				{
+					id: "24F4B6347F0EF23D"
+					item: {
+						components: {
+							"apotheosis:gem": "apotheosis:core/warlord"
+							"apotheosis:purity": "perfect"
+						}
+						count: 1
+						id: "apotheosis:gem"
+					}
+					type: "item"
+				}
+				{
+					id: "6B3CC9D181569909"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "0A7C394EA09EA38B"
+				item: { count: 1, id: "apotheosis:ender_gem_case" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			id: "729E3E382B3726D1"
+			rewards: [
+				{
+					id: "0919784CCCD8352F"
+					item: {
+						components: {
+							"apotheosis:gem": "apotheosis:core/warlord"
+							"apotheosis:purity": "flawed"
+						}
+						count: 1
+						id: "apotheosis:gem"
+					}
+					type: "item"
+				}
+				{
+					id: "068BEE691198030A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "7592B73B59DE1323"
+				item: { count: 1, id: "apotheosis:gem_case" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
 		}
 	]
 }
