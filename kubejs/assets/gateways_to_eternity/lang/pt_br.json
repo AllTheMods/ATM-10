@@ -1,0 +1,121 @@
+{
+    "entity.gateways.gateway" : "Portal para a Eternidade",
+    "item.gateways.gate_pearl": "Pérola de Portal",
+    "gateways.gate_pearl": "Pérola de Portal - %s",
+    "itemGroup.gateways": "Gateways to Eternity",
+
+    "info.gateways.gate_pearl": "Uma Pérola de Portal permite que você invoque um Portal ao usá-la em um bloco.\n\nEla só pode ser usada quando o novo Portal não estiver muito próximo de outro Portal, com base no espaçamento atual.\n",
+    "info.gateways.gate_pearl.2": "Um Portal aberto falhará em um surto de raios se não puder gerar uma criatura, se qualquer criatura ativa se afastar demais, ou se o temporizador da horda expirar.\n\nAs recompensas surgirão do Portal conforme forem obtidas.",
+
+    "tooltip.gateways.with_count": "%s %s",
+    "tooltip.gateways.dot_with_count": "• %s %s",
+    "tooltip.gateways.dot": "• %s",
+
+    "tooltip.gateways.scroll": "[scroll]",
+    "tooltip.gateways.shift": "[shift]",
+    "tooltip.gateways.ctrl": "[ctrl]",
+    "tooltip.gateways.alt": "[alt]",
+    "tooltip.gateways.true": "Habilitado",
+    "tooltip.gateways.false": "Desabilitado",
+
+    "tooltip.gateways.num_wave": "%s horda",
+    "tooltip.gateways.num_waves": "%s hordas",
+    "tooltip.gateways.wave": "Horda %s/%s",
+    "tooltip.gateways.entities": "Entidades: ",
+    "tooltip.gateways.modifiers": "Modificadores: ",
+    "tooltip.gateways.rewards": "Recompensas: ",
+
+    "tooltip.gateways.num_failures": "%s penalidades",
+    "tooltip.gateways.num_failure": "%s penalidade",
+    "tooltip.gateways.failures": "Penalidades de Falha",
+
+    "tooltip.gateways.num_rule": "%s mudança de regra",
+    "tooltip.gateways.num_rules": "%s mudanças de regra",
+    "tooltip.gateways.rules": "Mudança de Regras",
+
+    "tooltip.gateways.key_rewards": "Recompensas Principais",
+
+    "tooltip.gateways.endless.base_wave": "Horda Base",
+    "tooltip.gateways.endless.num_modif": "%s modificador infinito",
+    "tooltip.gateways.endless.num_modifs": "%s modificadores infinitos",
+    "tooltip.gateways.endless.modifier": "Modificador infinito %s/%s",
+    "tooltip.gateways.endless.wave_time": "%s tempo máximo de horda",
+    "tooltip.gateways.endless.setup_time": "%s tempo de Preparação",
+
+    "boss.gateways.wave": "Horda: %d/%d | Tempo: %s | Inimigos: %d",
+    "boss.gateways.done": "Portal Concluído!",
+    "boss.gateways.starting": "Horda %d começando em %s",
+    "boss.gateways.endless.top": "Horda: %d/%d | Tempo restante: %d",
+    "boss.gateways.endless.bot": "Inimigos: %d/%d | Modificadores ativos: %d",
+    "boss.gateways.endless.incoming": "Inimigos a caminho: %d",
+
+    "reward.gateways.stack": "%s %s",
+    "reward.gateways.entity": "%s %s rolagens de saque",
+    "reward.gateways.loot_table": "%s %s rolagens",
+    "reward.gateways.chance": "%s de chance de %s",
+    "reward.gateways.experience": "%s de experiência",
+    "reward.gateways.summon": "Invoca %s",
+
+    "failure.gateways.explosion": "Explosão de raio %s",
+    "failure.gateways.mob_effect": "%s",
+    "failure.gateways.summon": "Invoca %s",
+    "failure.gateways.chance": "%s de chance de %s",
+
+    "rule.gateways.default": "[era %s]",
+    "rule.gateways.spawn_range": "Alcance de gerador: %s",
+    "rule.gateways.leash_range": "Alcance de coleira: %s",
+    "rule.gateways.allow_discarding": "Permitir descarte: %s",
+    "rule.gateways.allow_dim_change": "Permitir mudança de dimensão: %s",
+    "rule.gateways.player_damage_only": "Dano de jogador apenas: %s",
+    "rule.gateways.remove_mobs_on_failure": "Remover criaturas em falha: %s",
+    "rule.gateways.fail_on_out_of_bounds": "Falhar ao sair dos limites: %s",
+    "rule.gateways.spacing": "Espaçamento: %s",
+    "rule.gateways.requires_nearby_player": "Requer jogador próximo: %s",
+    "rule.gateways.lives": "Vidas: %s",
+
+    "error.gateways.no_space": "Não há espaço suficiente para abrir este Portal",
+    "error.gateways.wave_failed": "O Portal implodiu porque não havia espaço suficiente para gerar a próxima horda",
+    "error.gateways.too_far": "O Portal implodiu porque uma entidade da horda fugiu para longe demais",
+    "error.gateways.wave_elapsed": "O Temporizador da horda expirou",
+    "error.gateways.entity_discarded": "O Portal implodiu porque uma entidade foi removida sem ser morta",
+    "error.gateways.no_nearby_player": "O Portal implodiu porque não havia nenhum jogador por perto",
+    "error.gateways.out_of_lives": "O Portal implodiu porque você ficou sem vidas",
+
+    "appmode.gateways.after_wave": "Aplicado na horda %s.",
+    "appmode.gateways.after_every_n_waves": "Aplica-se a cada %s hordas. Máximo de %s aplicações.",
+    "appmode.gateways.only_on_wave": "Aplicado apenas na horda %s.",
+    "appmode.gateways.only_on_every_n_waves": "Aplicado apenas a cada %s hordas.",
+
+    "stat.gateways.gates_defeated": "Portais Derrotados",
+
+    "modifier.gateways.gear_set": "Equipado com %s",
+
+    "gateways.basic/blaze": "Portal de Blaze",
+    "gateways.basic/slime": "Portal de Slime",
+    "gateways.basic/enderman": "Portal de Enderman",
+    
+    "gateways.emerald_grove": "Portal do Bosque de Esmeralda",
+    "gateways.overworldian_nights": "Portal das Noites da Superfície",
+    "gateways.hellish_fortress": "Portal da Fortaleza Infernal",
+
+    "gateways.endless/blaze": "Portal de Blaze Infinito",
+
+    "rewards.gateways.loot_table.simple_dungeon": "Saque de Masmorra",
+    "rewards.gateways.loot_table.nether_bridge": "Saque da Fortaleza do Nether",
+
+    "name.gateways.necrotic_farmer": "Fazendeiro Necrótico",
+    "name.gateways.undead_legionnaire": "Legionário Morto-vivo",
+    "name.gateways.withered_ranger": "Guardião Definhado",
+    "name.gateways.butcher": "Açougueiro",
+    "name.gateways.huge_slime": "Slime Gigante",
+    "name.gateways.magicbane_slime": "Slime Flagelo Mágico",
+    "name.gateways.acidic_slime": "Slime Ácido",
+    "name.gateways.flaming_enderman": "Enderman Flamejante",
+
+    "subtitle.gateways.gate_warp": "Portal gera um objeto",
+    "subtitle.gateways.gate_ambient": "Som ambiente do Portal",
+    "subtitle.gateways.gate_start": "Portal se abre",
+    "subtitle.gateways.gate_end": "Portal se fecha",
+
+    "text.gateways.errored_gate_pearl": "Portal Desconhecido: %s"
+}

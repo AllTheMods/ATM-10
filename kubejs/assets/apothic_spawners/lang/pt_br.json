@@ -1,0 +1,114 @@
+{
+    "item.apothic_spawners.spawner": "Gerador de %s",
+
+    "enchantment.apothic_spawners.capturing": "Captura",
+    "enchantment.apothic_spawners.capturing.desc": "Faz com que as criaturas tenham uma chance de dropar seu ovo gerador.",
+
+    "misc.apothic_spawners.concat": "%s %s",
+    "misc.apothic_spawners.value_concat": "%s: %s",
+    "misc.apothic_spawners.min_value": "Valor Mín: %s",
+    "misc.apothic_spawners.max_value": "Valor Máx: %s",
+    "misc.apothic_spawners.mainhand": "Segurado na Mão Principal",
+    "misc.apothic_spawners.offhand": "Segurado na Mão Secundária",
+    "misc.apothic_spawners.not_consumed": "Este item não é consumido",
+    "misc.apothic_spawners.rclick_spawner": "Clique com o Botão Direito no Gerador",
+    "misc.apothic_spawners.entity": "Entidade",
+    "misc.apothic_spawners.shift_stats": "Segure Shift para Estatísticas",
+    "misc.apothic_spawners.ctrl_stats": "Segure Ctrl para Estatísticas",
+    "misc.apothic_spawners.banned": "Não pode ser usado em um Gerador",
+    "misc.apothic_spawners.on": "%s: Ligado",
+    "misc.apothic_spawners.off": "%s: Desligado",
+    
+    "stat.apothic_spawners.min_delay": "Atraso Mín. de Geração",
+    "stat.apothic_spawners.min_delay.desc": "O número mínimo de tiques entre as gerações",
+    
+    "stat.apothic_spawners.max_delay": "Atraso Máx. de Geração",
+    "stat.apothic_spawners.max_delay.desc": "O número máximo de tiques entre as gerações",
+    
+    "stat.apothic_spawners.spawn_count": "Quantidade de Geração",
+    "stat.apothic_spawners.spawn_count.desc": "O número de entidades geradas de uma só vez",
+    
+    "stat.apothic_spawners.max_nearby_entities": "Máx. de Entidades",
+    "stat.apothic_spawners.max_nearby_entities.desc": "O número total de entidades permitidas por perto",
+    
+    "stat.apothic_spawners.req_player_range": "Alcance de Ativação",
+    "stat.apothic_spawners.req_player_range.desc": "A que distância um jogador pode estar antes que a geração pare",
+    
+    "stat.apothic_spawners.spawn_range": "Alcance de Geração",
+    "stat.apothic_spawners.spawn_range.desc": "O raio (em blocos) em que as criaturas podem surgir",
+    
+    "stat.apothic_spawners.ignore_players": "Ignora Jogadores",
+    "stat.apothic_spawners.ignore_players.desc": "O gerador não precisa de um jogador por perto",
+    
+    "stat.apothic_spawners.ignore_conditions": "Ignora Condições",
+    "stat.apothic_spawners.ignore_conditions.desc": "O gerador ignora as condições de geração",
+    
+    "stat.apothic_spawners.redstone_control": "Controle de Redstone",
+    "stat.apothic_spawners.redstone_control.desc": "O gerador requer redstone para ativar",
+    
+    "stat.apothic_spawners.ignore_light": "Ignora Luz",
+    "stat.apothic_spawners.ignore_light.desc": "O gerador ignora os níveis de luz",
+    
+    "stat.apothic_spawners.no_ai": "Sem IA",
+    "stat.apothic_spawners.no_ai.desc": "Entidades geradas não terão IA",
+    
+	"stat.apothic_spawners.silent": "Silencioso",
+	"stat.apothic_spawners.silent.desc": "Entidades geradas não farão barulho",
+    
+	"stat.apothic_spawners.youthful": "Jovem",
+	"stat.apothic_spawners.youthful.desc": "O gerador sempre gerará uma entidade bebê quando possível",
+
+	"stat.apothic_spawners.initial_health": "Vida Inicial",
+	"stat.apothic_spawners.initial_health.desc": "A porcentagem de vida inicial das criaturas geradas",
+
+	"stat.apothic_spawners.burning": "Em Chamas",
+	"stat.apothic_spawners.burning.desc": "As criaturas geradas serão incendiadas",
+
+	"stat.apothic_spawners.echoing": "Ecoante",
+	"stat.apothic_spawners.echoing.desc": "As criaturas geradas droparão saques extras, aumentando com o nível",
+
+    "title.apothic_spawners.spawner": "Modificação de Gerador",
+    "info.apothic_spawners.spawner": "Os geradores podem ser modificados com vários itens e podem ser coletados com %s.",
+    "info.apothic_spawners.spawner.no_silk": "Os geradores podem ser modificados com vários itens, mas a coleta com Toque Suave está desativada no momento.",
+    "info.apothic_spawners.spawner.always_drop": "Os geradores podem ser modificados com vários itens e sempre cairão quando quebrados.",
+    "info.apothic_spawners.capturing": "O encantamento de captura dá aos monstros uma chance de dropar seu Ovo Gerador de Criatura.\\n \\nTaxa de Drop: %s%% por nível",
+
+    "config.jade.plugin_apothic_spawners.spawner": "Apothic Spawners",
+
+    "advancements.apothic_spawners.spawner.root": "apothic_spawners Spawners",
+    "advancements.apothic_spawners.spawner.root.desc": "Geradores podem ser coletados e modificados, veja o JEI para mais informações.",
+    "advancements.apothic_spawners.spawner": "Apothic Spawners",
+    "advancements.apothic_spawners.spawner.desc": "Colete um gerador de criaturas usando Toque de Seda.",
+    "advancements.apothic_spawners.capturing": "Capturado!",
+    "advancements.apothic_spawners.capturing.desc": "Obtenha um ovo gerador de uma criatura usando o encantamento de Captura",
+    "advancements.apothic_spawners.modifier": "Apenas Alguns Ajustes...",
+    "advancements.apothic_spawners.modifier.desc": "Use um modificador de gerador para alterar as estatísticas de um gerador.",
+    "advancements.apothic_spawners.spawncount": "Olha o Tamanho do Gerador Dele!",
+    "advancements.apothic_spawners.spawncount.desc": "Aumente a quantidade de geração de um gerador para 16",
+    "advancements.apothic_spawners.maxdelay": "Gerador Distorcido no Tempo",
+    "advancements.apothic_spawners.maxdelay.desc": "Diminua o atraso máximo de geração de um gerador para 20",
+    "advancements.apothic_spawners.mindelay": "Eu Sou a Velocidade",
+    "advancements.apothic_spawners.mindelay.desc": "Diminua o atraso mínimo de geração de um gerador para 20",
+    "advancements.apothic_spawners.nearbyents": "Criando uma Horda",
+    "advancements.apothic_spawners.nearbyents.desc": "Aumente o máximo de entidades próximas de um gerador para 32",
+    "advancements.apothic_spawners.playerrange": "Longe da Luta",
+    "advancements.apothic_spawners.playerrange.desc": "Aumente o alcance de ativação do jogador de um gerador para 48",
+    "advancements.apothic_spawners.spawnrange": "Criaturas por Quilômetros",
+    "advancements.apothic_spawners.spawnrange.desc": "Aumente o alcance de geração de um gerador para 32",
+    "advancements.apothic_spawners.conditions": "Geração Sem Limites",
+    "advancements.apothic_spawners.conditions.desc": "Desative as condições de geração para um gerador",
+    "advancements.apothic_spawners.players": "Pronto para Fábrica",
+    "advancements.apothic_spawners.players.desc": "Desative a necessidade de jogadores próximos para um gerador",
+    "advancements.apothic_spawners.redstone": "Adicionando um Interruptor",
+    "advancements.apothic_spawners.redstone.desc": "Ative o controle de redstone para um gerador",
+    "advancements.apothic_spawners.light": "Quem Precisa de Escuridão?",
+    "advancements.apothic_spawners.light.desc": "Faça seu gerador funcionar em qualquer nível de luz.",
+    "advancements.apothic_spawners.noai": "Dreno Cerebral",
+    "advancements.apothic_spawners.noai.desc": "Desative a IA das criaturas para um gerador.",
+    "advancements.apothic_spawners.ultimate_spawner": "O Gerador Ultimate",
+    "advancements.apothic_spawners.ultimate_spawner.desc": "Crie um gerador com atrasos mínimos que tenha controle de redstone, sem IA, ignore condições de geração e ignore jogadores.",
+
+    "enchantment.level.0": "0",
+
+    "emi.category.apothic_spawners.spawner": "Modificação de Gerador"
+}
