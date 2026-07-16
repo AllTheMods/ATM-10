@@ -1449,8 +1449,8 @@
 				item: { count: 1, id: "industrialforegoing:wither_builder" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 10.0d
+			x: 4.375d
+			y: 11.875d
 		}
 		{
 			dependencies: ["0573B6F1BE5110FD"]
@@ -1713,8 +1713,8 @@
 				item: { components: { "minecraft:custom_name": "{\"extra\":[{\"color\":\"light_purple\",\"text\":\"R\"},{\"color\":\"red\",\"text\":\"a\"},{\"color\":\"light_purple\",\"text\":\"i\"},{\"color\":\"light_purple\",\"text\":\"n\"},{\"color\":\"aqua\",\"text\":\"b\"},{\"color\":\"green\",\"text\":\"o\"},{\"color\":\"yellow\",\"text\":\"w\"},{\"color\":\"green\",\"text\":\" \"},{\"color\":\"light_purple\",\"text\":\"F\"},{\"color\":\"light_purple\",\"text\":\"u\"},{\"color\":\"red\",\"text\":\"r\"},{\"color\":\"green\",\"text\":\"n\"},{\"color\":\"light_purple\",\"text\":\"a\"},{\"color\":\"green\",\"text\":\"c\"},{\"color\":\"blue\",\"text\":\"e\"}],\"text\":\"\"}" }, count: 1, id: "ironfurnaces:million_furnace" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.0d
+			x: 4.257142857142867d
+			y: 7.992857142857154d
 		}
 		{
 			dependencies: ["3331EBE1BB4BF64D"]
@@ -2266,8 +2266,8 @@
 				item: { count: 1, id: "ironfurnaces:rainbow_coal" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 8.0d
+			x: 4.375d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3AAB71E9BDFD4C1E"]
@@ -4232,6 +4232,38 @@
 			}]
 			x: -2.0d
 			y: 10.0d
+		}
+		{
+			dependencies: ["70CCE558E03227AB"]
+			id: "60C8272DD1A2B262"
+			rewards: [
+				{
+					count: 4
+					id: "4678F275BF1261D7"
+					item: {
+						count: 1
+						id: "modern_industrialization:advanced_upgrade"
+					}
+					type: "item"
+				}
+				{
+					id: "38542ACE490E7290"
+					item: {
+						count: 1
+						id: "enderio:sentient_ender"
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "1230A5C0C9D1A0CF"
+				item: { components: { "ftbfiltersystem:filter": "or(item(forbidden_arcanus:corrupted_arcane_crystal)item(modern_industrialization:turbo_upgrade))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
 		}
 	]
 }
