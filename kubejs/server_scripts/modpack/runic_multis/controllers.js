@@ -58,7 +58,7 @@ ServerEvents.recipes(allthemods => {
             blood: 1000000,
             souls: 10000,
             xp: 75000,
-            main: 'eternal_starlight:loot_bag[eternal_starlight:loot_table="eternal_starlight:bosses/lunar_monstrosity"]',
+            main: ["eternal_starlight:unrealium_block", 'eternal_starlight:loot_bag[eternal_starlight:loot_table="eternal_starlight:bosses/lunar_monstrosity"]'],
             secondary: 'alltheores:enderium_gear'
         })
     }
@@ -373,7 +373,7 @@ ServerEvents.generateData('after_mods', allthemods => {
             },
             forge_tier: 5,
             inputs: [
-                { amount: 1, ingredient: Ingredient.of(Platform.isLoaded("eternal_starlight") ? 'eternal_starlight:loot_bag[eternal_starlight:loot_table="eternal_starlight:bosses/lunar_monstrosity"]' : 'ftbquests:missing_item[ftbquests:missing_item="eternal_starlight:loot_bag"]').toJson() },
+                { amount: 1, ingredient: Ingredient.of(Platform.isLoaded("eternal_starlight") ? ["eternal_starlight:unrealium_block", 'eternal_starlight:loot_bag[eternal_starlight:loot_table="eternal_starlight:bosses/lunar_monstrosity"]'] : 'ftbquests:missing_item[ftbquests:missing_item="eternal_starlight:loot_bag"]').toJson() },
                 { amount: 1, ingredient: Ingredient.of('enderio:z_logic_controller').toJson() },
                 { amount: 1, ingredient: Ingredient.of('alltheores:enderium_gear').toJson() },
                 { amount: 1, ingredient: Ingredient.of('forbidden_arcanus:mundabitur_dust').toJson() },
