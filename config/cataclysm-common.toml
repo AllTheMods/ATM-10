@@ -496,7 +496,7 @@
 
 	[mobs.netherite_monstrosity]
 		#Lava bomb Magazine
-		# Default: 15
+		# Default: 3
 		# Range: 0 ~ 20
 		lava_bomb_magazine = 10
 		#Lava bomb Amount
@@ -648,7 +648,7 @@
 		#Harbinger Auto Heal
 		# Default: 2.0
 		# Range: 0.0 ~ 1000000.0
-		harbinger_auto_heal = 18.0
+		harbinger_auto_heal = 8.0
 		#Harbinger Life Steal
 		# Default: 5.0
 		# Range: 0.0 ~ 1000000.0
@@ -668,7 +668,7 @@
 		#Death Laser HP Damage
 		# Default: 0.05
 		# Range: 0.0 ~ 1.0
-		death_laser_hp_damage = 0.10
+		death_laser_hp_damage = 0.1
 		#Charge Attack Hp Damage
 		# Default: 0.06
 		# Range: 0.0 ~ 1.0
@@ -692,7 +692,7 @@
 			#Dps Cap
 			# Default: 14.0
 			# Range: 1.0 ~ 1000000.0
-			dps_cap = 31.8
+			dps_cap = 45.0
 			#DPS Limit Time
 			# Default: 20
 			# Range: 1 ~ 100
@@ -732,7 +732,7 @@
 		#Death Laser HP Damage
 		# Default: 0.05
 		# Range: 0.0 ~ 1.0
-		death_laser_hp_damage = 0.10
+		death_laser_hp_damage = 0.1
 
 		[mobs.prowler.combat_config]
 			#Scale mob health by this value
@@ -1094,21 +1094,21 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 22.2
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 18.0
 
 		[mobs.scylla.cap_config]
 			#Damage Cap
 			# Default: 21.0
 			# Range: 0.0 ~ 1000000.0
-			damage_cap = 21.0
+			damage_cap = 210.0
 			#Dps Cap
 			# Default: 13.0
 			# Range: 1.0 ~ 1000000.0
-			dps_cap = 13.0
+			dps_cap = 130.0
 			#DPS Limit Time
 			# Default: 20
 			# Range: 1 ~ 100
@@ -1116,7 +1116,7 @@
 			#Range Cap
 			# Default: 12.0
 			# Range: 1.0 ~ 1000000.0
-			range_cap = 12.0
+			range_cap = 32.0
 
 		[mobs.scylla.respawner_config]
 			#Respawner
@@ -1136,21 +1136,21 @@
 			#Scale mob health by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			health_multiplier = 1.0
+			health_multiplier = 10.0
 			#Scale mob attack damage by this value
 			# Default: 1.0
 			# Range: 0.1 ~ 1000000.0
-			attack_multiplier = 1.0
+			attack_multiplier = 9.0
 
 		[mobs.clawdian.cap_config]
 			#Damage Cap
 			# Default: 21.0
 			# Range: 0.0 ~ 1000000.0
-			damage_cap = 21.0
+			damage_cap = 210.0
 			#Dps Cap
 			# Default: 12.0
 			# Range: 1.0 ~ 1000000.0
-			dps_cap = 12.0
+			dps_cap = 120.0
 			#DPS Limit Time
 			# Default: 20
 			# Range: 1 ~ 100
@@ -1158,7 +1158,7 @@
 			#Range Cap
 			# Default: 12.0
 			# Range: 1.0 ~ 1000000.0
-			range_cap = 12.0
+			range_cap = 32.0
 
 		[mobs.clawdian.ignore_mobgriefing_config]
 			#Ignore MobGriefing
