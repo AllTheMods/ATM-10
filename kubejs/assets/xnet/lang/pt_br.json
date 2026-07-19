@@ -1,4 +1,5 @@
 {
+
     "item.xnet.xnet_manual": "Manual da XNet",
     "item.xnet.connector_upgrade": "Kit de Melhoria de Conector",
 
@@ -82,14 +83,14 @@
     "xnet.channel.logic": "Lógica",
     "xnet.min": "Mín",
     "xnet.max": "Máx",
-    "xnet.speed.tooltip": "Número de ticks para cada operação",
+    "xnet.speed.tooltip": "Número de tiques para cada operação",
     "xnet.priority.label": "Prio",
     "xnet.priority.tooltip": "Prioridade de inserção",
     "xnet.rate.label": "Taxa",
     "xnet.filter.label": "Filtro",
     "xnet.ext.ending": "extração",
     "xnet.ins.ending": "inserção",
-    "xnet.energy.rate.tooltip.formatted": "Taxa máx. de %s de energia|(limitado a %d por tick)",
+    "xnet.energy.rate.tooltip.formatted": "Taxa máx. de %s de energia|(limitado a %d por tique)",
     "xnet.low.format": "baixa",
     "xnet.high.format": "alta",
     "xnet.energy.minmax.tooltip.formatted": "Desativar %s se a energia|estiver muito %s",
@@ -113,7 +114,7 @@
 
     "xnet.logic.input.channel.tooltip": "Canal de entrada de Redstone",
     "xnet.logic.counter.filter.tooltip": "Contar entradas antes de emitir o pulso de saída",
-    "xnet.logic.timer.filter.tooltip": "Contar ticks antes de emitir o pulso de saída",
+    "xnet.logic.timer.filter.tooltip": "Contar tiques antes de emitir o pulso de saída",
     "xnet.logic.rs.label": "Redstone:",
     "xnet.logic.rs.tooltip": "Valor da saída de Redstone",
     "xnet.logic.sensor.operator.tooltip": "Operador",
@@ -121,7 +122,7 @@
     "xnet.logic.sensor.out.color.tooltip": "Cor da saída",
     "xnet.logic.impulseMode.label": "Modo de Pulso:",
     "xnet.logic.impulseMode.tooltip": "Se ativado, o conector emitirá um pulso curto|ao invés de um sinal constante",
-    "xnet.logic.impulseDuration.tooltip": "Duração do pulso em ticks",
+    "xnet.logic.impulseDuration.tooltip": "Duração do pulso em tiques",
     "xnet.rs.mode.ignored.tooltip": "Modo Redstone:\nIgnorado",
     "xnet.rs.mode.off.tooltip": "Modo Redstone:\nDesligado para ativar",
     "xnet.rs.mode.on.tooltip": "Modo Redstone:\nLigado para ativar",
@@ -183,7 +184,7 @@
     "xnet.enum.logic.logicfilter.xnor.tooltip": "Aplica ao sinal de entrada|operação lógica NÃO-OU Exclusivo (XNOR)",
     "xnet.enum.logic.logicfilter.latch.tooltip": "Alterna o sinal de saída|toda vez que recebe|um sinal de entrada",
     "xnet.enum.logic.logicfilter.counter.tooltip": "Emite um sinal toda|vez que recebe a contagem|especificada de sinais de entrada",
-    "xnet.enum.logic.logicfilter.timer.tooltip": "Emite um sinal a cada|contagem especificada de ticks|normalmente 20 ticks = 1 seg",
+    "xnet.enum.logic.logicfilter.timer.tooltip": "Emite um sinal a cada|contagem especificada de tiques|normalmente 20 tiques = 1 seg",
     "xnet.enum.logic.logicfilter.static.tooltip": "Sempre emite o valor especificado",
     
     "xnet.enum.logic.logicmode.sensor": "Sensor",

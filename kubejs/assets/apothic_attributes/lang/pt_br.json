@@ -1,0 +1,210 @@
+{
+    "apothic_attributes.gui.attributes": "Atributos",
+    "apothic_attributes.gui.base": "Base: %s",
+    "apothic_attributes.gui.min": "Mín: %s",
+    "apothic_attributes.gui.max": "Máx: %s",
+    "apothic_attributes.gui.modifiers": "Modificadores",
+    "apothic_attributes.gui.add_value": "Adição: %s",
+    "apothic_attributes.gui.add_multiplied_base": "Multiplicar Base: %s",
+    "apothic_attributes.gui.add_multiplied_total": "Multiplicar Total: %s",
+    "apothic_attributes.gui.press_shift": "Segure Shift para mais informações.",
+    "apothic_attributes.gui.current": "Atual: %s",
+    "apothic_attributes.gui.show_attributes": "Mostrar Atributos",
+    "apothic_attributes.gui.dynamic": "(dinâmico)",
+    "apothic_attributes.gui.formula": "Fórmula do Modificador",
+    "apothic_attributes.gui.formula.base": "Base",
+    "apothic_attributes.gui.formula.value": "Valor",
+    "apothic_attributes.gui.no_modifiers": "Sem Modificadores",
+
+    "attribute.name.generic.armor.desc": "Aumenta a redução de dano físico.",
+    "attribute.name.generic.armor_toughness.desc": "Reduz a eficácia da redução de armadura inimiga.",
+    "attribute.name.generic.attack_damage.desc": "Dano físico causado com um ataque totalmente carregado.",
+    "attribute.name.generic.attack_knockback.desc": "A distância que seus ataques corpo a corpo empurram os inimigos, em meios-blocos.",
+    "attribute.name.generic.attack_speed.desc": "Quantos ataques totalmente carregados você pode executar por segundo.",
+    "attribute.name.generic.knockback_resistance.desc": "Quanta repulsão você ignora.",
+    "attribute.name.generic.luck.desc": "Aumenta a probabilidade de coisas boas acontecerem.",
+    "attribute.name.generic.max_health.desc": "Quantos pontos de vida você pode ter.",
+    "attribute.name.generic.movement_speed.desc": "Velocidade de movimento ao caminhar.",
+
+    "neoforge.entity_reach.desc": "A que distância você pode interagir com entidades, em blocos.",
+    "neoforge.entity_gravity.desc": "Aceleração em direção ao chão, em blocos/s².",
+    "neoforge.name_tag_distance.desc": "A que distância outro jogador deve estar para ver seu nome.",
+    "neoforge.block_reach.desc": "A que distância você pode interagir com blocos, em blocos.",
+    "neoforge.step_height.desc": "Quantos blocos você pode subir sem pular.",
+    "neoforge.swim_speed.desc": "A velocidade com que você nada, em relação ao normal.",
+
+    "button.apothic_attributes.hide_unchanged": "Ocultar Atributos Inalterados",
+    "text.apothic_attributes.hide_unchanged": "Ocultar Inalterados",
+
+    "apothic_attributes:draw_speed": "Velocidade de Puxada",
+    "apothic_attributes:draw_speed.desc": "A velocidade com que você puxa armas de longo alcance, como arcos, bestas ou tridentes.",
+
+    "apothic_attributes:crit_chance": "Chance de Crítico",
+    "apothic_attributes:crit_chance.desc": "A chance de qualquer dano que você causar ser um acerto crítico, causando dano extra com base no seu Dano Crítico.",
+
+    "apothic_attributes:crit_damage": "Dano Crítico",
+    "apothic_attributes:crit_damage.desc": "Multiplicador de dano para acertos críticos, incluindo os acertos críticos de pulo do jogo base.",
+
+    "apothic_attributes:cold_damage": "Dano de Frio",
+    "apothic_attributes:cold_damage.desc": "Dano mágico bônus aplicado em ataques corpo a corpo, que também aplica lentidão aos inimigos atingidos.",
+
+    "apothic_attributes:fire_damage": "Dano de Fogo",
+    "apothic_attributes:fire_damage.desc": "Dano mágico bônus aplicado em ataques corpo a corpo, que também queima os inimigos atingidos.",
+
+    "apothic_attributes:life_steal": "Roubo de Vida",
+    "apothic_attributes:life_steal.desc": "Porcentagem do dano pós-mitigação que irá curar você.",
+
+    "apothic_attributes:current_hp_damage": "Dano de Vida Atual",
+    "apothic_attributes:current_hp_damage.desc": "Dano físico bônus aplicado em ataques corpo a corpo, com base na vida do alvo.",
+
+    "apothic_attributes:overheal": "Sobrecura",
+    "apothic_attributes:overheal.desc": "Porcentagem do dano pós-mitigação que concederá a você um escudo de absorção.",
+
+    "apothic_attributes:ghost_health": "Vida Fantasma",
+    "apothic_attributes:ghost_health.desc": "Ainda Não Implementado",
+
+    "apothic_attributes:mining_speed": "Velocidade de Mineração",
+    "apothic_attributes:mining_speed.desc": "A velocidade com que você minera blocos, em comparação ao normal.",
+
+    "apothic_attributes:arrow_damage": "Dano de Flecha",
+    "apothic_attributes:arrow_damage.desc": "Multiplicador de dano para flechas. Tridentes são flechas.",
+
+    "apothic_attributes:arrow_velocity": "Velocidade da Flecha",
+    "apothic_attributes:arrow_velocity.desc": "Multiplicador de velocidade para flechas. O dano da flecha escala com a velocidade.",
+
+    "apothic_attributes:experience_gained": "Experiência Ganha",
+    "apothic_attributes:experience_gained.desc": "Multiplicador na quantidade de experiência que você ganha ao quebrar blocos e matar monstros.",
+
+    "apothic_attributes:healing_received": "Cura Recebida",
+    "apothic_attributes:healing_received.desc": "Multiplicador para toda a cura recebida.",
+
+    "apothic_attributes:armor_pierce": "Perfuração de Armadura",
+    "apothic_attributes:armor_pierce.desc": "Redução fixa no valor da armadura do alvo.",
+
+    "apothic_attributes:armor_shred": "Fragmentação de Armadura",
+    "apothic_attributes:armor_shred.desc": "Redução percentual no valor da armadura do alvo.",
+
+    "apothic_attributes:projectile_damage": "Dano de Projétil",
+    "apothic_attributes:projectile_damage.desc": "Multiplicador de dano para todos os projéteis disparados.",
+
+    "apothic_attributes:prot_pierce": "Perfuração de Proteção",
+    "apothic_attributes:prot_pierce.desc": "Redução fixa no total de pontos de proteção do alvo.",
+
+    "apothic_attributes:prot_shred": "Fragmentação de Proteção",
+    "apothic_attributes:prot_shred.desc": "Redução percentual no total de pontos de proteção do alvo.",
+
+    "apothic_attributes:dodge_chance": "Chance de Esquiva",
+    "apothic_attributes:dodge_chance.desc": "Chance de se esquivar de um ataque corpo a corpo ou de um projétil.",
+
+    "apothic_attributes:elytra_flight": "Voo com Élitro",
+    "apothic_attributes:elytra_flight.desc": "Se você pode voar como se estivesse usando Elitros.",
+
+    "apothic_attributes:creative_flight": "Voo Criativo",
+    "apothic_attributes:creative_flight.desc": "Se você pode voar como se estivesse no Modo Criativo.",
+
+    "comment_id": "MobFx - descriptions are duplicated for JEED support.",
+
+    "effect.apothic_attributes.knowledge": "Conhecimento das Eras",
+    "effect.apothic_attributes.vitality": "Estouro de Vitalidade",
+    "effect.apothic_attributes.grievous": "Feridas Dolorosas",
+    "effect.apothic_attributes.flying": "Voo",
+
+    "effect.apothic_attributes.sundering": "Ruptura",
+    "effect.apothic_attributes.sundering.desc": "Aumenta o dano recebido.",
+    "effect.apothic_attributes.sundering.description": "Aumenta o dano recebido.",
+
+    "effect.apothic_attributes.bleeding": "Sangramento",
+    "effect.apothic_attributes.bleeding.desc": "Inflige dano a cada dois segundos.",
+    "effect.apothic_attributes.bleeding.description": "Inflige dano a cada dois segundos.",
+
+    "effect.apothic_attributes.detonation": "Detonação Flamejante",
+    "effect.apothic_attributes.detonation.desc": "Ao expirar, inflige dano com base nos tiques de fogo restantes.",
+    "effect.apothic_attributes.detonation.description": "Ao expirar, inflige dano com base nos tiques de fogo restantes.",
+
+    "effect.minecraft.night_vision.desc": "Permite que você enxergue no escuro.",
+    "effect.minecraft.invisibility.desc": "Torna você invisível, exceto pelos equipamentos.",
+    "effect.minecraft.jump_boost.desc": "Aumenta a altura do pulo.",
+    "effect.minecraft.fire_resistance.desc": "Torna você imune a dano de fogo.",
+    "effect.minecraft.water_breathing.desc": "Faz com que você não se afogue.",
+    "effect.minecraft.instant_health.desc": "Restaura instantaneamente um pouco da sua vida.",
+    "effect.minecraft.instant_damage.desc": "Causa instantaneamente um pouco de dano mágico.",
+    "effect.minecraft.poison.desc": "Inflige periodicamente dano não letal.",
+    "effect.minecraft.regeneration.desc": "Faz com que você regenere vida ao longo do tempo.",
+
+    "comment_id": "Damage Sources",
+
+    "death.attack.apothic_attributes:bleeding": "%1$s sangrou até morrer",
+    "death.attack.apothic_attributes:bleeding.item": "%1$s sangrou até morrer devido a %3$s de %2$s",
+    "death.attack.apothic_attributes:bleeding.player": "%1$s sangrou até morrer enquanto tentava escapar de %2$s",
+
+    "death.attack.apothic_attributes:detonation": "Chamas detonaram %1$s",
+    "death.attack.apothic_attributes:detonation.item": "Chamas detonaram %1$s",
+    "death.attack.apothic_attributes:detonation.player": "Chamas detonaram %1$s",
+
+    "death.attack.apothic_attributes:current_hp_damage": "Abateram %1$s",
+    "death.attack.apothic_attributes:current_hp_damage.item": "%2$s abateu %1$s usando %3$s",
+    "death.attack.apothic_attributes:current_hp_damage.player": "Abateram %1$s enquanto lutava com %2$s",
+
+    "death.attack.apothic_attributes:fire_damage": "%1$s queimou até a morte",
+    "death.attack.apothic_attributes:fire_damage.item": "%2$s queimou %1$s até a morte usando %3$s",
+    "death.attack.apothic_attributes:fire_damage.player": "%1$s queimou até a morte enquanto lutava com %2$s",
+
+    "death.attack.apothic_attributes:cold_damage": "%1$s congelou até a morte",
+    "death.attack.apothic_attributes:cold_damage.item": "%2$s congelou %1$s até a morte usando %3$s",
+    "death.attack.apothic_attributes:cold_damage.player": "%1$s congelou até a morte enquanto lutava com %2$s",
+
+    "item.minecraft.potion.effect.minecraft.resistance": "Poção de Resistência",
+    "item.minecraft.splash_potion.effect.minecraft.resistance": "Poção Arremessável de Resistência",
+    "item.minecraft.lingering_potion.effect.minecraft.resistance": "Poção Persistente de Resistência",
+    "item.minecraft.tipped_arrow.effect.minecraft.resistance": "Flecha de Resistência",
+
+    "item.minecraft.potion.effect.minecraft.absorption": "Poção de Absorção",
+    "item.minecraft.splash_potion.effect.minecraft.absorption": "Poção Arremessável de Absorção",
+    "item.minecraft.lingering_potion.effect.minecraft.absorption": "Poção Persistente de Absorção",
+    "item.minecraft.tipped_arrow.effect.minecraft.absorption": "Flecha de Absorção",
+
+    "item.minecraft.potion.effect.minecraft.haste": "Poção de Pressa",
+    "item.minecraft.splash_potion.effect.minecraft.haste": "Poção Arremessável de Pressa",
+    "item.minecraft.lingering_potion.effect.minecraft.haste": "Poção Persistente de Pressa",
+    "item.minecraft.tipped_arrow.effect.minecraft.haste": "Flecha de Pressa",
+
+    "item.minecraft.potion.effect.minecraft.mining_fatigue": "Poção de Exaustão",
+    "item.minecraft.splash_potion.effect.minecraft.mining_fatigue": "Poção Arremessável de Exaustão",
+    "item.minecraft.lingering_potion.effect.minecraft.mining_fatigue": "Poção Persistente de Exaustão",
+    "item.minecraft.tipped_arrow.effect.minecraft.mining_fatigue": "Flecha de Exaustão",
+
+    "item.minecraft.potion.effect.minecraft.wither": "Poção do Wither",
+    "item.minecraft.splash_potion.effect.minecraft.wither": "Poção Arremessável do Wither",
+    "item.minecraft.lingering_potion.effect.minecraft.wither": "Poção Persistente do Wither",
+    "item.minecraft.tipped_arrow.effect.minecraft.wither": "Flecha do Wither",
+
+    "item.minecraft.potion.effect.minecraft.levitation": "Poção de Levitação",
+    "item.minecraft.splash_potion.effect.minecraft.levitation": "Poção Arremessável de Levitação",
+    "item.minecraft.lingering_potion.effect.minecraft.levitation": "Poção Persistente de Levitação",
+    "item.minecraft.tipped_arrow.effect.minecraft.levitation": "Flecha de Levitação",
+
+    "item.minecraft.potion.effect.apothic_attributes.sundering": "Poção Ruptura",
+    "item.minecraft.splash_potion.effect.apothic_attributes.sundering": "Poção Arremessável Ruptura",
+    "item.minecraft.lingering_potion.effect.apothic_attributes.sundering": "Poção Persistente Ruptura",
+    "item.minecraft.tipped_arrow.effect.apothic_attributes.sundering": "Flecha Ruptura",
+
+    "item.minecraft.potion.effect.apothic_attributes.knowledge": "Poção do Conhecimento das Eras",
+    "item.minecraft.splash_potion.effect.apothic_attributes.knowledge": "Poção Arremessável do Conhecimento das Eras",
+    "item.minecraft.lingering_potion.effect.apothic_attributes.knowledge": "Poção Persistente do Conhecimento das Eras",
+    "item.minecraft.tipped_arrow.effect.apothic_attributes.knowledge": "Flecha do Conhecimento das Eras",
+
+    "item.minecraft.potion.effect.apothic_attributes.vitality": "Poção de Estouro de Vitalidade",
+    "item.minecraft.splash_potion.effect.apothic_attributes.vitality": "Poção Arremessável de Estouro de Vitalidade",
+    "item.minecraft.lingering_potion.effect.apothic_attributes.vitality": "Poção Persistente de Estouro de Vitalidade",
+    "item.minecraft.tipped_arrow.effect.apothic_attributes.vitality": "Flecha de Estouro de Vitalidade",
+
+    "item.minecraft.potion.effect.apothic_attributes.grievous": "Poção de Redução de Cura",
+    "item.minecraft.splash_potion.effect.apothic_attributes.grievous": "Poção Arremessável de Redução de Cura",
+    "item.minecraft.lingering_potion.effect.apothic_attributes.grievous": "Poção Persistente de Redução de Cura",
+    "item.minecraft.tipped_arrow.effect.apothic_attributes.grievous": "Flecha de Redução de Cura",
+
+    "item.minecraft.potion.effect.apothic_attributes.flying": "Poção de Voo",
+    "item.minecraft.splash_potion.effect.apothic_attributes.flying": "Poção Arremessável de Voo",
+    "item.minecraft.lingering_potion.effect.apothic_attributes.flying": "Poção Persistente de Voo",
+    "item.minecraft.tipped_arrow.effect.apothic_attributes.flying": "Flecha de Voo"
+}
