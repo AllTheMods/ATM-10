@@ -259,6 +259,7 @@
 			y: -3.0d
 		}
 		{
+			dependency: "7D67058592EE5958"
 			height: 1.5d
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
@@ -267,6 +268,7 @@
 			y: 4.5d
 		}
 		{
+			dependency: "0CF69DBA9573A7B3"
 			height: 1.5d
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
@@ -2053,6 +2055,8 @@
 		{
 			dependencies: ["57A7A5C79389A96A"]
 			id: "0CF69DBA9573A7B3"
+			invisible: true
+			optional: true
 			tasks: [{
 				id: "0FB1E9BD14FE8EF8"
 				item: { count: 1, id: "create:schematic_table" }
@@ -2064,6 +2068,8 @@
 		{
 			dependencies: ["0CF69DBA9573A7B3"]
 			id: "7D67058592EE5958"
+			invisible: true
+			optional: true
 			tasks: [{
 				id: "5D989C876E9B8AA5"
 				item: { count: 1, id: "create:schematicannon" }

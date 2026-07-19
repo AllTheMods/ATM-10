@@ -1,0 +1,194 @@
+#[Fabric Only] Whether ores are generated. On NeoForge, use a datapack instead.
+generateOresFabricOnly = false
+#Speed addon processing speed multiplier
+# Default: 0.5
+# Range: 0.0 ~ 100.0
+speedAddonSpeed = 0.5
+#Speed addon energy efficiency multiplier
+# Default: 1.2
+# Range: 0.0 ~ 100.0
+speedAddonEfficiency = 1.2
+#Efficiency addon energy multiplier
+# Default: 0.8
+# Range: 0.0 ~ 100.0
+efficiencyAddonEfficiency = 0.8
+#Ultimate addon speed multiplier
+# Default: 0.25
+# Range: 0.0 ~ 100.0
+ultimateAddonSpeed = 0.25
+#Ultimate addon efficiency multiplier
+# Default: 1.1
+# Range: 0.0 ~ 100.0
+ultimateAddonEfficiency = 1.1
+#Processing chamber efficiency multiplier
+# Default: 1.5
+# Range: 0.0 ~ 100.0
+chamberAddonEfficiency = 1.5
+#Burst time in ticks per addon
+# Default: 240
+# Range: > 0
+burstAddonTicks = 240
+#Use tighter hitboxes for machine addons
+tightMachineAddonHitboxes = true
+#Use tighter hitboxes for machine frames
+tightMachineFrameHitboxes = false
+#Use tighter hitboxes for cables
+tightCableHitboxes = true
+
+[basicJetpack]
+# Default: 100000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 100000
+# Default: 4000
+# Range: 0 ~ 9223372036854775807
+fuelCapacity = 4000
+# Default: 128
+# Range: > 0
+energyUsage = 128
+# Default: 10
+# Range: > 0
+fuelUsage = 10
+# Default: 1024
+# Range: > 0
+chargeSpeed = 1024
+#Flight speed multiplier
+# Default: 0.4
+# Range: 0.0 ~ 100.0
+speed = 0.4
+
+[exoJetpack]
+# Default: 5000000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 5000000
+# Default: 32000
+# Range: 0 ~ 9223372036854775807
+fuelCapacity = 32000
+# Default: 256
+# Range: > 0
+energyUsage = 256
+# Default: 15
+# Range: > 0
+fuelUsage = 15
+# Default: 10000
+# Range: > 0
+chargeSpeed = 10000
+#Flight speed multiplier
+# Default: 1.5
+# Range: 0.0 ~ 100.0
+speed = 1.5
+
+[elytraJetpack]
+# Default: 100000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 100000
+# Default: 4000
+# Range: 0 ~ 9223372036854775807
+fuelCapacity = 4000
+# Default: 128
+# Range: > 0
+energyUsage = 128
+# Default: 10
+# Range: > 0
+fuelUsage = 10
+# Default: 1024
+# Range: > 0
+chargeSpeed = 1024
+#Flight speed multiplier
+# Default: 0.6
+# Range: 0.0 ~ 100.0
+speed = 0.6
+
+[exoElytraJetpack]
+# Default: 5000000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 5000000
+# Default: 32000
+# Range: 0 ~ 9223372036854775807
+fuelCapacity = 32000
+# Default: 256
+# Range: > 0
+energyUsage = 256
+# Default: 15
+# Range: > 0
+fuelUsage = 15
+# Default: 10000
+# Range: > 0
+chargeSpeed = 10000
+#Flight speed multiplier
+# Default: 1.4
+# Range: 0.0 ~ 100.0
+speed = 1.4
+
+[exoChestplate]
+# Default: 5000000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 5000000
+# Default: 10000
+# Range: 0 ~ 9223372036854775807
+energyUsage = 10000
+# Default: 10000
+# Range: > 0
+chargeSpeed = 10000
+
+[basicDrill]
+# Default: 10000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 10000
+# Default: 10
+# Range: 0 ~ 9223372036854775807
+energyUsage = 10
+# Default: 512
+# Range: > 0
+chargeSpeed = 512
+
+[chainSaw]
+# Default: 10000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 10000
+# Default: 10
+# Range: 0 ~ 9223372036854775807
+energyUsage = 10
+# Default: 512
+# Range: > 0
+chargeSpeed = 512
+
+[electricMace]
+# Default: 500000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 500000
+#RF consumed per hit
+# Default: 2048
+# Range: > 0
+energyUsage = 2048
+# Default: 50000
+# Range: > 0
+chargeSpeed = 50000
+#Lightning attack RF usage multiplier
+# Default: 8
+# Range: > 0
+lightningCostMultiplier = 8
+
+[portableLaserConfig]
+# Default: 5000000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 5000000
+#RF consumed per tick while firing
+# Default: 4096
+# Range: > 0
+energyPerTick = 4096
+#RF consumed per explosion
+# Default: 100000
+# Range: > 0
+energyPerBoom = 100000
+#Block breaking speed multiplier
+# Default: 0.125
+# Range: 0.0 ~ 100.0
+blockBreakSpeed = 0.125
+#Base damage to entities
+# Default: 4
+# Range: > 0
+damageBase = 4
+#Explosion power
+# Default: 6
+# Range: > 0
+explosionStrength = 6

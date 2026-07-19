@@ -1,0 +1,593 @@
+[machineSettings]
+#Whether addon bonuses are added additive or multiplicative
+additiveAddons = true
+#When enabled, machine core quality determines how many layers of machine extenders can be used. If false, it's the direct amount.
+layeredExtenders = false
+#Applies to the destroyer block and enderic laser. Lower = hardness has a lower effect on speed.
+# Default: 0.5
+# Range: 0.0 ~ 10.0
+blockBreakHardnessExponentialFactor = 0.5
+
+[machineSettings.processingMachines]
+#Maximum machine frame chain length
+# Default: 64
+# Range: > 1
+machineFrameMaxLength = 64
+
+[machineSettings.processingMachines.assemblerData]
+# Default: 50000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 50000
+# Default: 1024
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 1024
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 0
+# Default: 128
+# Range: > 0
+energyPerTick = 128
+
+[machineSettings.processingMachines.atomicForgeData]
+# Default: 1024
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 1024
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 0
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 0
+# Default: 1024
+# Range: > 0
+energyPerTick = 1024
+
+[machineSettings.processingMachines.centrifugeData]
+# Default: 10000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 10000
+# Default: 512
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 512
+# Default: 64
+# Range: > 0
+energyPerTick = 128
+#Fluid tank size in buckets
+# Default: 8
+# Range: 0 ~ 9223372036854775807
+tankSizeInBuckets = 8
+
+[machineSettings.processingMachines.foundryData]
+# Default: 50000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 50000
+# Default: 1024
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 1024
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 0
+# Default: 128
+# Range: > 0
+energyPerTick = 256
+
+[machineSettings.processingMachines.coolerData]
+# Default: 50000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 50000
+# Default: 256
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 256
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 0
+# Default: 32
+# Range: > 0
+energyPerTick = 128
+
+[machineSettings.processingMachines.fragmentForgeData]
+# Default: 50000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 50000
+# Default: 2048
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 2048
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 0
+# Default: 256
+# Range: > 0
+energyPerTick = 512
+
+[machineSettings.processingMachines.furnaceData]
+# Default: 10000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 10000
+# Default: 256
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 256
+# Default: 32
+# Range: > 0
+energyPerTick = 64
+#Furnace speed multiplier relative to vanilla
+# Default: 0.5
+# Range: 0.0 ~ 100.0
+speedMultiplier = 0.5
+
+[machineSettings.processingMachines.pulverizerData]
+# Default: 25000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 25000
+# Default: 256
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 256
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 0
+# Default: 32
+# Range: > 0
+energyPerTick = 64
+
+[machineSettings.processingMachines.refineryData]
+# Default: 50000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 50000
+# Default: 512
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 512
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 0
+# Default: 64
+# Range: > 0
+energyPerTick = 128
+
+[machineSettings.generators]
+#Generator animation speed multiplier
+# Default: 10.0
+# Range: 0.0 ~ 1000.0
+animationSpeedMultiplier = 10.0
+#Fluid ID for steam produced by the steam boiler. Only this is accepted by steam engines.
+steamId = "oritech:still_steam"
+
+[machineSettings.generators.basicGeneratorData]
+# Default: 50000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 50000
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 0
+# Default: 256
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 256
+# Default: 32
+# Range: > 0
+energyPerTick = 64
+
+[machineSettings.generators.bioGeneratorData]
+# Default: 100000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 400000
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 0
+# Default: 512
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 2048
+# Default: 64
+# Range: > 0
+energyPerTick = 256
+
+[machineSettings.generators.lavaGeneratorData]
+# Default: 100000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 400000
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 0
+# Default: 512
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 2048
+# Default: 64
+# Range: > 0
+energyPerTick = 256
+
+[machineSettings.generators.fuelGeneratorData]
+# Default: 250000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 1000000
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 0
+# Default: 2048
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 16000
+# Default: 256
+# Range: > 0
+energyPerTick = 2048
+
+[machineSettings.generators.steamEngineData]
+# Default: 100000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 100000
+# Default: 50000
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 50000
+#Applies to generators with the steam addon. Droplets of steam produced per the usual RF.
+# Default: 2.0
+# Range: 0.0 ~ 1000.0
+rfToSteamRatio = 2.0
+#Energy per steam unit in the steam engine
+# Default: 1
+# Range: > 0
+steamToRfRatio = 1
+#When enabled, the steam engine stops when energy storage is full
+stopOnEnergyFull = false
+#When enabled, the steam engine stops when the water tank is full. Must be pumped out to resume.
+stopOnWaterFull = true
+#Steam capacity of steam-boiler generators and the steam engine, in buckets
+# Default: 8.0
+# Range: 0.0 ~ 1000.0
+steamBoilerCapacityBuckets = 8.0
+
+[machineSettings.generators.solarGeneratorData]
+# Default: 100000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 1000000
+# Default: 0
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 0
+# Default: 256
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 25600
+# Default: 32
+# Range: > 0
+energyPerTick = 1600
+
+[machineSettings.laserArmConfig]
+# Default: 20000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 20000
+# Default: 1024
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 2048
+# Default: 128
+# Range: 0 ~ 9223372036854775807
+energyPerTick = 512
+#Base RF cost to break a block
+# Default: 1024
+# Range: > 0
+blockBreakEnergyBase = 1024
+#Base damage per tick to entities
+# Default: 2.0
+# Range: 0.0 ~ 1000.0
+damageTickBase = 2.0
+#Maximum targeting range in blocks
+# Default: 128
+# Range: > 1
+range = 128
+
+[machineSettings.deepDrillConfig]
+# Default: 20000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 20000
+#Work steps required per ore output
+# Default: 20
+# Range: > 1
+stepsPerOre = 20
+#RF consumed per work step
+# Default: 1024
+# Range: > 0
+energyPerStep = 1024
+
+[machineSettings.destroyerConfig]
+# Default: 15
+# Range: > 1
+moveDuration = 15
+# Default: 40
+# Range: > 1
+workDuration = 40
+# Default: 8
+# Range: > 0
+moveEnergyUsage = 8
+# Default: 128
+# Range: > 0
+workEnergyUsage = 128
+
+[machineSettings.fertilizerConfig]
+# Default: 10
+# Range: > 1
+moveDuration = 10
+# Default: 20
+# Range: > 1
+workDuration = 20
+# Default: 8
+# Range: > 0
+moveEnergyUsage = 16
+# Default: 128
+# Range: > 0
+workEnergyUsage = 256
+#Liquid consumed per fertilized block in buckets
+# Default: 0.25
+# Range: 0.0 ~ 100.0
+liquidPerBlockUsage = 0.25
+
+[machineSettings.placerConfig]
+# Default: 10
+# Range: > 1
+moveDuration = 10
+# Default: 5
+# Range: > 1
+workDuration = 5
+# Default: 8
+# Range: > 0
+moveEnergyUsage = 16
+# Default: 64
+# Range: > 0
+workEnergyUsage = 128
+
+[machineSettings.addonConfig]
+#Burst addon processing speed multiplier
+# Default: 8.0
+# Range: 0.0 ~ 1000.0
+burstAddonSpeedMultiplier = 8.0
+#Burst addon throttle energy multiplier
+# Default: 1.2
+# Range: 0.0 ~ 100.0
+burstAddonThrottleMultiplier = 1.2
+#Addon splicer RF storage capacity
+# Default: 50000000
+# Range: 0 ~ 9223372036854775807
+addonShrinkerRF = 50000000
+
+[storageBlocks]
+#Portable tank fluid capacity in buckets
+# Default: 256
+# Range: > 1
+portableTankCapacityBuckets = 256
+#Overcharged crystal energy generation rate in RF/t
+# Default: 10
+# Range: > 1
+overchargedCrystalChargeRate = 10
+
+[storageBlocks.smallEnergyStorage]
+# Default: 1000000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 5000000
+# Default: 5000
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 5000
+# Default: 5000
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 5000
+# Default: 0
+# Range: > 0
+energyPerTick = 0
+
+[storageBlocks.largeEnergyStorage]
+# Default: 20000000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 60000000
+# Default: 10000
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 10000
+# Default: 10000
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 10000
+# Default: 0
+# Range: > 0
+energyPerTick = 0
+
+[logistics]
+#Items transferred per pipe cycle
+# Default: 8
+# Range: > 1
+itemPipeTransferAmount = 8
+#Ticks between item pipe transfers
+# Default: 5
+# Range: > 1
+itemPipeIntervalDuration = 5
+#Fluid extracted per pipe cycle in buckets
+# Default: 0.5
+# Range: 0.0 ~ 1000.0
+fluidPipeExtractAmountBuckets = 0.5
+#Ticks between fluid pipe extractions
+# Default: 3
+# Range: > 1
+fluidPipeExtractIntervalDuration = 3
+#Fluid pipe internal buffer size in buckets
+# Default: 2.0
+# Range: 0.0 ~ 1000.0
+fluidPipeInternalStorageBuckets = 2.0
+#Energy pipe transfer rate in RF/t
+# Default: 10000
+# Range: 0 ~ 9223372036854775807
+energyPipeTransferRate = 10000
+#Superconductor cable transfer rate in RF/t
+# Default: 4194304
+# Range: 0 ~ 9223372036854775807
+superConductorTransferRate = 4194304
+
+[logistics.poleConfig]
+#Energy transmission rate and capacity in RF/t
+# Default: 1000000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 1000000
+#Minimum separation distance between poles
+# Default: 50
+# Range: > 0
+minRange = 50
+#Maximum separation distance between poles
+# Default: 1000
+# Range: > 0
+maxRange = 1000
+
+[equipment]
+#Enable tree cutting for the chainsaw
+chainsawTreeCutting = true
+
+[equipment.charger]
+# Default: 500000
+# Range: 0 ~ 9223372036854775807
+energyCapacity = 500000
+# Default: 10000
+# Range: 0 ~ 9223372036854775807
+maxEnergyInsertion = 10000
+# Default: 5000
+# Range: 0 ~ 9223372036854775807
+maxEnergyExtraction = 5000
+# Default: 0
+# Range: > 0
+energyPerTick = 0
+
+[worldGeneration]
+#Makes oil wells and bedrock ore nodes easier to find. Oil wells show a small fountain, ore nodes a boulder on the surface.
+easyFindFeatures = true
+
+[reactor]
+#With safe mode enabled, the reactor enters a cooldown period instead of exploding when overheated
+safeMode = false
+#Reactor safe mode cooldown duration in ticks
+# Default: 2400
+# Range: > 0
+safeModeCooldown = 2400
+#Maximum reactor multiblock size
+# Default: 64
+# Range: > 1
+maxSize = 32
+#Maximum energy stored in the reactor in RF
+# Default: 50000000
+# Range: > 0
+reactorMaxEnergyStored = 150000000
+#Maximum energy output in RF/t per energy port
+# Default: 25000
+# Range: > 0
+reactorMaxEnergyOutput = 125000
+#RF generated per reactor pulse
+# Default: 64
+# Range: > 0
+rfPerPulse = 1100
+#Neutron absorber heat reduction rate
+# Default: 16
+# Range: > 0
+absorberRate = 64
+#Vent base cooling rate
+# Default: 4
+# Range: > 0
+ventBaseRate = 24
+#Vent proportional cooling rate
+# Default: 100
+# Range: > 0
+ventRelativeRate = 160
+#Maximum heat before reactor meltdown
+# Default: 2000
+# Range: > 0
+maxHeat = 2000
+#Ticks before an overheated reactor explodes
+# Default: 600
+# Range: > 0
+maxUnstableTicks = 600
+#Disable fancy reactor explosion effects
+boringNukes = true
+
+[arcane]
+#Enchanter soul cost multiplier
+# Default: 5
+# Range: > 0
+enchanterCostMultiplier = 5
+#Catalyst base soul capacity
+# Default: 50
+# Range: > 0
+catalystBaseSouls = 50
+#RF/t per catalyst soul capacity level increase
+# Default: 20
+# Range: > 0
+catalystRFPerSoul = 20
+#Catalyst soul cost multiplier
+# Default: 2
+# Range: > 0
+catalystCostMultiplier = 2
+#Additional hyper enchanting cost multiplier
+# Default: 2
+# Range: > 0
+catalystHyperMultiplier = 2
+#Exponential factor for hyper enchanting cost. Increase carefully, makes higher levels MUCH more expensive.
+# Default: 1.15
+# Range: 0.0 ~ 100.0
+catalystHyperExpFactor = 1.15
+#Spawner soul cost multiplier
+# Default: 1
+# Range: > 0
+spawnerCostMultiplier = 1
+
+[particleAccelerator]
+#Maximum particle gate distance
+# Default: 10
+# Range: > 1
+maxGateDist = 10
+#Particle curve requirement factor
+# Default: 2.5
+# Range: 0.0 ~ 100.0
+bendFactor = 2.5
+#Base RF cost per particle acceleration step
+# Default: 10
+# Range: > 0
+accelerationRFCost = 10
+#Accelerator motor RF storage capacity
+# Default: 5000000
+# Range: 0 ~ 9223372036854775807
+acceleratorMotorRFCapacity = 5000000
+#Minimum collision energy to activate an end portal
+# Default: 10000
+# Range: > 0
+endPortalRequiredSpeed = 10000
+#Minimum collision energy to activate a nether portal
+# Default: 5000
+# Range: > 0
+netherPortalRequiredSpeed = 5000
+#Minimum collision energy to create a black hole
+# Default: 15000
+# Range: > 0
+blackHoleRequiredSpeed = 15000
+#Tachyon collector energy capacity in RF
+# Default: 1000000
+# Range: > 0
+collectorEnergyStorage = 1000000
+#Particle collision tachyon RF multiplier
+# Default: 1.0
+# Range: 0.0 ~ 100.0
+tachyonCollisionEnergyFactor = 1.0
+
+[blackHole]
+#Black hole pull time multiplier
+# Default: 8
+# Range: > 0
+pullTimeMultiplier = 8
+#Black hole pull range in blocks
+# Default: 16
+# Range: > 0
+pullRange = 16
+#Black hole idle wait ticks between operations
+# Default: 200
+# Range: > 0
+idleWaitTicks = 200
+#Energy of tachyons produced by black holes
+# Default: 50000
+# Range: > 0
+blackHoleTachyonEnergy = 50000
+#Unstable container base RF storage capacity
+# Default: 20000000
+# Range: 0 ~ 9223372036854775807
+unstableContainerBaseCapacity = 20000000
+
+[augments]
+#Cybernetical station maximum energy storage
+# Default: 500000000
+# Range: 0 ~ 9223372036854775807
+augmenterMaxEnergy = 500000000
+
+[interaction]
+#Machine sound volume multiplier
+# Default: 1.0
+# Range: 0.0 ~ 10.0
+machineVolumeMultiplier = 1.0

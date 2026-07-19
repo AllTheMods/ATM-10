@@ -1,28 +1,37 @@
 {
-	quest.104EBBC08B4733F5.quest_desc: ["A &dCâmara de Simulação&r é a máquina principal dentro do HNN.\\n\\nQuando recebe energia, ela executa simulações com base no &bModelo de Dados&r que é colocado dentro. A energia necessária também depende do Modelo de Dados colocado dentro e pode ser vista na dica de ferramenta do Modelo.\\n\\nA máquina também requer pelo menos uma &9Matriz de Previsão&r para executar uma simulação.\\n\\nO resultado da simulação será exibido na Matriz. As simulações sempre produzirão algum tipo de &ePrevisão Generalizada&r, que pode ser usada em várias receitas de criação. Elas também variam dependendo da origem do mob no Modelo de Dados.\\n\\nSe a simulação for bem-sucedida, você receberá uma &dPrevisão de Mob&r baseada no modelo. Quanto maior o nível do Modelo de Dados usado, maior a taxa de sucesso de uma simulação."]
+	quest.104EBBC08B4733F5.quest_desc: ["A &dCâmara de Simulação&r é a máquina principal no HNN.\\n\\nQuando recebe energia, ela executará simulações com base no &bModelo de Dados&r colocado dentro. A energia necessária também depende do &bModelo de Dados&r colocado dentro e pode ser vista na dica do &bModelo&r. \\n\\nA máquina também requer pelo menos uma &9Matriz de Previsão&r para executar uma simulação.\\n\\nAs simulações possuem dois modos.\\n\\n&a&lTreinamento:&r\\nO &bModelo de Dados&r ganha dados, sem produzir nenhuma &ePrevisão Generalizada&r ou &dPrevisão de Criatura&r.\\n\\n&2&lInferência:&r\\nO resultado da simulação será enviado para a Matriz, sem que o &bModelo de Dados&r ganhe quaisquer Dados.\\n\\nSe a simulação for bem-sucedida, você receberá uma &dPrevisão de Criatura&r com base no modelo. Quanto maior o nível do &bModelo de Dados&r usado, maior será a taxa de sucesso para uma simulação.\\n\\nSe a simulação falhar, você receberá algum tipo de &ePrevisão Generalizada&r, que pode ser usada em várias receitas de fabricação. Elas também variam dependendo da origem da criatura no &bModelo de Dados&r."]
 	quest.104EBBC08B4733F5.title: "&aSimulando Mortes"
-	quest.10E8BC20D406D9FB.quest_subtitle: "Faz vários Materiais do Nether"
-	quest.12AE2856444996F6.quest_desc: ["Esta Missão foi criada pela &6Equipe AllTheMods&r, ou por um &2contribuidor da Comunidade&r para uso nos Modpacks AllTheMods.\\n\\nComo todos os pacotes &6AllTheMods&r são licenciados sob &eTodos os Direitos Reservados&r, esta Missão não pode ser usada em nenhum pacote público não lançado pela &6Equipe AllTheMods&r sem permissão explícita.\\n\\nEsta missão está intencionalmente oculta, se você está vendo isso, está no modo de edição."]
-	quest.14B3542ECB59869C.quest_desc: ["O &5Fabricante de Tesouros&r é a máquina que te dá aquele saque docinho das Previsões de Mob.\\n\\nQuando recebe energia e uma Previsão de Mob bem-sucedida, você poderá escolher qual item gostaria de obter do Modelo de Dados daquele mob. A máquina lembrará sua escolha, para que possa ser automatizada.\\n\\nExemplos de Previsões de Mob:\\n\\n- &dDragões do End&r para &dOvos de Dragão\\n - &2Zumbis&r para Ferro\\n - &0Withers&r para &5Estrelas do Nether"]
+	quest.10E8BC20D406D9FB.quest_subtitle: "Cria vários materiais do Nether"
+	quest.12AE2856444996F6.quest_desc: ["A &6equipe AllTheMods&r ou um &2colaborador da Comunidade&r criou esta missão para uso em modpacks AllTheMods.\\n\\nComo todos os pacotes &6AllTheMods&r estão licenciados sob &eTodos os direitos reservados&r, esta missão não poderá ser usada em pacotes públicos não lançados pela &6equipe AllTheMods&r sem permissão explícita.\\n\\nEsta missão está oculta intencionalmente. Se você a está vendo, está no modo de edição."]
+	quest.14B3542ECB59869C.quest_desc: ["O &5Fabricante de Saques&r é a máquina que fornece aquele saque maravilhoso das Previsões de Criatura.\\n\\nAo fornecer energia e uma Previsão de Criatura bem-sucedida, você poderá escolher qual item gostaria de obter do Modelo de Dados daquela criatura. A máquina lembrará da sua escolha, para que possa ser automatizada.\\n\\nExemplos de Previsões de Criatura:\\n\\n- &dDragões Ender&r para &dOvos do Dragão\\n - &2Zumbis&r para Ferro\\n - &0Withers&r para &5Estrelas do Nether"]
 	quest.14B3542ECB59869C.title: "Criando &dSaques"
-	quest.14F7F256DA863280.quest_subtitle: "Faz vários Materiais da Twilight Forest"
-	quest.2559201BCF5D497C.quest_subtitle: "Faz vários Materiais do Mundo Superior"
-	quest.34CD54347E9821B5.quest_desc: ["Depois de criar seu primeiro Modelo de Dados, você precisará subir o nível dele para que seja útil.\\n\\nOs Modelos de Dados começam no primeiro tier: &7Defeituoso&r. Você precisará, no mínimo, nivelá-lo para &aBásico&r se quiser executar algumas simulações nele!\\n\\nUma vez colocado dentro do Deep Learner, o HUD informará quantas mortes são necessárias para subir de nível. Você também pode ver essa informação na dica de ferramenta do próprio Modelo."]
-	quest.34CD54347E9821B5.title: "Subindo o Nível dos Modelos de Dados"
+	quest.14F7F256DA863280.quest_subtitle: "Cria vários materiais da Twilight Forest"
+	quest.2559201BCF5D497C.quest_subtitle: "Cria vários materiais da Superfície"
+	quest.34CD54347E9821B5.quest_desc: ["Depois de criar seu primeiro Modelo de Dados, você precisará subi-lo de nível para torná-lo útil.\\n\\nOs Modelos de Dados começam no primeiro nível: &7Defeituoso&r. Você precisará subi-lo de nível pelo menos para &aBásico&r se quiser executar simulações neles!\\n\\nApós colocá-lo dentro do Aprendiz Profundo, a interface mostrará quantas mortes são necessárias para subi-lo de nível. Você também poderá ver essas informações na dica do próprio Modelo."]
+	quest.34CD54347E9821B5.title: "Subindo Modelos de Dados de Nível"
 	quest.37EBB8E0D6E5F821.quest_desc: [
-		"&6Hostile Neural Networks&r (HNN para abreviar) é um mod baseado em simular mortes de mobs para obter saques!\\n\\nPara fazer isso, você coletará \"dados\" sobre mobs e, em seguida, executará simulações a partir dos dados para criar seus drops!\\n"
+		"O &6Hostile Neural Networks&r (HNN de forma abreviada) é um mod baseado na simulação de mortes de criaturas para obter saques!\\n\\nPara fazer isso, você coletará \"dados\" de criaturas e executará simulações a partir dos dados para criar os itens deixados por elas!\\n"
 		"{image:atm:textures/questpics/hnn.png width:150 height:150 align:center}"
 	]
-	quest.37EBB8E0D6E5F821.title: "&fBem-vindo ao &9Hostile Neural Networks&f!"
-	quest.3E3CBDCEAB0FF28F.quest_desc: ["O &9Deep Learner&r é um dos componentes principais do HNN.\\n\\nCom este item, você pode clicar com o botão direito para abrir um HUD e armazenar &6Modelos de Dados&r para coletar dados enquanto mata mobs.\\n\\nCada Learner pode conter 4 Modelos de Dados, e contanto que você tenha o Learner em qualquer lugar do seu inventário, ele coletará dados para os modelos colocados dentro!\\n\\nNota: Você pode ter vários Deep Learners em seu inventário, e ele contará as mortes para todos os Modelos de Dados dentro de todos os Learners."]
-	quest.3E3CBDCEAB0FF28F.quest_subtitle: "O HUD de Aprendizagem"
-	quest.3E3CBDCEAB0FF28F.title: "&aAprendendo Mobs"
-	quest.4092E914B24C52A7.quest_subtitle: "Produz vários Materiais Starlight"
-	quest.58C2ABED43B2EA61.quest_desc: ["As &9Estruturas de Modelo&r são o ponto de partida para a criação de Modelos de Dados.\\n\\nPara começar a coletar dados sobre um mob específico, você vai querer fazer uma dessas e &9clicar com o botão direito&r no mob sobre o qual deseja coletar dados. Quando feito corretamente, a Estrutura de Modelo se transformará no Modelo de Dados do mob em que você clicou.\\n\\nPara coletar dados para esse mob, coloque o Modelo de Dados recém-criado dentro de um &aDeep Learner&r e comece a matar esse mob específico com o Deep Learner em seu inventário."]
+	quest.37EBB8E0D6E5F821.title: "Bem-vindo(a) ao &9Hostile Neural Networks&r!"
+	quest.3E3CBDCEAB0FF28F.quest_desc: ["O &9Aprendiz Profundo&r é um dos componentes principais da HNN.\\n\\nCom este item, você poderá clicar com o botão direito para abrir uma interface e guardar &6Modelos de Dados&r para coletar dados enquanto mata criaturas.\\n\\nCada Aprendiz pode guardar 4 Modelos de Dados e, desde que você tenha o Aprendiz em qualquer lugar do seu inventário, ele coletará dados para os modelos colocados dentro!\\n\\nNota: Você poderá ter vários Aprendizes Profundos no seu inventário, e ele contará as mortes para todos os Modelos de Dados dentro de todos os Aprendizes."]
+	quest.3E3CBDCEAB0FF28F.quest_subtitle: "A Interface de Aprendizado"
+	quest.3E3CBDCEAB0FF28F.title: "&aAprendendo sobre Criaturas"
+	quest.3F3F3174BD9D03BD.quest_desc: [
+		"O &dCentro de &5Dados&r é um multibloco 7x7x7 que combina as funcionalidades da &dCâmara de Simulação&r e do &5Fabricante de Saques&r de uma forma única.\\n\\nEle é capaz de lidar com 25 &6Modelos de Dados &bAutoconscientes&r simultaneamente, com os mesmos efeitos das simulações de &2&lInferência&r, com a seguinte diferença:\\n\\nEm vez de produzir Previsões de Criatura, o &dCentro de &5Dados&r produz saques diretamente, com os mesmos modos possíveis do &5Fabricante de Saques&r."
+		"{@pagebreak}"
+		"Para construir o multibloco, o chão (primeira camada) deverá ser feito de Obsidiana (verifique a tarefa Obsidianas para ver quais formas de Obsidiana o &dCentro de &5Dados&r aceita).\\n\\nAs paredes e o teto do multibloco deverão ser feitos de Vidro Preto. O controlador poderá substituir um bloco da parede inferior, e Portas de E/S poderão substituir o Vidro Preto."
+		"{image:atm:textures/questpics/hnn/datacenterintheend.png width:100 height:100 align:center}"
+	]
+	quest.3F3F3174BD9D03BD.quest_subtitle: "Nenhuma IA generativa foi usada para criar esta missão"
+	quest.3F3F3174BD9D03BD.title: "O &dCentro de &5Dados"
+	quest.4092E914B24C52A7.quest_subtitle: "Cria vários materiais da Starlight"
+	quest.58C2ABED43B2EA61.quest_desc: ["As &9Estruturas de Modelo&r são o ponto de partida para criar Modelos de Dados.\\n\\nPara começar a coletar dados de uma criatura específica, você precisará fazer uma destas e &9clicar com o botão direito&r na criatura da qual deseja coletar dados. Se feito corretamente, a Estrutura de Modelo se transformará no Modelo de Dados da criatura em que você clicou.\\n\\nPara coletar dados dessa criatura, coloque o Modelo de Dados recém-criado dentro de um &aAprendiz Profundo&r e comece a matar aquela criatura específica com o Aprendiz Profundo no seu inventário."]
 	quest.58C2ABED43B2EA61.quest_subtitle: "\"Coletando Dados\""
-	quest.58C2ABED43B2EA61.title: "&9Modelando Mobs"
-	quest.5A23107C363A209E.quest_subtitle: "Faz vários Materiais do End"
+	quest.58C2ABED43B2EA61.title: "&9Modelando Criaturas"
+	quest.5A23107C363A209E.quest_subtitle: "Cria vários materiais do End"
 	task.15D2A03410859443.title: "TodosOsDireitosReservados"
 	task.6B580F95A2E5A465.title: "TodosOsDireitosReservados"
-	task.7F17E48ACE65C84E.title: "Data Models"
+	task.6B84DAA99028ACEA.title: "Obsidianas"
+	task.7F17E48ACE65C84E.title: "Modelos de Dados"
 }
