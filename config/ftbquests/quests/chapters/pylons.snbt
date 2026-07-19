@@ -13,8 +13,8 @@
 			image: "atm:textures/questpics/pylons/pylon_harvester.png"
 			rotation: 0.0d
 			width: 3.721698113207547d
-			x: 0.0d
-			y: 3.0d
+			x: -5.0d
+			y: 4.0d
 		}
 		{
 			height: 3.0d
@@ -285,7 +285,7 @@
 				item: { count: 1, id: "pylons:mob_filter" }
 				type: "item"
 			}]
-			x: 2.25d
+			x: 1.3499999999999999d
 			y: 3.15d
 		}
 		{
@@ -405,6 +405,69 @@
 			}]
 			x: 3.15d
 			y: 2.35d
+		}
+		{
+			id: "77B185799366ACD2"
+			rewards: [
+				{
+					id: "7E2D3426904398C7"
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
+					random_bonus: 1
+					type: "item"
+				}
+				{
+					id: "67A917A78024E6E6"
+					type: "xp"
+					xp: 50
+				}
+			]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [{
+				id: "55A51CABCD9B2042"
+				item: { count: 1, id: "pylons:block_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.15d
+		}
+		{
+			dependencies: [
+				"30B0240543253EFB"
+				"011F787E620DE9E8"
+				"77B185799366ACD2"
+			]
+			dependency_requirement: "one_completed"
+			id: "2F5263A4166BFCD6"
+			rewards: [
+				{
+					count: 4
+					id: "15F3A7C65BDFB43F"
+					item: {
+						count: 1
+						id: "minecraft:honeycomb"
+					}
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "765C8669B005D78E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				id: "3AE982582C50FBF9"
+				item: { count: 1, id: "pylons:protection_pylon" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 }

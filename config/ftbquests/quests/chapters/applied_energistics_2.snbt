@@ -77,7 +77,11 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["68B0B3DAF1145191"]
+			dependencies: [
+				"68B0B3DAF1145191"
+				"332A3C7BA261DBFC"
+			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "ae2:meteorite_compass"
 			}
@@ -2012,6 +2016,23 @@
 			}]
 			x: 0.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["68B0B3DAF1145191"]
+			id: "332A3C7BA261DBFC"
+			optional: true
+			rewards: [{
+				id: "2F1CED83E9D95AE2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "76B9732500E6930B"
+				item: { count: 1, id: "ars_nouveau:dowsing_rod" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
 		}
 	]
 }

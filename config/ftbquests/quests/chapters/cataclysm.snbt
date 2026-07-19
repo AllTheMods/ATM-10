@@ -411,7 +411,7 @@
 			y: -11.0d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -437,7 +437,7 @@
 				item: { count: 1, id: "minecraft:ender_eye" }
 				type: "item"
 			}]
-			x: 0.0d
+			x: 3.0d
 			y: -17.0d
 		}
 		{
@@ -472,7 +472,7 @@
 				item: { count: 1, id: "cataclysm:mech_eye" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 3.5d
 			y: -15.5d
 		}
 		{
@@ -507,7 +507,7 @@
 				item: { count: 1, id: "cataclysm:flame_eye" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 4.5d
 			y: -17.5d
 		}
 		{
@@ -542,7 +542,7 @@
 				item: { count: 1, id: "cataclysm:void_eye" }
 				type: "item"
 			}]
-			x: 0.5d
+			x: 3.5d
 			y: -18.5d
 		}
 		{
@@ -577,7 +577,7 @@
 				item: { count: 1, id: "cataclysm:monstrous_eye" }
 				type: "item"
 			}]
-			x: 1.5d
+			x: 4.5d
 			y: -16.5d
 		}
 		{
@@ -612,7 +612,7 @@
 				item: { count: 1, id: "cataclysm:abyss_eye" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 2.5d
 			y: -18.5d
 		}
 		{
@@ -647,7 +647,7 @@
 				item: { count: 1, id: "cataclysm:desert_eye" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: 1.5d
 			y: -16.5d
 		}
 		{
@@ -1590,7 +1590,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["0496E8E786262464"]
+			dependencies: ["0E1BC2AE1BE0BDFA"]
 			id: "631796E7615C04FA"
 			rewards: [
 				{
@@ -1619,8 +1619,8 @@
 				type: "kill"
 				value: 1L
 			}]
-			x: -1.5d
-			y: -2.0d
+			x: 0.5d
+			y: -3.0d
 		}
 		{
 			dependencies: ["50C9CB8FB16E453D"]
@@ -2054,7 +2054,7 @@
 				item: { count: 1, id: "cataclysm:cursed_eye" }
 				type: "item"
 			}]
-			x: -1.5d
+			x: 1.5d
 			y: -17.5d
 		}
 		{
@@ -2481,7 +2481,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: 15.5d
+			y: 15.0d
 		}
 		{
 			dependencies: [
@@ -2650,8 +2650,8 @@
 				item: { count: 1, id: "minecraft:bucket" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -2.5d
+			x: -1.5d
+			y: -2.0d
 		}
 		{
 			id: "00307A898A639191"
@@ -2669,7 +2669,7 @@
 				}
 			]
 			x: 0.0d
-			y: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["0496E8E786262464"]
@@ -2678,6 +2678,22 @@
 			}
 			icon_scale: 1.6d
 			id: "573DD5834B321D0A"
+			rewards: [
+				{
+					count: 5
+					id: "5BAC955577BD5915"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "160861D7E7E327DE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
 			shape: "square"
 			size: 1.25d
 			tasks: [{
@@ -2790,7 +2806,7 @@
 				item: { count: 1, id: "cataclysm:storm_eye" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: 2.5d
 			y: -15.5d
 		}
 		{
@@ -3023,12 +3039,6 @@
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "590E340DD8B24EA5"
-					table_id: 5196609362437981520L
-					type: "random"
-				}
-				{
 					id: "5F1C78B88693B3EC"
 					type: "xp_levels"
 					xp_levels: 250
@@ -3039,7 +3049,363 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -20.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["69ECE13A6E5503CD"]
+			icon: {
+				id: "cataclysm:frosted_stone_bricks"
+			}
+			icon_scale: 1.5d
+			id: "0A43D38D27CF4304"
+			optional: true
+			rewards: [{
+				id: "4246AABC82611B14"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			tasks: [{
+				id: "4D01B83BE241DF04"
+				structure: "cataclysm:abandoned_spire"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: -18.0d
+		}
+		{
+			dependencies: [
+				"0A43D38D27CF4304"
+				"2C9C4BFF1D89EF82"
+				"1695917695648018"
+			]
+			id: "73A56DD4AC1B9590"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "630386AFE70ABCF5"
+					item: {
+						count: 1
+						id: "cataclysm:black_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "53C66D4E3AE271CF"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "7B2DC225171E87E4"
+				item: { count: 1, id: "cataclysm:ring_of_grudged" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -17.0d
+		}
+		{
+			dependencies: [
+				"0A43D38D27CF4304"
+				"2C9C4BFF1D89EF82"
+				"1695917695648018"
+			]
+			id: "69EA17CEB4203C96"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "294A5080B67F9A70"
+					item: {
+						count: 1
+						id: "cataclysm:black_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "71A49F023D96B611"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "296F816FDAB68D33"
+				item: { count: 1, id: "cataclysm:berserker_soul_amulet" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"0A43D38D27CF4304"
+				"2C9C4BFF1D89EF82"
+				"1695917695648018"
+			]
+			id: "2D69B48F1EFCC9A5"
+			optional: true
+			rewards: [
+				{
+					count: 3
+					id: "155C9D1D9ABD483B"
+					item: {
+						count: 1
+						id: "cataclysm:black_steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					id: "024EA1F847407786"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "14FA43B6BF220D19"
+				item: { count: 1, id: "cataclysm:sturdy_boots" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["69ECE13A6E5503CD"]
+			icon: {
+				id: "cataclysm:frosted_stone_bricks"
+			}
+			icon_scale: 1.5d
+			id: "1695917695648018"
+			optional: true
+			rewards: [{
+				id: "38D0F1228E7FDE61"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5974C3F14F776345"
+				structure: "cataclysm:abandoned_temple"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["69ECE13A6E5503CD"]
+			icon: {
+				id: "cataclysm:frosted_stone_bricks"
+			}
+			icon_scale: 1.5d
+			id: "2C9C4BFF1D89EF82"
+			optional: true
+			rewards: [{
+				id: "2BA0796845DBD60F"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			tasks: [{
+				id: "53A17A07EC3E1130"
+				structure: "cataclysm:abandoned_village"
+				type: "structure"
+			}]
+			x: -4.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["0496E8E786262464"]
+			icon: {
+				id: "minecraft:amethyst_block"
+			}
+			icon_scale: 1.5d
+			id: "0E1BC2AE1BE0BDFA"
+			rewards: [
+				{
+					count: 5
+					id: "33C7ECB6B6FAA38C"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+				{
+					id: "14A2125DDB7EB582"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "4D10CEF5A4E308E0"
+				structure: "cataclysm:amethyst_nest"
+				type: "structure"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "69ECE13A6E5503CD"
+			optional: true
+			rewards: [{
+				id: "62B0F960248F3BD7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7C5888981773633E"
+				item: { count: 1, id: "cataclysm:belt_of_beginner" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["69ECE13A6E5503CD"]
+			icon: {
+				id: "minecraft:sandstone"
+			}
+			icon_scale: 1.5d
+			id: "060CAF1582B83918"
+			optional: true
+			rewards: [{
+				id: "49FCBEE8C6905FE9"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			tasks: [{
+				id: "555D549DAE9D18BD"
+				structure: "cataclysm:desert_occupied_village"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: -18.0d
+		}
+		{
+			dependencies: ["69ECE13A6E5503CD"]
+			icon: {
+				id: "minecraft:sandstone"
+			}
+			icon_scale: 1.5d
+			id: "1B7A15730657ED30"
+			optional: true
+			rewards: [{
+				id: "3625E0807C33745C"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			tasks: [{
+				id: "5F71006BC662A77D"
+				structure: "cataclysm:desert_site"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: -17.0d
+		}
+		{
+			dependencies: ["69ECE13A6E5503CD"]
+			icon: {
+				id: "minecraft:sandstone"
+			}
+			icon_scale: 1.5d
+			id: "2B50E9FC93812730"
+			optional: true
+			rewards: [{
+				id: "0C8270B882113E5F"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "square"
+			tasks: [{
+				id: "123A6265F909EF29"
+				structure: "cataclysm:desert_temple"
+				type: "structure"
+			}]
+			x: -1.5d
+			y: -16.0d
+		}
+		{
+			dependencies: [
+				"060CAF1582B83918"
+				"2B50E9FC93812730"
+				"1B7A15730657ED30"
+			]
+			id: "6E12C5DDF81DE88F"
+			optional: true
+			rewards: [
+				{
+					count: 15
+					id: "5F21C76AAD8C52B7"
+					item: {
+						count: 1
+						id: "cataclysm:ancient_metal_nugget"
+					}
+					type: "item"
+				}
+				{
+					id: "2597BA52F2F2E3EE"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "51DEFC0FBCED4C07"
+				item: { count: 1, id: "cataclysm:unbreakable_skull" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -17.5d
+		}
+		{
+			dependencies: [
+				"060CAF1582B83918"
+				"2B50E9FC93812730"
+				"1B7A15730657ED30"
+			]
+			id: "680D49E2B3929322"
+			optional: true
+			rewards: [
+				{
+					count: 15
+					id: "706F2B165E6420AC"
+					item: {
+						count: 1
+						id: "cataclysm:ancient_metal_nugget"
+					}
+					type: "item"
+				}
+				{
+					id: "2CC94DEDF916E981"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				id: "30AF164C7FFA3779"
+				item: { count: 1, id: "cataclysm:vitality_ankh" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["683C260C854C5AA3"]
+			id: "2C0DF8D6ED259E5F"
+			rewards: [{
+				id: "679C7252371BC43A"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+			tasks: [{
+				id: "33C0CBFFE4E393FF"
+				item: { count: 1, id: "cataclysm:brontes" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 16.0d
 		}
 	]
 }
