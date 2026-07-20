@@ -1477,7 +1477,7 @@
 				}
 				{
 					id: "5392CADA51B80879"
-					item: { count: 1, id: "minecraft:black_stained_glass" }
+					item: { components: { "ftbfiltersystem:filter": "or(item_tag(chipped:black_stained_glass)item(connectedglass:tinted_borderless_glass_black)item(connectedglass:borderless_glass_black)item(connectedglass:clear_glass_black)item(connectedglass:scratched_glass_black)item(securitycraft:reinforced_black_stained_glass))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 					type: "item"
 				}
 				{
