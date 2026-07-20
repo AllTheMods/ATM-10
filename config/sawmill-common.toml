@@ -1,7 +1,39 @@
 [general]
 	#Sort recipes following cretive tab order. Could cause issue in the case when, for whatever reason, creative other would differ from server to client.Additionally Neoforge has a bug where this stuff won't work on servers. Use Forge instead!
 	sort_recipes = false
-	#Save sawmill recipes to disk. Enable this if you are the author of a modpack and want to disable dynamic recipe generation. To do so just turn of that config, turn this one on and after booting up the game just copy the generated recipes in the generated folder in your own datapack, then turn off this config
-	save_recipes = false
-	#Generates Sawmill recipes dynamically. Remove this if you plan to add all of them manually instead. Can speed up boot time slightly
-	dynamic_recipes = false
+	#
+	#How dynamic assets are generated. If cached the cache will regenerate once any mod or pack changes
+	#- NEVER: This mod will never attempt to generate the cache folder. The assets will be put in memory
+	#- CACHED: create a CACHE folder via .minecraft/dynamic-resource-pack-cache
+	#- CACHED_ZIPPED: create a ZIP folder via .minecraft/dynamic-resource-pack-cache
+	#- ALWAYS: Will always generate the assets & will be stored in memory. There will be no cache folder
+	#Allowed Values: NEVER, CACHED, CACHED_ZIPPED, ALWAYS
+	recipe_generation_mode = "CACHED_ZIPPED"
+	#Allow crafting non-block items
+	allow_non_blocks = true
+	#Allows crafting non wood variant items (crafting table for example)
+	allow_non_variant = true
+	#List of Mod ids you want to completely exclude from sawmill recipes. All recipes from these mods will be ignored. Use to remove mods with many recipes as sawmill can display at most 255 at onceFor more fine control use the sawmill:blacklist item tag
+	mods_blacklist = ["framedblocks"]
+	#Makes so planks recipes can only craft items with 1 input plank. Disable to allow more recipes
+	limit_planks_input_to_one = true
+	#Makes Sawmill GUI slightly wider
+	wider_gui = false
+	#Determines if GUI will have search bar or not. Automatic only enables the bar statically when you have enough mods that add wood recipes. Dynamic changes the gui dynamically depending on how many recipe its displaying
+	#Allowed Values: OFF, ON, AUTOMATIC, DYNAMIC
+	search_bar_mode = "AUTOMATIC"
+	#At how many recipes the search bar should appear
+	# Default: 32
+	# Range: 0 ~ 200
+	search_bar_threshold = 32
+	#Maximum discount that sawmill will given when converting recipes. Unit is percentage of input item
+	# Default: 0.35
+	# Range: 0.0 ~ 1.0
+	max_discount = 0.35
+	#Enables and disables compat structures for Repurposed Structures mod
+	repurposed_structures_compat = true
+
+	#This is a map of wood object type to its cost in planks. Its used to add some discount to some special blocks.Change this if say you want all fences to cost 1 plank. Not all keys will work here bt you can try modded ones if you hae Every Compat
+	[general.special_recipe_costs]
+		boat = 4.0
+		stairs = 1.0
