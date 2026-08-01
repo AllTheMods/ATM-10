@@ -4,7 +4,7 @@
 	filename: "apothic_enchanting"
 	group: "02FE661031A105D8"
 	icon: {
-		id: "minecraft:enchanting_table"
+		id: "apothic_enchanting:apothic_enchanting_table"
 	}
 	id: "12AD9789D962B179"
 	images: [
@@ -69,7 +69,7 @@
 			image: "atm:textures/questpics/apothic/enchant_deep.png"
 			rotation: 0.0d
 			width: 7.0d
-			x: 10.0d
+			x: 12.0d
 			y: 0.0d
 		}
 		{
@@ -77,15 +77,111 @@
 			image: "atm:textures/questpics/apothic/enchant_end.png"
 			rotation: 0.0d
 			width: 7.0d
-			x: 15.5d
+			x: 19.0d
 			y: 0.0d
+		}
+		{
+			height: 0.75d
+			image: "atm:textures/questpics/apothic/gear_tiers.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 13.0d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/gui/book/haven_icon.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/gui/book/frontier_icon.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "apotheosis:textures/gui/book/summit_icon.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/apothic/ascent_button.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "atm:textures/questpics/apothic/pinnacle_button.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 15.5d
+			y: -4.0d
+		}
+		{
+			height: 1.25d
+			image: "atm:textures/questpics/apothic/apotheos1.png"
+			rotation: 0.0d
+			width: 1.25d
+			x: 10.5d
+			y: -4.0d
 		}
 	]
 	order_index: 0
 	progression_mode: "flexible"
-	quest_links: [ ]
+	quest_links: [
+		{
+			id: "677FDD8F1ECB5CCE"
+			linked_quest: "196312DF0D2E2CB6"
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			id: "189612B2E981DD42"
+			linked_quest: "377A41499D8218C9"
+			x: 11.5d
+			y: -5.0d
+		}
+		{
+			id: "743267DACC538E2F"
+			linked_quest: "2A032EC573B5316C"
+			x: 12.5d
+			y: -5.0d
+		}
+		{
+			id: "484CB3B4AE6930E7"
+			linked_quest: "1D1FAA2F86695781"
+			x: 13.5d
+			y: -5.0d
+		}
+		{
+			id: "4B0B50AC6724D96D"
+			linked_quest: "097FDC136BC843A7"
+			x: 14.5d
+			y: -5.0d
+		}
+		{
+			id: "3DF0A321BAB54C99"
+			linked_quest: "7EF873DCEB3B9D48"
+			x: 15.5d
+			y: -5.0d
+		}
+	]
 	quests: [
 		{
+			icon: {
+				id: "apothic_enchanting:apothic_enchanting_table"
+			}
 			id: "1FAFDB20F504688E"
 			rewards: [
 				{
@@ -107,7 +203,7 @@
 			size: 3.0d
 			tasks: [{
 				id: "79FB7E7194336B30"
-				item: { count: 1, id: "minecraft:enchanting_table" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(minecraft:enchanting_table)item(apothic_enchanting:apothic_enchanting_table))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -6.0d
@@ -116,7 +212,7 @@
 		{
 			dependencies: ["1FAFDB20F504688E"]
 			icon: {
-				id: "minecraft:bookshelf"
+				id: "apothic_enchanting:basic_bookshelf"
 			}
 			id: "79AF63E77AD70A93"
 			rewards: [
@@ -125,7 +221,7 @@
 					id: "370E5EEE1BB89C66"
 					item: {
 						count: 1
-						id: "minecraft:bookshelf"
+						id: "apothic_enchanting:basic_bookshelf"
 					}
 					type: "item"
 				}
@@ -149,7 +245,7 @@
 		{
 			dependencies: ["79AF63E77AD70A93"]
 			icon: {
-				id: "minecraft:enchanting_table"
+				id: "apothic_enchanting:apothic_enchanting_table"
 			}
 			id: "6C2C135B9B7B9402"
 			rewards: [
@@ -210,7 +306,10 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["31E7F7464D79F881"]
+			dependencies: [
+				"31E7F7464D79F881"
+				"37E556B4A730E5AA"
+			]
 			icon: {
 				id: "minecraft:trident"
 			}
@@ -278,6 +377,7 @@
 			dependencies: [
 				"6884E25641A1020C"
 				"31E7F7464D79F881"
+				"73E09ED46A94B812"
 			]
 			id: "42746659C66CF17F"
 			rewards: [
@@ -387,7 +487,10 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["0A3C464EF7CDD5F6"]
+			dependencies: [
+				"0A3C464EF7CDD5F6"
+				"37E556B4A730E5AA"
+			]
 			id: "45161821C221EF0B"
 			rewards: [
 				{
@@ -498,11 +601,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: [
-				"7C758209D06ED0E3"
-				"191A7F3C9FBA4C13"
-			]
-			dependency_requirement: "one_completed"
+			dependencies: ["091957223C32B094"]
 			id: "235E3C386E8D36A3"
 			rewards: [
 				{
@@ -535,7 +634,7 @@
 				item: { count: 1, id: "apothic_enchanting:deepshelf" }
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.5d
 			y: 0.0d
 		}
 		{
@@ -563,7 +662,7 @@
 				item: { count: 1, id: "apothic_enchanting:soul_touched_deepshelf" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 11.0d
 			y: -1.0d
 		}
 		{
@@ -591,7 +690,7 @@
 				item: { count: 1, id: "apothic_enchanting:soul_touched_sculkshelf" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 13.0d
 			y: -1.5d
 		}
 		{
@@ -619,7 +718,7 @@
 				item: { count: 1, id: "apothic_enchanting:echoing_deepshelf" }
 				type: "item"
 			}]
-			x: 9.0d
+			x: 11.0d
 			y: 1.0d
 		}
 		{
@@ -647,7 +746,7 @@
 				item: { count: 1, id: "apothic_enchanting:echoing_sculkshelf" }
 				type: "item"
 			}]
-			x: 11.0d
+			x: 13.0d
 			y: 1.5d
 		}
 		{
@@ -687,7 +786,7 @@
 				item: { count: 1, id: "apothic_enchanting:endshelf" }
 				type: "item"
 			}]
-			x: 14.5d
+			x: 18.0d
 			y: 0.0d
 		}
 		{
@@ -705,7 +804,7 @@
 				item: { count: 1, id: "apothic_enchanting:geode_shelf" }
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.2d
 			y: 0.0d
 		}
 		{
@@ -742,7 +841,7 @@
 				item: { count: 1, id: "apothic_enchanting:pearl_endshelf" }
 				type: "item"
 			}]
-			x: 16.5d
+			x: 20.0d
 			y: -1.0d
 		}
 		{
@@ -769,7 +868,7 @@
 				item: { count: 1, id: "apothic_enchanting:draconic_endshelf" }
 				type: "item"
 			}]
-			x: 16.5d
+			x: 20.0d
 			y: 1.0d
 		}
 		{
@@ -831,11 +930,12 @@
 				{
 					id: "3107F916D4A7E343"
 					item: { count: 1, id: "apothic_enchanting:treasure_shelf" }
+					optional_task: true
 					type: "item"
 				}
 			]
-			x: 19.0d
-			y: 0.0d
+			x: 22.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6C2C135B9B7B9402"]
@@ -868,7 +968,10 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["6A07D09831428CB9"]
+			dependencies: [
+				"6A07D09831428CB9"
+				"37E556B4A730E5AA"
+			]
 			id: "24391162F4FF0587"
 			rewards: [
 				{
@@ -1033,6 +1136,9 @@
 		}
 		{
 			dependencies: ["6C2C135B9B7B9402"]
+			icon: {
+				id: "apothic_enchanting:basic_bookshelf"
+			}
 			id: "0F3A0A4DC18E5E55"
 			rewards: [
 				{
@@ -1040,7 +1146,7 @@
 					id: "6C7F38A4E08B04E8"
 					item: {
 						count: 1
-						id: "minecraft:bookshelf"
+						id: "apothic_enchanting:basic_bookshelf"
 					}
 					type: "item"
 				}
@@ -1089,9 +1195,8 @@
 		}
 		{
 			dependencies: [
-				"2EC2FA680076C07D"
-				"24FCFF18296ED907"
 				"523DC411241B470A"
+				"73E09ED46A94B812"
 			]
 			id: "158F872A3A2C3650"
 			rewards: [
@@ -1117,11 +1222,14 @@
 				item: { count: 1, id: "apothic_enchanting:infused_breath" }
 				type: "item"
 			}]
-			x: 12.5d
+			x: 16.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["31E7F7464D79F881"]
+			dependencies: [
+				"31E7F7464D79F881"
+				"091957223C32B094"
+			]
 			id: "001A348054127235"
 			rewards: [
 				{
@@ -1152,7 +1260,10 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["31E7F7464D79F881"]
+			dependencies: [
+				"31E7F7464D79F881"
+				"1113BF457DB7F1DE"
+			]
 			id: "78E66F1DE42C747A"
 			rewards: [{
 				count: 2
@@ -1173,7 +1284,10 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["31E7F7464D79F881"]
+			dependencies: [
+				"31E7F7464D79F881"
+				"73E09ED46A94B812"
+			]
 			id: "6220EDE42C813C1B"
 			rewards: [
 				{
@@ -1254,6 +1368,7 @@
 			dependencies: [
 				"31E7F7464D79F881"
 				"105442DA79829777"
+				"37E556B4A730E5AA"
 			]
 			id: "377D6CF86BC1C64F"
 			rewards: [{
@@ -1274,6 +1389,7 @@
 			dependencies: [
 				"31E7F7464D79F881"
 				"377D6CF86BC1C64F"
+				"091957223C32B094"
 			]
 			id: "3D31B94CC42BCE43"
 			rewards: [{
@@ -1448,6 +1564,7 @@
 			dependencies: [
 				"31E7F7464D79F881"
 				"784466C3813AA506"
+				"37E556B4A730E5AA"
 			]
 			id: "78BFDD3A9B996655"
 			rewards: [
@@ -1477,6 +1594,7 @@
 			dependencies: [
 				"31E7F7464D79F881"
 				"78BFDD3A9B996655"
+				"1113BF457DB7F1DE"
 			]
 			id: "61217D80BFF8A858"
 			rewards: [
@@ -1504,42 +1622,183 @@
 		}
 		{
 			dependencies: [
-				"729E3E382B3726D1"
-				"31E7F7464D79F881"
+				"2A032EC573B5316C"
+				"1F748ACA3976A92F"
 			]
-			id: "0976331FEC5E9624"
-			rewards: [
-				{
-					id: "24F4B6347F0EF23D"
-					item: {
-						components: {
-							"apotheosis:gem": "apotheosis:core/warlord"
-							"apotheosis:purity": "perfect"
-						}
-						count: 1
-						id: "apotheosis:gem"
-					}
-					type: "item"
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"gateways:gateway": "apotheosis:tiered/frontier"
 				}
-				{
-					id: "6B3CC9D181569909"
-					type: "xp_levels"
-					xp_levels: 10
-				}
-			]
-			tasks: [{
-				id: "0A7C394EA09EA38B"
-				item: { count: 1, id: "apotheosis:ender_gem_case" }
-				type: "item"
+				id: "gateways:gate_pearl"
+			}
+			id: "37E556B4A730E5AA"
+			rewards: [{
+				id: "67A76BA82E0BCE08"
+				type: "xp_levels"
+				xp_levels: 2
 			}]
-			x: 1.5d
-			y: 4.0d
+			shape: "circle"
+			size: 1.4d
+			tasks: [{
+				advancement: "apotheosis:progression/frontier"
+				criterion: ""
+				id: "63C9970A7DA6A91B"
+				type: "advancement"
+			}]
+			x: 2.8d
+			y: 0.0d
 		}
 		{
-			id: "729E3E382B3726D1"
+			dependencies: [
+				"1D1FAA2F86695781"
+				"18AA64DF63F68762"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"gateways:gateway": "apotheosis:tiered/ascent"
+				}
+				id: "gateways:gate_pearl"
+			}
+			id: "091957223C32B094"
+			rewards: [{
+				id: "3BBB9A96EE805271"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			shape: "circle"
+			size: 1.4d
+			tasks: [{
+				advancement: "apotheosis:progression/ascent"
+				criterion: ""
+				id: "0ABA8A34F152F0CC"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6A07D09831428CB9"
+				"0A3C464EF7CDD5F6"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "minecraft:oak_fence_gate"
+			}
+			id: "1F748ACA3976A92F"
+			size: 0.25d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "3DF1F367C3EA9631"
+				type: "dimension"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7C758209D06ED0E3"
+				"191A7F3C9FBA4C13"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				id: "minecraft:oak_fence_gate"
+			}
+			id: "18AA64DF63F68762"
+			size: 0.25d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "52A3EC00B0885573"
+				type: "dimension"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["097FDC136BC843A7"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"gateways:gateway": "apotheosis:tiered/summit"
+				}
+				id: "gateways:gate_pearl"
+			}
+			id: "1113BF457DB7F1DE"
+			rewards: [{
+				id: "76932F52D8758F91"
+				type: "xp_levels"
+				xp_levels: 4
+			}]
+			shape: "circle"
+			tasks: [{
+				advancement: "apotheosis:progression/summit"
+				criterion: ""
+				id: "6A73841DA995C75A"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"2EC2FA680076C07D"
+				"24FCFF18296ED907"
+				"7EF873DCEB3B9D48"
+			]
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"gateways:gateway": "apotheosis:tiered/pinnacle"
+				}
+				id: "gateways:gate_pearl"
+			}
+			id: "73E09ED46A94B812"
+			rewards: [{
+				id: "24BF8D166CA788F1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			shape: "circle"
+			size: 1.4d
+			tasks: [{
+				advancement: "apotheosis:progression/pinnacle"
+				criterion: ""
+				id: "5C539DBDD95A62AE"
+				type: "advancement"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"31E7F7464D79F881"
+				"1113BF457DB7F1DE"
+			]
+			id: "4EE6824A970EEB35"
+			rewards: [{
+				id: "24E355165EE2D10E"
+				type: "xp_levels"
+				xp_levels: 6
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "19B27A9C01279768"
+				item: { count: 1, id: "apotheosis:infused_spawner_rune" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			id: "7F007C888C23EC42"
 			rewards: [
 				{
-					id: "0919784CCCD8352F"
+					id: "5A4877EC5E8A5396"
 					item: {
 						components: {
 							"apotheosis:gem": "apotheosis:core/warlord"
@@ -1551,18 +1810,112 @@
 					type: "item"
 				}
 				{
-					id: "068BEE691198030A"
+					id: "71B315EDB1D556D4"
 					type: "xp_levels"
 					xp_levels: 3
 				}
 			]
 			tasks: [{
-				id: "7592B73B59DE1323"
+				id: "3335AAC698D63718"
 				item: { count: 1, id: "apotheosis:gem_case" }
 				type: "item"
 			}]
 			x: 1.5d
 			y: 6.0d
+		}
+		{
+			dependencies: [
+				"7F007C888C23EC42"
+				"73E09ED46A94B812"
+			]
+			id: "06F70F6CA37168CC"
+			rewards: [
+				{
+					id: "04E622052C59AD66"
+					item: {
+						components: {
+							"apotheosis:gem": "apotheosis:core/warlord"
+							"apotheosis:purity": "perfect"
+						}
+						count: 1
+						id: "apotheosis:gem"
+					}
+					type: "item"
+				}
+				{
+					id: "365002B5DF83154F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				id: "7B3F84684CCFD81B"
+				item: { count: 1, id: "apotheosis:ender_gem_case" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["148A33CC36B2563A"]
+			id: "1617C1935F22FBD1"
+			rewards: [
+				{
+					count: 10
+					id: "62BAD9C30C0D75AB"
+					item: {
+						count: 1
+						id: "apotheosis:godforged_pearl"
+					}
+					type: "item"
+				}
+				{
+					id: "7608ED83D5B92E16"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				id: "7200EF4D0342BD05"
+				item: { count: 1, id: "apotheosis:god_fused_pearl" }
+				type: "item"
+			}]
+			x: 22.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1617C1935F22FBD1"]
+			id: "3311B79A8F6C6ADD"
+			rewards: [
+				{
+					id: "1630D53897E80047"
+					item: {
+						components: {
+							"apotheosis:gem": "apotheosis:the_nether/blood_lord"
+							"apotheosis:purity": "perfect"
+						}
+						count: 1
+						id: "apotheosis:gem"
+					}
+					type: "item"
+				}
+				{
+					id: "6D904261091A7395"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "3A2AB68935A9DDD0"
+				item: { count: 1, id: "apothic_enchanting:raven_enchanting_table" }
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.0d
 		}
 	]
 }
