@@ -10,17 +10,19 @@
 	quest.0BB42C5861B22D32.quest_desc: ["O &bReator Micelial&r consiste em todos os Geradores Miceliais funcionando ao mesmo tempo, perto do bloco do reator, e produz um total de &a25MFE/t&r.\\n\\nTudo parece bom, mas você precisa automatizar algumas coisas para fazê-lo funcionar, veja o que cada Gerador Micelial consome para funcionar e automatize, a maioria das coisas é simples, mas outras, nem tanto... &oolhando para o Gerador Micelial de Desencantamento&r.\\n\\nMas depois que você automatizar tudo, não precisa parar em um, pode fazer mais reatores."]
 	quest.0BB42C5861B22D32.quest_subtitle: "Não é o Seu Reator Micelial"
 	quest.0BB42C5861B22D32.title: "&9Industrial Foregoing: &bReator Micelial"
-	quest.11D09E918015355C.quest_desc: ["O Mekanism's &cHeat Generator&r é uma abordagem diferente para a produção de energia básica. Ele tem dois modos de criar energia:\\n\\n&9Passivo:&r Cercar o gerador com blocos de fonte de Lava ou corrente cria energia passiva ao longo do tempo através do calor. Coloque um bloco de fonte de Lava no topo e deixe-o escorrer pelos lados. Certifique-se de ter Canos conectados para energia primeiro!\\n\\n&9Ativo:&r Colocar materiais combustíveis como Carvão ou Madeira no gerador queimará o combustível para criar energia. Isso não é muito eficiente."]
-	quest.11D09E918015355C.title: "&cHeat Generator"
+	quest.11D09E918015355C.quest_desc: ["O Mekanism's &cGerador a Calor&r é uma abordagem diferente para a produção de energia básica. Ele tem dois modos de criar energia:\\n\\n&9Passivo:&r Cercar o gerador com blocos de fonte de Lava ou corrente cria energia passiva ao longo do tempo através do calor. Coloque um bloco de fonte de Lava no topo e deixe-o escorrer pelos lados. Certifique-se de ter Canos conectados para energia primeiro!\\n\\n&9Ativo:&r Colocar materiais combustíveis como Carvão ou Madeira no gerador queimará o combustível para criar energia. Isso não é muito eficiente."]
+	quest.11D09E918015355C.title: "&cGerador a Calor"
 	quest.1409C17773B6A131.quest_desc: ["\\\\nTodas as Melhorias aumentam a quantidade que os &e&lPipez&r se movem e também oferecem mais opções para usar com o &e&lPipe&r. \\\\n\\\\nA Melhoria Básica permite a Ativação por Redstone com os &e&lPipez&r, para mudar a distribuição para: Mais Próximo Primeiro, Mais Distante Primeiro, Round-Robin, ou Aleatório, e adicionar Filtros.\\\\n\\\\nAs melhorias Melhorada, Avançada e Ultimate não oferecem nada novo, elas apenas movem mais!"]
 	quest.1409C17773B6A131.title: "&9Pipez: &aMelhorias"
 	quest.1BE26A00A420DAE3.quest_desc: ["Neste mod, você precisará de &aNúcleos de Fluxo&r e &aBlocos de Fluxo&r para criar as partes centrais da sua rede. Faça alguns de cada!"]
 	quest.1BE26A00A420DAE3.quest_subtitle: "Claro que você precisa destes"
 	quest.1BE26A00A420DAE3.title: "Os Materiais de Criação \"Centrais\""
+	quest.1EECA19DF9CF6A0C.quest_desc: ["O Pó de Fluxo também pode ser automatizado usando &6XyCraft&r!\\n\\nColoque um bloco de cristal de redstone carregado sobre a bedrock, cerque o bloco de cristal com 4 obsidianas em todos os lados e coloque o extrator em cima.\\nDepois é só colocar um armazenamento em cima do extrator e pronto!"]
+	quest.1EECA19DF9CF6A0C.title: "Pó de Fluxo Automatizado"
 	quest.1F81EA5E45424308.quest_desc: ["Se você está procurando maneiras diferentes de obter energia de suas máquinas, é aqui que você pode encontrá-la!\\n\\nExistem várias opções, tanto &acom fio&r quanto &9sem fio&r, para transferir energia."]
 	quest.1F81EA5E45424308.title: "&f&lTransferindo Energia"
 	quest.27A4FA38992448A0.quest_desc: [
-		"As Flux Networks também fornecem uma maneira de carregar seus itens sem fio, até mesmo entre dimensões!\\n\\nAssim que tiver um Plug conectado ao seu sistema de energia, você vai querer fazer o &9Flux Controller&r e colocá-lo no chão.\\n\\nClique com o botão direito nele para abrir a interface e vá para a aba \"Carregamento sem Fio\". A partir daí, você pode selecionar cada seção do seu inventário que gostaria de manter carregada. Para ativar, certifique-se de apertar o botão de alternância na parte inferior para habilitar o Carregamento Sem Fio e, em seguida, clique em aplicar!\\n"
+		"As Flux Networks também fornecem uma maneira de carregar seus itens sem fio, até mesmo entre dimensões!\\n\\nAssim que tiver um Plug conectado ao seu sistema de energia, você vai querer fazer o &9Controlador de Flux&r e colocá-lo no chão.\\n\\nClique com o botão direito nele para abrir a interface e vá para a aba \"Carregamento sem Fio\". A partir daí, você pode selecionar cada seção do seu inventário que gostaria de manter carregada. Para ativar, certifique-se de apertar o botão de alternância na parte inferior para habilitar o Carregamento Sem Fio e, em seguida, clique em aplicar!\\n"
 		"{image:atm:textures/questpics/basic_power/wireless_ui.png width:125 height:150 align:center}"
 	]
 	quest.27A4FA38992448A0.title: "Carregamento sem Fio"
@@ -29,7 +31,7 @@
 		""
 		"Monte um &eEM Rail Ejector Controller&r para lançar &bSolar Sails&r e &bBeams&r em órbita ao redor do Sol. Você pode inserir itens &bautomaticamente&r pelo centro da face inferior (você definitivamente precisará de automação para atingir a potência máxima). Infelizmente, ele &onão pode disparar&r ao meio-dia, à noite ou durante a chuva."
 		""
-		"Para coletar essa energia gloriosa, construa um &bRay Receiver Controller&r. Ele emite energia pelo centro de sua face inferior, mas &onão pode receber energia&r durante a &enoite&r ou &echuva&r."
+		"Para coletar essa energia gloriosa, construa um &bControlador de Receptor de Raios&r. Ele emite energia pelo centro de sua face inferior, mas &onão pode receber energia&r durante a &enoite&r ou &echuva&r."
 		""
 		"Você pode &eempacotar&r beams e sails em pacotes para lançamentos mais rápidos, o que é muito mais fácil do que enviá-los um por um."
 		""
@@ -76,7 +78,7 @@
 	quest.5C47935A3B2877FF.title: "&9Mekanism: &aCabos Universais"
 	quest.5E41363F9AE243F3.quest_desc: ["Você não pode alimentar sua base com Carvão para sempre! Se você tiver uma quantidade decente de recursos disponíveis, é hora de atualizar sua configuração de energia!\\n\\nEssas opções geralmente requerem um pouco de configuração, mas produzem energia suficiente para levá-lo longe em sua jogatina."]
 	quest.5E41363F9AE243F3.title: "&b&lOpções de Energia de Meio de Jogo"
-	quest.5F078A574A783B02.quest_desc: ["O primeiro item que você precisará para iniciar sua Flux Network é um &9Flux Plug&r.\\n\\nO Plug é usado para \"puxar\" energia do bloco ao qual está conectado. Além de um pequeno buffer, o Plug não armazena energia por si só, então não se preocupe em ele consumir toda a sua energia.\\n\\nSugere-se colocar o Plug em um bloco de armazenamento de energia como um Cubo de Energia. Ele pode se conectar a Cabos, Canos ou à saída de qualquer máquina produtora de energia.\\n\\nPara aprender como configurar sua primeira rede, confira a próxima missão!"]
+	quest.5F078A574A783B02.quest_desc: ["O primeiro item que você precisará para iniciar sua Flux Network é um &9Plugue de Flux&r.\\n\\nO Plug é usado para \"puxar\" energia do bloco ao qual está conectado. Além de um pequeno buffer, o Plug não armazena energia por si só, então não se preocupe em ele consumir toda a sua energia.\\n\\nSugere-se colocar o Plug em um bloco de armazenamento de energia como um Cubo de Energia. Ele pode se conectar a Cabos, Canos ou à saída de qualquer máquina produtora de energia.\\n\\nPara aprender como configurar sua primeira rede, confira a próxima missão!"]
 	quest.5F078A574A783B02.quest_subtitle: "Apenas conecte!"
 	quest.5F078A574A783B02.title: "Iniciando sua Rede"
 	quest.677D0C23D53A77CA.quest_desc: [
