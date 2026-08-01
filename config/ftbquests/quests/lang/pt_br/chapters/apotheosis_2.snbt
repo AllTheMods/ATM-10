@@ -1,140 +1,83 @@
 {
-	quest.0D6D45DBA64E612D.quest_desc: [
-		"O &9Atraso Máximo de Spawn&r é o tempo máximo que pode levar para &9Gerar Mobs&r.\\n"
-		"Assim como o &9Mínimo&r, ele pode ser tão baixo quanto &e20&r e tão alto quanto &e32.767&r.\\n"
-		"Cada Relógio modifica a velocidade do gerador em &e10&r.\\n"
-		"A velocidade é expressa em ticks, sendo que &e20 ticks&r equivalem a 1 segundo.\\n"
-		"Então, o menor atraso de spawn seria &e1 segundo&r entre cada geração."
-	]
-	quest.0D6D45DBA64E612D.title: "&fAtraso Máximo de Spawn"
-	quest.0E02CE4469FCA4C9.quest_desc: [
-		"A &cAtivação por Redstone&r dá ao seu spawner um interruptor de ligar/desligar.\\n"
-		"&2Sem Energia&r de Redstone, ele não gerará mobs."
-	]
-	quest.0E02CE4469FCA4C9.title: "Ativo por Redstone"
-	quest.0F0E227FC3EC0D90.quest_desc: ["Estes são geradores fornecidos por mods além do Apothic Spawners."]
-	quest.0F89BFD4A3F63A48.quest_desc: [
-		"Alguns mobs (principalmente monstros) precisam de certos &3Níveis de Luz&r para aparecer.\\n"
-		"Os hostis precisando de níveis mais baixos e os passivos precisando de níveis mais altos.\\n"
-		"Usar uma &bLanterna das Almas&r faz com que você nunca precise se preocupar com os &3Níveis de Luz&r, pois ela os ignora! Isso não ignora outros requisitos para o surgimento, como animais de criação que precisam de Grama."
-	]
-	quest.0F89BFD4A3F63A48.title: "&bIgnorar Luz"
-	quest.1102B27CBF564127.quest_desc: ["Agitadores de Gerador são diferentes dos outros itens de Modificação listados, este é fornecido pelo PneumaticCraft em vez do Apothic Spawners. Sem o mod Apothic Spawners no Modpack, ter um Agitador em um Gerador fará com que ele gere criaturas não importa onde o Jogador esteja. Com o Apothic Spawners, que sim nós temos, isso não mudará, mas sim evitará que os mobs gerados sumam caso você saia das chunks."]
-	quest.1102B27CBF564127.quest_subtitle: "Não sumam de mim, Criaturas"
-	quest.167E1474644C9908.quest_desc: [
-		"O Quartzo faz o oposto do que o outro item faria no &9Modificador de Gerador&r.\\n"
-		"Com o Quartzo na mão secundária e o outro item de modificação de gerador na mão principal, ele fará o oposto da função original.\\n"
-		"Por exemplo, com Quartzo e &cBastões de Blaze&r, em vez de aumentar o &9Alcance de Geração&r, ele o diminuirá.\\n"
-		"Com Quartzo e Lágrimas de Ghast, ele reduzirá o número máximo de entidades e pro assim vai."
-	]
+	quest.00C26068B55F4FD9.quest_desc: ["As Runas do Silêncio só fazem uma coisa no gerador: calar a boca dele. Não aguenta mais os barulhos chatos do gerador? Use uma Runa do Silêncio!"]
+	quest.00C26068B55F4FD9.title: "Fique quieto, vai acordar as criaturas!"
+	quest.0E02CE4469FCA4C9.quest_desc: ["A ativação por Redstone adiciona um interruptor ao seu gerador. Sem sinal de Redstone, ele não gerará criaturas."]
+	quest.0E02CE4469FCA4C9.title: "Ativação por Redstone"
+	quest.0E90577AC72749C4.quest_desc: ["A &aRuna de Atualização de Gerador Trovão&r, o 4º e último nível das Runas de Atualização de Gerador, leva seu Gerador ao seu potencial máximo.\\n\\nEla define o Atraso Mínimo e Máximo de Geração para 20, a Quantidade de Geração para 16, o Máximo de Entidades para 32 e o Alcance de Ativação para 48.\\n\\nGemas da Sobrecarga Ender podem ser obtidas no End."]
+	quest.0F0E227FC3EC0D90.quest_desc: ["Estes são geradores fornecidos por outros mods além do Apothic Spawners."]
+	quest.0F89BFD4A3F63A48.quest_desc: ["Algumas criaturas (a maioria monstros) precisam de certos Níveis de Luz para gerar. Hostis precisam de níveis mais baixos e passivas de níveis mais altos. A Runa do Crepúsculo Perpétuo faz com que você nunca precise se preocupar com Níveis de Luz, pois os ignora! Isso não ignora outros requisitos de geração, como animais de fazenda precisando de Grama."]
+	quest.0F89BFD4A3F63A48.title: "Ignorar Luz"
+	quest.1102B27CBF564127.quest_desc: ["Os Agitadores de Gerador são diferentes dos outros itens de modificação listados; este é fornecido pelo PneumaticCraft em vez do Apothic Spawners. Sem o mod Apothic Spawners no Modpack, ter um Agitador em um gerador faz com que ele gere criaturas não importa onde o jogador esteja. Com o Apothic Spawners (que nós temos), ele manterá as criaturas geradas sem sumirem caso você saia dos chunks."]
+	quest.1102B27CBF564127.quest_subtitle: "Não suma de mim, Criaturas"
+	quest.167E1474644C9908.quest_desc: ["O Quartzo faz com que o outro item faça o oposto no gerador. Com o Quartzo na mão secundária e o outro item de Modificação de Gerador na mão principal, o efeito será invertido. Com Quartzo e Runas de Alcance de Geração, em vez de aumentar o Alcance de Geração, ele diminui. Com Quartzo e Runas de Debilitação, ele aumenta a Vida Inicial."]
 	quest.167E1474644C9908.title: "Dia do Contrário"
-	quest.186593EBCE3FE8D8.quest_desc: [
-		"O &9Alcance de Nascimento&r é a área onde os mobs podem aparecer.\\n "
-		"Quanto maior a área, mais espaço eles terão para nascer. Quanto menor a área, mais barata será a fábrica."
-	]
-	quest.186593EBCE3FE8D8.title: "Raio de Spawn"
-	quest.18E0F5A78F696FA3.quest_desc: ["&3Fragmentos de Eco&r concedem um efeito especial aos &3Spawners&r. Qualquer mob gerado por um &3Spawner&r afetado deixará mais itens ao ser derrotado, multiplicando a quantidade de saque dropada."]
-	quest.18E0F5A78F696FA3.title: "&#11767DEcoante"
-	quest.1AD87CB3226ED224.quest_desc: [
-		"Lã só faz uma coisa com o gerador: &9Silenciá-lo&r. "
-		"- Não gosta de ouvir os sons irritantes do &aGerador&r? Então use a Lã! Qualquer cor, espessura ou estampa serve!"
-	]
-	quest.1AD87CB3226ED224.quest_subtitle: "Tá, tá, tá e tá! Silêncio na sala! (Sem referências, juro!)"
-	quest.1AD87CB3226ED224.title: "&fSilêncio, você vai acordar os mobs!"
-	quest.21C2458FED19363C.quest_desc: ["Ele usa &aEssência&r junto com um mob em uma Mob Imprisonment Tool para gerar uma cópia desse mob."]
+	quest.17410BE15A81DD96.quest_desc: ["A &aRuna de Atualização de Gerador do Viajante&r é o 2º nível das Runas de Atualização de Gerador.\\n\\nEla define o Atraso Mínimo de Geração para 100, o Atraso Máximo para 400, a Quantidade de Geração para 10, o Máximo de Entidades para 18 e o Alcance de Ativação para 32.\\n\\nQualquer Ovo Gerador serve para fabricar esta Runa."]
+	quest.17C87EB8ED8A27AB.quest_desc: ["As Runas de Gerador são o material base para modificar geradores."]
+	quest.17C87EB8ED8A27AB.quest_subtitle: "Modificações Básicas"
+	quest.186593EBCE3FE8D8.quest_desc: ["O Alcance de Geração é a área onde as criaturas podem surgir. Quanto maior a área, mais espaço elas têm para surgir. Quanto menor a área, mais barata é a fábrica."]
+	quest.186593EBCE3FE8D8.title: "Alcance de Geração"
+	quest.18E0F5A78F696FA3.quest_desc: ["As Runas de Ecos dão um efeito especial ao gerador. Qualquer criatura gerada terá o saque largado multiplicado."]
+	quest.18E0F5A78F696FA3.title: "Ecoando"
+	quest.21C2458FED19363C.quest_desc: ["Ele usa &aEssência&r junto com uma criatura na Ferramenta de Prisão de Criaturas para gerar uma cópia dessa criatura."]
 	quest.21C2458FED19363C.quest_subtitle: "Gerador do Industrial Foregoing"
-	quest.223A5BDB5056B781.quest_desc: ["Captura é um Encantamento para Espadas para fazer com que Mobs raramente deixem cair seus Ovos. É raro, então continue procurando e confira o &5&lEncantamento Apótico&r para ajudar. Cada nível oferece uma chance de 0,5% de obter um Ovo a cada abate e o nível mais alto que você pode obter normalmente é VII (7)."]
-	quest.263860CADB3D76C6.quest_desc: ["Powered Spawner é o Gerador de Cristuras feito usando o EnderIO. Primeiro, você precisará de um Frasco de Alma cheio e um Gerador de Criaturas Quebrado. (Tecnicamente você só precisa do Frasco de Alma para mudar o Gerador, mas tanto faz). Assim que tiver um Gerador de Criaturas Quebrado que goste, fabrique o Powered Spawner com ele! Então, coloque-o no chão, dê a ele um Capacitor e forneça energia. Boom! agora você está gerando criaturas com o EnderIO.\\n\\nVocê também pode fazer este Gerador encher Frasco de Almas diretamente, sem a necessidade de um Clicador."]
+	quest.223A5BDB5056B781.quest_desc: ["Captura é um Encantamento para espadas que faz com que criaturas raramente soltem seus ovos geradores. É um encantamento raro, então continue procurando e confira o capítulo de &5&lEncantamentos Apócrifos&r para ajudar. Cada nível concede 0,5% de chance de obter um ovo a cada eliminação, e o nível máximo obtido normalmente é VII (7)."]
+	quest.263860CADB3D76C6.quest_desc: ["O Gerador Energizado é o Gerador de Criaturas feito com o EnderIO. Primeiro, você precisará de um Frasco de Alma cheio e um Gerador Quebrado. (Tecnicamente, você só precisa do Frasco de Alma para mudar o Gerador, mas tanto faz). Assim que tiver o Gerador Quebrado que deseja, fabrique o Gerador Energizado com ele! Depois, coloque-o no chão, insira um Capacitor e forneça energia. Pronto! Agora você está gerando criaturas com o EnderIO.\\n\\nVocê também pode fazer este gerador encher Frascos de Alma diretamente, sem precisar de um Clicador."]
 	quest.263860CADB3D76C6.quest_subtitle: "Gerador do EnderIO"
-	quest.2D8A7065F8CDDDDD.quest_desc: ["Cotonetes são minha maneira favorita de obter Ovos de Geração, você precisará usar o Mob Grinding Utils para isso. Basta clicar com o botão direito em um mob com o Cotonete e depois fabricar Comida de Galinha com ele, sementes e um balde de qualquer tipo de &aXP Fluido&r. Eu não me importo com qual tipo de &aXP Fluido&r você usa para isso. Assim que tiver isso, alimente uma Galinha. Infelizmente a Galinha não sobreviverá ao procedimento, mas ei, Ovos de Geração!\\n\\nNem todos as criaturas podem ser coletados com o Cotonete, no entanto."]
-	quest.2FE4B7B70D90A455.quest_desc: ["Esta Missão foi criada pela &6Equipe AllTheMods&r, ou por um &2contribuidor da Comunidade&r para uso nos Modpacks AllTheMods.\\n\\nComo todos os pacotes &6AllTheMods&r são licenciados sob &eTodos os Direitos Reservados&r, esta Missão não pode ser usada em nenhum pacote público não lançado pela &6Equipe AllTheMods&r sem permissão explícita.\\n\\nEsta missão está intencionalmente oculta, se você está vendo isso, você está no modo de edição."]
-	quest.30EB438C66324213.quest_desc: [
-		"Uma &9Estrela do Nether&r fará o que os &2Fragmentos de Prismarinho&r fazem, mas muito melhor.\\n "
-		"Os jogadores não precisam mais estar perto do spawner.\\n"
-		"Contanto que seu chunk esteja carregado, ele irá spawnar."
-	]
-	quest.30EB438C66324213.quest_subtitle: "Uma estrela Antissocial!"
-	quest.30EB438C66324213.title: "&fIgnorar Jogadores"
-	quest.310969B8FE0A94DE.quest_desc: [
-		"Outra mudança que o &9Apotheosis&r traz para o jogo é nos &9Geradores&r.\\n"
-		"Lembra de poder minerar &9Geradores&r com &6Toque Suave&r?\\n"
-		"- Pois é, isso voltou graças ao &9Apotheosis&r!\\n"
-		"Além disso, há muitas novas Modificações que você pode adicionar aos &9Geradores&r clicando com o botão direito em qualquer um desses itens."
-	]
-	quest.310969B8FE0A94DE.title: "&9Geradores Apóticos"
-	quest.39E822440E7D2E04.quest_desc: ["O Mob Grinding Utils é focado em Fazenda de Criaturas, então é claro que tem um Gerador! O Gerador de Entidades! Ele precisará de 3 coisas para funcionar: um Ovo de Geração, Jujuba de XP e um sinal de Redstone. Jujuba de XP são feitos processando XP através de um Solidificador de XP com o Molde de Jujuba de XP. Eles podem ser comidos ou usados como Combustível no segundo slot. Assim que você tiver o Ovo de Geração no slot superior, Jujuba de XP no segundo e um sinal de Redstone, ele começará a gerar os criaturas!"]
+	quest.2D8A7065F8CDDDDD.quest_desc: ["Os Swabs são minha forma favorita de obter ovos geradores; você precisará usar o Mob Grinding Utils para isso. Basta clicar com o botão direito em uma criatura com o Swab e, em seguida, fabricar Ração de Galinha com ele, sementes e um balde de qualquer tipo de &aEXP Líquida&r. Não importa qual tipo de &aEXP Líquida&r você use. Depois, alimente uma Galinha com isso. Infelizmente, a Galinha não sobreviverá ao procedimento, mas ei, ovos geradores!\\n\\nNo entanto, nem todas as criaturas podem ser coletadas."]
+	quest.2FE4B7B70D90A455.quest_desc: ["Esta missão foi criada pela &6Equipe do AllTheMods&r ou por um &2Colaborador da Comunidade&r para uso nos Modpacks AllTheMods.\\n\\nComo todos os pacotes &6AllTheMods&r estão sob a licença &eTodos os Direitos Reservados&r, esta missão não pode ser usada em nenhum pacote público não lançado pela &6Equipe AllTheMods&r sem permissão explícita.\\n\\nEsta missão está oculta intencionalmente; se você está vendo isso, está no modo de edição."]
+	quest.30EB438C66324213.quest_desc: ["A Runa da Solidão faz parte do que as Runas de Atualização de Gerador fazem, mas muito melhor. Os jogadores não precisam mais estar perto do gerador. Desde que o chunk esteja carregado, ele gerará criaturas."]
+	quest.30EB438C66324213.title: "Ignorar Jogadores"
+	quest.310969B8FE0A94DE.quest_desc: ["Outra mudança que o Apotheosis traz é para os geradores. Lembra-se de poder minerar geradores com Toque Suave? Isso voltou graças ao Apotheosis! Há também muitas modificações novas que você pode adicionar aos geradores clicando com o botão direito usando qualquer um destes itens."]
+	quest.310969B8FE0A94DE.title: "Apothic Spawners"
+	quest.321C15EBBE2D3D30.quest_desc: ["Quando você explode um Gerador, ele se torna altamente instável, gerando uma grande quantidade da sua respectiva criatura e deixando Correntes de Gerador para trás.\\n\\nQuantas correntes? De 48 a 57.\\n\\nVocê precisará dessas Correntes para..."]
+	quest.321C15EBBE2D3D30.title: "Explodindo Geradores"
+	quest.39E822440E7D2E04.quest_desc: ["O Mob Grinding Utils é focado em fazendas de criaturas, então é claro que ele tem um Gerador! O Gerador de Entidades! Porém, ele precisa de 3 coisas para funcionar: um Ovo Gerador, Gominhas de EXP e um sinal de Redstone. As Gominhas de EXP são feitas processando EXP em um Solidificador de EXP com o Molde de Gominha de EXP. Elas podem ser comidas ou usadas como combustível no segundo slot. Assim que colocar o Ovo Gerador no slot superior, as Gominhas de EXP no segundo slot e fornecer um sinal de Redstone, ele começará a gerar criaturas!"]
 	quest.39E822440E7D2E04.quest_subtitle: "Gerador do Mob Grinding Utils"
-	quest.3E2A411FF5B4B0E7.quest_desc: [
-		"O &3Alcance de Ativação&r é a distância que o Jogador (você) precisa estar do Gerador para que ele funcione.\\n"
-		"O menor valor possível é 1 bloco de distância, e o maior é um raio de 48 blocos."
+	quest.3F1430ADB648102F.quest_desc: [
+		"Esta Runa de Gerador funciona de forma diferente das outras. Em vez de afetar apenas um atributo do gerador, ela afeta vários de uma só vez. Ela também define esses atributos para um valor específico, em vez de aumentar ou diminuir a cada uso.\\n\\nA &aRuna de Atualização de Gerador do Desbravador&r é a primeira das Runas de Atualização de Gerador, a mais barata e, claro, a mais fraca.\\n\\nEla define o Atraso Mínimo de Geração para 150, o Atraso Máximo para 600, a Quantidade de Geração para 7, o Máximo de Entidades para 12 e o Alcance de Ativação para 24."
+		"{@pagebreak}"
+		"Para determinar quando o gerador funcionará, ele escolhe um número aleatório entre o Atraso Mínimo e Máximo de Geração. A velocidade é expressa em ticks, onde 20 ticks equivalem a 1 segundo.\\n\\nA quantidade de criaturas geradas é aleatória, com um limite máximo determinado pela Quantidade de Geração.\\n\\nO Máximo de Entidades é o número de criaturas que o gerador pode manter ao mesmo tempo. Se o limite for 6 e já houver 6 criaturas geradas, nenhuma outra surgirá até que sejam mortas ou movidas.\\n\\nO Alcance de Ativação é a distância mínima que o jogador (você) deve estar do gerador para ele funcionar."
 	]
-	quest.3E2A411FF5B4B0E7.title: "&3Raio de Ativação"
-	quest.3F55F3CC8519D783.quest_desc: ["O Gerador de Soulium é o Gerador que nos foi dado pelo Mystical Agriculture. Ele usa Essência de Criaturas e Energia para gerar as criaturas. Essência de Criaturas é obtida colhendo Plantas de Criatura, feitas por Frascos de Alma. Então você terá que matar as criaturas primeiro, ou usar o Extrator de Alma."]
+	quest.3F55F3CC8519D783.quest_desc: ["O Gerador Almalio é o gerador oferecido pelo Mystical Agriculture. Ele usa Essência de Criaturas e Energia para gerar as criaturas. Você obtém Essência de Criaturas colhendo Plantas de Criaturas, feitas com Frascos de Alma. Portanto, você precisará matar as criaturas primeiro ou usar o Extrator de Almas."]
 	quest.3F55F3CC8519D783.quest_subtitle: "Gerador do Mystical Agriculture"
-	quest.40096ED0B04C3EC5.quest_desc: [
-		"O item indispensável para todos os &2Geradores&r. Quando diz que ignora todas as condições, significa a maioria.\\n"
-		"Ignora Níveis de Luz, Blocos necessários para a Geração e Biomas.\\n"
-		"Condições de espaço ainda são necessárias, como &aSlimes&r precisando de uma área de &a3x3&r para Gerar, e o mesmo vale para jogadores precisando estar por perto."
-	]
-	quest.40096ED0B04C3EC5.title: "&fIgnorar Todas as Condições"
-	quest.42D7C8CD8E6F5CD7.quest_desc: [
-		"Ao usar uma &5Fruta do Coro&r em um &2Gerador&r, você suga as almas dos mobs que seriam gerados, restando apenas uma casca vazia do que eles costumavam ser. \\n"
-		""
-		"Os mobs perderão toda a sua &5IA&r, então basicamente agirão como um suporte de armadura. "
-		""
-		"Eles não podem te atacar, não podem se teletransportar, não podem se mover sozinhos. Eles apenas ficam lá, prontos para serem mortos... \\n"
-		""
-		"              &6Que empolgante!&r"
-	]
-	quest.42D7C8CD8E6F5CD7.quest_subtitle: "Mais inofensivos que um aldeão com medo"
-	quest.42D7C8CD8E6F5CD7.title: "&fSem IA"
-	quest.4D07B0A4A2E77CDA.quest_desc: [
-		"&9Entidades máximas&r é a quantidade de mobs que podem ser gerados por um &9Spawner&r e &9Mantidos&r.\\n"
-		"Se for apenas 6 entidades máximas quando 6 mobs já estão gerados, nenhum outro será gerado até que eles morram ou sejam movidos.\\n"
-		"Cada Lágrima de Ghast aumenta ou diminui em 2 Entidades.\\n"
-		"Máximo de 16 Entidades e Mínimo de 1."
-	]
-	quest.4D07B0A4A2E77CDA.title: "&fEntidades Máximas"
-	quest.4F7F8F4ED1CA0550.quest_desc: ["Uma &cFogueira&r usada no gerador fará com que os mobs apareçam pegando fogo. Perfeito para um bom &cBife&r."]
-	quest.4F7F8F4ED1CA0550.title: "&cQueimando"
-	quest.52FAF122466FDDC9.quest_desc: ["Gerador Estabilizado é a versão do Gerador do Draconic Evolution. Quando você usa um dos Núcleos em um Gerador, ele se tornará um Gerador Estabilizado. Você pode trocar os Núcleos, mas não poderá alterar as estatísticas, pois agora elas são definidas pelos Núcleos. Quanto melhor o Núcleo, mais criaturas surgem e em um ritmo mais rápido."]
+	quest.40096ED0B04C3EC5.quest_desc: ["Indispensável para qualquer gerador. Quando diz que ignora todas as condições, significa a maioria. Ignora níveis de luz, blocos necessários para geração e biomas. Condições de espaço ainda são necessárias, como slimes precisando de uma área 3x3 para surgir, e o mesmo vale para jogadores precisando estar por perto."]
+	quest.40096ED0B04C3EC5.title: "Ignorar Todas as Condições"
+	quest.42D7C8CD8E6F5CD7.quest_desc: ["Usando uma Runa do Estupor em um gerador, você drena as almas das criaturas que serão geradas, deixando apenas uma carcaça vazia do que costumavam ser. As criaturas perderão toda a IA, agindo basicamente como um suporte de armaduras. Elas não podem atacar, teleportar nem se mover sozinhas. Elas ficam ali prontas para serem mortas, que empolgante!"]
+	quest.42D7C8CD8E6F5CD7.title: "Sem IA"
+	quest.4F7F8F4ED1CA0550.quest_desc: ["Uma Runa da Imolação usada no gerador fará com que as criaturas já surjam em chamas. Perfeito para um bom Filé."]
+	quest.4F7F8F4ED1CA0550.title: "Queimando"
+	quest.503AC506720FC59E.quest_desc: ["Para modificações mais avançadas em geradores, você precisará &d&lInfundir&r suas Runas de Gerador.\\n\\n\\Precisaremos de pelo menos &a70 de Eterna&r, &c30% de Quanta&r e &550% de Arcana&r em uma &5Mesa de Encantamentos&r.\\n\\nPara obter isso, podemos usar qualquer uma das opções:\\n\\n14 &9Estonantes&r que não estejam &9Inativas&r!\\n12 &4Infernantes Brilhantes&r e 2 &9Estonantes&r!\\n12 &bOceanantes Cristalinas&r e 2 &9Estonantes&r!\\n\\nConfira o capítulo de &5&lEncantamentos Apócrifos&r para saber mais sobre essas mecânicas."]
+	quest.503AC506720FC59E.quest_subtitle: "Modificações Avançadas"
+	quest.52FAF122466FDDC9.quest_desc: ["O Gerador Estabilizado é a versão de Gerador do Draconic Evolution. Ao usar um dos Núcleos em um gerador, ele se torna um Gerador Estabilizado. Você pode trocar os Núcleos, mas não poderá alterar os atributos, pois agora eles são definidos pelos Núcleos. Quanto melhor o Núcleo, mais criaturas são geradas e mais rápido."]
 	quest.52FAF122466FDDC9.quest_subtitle: "Gerador do Draconic Evolution"
-	quest.6A497B063CF32A5C.quest_desc: [
-		"O &cOlho de Aranha Fermentado&r pode ser usado para aumentar a quantidade de mobs que &6PODEM&r nascer de um gerador.\\n"
-		"Os mobs gerados são aleatórios, com uma quantidade máxima determinada pelo número.\\n"
-		"Esse valor aumenta ou diminui em 1 para cada olho, até um máximo de 16."
-	]
-	quest.6A497B063CF32A5C.title: "&cContagem de Surgimento"
-	quest.6D3B958E49AE7BDB.quest_desc: ["Fragmentos de Charm podem ser transformados em Charms ou Ovos de Geração. Eles são do Reliquary e raramente caem de suas respectivas criaturas. Alguns podem até ser fabricados! Pegue 2 e um Ovo normal e você poderá fabricar um Ovo de Geração."]
-	quest.6D68D9941049E806.quest_desc: ["Este gerador irá, como o próprio nome sugere, fazer uso de &dFonte&r como combustível. Para decidir qual criatura irá gerar, você precisará de um Frasco de Contenção contendo a criatura na área."]
+	quest.6D3B958E49AE7BDB.quest_desc: ["Os Fragmentos de Amuleto podem ser transformados em Amuletos ou em Ovos Geradores. Eles são do Reliquary e raramente são soltos por suas respectivas criaturas. Alguns até podem ser fabricados! Pegue 2 e um Ovo normal para fabricar um Ovo Gerador."]
+	quest.6D68D9941049E806.quest_desc: ["Este gerador, como o nome indica, usa &dFonte&r como combustível. Para escolher a criatura a ser gerada, você precisará de um Pote de Contenção com a criatura na área."]
 	quest.6D68D9941049E806.quest_subtitle: "Gerador do Ars Nouveau"
-	quest.6F71FD826C29C31A.quest_desc: [
-		"Essa pode ser nova para quem está voltando de versões anteriores.\\n"
-		"Ao usar um &9Ovo de Tartaruga&r em um &6Gerador&r, ele passará a gerar apenas versões bebês dos mobs contidos nele.\\n"
-		"Isso só funciona com versões bebês dos mobs do &2Vanilla&r, não com mobs de mods."
-	]
+	quest.6F71FD826C29C31A.quest_desc: ["Esta pode ser uma novidade para quem está voltando de versões anteriores. Ao usar uma Runa da Juventude em um gerador, ele só gerará versões filhotes das criaturas nele. Isso funciona apenas com versões filhotes do jogo Vanilla, não de mods."]
 	quest.6F71FD826C29C31A.title: "Jovem"
-	quest.72AE56D34834D28E.quest_desc: ["Outro do PneumaticCraft? Oh, este é o Gerador real, entendi. Como o Gerador Estabilizado Dracônico, você precisará de um Gerador Vanilla primeiro. Assim que tiver um, coloque um Extrator de Gerador acima do Gerador e forneça menos de -0.5 Bars para fazê-lo funcionar. Quando terminar, ele lhe dará um Núcleo Gerador preenchido com qualquer criatura que estivesse nele e deixará você com um Gerador Vazio. Então use o Gerador Vazio para fabricar um Gerador Pressurizado e coloque o Núcleo Gerador nele. (Para o aprimoramento do Núcleo, use uma Armadilha de Vácuo para sugar os criatura que irão para o Núcleo Gerador). Depois de fazer isso, o Gerador agora precisará de Pressão para funcionar, ignorará o Nível de Luz e será Ativado por Redstone."]
+	quest.72AE56D34834D28E.quest_desc: ["Mais um do PneumaticCraft? Ah, este é o Gerador de verdade, entendi. Como o Gerador Estabilizado do Draconic, você precisará de um Gerador Vanilla primeiro. Assim que tiver um, coloque um Extrator de Gerador acima do gerador e aplique uma pressão abaixo de -0.5 Bar para funcionar. Quando terminar, ele concederá um Núcleo de Gerador preenchido com a criatura que estava nele e deixará um Gerador Vazio. Depois, use o Gerador Vazio para fabricar um Gerador Pressurizado e coloque o Núcleo de Gerador nele. (Para melhorar o Núcleo, use uma Armadilha de Vácuo para sugar as criaturas que irão para o Núcleo de Gerador). Feito isso, o Gerador passará a precisar de Pressão para funcionar, ignorará o Nível de Luz e será Ativado por Redstone."]
 	quest.72AE56D34834D28E.quest_subtitle: "Gerador do PneumaticCraft"
-	quest.76A3A2A97AB66C43.quest_desc: ["Quer criar um Ovo de Geração a partir de um Espírito de Vingança que você capturou em uma &9Caixa do Encerramento Eterno&r?\\n\\nO &9Reanimador Espiritual&r faz exatamente isso. Dê a ele muito &cSangue&r e um Ovo, e claro, uma &9Caixa do Encerramento Eterno&r com o Espírito do qual você deseja criar o Ovo de Geração, e ele tentará criar o Ovo de Geração!\\n\\nNota: Algumas criaturas não podem ser usados para fabricar Ovos de Geração."]
-	quest.77A8E8122870BBCE.quest_desc: ["Isso tecnicamente não é um Ovo de Geração, mas estou incluindo-o aqui de qualquer maneira, devido à sua habilidade de vincular criaturas a Geradores. Confira o capítulo &5&lEncantamento Apótico&r para saber mais sobre como obter este Laço."]
-	quest.77A8E8122870BBCE.quest_subtitle: "Isso não é um Ovo de Geração!"
-	quest.78E94C386B1E7359.quest_desc: ["Geralmente você não consegue obter Ovos de Geração, mas o mesmo acontece com Geradores e aqui estamos nós! Existem algumas maneiras de obter Ovos de Geração, mas assim que conseguir, clique com o botão direito em um Gerador para mudar os mobs que ele gera."]
-	quest.78E94C386B1E7359.quest_subtitle: ""
-	quest.78E94C386B1E7359.title: ""
-	quest.7A9AE63998BB41FF.quest_desc: [
-		"Para determinar quando o &9Gerador&r vai gerar, ele escolhe um número aleatório entre o atraso de geração máximo e mínimo.\\n"
-		"O Mínimo pode ser tão baixo quanto &620&r e tão alto quanto &632.767&r.\\n"
-		"Cada pedaço de açúcar modifica o atraso mínimo para cima ou para baixo em &610&r."
-	]
-	quest.7A9AE63998BB41FF.title: "&fAtraso Mínimo de Geração"
-	quest.7F6B66566C211735.quest_desc: ["&3Espeleotema Pontiagudo&r usada no gerador reduzirá a &csaúde máxima&r do mob gerado. Isso pode diminuir sua saúde em até 20%"]
-	quest.7F6B66566C211735.title: "&5Saúde"
-    task.24893D6EDE0BD819.title: "Fragmentos de Charm de Criaturas"
-	task.39702880D9133E3E.title: "Lã"
+	quest.76A3A2A97AB66C43.quest_desc: ["Quer criar um Ovo Gerador a partir de um Espírito de Vingança preso em uma &9Caixa do Encerramento Eterno&r?\\n\\nO &9Reanimador de Espíritos&r faz exatamente isso. Forneça bastante &cSangue&r e um Ovo, além da &9Caixa do Encerramento Eterno&r com o Espírito que deseja usar, e ele tentará criar o Ovo Gerador!\\n\\nNota: Algumas criaturas não podem ser usadas para criar ovos geradores."]
+	quest.77A8E8122870BBCE.quest_desc: ["Isto não é tecnicamente um Ovo Gerador, mas incluí aqui de qualquer forma, devido à capacidade de vincular criaturas a Geradores. Confira o capítulo de &5&lEncantamentos Apócrifos&r para saber mais sobre como obter este Laço."]
+	quest.77A8E8122870BBCE.quest_subtitle: "Isso não é um Ovo Gerador!"
+	quest.78E94C386B1E7359.quest_desc: ["Normalmente não é possível obter ovos geradores, mas o mesmo valia para geradores e aqui estamos! Existem algumas formas de obter ovos geradores, mas assim que tiver um, clique com o botão direito nele em um gerador para alterar as criaturas geradas."]
+	quest.7AC6A958936636D9.quest_desc: ["A &aRuna de Atualização de Gerador do Montanhista&r é o 3º nível das Runas de Atualização de Gerador. Sim, você precisará lutar contra um Defensor para isso.\\n\\nEla define o Atraso Mínimo de Geração para 50, o Atraso Máximo para 200, a Quantidade de Geração para 13, o Máximo de Entidades para 24 e o Alcance de Ativação para 40."]
+	quest.7F6B66566C211735.quest_desc: ["As Runas de Debilitação usadas no gerador reduzem a vida máxima das criaturas geradas. Isso pode reduzir a vida delas em até 20%"]
+	quest.7F6B66566C211735.title: "Vida"
+	task.09A203572F22E8C0.title: ""
+	task.0B123D1F8C297D24.title: ""
+	task.24893D6EDE0BD819.title: "Fragmentos de Amuleto de Criatura"
+	task.34F104E7633BBBD5.title: ""
+	task.3839A67493B2E5C3.title: ""
 	task.3B219688DA1CF9C8.title: "TodosOsDireitosReservados"
+	task.3DA4F5633DF0D9A2.title: ""
 	task.45250DA4433007C6.title: "Livros de Captura"
+	task.4CE833AB331E43E6.title: ""
 	task.524CBF7058496E7F.title: "Outros Geradores"
-	task.55587BA32D30318C.title: "Ovos de Geração"
+	task.53D49F15F44633C5.title: ""
+	task.55587BA32D30318C.title: "Ovos Geradores"
+	task.6A994FB418E4E4F9.title: ""
+	task.6D7441BB9E437F9F.title: ""
 	task.73B56F2139A98F77.title: "TodosOsDireitosReservados"
+	task.7F1DCDE71D01DE02.title: ""
 }

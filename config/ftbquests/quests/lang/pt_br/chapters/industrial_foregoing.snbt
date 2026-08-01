@@ -66,17 +66,17 @@
 	quest.4DB5DD6E20619B4D.quest_desc: ["Usado para tornar as máquinas melhores. Existem 4 níveis de adicionais, e mais 8 especificamente para Alcance."]
 	quest.4F3EF1574F31A7E2.quest_desc: ["A Câmara de Estase pode manter mobs no lugar em sua área de trabalho. Os mobs mantidos sob estase também são curados pela Câmara. Precisa de mais cura? Obtenha alguns adicionais!"]
 	quest.538186D01429F05F.quest_desc: [
-		"Nesta missão, focaremos em usar o AE2 para automatizar o &cDestilador de Poções&r. Primeiro, construa uma configuração como esta:"
+		"Nesta missão, focaremos em usar o AE2 para automatizar o &cPreparador de Poções&r. Primeiro, construa uma configuração como esta:"
 		"{image:atm:textures/questpics/industrialforegoing/potionbrewerdemonstration.png width:175 height:200 align:center}"
 		"(A Célula de Energia Criativa serve como um substituto para sua rede principal)"
 		"{@pagebreak}"
-		"Precisaremos de um &9Ponto de Exportação&r ou uma &9Interface&r para encher o &cDestilador de Poções&r com &1Água&r e &6Pó de Blaze&r. O &6Pó de Blaze&r será usado como combustível. Não forneça garrafas ainda, pois elas encherão sua rede com Garrafas de Água."
+		"Precisaremos de um &9Ponto de Exportação&r ou uma &9Interface&r para encher o &cPreparador de Poções&r com &1Água&r e &6Pó de Blaze&r. O &6Pó de Blaze&r será usado como combustível. Não forneça garrafas ainda, pois elas encherão sua rede com Garrafas de Água."
 		"{@pagebreak}"
 		"O próximo passo será obter um"
 		"&5Provedor de Padrão Avançado&r. Verifique o capítulo Extended \\& Advanced AE para saber mais sobre como usá-lo. A seguir, precisaremos codificar um padrão. Um exemplo será destilar uma &4Poção de Cura&r, focada em Guloseimas Reais para Abelhas Modulares. Codifique o padrão assim: 3 Garrafas de Vidro, 1 Fungo do Nether, 1 Fatia de Melancia Reluzente, para produzir 3 &4Poções de Cura&r. Usaremos ambas as habilidades especiais do &5Provedor Avançado&r aqui. A primeira é sua habilidade de enviar itens para um lado específico. Usaremos isso para enviar Garrafas de Vidro para o lado SUPERIOR da máquina. Use o &5Codificador de Padrão Avançado&r para codificar o padrão, assim:"
 		"{image:atm:textures/questpics/industrialforegoing/advanced_pattern.png width:200 height:100 align:center}"
 		"{@pagebreak}"
-		"A seguir, precisamos habilitar a Importação Filtrada no &5Provedor Avançado&r. Isso fará com que o &5Provedor Avançado&r aceite apenas itens que correspondam aos trabalhos de criação ativos no momento. Isso significa que ele não aceitará poções prematuramente. Você também pode adicionar Adicionais de Processamento para ajudar com isso, especialmente com trabalhos de criação grandes o suficiente que podem usar esse mesmo provedor.\\n\\nPor último, você terá que configurar os lados do Destilador de Poções assim:"
+		"A seguir, precisamos habilitar a Importação Filtrada no &5Provedor Avançado&r. Isso fará com que o &5Provedor Avançado&r aceite apenas itens que correspondam aos trabalhos de criação ativos no momento. Isso significa que ele não aceitará poções prematuramente. Você também pode adicionar Adicionais de Processamento para ajudar com isso, especialmente com trabalhos de criação grandes o suficiente que podem usar esse mesmo provedor.\\n\\nPor último, você terá que configurar os lados do Preparador de Poções assim:"
 		"{image:atm:textures/questpics/industrialforegoing/blaze_input.png width:125 height:100 align:center}"
 		"{image:atm:textures/questpics/industrialforegoing/bottle_input.png width:125 height:100 align:center}"
 		"{image:atm:textures/questpics/industrialforegoing/brewing_input.png width:125 height:100 align:center}"
@@ -85,11 +85,11 @@
 		"{image:atm:textures/questpics/industrialforegoing/blaze_input_for_interface.png width:125 height:100 align:center}"
 		"{image:atm:textures/questpics/industrialforegoing/water_for_interface.png width:125 height:100 align:center}"
 		"{@pagebreak}"
-		"Opcionalmente, você pode colocar um Rótulo de Transferência entre o &5Provedor Avançado&r e o &cDestilador&r.\\n\\nSe você ainda está confuso com esta configuração, ou prefere assistir a um vídeo, confira o vídeo que linkei aqui, do ChosenArchitect:"
+		"Opcionalmente, você pode colocar um Rótulo de Transferência entre o &5Provedor Avançado&r e o &cPreparador&r.\\n\\nSe você ainda está confuso com esta configuração, ou prefere assistir a um vídeo, confira o vídeo que linkei aqui, do ChosenArchitect:"
 		"{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://youtu.be/DOW4xkxqp6g?si=paZ2xFKyycPumqaS&t=427\"},\"color\":\"blue\",\"text\":\"LINK DO VÍDEO AQUI\",\"underlined\":true} "
 	]
 	quest.538186D01429F05F.quest_subtitle: "Usando AE2"
-	quest.538186D01429F05F.title: "Automatizando o Destilador de Poções"
+	quest.538186D01429F05F.title: "Automatizando o Preparador de Poções"
 	quest.540B857F043C24D5.quest_desc: ["O Biorreator produz &5Biocombustível&r com &9Água&r e um monte de materiais diferentes (verifique o JEI para todas as Entradas do Biorreator válidas). Quanto mais tipos de materiais você fornecer, mais eficiente o Biorreator é na produção de &5Biocombustível&r.\\n\\nO Gerador de Biocombustível usa &5Biocombustível&r feito do &5Biorreator&r para gerar FE."]
 	quest.540B857F043C24D5.title: "Bio Energia"
 	quest.55820773BDD5319D.quest_desc: ["&bIndustrial Foregoing&r (IF para abreviar) é um mod de tecnologia que adiciona muitas máquinas com vários usos diferentes.\\n\\nPara começar, crie um &aChassi de Máquina Lamentável&r."]
