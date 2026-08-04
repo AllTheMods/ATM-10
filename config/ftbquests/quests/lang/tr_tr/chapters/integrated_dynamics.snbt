@@ -1,0 +1,63 @@
+{
+	chapter.69299302373C4CBC.title: "Integrated Dynamics"
+	chapter_group.3D4E23B1100491AB.title: "Lojistik"
+	quest.1568CBFA09827137.quest_desc: ["Logic Programmer ile aynı şeydir, sadece bu her yerde kullanılabilir."]
+	quest.1B5C86AE05678420.quest_desc: ["Bir arayüze (interface) sağ tıkladığınızda karşınıza birkaç seçenek çıkar, işte hepsinin yaptığı şeyler:\\n\\n&lSet Side&r: Ekranın üst kısmında arayüzün üzerinde \"hareket\" ediyormuş gibi davrandığı tarafı (side) ayarlayabilirsiniz. Belirli giriş/çıkış taraflarına sahip makineler için yararlı olabilir.\\n\\n&lTicks/Operation&r: Eğer bir arayüz 10 ticks/operation (tik/işlem) olarak ayarlanmışsa, her 10 tikte (0,5 saniye) bir içe/dışa (import/export) aktarım yapacaktır.\\n\\n&lPriority&r: Öğeleri, üzerinde daha yüksek öncelikli (priority) arayüz bulunan envantere gönderir.\\n\\n&lItem/Energy Channels&r: Bu, sisteminizi birden fazla kanala (channel) bölecektir. Ağınızdaki (network) farklı yerlerden itme (push) ve çekme (pull) işlemi yapabilirsiniz."]
+	quest.232A06C9FF0EE7B2.quest_desc: ["Menril Seeds; Menril Berries, Menril Logs ve Menril Saplings otomasyonu için kullanılabilir."]
+	quest.232A06C9FF0EE7B2.quest_subtitle: "Automating Menril"
+	quest.2F37E284BB83BFF6.quest_desc: ["Wrench, belirli blokları döndürmek veya yok etmek (destroy) için kullanılır, modları değiştirmek için havada eğilip sağ tıklayın (shift right-click)."]
+	quest.33F4A7613764A016.quest_desc: ["Importers'ın çalıştığı gibi çalışır, sadece bunlar dışa (export) aktarırlar."]
+	quest.33F4A7613764A016.quest_subtitle: "Exporting"
+	quest.3BC94B0B922C0708.quest_desc: ["Bunlar eşya, sıvı ya da enerji fark etmeksizin içe aktarma (importing) işlemi yapan şeyler için üretim bileşenleridir (crafting ingredients)."]
+	quest.3C9539083BCC145C.quest_desc: ["Menril Bees, Crystallized Menril Chunks'ları otomatikleştirmek için kullanılabilir."]
+	quest.3C9539083BCC145C.quest_subtitle: "Automating Menril"
+	quest.437F4945AFBE0825.quest_desc: ["Bir Importer veya Exporter'a sağ tıkladığınızda bir menü açılır. Menü asıl olarak filtreleme içindir, örneğin Cobblestone'a ayarlı bir Variable Card'ınız varsa, Exporter'ınız yalnızca Cobblestone gönderecektir.\\n\\nOnları (variables) yerleştirdiğinizde sollarında küçük bir \"+\" bulunur, ona tıklamak başka bir arayüz (GUI) açar. Buradan &dSONSUZ (INFINITE)&r eşya/sıvı/enerji gönderebilmek için aktarım hızlarını değiştirebilir, aynı zamanda başka bazı şeyleri yapabilirsiniz.\\n\\nSol üstte ayarlar (settings) vardır, bunlar büyük ölçüde arayüz (interface) ayarlarıyla aynı şeydir."]
+	quest.44DA091B53473723.quest_desc: ["Mechanical Squeezer sıkmak (squeeze) için enerji kullanır."]
+	quest.450EDE68EC992A5A.quest_desc: ["Interfaces (Arayüzler) neye bakıyorlarsa onu &cokurlar&r (read). Bunu &bAE2&r Storage Bus gibi düşünebilirsiniz.\\n\\nBunun ne olduğunu bilmiyor musunuz? İşte bir örnek: İçinde 100 Cobblestone olan bir sandığın üzerinde bir arayüz var, bu ID ağınızın (network) sisteminde 100 Cobblestone olduğu anlamına gelir, oldukça basit, değil mi?"]
+	quest.450EDE68EC992A5A.quest_subtitle: "Interfaces Have GUIs!"
+	quest.499CF9F39CED8899.quest_desc: ["&bIntegrated Dynamics&r (ID), depolama, eşya/güç/sıvı aktarımı ve daha fazlası için kullanılabilen bir lojistik (logistics) modudur!\\n\\nMenril ağaçları Meneglin biyomlarında bulunabilir.\\n\\nBu görevler modun bazı temel kavramlarını kapsayacaktır, daha derinlemesine gitmek isterseniz bu görev için ödül olarak verilen rehber kitabı okuyun."]
+	quest.499CF9F39CED8899.quest_subtitle: "Growing Menril"
+	quest.499CF9F39CED8899.title: "&bIntegrated Dynamics"
+	quest.4A05C037C0EE40BD.quest_desc: ["Logic Cables diğer kablolardan (cables) farklıdır. Diğer Cables Hoppers gibi davranır, öğeler 1 Envanterden (Inventory) çıkar, kabloya girer, sonra 2. envantere geçer. Logic Cables sadece aracıları atlayarak aynı zamanda bir sürü gecikmeyi (lag) de atlar.\\n\\nBunlar sadece Importers ve Interfaces'ı birbirine bağlamak (connecting) içindir."]
+	quest.4A05C037C0EE40BD.quest_subtitle: "Ağları Kurmak"
+	quest.4A05C037C0EE40BD.title: "Logic Cables"
+	quest.4D4152032F0410D2.quest_desc: ["Logic Programmer değişkenlerin değerini ayarlamanızı sağlar. Bu, filtreleme için öğelere (items) ve sıvılara (fluids) veya hatta değerlere (values) ayarlanabilir. \\n\\nSize basit bir örnek vereyim: Sol taraftan &bItem&r seçin, açılan arayüzün (GUI) orta yuvasına (slot) istediğiniz bir öğeyi yerleştirin ve sağ alt yuvaya bir &bVariable Card&r koyun. Daha sonra bu değişken kartını bir importer/exporter içine koyarsanız, yalnızca o bloğu (block) içe/dışa (import/export) aktaracaktır!"]
+	quest.4D4152032F0410D2.quest_subtitle: "Gelişmişe Doğru"
+	quest.4D62C62B523C69EC.quest_desc: ["Generator; Coal gibi yanıcı (burnable) yakıtları kullanarak FE üretir (generates)."]
+	quest.4D62C62B523C69EC.quest_subtitle: "Enerji Sağlamak!"
+	quest.56BF647EA84FFF7E.quest_desc: ["Herhangi bir anda hangi üretim tariflerinin (crafting recipes) gerçekleştiğini gösterir."]
+	quest.56BF647EA84FFF7E.quest_subtitle: "Tarifleri Gösterir"
+	quest.60D9F04E91171D16.quest_desc: ["Değişkenleriniz (Variables) için bir Chest görevi görebilir veya aslında gelişmiş bir ağda (advanced network) kullanılabilir.\\n\\nGelişmiş ağlar (advanced networks) istiyorsanız, &eDynamics of Integration&r'da onlar hakkında bilgi okuduğunuzdan emin olun."]
+	quest.62B4A37CFDECA679.quest_desc: ["Menril Resin, Squeezer'ın 2 tarafına gidecektir. Squeezer'ın yanına bir Drying Basin yerleştirmek, Drying Basin'in Menril Resin'i almasını sağlayacaktır.\\n\\n7.5 saniye sonra Menril Resin bir Block of Crystallized Menril'e dönüşecektir."]
+	quest.65D89991A45BC042.quest_desc: ["Bir çalışma masasına (crafting table) bir Crafting Interfaces yerleştirin ve üzerine sağ tıklayın, bu size &bVariable Cards&r için bazı yuvalar (slots) verecektir. \\n\\nLogic Programmer'ı kullanarak, sol üstte &eRecipe&r arayın ve otomatik üretim (autocrafting) için bir tane oluşturun, ardından bunu bir &bVariable Card&r'a kaydedin. Bir tarif üretilmesi (crafted) gereken öğeler &c&lgerektiriyorsa&r, bunların her biri için bir tarif oluşturun ve ardından her şeyi Crafting Interface'e koyun."]
+	quest.65D89991A45BC042.quest_subtitle: "&l&cA&6U&eT&aO &bC&dR&9A&3F&0T"
+	quest.65FA86357BC60573.quest_desc: ["Eşyaları bir yerden diğerine taşıma zamanı geldi. İşte adımlar:\\n\\n&l1.&r Bir envanterin (Chest veya Tank gibi) üzerine bir arayüz (interface) yerleştirin\\n\\n&l2.&r Bir şeyleri ondan çekmek (pull) veya ona göndermek (send) istemenize bağlı olarak, başka bir envantere bir Importer veya bir Exporter yerleştirin.\\n\\n&l3.&r İkisini de Cables ile birbirine bağlayın, Importer veya Exporter içine bir Variable Card yerleştirin, ve işte bu kadar!"]
+	quest.65FA86357BC60573.quest_subtitle: "Moving Stuff!"
+	quest.68498ADEF9765F81.quest_desc: ["Crystallized Menril Chunks yapmak için ilk olarak bir Squeezer'a biraz Menril Logs koymanız gerekir. Onları Menril Resin'e dönüştürmek için Squeezer'ın üzerinde zıplayın.\\n\\nOna bir Redstone sinyali (signal) vererek Squeezer'ı boşaltabilirsiniz."]
+	quest.6ABDBE41880CFDA9.quest_desc: ["Bu Görev, AllTheMods Modpaketlerinde kullanılmak üzere &6AllTheMods Staff&r veya bir &2Topluluk katkıda bulunanı&r tarafından yazılmıştır.\\n\\nTüm &6AllTheMods&r paketleri &eTüm Hakları Saklıdır&r (All Rights Reserved) altında lisanslı olduğundan, bu Görevin açık izin alınmaksızın &6AllTheMods Team&r tarafından yayınlanmayan hiçbir halka açık pakette kullanılmasına izin verilmez.\\n\\nBu görev kasıtlı olarak gizlenmiştir, eğer bunu görüyorsanız düzenleme modundasınız demektir."]
+	quest.6C9191DA4B1039D6.quest_desc: ["Menril Berries yenildiğinde (eaten) size kısa bir süre için Night Vision (Gece Görüşü) verir."]
+	quest.6D75CF34957ECCD9.quest_desc: ["Energy Battery, FE depolamanıza izin verir. Onu aktarmak için &6Energy Interfaces&r'a ihtiyacınız olacak."]
+	quest.6D75CF34957ECCD9.quest_subtitle: "Storing Energy"
+	quest.72F57D77C3FB366D.quest_desc: ["Blocks of Crystallized Menril üretilerek Crystallized Menril Chunks yapılabilir. Bu chunks (parçalar), ID'nin ana üretim malzemesidir (crafting ingredient)."]
+	quest.72F57D77C3FB366D.quest_subtitle: "Ana Üretim Malzemesi"
+	quest.72F57D77C3FB366D.title: "Crystallized Menril Chunks"
+	quest.73EA326304C01C3B.quest_desc: [
+		"İçinden eşyaların çekilmesini (pulled) istediğiniz envanterin üzerine bir Importer yerleştirin. Ardından, ikinci envanterin üzerine Interface'i yerleştirin ve bunları Logic Cables ile bağlayın. Sonra, Variable Card'ı Importer'ın içine koyun ve dilediğiniz gibi değiştirin.\\n\\nEşyaları Tam Sayı Sınırında (Integer Limit) (2 milyarın üzerinde) içe aktaracak şekilde değiştirilebilir."
+		"{image:atm:textures/questpics/logistics/id_item.png width:200 height:50 align:center}"
+		"{image:atm:textures/questpics/logistics/id_fluid.png width:200 height:50 align:center}"
+		"{image:atm:textures/questpics/logistics/id_energy.png width:200 height:50 align:center}"
+	]
+	quest.73EA326304C01C3B.quest_subtitle: "Importing"
+	quest.7413BB136EF9D6C5.quest_desc: ["Mechanical Drying Basin kurutmak (dry) için enerji kullanır"]
+	quest.79C1105A84B8BF8F.quest_desc: ["Variable Cards; Importing Items (Eşyaları İçe Aktarma) gibi Etkileşimleri (Interactions) başlatmak için gereklidir. Onları eklemek için Importer'ın yuvalarından (slots) birine koyacaksınız.\\n\\nOradan + Butonu aracılığıyla her şeyi düzenleyebilirsiniz. Ne kadar İçe Aktarıldığını (Importer), hangi Item Slot (Eşya Yuvası), hangi Channel (Kanal), pratik olarak her şeyi sadece o Kartla (Card) değiştirebilirsiniz.\\n\\nSadece eşyaları taşımak istiyorsanız, çok süslü bir şey yok, sadece içine koyun ve belki ne kadarının taşınacağına dair Sınırı (Limit) değiştirin."]
+	quest.79C1105A84B8BF8F.title: "Variable Cards"
+	task.166BA23E49F6DCD6.title: "Importers"
+	task.1C045BB5FAFCF4D3.title: "Interfaces"
+	task.1C7C0F345759111C.title: "Exporters"
+	task.22CCBBC66D509404.title: "Networks!"
+	task.238B5BA2FAE9785B.title: "AllRightsReserved"
+	task.2656ACB55A33D4FE.title: "Interface GUI"
+	task.267CE316E1F8FA83.title: "AllRightsReserved"
+	task.4209A06A392362DB.title: "Importer \\& Exporter GUI"
+	task.5DD862CF56AF7BF9.title: "Menril Logs"
+}
