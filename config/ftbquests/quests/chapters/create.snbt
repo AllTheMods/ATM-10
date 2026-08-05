@@ -1,5 +1,5 @@
 {
-	default_hide_dependency_lines: false
+	default_hide_dependency_lines: true
 	default_quest_shape: "gear"
 	filename: "create"
 	group: "2B51AC12041E3F89"
@@ -10,96 +10,80 @@
 	images: [
 		{
 			height: 2.0d
+			id: "1DC2A1512A1DCB46"
 			image: "atm:textures/questpics/create/create_title.png"
 			order: 1
 			rotation: 0.0d
 			width: 6.0d
-			x: -4.5d
-			y: 7.5d
+			x: -6.0d
+			y: 8.5d
 		}
 		{
+			click_action: "none:"
 			height: 2.0d
+			id: "316C7759B7D64F9E"
 			image: "atm:textures/questpics/create/create_title_power.png"
 			order: 1
 			rotation: 0.0d
 			width: 5.0d
-			x: -0.5d
-			y: -7.0d
+			x: 7.0d
+			y: -6.5d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
+			id: "3D4F53130F8233D7"
 			image: "atm:textures/questpics/create/create_title_machines.png"
 			order: 1
-			rotation: 45.0d
+			rotation: 0.0d
 			width: 4.0d
-			x: -3.0d
-			y: 4.5d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			height: 1.0d
+			id: "3B94B816E804F14C"
 			image: "atm:textures/questpics/create/create_title_tool.png"
 			order: 1
 			rotation: 0.0d
 			width: 2.5d
 			x: -6.0d
-			y: 5.5d
-		}
-		{
-			height: 1.0d
-			image: "atm:textures/questpics/create/create_title_contrapt.png"
-			order: 1
-			rotation: -90.0d
-			width: 5.0d
-			x: -13.0d
 			y: 6.0d
 		}
 		{
+			click_action: "none:"
 			height: 1.0d
+			id: "4DAE1F2D1648A646"
 			image: "atm:textures/questpics/create/create_title_fluid.png"
 			order: 1
-			rotation: -90.0d
+			rotation: 0.0d
 			width: 6.0d
-			x: -12.5d
+			x: -17.0d
 			y: 0.0d
 		}
 		{
 			height: 1.0d
+			id: "1FF217CFA0EC3630"
 			image: "atm:textures/questpics/create/create_title_item.png"
 			order: 1
 			rotation: 0.0d
 			width: 5.0d
-			x: -6.0d
-			y: -9.5d
+			x: -10.5d
+			y: -9.0d
 		}
 		{
 			height: 1.0d
+			id: "38AE8E62E4625EE4"
 			image: "atm:textures/questpics/create/create_title_contrapt.png"
 			order: 1
 			rotation: 0.0d
 			width: 5.0d
-			x: -10.5d
-			y: 8.5d
-		}
-		{
-			height: 1.0d
-			image: "atm:textures/questpics/create/create_title_machines.png"
-			order: 1
-			rotation: 45.0d
-			width: 4.0d
-			x: 1.5d
-			y: 1.5d
-		}
-		{
-			height: 2.0d
-			image: "atm:textures/questpics/create/create_title_power.png"
-			order: 1
-			rotation: 0.0d
-			width: 5.0d
-			x: 3.0d
-			y: -2.5d
+			x: -15.5d
+			y: 5.5d
 		}
 		{
 			height: 4.0d
+			id: "5C8DC1223BC3537C"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 20.0d
 			width: 4.0d
@@ -108,528 +92,539 @@
 		}
 		{
 			height: 2.5d
+			id: "6E1E9DE2E7D4FEBD"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
 			width: 2.5d
-			x: -3.5d
-			y: 0.0d
-		}
-		{
-			height: 2.0d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 20.0d
-			width: 2.0d
-			x: -2.0d
-			y: -1.5d
-		}
-		{
-			height: 2.0d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 20.0d
-			width: 2.0d
-			x: -2.0d
-			y: 1.5d
-		}
-		{
-			height: 2.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 2.5d
-			x: -8.5d
-			y: 0.0d
-		}
-		{
-			height: 2.0d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 20.0d
-			width: 2.0d
-			x: -9.5d
-			y: 1.5d
-		}
-		{
-			height: 2.0d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 20.0d
-			width: 2.0d
-			x: -9.5d
-			y: -1.5d
-		}
-		{
-			height: 2.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 0.0d
-			width: 2.5d
-			x: -8.5d
-			y: 4.0d
-		}
-		{
-			height: 2.0d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 20.0d
-			width: 2.0d
-			x: -6.75d
-			y: 2.5d
-		}
-		{
-			height: 2.0d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 20.0d
-			width: 2.0d
-			x: -5.25d
-			y: 2.5d
-		}
-		{
-			height: 2.0d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 20.0d
-			width: 2.0d
-			x: -6.0d
-			y: 3.5d
-		}
-		{
-			height: 1.75d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 20.0d
-			width: 1.75d
-			x: -10.75d
-			y: 7.5d
-		}
-		{
-			height: 1.75d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 20.0d
-			width: 1.75d
-			x: -12.0d
-			y: 6.25d
-		}
-		{
-			height: 1.75d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.75d
-			x: -10.75d
-			y: 6.25d
-		}
-		{
-			height: 1.75d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.75d
-			x: -12.0d
-			y: 7.5d
-		}
-		{
-			height: 1.75d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.75d
-			x: 1.75d
-			y: -4.0d
-		}
-		{
-			height: 1.75d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.75d
-			x: 0.5d
-			y: -5.25d
-		}
-		{
-			height: 1.75d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.75d
-			x: 0.5d
-			y: -4.0d
-		}
-		{
-			height: 1.75d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.75d
-			x: 1.75d
-			y: -5.25d
-		}
-		{
-			height: 2.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 2.5d
-			x: -6.0d
-			y: -3.0d
-		}
-		{
-			dependency: "7D67058592EE5958"
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -5.5d
-			y: 4.5d
-		}
-		{
-			dependency: "0CF69DBA9573A7B3"
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -6.5d
-			y: 4.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -2.0d
-			y: 3.0d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -3.0d
-			y: 2.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -3.5d
-			y: 1.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -1.0d
-			y: 2.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -0.5d
-			y: 1.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -1.0d
-			y: 0.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
 			x: -2.0d
 			y: 0.0d
 		}
 		{
-			height: 1.5d
+			height: 2.0d
+			id: "4065FCFED56C5422"
 			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
+			rotation: 20.0d
+			width: 2.0d
 			x: -1.0d
-			y: 3.5d
+			y: -2.0d
 		}
 		{
-			height: 1.5d
+			height: 2.0d
+			id: "085F551EFD68B232"
 			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
+			rotation: 20.0d
+			width: 2.0d
 			x: 0.0d
-			y: 4.0d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: 1.0d
-			y: 3.0d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: 0.5d
 			y: 2.0d
 		}
 		{
-			height: 1.5d
+			height: 2.5d
+			id: "4FCF62B74304BD97"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
-			width: 1.5d
-			x: -1.0d
-			y: -2.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: 0.0d
-			y: -1.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: 0.0d
-			y: -0.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: 1.0d
-			y: -1.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -2.0d
-			y: -3.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -2.0d
-			y: -4.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -3.0d
-			y: -5.0d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -3.0d
-			y: -4.0d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -2.0d
-			y: -5.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -1.0d
-			y: -4.0d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -1.0d
-			y: -5.0d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -4.0d
-			y: -4.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -4.5d
-			y: -3.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -4.5d
-			y: -5.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -5.0d
-			y: -4.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -6.0d
-			y: -4.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -8.0d
-			y: -4.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -7.5d
-			y: -5.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -7.5d
-			y: -3.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -8.5d
-			y: -2.0d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -9.5d
-			y: -2.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -10.5d
-			y: -2.0d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
+			width: 2.5d
 			x: -10.0d
 			y: 0.0d
 		}
 		{
-			height: 1.5d
+			height: 2.0d
+			id: "4F5A5C3F4D3D167D"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 20.0d
+			width: 2.0d
+			x: -12.0d
+			y: 1.5d
+		}
+		{
+			height: 2.0d
+			id: "2CAD22B1081671B0"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 20.0d
+			width: 2.0d
+			x: -12.0d
+			y: -1.5d
+		}
+		{
+			click_action: "none:"
+			height: 2.5d
+			id: "7930DB90AD056CDA"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
-			width: 1.5d
-			x: -10.5d
-			y: -1.0d
+			width: 2.5d
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			height: 2.0d
+			id: "5DA4BB08CF5FFD97"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 20.0d
+			width: 2.0d
+			x: -6.75d
+			y: 3.5d
+		}
+		{
+			height: 2.0d
+			id: "7AC62BC6FFE41E70"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 20.0d
+			width: 2.0d
+			x: -5.25d
+			y: 3.5d
+		}
+		{
+			height: 2.0d
+			id: "193428857C99A838"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 20.0d
+			width: 2.0d
+			x: -6.0d
+			y: 4.5d
+		}
+		{
+			height: 1.75d
+			id: "621C5268AB889596"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 20.0d
+			width: 1.75d
+			x: -12.25d
+			y: 8.5d
+		}
+		{
+			height: 1.75d
+			id: "4B5FBF794355FE9D"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 20.0d
+			width: 1.75d
+			x: -13.5d
+			y: 7.25d
+		}
+		{
+			height: 1.75d
+			id: "21661D156C2E412F"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.75d
+			x: -12.25d
+			y: 7.25d
+		}
+		{
+			height: 1.75d
+			id: "043D0398EECD2F8F"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.75d
+			x: -13.5d
+			y: 8.5d
+		}
+		{
+			height: 1.75d
+			id: "088F058AD2AAB45C"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.75d
+			x: 4.25d
+			y: -3.5d
+		}
+		{
+			height: 1.75d
+			id: "7B94F6397316EEF9"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.75d
+			x: 3.0d
+			y: -4.75d
+		}
+		{
+			height: 1.75d
+			id: "1D0FF4A44F19F2B7"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.75d
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			height: 1.75d
+			id: "5A0B30C9F6186744"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.75d
+			x: 4.25d
+			y: -4.75d
+		}
+		{
+			height: 2.5d
+			id: "3FADC22E10AA88FB"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 2.5d
+			x: -6.0d
+			y: -4.0d
 		}
 		{
 			height: 1.5d
+			id: "271E8922012F6050"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
 			width: 1.5d
-			x: -8.5d
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			height: 1.5d
+			id: "02DF35F62AE00ADD"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			height: 1.5d
+			id: "7F8289752A3FBF7D"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -1.5d
 			y: 2.0d
 		}
 		{
 			height: 1.5d
+			id: "26B161FF61AF9947"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
 			width: 1.5d
-			x: -9.5d
-			y: 2.5d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			height: 1.5d
+			id: "408569974C683797"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
 			width: 1.5d
-			x: -10.5d
+			x: 1.5d
 			y: 2.0d
 		}
 		{
 			height: 1.5d
+			id: "1E2E1450FE1683CE"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
 			width: 1.5d
-			x: -10.5d
+			x: 1.0d
 			y: 1.0d
 		}
 		{
 			height: 1.5d
+			id: "4EC76B04CC5DADEA"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
 			width: 1.5d
-			x: -11.5d
-			y: 1.5d
+			x: 0.0d
+			y: 0.5d
 		}
 		{
 			height: 1.5d
+			id: "343624D3EE689A4C"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
 			width: 1.5d
-			x: -8.5d
-			y: 6.5d
+			x: -1.5d
+			y: 4.5d
 		}
 		{
 			height: 1.5d
+			id: "44C49C64B9C4C7EB"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
 			width: 1.5d
-			x: -9.5d
-			y: 6.0d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -8.5d
+			x: -1.0d
 			y: 5.5d
 		}
 		{
 			height: 1.5d
+			id: "5866C20C44464CAF"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
 			width: 1.5d
-			x: -9.5d
-			y: 5.0d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			height: 1.5d
+			id: "4D269DF7C3B5F2C8"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			height: 1.5d
+			id: "0B98FAEF38B2D1DA"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			height: 1.5d
+			id: "11B8CDC73238E9F2"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			height: 1.5d
+			id: "1DF363E99C97F9CF"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			id: "279CCD0D84E48ED3"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			height: 1.5d
+			id: "3BEBF22381153C82"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -1.0d
+			y: -4.0d
+		}
+		{
+			height: 1.5d
+			id: "568546CA69BCA9C3"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			height: 1.5d
+			id: "467C7C907FEE1B0D"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			height: 1.5d
+			id: "76EF51792D4D2581"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			id: "79D33FC2BC32D5C2"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -1.0d
+			y: -6.0d
+		}
+		{
+			height: 1.5d
+			id: "178E3AA9827F022A"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			height: 1.5d
+			id: "1CD7FD9DE25C5726"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			height: 1.5d
+			id: "5472FAE6482547A0"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			height: 1.5d
+			id: "6D27F1519762F78C"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			height: 1.5d
+			id: "22A09DE92596929F"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			height: 1.5d
+			id: "5676D9D3EFF14AA1"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			height: 1.5d
+			id: "7FBA626D5FADAB15"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			height: 1.5d
+			id: "4C158B86F80ECB39"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			height: 1.5d
+			id: "11018916766AE0A7"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			height: 1.5d
+			id: "1D1446B4AB471BB8"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			height: 1.5d
+			id: "4453B766E9E7EDB7"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			height: 1.5d
+			id: "525F07593A8C6B47"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			height: 1.5d
+			id: "0F08EB8F6A9E54D2"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -13.0d
+			y: -2.5d
+		}
+		{
+			height: 1.5d
+			id: "372949686AD462D4"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			height: 1.5d
+			id: "5AB16FA35F2CC8B4"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -13.5d
+			y: -1.5d
+		}
+		{
+			height: 1.5d
+			id: "11AD5FF1DC47B518"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			height: 1.5d
+			id: "086D40EB97F7DD59"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -12.0d
+			y: 3.0d
+		}
+		{
+			height: 1.5d
+			id: "4127B52E43001C09"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -13.0d
+			y: 2.5d
+		}
+		{
+			height: 1.5d
+			id: "724493FF1B7D8D59"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -13.5d
+			y: 1.5d
+		}
+		{
+			height: 1.5d
+			id: "541787081A6F1007"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -14.5d
+			y: 1.5d
+		}
+		{
+			height: 1.5d
+			id: "2C77D9E4976628CA"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
 			width: 1.5d
@@ -638,30 +633,52 @@
 		}
 		{
 			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -11.5d
-			y: 5.0d
-		}
-		{
-			height: 1.5d
+			id: "3AA420D9B12ABEC7"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
 			width: 1.5d
 			x: -10.0d
-			y: 4.0d
+			y: 6.0d
 		}
 		{
 			height: 1.5d
+			id: "29B70821886C07B8"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -9.0d
+			y: 6.0d
+		}
+		{
+			height: 1.5d
+			id: "6D7F7CB6F98D9D94"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -11.0d
+			y: 6.0d
+		}
+		{
+			height: 1.5d
+			id: "64A941282A417B39"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
 			width: 1.5d
 			x: -10.5d
-			y: 5.0d
+			y: 7.0d
 		}
 		{
 			height: 1.5d
+			id: "726AE2B8C24B2C04"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -12.0d
+			y: 5.5d
+		}
+		{
+			height: 1.5d
+			id: "16A92151D288EFE5"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
 			width: 1.5d
@@ -669,287 +686,589 @@
 			y: 4.0d
 		}
 		{
-			height: 1.0d
-			image: "atm:textures/questpics/create/create_background_title.png"
-			rotation: 0.0d
-			width: 3.0d
-			x: -6.0d
-			y: 5.5d
+			height: 1.5d
+			id: "68B0D69A3974DAC6"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -11.0d
+			y: 5.0d
 		}
 		{
-			height: 1.0d
-			image: "atm:textures/questpics/create/create_background_title.png"
-			rotation: 45.0d
-			width: 5.0d
-			x: -3.0d
+			height: 1.5d
+			id: "35025120C5408A44"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -12.0d
 			y: 4.5d
 		}
 		{
-			height: 1.0d
+			click_action: "none:"
+			height: 1.25d
+			id: "323C257B52B18467"
 			image: "atm:textures/questpics/create/create_background_title.png"
-			rotation: 45.0d
+			rotation: 0.0d
+			width: 3.25d
+			x: -6.0d
+			y: 6.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.5d
+			id: "50CBF8970A3E0F7B"
+			image: "atm:textures/questpics/create/create_background_title.png"
+			rotation: 0.0d
 			width: 5.0d
-			x: 1.5d
-			y: 1.5d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
-			height: 2.0d
-			image: "atm:textures/questpics/create/create_background_title.png"
-			rotation: 0.0d
-			width: 5.5d
-			x: 3.0d
-			y: -2.5d
-		}
-		{
-			height: 2.0d
-			image: "atm:textures/questpics/create/create_background_title.png"
-			rotation: 0.0d
-			width: 5.5d
-			x: -0.5d
-			y: -7.0d
-		}
-		{
-			height: 1.0d
+			click_action: "none:"
+			height: 2.5d
+			id: "426C1B55E2566C74"
 			image: "atm:textures/questpics/create/create_background_title.png"
 			rotation: 0.0d
 			width: 6.0d
-			x: -6.0d
-			y: -9.5d
+			x: 7.0d
+			y: -6.5d
 		}
 		{
-			height: 1.0d
+			click_action: "none:"
+			height: 1.5d
+			id: "672DBDFD5A265A9A"
 			image: "atm:textures/questpics/create/create_background_title.png"
 			rotation: 0.0d
 			width: 6.0d
 			x: -10.5d
-			y: 8.5d
+			y: -9.0d
 		}
 		{
-			height: 1.0d
+			click_action: "none:"
+			height: 1.5d
+			id: "6254866DA74006D5"
 			image: "atm:textures/questpics/create/create_background_title.png"
-			rotation: -90.0d
+			rotation: 0.0d
 			width: 6.0d
-			x: -13.0d
-			y: 6.0d
+			x: -15.5d
+			y: 5.5d
 		}
 		{
-			height: 1.0d
+			click_action: "none:"
+			height: 1.5d
+			id: "039B38E8A3021A44"
 			image: "atm:textures/questpics/create/create_background_title.png"
-			rotation: -90.0d
+			rotation: 0.0d
 			width: 7.0d
-			x: -12.5d
+			x: -17.0d
 			y: 0.0d
 		}
 		{
 			height: 3.0d
+			id: "34D444FC899D5B48"
 			image: "atm:textures/questpics/create/create_background_title.png"
 			rotation: 0.0d
 			width: 7.0d
-			x: -4.5d
-			y: 7.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: 2.0d
-			y: 5.5d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: 2.5d
-			y: 7.0d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: 2.0d
-			y: 8.0d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: 1.0d
+			x: -6.0d
 			y: 8.5d
 		}
 		{
 			height: 1.5d
+			id: "099E4B2370E37A5A"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			height: 1.5d
+			id: "2846EA366D7DCDEA"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			height: 1.5d
+			id: "62CEC6D8F2990084"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			height: 1.5d
+			id: "5AB034FC5F66BA60"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
 			width: 1.5d
 			x: 0.0d
+			y: 10.5d
+		}
+		{
+			height: 1.5d
+			id: "5C08B170142C71E6"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -1.0d
+			y: 10.0d
+		}
+		{
+			height: 1.5d
+			id: "55E8D6DD685ECE94"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			height: 1.5d
+			id: "7375EE105BD72D3B"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: -1.0d
+			y: 7.0d
+		}
+		{
+			height: 2.0d
+			id: "322A4419A0C7BF2A"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 20.0d
+			width: 2.0d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			height: 2.5d
+			id: "72C3D9A82660ED2A"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 2.5d
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "3577ED65C4FE8D47"
+			image: "atm:textures/questpics/create/create_title_trains.png"
+			order: 1
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.5d
+			id: "30A02BFAB3106B0D"
+			image: "atm:textures/questpics/create/create_background_title.png"
+			rotation: 0.0d
+			width: 3.5d
+			x: 4.0d
 			y: 8.0d
 		}
 		{
 			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: -0.5d
-			y: 7.0d
-		}
-		{
-			height: 1.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 1.5d
-			x: 0.0d
-			y: 5.5d
-		}
-		{
-			height: 2.0d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 20.0d
-			width: 2.0d
-			x: 1.0d
-			y: 5.0d
-		}
-		{
-			height: 2.5d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 22.0d
-			width: 2.5d
-			x: 1.0d
-			y: 7.0d
-		}
-		{
-			height: 1.0d
-			image: "atm:textures/questpics/create/create_background_title.png"
-			rotation: 90.0d
-			width: 3.25d
-			x: 3.5d
-			y: 7.0d
-		}
-		{
-			height: 1.0d
-			image: "atm:textures/questpics/create/create_title_trains.png"
-			order: 1
-			rotation: 90.0d
-			width: 2.5d
-			x: 3.5d
-			y: 7.0d
-		}
-		{
-			height: 1.0d
-			image: "atm:textures/questpics/create/create_title_trains.png"
-			order: 1
-			rotation: 0.0d
-			width: 2.5d
-			x: 1.0d
-			y: 9.5d
-		}
-		{
-			height: 1.0d
-			image: "atm:textures/questpics/create/create_background_title.png"
-			rotation: 0.0d
-			width: 3.25d
-			x: 1.0d
-			y: 9.5d
-		}
-		{
-			height: 1.5d
+			id: "6F88E0B8988C80D1"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
 			width: 1.5d
 			x: -7.0d
-			y: -4.5d
+			y: -6.5d
 		}
 		{
 			height: 1.5d
+			id: "5D61A77CC877D7EA"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
 			width: 1.5d
 			x: -6.0d
-			y: -7.5d
+			y: -11.0d
 		}
 		{
 			height: 1.5d
+			id: "0700C4938B3F86BD"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
 			width: 1.5d
 			x: -5.0d
-			y: -8.0d
+			y: -11.5d
 		}
 		{
 			height: 1.5d
+			id: "7CE9CCCA8028DACF"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
 			width: 1.5d
 			x: -4.0d
-			y: -7.0d
+			y: -10.5d
 		}
 		{
 			height: 1.5d
+			id: "497167F5AB0E0B1D"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
 			width: 1.5d
 			x: -4.0d
-			y: -8.0d
+			y: -11.5d
 		}
 		{
 			height: 1.5d
+			id: "1AF6C8F6051E4D77"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
 			width: 1.5d
 			x: -8.0d
-			y: -7.0d
+			y: -10.5d
 		}
 		{
 			height: 1.5d
+			id: "48157AAB59C803D0"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
 			width: 1.5d
 			x: -7.0d
-			y: -8.0d
+			y: -11.5d
 		}
 		{
 			height: 1.5d
+			id: "7A7D4D61BAD6AB8F"
 			image: "atm:textures/questpics/create/create_cog.png"
 			rotation: 22.0d
 			width: 1.5d
 			x: -8.0d
-			y: -8.0d
+			y: -11.5d
 		}
 		{
-			height: 1.0d
-			image: "atm:textures/questpics/create/create_background_title.png"
-			rotation: -90.0d
-			width: 6.0d
-			x: -9.5d
-			y: -6.0d
+			height: 2.0d
+			id: "3E8208E586F1F41B"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 20.0d
+			width: 2.0d
+			x: -6.0d
+			y: -9.0d
 		}
 		{
+			height: 2.0d
+			id: "39A7DA98D281CE92"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 20.0d
+			width: 2.0d
+			x: -6.0d
+			y: -12.0d
+		}
+		{
+			click_action: "none:"
 			height: 1.0d
-			image: "atm:textures/questpics/create/create_title_item.png"
-			order: 1
-			rotation: -90.0d
+			id: "0E92EFC1990B08B6"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "56CB9538BFEA025B"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: 40.0d
+			width: 2.5d
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "30156DBD759FE33A"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: -40.0d
+			width: 2.5d
+			x: -11.0d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "36C138EECF1428F2"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.5d
+			x: -12.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "317404800757BB04"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: 90.0d
 			width: 5.0d
-			x: -9.5d
-			y: -6.0d
+			x: -6.0d
+			y: 3.0d
 		}
 		{
-			height: 2.0d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 20.0d
-			width: 2.0d
-			x: -6.0d
-			y: -6.0d
+			click_action: "none:"
+			height: 1.0d
+			id: "18B9194651BEC0BC"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: 80.0d
+			width: 4.0d
+			x: -5.5d
+			y: 2.0d
 		}
 		{
-			height: 2.0d
-			image: "atm:textures/questpics/create/create_cog.png"
-			rotation: 20.0d
-			width: 2.0d
+			click_action: "none:"
+			height: 1.0d
+			id: "4AFBF61DD3C7B6D2"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: -80.0d
+			width: 4.0d
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "24BFE2F3BB1FEC4B"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: -60.0d
+			width: 6.0d
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "2FAE5323D97B0756"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "2944116BE0D0D02A"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: 90.0d
+			width: 3.0d
+			x: -9.0d
+			y: 5.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "4AE0B079634FA606"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: -45.0d
+			width: 6.0d
+			x: -10.5d
+			y: 5.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "30026DD04A547BB9"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: 90.0d
+			width: 4.0d
 			x: -6.0d
-			y: -8.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "3BA5D5EB73C80260"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: 90.0d
+			width: 7.0d
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "6BA1530806259187"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: 45.0d
+			width: 2.0d
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "0F3E52CB10128525"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: -45.0d
+			width: 2.0d
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "07257EEFC886288C"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: 90.0d
+			width: 3.0d
+			x: -6.0d
+			y: -10.5d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "0288E3C7328E31FC"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: 0.0d
+			width: 4.0d
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "75ABBD24EF022AA2"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: 45.0d
+			width: 3.0d
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "5593CADD31D6F981"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: 70.0d
+			width: 2.0d
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "242EF1F20D113FD5"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: -70.0d
+			width: 2.0d
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "5E7CE603B69E2738"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: 70.0d
+			width: 3.0d
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "23101D7EFCE3766B"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: -70.0d
+			width: 3.0d
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			click_action: "none:"
+			height: 1.0d
+			id: "237139C3F4DA7A45"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: -60.0d
+			width: 3.0d
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "1BFAF44B9DCA47CE"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "1B808B68FED550A3"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: 90.0d
+			width: 3.0d
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "3B0A413A8BBB9C71"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: 45.0d
+			width: 1.5d
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			click_action: "none:"
+			height: 0.75d
+			id: "1FB1ACB089616004"
+			image: "atm:textures/questpics/create/create_shaft.png"
+			order: -1
+			rotation: -45.0d
+			width: 3.0d
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			height: 1.5d
+			id: "4FC00BDFB73786A8"
+			image: "atm:textures/questpics/create/create_cog.png"
+			rotation: 22.0d
+			width: 1.5d
+			x: 3.5d
+			y: 0.0d
 		}
 	]
 	order_index: 0
@@ -998,7 +1317,7 @@
 				item: { count: 1, id: "create:andesite_alloy" }
 				type: "item"
 			}]
-			x: -3.5d
+			x: -2.0d
 			y: 0.0d
 		}
 		{
@@ -1019,8 +1338,8 @@
 				item: { count: 1, id: "create:shaft" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -1.5d
+			x: -1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3AF2BC9A0E298882"]
@@ -1057,8 +1376,8 @@
 				item: { count: 1, id: "create:encased_fan" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 2.5d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5B36DE3826F26963"]
@@ -1088,8 +1407,8 @@
 				item: { count: 1, id: "create:gearbox" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -3.5d
+			x: -1.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5B36DE3826F26963"]
@@ -1119,8 +1438,8 @@
 				item: { count: 1, id: "create:clutch" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -5.5d
+			x: -1.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["5B36DE3826F26963"]
@@ -1150,8 +1469,8 @@
 				item: { count: 1, id: "create:gearshift" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -4.0d
+			x: -2.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["5B36DE3826F26963"]
@@ -1171,11 +1490,12 @@
 				item: { count: 1, id: "create:encased_chain_drive" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -4.0d
+			x: 0.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["7F8E50FA436DB4E6"]
+			hide_dependency_lines: false
 			id: "54EC1C7FC1DA9107"
 			rewards: [
 				{
@@ -1211,8 +1531,8 @@
 				item: { count: 1, id: "create:adjustable_chain_gearshift" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -5.0d
+			x: 0.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["3AF2BC9A0E298882"]
@@ -1242,8 +1562,8 @@
 				item: { count: 1, id: "create:mechanical_press" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.0d
+			x: 0.0d
+			y: 0.5d
 		}
 		{
 			dependencies: ["3AF2BC9A0E298882"]
@@ -1283,8 +1603,8 @@
 				item: { count: 1, id: "create:mechanical_mixer" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 0.5d
+			x: 1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: [
@@ -1305,8 +1625,8 @@
 				item: { count: 1, id: "create:basin" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: -2.0d
+			x: -11.0d
+			y: -2.5d
 		}
 		{
 			id: "1B182A30604655E2"
@@ -1336,8 +1656,8 @@
 				item: { count: 1, id: "create:blaze_burner" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 2.5d
+			x: 0.0d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -1370,8 +1690,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(create:mechanical_piston)item(create:sticky_mechanical_piston))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -9.5d
-			y: 5.0d
+			x: -11.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -1393,8 +1713,8 @@
 				item: { count: 1, id: "create:speedometer" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: -0.5d
+			x: 2.5d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -1416,8 +1736,8 @@
 				item: { count: 1, id: "create:stressometer" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.5d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["69EE22CB4FF1E591"]
@@ -1455,8 +1775,8 @@
 				item: { count: 1, id: "create:cart_assembler" }
 				type: "item"
 			}]
-			x: -11.5d
-			y: 5.0d
+			x: -12.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["69EE22CB4FF1E591"]
@@ -1475,8 +1795,8 @@
 				item: { count: 1, id: "create:linear_chassis" }
 				type: "item"
 			}]
-			x: -11.0d
-			y: 4.0d
+			x: -12.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["69EE22CB4FF1E591"]
@@ -1506,7 +1826,7 @@
 				item: { count: 1, id: "create:radial_chassis" }
 				type: "item"
 			}]
-			x: -10.0d
+			x: -11.0d
 			y: 4.0d
 		}
 		{
@@ -1544,8 +1864,8 @@
 					type: "item"
 				}
 			]
-			x: 1.75d
-			y: -5.25d
+			x: 4.25d
+			y: -4.75d
 		}
 		{
 			dependencies: ["69EE22CB4FF1E591"]
@@ -1576,8 +1896,8 @@
 				item: { count: 1, id: "create:mechanical_drill" }
 				type: "item"
 			}]
-			x: -10.75d
-			y: 6.25d
+			x: -12.25d
+			y: 7.25d
 		}
 		{
 			dependencies: ["69EE22CB4FF1E591"]
@@ -1617,8 +1937,8 @@
 				item: { count: 1, id: "create:mechanical_saw" }
 				type: "item"
 			}]
-			x: -10.75d
-			y: 7.5d
+			x: -12.25d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3AF2BC9A0E298882"]
@@ -1667,8 +1987,8 @@
 				item: { count: 1, id: "create:deployer" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.5d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["69EE22CB4FF1E591"]
@@ -1708,8 +2028,8 @@
 				item: { count: 1, id: "create:mechanical_harvester" }
 				type: "item"
 			}]
-			x: -12.0d
-			y: 7.5d
+			x: -13.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["69EE22CB4FF1E591"]
@@ -1740,8 +2060,8 @@
 				item: { count: 1, id: "create:mechanical_plough" }
 				type: "item"
 			}]
-			x: -12.0d
-			y: 6.25d
+			x: -13.5d
+			y: 7.25d
 		}
 		{
 			dependencies: ["7242F591DA474B37"]
@@ -1761,7 +2081,7 @@
 				item: { count: 1, id: "create:copper_casing" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -12.0d
 			y: 1.5d
 		}
 		{
@@ -1795,8 +2115,8 @@
 				item: { count: 1, id: "create:mechanical_arm" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: -1.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["13AEBC331F29BC3D"]
@@ -1825,7 +2145,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: -3.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["13AEBC331F29BC3D"]
@@ -1856,7 +2176,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -3.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["13AEBC331F29BC3D"]
@@ -1887,7 +2207,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: -4.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["13AEBC331F29BC3D"]
@@ -1918,7 +2238,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -4.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["13AEBC331F29BC3D"]
@@ -1938,10 +2258,11 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -4.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["1C2309DB4B890E71"]
+			hide_dependency_lines: false
 			id: "4C77ABCD41383F32"
 			rewards: [{
 				count: 3
@@ -1959,7 +2280,7 @@
 				item: { count: 1, id: "create:blaze_cake" }
 				type: "item"
 			}]
-			x: -11.5d
+			x: -14.5d
 			y: 1.5d
 		}
 		{
@@ -1981,7 +2302,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: 3.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["69EE22CB4FF1E591"]
@@ -2018,7 +2339,7 @@
 					type: "item"
 				}
 			]
-			x: -9.5d
+			x: -10.0d
 			y: 6.0d
 		}
 		{
@@ -2050,33 +2371,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -5.5d
-		}
-		{
-			dependencies: ["57A7A5C79389A96A"]
-			id: "0CF69DBA9573A7B3"
-			invisible: true
-			optional: true
-			tasks: [{
-				id: "0FB1E9BD14FE8EF8"
-				item: { count: 1, id: "create:schematic_table" }
-				type: "item"
-			}]
-			x: -6.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["0CF69DBA9573A7B3"]
-			id: "7D67058592EE5958"
-			invisible: true
-			optional: true
-			tasks: [{
-				id: "5D989C876E9B8AA5"
-				item: { count: 1, id: "create:schematicannon" }
-				type: "item"
-			}]
-			x: -5.5d
-			y: 4.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["69EE22CB4FF1E591"]
@@ -2106,8 +2401,8 @@
 				item: { count: 1, id: "create:rope_pulley" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: 6.5d
+			x: -9.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["3F663416E824720C"]
@@ -2145,8 +2440,8 @@
 				item: { count: 1, id: "create:spout" }
 				type: "item"
 			}]
-			x: -10.5d
-			y: 1.0d
+			x: -13.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["3F663416E824720C"]
@@ -2175,11 +2470,11 @@
 				item: { count: 1, id: "create:hose_pulley" }
 				type: "item"
 			}]
-			x: -10.5d
-			y: 2.0d
+			x: -13.0d
+			y: 2.5d
 		}
 		{
-			dependencies: ["0F16498769DFB3B0"]
+			dependencies: ["69EE22CB4FF1E591"]
 			id: "47897D827C50629D"
 			rewards: [
 				{
@@ -2214,8 +2509,8 @@
 				item: { count: 1, id: "create:piston_extension_pole" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: 5.5d
+			x: -9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: [
@@ -2246,8 +2541,8 @@
 				item: { count: 1, id: "create:portable_fluid_interface" }
 				type: "item"
 			}]
-			x: -8.5d
-			y: 2.0d
+			x: -11.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["57A7A5C79389A96A"]
@@ -2268,7 +2563,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -3.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["5B36DE3826F26963"]
@@ -2298,8 +2593,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(create:cogwheel)item(create:large_cogwheel))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: -2.5d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6893D537716AA748"]
@@ -2337,8 +2632,8 @@
 					type: "item"
 				}
 			]
-			x: 0.0d
-			y: -1.5d
+			x: 2.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["0F16498769DFB3B0"]
@@ -2358,8 +2653,8 @@
 				item: { count: 1, id: "create:andesite_casing" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 1.5d
+			x: 0.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6893D537716AA748"]
@@ -2396,8 +2691,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(create:water_wheel)item(create:large_water_wheel))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -5.25d
+			x: 3.0d
+			y: -4.75d
 		}
 		{
 			dependencies: ["6893D537716AA748"]
@@ -2448,8 +2743,8 @@
 					type: "item"
 				}
 			]
-			x: 1.75d
-			y: -4.0d
+			x: 4.25d
+			y: -3.5d
 		}
 		{
 			dependencies: ["6893D537716AA748"]
@@ -2468,8 +2763,8 @@
 				item: { count: 1, id: "create:hand_crank" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: -4.0d
+			x: 3.0d
+			y: -3.5d
 		}
 		{
 			dependencies: ["13AEBC331F29BC3D"]
@@ -2499,7 +2794,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -4.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["2AEA51044AD44BE8"]
@@ -2539,7 +2834,7 @@
 				type: "item"
 			}]
 			x: -7.5d
-			y: -5.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["7242F591DA474B37"]
@@ -2559,7 +2854,7 @@
 				item: { count: 1, id: "create:fluid_pipe" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -12.0d
 			y: -1.5d
 		}
 		{
@@ -2579,7 +2874,7 @@
 				item: { count: 1, id: "minecraft:copper_ingot" }
 				type: "item"
 			}]
-			x: -8.5d
+			x: -10.0d
 			y: 0.0d
 		}
 		{
@@ -2611,8 +2906,8 @@
 				item: { count: 1, id: "create:crushing_wheel" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 3.0d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3AF2BC9A0E298882"]
@@ -2661,8 +2956,8 @@
 				item: { count: 1, id: "create:millstone" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 1.5d
+			x: -1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["483892F0A0F75B97"]
@@ -2681,8 +2976,8 @@
 				item: { count: 1, id: "create:mechanical_pump" }
 				type: "item"
 			}]
-			x: -9.5d
-			y: -2.5d
+			x: -12.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["57A7A5C79389A96A"]
@@ -2714,7 +3009,7 @@
 				type: "item"
 			}]
 			x: -5.25d
-			y: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["57A7A5C79389A96A"]
@@ -2745,7 +3040,7 @@
 				type: "item"
 			}]
 			x: -6.75d
-			y: 2.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["57A7A5C79389A96A"]
@@ -2784,7 +3079,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -2826,7 +3121,7 @@
 					type: "item"
 				}
 			]
-			x: -8.5d
+			x: -9.0d
 			y: 4.0d
 		}
 		{
@@ -2846,8 +3141,8 @@
 				item: { count: 1, id: "create:smart_fluid_pipe" }
 				type: "item"
 			}]
-			x: -10.5d
-			y: -2.0d
+			x: -13.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["483892F0A0F75B97"]
@@ -2865,8 +3160,8 @@
 				item: { count: 1, id: "create:fluid_valve" }
 				type: "item"
 			}]
-			x: -10.5d
-			y: -1.0d
+			x: -13.5d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -2889,8 +3184,8 @@
 				item: { count: 1, id: "create:brass_casing" }
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: 1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["3314FBC4FEAE1D08"]
@@ -2910,11 +3205,12 @@
 				item: { count: 1, id: "create:precision_mechanism" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 3.5d
+			x: -1.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["67A46ED73E488CEE"]
+			hide_dependency_lines: false
 			id: "1BA11428DF7541AD"
 			rewards: [
 				{
@@ -2941,8 +3237,8 @@
 				item: { count: 1, id: "create:sequenced_gearshift" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: -5.0d
+			x: -2.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["3C99017FD32B6DE2"]
@@ -2962,8 +3258,8 @@
 				item: { count: 1, id: "create:railway_casing" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 5.0d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["5B36DE3826F26963"]
@@ -2993,8 +3289,8 @@
 				item: { count: 1, id: "create:vertical_gearbox" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: -4.5d
+			x: -1.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["7242F591DA474B37"]
@@ -3013,7 +3309,7 @@
 				item: { count: 1, id: "create:fluid_tank" }
 				type: "item"
 			}]
-			x: -10.0d
+			x: -13.0d
 			y: 0.0d
 		}
 		{
@@ -3043,8 +3339,8 @@
 				item: { count: 1, id: "create:item_drain" }
 				type: "item"
 			}]
-			x: -9.5d
-			y: 2.5d
+			x: -12.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["69EE22CB4FF1E591"]
@@ -3083,7 +3379,7 @@
 				item: { count: 1, id: "create:mechanical_bearing" }
 				type: "item"
 			}]
-			x: -10.5d
+			x: -11.0d
 			y: 5.0d
 		}
 		{
@@ -3113,7 +3409,7 @@
 				item: { count: 1, id: "create:clockwork_bearing" }
 				type: "item"
 			}]
-			x: -9.5d
+			x: -10.5d
 			y: 7.0d
 		}
 		{
@@ -3133,8 +3429,8 @@
 				item: { count: 1, id: "create:track" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 5.5d
+			x: -1.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -3167,8 +3463,8 @@
 				item: { count: 1, id: "create:track_station" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.5d
+			x: 1.0d
+			y: 7.0d
 		}
 		{
 			dependencies: [
@@ -3221,8 +3517,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 7.0d
+			x: 0.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["3FBCBBEBB78B83FC"]
@@ -3259,8 +3555,8 @@
 				item: { count: 1, id: "create:track_signal" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.0d
+			x: 1.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3FBCBBEBB78B83FC"]
@@ -3290,8 +3586,8 @@
 				item: { count: 1, id: "create:track_observer" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: -1.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["3FBCBBEBB78B83FC"]
@@ -3328,8 +3624,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: 8.5d
+			x: 0.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["3FBCBBEBB78B83FC"]
@@ -3347,8 +3643,8 @@
 				item: { count: 1, id: "create:controls" }
 				type: "item"
 			}]
-			x: 2.5d
-			y: 7.0d
+			x: 1.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["3FBCBBEBB78B83FC"]
@@ -3404,8 +3700,8 @@
 				item: { count: 1, id: "create:super_glue" }
 				type: "item"
 			}]
-			x: -0.5d
-			y: 7.0d
+			x: -1.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["13AEBC331F29BC3D"]
@@ -3426,7 +3722,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -6.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["16B0C1F7B951C19D"]
@@ -3457,7 +3753,7 @@
 				type: "item"
 			}]
 			x: -5.0d
-			y: -8.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["737DC37E4310090C"]
@@ -3495,7 +3791,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -8.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["16B0C1F7B951C19D"]
@@ -3525,7 +3821,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -7.0d
+			y: -10.5d
 		}
 		{
 			dependencies: ["16B0C1F7B951C19D"]
@@ -3564,7 +3860,7 @@
 				type: "item"
 			}]
 			x: -7.0d
-			y: -8.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["6353A39CBEE599A0"]
@@ -3604,7 +3900,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: -8.0d
+			y: -11.5d
 		}
 		{
 			dependencies: ["2C2958E38293717E"]
@@ -3633,7 +3929,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -7.5d
+			y: -11.0d
 		}
 		{
 			dependencies: ["672F9CF5B0E626F1"]
@@ -3678,7 +3974,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -8.5d
+			y: -12.0d
 		}
 		{
 			dependencies: ["13AEBC331F29BC3D"]
@@ -3698,7 +3994,7 @@
 				type: "item"
 			}]
 			x: -6.0d
-			y: -4.5d
+			y: -6.5d
 		}
 		{
 			dependencies: [
@@ -3738,7 +4034,40 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: -7.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"29917E6196649F5D"
+				"1712C3B3CF158843"
+				"3C99017FD32B6DE2"
+			]
+			id: "7BB3BF6162F05265"
+			rewards: [
+				{
+					id: "1CF7B963B8445681"
+					item: {
+						count: 1
+						id: "create:precision_mechanism"
+					}
+					type: "item"
+				}
+				{
+					id: "3958E75C8644EFF0"
+					item: {
+						count: 1
+						id: "create:large_cogwheel"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "135720329371F8B3"
+				item: { count: 1, id: "create:rotation_speed_controller" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
 		}
 	]
 }
