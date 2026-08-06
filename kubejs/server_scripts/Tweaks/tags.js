@@ -119,8 +119,11 @@ ServerEvents.tags('item', allthemods => {
     "modern_industrialization:runic_enchanter"
   ])
   
-  // Trial Vault Repeatability for Decrepit Keys
-  allthemods.add("repeatable_trial_vaults:can_reset_trial_vaults","irons_spellbooks:decrepit_key")
+  // Trial Vault Repeatability for Iron's Spellbooks Boss Keys
+  allthemods.add("repeatable_trial_vaults:can_reset_trial_vaults", [
+	"irons_spellbooks:decrepit_key",
+	"irons_spellbooks:bone_key"
+  ])
 })
 
 ServerEvents.tags('entity_type', allthemods => {
