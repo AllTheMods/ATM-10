@@ -107,7 +107,8 @@ ServerEvents.tags('item', allthemods => {
     "modern_industrialization:iron_hammer",
     "modern_industrialization:steel_hammer",
     "modern_industrialization:netherite_hammer",
-    "modern_industrialization:diamond_hammer"
+    "modern_industrialization:diamond_hammer",
+	"#alltheores:ore_hammers"
   ])
 
   // Overdrive
