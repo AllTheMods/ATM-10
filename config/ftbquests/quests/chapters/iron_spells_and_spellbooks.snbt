@@ -23,6 +23,7 @@
 	images: [
 		{
 			height: 3.0d
+			id: "1B48F5F072260E51"
 			image: "atm:textures/questpics/iron_spells/spells_title.png"
 			rotation: 0.0d
 			width: 9.38265306122449d
@@ -30,9 +31,9 @@
 			y: -3.0d
 		}
 		{
-			click: "#59E68086A8B99EA7"
+			click_action: "open_quest:59E68086A8B99EA7"
 			height: 3.0d
-			hover: ["Pyromancer"]
+			id: "4BF4AB0B829E9AC5"
 			image: "atm:textures/questpics/iron_spells/spells_pyromancer.png"
 			rotation: 0.0d
 			width: 1.5506216696269983d
@@ -40,9 +41,9 @@
 			y: 0.0d
 		}
 		{
-			click: "#555ED1E39131D91B"
+			click_action: "open_quest:555ED1E39131D91B"
 			height: 3.0d
-			hover: ["Cryomancer"]
+			id: "5B166D12B729120B"
 			image: "atm:textures/questpics/iron_spells/spells_cryomancer.png"
 			rotation: 0.0d
 			width: 1.738703339882122d
@@ -50,9 +51,9 @@
 			y: 0.0d
 		}
 		{
-			click: "#3009018DEC1EC952"
+			click_action: "open_quest:3009018DEC1EC952"
 			height: 3.0d
-			hover: ["Inscription Table"]
+			id: "7C697E0FFFB970F2"
 			image: "atm:textures/questpics/iron_spells/spells_table.png"
 			rotation: 0.0d
 			width: 5.4288407163053725d
@@ -60,9 +61,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#3E8077AB45C79E6A"
+			click_action: "open_quest:3E8077AB45C79E6A"
 			height: 2.0d
-			hover: ["Alchemist Cauldron"]
+			id: "451CDFE56E407A48"
 			image: "atm:textures/questpics/iron_spells/spells_cauldron.png"
 			rotation: 0.0d
 			width: 2.106776180698152d
@@ -70,9 +71,9 @@
 			y: 7.5d
 		}
 		{
-			click: "#551A4916F032ACCF"
+			click_action: "open_quest:551A4916F032ACCF"
 			height: 2.0d
-			hover: ["Arcane Anvil"]
+			id: "30F797309050ABCB"
 			image: "atm:textures/questpics/iron_spells/spells_anvil.png"
 			rotation: 0.0d
 			width: 1.9232409381663114d
@@ -80,9 +81,9 @@
 			y: 7.5d
 		}
 		{
-			click: "#69838E3F12218D68"
+			click_action: "open_quest:69838E3F12218D68"
 			height: 2.0d
-			hover: ["Scroll Forge"]
+			id: "0603F832DA138A7B"
 			image: "atm:textures/questpics/iron_spells/spells_scroll.png"
 			rotation: 0.0d
 			width: 2.3376623376623376d
@@ -90,9 +91,9 @@
 			y: 7.5d
 		}
 		{
-			click: "#0436DF3308681913"
+			click_action: "open_quest:0436DF3308681913"
 			height: 4.0d
-			hover: ["The Dead King"]
+			id: "0C7130648130C896"
 			image: "atm:textures/questpics/iron_spells/spells_king.png"
 			rotation: 0.0d
 			width: 2.3363914373088686d
@@ -100,9 +101,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#204B969DA081056A"
+			click_action: "open_quest:204B969DA081056A"
 			height: 3.0d
-			hover: ["Necromancer"]
+			id: "4CC18CD4CE3866C8"
 			image: "atm:textures/questpics/iron_spells/spells_necromancer.png"
 			rotation: 0.0d
 			width: 1.7410714285714288d
@@ -110,9 +111,9 @@
 			y: 5.5d
 		}
 		{
-			click: "#395A33977B18B9AD"
+			click_action: "open_quest:395A33977B18B9AD"
 			height: 3.0d
-			hover: ["Ancient Knight"]
+			id: "011E4B6218D76D3A"
 			image: "atm:textures/questpics/iron_spells/spells_knight.png"
 			rotation: 0.0d
 			width: 2.070567986230637d
@@ -120,47 +121,48 @@
 			y: 5.5d
 		}
 		{
-			click: "#3009018DEC1EC952"
+			click_action: "open_quest:3009018DEC1EC952"
 			height: 2.5d
-			hover: ["Mountain Tower"]
+			id: "38F99DB68682AB5E"
 			image: "atm:textures/questpics/iron_spells/spells_mountaintower.png"
 			rotation: 0.0d
 			width: 4.444444444444445d
 			x: -3.5d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
-			click: "#3009018DEC1EC952"
+			click_action: "open_quest:3009018DEC1EC952"
 			height: 2.5d
-			hover: ["Pyromancer Tower"]
+			id: "1EE2339CB09FDF9B"
 			image: "atm:textures/questpics/iron_spells/spells_pyromancertower.png"
 			rotation: 0.0d
 			width: 4.444444444444445d
 			x: 3.5d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
-			click: "#3009018DEC1EC952"
+			click_action: "open_quest:3009018DEC1EC952"
 			height: 2.5d
-			hover: ["Mangrove Hut"]
+			id: "29FABA9C983D1601"
 			image: "atm:textures/questpics/iron_spells/spells_magrovehut.png"
 			rotation: 0.0d
 			width: 4.444444444444445d
 			x: 7.5d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
-			click: "#3009018DEC1EC952"
+			click_action: "open_quest:3009018DEC1EC952"
 			height: 2.5d
-			hover: ["Evoker Fort"]
+			id: "759143506B8CE5E2"
 			image: "atm:textures/questpics/iron_spells/spells_evokerfort.png"
 			rotation: 0.0d
 			width: 4.444444444444445d
 			x: -7.5d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			height: 0.3d
+			id: "47072E574B53D31A"
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -169,38 +171,43 @@
 		}
 		{
 			height: 5.0d
+			id: "5A9466B4C5A658EA"
 			image: "atm:textures/questpics/iron_spells/spells_frame.png"
 			rotation: 0.0d
 			width: 6.5d
 			x: -11.5d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			height: 5.0d
+			id: "0D19F34CB9C40B13"
 			image: "atm:textures/questpics/iron_spells/spells_frame.png"
 			rotation: 0.0d
 			width: 6.5d
 			x: -3.5d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			height: 5.0d
+			id: "1D3CC52F8A000833"
 			image: "atm:textures/questpics/iron_spells/spells_frame.png"
 			rotation: 0.0d
 			width: 6.5d
 			x: 3.5d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			height: 5.0d
+			id: "54D7642A0CD2643E"
 			image: "atm:textures/questpics/iron_spells/spells_frame.png"
 			rotation: 0.0d
 			width: 6.5d
 			x: 7.5d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			height: 6.0d
+			id: "617908983152BA83"
 			image: "atm:textures/questpics/iron_spells/spells_frame.png"
 			rotation: 0.0d
 			width: 8.0d
@@ -208,9 +215,9 @@
 			y: 5.0d
 		}
 		{
-			click: "#4567A27C53A01903"
+			click_action: "open_quest:4567A27C53A01903"
 			height: 5.0d
-			hover: ["Echo of Tyros"]
+			id: "60B89CFF74362ACD"
 			image: "atm:textures/questpics/iron_spells/spells_echo.png"
 			rotation: 0.0d
 			width: 6.0d
@@ -218,40 +225,42 @@
 			y: 5.5d
 		}
 		{
-			click: "#6187837A51BA09DC"
+			click_action: "open_quest:6187837A51BA09DC"
 			height: 2.5d
-			hover: ["Citadel"]
+			id: "3347BF8400EC3592"
 			image: "atm:textures/questpics/iron_spells/spells_citadel.png"
 			rotation: 0.0d
 			width: 4.44d
 			x: -11.5d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			height: 5.0d
+			id: "5EB6CDDE0A9460F9"
 			image: "atm:textures/questpics/iron_spells/spells_frame.png"
 			rotation: 0.0d
 			width: 6.5d
 			x: -7.5d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
 			height: 5.0d
+			id: "6A230256FED5A62B"
 			image: "atm:textures/questpics/iron_spells/spells_frame.png"
 			rotation: 0.0d
 			width: 6.5d
 			x: 11.5d
-			y: -6.0d
+			y: -7.0d
 		}
 		{
-			click: "#373EBEB2E96D9361"
+			click_action: "open_quest:373EBEB2E96D9361"
 			height: 2.5d
-			hover: ["Spider Den"]
+			id: "1738DE4800011D8B"
 			image: "atm:textures/questpics/iron_spells/spells_den.png"
 			rotation: 0.0d
 			width: 4.44d
 			x: 11.5d
-			y: -6.0d
+			y: -7.0d
 		}
 	]
 	order_index: 4
@@ -279,7 +288,7 @@
 				type: "item"
 			}]
 			x: 4.0d
-			y: -8.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["615C3E012B2DECD3"]
@@ -299,7 +308,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -8.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["7408CCF998D9CD37"]
@@ -319,7 +328,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -8.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["445C21949ADA1FE3"]
@@ -339,7 +348,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -8.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["3DCD38634176BD92"]
@@ -359,7 +368,7 @@
 				type: "item"
 			}]
 			x: -4.0d
-			y: -8.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["615C3E012B2DECD3"]
@@ -379,7 +388,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -8.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["615C3E012B2DECD3"]
@@ -399,7 +408,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -8.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["615C3E012B2DECD3"]
@@ -419,7 +428,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -8.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["615C3E012B2DECD3"]
@@ -439,7 +448,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -8.5d
+			y: -9.5d
 		}
 		{
 			dependencies: ["615C3E012B2DECD3"]
@@ -459,7 +468,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -9.0d
+			y: -10.0d
 		}
 		{
 			dependencies: ["615C3E012B2DECD3"]
@@ -479,7 +488,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -9.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["615C3E012B2DECD3"]
@@ -499,7 +508,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -7.5d
+			y: -8.5d
 		}
 		{
 			dependencies: ["615C3E012B2DECD3"]
@@ -519,7 +528,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -10.5d
+			y: -11.5d
 		}
 		{
 			dependencies: ["615C3E012B2DECD3"]
@@ -539,7 +548,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -6.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["1CAEC4C273EDDB99"]
@@ -559,7 +568,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -5.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["615C3E012B2DECD3"]
@@ -579,7 +588,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -7.5d
+			y: -8.5d
 		}
 		{
 			id: "2A787B99A8B0C767"
@@ -1492,15 +1501,25 @@
 				id: "minecraft:wither_skeleton_skull"
 			}
 			id: "0436DF3308681913"
-			rewards: [{
-				count: 5
-				id: "03C23C77EF25C4C0"
-				item: {
-					count: 1
-					id: "irons_spellbooks:blank_rune"
+			rewards: [
+				{
+					count: 5
+					id: "03C23C77EF25C4C0"
+					item: {
+						count: 1
+						id: "irons_spellbooks:blank_rune"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "42E0644840B54A3D"
+					item: {
+						count: 1
+						id: "irons_spellbooks:dead_king_phylactery"
+					}
+					type: "item"
+				}
+			]
 			shape: "diamond"
 			size: 1.2d
 			tasks: [{
@@ -1751,6 +1770,7 @@
 				"7FC54AF87CBDD222"
 				"6187837A51BA09DC"
 			]
+			dependency_requirement: "one_completed"
 			icon: {
 				id: "irons_spellbooks:armor_pile"
 			}
@@ -2059,7 +2079,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -11.5d
+			y: -12.5d
 		}
 		{
 			dependencies: ["615C3E012B2DECD3"]
@@ -2079,7 +2099,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -9.5d
+			y: -10.5d
 		}
 		{
 			dependencies: ["3009018DEC1EC952"]
@@ -2731,6 +2751,26 @@
 			x: 14.5d
 			y: 0.5d
 		}
+		{
+			dependencies: ["0436DF3308681913"]
+			id: "3181D07337DEFD14"
+			rewards: [{
+				id: "58D611B47B330F14"
+				item: {
+					count: 1
+					id: "irons_spellbooks:tincture_of_forgetfulness"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "11BCB2F77D53838B"
+				item: { count: 1, id: "minecraft:ominous_bottle" }
+				type: "item"
+			}]
+			x: 4.982886904761898d
+			y: -4.44047619047619d
+		}
 	]
 }
-
