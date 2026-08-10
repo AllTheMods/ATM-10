@@ -19,7 +19,7 @@ function initAnnouncements() {
   addAnnouncement("4.12", "Added mods: ModularBees");
   addAnnouncement("4.13", "Added mods: Dyson Cube Project");
   addAnnouncement("5.0", "Removed mods: Modular Machinery Reborn, use Modern Industrialization");
-  addAnnouncement("5.3", Text.of("We are preparing to ").append(Text.red("REMOVE")).append(" mods ").append(Text.blue("Eternal Starlight")).append(" and ").append(Text.blue("Hyperbox")).append(", be ready when updating to version 6.0+"));
+  addAnnouncement("5.3", Text.of("We are preparing to ").append(Text.red("REMOVE")).append(" mod ").append(Text.blue("Hyperbox")).append(", be ready when updating to version 6.0+"));
   addAnnouncement("5.5", Text.of("We just launched ").append(Text.green("All The Mons (ATM10 + Cobblemon)").clickOpenUrl("https://www.curseforge.com/minecraft/modpacks/all-the-mons").hover(Text.translatable("mco.notification.visitUrl.buttonText.default"))).append(" for public beta testing!"));
 }
 
