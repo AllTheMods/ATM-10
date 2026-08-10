@@ -10,20 +10,17 @@ let currentVersion = null
 // kubejs/assets/atm/lang/en_us.json
 
 // Add your announcements here
-function initAnnouncements(){
-  addAnnouncement("4.0", "Added mods: Ars Creo, Ice and Fire, Oritech,")
-  addAnnouncement("4.1", "Added mods: Oritech Things")
-  addAnnouncement("4.2", "Removed mods: Oritech Things")
-  addAnnouncement("4.3", "Added mods: Ars Controle, Create Aquatic Ambitions, Create Hypertube, Mekanism More Machines")
-  addAnnouncement("4.5", "Added mods: Expanded Ae, Industrialization Overdrive and RFTools Storage")
-  addAnnouncement("4.6", "Added mods: Aether, BotanyPots, BotanyTrees and RefinedTypes")
-  addAnnouncement("4.6", "Removed mods: Harvest with ease, FTB Ultimine does that now")
-  addAnnouncement("4.7", "Added mods: Draconic Evolution and BotanyPots-Mystical")
-  addAnnouncement("4.12", "Added mods: ModularBees")
-  addAnnouncement("4.13", "Added mods: Dyson Cube Project")
-  addAnnouncement("5.0", "Removed mods: Modular Machinery Reborn, use Modern Industrialization")
-  addAnnouncement("5.3", Text.of("We are preparing to ").append(Text.red("REMOVE")).append(" mods ").append(Text.blue("Eternal Starlight")).append(" and ").append(Text.blue("Hyperbox")).append(", be ready when updating to version 6.0+"))
-  addAnnouncement("5.5", Text.of("We just launched ").append(Text.green("All The Mons (ATM10 + Cobblemon)").clickOpenUrl("https://www.curseforge.com/minecraft/modpacks/all-the-mons").hover(Text.translatable("mco.notification.visitUrl.buttonText.default"))).append(" for public beta testing!"))
+function initAnnouncements() {
+  addAnnouncement("4.3", "Added mods: Ars Controle, Create Aquatic Ambitions, Create Hypertube, Mekanism More Machines");
+  addAnnouncement("4.5", "Added mods: Expanded Ae, Industrialization Overdrive and RFTools Storage");
+  addAnnouncement("4.6", "Added mods: Aether, BotanyPots, BotanyTrees and RefinedTypes");
+  addAnnouncement("4.6", "Removed mods: Harvest with ease, FTB Ultimine does that now");
+  addAnnouncement("4.7", "Added mods: Draconic Evolution and BotanyPots-Mystical");
+  addAnnouncement("4.12", "Added mods: ModularBees");
+  addAnnouncement("4.13", "Added mods: Dyson Cube Project");
+  addAnnouncement("5.0", "Removed mods: Modular Machinery Reborn, use Modern Industrialization");
+  addAnnouncement("5.3", Text.of("We are preparing to ").append(Text.red("REMOVE")).append(" mods ").append(Text.blue("Eternal Starlight")).append(" and ").append(Text.blue("Hyperbox")).append(", be ready when updating to version 6.0+"));
+  addAnnouncement("5.5", Text.of("We just launched ").append(Text.green("All The Mons (ATM10 + Cobblemon)").clickOpenUrl("https://www.curseforge.com/minecraft/modpacks/all-the-mons").hover(Text.translatable("mco.notification.visitUrl.buttonText.default"))).append(" for public beta testing!"));
 }
 
 ServerEvents.loaded(event => {
