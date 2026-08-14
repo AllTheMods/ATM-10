@@ -1,0 +1,40 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "supplementaries:flag",
+      "flag": "quiver"
+    },
+    {
+      "modid": "farmersdelight",
+      "condition": "fabric:mod_loaded"
+    }
+  ],
+  "neoforge:conditions": [
+    {
+      "type": "supplementaries:flag",
+      "flag": "quiver"
+    },
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ],
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:saddle"
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:item_ability",
+    "action": "shears_dig"
+  },
+  "result": [
+    {
+      "item": {
+        "id": "minecraft:leather",
+        "count": 2
+      }
+    }
+  ]
+}
