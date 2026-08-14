@@ -1,0 +1,148 @@
+{
+	chapter.3DEB33F78398EAD6.chapter_subtitle: ["Ve LaserIO"]
+	chapter.3DEB33F78398EAD6.title: "Temel Lojistik"
+	chapter_group.3D4E23B1100491AB.title: "Lojistik"
+	quest.034F2CDF0830254B.quest_desc: [
+		"Tıpkı Item Importer gibi; &eFluid Importer&r'ı sıvı içeren bir depoya yerleştirin. Ardından sıvının aktarılmasını istediğiniz yere &eFluid Interface&r koyun ve bunlara Logic Cable çekin. Son olarak da önceki gibi bir Variable Card ekleyin! \\n\\nAyrıca sıvıları tam sayı sınırına (Integer limit) kadar çekebilir. \\n\\nDünyadaki sıvı kaynak bloklarını yerleştirmez veya toplamaz, yalnızca bir depodan diğerine sıvı aktarır."
+		"{image:atm:textures/questpics/logistics/id_fluid.png width:200 height:50 align:center}"
+	]
+	quest.034F2CDF0830254B.title: "&eSıvı İçe Aktarımı"
+	quest.03C40D6A5D722543.quest_desc: ["Variable Card'lar, eşya aktarımı gibi etkileşimleri başlatmak için gereklidir. Kartı aktif etmek için Importer'ın yuvalarından birine yerleştirin. \\n\\nArdından + düğmesine basarak tüm ayarları düzenleyebilirsiniz. O kart ile ne kadar eşya aktarılacağını, hangi envanter yuvasını, hangi kanalı kullanacağını —yani neredeyse her şeyi— değiştirebilirsiniz. \\n\\nEğer sizin de amacınız sadece eşya taşımaksa ve karmaşık ayarlara gerek duymuyorsanız, kartı doğrudan takıp gerekirse yalnızca aktarım sınırını belirleyebilirsiniz."]
+	quest.046C417B2ADF3AA7.quest_desc: ["Kartların belirli sınırları vardır. Eşya çıkarma işlemi sefer başına yalnızca 8 eşya, sıvı çıkarma ise 5 kova aktarabilir. Kimyasal ve enerjiyi siz düşünün... \\n\\nBurası modlu &2&lMinecraft&r; bu sınırlar elbette yetersiz kalacaktır. Bu yüzden kartlara hız aşırtma yapmamız gerekiyor! \\n\\nKartın sağ üst köşesine biraz Overclocker yerleştirerek aktarım limitini yükseltebilirsiniz!"]
+	quest.046C417B2ADF3AA7.quest_subtitle: "Maks: 4"
+	quest.06767BA0AFE8C1EE.quest_desc: ["1... 2... Bir yerlerde 4 de olacaktı. \\n\\nBir sayı değeri belirlemek için eşyayı içine koyun, ardından miktarı ayarlamak için sol veya sağ tıklayın. Miktarı 10'ar 10'ar artırıp azaltmak için Shift tuşuna basarak tıklayın. Sayıyı belirledikten sonra bu değeri bir karta atayın! \\n\\nSistem, belirlenen miktarda eşya toplanana kadar bekleyecek ve aktarıma öyle başlayacaktır. Ayrıca kaynak envanterde de daima belirlediğiniz miktarda eşya bırakacaktır."]
+	quest.0BB562FB44B0AAA7.quest_desc: ["Sadece kartların sınırı yok, bu yüzden Overclocker kullanan tek şey de kartlar değil! \\n\\nBu yükseltmeleri sağ alttaki &cNode&r'un içerisine yerleştirerek işlem hızını artırabilirsiniz."]
+	quest.0BB562FB44B0AAA7.quest_subtitle: "Maks: 8"
+	quest.1834B5C1F8435D7A.quest_desc: [
+		"&5&lMekanism&r sistemlerinde sıvı akışını sağlayan borulardır.\\n\\n&5&lMekanism&r'deki birçok makine sıvıya ihtiyaç duyar; örneğin Electrolytic Separator su kullanırken, Thermal Evaporation Plant lityum üretimi için sıvı gerektirir."
+		"{image:atm:textures/questpics/logistics/meka_pipe.png width:200 height:50 align:center}"
+	]
+	quest.1834B5C1F8435D7A.quest_subtitle: "Sıvılar"
+	quest.1C70D739CE464E25.quest_desc: ["Tam olarak &2Item Card&r gibi çalışır; Extract (Çıkarma) ve Insert (Yerleştirme) kartlarına ihtiyacınız vardır. Sadece bu kez &9Sıvı&r tutan depolardan başka bir depoya aktarım yaparsınız. Hayır, dünyadaki &9Sıvı&r kaynak bloklarını yerleştirmez veya dünyadan toplamaz."]
+	quest.1C70D739CE464E25.title: "&9Fluid Card"
+	quest.230582AAFC0A1632.quest_desc: ["Bu görev &6AllTheMods Ekibi&r veya bir &2topluluk katkıda bulunanı&r tarafından AllTheMods mod paketlerinde kullanılmak üzere hazırlanmıştır.\\n\\nTüm &6AllTheMods&r paketleri &eTüm Hakları Saklıdır&r lisansı kapsamında olduğundan, bu görevin &6AllTheMods Ekibinin&r açık izni olmadan başka bir herkese açık pakette kullanılması yasaktır.\\n\\nBu görev kasıtlı olarak gizlenmiştir; bunu görüyorsanız düzenleme modundasınız demektir."]
+	quest.2329AA0AFBEF1E13.quest_desc: [
+		"&e&lPipez&r, kullanabileceğiniz en basit &f&llojistik&r modudur. O kadar yalındır ki modun tamamı diğer modlara da yer bırakacak şekilde bu tek görev sayfasına sığabilir!"
+		""
+		"Boruyu bağlantı kurmak istediğiniz yere takın; ardından Pipe Wrench kullanarak boru ucunun çekme mi, itme mi yapacağını yoksa bağlantıyı keseceğini mi ayarlayın."
+		""
+		"Farklı modların İngiliz anahtarları da &e&lPipez&r borularıyla uyumludur!"
+		""
+		"(Çok yoğun kullanıldığında sunucuda gecikmeye [lag] neden olabilir, ancak yine de &5&lMekanism&r boruları kadar yük bindirmez)."
+	]
+	quest.2329AA0AFBEF1E13.title: "&l&ePipez"
+	quest.2A6900E87DE8BAE0.quest_desc: ["Mod Filter oldukça pratik bir filtredir. İçine eşya koyduğunuzda İzin Verilen (Whitelist) veya Yasaklanan mantığıyla çalışır; ancak sadece belirttiğiniz eşyayı değil, o moddan gelen tüm eşyaları filtreler. \\n\\nÖrneğin bir Apotheosis mücevheri koyarsanız yalnızca Apotheosis moduna ait eşyalara izin verir, Mekanism alaşımı koyarsanız Mekanism eşyalarına izin verir vb."]
+	quest.2A976D41F79C34B1.quest_desc: ["&e&lPipez&r eşya filtreleme özelliğine sahiptir, ancak bunun için en az bir Advanced Upgrade kullanmanız gerekir. Yükseltme takıldığında \"Ekle\" düğmesine tıklayarak filtre oluşturabilirsiniz. \\nFiltreye eşya, etiket veya NBT verisi tanımlayabilirsiniz. \\n\\nAyrıca bir hedef filtresi de belirleyebilirsiniz; bunu ayarlamak için yükseltmeyi elinize alıp hedef envantere eğilerek sağ tıklayın. \\n\\nSon olarak filtreyi İzin Verilen (Beyaz Liste) veya Yasaklanan (Kara Liste) olarak ayarlayarak listedeki eşyaların geçişine izin verebilir veya engelleyebilirsiniz."]
+	quest.2F4458E9921DEB86.quest_desc: [
+		"Bu borular esas olarak &5&lMekanism&r modu içindir. &5&lMekanism&r, maddelerin &aGaz&r formunu kullanır. Gazlar standart &e&lPipez&r borularıyla taşınamaz; bu yüzden hidrojen veya lityum aktarmak istiyorsanız &aGas Pipez&r kullanmanız gerekir. \\n\\n(&5&lMekanism&r maddelerinin &aGaz&r mı, &bSıvı&r mı yoksa Infuse Type mı olduğunu ayırt etmek bazen zor olabilir. Makine arayüzünde maddelerin yanında &aGaz&r veya &bSıvı&r etiketini görebilirsiniz. Göremezseniz JEI üzerinden tariflerine bakarak öğrenebilirsiniz!)"
+		"{image:atm:textures/questpics/logistics/pipez_gas.png width:200 height:50 align:center}"
+	]
+	quest.2F4458E9921DEB86.title: "&aGas Pipez&r"
+	quest.3065EA195D0A36BA.quest_desc: ["Etiketler, Minecraft'ta eşyaları gruplandırmanın en temel yoludur. Elbette bu özelliği filtrelerde de kullanabiliriz! \\n\\nFiltreye bir eşya koyup etiketini seçebilir veya etiket adını doğrudan yazabilirsiniz. \\n\\nÖrneğin Aletler (Tools) etiketini kullanarak bir sistemden ekipmanları çekmek gibi durumlar için oldukça kullanışlıdır. \\n\\n(Elinizdeki eşyanın etiketlerini görmek için /kubejs hand komutunu kullanabilirsiniz.)"]
+	quest.308935C85364B04D.quest_desc: ["Her kart kendi ayarlarını barındırdığından, tüm kartları tek tek yapılandırmak can sıkıcı olabilir. Neyse ki ayarları kopyalamak mümkün! \\n\\nBir kartın verilerini kopyalamak için elinizdeki Cloner ile karta sol tıklayın, ardından bu verileri aktarmak istediğiniz diğer karta sağ tıklayın!"]
+	quest.30DE4F5BC3EDB555.quest_desc: [
+		"Logistical Transporter boruları, &5&lMekanism&r'de eşyaları ve blokları belirli mesafeler arasında taşımak için kullanılır. \\n\\nSandık veya çekmece gibi envanterlerle etkileşime girmesi için boru uçlarının çekme (pull) veya itme (push) yapacak şekilde yapılandırılması gerekir."
+		"{image:atm:textures/questpics/logistics/meka_transporter.png width:200 height:50 align:center}"
+	]
+	quest.30DE4F5BC3EDB555.quest_subtitle: "Bloklar + Eşyalar"
+	quest.316B513FE568EF57.quest_desc: [
+		"Isı, &5&lMekanism&r modunda önemli bir unsur olup birçok makine ve çoklu blok (multiblock) yapısına güç sağlar. Thermal Evaporation Plant ve Fusion Reactor gibi yapılar ısı ile çalışır. Thermodynamic Conductor boruları ise ısıyı aktarmanın yoludur!"
+		"{image:atm:textures/questpics/logistics/meka_conductor.png width:200 height:50 align:center}"
+	]
+	quest.316B513FE568EF57.quest_subtitle: "Isı"
+	quest.33433A443B65D252.quest_desc: [
+		"&bSu&r = &bMavi&r, &bSu&r = &bSıvı&r, dolayısıyla &bMavi&r = &bSıvı&r!\\n\\nPek çok modun kendine özgü &bsıvıları&r bulunur; Minecraft'ın kendisinde bile &bsu&r ve &clav&r vardır. Bu &bsıvıları&r bir yerden bir yere aktarmanız gerektiğinde en pratik çözümlerden biri &bSıvı Borusus&r kullanmaktır. \\n\\nSınırsız &bsu&r çekmek için lavabolarla da bağlayabilirsiniz!"
+		"{image:atm:textures/questpics/logistics/pipez_fluid.png width:200 height:50 align:center}"
+	]
+	quest.33433A443B65D252.title: "&bSıvı Borusuz"
+	quest.34CFE1439262AA72.quest_desc: [
+		"&5&lMekanism&r kapsamlı bir teknoloji modudur, bu yüzden kendi gelişmiş &flojistik&r çözümlerine de sahiptir."
+		""
+		"Farklı makinelerin giriş/çıkış yapılandırmaları hassas olabilir; bu nedenle düzgün bir aktarım için makinelerin kendi arayüzlerinden ayarlamalar yapmanız gerekebilir. Ardından ihtiyacınız olan her şeyi aktarmak için &5&lMekanism borularını&r bağlayabilirsiniz!"
+		""
+		"Ayrıca bu borular yalnızca &5&lMekanism&r makineleriyle sınırlı değildir; diğer modların envanter ve makineleriyle de çalışır. İngiliz anahtarı kullanarak boru uçlarını itme (push) veya çekme (pull) şeklinde ayarlamanız yeterlidir."
+		""
+		"(Çok yoğun ağlar kurulduğunda performans düşüşüne [lag] yol açabilir, bu yüzden aşırı kullanımdan kaçınmanız önerilir)."
+	]
+	quest.34CFE1439262AA72.title: "&5&lMekanism"
+	quest.36836AD948F96B9F.quest_desc: [
+		"Boruların en basiti ve temeli: &eItem Pipe&r. \\n\\nEşyaları bir depodan diğerine aktarır; sandıktan sandığa, çiftlikten depolama sistemine ya da maden ocağından fırına kadar her yerde kullanılabilir. \\n\\nKullanımı son derece kolaydır: &eboruları&r aktarım yapmak istediğiniz bloklara bağlayın ve hangi taraftan eşya çekileceğini belirlemek için bir İngiliz anahtarı kullanın."
+		"{image:atm:textures/questpics/logistics/pipez_item.png width:200 height:50 align:center}"
+	]
+	quest.36836AD948F96B9F.title: "&eItem Pipez"
+	quest.47768B1FFD57D56E.quest_desc: ["Her tarafa metrelerce &4Kızıltaş&r kablosu döşemekten sıkılmadınız mı? Kablosuz enerji aktarımı varsa neden kablosuz &4kızıltaş sinyali&r de olmasın? &c&lLaserIO&r sayesinde bu nihayet mümkün! Bir &4Redstone Card&r ile sinyali girdi olarak alabilir, başka bir &4Output Card&r ile de sinyali istediğiniz yere aktarabilirsiniz!"]
+	quest.47768B1FFD57D56E.title: "&4Redstone Card"
+	quest.47A2BEFB11F4D581.quest_desc: ["Basic Filter kullanımı son derece kolaydır! İçine eşyaları koymanız yeterlidir, anında filtrelenirler. \\n\\nFiltreyi yalnızca o eşyalara izin verecek (Whitelist) veya o eşyaları engelleyecek şekilde ayarlayabilirsiniz. \\n\\nAyrıca NBT verilerinin eşleşip eşleşmeyeceğini de belirleyebilirsiniz. NBT eşleşmesi; büyülerin, dayanıklılığın veya yakalanan yaratıkların birebir aynı olmasını gerektirir. NBT eşleşmesi kapatılırsa, eşyanın durumuna bakılmaksızın aynı türdeki tüm eşyalar filtreye dahil edilir."]
+	quest.493D04D954E4FBA0.quest_desc: [
+		"&5&lMekanism&r bir teknoloji modudur... Makinelerinin çalışmak için enerjiye ihtiyaç duymasına neden şaşırdınız?"
+		"{image:atm:textures/questpics/logistics/meka_cable.png width:200 height:50 align:center}"
+	]
+	quest.493D04D954E4FBA0.quest_subtitle: "Enerji"
+	quest.4BC2D7FCDD792DBA.quest_desc: [
+		"Çünkü standart &2&lMinecraft&r eşyaları, blokları ve sıvıları yetmedi; üstüne ısı ve enerji de eklendi! \\n\\n&5&lMekanism&r'deki diğer tüm maddeler Pressurized Tube (Basınçlı Tüp) ile taşınır. Hidrojen ve oksijen gibi gazlar, &5&lMekanism&r kullanıyorsanız en çok karşılaşacağınız temel unsurlardır. \\nİnfüzyon türleri (Kömür ve Kızıltaş İnfüzyonu gibi) de benzer şekilde aktarılır. Bulamaçlar (Slurry) maden işlemede kullanılır; pigmentler ise renklerin özüdür, boyanmış herhangi bir eşya &5&lMekanism&r'in bu kısmıyla değiştirilebilir."
+		"{image:atm:textures/questpics/logistics/meka_tube.png width:200 height:50 align:center}"
+	]
+	quest.4BC2D7FCDD792DBA.quest_subtitle: "Gaz + Daha Fazlası"
+	quest.4C41FD926F31180B.quest_desc: ["&2Eşyaları&r &c&lLaserIO&r ile aktarmak için &2Item Card&r'lara ihtiyacınız vardır. \\n\\nBir kartı Extract (Çıkarma) moduna getirip eşyaları çekmek istediğiniz &cLaser Node&r tarafına yerleştirin. Diğer kartı Insert (Yerleştirme) moduna getirip eşyaların aktarılacağı tarafa takın. \\n\\nBirden fazla çekim noktası varsa, Extract ayarlarını değiştirebilirsiniz. Örneğin Round Robin (Sırayla) seçeneği, eşyaların yalnızca en yakın envanterden değil, tüm envanterlerden sırayla çekilmesini sağlar."]
+	quest.4C41FD926F31180B.title: "&2Item Card"
+	quest.4FBAB3A0FBF8CE2F.quest_desc: [
+		"Tek bir boruyla her şeyi taşımak varken neden ayrı borularla uğraşasınız? &5Universal Pipez&r hiçbir maddeyi ayırt etmez; &eeşyaları&r, &bsıvıları&r ve &cenerjiyi&r aynı hat üzerinden taşıyabilir!"
+		"{image:atm:textures/questpics/logistics/pipez_universal.png width:200 height:50 align:center}"
+	]
+	quest.4FBAB3A0FBF8CE2F.title: "&5Universal Pipez"
+	quest.52F85CED20C8B1E9.quest_desc: ["&eEnerjinin&r üretildiği yerden hedef makineye ulaşması gerekir. Eşya, sıvı ve kimyasal kartlarında olduğu gibi enerji kartlarını da düğümlere yerleştirerek enerji aktarımını sağlayabilirsiniz!"]
+	quest.52F85CED20C8B1E9.title: "&eEnergy Card"
+	quest.53EC96FA0E7C4ED4.quest_desc: [
+		"İster FE ister RF olsun, her teknoloji modu &cenerjiye&r ihtiyaç duyar! &cEnergy Pipez&r enerji türü ayırt etmeksizin aktarım sağlar! \\n\\nBazı makinelerin enerji için belirli giriş/çıkış yüzeyleri (IO) bulunduğunu unutmayın; boruları bağlarken bu yönlere dikkat edin!"
+		"{image:atm:textures/questpics/logistics/pipez_energy.png width:200 height:50 align:center}"
+	]
+	quest.53EC96FA0E7C4ED4.title: "&cEnergy Pipez"
+	quest.5C0F6B1C93A52113.quest_desc: ["İşte &c&lLaserIO&r sisteminin ana kalbi! &cLaser Node&r'ları, kartların takılarak aktifleştiği ana merkezlerdir. \\n\\nBitişiğinde bulunan (sağ, sol, ön, arka, üst, alt) envanterlerden eşya çekip aktarabilirler. Daha uzaktaki envanterlere ulaşmak için ikinci bir &cNode&r yerleştirmeli ve bir el anahtarı ile birinci düğüme eğilerek sağ tıklayıp ardından ikinci düğüme sağ tıklayarak aralarında bağ kurmalısınız. \\n\\nKartları ilgili yönlerin yuvalarına takabilir ve hızı artırmak için Node Overclocker yükseltmeleri ekleyebilirsiniz."]
+	quest.5F1218CF8EFC607B.quest_desc: [
+		"&c&lLaserIO&r, DireWolf20 tarafından geliştirilen ve efsanevi &a&lEnderIO&r &flojistik&r mantığını yaşatan modern bir moddur."
+		""
+		"Her şey kaynakları &clazerler&r vasıtasıyla aktarmaktan ibaret! Lazerle taşımayı kim sevmez ki?!"
+		""
+		"Tüm bu sistem Logic Chip ile başlar."
+	]
+	quest.5F1218CF8EFC607B.title: "&c&lLaserIO"
+	quest.6112956E19017D2D.quest_desc: ["Logic Cable'lar diğer &e&lPipez&r veya &5&lMekanism&r borularından farklı çalışır. Standart borular bir huni (hopper) gibi eşyayı önce kendi içine alıp sonra hedefe aktarırken, Logic Cable kabloları aradaki bu süreci tamamen atlayarak sunucu gecikmesini en aza indirir. \\n\\nBu kablolar yalnızca Importer ve Interface bileşenlerini birbirine bağlamak için kullanılır."]
+	quest.617695A9CA45D88F.quest_desc: ["&c&lLaserIO&r ile lojistik ağı kurarken elinizde çok sayıda kart birikebilir. Her biri envanterinizde bir yuva kapladığı için alanınız oldukça daralabilir. Keşke kartlar için bir depolama alanı olsaydı... ha bekleyin, varmış; o da Card Holder! \\n\\nİçinde birden fazla kart saklayabilirsiniz ve bir Laser Node arayüzünü açtığınızda Card Holder da yan tarafta ikinci bir envanter penceresi olarak açılır. Son derece kullanışlıdır!"]
+	quest.6718043D0F2D1830.quest_desc: ["DireWolf20, kartların &5&lMekanism&r modunun farklı madde halleriyle de uyumlu çalışması için bu eklentiyi geliştirdi. Pressurized Tube tüplerinin taşıyabildiği her şeyi bu kartlar da aktarabilir: gazlar, infüze türleri ve pigmentler."]
+	quest.6718043D0F2D1830.title: "&5Chemical Card"
+	quest.6A962535CD68713E.quest_desc: ["&e&lPipez&r yükseltmeleri aktarım kapasitesini katlar! \\n\\nTüm yükseltmeler &e&lPipez&r borularının taşıma miktarını artırır ve ek yapılandırma seçenekleri sunar. \\n\\nBasic Upgrade (Temel Yükseltme), kızıltaş sinyali kontrolüne izin verir ve aktarım modunu değiştirmenizi sağlar: Önce En Yakın, Önce En Uzak, Sırayla (Round-Robin) veya Rastgele. Ayrıca filtre ekleme imkanı da tanır. \\n\\nImproved, Advanced ve Ultimate yükseltmeleri ek bir işlev kazandırmaz, yalnızca aktarım hızını ve miktarını ciddi oranda artırır!"]
+	quest.6CD60A9D88227005.quest_desc: ["Dar alanlarda blokların arasına boru sığdırmakta zorlandınız mı? İşte karşınızda &3Transfer Labels&r! Bu etiketler eşya ve sıvı aktarımı için harika bir çözümdür.\\n\\n&lNasıl Kullanılır?&r\\n\\nBlokların üzerine eğilerek sağ tıklayıp &3etiketleri&r yerleştirebilirsiniz.\\nElinizde başka bir &3etiket&r veya &#FFAC3BLabel Accessor&r varken yerleştirilen &3etikete&r sağ tıklayarak menüsünü açabilirsiniz.\\nElinizde başka bir &3etiket&r veya &#FFAC3BLabel Accessor&r varken yerleştirilen &3etikete&r sol tıklayarak etiketi sökebilirsiniz.\\n&#FFAC3BLabel Accessor&r aracı sayesinde blokların arkasında kalan &3etiketlere&r bile erişebilirsiniz.\\n\\n&lHızlandırma&r\\n\\nMiktar veya hız yuvalarına aynı türden &3etiketler&r yerleştirerek aktarım hızını artırabilirsiniz."]
+	quest.6CD60A9D88227005.quest_subtitle: "Bloklarınızın arasına bir boru sığdırmanız gerektiğinde"
+	quest.6CD60A9D88227005.title: "&3&lTransfer Etiketleri"
+	quest.6CD7D99AA102A5C3.quest_desc: ["&n&f&lLojistik&r: \\nKaynakları ve eşyaları güvenli bir şekilde taşıma, depolama ve yönetme sistemidir. \\n\\nModlu Minecraft'ta da temel mantık aynıdır: eşya aktarımı! Geliştikçe binlerce, hatta &6&lATM Yıldızı&r yapma yolunda milyonlarca eşyayı işlemeniz gerekecektir. Bu nedenle malzemeleri fabrikalar, makineler, çiftlikler ve depolar arasında otomatik olarak taşımanız gerekir. &l&fLojistik&r tam da bu işe yarar!"]
+	quest.6CD7D99AA102A5C3.title: "&lLojistik"
+	quest.6E05B62A40D5A891.quest_desc: [
+		"&3&lIntegrated Dynamics&r tamamen gelişmiş &f&llojistik&r çözümlerine odaklanan bir moddur!"
+		""
+		"Eşya, sıvı ve enerji yönetimini kusursuz şekilde yürütür. Arayüzü o kadar iyi tasarlanmıştır ki çoğu zaman bir İngiliz anahtarına bile ihtiyaç duymazsınız. Yine de tedbiren yanınızda bir tane bulundurmanızda fayda var."
+		""
+		"(Performans dostudur; sunucuda neredeyse hiç gecikmeye [lag] yol açmadığı için özellikle tavsiye edilir)."
+	]
+	quest.6E05B62A40D5A891.title: "&3&lIntegrated Dynamics"
+	quest.6F152402756DA35E.quest_desc: [
+		"Sistemi kurmak için Item Importer'ı eşya çekilecek envanterin üzerine yerleştirin. Ardından eşyaların aktarılacağı ikinci envantere Interface koyun ve iki bileşeni Logic Cable ile bağlayın. Son olarak Importer içine bir Variable Card takıp ayarları dilediğiniz gibi düzenleyin. \\n\\nİsteğe bağlı olarak aktarım miktarını tam sayı sınırına (2 milyarın üzerinde) kadar çıkarabilirsiniz."
+		"{image:atm:textures/questpics/logistics/id_item.png width:200 height:50 align:center}"
+	]
+	quest.6F152402756DA35E.title: "&fEşya İçe Aktarımı"
+	quest.76CECFB244F39F18.quest_desc: [
+		"Güç kaynağının üzerine bir &3Energy Importer&r yerleştirip Logic Cable ile bir &3Energy Interface&r'e bağlayın! Variable Card'ları takıp ayarladıktan sonra profesyonelce enerji aktarımı yapabilirsiniz! \\n\\nNot: Flux Plug ve Flux Point bloklarıyla doğrudan enerji aktarımı yaparken nadiren sorun yaşanabileceğinden dikkatli olmanız önerilir."
+		"{image:atm:textures/questpics/logistics/id_energy.png width:200 height:50 align:center}"
+	]
+	quest.76CECFB244F39F18.title: "&3Enerji İçe Aktarımı"
+	quest.7BC8F50A89A3BE1A.quest_desc: ["Bunlar &cLaser Node&r'larını birbirine ve konektörlere bağlamak için kullanılır. Pek karmaşık bir işlevi yok, sırf anahtar temasını tamamlasın diye var. \\n\\nAyrıca diğer modların yapılandırmalarında da İngiliz anahtarı işlevi görür!"]
+	quest.7EE27C3908008E20.quest_desc: ["&cLaser Node&r düğümlerini uzak mesafelere bağlamanız gerekiyorsa connector (konektör) kullanabilirsiniz! İngiliz anahtarını normal şekilde kullanarak bağlantıyı kurabilirsiniz."]
+	task.2BA7FC10243AA011.title: "Basınçlı Tüpler"
+	task.337725ECA2C04090.title: "Mantıksal Taşıyıcılar"
+	task.4448DE84ABA737BE.title: "Evrensel Kablolar"
+	task.48A30B08A090BD75.title: "İngiliz Anahtarları"
+	task.48CF7A7622423DEA.title: "Boru Yükseltmeleri"
+	task.4CCB830CFDD43B5E.title: "Tüm Hakları Saklıdır"
+	task.5B7926B511000F1F.title: "Mekanik Borular"
+	task.5E4B74F97BDED243.title: "Tüm Hakları Saklıdır"
+	task.79E961F671475850.title: "Termodinamik İletkenler"
+}
