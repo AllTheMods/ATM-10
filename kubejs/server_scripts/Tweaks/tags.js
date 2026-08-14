@@ -155,6 +155,8 @@ ServerEvents.tags('entity_type', allthemods => {
       "eternal_starlight:the_gatekeeper"
     ])
   }
+
+  allthemods.add('c:capturing_not_supported', 'mekanism:robit');
     
   allthemods.add('allthemods:jank_blacklist', [
     "@iceandfire",
