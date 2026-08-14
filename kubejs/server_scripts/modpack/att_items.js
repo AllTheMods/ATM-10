@@ -28,7 +28,7 @@ ServerEvents.recipes(allthemods => {
   // Dimensional Seed Recipe
   allthemods.shaped('allthetweaks:dimensional_seed', ['ABC', 'DEF', 'GHI'], {
     A: 'allthecompressed:netherrack_6x',
-    B: 'allthecompressed:dirt_6x',
+    B: 'neovitae:teleposer',
     C: 'allthecompressed:obsidian_5x',
     D: 'allthetweaks:mini_exit',
     E: 'allthetweaks:mini_nether',

@@ -1,0 +1,1589 @@
+[
+  {
+    "name": "iron",
+    "color": "#D8AF93",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "minecraft:iron_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/iron",
+    "raw_tag": "c:raw_materials/iron",
+    "ingot_tag": "c:ingots/iron",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "gold",
+    "color": "#FCEE4B",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "minecraft:gold_ingot",
+    "smelt_xp": 1.0,
+    "ore_tag": "c:ores/gold",
+    "raw_tag": "c:raw_materials/gold",
+    "ingot_tag": "c:ingots/gold",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "copper",
+    "color": "#E77C56",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "minecraft:copper_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/copper",
+    "raw_tag": "c:raw_materials/copper",
+    "ingot_tag": "c:ingots/copper",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "coal",
+    "color": "#404040",
+    "stages": [
+      "dust"
+    ],
+    "smelt_to": "minecraft:coal",
+    "smelt_xp": 0.1,
+    "ore_tag": "c:ores/coal",
+    "dust_yield_from_ore": 6,
+    "extra_input_items": [
+      "minecraft:coal"
+    ],
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "netherite_scrap",
+    "color": "#755045",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "minecraft:netherite_scrap",
+    "smelt_xp": 2.0,
+    "display_name": "Ancient Debris",
+    "dust_yield_from_ore": 3,
+    "extra_ore_items": [
+      "minecraft:ancient_debris"
+    ],
+    "extra_raw_items": [
+      "minecraft:netherite_scrap"
+    ],
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "demonite",
+    "color": "#8CBFB5",
+    "stages": [
+      "fragment",
+      "gravel"
+    ],
+    "smelt_xp": 0.0,
+    "raw_tag": "c:raw_materials/hellforged",
+    "alias_tags": {
+      "gravel": [
+        "hellforged"
+      ],
+      "fragment": [
+        "hellforged"
+      ]
+    },
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "hellforged",
+    "color": "#99D6CB",
+    "stages": [
+      "dust"
+    ],
+    "smelt_to": "neovitae:ingot_hellforged",
+    "smelt_xp": 1.0,
+    "ingot_tag": "c:ingots/hellforged",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "diamond",
+    "color": "#4AEDD9",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "minecraft:diamond",
+    "smelt_xp": 1.0,
+    "ore_tag": "c:ores/diamond",
+    "ingot_tag": "c:gems/diamond",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "emerald",
+    "color": "#41F384",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "minecraft:emerald",
+    "smelt_xp": 1.0,
+    "ore_tag": "c:ores/emerald",
+    "ingot_tag": "c:gems/emerald",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "lapis",
+    "color": "#345EC3",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "minecraft:lapis_lazuli",
+    "smelt_xp": 0.2,
+    "ore_tag": "c:ores/lapis",
+    "ingot_tag": "c:gems/lapis",
+    "display_name": "Lapis Lazuli",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "quartz",
+    "color": "#EDE6DC",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "minecraft:quartz",
+    "smelt_xp": 0.2,
+    "ore_tag": "c:ores/quartz",
+    "ingot_tag": "c:gems/quartz",
+    "display_name": "Nether Quartz",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "amethyst",
+    "color": "#9A6FD0",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "minecraft:amethyst_shard",
+    "smelt_xp": 0.2,
+    "ingot_tag": "c:gems/amethyst",
+    "dust_yield_from_ore": 3,
+    "extra_ore_items": [
+      "minecraft:amethyst_cluster"
+    ],
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "alexandrite",
+    "color": "#0D002D",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "silentgems:alexandrite",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/alexandrite",
+    "ingot_tag": "c:gems/alexandrite",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "allthemodium",
+    "color": "#FF9900",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "allthemodium:allthemodium_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/allthemodium",
+    "raw_tag": "c:raw_materials/allthemodium",
+    "ingot_tag": "c:ingots/allthemodium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "aluminum",
+    "color": "#8F8F8F",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "alltheores:aluminum_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/aluminum",
+    "raw_tag": "c:raw_materials/aluminum",
+    "ingot_tag": "c:ingots/aluminum",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "ammolite",
+    "color": "#DB2BFF",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "silentgems:ammolite",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/ammolite",
+    "ingot_tag": "c:gems/ammolite",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "anglesite",
+    "color": "#D5DA94",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_xp": 0.0,
+    "ore_tag": "c:ores/anglesite",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "antimony",
+    "color": "#695C5C",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "modern_industrialization:antimony_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/antimony",
+    "raw_tag": "c:raw_materials/antimony",
+    "ingot_tag": "c:ingots/antimony",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "aquamarine",
+    "color": "#002D20",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "silentgems:aquamarine",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/aquamarine",
+    "ingot_tag": "c:gems/aquamarine",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "arcane_crystal",
+    "color": "#808080",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "forbidden_arcanus:arcane_crystal",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/arcane_crystal",
+    "ingot_tag": "c:gems/arcane_crystal",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "azure_silver",
+    "color": "#D5DA94",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "silentgear:azure_silver_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/azure_silver",
+    "raw_tag": "c:raw_materials/azure_silver",
+    "ingot_tag": "c:ingots/azure_silver",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "bauxite",
+    "color": "#743A00",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_xp": 0.0,
+    "ore_tag": "c:ores/bauxite",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "benitoite",
+    "color": "#652828",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_xp": 0.0,
+    "ore_tag": "c:ores/benitoite",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "black_diamond",
+    "color": "#190400",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "silentgems:black_diamond",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/black_diamond",
+    "ingot_tag": "c:gems/black_diamond",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "black_quartz",
+    "color": "#0D0D14",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "actuallyadditions:black_quartz",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/black_quartz",
+    "ingot_tag": "c:gems/black_quartz",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "bort",
+    "color": "#A7B3CA",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "silentgear:bort",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/bort",
+    "ingot_tag": "c:gems/bort",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "carnelian",
+    "color": "#592D2B",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "silentgems:carnelian",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/carnelian",
+    "ingot_tag": "c:gems/carnelian",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "chaos",
+    "color": "#B7A6A0",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_xp": 0.0,
+    "ore_tag": "c:ores/chaos",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "cinnabar",
+    "color": "#F00930",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "alltheores:cinnabar",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/cinnabar",
+    "ingot_tag": "c:gems/cinnabar",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "citrine",
+    "color": "#2E2200",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "silentgems:citrine",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/citrine",
+    "ingot_tag": "c:gems/citrine",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "cloggrum",
+    "color": "#303D2B",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "undergarden:cloggrum_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/cloggrum",
+    "raw_tag": "c:raw_materials/cloggrum",
+    "ingot_tag": "c:ingots/cloggrum",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "crimson_iron",
+    "color": "#652828",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "silentgear:crimson_iron_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/crimson_iron",
+    "raw_tag": "c:raw_materials/crimson_iron",
+    "ingot_tag": "c:ingots/crimson_iron",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "dark_gem",
+    "color": "#482150",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "evilcraft:dark_gem",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/dark_gem",
+    "ingot_tag": "c:gems/dark_gem",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "deepsilver",
+    "color": "#454754",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "eternal_starlight:deepsilver_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/deepsilver",
+    "raw_tag": "c:raw_materials/deepsilver",
+    "ingot_tag": "c:ingots/deepsilver",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "dimensional_shard",
+    "color": "#808080",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_xp": 0.0,
+    "ore_tag": "c:ores/dimensional_shard",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "draconium",
+    "color": "#4B236E",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "draconicevolution:draconium_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/draconium",
+    "ingot_tag": "c:ingots/draconium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "fluorite",
+    "color": "#17DDDA",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "alltheores:fluorite",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/fluorite",
+    "ingot_tag": "c:gems/fluorite",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "froststeel",
+    "color": "#414B4C",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "undergarden:froststeel_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/froststeel",
+    "raw_tag": "c:raw_materials/froststeel",
+    "ingot_tag": "c:ingots/froststeel",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "garnet",
+    "color": "#350000",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "silentgems:garnet",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/garnet",
+    "ingot_tag": "c:gems/garnet",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "heliodor",
+    "color": "#DDCF17",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "silentgems:heliodor",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/heliodor",
+    "ingot_tag": "c:gems/heliodor",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "iesnium",
+    "color": "#A2CBCC",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "occultism:iesnium_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/iesnium",
+    "raw_tag": "c:raw_materials/iesnium",
+    "ingot_tag": "c:ingots/iesnium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "inferium",
+    "color": "#748E00",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "mysticalagriculture:inferium_essence",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/inferium",
+    "ingot_tag": "c:ingots/inferium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "iolite",
+    "color": "#4F1EDB",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "silentgems:iolite",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/iolite",
+    "ingot_tag": "c:gems/iolite",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "iridium",
+    "color": "#A59C94",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "alltheores:iridium_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/iridium",
+    "raw_tag": "c:raw_materials/iridium",
+    "ingot_tag": "c:ingots/iridium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "kyanite",
+    "color": "#17A9DD",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "silentgems:kyanite",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/kyanite",
+    "ingot_tag": "c:gems/kyanite",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "lead",
+    "color": "#43646F",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "alltheores:lead_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/lead",
+    "raw_tag": "c:raw_materials/lead",
+    "ingot_tag": "c:ingots/lead",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "lignite_coal",
+    "color": "#432F2F",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "modern_industrialization:lignite_coal",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/lignite_coal",
+    "ingot_tag": "c:gems/lignite_coal",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "malarite",
+    "color": "#51525C",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "eternal_starlight:malarite",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/malarite",
+    "ingot_tag": "c:gems/malarite",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "mithril",
+    "color": "#81B3C9",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "irons_spellbooks:mithril_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/mithril",
+    "raw_tag": "c:raw_materials/mithril",
+    "ingot_tag": "c:ingots/mithril",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "moldavite",
+    "color": "#A6D923",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "silentgems:moldavite",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/moldavite",
+    "ingot_tag": "c:gems/moldavite",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "monazite",
+    "color": "#95238D",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_xp": 0.0,
+    "ore_tag": "c:ores/monazite",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "nickel",
+    "color": "#A59167",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "alltheores:nickel_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/nickel",
+    "raw_tag": "c:raw_materials/nickel",
+    "ingot_tag": "c:ingots/nickel",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "opal",
+    "color": "#B8B3D1",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "silentgems:opal",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/opal",
+    "ingot_tag": "c:gems/opal",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "osmium",
+    "color": "#65908D",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "alltheores:osmium_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/osmium",
+    "raw_tag": "c:raw_materials/osmium",
+    "ingot_tag": "c:ingots/osmium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "pearl",
+    "color": "#C7BEAD",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "silentgems:pearl",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/pearl",
+    "ingot_tag": "c:gems/pearl",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "peridot",
+    "color": "#28CC16",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "alltheores:peridot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/peridot",
+    "ingot_tag": "c:gems/peridot",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "platinum",
+    "color": "#8386B2",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "alltheores:platinum_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/platinum",
+    "raw_tag": "c:raw_materials/platinum",
+    "ingot_tag": "c:ingots/platinum",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "prosperity",
+    "color": "#597777",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "mysticalagriculture:prosperity_shard",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/prosperity",
+    "ingot_tag": "c:ingots/prosperity",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "regalium",
+    "color": "#303D2B",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "undergarden:regalium_crystal",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/regalium",
+    "ingot_tag": "c:gems/regalium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "rogdorium",
+    "color": "#1E231A",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "undergarden:rogdorium",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/rogdorium",
+    "ingot_tag": "c:ingots/rogdorium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "rose_quartz",
+    "color": "#FF6BBD",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "silentgems:rose_quartz",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/rose_quartz",
+    "ingot_tag": "c:gems/rose_quartz",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "ruby",
+    "color": "#AA0004",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "alltheores:ruby",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/ruby",
+    "ingot_tag": "c:gems/ruby",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "runic",
+    "color": "#808080",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "forbidden_arcanus:rune",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/runic",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "sal_ammoniac",
+    "color": "#88408C",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "theurgy:sal_ammoniac_crystal",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/sal_ammoniac",
+    "ingot_tag": "c:gems/sal_ammoniac",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "sapphire",
+    "color": "#416BF3",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "alltheores:sapphire",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/sapphire",
+    "ingot_tag": "c:gems/sapphire",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "silver",
+    "color": "#4A636F",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "alltheores:silver_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/silver",
+    "raw_tag": "c:raw_materials/silver",
+    "ingot_tag": "c:ingots/silver",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "soulium",
+    "color": "#593322",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "mysticalagriculture:soulium_dust",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/soulium",
+    "ingot_tag": "c:ingots/soulium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "starcore",
+    "color": "#65424B",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "eternal_starlight:starcore",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/starcore",
+    "ingot_tag": "c:gems/starcore",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "starlit_diamond",
+    "color": "#454754",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "eternal_starlight:starlit_diamond",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/starlit_diamond",
+    "ingot_tag": "c:gems/starlit_diamond",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "stellarite",
+    "color": "#58594D",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_xp": 0.0,
+    "ore_tag": "c:ores/stellarite",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "tanzanite",
+    "color": "#7049BC",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "silentgems:tanzanite",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/tanzanite",
+    "ingot_tag": "c:gems/tanzanite",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "tin",
+    "color": "#7FAED9",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "alltheores:tin_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/tin",
+    "raw_tag": "c:raw_materials/tin",
+    "ingot_tag": "c:ingots/tin",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "titanium",
+    "color": "#C44AD1",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "modern_industrialization:titanium_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/titanium",
+    "raw_tag": "c:raw_materials/titanium",
+    "ingot_tag": "c:ingots/titanium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "topaz",
+    "color": "#7B2200",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "silentgems:topaz",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/topaz",
+    "ingot_tag": "c:gems/topaz",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "tungsten",
+    "color": "#323455",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "modern_industrialization:tungsten_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/tungsten",
+    "raw_tag": "c:raw_materials/tungsten",
+    "ingot_tag": "c:ingots/tungsten",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "turquoise",
+    "color": "#A3FFFA",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "silentgems:turquoise",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/turquoise",
+    "ingot_tag": "c:gems/turquoise",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "unobtainium",
+    "color": "#A82CE3",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "allthemodium:unobtainium_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/unobtainium",
+    "raw_tag": "c:raw_materials/unobtainium",
+    "ingot_tag": "c:ingots/unobtainium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "uraninite",
+    "color": "#008350",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "powah:uraninite",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/uraninite",
+    "raw_tag": "c:raw_materials/uraninite",
+    "ingot_tag": "c:ingots/uraninite",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "uraninite_dense",
+    "color": "#036855",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_xp": 0.0,
+    "ore_tag": "c:ores/uraninite_dense",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "uraninite_poor",
+    "color": "#008350",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_xp": 0.0,
+    "ore_tag": "c:ores/uraninite_poor",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "uraninite_regular",
+    "color": "#008350",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_xp": 0.0,
+    "ore_tag": "c:ores/uraninite_regular",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "uranium",
+    "color": "#B7CF37",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "alltheores:uranium_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/uranium",
+    "raw_tag": "c:raw_materials/uranium",
+    "ingot_tag": "c:ingots/uranium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "utherium",
+    "color": "#2A3526",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "undergarden:utheric_cluster",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/utherium",
+    "ingot_tag": "c:gems/utherium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "vibranium",
+    "color": "#652828",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "allthemodium:vibranium_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/vibranium",
+    "raw_tag": "c:raw_materials/vibranium",
+    "ingot_tag": "c:ingots/vibranium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "white_diamond",
+    "color": "#6D6268",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "silentgems:white_diamond",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/white_diamond",
+    "ingot_tag": "c:gems/white_diamond",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "xychorium",
+    "color": "#808080",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "xycraft_world:xychorium_gem_blue",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/xychorium",
+    "ingot_tag": "c:gems/xychorium",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "xychorium_blue",
+    "color": "#808080",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_xp": 0.0,
+    "ore_tag": "c:ores/xychorium_blue",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "xychorium_dark",
+    "color": "#808080",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_xp": 0.0,
+    "ore_tag": "c:ores/xychorium_dark",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "xychorium_green",
+    "color": "#808080",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_xp": 0.0,
+    "ore_tag": "c:ores/xychorium_green",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "xychorium_light",
+    "color": "#808080",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_xp": 0.0,
+    "ore_tag": "c:ores/xychorium_light",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "xychorium_red",
+    "color": "#808080",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_xp": 0.0,
+    "ore_tag": "c:ores/xychorium_red",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "yellorite",
+    "color": "#BDBD00",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "alltheores:uranium_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/yellorite",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  },
+  {
+    "name": "zinc",
+    "color": "#91D0C9",
+    "stages": [
+      "fragment",
+      "gravel",
+      "dust"
+    ],
+    "smelt_to": "alltheores:zinc_ingot",
+    "smelt_xp": 0.7,
+    "ore_tag": "c:ores/zinc",
+    "raw_tag": "c:raw_materials/zinc",
+    "ingot_tag": "c:ingots/zinc",
+    "dust_yield_from_ore": 3,
+    "generative": true,
+    "gen_ore": "",
+    "gen_raw": ""
+  }
+]

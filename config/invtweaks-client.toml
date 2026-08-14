@@ -51,6 +51,18 @@
 	#Out-of-bound slots are ignored
 	#Omit sortRange to leave as default
 	[[sorting.containerOverrides]]
+		containerClass = "lu.kolja.expandedae.terminal.*"
+		sortRange = ""
+	#Custom settings per GUI
+	#x = x-position of external sort button relative to GUI top left
+	#y = same as above except for the y-position
+	#Omit x and y to leave position unchanged
+	#sortRange = slots to sort
+	#E.g. sortRange = "5,0-2" sorts slots 5,0,1,2 in that order
+	#sortRange = "" disables sorting for that container
+	#Out-of-bound slots are ignored
+	#Omit sortRange to leave as default
+	[[sorting.containerOverrides]]
 		containerClass = "de.mari_023.ae2wtlib.wct.*Screen"
 		sortRange = ""
 	#Custom settings per GUI

@@ -11,6 +11,7 @@
 	images: [
 		{
 			height: 0.5d
+			id: "2E5A81BDE262AE73"
 			image: "minecraft:textures/particle/damage.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -19,6 +20,7 @@
 		}
 		{
 			height: 0.5d
+			id: "37240F4BAB1F5625"
 			image: "minecraft:textures/particle/damage.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -27,6 +29,7 @@
 		}
 		{
 			height: 0.7d
+			id: "49D4F5D16A21DE5B"
 			image: "atm:textures/questpics/basictools/4.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -35,6 +38,7 @@
 		}
 		{
 			height: 0.7d
+			id: "4FBEB35E50CBCFFE"
 			image: "atm:textures/questpics/basictools/5.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -43,6 +47,7 @@
 		}
 		{
 			height: 0.7d
+			id: "2081FF5EE7F0D99A"
 			image: "atm:textures/questpics/basictools/6.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -51,6 +56,7 @@
 		}
 		{
 			height: 0.7d
+			id: "7A2C8C7A52F29BD3"
 			image: "atm:textures/questpics/basictools/7.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -59,6 +65,7 @@
 		}
 		{
 			height: 0.7d
+			id: "14C55541A22736A6"
 			image: "atm:textures/questpics/basictools/8.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -67,6 +74,7 @@
 		}
 		{
 			height: 0.7d
+			id: "6786E44D7D3C76E2"
 			image: "atm:textures/questpics/basictools/13.png"
 			rotation: 0.0d
 			width: 1.4d
@@ -75,6 +83,7 @@
 		}
 		{
 			height: 1.0d
+			id: "29BE09280389CF24"
 			image: "minecraft:item/wooden_pickaxe"
 			rotation: 0.0d
 			width: 1.0d
@@ -83,6 +92,7 @@
 		}
 		{
 			height: 1.0d
+			id: "75A3237A4BF12FCF"
 			image: "minecraft:item/iron_pickaxe"
 			rotation: 0.0d
 			width: 1.0d
@@ -91,6 +101,7 @@
 		}
 		{
 			height: 1.0d
+			id: "3614E3C881BB25F8"
 			image: "minecraft:item/netherite_pickaxe"
 			rotation: 0.0d
 			width: 1.0d
@@ -99,6 +110,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6B5AB3DE4E2D90F6"
 			image: "minecraft:item/stone_pickaxe"
 			rotation: 0.0d
 			width: 1.0d
@@ -107,6 +119,7 @@
 		}
 		{
 			height: 1.0d
+			id: "6A9A6E2E0D4258B4"
 			image: "minecraft:item/diamond_pickaxe"
 			rotation: 0.0d
 			width: 1.0d
@@ -115,6 +128,7 @@
 		}
 		{
 			height: 1.0d
+			id: "7CA597C6F2C9BA5F"
 			image: "allthemodium:item/alloy_pick"
 			rotation: 0.0d
 			width: 1.0d
@@ -123,6 +137,7 @@
 		}
 		{
 			height: 0.5d
+			id: "352042001F4A3F31"
 			image: "minecraft:textures/particle/damage.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -131,6 +146,7 @@
 		}
 		{
 			height: 0.5d
+			id: "77A0543F830605EE"
 			image: "minecraft:textures/particle/damage.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -139,6 +155,7 @@
 		}
 		{
 			height: 0.5d
+			id: "03D254E050EBC766"
 			image: "minecraft:textures/particle/damage.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -147,6 +164,7 @@
 		}
 		{
 			height: 0.5d
+			id: "20D98A80FC9B157E"
 			image: "minecraft:textures/particle/damage.png"
 			rotation: 0.0d
 			width: 0.5d
@@ -155,6 +173,7 @@
 		}
 		{
 			height: 2.0d
+			id: "0816BCD5515A80A5"
 			image: "minecraft:item/diamond_sword"
 			rotation: 0.0d
 			width: 2.0d
@@ -163,6 +182,7 @@
 		}
 		{
 			height: 2.0d
+			id: "451FA40663517F1D"
 			image: "minecraft:item/diamond_pickaxe"
 			rotation: 0.0d
 			width: 2.0d
@@ -170,7 +190,7 @@
 			y: 0.0d
 		}
 	]
-	order_index: 2
+	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -434,8 +454,8 @@
 				xp: 10
 			}]
 			tasks: [{
-				id: "70972BAFF5896EA8"
-				item: { components: { "ftbfiltersystem:filter": "or(item(mysticalagriculture:inferium_pickaxe)item(mysticalagriculture:prudentium_pickaxe)item(mysticalagriculture:tertium_pickaxe)item(mysticalagriculture:imperium_pickaxe)item(mysticalagriculture:supremium_pickaxe)item(mysticalagriculture:awakened_supremium_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "20BE26C2CE1F9749"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mysticalagriculture:supremium_pickaxe)item(mysticalagriculture:awakened_supremium_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -940,8 +960,8 @@
 				xp: 10
 			}]
 			tasks: [{
-				id: "30921D2007B35206"
-				item: { components: { "ftbfiltersystem:filter": "or(item(eternal_starlight:swamp_silver_pickaxe)item(aquaculture:neptunium_pickaxe)item(deeperdarker:resonarium_pickaxe)item(undergarden:utherium_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				id: "6043422E5606334E"
+				item: { components: { "ftbfiltersystem:filter": "or(item(eternal_starlight:deepsilver_pickaxe)item(aquaculture:neptunium_pickaxe)item(deeperdarker:resonarium_pickaxe)item(undergarden:utherium_pickaxe)item(naturesaura:sky_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.0d
@@ -1059,8 +1079,8 @@
 				xp: 10
 			}]
 			tasks: [{
-				id: "52018603FAA8E26D"
-				item: { count: 1, id: "naturesaura:sky_pickaxe" }
+				id: "66F50AF3299FA4C5"
+				item: { components: { "ftbfiltersystem:filter": "or(item(mysticalagriculture:inferium_pickaxe)item(mysticalagriculture:prudentium_pickaxe)item(mysticalagriculture:tertium_pickaxe)item(mysticalagriculture:imperium_pickaxe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 3.0d

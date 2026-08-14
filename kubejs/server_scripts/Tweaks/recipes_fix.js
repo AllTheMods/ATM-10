@@ -245,5 +245,7 @@ KubeJSTweaks.beforeRecipes(event => {
     entry.replaceValueAtKey("outputs", "item", "iceandfire:dragonegg_amythest", "iceandfire:dragonegg_amethyst")
   })  
 
+  event.getEntry(["apotheosis:pinnacle_spawner_upgrade_rune", "apotheosis:raven_enchanting_table"]).forEach(entry => entry.ignoreWarning())
+
   console.log(`Fixing recipes took ${timer.stop().elapsed("milliseconds")} ms...`)
 })
