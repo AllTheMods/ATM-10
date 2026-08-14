@@ -54,6 +54,11 @@
 			# Range: 0.0 ~ 10.0
 			missing = 0.0
 
+	#Material book settings
+	[item.material_book]
+		#Give the player a material book when joining the world for the first time
+		spawn_with_material_book = false
+
 #Settings for nerfed items.
 #You can give items reduced durability to encourage use of Silent Gear tools.
 #Changes require a restart!
@@ -154,9 +159,14 @@
 	# Default: 1.5
 	# Range: 0.0 ~ 100.0
 	standard_deviation = 1.5
+	#If enabled, allows the material grader to grade the individual materials inside a gear part
+	can_grade_parts = false
 
 #Settings for the salvager
 [salvager]
+	#If enabled, the salvager will automatically break down any parts returned by a gear item into their component materials.
+	#Otherwise, the parts are returned and can be optionally salvaged individually.
+	break_down_parts_with_gear = false
 
 	[salvager.part_loss_rate]
 		#Minimum rate of part loss when salvaging items. 0 = no loss, 1 = complete loss.
@@ -180,6 +190,13 @@
 	# Default: 1000000
 	# Range: > 0
 	max_charge = 1000000
+	#The time of day the starlight charger can gather energy
+	#Allowed Values: DAYTIME, NIGHTTIME, ANYTIME
+	work_time = "NIGHTTIME"
+	#If true, the starlight charger only works with a clear view of the sky above it
+	requires_view_of_sky = true
+	#If enabled, allows the starlight charger to charge the individual materials inside a gear part
+	can_charge_parts = false
 
 	[debug.logging]
 		#Log property calculations in the log file every time gear properties are recalculated
@@ -189,3 +206,13 @@
 	#Shows a "WIP" (work in progress) label in the tooltip of certain unfinished, but usable blocks and items
 	#Set to false to remove the text from tooltips
 	show_wip_text = true
+
+#Settings for compound materials and compound makers
+[compounds]
+
+	[compounds.crude_mixer]
+		#A multiplier applied to some numerical properties for compounds (crude alloys) made in the crude mixer.
+		#A value less than 1 will reduce property values, a value greater than 1 will increase property values.
+		# Default: 0.8
+		# Range: 0.0 ~ 2.0
+		property_multiplier = 0.8
