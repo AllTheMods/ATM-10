@@ -1,38 +1,86 @@
 {
-	quest.0D6D45DBA64E612D.quest_desc: ["En Yüksek Doğma Gecikmesi, yaratıkların doğmasının ne kadar sürebileceğidir. Tıpkı En Düşük gibi 20 gibi düşük bir değerden 32,767 gibi yüksek bir değere kadar çıkabilir. Her Saat, canavar çağırıcının hızını 10 değerinde değiştirir. Hız, 20 tikin 1 saniyeye eşit olacağı şekilde tik olarak ifade edilir. Yani en hızlı doğma gecikmesi, her bir ortaya çıkarma arasında 1 saniye olacaktır."]
-	quest.0D6D45DBA64E612D.title: "En Yüksek Doğma Gecikmesi"
-	quest.0E02CE4469FCA4C9.quest_desc: ["Redstone Kontrolü canavar çağırıcınıza açma/kapama anahtarı ekler. Redstone Gücü olmadan ortaya çıkarmaz."]
-	quest.0E02CE4469FCA4C9.title: "Redstone Kontrolü"
-	quest.0F89BFD4A3F63A48.quest_desc: ["Bazı yaratıklar (çoğunlukla canavarlar) ortaya çıkmak için belirli Işık Seviyelerine ihtiyaç duyarlar. Düşman olanlar daha düşük seviyelere, pasif olanlar ise daha yüksek seviyelere ihtiyaç duyar. Ruh Feneri kullanmak, Işık Seviyeleri hakkında endişelenmene gerek kalmamasını sağlar, çünkü onları yok sayar! Bu, çiftlik hayvanlarının Çimen'e ihtiyaç duyması gibi diğer ortaya çıkma gereksinimlerini göz ardı etmez."]
+	chapter.0E81CBCD6B1D1895.chapter_subtitle: ["Ve Diğer Spawner'lar"]
+	chapter.0E81CBCD6B1D1895.title: "Apothic Spawner'ları"
+	chapter_group.6614EE2378B8AFB9.title: "Kaynaklar"
+	quest.00C26068B55F4FD9.quest_desc: ["Runes of Silence, spawner'a tek bir şey yapar, o da onu susturmaktır. Aptal spawner seslerini duymaktan hoşlanmıyor musunuz? O zaman bir Rune of Silence kullanın!"]
+	quest.00C26068B55F4FD9.title: "Sessiz olun, mobları uyandıracaksınız!"
+	quest.0E02CE4469FCA4C9.quest_desc: ["Kızıltaş Kontrolü canavar çağırıcınıza açma/kapama anahtarı ekler. Kızıltaş Gücü olmadan ortaya çıkarmaz."]
+	quest.0E02CE4469FCA4C9.title: "Kızıltaş Kontrolü"
+	quest.0E90577AC72749C4.quest_desc: ["Spawner Upgrade Runes serisinin 4. ve son aşaması olan &aThundering Spawner Upgrade Rune&r, spawner'ınızı en yüksek potansiyeline ulaştırır.\\n\\nHem Minimum hem de Maksimum Spawn Gecikme değerini 20'ye, Spawn Count (Canlanma Sayısı) değerini 16'ya, Max Entities (Maksimum Varlık) değerini 32'ye ve Activation Menzil (Etkinleşme Menzili) değerini 48'e ayarlar.\\n\\nEndersurge Gem'leri The End'de bulunabilir."]
+	quest.0F0E227FC3EC0D90.quest_desc: ["Bunlar Apothic Spawners dışındaki modlar tarafından sağlanan spawner'lardır."]
+	quest.0F89BFD4A3F63A48.quest_desc: ["Bazı yaratıklar (çoğunlukla canavarlar) ortaya çıkmak için belirli Işık Seviyelerine ihtiyaç duyarlar. Düşman olanlar daha düşük seviyelere, pasif olanlar ise daha yüksek seviyelere ihtiyaç duyar. Sürekli Alacakaranlık Rünü (Rune of Perpetual Twilight) kullanmak, Işık Seviyeleri hakkında endişelenmene gerek kalmamasını sağlar, çünkü onları yok sayar! Bu, çiftlik hayvanlarının Çimen'e ihtiyaç duyması gibi diğer ortaya çıkma gereksinimlerini göz ardı etmez."]
 	quest.0F89BFD4A3F63A48.title: "Işığı Yoksay"
-	quest.167E1474644C9908.quest_desc: ["Kuvars, diğer eşya ne yaparsa yapsın, Canavar Çağırıcı için tam tersini yapar. Kuvars diğer elinde ve diğer Canavar Çağırıcı Modifikasyonu eşyası ana elindeyken, rolünün tam tersini yapacaktır. Kuvars ve Piston, Doğma Menzilini artırmak yerine azaltacaktır. Kuvars ve Ghast Gözyaşları, En Fazla Varlığı azaltacaktır."]
+	quest.1102B27CBF564127.quest_desc: ["Spawner Agitators diğer listelenen modifikasyon eşyalarından farklıdır, bu Apothic Spawners yerine PneumaticCraft tarafından sağlanır. Mod paketinde Apothic Spawners modu olmasaydı, bir spawner üzerinde bir Agitator bulunması oyuncu nerede olursa olsun mobların doğmasını sağlardı. Sahip olduğumuz Apothic Spawners ile, bu durum değişmez, ancak parçaları terk etmeniz durumunda doğmuş mobların despawn olmasını (kaybolmasını) engeller."]
+	quest.1102B27CBF564127.quest_subtitle: "Sakın üzerimde despawn olma, moblar"
+	quest.167E1474644C9908.quest_desc: ["Kuvars, diğer eşya ne yaparsa yapsın, Canavar Çağırıcı için tam tersini yapar. Kuvars diğer elinde ve diğer Canavar Çağırıcı Modifikasyonu eşyası ana elindeyken, rolünün tam tersini yapacaktır. Kuvars ve Rune of Spawning Range, Doğma Menzilini artırmak yerine azaltacaktır. Kuvars ve Rune of Debilitation, Maksimum sağlığı artıracaktır."]
 	quest.167E1474644C9908.title: "Ters Çevirme"
+	quest.17410BE15A81DD96.quest_desc: ["&aWayfarer's Spawner Upgrade Rune&r, Spawner Upgrade Runes'un 2. aşamasıdır.\\n\\nBu rün Minimum Spawn Gecikme değerini 100'e, Maksimum Spawn Gecikme değerini 400'e, Spawn Count değerini 10'a, Max Entities değerini 18'e ve Activation Menzil değerini 32'ye ayarlar.\\n\\nBu rünü üretmek için herhangi bir Spawn Egg işe yarar."]
+	quest.17C87EB8ED8A27AB.quest_desc: ["Spawner Runes, spawner'ları modifiye etmek için temel materyaldir."]
+	quest.17C87EB8ED8A27AB.quest_subtitle: "Temel Modifikasyonlar"
 	quest.186593EBCE3FE8D8.quest_desc: ["Doğma Menzili, yaratıkların ortaya çıkabileceği alandır. Alan ne kadar büyükse, ortaya çıkmaları için o kadar fazla yer vardır. Alan ne kadar küçükse fabrika o kadar ucuzdur."]
 	quest.186593EBCE3FE8D8.title: "Doğma Menzili"
 	quest.18E0F5A78F696FA3.quest_desc: ["Yankı parçacıkları canavar çağrıcıya özel bir etki verir. Ortaya çıkan tüm yaratıkların düşürdükleri ganimetler katlanır."]
 	quest.18E0F5A78F696FA3.title: "Yankılanma"
-	quest.1AD87CB3226ED224.quest_desc: ["Yün canavar çağırıcıya tek bir şey yapar, o da onu susturmaktır. Canavar Çağırıcı seslerini duymak hoşuna gitmiyor mu? O zaman Yün kullan! Herhangi renkte, dikiş sayısında veya tasarımda!"]
-	quest.1AD87CB3226ED224.title: "Sessiz ol, yaratıkları uyandıracaksın!"
-	quest.30EB438C66324213.quest_desc: ["Nether Yıldızı, Prizmarin Parçacıklarının yaptığını yapacak ama çok daha iyisini. Oyuncuların artık canavar çağırıcının yakınında olmasına gerek yok. Yığın yüklü olduğu sürece yaratıklar ortaya çıkacaktır."]
+	quest.21C2458FED19363C.quest_desc: ["Yaratık Hapis Aracı içindeki bir mob ile birlikte &aÖz&r kullanarak o mobun bir kopyasını yaratır."]
+	quest.21C2458FED19363C.quest_subtitle: "Industrial Foregoing'in Spawner'ı"
+	quest.223A5BDB5056B781.quest_desc: ["Capturing, kılıçlar için mobların nadiren yumurtalarını düşürmesini sağlayan bir büyü türüdür. Bu nadir bir büyü, o yüzden aramaya devam edin ve size yardımcı olması için &5&lApothic Büyüleme&r'e göz atın. Her seviye size her öldürmede %0.5'lik bir yumurta elde etme şansı verir ve normalde elde edebileceğiniz en yüksek seviye VII'dir (7)."]
+	quest.263860CADB3D76C6.quest_desc: ["Güç verilmiş Spawner, EnderIO kullanılarak yapılan Mob Spawner'ıdır. Öncelikle dolu bir Ruh Vial ve bir Broken Spawner'a ihtiyacınız olacak. (Teknik olarak spawner'ı değiştirmek için sadece Ruh Vial'a ihtiyacınız var ama neyse). Beğendiğiniz bir Broken Spawner'ınız olduğunda, onunla Güç verilmiş Spawner'ı üretin! Ardından onu yere koyun, bir Kapasitör verin ve güçlendirin. Bom! Artık EnderIO ile mobları doğuruyorsunuz.\\n\\nAyrıca bu spawner'ın bir tıklayıcıya ihtiyaç duymadan Ruh Vial'ları doğrudan doldurmasını da sağlayabilirsiniz."]
+	quest.263860CADB3D76C6.quest_subtitle: "EnderIO'nun Spawner'ı"
+	quest.2D8A7065F8CDDDDD.quest_desc: ["Swab'lar (Sürüntü çubukları) Spawn Egg elde etmenin en sevdiğim yoludur, bunun için Mob Grinding Utils'i kullanmanız gerekecek. Swab ile bir moba sağ tıklayın, ardından onu tohumlar ve herhangi bir tür &aXP Fluid&r kovası ile Tavuk Feed üretin. Bunun için hangi &aXP Fluid&r türünü kullandığınız önemli değil. Bunu elde ettikten sonra, bir tavuğu bununla besleyin. Maalesef tavuk işlemden sağ çıkamayacak ama hey, Spawn Egg!\\n\\nAncak her mobdan sürüntü alınamaz."]
+	quest.2FE4B7B70D90A455.quest_desc: ["Bu görev, AllTheMods Modpack'lerinde kullanılmak üzere &6AllTheMods Ekibi&r veya bir &2Topluluk katılımcısı&r tarafından oluşturulmuştur.\\n\\nTüm &6AllTheMods&r paketleri &eTüm Hakları Saklıdır&r lisansına sahip olduğundan, bu görevin &6AllTheMods Ekibi&r tarafından yayınlanmayan veya açık bir izin verilmeyen hiçbir halka açık pakette kullanılmasına izin verilmez.\\n\\nBu görev kasıtlı olarak gizlenmiştir, eğer bunu görüyorsanız düzenleme modundasınız demektir."]
+	quest.30EB438C66324213.quest_desc: ["Rune of Solitude, Spawner Upgrade Runes'un yaptığını yapacak ama çok daha iyisini. Oyuncuların artık canavar çağırıcının yakınında olmasına gerek yok. Yığın yüklü olduğu sürece yaratıklar ortaya çıkacaktır."]
 	quest.30EB438C66324213.title: "Oyuncuları Yoksay"
 	quest.310969B8FE0A94DE.quest_desc: ["Apotheosis'in oyuna getirdiği bir diğer değişiklik de Canavar Çağırıcılar. İpeksi Dokunuş ile Canavar Çağırıcıları kırabildiğini hatırlıyor musun? Apotheosis sayesinde bu özellik geri geldi! Ayrıca, bu eşyalardan herhangi biriyle Canavar Çağırıcılara sağ tıklayarak ekleyebileceğin birçok yeni Modifikasyonlar var."]
-	quest.3E2A411FF5B4B0E7.quest_desc: ["Etkinleştirme Menzili, Canavar Çağırıcının çalışabilmesi için Oyuncunun (Sen) ona ne kadar yakın olması gerektiğidir. En düşük 1 blok uzaklıkta olabilir ve en yüksek 48 blok yarıçapındadır."]
-	quest.3E2A411FF5B4B0E7.title: "Etkinleştirme Menzili"
+	quest.310969B8FE0A94DE.title: "Apothic Spawners"
+	quest.321C15EBBE2D3D30.quest_desc: ["Bir spawner'ı patlattığınızda, oldukça dengesiz hale gelecek, kendi mobundan büyük miktarda doğuracak ve arkasında Spawner Zincirs bırakacaktır.\\n\\nKaç zincir (chains) merak ediyor olabilirsiniz? Yazının yazıldığı an itibarıyla 48-57 arası.\\n\\nBu zincirlere şunlar için ihtiyacınız olacak..."]
+	quest.321C15EBBE2D3D30.title: "Spawner'ları Patlatmak"
+	quest.39E822440E7D2E04.quest_desc: ["Mob Grinding Utils tamamen mob farmlamak ile ilgilidir, bu yüzden elbette bir spawner'ı var! Entity Spawner! Ancak çalışması için 3 şeye ihtiyacı olacak: bir Spawn Egg, XP Jelly Babies ve bir Kızıltaş sinyali. XP Jelly Babies, XP'nin XP Mould Jelly Baby ile bir XP Katıifier'dan geçirilmesiyle yapılır. Bunlar yenilebilir veya ikinci yuvada yakıt olarak kullanılabilir. Spawn Egg en üst yuvada, XP Jelly Babies ikinci yuvada ve bir Kızıltaş sinyali olduğunda mobları doğurmaya başlayacaktır!"]
+	quest.39E822440E7D2E04.quest_subtitle: "Mob Grinding Utils'in Spawner'ı"
+	quest.3F1430ADB648102F.quest_desc: [
+		"Bu Spawner Rune diğerlerinden farklı çalışır. Spawner'ın tek bir statüsünü etkilemek yerine, aynı anda birden fazlasını etkiler. Ayrıca söz konusu statüleri her seferinde artırmak veya azaltmak yerine belirli bir değere ayarlar.\\n\\n&aFrontiersman's Spawner Upgrade Rune&r, Spawner Upgrade Runes serisinin ilk, en ucuz ve elbette en zayıf olanıdır.\\n\\nMinimum Spawn Gecikme değerini 150'ye, Maksimum Spawn Gecikme değerini 600'e, Spawn Count değerini 7'ye, Max Entities değerini 12'ye ve Activation Menzil değerini 24'e ayarlar."
+		"{@pagebreak}"
+		"Spawner'ın ne zaman mob doğuracağını belirlemek için Maksimum ve Minimum Spawn Gecikme arasında rastgele bir sayı seçer. Hız tick cinsinden ifade edilir; 20 tick 1 saniyeye eşittir.\\n\\nDoğan moblar rastgeledir ve maksimum miktar Spawn Count (Canlanma Sayısı) tarafından belirlenir.\\n\\nMax entities, bir spawner tarafından doğurulabilen ve tutulabilen mob miktarıdır. Zaten 6 mob doğmuşken limit sadece 6 max entities ise, onlar ölene veya taşınana kadar daha fazla doğmayacaktır.\\n\\nActivation Menzil, spawner'ın çalışması için oyuncunun (sizin) ona ne kadar yakın olmanız gerektiğidir."
+	]
+	quest.3F55F3CC8519D783.quest_desc: ["Soulium Canavar Çağırıcı, Mystical Tarım tarafından bize armağan edilen spawner'dır. Mobları doğurmak için Mob Öz ve Energy kullanır. Mob Öz, Ruh Kavanozları ile yapılan Mob Plants hasat edilerek elde edilir. Yani önce mobları öldürmeniz veya Ruh Çıkarıcı kullanmanız gerekecek."]
+	quest.3F55F3CC8519D783.quest_subtitle: "Mystical Tarım'ın Spawner'ı"
 	quest.40096ED0B04C3EC5.quest_desc: ["Tüm Canavar Çağırıcılar için olmazsa olmaz. Koşulları yok sayar dediğinde, çoğu demek istiyor. Işık seviyelerini, ortaya çıkmak için gereken blokları ve biyomları yok sayar. Balçıkların ortaya çıkmak için 3x3 alana ihtiyaç duyması gibi alan koşulları hala gereklidir ve aynı şey oyuncuların yakınlarda olmasının gerekmesi için de geçerlidir."]
 	quest.40096ED0B04C3EC5.title: "Koşulları Yoksay"
-	quest.42D7C8CD8E6F5CD7.quest_desc: ["Canavar Çağırıcı üzerinde Nakarat Meyvesi kullanarak, ortaya çıkacak olan yaratıkların ruhlarını emersin, sadece eskiden oldukları şeyden, içi boş bir kabuk bırakırsın. Yaratıklar tüm yapay zekalarını kaybederler, bu yüzden temelde bir zırh standı ne yapıyorsa onu yaparlar. Sana vuramazlar, ışınlanamazlar, kendi başlarına hareket edemezler. Orada öldürülmeye hazır bir şekilde bekliyorlar, ne kadar heyecan verici!"]
+	quest.42D7C8CD8E6F5CD7.quest_desc: ["Canavar Çağırıcı üzerinde Rune of Stupor kullanarak, ortaya çıkacak olan yaratıkların ruhlarını emersin, sadece eskiden oldukları şeyden, içi boş bir kabuk bırakırsın. Yaratıklar tüm yapay zekalarını kaybederler, bu yüzden temelde bir zırh standı ne yapıyorsa onu yaparlar. Sana vuramazlar, ışınlanamazlar, kendi başlarına hareket edemezler. Orada öldürülmeye hazır bir şekilde bekliyorlar, ne kadar heyecan verici!"]
 	quest.42D7C8CD8E6F5CD7.title: "YZ Yok"
-	quest.4D07B0A4A2E77CDA.quest_desc: ["En fazla varlık, bir canavar çağırıcı tarafından ortaya çıkarılabilecek ve tutulabilecek yaratık miktarıdır. Eğer sadece 6 en fazla varlık varsa, 6 yaratık zaten ortaya çıkmışsa, onlar ölene veya taşınana kadar daha fazla yaratık ortaya çıkmayacaktır. Her Ghast Gözyaşı 2 Varlık yukarı veya aşağı oynatır. En fazla 16 Varlık ve En düşük 1 Varlık."]
-	quest.4D07B0A4A2E77CDA.title: "En Fazla Varlık"
-	quest.4F7F8F4ED1CA0550.quest_desc: ["Canavar Çağırıcıya uygulanan Kamp Ateşi, yaratıkların yanarak ortaya çıkmasını sağlayacaktır. Güzel bir Biftek için mükemmel."]
+	quest.4F7F8F4ED1CA0550.quest_desc: ["Canavar Çağırıcıya uygulanan Rune of Immolation, yaratıkların yanarak ortaya çıkmasını sağlayacaktır. Güzel bir Biftek için mükemmel."]
 	quest.4F7F8F4ED1CA0550.title: "Yanma"
-	quest.6A497B063CF32A5C.quest_desc: ["Mayalı Örümcek Gözü, bir canavar çağırıcıdan ortaya çıkabilecek yaratık miktarını artırmak için kullanılabilir. Ortaya çıkan Yaratıklar, Maksimum miktar sayısı ile belirlenecek şekilde rastgeledir. Maksimum 16 olacak şekilde, her göz ile 1 artar veya azalır."]
-	quest.6A497B063CF32A5C.title: "Doğma Sayısı"
-	quest.6F71FD826C29C31A.quest_desc: ["Bu, önceki sürümlerden gelenler için yeni olabilir. Canavar çağırıcısına kaplumbağa yumurtası uygulamak, sadece canavar çağırıcısının içindeki yaratığın yavru versiyonunu ortaya çıkaracaktır. Bu sadece yaratıkların Vanilla yavru versiyonları ile çalışır, değiştirilmemiştir."]
+	quest.503AC506720FC59E.quest_desc: ["Spawner'larda daha gelişmiş modifikasyonlar için Spawner Runes'larınızı &d&lInfuse&r yapmanız (Büyülemeniz) gerekecek.\\n\\nBunun için bir &5Enchanting Table&r'da (Büyü Masası) en az &a70 Eterna&r, &c%30 Quanta&r ve &5%50 Arkana&r'ya ihtiyacımız olacak.\\n\\nBunu elde etmek için aşağıdakilerden herhangi birini kullanabiliriz:\\n\\n&9Dormant&r olmayan 14 &9Deepshelves&r!\\n12 &4Glowing Hellshelves&r ve 2 &9Deepshelves&r!\\n12 &bCrystalline Seashelves&r ve 2 &9Deepshelves&r!\\n\\nBu mekanikler hakkında daha fazla bilgi edinmek için &5&lApothic Büyüleme&r bölümüne göz atın."]
+	quest.503AC506720FC59E.quest_subtitle: "Gelişmiş Modifikasyonlar"
+	quest.52FAF122466FDDC9.quest_desc: ["Stabilized Spawner, Draconic Evolution'ın spawner versiyonudur. Bir spawner üzerinde Cores'lardan (Çekirdekler) birini kullandığınızda, Stabilized Spawner haline gelir. Cores'ları değiştirebilirsiniz ancak statüleri artık Cores'lar tarafından belirlendiği için değiştiremezsiniz. Core ne kadar iyi olursa o kadar fazla mob daha hızlı bir şekilde doğar."]
+	quest.52FAF122466FDDC9.quest_subtitle: "Draconic Evolution'ın Spawner'ı"
+	quest.6D3B958E49AE7BDB.quest_desc: ["Charm Fragments tılsımlara veya Spawn Egg'lere dönüştürülebilir. Bunlar Reliquary'dendir ve ilgili moblarından nadiren düşerler. Hatta bazıları üretilebilir bile! 2 tane alın, yanına normal bir yumurta ekleyin ve bir Spawn Egg üretebilirsiniz."]
+	quest.6D68D9941049E806.quest_desc: ["Bu spawner, adından da anlaşılacağı gibi, yakıt olarak &dSource&r kullanacaktır. Doğacak moba karar vermek için, o mobu içinde tutan bir Containment Jar'ın bölgede olması gerekir."]
+	quest.6D68D9941049E806.quest_subtitle: "Ars Nouveau'nun Spawner'ı"
+	quest.6F71FD826C29C31A.quest_desc: ["Bu, önceki sürümlerden gelenler için yeni olabilir. Canavar çağırıcısına Rune of Youth uygulamak, sadece canavar çağırıcısının içindeki yaratığın yavru versiyonunu ortaya çıkaracaktır. Bu sadece yaratıkların Vanilla yavru versiyonları ile çalışır, modlu olanlarda çalışmaz."]
 	quest.6F71FD826C29C31A.title: "Genç"
-	quest.7A9AE63998BB41FF.quest_desc: ["Canavar Çağırıcının ne zaman ortaya çıkaracağını belirlemek için en yüksek ve en düşük ortaya çıkma gecikmesi arasında rastgele bir sayı seçer. En Düşük 20 gibi düşük bir sayıdan 32,767 gibi yüksek bir sayıya kadar çıkabilir. Her bir şeker parçası en düşük gecikmeyi 10 yukarı veya aşağı kaydırır."]
-	quest.7A9AE63998BB41FF.title: "En Düşük Doğma Gecikmesi"
-	quest.7F6B66566C211735.quest_desc: ["Canavar Çağırıcıya uygulanan Damla Taş, ortaya çıkan yaratığın maksimum sağlığını azaltacaktır. Bu, canlarını %20'ye kadar düşürebilir"]
+	quest.72AE56D34834D28E.quest_desc: ["PneumaticCraft'tan bir tane daha mı? Oh bu gerçek spawner'mış, anladım. Draconic Stabilized Spawner gibi önce Vanilla Spawner'a ihtiyacınız olacak. Bir tane bulduğunuzda, spawner'ın üstüne bir Spawner Extractor yerleştirin ve çalışması için -0.5 Bar'ın altında basınç verin. İşlem bittiğinde, size içinde hangi mob varsa onunla dolu bir Spawner Core verecek ve size boş bir spawner bırakacak. Ardından bu boş spawner'ı kullanarak bir Pressurized Spawner üretin ve Spawner Core'u içine koyun. (Core'u yükseltmek için Spawner Core'a girecek olan mobları emmek üzere bir Vacuum Trap kullanın). Bunu yaptığınızda, spawner artık çalışmak için basınca ihtiyaç duyacak, ışık seviyesini yok sayacak ve Kızıltaş ile etkinleşecek."]
+	quest.72AE56D34834D28E.quest_subtitle: "PneumaticCraft'ın Spawner'ı"
+	quest.76A3A2A97AB66C43.quest_desc: ["Bir &9Box of Eternal Closure&r içine hapsettiğiniz bir Vengeance Spirit'ten bir Spawn Egg mi yaratmak istiyorsunuz?\\n\\n&9Spirit Reanimator&r tam olarak bunu yapar. Ona bolca &cBlood&r, bir yumurta ve elbette Spawn Egg oluşturmak istediğiniz ruha sahip &9Box of Eternal Closure&r verin; Spawn Egg yaratmaya çalışacaktır!\\n\\nNot: Bazı moblar Spawn Egg oluşturmak için kullanılamaz."]
+	quest.77A8E8122870BBCE.quest_desc: ["Bu teknik olarak bir Spawn Egg değil, ancak mobları spawner'lara bağlama yeteneği nedeniyle bunu buraya dahil ediyorum. Bu yuları nasıl elde edeceğinizi öğrenmek için &5&lApothic Büyüleme&r bölümüne göz atın."]
+	quest.77A8E8122870BBCE.quest_subtitle: "Bu bir Spawn Egg değil!"
+	quest.78E94C386B1E7359.quest_desc: ["Normalde Spawn Egg elde edemezsiniz, ama bu durum spawner'lar için de geçerli ve işte buradayız! Spawn Egg elde etmenin birkaç yolu vardır ancak bir tane bulduğunuzda, spawner'ın doğurduğu mobları değiştirmek için bir spawner'a sağ tıklayın."]
+	quest.7AC6A958936636D9.quest_desc: ["&aMountaineer's Spawner Upgrade Rune&r, Spawner Upgrade Runes serisinin 3. aşamasıdır. Evet, bunun için bir Warden ile savaşmanız gerekecek.\\n\\nMinimum Spawn Gecikme değerini 50'ye, Maksimum Spawn Gecikme değerini 200'e, Spawn Count değerini 13'e, Max Entities değerini 24'e ve Activation Menzil değerini 40'a ayarlar."]
+	quest.7F6B66566C211735.quest_desc: ["Canavar Çağırıcıya uygulanan Zayıflatma Rünü (Runes of Debilitation), ortaya çıkan yaratığın maksimum sağlığını azaltacaktır. Bu, canlarını %20'ye kadar düşürebilir"]
 	quest.7F6B66566C211735.title: "Can"
-	task.39702880D9133E3E.title: "Yün"
+	task.24893D6EDE0BD819.title: "Mob Charm Fragments"
+	task.3B219688DA1CF9C8.title: "Tüm Hakları Saklıdır"
+	task.45250DA4433007C6.title: "Capturing Books"
+	task.524CBF7058496E7F.title: "Diğer Spawner'lar"
+	task.55587BA32D30318C.title: "Spawn Egg'ler"
+	task.73B56F2139A98F77.title: "Tüm Hakları Saklıdır"
+	task.6D7441BB9E437F9F.title: ""
+	task.09A203572F22E8C0.title: ""
+	task.3839A67493B2E5C3.title: ""
+	task.53D49F15F44633C5.title: ""
+	task.34F104E7633BBBD5.title: ""
+	task.7F1DCDE71D01DE02.title: ""
+	task.0B123D1F8C297D24.title: ""
+	task.3DA4F5633DF0D9A2.title: ""
+	task.6A994FB418E4E4F9.title: ""
+	task.4CE833AB331E43E6.title: ""
 }

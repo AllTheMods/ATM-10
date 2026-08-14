@@ -1,12 +1,14 @@
 {
+	chapter.07210DDF872160BA.title: "Applied Energistics 2"
+	chapter_group.1AC60211DE7427FC.title: "Depolama"
 	quest.00611844AFD5C31E.quest_desc: ["Yazıcı ve Şarj Cihazı RF/FE'yi doğal olarak kabul ederken, ME ağının büyük çoğunluğu AE adı verilen kendi özel güç sistemini kullanır.\\n\\nRF/FE, 2:1 RF:AE oranında ya doğrudan bir ME Kontrolcü aracılığıyla ya da bunun yerine ağın herhangi bir bölümüne bağlanabilen &bEnerji Kabul Edici&f aracılığıyla yerel AE'ye dönüştürülebilir."]
 	quest.00611844AFD5C31E.quest_subtitle: "Fişe tak"
 	quest.01F3F0C25BA72BDA.quest_desc: [
-		"Eşyaların ve sıvıların depolanmasının yanı sıra AE2, Compact Machines modundan çok da farklı olmayan bir şekilde, tüm &eyapıları&f depolama hücrelerinin içinde depolamanın yerel bir yolunu da sunar. "
+		"Eşyaların ve sıvıların depolanmasının yanı sıra AE2, Compact Makineler modundan çok da farklı olmayan bir şekilde, tüm &eyapıları&f depolama hücrelerinin içinde depolamanın yerel bir yolunu da sunar. "
 		""
-		"&bMekansal GÇ Bağlantı Noktası&f, bir &bSpatial Containment Structure&f içinde bulunan yapıların özel olarak tasarlanmış bir depolama hücresi içinde yakalanmasını ve bir redstone sinyali ile etkinleştirilmesini sağlar. "
+		"&bMekansal GÇ Bağlantı Noktası&f, bir &bUzaysal Muhafaza Yapısı&f içinde bulunan yapıların özel olarak tasarlanmış bir depolama hücresi içinde yakalanmasını ve bir Kızıltaş sinyali ile etkinleştirilmesini sağlar. "
 		""
-		"Alan ele geçirilirken bir yaratık veya oyuncu SCS'nin içinde durursa, onlar da alanın geri kalanının gittiği yere, yani özel bir boyuta taşınacaktır. Yakalanan kişi sen isen, geri dönmek ve içeri girmek için bir yolun olduğundan emin ol."
+		"Alan kaydedilirken bir yaratık veya oyuncu SCS'nin içinde durursa, onlar da alanın geri kalanının gittiği yere, yani özel bir boyuta taşınacaktır. Yakalanan kişi sen isen, geri dönmek ve içeri girmek için bir yolun olduğundan emin ol."
 	]
 	quest.01F3F0C25BA72BDA.title: "Mekansal GÇ"
 	quest.037488EF1F3581CE.quest_desc: ["Varsayılan olarak, bir ME ağı ME Kontrolcüsü olmadan kendi başına yalnızca 800AE'lik bir dahili arabelleğe sahiptir ve kontrolcü blok başına ekstra 8kAE ekler. Yeterince büyük ağlar için bu yetersiz olabilir ve bağlı herhangi bir cihaz için gücü telafi etmeye çalışırken bir ağın aralıklı olarak kapanmasına sebep olabilir.\\n\\n&bEnerji Hücresi&f, normal Enerji Hücresi başına 200kAE ve &bYoğun&f Enerji Hücresi başına 1.6MAE daha ekleyerek bir ME ağının önemli ölçüde daha fazla enerji tutmasına olanak tanır. Bunlar ayrıca daha fazla enerji arabelleği sağlamak için ağda herhangi bir yere yerleştirilebilir."]
@@ -16,11 +18,13 @@
 	quest.083D458032F0325C.quest_subtitle: "Ç (Çıkış)"
 	quest.0B218DD73FE8D985.quest_desc: ["Eğer son görevi doğru bir şekilde yaptıysan, o tekilliği bir çift &bKuantum Dolanıklık Tekilliği&f'ne dönüştürmüş olmalısın. Bu yeni tekillikler &eKuantum Ağ Köprüsü&f olarak bilinen halka şeklindeki bir cihazı birbirine bağlamak için kullanılır.\\n\\nBu bireysel halkalardan ikisi Kuantum Dolanıklık Tekillikleri kullanılarak birbirine bağlandığında ve bir miktar AE gücü (örneğin bir enerji hücresi) ile başlatıldığında, bir ME ağı köprünün diğer tarafında, uzun mesafeler ve hatta boyutlar arasında kablosuz olarak genişletilebilir."]
 	quest.0B218DD73FE8D985.title: "Kuantum Ağ Köprüsü"
-	quest.0E809747193ED3A9.quest_desc: ["Üçüncü MEGA storage component kademesi, &e16777216&f (16384k) bayt depolama alanı sağlar."]
+	quest.0E809747193ED3A9.quest_desc: ["Üçüncü MEGA Depolama Bileşeni kademesi, &e16777216&f (16384k) bayt depolama alanı sağlar."]
+	quest.0E809747193ED3A9.quest_subtitle: "x4^2"
 	quest.0E809747193ED3A9.title: "16M Depolama Bileşeni"
-	quest.0F03E75CF79BADD7.quest_desc: ["&dMEGA Cells&f, hücre başına depolanabilir en fazla bir eşya türü ile sınırlı olan ancak bu eşya türünden pratik olarak &o&lSONSUZ&r* sayıda depolayabilen siparişe özel &bBulk Item Storage Cell&f sunar. Bir eşya türünü kabul etmeden önce, bir Hücre Çalışma Tezgahı kullanılarak önceden filtrelenmelidir.\\n\\n*&oTeknik olarak \"max long\". Eğer biliyorsan, biliyorsundur.&r"]
+	quest.0F03E75CF79BADD7.quest_desc: ["&dMEGA Cells&f, hücre başına depolanabilir en fazla bir eşya türü ile sınırlı olan ancak bu eşya türünden pratik olarak &o&lSONSUZ&r* sayıda depolayabilen siparişe özel &bToplu Eşya Depolama Hücresi&f sunar. Bir eşya türünü kabul etmeden önce, bir Hücre Çalışma Tezgahı kullanılarak önceden filtrelenmelidir.\\n\\n*&oTeknik olarak \"max long\". Eğer biliyorsan, biliyorsundur.&r"]
 	quest.0F03E75CF79BADD7.quest_subtitle: "Topla ve kes"
-	quest.1348995F64A94396.quest_desc: ["&bÜretim Monitörü&f üretilmekte olan eşyanın tamamını ve bu eşyanın hâlen üretilmekte olan kalan miktarını gösterir.\\n\\nHem temel AE2 monitörü hem de MEGA monitörü aynı şekilde çalışır, ancak estetik amaçlar için sunulmuştur."]
+	quest.0F03E75CF79BADD7.title: "Büyük Eşya Depolama"
+	quest.1348995F64A94396.quest_desc: ["&bÜretim Ekranı&f üretilmekte olan eşyanın tamamını ve bu eşyanın hâlen üretilmekte olan kalan miktarını gösterir.\\n\\nHem temel AE2 monitörü hem de MEGA monitörü aynı şekilde çalışır, ancak estetik amaçlar için sunulmuştur."]
 	quest.1348995F64A94396.quest_subtitle: "Daha fazla VRAM indir"
 	quest.140DE53DC0FCD9F4.quest_desc: [
 		"Önündeki blokları otomatik olarak kırmak ve blok tarafından düşürülen her şeyi doğrudan ME ağına geri göndermek için &bME Yok Etme Düzlemi&f kullanılabilir. "
@@ -31,33 +35,33 @@
 	quest.140DE53DC0FCD9F4.quest_subtitle: "İÇERİ GİR"
 	quest.15564C11744D6AA0.quest_desc: ["Gerekli &eYazıcı Baskısı&r setinin tamamını elde ettikten sonra, sıra &eİşlemcileri&f yapmaya gelecektir. Bunlar ME bağlantılı cihazların büyük çoğunluğunu yapmak için kullanılan önemli bir üretim malzemesidir."]
 	quest.15564C11744D6AA0.title: "İşlemciler"
-	quest.16299B9AE87257DC.quest_desc: ["&bKablosuz Terminal&f normal bir terminalle aynı şekilde çalışır, ancak kablosuzdur.\\n\\nBir ağa erişmek için kullanılmadan önce, &eKablosuz Erişim Noktası&r'nın sağ üst yuvasına yerleştirilerek ağa &ebağlanmalıdır&f. Bir ağa bağlı değilse veya menzil ya da güç dışındaysa, terminal çalışmayacaktır.\\n\\nKablosuz terminaller ayrıca daha büyük bir dahili batarya sağlamak için &eEnerji Kartları&f ile yükseltilebilir."]
+	quest.16299B9AE87257DC.quest_desc: ["&bKablosuz Terminal&f normal bir terminalle aynı şekilde çalışır, ancak kablosuzdur.\\n\\nBir ağa erişmek için kullanılmadan önce, &eKablosuz Erişim Noktası&r'nın sağ üst yuvasına yerleştirilerek ağa &ebağlanmalıdır&f. Bir ağa bağlı değilse veya menzil dışındaysa ya da gücü bitmişse, terminal çalışmayacaktır.\\n\\nKablosuz terminaller ayrıca daha büyük bir dahili batarya sağlamak için &eEnerji Kartları&f ile yükseltilebilir."]
 	quest.16299B9AE87257DC.quest_subtitle: "Bunun için buradasın"
 	quest.16299B9AE87257DC.title: "Kablosuz Terminaller"
 	quest.1710B3D05215A71E.quest_desc: [
 		"&bP2P&f (uçtan uca), AE2'de herhangi bir aracı ME deposuna ihtiyaç duymadan eşyaların, sıvıların ve hatta daha fazlasının aktarılmasına olanak tanıyan güçlü bir sistemdir. "
 		""
-		"Belirli eşyalara sahip bir P2P tüneline sağ tıklamak, tüneli borular aracılığıyla eşya, kablolar aracılığıyla enerji, redstone sinyalleri ve hatta (varsayılan olarak) ME bağlantılarının kendileri gibi başka bir şeyi aktarabilen bir tünele dönüştürecektir. "
+		"Belirli eşyalara sahip bir P2P tüneline sağ tıklamak, tüneli borular aracılığıyla eşya, kablolar aracılığıyla enerji, Kızıltaş sinyalleri ve hatta (varsayılan olarak) ME bağlantılarının kendileri gibi başka bir şeyi aktarabilen bir tünele dönüştürecektir. "
 		""
 		"P2P tünelleri, bir sonraki görevde ayrıntılı olarak açıklanan bir &eHafıza Kartı&f kullanılarak birbirine bağlanmalıdır."
 	]
 	quest.1710B3D05215A71E.quest_subtitle: "Aracıyı aradan çıkar"
 	quest.1710B3D05215A71E.title: "P2P Tünelleri"
 	quest.18DFB25DC48D8BF7.quest_desc: [
-		"Spatial Containment Structure (SCS), bir Mekansal GÇ hücresi içine almak istediğin hacmi kaplayan &bMekansal Dikilitaşlar&f kafesinden oluşur. Bir SCS en az üç sıra mekansal dikilitaş bloğu gerektirir. Kapsanan alanın her boyutu için bir tane (uzunluk, genişlik, yükseklik). "
+		"Uzaysal Muhafaza Yapısı, bir Mekansal GÇ hücresi içine almak istediğin hacmi kaplayan &bMekansal Dikilitaşlar&f kafesinden oluşur. Bir SCS en az üç sıra mekansal dikilitaş bloğu gerektirir. Kapsanan alanın her boyutu için bir tane (uzunluk, genişlik, yükseklik). "
 		""
 		"Bununla birlikte, Mekansal GÇ, özellikle çok daha büyük alanları (128x128x128'e kadar) yakalamaya çalışırken son derece güç tüketen bir özelliktir. SCS'ye istenen hacim etrafında daha fazla mekansal dikilitaş dahil edilmesi, genel verimliliğini artıracak ve yakalamak için daha az enerji kullanmasını sağlayacaktır. "
 		""
 		"Ayrıca, her bir dikilitaşın (uzunluğu ne olursa olsun) bir kanal kapladığını unutma. Özellikle büyük alanlar için, gerekli tüm dikilitaşlara uyacak bir kontrolcü ile özel bir ağ oluşturmak isteyebilirsin."
 	]
-	quest.1AAF0B31B47AF23D.quest_desc: ["Bireysel ME cihazları da redstone sinyallerine yanıt verecek şekilde yapılandırılabilir. Bir &bRedstone Kartı&f ile yükseltildiğinde, cihaz yalnızca redstone ile çalıştırıldığında veya gerektiğinde başka bir şekilde çalışacak şekilde yapılandırılabilir.\\n\\nBu davranış aynı zamanda bir &bME Değiştirilebilir Veriyolu&f kullanılarak bir ME ağının tüm &obölümleri&r için de uygulanabilir. Bu, veriyolunun diğer tarafındaki ağın bir bölümünün yalnızca veriyoluna redstone ile güç verildiğinde çevrimiçi olmasına veya bir &eters çevrilmiş&f değiştirilebilir veriyolu&f kullanılıyorsa çevrimdışı olmasına olanak tanır."]
-	quest.1AAF0B31B47AF23D.title: "Redstone-Kontrollü ME"
+	quest.1AAF0B31B47AF23D.quest_desc: ["Bireysel ME cihazları da Kızıltaş sinyallerine yanıt verecek şekilde yapılandırılabilir. Bir &bKızıltaş Kartı&f ile yükseltildiğinde, cihaz yalnızca Kızıltaş ile çalıştırıldığında veya gerektiğinde başka bir şekilde çalışacak şekilde yapılandırılabilir.\\n\\nBu davranış aynı zamanda bir &bME Değiştirilebilir Veriyolu&f kullanılarak bir ME ağının tüm &obölümleri&r için de uygulanabilir. Bu, veriyolunun diğer tarafındaki ağın bir bölümünün yalnızca veriyoluna Kızıltaş ile güç verildiğinde çevrimiçi olmasına veya bir &eters çevrilmiş değiştirilebilir veriyolu kullanılıyorsa çevrimdışı olmasına olanak tanır."]
+	quest.1AAF0B31B47AF23D.title: "Kızıltaş-Kontrollü ME"
 	quest.1B686954D34A0F23.quest_desc: ["&bKuvars İngiliz Anahtarı&f normal teknoloji modu ingiliz anahtarının yapacağı işi yapar. Blokları ve cihazları sağ tıkladığın yüz boyunca döndürür ve eğilirken sağ tıklandığında onları söker.\\n\\nBu İngiliz Anahtarının hem Sertus Kuvars hem de Nether Kuvars çeşidi vardır."]
 	quest.1B686954D34A0F23.quest_subtitle: "Tam olarak tahmin ettiğin şeyi yapıyor"
 	quest.1B686954D34A0F23.title: "Kuvars İngiliz Anahtarı"
-	quest.1F7DFA5AA65F2812.quest_desc: ["&bHızlandırma Kartı&f, kendisiyle yükseltilen cihaza bağlı olarak ya cihazın çalışma hızını artıracak ya da cihazın tek seferde daha fazla işlem yapmasını sağlayacaktır.\\n\\n&eMoleküler Derleyici&f'ye takıldığında, 5 karttan oluşan tam bir set, MD'nin bir işi yerine getirmesi için geçen süreyi bir saniyeden (kartsız) bir &otik&r'e düşürür."]
+	quest.1F7DFA5AA65F2812.quest_desc: ["&bHızlandırma Kartı&f, kendisiyle yükseltilen cihaza bağlı olarak ya cihazın çalışma hızını artıracak ya da cihazın tek seferde daha fazla işlem yapmasını sağlayacaktır.\\n\\n&eMoleküler Birleştirici&f'ye takıldığında, 5 karttan oluşan tam bir set, MD'nin bir işi yerine getirmesi için geçen süreyi bir saniyeden (kartsız) bir &otik&r'e düşürür."]
 	quest.2077D64428E9C067.quest_desc: [
-		"AE2'deki önemli bir kavram, '&ealt ağlara bölme (subnetting)&f' olarak bilinen bir tekniktir; burada ekstra ayrı bir ME ağı (bir &ealt ağ&f), bazı özel işlevleri veya işlemleri gerçekleştirmek için ana ağ ile birlikte hareket eder. "
+		"AE2'deki önemli bir kavram, '&ealt ağlara bölme&f' olarak bilinen bir tekniktir; burada ekstra ayrı bir ME ağı (bir &ealt ağ&f), bazı özel işlevleri veya işlemleri gerçekleştirmek için ana ağ ile birlikte hareket eder. "
 		""
 		"Bir alt ağı tamamen ayrılmış ayrı bir ağdan ayıran şey genellikle &bKuvars Fiber&f'in bir kablo parçası olarak kullanılmasıdır. Birbirine bağlı olmayan iki uzun kablo arasına yerleştirildiğinde, Kuvars Fiber ikisi arasında hiçbir veri veya kanal aktarmaz. Bunun yerine sadece güç iletir. "
 		""
@@ -66,6 +70,7 @@
 	quest.2077D64428E9C067.quest_subtitle: "Bu, kablo yapımı dışında da kullanıma sahiptir."
 	quest.2077D64428E9C067.title: "Bahsetmeyi Unuttum"
 	quest.219932CB19258C16.quest_desc: ["Depolama bileşeninin üçüncü kademesi, &e16384&f bayt depolama alanı sağlar."]
+	quest.219932CB19258C16.quest_subtitle: "x4^2"
 	quest.219932CB19258C16.title: "16k Depolama Bileşeni"
 	quest.22C4318523A43B49.quest_desc: ["&eTerminaller&f bir ME ağının herhangi bir içeriğine erişim sağlar. Standart &eME Terminali&f ağdaki her şeyi, tek bir envantere benzer şekilde, içinden çekilebilecek ve içine eklenebilecek büyük bir ızgara olarak listeler.\\n\\n&eME Üretim Terminali&f, ME Terminalinin bir uzantısıdır ve ağda bulunan ve terminal ekranından görülebilen herhangi bir eşyayı kullanarak kolay üretime olanak tanıyan yerleşik bir üretim ızgarası da sağlar."]
 	quest.22C4318523A43B49.quest_subtitle: "[Linux kullanıcı şakası buraya uyar]"
@@ -73,16 +78,18 @@
 	quest.234DC1702333EB18.quest_desc: ["&dAEInfinityBooster&f eklentisi, isteğe bağlı boyutlar arası destek ile sonsuz bağlantı menzili sağlayan iki adet siparişe özel kablosuz güçlendirici sağlar."]
 	quest.234DC1702333EB18.quest_subtitle: "Oyuncak Hikayesi repliğini yazmıyorum."
 	quest.234DC1702333EB18.title: "Sonsuz Artırıcı"
-	quest.25DBA00422301EDC.quest_desc: ["İkinci MEGA storage component kademesi, &e4194304&f (4096k) bayt depolama alanı sağlar."]
+	quest.25DBA00422301EDC.quest_desc: ["İkinci MEGA Depolama Bileşeni kademesi, &e4194304&f (4096k) bayt depolama alanı sağlar."]
+	quest.25DBA00422301EDC.quest_subtitle: "x4"
 	quest.25DBA00422301EDC.title: "4M Depolama Bileşeni"
 	quest.2893F483C10293E6.quest_desc: [
-		"&l&bApplied Energistics 2&f&l'ye hoş geldin!\\n\\nApplied Energistics 2 (veya kısaca &oAE2&r) inanılmaz derecede çok amaçlı bir &bdijital depolama&f modudur. Son derece verimli depolamaya ve modlu Minecraft deneyimini istediğin kadar oyun başlarından oyun sonuna kadar büyük ölçüde artıracak her türlü otomasyon yeteneğine olanak tanır.\\n\\nAE2 hakkında bu bölümün ötesinde daha fazla bilgi için şu adresteki wiki'ye bak"
+		"&l&bApplied Energistics 2&f'ye hoş geldin!\\n\\nApplied Energistics 2 (veya kısaca &oAE2&r) inanılmaz derecede çok amaçlı bir &bdijital depolama&f modudur. Son derece verimli depolamaya ve modlu Minecraft deneyimini istediğin kadar oyun başlarından oyun sonuna kadar büyük ölçüde artıracak her türlü otomasyon yeteneğine olanak tanır.\\n\\nAE2 hakkında bu bölümün ötesinde daha fazla bilgi için şu adresteki wiki'ye bak"
 		"&o&bappliedenergistics.github.io&f&r."
 	]
 	quest.2893F483C10293E6.quest_subtitle: "Sanal Depolama Sistemi"
+	quest.2893F483C10293E6.title: "Applied Energistics 2"
 	quest.2897FA291E5A38D8.quest_desc: ["&bMekansal Çapa&f, Mekansal GÇ soyundan gelen ve basitçe bir yığın yükleyici olarak işlev gören tamamlayıcı bir cihazdır. Bir ME ağına bağlandığında Çapa, ağa güç verilmeye devam edildiği sürece alt ağlar hariç tüm kablolar ve cihazlar üzerinden ME ağı tarafından kullanılan tüm yığınları zorla yükleyecektir."]
 	quest.2B31E6C1707D8195.quest_desc: ["Kablosuz ağ erişimine izin vermek için yapılacak bir sonraki şey &bME Kablosuz Erişim Noktası&f'dır. Erişim Noktası, ağı bir &ekablosuz terminal&f aracılığıyla kablosuz erişime açmak için kullanılır ve erişim noktasına kaç tane &ekablosuz güçlendirici&f takıldığına bağlı olarak belirli (sınırlı) bir menzile sahiptir."]
-	quest.2C04B3BA507D5673.quest_desc: ["&bŞablonlar&f, Şablon Sağlayıcı tarafından gerçekleştirilmek üzere kodlanmış tarifi tutan şeydir. Bir tarifi Şablona kodlamak için &bME Şablon Kodlama Terminali&f kullanılmalıdır.\\n\\nŞablonlar, Sağlayıcısının karşısında bir &eMoleküler Derleyici&f kullanılmasını gerektiren normal bir &eüretim&f tarifini veya herhangi bir girdi eşyasının sağlayıcı tarafından başka bir makine bloğuna veya özel üretim tesisine gönderilebileceği daha genel bir '&eişleme&f' tarifini tutacak şekilde ayarlanabilir."]
+	quest.2C04B3BA507D5673.quest_desc: ["&bŞablonlar&f, Şablon Sağlayıcı tarafından gerçekleştirilmek üzere kodlanmış tarifi tutan şeydir. Bir tarifi Şablona kodlamak için &bME Şablon Kodlama Terminali&f kullanılmalıdır.\\n\\nŞablonlar, Sağlayıcısının karşısında bir &eMoleküler Birleştirici&f kullanılmasını gerektiren normal bir &eüretim&f tarifini veya herhangi bir girdi eşyasının sağlayıcı tarafından başka bir makine bloğuna veya özel üretim tesisine gönderilebileceği daha genel bir '&eişleme&f' tarifini tutacak şekilde ayarlanabilir."]
 	quest.2C04B3BA507D5673.title: "Şablonlar"
 	quest.2F16B6A173525277.quest_desc: [
 		"Herhangi bir büyük ME ağı için bulmacanın son parçası &bME Kontrolcüsüdür&f. "
@@ -101,7 +108,9 @@
 	quest.30E853CE699E669B.quest_subtitle: "Daha fazla RAM indir"
 	quest.3195A7AA874163CD.quest_desc: ["&bEşit Dağıtım Kartı&f, depolama hücreleri için herhangi bir tür tarafından alınabilecek belirli miktarda eşyayı önceden tahsis eden bir yükseltmedir.\\n\\nBu davranış Functional Storage çekmecesi gibi bir şeye benzemektedir; burada bir bölmedeki eşyaların diğerlerine sızmasına ve diğer eşya türlerinin dışarıda kalmasına izin vermek yerine her bölme belirli sayıda istif tutmaktadır."]
 	quest.3195A7AA874163CD.quest_subtitle: "ME Depolama &mHücreleri&r Çekmeceleri"
-	quest.33ADE41526C39AFD.quest_desc: ["Bu davranış Functional Storage çekmecesi gibi bir şeye benzemektedir; burada bir bölmedeki eşyaların diğerlerine sızmasına ve diğer eşya türlerinin dışarıda kalmasına izin vermek yerine her bölme belirli sayıda istif tutmaktadır."]
+	quest.332A3C7BA261DBFC.quest_desc: ["Genel konumunu bulmak için &eMeteor Pusulası&r (Göktaşı Pusulası) kullandıktan sonra &dArs Nouveau&r modundan bir &eMaden Çubuğu&r (Maden Çubuğu) kullanmak, &eGöktaşı&r'in (Göktaşı) tam yerini bulmanıza yardımcı olacaktır."]
+	quest.332A3C7BA261DBFC.quest_subtitle: "Daha fazla doğruluk için"
+	quest.33ADE41526C39AFD.quest_desc: ["Bu kart, hemen hemen herhangi bir Sophisticated modundaki Taşma Yükseltmesi (Void Upgrade) gibidir.\n\nBu kartın atandığı bir Depolama dolduğunda, içine gelen tüm fazla eşyalar yok edilecektir.\n\nBu, otomatik çiftliklerin deponuzu kapasitesinin ötesinde doldurmasını istemediğiniz durumlarda oldukça kullanışlıdır."]
 	quest.361CCBD353D6FF34.quest_desc: [
 		"1k Depolama Bileşeni ile artık dijital eşya depolama sistemini başlatmak için kendine 1k ME Öğe Depolama Hücresi üretebilirsin. Büyük olasılıkla deponun çoğunluğunun eşyalar için olmasını isteyeceksin, bu nedenle muhtemelen birkaç &bME Öğe Depolama Hücresi&f yapmak isteyeceksin. "
 		""
@@ -109,36 +118,41 @@
 		""
 		"Örnek olarak, sadece kırık taş içeren 1k Öğe Depolama Hücresi, 8128 kırık taş tutabilir (8*1024b - 8b/tür * 1 tür). "
 		""
-		"Bir hücre boşsa, ilgili bileşenine ve yuvasına sökülerek yeniden kullanılabilir. Bu, hücre elindeyken havaya baktıktan sonra eğilip ve sağ tıklanarak yapılır."
+		"Bir hücre boşsa, ilgili bileşenine ve yuvasına sökülerek yeniden kullanılabilir. Bu, hücre elindeyken havaya baktıktan sonra eğilip sağ tıklanarak yapılır."
 	]
 	quest.361CCBD353D6FF34.title: "Öğe Depolama"
 	quest.371A382CF1DDF2B2.quest_desc: ["&bKapasite Kartı&f, onunla yükseltilen bir veriyolunun daha büyük filtre taşımasını sağlar. Kapasite kartlarıyla yükseltilen İçe Aktarma ve Dışa Aktarma veriyolları, her biri yalnızca bir filtrelenmiş eşyayı desteklemekten, maksimum dokuz-yuvalı filtreye geçebilirken, Depolama veriyolları 18 yuvadan maksimum 63 yuvaya çıkacaktır."]
 	quest.3B42CCC19D23EC6D.quest_desc: ["Depolama bileşeninin ikinci kademesi, &e4096&f bayt depolama alanı sağlar."]
+	quest.3B42CCC19D23EC6D.quest_subtitle: "x4"
 	quest.3B42CCC19D23EC6D.title: "4k Depolama Bileşeni"
-	quest.3CE3D9245F8EC005.quest_desc: ["Dördüncü MEGA storage component kademesi, &e67108864&f (65536k) bayt depolama alanı sağlar."]
+	quest.3CE3D9245F8EC005.quest_desc: ["Dördüncü MEGA Depolama Bileşeni kademesi, &e67108864&f (65536k) bayt depolama alanı sağlar."]
+	quest.3CE3D9245F8EC005.quest_subtitle: "x4^3"
 	quest.3CE3D9245F8EC005.title: "64M Depolama Bileşeni"
-	quest.3DDB0DDA7571B2C1.quest_desc: ["&bME Seviye Vericisi&f, yanıt vermesi için belirli bir eşya ve miktarla yapılandırıldığında, ağda depolanan bu eşyanın verilen miktarın altına düşmesine, üstüne çıkmasına veya eşit olmasına bağlı olarak bir redstone sinyali yayacaktır.\\n\\nÖrneğin bu, belirli bir asgari miktarın altına düştüğünde bir kaynağı otomatik olarak üretmek için belirli makineleri redstone ile otomatik olarak açmak için kullanılabilir."]
+	quest.3DDB0DDA7571B2C1.quest_desc: ["&bME Seviye Vericisi&f, yanıt vermesi için belirli bir eşya ve miktarla yapılandırıldığında, ağda depolanan bu eşyanın verilen miktarın altına düşmesine, üstüne çıkmasına veya eşit olmasına bağlı olarak bir Kızıltaş sinyali yayacaktır.\\n\\nÖrneğin bu, belirli bir asgari miktarın altına düştüğünde bir kaynağı otomatik olarak üretmek için belirli makineleri Kızıltaş ile otomatik olarak açmak için kullanılabilir."]
 	quest.3DDB0DDA7571B2C1.title: "ME Seviye Vericisi"
 	quest.3E3DF8E967D95DB0.quest_desc: ["64k veya daha yüksek bir depolama bileşeni kullanıldığında, Madde Yoğunlaştırıcı bir &bTekillik&f üretmek için önemli ölçüde daha fazlasını yoğunlaştırabilir hale gelir. Tek bir tekillik için 256000 eşyanın geçersiz kılınması gerekir. Bu tam olarak &o4000 istif&r!\\n\\nBu tekilliği bir parça &eEnder Tozu&f ile yere attığında neler olduğuna bak. Bunu yaparken çevrene biraz hasar vermen gerekecek, ama neyse ki AE2 bunu en aza indirmek için kendi &bMini TNT&f'sini sunuyor."]
 	quest.3E3DF8E967D95DB0.quest_subtitle: "Aşırı-Yoğunlaştırılmış Madde"
 	quest.3E3DF8E967D95DB0.title: "Aşırı-Yoğunlaştırılmış Madde"
-	quest.4597D3B3BDC2BED5.quest_desc: ["&bMoleküler Derleyici&f, AE2'nin otomatik çalışma masasına eşdeğerdir ve her türlü &eüretim&f şablonu işini yerine getirmek için gereklidir.\\n\\nMoleküler Derleyiciler, kendisine bağlı diğer ME cihazlarına güç ve kanal aktarabilir, ancak kendileri bir kanal kullanmaz. Tek bir Şablon Sağlayıcı'ya (kullanılıyorsa) 6 adede kadar MD bağlanarak daha fazla üretimin paralel olarak yapılmasına olanak sağlanabilir.\\n\\nAyrıca MD'lerin her biri tek bir üretim şablonu için kendi özel yuvasına sahiptir ve bu sayede güç verildiğinde bağımsız olarak çalışabilirler. Bu şekilde çalıştırıldığında, MD'ye yerleştirilen herhangi bir eşleşen eşya, otomatik olarak şablonun sonucuna göre üretilecektir."]
-	quest.460A8F17F3ED6CAF.quest_desc: ["Büyük bir mod paketinin herhangi bir sürecinde, en yüksek standart depolama hücresi kademesinin bile biriktirdiğin eşya ve kaynak miktarı için yeterli olmadığı bir nokta olur.\\n\\nİşte bu noktada &dMEGA Cells&f eklentisi devreye giriyor ve mevcut depolama kademelerini megabayt düzeyine çıkarıyor. Bu yeni kademelerden ilki &b1M MEGA Storage Component&f tarafından sağlanıyor ve 1024 &okilo&rbayt ya da &e1048576&f bayt depolama alanı sunuyor."]
+	quest.4597D3B3BDC2BED5.quest_desc: ["&bMoleküler Birleştirici&f, AE2'nin otomatik çalışma masasına eşdeğerdir ve her türlü &eüretim&f şablonu işini yerine getirmek için gereklidir.\\n\\nMoleküler Birleştiriciler, kendisine bağlı diğer ME cihazlarına güç ve kanal aktarabilir, ancak kendileri bir kanal kullanmaz. Tek bir Şablon Sağlayıcı'ya (kullanılıyorsa) 6 adede kadar MD bağlanarak daha fazla üretimin paralel olarak yapılmasına olanak sağlanabilir.\\n\\nAyrıca MD'lerin her biri tek bir üretim şablonu için kendi özel yuvasına sahiptir ve bu sayede güç verildiğinde bağımsız olarak çalışabilirler. Bu şekilde çalıştırıldığında, MD'ye yerleştirilen herhangi bir eşleşen eşya, otomatik olarak şablonun sonucuna göre üretilecektir."]
+	quest.460A8F17F3ED6CAF.quest_desc: ["Büyük bir mod paketinin herhangi bir sürecinde, en yüksek standart depolama hücresi kademesinin bile biriktirdiğin eşya ve kaynak miktarı için yeterli olmadığı bir nokta olur.\\n\\nİşte bu noktada &dMEGA Cells&f eklentisi devreye giriyor ve mevcut depolama kademelerini megabayt düzeyine çıkarıyor. Bu yeni kademelerden ilki &b1M MEGA Depolama Bileşeni&f tarafından sağlanıyor ve 1024 &okilo&rbayt ya da &e1048576&f bayt depolama alanı sunuyor."]
 	quest.460A8F17F3ED6CAF.quest_subtitle: "İlk MEGAbayt."
 	quest.460A8F17F3ED6CAF.title: "1M Depolama Bileşeni"
-	quest.4B76FE0348DB0E45.quest_desc: ["Quantum Bridge Card, Applied Energistics sistemine kablosuz boyutlar arası erişim sağlamak için alternatif bir yöntemdir. Üssünde bağlı bir Kuantum Köprüsüne ve terminalinde bir Quantum Bridge Card'a ihtiyacın olacaktır. Bu tüneller daha sonra nereye gidersen git erişim sağlamak için bir Kuantum Dolanıklık Tekilliği ile birbirine bağlanır."]
+	quest.4B76FE0348DB0E45.quest_desc: ["Kuantum Köprüsü Kartı, Applied Energistics sistemine kablosuz boyutlar arası erişim sağlamak için alternatif bir yöntemdir. Üssünde bağlı bir Kuantum Köprüsüne ve terminalinde bir Kuantum Köprüsü Kartı'a ihtiyacın olacaktır. Bu tüneller daha sonra nereye gidersen git erişim sağlamak için bir Kuantum Dolanıklık Tekilliği ile birbirine bağlanır."]
 	quest.4BF0BB763BFFACF0.quest_desc: [
 		"Muhtemelen bundan sonra ihtiyaç duyacağın en önemli kaynak, AE2 cihazlarının büyük çoğunluğunda kullanılan ve bir ME ağı içindeki tüm kabloların yapımında temel görevi gören &eFluiks&f'dir. "
 		""
-		"Genellikle bunları seri olarak üretmek isteyeceksin ve bunu yapmanın yolu da &eNether Kuvars&f, &e&oŞarj Olmuş&r&e Sertus Kuvars&r ve &eRedstone&f'u su havuzuna atarak &bFluiks Kristal&f yapmaktır. Bu sana &eFluiks Kristali&r verecektir. Bunu da Yazıcı içine koyarak toza dönüştüreceksin."
+		"Genellikle bunları seri olarak üretmek isteyeceksin ve bunu yapmanın yolu da &eNether Kuvars&f, &e&oŞarj Olmuş&r&e Sertus Kuvars&r ve &eKızıltaş&f'u su havuzuna atarak &bFluiks Kristalii&f yapmaktır. Bu sana &eFluiks Kristaliii&r verecektir. Bunu da Yazıcı içine koyarak toza dönüştüreceksin."
 	]
 	quest.4BF0BB763BFFACF0.title: "Fluiks"
 	quest.4E8A05C3BFA80540.quest_desc: ["Applied Energistics 2 modunun en önemli özelliği tartışmasız depolama sistemidir; bu sistem dijital &eDepolama Hücreleri&f kullanır. Bu hücrelere tekli hücreler için bir &eME Sandığı&r veya çoklu hücreler için bir &eME Sürücü&r aracılığıyla erişilebilir.\\n\\n&bME Sandığı&f bir seferde tek bir Hücreyi tutar ve bu Hücre aynı ağ üzerindeki herhangi bir terminalden okunabilir ve yazılabilir. ME Sandığının kendisi de sadece içerdiği hücreye özel erişim ile üstünde kendi terminal ekranını sunar.\\n\\n&bME Sürücü&f tek bir blok ve tek bir ME kanalı alanında 10 adede kadar çeşitli Depolama Hücresini tutabilir. Ancak, kendi terminal ekranını sunmaz, depolama erişimi için ağ üzerinde başka bir yerde harici bir terminal gerektirir."]
 	quest.4E8A05C3BFA80540.quest_subtitle: "Dosya sistemi olarak eşyalar"
 	quest.4E8A05C3BFA80540.title: "Depo"
+	quest.5034A9137E0F3D3D.quest_desc: ["Bu Görev, AllTheMods Mod Paketlerinde kullanılmak üzere &6AllTheMods Ekibi&r veya bir &2Topluluk katılımcısı&r tarafından hazırlanmıştır.\\n\\nTüm &6AllTheMods&r paketleri &eTüm Hakları Saklıdır&r lisanslı olduğundan, bu Görevin açık izin alınmadan &6AllTheMods Ekibi&r tarafından yayınlanmayan hiçbir halka açık pakette kullanılmasına izin verilmez.\\n\\nBu görev bilerek gizlenmiştir, eğer bunu görüyorsanız düzenleme modundasınız demektir."]
 	quest.51236544BFEF487B.quest_desc: ["Şimdi &bGökyüzü Taşı&f içeren &eMeteorları&f bulma zamanı. Bunlar yüzeyde veya yeraltında olabilir ve merkezinde bir &bGizemli Küp&f içerir.\\n\\nBu küp, AE2'nin özel üretim bileşenlerini yapmak için Yazıcı'da kullanılan tüm &eBaskıları&r içerir.\\n\\nBir meteorun yerini tespit etmenin en kolay yolu, Şarj Cihazı'nın içine bir pusula yerleştirerek bir &eMeteor Pusulası&r yapmaktır."]
+	quest.51236544BFEF487B.quest_subtitle: "'COMIC #42: bobby'yi [Fischer] aramak'"
 	quest.51236544BFEF487B.title: "Meteor avcılığı"
-	quest.51A57E142C686C8F.quest_desc: ["Beşinci ve son MEGA storage component kademesi, &e268435456&f (262144k) bayt depolama alanı sağlar."]
+	quest.51A57E142C686C8F.quest_desc: ["Beşinci ve son MEGA Depolama Bileşeni kademesi, &e268435456&f (262144k) bayt depolama alanı sağlar."]
+	quest.51A57E142C686C8F.quest_subtitle: "x4^4"
 	quest.51A57E142C686C8F.title: "256M Depolama Bileşeni"
 	quest.51DE3157DE3E57B8.quest_desc: [
 		"Depolama iyidir hoştur ama üretilmesi ve bir şeye dönüştürülmesi gereken hammaddelerle tıkanmışsa ve hala bunu elle yapmak zorunda kalıyorsan bir depolama sistemi ne işe yarar? "
@@ -150,8 +164,10 @@
 	quest.51DE3157DE3E57B8.quest_subtitle: "Sipariş ver"
 	quest.51DE3157DE3E57B8.title: "Oto-Üretim"
 	quest.5233A447BAA4593C.quest_desc: ["&bME Akıllı Kablo&f ve &bYoğun Akıllı Kablo&f, kanal dağılımı açısından kapalı kablolarla aynı işlevi görür ama aynı zamanda kullandıkları kanal miktarını kendi üzerlerinde renkli çizgiler olarak görünür şekilde gösterir."]
+	quest.5233A447BAA4593C.quest_subtitle: "'S.M.R.T.'"
 	quest.5233A447BAA4593C.title: "Gelişmiş Kablolama"
 	quest.523853C1C4E688BA.quest_desc: ["Depolama bileşeninin dördüncü kademesi, &e65536&f bayt depolama alanı sağlar."]
+	quest.523853C1C4E688BA.quest_subtitle: "x4^3"
 	quest.523853C1C4E688BA.title: "64k Depolama Bileşeni"
 	quest.525F25F4ADE45B50.quest_desc: [
 		"&bME Oluşum Düzlemi&f, Depolama Veriyolu'na benzer şekilde davranır, ancak dünyanın kendisini depolama ortamı olarak görür. Başka bir deyişle, filtresindeki herhangi bir bloğu doğrudan kendi önüne yerleştirecektir. "
@@ -179,11 +195,12 @@
 		""
 		"Sıvılar için 1 bayt 8 kovaya (8000mb) eşittir."
 	]
-	quest.5E6585F7627247E3.quest_desc: ["Arayüz veya Dışa Aktarma Veriyolu gibi desteklenen herhangi bir cihaza yükseltme olarak uygulandığında, &bÜretim Kartı&f söz konusu cihazın gerekli (filtrelenmiş) bir eşya için otomatik olarak kendi üretim taleplerini göndermesini sağlar. Üretim CPU'ları, oyuncu tarafından talep edilen üretimler için CPU'ların kullanılmasını önlemek amacıyla yalnızca bu taleplere yanıt verecek şekilde ayarlanabilir.\\n\\n&eSeviye Vericisi&f, Üretim Kartı ile yükseltildiğinde, verilen eşya için bir üretim işi tespit edildiğinde ya da özellikle eşyayı üretmek için bir sinyal yayarak doğrudan üretimi kolaylaştırmak için redstone yayacak şekilde yapılandırılabilir. İkincisi, belirli bir eşyayı yapmak için gereken tek şeyin bir üretim şablonu bile gerektirmeden, redstone sinyali olduğu durumlar için geçerli olacaktır."]
+	quest.5E6585F7627247E3.quest_desc: ["Arayüz veya Dışa Aktarma Veriyolu gibi desteklenen herhangi bir cihaza yükseltme olarak uygulandığında, &bÜretim Kartı&f söz konusu cihazın gerekli (filtrelenmiş) bir eşya için otomatik olarak kendi üretim taleplerini göndermesini sağlar. Üretim CPU'ları, oyuncu tarafından talep edilen üretimler için CPU'ların kullanılmasını önlemek amacıyla yalnızca bu taleplere yanıt verecek şekilde ayarlanabilir.\\n\\n&eSeviye Vericisi&f, Üretim Kartı ile yükseltildiğinde, verilen eşya için bir üretim işi tespit edildiğinde ya da özellikle eşyayı üretmek için bir sinyal yayarak doğrudan üretimi kolaylaştırmak için Kızıltaş yayacak şekilde yapılandırılabilir. İkincisi, belirli bir eşyayı yapmak için gereken tek şeyin bir üretim şablonu bile gerektirmeden, Kızıltaş sinyali olduğu durumlar için geçerli olacaktır."]
 	quest.5E6585F7627247E3.quest_subtitle: "Yükseltme biçiminde otomasyon!"
 	quest.5E7E35CCAF1C88EE.quest_desc: ["&bME İçe Aktarma Veriyolu&f, veriyolunun baktığı harici depodan periyodik olarak eşyaları çeker. İsteğe bağlı olarak, söz konusu envanterden yalnızca belirli eşyaları almak için filtrelenebilir."]
 	quest.5E7E35CCAF1C88EE.quest_subtitle: "G (Giriş)"
 	quest.5F56892CD904C40F.quest_desc: ["Beşinci ve son AE2-standart depolama bileşeni kademesi, &e262144&f bayt depolama alanı sağlar."]
+	quest.5F56892CD904C40F.quest_subtitle: "x4^4"
 	quest.5F56892CD904C40F.title: "256k Depolama Bileşeni"
 	quest.6144202A97C6CD1C.quest_desc: ["İngiliz Anahtarı gibi &bKuvars Kesme Bıçağı&f da hem nether hem de sertus kuvars çeşitleriyle gelir ve el altında bulundurulması faydalı bir üretim aracıdır.\\n\\nKablolar, aralarına bu bıçak kullanılarak hazırlanmış ve kesilmeden önce aynı bıçakla 50 defaya kadar üretilebilen bir &bKablo Çapası&f takılarak renklendirilmeye gerek kalmadan da ayrılabilir.\\n\\nKablo Çapaları ayrıca &bKablo Cepheleri&f yapmak için de kullanılabilir, bu da kabloları rastgele bir bloğun cephesiyle kaplayarak duvarların içinde gizlemeni sağlar. Cephe tarifleri JEI'de gizli olsa da, herhangi bir normal bloğu alıp üretim ızgarasında 4 kablo çapasıyla çevreleyerek bunları üretebilirsin.\\n\\nÇapa üretmenin yanı sıra, kesme bıçağının başka bir kullanımı daha vardır: bıçakla sağ tıkladığında &bYazıcı Ad Baskıları&f üretmeni sağlayan küçük bir GUI açılır. Bir ad verildiğinde, bu baskılar bir Yazıcı içinde herhangi bir girdi eşyasını baskının adıyla yeniden adlandırmak için kullanılabilir. Bu baskılardan ikisi, eşyayı üstteki baskının ve ardından alttaki baskının adıyla yeniden adlandırmak için yazıcıda birleştirilebilir."]
 	quest.6144202A97C6CD1C.quest_subtitle: "Bıçak altında"
@@ -194,13 +211,13 @@
 		"Ek bir bonus olarak, &eyükseltme kartlarını&f tutmak için kullanılan kendi küçük envanterini de sunar. Bu kartlara herhangi bir yükseltilebilir cihazın ekranına bakarken, kolay değiştirme için erişilebilir. Bununla birlikte, ME ağına bağlı blokları normal ingiliz anahtarı gibi döndüremez, sadece eğilirken sökebilir."
 	]
 	quest.6431A384DDFBF439.title: "Ağ Araçları"
-	quest.68B0B3DAF1145191.quest_desc: ["AE2'ye başlamak için ihtiyaç duyacağın ilk şeylerden ikisi &bŞarj Cihazı&f ve &bYazıcı&f'dır.\\n\\n&bŞarj Cihazı&f, güç sağlandığında &eSertus Kuvars Kristallerini&r alır ve şarj eder. Bu &eŞarj Olmuş Sertus Kristalleri&r daha sonra moddaki bir diğer önemli kaynak olan &eFluiks&f üretiminde kullanılabilir. Ayrıca güç depolayan herhangi bir eşyayı şarj etmek için de kullanılabilir.\\n\\n&bYazıcı&f AE2'deki çeşitli kuvars kristallerini toz haline getirmek için kullanılabilir. ancak daha da önemlisi özel &eBaskılı Devreler&f ve &eİşlemciler&f üretmek için kullanılır. Bu, sonraki görevde daha anlaşılır olacak."]
+	quest.68B0B3DAF1145191.quest_desc: ["AE2'ye başlamak için ihtiyaç duyacağın ilk şeylerden ikisi &bŞarj Cihazı&f ve &bYazıcı&f'dır.\\n\\n&bŞarj Cihazı&f, güç sağlandığında &eSertus Kuvars Kristallerini&r alır ve şarj eder. Bu &eŞarj Olmuş Sertus Kristalleri&r daha sonra moddaki bir diğer önemli kaynak olan &eFluiks&f üretiminde kullanılabilir. Ayrıca güç depolayan herhangi bir eşyayı şarj etmek için de kullanılabilir.\\n\\n&bYazıcı&f AE2'deki çeşitli kuvars kristallerini toz haline getirmek için kullanılabilir. Ancak daha da önemlisi özel &eBaskılı Devreler&f ve &eİşlemciler&f üretmek için kullanılır. Bu, sonraki görevde daha anlaşılır olacak."]
 	quest.68B0B3DAF1145191.quest_subtitle: "İlk Başta"
 	quest.68B0B3DAF1145191.title: "İlk Başta"
 	quest.69B7DE2283B4EE6C.quest_desc: ["&bÜretim Eş İşlem Birimi&f, şablon sağlayıcıların eşyaları bağlı cihazlarına daha hızlı göndermelerine veya birden fazla gerekli malzemeyi yapmak için eşzamanlı olarak çalışmalarına olanak tanıyarak üretim işlerini hızlandırmaya yardımcı olur.\\n\\nTemel AE2 eş işlemcisi buna yardımcı olmak için eş işlemci 'iş parçacığı' sağlarken, &dMEGA Cells&f eş işlem birimi böyle tek bir blokta 4 iş parçacığı sağlar."]
 	quest.69B7DE2283B4EE6C.quest_subtitle: "Daha fazla CPU çekirdeği indir"
 	quest.6D54B45CDA70FEAB.quest_desc: ["&bEnerji Kartı&f, Taşınabilir Hücreler ve Kablosuz Terminaller (daha sonra açıklanacaktır) gibi şarj edilebilir cihazların çoğuna uygulanarak enerji arabelleklerini de artırabilir."]
-	quest.6E15447FC3D678E0.quest_desc: ["&bBulanık Kart&f, filtrelenmiş bir eşyanın hasar ya da büyü gibi herhangi bir (NBT) metadata'sına bakılmaksızın eşleştirilmesine izin verirken, &bÇevirici Kart&f bu tür veriyollarındaki filtreyi beyaz listeden kara listeye geçirir."]
+	quest.6E15447FC3D678E0.quest_desc: ["&bBulanık Kart&f, filtrelenmiş bir eşyanın hasar ya da büyü gibi herhangi bir metadata'sına bakılmaksızın eşleştirilmesine izin verirken, &bÇevirici Kart&f bu tür veriyollarındaki filtreyi beyaz listeden kara listeye geçirir."]
 	quest.6E15447FC3D678E0.quest_subtitle: "Geriye kalan iki GÇ kartı"
 	quest.6E15447FC3D678E0.title: "Gevşekçe Konuşmak"
 	quest.6F3D0A248B5A9CA2.quest_desc: [
@@ -224,6 +241,13 @@
 	quest.79D2617E01481281.title: "Sertus Kuvars"
 	quest.7B7D1F0CB326B28F.quest_desc: ["&bME GÇ Bağlantı Noktası&f, bir ME ağının depolama içeriğinin ME hücreleri ve depolama veriyollarına bağlı harici konteynerler gibi farklı depolama ortamları arasında hızlı bir şekilde yeniden düzenlenmesini sağlar.\\n\\nSoldaki giriş yuvasına bir hücre yerleştirildiğinde, GÇ Bağlantı Noktası, hücreyi diğer ME depolarına boşaltmak veya (ideal olarak bölümlenmiş) hücreyi diğer depolara yayılmış belirli eşyalarla doldurmak için değiştirilebilir."]
 	quest.7B7D1F0CB326B28F.quest_subtitle: "Disk Birleştirme"
+	quest.7C40F1963FC5BF65.quest_desc: [
+		"İşte resmi AE2 rehberi ve oyun içi rehberin ötesinde bazı ek AE2 rehberleri."
+		"{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://allthemods.github.io/alltheguides/mods/ae2/\"},\"color\":\"blue\",\"text\":\"AllTheGuides AE2 Rehberi\",\"underlined\":true}"
+		"{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=3htUhkDYbJ8\"},\"color\":\"blue\",\"text\":\"BucketSt'ten AE2 Rehber Videosu\",\"underlined\":true}"
+		"{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/playlist?list=PLz9AkOmMlH1lI4H3GeBQ3VzEKlcDDNO8_\"},\"color\":\"blue\",\"text\":\"The MindCrafters'dan AE2 Rehber Oynatma Listesi\",\"underlined\":true}"
+		"{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.youtube.com/watch?v=2_s1srWvq20\"},\"color\":\"blue\",\"text\":\"The MindCrafters'dan Gelişmiş AE Rehberi\",\"underlined\":true}"
+	]
 	quest.7EFBAF3E281D2EBE.quest_desc: [
 		"Harici bir depolama konteyneri ile karşılaştığında &bME Depolama Veriyolu&f, konteynerin ME ağının bir parçasıymış gibi kullanılmasına izin vererek eşyaların tamamen ME aracılığıyla konteynerden çıkarılmasına veya içine yerleştirilmesine olanak tanır. "
 		""
@@ -234,14 +258,17 @@
 	task.1076BC82EECB73F5.title: "Kuvars İngiliz Anahtarları"
 	task.14DEFFB80CC96BC1.title: "ME Yoğun Kapalı Kablolar"
 	task.23D186249A999B8C.title: "Kuvars Kesme Bıçakları"
+	task.2923D1E2BEAF94B0.title: "Ek Rehberler"
 	task.338A6DA0D711B7DC.title: "ME Şablon Sağlayıcı"
 	task.38E290AC5E011888.title: "ME Yoğun Akıllı Kablolar"
 	task.408C5263C4664195.title: "Sandıklar"
 	task.40A7CC56DACC2623.title: "ME Cam Kablolar"
+	task.4C5435BE5560E71B.title: "TümHaklarıSaklıdır"
 	task.61D93B13D496547D.title: "Sıvı Depolama"
 	task.64EAD3DE84E94F02.title: "ME Kapalı Kablolar"
 	task.65C439FD14C5EEB9.title: "Taşınabilir Depo"
 	task.7241918F270CA402.title: "ME Arayüzü"
+	task.729773FF26CBB542.title: "TümHaklarıSaklıdır"
 	task.75924053D6F5B242.title: "Mekansal Depolama Hücreleri"
 	task.7E0D9E6342295AB0.title: "Kanallar Üzerine Önsöz"
 	task.7FC3DAA1BD5016A0.title: "ME Akıllı Kablolar"
