@@ -40,7 +40,6 @@
 		# Default: 5.0
 		# Range: 0.0 ~ 64.0
 		base_velocity_scaling = 5.0
-		#maximum range
 		#note that it will still only keep alive the two fire blocks closer to it
 		# Default: 5
 		# Range: 0 ~ 16
@@ -75,11 +74,27 @@
 		shuffle_containers = true
 
 	[redstone.pulley_block]
+		#Pulleys are automatically disabled if 'rope' feature is disabled
 		enabled = true
 		#Chance for a new mineshaft elevator piece to spawn
 		# Default: 0.035
 		# Range: 0.0 ~ 1.0
 		mineshaft_elevator = 0.035
+		#If true, pulleys retract their rope chain over multiple ticks, animating each block via vanilla moving-piston entities. 
+		#Connected blocks become moving blocks (so they push entities, drop sand etc) and multiple pulleys can cooperate to pull a single heavy contraption, useful for elevators. 
+		#If false, the original instant retraction behavior is used.
+		continuous_retraction = true
+		#If true, multiple pulleys firing on the same tick with the same period and push direction can pool their pull budget into one structure resolve, letting two ropes share a wide elevator platform. Only relevant when 'continuous_retraction' is enabled.
+		cooperative_pulleys = true
+		#Maximum number of NON-rope blocks a single pulley can drag (the anchor and anything sticky-attached to it). Rope segments don't count toward this. Cooperating pulleys pool their budgets: two pulleys can pull twice this many blocks together.
+		# Default: 8
+		# Range: 1 ~ 128
+		pull_limit = 8
+		#Ticks to wait between unit pulls when continuous_retraction is enabled. 
+		#Lower = faster pulley. Minimum 2 ticks because each animation takes that long to play out, going lower has no effect.
+		# Default: 4
+		# Range: 2 ~ 100
+		pull_interval = 4
 
 	[redstone.dispenser_minecart]
 		enabled = true
@@ -107,13 +122,15 @@
 		block_side_attachment = true
 		#Makes sliding down ropes as fast as free falling, still negating fall damage
 		slide_on_fall = true
-		#In case you want to disable supplementaries ropes you can specify here another mod rope and they will be used for rope arrows and in mineshafts instead
-		rope_override = "supplementaries:rope"
 		#Enables horizontal placement of ropes. Disabling will make ropes always non solid
 		horizontal_ropes = true
-		#Use this config to turn allow supplementaries to replace all items tagged as #supplementaies:ropes with supplementaries own rope or turn them to air instead. This is applied to all loot tables (chests and drops)
+		#Use this config to turn allow supplementaries to replace all items tagged as #supplementaries:ropes with supplementaries own rope or turn them to air instead. This is applied to all loot tables (chests and drops)
 		#Allowed Values: REPLACE, NONE, REMOVE
 		replace_in_loot_tables = "NONE"
+		#Also internally disables Galleons, Pulleys, Buntings, Rope arrows and rope mineshaft.
+		#Also disables compat blocks such as supplementaries Farmers Delight rope tomatoes and Decorative blocks rope chandeliers.
+		#Also reminder that you can disable any item from any mod with a recipe (datapack) + JEI hide
+		enabled = true
 
 	[functional.jar]
 		enabled = true
@@ -166,7 +183,7 @@
 		sack_penalty = true
 		#Maximum number of sacks after which the overencumbered effect will be applied. Each multiple of this number will increase the effect strength by one
 		# Default: 2
-		# Range: 0 ~ 50
+		# Range: 1 ~ 50
 		sack_increment = 2
 		#How many slots should a sack have
 		# Default: 9
@@ -193,10 +210,12 @@
 
 	[functional.soap]
 		enabled = true
-		#Dyed Bock types that cannot be cleaned with soap
+		#Dyed Bock/Item types that cannot be cleaned with soap
 		clean_blacklist = ["minecraft:glazed_terracotta", "botania:mystical_flower", "mna:chimerite_crystal", "botania:floating_flower", ",minecraft:mushroom", "botania:mushroom", "botania:tall_mystical_flower", "botania:petal_block", "morered:network_cable", "xycraft_world:glowing_shiny_aurey_block", "xycraft_world:shiny_aurey_block", "xycraft_world:rgb_lamp", "xycraft_world:glowing_rgb_viewer", "xycraft_world:glowing_matte_rgb_block", "xycraft_world:rgb_lamp_pole"]
+		#Allows soap to clean blocks in-world. Disable to prevent in-world block cleaning while keeping soap item and recipes functional
+		block_cleaning_enabled = true
 
-		#This is a map of special blocks that can be cleaned with soap
+		#This is a map of special blocks that can be cleaned with soap. For items you will also need to add a recipe
 		[functional.soap.special_blocks]
 			"quark:dirty_glass" = "minecraft:glass"
 			"minecraft:sticky_piston" = "minecraft:piston"
@@ -218,13 +237,31 @@
 		# Range: 0 ~ 500
 		cooldown = 60
 		music_disc_heave_ho = true
+		#Makes TNT-like block shot from a cannon explode on impact
+		#Allowed Values: IGNITE, IGNITE_ON_IMPACT, NONE
+		explode_tnt = "IGNITE"
 
 		[functional.cannon.cannonball]
 			enabled = true
-			#Cannonball pierce radius. The bigger this is the less piercing power it will have as it will waste more energy breaking these blocks
+			#Cannonball power scaling. Higher values will make cannonballs have more energy. Reminder that the damage and breaking power of a cannonball is proportional to its energy (speed squared) times this constant
+			# Default: 3.5
+			# Range: 0.0 ~ 100.0
+			power_scaling = 3.5
+			#Radius of the 'explosion' when a cannonball hits a block. Set to 0 to disable
 			# Default: 1.1
+			# Range: 0.0 ~ 10.0
+			break_radius = 1.1
+
+		[functional.cannon.cannon_boat]
+			enabled = true
+			#Cannon boat recoil multiplier. Higher values will make the cannon boat recoil more when firing a cannonball
+			# Default: 0.5
 			# Range: 0.0 ~ 5.0
-			radius = 1.1
+			recoil_multiplier = 0.5
+
+		[functional.cannon.plunderer]
+			enabled = true
+			galleon = true
 
 	[functional.present]
 		enabled = true
@@ -261,9 +298,8 @@
 	stone_lamp = true
 	stone_tile = true
 	blackstone_tile = true
+	#Buntings are automatically disabled if 'rope' feature is disabled
 	bunting = true
-	sconce = true
-	sconce_lever = true
 	pancake = true
 	checker_block = true
 	raked_gravel = true
@@ -275,6 +311,11 @@
 	candle_holder = true
 	fire_pit = true
 	wicker_fence = true
+	brittlestone = true
+
+	[building.sconce]
+		enabled = true
+		sconce_lever = true
 
 	[building.blackboard]
 		enabled = true
@@ -286,6 +327,8 @@
 
 	[building.gravel_bricks]
 		enabled = true
+		#Allows gravel bricks to break when fallen upon or when an entity walks on them with enough falling speed
+		allow_breaking = true
 
 	[building.slidy_block]
 		enabled = true
@@ -373,6 +416,8 @@
 	[building.globe]
 		enabled = true
 		sepia_globe = true
+		#Displays current coordinates when using a globe
+		show_coordinates = true
 
 	[building.way_sign]
 		enabled = true
@@ -382,6 +427,16 @@
 			enabled = true
 			#With this option road signs will display the distance to the structure that they are pointing to
 			show_distance_text = true
+			#Maximum distance in chunks that road signs will search for structures
+			# Default: 200
+			# Range: 0 ~ 1000
+			max_search_radius = 200
+			#Speeds up way sign feature searching by making the search stop at the first found structure. This means that way signs won't point to the nearest structure anymore
+			exit_search_early = true
+			#Maximum number of structure types from the tag that road signs will attempt to look for every time. Decreasing might speed up search at the cost of making them not point to the nearest structure out of all. Also if made too low and in cases it were to pick a structure that only spawns very rarely, this would actually slow down the search instead of speeding it up
+			# Default: 12
+			# Range: 1 ~ 100
+			max_structures_searches = 12
 
 	[building.daub]
 		enabled = true
@@ -417,6 +472,15 @@
 		#Makes netherite doors and trapdoors unbreakable
 		unbreakable = false
 
+	[building.spider_head]
+		enabled = true
+
+	[building.barnacles]
+		enabled = true
+
+	[building.gold_bars]
+		enabled = true
+
 [tools]
 	candy = true
 	stasis = true
@@ -439,6 +503,8 @@
 		only_works_in_curio = false
 		#Arrows you pickup will try to go in a quiver if available provided it has some arrow of the same explosionType
 		quiver_pickup = true
+		#If enabled, the quiver skeleton spawn chance will depend on the local difficulty of the world. If disabled, it will always be the same
+		quiver_skeleton_spawn_depend_on_global_difficulty = true
 
 	[tools.lunch_basket]
 		enabled = true
@@ -470,6 +536,10 @@
 			lifetime = 1200
 			#Can bubble break when touched on?
 			break_when_touched = true
+			#Max number of charges a bubble blower can hold
+			# Default: 200
+			# Range: 1 ~ 1000000
+			max_charges = 200
 
 	[tools.wrench]
 		enabled = true
@@ -478,8 +548,9 @@
 		bypass_when_on = "MAIN_HAND"
 
 	[tools.rope_arrow]
+		#Rope arrows are automatically disabled if 'rope' feature is disabled
 		enabled = true
-		#Max number of robe items allowed to be stored inside a rope arrow
+		#Max number of rope items allowed to be stored inside a rope arrow
 		# Default: 32
 		# Range: 1 ~ 256
 		capacity = 32
@@ -496,6 +567,8 @@
 		# Default: 64
 		# Range: 0 ~ 500
 		bound_distance = 64
+		#Allows flute to be unbound. Unbound flutes will search for pets in a radius and teleport them to the player
+		unbound = false
 
 	[tools.bomb]
 		enabled = true
@@ -558,36 +631,26 @@
 	[tools.antique_ink]
 		enabled = true
 
-#General settings
 [general]
 	#Enable Creative Tab
 	creative_tab = false
 	#Set to false to disable custom dispenser behaviors (i.e: filling jars) if for some reason they are causing trouble
 	dispensers = true
-	#Creates a creative tab full of filled jars
-	jar_tab = false
-	#Save generated resources to disk in a 'debug' folder in your game directory. Mainly for debug purposes but can be used to generate assets in all wood types for your mods :0
-	debug_save_dynamic_pack = false
 	#Disable startup messages and sanity check that the mod performs to inform of possible detected crashes that might occur due to issues
 	sanity_checks_messages = true
 	#slightly increase this or decrease this number to tweak the red merchant spawn chance. Won't spawn at 0 and will spawn twice as often on 2
 	# Default: 1.0
 	# Range: 0.0 ~ 10.0
 	red_merchant_spawn_multiplier = 1.0
+	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
+	dynamic_assets_generation_mode = "CACHED"
 
-#Vanilla tweaks
 [tweaks]
-
-	[tweaks.shulker_helmet]
-		#Allows wearing shulker shells
-		enabled = true
-
-	[tweaks.golden_apple_disenchant]
-		enabled = true
-
-	[tweaks.traders_open_doors]
-		#Allows traders to open doors (because they couldnt aparently)
-		enabled = true
+	golden_apple_disenchant = true
+	#allow gravel to be raked with a hoe
+	raked_gravel = true
+	#Adds dragon banner pattern made from dragon head
+	dragon_banner_pattern = true
 
 	[tweaks.dispenser_tweaks]
 		#Allows dispensers to use axes on blocks to strip logs and scrape off copper oxidation and wax
@@ -608,7 +671,6 @@
 		blaze_rods = true
 
 	[tweaks.placeable_gunpowder]
-		#Allow placeable gunpowder
 		enabled = true
 		#Number of ticks it takes for gunpowder to burn 1 stage (out of 8). Increase to slow it down
 		# Default: 2
@@ -618,10 +680,6 @@
 		# Default: 2
 		# Range: 0 ~ 8
 		spread_age = 2
-
-	[tweaks.raked_gravel]
-		#allow gravel to be raked with a hoe
-		enabled = true
 
 	[tweaks.bottle_xp]
 		#Allow bottling up xp by using a bottle on an enchanting table
@@ -634,11 +692,6 @@
 		target_block = ""
 
 	[tweaks.map_tweaks]
-		#Cartographers will sell 'adventurer maps' that will lead to a random vanilla structure (choosen from a thought out preset list).
-		#Best kept disabled if you are adding custom adventurer maps with datapack (check the wiki for more)
-		random_adventurer_maps = true
-		#Select a random structure to look for instead of iterating through all of the ones in the tag returning the closest. Turning on will make ones that have diff structures (aka all different ruined portals) show up more. On could take much more time to compute
-		random_adventurer_maps_select_random_structure = true
 		#Enables beacons, lodestones, respawn anchors, beds, conduits, portals to be displayed on maps by clicking one of them with a map
 		block_map_markers = true
 		#Shows a death marker on your map when you die. Requires a recovery compass in player inventory or similar
@@ -655,17 +708,24 @@
 		#Makes blocks tagged as 'tinted_on_map' use their tint color. This allows for accurate biome colors for water and grass as well as other custom block that use any tint
 		tinted_blocks_on_maps = true
 
+		[tweaks.map_tweaks.random_adventurer_maps]
+			#Cartographers will sell 'adventurer maps' that will lead to a random vanilla structure (choosen from a thought out preset list).
+			#Best kept disabled if you are adding custom adventurer maps with datapack (check the wiki for more)
+			enabled = true
+			#Maximum number of structure types from the tag that road signs will attempt to look for every time. Decrease to speed up search at the cost of making them not point to the nearest structure out of all. Also if made too low and in cases it were to pick a structure that only spawns very rarely, this would actually slow down the search
+			# Default: 100
+			# Range: 1 ~ 1000
+			max_search_radius = 100
+			#Select a random structure to look for instead of iterating through all of the ones in the tag returning the closest. Turning on will make ones that have diff structures (aka all different ruined portals) show up more. Increasing the number past 1 will allow x random structures to be picked instead. this can possibly speed up search as it decreases chances to find far away ones
+			# Default: 1
+			# Range: 1 ~ 1000
+			max_structures_searches = 1
+
 	[tweaks.placeable_books]
-		#Enchantment power bonus given by normal book piles with 4 books. Piles with less books will have their respective fraction of this total. For reference a vanilla bookshelf provides 1
-		# Default: 1.0
-		# Range: 0.0 ~ 5.0
-		book_power = 1.0
-		#Enchantment power bonus given by normal book piles with 4 books. Piles with less books will have their respective fraction of this total. For reference a vanilla bookshelf provides 1
-		# Default: 1.334
-		# Range: 0.0 ~ 5.0
-		enchanted_book_power = 1.334
 		#Allow all books to be placed both vertically and horizontally
 		mixed_books = false
+		#Allow books and enchanted books to be placed on the ground
+		enabled = true
 
 	[tweaks.zombie_horse]
 		#Feed a stack of rotten flesh to a skeleton horse to buff him up to a zombie horse
@@ -679,30 +739,16 @@
 		#Convert a zombie horse back by feeding it a golden carrot
 		zombie_horse_inverse_conversion = true
 
-	[tweaks.noteblocks_scare]
-		#Noteblocks with a zombie head will scare off villagers
-		enabled = true
-
 	[tweaks.bad_luck_tweaks]
 		#Hit a void cat, get the unluck
 		cat_unluck = true
-		#If you have unluck you are more likely to get hit by a lighting
+		#If you have unluck you are more likely to get hit by a lighting. Holding a lightning rod also causes this
 		lightning_unluck = true
-
-	[tweaks.item_lore]
-		#Adds a recipe to add 'lore' strings to an item by combining it with a named nametag
-		enabled = true
-
-	[tweaks.sus_recipes]
-		#Adds recipes to craft suspicious gravel and suspicious sand
-		enabled = false
 
 	[tweaks.slimed_effect]
 		enabled = true
 		#Allow slimeballs to be thrown
 		throwable_slimeballs = true
-		#Show a slime overlay when you hit an entity with a slimeball
-		overlay = true
 		#Thrown slimeballs will shortly nerf the player jump height. Disable if you don't want this effect as it can be quite powerful
 		#Allowed Values: NEVER, ALWAYS, NORMAL_DIFFICULTY, HARD_DIFFICULTY
 		hinders_jump = "NORMAL_DIFFICULTY"
@@ -715,6 +761,36 @@
 		# Range: 0.0 ~ 1.0
 		chance_per_slime_size = 0.15
 
-	[tweaks.dragon_banner_pattern]
-		#Adds dragon banner pattern made from dragon head
-		enabled = true
+	[tweaks.ai_tweaks]
+		#Allows pillagers to use cannon boats. Add more entities to the 'supplementaries:can_use_cannon_boat' tag to allow them to use cannon boats as well
+		pillagers_use_cannon_boats = true
+		#Allows mobs (like raiders and endermen) to dismount from boats when on land. Add more entities to the 'supplementaries:can_dismount_boats' tag to allow them to dismount as well
+		smart_boat_dismount = true
+		#Allows traders to open doors (because they couldn't apparently)
+		traders_open_doors = true
+		#Noteblocks with a zombie head will scare off villagers
+		noteblock_scare = true
+
+	[tweaks.extra_crafting]
+		#Adds a recipe to add 'lore' strings to an item by combining it with a named nametag
+		item_lore = true
+		#Adds recipes to craft suspicious gravel and suspicious sand
+		sus_recipes = false
+
+	[tweaks.clock_and_compass]
+		#Allow to right click with a clock to display current time in numerical form
+		clock_right_click = true
+		#Allow to right click with a compass to display current coordinates in numerical form
+		compass_right_click = false
+		#Allow these features to work in dimensions like nether or end where normally clocks don't work
+		works_in_unnatural_dimensions = false
+
+	[tweaks.piston_tweaks]
+		#If true, pistons can push blocks that have a block entity (e.g. chests, furnaces). Blocks whose push reaction is BLOCK are still immovable regardless of this setting.
+		#Quark takes priority here: while its 'pistons move tile entities' module is enabled this option does nothing and Quark handles piston moves instead, since the two implementations would otherwise both rebuild the moved block entity and wipe its contents. Turn that module off to use this one, which supports more cases (pulleys, cauldron filling, cooperative pistons).
+		#Pulleys and ropes follow whichever implementation is active, so turning both off stops them from moving block entities too.
+		push_block_entities = true
+		#If true, adjacent pistons facing the same direction can pool their 12-block push budget to move structures larger than a single piston could handle alone (e.g. two side-by-side pistons pushing a 24-block slime contraption). Only triggers when a single piston's vanilla resolve would fail.
+		cooperative_pistons = true
+		#If true, pushing an empty cauldron into a water or lava source (with a piston or a pulley) fills it with that fluid, instead of leaving it empty. Also tops up cauldrons being moved.
+		moved_cauldron_filling = true
