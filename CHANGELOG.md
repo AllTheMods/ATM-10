@@ -156,3 +156,4 @@ _Note: use some browser extension like [Markdown Viewer](https://chromewebstore.
 [7.1]: ./changelogs/CHANGELOG-ATM10-7.0-7.1.md
 [7.2]: ./changelogs/CHANGELOG-ATM10-7.1-7.2.md
 [7.3]: ./changelogs/CHANGELOG-ATM10-7.2-7.3.md
+[8.0]: ./changelogs/CHANGELOG-ATM10-7.3-8.0.md
