@@ -25,7 +25,7 @@ ServerEvents.recipes(allthemods => {
         },
         {
           type: 'neoforge:tag',
-          tag: 'atm10:blood',
+          tag: 'c:blood',
           amount: 250,
         },
       ],
@@ -35,7 +35,7 @@ ServerEvents.recipes(allthemods => {
         },
       ],
     }).id('irons_spellbooks:create_compat/create_fill_blood_vial');
-    
+
 });
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
