@@ -1,4 +1,20 @@
 {
+	image.011E4B6218D76D3A.title: "Cavaleiro Ancestral"
+	image.0603F832DA138A7B.title: "Forja de Pergaminhos"
+	image.0C7130648130C896.title: "O Rei Morto"
+	image.1738DE4800011D8B.title: "Ruína Infestada"
+	image.1EE2339CB09FDF9B.title: "Torre do Piromante"
+	image.29FABA9C983D1601.title: "Cabana de Mangue"
+	image.30F797309050ABCB.title: "Bigorna Arcana"
+	image.3347BF8400EC3592.title: "A Cidadela"
+	image.38F99DB68682AB5E.title: "Torre da Montanha"
+	image.451CDFE56E407A48.title: "Caldeirão de Alquimista"
+	image.4BF4AB0B829E9AC5.title: "Piromante"
+	image.4CC18CD4CE3866C8.title: "Necromante"
+	image.5B166D12B729120B.title: "Criomante"
+	image.60B89CFF74362ACD.title: "Eco de Tyros"
+	image.759143506B8CE5E2.title: "Forte dos Evocadores"
+	image.7C697E0FFFB970F2.title: "Mesa de Inscrição"
 	quest.000C1ECD781F3F81.quest_desc: ["A Runa de &2&lNatureza&r é feita para usar a Terra a nosso favor, &2Envenenando&r e &2Enfraquecendo&r nossos inimigos! Assim como as grandes corporações fazem com a própria Terra!\\nO Material de Foco da &2&lNatureza&r é a &2Batata Venenosa&r.\\n\\nOs &2Pergaminhos&r são &aVerde Claro&r com texto &2Verde Escuro&r."]
 	quest.000C1ECD781F3F81.title: "&2&lNatureza"
 	quest.00D80AA4CDD8335C.quest_desc: ["&6&lSacerdote&r não é &6Santo&r o suficiente para você? Bem, você pode Criar a &6Peitoral do Iluminado&r! \\n\\nPrimeiro, você precisará das &6Roupas de Sacerdote&r, que você pode Criar. \\n\\nVocê vai precisar de 3 &bTecidos de Mithril&r, que são feitos de &bMithril&r e Correntes. \\n\\nDepois, você terá que obter o &dFragmento da Alma Divina&r e então poderá Criar a &6Peitoral&r. \\n\\nEssa &6Peitoral&r tem os mesmos Pontos de Armadura das &6Roupas de Sacerdote&r, mas tudo o mais melhora muito! \\n\\nVocê ganha Resistência a Dano, Resistência a Recuo e, claro, mais &3Poder de Feitiço&r e Mana."]
@@ -103,6 +119,12 @@
 		"{image:atm:textures/questpics/iron_spells/spells_pyromancertower.png width:200 height:100 align:center}"
 	]
 	quest.30B7AF815D9D7553.title: "&cTorre do Piromante"
+	quest.3181D07337DEFD14.quest_desc: [
+		"Se você despertar &4&lO Rei Morto&r enquanto estiver com o efeito Mau Presságio ou Presságio de Desafio, o &4&lRei&r fica mais forte.\n\nAgora, ele tem 1000 &cCorações&r, causa mais dano, se move e voa mais rápido, suas invocações causam dano adicional, e tem mais armadura. Ele agora pode invocar &4Fendas Mortas-Vivas&r para invocar &4Mortos-Vivos&r para lutarem por ele, e também pode usar o feitiço &aRedemoinho de Presas&r.\n\nO espólio ao derrotá-lo também é melhorado. Agora, além do espólio usual, ele pode dropar um Anel de Osso Perverso, um pergaminho de &aRedemoinho de Presas&r, uma Tintura do Esquecimento, &7Runas em Branco&r, e ainda mais &bEssência Arcana&r."
+		"{image:atm:textures/questpics/iron_spells/spells_king_ominous.png width:100 height:200 align:center}"
+	]
+	quest.3181D07337DEFD14.quest_subtitle: "Ele de novo?"
+	quest.3181D07337DEFD14.title: "&lO Rei Morto Sinistro"
 	quest.32D2CE292E088939.title: "Orbe de Melhoria de &cFogo&r"
 	quest.34FC02F47F52887F.quest_desc: ["Esse &eLivro de Feitiços&r definitivamente faz você se esforçar para conseguir os 12 &3Slots de Feitiço&r! \\n\\nVocê vai precisar de &bFrascos de Veneno de Gelo&r, que são feitos de &bPresas Geladas&r ou obtidos no &bCovil das Aranhas de Gelo&r. \\n\\n&5Tecidos Arcanos&r que são muito fáceis de fazer. Além de &bFragmentos de Mithril&r que você precisará minerar! \\n\\nPelo quão frio o &eLivro de Feitiços&r parece, acho que ele ajuda com &bFeitiços de Gelo&r."]
 	quest.34FC02F47F52887F.title: "&bLivro de Feitiços Congelado"
@@ -122,13 +144,7 @@
 	quest.3DCD38634176BD92.quest_desc: ["Combine o &eLivro de Feitiços&r de &6Allthemodium&r com um Lingote de Vibranium e um Molde em uma Mesa de Ferraria.\\n\\nEste molde pode ser obtido Escovando Areia das Almas Suspeita em um Bastião."]
 	quest.3DCD38634176BD92.title: "&3Livro de Feitiços de &rVibranium"
 	quest.3E8077AB45C79E6A.quest_desc: [
-		"O Caldeirão do Alquimista pode: \\n"
-		""
-		"&61.&r Ser usado para obter &4Sangue&r cozinhando Mobs ou o Jogador. \\n"
-		"&62.&r Fazer e aprimorar &9Poções&r. \\n"
-		"&63.&r Ter metade da chance de obter &bTinta&r de um &bPergaminho&r. \\n"
-		"&64.&r Combinar 4 &bTintas&r de uma &bRaridade&r para uma &bRaridade&r superior. "
-		""
+		"O Caldeirão do Alquimista pode: \\n&61.&r Ser usado para obter &4Sangue&r cozinhando Mobs ou o Jogador. \\n&62.&r Fazer e aprimorar &9Poções&r. \\n&63.&r Ter metade da chance de obter &bTinta&r de um &bPergaminho&r. \\n&64.&r Combinar 4 &bTintas&r de uma &bRaridade&r para uma &bRaridade&r superior. "
 		"{image:atm:textures/questpics/iron_spells/spells_cauldron.png width:100 height:100 align:center}"
 	]
 	quest.401BB95B740385B7.title: "&6Orbe de Aprimoramento &rSagrado"
@@ -182,7 +198,10 @@
 	quest.59E68086A8B99EA7.title: "&c&lPiromante"
 	quest.5B013A3A37D6902B.quest_desc: ["Você pode encontrar os fragmentos do Conhecimento Ancestral espalhados nos Baús da &9Cidade Ancestral&r. \\n\\nVocê também precisará de &9Fragmentos de Eco&r para 1. Combinar os Fragmentos para aprender sobre os &9Feitiços&r e 2. Realmente fazer os &9Feitiços&r."]
 	quest.5B013A3A37D6902B.title: "&fPara a Cidade Ancestral"
-	quest.5DE863C3FB6492BE.quest_desc: ["{image:atm:textures/questpics/iron_spells/spells_outfit_cultist.png width:60 height:100 align:center}"]
+	quest.5DE863C3FB6492BE.quest_desc: [
+		"JUNTE-SE A NÓS!"
+		"{image:atm:textures/questpics/iron_spells/spells_outfit_cultist.png width:60 height:100 align:center}"
+	]
 	quest.5DE863C3FB6492BE.title: "&4Traje de Cultista"
 	quest.5ED368C926E5F32C.quest_desc: ["Há uma última classe de &3Feitiços&r que esqueci de mencionar. Bem, todo o conhecimento sobre esses &9Feitiços&r foi esquecido, então não sou só eu. \\n\\nPara recuperar memórias, precisamos caminhar, silenciosamente, pela estrada da memória. Que por acaso é a &9Cidade Ancestral&r."]
 	quest.5ED368C926E5F32C.title: "A Última Classe..."
