@@ -1,0 +1,835 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "auroral"
+	group: "5A4775CCD6D26C80"
+	icon: {
+		components: {
+			"ftbquests:missing_item": "auroral:aurora_bloom"
+		}
+		id: "ftbquests:missing_item"
+	}
+	id: "44F441765D7CB182"
+	images: [
+		{
+			height: 2.0d
+			id: "593276AF8F855500"
+			image: "atm:textures/questpics/aurora/aurora_title.png"
+			order: 2
+			rotation: 0.0d
+			width: 8.0d
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			alpha: 100
+			color: 7587327
+			height: 18.0d
+			id: "3BDA1E65087C9ABE"
+			image: "atm:textures/questpics/aurora/aurora_ring.png"
+			order: 1
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			alpha: 100
+			color: 16751330
+			height: 18.0d
+			id: "3F25C59174679B19"
+			image: "atm:textures/questpics/aurora/aurora_ring.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			alpha: 100
+			color: 6684559
+			height: 18.0d
+			id: "359CA940FC9A4A10"
+			image: "atm:textures/questpics/aurora/aurora_ring.png"
+			rotation: 0.0d
+			width: 15.0d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			height: 3.0d
+			id: "7B837177D9A27DE3"
+			image: "auroral:block/glacial_basin_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			height: 2.0d
+			id: "149E05A075E1755C"
+			image: "auroral:block/liquid_aura"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			id: "0CF35A44446717F0"
+			image: "auroral:block/hearthwood_fire"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			id: "3314206F3E77A2FC"
+			image: "auroral:block/aurora_bloom_stage3"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			height: 1.0d
+			id: "0D1A0986B6C108B3"
+			image: "auroral:textures/particle/frost.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -2.5d
+			y: -4.5d
+		}
+		{
+			height: 1.0d
+			id: "199C1B07AB737356"
+			image: "auroral:textures/particle/aurora_sparkle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			id: "2890F44852BD2C0C"
+			image: "auroral:textures/particle/frost.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			id: "566E6D2830B73991"
+			image: "auroral:textures/particle/aurora_sparkle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			height: 1.0d
+			id: "78268B4A60B4C93C"
+			image: "auroral:textures/particle/frost.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			height: 1.0d
+			id: "33CD7957A0468621"
+			image: "auroral:textures/particle/frost.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			height: 1.0d
+			id: "0516F788C4A3FD32"
+			image: "auroral:textures/particle/aurora_sparkle.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5d
+			y: -2.5d
+		}
+	]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			id: "637EF6D9DFC59EE8"
+			rewards: [{
+				id: "041339FBDC3E9181"
+				item: {
+					components: {
+						"ftbquests:missing_item": "auroral:guide"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "auroral:root"
+				criterion: ""
+				id: "13F86953093670F6"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["637EF6D9DFC59EE8"]
+			hide_dependent_lines: true
+			id: "0D3D987594E64A86"
+			rewards: [
+				{
+					count: 2
+					id: "30A1329A587D579D"
+					item: {
+						components: {
+							"ftbquests:missing_item": "auroral:glacial_basin"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "264ADF02494D8916"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "457DD21D7C4EAFB1"
+				item: { components: { "ftbquests:missing_item": "auroral:glacial_basin" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["637EF6D9DFC59EE8"]
+			id: "1F880C6A777B4199"
+			rewards: [{
+				count: 3
+				id: "77B0CE117E6970A6"
+				item: {
+					count: 1
+					id: "minecraft:blue_ice"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "20716888277642A6"
+				item: { components: { "ftbquests:missing_item": "auroral:aurora_bloom" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1F880C6A777B4199"]
+			hide_dependent_lines: true
+			id: "1EE5BFB935D345F3"
+			rewards: [{
+				count: 3
+				id: "4EE1D573DD28B735"
+				item: {
+					components: {
+						"ftbquests:missing_item": "auroral:frozen_petals"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "3167E721916AF6C1"
+				item: { components: { "ftbquests:missing_item": "auroral:frozen_petals" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D3D987594E64A86"]
+			id: "58799D0038E198DF"
+			rewards: [
+				{
+					count: 2
+					id: "398A6DAD588819F6"
+					item: {
+						count: 1
+						id: "minecraft:copper_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "665514F2A6C786C7"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "11B6903B6D47CAC0"
+					item: {
+						count: 1
+						id: "minecraft:coal"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.15d
+			tasks: [
+				{
+					id: "441FE5DEDF8CBBA5"
+					item: { components: { "ftbquests:missing_item": "auroral:unrefined_shimmersteel" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "786FCB175199BC27"
+					item: { components: { "ftbquests:missing_item": "auroral:shimmersteel_ingot" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"0D3D987594E64A86"
+				"1EE5BFB935D345F3"
+			]
+			id: "2FB85057F0F9CE7A"
+			rewards: [{
+				count: 2
+				id: "54B78F8AC2E21AA2"
+				item: {
+					components: {
+						"ftbquests:missing_item": "auroral:aurora_shard"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.15d
+			tasks: [{
+				id: "114DDA8A31E45D2A"
+				item: { components: { "ftbquests:missing_item": "auroral:aurora_shard" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0D3D987594E64A86"]
+			id: "2AFAE2215A774DBA"
+			rewards: [
+				{
+					count: 3
+					id: "77240292300D2689"
+					item: {
+						count: 1
+						id: "minecraft:white_wool"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4C370D2F813216B7"
+					item: {
+						count: 1
+						id: "minecraft:leather"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.15d
+			tasks: [{
+				id: "2B69A6D96BE0B560"
+				item: { components: { "ftbquests:missing_item": "auroral:shimmerweave_fabric" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0D3D987594E64A86"]
+			id: "6E911A8079A1B237"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "7D80C4CB412D0487"
+				item: {
+					components: {
+						"ftbquests:missing_item": "auroral:shimmering_ice"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "124FAE5D8E96472E"
+				item: { components: { "ftbquests:missing_item": "auroral:shimmering_ice" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2FB85057F0F9CE7A"]
+			id: "3AD8A3E543ADABD1"
+			rewards: [{
+				id: "709A5D554F635422"
+				item: {
+					components: {
+						"ftbquests:missing_item": "auroral:shimmersteel_upgrade_smithing_template"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.25d
+			tasks: [{
+				id: "54B3B6843107681A"
+				item: { components: { "ftbquests:missing_item": "auroral:shimmersteel_upgrade_smithing_template" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"6E911A8079A1B237"
+				"1EE5BFB935D345F3"
+			]
+			id: "7758AC49F63ADC8A"
+			optional: true
+			rewards: [{
+				count: 3
+				id: "4C0082C6163B2983"
+				item: {
+					components: {
+						"ftbquests:missing_item": "auroral:candied_glow_leek"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "3F661DEDB8F05E65"
+					item: { components: { "ftbquests:missing_item": "auroral:glow_leek_seeds" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+				{
+					id: "4BA5E55E883C6A95"
+					item: { components: { "ftbquests:missing_item": "auroral:glow_leek" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1F880C6A777B4199"]
+			id: "0BBDB63F944F61A7"
+			optional: true
+			rewards: [{
+				count: 2
+				id: "521D853B7FC59E6F"
+				item: {
+					count: 1
+					id: "minecraft:ender_pearl"
+				}
+				type: "item"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "7570E5AAAC5CCA39"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3AD8A3E543ADABD1"
+				"2AFAE2215A774DBA"
+			]
+			id: "2AB2456B6B8EEAD8"
+			rewards: [
+				{
+					id: "142D680EED088E66"
+					item: {
+						components: {
+							"ftbquests:missing_item": "auroral:shimmersteel_upgrade_smithing_template"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "4D99F874CC7F7E54"
+					item: {
+						components: {
+							"ftbquests:missing_item": "auroral:shimmerweave_fabric"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "29DBFBE510B1C291"
+				item: { components: { "ftbfiltersystem:filter": "or(item(auroral:shimmerweave_goggles)item(auroral:shimmerweave_tunic)item(auroral:shimmerweave_leggings)item(auroral:shimmerweave_skates))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"3AD8A3E543ADABD1"
+				"58799D0038E198DF"
+			]
+			id: "584C5A1F7563F8C8"
+			rewards: [
+				{
+					id: "020278ED475779E0"
+					item: {
+						components: {
+							"ftbquests:missing_item": "auroral:shimmersteel_upgrade_smithing_template"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "14CAD5B197062335"
+					item: {
+						components: {
+							"ftbquests:missing_item": "auroral:shimmersteel_ingot"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "259A95D0B50071E9"
+				item: { components: { "ftbfiltersystem:filter": "or(item(auroral:shimmersteel_sword)item(auroral:shimmer_spear)item(auroral:shimmersteel_bow))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"3AD8A3E543ADABD1"
+				"58799D0038E198DF"
+			]
+			id: "57A31EBE7312995D"
+			rewards: [
+				{
+					id: "1469DB27C0B99DCF"
+					item: {
+						components: {
+							"ftbquests:missing_item": "auroral:shimmersteel_upgrade_smithing_template"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "049B084180F552EE"
+					item: {
+						components: {
+							"ftbquests:missing_item": "auroral:shimmersteel_ingot"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "46C099131E51F7F5"
+				item: { components: { "ftbfiltersystem:filter": "or(item(auroral:shimmersteel_pickaxe)item(auroral:shimmersteel_axe)item(auroral:shimmersteel_shovel)item(auroral:shimmersteel_hoe))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"58799D0038E198DF"
+				"1EE5BFB935D345F3"
+			]
+			id: "2EEBCCE507CF5D67"
+			rewards: [
+				{
+					count: 16
+					id: "50CABC27DAC2FC6E"
+					item: {
+						count: 1
+						id: "minecraft:snowball"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "5DE7C7FA17FFDED8"
+					item: {
+						count: 1
+						id: "minecraft:glass_bottle"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "2D7DFE3E4916820B"
+				item: { components: { "ftbquests:missing_item": "auroral:cold_brewing_stand" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2FB85057F0F9CE7A"]
+			id: "7555F22D066BD4AB"
+			rewards: [
+				{
+					id: "1497A0AFEB3BA8AA"
+					item: {
+						components: {
+							"ftbquests:missing_item": "auroral:hearthwood_log"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2569F40076EB1221"
+					item: {
+						components: {
+							"ftbquests:missing_item": "auroral:snore"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "622132FE07075FC0"
+				item: { components: { "ftbquests:missing_item": "auroral:hearthwood_log" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"2FB85057F0F9CE7A"
+				"58799D0038E198DF"
+			]
+			id: "77E909CA721A721E"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "5D0EBE9173F81E97"
+				item: {
+					components: {
+						"ftbquests:missing_item": "auroral:aurora_lantern"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "07BF89832C182E77"
+				item: { components: { "ftbquests:missing_item": "auroral:aurora_lantern" }, count: 1, id: "ftbquests:missing_item" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["57A31EBE7312995D"]
+			id: "7BECDD4208BB1B24"
+			optional: true
+			rewards: [{
+				count: 4
+				id: "3EEEFA7D30E38815"
+				item: {
+					components: {
+						"ftbquests:missing_item": "auroral:shimmer_soil"
+					}
+					count: 1
+					id: "ftbquests:missing_item"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:missing_item": "auroral:shimmer_soil"
+					}
+					id: "ftbquests:missing_item"
+				}
+				id: "184097BB100F2D3B"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "auroral:shimmer_soil"
+				type: "observation"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2FB85057F0F9CE7A"]
+			hide_dependency_lines: true
+			icon: {
+				components: {
+					"ftbquests:missing_item": "auroral:auroral_nautilus_spawn_egg"
+				}
+				id: "ftbquests:missing_item"
+			}
+			id: "5C2AE7715B3A8EED"
+			rewards: [
+				{
+					id: "036DF78495F0F7C2"
+					item: {
+						components: {
+							"ftbquests:missing_item": "auroral:roasted_snowball"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					id: "23C2282A31E9CD43"
+					item: {
+						components: {
+							"ftbquests:missing_item": "auroral:sugared_roasted_snowball"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			tasks: [
+				{
+					id: "310D93B59ED7A655"
+					item: { count: 1, id: "minecraft:snowball" }
+					type: "item"
+				}
+				{
+					id: "77862419495CD902"
+					item: { components: { "ftbquests:missing_item": "auroral:aurora_shard" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2FB85057F0F9CE7A"]
+			hide_dependency_lines: true
+			id: "11AD7F883D777339"
+			rewards: [
+				{
+					count: 2
+					id: "17C0D413676898E4"
+					item: {
+						count: 1
+						id: "minecraft:snow_block"
+					}
+					type: "item"
+				}
+				{
+					id: "62D293737446B75D"
+					item: {
+						count: 1
+						id: "minecraft:carved_pumpkin"
+					}
+					type: "item"
+				}
+			]
+			shape: "heart"
+			tasks: [
+				{
+					id: "726C8F28DA9D9085"
+					item: { count: 1, id: "minecraft:carved_pumpkin" }
+					type: "item"
+				}
+				{
+					id: "0FB3544A7FB10C7D"
+					item: { components: { "ftbquests:missing_item": "auroral:aurora_shard" }, count: 1, id: "ftbquests:missing_item" }
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			id: "7D5E772B4FB4CC77"
+			invisible: true
+			optional: true
+			shape: "circle"
+			tasks: [
+				{
+					id: "119E1CF7C351F939"
+					type: "checkmark"
+				}
+				{
+					id: "723147B28E759948"
+					type: "checkmark"
+				}
+			]
+			x: 0.5d
+			y: 8.0d
+		}
+	]
+}
