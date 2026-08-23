@@ -14,7 +14,7 @@
 	quest.0BB562FB44B0AAA7.quest_desc: ["Sadece kartların sınırı yok, bu yüzden Overclocker kullanan tek şey de kartlar değil! \\n\\nBu yükseltmeleri sağ alttaki &cNode&r'un içerisine yerleştirerek işlem hızını artırabilirsiniz."]
 	quest.0BB562FB44B0AAA7.quest_subtitle: "Maks: 8"
 	quest.1834B5C1F8435D7A.quest_desc: [
-		"&5&lMekanism&r sistemlerinde sıvı akışını sağlayan borulardır.\\n\\n&5&lMekanism&r'deki birçok makine sıvıya ihtiyaç duyar; örneğin Electrolytic Separator su kullanırken, Thermal Evaporation Plant lityum üretimi için sıvı gerektirir."
+		"&5&lMekanism&r sistemlerinde sıvı akışını sağlayan borulardır.\\n\\n&5&lMekanism&r'deki birçok makine sıvıya ihtiyaç duyar; örneğin Elektrolitik Ayırıcı su kullanırken, Thermal Evaporation Plant lityum üretimi için sıvı gerektirir."
 		"{image:atm:textures/questpics/logistics/meka_pipe.png width:200 height:50 align:center}"
 	]
 	quest.1834B5C1F8435D7A.quest_subtitle: "Sıvılar"
@@ -51,10 +51,10 @@
 	]
 	quest.316B513FE568EF57.quest_subtitle: "Isı"
 	quest.33433A443B65D252.quest_desc: [
-		"&bSu&r = &bMavi&r, &bSu&r = &bSıvı&r, dolayısıyla &bMavi&r = &bSıvı&r!\\n\\nPek çok modun kendine özgü &bsıvıları&r bulunur; Minecraft'ın kendisinde bile &bsu&r ve &clav&r vardır. Bu &bsıvıları&r bir yerden bir yere aktarmanız gerektiğinde en pratik çözümlerden biri &bSıvı Borusus&r kullanmaktır. \\n\\nSınırsız &bsu&r çekmek için lavabolarla da bağlayabilirsiniz!"
+		"&bSu&r = &bMavi&r, &bSu&r = &bSıvı&r, dolayısıyla &bMavi&r = &bSıvı&r!\\n\\nPek çok modun kendine özgü &bsıvıları&r bulunur; Minecraft'ın kendisinde bile &bsu&r ve &clav&r vardır. Bu &bsıvıları&r bir yerden bir yere aktarmanız gerektiğinde en pratik çözümlerden biri &bFluid Pipez&r kullanmaktır. \\n\\nSınırsız &bsu&r çekmek için lavabolarla da bağlayabilirsiniz!"
 		"{image:atm:textures/questpics/logistics/pipez_fluid.png width:200 height:50 align:center}"
 	]
-	quest.33433A443B65D252.title: "&bSıvı Borusuz"
+	quest.33433A443B65D252.title: "&bFluid Pipez"
 	quest.34CFE1439262AA72.quest_desc: [
 		"&5&lMekanism&r kapsamlı bir teknoloji modudur, bu yüzden kendi gelişmiş &flojistik&r çözümlerine de sahiptir."
 		""
@@ -70,7 +70,7 @@
 		"{image:atm:textures/questpics/logistics/pipez_item.png width:200 height:50 align:center}"
 	]
 	quest.36836AD948F96B9F.title: "&eItem Pipez"
-	quest.47768B1FFD57D56E.quest_desc: ["Her tarafa metrelerce &4Kızıltaş&r kablosu döşemekten sıkılmadınız mı? Kablosuz enerji aktarımı varsa neden kablosuz &4kızıltaş sinyali&r de olmasın? &c&lLaserIO&r sayesinde bu nihayet mümkün! Bir &4Redstone Card&r ile sinyali girdi olarak alabilir, başka bir &4Output Card&r ile de sinyali istediğiniz yere aktarabilirsiniz!"]
+	quest.47768B1FFD57D56E.quest_desc: ["Her tarafa metrelerce &4Redstone&r kablosu döşemekten sıkılmadınız mı? Kablosuz enerji aktarımı varsa neden kablosuz &4Redstone sinyali&r de olmasın? &c&lLaserIO&r sayesinde bu nihayet mümkün! Bir &4Redstone Card&r ile sinyali girdi olarak alabilir, başka bir &4Output Card&r ile de sinyali istediğiniz yere aktarabilirsiniz!"]
 	quest.47768B1FFD57D56E.title: "&4Redstone Card"
 	quest.47A2BEFB11F4D581.quest_desc: ["Basic Filter kullanımı son derece kolaydır! İçine eşyaları koymanız yeterlidir, anında filtrelenirler. \\n\\nFiltreyi yalnızca o eşyalara izin verecek (Whitelist) veya o eşyaları engelleyecek şekilde ayarlayabilirsiniz. \\n\\nAyrıca NBT verilerinin eşleşip eşleşmeyeceğini de belirleyebilirsiniz. NBT eşleşmesi; büyülerin, dayanıklılığın veya yakalanan yaratıkların birebir aynı olmasını gerektirir. NBT eşleşmesi kapatılırsa, eşyanın durumuna bakılmaksızın aynı türdeki tüm eşyalar filtreye dahil edilir."]
 	quest.493D04D954E4FBA0.quest_desc: [
@@ -79,7 +79,7 @@
 	]
 	quest.493D04D954E4FBA0.quest_subtitle: "Enerji"
 	quest.4BC2D7FCDD792DBA.quest_desc: [
-		"Çünkü standart &2&lMinecraft&r eşyaları, blokları ve sıvıları yetmedi; üstüne ısı ve enerji de eklendi! \\n\\n&5&lMekanism&r'deki diğer tüm maddeler Pressurized Tube (Basınçlı Tüp) ile taşınır. Hidrojen ve oksijen gibi gazlar, &5&lMekanism&r kullanıyorsanız en çok karşılaşacağınız temel unsurlardır. \\nİnfüzyon türleri (Kömür ve Kızıltaş İnfüzyonu gibi) de benzer şekilde aktarılır. Bulamaçlar (Slurry) maden işlemede kullanılır; pigmentler ise renklerin özüdür, boyanmış herhangi bir eşya &5&lMekanism&r'in bu kısmıyla değiştirilebilir."
+		"Çünkü standart &2&lMinecraft&r eşyaları, blokları ve sıvıları yetmedi; üstüne ısı ve enerji de eklendi! \\n\\n&5&lMekanism&r'deki diğer tüm maddeler Pressurized Tube (Basınçlı Tüp) ile taşınır. Hidrojen ve oksijen gibi gazlar, &5&lMekanism&r kullanıyorsanız en çok karşılaşacağınız temel unsurlardır. \\nİnfüzyon türleri (Kömür ve Redstone İnfüzyonu gibi) de benzer şekilde aktarılır. Bulamaçlar (Slurry) maden işlemede kullanılır; pigmentler ise renklerin özüdür, boyanmış herhangi bir eşya &5&lMekanism&r'in bu kısmıyla değiştirilebilir."
 		"{image:atm:textures/questpics/logistics/meka_tube.png width:200 height:50 align:center}"
 	]
 	quest.4BC2D7FCDD792DBA.quest_subtitle: "Gaz + Daha Fazlası"
@@ -110,7 +110,7 @@
 	quest.617695A9CA45D88F.quest_desc: ["&c&lLaserIO&r ile lojistik ağı kurarken elinizde çok sayıda kart birikebilir. Her biri envanterinizde bir yuva kapladığı için alanınız oldukça daralabilir. Keşke kartlar için bir depolama alanı olsaydı... ha bekleyin, varmış; o da Card Holder! \\n\\nİçinde birden fazla kart saklayabilirsiniz ve bir Laser Node arayüzünü açtığınızda Card Holder da yan tarafta ikinci bir envanter penceresi olarak açılır. Son derece kullanışlıdır!"]
 	quest.6718043D0F2D1830.quest_desc: ["DireWolf20, kartların &5&lMekanism&r modunun farklı madde halleriyle de uyumlu çalışması için bu eklentiyi geliştirdi. Pressurized Tube tüplerinin taşıyabildiği her şeyi bu kartlar da aktarabilir: gazlar, infüze türleri ve pigmentler."]
 	quest.6718043D0F2D1830.title: "&5Chemical Card"
-	quest.6A962535CD68713E.quest_desc: ["&e&lPipez&r yükseltmeleri aktarım kapasitesini katlar! \\n\\nTüm yükseltmeler &e&lPipez&r borularının taşıma miktarını artırır ve ek yapılandırma seçenekleri sunar. \\n\\nBasic Upgrade (Temel Yükseltme), kızıltaş sinyali kontrolüne izin verir ve aktarım modunu değiştirmenizi sağlar: Önce En Yakın, Önce En Uzak, Sırayla (Round-Robin) veya Rastgele. Ayrıca filtre ekleme imkanı da tanır. \\n\\nImproved, Advanced ve Ultimate yükseltmeleri ek bir işlev kazandırmaz, yalnızca aktarım hızını ve miktarını ciddi oranda artırır!"]
+	quest.6A962535CD68713E.quest_desc: ["&e&lPipez&r yükseltmeleri aktarım kapasitesini katlar! \\n\\nTüm yükseltmeler &e&lPipez&r borularının taşıma miktarını artırır ve ek yapılandırma seçenekleri sunar. \\n\\nBasic Upgrade (Temel Yükseltme), Redstone sinyali kontrolüne izin verir ve aktarım modunu değiştirmenizi sağlar: Önce En Yakın, Önce En Uzak, Sırayla (Round-Robin) veya Rastgele. Ayrıca filtre ekleme imkanı da tanır. \\n\\nImproved, Advanced ve Ultimate yükseltmeleri ek bir işlev kazandırmaz, yalnızca aktarım hızını ve miktarını ciddi oranda artırır!"]
 	quest.6CD60A9D88227005.quest_desc: ["Dar alanlarda blokların arasına boru sığdırmakta zorlandınız mı? İşte karşınızda &3Transfer Labels&r! Bu etiketler eşya ve sıvı aktarımı için harika bir çözümdür.\\n\\n&lNasıl Kullanılır?&r\\n\\nBlokların üzerine eğilerek sağ tıklayıp &3etiketleri&r yerleştirebilirsiniz.\\nElinizde başka bir &3etiket&r veya &#FFAC3BLabel Accessor&r varken yerleştirilen &3etikete&r sağ tıklayarak menüsünü açabilirsiniz.\\nElinizde başka bir &3etiket&r veya &#FFAC3BLabel Accessor&r varken yerleştirilen &3etikete&r sol tıklayarak etiketi sökebilirsiniz.\\n&#FFAC3BLabel Accessor&r aracı sayesinde blokların arkasında kalan &3etiketlere&r bile erişebilirsiniz.\\n\\n&lHızlandırma&r\\n\\nMiktar veya hız yuvalarına aynı türden &3etiketler&r yerleştirerek aktarım hızını artırabilirsiniz."]
 	quest.6CD60A9D88227005.quest_subtitle: "Bloklarınızın arasına bir boru sığdırmanız gerektiğinde"
 	quest.6CD60A9D88227005.title: "&3&lTransfer Etiketleri"

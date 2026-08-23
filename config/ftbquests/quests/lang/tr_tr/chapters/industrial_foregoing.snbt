@@ -13,7 +13,7 @@
 	quest.0B35172E47705205.quest_subtitle: "Cevher İşleme: Adım 1"
 	quest.0BCCDE24D378F260.quest_subtitle: "Kademe: &d3"
 	quest.0BCCDE24D378F260.title: "&dGelişmiş Makine Kasası"
-	quest.0D2DD9AA960843A3.quest_desc: ["Yaratık Dedektörü, etki alanındaki varlıkları algılar ve arkasından, etki alanındaki varlık sayısına eşit güçte kızıltaş sinyali yayar.\\n\\nBu makine Menzil Eklentilerini destekler."]
+	quest.0D2DD9AA960843A3.quest_desc: ["Yaratık Dedektörü, etki alanındaki varlıkları algılar ve arkasından, etki alanındaki varlık sayısına eşit güçte Redstone sinyali yayar.\\n\\nBu makine Menzil Eklentilerini destekler."]
 	quest.0E8647B8EB4AAC41.quest_desc: ["Pasif Canlılar -> Daha Fazla &#FF69B4Pembe Balçık&r\\nDüşman Canlılar -> Daha Fazla &6Et&r"]
 	quest.0E8647B8EB4AAC41.title: "Pembe Balçık \\& Sıvı Et"
 	quest.0EA9E52B67B533DF.quest_desc: ["Kauçuk eritildiğinde, Industrial Foregoing'deki ana kaynak olan Plastik'e dönüşür."]
@@ -39,7 +39,7 @@
 	quest.2CCFEE98FE3B2E97.quest_desc: ["Bu makineler blok koyma/kırma işlemlerini otomatikleştirmek için kullanılır. Bu, özellikle Lateks'i otomatikleştirirken çok kullanışlıdır."]
 	quest.2CCFEE98FE3B2E97.title: "Bloklar"
 	quest.2DC012EF21FB359E.quest_desc: ["Büyü Çıkarıcı, eşyalardan büyüleri otomatik olarak çıkarabilir. Büyünün bir Kitaba aktarılmasını sağlayabilir veya büyünün &aÖz&r'e dönüştürülmesini sağlayabilirsiniz."]
-	quest.2E8E292ED596A104.quest_desc: ["Lazer Mercek, Cevher Lazerlerinin belirli bir renkteki cevhere daha fazla odaklanmasını sağlayabilir. Belirli bir cevher türü için hangi lensin en iyi çalıştığını görmek üzere JEI'yi kontrol edin. Ayrıca Sıvı Lazerleri tarafından hangi sıvı türünün üretilebileceğini de belirler."]
+	quest.2E8E292ED596A104.quest_desc: ["Lazer Merceği, Cevher Lazerlerinin belirli bir renkteki cevhere daha fazla odaklanmasını sağlayabilir. Belirli bir cevher türü için hangi lensin en iyi çalıştığını görmek üzere JEI'yi kontrol edin. Ayrıca Sıvı Lazerleri tarafından hangi sıvı türünün üretilebileceğini de belirler."]
 	quest.2F69010E1FA2787D.quest_desc: ["Bu Görev, AllTheMods Modpaketlerinde kullanılmak üzere &6AllTheMods Ekibi&r veya bir &2Topluluk katılımcısı&r tarafından hazırlanmıştır.\\n\\nTüm &6AllTheMods&r paketleri &eTüm Hakları Saklıdır&r lisansına sahip olduğundan, bu Görevin &6AllTheMods Ekibi&r'nin açık izni olmadan yayınlanmayan hiçbir halka açık pakette kullanılmasına izin verilmez.\\n\\nBu görev kasıtlı olarak gizlenmiştir, eğer bunu görüyorsanız düzenleme modundasınız demektir."]
 	quest.3027584AA6138E6D.title: "Konveyör Ekleme \\& Çıkarma"
 	quest.321FA7348E532F4E.quest_desc: ["Lateks, Kuru Kauçuk yapmak için kullanılan bir sıvıdır, ancak Çözünme Odası'da bazı şeyler için de kullanılabilir."]
@@ -76,11 +76,11 @@
 	quest.538186D01429F05F.quest_desc: [
 		"Bu görevde, &cİksir Demleyici&r'ı otomatikleştirmek için AE2 kullanmaya odaklanacağız. İlk olarak, şöyle bir düzenek kurun:"
 		"{image:atm:textures/questpics/industrialforegoing/potionbrewerdemonstration.png width:175 height:200 align:center}"
-		"(Yaratıcı Energy Cell, ana ağınız için temsilci görevi görür)"
+		"(Yaratıcı Mod Enerji Hücresi, ana ağınız için temsilci görevi görür)"
 		"{@pagebreak}"
-		"&cİksir Demleyici&r'ı &1Su&r ve &6Blaze Powder&r ile doldurmak için bir &9Export Bus&r veya &9Interface&r'e ihtiyacımız olacak. &6Blaze Powder&r yakıt olarak kullanılacaktır. Cam şişeleri henüz sisteme vermeyin, aksi takdirde ağınız Su Şişeleri ile dolar."
+		"&cİksir Demleyici&r'ı &1Su&r ve &6Blaze Powder&r ile doldurmak için bir &9ME Dışa Aktarma Veriyolu&r veya &9ME Arayüz&r'e ihtiyacımız olacak. &6Blaze Powder&r yakıt olarak kullanılacaktır. Cam şişeleri henüz sisteme vermeyin, aksi takdirde ağınız Su Şişeleri ile dolar."
 		"{@pagebreak}"
-		"Bir sonraki adım bir &5Gelişmiş Desen Sağlayıcı&r elde etmek olacaktır. Nasıl kullanılacağı hakkında daha fazla bilgi edinmek için Extended \\& Advanced AE bölümüne göz atın. Ardından bir şablon kodlamamız gerekecek. Modular Bees için Royal Treats odaklı &4İyileştirme İksiri&r üretimi buna güzel bir örnektir. Şablonu şöyle ayarlayın: 3 &4İyileştirme İksiri&r üretmek için 3 Glass Bottle, 1 Nether Wart ve 1 Glistering Melon Slice. Burada &5Gelişmiş Sağlayıcı&r'ın sunduğu iki özel yeteneği de kullanacağız. İlki, eşyaları belirli bir yöne iletme özelliğidir. Bunu Glass Bottle'ları makinenin ÜST tarafına aktarmak için kullanacağız. Şablonu oluşturmak üzere &5Gelişmiş Desen Kodlayıcı&r kullanın:"
+		"Bir sonraki adım bir &5Gelişmiş Desen Sağlayıcı&r elde etmek olacaktır. Nasıl kullanılacağı hakkında daha fazla bilgi edinmek için Extended \\& Advanced AE bölümüne göz atın. Ardından bir şablon kodlamamız gerekecek. Modular Bees için Royal Treats odaklı &4İyileştirme İksiri&r üretimi buna güzel bir örnektir. Şablonu şöyle ayarlayın: 3 &4İyileştirme İksiri&r üretmek için 3 Glass Bottle, 1 Nether Yumrusu ve 1 Glistering Melon Slice. Burada &5Gelişmiş Sağlayıcı&r'ın sunduğu iki özel yeteneği de kullanacağız. İlki, eşyaları belirli bir yöne iletme özelliğidir. Bunu Glass Bottle'ları makinenin ÜST tarafına aktarmak için kullanacağız. Şablonu oluşturmak üzere &5Gelişmiş Desen Kodlayıcı&r kullanın:"
 		"{image:atm:textures/questpics/industrialforegoing/advanced_pattern.png width:200 height:100 align:center}"
 		"{@pagebreak}"
 		"Ardından, &5Gelişmiş Sağlayıcı&r'da Filtreed Import'u etkinleştirmeliyiz. Bu, &5Gelişmiş Sağlayıcı&r'ın yalnızca o anda aktif olan üretim işleriyle eşleşen öğeleri kabul etmesini sağlayacaktır. Bu, iksirleri vaktinden önce kabul etmeyeceği anlamına gelir. Ayrıca, özellikle aynı sağlayıcıyı kullanabilecek kadar büyük üretim işlerinde buna yardımcı olması için İşleme Eklentileri da ekleyebilirsiniz.\\n\\nSon olarak, İksir Demleyici'ın yan yüzeylerini şu şekilde yapılandırmanız gerekecektir:"
@@ -88,7 +88,7 @@
 		"{image:atm:textures/questpics/industrialforegoing/bottle_input.png width:125 height:100 align:center}"
 		"{image:atm:textures/questpics/industrialforegoing/brewing_input.png width:125 height:100 align:center}"
 		"{image:atm:textures/questpics/industrialforegoing/output.png width:125 height:100 align:center}"
-		"Eğer &9Interface&r yöntemini kullanıyorsanız, yan tarafları şu şekilde yapılandırın:"
+		"Eğer &9ME Arayüz&r yöntemini kullanıyorsanız, yan tarafları şu şekilde yapılandırın:"
 		"{image:atm:textures/questpics/industrialforegoing/blaze_input_for_interface.png width:125 height:100 align:center}"
 		"{image:atm:textures/questpics/industrialforegoing/water_for_interface.png width:125 height:100 align:center}"
 		"{@pagebreak}"
@@ -114,11 +114,11 @@
 	quest.6E131A32A96D7BF5.quest_desc: ["Çamur Arıtıcı; Toprak, Çakıl, Ruh Kumu gibi çeşitli malzemeleri üretmek için &#5919B6Çamur&r işler. Tüm çıktılar için JEI'ye göz atabilirsiniz."]
 	quest.6FF04DD735346BED.quest_desc: ["Lateks'i Kuru Kauçuk'a dönüştürür. 1 adet Kuru Kauçuk üretimi için 750 mB Lateks ve 500 mB &9Su&r harcar."]
 	quest.79D48F8F31B152C3.quest_desc: [
-		"&bIndustrial Foregoing &#27AEB9Ruhlar&r mekaniği, diğer makineleri ivmelendiren sistemler sunar.\\n\\n&#27AEB9Ruh Lazer Merkezi&r, Wither'dan Eter Gazı süzmeye benzer mantıkla çalışır ve sistemin kalbidir. Bir &#27AEB9Warden&r'dan ruh çekmek için &9Blue Lazer Mercek&r kullanır. Çekilen &#27AEB9Ruhlar&r; &#27AEB9Ruh Borusu&r'lar veya dijital depolama sistemleri (AE2 ve RS) ile taşınabilir. Bu ruhlar &#27AEB9Ruh Dalgası&r makineleri ile diğer blokları hızlandırmakta kullanılır.\\n\\n&#27AEB9Warden&r'dan ruh çekmek canlı için &4&lcan yakıcı&r bir işlemdir; hasar alır ve ölebilir. Warden'ı Durağanlık Odası ile dondurup iyileşme yükseltmeleriyle desteklemek son derece önemlidir."
+		"&bIndustrial Foregoing &#27AEB9Ruhlar&r mekaniği, diğer makineleri ivmelendiren sistemler sunar.\\n\\n&#27AEB9Ruh Lazer Merkezi&r, Wither'dan Eter Gazı çıkaran bir Sıvı Lazer Merkezi'ne benzer mantıkla çalışır ve sistemin kalbidir. Bir &#27AEB9Muhafız&r'dan ruh çekmek için &9Mavi Lazer Merceği&r kullanır. Çekilen &#27AEB9Ruhlar&r; &#27AEB9Ruh Borusu&r'lar veya dijital depolama sistemleri (AE2 ve RS) ile taşınabilir. Bu ruhlar &#27AEB9Ruh Dalgası&r makineleri ile diğer blokları hızlandırmakta kullanılır.\\n\\n&#27AEB9Muhafız&r'dan ruh çekmek canlı için &4&lcan yakıcı&r bir işlemdir; hasar alır ve ölebilir. Muhafız'ı Durağanlık Odası ile dondurup iyileşme yükseltmeleriyle desteklemek son derece önemlidir."
 		"{@pagebreak}"
 		"Aşağıdaki gibi zemin ile &#27AEB9Ruh Lazer Merkezi&r arasında 3 blokluk bir boşluk olduğundan emin olun:"
 		"{image:atm:textures/questpics/industrialforegoing/soul_laser_gap.png width:100 height:100 align:center}"
-		"Ayrıca dondurmadan önce &#27AEB9Warden&r'ın tamamen ortaya çıktığından emin olun."
+		"Ayrıca dondurmadan önce &#27AEB9Muhafız&r'ın tamamen ortaya çıktığından emin olun."
 	]
 	quest.79D48F8F31B152C3.quest_subtitle: "Hızlı gitmeliyim!"
 	quest.79D48F8F31B152C3.title: "&bIndustrial Foregoing &#27AEB9Ruhlar"
@@ -130,7 +130,7 @@
 	quest.7EA218A489641684.quest_desc: ["&bIndustrial Foregoing&r geliştiricisi Buuz135 ruhların depolanabilir olmasını istememişti. Ancak mod geliştiricisi Ultramega bunu depolanabilir hale getirdi.\\n\\nİpucu: Dışa aktarıcının tüm ruhları Ruh Borusu'na dökmesini engellemek için Düzenleyici Yükseltmesi kullanın."]
 	quest.7EA218A489641684.quest_subtitle: "Buuz bunu istememişti"
 	quest.7EA218A489641684.title: "Ruh Depolaması mı?"
-	task.1F1A69738DE70DB6.title: "The Miselyum Reaktörü"
+	task.1F1A69738DE70DB6.title: "Miselyum Reaktörü"
 	task.335D80E83360A7DB.title: "Eter Gazı'ı Anlamak"
 	task.38E166AC8F55D42E.title: "Yükseltmeler"
 	task.391AB5CA0E5C35FD.title: "Lateks ve Plastik'i Anlamak"
@@ -139,5 +139,5 @@
 	task.6B17A0D9906E8C90.title: "TümHaklarıSaklıdır"
 	task.6D00B76B8A141BB8.title: "Herhangi bir #advanced_ae:adv_pattern_provider"
 	task.7058D3373DA87B34.title: "TümHaklarıSaklıdır"
-	task.7FBDB1383D052B82.title: "ME Export Bus VEYA ME Interface"
+	task.7FBDB1383D052B82.title: "ME Dışa Aktarma Veriyolu VEYA ME Arayüz"
 }
