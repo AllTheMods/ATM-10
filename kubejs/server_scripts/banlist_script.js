@@ -102,6 +102,7 @@ function sendMessageAndCancel(/** @type {$ItemClickedKubeEvent_} */event, type) 
 let $LevelChunk = Java.loadClass("net.minecraft.world.level.chunk.LevelChunk")
 let levelAndPosToRemove = Utils.newMap()
 let $ConcurrentLinkedQueue = Java.loadClass("java.util.concurrent.ConcurrentLinkedQueue")
+let $EntityType = Java.loadClass("net.minecraft.world.entity.EntityType")
 let removeBlockEntities = (/** @type {$ChunkEvent$Load_} */ event) => {
   if (event.isNewChunk()) return
   let blocksToRemove = Utils.newList()
@@ -109,7 +110,7 @@ let removeBlockEntities = (/** @type {$ChunkEvent$Load_} */ event) => {
     if (event.chunk.persistedStatus != "minecraft:full") return
     event.chunk.getBlockEntities().forEach((pos, be) => {
       /** @type {$ResourceLocation_} */
-      let beRL = be.getType().getKey(be.getType())
+      let beRL = $EntityType.getKey(be.getType())
       if (bannedBlockEntities.contains(beRL.toString())) {
         blocksToRemove.add(pos)
       }
