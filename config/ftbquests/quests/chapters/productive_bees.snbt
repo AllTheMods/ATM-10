@@ -10,6 +10,7 @@
 	images: [
 		{
 			height: 5.0d
+			id: "270A00DF6C203BE6"
 			image: "atm:textures/questpics/bees/productive_bees.png"
 			rotation: 0.0d
 			width: 20.0d
@@ -18,6 +19,7 @@
 		}
 		{
 			height: 2.0d
+			id: "5D406B46B52F53F0"
 			image: "minecraft:textures/item/honeycomb.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -26,6 +28,7 @@
 		}
 		{
 			height: 2.0d
+			id: "3049F27C359D8988"
 			image: "minecraft:textures/item/honey_bottle.png"
 			rotation: 0.0d
 			width: 2.0d
@@ -34,6 +37,7 @@
 		}
 		{
 			height: 0.3d
+			id: "622AD522232E6634"
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
@@ -1999,40 +2003,9 @@
 			hide_dependency_lines: true
 			icon: {
 				components: {
-					"relics:data": {
-						abilities: {
-							abilities: {
-								heart: {
-									extender: {
-										cooldown: 0
-										cooldownCap: 0
-										ticking: 0b
-									}
-									lock: {
-										breaks: 5
-									}
-									points: 0
-									research: {
-										links: { }
-										researched: 0b
-									}
-									stats: {
-										amount: {
-											initialValue: 3.62555d
-										}
-									}
-								}
-							}
-						}
-						leveling: {
-							experience: 0
-							level: 0
-							luck: 0
-							points: 0
-						}
-					}
+					"ftbquests:missing_item": "artifacts:crystal_heart"
 				}
-				id: "artifacts:crystal_heart"
+				id: "ftbquests:missing_item"
 			}
 			id: "2E51F09F6D9E5EF8"
 			rewards: [{
@@ -5224,29 +5197,6 @@
 				type: "item"
 			}]
 			x: 8.5d
-			y: 22.0d
-		}
-		{
-			dependencies: ["17419401147B5C02"]
-			hide_dependency_lines: true
-			hide_dependent_lines: true
-			icon: {
-				id: "enderio:copper_alloy_ingot"
-			}
-			id: "16987C41D4F5BA47"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7F85503A2D7D256C"
-				table_id: 6438168168113377309L
-				type: "loot"
-			}]
-			tasks: [{
-				id: "52213CAAC7B43162"
-				item: { components: { "productivebees:bee_type": "productivebees:copper_alloy" }, count: 1, id: "productivebees:configurable_honeycomb" }
-				match_components: "fuzzy"
-				type: "item"
-			}]
-			x: 10.5d
 			y: 22.0d
 		}
 		{
