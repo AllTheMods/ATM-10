@@ -208,7 +208,7 @@ KubeJSTweaks.beforeRecipes(event => {
           let tag = ing.get("tag")
           if (tag != null) {
             if (tag.getAsString().endsWith("_dyes")) {
-              let color = tag.getAsString().replace("c:","").replace("_dyes","")
+              let color = tag.getAsString().replace("c:", "").replace("_dyes", "")
               ing["addProperty(java.lang.String,java.lang.String)"]("tag", "c:dyes/" + color)
             }
           }
@@ -224,7 +224,7 @@ KubeJSTweaks.beforeRecipes(event => {
           let tag = key.get("tag")
           if (tag != null) {
             if (tag.getAsString().endsWith("_dyes")) {
-              let color = tag.getAsString().replace("c:","").replace("_dyes","")
+              let color = tag.getAsString().replace("c:", "").replace("_dyes", "")
               key["addProperty(java.lang.String,java.lang.String)"]("tag", "c:dyes/" + color)
             }
           }
@@ -232,20 +232,77 @@ KubeJSTweaks.beforeRecipes(event => {
       }
     })
 
-  event.getEntry(["pneumaticcraft:block_heat_properties/createlowheated/basic_burner_empowered","pneumaticcraft:block_heat_properties/createlowheated/basic_burner_lit"])
+  event.getEntry(["pneumaticcraft:block_heat_properties/createlowheated/basic_burner_empowered", "pneumaticcraft:block_heat_properties/createlowheated/basic_burner_lit"])
     .forEach(entry => {
-      entry.json().add("neoforge:conditions", [{ "type": "neoforge:mod_loaded", "modid": "createlowheated"}])
+      entry.json().add("neoforge:conditions", [{ "type": "neoforge:mod_loaded", "modid": "createlowheated" }])
     })
-	
-  if (!Platform.isLoaded("aeronautics")){
-    event.disable(["create_dragons_plus:crafting/fragile_fluid_tank","create_dragons_plus:crafting/levitite_fragile_fluid_tank"])
+
+  if (!Platform.isLoaded("aeronautics")) {
+    event.disable(["create_dragons_plus:crafting/fragile_fluid_tank", "create_dragons_plus:crafting/levitite_fragile_fluid_tank"])
   }
-  
+
   event.getEntry("justenoughbreeding:breeding/iceandfire/lightning_dragon").forEach(entry => {
     entry.replaceValueAtKey("outputs", "item", "iceandfire:dragonegg_amythest", "iceandfire:dragonegg_amethyst")
-  })  
+  })
 
   event.getEntry(["apotheosis:pinnacle_spawner_upgrade_rune", "apotheosis:raven_enchanting_table"]).forEach(entry => entry.ignoreWarning())
+
+  event.fixItemAtKey(["create:cutting/aeronos_caps", "create:cutting/glacian_log", "create:cutting/stripped_glacian_log", "create:cutting/strophar_caps", "create:milling/venus_sandstone", "create:pressing/calorite_ingot", "create:pressing/desh_ingot", "create:pressing/ostrum_ingot", "create:pressing/steel_ingot"], "results")
+
+  event.fixItemAtKey(["create:crushing/deepslate_calorite_ore", "create:crushing/deepslate_desh_ore", "create:crushing/deepslate_ice_shard_ore", "create:crushing/deepslate_ostrum_ore", "create:crushing/glacio_coal_ore", "create:crushing/glacio_copper_ore", "create:crushing/glacio_ice_shard_ore", "create:crushing/glacio_iron_ore", "create:crushing/glacio_lapis_ore", "create:crushing/mars_diamond_ore", "create:crushing/mars_ice_shard_ore", "create:crushing/mars_iron_ore", "create:crushing/mars_ostrum_ore", "create:crushing/mercury_iron_ore", "create:crushing/moon_cheese_ore", "create:crushing/moon_desh_ore", "create:crushing/moon_ice_shard_ore", "create:crushing/moon_iron_ore", "create:crushing/venus_calorite_ore", "create:crushing/venus_coal_ore", "create:crushing/venus_diamond_ore", "create:crushing/venus_gold_ore"], "results"),
+
+  event.fixItemAtKey(["mekanism:crushing/venus_sandstone_to_venus_sand", "mekanism:enriching/ice_shard_or_to_ice_shards"], "output")
+
+  event.getEntry(["mekanism:sawing/door/aeronos", "mekanism:sawing/door/glacian", "mekanism:sawing/door/strophar", "mekanism:sawing/fence_gate/aeronos", "mekanism:sawing/fence_gate/glacian", "mekanism:sawing/fence_gate/strophar", "mekanism:sawing/log/aeronos", "mekanism:sawing/log/glacian", "mekanism:sawing/log/strophar", "mekanism:sawing/pressure_plate/glacian", "mekanism:sawing/trapdoor/aeronos", "mekanism:sawing/trapdoor/glacian", "mekanism:sawing/trapdoor/strophar"])
+    .forEach(entry => {
+      entry.fixItemAtKey("mainOutput")
+      entry.fixItemAtKey("secondaryOutput")
+      entry.renameKey("mainOutput", "main_output", false)
+      entry.renameKey("secondaryOutput", "secondary_output", false)
+      entry.renameKey("secondaryChance", "secondary_chance", false)
+      let ing = entry.json().get("input").remove("ingredient")
+      entry.json().add("input", ing)
+    })
+
+  event.getEntry(["mekanism:crushing/venus_sandstone_to_venus_sand", "mekanism:enriching/ice_shard_or_to_ice_shards"])
+    .forEach(entry => {
+      let ing = entry.json().get("input").remove("ingredient")
+      entry.json().add("input", ing)
+      let input = entry.json().get("input")
+      let tag = input.get("tag")
+      if (tag != null) {
+        if (tag.getAsString().startsWith("forge:")) {
+          let newTag = tag.getAsString().replace("forge:", "c:")
+          input["addProperty(java.lang.String,java.lang.String)"]("tag", newTag)
+        }
+      }
+    })
+
+  event.getEntry(["immersiveengineering:crafting/plate_calorite_hammering", "immersiveengineering:crafting/plate_desh_hammering", "immersiveengineering:crafting/plate_ostrum_hammering"])
+    .forEach(entry => {
+      entry.fixItemAtKey("result")
+      let ings = entry.json().get("ingredients")
+      ings.forEach(ing => {
+        let tag = ing.get("tag")
+        if (tag != null) {
+          if (tag.getAsString().startsWith("forge:")) {
+            let newTag = tag.getAsString().replace("forge:", "c:")
+            ing["addProperty(java.lang.String,java.lang.String)"]("tag", newTag)
+          }
+        }
+      })
+    })
+
+  event.getEntry("ad_astra:astrodux").forEach(entry => {
+    entry.json()["addProperty(java.lang.String,java.lang.String)"]("type", "minecraft:crafting_shaped")
+    entry.json().add("result", {
+      "type": "component",
+      "id": "patchouli:guide_book",
+      "components": {
+        "patchouli:book": "ad_astra:astrodux"
+      }
+    })
+  })
 
   console.log(`Fixing recipes took ${timer.stop().elapsed("milliseconds")} ms...`)
 })

@@ -127,6 +127,8 @@ ServerEvents.tags('item', allthemods => {
 	"irons_spellbooks:decrepit_key",
 	"irons_spellbooks:bone_key"
   ])
+  
+  allthemods.add("c:sandstone/venus_sandstone", ["ad_astra:venus_sandstone"])
 })
 
 ServerEvents.tags('entity_type', allthemods => {
