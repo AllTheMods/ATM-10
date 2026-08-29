@@ -213,7 +213,12 @@
 
 	[projection.strengthening]
 		#Items that Strengthening won't work on
-		STRENGTHENING_ITEM_BLACKLIST = []
+		STRENGTHENING_ITEM_BLACKLIST = [
+			"modularbees:electrode_copper",
+			"modularbees:electrode_iron",
+			"modularbees:electrode_gold",
+			"modularbees:electrode_netherite",
+		]
 		#This is the cost of using the scroll
 		#Range: 0 ~ 100000000
 		STRENGTHENING_MANA_COST = 200
