@@ -32,6 +32,9 @@ ServerEvents.tags('block', allthemods => {
   allthemods.add('c:storage_blocks/niter', 'kubejs:saltpeter_block')
   allthemods.add('c:storage_blocks/saltpeter', 'kubejs:saltpeter_block')
   allthemods.add('c:storage_blocks', '#c:storage_blocks/niter')
+
+  // Fix Jank with Feral Flares and Enchanting
+  allthemods.add("minecraft:replaceable", "torchmaster:invisible_light")
 })
 
 ServerEvents.tags('fluid', allthemods => {
