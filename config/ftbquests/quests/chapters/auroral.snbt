@@ -4,10 +4,7 @@
 	filename: "auroral"
 	group: "5A4775CCD6D26C80"
 	icon: {
-		components: {
-			"ftbquests:missing_item": "auroral:aurora_bloom"
-		}
-		id: "ftbquests:missing_item"
+		id: "auroral:aurora_bloom"
 	}
 	id: "44F441765D7CB182"
 	images: [
@@ -155,7 +152,7 @@
 			y: -2.5d
 		}
 	]
-	order_index: 1
+	order_index: 2
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -164,11 +161,8 @@
 			rewards: [{
 				id: "041339FBDC3E9181"
 				item: {
-					components: {
-						"ftbquests:missing_item": "auroral:guide"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "auroral:guide"
 				}
 				type: "item"
 			}]
@@ -192,11 +186,8 @@
 					count: 2
 					id: "30A1329A587D579D"
 					item: {
-						components: {
-							"ftbquests:missing_item": "auroral:glacial_basin"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "auroral:glacial_basin"
 					}
 					type: "item"
 				}
@@ -210,7 +201,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "457DD21D7C4EAFB1"
-				item: { components: { "ftbquests:missing_item": "auroral:glacial_basin" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "auroral:glacial_basin" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -230,7 +221,7 @@
 			}]
 			tasks: [{
 				id: "20716888277642A6"
-				item: { components: { "ftbquests:missing_item": "auroral:aurora_bloom" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "auroral:aurora_bloom" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -244,18 +235,15 @@
 				count: 3
 				id: "4EE1D573DD28B735"
 				item: {
-					components: {
-						"ftbquests:missing_item": "auroral:frozen_petals"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "auroral:frozen_petals"
 				}
 				type: "item"
 			}]
 			shape: "circle"
 			tasks: [{
 				id: "3167E721916AF6C1"
-				item: { components: { "ftbquests:missing_item": "auroral:frozen_petals" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "auroral:frozen_petals" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -298,12 +286,12 @@
 			tasks: [
 				{
 					id: "441FE5DEDF8CBBA5"
-					item: { components: { "ftbquests:missing_item": "auroral:unrefined_shimmersteel" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "auroral:unrefined_shimmersteel" }
 					type: "item"
 				}
 				{
 					id: "786FCB175199BC27"
-					item: { components: { "ftbquests:missing_item": "auroral:shimmersteel_ingot" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "auroral:shimmersteel_ingot" }
 					type: "item"
 				}
 			]
@@ -320,11 +308,8 @@
 				count: 2
 				id: "54B78F8AC2E21AA2"
 				item: {
-					components: {
-						"ftbquests:missing_item": "auroral:aurora_shard"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "auroral:aurora_shard"
 				}
 				type: "item"
 			}]
@@ -332,7 +317,7 @@
 			size: 1.15d
 			tasks: [{
 				id: "114DDA8A31E45D2A"
-				item: { components: { "ftbquests:missing_item": "auroral:aurora_shard" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "auroral:aurora_shard" }
 				type: "item"
 			}]
 			x: 1.0d
@@ -365,7 +350,7 @@
 			size: 1.15d
 			tasks: [{
 				id: "2B69A6D96BE0B560"
-				item: { components: { "ftbquests:missing_item": "auroral:shimmerweave_fabric" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "auroral:shimmerweave_fabric" }
 				type: "item"
 			}]
 			x: -1.0d
@@ -379,17 +364,14 @@
 				count: 3
 				id: "7D80C4CB412D0487"
 				item: {
-					components: {
-						"ftbquests:missing_item": "auroral:shimmering_ice"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "auroral:shimmering_ice"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "124FAE5D8E96472E"
-				item: { components: { "ftbquests:missing_item": "auroral:shimmering_ice" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "auroral:shimmering_ice" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -401,11 +383,8 @@
 			rewards: [{
 				id: "709A5D554F635422"
 				item: {
-					components: {
-						"ftbquests:missing_item": "auroral:shimmersteel_upgrade_smithing_template"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "auroral:shimmersteel_upgrade_smithing_template"
 				}
 				type: "item"
 			}]
@@ -413,7 +392,7 @@
 			size: 1.25d
 			tasks: [{
 				id: "54B3B6843107681A"
-				item: { components: { "ftbquests:missing_item": "auroral:shimmersteel_upgrade_smithing_template" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "auroral:shimmersteel_upgrade_smithing_template" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -430,11 +409,8 @@
 				count: 3
 				id: "4C0082C6163B2983"
 				item: {
-					components: {
-						"ftbquests:missing_item": "auroral:candied_glow_leek"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "auroral:candied_glow_leek"
 				}
 				type: "item"
 			}]
@@ -442,12 +418,12 @@
 			tasks: [
 				{
 					id: "3F661DEDB8F05E65"
-					item: { components: { "ftbquests:missing_item": "auroral:glow_leek_seeds" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "auroral:glow_leek_seeds" }
 					type: "item"
 				}
 				{
 					id: "4BA5E55E883C6A95"
-					item: { components: { "ftbquests:missing_item": "auroral:glow_leek" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "auroral:glow_leek" }
 					type: "item"
 				}
 			]
@@ -486,22 +462,16 @@
 				{
 					id: "142D680EED088E66"
 					item: {
-						components: {
-							"ftbquests:missing_item": "auroral:shimmersteel_upgrade_smithing_template"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "auroral:shimmersteel_upgrade_smithing_template"
 					}
 					type: "item"
 				}
 				{
 					id: "4D99F874CC7F7E54"
 					item: {
-						components: {
-							"ftbquests:missing_item": "auroral:shimmerweave_fabric"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "auroral:shimmerweave_fabric"
 					}
 					type: "item"
 				}
@@ -524,29 +494,23 @@
 				{
 					id: "020278ED475779E0"
 					item: {
-						components: {
-							"ftbquests:missing_item": "auroral:shimmersteel_upgrade_smithing_template"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "auroral:shimmersteel_upgrade_smithing_template"
 					}
 					type: "item"
 				}
 				{
 					id: "14CAD5B197062335"
 					item: {
-						components: {
-							"ftbquests:missing_item": "auroral:shimmersteel_ingot"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "auroral:shimmersteel_ingot"
 					}
 					type: "item"
 				}
 			]
 			tasks: [{
 				id: "259A95D0B50071E9"
-				item: { components: { "ftbfiltersystem:filter": "or(item(auroral:shimmersteel_sword)item(auroral:shimmer_spear)item(auroral:shimmersteel_bow))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				item: { components: { "ftbfiltersystem:filter": "or(item(auroral:shimmersteel_sword)item(auroral:shimmersteel_bow))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -562,22 +526,16 @@
 				{
 					id: "1469DB27C0B99DCF"
 					item: {
-						components: {
-							"ftbquests:missing_item": "auroral:shimmersteel_upgrade_smithing_template"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "auroral:shimmersteel_upgrade_smithing_template"
 					}
 					type: "item"
 				}
 				{
 					id: "049B084180F552EE"
 					item: {
-						components: {
-							"ftbquests:missing_item": "auroral:shimmersteel_ingot"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "auroral:shimmersteel_ingot"
 					}
 					type: "item"
 				}
@@ -619,7 +577,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "2D7DFE3E4916820B"
-				item: { components: { "ftbquests:missing_item": "auroral:cold_brewing_stand" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "auroral:cold_brewing_stand" }
 				type: "item"
 			}]
 			x: -2.5d
@@ -632,11 +590,8 @@
 				{
 					id: "1497A0AFEB3BA8AA"
 					item: {
-						components: {
-							"ftbquests:missing_item": "auroral:hearthwood_log"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "auroral:hearthwood_log"
 					}
 					type: "item"
 				}
@@ -644,11 +599,8 @@
 					count: 3
 					id: "2569F40076EB1221"
 					item: {
-						components: {
-							"ftbquests:missing_item": "auroral:snore"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "auroral:snore"
 					}
 					type: "item"
 				}
@@ -656,7 +608,7 @@
 			shape: "hexagon"
 			tasks: [{
 				id: "622132FE07075FC0"
-				item: { components: { "ftbquests:missing_item": "auroral:hearthwood_log" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "auroral:hearthwood_log" }
 				type: "item"
 			}]
 			x: 2.5d
@@ -673,18 +625,15 @@
 				count: 4
 				id: "5D0EBE9173F81E97"
 				item: {
-					components: {
-						"ftbquests:missing_item": "auroral:aurora_lantern"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "auroral:aurora_lantern"
 				}
 				type: "item"
 			}]
 			shape: "hexagon"
 			tasks: [{
 				id: "07BF89832C182E77"
-				item: { components: { "ftbquests:missing_item": "auroral:aurora_lantern" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "auroral:aurora_lantern" }
 				type: "item"
 			}]
 			x: -1.5d
@@ -698,21 +647,15 @@
 				count: 4
 				id: "3EEEFA7D30E38815"
 				item: {
-					components: {
-						"ftbquests:missing_item": "auroral:shimmer_soil"
-					}
 					count: 1
-					id: "ftbquests:missing_item"
+					id: "auroral:shimmer_soil"
 				}
 				type: "item"
 			}]
 			shape: "hexagon"
 			tasks: [{
 				icon: {
-					components: {
-						"ftbquests:missing_item": "auroral:shimmer_soil"
-					}
-					id: "ftbquests:missing_item"
+					id: "auroral:shimmer_soil"
 				}
 				id: "184097BB100F2D3B"
 				observation_type: "block"
@@ -728,32 +671,23 @@
 			dependencies: ["2FB85057F0F9CE7A"]
 			hide_dependency_lines: true
 			icon: {
-				components: {
-					"ftbquests:missing_item": "auroral:auroral_nautilus_spawn_egg"
-				}
-				id: "ftbquests:missing_item"
+				id: "auroral:auroral_nautilus_spawn_egg"
 			}
 			id: "5C2AE7715B3A8EED"
 			rewards: [
 				{
 					id: "036DF78495F0F7C2"
 					item: {
-						components: {
-							"ftbquests:missing_item": "auroral:roasted_snowball"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "auroral:roasted_snowball"
 					}
 					type: "item"
 				}
 				{
 					id: "23C2282A31E9CD43"
 					item: {
-						components: {
-							"ftbquests:missing_item": "auroral:sugared_roasted_snowball"
-						}
 						count: 1
-						id: "ftbquests:missing_item"
+						id: "auroral:sugared_roasted_snowball"
 					}
 					type: "item"
 				}
@@ -767,7 +701,7 @@
 				}
 				{
 					id: "77862419495CD902"
-					item: { components: { "ftbquests:missing_item": "auroral:aurora_shard" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "auroral:aurora_shard" }
 					type: "item"
 				}
 			]
@@ -806,7 +740,7 @@
 				}
 				{
 					id: "0FB3544A7FB10C7D"
-					item: { components: { "ftbquests:missing_item": "auroral:aurora_shard" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "auroral:aurora_shard" }
 					type: "item"
 				}
 			]
