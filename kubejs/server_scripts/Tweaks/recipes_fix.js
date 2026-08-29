@@ -251,7 +251,7 @@ KubeJSTweaks.beforeRecipes(event => {
 
   event.fixItemAtKey(["create:crushing/deepslate_calorite_ore", "create:crushing/deepslate_desh_ore", "create:crushing/deepslate_ice_shard_ore", "create:crushing/deepslate_ostrum_ore", "create:crushing/glacio_coal_ore", "create:crushing/glacio_copper_ore", "create:crushing/glacio_ice_shard_ore", "create:crushing/glacio_iron_ore", "create:crushing/glacio_lapis_ore", "create:crushing/mars_diamond_ore", "create:crushing/mars_ice_shard_ore", "create:crushing/mars_iron_ore", "create:crushing/mars_ostrum_ore", "create:crushing/mercury_iron_ore", "create:crushing/moon_cheese_ore", "create:crushing/moon_desh_ore", "create:crushing/moon_ice_shard_ore", "create:crushing/moon_iron_ore", "create:crushing/venus_calorite_ore", "create:crushing/venus_coal_ore", "create:crushing/venus_diamond_ore", "create:crushing/venus_gold_ore"], "results"),
 
-  event.fixItemAtKey(["mekanism:crushing/venus_sandstone_to_venus_sand", "mekanism:enriching/ice_shard_or_to_ice_shards"], "output")
+    event.fixItemAtKey(["mekanism:crushing/venus_sandstone_to_venus_sand", "mekanism:enriching/ice_shard_or_to_ice_shards"], "output")
 
   event.getEntry(["mekanism:sawing/door/aeronos", "mekanism:sawing/door/glacian", "mekanism:sawing/door/strophar", "mekanism:sawing/fence_gate/aeronos", "mekanism:sawing/fence_gate/glacian", "mekanism:sawing/fence_gate/strophar", "mekanism:sawing/log/aeronos", "mekanism:sawing/log/glacian", "mekanism:sawing/log/strophar", "mekanism:sawing/pressure_plate/glacian", "mekanism:sawing/trapdoor/aeronos", "mekanism:sawing/trapdoor/glacian", "mekanism:sawing/trapdoor/strophar"])
     .forEach(entry => {
@@ -303,6 +303,53 @@ KubeJSTweaks.beforeRecipes(event => {
       }
     })
   })
+
+  event.getEntry(["immersiveengineering:crusher/ice_shard", "immersiveengineering:crusher/venus_sandstone"])
+    .forEach(entry => {
+      entry.fixItemAtKey("result")
+      let input = entry.json().get("input")
+      let tag = input.get("tag")
+      if (tag != null) {
+        if (tag.getAsString().startsWith("forge:")) {
+          let newTag = tag.getAsString().replace("forge:", "c:")
+          input["addProperty(java.lang.String,java.lang.String)"]("tag", newTag)
+        }
+      }
+      let secs = entry.json().get("secondaries")
+      secs.forEach(sec => {
+        let output = sec.get("output")
+        if (output != null) {
+          tag = output.get("tag")
+          if (tag != null) {
+            if (tag.getAsString().startsWith("forge:")) {
+              let newTag = tag.getAsString().replace("forge:", "c:")
+              output["addProperty(java.lang.String,java.lang.String)"]("tag", newTag)
+            }
+          }
+        }
+      })
+    })
+
+  event.getEntry(["immersiveengineering:metalpress/plate_calorite", "immersiveengineering:metalpress/plate_desh", "immersiveengineering:metalpress/plate_ostrum"])
+    .forEach(entry => {
+      entry.fixItemAtKey("result")
+      let input = entry.json().get("input")
+      let tag = input.get("tag")
+      if (tag != null) {
+        if (tag.getAsString().startsWith("forge:")) {
+          let newTag = tag.getAsString().replace("forge:", "c:")
+          input["addProperty(java.lang.String,java.lang.String)"]("tag", newTag)
+        }
+      }
+      let result = entry.json().get("result")
+      tag = result.get("tag")
+      if (tag != null) {
+        if (tag.getAsString().startsWith("forge:")) {
+          let newTag = tag.getAsString().replace("forge:", "c:")
+          result["addProperty(java.lang.String,java.lang.String)"]("tag", newTag)
+        }
+      }
+    })
 
   console.log(`Fixing recipes took ${timer.stop().elapsed("milliseconds")} ms...`)
 })
