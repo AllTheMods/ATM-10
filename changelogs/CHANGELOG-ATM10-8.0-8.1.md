@@ -67,9 +67,14 @@ Summary of changes here!
 ## 🛠️ Mods
 
 <details open>
-<summary>Added (3)</summary>
+<summary>Added (8)</summary>
 
+- Ad Astra (1.16.19)
+- Ad Astra: Giselle Addon (8.1)
 - Apollib (1.2.0)
+- Common Storage Lib: Core (0.0.10)
+- Common Storage Lib: Lookup (0.0.10)
+- Common Storage Lib: Resources (0.0.10)
 - LogisticsNetworks (1.13.0)
 - Step Crafter (1.21.1-0.1.8)
 
@@ -161,8 +166,14716 @@ Summary of changes here!
 ## 🍳 Recipes
 
 <details>
-<summary>Added (195)</summary>
+<summary>Added (874)</summary>
 <blockquote>
+
+<details>
+<summary>ad_astra/aeronos_door</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:aeronos_planks"
++    }
++  }
++  pattern: [
++    "##"
++    "##"
++    "##"
++  ]
++  result: {
++    count: 3
++    id: "ad_astra:aeronos_door"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/aeronos_fence</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:aeronos_planks"
++    }
++    |: {
++      item: "minecraft:stick"
++    }
++  }
++  pattern: [
++    "#|#"
++    "#|#"
++  ]
++  result: {
++    count: 3
++    id: "ad_astra:aeronos_fence"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/aeronos_fence_gate</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:aeronos_planks"
++    }
++    |: {
++      item: "minecraft:stick"
++    }
++  }
++  pattern: [
++    "|#|"
++    "|#|"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:aeronos_fence_gate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/aeronos_ladder</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:aeronos_planks"
++    }
++  }
++  pattern: [
++    "# #"
++    "###"
++    "# #"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:aeronos_ladder"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/aeronos_planks</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      tag: "ad_astra:aeronos_caps"
++    }
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:aeronos_planks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/aeronos_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:aeronos_planks"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:aeronos_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/aeronos_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:aeronos_planks"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:aeronos_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/aeronos_trapdoor</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:aeronos_planks"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++  ]
++  result: {
++    count: 2
++    id: "ad_astra:aeronos_trapdoor"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/airlock</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    B: {
++      tag: "ad_astra:steel_blocks"
++    }
++  }
++  pattern: [
++    "##B"
++    "###"
++    "B##"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:airlock"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/alloying/steel_ingot_from_alloying_iron_ingot_and_barrier</summary>
+
+```diff
++{
++  type: "ad_astra:alloying"
++  cookingtime: 100
++  energy: 20
++  ingredients: [
++    {
++      tag: "c:ingots/iron"
++    }
++    {
++      tag: "minecraft:coals"
++    }
++  ]
++  result: {
++    count: 1
++    id: "alltheores:steel_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/astrodux</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "patchouli"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "patchouli"
++        }
++      ]
++    }
++  ]
++  type: "minecraft:crafting_shaped"
++  pattern: [
++    "#/#"
++    "/B/"
++    "#/#"
++  ]
++  key: {
++    #: {
++      item: "minecraft:blue_dye"
++    }
++    /: {
++      tag: "c:ingots/iron"
++    }
++    B: {
++      item: "minecraft:book"
++    }
++  }
++  book: "ad_astra:astrodux"
++  result: {
++    type: "component"
++    id: "patchouli:guide_book"
++    components: {
++      patchouli:book: "ad_astra:astrodux"
++    }
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/black_flag</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:black_wool"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "|##"
++    "|##"
++    "|  "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:black_flag"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/black_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:black_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GGG"
++    "I#I"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:black_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/blasting/calorite_ingot_from_blasting_deepslate_calorite_ore</summary>
+
+```diff
++{
++  type: "minecraft:blasting"
++  category: "misc"
++  cookingtime: 100
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:deepslate_calorite_ore"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:calorite_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/blasting/calorite_ingot_from_blasting_raw_calorite</summary>
+
+```diff
++{
++  type: "minecraft:blasting"
++  category: "misc"
++  cookingtime: 100
++  experience: 0.1
++  ingredient: {
++    tag: "ad_astra:raw_calorite"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:calorite_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/blasting/calorite_ingot_from_blasting_venus_calorite_ore</summary>
+
+```diff
++{
++  type: "minecraft:blasting"
++  category: "misc"
++  cookingtime: 100
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:venus_calorite_ore"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:calorite_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/blasting/cheese_from_blasting_moon_cheese_ore</summary>
+
+```diff
++{
++  type: "minecraft:blasting"
++  category: "misc"
++  cookingtime: 100
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:moon_cheese_ore"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:cheese"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/blasting/desh_ingot_from_blasting_deepslate_desh_ore</summary>
+
+```diff
++{
++  type: "minecraft:blasting"
++  category: "misc"
++  cookingtime: 100
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:deepslate_desh_ore"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:desh_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/blasting/desh_ingot_from_blasting_moon_desh_ore</summary>
+
+```diff
++{
++  type: "minecraft:blasting"
++  category: "misc"
++  cookingtime: 100
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:moon_desh_ore"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:desh_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/blasting/desh_ingot_from_blasting_raw_desh</summary>
+
+```diff
++{
++  type: "minecraft:blasting"
++  category: "misc"
++  cookingtime: 100
++  experience: 0.1
++  ingredient: {
++    tag: "ad_astra:raw_desh"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:desh_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/blasting/ice_shard_from_blasting_deepslate_ice_shard_ore</summary>
+
+```diff
++{
++  type: "minecraft:blasting"
++  category: "misc"
++  cookingtime: 100
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:deepslate_ice_shard_ore"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:ice_shard"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/blasting/ice_shard_from_blasting_glacio_ice_shard_ore</summary>
+
+```diff
++{
++  type: "minecraft:blasting"
++  category: "misc"
++  cookingtime: 100
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:glacio_ice_shard_ore"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:ice_shard"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/blasting/ice_shard_from_blasting_mars_ice_shard_ore</summary>
+
+```diff
++{
++  type: "minecraft:blasting"
++  category: "misc"
++  cookingtime: 100
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:mars_ice_shard_ore"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:ice_shard"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/blasting/ice_shard_from_blasting_moon_ice_shard_ore</summary>
+
+```diff
++{
++  type: "minecraft:blasting"
++  category: "misc"
++  cookingtime: 100
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:moon_ice_shard_ore"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:ice_shard"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/blasting/ostrum_ingot_from_blasting_deepslate_ostrum_ore</summary>
+
+```diff
++{
++  type: "minecraft:blasting"
++  category: "misc"
++  cookingtime: 100
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:deepslate_ostrum_ore"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:ostrum_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/blasting/ostrum_ingot_from_blasting_mars_ostrum_ore</summary>
+
+```diff
++{
++  type: "minecraft:blasting"
++  category: "misc"
++  cookingtime: 100
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:mars_ostrum_ore"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:ostrum_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/blasting/ostrum_ingot_from_blasting_raw_ostrum</summary>
+
+```diff
++{
++  type: "minecraft:blasting"
++  category: "misc"
++  cookingtime: 100
++  experience: 0.1
++  ingredient: {
++    tag: "ad_astra:raw_ostrum"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:ostrum_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/blue_flag</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:blue_wool"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "|##"
++    "|##"
++    "|  "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:blue_flag"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/blue_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:blue_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GGG"
++    "I#I"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:blue_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/brown_flag</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:brown_wool"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "|##"
++    "|##"
++    "|  "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:brown_flag"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/brown_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:brown_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GGG"
++    "I#I"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:brown_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/cable_duct</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    C: {
++      tag: "c:ingots/copper"
++    }
++    S: {
++      item: "ad_astra:steel_cable"
++    }
++  }
++  pattern: [
++    "#C#"
++    "CSC"
++    "#C#"
++  ]
++  result: {
++    count: 2
++    id: "ad_astra:cable_duct"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/calorite_block</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:calorite_ingots"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:calorite_block"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/calorite_engine</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:calorite_plates"
++    }
++    E: {
++      item: "ad_astra:ostrum_engine"
++    }
++    F: {
++      item: "ad_astra:fan"
++    }
++  }
++  pattern: [
++    "###"
++    "#E#"
++    " F "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:calorite_engine"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/calorite_factory_block</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:calorite_plates"
++    }
++    C: {
++      tag: "ad_astra:calorite_ingots"
++    }
++  }
++  pattern: [
++    "###"
++    "#C#"
++    "###"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:calorite_factory_block"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/calorite_ingot</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:calorite_nuggets"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:calorite_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/calorite_ingot_from_calorite_block</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      item: "ad_astra:calorite_block"
++    }
++  ]
++  result: {
++    count: 9
++    id: "ad_astra:calorite_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/calorite_nugget</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      item: "ad_astra:calorite_ingot"
++    }
++  ]
++  result: {
++    count: 9
++    id: "ad_astra:calorite_nugget"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/calorite_panel</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:calorite_plates"
++    }
++    I: {
++      tag: "ad_astra:calorite_ingots"
++    }
++  }
++  pattern: [
++    "#I#"
++    "III"
++    "#I#"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:calorite_panel"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/calorite_pillar</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:calorite_plating"
++    }
++  }
++  pattern: [
++    "#"
++    "#"
++  ]
++  result: {
++    count: 2
++    id: "ad_astra:calorite_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/calorite_plateblock</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:calorite_plates"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "###"
++    "#|#"
++    "###"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:calorite_plateblock"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/calorite_plating</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:calorite_plates"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++    "###"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:calorite_plating"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/calorite_plating_button</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      item: "ad_astra:calorite_plating"
++    }
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:calorite_plating_button"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/calorite_plating_pressure_plate</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:calorite_plating"
++    }
++  }
++  pattern: [
++    "##"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:calorite_plating_pressure_plate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/calorite_plating_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:calorite_plating"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:calorite_plating_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/calorite_plating_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:calorite_plating"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:calorite_plating_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/calorite_sliding_door</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:calorite_plates"
++    }
++    B: {
++      tag: "ad_astra:calorite_blocks"
++    }
++    P: {
++      item: "minecraft:glass_pane"
++    }
++  }
++  pattern: [
++    "###"
++    "PBP"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:calorite_sliding_door"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/calorite_tank</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:calorite_plates"
++    }
++    T: {
++      item: "ad_astra:ostrum_tank"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "## "
++    "#T|"
++    "## "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:calorite_tank"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/cheese</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      item: "ad_astra:cheese_block"
++    }
++  ]
++  result: {
++    count: 9
++    id: "ad_astra:cheese"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/cheese_block</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:cheese"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:cheese_block"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/chiseled_glacio_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:glacio_stone_brick_slab"
++    }
++  }
++  pattern: [
++    "#"
++    "#"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_glacio_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/chiseled_glacio_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:chiseled_glacio_stone_bricks"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:chiseled_glacio_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/chiseled_glacio_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:chiseled_glacio_stone_bricks"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:chiseled_glacio_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/chiseled_mars_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:mars_stone_brick_slab"
++    }
++  }
++  pattern: [
++    "#"
++    "#"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_mars_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/chiseled_mars_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:chiseled_mars_stone_bricks"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:chiseled_mars_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/chiseled_mars_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:chiseled_mars_stone_bricks"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:chiseled_mars_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/chiseled_mercury_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:mercury_stone_brick_slab"
++    }
++  }
++  pattern: [
++    "#"
++    "#"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_mercury_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/chiseled_mercury_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:chiseled_mercury_stone_bricks"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:chiseled_mercury_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/chiseled_mercury_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:chiseled_mercury_stone_bricks"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:chiseled_mercury_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/chiseled_moon_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:moon_stone_brick_slab"
++    }
++  }
++  pattern: [
++    "#"
++    "#"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_moon_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/chiseled_moon_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:chiseled_moon_stone_bricks"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:chiseled_moon_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/chiseled_moon_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:chiseled_moon_stone_bricks"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:chiseled_moon_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/chiseled_permafrost_brick_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:chiseled_permafrost_bricks"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:chiseled_permafrost_brick_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/chiseled_permafrost_brick_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:chiseled_permafrost_bricks"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:chiseled_permafrost_brick_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/chiseled_permafrost_bricks</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:permafrost_brick_slab"
++    }
++  }
++  pattern: [
++    "#"
++    "#"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_permafrost_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/chiseled_venus_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:venus_stone_brick_slab"
++    }
++  }
++  pattern: [
++    "#"
++    "#"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_venus_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/chiseled_venus_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:chiseled_venus_stone_bricks"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:chiseled_venus_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/chiseled_venus_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:chiseled_venus_stone_bricks"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:chiseled_venus_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/coal_generator</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "c:ingots/iron"
++    }
++    C: {
++      tag: "c:storage_blocks/coal"
++    }
++    F: {
++      item: "minecraft:furnace"
++    }
++  }
++  pattern: [
++    "###"
++    "CFC"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:coal_generator"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/compressing/calorite_plate_from_compressing_calorite_blocks</summary>
+
+```diff
++{
++  type: "ad_astra:compressing"
++  cookingtime: 800
++  energy: 20
++  ingredient: {
++    tag: "ad_astra:calorite_blocks"
++  }
++  result: {
++    count: 9
++    id: "ad_astra:calorite_plate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/compressing/calorite_plate_from_compressing_calorite_ingots</summary>
+
+```diff
++{
++  type: "ad_astra:compressing"
++  cookingtime: 100
++  energy: 20
++  ingredient: {
++    tag: "ad_astra:calorite_ingots"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:calorite_plate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/compressing/desh_plate_from_compressing_desh_blocks</summary>
+
+```diff
++{
++  type: "ad_astra:compressing"
++  cookingtime: 800
++  energy: 20
++  ingredient: {
++    tag: "ad_astra:desh_blocks"
++  }
++  result: {
++    count: 9
++    id: "ad_astra:desh_plate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/compressing/desh_plate_from_compressing_desh_ingots</summary>
+
+```diff
++{
++  type: "ad_astra:compressing"
++  cookingtime: 100
++  energy: 20
++  ingredient: {
++    tag: "ad_astra:desh_ingots"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:desh_plate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/compressing/iron_plate_from_compressing_iron_block</summary>
+
+```diff
++{
++  type: "ad_astra:compressing"
++  cookingtime: 800
++  energy: 20
++  ingredient: {
++    tag: "c:storage_blocks/iron"
++  }
++  result: {
++    count: 9
++    id: "alltheores:iron_plate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/compressing/iron_plate_from_compressing_iron_ingot</summary>
+
+```diff
++{
++  type: "ad_astra:compressing"
++  cookingtime: 100
++  energy: 20
++  ingredient: {
++    tag: "c:ingots/iron"
++  }
++  result: {
++    count: 1
++    id: "alltheores:iron_plate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/compressing/ostrum_plate_from_compressing_ostrum_blocks</summary>
+
+```diff
++{
++  type: "ad_astra:compressing"
++  cookingtime: 800
++  energy: 20
++  ingredient: {
++    tag: "ad_astra:ostrum_blocks"
++  }
++  result: {
++    count: 9
++    id: "ad_astra:ostrum_plate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/compressing/ostrum_plate_from_compressing_ostrum_ingots</summary>
+
+```diff
++{
++  type: "ad_astra:compressing"
++  cookingtime: 100
++  energy: 20
++  ingredient: {
++    tag: "ad_astra:ostrum_ingots"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:ostrum_plate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/compressing/steel_plate_from_compressing_steel_blocks</summary>
+
+```diff
++{
++  type: "ad_astra:compressing"
++  cookingtime: 800
++  energy: 20
++  ingredient: {
++    tag: "ad_astra:steel_blocks"
++  }
++  result: {
++    count: 9
++    id: "alltheores:steel_plate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/compressing/steel_plate_from_compressing_steel_ingots</summary>
+
+```diff
++{
++  type: "ad_astra:compressing"
++  cookingtime: 100
++  energy: 20
++  ingredient: {
++    tag: "ad_astra:steel_ingots"
++  }
++  result: {
++    count: 1
++    id: "alltheores:steel_plate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/compressor</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "c:ingots/iron"
++    }
++    P: {
++      item: "minecraft:piston"
++    }
++  }
++  pattern: [
++    "#P#"
++    "# #"
++    "#P#"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:compressor"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/cryo_freezer</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:ostrum_plates"
++    }
++    G: {
++      item: "ad_astra:large_gas_tank"
++    }
++    I: {
++      item: "minecraft:blue_ice"
++    }
++  }
++  pattern: [
++    "###"
++    "IGI"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:cryo_freezer"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/cryo_freezing/cryo_fuel_from_cryo_freezing_blue_ice</summary>
+
+```diff
++{
++  type: "ad_astra:cryo_freezing"
++  cookingtime: 120
++  energy: 40
++  ingredient: {
++    item: "minecraft:blue_ice"
++  }
++  result: {
++    amount: 10
++    id: "ad_astra:cryo_fuel"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/cryo_freezing/cryo_fuel_from_cryo_freezing_ice</summary>
+
+```diff
++{
++  type: "ad_astra:cryo_freezing"
++  cookingtime: 120
++  energy: 40
++  ingredient: {
++    item: "minecraft:ice"
++  }
++  result: {
++    amount: 1
++    id: "ad_astra:cryo_fuel"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/cryo_freezing/cryo_fuel_from_cryo_freezing_ice_shard</summary>
+
+```diff
++{
++  type: "ad_astra:cryo_freezing"
++  cookingtime: 60
++  energy: 40
++  ingredient: {
++    item: "ad_astra:ice_shard"
++  }
++  result: {
++    amount: 25
++    id: "ad_astra:cryo_fuel"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/cryo_freezing/cryo_fuel_from_cryo_freezing_packed_ice</summary>
+
+```diff
++{
++  type: "ad_astra:cryo_freezing"
++  cookingtime: 120
++  energy: 40
++  ingredient: {
++    item: "minecraft:packed_ice"
++  }
++  result: {
++    amount: 2
++    id: "ad_astra:cryo_fuel"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/cyan_flag</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:cyan_wool"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "|##"
++    "|##"
++    "|  "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:cyan_flag"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/cyan_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:cyan_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GGG"
++    "I#I"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:cyan_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/desh_block</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:desh_ingots"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:desh_block"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/desh_cable</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:desh_plates"
++    }
++    C: {
++      tag: "c:ingots/copper"
++    }
++  }
++  pattern: [
++    "###"
++    "CCC"
++    "###"
++  ]
++  result: {
++    count: 16
++    id: "ad_astra:desh_cable"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/desh_engine</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:desh_plates"
++    }
++    E: {
++      item: "ad_astra:steel_engine"
++    }
++    F: {
++      item: "ad_astra:fan"
++    }
++  }
++  pattern: [
++    "###"
++    "#E#"
++    " F "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:desh_engine"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/desh_factory_block</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:desh_plates"
++    }
++    D: {
++      tag: "ad_astra:desh_ingots"
++    }
++  }
++  pattern: [
++    "###"
++    "#D#"
++    "###"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:desh_factory_block"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/desh_fluid_pipe</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:desh_plates"
++    }
++    G: {
++      item: "minecraft:glass"
++    }
++  }
++  pattern: [
++    "###"
++    "GGG"
++    "###"
++  ]
++  result: {
++    count: 16
++    id: "ad_astra:desh_fluid_pipe"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/desh_ingot</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:desh_nuggets"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:desh_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/desh_ingot_from_desh_block</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      item: "ad_astra:desh_block"
++    }
++  ]
++  result: {
++    count: 9
++    id: "ad_astra:desh_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/desh_nugget</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      item: "ad_astra:desh_ingot"
++    }
++  ]
++  result: {
++    count: 9
++    id: "ad_astra:desh_nugget"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/desh_panel</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:desh_plates"
++    }
++    I: {
++      tag: "ad_astra:desh_ingots"
++    }
++  }
++  pattern: [
++    "#I#"
++    "III"
++    "#I#"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:desh_panel"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/desh_pillar</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:desh_plating"
++    }
++  }
++  pattern: [
++    "#"
++    "#"
++  ]
++  result: {
++    count: 2
++    id: "ad_astra:desh_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/desh_plateblock</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:desh_plates"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "###"
++    "#|#"
++    "###"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:desh_plateblock"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/desh_plating</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:desh_plates"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++    "###"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:desh_plating"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/desh_plating_button</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      item: "ad_astra:desh_plating"
++    }
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:desh_plating_button"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/desh_plating_pressure_plate</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:desh_plating"
++    }
++  }
++  pattern: [
++    "##"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:desh_plating_pressure_plate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/desh_plating_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:desh_plating"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:desh_plating_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/desh_plating_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:desh_plating"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:desh_plating_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/desh_sliding_door</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:desh_plates"
++    }
++    B: {
++      tag: "ad_astra:desh_blocks"
++    }
++    P: {
++      item: "minecraft:glass_pane"
++    }
++  }
++  pattern: [
++    "###"
++    "PBP"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:desh_sliding_door"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/desh_tank</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:desh_plates"
++    }
++    T: {
++      item: "ad_astra:steel_tank"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "## "
++    "#T|"
++    "## "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:desh_tank"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/encased_calorite_block</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:calorite_plates"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "III"
++    "###"
++    "III"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:encased_calorite_block"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/encased_desh_block</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:desh_plates"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "III"
++    "###"
++    "III"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:encased_desh_block"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/encased_iron_block</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:iron_plates"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "III"
++    "###"
++    "III"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:encased_iron_block"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/encased_ostrum_block</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:ostrum_plates"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "III"
++    "###"
++    "III"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:encased_ostrum_block"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/encased_steel_block</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "III"
++    "###"
++    "III"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:encased_steel_block"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/energizer</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:ostrum_plates"
++    }
++    B: {
++      tag: "ad_astra:ostrum_blocks"
++    }
++    D: {
++      tag: "c:storage_blocks/diamond"
++    }
++    E: {
++      item: "ad_astra:etrionic_capacitor"
++    }
++  }
++  pattern: [
++    "#E#"
++    "BDB"
++    "#E#"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:energizer"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/engine_frame</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "|||"
++    "|#|"
++    "|||"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:engine_frame"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/etrionic_blast_furnace</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:iron_plates"
++    }
++    B: {
++      item: "minecraft:blast_furnace"
++    }
++    R: {
++      tag: "c:dusts/redstone"
++    }
++  }
++  pattern: [
++    "###"
++    "RBR"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:etrionic_blast_furnace"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/etrionic_capacitor</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    D: {
++      tag: "c:gems/diamond"
++    }
++    R: {
++      tag: "c:dusts/redstone"
++    }
++  }
++  pattern: [
++    "R#R"
++    "#D#"
++    "D#D"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:etrionic_capacitor"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/fan</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "# #"
++    " | "
++    "# #"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:fan"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/fluid_pipe_duct</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:desh_plates"
++    }
++    C: {
++      tag: "c:ingots/copper"
++    }
++    S: {
++      item: "ad_astra:desh_fluid_pipe"
++    }
++  }
++  pattern: [
++    "#C#"
++    "CSC"
++    "#C#"
++  ]
++  result: {
++    count: 2
++    id: "ad_astra:fluid_pipe_duct"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/fuel_refinery</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    B: {
++      item: "minecraft:bucket"
++    }
++    F: {
++      item: "minecraft:furnace"
++    }
++  }
++  pattern: [
++    "###"
++    "BFB"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:fuel_refinery"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/gas_tank</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:iron_plates"
++    }
++    |: {
++      tag: "c:rods/iron"
++    }
++  }
++  pattern: [
++    "| "
++    "##"
++    "##"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:gas_tank"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glacian_button</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      item: "ad_astra:glacian_planks"
++    }
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:glacian_button"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glacian_door</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:glacian_planks"
++    }
++  }
++  pattern: [
++    "##"
++    "##"
++    "##"
++  ]
++  result: {
++    count: 3
++    id: "ad_astra:glacian_door"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glacian_fence</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:glacian_planks"
++    }
++    |: {
++      item: "minecraft:stick"
++    }
++  }
++  pattern: [
++    "#|#"
++    "#|#"
++  ]
++  result: {
++    count: 3
++    id: "ad_astra:glacian_fence"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glacian_fence_gate</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:glacian_planks"
++    }
++    |: {
++      item: "minecraft:stick"
++    }
++  }
++  pattern: [
++    "|#|"
++    "|#|"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:glacian_fence_gate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glacian_planks</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      tag: "ad_astra:glacian_logs"
++    }
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:glacian_planks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glacian_pressure_plate</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:glacian_planks"
++    }
++  }
++  pattern: [
++    "##"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:glacian_pressure_plate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glacian_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:glacian_planks"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:glacian_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glacian_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:glacian_planks"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:glacian_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glacian_trapdoor</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:glacian_planks"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++  ]
++  result: {
++    count: 2
++    id: "ad_astra:glacian_trapdoor"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glacio_cobblestone_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:glacio_cobblestone"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:glacio_cobblestone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glacio_cobblestone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:glacio_cobblestone"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:glacio_cobblestone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glacio_pillar</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:glacio_stone"
++    }
++  }
++  pattern: [
++    "#"
++    "#"
++  ]
++  result: {
++    count: 2
++    id: "ad_astra:glacio_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glacio_stone_brick_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:glacio_stone_bricks"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:glacio_stone_brick_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glacio_stone_brick_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:glacio_stone_bricks"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:glacio_stone_brick_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glacio_stone_brick_wall</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:glacio_stone_bricks"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:glacio_stone_brick_wall"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glacio_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:glacio_stone"
++    }
++  }
++  pattern: [
++    "##"
++    "##"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:glacio_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glacio_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:glacio_stone"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:glacio_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glacio_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:glacio_stone"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:glacio_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glowing_calorite_pillar</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      item: "ad_astra:calorite_pillar"
++    }
++    {
++      item: "minecraft:glowstone_dust"
++    }
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:glowing_calorite_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glowing_desh_pillar</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      item: "ad_astra:desh_pillar"
++    }
++    {
++      item: "minecraft:glowstone_dust"
++    }
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:glowing_desh_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glowing_iron_pillar</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      item: "ad_astra:iron_pillar"
++    }
++    {
++      item: "minecraft:glowstone_dust"
++    }
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:glowing_iron_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glowing_ostrum_pillar</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      item: "ad_astra:ostrum_pillar"
++    }
++    {
++      item: "minecraft:glowstone_dust"
++    }
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:glowing_ostrum_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/glowing_steel_pillar</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      item: "ad_astra:steel_pillar"
++    }
++    {
++      item: "minecraft:glowstone_dust"
++    }
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:glowing_steel_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/gravity_normalizer</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:desh_plates"
++    }
++    D: {
++      tag: "c:storage_blocks/diamond"
++    }
++    E: {
++      item: "ad_astra:etrionic_capacitor"
++    }
++  }
++  pattern: [
++    "EDE"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:gravity_normalizer"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/gray_flag</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:gray_wool"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "|##"
++    "|##"
++    "|  "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:gray_flag"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/gray_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:gray_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GGG"
++    "I#I"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:gray_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/green_flag</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:green_wool"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "|##"
++    "|##"
++    "|  "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:green_flag"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/green_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:green_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GGG"
++    "I#I"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:green_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/iron_factory_block</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:iron_plates"
++    }
++    I: {
++      tag: "c:ingots/iron"
++    }
++  }
++  pattern: [
++    "###"
++    "#I#"
++    "###"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:iron_factory_block"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/iron_panel</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:iron_plates"
++    }
++    I: {
++      tag: "c:ingots/iron"
++    }
++  }
++  pattern: [
++    "#I#"
++    "III"
++    "#I#"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:iron_panel"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/iron_pillar</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:iron_plating"
++    }
++  }
++  pattern: [
++    "#"
++    "#"
++  ]
++  result: {
++    count: 2
++    id: "ad_astra:iron_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/iron_plateblock</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:iron_plates"
++    }
++    |: {
++      tag: "c:rods/iron"
++    }
++  }
++  pattern: [
++    "###"
++    "#|#"
++    "###"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:iron_plateblock"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/iron_plating</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:iron_plates"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++    "###"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:iron_plating"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/iron_plating_button</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      item: "ad_astra:iron_plating"
++    }
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:iron_plating_button"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/iron_plating_pressure_plate</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:iron_plating"
++    }
++  }
++  pattern: [
++    "##"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:iron_plating_pressure_plate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/iron_plating_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:iron_plating"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:iron_plating_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/iron_plating_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:iron_plating"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:iron_plating_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/iron_rod</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:iron_plates"
++    }
++  }
++  pattern: [
++    "#"
++    "#"
++  ]
++  result: {
++    count: 4
++    id: "alltheores:iron_rod"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/iron_sliding_door</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:iron_plating"
++    }
++    B: {
++      tag: "ad_astra:steel_blocks"
++    }
++    P: {
++      item: "minecraft:glass_pane"
++    }
++  }
++  pattern: [
++    "###"
++    "PBP"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:iron_sliding_door"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/jet_suit</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:calorite_plates"
++    }
++    C: {
++      item: "ad_astra:etrionic_capacitor"
++    }
++    E: {
++      item: "ad_astra:calorite_engine"
++    }
++    N: {
++      item: "ad_astra:netherite_space_suit"
++    }
++    T: {
++      item: "ad_astra:calorite_tank"
++    }
++  }
++  pattern: [
++    "# #"
++    "TNT"
++    "CEC"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:jet_suit"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/jet_suit_boots</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:calorite_plates"
++    }
++    B: {
++      item: "ad_astra:calorite_block"
++    }
++    N: {
++      item: "ad_astra:netherite_space_boots"
++    }
++  }
++  pattern: [
++    " N "
++    "# #"
++    "B B"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:jet_suit_boots"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/jet_suit_helmet</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:calorite_plates"
++    }
++    G: {
++      item: "minecraft:tinted_glass"
++    }
++    N: {
++      item: "ad_astra:netherite_space_helmet"
++    }
++  }
++  pattern: [
++    "#N#"
++    "#G#"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:jet_suit_helmet"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/jet_suit_pants</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:calorite_plates"
++    }
++    B: {
++      item: "ad_astra:calorite_block"
++    }
++    N: {
++      item: "ad_astra:netherite_space_pants"
++    }
++  }
++  pattern: [
++    "BNB"
++    "# #"
++    "# #"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:jet_suit_pants"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/large_gas_tank</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    G: {
++      item: "ad_astra:gas_tank"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    " | "
++    "#G#"
++    "#G#"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:large_gas_tank"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/launch_pad</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    |: {
++      tag: "ad_astra:steel_rods"
++    }
++  }
++  pattern: [
++    "#|#"
++    "|#|"
++    "#|#"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:launch_pad"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/light_blue_flag</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:light_blue_wool"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "|##"
++    "|##"
++    "|  "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:light_blue_flag"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/light_blue_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:light_blue_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GGG"
++    "I#I"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:light_blue_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/light_gray_flag</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:light_gray_wool"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "|##"
++    "|##"
++    "|  "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:light_gray_flag"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/light_gray_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:light_gray_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GGG"
++    "I#I"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:light_gray_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/lime_flag</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:lime_wool"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "|##"
++    "|##"
++    "|  "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:lime_flag"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/lime_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:lime_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GGG"
++    "I#I"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:lime_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/magenta_flag</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:magenta_wool"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "|##"
++    "|##"
++    "|  "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:magenta_flag"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/magenta_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:magenta_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GGG"
++    "I#I"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:magenta_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/marked_iron_pillar</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      item: "ad_astra:iron_pillar"
++    }
++    {
++      item: "minecraft:yellow_dye"
++    }
++    {
++      item: "minecraft:black_dye"
++    }
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:marked_iron_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/mars_cobblestone_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:mars_cobblestone"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:mars_cobblestone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/mars_cobblestone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:mars_cobblestone"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:mars_cobblestone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/mars_pillar</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:mars_stone"
++    }
++  }
++  pattern: [
++    "#"
++    "#"
++  ]
++  result: {
++    count: 2
++    id: "ad_astra:mars_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/mars_stone_brick_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:mars_stone_bricks"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:mars_stone_brick_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/mars_stone_brick_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:mars_stone_bricks"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:mars_stone_brick_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/mars_stone_brick_wall</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:mars_stone_bricks"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:mars_stone_brick_wall"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/mars_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:mars_stone"
++    }
++  }
++  pattern: [
++    "##"
++    "##"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:mars_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/mars_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:mars_stone"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:mars_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/mars_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:mars_stone"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:mars_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/mercury_cobblestone_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:mercury_cobblestone"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:mercury_cobblestone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/mercury_cobblestone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:mercury_cobblestone"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:mercury_cobblestone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/mercury_pillar</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:mercury_stone"
++    }
++  }
++  pattern: [
++    "#"
++    "#"
++  ]
++  result: {
++    count: 2
++    id: "ad_astra:mercury_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/mercury_stone_brick_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:mercury_stone_bricks"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:mercury_stone_brick_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/mercury_stone_brick_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:mercury_stone_bricks"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:mercury_stone_brick_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/mercury_stone_brick_wall</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:mercury_stone_bricks"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:mercury_stone_brick_wall"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/mercury_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:mercury_stone"
++    }
++  }
++  pattern: [
++    "##"
++    "##"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:mercury_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/mercury_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:mercury_stone"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:mercury_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/mercury_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:mercury_stone"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:mercury_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/moon_cobblestone_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:moon_cobblestone"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:moon_cobblestone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/moon_cobblestone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:moon_cobblestone"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:moon_cobblestone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/moon_pillar</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:moon_stone"
++    }
++  }
++  pattern: [
++    "#"
++    "#"
++  ]
++  result: {
++    count: 2
++    id: "ad_astra:moon_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/moon_stone_brick_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:moon_stone_bricks"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:moon_stone_brick_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/moon_stone_brick_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:moon_stone_bricks"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:moon_stone_brick_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/moon_stone_brick_wall</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:moon_stone_bricks"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:moon_stone_brick_wall"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/moon_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:moon_stone"
++    }
++  }
++  pattern: [
++    "##"
++    "##"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:moon_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/moon_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:moon_stone"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:moon_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/moon_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:moon_stone"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:moon_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/nasa_workbench</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    B: {
++      tag: "ad_astra:steel_blocks"
++    }
++    C: {
++      item: "minecraft:crafting_table"
++    }
++    T: {
++      item: "minecraft:redstone_torch"
++    }
++    |: {
++      tag: "ad_astra:iron_rods"
++    }
++  }
++  pattern: [
++    "|#|"
++    "TCT"
++    "#B#"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:nasa_workbench"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/nasa_workbench/tier_1_rocket_from_nasa_workbench</summary>
+
+```diff
++{
++  type: "ad_astra:nasa_workbench"
++  ingredients: [
++    {
++      item: "ad_astra:rocket_nose_cone"
++    }
++    {
++      tag: "ad_astra:steel_blocks"
++    }
++    {
++      tag: "ad_astra:steel_blocks"
++    }
++    {
++      tag: "ad_astra:steel_blocks"
++    }
++    {
++      tag: "ad_astra:steel_blocks"
++    }
++    {
++      tag: "ad_astra:steel_blocks"
++    }
++    {
++      tag: "ad_astra:steel_blocks"
++    }
++    {
++      item: "ad_astra:rocket_fin"
++    }
++    {
++      item: "ad_astra:steel_tank"
++    }
++    {
++      item: "ad_astra:steel_tank"
++    }
++    {
++      item: "ad_astra:rocket_fin"
++    }
++    {
++      item: "ad_astra:rocket_fin"
++    }
++    {
++      item: "ad_astra:steel_engine"
++    }
++    {
++      item: "ad_astra:rocket_fin"
++    }
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:tier_1_rocket"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/nasa_workbench/tier_2_rocket_from_nasa_workbench</summary>
+
+```diff
++{
++  type: "ad_astra:nasa_workbench"
++  ingredients: [
++    {
++      item: "ad_astra:rocket_nose_cone"
++    }
++    {
++      tag: "ad_astra:desh_blocks"
++    }
++    {
++      tag: "ad_astra:desh_blocks"
++    }
++    {
++      tag: "ad_astra:desh_blocks"
++    }
++    {
++      tag: "ad_astra:desh_blocks"
++    }
++    {
++      tag: "ad_astra:desh_blocks"
++    }
++    {
++      tag: "ad_astra:desh_blocks"
++    }
++    {
++      item: "ad_astra:rocket_fin"
++    }
++    {
++      item: "ad_astra:desh_tank"
++    }
++    {
++      item: "ad_astra:desh_tank"
++    }
++    {
++      item: "ad_astra:rocket_fin"
++    }
++    {
++      item: "ad_astra:rocket_fin"
++    }
++    {
++      item: "ad_astra:desh_engine"
++    }
++    {
++      item: "ad_astra:rocket_fin"
++    }
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:tier_2_rocket"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/nasa_workbench/tier_3_rocket_from_nasa_workbench</summary>
+
+```diff
++{
++  type: "ad_astra:nasa_workbench"
++  ingredients: [
++    {
++      item: "ad_astra:rocket_nose_cone"
++    }
++    {
++      tag: "ad_astra:ostrum_blocks"
++    }
++    {
++      tag: "ad_astra:ostrum_blocks"
++    }
++    {
++      tag: "ad_astra:ostrum_blocks"
++    }
++    {
++      tag: "ad_astra:ostrum_blocks"
++    }
++    {
++      tag: "ad_astra:ostrum_blocks"
++    }
++    {
++      tag: "ad_astra:ostrum_blocks"
++    }
++    {
++      item: "ad_astra:rocket_fin"
++    }
++    {
++      item: "ad_astra:ostrum_tank"
++    }
++    {
++      item: "ad_astra:ostrum_tank"
++    }
++    {
++      item: "ad_astra:rocket_fin"
++    }
++    {
++      item: "ad_astra:rocket_fin"
++    }
++    {
++      item: "ad_astra:ostrum_engine"
++    }
++    {
++      item: "ad_astra:rocket_fin"
++    }
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:tier_3_rocket"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/nasa_workbench/tier_4_rocket_from_nasa_workbench</summary>
+
+```diff
++{
++  type: "ad_astra:nasa_workbench"
++  ingredients: [
++    {
++      item: "ad_astra:rocket_nose_cone"
++    }
++    {
++      tag: "ad_astra:calorite_blocks"
++    }
++    {
++      tag: "ad_astra:calorite_blocks"
++    }
++    {
++      tag: "ad_astra:calorite_blocks"
++    }
++    {
++      tag: "ad_astra:calorite_blocks"
++    }
++    {
++      tag: "ad_astra:calorite_blocks"
++    }
++    {
++      tag: "ad_astra:calorite_blocks"
++    }
++    {
++      item: "ad_astra:rocket_fin"
++    }
++    {
++      item: "ad_astra:calorite_tank"
++    }
++    {
++      item: "ad_astra:calorite_tank"
++    }
++    {
++      item: "ad_astra:rocket_fin"
++    }
++    {
++      item: "ad_astra:rocket_fin"
++    }
++    {
++      item: "ad_astra:calorite_engine"
++    }
++    {
++      item: "ad_astra:rocket_fin"
++    }
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:tier_4_rocket"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/netherite_space_boots</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:ostrum_plates"
++    }
++    D: {
++      tag: "ad_astra:desh_plates"
++    }
++    N: {
++      item: "minecraft:netherite_boots"
++    }
++  }
++  pattern: [
++    " N "
++    "D D"
++    "# #"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:netherite_space_boots"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/netherite_space_helmet</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:ostrum_plates"
++    }
++    G: {
++      item: "minecraft:glass"
++    }
++    N: {
++      item: "minecraft:netherite_helmet"
++    }
++  }
++  pattern: [
++    "#N#"
++    "#G#"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:netherite_space_helmet"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/netherite_space_pants</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:ostrum_plates"
++    }
++    D: {
++      tag: "ad_astra:desh_plates"
++    }
++    N: {
++      item: "minecraft:netherite_leggings"
++    }
++  }
++  pattern: [
++    "#N#"
++    "D D"
++    "# #"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:netherite_space_pants"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/netherite_space_suit</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:ostrum_plates"
++    }
++    N: {
++      item: "minecraft:netherite_chestplate"
++    }
++    O: {
++      item: "ad_astra:oxygen_gear"
++    }
++    T: {
++      item: "ad_astra:large_gas_tank"
++    }
++  }
++  pattern: [
++    "# #"
++    "TOT"
++    "#N#"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:netherite_space_suit"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/orange_flag</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:orange_wool"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "|##"
++    "|##"
++    "|  "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:orange_flag"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/orange_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:orange_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GGG"
++    "I#I"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:orange_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/ostrum_block</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:ostrum_ingots"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:ostrum_block"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/ostrum_engine</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:ostrum_plates"
++    }
++    E: {
++      item: "ad_astra:desh_engine"
++    }
++    F: {
++      item: "ad_astra:fan"
++    }
++  }
++  pattern: [
++    "###"
++    "#E#"
++    " F "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:ostrum_engine"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/ostrum_factory_block</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:ostrum_plates"
++    }
++    O: {
++      tag: "ad_astra:ostrum_ingots"
++    }
++  }
++  pattern: [
++    "###"
++    "#O#"
++    "###"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:ostrum_factory_block"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/ostrum_fluid_pipe</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:ostrum_plates"
++    }
++    G: {
++      item: "minecraft:glass"
++    }
++  }
++  pattern: [
++    "###"
++    "GGG"
++    "###"
++  ]
++  result: {
++    count: 16
++    id: "ad_astra:ostrum_fluid_pipe"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/ostrum_ingot</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:ostrum_nuggets"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:ostrum_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/ostrum_ingot_from_ostrum_block</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      item: "ad_astra:ostrum_block"
++    }
++  ]
++  result: {
++    count: 9
++    id: "ad_astra:ostrum_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/ostrum_nugget</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      item: "ad_astra:ostrum_ingot"
++    }
++  ]
++  result: {
++    count: 9
++    id: "ad_astra:ostrum_nugget"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/ostrum_panel</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:ostrum_plates"
++    }
++    I: {
++      tag: "ad_astra:ostrum_ingots"
++    }
++  }
++  pattern: [
++    "#I#"
++    "III"
++    "#I#"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:ostrum_panel"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/ostrum_pillar</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:ostrum_plating"
++    }
++  }
++  pattern: [
++    "#"
++    "#"
++  ]
++  result: {
++    count: 2
++    id: "ad_astra:ostrum_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/ostrum_plateblock</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:ostrum_plates"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "###"
++    "#|#"
++    "###"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:ostrum_plateblock"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/ostrum_plating</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:ostrum_plates"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++    "###"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:ostrum_plating"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/ostrum_plating_button</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      item: "ad_astra:ostrum_plating"
++    }
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:ostrum_plating_button"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/ostrum_plating_pressure_plate</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:ostrum_plating"
++    }
++  }
++  pattern: [
++    "##"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:ostrum_plating_pressure_plate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/ostrum_plating_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:ostrum_plating"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:ostrum_plating_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/ostrum_plating_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:ostrum_plating"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:ostrum_plating_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/ostrum_sliding_door</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:ostrum_plates"
++    }
++    B: {
++      tag: "ad_astra:ostrum_blocks"
++    }
++    P: {
++      item: "minecraft:glass_pane"
++    }
++  }
++  pattern: [
++    "###"
++    "PBP"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:ostrum_sliding_door"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/ostrum_tank</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:ostrum_plates"
++    }
++    T: {
++      item: "ad_astra:desh_tank"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "## "
++    "#T|"
++    "## "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:ostrum_tank"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/oxygen_distributor</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:desh_plates"
++    }
++    F: {
++      item: "ad_astra:fan"
++    }
++    G: {
++      item: "ad_astra:large_gas_tank"
++    }
++    L: {
++      item: "ad_astra:oxygen_loader"
++    }
++    O: {
++      item: "ad_astra:oxygen_gear"
++    }
++  }
++  pattern: [
++    "FGF"
++    "FLF"
++    "#O#"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:oxygen_distributor"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/oxygen_gear</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    " | "
++    "#|#"
++    "#|#"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:oxygen_gear"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/oxygen_loader</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    F: {
++      item: "ad_astra:fan"
++    }
++    G: {
++      item: "ad_astra:gas_tank"
++    }
++    R: {
++      tag: "c:storage_blocks/redstone"
++    }
++    |: {
++      item: "minecraft:lightning_rod"
++    }
++  }
++  pattern: [
++    "#F#"
++    "G|G"
++    "#R#"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:oxygen_loader"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/oxygen_loading/oxygen_from_oxygen_loading_oxygen</summary>
+
+```diff
++{
++  type: "ad_astra:oxygen_loading"
++  cookingtime: 1
++  energy: 30
++  input: {
++    type: "common_storage_lib_resources:base"
++    amount: 25
++    values: {
++      tag: "ad_astra:oxygen"
++    }
++  }
++  result: {
++    amount: 25
++    id: "ad_astra:oxygen"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/oxygen_loading/oxygen_from_oxygen_loading_water</summary>
+
+```diff
++{
++  type: "ad_astra:oxygen_loading"
++  cookingtime: 1
++  energy: 30
++  input: {
++    type: "common_storage_lib_resources:base"
++    amount: 100
++    values: {
++      tag: "minecraft:water"
++    }
++  }
++  result: {
++    amount: 4
++    id: "ad_astra:oxygen"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/oxygen_sensor</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:ostrum_plates"
++    }
++    F: {
++      item: "ad_astra:fan"
++    }
++    R: {
++      tag: "c:storage_blocks/redstone"
++    }
++  }
++  pattern: [
++    "#F#"
++    "#R#"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:oxygen_sensor"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/permafrost_brick_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:permafrost_bricks"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:permafrost_brick_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/permafrost_brick_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:permafrost_bricks"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:permafrost_brick_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/permafrost_brick_wall</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:permafrost_bricks"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:permafrost_brick_wall"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/permafrost_bricks</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:permafrost"
++    }
++  }
++  pattern: [
++    "##"
++    "##"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:permafrost_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/permafrost_pillar</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:permafrost"
++    }
++  }
++  pattern: [
++    "#"
++    "#"
++  ]
++  result: {
++    count: 2
++    id: "ad_astra:permafrost_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/permafrost_tiles</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:permafrost_bricks"
++    }
++  }
++  pattern: [
++    "##"
++    "##"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:permafrost_tiles"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/photovoltaic_etrium_cell</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:desh_plates"
++    }
++    D: {
++      tag: "c:gems/diamond"
++    }
++    G: {
++      item: "minecraft:blue_stained_glass"
++    }
++  }
++  pattern: [
++    "GGG"
++    "#D#"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:photovoltaic_etrium_cell"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/pink_flag</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:pink_wool"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "|##"
++    "|##"
++    "|  "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:pink_flag"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/pink_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:pink_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GGG"
++    "I#I"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:pink_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/polished_conglomerate</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:conglomerate"
++    }
++  }
++  pattern: [
++    "##"
++    "##"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:polished_conglomerate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/polished_glacio_stone</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:glacio_cobblestone"
++    }
++  }
++  pattern: [
++    "##"
++    "##"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:polished_glacio_stone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/polished_glacio_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:polished_glacio_stone"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:polished_glacio_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/polished_glacio_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:polished_glacio_stone"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:polished_glacio_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/polished_mars_stone</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:mars_cobblestone"
++    }
++  }
++  pattern: [
++    "##"
++    "##"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:polished_mars_stone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/polished_mars_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:polished_mars_stone"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:polished_mars_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/polished_mars_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:polished_mars_stone"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:polished_mars_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/polished_mercury_stone</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:mercury_cobblestone"
++    }
++  }
++  pattern: [
++    "##"
++    "##"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:polished_mercury_stone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/polished_mercury_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:polished_mercury_stone"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:polished_mercury_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/polished_mercury_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:polished_mercury_stone"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:polished_mercury_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/polished_moon_stone</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:moon_cobblestone"
++    }
++  }
++  pattern: [
++    "##"
++    "##"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:polished_moon_stone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/polished_moon_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:polished_moon_stone"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:polished_moon_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/polished_moon_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:polished_moon_stone"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:polished_moon_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/polished_permafrost</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:permafrost"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++    "###"
++  ]
++  result: {
++    count: 9
++    id: "ad_astra:polished_permafrost"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/polished_permafrost_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:polished_permafrost"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:polished_permafrost_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/polished_permafrost_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:polished_permafrost"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:polished_permafrost_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/polished_venus_stone</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:venus_cobblestone"
++    }
++  }
++  pattern: [
++    "##"
++    "##"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:polished_venus_stone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/polished_venus_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:polished_venus_stone"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:polished_venus_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/polished_venus_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:polished_venus_stone"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:polished_venus_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/purple_flag</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:purple_wool"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "|##"
++    "|##"
++    "|  "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:purple_flag"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/purple_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:purple_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GGG"
++    "I#I"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:purple_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/radio</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    |: {
++      tag: "ad_astra:steel_rods"
++    }
++  }
++  pattern: [
++    "|  "
++    "###"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:radio"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/raw_calorite</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      item: "ad_astra:raw_calorite_block"
++    }
++  ]
++  result: {
++    count: 9
++    id: "ad_astra:raw_calorite"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/raw_calorite_block</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:raw_calorite"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:raw_calorite_block"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/raw_desh</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      item: "ad_astra:raw_desh_block"
++    }
++  ]
++  result: {
++    count: 9
++    id: "ad_astra:raw_desh"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/raw_desh_block</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:raw_desh"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:raw_desh_block"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/raw_ostrum</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      item: "ad_astra:raw_ostrum_block"
++    }
++  ]
++  result: {
++    count: 9
++    id: "ad_astra:raw_ostrum"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/raw_ostrum_block</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:raw_ostrum"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:raw_ostrum_block"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/red_flag</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:red_wool"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "|##"
++    "|##"
++    "|  "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:red_flag"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/red_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:red_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GGG"
++    "I#I"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:red_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/refining/fuel_from_refining_oil</summary>
+
+```diff
++{
++  type: "ad_astra:refining"
++  cookingtime: 1
++  energy: 30
++  input: {
++    type: "common_storage_lib_resources:base"
++    amount: 5
++    values: {
++      tag: "ad_astra:oil"
++    }
++  }
++  result: {
++    amount: 5
++    id: "ad_astra:fuel"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/reinforced_door</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    B: {
++      tag: "ad_astra:steel_blocks"
++    }
++    G: {
++      item: "minecraft:glass"
++    }
++    O: {
++      item: "minecraft:obsidian"
++    }
++  }
++  pattern: [
++    "O#O"
++    "GBG"
++    "O#O"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:reinforced_door"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/rocket_fin</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++  }
++  pattern: [
++    " # "
++    "###"
++    "# #"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:rocket_fin"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/rocket_nose_cone</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    |: {
++      item: "minecraft:lightning_rod"
++    }
++  }
++  pattern: [
++    " | "
++    " # "
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:rocket_nose_cone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/sky_stone</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:moon_stone"
++    }
++    M: {
++      item: "ad_astra:mars_stone"
++    }
++  }
++  pattern: [
++    "#M#"
++    "M#M"
++    "#M#"
++  ]
++  result: {
++    count: 9
++    id: "ad_astra:sky_stone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/small_black_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:black_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GG"
++    "#I"
++  ]
++  result: {
++    count: 8
++    id: "ad_astra:small_black_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/small_blue_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:blue_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GG"
++    "#I"
++  ]
++  result: {
++    count: 8
++    id: "ad_astra:small_blue_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/small_brown_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:brown_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GG"
++    "#I"
++  ]
++  result: {
++    count: 8
++    id: "ad_astra:small_brown_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/small_cyan_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:cyan_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GG"
++    "#I"
++  ]
++  result: {
++    count: 8
++    id: "ad_astra:small_cyan_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/small_gray_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:gray_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GG"
++    "#I"
++  ]
++  result: {
++    count: 8
++    id: "ad_astra:small_gray_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/small_green_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:green_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GG"
++    "#I"
++  ]
++  result: {
++    count: 8
++    id: "ad_astra:small_green_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/small_light_blue_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:light_blue_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GG"
++    "#I"
++  ]
++  result: {
++    count: 8
++    id: "ad_astra:small_light_blue_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/small_light_gray_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:light_gray_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GG"
++    "#I"
++  ]
++  result: {
++    count: 8
++    id: "ad_astra:small_light_gray_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/small_lime_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:lime_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GG"
++    "#I"
++  ]
++  result: {
++    count: 8
++    id: "ad_astra:small_lime_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/small_magenta_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:magenta_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GG"
++    "#I"
++  ]
++  result: {
++    count: 8
++    id: "ad_astra:small_magenta_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/small_orange_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:orange_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GG"
++    "#I"
++  ]
++  result: {
++    count: 8
++    id: "ad_astra:small_orange_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/small_pink_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:pink_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GG"
++    "#I"
++  ]
++  result: {
++    count: 8
++    id: "ad_astra:small_pink_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/small_purple_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:purple_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GG"
++    "#I"
++  ]
++  result: {
++    count: 8
++    id: "ad_astra:small_purple_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/small_red_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:red_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GG"
++    "#I"
++  ]
++  result: {
++    count: 8
++    id: "ad_astra:small_red_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/small_white_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:white_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GG"
++    "#I"
++  ]
++  result: {
++    count: 8
++    id: "ad_astra:small_white_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/small_yellow_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:yellow_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GG"
++    "#I"
++  ]
++  result: {
++    count: 8
++    id: "ad_astra:small_yellow_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/calorite_ingot_from_smelting_deepslate_calorite_ore</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "misc"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:deepslate_calorite_ore"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:calorite_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/calorite_ingot_from_smelting_raw_calorite</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "misc"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    tag: "ad_astra:raw_calorite"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:calorite_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/calorite_ingot_from_smelting_venus_calorite_ore</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "misc"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:venus_calorite_ore"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:calorite_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/cheese_from_smelting_moon_cheese_ore</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "food"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:moon_cheese_ore"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:cheese"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/cracked_glacio_stone_bricks_from_smelting_glacio_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "blocks"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:glacio_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:cracked_glacio_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/cracked_mars_stone_bricks_from_smelting_mars_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "blocks"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:mars_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:cracked_mars_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/cracked_mercury_stone_bricks_from_smelting_mercury_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "blocks"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:mercury_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:cracked_mercury_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/cracked_moon_stone_bricks_from_smelting_moon_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "blocks"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:moon_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:cracked_moon_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/cracked_permafrost_bricks_from_smelting_permafrost_bricks</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "blocks"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:permafrost_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:cracked_permafrost_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/cracked_venus_sandstone_bricks_from_smelting_venus_sandstone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "blocks"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:venus_sandstone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:cracked_venus_sandstone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/cracked_venus_stone_bricks_from_smelting_venus_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "blocks"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:venus_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:cracked_venus_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/desh_ingot_from_smelting_deepslate_desh_ore</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "misc"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:deepslate_desh_ore"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:desh_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/desh_ingot_from_smelting_moon_desh_ore</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "misc"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:moon_desh_ore"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:desh_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/desh_ingot_from_smelting_raw_desh</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "misc"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    tag: "ad_astra:raw_desh"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:desh_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/glacio_stone_from_smelting_glacio_cobblestone</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "blocks"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:glacio_cobblestone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:glacio_stone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/ice_shard_from_smelting_deepslate_ice_shard_ore</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "misc"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:deepslate_ice_shard_ore"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:ice_shard"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/ice_shard_from_smelting_glacio_ice_shard_ore</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "misc"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:glacio_ice_shard_ore"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:ice_shard"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/ice_shard_from_smelting_mars_ice_shard_ore</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "misc"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:mars_ice_shard_ore"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:ice_shard"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/ice_shard_from_smelting_moon_ice_shard_ore</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "misc"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:moon_ice_shard_ore"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:ice_shard"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/mars_stone_from_smelting_mars_cobblestone</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "blocks"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:mars_cobblestone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:mars_stone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/mercury_stone_from_smelting_mercury_cobblestone</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "blocks"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:mercury_cobblestone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:mercury_stone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/moon_stone_from_smelting_moon_cobblestone</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "blocks"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:moon_cobblestone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:moon_stone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/ostrum_ingot_from_smelting_deepslate_ostrum_ore</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "misc"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:deepslate_ostrum_ore"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:ostrum_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/ostrum_ingot_from_smelting_mars_ostrum_ore</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "misc"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:mars_ostrum_ore"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:ostrum_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/ostrum_ingot_from_smelting_raw_ostrum</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "misc"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    tag: "ad_astra:raw_ostrum"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:ostrum_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/smelting/venus_stone_from_smelting_venus_cobblestone</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  category: "blocks"
++  cookingtime: 200
++  experience: 0.1
++  ingredient: {
++    item: "ad_astra:venus_cobblestone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:venus_stone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/solar_panel</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:desh_plates"
++    }
++    P: {
++      item: "ad_astra:photovoltaic_etrium_cell"
++    }
++    S: {
++      tag: "ad_astra:steel_plates"
++    }
++  }
++  pattern: [
++    "PPP"
++    "S#S"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:solar_panel"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/space_boots</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    W: {
++      tag: "minecraft:wool"
++    }
++  }
++  pattern: [
++    "W W"
++    "# #"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:space_boots"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/space_helmet</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    P: {
++      item: "minecraft:glass_pane"
++    }
++  }
++  pattern: [
++    "###"
++    "#P#"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:space_helmet"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/space_pants</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    W: {
++      tag: "minecraft:wool"
++    }
++  }
++  pattern: [
++    "###"
++    "W W"
++    "# #"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:space_pants"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/space_station/earth_orbit_space_station</summary>
+
+```diff
++{
++  type: "ad_astra:space_station_recipe"
++  dimension: "ad_astra:earth_orbit"
++  ingredients: [
++    {
++      count: 64
++      ingredient: {
++        tag: "ad_astra:iron_plates"
++      }
++    }
++    {
++      count: 32
++      ingredient: {
++        tag: "ad_astra:steel_ingots"
++      }
++    }
++    {
++      count: 32
++      ingredient: {
++        tag: "ad_astra:desh_ingots"
++      }
++    }
++    {
++      count: 32
++      ingredient: {
++        tag: "ad_astra:desh_plates"
++      }
++    }
++  ]
++  structure: "ad_astra:space_station"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/space_station/glacio_orbit_space_station</summary>
+
+```diff
++{
++  type: "ad_astra:space_station_recipe"
++  dimension: "ad_astra:glacio_orbit"
++  ingredients: [
++    {
++      count: 32
++      ingredient: {
++        tag: "ad_astra:steel_plates"
++      }
++    }
++    {
++      count: 32
++      ingredient: {
++        tag: "ad_astra:desh_ingots"
++      }
++    }
++    {
++      count: 32
++      ingredient: {
++        tag: "ad_astra:ostrum_plates"
++      }
++    }
++    {
++      count: 32
++      ingredient: {
++        tag: "ad_astra:calorite_plates"
++      }
++    }
++  ]
++  structure: "ad_astra:space_station"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/space_station/mars_orbit_space_station</summary>
+
+```diff
++{
++  type: "ad_astra:space_station_recipe"
++  dimension: "ad_astra:mars_orbit"
++  ingredients: [
++    {
++      count: 32
++      ingredient: {
++        tag: "ad_astra:steel_ingots"
++      }
++    }
++    {
++      count: 64
++      ingredient: {
++        tag: "ad_astra:steel_plates"
++      }
++    }
++    {
++      count: 32
++      ingredient: {
++        tag: "ad_astra:ostrum_ingots"
++      }
++    }
++    {
++      count: 32
++      ingredient: {
++        tag: "ad_astra:ostrum_plates"
++      }
++    }
++  ]
++  structure: "ad_astra:space_station"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/space_station/mercury_orbit_space_station</summary>
+
+```diff
++{
++  type: "ad_astra:space_station_recipe"
++  dimension: "ad_astra:mercury_orbit"
++  ingredients: [
++    {
++      count: 64
++      ingredient: {
++        tag: "ad_astra:steel_ingots"
++      }
++    }
++    {
++      count: 64
++      ingredient: {
++        tag: "ad_astra:steel_plates"
++      }
++    }
++    {
++      count: 32
++      ingredient: {
++        tag: "ad_astra:calorite_ingots"
++      }
++    }
++    {
++      count: 32
++      ingredient: {
++        tag: "ad_astra:calorite_plates"
++      }
++    }
++  ]
++  structure: "ad_astra:space_station"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/space_station/moon_orbit_space_station</summary>
+
+```diff
++{
++  type: "ad_astra:space_station_recipe"
++  dimension: "ad_astra:moon_orbit"
++  ingredients: [
++    {
++      count: 64
++      ingredient: {
++        tag: "ad_astra:iron_plates"
++      }
++    }
++    {
++      count: 32
++      ingredient: {
++        tag: "ad_astra:steel_ingots"
++      }
++    }
++    {
++      count: 32
++      ingredient: {
++        tag: "ad_astra:desh_ingots"
++      }
++    }
++    {
++      count: 32
++      ingredient: {
++        tag: "ad_astra:desh_plates"
++      }
++    }
++  ]
++  structure: "ad_astra:space_station"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/space_station/venus_orbit_space_station</summary>
+
+```diff
++{
++  type: "ad_astra:space_station_recipe"
++  dimension: "ad_astra:venus_orbit"
++  ingredients: [
++    {
++      count: 64
++      ingredient: {
++        tag: "ad_astra:steel_ingots"
++      }
++    }
++    {
++      count: 64
++      ingredient: {
++        tag: "ad_astra:steel_plates"
++      }
++    }
++    {
++      count: 32
++      ingredient: {
++        tag: "ad_astra:calorite_ingots"
++      }
++    }
++    {
++      count: 32
++      ingredient: {
++        tag: "ad_astra:calorite_plates"
++      }
++    }
++  ]
++  structure: "ad_astra:space_station"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/space_suit</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    O: {
++      item: "ad_astra:oxygen_gear"
++    }
++    T: {
++      item: "ad_astra:gas_tank"
++    }
++    W: {
++      tag: "minecraft:wool"
++    }
++  }
++  pattern: [
++    "# #"
++    "TOT"
++    "#W#"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:space_suit"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/steel_block</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "alltheores:steel_block"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/steel_cable</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    C: {
++      tag: "c:ingots/copper"
++    }
++  }
++  pattern: [
++    "###"
++    "CCC"
++    "###"
++  ]
++  result: {
++    count: 16
++    id: "ad_astra:steel_cable"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/steel_door</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++  }
++  pattern: [
++    "##"
++    "##"
++    "##"
++  ]
++  result: {
++    count: 3
++    id: "ad_astra:steel_door"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/steel_engine</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    E: {
++      item: "ad_astra:engine_frame"
++    }
++    F: {
++      item: "ad_astra:fan"
++    }
++  }
++  pattern: [
++    "###"
++    "#E#"
++    " F "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:steel_engine"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/steel_factory_block</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    S: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "###"
++    "#S#"
++    "###"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:steel_factory_block"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/steel_ingot</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_nuggets"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "alltheores:steel_ingot"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/steel_panel</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "#I#"
++    "III"
++    "#I#"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:steel_panel"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/steel_pillar</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:steel_plating"
++    }
++  }
++  pattern: [
++    "#"
++    "#"
++  ]
++  result: {
++    count: 2
++    id: "ad_astra:steel_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/steel_plateblock</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "###"
++    "#|#"
++    "###"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:steel_plateblock"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/steel_plating</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++    "###"
++  ]
++  result: {
++    count: 64
++    id: "ad_astra:steel_plating"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/steel_plating_button</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      item: "ad_astra:steel_plating"
++    }
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:steel_plating_button"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/steel_plating_pressure_plate</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:steel_plating"
++    }
++  }
++  pattern: [
++    "##"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:steel_plating_pressure_plate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/steel_plating_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:steel_plating"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:steel_plating_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/steel_plating_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:steel_plating"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:steel_plating_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/steel_rod</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++  }
++  pattern: [
++    "#"
++    "#"
++  ]
++  result: {
++    count: 4
++    id: "alltheores:steel_rod"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/steel_sliding_door</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    B: {
++      tag: "ad_astra:steel_blocks"
++    }
++    P: {
++      item: "minecraft:glass_pane"
++    }
++  }
++  pattern: [
++    "###"
++    "PBP"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:steel_sliding_door"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/steel_tank</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    T: {
++      item: "ad_astra:gas_tank"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "## "
++    "#T|"
++    "## "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:steel_tank"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/steel_trapdoor</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++  ]
++  result: {
++    count: 2
++    id: "ad_astra:steel_trapdoor"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_glacio_stone_bricks_from_glacio_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:glacio_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_glacio_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_glacio_stone_bricks_from_glacio_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:glacio_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_glacio_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_glacio_stone_slab_from_chiseled_glacio_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:chiseled_glacio_stone_bricks"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:chiseled_glacio_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_glacio_stone_stairs_from_chiseled_glacio_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:chiseled_glacio_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_glacio_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_mars_stone_bricks_from_mars_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mars_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_mars_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_mars_stone_bricks_from_mars_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mars_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_mars_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_mars_stone_slab_from_chiseled_mars_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:chiseled_mars_stone_bricks"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:chiseled_mars_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_mars_stone_stairs_from_chiseled_mars_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:chiseled_mars_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_mars_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_mercury_stone_bricks_from_mercury_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mercury_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_mercury_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_mercury_stone_bricks_from_mercury_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mercury_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_mercury_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_mercury_stone_slab_from_chiseled_mercury_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:chiseled_mercury_stone_bricks"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:chiseled_mercury_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_mercury_stone_stairs_from_chiseled_mercury_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:chiseled_mercury_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_mercury_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_moon_stone_bricks_from_moon_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:moon_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_moon_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_moon_stone_bricks_from_moon_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:moon_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_moon_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_moon_stone_slab_from_chiseled_moon_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:chiseled_moon_stone_bricks"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:chiseled_moon_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_moon_stone_stairs_from_chiseled_moon_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:chiseled_moon_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_moon_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_permafrost_brick_slab_from_chiseled_permafrost_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:chiseled_permafrost_bricks"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:chiseled_permafrost_brick_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_permafrost_brick_stairs_from_chiseled_permafrost_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:chiseled_permafrost_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_permafrost_brick_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_permafrost_bricks_from_permafrost_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:permafrost_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_permafrost_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_venus_stone_bricks_from_venus_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:venus_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_venus_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_venus_stone_bricks_from_venus_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:venus_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_venus_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_venus_stone_slab_from_chiseled_venus_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:chiseled_venus_stone_bricks"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:chiseled_venus_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/chiseled_venus_stone_stairs_from_chiseled_venus_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:chiseled_venus_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:chiseled_venus_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/glacio_cobblestone_slab_from_glacio_cobblestone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:glacio_cobblestone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:glacio_cobblestone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/glacio_cobblestone_stairs_from_glacio_cobblestone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:glacio_cobblestone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:glacio_cobblestone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/glacio_pillar_from_glacio_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:glacio_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:glacio_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/glacio_pillar_from_glacio_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:glacio_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:glacio_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/glacio_stone_brick_slab_from_glacio_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:glacio_stone_bricks"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:glacio_stone_brick_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/glacio_stone_brick_slab_from_glacio_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:glacio_stone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:glacio_stone_brick_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/glacio_stone_brick_stairs_from_glacio_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:glacio_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:glacio_stone_brick_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/glacio_stone_brick_stairs_from_glacio_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:glacio_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:glacio_stone_brick_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/glacio_stone_brick_wall_from_glacio_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:glacio_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:glacio_stone_brick_wall"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/glacio_stone_brick_wall_from_glacio_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:glacio_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:glacio_stone_brick_wall"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/glacio_stone_bricks_from_glacio_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:glacio_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:glacio_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/glacio_stone_slab_from_glacio_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:glacio_stone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:glacio_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/glacio_stone_stairs_from_glacio_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:glacio_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:glacio_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mars_cobblestone_slab_from_mars_cobblestone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mars_cobblestone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:mars_cobblestone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mars_cobblestone_stairs_from_mars_cobblestone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mars_cobblestone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:mars_cobblestone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mars_pillar_from_mars_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mars_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:mars_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mars_pillar_from_mars_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mars_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:mars_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mars_stone_brick_slab_from_mars_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mars_stone_bricks"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:mars_stone_brick_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mars_stone_brick_slab_from_mars_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mars_stone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:mars_stone_brick_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mars_stone_brick_stairs_from_mars_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mars_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:mars_stone_brick_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mars_stone_brick_stairs_from_mars_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mars_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:mars_stone_brick_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mars_stone_brick_wall_from_mars_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mars_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:mars_stone_brick_wall"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mars_stone_brick_wall_from_mars_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mars_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:mars_stone_brick_wall"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mars_stone_bricks_from_mars_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mars_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:mars_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mars_stone_slab_from_mars_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mars_stone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:mars_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mars_stone_stairs_from_mars_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mars_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:mars_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mercury_cobblestone_slab_from_mercury_cobblestone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mercury_cobblestone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:mercury_cobblestone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mercury_cobblestone_stairs_from_mercury_cobblestone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mercury_cobblestone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:mercury_cobblestone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mercury_pillar_from_mercury_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mercury_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:mercury_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mercury_pillar_from_mercury_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mercury_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:mercury_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mercury_stone_brick_slab_from_mercury_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mercury_stone_bricks"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:mercury_stone_brick_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mercury_stone_brick_slab_from_mercury_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mercury_stone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:mercury_stone_brick_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mercury_stone_brick_stairs_from_mercury_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mercury_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:mercury_stone_brick_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mercury_stone_brick_stairs_from_mercury_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mercury_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:mercury_stone_brick_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mercury_stone_brick_wall_from_mercury_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mercury_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:mercury_stone_brick_wall"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mercury_stone_brick_wall_from_mercury_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mercury_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:mercury_stone_brick_wall"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mercury_stone_bricks_from_mercury_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mercury_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:mercury_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mercury_stone_slab_from_mercury_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mercury_stone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:mercury_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/mercury_stone_stairs_from_mercury_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mercury_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:mercury_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/moon_cobblestone_slab_from_moon_cobblestone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:moon_cobblestone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:moon_cobblestone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/moon_cobblestone_stairs_from_moon_cobblestone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:moon_cobblestone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:moon_cobblestone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/moon_pillar_from_moon_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:moon_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:moon_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/moon_pillar_from_moon_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:moon_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:moon_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/moon_stone_brick_slab_from_moon_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:moon_stone_bricks"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:moon_stone_brick_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/moon_stone_brick_slab_from_moon_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:moon_stone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:moon_stone_brick_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/moon_stone_brick_stairs_from_moon_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:moon_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:moon_stone_brick_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/moon_stone_brick_stairs_from_moon_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:moon_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:moon_stone_brick_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/moon_stone_brick_wall_from_moon_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:moon_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:moon_stone_brick_wall"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/moon_stone_brick_wall_from_moon_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:moon_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:moon_stone_brick_wall"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/moon_stone_bricks_from_moon_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:moon_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:moon_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/moon_stone_slab_from_moon_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:moon_stone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:moon_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/moon_stone_stairs_from_moon_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:moon_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:moon_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/permafrost_brick_slab_from_permafrost_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:permafrost_bricks"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:permafrost_brick_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/permafrost_brick_stairs_from_permafrost_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:permafrost_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:permafrost_brick_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/permafrost_brick_wall_from_permafrost_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:permafrost_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:permafrost_brick_wall"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/permafrost_pillar_from_permafrost_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:permafrost"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:permafrost_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/permafrost_tiles_from_permafrost_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:permafrost_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:permafrost_tiles"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_conglomerate_from_conglomerate_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:conglomerate"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_conglomerate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_glacio_stone_from_glacio_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:glacio_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_glacio_stone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_glacio_stone_from_glacio_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:glacio_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_glacio_stone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_glacio_stone_slab_from_glacio_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:glacio_stone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:polished_glacio_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_glacio_stone_slab_from_polished_glacio_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:polished_glacio_stone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:polished_glacio_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_glacio_stone_stairs_from_glacio_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:glacio_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_glacio_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_glacio_stone_stairs_from_polished_glacio_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:polished_glacio_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_glacio_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_mars_stone_from_mars_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mars_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_mars_stone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_mars_stone_from_mars_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mars_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_mars_stone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_mars_stone_slab_from_mars_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mars_stone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:polished_mars_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_mars_stone_slab_from_polished_mars_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:polished_mars_stone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:polished_mars_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_mars_stone_stairs_from_mars_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mars_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_mars_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_mars_stone_stairs_from_polished_mars_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:polished_mars_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_mars_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_mercury_stone_from_mercury_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mercury_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_mercury_stone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_mercury_stone_from_mercury_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mercury_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_mercury_stone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_mercury_stone_slab_from_mercury_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mercury_stone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:polished_mercury_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_mercury_stone_slab_from_polished_mercury_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:polished_mercury_stone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:polished_mercury_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_mercury_stone_stairs_from_mercury_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:mercury_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_mercury_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_mercury_stone_stairs_from_polished_mercury_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:polished_mercury_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_mercury_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_moon_stone_from_moon_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:moon_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_moon_stone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_moon_stone_from_moon_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:moon_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_moon_stone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_moon_stone_slab_from_moon_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:moon_stone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:polished_moon_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_moon_stone_slab_from_polished_moon_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:polished_moon_stone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:polished_moon_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_moon_stone_stairs_from_moon_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:moon_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_moon_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_moon_stone_stairs_from_polished_moon_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:polished_moon_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_moon_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_permafrost_from_permafrost_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:permafrost_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_permafrost"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_permafrost_slab_from_polished_permafrost_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:polished_permafrost"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:polished_permafrost_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_permafrost_stairs_from_polished_permafrost_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:polished_permafrost"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_permafrost_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_venus_stone_from_venus_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:venus_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_venus_stone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_venus_stone_from_venus_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:venus_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_venus_stone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_venus_stone_slab_from_polished_venus_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:polished_venus_stone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:polished_venus_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_venus_stone_slab_from_venus_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:venus_stone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:polished_venus_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_venus_stone_stairs_from_polished_venus_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:polished_venus_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_venus_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/polished_venus_stone_stairs_from_venus_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:venus_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:polished_venus_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/venus_cobblestone_slab_from_venus_cobblestone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:venus_cobblestone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:venus_cobblestone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/venus_cobblestone_stairs_from_venus_cobblestone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:venus_cobblestone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:venus_cobblestone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/venus_pillar_from_venus_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:venus_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:venus_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/venus_pillar_from_venus_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:venus_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:venus_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/venus_sandstone_brick_slab_from_venus_sandstone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:venus_sandstone_bricks"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:venus_sandstone_brick_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/venus_sandstone_brick_stairs_from_venus_sandstone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:venus_sandstone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:venus_sandstone_brick_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/venus_sandstone_bricks_from_venus_sandstone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:venus_sandstone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:venus_sandstone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/venus_stone_brick_slab_from_venus_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:venus_stone_bricks"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:venus_stone_brick_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/venus_stone_brick_slab_from_venus_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:venus_stone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:venus_stone_brick_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/venus_stone_brick_stairs_from_venus_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:venus_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:venus_stone_brick_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/venus_stone_brick_stairs_from_venus_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:venus_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:venus_stone_brick_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/venus_stone_brick_wall_from_venus_stone_bricks_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:venus_stone_bricks"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:venus_stone_brick_wall"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/venus_stone_brick_wall_from_venus_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:venus_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:venus_stone_brick_wall"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/venus_stone_bricks_from_venus_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:venus_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:venus_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/venus_stone_slab_from_venus_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:venus_stone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:venus_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/stonecutting/venus_stone_stairs_from_venus_stone_stonecutting</summary>
+
+```diff
++{
++  type: "minecraft:stonecutting"
++  ingredient: {
++    item: "ad_astra:venus_stone"
++  }
++  result: {
++    count: 1
++    id: "ad_astra:venus_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/strophar_door</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:strophar_planks"
++    }
++  }
++  pattern: [
++    "##"
++    "##"
++    "##"
++  ]
++  result: {
++    count: 3
++    id: "ad_astra:strophar_door"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/strophar_fence</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:strophar_planks"
++    }
++    |: {
++      item: "minecraft:stick"
++    }
++  }
++  pattern: [
++    "#|#"
++    "#|#"
++  ]
++  result: {
++    count: 3
++    id: "ad_astra:strophar_fence"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/strophar_fence_gate</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:strophar_planks"
++    }
++    |: {
++      item: "minecraft:stick"
++    }
++  }
++  pattern: [
++    "|#|"
++    "|#|"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:strophar_fence_gate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/strophar_ladder</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:strophar_planks"
++    }
++  }
++  pattern: [
++    "# #"
++    "###"
++    "# #"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:strophar_ladder"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/strophar_planks</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  category: "misc"
++  ingredients: [
++    {
++      tag: "ad_astra:strophar_caps"
++    }
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:strophar_planks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/strophar_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:strophar_planks"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:strophar_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/strophar_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:strophar_planks"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:strophar_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/strophar_trapdoor</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:strophar_planks"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++  ]
++  result: {
++    count: 2
++    id: "ad_astra:strophar_trapdoor"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/ti_69</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    G: {
++      item: "minecraft:glass_pane"
++    }
++    R: {
++      tag: "c:dusts/redstone"
++    }
++  }
++  pattern: [
++    "GGG"
++    "#R#"
++    "###"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:ti_69"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/tier_1_rover</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:desh_engine"
++    }
++    D: {
++      tag: "ad_astra:desh_blocks"
++    }
++    G: {
++      item: "ad_astra:large_gas_tank"
++    }
++    P: {
++      tag: "ad_astra:desh_plates"
++    }
++    R: {
++      item: "ad_astra:radio"
++    }
++    W: {
++      item: "ad_astra:wheel"
++    }
++    |: {
++      tag: "ad_astra:steel_rods"
++    }
++  }
++  pattern: [
++    "D |"
++    "GR#"
++    "WPW"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:tier_1_rover"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/vent</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "|||"
++    "# #"
++    "|||"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:vent"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/venus_cobblestone_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:venus_cobblestone"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:venus_cobblestone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/venus_cobblestone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:venus_cobblestone"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:venus_cobblestone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/venus_pillar</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:venus_stone"
++    }
++  }
++  pattern: [
++    "#"
++    "#"
++  ]
++  result: {
++    count: 2
++    id: "ad_astra:venus_pillar"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/venus_sandstone</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:venus_sand"
++    }
++  }
++  pattern: [
++    "##"
++    "##"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:venus_sandstone"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/venus_sandstone_brick_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:venus_sandstone_bricks"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:venus_sandstone_brick_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/venus_sandstone_brick_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:venus_sandstone_bricks"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:venus_sandstone_brick_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/venus_sandstone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:venus_sandstone"
++    }
++  }
++  pattern: [
++    "##"
++    "##"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:venus_sandstone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/venus_stone_brick_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:venus_stone_bricks"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:venus_stone_brick_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/venus_stone_brick_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:venus_stone_bricks"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:venus_stone_brick_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/venus_stone_brick_wall</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:venus_stone_bricks"
++    }
++  }
++  pattern: [
++    "###"
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:venus_stone_brick_wall"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/venus_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:venus_stone"
++    }
++  }
++  pattern: [
++    "##"
++    "##"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:venus_stone_bricks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/venus_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:venus_stone"
++    }
++  }
++  pattern: [
++    "###"
++  ]
++  result: {
++    count: 6
++    id: "ad_astra:venus_stone_slab"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/venus_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "ad_astra:venus_stone"
++    }
++  }
++  pattern: [
++    "#  "
++    "## "
++    "###"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:venus_stone_stairs"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/water_pump</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:desh_plates"
++    }
++    G: {
++      item: "ad_astra:gas_tank"
++    }
++    H: {
++      item: "minecraft:hopper"
++    }
++    S: {
++      tag: "ad_astra:steel_plates"
++    }
++  }
++  pattern: [
++    "S#S"
++    "SGS"
++    "#H#"
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:water_pump"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/wheel</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    B: {
++      item: "minecraft:black_wool"
++    }
++  }
++  pattern: [
++    " B "
++    "B#B"
++    " B "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:wheel"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/white_flag</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:white_wool"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "|##"
++    "|##"
++    "|  "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:white_flag"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/white_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:white_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GGG"
++    "I#I"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:white_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/wrench</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:iron_plates"
++    }
++    |: {
++      tag: "ad_astra:iron_rods"
++    }
++  }
++  pattern: [
++    "# #"
++    " | "
++    " | "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:wrench"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/yellow_flag</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:yellow_wool"
++    }
++    |: {
++      tag: "c:rods/steel"
++    }
++  }
++  pattern: [
++    "|##"
++    "|##"
++    "|  "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:yellow_flag"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/yellow_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      item: "minecraft:yellow_dye"
++    }
++    G: {
++      item: "minecraft:glowstone_dust"
++    }
++    I: {
++      tag: "ad_astra:steel_ingots"
++    }
++  }
++  pattern: [
++    "GGG"
++    "I#I"
++  ]
++  result: {
++    count: 4
++    id: "ad_astra:yellow_industrial_lamp"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra/zip_gun</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  category: "misc"
++  key: {
++    #: {
++      tag: "ad_astra:steel_plates"
++    }
++    G: {
++      item: "ad_astra:large_gas_tank"
++    }
++    |: {
++      tag: "ad_astra:steel_rods"
++    }
++  }
++  pattern: [
++    "##|"
++    "G  "
++  ]
++  result: {
++    count: 1
++    id: "ad_astra:zip_gun"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/compat/ae2/inscriber/sky_stone_dust</summary>
+
+```diff
++{
++  type: "ae2:inscriber"
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "ae2"
++        }
++      ]
++    }
++  ]
++  mode: "inscribe"
++  ingredients: {
++    middle: {
++      item: "ad_astra:sky_stone"
++    }
++  }
++  result: {
++    id: "ae2:sky_dust"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/compat/ae2/smelting/smooth_sky_stone_block</summary>
+
+```diff
++{
++  type: "minecraft:smelting"
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "ae2"
++        }
++      ]
++    }
++  ]
++  ingredient: {
++    item: "ad_astra:sky_stone"
++  }
++  result: {
++    id: "ae2:smooth_sky_stone_block"
++  }
++  experience: 0.35
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/compat/industrialforegoing/laser_drill_fluid/oil</summary>
+
+```diff
++{
++  type: "industrialforegoing:laser_drill_fluid"
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "industrialforegoing"
++        }
++      ]
++    }
++  ]
++  catalyst: {
++    item: "industrialforegoing:gray_laser_lens"
++  }
++  output: {
++    amount: 50
++    fluid: "ad_astra:oil"
++  }
++  rarity: [
++    {
++      biome_filter: {
++        blacklist: [
++        ]
++        whitelist: [
++          "minecraft:is_ocean"
++          "c:is_desert"
++        ]
++      }
++      dimension_filter: {
++        blacklist: [
++        ]
++        whitelist: [
++        ]
++      }
++      depth_max: 60
++      depth_min: 20
++      weight: 8
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/compat/industrialforegoing/laser_drill_ore/calorite</summary>
+
+```diff
++{
++  type: "industrialforegoing:laser_drill_ore"
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "industrialforegoing"
++        }
++      ]
++    }
++  ]
++  catalyst: {
++    item: "industrialforegoing:red_laser_lens"
++  }
++  output: {
++    tag: "c:raw_materials/calorite"
++  }
++  rarity: [
++    {
++      biome_filter: {
++        blacklist: [
++        ]
++        whitelist: [
++        ]
++      }
++      dimension_filter: {
++        blacklist: [
++        ]
++        whitelist: [
++          "ad_astra:venus"
++        ]
++      }
++      depth_min: 0
++      depth_max: 80
++      weight: 10
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/compat/industrialforegoing/laser_drill_ore/desh</summary>
+
+```diff
++{
++  type: "industrialforegoing:laser_drill_ore"
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "industrialforegoing"
++        }
++      ]
++    }
++  ]
++  catalyst: {
++    item: "industrialforegoing:orange_laser_lens"
++  }
++  output: {
++    tag: "c:raw_materials/desh"
++  }
++  rarity: [
++    {
++      biome_filter: {
++        blacklist: [
++        ]
++        whitelist: [
++        ]
++      }
++      dimension_filter: {
++        blacklist: [
++        ]
++        whitelist: [
++          "ad_astra:moon"
++        ]
++      }
++      depth_min: 0
++      depth_max: 80
++      weight: 10
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/compat/industrialforegoing/laser_drill_ore/moon_cheese</summary>
+
+```diff
++{
++  type: "industrialforegoing:laser_drill_ore"
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "industrialforegoing"
++        }
++      ]
++    }
++  ]
++  catalyst: {
++    item: "industrialforegoing:yellow_laser_lens"
++  }
++  output: {
++    item: "ad_astra:moon_cheese_ore"
++  }
++  rarity: [
++    {
++      biome_filter: {
++        blacklist: [
++        ]
++        whitelist: [
++        ]
++      }
++      dimension_filter: {
++        blacklist: [
++        ]
++        whitelist: [
++          "ad_astra:moon"
++        ]
++      }
++      depth_min: 0
++      depth_max: 192
++      weight: 10
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/compat/industrialforegoing/laser_drill_ore/ostrum</summary>
+
+```diff
++{
++  type: "industrialforegoing:laser_drill_ore"
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "industrialforegoing"
++        }
++      ]
++    }
++  ]
++  catalyst: {
++    item: "industrialforegoing:purple_laser_lens"
++  }
++  output: {
++    tag: "c:raw_materials/ostrum"
++  }
++  rarity: [
++    {
++      biome_filter: {
++        blacklist: [
++        ]
++        whitelist: [
++        ]
++      }
++      dimension_filter: {
++        blacklist: [
++        ]
++        whitelist: [
++          "ad_astra:mars"
++        ]
++      }
++      depth_min: 0
++      depth_max: 80
++      weight: 10
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/compat/mekanism/crafting/module_acid_rain_proof_unit</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:item_exists"
++          item: "ad_astra_giselle_addon:module_acid_rain_proof_unit"
++        }
++      ]
++    }
++  ]
++  result: {
++    id: "ad_astra_giselle_addon:module_acid_rain_proof_unit"
++  }
++  pattern: [
++    "I#I"
++    "IAI"
++    "PPP"
++  ]
++  key: {
++    I: {
++      tag: "mekanism:alloys/reinforced"
++    }
++    A: {
++      item: "mekanism:module_base"
++    }
++    #: {
++      tag: "c:plates/calorite"
++    }
++    P: {
++      tag: "c:pellets/polonium"
++    }
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/compat/mekanism/crafting/module_gravity_normalizing_unit</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:item_exists"
++          item: "ad_astra_giselle_addon:module_gravity_normalizing_unit"
++        }
++      ]
++    }
++  ]
++  result: {
++    id: "ad_astra_giselle_addon:module_gravity_normalizing_unit"
++  }
++  pattern: [
++    "I#I"
++    "IAI"
++    "PPP"
++  ]
++  key: {
++    I: {
++      tag: "mekanism:alloys/infused"
++    }
++    A: {
++      item: "mekanism:module_base"
++    }
++    #: {
++      item: "ad_astra:space_boots"
++    }
++    P: {
++      item: "mekanism:hdpe_sheet"
++    }
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/compat/mekanism/crafting/module_space_breathing_unit</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:item_exists"
++          item: "ad_astra_giselle_addon:module_space_breathing_unit"
++        }
++      ]
++    }
++  ]
++  result: {
++    id: "ad_astra_giselle_addon:module_space_breathing_unit"
++  }
++  pattern: [
++    "I#I"
++    "IAI"
++    "PPP"
++  ]
++  key: {
++    I: {
++      tag: "mekanism:alloys/infused"
++    }
++    A: {
++      item: "mekanism:module_base"
++    }
++    #: {
++      item: "ad_astra:space_suit"
++    }
++    P: {
++      item: "mekanism:hdpe_sheet"
++    }
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/compat/mekanism/crafting/module_space_fire_proof_unit</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:item_exists"
++          item: "ad_astra_giselle_addon:module_space_fire_proof_unit"
++        }
++      ]
++    }
++  ]
++  result: {
++    id: "ad_astra_giselle_addon:module_space_fire_proof_unit"
++  }
++  pattern: [
++    "I#I"
++    "IAI"
++    "PPP"
++  ]
++  key: {
++    I: {
++      tag: "mekanism:alloys/reinforced"
++    }
++    A: {
++      item: "mekanism:module_base"
++    }
++    #: {
++      tag: "c:plates/ostrum"
++    }
++    P: {
++      tag: "c:pellets/polonium"
++    }
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/compat/mekanism/crushing/to_sky_dust</summary>
+
+```diff
++{
++  type: "mekanism:crushing"
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "mekanism"
++        }
++        {
++          type: "neoforge:mod_loaded"
++          modid: "ae2"
++        }
++      ]
++    }
++  ]
++  input: {
++    item: "ad_astra:sky_stone"
++  }
++  output: {
++    id: "ae2:sky_dust"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/compat/pneumaticcraft/crafting/acid_rain_proof_upgrade</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:item_exists"
++          item: "ad_astra_giselle_addon:pneumatic_acid_rain_proof_upgrade"
++        }
++      ]
++    }
++  ]
++  result: {
++    id: "ad_astra_giselle_addon:pneumatic_acid_rain_proof_upgrade"
++  }
++  pattern: [
++    "LXL"
++    "XCX"
++    "LXL"
++  ]
++  key: {
++    L: {
++      tag: "pneumaticcraft:upgrade_components"
++    }
++    X: {
++      item: "ad_astra:venus_stone"
++    }
++    C: {
++      tag: "c:plates/calorite"
++    }
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/compat/pneumaticcraft/crafting/gravity_normalizing_upgrade</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:item_exists"
++          item: "ad_astra_giselle_addon:pneumatic_gravity_normalizing_upgrade"
++        }
++      ]
++    }
++  ]
++  result: {
++    id: "ad_astra_giselle_addon:pneumatic_gravity_normalizing_upgrade"
++  }
++  pattern: [
++    "LXL"
++    "XCX"
++    "LXL"
++  ]
++  key: {
++    L: {
++      tag: "pneumaticcraft:upgrade_components"
++    }
++    X: {
++      item: "ad_astra:mars_stone"
++    }
++    C: {
++      item: "ad_astra:space_boots"
++    }
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/compat/pneumaticcraft/crafting/space_breathing_upgrade</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:item_exists"
++          item: "ad_astra_giselle_addon:pneumatic_space_breathing_upgrade"
++        }
++      ]
++    }
++  ]
++  result: {
++    id: "ad_astra_giselle_addon:pneumatic_space_breathing_upgrade"
++  }
++  pattern: [
++    "LXL"
++    "XCX"
++    "LXL"
++  ]
++  key: {
++    L: {
++      tag: "pneumaticcraft:upgrade_components"
++    }
++    X: {
++      item: "ad_astra:moon_stone"
++    }
++    C: {
++      item: "ad_astra:space_suit"
++    }
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/compat/pneumaticcraft/crafting/space_fire_proof_upgrade</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:item_exists"
++          item: "ad_astra_giselle_addon:pneumatic_space_fire_proof_upgrade"
++        }
++      ]
++    }
++  ]
++  result: {
++    id: "ad_astra_giselle_addon:pneumatic_space_fire_proof_upgrade"
++  }
++  pattern: [
++    "LXL"
++    "XCX"
++    "LXL"
++  ]
++  key: {
++    L: {
++      tag: "pneumaticcraft:upgrade_components"
++    }
++    X: {
++      item: "ad_astra:mercury_stone"
++    }
++    C: {
++      tag: "c:plates/ostrum"
++    }
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/crafting/automation_nasa_workbench</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  result: {
++    id: "ad_astra_giselle_addon:automation_nasa_workbench"
++  }
++  pattern: [
++    "SHS"
++    "RNR"
++    "SHS"
++  ]
++  key: {
++    S: {
++      tag: "ad_astra:steel_plates"
++    }
++    H: {
++      item: "minecraft:hopper"
++    }
++    R: {
++      tag: "c:dusts/redstone"
++    }
++    N: {
++      item: "ad_astra:nasa_workbench"
++    }
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/crafting/enchanted_book_acid_rain_proof</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  result: {
++    id: "minecraft:enchanted_book"
++    components: {
++      minecraft:stored_enchantments: {
++        levels: {
++          ad_astra_giselle_addon:acid_rain_proof: 1
++        }
++      }
++    }
++  }
++  pattern: [
++    "R#R"
++    "RBR"
++    "RRR"
++  ]
++  key: {
++    B: {
++      item: "minecraft:book"
++    }
++    #: {
++      tag: "ad_astra:calorite_plates"
++    }
++    R: {
++      item: "ad_astra:venus_stone"
++    }
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/crafting/enchanted_book_gravity_normalizing</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  result: {
++    id: "minecraft:enchanted_book"
++    components: {
++      minecraft:stored_enchantments: {
++        levels: {
++          ad_astra_giselle_addon:gravity_normalizing: 1
++        }
++      }
++    }
++  }
++  pattern: [
++    "R#R"
++    "RBR"
++    "RRR"
++  ]
++  key: {
++    B: {
++      item: "minecraft:book"
++    }
++    #: {
++      item: "ad_astra:space_boots"
++    }
++    R: {
++      item: "ad_astra:mars_stone"
++    }
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/crafting/enchanted_book_space_breathing</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  result: {
++    id: "minecraft:enchanted_book"
++    components: {
++      minecraft:stored_enchantments: {
++        levels: {
++          ad_astra_giselle_addon:space_breathing: 1
++        }
++      }
++    }
++  }
++  pattern: [
++    "R#R"
++    "RBR"
++    "RRR"
++  ]
++  key: {
++    B: {
++      item: "minecraft:book"
++    }
++    #: {
++      item: "ad_astra:space_suit"
++    }
++    R: {
++      item: "ad_astra:moon_stone"
++    }
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/crafting/enchanted_book_space_fire_proof</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  result: {
++    id: "minecraft:enchanted_book"
++    components: {
++      minecraft:stored_enchantments: {
++        levels: {
++          ad_astra_giselle_addon:space_fire_proof: 1
++        }
++      }
++    }
++  }
++  pattern: [
++    "R#R"
++    "RBR"
++    "RRR"
++  ]
++  key: {
++    B: {
++      item: "minecraft:book"
++    }
++    #: {
++      tag: "ad_astra:ostrum_plates"
++    }
++    R: {
++      item: "ad_astra:mercury_stone"
++    }
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/crafting/fuel_loader</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  result: {
++    id: "ad_astra_giselle_addon:fuel_loader"
++  }
++  pattern: [
++    "SSS"
++    "PBP"
++    "SSS"
++  ]
++  key: {
++    S: {
++      tag: "ad_astra:steel_ingots"
++    }
++    P: {
++      tag: "ad_astra:iron_plates"
++    }
++    B: {
++      item: "minecraft:bucket"
++    }
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/crafting/gravity_normalizer</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  result: {
++    id: "ad_astra_giselle_addon:gravity_normalizer"
++  }
++  pattern: [
++    "SSS"
++    "PBP"
++    "SSS"
++  ]
++  key: {
++    S: {
++      tag: "ad_astra:steel_ingots"
++    }
++    P: {
++      tag: "ad_astra:iron_plates"
++    }
++    B: {
++      item: "ad_astra:space_boots"
++    }
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/crafting/netherite_oxygen_can</summary>
+
+```diff
++{
++  type: "ad_astra_giselle_addon:can_upgrading"
++  result: {
++    id: "ad_astra_giselle_addon:netherite_oxygen_can"
++  }
++  pattern: [
++    " N "
++    "OCO"
++    "OOO"
++  ]
++  key: {
++    N: {
++      tag: "ad_astra:netherite_ingots"
++    }
++    O: {
++      tag: "ad_astra:ostrum_plates"
++    }
++    C: {
++      item: "ad_astra_giselle_addon:oxygen_can"
++    }
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/crafting/netherite_oxygen_can_clear</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  result: {
++    id: "ad_astra_giselle_addon:netherite_oxygen_can"
++  }
++  ingredients: [
++    {
++      item: "ad_astra_giselle_addon:netherite_oxygen_can"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/crafting/oxygen_can</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  result: {
++    id: "ad_astra_giselle_addon:oxygen_can"
++  }
++  pattern: [
++    " R "
++    "P P"
++    "PPP"
++  ]
++  key: {
++    R: {
++      tag: "ad_astra:iron_rods"
++    }
++    P: {
++      tag: "ad_astra:iron_plates"
++    }
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/crafting/oxygen_can_clear</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shapeless"
++  result: {
++    id: "ad_astra_giselle_addon:oxygen_can"
++  }
++  ingredients: [
++    {
++      item: "ad_astra_giselle_addon:oxygen_can"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>ad_astra_giselle_addon/crafting/rocket_sensor</summary>
+
+```diff
++{
++  type: "minecraft:crafting_shaped"
++  result: {
++    id: "ad_astra_giselle_addon:rocket_sensor"
++  }
++  pattern: [
++    "SSS"
++    "POP"
++    "SSS"
++  ]
++  key: {
++    S: {
++      tag: "ad_astra:steel_ingots"
++    }
++    P: {
++      tag: "ad_astra:iron_plates"
++    }
++    O: {
++      item: "minecraft:observer"
++    }
++  }
++}
+
+```
+
+
+</details>
 
 <details>
 <summary>advancedperipherals/ae_disk_cell_16m</summary>
@@ -785,6 +15498,148 @@ Summary of changes here!
 +    count: 1
 +    id: "advancedperipherals:smart_rail"
 +  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>allthemods/productivetrees/sawing/ad_astra/glacian_planks</summary>
+
+```diff
++{
++  type: "productivetrees:sawmill"
++  input: {
++    tag: "ad_astra:glacian_logs"
++  }
++  output: {
++    id: "ad_astra:glacian_planks"
++    count: 6
++  }
++  secondary: {
++    id: "productivetrees:sawdust"
++    count: 2
++  }
++  _kubejs_changed_marker: {
++    source: "server_scripts:Unification/sawing.js"
++    line: 89
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>almostunified/ad_astra</summary>
+
+```diff
++{
++  type: "almostunified:client_recipe_tracker"
++  namespace: "ad_astra"
++  recipes: [
++    "3$steel_ingot_from_steel_block"
++    "3$steel_nugget"
++    "1$alloying/steel_ingot_from_alloying_iron_ingot_and_barrier"
++    "3$smelting/coal_from_smelting_glacio_coal_ore"
++    "3$smelting/coal_from_smelting_venus_coal_ore"
++    "3$smelting/copper_ingot_from_smelting_glacio_copper_ore"
++    "3$smelting/diamond_from_smelting_mars_diamond_ore"
++    "3$smelting/diamond_from_smelting_venus_diamond_ore"
++    "3$smelting/gold_ingot_from_smelting_venus_gold_ore"
++    "3$smelting/iron_ingot_from_smelting_glacio_iron_ore"
++    "3$smelting/iron_ingot_from_smelting_mars_iron_ore"
++    "3$smelting/iron_ingot_from_smelting_mercury_iron_ore"
++    "3$smelting/iron_ingot_from_smelting_moon_iron_ore"
++    "3$smelting/lapis_lazuli_from_smelting_glacio_lapis_ore"
++    "1$astrodux"
++    "1$black_flag"
++    "1$blue_flag"
++    "1$brown_flag"
++    "1$cable_duct"
++    "1$calorite_plateblock"
++    "1$calorite_tank"
++    "1$coal_generator"
++    "1$compressor"
++    "1$cyan_flag"
++    "1$desh_cable"
++    "1$desh_plateblock"
++    "1$desh_tank"
++    "1$energizer"
++    "1$engine_frame"
++    "1$etrionic_blast_furnace"
++    "1$etrionic_capacitor"
++    "1$fan"
++    "1$fluid_pipe_duct"
++    "1$gas_tank"
++    "1$gravity_normalizer"
++    "1$gray_flag"
++    "1$green_flag"
++    "1$iron_factory_block"
++    "1$iron_panel"
++    "1$iron_plateblock"
++    "1$iron_rod"
++    "1$large_gas_tank"
++    "1$light_blue_flag"
++    "1$light_gray_flag"
++    "1$lime_flag"
++    "1$magenta_flag"
++    "1$orange_flag"
++    "1$ostrum_plateblock"
++    "1$ostrum_tank"
++    "1$oxygen_gear"
++    "1$oxygen_loader"
++    "1$oxygen_sensor"
++    "1$photovoltaic_etrium_cell"
++    "1$pink_flag"
++    "1$purple_flag"
++    "1$red_flag"
++    "1$steel_block"
++    "1$steel_cable"
++    "1$steel_ingot"
++    "1$steel_plateblock"
++    "1$steel_rod"
++    "1$steel_tank"
++    "1$ti_69"
++    "1$vent"
++    "1$white_flag"
++    "1$yellow_flag"
++    "1$compressing/iron_plate_from_compressing_iron_block"
++    "1$compressing/iron_plate_from_compressing_iron_ingot"
++    "1$compressing/steel_plate_from_compressing_steel_blocks"
++    "1$compressing/steel_plate_from_compressing_steel_ingots"
++    "3$blasting/coal_from_blasting_glacio_coal_ore"
++    "3$blasting/coal_from_blasting_venus_coal_ore"
++    "3$blasting/copper_ingot_from_blasting_glacio_copper_ore"
++    "3$blasting/diamond_from_blasting_mars_diamond_ore"
++    "3$blasting/diamond_from_blasting_venus_diamond_ore"
++    "3$blasting/gold_ingot_from_blasting_venus_gold_ore"
++    "3$blasting/iron_ingot_from_blasting_glacio_iron_ore"
++    "3$blasting/iron_ingot_from_blasting_mars_iron_ore"
++    "3$blasting/iron_ingot_from_blasting_mercury_iron_ore"
++    "3$blasting/iron_ingot_from_blasting_moon_iron_ore"
++    "3$blasting/lapis_lazuli_from_blasting_glacio_lapis_ore"
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>almostunified/ad_astra_giselle_addon</summary>
+
+```diff
++{
++  type: "almostunified:client_recipe_tracker"
++  namespace: "ad_astra_giselle_addon"
++  recipes: [
++    "1$crafting/automation_nasa_workbench"
++  ]
 +}
 
 ```
@@ -1632,6 +16487,2617 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>create/crushing/deepslate_calorite_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:crushing"
++  ingredients: [
++    {
++      item: "ad_astra:deepslate_calorite_ore"
++    }
++  ]
++  results: [
++    {
++      count: 2
++      id: "ad_astra:raw_calorite"
++    }
++    {
++      chance: 0.25
++      id: "ad_astra:raw_calorite"
++    }
++    {
++      chance: 0.75
++      id: "create:experience_nugget"
++    }
++    {
++      chance: 0.125
++      id: "minecraft:deepslate"
++    }
++  ]
++  processingTime: 300
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/crushing/deepslate_desh_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:crushing"
++  ingredients: [
++    {
++      item: "ad_astra:deepslate_desh_ore"
++    }
++  ]
++  results: [
++    {
++      count: 2
++      id: "ad_astra:raw_desh"
++    }
++    {
++      chance: 0.25
++      id: "ad_astra:raw_desh"
++    }
++    {
++      chance: 0.75
++      id: "create:experience_nugget"
++    }
++    {
++      chance: 0.125
++      id: "minecraft:deepslate"
++    }
++  ]
++  processingTime: 300
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/crushing/deepslate_ice_shard_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:crushing"
++  ingredients: [
++    {
++      item: "ad_astra:deepslate_ice_shard_ore"
++    }
++  ]
++  results: [
++    {
++      count: 2
++      id: "ad_astra:ice_shard"
++    }
++    {
++      chance: 0.25
++      id: "ad_astra:ice_shard"
++    }
++    {
++      chance: 0.75
++      id: "create:experience_nugget"
++    }
++    {
++      chance: 0.125
++      id: "minecraft:deepslate"
++    }
++  ]
++  processingTime: 300
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/crushing/deepslate_ostrum_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:crushing"
++  ingredients: [
++    {
++      item: "ad_astra:deepslate_ostrum_ore"
++    }
++  ]
++  results: [
++    {
++      count: 2
++      id: "ad_astra:raw_ostrum"
++    }
++    {
++      chance: 0.25
++      id: "ad_astra:raw_ostrum"
++    }
++    {
++      chance: 0.75
++      id: "create:experience_nugget"
++    }
++    {
++      chance: 0.125
++      id: "minecraft:deepslate"
++    }
++  ]
++  processingTime: 300
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/crushing/glacio_coal_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:crushing"
++  ingredients: [
++    {
++      tag: "c:ores/coal"
++    }
++  ]
++  results: [
++    {
++      id: "minecraft:coal"
++    }
++    {
++      chance: 0.75
++      id: "minecraft:coal"
++    }
++    {
++      chance: 0.75
++      id: "create:experience_nugget"
++    }
++    {
++      chance: 0.125
++      id: "ad_astra:glacio_cobblestone"
++    }
++  ]
++  processingTime: 150
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/crushing/glacio_copper_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:crushing"
++  ingredients: [
++    {
++      tag: "c:ores/copper"
++    }
++  ]
++  results: [
++    {
++      count: 5
++      id: "alltheores:copper_clump"
++    }
++    {
++      chance: 0.25
++      id: "alltheores:copper_clump"
++    }
++    {
++      chance: 0.75
++      id: "create:experience_nugget"
++    }
++    {
++      chance: 0.125
++      id: "ad_astra:glacio_cobblestone"
++    }
++  ]
++  processingTime: 250
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/crushing/glacio_ice_shard_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:crushing"
++  ingredients: [
++    {
++      item: "ad_astra:glacio_ice_shard_ore"
++    }
++  ]
++  results: [
++    {
++      count: 2
++      id: "ad_astra:ice_shard"
++    }
++    {
++      chance: 0.25
++      id: "ad_astra:ice_shard"
++    }
++    {
++      chance: 0.75
++      id: "create:experience_nugget"
++    }
++    {
++      chance: 0.125
++      id: "ad_astra:glacio_cobblestone"
++    }
++  ]
++  processingTime: 300
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/crushing/glacio_iron_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:crushing"
++  ingredients: [
++    {
++      tag: "c:ores/iron"
++    }
++  ]
++  results: [
++    {
++      id: "alltheores:iron_clump"
++    }
++    {
++      chance: 0.75
++      id: "alltheores:iron_clump"
++    }
++    {
++      chance: 0.75
++      id: "create:experience_nugget"
++    }
++    {
++      chance: 0.125
++      id: "ad_astra:glacio_cobblestone"
++    }
++  ]
++  processingTime: 250
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/crushing/glacio_lapis_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:crushing"
++  ingredients: [
++    {
++      tag: "c:ores/lapis"
++    }
++  ]
++  results: [
++    {
++      count: 10
++      id: "minecraft:lapis_lazuli"
++    }
++    {
++      chance: 0.5
++      id: "minecraft:lapis_lazuli"
++    }
++    {
++      chance: 0.75
++      id: "create:experience_nugget"
++    }
++    {
++      chance: 0.125
++      id: "ad_astra:glacio_cobblestone"
++    }
++  ]
++  processingTime: 250
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/crushing/mars_diamond_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:crushing"
++  ingredients: [
++    {
++      tag: "c:ores/diamond"
++    }
++  ]
++  results: [
++    {
++      id: "minecraft:diamond"
++    }
++    {
++      chance: 0.75
++      id: "minecraft:diamond"
++    }
++    {
++      chance: 0.75
++      id: "create:experience_nugget"
++    }
++    {
++      chance: 0.125
++      id: "ad_astra:mars_cobblestone"
++    }
++  ]
++  processingTime: 350
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/crushing/mars_ice_shard_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:crushing"
++  ingredients: [
++    {
++      item: "ad_astra:mars_ice_shard_ore"
++    }
++  ]
++  results: [
++    {
++      count: 2
++      id: "ad_astra:ice_shard"
++    }
++    {
++      chance: 0.25
++      id: "ad_astra:ice_shard"
++    }
++    {
++      chance: 0.75
++      id: "create:experience_nugget"
++    }
++    {
++      chance: 0.125
++      id: "ad_astra:mars_cobblestone"
++    }
++  ]
++  processingTime: 300
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/crushing/mars_iron_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:crushing"
++  ingredients: [
++    {
++      tag: "c:ores/iron"
++    }
++  ]
++  results: [
++    {
++      id: "alltheores:iron_clump"
++    }
++    {
++      chance: 0.75
++      id: "alltheores:iron_clump"
++    }
++    {
++      chance: 0.75
++      id: "create:experience_nugget"
++    }
++    {
++      chance: 0.125
++      id: "ad_astra:mars_cobblestone"
++    }
++  ]
++  processingTime: 250
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/crushing/mars_ostrum_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:crushing"
++  ingredients: [
++    {
++      item: "ad_astra:mars_ostrum_ore"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:raw_ostrum"
++    }
++    {
++      chance: 0.25
++      id: "ad_astra:raw_ostrum"
++    }
++    {
++      chance: 0.75
++      id: "create:experience_nugget"
++    }
++    {
++      chance: 0.125
++      id: "ad_astra:mars_cobblestone"
++    }
++  ]
++  processingTime: 300
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/crushing/mercury_iron_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:crushing"
++  ingredients: [
++    {
++      tag: "c:ores/iron"
++    }
++  ]
++  results: [
++    {
++      id: "alltheores:iron_clump"
++    }
++    {
++      chance: 0.75
++      id: "alltheores:iron_clump"
++    }
++    {
++      chance: 0.75
++      id: "create:experience_nugget"
++    }
++    {
++      chance: 0.125
++      id: "ad_astra:mercury_cobblestone"
++    }
++  ]
++  processingTime: 250
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/crushing/moon_cheese_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:crushing"
++  ingredients: [
++    {
++      item: "ad_astra:moon_cheese_ore"
++    }
++  ]
++  results: [
++    {
++      count: 2
++      id: "ad_astra:cheese"
++    }
++    {
++      chance: 0.25
++      id: "ad_astra:cheese"
++    }
++    {
++      chance: 0.75
++      id: "create:experience_nugget"
++    }
++    {
++      chance: 0.125
++      id: "ad_astra:moon_cobblestone"
++    }
++  ]
++  processingTime: 300
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/crushing/moon_desh_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:crushing"
++  ingredients: [
++    {
++      item: "ad_astra:moon_desh_ore"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:raw_desh"
++    }
++    {
++      chance: 0.25
++      id: "ad_astra:raw_desh"
++    }
++    {
++      chance: 0.75
++      id: "create:experience_nugget"
++    }
++    {
++      chance: 0.125
++      id: "ad_astra:moon_cobblestone"
++    }
++  ]
++  processingTime: 300
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/crushing/moon_ice_shard_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:crushing"
++  ingredients: [
++    {
++      item: "ad_astra:moon_ice_shard_ore"
++    }
++  ]
++  results: [
++    {
++      count: 2
++      id: "ad_astra:ice_shard"
++    }
++    {
++      chance: 0.25
++      id: "ad_astra:ice_shard"
++    }
++    {
++      chance: 0.75
++      id: "create:experience_nugget"
++    }
++    {
++      chance: 0.125
++      id: "ad_astra:moon_cobblestone"
++    }
++  ]
++  processingTime: 300
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/crushing/moon_iron_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:crushing"
++  ingredients: [
++    {
++      tag: "c:ores/iron"
++    }
++  ]
++  results: [
++    {
++      id: "alltheores:iron_clump"
++    }
++    {
++      chance: 0.75
++      id: "alltheores:iron_clump"
++    }
++    {
++      chance: 0.75
++      id: "create:experience_nugget"
++    }
++    {
++      chance: 0.125
++      id: "ad_astra:moon_cobblestone"
++    }
++  ]
++  processingTime: 250
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/crushing/venus_calorite_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:crushing"
++  ingredients: [
++    {
++      item: "ad_astra:venus_calorite_ore"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:raw_calorite"
++    }
++    {
++      chance: 0.25
++      id: "ad_astra:raw_calorite"
++    }
++    {
++      chance: 0.75
++      id: "create:experience_nugget"
++    }
++    {
++      chance: 0.125
++      id: "ad_astra:venus_cobblestone"
++    }
++  ]
++  processingTime: 300
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/crushing/venus_coal_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:crushing"
++  ingredients: [
++    {
++      tag: "c:ores/coal"
++    }
++  ]
++  results: [
++    {
++      id: "minecraft:coal"
++    }
++    {
++      chance: 0.75
++      id: "minecraft:coal"
++    }
++    {
++      chance: 0.75
++      id: "create:experience_nugget"
++    }
++    {
++      chance: 0.125
++      id: "ad_astra:venus_cobblestone"
++    }
++  ]
++  processingTime: 150
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/crushing/venus_diamond_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:crushing"
++  ingredients: [
++    {
++      tag: "c:ores/diamond"
++    }
++  ]
++  results: [
++    {
++      id: "minecraft:diamond"
++    }
++    {
++      chance: 0.75
++      id: "minecraft:diamond"
++    }
++    {
++      chance: 0.75
++      id: "create:experience_nugget"
++    }
++    {
++      chance: 0.125
++      id: "ad_astra:venus_cobblestone"
++    }
++  ]
++  processingTime: 350
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/crushing/venus_gold_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:crushing"
++  ingredients: [
++    {
++      tag: "c:ores/gold"
++    }
++  ]
++  results: [
++    {
++      id: "alltheores:gold_clump"
++    }
++    {
++      chance: 0.75
++      id: "alltheores:gold_clump"
++    }
++    {
++      count: 2
++      chance: 0.75
++      id: "create:experience_nugget"
++    }
++    {
++      chance: 0.125
++      id: "ad_astra:venus_cobblestone"
++    }
++  ]
++  processingTime: 250
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/aeronos_caps</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:cutting"
++  ingredients: [
++    {
++      tag: "ad_astra:aeronos_caps"
++    }
++  ]
++  processingTime: 50
++  results: [
++    {
++      count: 6
++      id: "ad_astra:aeronos_planks"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/glacian_log</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:cutting"
++  ingredients: [
++    {
++      item: "ad_astra:glacian_log"
++    }
++  ]
++  processingTime: 50
++  results: [
++    {
++      id: "ad_astra:stripped_glacian_log"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/ad_astra/aeronos_planks_to_aeronos_door</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      item: "ad_astra:aeronos_planks"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:aeronos_door"
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/ad_astra/aeronos_planks_to_aeronos_fence</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      item: "ad_astra:aeronos_planks"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:aeronos_fence"
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/ad_astra/aeronos_planks_to_aeronos_fence_gate</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      item: "ad_astra:aeronos_planks"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:aeronos_fence_gate"
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/ad_astra/aeronos_planks_to_aeronos_slab</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      item: "ad_astra:aeronos_planks"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:aeronos_slab"
++      count: 2
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/ad_astra/aeronos_planks_to_aeronos_stairs</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      item: "ad_astra:aeronos_planks"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:aeronos_stairs"
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/ad_astra/aeronos_planks_to_aeronos_trapdoor</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      item: "ad_astra:aeronos_planks"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:aeronos_trapdoor"
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/ad_astra/glacian_log_to_stripped_glacian_log</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      item: "ad_astra:glacian_log"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:stripped_glacian_log"
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/ad_astra/glacian_planks_to_glacian_button</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      item: "ad_astra:glacian_planks"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:glacian_button"
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/ad_astra/glacian_planks_to_glacian_door</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      item: "ad_astra:glacian_planks"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:glacian_door"
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/ad_astra/glacian_planks_to_glacian_fence</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      item: "ad_astra:glacian_planks"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:glacian_fence"
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/ad_astra/glacian_planks_to_glacian_fence_gate</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      item: "ad_astra:glacian_planks"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:glacian_fence_gate"
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/ad_astra/glacian_planks_to_glacian_pressure_plate</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      item: "ad_astra:glacian_planks"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:glacian_pressure_plate"
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/ad_astra/glacian_planks_to_glacian_slab</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      item: "ad_astra:glacian_planks"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:glacian_slab"
++      count: 2
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/ad_astra/glacian_planks_to_glacian_stairs</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      item: "ad_astra:glacian_planks"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:glacian_stairs"
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/ad_astra/glacian_planks_to_glacian_trapdoor</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      item: "ad_astra:glacian_planks"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:glacian_trapdoor"
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/ad_astra/stripped_glacian_log_to_glacian_planks</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      item: "ad_astra:stripped_glacian_log"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:glacian_planks"
++      count: 6
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/ad_astra/strophar_planks_to_strophar_door</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      item: "ad_astra:strophar_planks"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:strophar_door"
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/ad_astra/strophar_planks_to_strophar_fence</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      item: "ad_astra:strophar_planks"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:strophar_fence"
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/ad_astra/strophar_planks_to_strophar_fence_gate</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      item: "ad_astra:strophar_planks"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:strophar_fence_gate"
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/ad_astra/strophar_planks_to_strophar_slab</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      item: "ad_astra:strophar_planks"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:strophar_slab"
++      count: 2
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/ad_astra/strophar_planks_to_strophar_stairs</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      item: "ad_astra:strophar_planks"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:strophar_stairs"
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/ad_astra/strophar_planks_to_strophar_trapdoor</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      item: "ad_astra:strophar_planks"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:strophar_trapdoor"
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/create/tag_runtime_generated/compat/ad_astra/aeronos_to_aeronos_planks</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      tag: "create:runtime_generated/compat/ad_astra/aeronos"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:aeronos_planks"
++      count: 6
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/runtime_generated/compat/create/tag_runtime_generated/compat/ad_astra/strophar_to_strophar_planks</summary>
+
+```diff
++{
++  ingredients: [
++    {
++      tag: "create:runtime_generated/compat/ad_astra/strophar"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:strophar_planks"
++      count: 6
++    }
++  ]
++  processing_time: 50
++  type: "create:cutting"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/stripped_glacian_log</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:cutting"
++  ingredients: [
++    {
++      item: "ad_astra:stripped_glacian_log"
++    }
++  ]
++  processingTime: 50
++  results: [
++    {
++      count: 6
++      id: "ad_astra:glacian_planks"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/cutting/strophar_caps</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:cutting"
++  ingredients: [
++    {
++      tag: "ad_astra:strophar_caps"
++    }
++  ]
++  processingTime: 50
++  results: [
++    {
++      count: 6
++      id: "ad_astra:strophar_planks"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/milling/venus_sandstone</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:milling"
++  ingredients: [
++    {
++      item: "ad_astra:venus_sandstone"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:venus_sand"
++    }
++  ]
++  processingTime: 150
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/pressing/calorite_ingot</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:pressing"
++  ingredients: [
++    {
++      tag: "ad_astra:calorite_ingots"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:calorite_plate"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/pressing/desh_ingot</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:pressing"
++  ingredients: [
++    {
++      tag: "ad_astra:desh_ingots"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:desh_plate"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/pressing/ostrum_ingot</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:pressing"
++  ingredients: [
++    {
++      tag: "ad_astra:ostrum_ingots"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:ostrum_plate"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create/pressing/steel_ingot</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "create"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "create"
++        }
++      ]
++    }
++  ]
++  type: "create:pressing"
++  ingredients: [
++    {
++      tag: "ad_astra:steel_ingots"
++    }
++  ]
++  results: [
++    {
++      id: "alltheores:steel_plate"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create_dragons_plus/sandpaper_polishing/ad_astra/conglomerate</summary>
+
+```diff
++{
++  type: "create:sandpaper_polishing"
++  ingredients: [
++    {
++      item: "ad_astra:conglomerate"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:polished_conglomerate"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create_dragons_plus/sandpaper_polishing/ad_astra/glacio_stone</summary>
+
+```diff
++{
++  type: "create:sandpaper_polishing"
++  ingredients: [
++    {
++      item: "ad_astra:glacio_stone"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:polished_glacio_stone"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create_dragons_plus/sandpaper_polishing/ad_astra/glacio_stone_slab</summary>
+
+```diff
++{
++  type: "create:sandpaper_polishing"
++  ingredients: [
++    {
++      item: "ad_astra:glacio_stone_slab"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:polished_glacio_stone_slab"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create_dragons_plus/sandpaper_polishing/ad_astra/glacio_stone_stairs</summary>
+
+```diff
++{
++  type: "create:sandpaper_polishing"
++  ingredients: [
++    {
++      item: "ad_astra:glacio_stone_stairs"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:polished_glacio_stone_stairs"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create_dragons_plus/sandpaper_polishing/ad_astra/mars_stone</summary>
+
+```diff
++{
++  type: "create:sandpaper_polishing"
++  ingredients: [
++    {
++      item: "ad_astra:mars_stone"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:polished_mars_stone"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create_dragons_plus/sandpaper_polishing/ad_astra/mars_stone_slab</summary>
+
+```diff
++{
++  type: "create:sandpaper_polishing"
++  ingredients: [
++    {
++      item: "ad_astra:mars_stone_slab"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:polished_mars_stone_slab"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create_dragons_plus/sandpaper_polishing/ad_astra/mars_stone_stairs</summary>
+
+```diff
++{
++  type: "create:sandpaper_polishing"
++  ingredients: [
++    {
++      item: "ad_astra:mars_stone_stairs"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:polished_mars_stone_stairs"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create_dragons_plus/sandpaper_polishing/ad_astra/mercury_stone</summary>
+
+```diff
++{
++  type: "create:sandpaper_polishing"
++  ingredients: [
++    {
++      item: "ad_astra:mercury_stone"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:polished_mercury_stone"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create_dragons_plus/sandpaper_polishing/ad_astra/mercury_stone_slab</summary>
+
+```diff
++{
++  type: "create:sandpaper_polishing"
++  ingredients: [
++    {
++      item: "ad_astra:mercury_stone_slab"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:polished_mercury_stone_slab"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create_dragons_plus/sandpaper_polishing/ad_astra/mercury_stone_stairs</summary>
+
+```diff
++{
++  type: "create:sandpaper_polishing"
++  ingredients: [
++    {
++      item: "ad_astra:mercury_stone_stairs"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:polished_mercury_stone_stairs"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create_dragons_plus/sandpaper_polishing/ad_astra/moon_stone</summary>
+
+```diff
++{
++  type: "create:sandpaper_polishing"
++  ingredients: [
++    {
++      item: "ad_astra:moon_stone"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:polished_moon_stone"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create_dragons_plus/sandpaper_polishing/ad_astra/moon_stone_slab</summary>
+
+```diff
++{
++  type: "create:sandpaper_polishing"
++  ingredients: [
++    {
++      item: "ad_astra:moon_stone_slab"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:polished_moon_stone_slab"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create_dragons_plus/sandpaper_polishing/ad_astra/moon_stone_stairs</summary>
+
+```diff
++{
++  type: "create:sandpaper_polishing"
++  ingredients: [
++    {
++      item: "ad_astra:moon_stone_stairs"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:polished_moon_stone_stairs"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create_dragons_plus/sandpaper_polishing/ad_astra/permafrost</summary>
+
+```diff
++{
++  type: "create:sandpaper_polishing"
++  ingredients: [
++    {
++      item: "ad_astra:permafrost"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:polished_permafrost"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create_dragons_plus/sandpaper_polishing/ad_astra/venus_stone</summary>
+
+```diff
++{
++  type: "create:sandpaper_polishing"
++  ingredients: [
++    {
++      item: "ad_astra:venus_stone"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:polished_venus_stone"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create_dragons_plus/sandpaper_polishing/ad_astra/venus_stone_slab</summary>
+
+```diff
++{
++  type: "create:sandpaper_polishing"
++  ingredients: [
++    {
++      item: "ad_astra:venus_stone_slab"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:polished_venus_stone_slab"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>create_dragons_plus/sandpaper_polishing/ad_astra/venus_stone_stairs</summary>
+
+```diff
++{
++  type: "create:sandpaper_polishing"
++  ingredients: [
++    {
++      item: "ad_astra:venus_stone_stairs"
++    }
++  ]
++  results: [
++    {
++      id: "ad_astra:polished_venus_stone_stairs"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
 <summary>createaddition/crafting/servo_motor</summary>
 
 ```diff
@@ -1924,6 +19390,289 @@ Summary of changes here!
 +  result: {
 +    count: 1
 +    id: "extended_industrialization:electric_beacon"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>immersiveengineering/crafting/plate_calorite_hammering</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "immersiveengineering"
++        }
++      ]
++    }
++  ]
++  type: "minecraft:crafting_shapeless"
++  ingredients: [
++    {
++      tag: "c:ingots/calorite"
++    }
++    {
++      item: "immersiveengineering:hammer"
++    }
++  ]
++  result: {
++    id: "ad_astra:calorite_plate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>immersiveengineering/crafting/plate_desh_hammering</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "immersiveengineering"
++        }
++      ]
++    }
++  ]
++  type: "minecraft:crafting_shapeless"
++  ingredients: [
++    {
++      tag: "c:ingots/desh"
++    }
++    {
++      item: "immersiveengineering:hammer"
++    }
++  ]
++  result: {
++    id: "ad_astra:desh_plate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>immersiveengineering/crafting/plate_ostrum_hammering</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "immersiveengineering"
++        }
++      ]
++    }
++  ]
++  type: "minecraft:crafting_shapeless"
++  ingredients: [
++    {
++      tag: "c:ingots/ostrum"
++    }
++    {
++      item: "immersiveengineering:hammer"
++    }
++  ]
++  result: {
++    id: "ad_astra:ostrum_plate"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>immersiveengineering/crusher/ice_shard</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "immersiveengineering"
++        }
++      ]
++    }
++  ]
++  type: "immersiveengineering:crusher"
++  energy: 3200
++  input: {
++    tag: "c:ores/ice_shard"
++  }
++  result: {
++    count: 4
++    id: "ad_astra:ice_shard"
++  }
++  secondaries: [
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>immersiveengineering/crusher/venus_sandstone</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "immersiveengineering"
++        }
++      ]
++    }
++  ]
++  type: "immersiveengineering:crusher"
++  energy: 3200
++  input: {
++    tag: "c:sandstone/venus_sandstone"
++  }
++  result: {
++    count: 2
++    id: "ad_astra:venus_sand"
++  }
++  secondaries: [
++    {
++      chance: 0.5
++      output: {
++        tag: "c:dusts/saltpeter"
++      }
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>immersiveengineering/metalpress/plate_calorite</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "immersiveengineering"
++        }
++      ]
++    }
++  ]
++  type: "immersiveengineering:metal_press"
++  energy: 2400
++  input: {
++    tag: "c:ingots/calorite"
++  }
++  mold: "immersiveengineering:mold_plate"
++  result: {
++    tag: "c:plates/calorite"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>immersiveengineering/metalpress/plate_desh</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "immersiveengineering"
++        }
++      ]
++    }
++  ]
++  type: "immersiveengineering:metal_press"
++  energy: 2400
++  input: {
++    tag: "c:ingots/desh"
++  }
++  mold: "immersiveengineering:mold_plate"
++  result: {
++    tag: "c:plates/desh"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>immersiveengineering/metalpress/plate_ostrum</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "immersiveengineering"
++        }
++      ]
++    }
++  ]
++  type: "immersiveengineering:metal_press"
++  energy: 2400
++  input: {
++    tag: "c:ingots/ostrum"
++  }
++  mold: "immersiveengineering:mold_plate"
++  result: {
++    tag: "c:plates/ostrum"
 +  }
 +}
 
@@ -2739,6 +20488,70 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>mekanism/crushing/venus_sandstone_to_venus_sand</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "mekanism"
++        }
++      ]
++    }
++  ]
++  type: "mekanism:crushing"
++  input: {
++    tag: "c:sandstone/venus_sandstone"
++  }
++  output: {
++    count: 2
++    id: "ad_astra:venus_sand"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>mekanism/enriching/ice_shard_or_to_ice_shards</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "mekanism"
++        }
++      ]
++    }
++  ]
++  type: "mekanism:enriching"
++  input: {
++    tag: "c:ores/ice_shard"
++  }
++  output: {
++    count: 4
++    id: "ad_astra:ice_shard"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
 <summary>mekanism/kjs/dof8werb3pzr4mljtdi2p76g7</summary>
 
 ```diff
@@ -2755,6 +20568,449 @@ Summary of changes here!
 +  _kubejs_changed_marker: {
 +    source: "server_scripts:mods/Mekanism/Evilcraft.js"
 +    line: 2
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>mekanism/sawing/door/aeronos</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "mekanism"
++        }
++      ]
++    }
++  ]
++  type: "mekanism:sawing"
++  input: {
++    item: "ad_astra:aeronos_door"
++  }
++  main_output: {
++    count: 2
++    id: "ad_astra:aeronos_planks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>mekanism/sawing/door/glacian</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "mekanism"
++        }
++      ]
++    }
++  ]
++  type: "mekanism:sawing"
++  input: {
++    item: "ad_astra:glacian_door"
++  }
++  main_output: {
++    count: 2
++    id: "ad_astra:glacian_planks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>mekanism/sawing/door/strophar</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "mekanism"
++        }
++      ]
++    }
++  ]
++  type: "mekanism:sawing"
++  input: {
++    item: "ad_astra:strophar_door"
++  }
++  main_output: {
++    count: 2
++    id: "ad_astra:strophar_planks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>mekanism/sawing/fence_gate/aeronos</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "mekanism"
++        }
++      ]
++    }
++  ]
++  type: "mekanism:sawing"
++  input: {
++    item: "ad_astra:aeronos_fence_gate"
++  }
++  main_output: {
++    count: 2
++    id: "ad_astra:aeronos_planks"
++  }
++  secondary_output: {
++    count: 4
++    id: "minecraft:stick"
++  }
++  secondary_chance: 1
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>mekanism/sawing/fence_gate/glacian</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "mekanism"
++        }
++      ]
++    }
++  ]
++  type: "mekanism:sawing"
++  input: {
++    item: "ad_astra:glacian_fence_gate"
++  }
++  main_output: {
++    count: 2
++    id: "ad_astra:glacian_planks"
++  }
++  secondary_output: {
++    count: 4
++    id: "minecraft:stick"
++  }
++  secondary_chance: 1
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>mekanism/sawing/fence_gate/strophar</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "mekanism"
++        }
++      ]
++    }
++  ]
++  type: "mekanism:sawing"
++  input: {
++    item: "ad_astra:strophar_fence_gate"
++  }
++  main_output: {
++    count: 2
++    id: "ad_astra:strophar_planks"
++  }
++  secondary_output: {
++    count: 4
++    id: "minecraft:stick"
++  }
++  secondary_chance: 1
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>mekanism/sawing/log/aeronos</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "mekanism"
++        }
++      ]
++    }
++  ]
++  type: "mekanism:sawing"
++  input: {
++    tag: "ad_astra:aeronos_caps"
++  }
++  main_output: {
++    count: 6
++    id: "ad_astra:aeronos_planks"
++  }
++  secondary_output: {
++    id: "mekanism:sawdust"
++  }
++  secondary_chance: 0.25
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>mekanism/sawing/log/glacian</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "mekanism"
++        }
++      ]
++    }
++  ]
++  type: "mekanism:sawing"
++  input: {
++    tag: "ad_astra:glacian_logs"
++  }
++  main_output: {
++    count: 6
++    id: "ad_astra:glacian_planks"
++  }
++  secondary_output: {
++    id: "mekanism:sawdust"
++  }
++  secondary_chance: 0.25
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>mekanism/sawing/log/strophar</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "mekanism"
++        }
++      ]
++    }
++  ]
++  type: "mekanism:sawing"
++  input: {
++    tag: "ad_astra:strophar_caps"
++  }
++  main_output: {
++    count: 6
++    id: "ad_astra:strophar_planks"
++  }
++  secondary_output: {
++    id: "mekanism:sawdust"
++  }
++  secondary_chance: 0.25
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>mekanism/sawing/pressure_plate/glacian</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "mekanism"
++        }
++      ]
++    }
++  ]
++  type: "mekanism:sawing"
++  input: {
++    item: "ad_astra:glacian_pressure_plate"
++  }
++  main_output: {
++    count: 2
++    id: "ad_astra:glacian_planks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>mekanism/sawing/trapdoor/aeronos</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "mekanism"
++        }
++      ]
++    }
++  ]
++  type: "mekanism:sawing"
++  input: {
++    item: "ad_astra:aeronos_trapdoor"
++  }
++  main_output: {
++    count: 3
++    id: "ad_astra:aeronos_planks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>mekanism/sawing/trapdoor/glacian</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "mekanism"
++        }
++      ]
++    }
++  ]
++  type: "mekanism:sawing"
++  input: {
++    item: "ad_astra:glacian_trapdoor"
++  }
++  main_output: {
++    count: 3
++    id: "ad_astra:glacian_planks"
++  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>mekanism/sawing/trapdoor/strophar</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "mekanism"
++        }
++      ]
++    }
++  ]
++  type: "mekanism:sawing"
++  input: {
++    item: "ad_astra:strophar_trapdoor"
++  }
++  main_output: {
++    count: 3
++    id: "ad_astra:strophar_planks"
 +  }
 +}
 
@@ -3565,70 +21821,45 @@ Summary of changes here!
 </details>
 
 <details>
-<summary>modern_industrialization/kjs/7rg55evqu14ql00je0p0nk5t7</summary>
+<summary>modern_industrialization/compressor/calorite_ingot_to_plate</summary>
 
 ```diff
 +{
-+  type: "modern_industrialization:star_altar"
-+  eu: 2048
-+  duration: 200
-+  item_outputs: [
++  fabric:load_conditions: [
 +    {
-+      item: "allthetweaks:atm_star"
-+      amount: 1
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "modern_industrialization"
++      ]
 +    }
 +  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "modern_industrialization"
++        }
++      ]
++    }
++  ]
++  type: "modern_industrialization:compressor"
++  duration: 200
++  eu: 2
 +  item_inputs: [
 +    {
-+      item: "actuallyadditions:lens_of_the_killer"
 +      amount: 1
-+    }
-+    {
-+      item: "kubejs:atm_star_shard_1"
-+      amount: 1
-+    }
-+    {
-+      item: "kubejs:atm_star_shard_2"
-+      amount: 1
-+    }
-+    {
-+      item: "kubejs:atm_star_shard_3"
-+      amount: 1
-+    }
-+    {
-+      item: "kubejs:atm_star_shard_4"
-+      amount: 1
-+    }
-+    {
-+      item: "kubejs:atm_star_shard_5"
-+      amount: 1
-+    }
-+    {
-+      item: "forbidden_arcanus:mundabitur_dust"
-+      amount: 1
-+    }
-+    {
-+      item: "forbidden_arcanus:corrupti_dust"
-+      amount: 1
-+    }
-+    {
-+      items: "allthetweaks:patrick_star"
-+      components: {
-+        minecraft:enchantments: {
-+          levels: {
-+            minecraft:mending: 1
-+          }
-+        }
-+        minecraft:custom_name: "{\"extra\":[{\"italic\":false,\"text\":\"Infused Patrick Star\"}],\"text\":\"\"}"
-+      }
-+      type: "neoforge:components"
-+      amount: 1
++      tag: "c:calorite_ingots"
 +    }
 +  ]
-+  _kubejs_changed_marker: {
-+    source: "server_scripts:modpack/runic_multis/recipes/star_altar.js"
-+    line: 60
-+  }
++  item_outputs: [
++    {
++      amount: 1
++      item: "ad_astra:calorite_plate"
++    }
++  ]
 +}
 
 ```
@@ -3637,86 +21868,698 @@ Summary of changes here!
 </details>
 
 <details>
-<summary>modern_industrialization/kjs/8bf1icnkgb909q5smnvtdfro1</summary>
+<summary>modern_industrialization/compressor/desh_ingot_to_plate</summary>
 
 ```diff
 +{
-+  type: "modern_industrialization:star_altar"
-+  eu: 2048
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "modern_industrialization"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "modern_industrialization"
++        }
++      ]
++    }
++  ]
++  type: "modern_industrialization:compressor"
 +  duration: 200
++  eu: 2
++  item_inputs: [
++    {
++      amount: 1
++      tag: "c:desh_ingots"
++    }
++  ]
 +  item_outputs: [
 +    {
-+      item: "allthetweaks:atm_star"
 +      amount: 1
++      item: "ad_astra:desh_plate"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>modern_industrialization/compressor/ostrum_ingot_to_plate</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "modern_industrialization"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "modern_industrialization"
++        }
++      ]
++    }
++  ]
++  type: "modern_industrialization:compressor"
++  duration: 200
++  eu: 2
++  item_inputs: [
++    {
++      amount: 1
++      tag: "c:ostrum_ingots"
++    }
++  ]
++  item_outputs: [
++    {
++      amount: 1
++      item: "ad_astra:ostrum_plate"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>modern_industrialization/cutting_machine/planks/aeronos</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "modern_industrialization"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "modern_industrialization"
++        }
++      ]
++    }
++  ]
++  type: "modern_industrialization:cutting_machine"
++  duration: 100
++  eu: 2
++  fluid_inputs: [
++    {
++      amount: 1
++      fluid: "modern_industrialization:lubricant"
 +    }
 +  ]
 +  item_inputs: [
 +    {
-+      item: "allthemodium:unobtainium_allthemodium_alloy_block"
-+      amount: 28
-+    }
-+    {
-+      item: "allthecompressed:nether_star_block_3x"
-+      amount: 15
-+    }
-+    {
-+      items: "allthemodium:unobtainium_vibranium_alloy_block"
-+      components: {
-+        minecraft:enchantments: {
-+          levels: {
-+            minecraft:unbreaking: 1
-+          }
-+        }
-+        minecraft:custom_name: "{\"extra\":[{\"italic\":false,\"text\":\"Awakened Unobtainium-Vibranium Alloy Block\"}],\"text\":\"\"}"
-+      }
-+      type: "neoforge:components"
-+      amount: 2
-+    }
-+    {
-+      item: "allthetweaks:oblivion_shard"
 +      amount: 1
-+    }
-+    {
-+      item: "mysticalagradditions:creative_essence"
-+      amount: 1
-+    }
-+    {
-+      item: "allthetweaks:nexium_emitter"
-+      amount: 1
-+    }
-+    {
-+      item: "allthetweaks:withers_compass"
-+      amount: 1
-+    }
-+    {
-+      item: "allthetweaks:improbable_probability_device"
-+      amount: 1
-+    }
-+    {
-+      item: "allthetweaks:dragon_soul"
-+      amount: 1
-+    }
-+    {
-+      item: "allthetweaks:philosophers_fuel"
-+      amount: 1
-+    }
-+    {
-+      item: "allthetweaks:pulsating_black_hole"
-+      amount: 1
-+    }
-+    {
-+      item: "allthetweaks:dimensional_seed"
-+      amount: 1
-+    }
-+    {
-+      item: "allthetweaks:patrick_star"
-+      amount: 1
++      tag: "ad_astra:aeronos_caps"
 +    }
 +  ]
-+  _kubejs_changed_marker: {
-+    source: "server_scripts:modpack/runic_multis/recipes/star_altar.js"
-+    line: 47
-+  }
++  item_outputs: [
++    {
++      amount: 6
++      item: "ad_astra:aeronos_planks"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>modern_industrialization/cutting_machine/planks/glacian</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "modern_industrialization"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "modern_industrialization"
++        }
++      ]
++    }
++  ]
++  type: "modern_industrialization:cutting_machine"
++  duration: 100
++  eu: 2
++  fluid_inputs: [
++    {
++      amount: 1
++      fluid: "modern_industrialization:lubricant"
++    }
++  ]
++  item_inputs: [
++    {
++      amount: 1
++      tag: "ad_astra:glacian_logs"
++    }
++  ]
++  item_outputs: [
++    {
++      amount: 6
++      item: "ad_astra:glacian_planks"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>modern_industrialization/cutting_machine/planks/strophar</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "modern_industrialization"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "modern_industrialization"
++        }
++      ]
++    }
++  ]
++  type: "modern_industrialization:cutting_machine"
++  duration: 100
++  eu: 2
++  fluid_inputs: [
++    {
++      amount: 1
++      fluid: "modern_industrialization:lubricant"
++    }
++  ]
++  item_inputs: [
++    {
++      amount: 1
++      tag: "ad_astra:strophar_caps"
++    }
++  ]
++  item_outputs: [
++    {
++      amount: 6
++      item: "ad_astra:strophar_planks"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>modern_industrialization/cutting_machine/slabs/aeronos</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "modern_industrialization"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "modern_industrialization"
++        }
++      ]
++    }
++  ]
++  type: "modern_industrialization:cutting_machine"
++  duration: 100
++  eu: 2
++  fluid_inputs: [
++    {
++      amount: 1
++      fluid: "modern_industrialization:lubricant"
++    }
++  ]
++  item_inputs: [
++    {
++      amount: 1
++      item: "ad_astra:aeronos_planks"
++    }
++  ]
++  item_outputs: [
++    {
++      amount: 2
++      item: "ad_astra:aeronos_slab"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>modern_industrialization/cutting_machine/slabs/glacian</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "modern_industrialization"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "modern_industrialization"
++        }
++      ]
++    }
++  ]
++  type: "modern_industrialization:cutting_machine"
++  duration: 100
++  eu: 2
++  fluid_inputs: [
++    {
++      amount: 1
++      fluid: "modern_industrialization:lubricant"
++    }
++  ]
++  item_inputs: [
++    {
++      amount: 1
++      item: "ad_astra:glacian_planks"
++    }
++  ]
++  item_outputs: [
++    {
++      amount: 2
++      item: "ad_astra:glacian_slab"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>modern_industrialization/cutting_machine/slabs/strophar</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "modern_industrialization"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "modern_industrialization"
++        }
++      ]
++    }
++  ]
++  type: "modern_industrialization:cutting_machine"
++  duration: 100
++  eu: 2
++  fluid_inputs: [
++    {
++      amount: 1
++      fluid: "modern_industrialization:lubricant"
++    }
++  ]
++  item_inputs: [
++    {
++      amount: 1
++      item: "ad_astra:strophar_planks"
++    }
++  ]
++  item_outputs: [
++    {
++      amount: 2
++      item: "ad_astra:strophar_slab"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>modern_industrialization/cutting_machine/stripped/glacian</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "modern_industrialization"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "modern_industrialization"
++        }
++      ]
++    }
++  ]
++  type: "modern_industrialization:cutting_machine"
++  duration: 100
++  eu: 2
++  fluid_inputs: [
++    {
++      amount: 1
++      fluid: "modern_industrialization:lubricant"
++    }
++  ]
++  item_inputs: [
++    {
++      amount: 1
++      item: "ad_astra:glacian_log"
++    }
++  ]
++  item_outputs: [
++    {
++      amount: 1
++      item: "ad_astra:stripped_glacian_log"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>modern_industrialization/macerator/calorite_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "modern_industrialization"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "modern_industrialization"
++        }
++      ]
++    }
++  ]
++  type: "modern_industrialization:macerator"
++  duration: 800
++  eu: 2
++  item_inputs: [
++    {
++      amount: 1
++      tag: "c:calorite_ores"
++    }
++  ]
++  item_outputs: [
++    {
++      amount: 3
++      item: "ad_astra:raw_calorite"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>modern_industrialization/macerator/cheese_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "modern_industrialization"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "modern_industrialization"
++        }
++      ]
++    }
++  ]
++  type: "modern_industrialization:macerator"
++  duration: 800
++  eu: 2
++  item_inputs: [
++    {
++      amount: 1
++      tag: "c:cheese_ores"
++    }
++  ]
++  item_outputs: [
++    {
++      amount: 4
++      item: "ad_astra:cheese"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>modern_industrialization/macerator/desh_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "modern_industrialization"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "modern_industrialization"
++        }
++      ]
++    }
++  ]
++  type: "modern_industrialization:macerator"
++  duration: 800
++  eu: 2
++  item_inputs: [
++    {
++      amount: 1
++      tag: "c:desh_ores"
++    }
++  ]
++  item_outputs: [
++    {
++      amount: 3
++      item: "ad_astra:raw_desh"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>modern_industrialization/macerator/ice_shard_ores</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "modern_industrialization"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "modern_industrialization"
++        }
++      ]
++    }
++  ]
++  type: "modern_industrialization:macerator"
++  duration: 800
++  eu: 2
++  item_inputs: [
++    {
++      amount: 1
++      tag: "c:ice_shard_ores"
++    }
++  ]
++  item_outputs: [
++    {
++      amount: 4
++      item: "ad_astra:ice_shard"
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>modern_industrialization/macerator/ostrum_ore</summary>
+
+```diff
++{
++  fabric:load_conditions: [
++    {
++      condition: "fabric:all_mods_loaded"
++      values: [
++        "modern_industrialization"
++      ]
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "modern_industrialization"
++        }
++      ]
++    }
++  ]
++  type: "modern_industrialization:macerator"
++  duration: 800
++  eu: 2
++  item_inputs: [
++    {
++      amount: 1
++      tag: "c:ostrum_ores"
++    }
++  ]
++  item_outputs: [
++    {
++      amount: 3
++      item: "ad_astra:raw_ostrum"
++    }
++  ]
 +}
 
 ```
@@ -3905,6 +22748,519 @@ Summary of changes here!
 +    count: 1
 +    id: "neovitae:ritual_diviner_tenebrae"
 +  }
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>productivebees/bee_conversion/ad_astra/calorite_bee</summary>
+
+```diff
++{
++  type: "productivebees:bee_conversion"
++  source: "productivebees:ostrum"
++  result: "productivebees:calorite"
++  item: {
++    tag: "c:storage_blocks/calorite"
++  }
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:storage_blocks/calorite"
++          }
++        }
++        {
++          type: "productivebees:bee_exists"
++          bee: "productivebees:ostrum"
++        }
++        {
++          type: "productivebees:bee_exists"
++          bee: "productivebees:calorite"
++        }
++      ]
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>productivebees/bee_conversion/ad_astra/desh_bee</summary>
+
+```diff
++{
++  type: "productivebees:bee_conversion"
++  source: "productivebees:steel"
++  result: "productivebees:desh"
++  item: {
++    tag: "c:storage_blocks/desh"
++  }
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:storage_blocks/desh"
++          }
++        }
++        {
++          type: "productivebees:bee_exists"
++          bee: "productivebees:steel"
++        }
++        {
++          type: "productivebees:bee_exists"
++          bee: "productivebees:desh"
++        }
++      ]
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>productivebees/bee_conversion/ad_astra/ostrum_bee</summary>
+
+```diff
++{
++  type: "productivebees:bee_conversion"
++  source: "productivebees:desh"
++  result: "productivebees:ostrum"
++  item: {
++    tag: "c:storage_blocks/ostrum"
++  }
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:storage_blocks/ostrum"
++          }
++        }
++        {
++          type: "productivebees:bee_exists"
++          bee: "productivebees:desh"
++        }
++        {
++          type: "productivebees:bee_exists"
++          bee: "productivebees:ostrum"
++        }
++      ]
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>productivebees/bee_produce/ad_astra/cheese_bee</summary>
+
+```diff
++{
++  type: "productivebees:advanced_beehive"
++  ingredient: "productivebees:cheese"
++  results: [
++    {
++      item: {
++        type: "productivebees:component"
++        components: {
++          productivebees:bee_type: "productivebees:cheese"
++        }
++        items: "productivebees:configurable_honeycomb"
++      }
++    }
++    {
++      item: {
++        tag: "c:pollens"
++      }
++      chance: 0.05
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "productivebees:bee_exists"
++          bee: "productivebees:cheese"
++        }
++      ]
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>productivebees/bee_produce/beyond_earth/calorite_bee</summary>
+
+```diff
++{
++  type: "productivebees:advanced_beehive"
++  ingredient: "productivebees:calorite"
++  results: [
++    {
++      item: {
++        type: "productivebees:component"
++        components: {
++          productivebees:bee_type: "productivebees:calorite"
++        }
++        items: "productivebees:configurable_honeycomb"
++      }
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "productivebees:bee_exists"
++          bee: "productivebees:calorite"
++        }
++      ]
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>productivebees/bee_produce/beyond_earth/desh_bee</summary>
+
+```diff
++{
++  type: "productivebees:advanced_beehive"
++  ingredient: "productivebees:desh"
++  results: [
++    {
++      item: {
++        type: "productivebees:component"
++        components: {
++          productivebees:bee_type: "productivebees:desh"
++        }
++        items: "productivebees:configurable_honeycomb"
++      }
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "productivebees:bee_exists"
++          bee: "productivebees:desh"
++        }
++      ]
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>productivebees/bee_produce/beyond_earth/ostrum_bee</summary>
+
+```diff
++{
++  type: "productivebees:advanced_beehive"
++  ingredient: "productivebees:ostrum"
++  results: [
++    {
++      item: {
++        type: "productivebees:component"
++        components: {
++          productivebees:bee_type: "productivebees:ostrum"
++        }
++        items: "productivebees:configurable_honeycomb"
++      }
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "productivebees:bee_exists"
++          bee: "productivebees:ostrum"
++        }
++      ]
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>productivebees/centrifuge/ad_astra/honeycomb_calorite</summary>
+
+```diff
++{
++  type: "productivebees:centrifuge"
++  ingredient: {
++    type: "productivebees:component"
++    components: {
++      productivebees:bee_type: "productivebees:calorite"
++    }
++    items: "productivebees:configurable_honeycomb"
++  }
++  outputs: [
++    {
++      item: {
++        tag: "c:raw_materials/calorite"
++      }
++      chance: 0.3
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:raw_materials/calorite"
++          }
++        }
++        {
++          type: "productivebees:bee_exists"
++          bee: "productivebees:calorite"
++        }
++      ]
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>productivebees/centrifuge/ad_astra/honeycomb_cheese</summary>
+
+```diff
++{
++  type: "productivebees:centrifuge"
++  ingredient: {
++    type: "productivebees:component"
++    components: {
++      productivebees:bee_type: "productivebees:cheese"
++    }
++    items: "productivebees:configurable_honeycomb"
++  }
++  outputs: [
++    {
++      item: {
++        item: "ad_astra:cheese"
++      }
++    }
++    {
++      item: {
++        item: "productivebees:wax"
++      }
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "ad_astra"
++        }
++        {
++          type: "productivebees:bee_exists"
++          bee: "productivebees:cheese"
++        }
++      ]
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>productivebees/centrifuge/ad_astra/honeycomb_desh</summary>
+
+```diff
++{
++  type: "productivebees:centrifuge"
++  ingredient: {
++    type: "productivebees:component"
++    components: {
++      productivebees:bee_type: "productivebees:desh"
++    }
++    items: "productivebees:configurable_honeycomb"
++  }
++  outputs: [
++    {
++      item: {
++        tag: "c:raw_materials/desh"
++      }
++      chance: 0.3
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:raw_materials/desh"
++          }
++        }
++        {
++          type: "productivebees:bee_exists"
++          bee: "productivebees:desh"
++        }
++      ]
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>productivebees/centrifuge/ad_astra/honeycomb_ostrum</summary>
+
+```diff
++{
++  type: "productivebees:centrifuge"
++  ingredient: {
++    type: "productivebees:component"
++    components: {
++      productivebees:bee_type: "productivebees:ostrum"
++    }
++    items: "productivebees:configurable_honeycomb"
++  }
++  outputs: [
++    {
++      item: {
++        tag: "c:raw_materials/ostrum"
++      }
++      chance: 0.3
++    }
++  ]
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:raw_materials/ostrum"
++          }
++        }
++        {
++          type: "productivebees:bee_exists"
++          bee: "productivebees:ostrum"
++        }
++      ]
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>productivebees/item_conversion/ad_astra/cheese_bee</summary>
+
+```diff
++{
++  type: "productivebees:item_conversion"
++  bees: [
++    "productivebees:rancher_bee"
++  ]
++  ingredients: [
++    {
++      item: "ad_astra:cheese_block"
++    }
++  ]
++  result: {
++    components: {
++      minecraft:entity_data: {
++        type: "productivebees:cheese"
++        id: "productivebees:configurable_bee"
++      }
++    }
++    count: 1
++    id: "productivebees:spawn_egg_configurable_bee"
++  }
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:mod_loaded"
++          modid: "ad_astra"
++        }
++        {
++          type: "productivebees:bee_exists"
++          bee: "productivebees:cheese"
++        }
++      ]
++    }
++  ]
 +}
 
 ```
@@ -5671,6 +25027,921 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>theurgy/incubation/ingots_calorite_from_alchemical_sulfur_calorite</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/calorite"
++          }
++        }
++      ]
++    }
++  ]
++  type: "theurgy:incubation"
++  category: "misc"
++  mercury: {
++    item: "theurgy:mercury_shard"
++  }
++  result: {
++    type: "theurgy:tag"
++    count: 1
++    tag: "c:ingots/calorite"
++  }
++  salt: {
++    item: "theurgy:alchemical_salt_mineral"
++  }
++  sulfur: {
++    item: "theurgy:alchemical_sulfur_calorite"
++  }
++  time: 100
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>theurgy/incubation/ingots_desh_from_alchemical_sulfur_desh</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/desh"
++          }
++        }
++      ]
++    }
++  ]
++  type: "theurgy:incubation"
++  category: "misc"
++  mercury: {
++    item: "theurgy:mercury_shard"
++  }
++  result: {
++    type: "theurgy:tag"
++    count: 1
++    tag: "c:ingots/desh"
++  }
++  salt: {
++    item: "theurgy:alchemical_salt_mineral"
++  }
++  sulfur: {
++    item: "theurgy:alchemical_sulfur_desh"
++  }
++  time: 100
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>theurgy/incubation/ingots_ostrum_from_alchemical_sulfur_ostrum</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/ostrum"
++          }
++        }
++      ]
++    }
++  ]
++  type: "theurgy:incubation"
++  category: "misc"
++  mercury: {
++    item: "theurgy:mercury_shard"
++  }
++  result: {
++    type: "theurgy:tag"
++    count: 1
++    tag: "c:ingots/ostrum"
++  }
++  salt: {
++    item: "theurgy:alchemical_salt_mineral"
++  }
++  sulfur: {
++    item: "theurgy:alchemical_sulfur_ostrum"
++  }
++  time: 100
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>theurgy/liquefaction/alchemical_sulfur_calorite_from_ingots_calorite</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/calorite"
++          }
++        }
++      ]
++    }
++  ]
++  type: "theurgy:liquefaction"
++  category: "misc"
++  ingredient: {
++    tag: "c:ingots/calorite"
++  }
++  result: {
++    type: "theurgy:item"
++    count: 1
++    id: "theurgy:alchemical_sulfur_calorite"
++  }
++  solvent: {
++    amount: 50
++    ingredient: {
++      fluid: "theurgy:sal_ammoniac"
++    }
++  }
++  time: 100
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>theurgy/liquefaction/alchemical_sulfur_calorite_from_ores_calorite</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ores/calorite"
++          }
++        }
++      ]
++    }
++  ]
++  type: "theurgy:liquefaction"
++  category: "misc"
++  ingredient: {
++    tag: "c:ores/calorite"
++  }
++  result: {
++    type: "theurgy:item"
++    count: 5
++    id: "theurgy:alchemical_sulfur_calorite"
++  }
++  solvent: {
++    amount: 50
++    ingredient: {
++      fluid: "theurgy:sal_ammoniac"
++    }
++  }
++  time: 100
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>theurgy/liquefaction/alchemical_sulfur_calorite_from_raw_materials_calorite</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:raw_materials/calorite"
++          }
++        }
++      ]
++    }
++  ]
++  type: "theurgy:liquefaction"
++  category: "misc"
++  ingredient: {
++    tag: "c:raw_materials/calorite"
++  }
++  result: {
++    type: "theurgy:item"
++    count: 5
++    id: "theurgy:alchemical_sulfur_calorite"
++  }
++  solvent: {
++    amount: 50
++    ingredient: {
++      fluid: "theurgy:sal_ammoniac"
++    }
++  }
++  time: 100
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>theurgy/liquefaction/alchemical_sulfur_desh_from_ingots_desh</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/desh"
++          }
++        }
++      ]
++    }
++  ]
++  type: "theurgy:liquefaction"
++  category: "misc"
++  ingredient: {
++    tag: "c:ingots/desh"
++  }
++  result: {
++    type: "theurgy:item"
++    count: 1
++    id: "theurgy:alchemical_sulfur_desh"
++  }
++  solvent: {
++    amount: 10
++    ingredient: {
++      fluid: "theurgy:sal_ammoniac"
++    }
++  }
++  time: 100
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>theurgy/liquefaction/alchemical_sulfur_desh_from_ores_desh</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ores/desh"
++          }
++        }
++      ]
++    }
++  ]
++  type: "theurgy:liquefaction"
++  category: "misc"
++  ingredient: {
++    tag: "c:ores/desh"
++  }
++  result: {
++    type: "theurgy:item"
++    count: 5
++    id: "theurgy:alchemical_sulfur_desh"
++  }
++  solvent: {
++    amount: 10
++    ingredient: {
++      fluid: "theurgy:sal_ammoniac"
++    }
++  }
++  time: 100
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>theurgy/liquefaction/alchemical_sulfur_desh_from_raw_materials_desh</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:raw_materials/desh"
++          }
++        }
++      ]
++    }
++  ]
++  type: "theurgy:liquefaction"
++  category: "misc"
++  ingredient: {
++    tag: "c:raw_materials/desh"
++  }
++  result: {
++    type: "theurgy:item"
++    count: 5
++    id: "theurgy:alchemical_sulfur_desh"
++  }
++  solvent: {
++    amount: 10
++    ingredient: {
++      fluid: "theurgy:sal_ammoniac"
++    }
++  }
++  time: 100
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>theurgy/liquefaction/alchemical_sulfur_ostrum_from_ingots_ostrum</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/ostrum"
++          }
++        }
++      ]
++    }
++  ]
++  type: "theurgy:liquefaction"
++  category: "misc"
++  ingredient: {
++    tag: "c:ingots/ostrum"
++  }
++  result: {
++    type: "theurgy:item"
++    count: 1
++    id: "theurgy:alchemical_sulfur_ostrum"
++  }
++  solvent: {
++    amount: 10
++    ingredient: {
++      fluid: "theurgy:sal_ammoniac"
++    }
++  }
++  time: 100
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>theurgy/liquefaction/alchemical_sulfur_ostrum_from_ores_ostrum</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ores/ostrum"
++          }
++        }
++      ]
++    }
++  ]
++  type: "theurgy:liquefaction"
++  category: "misc"
++  ingredient: {
++    tag: "c:ores/ostrum"
++  }
++  result: {
++    type: "theurgy:item"
++    count: 5
++    id: "theurgy:alchemical_sulfur_ostrum"
++  }
++  solvent: {
++    amount: 10
++    ingredient: {
++      fluid: "theurgy:sal_ammoniac"
++    }
++  }
++  time: 100
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>theurgy/liquefaction/alchemical_sulfur_ostrum_from_raw_materials_ostrum</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:raw_materials/ostrum"
++          }
++        }
++      ]
++    }
++  ]
++  type: "theurgy:liquefaction"
++  category: "misc"
++  ingredient: {
++    tag: "c:raw_materials/ostrum"
++  }
++  result: {
++    type: "theurgy:item"
++    count: 5
++    id: "theurgy:alchemical_sulfur_ostrum"
++  }
++  solvent: {
++    amount: 10
++    ingredient: {
++      fluid: "theurgy:sal_ammoniac"
++    }
++  }
++  time: 100
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>theurgy/reformation/alchemical_sulfur_calorite_from_alchemical_niter_metals_precious</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/calorite"
++          }
++        }
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/calorite"
++          }
++        }
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/calorite"
++          }
++        }
++      ]
++    }
++  ]
++  type: "theurgy:reformation"
++  category: "misc"
++  mercuryFlux: 200
++  result: {
++    type: "theurgy:item"
++    count: 1
++    id: "theurgy:alchemical_sulfur_calorite"
++  }
++  sources: [
++    {
++      count: 1
++      ingredient: {
++        item: "theurgy:alchemical_niter_metals_precious"
++      }
++    }
++  ]
++  target: {
++    item: "theurgy:alchemical_sulfur_calorite"
++  }
++  time: 100
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>theurgy/reformation/alchemical_sulfur_calorite_from_alchemical_sulfurs_metals_precious</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/calorite"
++          }
++        }
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/calorite"
++          }
++        }
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/calorite"
++          }
++        }
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "theurgy:alchemical_sulfurs/metals/precious"
++          }
++        }
++      ]
++    }
++  ]
++  type: "theurgy:reformation"
++  category: "misc"
++  mercuryFlux: 200
++  result: {
++    type: "theurgy:item"
++    count: 1
++    id: "theurgy:alchemical_sulfur_calorite"
++  }
++  sources: [
++    {
++      count: 1
++      ingredient: {
++        tag: "theurgy:alchemical_sulfurs/metals/precious"
++      }
++    }
++  ]
++  target: {
++    item: "theurgy:alchemical_sulfur_calorite"
++  }
++  time: 100
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>theurgy/reformation/alchemical_sulfur_desh_from_alchemical_niter_metals_common</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/desh"
++          }
++        }
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/desh"
++          }
++        }
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/desh"
++          }
++        }
++      ]
++    }
++  ]
++  type: "theurgy:reformation"
++  category: "misc"
++  mercuryFlux: 100
++  result: {
++    type: "theurgy:item"
++    count: 1
++    id: "theurgy:alchemical_sulfur_desh"
++  }
++  sources: [
++    {
++      count: 1
++      ingredient: {
++        item: "theurgy:alchemical_niter_metals_common"
++      }
++    }
++  ]
++  target: {
++    item: "theurgy:alchemical_sulfur_desh"
++  }
++  time: 100
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>theurgy/reformation/alchemical_sulfur_desh_from_alchemical_sulfurs_metals_common</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/desh"
++          }
++        }
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/desh"
++          }
++        }
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/desh"
++          }
++        }
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "theurgy:alchemical_sulfurs/metals/common"
++          }
++        }
++      ]
++    }
++  ]
++  type: "theurgy:reformation"
++  category: "misc"
++  mercuryFlux: 100
++  result: {
++    type: "theurgy:item"
++    count: 1
++    id: "theurgy:alchemical_sulfur_desh"
++  }
++  sources: [
++    {
++      count: 1
++      ingredient: {
++        tag: "theurgy:alchemical_sulfurs/metals/common"
++      }
++    }
++  ]
++  target: {
++    item: "theurgy:alchemical_sulfur_desh"
++  }
++  time: 100
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>theurgy/reformation/alchemical_sulfur_ostrum_from_alchemical_niter_metals_rare</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/ostrum"
++          }
++        }
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/ostrum"
++          }
++        }
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/ostrum"
++          }
++        }
++      ]
++    }
++  ]
++  type: "theurgy:reformation"
++  category: "misc"
++  mercuryFlux: 150
++  result: {
++    type: "theurgy:item"
++    count: 1
++    id: "theurgy:alchemical_sulfur_ostrum"
++  }
++  sources: [
++    {
++      count: 1
++      ingredient: {
++        item: "theurgy:alchemical_niter_metals_rare"
++      }
++    }
++  ]
++  target: {
++    item: "theurgy:alchemical_sulfur_ostrum"
++  }
++  time: 100
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>theurgy/reformation/alchemical_sulfur_ostrum_from_alchemical_sulfurs_metals_rare</summary>
+
+```diff
++{
++  neoforge:conditions: [
++    {
++      type: "almostunified:conditional"
++      conditions_met: true
++      original_conditions: [
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/ostrum"
++          }
++        }
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/ostrum"
++          }
++        }
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "c:ingots/ostrum"
++          }
++        }
++        {
++          type: "neoforge:not"
++          value: {
++            type: "neoforge:tag_empty"
++            tag: "theurgy:alchemical_sulfurs/metals/rare"
++          }
++        }
++      ]
++    }
++  ]
++  type: "theurgy:reformation"
++  category: "misc"
++  mercuryFlux: 150
++  result: {
++    type: "theurgy:item"
++    count: 1
++    id: "theurgy:alchemical_sulfur_ostrum"
++  }
++  sources: [
++    {
++      count: 1
++      ingredient: {
++        tag: "theurgy:alchemical_sulfurs/metals/rare"
++      }
++    }
++  ]
++  target: {
++    item: "theurgy:alchemical_sulfur_ostrum"
++  }
++  time: 100
++}
+
+```
+
+
+</details>
+
+<details>
 <summary>trophymanager/item_trophy</summary>
 
 ```diff
@@ -5698,7 +25969,7 @@ Summary of changes here!
 </details>
 
 <details>
-<summary>Changed (65)</summary>
+<summary>Changed (66)</summary>
 <blockquote>
 
 <details>
@@ -5734,6 +26005,157 @@ Summary of changes here!
      count: 1
      id: "advancedperipherals:peripheral_casing"
    }
+ }
+
+```
+
+
+</details>
+
+<details>
+<summary>almostunified/create</summary>
+
+```diff
+ {
+   type: "almostunified:client_recipe_tracker"
+   namespace: "create"
+   recipes: [
+     "1$blasting/copper_ingot_from_crushed"
+     "1$blasting/gold_ingot_from_crushed"
+     "1$blasting/ingot_aluminum_compat_immersiveengineering"
+     "1$blasting/ingot_nickel_compat_immersiveengineering"
+     "1$blasting/ingot_osmium_compat_mekanism"
+     "1$blasting/ingot_tin_compat_mekanism"
+     "1$blasting/iron_ingot_from_crushed"
+     "1$blasting/zinc_ingot_from_crushed"
+     "1$crafting/schematics/schematicannon"
+     "1$crushing/asurine"
+     "1$crushing/asurine_recycling"
+     "1$crushing/copper_ore"
+     "1$crushing/crimsite"
+     "1$crushing/crimsite_recycling"
+     "1$crushing/deepslate_copper_ore"
+     "1$crushing/deepslate_diamond_ore"
+     "1$crushing/deepslate_emerald_ore"
+     "1$crushing/deepslate_gold_ore"
+     "1$crushing/deepslate_iron_ore"
+     "1$crushing/deepslate_lapis_ore"
+     "1$crushing/deepslate_redstone_ore"
+     "1$crushing/deepslate_zinc_ore"
+     "1$crushing/diamond_ore"
+     "1$crushing/emerald_ore"
++    "1$crushing/glacio_coal_ore"
++    "1$crushing/glacio_copper_ore"
++    "1$crushing/glacio_iron_ore"
++    "1$crushing/glacio_lapis_ore"
+     "1$crushing/gold_ore"
+     "1$crushing/iron_ore"
+     "1$crushing/lapis_ore"
++    "1$crushing/mars_diamond_ore"
++    "1$crushing/mars_iron_ore"
++    "1$crushing/mercury_iron_ore"
++    "1$crushing/moon_iron_ore"
+     "1$crushing/nether_gold_ore"
+     "1$crushing/nickel_ore"
+     "1$crushing/obsidian"
+     "1$crushing/ochrum"
+     "1$crushing/ochrum_recycling"
+     "1$crushing/osmium_ore"
+     "1$crushing/platinum_ore"
+     "1$crushing/raw_copper"
+     "1$crushing/raw_copper_block"
+     "1$crushing/raw_gold"
+     "1$crushing/raw_gold_block"
+     "1$crushing/raw_iron"
+     "1$crushing/raw_iron_block"
+     "1$crushing/raw_nickel"
+     "1$crushing/raw_nickel_block"
+     "1$crushing/raw_osmium"
+     "1$crushing/raw_osmium_block"
+     "1$crushing/raw_platinum"
+     "1$crushing/raw_platinum_block"
+     "1$crushing/raw_uranium"
+     "1$crushing/raw_uranium_block"
+     "1$crushing/raw_zinc"
+     "1$crushing/raw_zinc_block"
+     "1$crushing/redstone_ore"
+     "1$crushing/tuff"
+     "1$crushing/tuff_recycling"
+     "1$crushing/uranium_ore"
++    "1$crushing/venus_coal_ore"
++    "1$crushing/venus_diamond_ore"
++    "1$crushing/venus_gold_ore"
+     "1$crushing/veridium"
+     "1$crushing/veridium_recycling"
+     "1$crushing/zinc_ore"
+     "1$deploying/waxed_copper_block_from_adding_wax"
+     "1$milling/lapis_lazuli"
+     "1$mixing/brass_ingot"
+     "1$ornate_iron_window"
+     "1$pressing/brass_ingot"
+     "1$pressing/compat/immersiveengineering/plate_aluminum"
+     "1$pressing/compat/immersiveengineering/plate_constantan"
+     "1$pressing/compat/immersiveengineering/plate_lead"
+     "1$pressing/compat/immersiveengineering/plate_nickel"
+     "1$pressing/compat/immersiveengineering/plate_silver"
+     "1$pressing/compat/immersiveengineering/plate_steel"
+     "1$pressing/compat/immersiveengineering/plate_uranium"
+     "1$pressing/copper_ingot"
+     "1$pressing/gold_ingot"
+     "1$pressing/iron_ingot"
++    "1$pressing/steel_ingot"
+     "1$sequenced_assembly/precision_mechanism"
+     "1$smelting/copper_ingot_from_crushed"
+     "1$smelting/gold_ingot_from_crushed"
+     "1$smelting/ingot_aluminum_compat_immersiveengineering"
+     "1$smelting/ingot_nickel_compat_immersiveengineering"
+     "1$smelting/ingot_osmium_compat_mekanism"
+     "1$smelting/ingot_tin_compat_mekanism"
+     "1$smelting/iron_ingot_from_crushed"
+     "1$smelting/zinc_ingot_from_crushed"
+     "1$splashing/crushed_raw_copper"
+     "1$splashing/crushed_raw_gold"
+     "1$splashing/crushed_raw_iron"
+     "1$splashing/crushed_raw_zinc"
+     "1$splashing/immersiveengineering/crushed_raw_aluminum"
+     "1$splashing/immersiveengineering/crushed_raw_nickel"
+     "1$splashing/mekanism/crushed_raw_osmium"
+     "1$splashing/mekanism/crushed_raw_tin"
+     "3$blasting/ingot_lead_compat_immersiveengineering"
+     "3$blasting/ingot_lead_compat_mekanism"
+     "3$blasting/ingot_silver_compat_immersiveengineering"
+     "3$blasting/ingot_uranium_compat_immersiveengineering"
+     "3$blasting/ingot_uranium_compat_mekanism"
+     "3$blasting/silver_ingot_compat_iceandfire"
+     "3$blasting/zinc_ingot_from_ore"
+     "3$blasting/zinc_ingot_from_raw_ore"
+     "3$crafting/materials/brass_block_from_compacting"
+     "3$crafting/materials/brass_ingot_from_compacting"
+     "3$crafting/materials/brass_ingot_from_decompacting"
+     "3$crafting/materials/brass_nugget_from_decompacting"
+     "3$crafting/materials/copper_nugget"
+     "3$crafting/materials/raw_zinc"
+     "3$crafting/materials/raw_zinc_block"
+     "3$crafting/materials/zinc_block_from_compacting"
+     "3$crafting/materials/zinc_ingot_from_compacting"
+     "3$crafting/materials/zinc_ingot_from_decompacting"
+     "3$crafting/materials/zinc_nugget_from_decompacting"
+     "3$pressing/compat/immersiveengineering/plate_electrum"
+     "3$smelting/ingot_lead_compat_immersiveengineering"
+     "3$smelting/ingot_lead_compat_mekanism"
+     "3$smelting/ingot_silver_compat_immersiveengineering"
+     "3$smelting/ingot_uranium_compat_immersiveengineering"
+     "3$smelting/ingot_uranium_compat_mekanism"
+     "3$smelting/silver_ingot_compat_iceandfire"
+     "3$smelting/zinc_ingot_from_ore"
+     "3$smelting/zinc_ingot_from_raw_ore"
+     "3$splashing/iceandfire/crushed_raw_silver"
+     "3$splashing/immersiveengineering/crushed_raw_lead"
+     "3$splashing/immersiveengineering/crushed_raw_silver"
+     "3$splashing/immersiveengineering/crushed_raw_uranium"
+     "3$splashing/mekanism/crushed_raw_lead"
+     "3$splashing/mekanism/crushed_raw_uranium"
+   ]
  }
 
 ```
@@ -8660,7 +29082,7 @@ Summary of changes here!
 </details>
 
 <details>
-<summary>Removed (17)</summary>
+<summary>Removed (15)</summary>
 <blockquote>
 
 <details>
@@ -9062,166 +29484,6 @@ Summary of changes here!
 </details>
 
 <details>
-<summary>modern_industrialization/kjs/95kpuxsthky093q0kwgamud98</summary>
-
-```diff
--{
--  type: "modern_industrialization:star_altar"
--  eu: 2048
--  duration: 200
--  item_outputs: [
--    {
--      item: "allthetweaks:atm_star"
--      amount: 1
--    }
--  ]
--  item_inputs: [
--    {
--      item: "allthemodium:unobtainium_allthemodium_alloy_block"
--      amount: 28
--    }
--    {
--      item: "allthecompressed:nether_star_block_3x"
--      amount: 15
--    }
--    {
--      items: "allthemodium:unobtainium_vibranium_alloy_block"
--      components: {
--        minecraft:custom_name: "{\"extra\":[{\"italic\":false,\"text\":\"Awakened Unobtainium-Vibranium Alloy Block\"}],\"text\":\"\"}"
--        minecraft:enchantments: {
--          levels: {
--            minecraft:unbreaking: 1
--          }
--        }
--      }
--      type: "neoforge:components"
--      amount: 2
--    }
--    {
--      item: "allthetweaks:oblivion_shard"
--      amount: 1
--    }
--    {
--      item: "mysticalagradditions:creative_essence"
--      amount: 1
--    }
--    {
--      item: "allthetweaks:nexium_emitter"
--      amount: 1
--    }
--    {
--      item: "allthetweaks:withers_compass"
--      amount: 1
--    }
--    {
--      item: "allthetweaks:improbable_probability_device"
--      amount: 1
--    }
--    {
--      item: "allthetweaks:dragon_soul"
--      amount: 1
--    }
--    {
--      item: "allthetweaks:philosophers_fuel"
--      amount: 1
--    }
--    {
--      item: "allthetweaks:pulsating_black_hole"
--      amount: 1
--    }
--    {
--      item: "allthetweaks:dimensional_seed"
--      amount: 1
--    }
--    {
--      item: "allthetweaks:patrick_star"
--      amount: 1
--    }
--  ]
--  _kubejs_changed_marker: {
--    source: "server_scripts:modpack/runic_multis/recipes/star_altar.js"
--    line: 47
--  }
--}
-
-```
-
-
-</details>
-
-<details>
-<summary>modern_industrialization/kjs/99t4sp2ik4nrr5xez3cfqian0</summary>
-
-```diff
--{
--  type: "modern_industrialization:star_altar"
--  eu: 2048
--  duration: 200
--  item_outputs: [
--    {
--      item: "allthetweaks:atm_star"
--      amount: 1
--    }
--  ]
--  item_inputs: [
--    {
--      item: "actuallyadditions:lens_of_the_killer"
--      amount: 1
--    }
--    {
--      item: "kubejs:atm_star_shard_1"
--      amount: 1
--    }
--    {
--      item: "kubejs:atm_star_shard_2"
--      amount: 1
--    }
--    {
--      item: "kubejs:atm_star_shard_3"
--      amount: 1
--    }
--    {
--      item: "kubejs:atm_star_shard_4"
--      amount: 1
--    }
--    {
--      item: "kubejs:atm_star_shard_5"
--      amount: 1
--    }
--    {
--      item: "forbidden_arcanus:mundabitur_dust"
--      amount: 1
--    }
--    {
--      item: "forbidden_arcanus:corrupti_dust"
--      amount: 1
--    }
--    {
--      items: "allthetweaks:patrick_star"
--      components: {
--        minecraft:custom_name: "{\"extra\":[{\"italic\":false,\"text\":\"Infused Patrick Star\"}],\"text\":\"\"}"
--        minecraft:enchantments: {
--          levels: {
--            minecraft:mending: 1
--          }
--        }
--      }
--      type: "neoforge:components"
--      amount: 1
--    }
--  ]
--  _kubejs_changed_marker: {
--    source: "server_scripts:modpack/runic_multis/recipes/star_altar.js"
--    line: 60
--  }
--}
-
-```
-
-
-</details>
-
-<details>
 <summary>neovitae/ara_vitae/dusk_tool</summary>
 
 ```diff
@@ -9353,7 +29615,7 @@ Summary of changes here!
 ## 🏷️ Tags
 
 <details>
-<summary>Added (27)</summary>
+<summary>Added (163)</summary>
 <blockquote>
 
 <details>
@@ -9371,11 +29633,581 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>minecraft:block/ad_astra:aeronos_caps</summary>
+
+```diff
++[
++  "ad_astra:aeronos_cap"
++  "ad_astra:aeronos_stem"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:cable_ducts</summary>
+
+```diff
++[
++  "ad_astra:cable_duct"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:calorite_blocks</summary>
+
+```diff
++[
++  "#c:storage_blocks/calorite?"
++  "ad_astra:calorite_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:calorite_ores</summary>
+
+```diff
++[
++  "#c:ores/calorite?"
++  "#c:ores/calorite?"
++  "ad_astra:deepslate_calorite_ore"
++  "ad_astra:venus_calorite_ore"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:desh_blocks</summary>
+
+```diff
++[
++  "#c:storage_blocks/desh?"
++  "ad_astra:desh_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:desh_ores</summary>
+
+```diff
++[
++  "#c:ores/desh?"
++  "#c:ores/desh?"
++  "ad_astra:deepslate_desh_ore"
++  "ad_astra:moon_desh_ore"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:destroyed_in_space</summary>
+
+```diff
++[
++  "#minecraft:cave_vines"
++  "#minecraft:corals"
++  "#minecraft:crops"
++  "#minecraft:fire"
++  "#minecraft:flowers"
++  "#minecraft:leaves"
++  "#minecraft:saplings"
++  "minecraft:bamboo"
++  "minecraft:big_dripleaf"
++  "minecraft:big_dripleaf_stem"
++  "minecraft:brown_mushroom_block"
++  "minecraft:cocoa"
++  "minecraft:jack_o_lantern"
++  "minecraft:lantern"
++  "minecraft:red_mushroom_block"
++  "minecraft:short_grass"
++  "minecraft:small_dripleaf"
++  "minecraft:sweet_berry_bush"
++  "minecraft:tall_grass"
++  "minecraft:tall_grass"
++  "minecraft:torch"
++  "minecraft:vine"
++  "minecraft:wall_torch"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:flags</summary>
+
+```diff
++[
++  "ad_astra:black_flag"
++  "ad_astra:blue_flag"
++  "ad_astra:brown_flag"
++  "ad_astra:cyan_flag"
++  "ad_astra:gray_flag"
++  "ad_astra:green_flag"
++  "ad_astra:light_blue_flag"
++  "ad_astra:light_gray_flag"
++  "ad_astra:lime_flag"
++  "ad_astra:magenta_flag"
++  "ad_astra:orange_flag"
++  "ad_astra:pink_flag"
++  "ad_astra:purple_flag"
++  "ad_astra:red_flag"
++  "ad_astra:white_flag"
++  "ad_astra:yellow_flag"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:fluid_pipe_ducts</summary>
+
+```diff
++[
++  "ad_astra:fluid_pipe_duct"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:glacian_logs</summary>
+
+```diff
++[
++  "ad_astra:glacian_log"
++  "ad_astra:stripped_glacian_log"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:glacio_stone_replaceables</summary>
+
+```diff
++[
++  "ad_astra:glacio_stone"
++  "ad_astra:permafrost"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:globes</summary>
+
+```diff
++[
++  "ad_astra:earth_globe"
++  "ad_astra:glacio_globe"
++  "ad_astra:mars_globe"
++  "ad_astra:mercury_globe"
++  "ad_astra:moon_globe"
++  "ad_astra:venus_globe"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:ice_shard_ores</summary>
+
+```diff
++[
++  "#c:ores/ice_shard?"
++  "#c:ores/ice_shard?"
++  "#c:ores/ice_shard?"
++  "#c:ores/ice_shard?"
++  "ad_astra:deepslate_ice_shard_ore"
++  "ad_astra:glacio_ice_shard_ore"
++  "ad_astra:mars_ice_shard_ore"
++  "ad_astra:moon_ice_shard_ore"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:launch_pads</summary>
+
+```diff
++[
++  "ad_astra:launch_pad"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:mars_stone_replaceables</summary>
+
+```diff
++[
++  "ad_astra:mars_stone"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:mercury_stone_replaceables</summary>
+
+```diff
++[
++  "ad_astra:mercury_stone"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:moon_stone_replaceables</summary>
+
+```diff
++[
++  "ad_astra:moon_deepslate"
++  "ad_astra:moon_stone"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:ostrum_blocks</summary>
+
+```diff
++[
++  "#c:storage_blocks/ostrum?"
++  "ad_astra:ostrum_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:ostrum_ores</summary>
+
+```diff
++[
++  "#c:ores/ostrum?"
++  "#c:ores/ostrum?"
++  "ad_astra:deepslate_ostrum_ore"
++  "ad_astra:mars_ostrum_ore"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:passes_flood_fill</summary>
+
+```diff
++[
++  "#minecraft:fences"
++  "#minecraft:leaves"
++  "ad_astra:gravity_normalizer"
++  "ad_astra:oxygen_distributor"
++  "ad_astra:vent"
++  "minecraft:iron_bars"
++  "minecraft:ladder"
++  "minecraft:tnt"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:raw_calorite_blocks</summary>
+
+```diff
++[
++  "#c:storage_blocks/raw_calorite?"
++  "ad_astra:raw_calorite_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:raw_desh_blocks</summary>
+
+```diff
++[
++  "#c:storage_blocks/raw_desh?"
++  "ad_astra:raw_desh_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:raw_ostrum_blocks</summary>
+
+```diff
++[
++  "#c:storage_blocks/raw_ostrum?"
++  "ad_astra:raw_ostrum_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:sliding_doors</summary>
+
+```diff
++[
++  "ad_astra:airlock"
++  "ad_astra:calorite_sliding_door"
++  "ad_astra:desh_sliding_door"
++  "ad_astra:iron_sliding_door"
++  "ad_astra:ostrum_sliding_door"
++  "ad_astra:reinforced_door"
++  "ad_astra:steel_sliding_door"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:steel_blocks</summary>
+
+```diff
++[
++  "#c:storage_blocks/steel?"
++  "ad_astra:steel_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:strophar_caps</summary>
+
+```diff
++[
++  "ad_astra:strophar_cap"
++  "ad_astra:strophar_stem"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/ad_astra:venus_stone_replaceables</summary>
+
+```diff
++[
++  "ad_astra:venus_stone"
++]
+
+```
+
+
+</details>
+
+<details>
 <summary>minecraft:block/c:farmland</summary>
 
 ```diff
 +[
 +  "minecraft:farmland"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/c:ores/calorite</summary>
+
+```diff
++[
++  "ad_astra:deepslate_calorite_ore"
++  "ad_astra:venus_calorite_ore"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/c:ores/desh</summary>
+
+```diff
++[
++  "ad_astra:deepslate_desh_ore"
++  "ad_astra:moon_desh_ore"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/c:ores/ice_shard</summary>
+
+```diff
++[
++  "ad_astra:deepslate_ice_shard_ore"
++  "ad_astra:glacio_ice_shard_ore"
++  "ad_astra:mars_ice_shard_ore"
++  "ad_astra:moon_ice_shard_ore"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/c:ores/ostrum</summary>
+
+```diff
++[
++  "ad_astra:deepslate_ostrum_ore"
++  "ad_astra:mars_ostrum_ore"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/c:storage_blocks/calorite</summary>
+
+```diff
++[
++  "ad_astra:calorite_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/c:storage_blocks/desh</summary>
+
+```diff
++[
++  "ad_astra:desh_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/c:storage_blocks/ostrum</summary>
+
+```diff
++[
++  "ad_astra:ostrum_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/c:storage_blocks/raw_calorite</summary>
+
+```diff
++[
++  "ad_astra:raw_calorite_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/c:storage_blocks/raw_desh</summary>
+
+```diff
++[
++  "ad_astra:raw_desh_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/c:storage_blocks/raw_ostrum</summary>
+
+```diff
++[
++  "ad_astra:raw_ostrum_block"
 +]
 
 ```
@@ -9449,6 +30281,122 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>minecraft:entity_type/ad_astra:can_survive_extreme_cold</summary>
+
+```diff
++[
++  "#minecraft:freeze_immune_entity_types"
++  "ad_astra:corrupted_lunarian"
++  "ad_astra:lunarian"
++  "ad_astra:martian_raptor"
++  "ad_astra:star_crawler"
++  "minecraft:snow_golem"
++  "minecraft:stray"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:entity_type/ad_astra:can_survive_extreme_heat</summary>
+
+```diff
++[
++  "minecraft:blaze"
++  "minecraft:magma_cube"
++  "minecraft:zoglin"
++  "minecraft:zombified_piglin"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:entity_type/ad_astra:can_survive_in_acid_rain</summary>
+
+```diff
++[
++  "#ad_astra:can_survive_extreme_heat"
++  "ad_astra:lander"
++  "ad_astra:tier_1_rocket"
++  "ad_astra:tier_2_rocket"
++  "ad_astra:tier_3_rocket"
++  "ad_astra:tier_4_rocket"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:entity_type/ad_astra:can_survive_in_space</summary>
+
+```diff
++[
++  "ad_astra:lunarian_wandering_trader"
++  "ad_astra:mogler"
++  "ad_astra:pygro"
++  "ad_astra:pygro_brute"
++  "ad_astra:sulfur_creeper"
++  "ad_astra:zombified_mogler"
++  "ad_astra:zombified_pygro"
++  "minecraft:allay"
++  "minecraft:armor_stand"
++  "minecraft:ender_dragon"
++  "minecraft:iron_golem"
++  "minecraft:warden"
++  "minecraft:wither"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:entity_type/ad_astra:ignores_air_vortex</summary>
+
+```diff
++[
++  "minecraft:leash_knot"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:entity_type/ad_astra:lives_without_oxygen</summary>
+
+```diff
++[
++  "#minecraft:skeletons"
++  "ad_astra:corrupted_lunarian"
++  "ad_astra:lunarian"
++  "ad_astra:martian_raptor"
++  "ad_astra:star_crawler"
++  "minecraft:blaze"
++  "minecraft:husk"
++  "minecraft:magma_cube"
++  "minecraft:snow_golem"
++  "minecraft:stray"
++  "minecraft:zoglin"
++  "minecraft:zombie"
++  "minecraft:zombified_piglin"
++]
+
+```
+
+
+</details>
+
+<details>
 <summary>minecraft:entity_type/eternal_starlight:solaris_isles_inhabitants</summary>
 
 ```diff
@@ -9464,10 +30412,917 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>minecraft:fluid/ad_astra:efficient_fuel</summary>
+
+```diff
++[
++  "ad_astra:cryo_fuel"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:fluid/ad_astra:evaporates_in_space</summary>
+
+```diff
++[
++  "minecraft:water"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:fluid/ad_astra:freezes_in_space</summary>
+
+```diff
++[
++  "minecraft:water"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:fluid/ad_astra:fuel</summary>
+
+```diff
++[
++  "#c:biodiesel?"
++  "#c:biofuel?"
++  "#c:diesel?"
++  "#c:fuel?"
++  "#c:high_power_biodiesel?"
++  "#c:turbofuel?"
++  "ad_astra:cryo_fuel"
++  "ad_astra:fuel"
++  "car:bio_diesel?"
++  "modern_industrialization:biodiesel?"
++  "modern_industrialization:diesel?"
++  "techreborn:biofuel?"
++  "techreborn:diesel?"
++  "thermal:refined_fuel?"
++  "vehicle:fuelium?"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:fluid/ad_astra:hydrogen</summary>
+
+```diff
++[
++  "#c:hydrogen?"
++  "ad_astra:hydrogen"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:fluid/ad_astra:oil</summary>
+
+```diff
++[
++  "#c:crude_oil?"
++  "#c:oil?"
++  "ad_astra:oil"
++  "techreborn:oil?"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:fluid/ad_astra:oxygen</summary>
+
+```diff
++[
++  "#c:oxygen?"
++  "ad_astra:oxygen"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:fluid/ad_astra:tier_1_rocket_fuel</summary>
+
+```diff
++[
++  "#ad_astra:fuel"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:fluid/ad_astra:tier_1_rover_fuel</summary>
+
+```diff
++[
++  "#ad_astra:fuel"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:fluid/ad_astra:tier_2_rocket_fuel</summary>
+
+```diff
++[
++  "#ad_astra:fuel"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:fluid/ad_astra:tier_3_rocket_fuel</summary>
+
+```diff
++[
++  "#ad_astra:fuel"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:fluid/ad_astra:tier_4_rocket_fuel</summary>
+
+```diff
++[
++  "#ad_astra:fuel"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:fluid/ad_astra:zip_gun_propellants</summary>
+
+```diff
++[
++  "#ad_astra:hydrogen"
++  "#ad_astra:oxygen"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:fluid/c:fuel</summary>
+
+```diff
++[
++  "ad_astra:fuel"
++]
+
+```
+
+
+</details>
+
+<details>
 <summary>minecraft:fluid/logisticsnetworks:blacklist/fluid</summary>
 
 ```diff
 +[
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:aeronos_caps</summary>
+
+```diff
++[
++  "ad_astra:aeronos_cap"
++  "ad_astra:aeronos_stem"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:cable_ducts</summary>
+
+```diff
++[
++  "ad_astra:cable_duct"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:calorite_blocks</summary>
+
+```diff
++[
++  "#c:storage_blocks/calorite?"
++  "ad_astra:calorite_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:calorite_ingots</summary>
+
+```diff
++[
++  "#c:ingots/calorite?"
++  "ad_astra:calorite_ingot"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:calorite_nuggets</summary>
+
+```diff
++[
++  "#c:nuggets/calorite?"
++  "ad_astra:calorite_nugget"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:calorite_ores</summary>
+
+```diff
++[
++  "#c:ores/calorite?"
++  "#c:ores/calorite?"
++  "ad_astra:deepslate_calorite_ore"
++  "ad_astra:venus_calorite_ore"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:calorite_plates</summary>
+
+```diff
++[
++  "#c:plates/calorite?"
++  "ad_astra:calorite_plate"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:desh_blocks</summary>
+
+```diff
++[
++  "#c:storage_blocks/desh?"
++  "ad_astra:desh_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:desh_ingots</summary>
+
+```diff
++[
++  "#c:ingots/desh?"
++  "ad_astra:desh_ingot"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:desh_nuggets</summary>
+
+```diff
++[
++  "#c:nuggets/desh?"
++  "ad_astra:desh_nugget"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:desh_ores</summary>
+
+```diff
++[
++  "#c:ores/desh?"
++  "#c:ores/desh?"
++  "ad_astra:deepslate_desh_ore"
++  "ad_astra:moon_desh_ore"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:desh_plates</summary>
+
+```diff
++[
++  "#c:plates/desh?"
++  "ad_astra:desh_plate"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:destroyed_in_space</summary>
+
+```diff
++[
++  "#minecraft:candles"
++  "#minecraft:flowers"
++  "#minecraft:leaves"
++  "#minecraft:saplings"
++  "minecraft:bamboo"
++  "minecraft:big_dripleaf"
++  "minecraft:brown_mushroom_block"
++  "minecraft:campfire"
++  "minecraft:cocoa_beans"
++  "minecraft:jack_o_lantern"
++  "minecraft:lantern"
++  "minecraft:red_mushroom_block"
++  "minecraft:short_grass"
++  "minecraft:small_dripleaf"
++  "minecraft:sweet_berries"
++  "minecraft:tall_grass"
++  "minecraft:tall_grass"
++  "minecraft:torch"
++  "minecraft:vine"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:flags</summary>
+
+```diff
++[
++  "ad_astra:black_flag"
++  "ad_astra:blue_flag"
++  "ad_astra:brown_flag"
++  "ad_astra:cyan_flag"
++  "ad_astra:gray_flag"
++  "ad_astra:green_flag"
++  "ad_astra:light_blue_flag"
++  "ad_astra:light_gray_flag"
++  "ad_astra:lime_flag"
++  "ad_astra:magenta_flag"
++  "ad_astra:orange_flag"
++  "ad_astra:pink_flag"
++  "ad_astra:purple_flag"
++  "ad_astra:red_flag"
++  "ad_astra:white_flag"
++  "ad_astra:yellow_flag"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:fluid_pipe_ducts</summary>
+
+```diff
++[
++  "ad_astra:fluid_pipe_duct"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:freeze_resistant_armor</summary>
+
+```diff
++[
++  "#ad_astra:space_suit_items"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:glacian_logs</summary>
+
+```diff
++[
++  "ad_astra:glacian_log"
++  "ad_astra:stripped_glacian_log"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:globes</summary>
+
+```diff
++[
++  "ad_astra:earth_globe"
++  "ad_astra:glacio_globe"
++  "ad_astra:mars_globe"
++  "ad_astra:mercury_globe"
++  "ad_astra:moon_globe"
++  "ad_astra:venus_globe"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:heat_resistant_armor</summary>
+
+```diff
++[
++  "#ad_astra:netherite_space_suit_items"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:held_over_head</summary>
+
+```diff
++[
++  "ad_astra:launch_pad"
++  "ad_astra:tier_1_rocket"
++  "ad_astra:tier_1_rover"
++  "ad_astra:tier_2_rocket"
++  "ad_astra:tier_3_rocket"
++  "ad_astra:tier_4_rocket"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:ice_shard_ores</summary>
+
+```diff
++[
++  "#c:ores/ice_shard?"
++  "#c:ores/ice_shard?"
++  "#c:ores/ice_shard?"
++  "#c:ores/ice_shard?"
++  "ad_astra:deepslate_ice_shard_ore"
++  "ad_astra:glacio_ice_shard_ore"
++  "ad_astra:mars_ice_shard_ore"
++  "ad_astra:moon_ice_shard_ore"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:iron_plates</summary>
+
+```diff
++[
++  "#c:plates/iron?"
++  "ad_astra:iron_plate"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:iron_rods</summary>
+
+```diff
++[
++  "#c:rods/iron?"
++  "ad_astra:iron_rod"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:jet_suit_items</summary>
+
+```diff
++[
++  "ad_astra:jet_suit"
++  "ad_astra:jet_suit_boots"
++  "ad_astra:jet_suit_helmet"
++  "ad_astra:jet_suit_pants"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:netherite_ingots</summary>
+
+```diff
++[
++  "#c:ingots/netherite?"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:netherite_space_suit_items</summary>
+
+```diff
++[
++  "#ad_astra:jet_suit_items"
++  "ad_astra:netherite_space_boots"
++  "ad_astra:netherite_space_helmet"
++  "ad_astra:netherite_space_pants"
++  "ad_astra:netherite_space_suit"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:ostrum_blocks</summary>
+
+```diff
++[
++  "#c:storage_blocks/ostrum?"
++  "ad_astra:ostrum_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:ostrum_ingots</summary>
+
+```diff
++[
++  "#c:ingots/ostrum?"
++  "ad_astra:ostrum_ingot"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:ostrum_nuggets</summary>
+
+```diff
++[
++  "#c:nuggets/ostrum?"
++  "ad_astra:ostrum_nugget"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:ostrum_ores</summary>
+
+```diff
++[
++  "#c:ores/ostrum?"
++  "#c:ores/ostrum?"
++  "ad_astra:deepslate_ostrum_ore"
++  "ad_astra:mars_ostrum_ore"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:ostrum_plates</summary>
+
+```diff
++[
++  "#c:plates/ostrum?"
++  "ad_astra:ostrum_plate"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:raw_calorite</summary>
+
+```diff
++[
++  "#c:raw_materials/calorite?"
++  "ad_astra:raw_calorite"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:raw_calorite_blocks</summary>
+
+```diff
++[
++  "#c:storage_blocks/raw_calorite?"
++  "ad_astra:raw_calorite_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:raw_desh</summary>
+
+```diff
++[
++  "#c:raw_materials/desh?"
++  "ad_astra:raw_desh"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:raw_desh_blocks</summary>
+
+```diff
++[
++  "#c:storage_blocks/raw_desh?"
++  "ad_astra:raw_desh_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:raw_ostrum</summary>
+
+```diff
++[
++  "#c:raw_materials/ostrum?"
++  "ad_astra:raw_ostrum"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:raw_ostrum_blocks</summary>
+
+```diff
++[
++  "#c:storage_blocks/raw_ostrum?"
++  "ad_astra:raw_ostrum_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:sliding_doors</summary>
+
+```diff
++[
++  "ad_astra:airlock"
++  "ad_astra:calorite_sliding_door"
++  "ad_astra:desh_sliding_door"
++  "ad_astra:iron_sliding_door"
++  "ad_astra:ostrum_sliding_door"
++  "ad_astra:reinforced_door"
++  "ad_astra:steel_sliding_door"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:space_suit_items</summary>
+
+```diff
++[
++  "#ad_astra:jet_suit_items"
++  "#ad_astra:netherite_space_suit_items"
++  "ad_astra:space_boots"
++  "ad_astra:space_helmet"
++  "ad_astra:space_pants"
++  "ad_astra:space_suit"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:steel_blocks</summary>
+
+```diff
++[
++  "#c:storage_blocks/steel?"
++  "ad_astra:steel_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:steel_ingots</summary>
+
+```diff
++[
++  "#c:ingots/steel?"
++  "ad_astra:steel_ingot"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:steel_nuggets</summary>
+
+```diff
++[
++  "#c:nuggets/steel?"
++  "ad_astra:steel_nugget"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:steel_plates</summary>
+
+```diff
++[
++  "#c:plates/steel?"
++  "ad_astra:steel_plate"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:steel_rods</summary>
+
+```diff
++[
++  "#c:rods/steel?"
++  "ad_astra:steel_rod"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra:strophar_caps</summary>
+
+```diff
++[
++  "ad_astra:strophar_cap"
++  "ad_astra:strophar_stem"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/ad_astra_giselle_addon:oxygen_cans</summary>
+
+```diff
++[
++  "ad_astra_giselle_addon:creative_oxygen_can"
++  "ad_astra_giselle_addon:netherite_oxygen_can"
++  "ad_astra_giselle_addon:oxygen_can"
 +]
 
 ```
@@ -9518,10 +31373,329 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>minecraft:item/c:ingots/calorite</summary>
+
+```diff
++[
++  "ad_astra:calorite_ingot"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:ingots/desh</summary>
+
+```diff
++[
++  "ad_astra:desh_ingot"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:ingots/ostrum</summary>
+
+```diff
++[
++  "ad_astra:ostrum_ingot"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:nuggets/calorite</summary>
+
+```diff
++[
++  "ad_astra:calorite_nugget"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:nuggets/desh</summary>
+
+```diff
++[
++  "ad_astra:desh_nugget"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:nuggets/ostrum</summary>
+
+```diff
++[
++  "ad_astra:ostrum_nugget"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:ores/calorite</summary>
+
+```diff
++[
++  "ad_astra:deepslate_calorite_ore"
++  "ad_astra:venus_calorite_ore"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:ores/desh</summary>
+
+```diff
++[
++  "ad_astra:deepslate_desh_ore"
++  "ad_astra:moon_desh_ore"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:ores/ice_shard</summary>
+
+```diff
++[
++  "ad_astra:deepslate_ice_shard_ore"
++  "ad_astra:glacio_ice_shard_ore"
++  "ad_astra:mars_ice_shard_ore"
++  "ad_astra:moon_ice_shard_ore"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:ores/ostrum</summary>
+
+```diff
++[
++  "ad_astra:deepslate_ostrum_ore"
++  "ad_astra:mars_ostrum_ore"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:plates/calorite</summary>
+
+```diff
++[
++  "ad_astra:calorite_plate"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:plates/desh</summary>
+
+```diff
++[
++  "ad_astra:desh_plate"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:plates/ostrum</summary>
+
+```diff
++[
++  "ad_astra:ostrum_plate"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:raw_materials/calorite</summary>
+
+```diff
++[
++  "ad_astra:raw_calorite"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:raw_materials/desh</summary>
+
+```diff
++[
++  "ad_astra:raw_desh"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:raw_materials/ostrum</summary>
+
+```diff
++[
++  "ad_astra:raw_ostrum"
++]
+
+```
+
+
+</details>
+
+<details>
 <summary>minecraft:item/c:sandstone/venus_sandstone</summary>
 
 ```diff
 +[
++  "ad_astra:venus_sandstone"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:storage_blocks/calorite</summary>
+
+```diff
++[
++  "ad_astra:calorite_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:storage_blocks/desh</summary>
+
+```diff
++[
++  "ad_astra:desh_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:storage_blocks/ostrum</summary>
+
+```diff
++[
++  "ad_astra:ostrum_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:storage_blocks/raw_calorite</summary>
+
+```diff
++[
++  "ad_astra:raw_calorite_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:storage_blocks/raw_desh</summary>
+
+```diff
++[
++  "ad_astra:raw_desh_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:storage_blocks/raw_ostrum</summary>
+
+```diff
++[
++  "ad_astra:raw_ostrum_block"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/create:runtime_generated/compat/ad_astra/aeronos</summary>
+
+```diff
++[
++  "ad_astra:aeronos_stem?"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/create:runtime_generated/compat/ad_astra/strophar</summary>
+
+```diff
++[
++  "ad_astra:strophar_stem?"
 +]
 
 ```
@@ -9712,6 +31886,140 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>minecraft:painting_variant/ad_astra:space_paintings</summary>
+
+```diff
++[
++  "ad_astra:alpha_centauri"
++  "ad_astra:earth"
++  "ad_astra:glacio"
++  "ad_astra:jupiter"
++  "ad_astra:mars"
++  "ad_astra:mercury"
++  "ad_astra:moon"
++  "ad_astra:neptune"
++  "ad_astra:pluto"
++  "ad_astra:saturn"
++  "ad_astra:sun"
++  "ad_astra:the_milky_way"
++  "ad_astra:uranus"
++  "ad_astra:venus"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:worldgen/biome/ad_astra:has_acid_rain</summary>
+
+```diff
++[
++  "ad_astra:infernal_venus_barrens?"
++  "ad_astra:venus_wastelands?"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:worldgen/biome/ad_astra:has_structure/lunarian_village</summary>
+
+```diff
++[
++  "ad_astra:lunar_wastelands?"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:worldgen/biome/ad_astra:has_structure/mars_temple</summary>
+
+```diff
++[
++  "ad_astra:martian_canyon_creek?"
++  "ad_astra:martian_wastelands?"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:worldgen/biome/ad_astra:has_structure/moon_dungeon</summary>
+
+```diff
++[
++  "ad_astra:lunar_wastelands?"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:worldgen/biome/ad_astra:has_structure/oil_well</summary>
+
+```diff
++[
++  "#c:ocean?"
++  "#minecraft:has_structure/ocean_monument"
++  "#minecraft:is_ocean"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:worldgen/biome/ad_astra:has_structure/pygro_tower</summary>
+
+```diff
++[
++  "ad_astra:venus_wastelands?"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:worldgen/biome/ad_astra:has_structure/pygro_village</summary>
+
+```diff
++[
++  "ad_astra:venus_wastelands?"
++]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:worldgen/biome/ad_astra:has_structure/venus_bullet</summary>
+
+```diff
++[
++  "ad_astra:venus_wastelands?"
++]
+
+```
+
+
+</details>
+
+<details>
 <summary>minecraft:worldgen/biome/waystones:has_structure/mud_bricks_waystone</summary>
 
 ```diff
@@ -9777,7 +32085,7 @@ Summary of changes here!
 </details>
 
 <details>
-<summary>Changed (83)</summary>
+<summary>Changed (168)</summary>
 <blockquote>
 
 <details>
@@ -9785,7 +32093,21 @@ Summary of changes here!
 
 ```diff
  [
-   ... (78 entries)
+   ... (12 entries)
++  "#c:ores/calorite"
++  "#c:ores/calorite"
+   ... (10 entries)
++  "#c:ores/desh"
++  "#c:ores/desh"
+   ... (8 entries)
++  "#c:ores/ice_shard"
++  "#c:ores/ice_shard"
++  "#c:ores/ice_shard"
++  "#c:ores/ice_shard"
+   ... (26 entries)
++  "#c:ores/ostrum"
++  "#c:ores/ostrum"
+   ... (22 entries)
 +  "#c:ores/silver"
    ... (99 entries)
  ]
@@ -9831,11 +32153,25 @@ Summary of changes here!
 
 ```diff
  [
-   ... (224 entries)
+   ... (40 entries)
++  "#c:storage_blocks/calorite"
+   ... (36 entries)
++  "#c:storage_blocks/desh"
+   ... (91 entries)
++  "#c:storage_blocks/ostrum"
+   ... (33 entries)
++  "#c:storage_blocks/raw_calorite"
+   ... (3 entries)
++  "#c:storage_blocks/raw_desh"
+   ... (15 entries)
++  "#c:storage_blocks/raw_ostrum"
+   ... (2 entries)
 +  "#c:storage_blocks/raw_silver"
-   ... (47 entries)
+   ... (56 entries)
 +  "#c:storage_blocks/silver"
-   ... (146 entries)
+   ... (20 entries)
++  "#c:storage_blocks/steel"
+   ... (121 entries)
  ]
 
 ```
@@ -9874,6 +32210,20 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>minecraft:block/c:storage_blocks/steel</summary>
+
+```diff
+ [
++  "ad_astra:steel_block"
+   ... (6 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
 <summary>minecraft:block/eternal_starlight:base_stone_starlight</summary>
 
 ```diff
@@ -9889,16 +32239,134 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>minecraft:block/minecraft:beacon_base_blocks</summary>
+
+```diff
+ [
+   ... (4 entries)
++  "ad_astra:calorite_block"
++  "ad_astra:desh_block"
++  "ad_astra:etrium_block"
++  "ad_astra:ostrum_block"
++  "ad_astra:steel_block"
+   ... (250 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:buttons</summary>
+
+```diff
+ [
+   ... (5 entries)
++  "ad_astra:calorite_plating_button"
++  "ad_astra:desh_plating_button"
++  "ad_astra:glacian_button"
++  "ad_astra:iron_plating_button"
++  "ad_astra:ostrum_plating_button"
++  "ad_astra:steel_plating_button"
+   ... (14 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
 <summary>minecraft:block/minecraft:climbable</summary>
 
 ```diff
  [
-   ... (54 entries)
+   ... (1 entries)
++  "ad_astra:aeronos_ladder"
++  "ad_astra:strophar_ladder"
+   ... (53 entries)
 +  "eternal_starlight:hanging_sacred_lanternvine"
 +  "eternal_starlight:hanging_sacred_lanternvine_plant"
 +  "eternal_starlight:sacred_lanternvine"
 +  "eternal_starlight:sacred_lanternvine_plant"
    ... (53 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:coal_ores</summary>
+
+```diff
+ [
++  "ad_astra:glacio_coal_ore"
++  "ad_astra:venus_coal_ore"
+   ... (6 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:copper_ores</summary>
+
+```diff
+ [
++  "ad_astra:glacio_copper_ore"
+   ... (4 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:diamond_ores</summary>
+
+```diff
+ [
++  "ad_astra:mars_diamond_ore"
++  "ad_astra:venus_diamond_ore"
+   ... (6 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:doors</summary>
+
+```diff
+ [
+   ... (3 entries)
++  "ad_astra:steel_door"
+   ... (113 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:fence_gates</summary>
+
+```diff
+ [
+   ... (1 entries)
++  "ad_astra:aeronos_fence_gate"
++  "ad_astra:glacian_fence_gate"
++  "ad_astra:strophar_fence_gate"
+   ... (345 entries)
  ]
 
 ```
@@ -9931,10 +32399,71 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>minecraft:block/minecraft:gold_ores</summary>
+
+```diff
+ [
++  "ad_astra:venus_gold_ore"
+   ... (6 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:guarded_by_piglins</summary>
+
+```diff
+ [
+   ... (3 entries)
++  "ad_astra:venus_gold_ore"
+   ... (68 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:iron_ores</summary>
+
+```diff
+ [
++  "ad_astra:glacio_iron_ore"
++  "ad_astra:mars_iron_ore"
++  "ad_astra:mercury_iron_ore"
++  "ad_astra:moon_iron_ore"
+   ... (6 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:lapis_ores</summary>
+
+```diff
+ [
++  "ad_astra:glacio_lapis_ore"
+   ... (4 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
 <summary>minecraft:block/minecraft:leaves</summary>
 
 ```diff
  [
++  "ad_astra:glacian_leaves"
    ... (143 entries)
 +  "eternal_starlight:cyan_lunar_leaves"
    ... (2 entries)
@@ -9948,11 +32477,368 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>minecraft:block/minecraft:logs_that_burn</summary>
+
+```diff
+ [
+   ... (222 entries)
++  "ad_astra:glacian_log"
+   ... (13 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:mineable/axe</summary>
+
+```diff
+ [
+   ... (207 entries)
++  "ad_astra:aeronos_cap"
++  "ad_astra:aeronos_door"
++  "ad_astra:aeronos_fence"
++  "ad_astra:aeronos_fence_gate"
++  "ad_astra:aeronos_ladder"
++  "ad_astra:aeronos_planks"
++  "ad_astra:aeronos_slab"
++  "ad_astra:aeronos_stairs"
++  "ad_astra:aeronos_stem"
++  "ad_astra:aeronos_trapdoor"
++  "ad_astra:glacian_button"
++  "ad_astra:glacian_door"
++  "ad_astra:glacian_fence"
++  "ad_astra:glacian_fence_gate"
++  "ad_astra:glacian_log"
++  "ad_astra:glacian_planks"
++  "ad_astra:glacian_pressure_plate"
++  "ad_astra:glacian_slab"
++  "ad_astra:glacian_stairs"
++  "ad_astra:glacian_trapdoor"
++  "ad_astra:stripped_glacian_log"
++  "ad_astra:strophar_cap"
++  "ad_astra:strophar_door"
++  "ad_astra:strophar_fence"
++  "ad_astra:strophar_fence_gate"
++  "ad_astra:strophar_ladder"
++  "ad_astra:strophar_planks"
++  "ad_astra:strophar_slab"
++  "ad_astra:strophar_stairs"
++  "ad_astra:strophar_stem"
++  "ad_astra:strophar_trapdoor"
+   ... (6151 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
 <summary>minecraft:block/minecraft:mineable/pickaxe</summary>
 
 ```diff
  [
-   ... (500 entries)
+   ... (400 entries)
++  "ad_astra:aeronos_mushroom"
++  "ad_astra:airlock"
++  "ad_astra:black_flag"
++  "ad_astra:black_industrial_lamp"
++  "ad_astra:blue_flag"
++  "ad_astra:blue_industrial_lamp"
++  "ad_astra:brown_flag"
++  "ad_astra:brown_industrial_lamp"
++  "ad_astra:cable_duct"
++  "ad_astra:calorite_block"
++  "ad_astra:calorite_factory_block"
++  "ad_astra:calorite_panel"
++  "ad_astra:calorite_pillar"
++  "ad_astra:calorite_plateblock"
++  "ad_astra:calorite_plating"
++  "ad_astra:calorite_plating_button"
++  "ad_astra:calorite_plating_pressure_plate"
++  "ad_astra:calorite_plating_slab"
++  "ad_astra:calorite_plating_stairs"
++  "ad_astra:calorite_sliding_door"
++  "ad_astra:chiseled_glacio_stone_bricks"
++  "ad_astra:chiseled_glacio_stone_slab"
++  "ad_astra:chiseled_glacio_stone_stairs"
++  "ad_astra:chiseled_mars_stone_bricks"
++  "ad_astra:chiseled_mars_stone_slab"
++  "ad_astra:chiseled_mars_stone_stairs"
++  "ad_astra:chiseled_mercury_stone_bricks"
++  "ad_astra:chiseled_mercury_stone_slab"
++  "ad_astra:chiseled_mercury_stone_stairs"
++  "ad_astra:chiseled_moon_stone_bricks"
++  "ad_astra:chiseled_moon_stone_slab"
++  "ad_astra:chiseled_moon_stone_stairs"
++  "ad_astra:chiseled_permafrost_brick_slab"
++  "ad_astra:chiseled_permafrost_brick_stairs"
++  "ad_astra:chiseled_permafrost_bricks"
++  "ad_astra:chiseled_venus_stone_bricks"
++  "ad_astra:chiseled_venus_stone_slab"
++  "ad_astra:chiseled_venus_stone_stairs"
++  "ad_astra:coal_generator"
++  "ad_astra:compressor"
++  "ad_astra:conglomerate"
++  "ad_astra:cracked_glacio_stone_bricks"
++  "ad_astra:cracked_mars_stone_bricks"
++  "ad_astra:cracked_mercury_stone_bricks"
++  "ad_astra:cracked_moon_stone_bricks"
++  "ad_astra:cracked_permafrost_bricks"
++  "ad_astra:cracked_venus_sandstone_bricks"
++  "ad_astra:cracked_venus_stone_bricks"
++  "ad_astra:cryo_freezer"
++  "ad_astra:cyan_flag"
++  "ad_astra:cyan_industrial_lamp"
++  "ad_astra:deepslate_calorite_ore"
++  "ad_astra:deepslate_desh_ore"
++  "ad_astra:deepslate_ice_shard_ore"
++  "ad_astra:deepslate_ostrum_ore"
++  "ad_astra:desh_block"
++  "ad_astra:desh_cable"
++  "ad_astra:desh_factory_block"
++  "ad_astra:desh_fluid_pipe"
++  "ad_astra:desh_panel"
++  "ad_astra:desh_pillar"
++  "ad_astra:desh_plateblock"
++  "ad_astra:desh_plating"
++  "ad_astra:desh_plating_button"
++  "ad_astra:desh_plating_pressure_plate"
++  "ad_astra:desh_plating_slab"
++  "ad_astra:desh_plating_stairs"
++  "ad_astra:desh_sliding_door"
++  "ad_astra:earth_globe"
++  "ad_astra:encased_calorite_block"
++  "ad_astra:encased_desh_block"
++  "ad_astra:encased_etrium_block"
++  "ad_astra:encased_iron_block"
++  "ad_astra:encased_ostrum_block"
++  "ad_astra:encased_steel_block"
++  "ad_astra:energizer"
++  "ad_astra:etrionic_blast_furnace"
++  "ad_astra:etrium_block"
++  "ad_astra:etrium_factory_block"
++  "ad_astra:etrium_panel"
++  "ad_astra:etrium_plateblock"
++  "ad_astra:fluid_pipe_duct"
++  "ad_astra:fuel_refinery"
++  "ad_astra:glacio_coal_ore"
++  "ad_astra:glacio_cobblestone"
++  "ad_astra:glacio_cobblestone_slab"
++  "ad_astra:glacio_cobblestone_stairs"
++  "ad_astra:glacio_copper_ore"
++  "ad_astra:glacio_globe"
++  "ad_astra:glacio_ice_shard_ore"
++  "ad_astra:glacio_iron_ore"
++  "ad_astra:glacio_lapis_ore"
++  "ad_astra:glacio_pillar"
++  "ad_astra:glacio_stone"
++  "ad_astra:glacio_stone_brick_slab"
++  "ad_astra:glacio_stone_brick_stairs"
++  "ad_astra:glacio_stone_brick_wall"
++  "ad_astra:glacio_stone_bricks"
++  "ad_astra:glacio_stone_slab"
++  "ad_astra:glacio_stone_stairs"
++  "ad_astra:glowing_calorite_pillar"
++  "ad_astra:glowing_desh_pillar"
++  "ad_astra:glowing_iron_pillar"
++  "ad_astra:glowing_ostrum_pillar"
++  "ad_astra:glowing_steel_pillar"
++  "ad_astra:gravity_normalizer"
++  "ad_astra:gray_flag"
++  "ad_astra:gray_industrial_lamp"
++  "ad_astra:green_flag"
++  "ad_astra:green_industrial_lamp"
++  "ad_astra:infernal_spire_block"
++  "ad_astra:iron_factory_block"
++  "ad_astra:iron_panel"
++  "ad_astra:iron_pillar"
++  "ad_astra:iron_plateblock"
++  "ad_astra:iron_plating"
++  "ad_astra:iron_plating_button"
++  "ad_astra:iron_plating_pressure_plate"
++  "ad_astra:iron_plating_slab"
++  "ad_astra:iron_plating_stairs"
++  "ad_astra:iron_sliding_door"
++  "ad_astra:launch_pad"
++  "ad_astra:light_blue_flag"
++  "ad_astra:light_blue_industrial_lamp"
++  "ad_astra:light_gray_flag"
++  "ad_astra:light_gray_industrial_lamp"
++  "ad_astra:lime_flag"
++  "ad_astra:lime_industrial_lamp"
++  "ad_astra:magenta_flag"
++  "ad_astra:magenta_industrial_lamp"
++  "ad_astra:marked_iron_pillar"
++  "ad_astra:mars_cobblestone"
++  "ad_astra:mars_cobblestone_slab"
++  "ad_astra:mars_cobblestone_stairs"
++  "ad_astra:mars_diamond_ore"
++  "ad_astra:mars_globe"
++  "ad_astra:mars_ice_shard_ore"
++  "ad_astra:mars_iron_ore"
++  "ad_astra:mars_ostrum_ore"
++  "ad_astra:mars_pillar"
++  "ad_astra:mars_stone"
++  "ad_astra:mars_stone_brick_slab"
++  "ad_astra:mars_stone_brick_stairs"
++  "ad_astra:mars_stone_brick_wall"
++  "ad_astra:mars_stone_bricks"
++  "ad_astra:mars_stone_slab"
++  "ad_astra:mars_stone_stairs"
++  "ad_astra:mercury_cobblestone"
++  "ad_astra:mercury_cobblestone_slab"
++  "ad_astra:mercury_cobblestone_stairs"
++  "ad_astra:mercury_globe"
++  "ad_astra:mercury_iron_ore"
++  "ad_astra:mercury_pillar"
++  "ad_astra:mercury_stone"
++  "ad_astra:mercury_stone_brick_slab"
++  "ad_astra:mercury_stone_brick_stairs"
++  "ad_astra:mercury_stone_brick_wall"
++  "ad_astra:mercury_stone_bricks"
++  "ad_astra:mercury_stone_slab"
++  "ad_astra:mercury_stone_stairs"
++  "ad_astra:moon_cheese_ore"
++  "ad_astra:moon_cobblestone"
++  "ad_astra:moon_cobblestone_slab"
++  "ad_astra:moon_cobblestone_stairs"
++  "ad_astra:moon_deepslate"
++  "ad_astra:moon_desh_ore"
++  "ad_astra:moon_globe"
++  "ad_astra:moon_ice_shard_ore"
++  "ad_astra:moon_iron_ore"
++  "ad_astra:moon_pillar"
++  "ad_astra:moon_stone"
++  "ad_astra:moon_stone_brick_slab"
++  "ad_astra:moon_stone_brick_stairs"
++  "ad_astra:moon_stone_brick_wall"
++  "ad_astra:moon_stone_bricks"
++  "ad_astra:moon_stone_slab"
++  "ad_astra:moon_stone_stairs"
++  "ad_astra:nasa_workbench"
++  "ad_astra:orange_flag"
++  "ad_astra:orange_industrial_lamp"
++  "ad_astra:ostrum_block"
++  "ad_astra:ostrum_factory_block"
++  "ad_astra:ostrum_fluid_pipe"
++  "ad_astra:ostrum_panel"
++  "ad_astra:ostrum_pillar"
++  "ad_astra:ostrum_plateblock"
++  "ad_astra:ostrum_plating"
++  "ad_astra:ostrum_plating_button"
++  "ad_astra:ostrum_plating_pressure_plate"
++  "ad_astra:ostrum_plating_slab"
++  "ad_astra:ostrum_plating_stairs"
++  "ad_astra:ostrum_sliding_door"
++  "ad_astra:oxygen"
++  "ad_astra:oxygen_distributor"
++  "ad_astra:oxygen_loader"
++  "ad_astra:oxygen_sensor"
++  "ad_astra:permafrost"
++  "ad_astra:permafrost_brick_slab"
++  "ad_astra:permafrost_brick_stairs"
++  "ad_astra:permafrost_brick_wall"
++  "ad_astra:permafrost_bricks"
++  "ad_astra:permafrost_pillar"
++  "ad_astra:permafrost_tiles"
++  "ad_astra:pink_flag"
++  "ad_astra:pink_industrial_lamp"
++  "ad_astra:polished_conglomerate"
++  "ad_astra:polished_glacio_stone"
++  "ad_astra:polished_glacio_stone_slab"
++  "ad_astra:polished_glacio_stone_stairs"
++  "ad_astra:polished_mars_stone"
++  "ad_astra:polished_mars_stone_slab"
++  "ad_astra:polished_mars_stone_stairs"
++  "ad_astra:polished_mercury_stone"
++  "ad_astra:polished_mercury_stone_slab"
++  "ad_astra:polished_mercury_stone_stairs"
++  "ad_astra:polished_moon_stone"
++  "ad_astra:polished_moon_stone_slab"
++  "ad_astra:polished_moon_stone_stairs"
++  "ad_astra:polished_permafrost"
++  "ad_astra:polished_permafrost_slab"
++  "ad_astra:polished_permafrost_stairs"
++  "ad_astra:polished_venus_stone"
++  "ad_astra:polished_venus_stone_slab"
++  "ad_astra:polished_venus_stone_stairs"
++  "ad_astra:purple_flag"
++  "ad_astra:purple_industrial_lamp"
++  "ad_astra:radio"
++  "ad_astra:raw_calorite_block"
++  "ad_astra:raw_desh_block"
++  "ad_astra:raw_ostrum_block"
++  "ad_astra:red_flag"
++  "ad_astra:red_industrial_lamp"
++  "ad_astra:reinforced_door"
++  "ad_astra:sky_stone"
++  "ad_astra:small_black_industrial_lamp"
++  "ad_astra:small_blue_industrial_lamp"
++  "ad_astra:small_brown_industrial_lamp"
++  "ad_astra:small_cyan_industrial_lamp"
++  "ad_astra:small_gray_industrial_lamp"
++  "ad_astra:small_green_industrial_lamp"
++  "ad_astra:small_light_blue_industrial_lamp"
++  "ad_astra:small_light_gray_industrial_lamp"
++  "ad_astra:small_lime_industrial_lamp"
++  "ad_astra:small_magenta_industrial_lamp"
++  "ad_astra:small_orange_industrial_lamp"
++  "ad_astra:small_pink_industrial_lamp"
++  "ad_astra:small_purple_industrial_lamp"
++  "ad_astra:small_red_industrial_lamp"
++  "ad_astra:small_white_industrial_lamp"
++  "ad_astra:small_yellow_industrial_lamp"
++  "ad_astra:solar_panel"
++  "ad_astra:steel_block"
++  "ad_astra:steel_cable"
++  "ad_astra:steel_door"
++  "ad_astra:steel_factory_block"
++  "ad_astra:steel_panel"
++  "ad_astra:steel_pillar"
++  "ad_astra:steel_plateblock"
++  "ad_astra:steel_plating"
++  "ad_astra:steel_plating_button"
++  "ad_astra:steel_plating_pressure_plate"
++  "ad_astra:steel_plating_slab"
++  "ad_astra:steel_plating_stairs"
++  "ad_astra:steel_sliding_door"
++  "ad_astra:steel_trapdoor"
++  "ad_astra:strophar_mushroom"
++  "ad_astra:vent"
++  "ad_astra:venus_calorite_ore"
++  "ad_astra:venus_coal_ore"
++  "ad_astra:venus_cobblestone"
++  "ad_astra:venus_cobblestone_slab"
++  "ad_astra:venus_cobblestone_stairs"
++  "ad_astra:venus_diamond_ore"
++  "ad_astra:venus_globe"
++  "ad_astra:venus_gold_ore"
++  "ad_astra:venus_pillar"
++  "ad_astra:venus_sandstone"
++  "ad_astra:venus_sandstone_brick_slab"
++  "ad_astra:venus_sandstone_brick_stairs"
++  "ad_astra:venus_sandstone_bricks"
++  "ad_astra:venus_stone"
++  "ad_astra:venus_stone_brick_slab"
++  "ad_astra:venus_stone_brick_stairs"
++  "ad_astra:venus_stone_brick_wall"
++  "ad_astra:venus_stone_bricks"
++  "ad_astra:venus_stone_slab"
++  "ad_astra:venus_stone_stairs"
++  "ad_astra:water_pump"
++  "ad_astra:white_flag"
++  "ad_astra:white_industrial_lamp"
++  "ad_astra:yellow_flag"
++  "ad_astra:yellow_industrial_lamp"
++  "ad_astra_giselle_addon:automation_nasa_workbench"
++  "ad_astra_giselle_addon:fuel_loader"
++  "ad_astra_giselle_addon:gravity_normalizer"
++  "ad_astra_giselle_addon:rocket_sensor"
+   ... (100 entries)
 +  "advancedperipherals:block_reader"
 +  "advancedperipherals:chat_box"
 +  "advancedperipherals:colony_integrator"
@@ -10093,11 +32979,59 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>minecraft:block/minecraft:mineable/shovel</summary>
+
+```diff
+ [
+   ... (9 entries)
++  "ad_astra:mars_sand"
++  "ad_astra:moon_sand"
++  "ad_astra:venus_sand"
+   ... (553 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
 <summary>minecraft:block/minecraft:needs_iron_tool</summary>
 
 ```diff
  [
-   ... (24 entries)
+   ... (12 entries)
++  "ad_astra:airlock"
++  "ad_astra:calorite_sliding_door"
++  "ad_astra:coal_generator"
++  "ad_astra:compressor"
++  "ad_astra:cryo_freezer"
++  "ad_astra:desh_sliding_door"
++  "ad_astra:energizer"
++  "ad_astra:etrionic_blast_furnace"
++  "ad_astra:fuel_refinery"
++  "ad_astra:glacio_lapis_ore"
++  "ad_astra:gravity_normalizer"
++  "ad_astra:iron_sliding_door"
++  "ad_astra:mars_diamond_ore"
++  "ad_astra:mars_diamond_ore"
++  "ad_astra:nasa_workbench"
++  "ad_astra:ostrum_sliding_door"
++  "ad_astra:oxygen_distributor"
++  "ad_astra:oxygen_loader"
++  "ad_astra:oxygen_sensor"
++  "ad_astra:reinforced_door"
++  "ad_astra:solar_panel"
++  "ad_astra:steel_door"
++  "ad_astra:steel_sliding_door"
++  "ad_astra:steel_trapdoor"
++  "ad_astra:venus_gold_ore"
++  "ad_astra:water_pump"
++  "ad_astra_giselle_addon:automation_nasa_workbench"
++  "ad_astra_giselle_addon:fuel_loader"
++  "ad_astra_giselle_addon:gravity_normalizer"
++  "ad_astra_giselle_addon:rocket_sensor"
+   ... (12 entries)
 +  "advancedperipherals:block_reader"
 +  "advancedperipherals:chat_box"
 +  "advancedperipherals:colony_integrator"
@@ -10153,6 +33087,63 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>minecraft:block/minecraft:overworld_carver_replaceables</summary>
+
+```diff
+ [
+   ... (7 entries)
++  "ad_astra:glacio_stone"
++  "ad_astra:mars_stone"
++  "ad_astra:mercury_stone"
++  "ad_astra:moon_stone"
++  "ad_astra:permafrost"
++  "ad_astra:venus_stone"
+   ... (45 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:planks</summary>
+
+```diff
+ [
+   ... (1 entries)
++  "ad_astra:aeronos_planks"
++  "ad_astra:glacian_planks"
++  "ad_astra:strophar_planks"
+   ... (715 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:pressure_plates</summary>
+
+```diff
+ [
+   ... (3 entries)
++  "ad_astra:calorite_plating_pressure_plate"
++  "ad_astra:desh_plating_pressure_plate"
++  "ad_astra:glacian_pressure_plate"
++  "ad_astra:iron_plating_pressure_plate"
++  "ad_astra:ostrum_plating_pressure_plate"
++  "ad_astra:steel_plating_pressure_plate"
+   ... (28 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
 <summary>minecraft:block/minecraft:rails</summary>
 
 ```diff
@@ -10182,6 +33173,73 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>minecraft:block/minecraft:sand</summary>
+
+```diff
+ [
++  "ad_astra:mars_sand"
++  "ad_astra:moon_sand"
++  "ad_astra:venus_sand"
+   ... (33 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:slabs</summary>
+
+```diff
+ [
+   ... (14 entries)
++  "ad_astra:aeronos_slab"
++  "ad_astra:calorite_plating_slab"
++  "ad_astra:chiseled_glacio_stone_slab"
++  "ad_astra:chiseled_mars_stone_slab"
++  "ad_astra:chiseled_mercury_stone_slab"
++  "ad_astra:chiseled_moon_stone_slab"
++  "ad_astra:chiseled_permafrost_brick_slab"
++  "ad_astra:chiseled_venus_stone_slab"
++  "ad_astra:desh_plating_slab"
++  "ad_astra:glacian_slab"
++  "ad_astra:glacio_cobblestone_slab"
++  "ad_astra:glacio_stone_brick_slab"
++  "ad_astra:glacio_stone_slab"
++  "ad_astra:iron_plating_slab"
++  "ad_astra:mars_cobblestone_slab"
++  "ad_astra:mars_stone_brick_slab"
++  "ad_astra:mars_stone_slab"
++  "ad_astra:mercury_cobblestone_slab"
++  "ad_astra:mercury_stone_brick_slab"
++  "ad_astra:mercury_stone_slab"
++  "ad_astra:moon_cobblestone_slab"
++  "ad_astra:moon_stone_brick_slab"
++  "ad_astra:moon_stone_slab"
++  "ad_astra:ostrum_plating_slab"
++  "ad_astra:permafrost_brick_slab"
++  "ad_astra:polished_glacio_stone_slab"
++  "ad_astra:polished_mars_stone_slab"
++  "ad_astra:polished_mercury_stone_slab"
++  "ad_astra:polished_moon_stone_slab"
++  "ad_astra:polished_permafrost_slab"
++  "ad_astra:polished_venus_stone_slab"
++  "ad_astra:steel_plating_slab"
++  "ad_astra:strophar_slab"
++  "ad_astra:venus_cobblestone_slab"
++  "ad_astra:venus_sandstone_brick_slab"
++  "ad_astra:venus_stone_brick_slab"
++  "ad_astra:venus_stone_slab"
+   ... (438 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
 <summary>minecraft:block/minecraft:small_flowers</summary>
 
 ```diff
@@ -10189,6 +33247,263 @@ Summary of changes here!
    ... (43 entries)
 +  "eternal_starlight:sacred_starlight_flower"
    ... (78 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:smelts_to_glass</summary>
+
+```diff
+ [
++  "ad_astra:mars_sand"
++  "ad_astra:moon_sand"
++  "ad_astra:venus_sand"
+   ... (3 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:stairs</summary>
+
+```diff
+ [
+   ... (14 entries)
++  "ad_astra:aeronos_stairs"
++  "ad_astra:calorite_plating_stairs"
++  "ad_astra:chiseled_glacio_stone_stairs"
++  "ad_astra:chiseled_mars_stone_stairs"
++  "ad_astra:chiseled_mercury_stone_stairs"
++  "ad_astra:chiseled_moon_stone_stairs"
++  "ad_astra:chiseled_permafrost_brick_stairs"
++  "ad_astra:chiseled_venus_stone_stairs"
++  "ad_astra:desh_plating_stairs"
++  "ad_astra:glacian_stairs"
++  "ad_astra:glacio_cobblestone_stairs"
++  "ad_astra:glacio_stone_brick_stairs"
++  "ad_astra:glacio_stone_stairs"
++  "ad_astra:iron_plating_stairs"
++  "ad_astra:mars_cobblestone_stairs"
++  "ad_astra:mars_stone_brick_stairs"
++  "ad_astra:mars_stone_stairs"
++  "ad_astra:mercury_cobblestone_stairs"
++  "ad_astra:mercury_stone_brick_stairs"
++  "ad_astra:mercury_stone_stairs"
++  "ad_astra:moon_cobblestone_stairs"
++  "ad_astra:moon_stone_brick_stairs"
++  "ad_astra:moon_stone_stairs"
++  "ad_astra:ostrum_plating_stairs"
++  "ad_astra:permafrost_brick_stairs"
++  "ad_astra:polished_glacio_stone_stairs"
++  "ad_astra:polished_mars_stone_stairs"
++  "ad_astra:polished_mercury_stone_stairs"
++  "ad_astra:polished_moon_stone_stairs"
++  "ad_astra:polished_permafrost_stairs"
++  "ad_astra:polished_venus_stone_stairs"
++  "ad_astra:steel_plating_stairs"
++  "ad_astra:strophar_stairs"
++  "ad_astra:venus_cobblestone_stairs"
++  "ad_astra:venus_sandstone_brick_stairs"
++  "ad_astra:venus_stone_brick_stairs"
++  "ad_astra:venus_stone_stairs"
+   ... (400 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:stone_bricks</summary>
+
+```diff
+ [
+   ... (2 entries)
++  "ad_astra:chiseled_glacio_stone_bricks"
++  "ad_astra:chiseled_mars_stone_bricks"
++  "ad_astra:chiseled_mercury_stone_bricks"
++  "ad_astra:chiseled_moon_stone_bricks"
++  "ad_astra:chiseled_venus_stone_bricks"
++  "ad_astra:cracked_glacio_stone_bricks"
++  "ad_astra:cracked_mars_stone_bricks"
++  "ad_astra:cracked_mercury_stone_bricks"
++  "ad_astra:cracked_moon_stone_bricks"
++  "ad_astra:cracked_venus_stone_bricks"
++  "ad_astra:glacio_stone_bricks"
++  "ad_astra:mars_stone_bricks"
++  "ad_astra:mercury_stone_bricks"
++  "ad_astra:moon_stone_bricks"
++  "ad_astra:permafrost_bricks"
++  "ad_astra:permafrost_tiles"
++  "ad_astra:venus_stone_bricks"
+   ... (19 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:trapdoors</summary>
+
+```diff
+ [
+   ... (2 entries)
++  "ad_astra:steel_trapdoor"
+   ... (346 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:walls</summary>
+
+```diff
+ [
+   ... (12 entries)
++  "ad_astra:glacio_stone_brick_wall"
++  "ad_astra:mars_stone_brick_wall"
++  "ad_astra:mercury_stone_brick_wall"
++  "ad_astra:moon_stone_brick_wall"
++  "ad_astra:permafrost_brick_wall"
++  "ad_astra:venus_stone_brick_wall"
+   ... (656 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:wooden_buttons</summary>
+
+```diff
+ [
++  "ad_astra:glacian_button"
+   ... (248 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:wooden_doors</summary>
+
+```diff
+ [
++  "ad_astra:aeronos_door"
++  "ad_astra:glacian_door"
++  "ad_astra:strophar_door"
+   ... (748 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:wooden_fences</summary>
+
+```diff
+ [
+   ... (1 entries)
++  "ad_astra:aeronos_fence"
++  "ad_astra:glacian_fence"
++  "ad_astra:strophar_fence"
+   ... (369 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:wooden_pressure_plates</summary>
+
+```diff
+ [
++  "ad_astra:glacian_pressure_plate"
+   ... (248 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:wooden_slabs</summary>
+
+```diff
+ [
++  "ad_astra:aeronos_slab"
++  "ad_astra:glacian_slab"
++  "ad_astra:strophar_slab"
+   ... (296 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:wooden_stairs</summary>
+
+```diff
+ [
++  "ad_astra:aeronos_stairs"
++  "ad_astra:glacian_stairs"
++  "ad_astra:strophar_stairs"
+   ... (297 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:wooden_trapdoors</summary>
+
+```diff
+ [
++  "ad_astra:aeronos_trapdoor"
++  "ad_astra:glacian_trapdoor"
++  "ad_astra:strophar_trapdoor"
+   ... (683 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:block/minecraft:wool</summary>
+
+```diff
+ [
+   ... (1 entries)
++  "ad_astra:glacian_fur"
+   ... (354 entries)
  ]
 
 ```
@@ -10244,6 +33559,68 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>minecraft:damage_type/minecraft:bypasses_armor</summary>
+
+```diff
+ [
+   ... (2 entries)
++  "ad_astra:oxygen?"
+   ... (105 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:damage_type/minecraft:no_impact</summary>
+
+```diff
+ [
++  "ad_astra:oxygen?"
+   ... (14 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:entity_type/carryon:entity_blacklist</summary>
+
+```diff
+ [
++  "ad_astra:tier_1_rocket"
++  "ad_astra:tier_2_rocket"
++  "ad_astra:tier_3_rocket"
++  "ad_astra:tier_4_rocket"
+   ... (23 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:entity_type/minecraft:undead</summary>
+
+```diff
+ [
+   ... (3 entries)
++  "ad_astra:corrupted_lunarian"
++  "ad_astra:martian_raptor"
+   ... (50 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
 <summary>minecraft:entity_type/sable:destroy_when_leaving_plot</summary>
 
 ```diff
@@ -10279,6 +33656,48 @@ Summary of changes here!
  [
 +  "evilcraft:blood"
    ... (2 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:fluid/c:hydrogen</summary>
+
+```diff
+ [
++  "ad_astra:hydrogen"
+   ... (3 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:fluid/c:oil</summary>
+
+```diff
+ [
++  "ad_astra:oil"
+   ... (1 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:fluid/c:oxygen</summary>
+
+```diff
+ [
++  "ad_astra:oxygen"
+   ... (3 entries)
  ]
 
 ```
@@ -10363,9 +33782,17 @@ Summary of changes here!
 
 ```diff
  [
-   ... (103 entries)
+   ... (21 entries)
++  "#c:ingots/calorite"
+   ... (13 entries)
++  "#c:ingots/desh"
+   ... (49 entries)
++  "#c:ingots/ostrum"
+   ... (20 entries)
 +  "#c:ingots/silver"
-   ... (82 entries)
+   ... (6 entries)
++  "#c:ingots/steel"
+   ... (76 entries)
  ]
 
 ```
@@ -10389,13 +33816,35 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>minecraft:item/c:ingots/steel</summary>
+
+```diff
+ [
++  "ad_astra:steel_ingot"
+   ... (9 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
 <summary>minecraft:item/c:nuggets</summary>
 
 ```diff
  [
-   ... (99 entries)
-+  "#c:nuggets/silver"
+   ... (19 entries)
++  "#c:nuggets/calorite"
+   ... (16 entries)
++  "#c:nuggets/desh"
    ... (46 entries)
++  "#c:nuggets/ostrum"
+   ... (18 entries)
++  "#c:nuggets/silver"
+   ... (3 entries)
++  "#c:nuggets/steel"
+   ... (43 entries)
  ]
 
 ```
@@ -10419,11 +33868,39 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>minecraft:item/c:nuggets/steel</summary>
+
+```diff
+ [
++  "ad_astra:steel_nugget"
+   ... (5 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
 <summary>minecraft:item/c:ores</summary>
 
 ```diff
  [
-   ... (79 entries)
+   ... (12 entries)
++  "#c:ores/calorite"
++  "#c:ores/calorite"
+   ... (10 entries)
++  "#c:ores/desh"
++  "#c:ores/desh"
+   ... (9 entries)
++  "#c:ores/ice_shard"
++  "#c:ores/ice_shard"
++  "#c:ores/ice_shard"
++  "#c:ores/ice_shard"
+   ... (26 entries)
++  "#c:ores/ostrum"
++  "#c:ores/ostrum"
+   ... (22 entries)
 +  "#c:ores/silver"
    ... (94 entries)
  ]
@@ -10450,13 +33927,70 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>minecraft:item/c:plates</summary>
+
+```diff
+ [
+   ... (13 entries)
++  "#c:plates/calorite"
+   ... (9 entries)
++  "#c:plates/desh"
+   ... (22 entries)
++  "#c:plates/iron"
+   ... (13 entries)
++  "#c:plates/ostrum"
+   ... (10 entries)
++  "#c:plates/steel"
+   ... (24 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:plates/iron</summary>
+
+```diff
+ [
++  "ad_astra:iron_plate"
+   ... (6 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:plates/steel</summary>
+
+```diff
+ [
++  "ad_astra:steel_plate"
+   ... (4 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
 <summary>minecraft:item/c:raw_materials</summary>
 
 ```diff
  [
-   ... (44 entries)
+   ... (13 entries)
++  "#c:raw_materials/calorite"
+   ... (3 entries)
++  "#c:raw_materials/desh"
+   ... (21 entries)
++  "#c:raw_materials/ostrum"
+   ... (2 entries)
 +  "#c:raw_materials/silver"
-   ... (27 entries)
+   ... (32 entries)
  ]
 
 ```
@@ -10471,6 +34005,51 @@ Summary of changes here!
  [
    ... (3 entries)
 +  "mekmm:raw_silver"
+   ... (3 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:rods</summary>
+
+```diff
+ [
+   ... (25 entries)
++  "#c:rods/iron"
+   ... (14 entries)
++  "#c:rods/steel"
+   ... (12 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:rods/iron</summary>
+
+```diff
+ [
++  "ad_astra:iron_rod"
+   ... (5 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:rods/steel</summary>
+
+```diff
+ [
++  "ad_astra:steel_rod"
    ... (3 entries)
  ]
 
@@ -10513,11 +34092,25 @@ Summary of changes here!
 
 ```diff
  [
-   ... (248 entries)
+   ... (46 entries)
++  "#c:storage_blocks/calorite"
+   ... (38 entries)
++  "#c:storage_blocks/desh"
+   ... (103 entries)
++  "#c:storage_blocks/ostrum"
+   ... (36 entries)
++  "#c:storage_blocks/raw_calorite"
+   ... (4 entries)
++  "#c:storage_blocks/raw_desh"
+   ... (15 entries)
++  "#c:storage_blocks/raw_ostrum"
+   ... (2 entries)
 +  "#c:storage_blocks/raw_silver"
-   ... (48 entries)
+   ... (59 entries)
 +  "#c:storage_blocks/silver"
-   ... (175 entries)
+   ... (20 entries)
++  "#c:storage_blocks/steel"
+   ... (148 entries)
  ]
 
 ```
@@ -10556,12 +34149,69 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>minecraft:item/c:storage_blocks/steel</summary>
+
+```diff
+ [
++  "ad_astra:steel_block"
+   ... (7 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
 <summary>minecraft:item/c:tools/igniter</summary>
 
 ```diff
  [
    ... (2 entries)
 +  "tconstruct:flint_and_brick?"
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:tools/wrench</summary>
+
+```diff
+ [
++  "ad_astra:wrench"
+   ... (26 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/c:wrenches</summary>
+
+```diff
+ [
+   ... (1 entries)
++  "ad_astra:wrench"
+   ... (2 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/curios:curio</summary>
+
+```diff
+ [
++  "#ad_astra_giselle_addon:oxygen_cans"
+   ... (36 entries)
  ]
 
 ```
@@ -10700,15 +34350,314 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>minecraft:item/minecraft:beacon_payment_items</summary>
+
+```diff
+ [
+   ... (6 entries)
++  "ad_astra:calorite_ingot"
++  "ad_astra:desh_ingot"
++  "ad_astra:etrium_ingot"
++  "ad_astra:ostrum_ingot"
++  "ad_astra:steel_ingot"
+   ... (43 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:buttons</summary>
+
+```diff
+ [
+   ... (5 entries)
++  "ad_astra:calorite_plating_button"
++  "ad_astra:desh_plating_button"
++  "ad_astra:glacian_button"
++  "ad_astra:iron_plating_button"
++  "ad_astra:ostrum_plating_button"
++  "ad_astra:steel_plating_button"
+   ... (10 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:coal_ores</summary>
+
+```diff
+ [
++  "ad_astra:glacio_coal_ore"
++  "ad_astra:venus_coal_ore"
+   ... (6 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:copper_ores</summary>
+
+```diff
+ [
++  "ad_astra:glacio_copper_ore"
+   ... (4 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:diamond_ores</summary>
+
+```diff
+ [
++  "ad_astra:mars_diamond_ore"
++  "ad_astra:venus_diamond_ore"
+   ... (6 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:doors</summary>
+
+```diff
+ [
+   ... (3 entries)
++  "ad_astra:steel_door"
+   ... (54 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:dyeable</summary>
+
+```diff
+ [
++  "ad_astra:jet_suit"
++  "ad_astra:jet_suit_boots"
++  "ad_astra:jet_suit_helmet"
++  "ad_astra:jet_suit_pants"
++  "ad_astra:netherite_space_boots"
++  "ad_astra:netherite_space_helmet"
++  "ad_astra:netherite_space_pants"
++  "ad_astra:netherite_space_suit"
++  "ad_astra:space_boots"
++  "ad_astra:space_helmet"
++  "ad_astra:space_pants"
++  "ad_astra:space_suit"
+   ... (44 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:fence_gates</summary>
+
+```diff
+ [
++  "ad_astra:aeronos_fence_gate"
++  "ad_astra:glacian_fence_gate"
++  "ad_astra:strophar_fence_gate"
+   ... (142 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:gold_ores</summary>
+
+```diff
+ [
++  "ad_astra:venus_gold_ore"
+   ... (6 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:iron_ores</summary>
+
+```diff
+ [
++  "ad_astra:glacio_iron_ore"
++  "ad_astra:mars_iron_ore"
++  "ad_astra:mercury_iron_ore"
++  "ad_astra:moon_iron_ore"
+   ... (6 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:lapis_ores</summary>
+
+```diff
+ [
++  "ad_astra:glacio_lapis_ore"
+   ... (4 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
 <summary>minecraft:item/minecraft:leaves</summary>
 
 ```diff
  [
++  "ad_astra:glacian_leaves"
    ... (140 entries)
 +  "eternal_starlight:cyan_lunar_leaves"
    ... (2 entries)
 +  "eternal_starlight:purple_lunar_leaves"
    ... (241 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:logs_that_burn</summary>
+
+```diff
+ [
+   ... (202 entries)
++  "ad_astra:glacian_log"
+   ... (54 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:piglin_loved</summary>
+
+```diff
+ [
+   ... (6 entries)
++  "ad_astra:venus_gold_ore"
+   ... (90 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:planks</summary>
+
+```diff
+ [
+   ... (1 entries)
++  "ad_astra:aeronos_planks"
++  "ad_astra:glacian_planks"
++  "ad_astra:strophar_planks"
+   ... (716 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:sand</summary>
+
+```diff
+ [
++  "ad_astra:mars_sand"
++  "ad_astra:moon_sand"
++  "ad_astra:venus_sand"
+   ... (29 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:slabs</summary>
+
+```diff
+ [
+   ... (12 entries)
++  "ad_astra:aeronos_slab"
++  "ad_astra:calorite_plating_slab"
++  "ad_astra:chiseled_glacio_stone_slab"
++  "ad_astra:chiseled_mars_stone_slab"
++  "ad_astra:chiseled_mercury_stone_slab"
++  "ad_astra:chiseled_moon_stone_slab"
++  "ad_astra:chiseled_permafrost_brick_slab"
++  "ad_astra:chiseled_venus_stone_slab"
++  "ad_astra:desh_plating_slab"
++  "ad_astra:glacian_slab"
++  "ad_astra:glacio_cobblestone_slab"
++  "ad_astra:glacio_stone_brick_slab"
++  "ad_astra:glacio_stone_slab"
++  "ad_astra:iron_plating_slab"
++  "ad_astra:mars_cobblestone_slab"
++  "ad_astra:mars_stone_brick_slab"
++  "ad_astra:mars_stone_slab"
++  "ad_astra:mercury_cobblestone_slab"
++  "ad_astra:mercury_stone_brick_slab"
++  "ad_astra:mercury_stone_slab"
++  "ad_astra:moon_cobblestone_slab"
++  "ad_astra:moon_stone_brick_slab"
++  "ad_astra:moon_stone_slab"
++  "ad_astra:ostrum_plating_slab"
++  "ad_astra:permafrost_brick_slab"
++  "ad_astra:polished_glacio_stone_slab"
++  "ad_astra:polished_mars_stone_slab"
++  "ad_astra:polished_mercury_stone_slab"
++  "ad_astra:polished_moon_stone_slab"
++  "ad_astra:polished_permafrost_slab"
++  "ad_astra:polished_venus_stone_slab"
++  "ad_astra:steel_plating_slab"
++  "ad_astra:strophar_slab"
++  "ad_astra:venus_cobblestone_slab"
++  "ad_astra:venus_sandstone_brick_slab"
++  "ad_astra:venus_stone_brick_slab"
++  "ad_astra:venus_stone_slab"
+   ... (366 entries)
  ]
 
 ```
@@ -10732,6 +34681,317 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>minecraft:item/minecraft:smelts_to_glass</summary>
+
+```diff
+ [
++  "ad_astra:mars_sand"
++  "ad_astra:moon_sand"
++  "ad_astra:venus_sand"
+   ... (3 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:stairs</summary>
+
+```diff
+ [
+   ... (12 entries)
++  "ad_astra:aeronos_stairs"
++  "ad_astra:calorite_plating_stairs"
++  "ad_astra:chiseled_glacio_stone_stairs"
++  "ad_astra:chiseled_mars_stone_stairs"
++  "ad_astra:chiseled_mercury_stone_stairs"
++  "ad_astra:chiseled_moon_stone_stairs"
++  "ad_astra:chiseled_permafrost_brick_stairs"
++  "ad_astra:chiseled_venus_stone_stairs"
++  "ad_astra:desh_plating_stairs"
++  "ad_astra:glacian_stairs"
++  "ad_astra:glacio_cobblestone_stairs"
++  "ad_astra:glacio_stone_brick_stairs"
++  "ad_astra:glacio_stone_stairs"
++  "ad_astra:iron_plating_stairs"
++  "ad_astra:mars_cobblestone_stairs"
++  "ad_astra:mars_stone_brick_stairs"
++  "ad_astra:mars_stone_stairs"
++  "ad_astra:mercury_cobblestone_stairs"
++  "ad_astra:mercury_stone_brick_stairs"
++  "ad_astra:mercury_stone_stairs"
++  "ad_astra:moon_cobblestone_stairs"
++  "ad_astra:moon_stone_brick_stairs"
++  "ad_astra:moon_stone_stairs"
++  "ad_astra:ostrum_plating_stairs"
++  "ad_astra:permafrost_brick_stairs"
++  "ad_astra:polished_glacio_stone_stairs"
++  "ad_astra:polished_mars_stone_stairs"
++  "ad_astra:polished_mercury_stone_stairs"
++  "ad_astra:polished_moon_stone_stairs"
++  "ad_astra:polished_permafrost_stairs"
++  "ad_astra:polished_venus_stone_stairs"
++  "ad_astra:steel_plating_stairs"
++  "ad_astra:strophar_stairs"
++  "ad_astra:venus_cobblestone_stairs"
++  "ad_astra:venus_sandstone_brick_stairs"
++  "ad_astra:venus_stone_brick_stairs"
++  "ad_astra:venus_stone_stairs"
+   ... (327 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:stone_bricks</summary>
+
+```diff
+ [
+   ... (2 entries)
++  "ad_astra:chiseled_glacio_stone_bricks"
++  "ad_astra:chiseled_mars_stone_bricks"
++  "ad_astra:chiseled_mercury_stone_bricks"
++  "ad_astra:chiseled_moon_stone_bricks"
++  "ad_astra:chiseled_venus_stone_bricks"
++  "ad_astra:cracked_glacio_stone_bricks"
++  "ad_astra:cracked_mars_stone_bricks"
++  "ad_astra:cracked_mercury_stone_bricks"
++  "ad_astra:cracked_moon_stone_bricks"
++  "ad_astra:cracked_venus_stone_bricks"
++  "ad_astra:glacio_stone_bricks"
++  "ad_astra:mars_stone_bricks"
++  "ad_astra:mercury_stone_bricks"
++  "ad_astra:moon_stone_bricks"
++  "ad_astra:permafrost_bricks"
++  "ad_astra:permafrost_tiles"
++  "ad_astra:venus_stone_bricks"
+   ... (6 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:stone_crafting_materials</summary>
+
+```diff
+ [
++  "ad_astra:glacio_cobblestone"
++  "ad_astra:mars_cobblestone"
++  "ad_astra:mercury_cobblestone"
++  "ad_astra:moon_cobblestone"
++  "ad_astra:venus_cobblestone"
+   ... (16 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:stone_tool_materials</summary>
+
+```diff
+ [
++  "ad_astra:glacio_cobblestone"
++  "ad_astra:mars_cobblestone"
++  "ad_astra:mercury_cobblestone"
++  "ad_astra:moon_cobblestone"
++  "ad_astra:venus_cobblestone"
+   ... (14 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:trapdoors</summary>
+
+```diff
+ [
+   ... (2 entries)
++  "ad_astra:steel_trapdoor"
+   ... (287 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:walls</summary>
+
+```diff
+ [
+   ... (10 entries)
++  "ad_astra:glacio_stone_brick_wall"
++  "ad_astra:mars_stone_brick_wall"
++  "ad_astra:mercury_stone_brick_wall"
++  "ad_astra:moon_stone_brick_wall"
++  "ad_astra:permafrost_brick_wall"
++  "ad_astra:venus_stone_brick_wall"
+   ... (302 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:wooden_buttons</summary>
+
+```diff
+ [
++  "ad_astra:glacian_button"
+   ... (248 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:wooden_doors</summary>
+
+```diff
+ [
++  "ad_astra:aeronos_door"
++  "ad_astra:glacian_door"
++  "ad_astra:strophar_door"
+   ... (702 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:wooden_fences</summary>
+
+```diff
+ [
+   ... (1 entries)
++  "ad_astra:aeronos_fence"
++  "ad_astra:glacian_fence"
++  "ad_astra:strophar_fence"
+   ... (303 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:wooden_pressure_plates</summary>
+
+```diff
+ [
++  "ad_astra:glacian_pressure_plate"
+   ... (248 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:wooden_slabs</summary>
+
+```diff
+ [
++  "ad_astra:aeronos_slab"
++  "ad_astra:glacian_slab"
++  "ad_astra:strophar_slab"
+   ... (294 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:wooden_stairs</summary>
+
+```diff
+ [
++  "ad_astra:aeronos_stairs"
++  "ad_astra:glacian_stairs"
++  "ad_astra:strophar_stairs"
+   ... (295 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:wooden_trapdoors</summary>
+
+```diff
+ [
++  "ad_astra:aeronos_trapdoor"
++  "ad_astra:glacian_trapdoor"
++  "ad_astra:strophar_trapdoor"
+   ... (684 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/minecraft:wool</summary>
+
+```diff
+ [
++  "ad_astra:glacian_fur"
+   ... (354 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/modern_industrialization:replicator_blacklist</summary>
+
+```diff
+ [
+   ... (1 entries)
++  "ad_astra:tier_1_rocket"
++  "ad_astra:tier_1_rover"
++  "ad_astra:tier_2_rocket"
++  "ad_astra:tier_3_rocket"
++  "ad_astra:tier_4_rocket"
+   ... (5 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
 <summary>minecraft:item/supplementaries:jar_cookies</summary>
 
 ```diff
@@ -10739,6 +34999,22 @@ Summary of changes here!
    ... (8 entries)
 +  "buzzier_bees:honey_apple?"
    ... (79 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft:item/supplementaries:way_signs</summary>
+
+```diff
+ [
++  "supplementaries:ad_astra/way_sign_aeronos"
++  "supplementaries:ad_astra/way_sign_glacian"
++  "supplementaries:ad_astra/way_sign_strophar"
+   ... (266 entries)
  ]
 
 ```
@@ -11265,8 +35541,8 @@ Summary of changes here!
 
 ## ✍️ Registries
 
-<details open>
-<summary>Changed (8)</summary>
+<details>
+<summary>Changed (12)</summary>
 <blockquote>
 
 <details>
@@ -11274,7 +35550,345 @@ Summary of changes here!
 
 ```diff
  [
-   ... (318 entries)
+   ... (125 entries)
++  "ad_astra:aeronos_cap"
++  "ad_astra:aeronos_door"
++  "ad_astra:aeronos_fence"
++  "ad_astra:aeronos_fence_gate"
++  "ad_astra:aeronos_ladder"
++  "ad_astra:aeronos_mushroom"
++  "ad_astra:aeronos_planks"
++  "ad_astra:aeronos_slab"
++  "ad_astra:aeronos_stairs"
++  "ad_astra:aeronos_stem"
++  "ad_astra:aeronos_trapdoor"
++  "ad_astra:airlock"
++  "ad_astra:black_flag"
++  "ad_astra:black_industrial_lamp"
++  "ad_astra:blue_flag"
++  "ad_astra:blue_industrial_lamp"
++  "ad_astra:brown_flag"
++  "ad_astra:brown_industrial_lamp"
++  "ad_astra:cable_duct"
++  "ad_astra:calorite_block"
++  "ad_astra:calorite_factory_block"
++  "ad_astra:calorite_panel"
++  "ad_astra:calorite_pillar"
++  "ad_astra:calorite_plateblock"
++  "ad_astra:calorite_plating"
++  "ad_astra:calorite_plating_button"
++  "ad_astra:calorite_plating_pressure_plate"
++  "ad_astra:calorite_plating_slab"
++  "ad_astra:calorite_plating_stairs"
++  "ad_astra:calorite_sliding_door"
++  "ad_astra:cheese_block"
++  "ad_astra:chiseled_glacio_stone_bricks"
++  "ad_astra:chiseled_glacio_stone_slab"
++  "ad_astra:chiseled_glacio_stone_stairs"
++  "ad_astra:chiseled_mars_stone_bricks"
++  "ad_astra:chiseled_mars_stone_slab"
++  "ad_astra:chiseled_mars_stone_stairs"
++  "ad_astra:chiseled_mercury_stone_bricks"
++  "ad_astra:chiseled_mercury_stone_slab"
++  "ad_astra:chiseled_mercury_stone_stairs"
++  "ad_astra:chiseled_moon_stone_bricks"
++  "ad_astra:chiseled_moon_stone_slab"
++  "ad_astra:chiseled_moon_stone_stairs"
++  "ad_astra:chiseled_permafrost_brick_slab"
++  "ad_astra:chiseled_permafrost_brick_stairs"
++  "ad_astra:chiseled_permafrost_bricks"
++  "ad_astra:chiseled_venus_stone_bricks"
++  "ad_astra:chiseled_venus_stone_slab"
++  "ad_astra:chiseled_venus_stone_stairs"
++  "ad_astra:coal_generator"
++  "ad_astra:compressor"
++  "ad_astra:conglomerate"
++  "ad_astra:cracked_glacio_stone_bricks"
++  "ad_astra:cracked_mars_stone_bricks"
++  "ad_astra:cracked_mercury_stone_bricks"
++  "ad_astra:cracked_moon_stone_bricks"
++  "ad_astra:cracked_permafrost_bricks"
++  "ad_astra:cracked_venus_sandstone_bricks"
++  "ad_astra:cracked_venus_stone_bricks"
++  "ad_astra:cryo_freezer"
++  "ad_astra:cryo_fuel"
++  "ad_astra:cyan_flag"
++  "ad_astra:cyan_industrial_lamp"
++  "ad_astra:deepslate_calorite_ore"
++  "ad_astra:deepslate_desh_ore"
++  "ad_astra:deepslate_ice_shard_ore"
++  "ad_astra:deepslate_ostrum_ore"
++  "ad_astra:desh_block"
++  "ad_astra:desh_cable"
++  "ad_astra:desh_factory_block"
++  "ad_astra:desh_fluid_pipe"
++  "ad_astra:desh_panel"
++  "ad_astra:desh_pillar"
++  "ad_astra:desh_plateblock"
++  "ad_astra:desh_plating"
++  "ad_astra:desh_plating_button"
++  "ad_astra:desh_plating_pressure_plate"
++  "ad_astra:desh_plating_slab"
++  "ad_astra:desh_plating_stairs"
++  "ad_astra:desh_sliding_door"
++  "ad_astra:earth_globe"
++  "ad_astra:encased_calorite_block"
++  "ad_astra:encased_desh_block"
++  "ad_astra:encased_etrium_block"
++  "ad_astra:encased_iron_block"
++  "ad_astra:encased_ostrum_block"
++  "ad_astra:encased_steel_block"
++  "ad_astra:energizer"
++  "ad_astra:etrionic_blast_furnace"
++  "ad_astra:etrium_block"
++  "ad_astra:etrium_factory_block"
++  "ad_astra:etrium_panel"
++  "ad_astra:etrium_plateblock"
++  "ad_astra:fluid_pipe_duct"
++  "ad_astra:fuel"
++  "ad_astra:fuel_refinery"
++  "ad_astra:glacian_button"
++  "ad_astra:glacian_door"
++  "ad_astra:glacian_fence"
++  "ad_astra:glacian_fence_gate"
++  "ad_astra:glacian_fur"
++  "ad_astra:glacian_leaves"
++  "ad_astra:glacian_log"
++  "ad_astra:glacian_planks"
++  "ad_astra:glacian_pressure_plate"
++  "ad_astra:glacian_slab"
++  "ad_astra:glacian_stairs"
++  "ad_astra:glacian_trapdoor"
++  "ad_astra:glacio_coal_ore"
++  "ad_astra:glacio_cobblestone"
++  "ad_astra:glacio_cobblestone_slab"
++  "ad_astra:glacio_cobblestone_stairs"
++  "ad_astra:glacio_copper_ore"
++  "ad_astra:glacio_globe"
++  "ad_astra:glacio_ice_shard_ore"
++  "ad_astra:glacio_iron_ore"
++  "ad_astra:glacio_lapis_ore"
++  "ad_astra:glacio_pillar"
++  "ad_astra:glacio_stone"
++  "ad_astra:glacio_stone_brick_slab"
++  "ad_astra:glacio_stone_brick_stairs"
++  "ad_astra:glacio_stone_brick_wall"
++  "ad_astra:glacio_stone_bricks"
++  "ad_astra:glacio_stone_slab"
++  "ad_astra:glacio_stone_stairs"
++  "ad_astra:glowing_calorite_pillar"
++  "ad_astra:glowing_desh_pillar"
++  "ad_astra:glowing_iron_pillar"
++  "ad_astra:glowing_ostrum_pillar"
++  "ad_astra:glowing_steel_pillar"
++  "ad_astra:gravity_normalizer"
++  "ad_astra:gray_flag"
++  "ad_astra:gray_industrial_lamp"
++  "ad_astra:green_flag"
++  "ad_astra:green_industrial_lamp"
++  "ad_astra:hydrogen"
++  "ad_astra:infernal_spire_block"
++  "ad_astra:iron_factory_block"
++  "ad_astra:iron_panel"
++  "ad_astra:iron_pillar"
++  "ad_astra:iron_plateblock"
++  "ad_astra:iron_plating"
++  "ad_astra:iron_plating_button"
++  "ad_astra:iron_plating_pressure_plate"
++  "ad_astra:iron_plating_slab"
++  "ad_astra:iron_plating_stairs"
++  "ad_astra:iron_sliding_door"
++  "ad_astra:launch_pad"
++  "ad_astra:light_blue_flag"
++  "ad_astra:light_blue_industrial_lamp"
++  "ad_astra:light_gray_flag"
++  "ad_astra:light_gray_industrial_lamp"
++  "ad_astra:lime_flag"
++  "ad_astra:lime_industrial_lamp"
++  "ad_astra:magenta_flag"
++  "ad_astra:magenta_industrial_lamp"
++  "ad_astra:marked_iron_pillar"
++  "ad_astra:mars_cobblestone"
++  "ad_astra:mars_cobblestone_slab"
++  "ad_astra:mars_cobblestone_stairs"
++  "ad_astra:mars_diamond_ore"
++  "ad_astra:mars_globe"
++  "ad_astra:mars_ice_shard_ore"
++  "ad_astra:mars_iron_ore"
++  "ad_astra:mars_ostrum_ore"
++  "ad_astra:mars_pillar"
++  "ad_astra:mars_sand"
++  "ad_astra:mars_stone"
++  "ad_astra:mars_stone_brick_slab"
++  "ad_astra:mars_stone_brick_stairs"
++  "ad_astra:mars_stone_brick_wall"
++  "ad_astra:mars_stone_bricks"
++  "ad_astra:mars_stone_slab"
++  "ad_astra:mars_stone_stairs"
++  "ad_astra:mercury_cobblestone"
++  "ad_astra:mercury_cobblestone_slab"
++  "ad_astra:mercury_cobblestone_stairs"
++  "ad_astra:mercury_globe"
++  "ad_astra:mercury_iron_ore"
++  "ad_astra:mercury_pillar"
++  "ad_astra:mercury_stone"
++  "ad_astra:mercury_stone_brick_slab"
++  "ad_astra:mercury_stone_brick_stairs"
++  "ad_astra:mercury_stone_brick_wall"
++  "ad_astra:mercury_stone_bricks"
++  "ad_astra:mercury_stone_slab"
++  "ad_astra:mercury_stone_stairs"
++  "ad_astra:moon_cheese_ore"
++  "ad_astra:moon_cobblestone"
++  "ad_astra:moon_cobblestone_slab"
++  "ad_astra:moon_cobblestone_stairs"
++  "ad_astra:moon_deepslate"
++  "ad_astra:moon_desh_ore"
++  "ad_astra:moon_globe"
++  "ad_astra:moon_ice_shard_ore"
++  "ad_astra:moon_iron_ore"
++  "ad_astra:moon_pillar"
++  "ad_astra:moon_sand"
++  "ad_astra:moon_stone"
++  "ad_astra:moon_stone_brick_slab"
++  "ad_astra:moon_stone_brick_stairs"
++  "ad_astra:moon_stone_brick_wall"
++  "ad_astra:moon_stone_bricks"
++  "ad_astra:moon_stone_slab"
++  "ad_astra:moon_stone_stairs"
++  "ad_astra:nasa_workbench"
++  "ad_astra:oil"
++  "ad_astra:orange_flag"
++  "ad_astra:orange_industrial_lamp"
++  "ad_astra:ostrum_block"
++  "ad_astra:ostrum_factory_block"
++  "ad_astra:ostrum_fluid_pipe"
++  "ad_astra:ostrum_panel"
++  "ad_astra:ostrum_pillar"
++  "ad_astra:ostrum_plateblock"
++  "ad_astra:ostrum_plating"
++  "ad_astra:ostrum_plating_button"
++  "ad_astra:ostrum_plating_pressure_plate"
++  "ad_astra:ostrum_plating_slab"
++  "ad_astra:ostrum_plating_stairs"
++  "ad_astra:ostrum_sliding_door"
++  "ad_astra:oxygen"
++  "ad_astra:oxygen_distributor"
++  "ad_astra:oxygen_loader"
++  "ad_astra:oxygen_sensor"
++  "ad_astra:permafrost"
++  "ad_astra:permafrost_brick_slab"
++  "ad_astra:permafrost_brick_stairs"
++  "ad_astra:permafrost_brick_wall"
++  "ad_astra:permafrost_bricks"
++  "ad_astra:permafrost_pillar"
++  "ad_astra:permafrost_tiles"
++  "ad_astra:pink_flag"
++  "ad_astra:pink_industrial_lamp"
++  "ad_astra:polished_conglomerate"
++  "ad_astra:polished_glacio_stone"
++  "ad_astra:polished_glacio_stone_slab"
++  "ad_astra:polished_glacio_stone_stairs"
++  "ad_astra:polished_mars_stone"
++  "ad_astra:polished_mars_stone_slab"
++  "ad_astra:polished_mars_stone_stairs"
++  "ad_astra:polished_mercury_stone"
++  "ad_astra:polished_mercury_stone_slab"
++  "ad_astra:polished_mercury_stone_stairs"
++  "ad_astra:polished_moon_stone"
++  "ad_astra:polished_moon_stone_slab"
++  "ad_astra:polished_moon_stone_stairs"
++  "ad_astra:polished_permafrost"
++  "ad_astra:polished_permafrost_slab"
++  "ad_astra:polished_permafrost_stairs"
++  "ad_astra:polished_venus_stone"
++  "ad_astra:polished_venus_stone_slab"
++  "ad_astra:polished_venus_stone_stairs"
++  "ad_astra:purple_flag"
++  "ad_astra:purple_industrial_lamp"
++  "ad_astra:radio"
++  "ad_astra:raw_calorite_block"
++  "ad_astra:raw_desh_block"
++  "ad_astra:raw_ostrum_block"
++  "ad_astra:red_flag"
++  "ad_astra:red_industrial_lamp"
++  "ad_astra:reinforced_door"
++  "ad_astra:sky_stone"
++  "ad_astra:small_black_industrial_lamp"
++  "ad_astra:small_blue_industrial_lamp"
++  "ad_astra:small_brown_industrial_lamp"
++  "ad_astra:small_cyan_industrial_lamp"
++  "ad_astra:small_gray_industrial_lamp"
++  "ad_astra:small_green_industrial_lamp"
++  "ad_astra:small_light_blue_industrial_lamp"
++  "ad_astra:small_light_gray_industrial_lamp"
++  "ad_astra:small_lime_industrial_lamp"
++  "ad_astra:small_magenta_industrial_lamp"
++  "ad_astra:small_orange_industrial_lamp"
++  "ad_astra:small_pink_industrial_lamp"
++  "ad_astra:small_purple_industrial_lamp"
++  "ad_astra:small_red_industrial_lamp"
++  "ad_astra:small_white_industrial_lamp"
++  "ad_astra:small_yellow_industrial_lamp"
++  "ad_astra:solar_panel"
++  "ad_astra:steel_block"
++  "ad_astra:steel_cable"
++  "ad_astra:steel_door"
++  "ad_astra:steel_factory_block"
++  "ad_astra:steel_panel"
++  "ad_astra:steel_pillar"
++  "ad_astra:steel_plateblock"
++  "ad_astra:steel_plating"
++  "ad_astra:steel_plating_button"
++  "ad_astra:steel_plating_pressure_plate"
++  "ad_astra:steel_plating_slab"
++  "ad_astra:steel_plating_stairs"
++  "ad_astra:steel_sliding_door"
++  "ad_astra:steel_trapdoor"
++  "ad_astra:stripped_glacian_log"
++  "ad_astra:strophar_cap"
++  "ad_astra:strophar_door"
++  "ad_astra:strophar_fence"
++  "ad_astra:strophar_fence_gate"
++  "ad_astra:strophar_ladder"
++  "ad_astra:strophar_mushroom"
++  "ad_astra:strophar_planks"
++  "ad_astra:strophar_slab"
++  "ad_astra:strophar_stairs"
++  "ad_astra:strophar_stem"
++  "ad_astra:strophar_trapdoor"
++  "ad_astra:vent"
++  "ad_astra:venus_calorite_ore"
++  "ad_astra:venus_coal_ore"
++  "ad_astra:venus_cobblestone"
++  "ad_astra:venus_cobblestone_slab"
++  "ad_astra:venus_cobblestone_stairs"
++  "ad_astra:venus_diamond_ore"
++  "ad_astra:venus_globe"
++  "ad_astra:venus_gold_ore"
++  "ad_astra:venus_pillar"
++  "ad_astra:venus_sand"
++  "ad_astra:venus_sandstone"
++  "ad_astra:venus_sandstone_brick_slab"
++  "ad_astra:venus_sandstone_brick_stairs"
++  "ad_astra:venus_sandstone_bricks"
++  "ad_astra:venus_stone"
++  "ad_astra:venus_stone_brick_slab"
++  "ad_astra:venus_stone_brick_stairs"
++  "ad_astra:venus_stone_brick_wall"
++  "ad_astra:venus_stone_bricks"
++  "ad_astra:venus_stone_slab"
++  "ad_astra:venus_stone_stairs"
++  "ad_astra:water_pump"
++  "ad_astra:white_flag"
++  "ad_astra:white_industrial_lamp"
++  "ad_astra:yellow_flag"
++  "ad_astra:yellow_industrial_lamp"
++  "ad_astra_giselle_addon:automation_nasa_workbench"
++  "ad_astra_giselle_addon:fuel_loader"
++  "ad_astra_giselle_addon:gravity_normalizer"
++  "ad_astra_giselle_addon:rocket_sensor"
+   ... (193 entries)
 +  "advancedperipherals:distance_detector"
    ... (2 entries)
 +  "advancedperipherals:fluid_detector"
@@ -11418,7 +36032,31 @@ Summary of changes here!
 
 ```diff
  [
-   ... (54 entries)
+   ... (46 entries)
++  "ad_astra:cable"
++  "ad_astra:coal_generator"
++  "ad_astra:compressor"
++  "ad_astra:cryo_freezer"
++  "ad_astra:detector"
++  "ad_astra:energizer"
++  "ad_astra:etreonic_blast_furnace"
++  "ad_astra:flag"
++  "ad_astra:fluid_pipe"
++  "ad_astra:fuel_refinery"
++  "ad_astra:globe"
++  "ad_astra:gravity_normalizer"
++  "ad_astra:nasa_workbench"
++  "ad_astra:oxygen_distributor"
++  "ad_astra:oxygen_loader"
++  "ad_astra:radio"
++  "ad_astra:sliding_door"
++  "ad_astra:solar_panel"
++  "ad_astra:water_pump"
++  "ad_astra_giselle_addon:automation_nasa_workbench"
++  "ad_astra_giselle_addon:fuel_loader"
++  "ad_astra_giselle_addon:gravity_normalizer"
++  "ad_astra_giselle_addon:rocket_sensor"
+   ... (8 entries)
 +  "advancedperipherals:distance_detector"
    ... (2 entries)
 +  "advancedperipherals:fluid_detector"
@@ -11466,11 +36104,72 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>dimension</summary>
+
+```diff
+ [
++  "ad_astra:earth_orbit"
++  "ad_astra:glacio"
++  "ad_astra:glacio_orbit"
++  "ad_astra:mars"
++  "ad_astra:mars_orbit"
++  "ad_astra:mercury"
++  "ad_astra:mercury_orbit"
++  "ad_astra:moon"
++  "ad_astra:moon_orbit"
++  "ad_astra:venus"
++  "ad_astra:venus_orbit"
+   ... (17 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
+<summary>enchantment</summary>
+
+```diff
+ [
++  "ad_astra_giselle_addon:acid_rain_proof"
++  "ad_astra_giselle_addon:gravity_normalizing"
++  "ad_astra_giselle_addon:space_breathing"
++  "ad_astra_giselle_addon:space_fire_proof"
+   ... (135 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
 <summary>entity_type</summary>
 
 ```diff
  [
    ... (1 entries)
++  "ad_astra:air_vortex"
++  "ad_astra:corrupted_lunarian"
++  "ad_astra:glacian_ram"
++  "ad_astra:ice_spit"
++  "ad_astra:lander"
++  "ad_astra:lunarian"
++  "ad_astra:lunarian_wandering_trader"
++  "ad_astra:martian_raptor"
++  "ad_astra:mogler"
++  "ad_astra:pygro"
++  "ad_astra:pygro_brute"
++  "ad_astra:star_crawler"
++  "ad_astra:sulfur_creeper"
++  "ad_astra:tier_1_rocket"
++  "ad_astra:tier_1_rover"
++  "ad_astra:tier_2_rocket"
++  "ad_astra:tier_3_rocket"
++  "ad_astra:tier_4_rocket"
++  "ad_astra:zombified_mogler"
++  "ad_astra:zombified_pygro"
 +  "advancedperipherals:turtle_ender_pearl"
 +  "advancedperipherals:turtle_seat"
    ... (418 entries)
@@ -11492,11 +36191,462 @@ Summary of changes here!
 </details>
 
 <details>
+<summary>fluid</summary>
+
+```diff
+ [
+   ... (8 entries)
++  "ad_astra:cryo_fuel"
++  "ad_astra:flowing_cryo_fuel"
++  "ad_astra:flowing_fuel"
++  "ad_astra:flowing_hydrogen"
++  "ad_astra:flowing_oil"
++  "ad_astra:flowing_oxygen"
++  "ad_astra:fuel"
++  "ad_astra:hydrogen"
++  "ad_astra:oil"
++  "ad_astra:oxygen"
+   ... (713 entries)
+ ]
+
+```
+
+
+</details>
+
+<details>
 <summary>item</summary>
 
 ```diff
  [
-   ... (445 entries)
+   ... (231 entries)
++  "ad_astra:aeronos_cap"
++  "ad_astra:aeronos_door"
++  "ad_astra:aeronos_fence"
++  "ad_astra:aeronos_fence_gate"
++  "ad_astra:aeronos_ladder"
++  "ad_astra:aeronos_mushroom"
++  "ad_astra:aeronos_planks"
++  "ad_astra:aeronos_slab"
++  "ad_astra:aeronos_stairs"
++  "ad_astra:aeronos_stem"
++  "ad_astra:aeronos_trapdoor"
++  "ad_astra:airlock"
++  "ad_astra:black_flag"
++  "ad_astra:black_industrial_lamp"
++  "ad_astra:blue_flag"
++  "ad_astra:blue_industrial_lamp"
++  "ad_astra:brown_flag"
++  "ad_astra:brown_industrial_lamp"
++  "ad_astra:cable_duct"
++  "ad_astra:calorite_block"
++  "ad_astra:calorite_engine"
++  "ad_astra:calorite_factory_block"
++  "ad_astra:calorite_ingot"
++  "ad_astra:calorite_nugget"
++  "ad_astra:calorite_panel"
++  "ad_astra:calorite_pillar"
++  "ad_astra:calorite_plate"
++  "ad_astra:calorite_plateblock"
++  "ad_astra:calorite_plating"
++  "ad_astra:calorite_plating_button"
++  "ad_astra:calorite_plating_pressure_plate"
++  "ad_astra:calorite_plating_slab"
++  "ad_astra:calorite_plating_stairs"
++  "ad_astra:calorite_sliding_door"
++  "ad_astra:calorite_tank"
++  "ad_astra:cheese"
++  "ad_astra:cheese_block"
++  "ad_astra:chiseled_glacio_stone_bricks"
++  "ad_astra:chiseled_glacio_stone_slab"
++  "ad_astra:chiseled_glacio_stone_stairs"
++  "ad_astra:chiseled_mars_stone_bricks"
++  "ad_astra:chiseled_mars_stone_slab"
++  "ad_astra:chiseled_mars_stone_stairs"
++  "ad_astra:chiseled_mercury_stone_bricks"
++  "ad_astra:chiseled_mercury_stone_slab"
++  "ad_astra:chiseled_mercury_stone_stairs"
++  "ad_astra:chiseled_moon_stone_bricks"
++  "ad_astra:chiseled_moon_stone_slab"
++  "ad_astra:chiseled_moon_stone_stairs"
++  "ad_astra:chiseled_permafrost_brick_slab"
++  "ad_astra:chiseled_permafrost_brick_stairs"
++  "ad_astra:chiseled_permafrost_bricks"
++  "ad_astra:chiseled_venus_stone_bricks"
++  "ad_astra:chiseled_venus_stone_slab"
++  "ad_astra:chiseled_venus_stone_stairs"
++  "ad_astra:coal_generator"
++  "ad_astra:compressor"
++  "ad_astra:conglomerate"
++  "ad_astra:corrupted_lunarian_spawn_egg"
++  "ad_astra:cracked_glacio_stone_bricks"
++  "ad_astra:cracked_mars_stone_bricks"
++  "ad_astra:cracked_mercury_stone_bricks"
++  "ad_astra:cracked_moon_stone_bricks"
++  "ad_astra:cracked_permafrost_bricks"
++  "ad_astra:cracked_venus_sandstone_bricks"
++  "ad_astra:cracked_venus_stone_bricks"
++  "ad_astra:cryo_freezer"
++  "ad_astra:cryo_fuel_bucket"
++  "ad_astra:cyan_flag"
++  "ad_astra:cyan_industrial_lamp"
++  "ad_astra:deepslate_calorite_ore"
++  "ad_astra:deepslate_desh_ore"
++  "ad_astra:deepslate_ice_shard_ore"
++  "ad_astra:deepslate_ostrum_ore"
++  "ad_astra:desh_block"
++  "ad_astra:desh_cable"
++  "ad_astra:desh_engine"
++  "ad_astra:desh_factory_block"
++  "ad_astra:desh_fluid_pipe"
++  "ad_astra:desh_ingot"
++  "ad_astra:desh_nugget"
++  "ad_astra:desh_panel"
++  "ad_astra:desh_pillar"
++  "ad_astra:desh_plate"
++  "ad_astra:desh_plateblock"
++  "ad_astra:desh_plating"
++  "ad_astra:desh_plating_button"
++  "ad_astra:desh_plating_pressure_plate"
++  "ad_astra:desh_plating_slab"
++  "ad_astra:desh_plating_stairs"
++  "ad_astra:desh_sliding_door"
++  "ad_astra:desh_tank"
++  "ad_astra:earth_globe"
++  "ad_astra:encased_calorite_block"
++  "ad_astra:encased_desh_block"
++  "ad_astra:encased_etrium_block"
++  "ad_astra:encased_iron_block"
++  "ad_astra:encased_ostrum_block"
++  "ad_astra:encased_steel_block"
++  "ad_astra:energizer"
++  "ad_astra:engine_frame"
++  "ad_astra:etrionic_blast_furnace"
++  "ad_astra:etrionic_capacitor"
++  "ad_astra:etrionic_core"
++  "ad_astra:etrium_block"
++  "ad_astra:etrium_factory_block"
++  "ad_astra:etrium_ingot"
++  "ad_astra:etrium_nugget"
++  "ad_astra:etrium_panel"
++  "ad_astra:etrium_plate"
++  "ad_astra:etrium_plateblock"
++  "ad_astra:etrium_rod"
++  "ad_astra:fan"
++  "ad_astra:fluid_pipe_duct"
++  "ad_astra:fuel_bucket"
++  "ad_astra:fuel_refinery"
++  "ad_astra:gas_tank"
++  "ad_astra:glacian_button"
++  "ad_astra:glacian_door"
++  "ad_astra:glacian_fence"
++  "ad_astra:glacian_fence_gate"
++  "ad_astra:glacian_fur"
++  "ad_astra:glacian_leaves"
++  "ad_astra:glacian_log"
++  "ad_astra:glacian_planks"
++  "ad_astra:glacian_pressure_plate"
++  "ad_astra:glacian_ram_spawn_egg"
++  "ad_astra:glacian_slab"
++  "ad_astra:glacian_stairs"
++  "ad_astra:glacian_trapdoor"
++  "ad_astra:glacio_coal_ore"
++  "ad_astra:glacio_cobblestone"
++  "ad_astra:glacio_cobblestone_slab"
++  "ad_astra:glacio_cobblestone_stairs"
++  "ad_astra:glacio_copper_ore"
++  "ad_astra:glacio_globe"
++  "ad_astra:glacio_ice_shard_ore"
++  "ad_astra:glacio_iron_ore"
++  "ad_astra:glacio_lapis_ore"
++  "ad_astra:glacio_pillar"
++  "ad_astra:glacio_stone"
++  "ad_astra:glacio_stone_brick_slab"
++  "ad_astra:glacio_stone_brick_stairs"
++  "ad_astra:glacio_stone_brick_wall"
++  "ad_astra:glacio_stone_bricks"
++  "ad_astra:glacio_stone_slab"
++  "ad_astra:glacio_stone_stairs"
++  "ad_astra:glowing_calorite_pillar"
++  "ad_astra:glowing_desh_pillar"
++  "ad_astra:glowing_iron_pillar"
++  "ad_astra:glowing_ostrum_pillar"
++  "ad_astra:glowing_steel_pillar"
++  "ad_astra:gravity_normalizer"
++  "ad_astra:gray_flag"
++  "ad_astra:gray_industrial_lamp"
++  "ad_astra:green_flag"
++  "ad_astra:green_industrial_lamp"
++  "ad_astra:hydrogen_bucket"
++  "ad_astra:ice_shard"
++  "ad_astra:infernal_spire_block"
++  "ad_astra:iron_factory_block"
++  "ad_astra:iron_panel"
++  "ad_astra:iron_pillar"
++  "ad_astra:iron_plate"
++  "ad_astra:iron_plateblock"
++  "ad_astra:iron_plating"
++  "ad_astra:iron_plating_button"
++  "ad_astra:iron_plating_pressure_plate"
++  "ad_astra:iron_plating_slab"
++  "ad_astra:iron_plating_stairs"
++  "ad_astra:iron_rod"
++  "ad_astra:iron_sliding_door"
++  "ad_astra:jet_suit"
++  "ad_astra:jet_suit_boots"
++  "ad_astra:jet_suit_helmet"
++  "ad_astra:jet_suit_pants"
++  "ad_astra:large_gas_tank"
++  "ad_astra:launch_pad"
++  "ad_astra:light_blue_flag"
++  "ad_astra:light_blue_industrial_lamp"
++  "ad_astra:light_gray_flag"
++  "ad_astra:light_gray_industrial_lamp"
++  "ad_astra:lime_flag"
++  "ad_astra:lime_industrial_lamp"
++  "ad_astra:lunarian_spawn_egg"
++  "ad_astra:lunarian_wandering_trader_spawn_egg"
++  "ad_astra:magenta_flag"
++  "ad_astra:magenta_industrial_lamp"
++  "ad_astra:marked_iron_pillar"
++  "ad_astra:mars_cobblestone"
++  "ad_astra:mars_cobblestone_slab"
++  "ad_astra:mars_cobblestone_stairs"
++  "ad_astra:mars_diamond_ore"
++  "ad_astra:mars_globe"
++  "ad_astra:mars_ice_shard_ore"
++  "ad_astra:mars_iron_ore"
++  "ad_astra:mars_ostrum_ore"
++  "ad_astra:mars_pillar"
++  "ad_astra:mars_sand"
++  "ad_astra:mars_stone"
++  "ad_astra:mars_stone_brick_slab"
++  "ad_astra:mars_stone_brick_stairs"
++  "ad_astra:mars_stone_brick_wall"
++  "ad_astra:mars_stone_bricks"
++  "ad_astra:mars_stone_slab"
++  "ad_astra:mars_stone_stairs"
++  "ad_astra:martian_raptor_spawn_egg"
++  "ad_astra:mercury_cobblestone"
++  "ad_astra:mercury_cobblestone_slab"
++  "ad_astra:mercury_cobblestone_stairs"
++  "ad_astra:mercury_globe"
++  "ad_astra:mercury_iron_ore"
++  "ad_astra:mercury_pillar"
++  "ad_astra:mercury_stone"
++  "ad_astra:mercury_stone_brick_slab"
++  "ad_astra:mercury_stone_brick_stairs"
++  "ad_astra:mercury_stone_brick_wall"
++  "ad_astra:mercury_stone_bricks"
++  "ad_astra:mercury_stone_slab"
++  "ad_astra:mercury_stone_stairs"
++  "ad_astra:mogler_spawn_egg"
++  "ad_astra:moon_cheese_ore"
++  "ad_astra:moon_cobblestone"
++  "ad_astra:moon_cobblestone_slab"
++  "ad_astra:moon_cobblestone_stairs"
++  "ad_astra:moon_deepslate"
++  "ad_astra:moon_desh_ore"
++  "ad_astra:moon_globe"
++  "ad_astra:moon_ice_shard_ore"
++  "ad_astra:moon_iron_ore"
++  "ad_astra:moon_pillar"
++  "ad_astra:moon_sand"
++  "ad_astra:moon_stone"
++  "ad_astra:moon_stone_brick_slab"
++  "ad_astra:moon_stone_brick_stairs"
++  "ad_astra:moon_stone_brick_wall"
++  "ad_astra:moon_stone_bricks"
++  "ad_astra:moon_stone_slab"
++  "ad_astra:moon_stone_stairs"
++  "ad_astra:nasa_workbench"
++  "ad_astra:netherite_space_boots"
++  "ad_astra:netherite_space_helmet"
++  "ad_astra:netherite_space_pants"
++  "ad_astra:netherite_space_suit"
++  "ad_astra:oil_bucket"
++  "ad_astra:orange_flag"
++  "ad_astra:orange_industrial_lamp"
++  "ad_astra:ostrum_block"
++  "ad_astra:ostrum_engine"
++  "ad_astra:ostrum_factory_block"
++  "ad_astra:ostrum_fluid_pipe"
++  "ad_astra:ostrum_ingot"
++  "ad_astra:ostrum_nugget"
++  "ad_astra:ostrum_panel"
++  "ad_astra:ostrum_pillar"
++  "ad_astra:ostrum_plate"
++  "ad_astra:ostrum_plateblock"
++  "ad_astra:ostrum_plating"
++  "ad_astra:ostrum_plating_button"
++  "ad_astra:ostrum_plating_pressure_plate"
++  "ad_astra:ostrum_plating_slab"
++  "ad_astra:ostrum_plating_stairs"
++  "ad_astra:ostrum_sliding_door"
++  "ad_astra:ostrum_tank"
++  "ad_astra:oxygen_bucket"
++  "ad_astra:oxygen_distributor"
++  "ad_astra:oxygen_gear"
++  "ad_astra:oxygen_loader"
++  "ad_astra:oxygen_sensor"
++  "ad_astra:permafrost"
++  "ad_astra:permafrost_brick_slab"
++  "ad_astra:permafrost_brick_stairs"
++  "ad_astra:permafrost_brick_wall"
++  "ad_astra:permafrost_bricks"
++  "ad_astra:permafrost_pillar"
++  "ad_astra:permafrost_tiles"
++  "ad_astra:photovoltaic_etrium_cell"
++  "ad_astra:photovoltaic_vesnium_cell"
++  "ad_astra:pink_flag"
++  "ad_astra:pink_industrial_lamp"
++  "ad_astra:polished_conglomerate"
++  "ad_astra:polished_glacio_stone"
++  "ad_astra:polished_glacio_stone_slab"
++  "ad_astra:polished_glacio_stone_stairs"
++  "ad_astra:polished_mars_stone"
++  "ad_astra:polished_mars_stone_slab"
++  "ad_astra:polished_mars_stone_stairs"
++  "ad_astra:polished_mercury_stone"
++  "ad_astra:polished_mercury_stone_slab"
++  "ad_astra:polished_mercury_stone_stairs"
++  "ad_astra:polished_moon_stone"
++  "ad_astra:polished_moon_stone_slab"
++  "ad_astra:polished_moon_stone_stairs"
++  "ad_astra:polished_permafrost"
++  "ad_astra:polished_permafrost_slab"
++  "ad_astra:polished_permafrost_stairs"
++  "ad_astra:polished_venus_stone"
++  "ad_astra:polished_venus_stone_slab"
++  "ad_astra:polished_venus_stone_stairs"
++  "ad_astra:purple_flag"
++  "ad_astra:purple_industrial_lamp"
++  "ad_astra:pygro_brute_spawn_egg"
++  "ad_astra:pygro_spawn_egg"
++  "ad_astra:radio"
++  "ad_astra:raw_calorite"
++  "ad_astra:raw_calorite_block"
++  "ad_astra:raw_desh"
++  "ad_astra:raw_desh_block"
++  "ad_astra:raw_ostrum"
++  "ad_astra:raw_ostrum_block"
++  "ad_astra:red_flag"
++  "ad_astra:red_industrial_lamp"
++  "ad_astra:reinforced_door"
++  "ad_astra:rocket_fin"
++  "ad_astra:rocket_nose_cone"
++  "ad_astra:sky_stone"
++  "ad_astra:small_black_industrial_lamp"
++  "ad_astra:small_blue_industrial_lamp"
++  "ad_astra:small_brown_industrial_lamp"
++  "ad_astra:small_cyan_industrial_lamp"
++  "ad_astra:small_gray_industrial_lamp"
++  "ad_astra:small_green_industrial_lamp"
++  "ad_astra:small_light_blue_industrial_lamp"
++  "ad_astra:small_light_gray_industrial_lamp"
++  "ad_astra:small_lime_industrial_lamp"
++  "ad_astra:small_magenta_industrial_lamp"
++  "ad_astra:small_orange_industrial_lamp"
++  "ad_astra:small_pink_industrial_lamp"
++  "ad_astra:small_purple_industrial_lamp"
++  "ad_astra:small_red_industrial_lamp"
++  "ad_astra:small_white_industrial_lamp"
++  "ad_astra:small_yellow_industrial_lamp"
++  "ad_astra:solar_panel"
++  "ad_astra:space_boots"
++  "ad_astra:space_helmet"
++  "ad_astra:space_painting"
++  "ad_astra:space_pants"
++  "ad_astra:space_suit"
++  "ad_astra:star_crawler_spawn_egg"
++  "ad_astra:steel_block"
++  "ad_astra:steel_cable"
++  "ad_astra:steel_door"
++  "ad_astra:steel_engine"
++  "ad_astra:steel_factory_block"
++  "ad_astra:steel_ingot"
++  "ad_astra:steel_nugget"
++  "ad_astra:steel_panel"
++  "ad_astra:steel_pillar"
++  "ad_astra:steel_plate"
++  "ad_astra:steel_plateblock"
++  "ad_astra:steel_plating"
++  "ad_astra:steel_plating_button"
++  "ad_astra:steel_plating_pressure_plate"
++  "ad_astra:steel_plating_slab"
++  "ad_astra:steel_plating_stairs"
++  "ad_astra:steel_rod"
++  "ad_astra:steel_sliding_door"
++  "ad_astra:steel_tank"
++  "ad_astra:steel_trapdoor"
++  "ad_astra:stripped_glacian_log"
++  "ad_astra:strophar_cap"
++  "ad_astra:strophar_door"
++  "ad_astra:strophar_fence"
++  "ad_astra:strophar_fence_gate"
++  "ad_astra:strophar_ladder"
++  "ad_astra:strophar_mushroom"
++  "ad_astra:strophar_planks"
++  "ad_astra:strophar_slab"
++  "ad_astra:strophar_stairs"
++  "ad_astra:strophar_stem"
++  "ad_astra:strophar_trapdoor"
++  "ad_astra:sulfur_creeper_spawn_egg"
++  "ad_astra:ti_69"
++  "ad_astra:tier_1_rocket"
++  "ad_astra:tier_1_rover"
++  "ad_astra:tier_2_rocket"
++  "ad_astra:tier_3_rocket"
++  "ad_astra:tier_4_rocket"
++  "ad_astra:vent"
++  "ad_astra:venus_calorite_ore"
++  "ad_astra:venus_coal_ore"
++  "ad_astra:venus_cobblestone"
++  "ad_astra:venus_cobblestone_slab"
++  "ad_astra:venus_cobblestone_stairs"
++  "ad_astra:venus_diamond_ore"
++  "ad_astra:venus_globe"
++  "ad_astra:venus_gold_ore"
++  "ad_astra:venus_pillar"
++  "ad_astra:venus_sand"
++  "ad_astra:venus_sandstone"
++  "ad_astra:venus_sandstone_brick_slab"
++  "ad_astra:venus_sandstone_brick_stairs"
++  "ad_astra:venus_sandstone_bricks"
++  "ad_astra:venus_stone"
++  "ad_astra:venus_stone_brick_slab"
++  "ad_astra:venus_stone_brick_stairs"
++  "ad_astra:venus_stone_brick_wall"
++  "ad_astra:venus_stone_bricks"
++  "ad_astra:venus_stone_slab"
++  "ad_astra:venus_stone_stairs"
++  "ad_astra:water_pump"
++  "ad_astra:wheel"
++  "ad_astra:white_flag"
++  "ad_astra:white_industrial_lamp"
++  "ad_astra:wrench"
++  "ad_astra:yellow_flag"
++  "ad_astra:yellow_industrial_lamp"
++  "ad_astra:zip_gun"
++  "ad_astra:zombified_mogler_spawn_egg"
++  "ad_astra:zombified_pygro_spawn_egg"
++  "ad_astra_giselle_addon:automation_nasa_workbench"
++  "ad_astra_giselle_addon:creative_oxygen_can"
++  "ad_astra_giselle_addon:fuel_loader"
++  "ad_astra_giselle_addon:gravity_normalizer"
++  "ad_astra_giselle_addon:lander_icon"
++  "ad_astra_giselle_addon:module_acid_rain_proof_unit"
++  "ad_astra_giselle_addon:module_gravity_normalizing_unit"
++  "ad_astra_giselle_addon:module_space_breathing_unit"
++  "ad_astra_giselle_addon:module_space_fire_proof_unit"
++  "ad_astra_giselle_addon:netherite_oxygen_can"
++  "ad_astra_giselle_addon:oxygen_can"
++  "ad_astra_giselle_addon:pneumatic_acid_rain_proof_upgrade"
++  "ad_astra_giselle_addon:pneumatic_gravity_normalizing_upgrade"
++  "ad_astra_giselle_addon:pneumatic_space_breathing_upgrade"
++  "ad_astra_giselle_addon:pneumatic_space_fire_proof_upgrade"
++  "ad_astra_giselle_addon:rocket_sensor"
+   ... (214 entries)
 +  "advancedperipherals:ae_disk_cell_16m"
 +  "advancedperipherals:ae_disk_cell_1m"
 +  "advancedperipherals:ae_disk_cell_256m"
@@ -11676,7 +36826,11 @@ Summary of changes here!
 +  "stepcrafter:yellow_step_crafter_manager"
 +  "stepcrafter:yellow_step_crafting_monitor"
 +  "stepcrafter:yellow_step_requester_manager"
-   ... (3929 entries)
+   ... (360 entries)
++  "supplementaries:ad_astra/way_sign_aeronos"
++  "supplementaries:ad_astra/way_sign_glacian"
++  "supplementaries:ad_astra/way_sign_strophar"
+   ... (3569 entries)
  ]
 
 ```
@@ -11689,7 +36843,15 @@ Summary of changes here!
 
 ```diff
  [
-   ... (209 entries)
+   ... (9 entries)
++  "ad_astra:alloying"
++  "ad_astra:compressing"
++  "ad_astra:cryo_freezing"
++  "ad_astra:nasa_workbench"
++  "ad_astra:oxygen_loading"
++  "ad_astra:refining"
++  "ad_astra:space_station_recipe"
+   ... (200 entries)
 +  "mekanism:pressing"
    ... (198 entries)
  ]
@@ -11704,6 +36866,16 @@ Summary of changes here!
 
 ```diff
  [
++  "ad_astra:glacio_ice_peaks"
++  "ad_astra:glacio_snowy_barrens"
++  "ad_astra:infernal_venus_barrens"
++  "ad_astra:lunar_wastelands"
++  "ad_astra:martian_canyon_creek"
++  "ad_astra:martian_polar_caps"
++  "ad_astra:martian_wastelands"
++  "ad_astra:mercury_deltas"
++  "ad_astra:orbit"
++  "ad_astra:venus_wastelands"
    ... (92 entries)
 +  "eternal_starlight:solaris_isles"
    ... (206 entries)
@@ -11719,6 +36891,8 @@ Summary of changes here!
 
 ```diff
  [
++  "ad_astra:infernal_spire_column"
++  "ad_astra:mars_block_blob"
    ... (57 entries)
 +  "eternal_starlight:sky_island"
 +  "eternal_starlight:speleothem"
@@ -11740,7 +36914,34 @@ Summary of changes here!
 
 ```diff
  [
-   ... (412 entries)
+   ... (5 entries)
++  "ad_astra:glacio_coal_ore"
++  "ad_astra:glacio_copper_ore"
++  "ad_astra:glacio_deepslate_coal_ore"
++  "ad_astra:glacio_deepslate_copper_ore"
++  "ad_astra:glacio_deepslate_iron_ore"
++  "ad_astra:glacio_deepslate_lapis_ore"
++  "ad_astra:glacio_ice_shard_ore"
++  "ad_astra:glacio_iron_ore"
++  "ad_astra:glacio_lapis_ore"
++  "ad_astra:large_infernal_spire_column"
++  "ad_astra:mars_diamond_ore"
++  "ad_astra:mars_ice_shard_ore"
++  "ad_astra:mars_iron_ore"
++  "ad_astra:mars_ostrum_ore"
++  "ad_astra:mars_rock"
++  "ad_astra:mercury_iron_ore"
++  "ad_astra:moon_cheese_ore"
++  "ad_astra:moon_desh_ore"
++  "ad_astra:moon_ice_shard_ore"
++  "ad_astra:moon_iron_ore"
++  "ad_astra:moon_soul_soil"
++  "ad_astra:small_infernal_spire_column"
++  "ad_astra:venus_calorite_ore"
++  "ad_astra:venus_coal_ore"
++  "ad_astra:venus_diamond_ore"
++  "ad_astra:venus_gold_ore"
+   ... (407 entries)
 +  "eternal_starlight:hanging_voidstone_spike"
    ... (15 entries)
 +  "eternal_starlight:lunar_colored_huge_starfire_birds_tree_checked"
@@ -11767,6 +36968,27 @@ Summary of changes here!
 
 </details>
 
+<details>
+<summary>worldgen/structure</summary>
+
+```diff
+ [
++  "ad_astra:lunar_tower"
++  "ad_astra:lunarian_village"
++  "ad_astra:mars_temple"
++  "ad_astra:moon_dungeon"
++  "ad_astra:oil_well"
++  "ad_astra:pygro_tower"
++  "ad_astra:pygro_village"
++  "ad_astra:venus_bullet"
+   ... (888 entries)
+ ]
+
+```
+
+
+</details>
+
 </blockquote>
 
 </details>
@@ -11774,8 +36996,11378 @@ Summary of changes here!
 ## 🗝️ Loot Table
 
 <details>
-<summary>Added (93)</summary>
+<summary>Added (425)</summary>
 <blockquote>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/aeronos_cap</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:aeronos_cap"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/aeronos_cap"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/aeronos_door</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:aeronos_door"
++              condition: "minecraft:block_state_property"
++              properties: {
++                half: "lower"
++              }
++            }
++          ]
++          name: "ad_astra:aeronos_door"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/aeronos_door"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/aeronos_fence</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:aeronos_fence"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/aeronos_fence"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/aeronos_fence_gate</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:aeronos_fence_gate"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/aeronos_fence_gate"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/aeronos_ladder</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:aeronos_ladder"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/aeronos_ladder"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/aeronos_mushroom</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:aeronos_mushroom"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/aeronos_mushroom"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/aeronos_planks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:aeronos_planks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/aeronos_planks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/aeronos_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:aeronos_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/aeronos_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/aeronos_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:aeronos_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/aeronos_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/aeronos_stem</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:aeronos_stem"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/aeronos_stem"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/aeronos_trapdoor</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:aeronos_trapdoor"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/aeronos_trapdoor"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/airlock</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:airlock"
++              condition: "minecraft:block_state_property"
++              properties: {
++                part: "bottom"
++              }
++            }
++          ]
++          name: "ad_astra:airlock"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/airlock"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/black_flag</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:black_flag"
++              condition: "minecraft:block_state_property"
++              properties: {
++                half: "lower"
++              }
++            }
++          ]
++          name: "ad_astra:black_flag"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/black_flag"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/black_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:black_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/black_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/blue_flag</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:blue_flag"
++              condition: "minecraft:block_state_property"
++              properties: {
++                half: "lower"
++              }
++            }
++          ]
++          name: "ad_astra:blue_flag"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/blue_flag"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/blue_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:blue_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/blue_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/brown_flag</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:brown_flag"
++              condition: "minecraft:block_state_property"
++              properties: {
++                half: "lower"
++              }
++            }
++          ]
++          name: "ad_astra:brown_flag"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/brown_flag"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/brown_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:brown_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/brown_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/cable_duct</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:cable_duct"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/cable_duct"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/calorite_block</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:calorite_block"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/calorite_block"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/calorite_factory_block</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:calorite_factory_block"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/calorite_factory_block"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/calorite_panel</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:calorite_panel"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/calorite_panel"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/calorite_pillar</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:calorite_pillar"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/calorite_pillar"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/calorite_plateblock</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:calorite_plateblock"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/calorite_plateblock"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/calorite_plating</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:calorite_plating"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/calorite_plating"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/calorite_plating_button</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:calorite_plating_button"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/calorite_plating_button"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/calorite_plating_pressure_plate</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:calorite_plating_pressure_plate"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/calorite_plating_pressure_plate"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/calorite_plating_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:calorite_plating_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/calorite_plating_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/calorite_plating_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:calorite_plating_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/calorite_plating_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/calorite_sliding_door</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:calorite_sliding_door"
++              condition: "minecraft:block_state_property"
++              properties: {
++                part: "bottom"
++              }
++            }
++          ]
++          name: "ad_astra:calorite_sliding_door"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/calorite_sliding_door"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/cheese_block</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:cheese_block"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/cheese_block"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/chiseled_glacio_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:chiseled_glacio_stone_bricks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/chiseled_glacio_stone_bricks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/chiseled_glacio_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:chiseled_glacio_stone_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/chiseled_glacio_stone_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/chiseled_glacio_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:chiseled_glacio_stone_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/chiseled_glacio_stone_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/chiseled_mars_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:chiseled_mars_stone_bricks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/chiseled_mars_stone_bricks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/chiseled_mars_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:chiseled_mars_stone_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/chiseled_mars_stone_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/chiseled_mars_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:chiseled_mars_stone_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/chiseled_mars_stone_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/chiseled_mercury_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:chiseled_mercury_stone_bricks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/chiseled_mercury_stone_bricks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/chiseled_mercury_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:chiseled_mercury_stone_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/chiseled_mercury_stone_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/chiseled_mercury_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:chiseled_mercury_stone_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/chiseled_mercury_stone_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/chiseled_moon_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:chiseled_moon_stone_bricks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/chiseled_moon_stone_bricks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/chiseled_moon_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:chiseled_moon_stone_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/chiseled_moon_stone_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/chiseled_moon_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:chiseled_moon_stone_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/chiseled_moon_stone_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/chiseled_permafrost_brick_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:chiseled_permafrost_brick_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/chiseled_permafrost_brick_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/chiseled_permafrost_brick_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:chiseled_permafrost_brick_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/chiseled_permafrost_brick_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/chiseled_permafrost_bricks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:chiseled_permafrost_bricks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/chiseled_permafrost_bricks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/chiseled_venus_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:chiseled_venus_stone_bricks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/chiseled_venus_stone_bricks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/chiseled_venus_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:chiseled_venus_stone_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/chiseled_venus_stone_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/chiseled_venus_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:chiseled_venus_stone_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/chiseled_venus_stone_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/coal_generator</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:coal_generator"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/coal_generator"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/compressor</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:compressor"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/compressor"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/conglomerate</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:conglomerate"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/conglomerate"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/cracked_glacio_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:cracked_glacio_stone_bricks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/cracked_glacio_stone_bricks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/cracked_mars_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:cracked_mars_stone_bricks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/cracked_mars_stone_bricks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/cracked_mercury_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:cracked_mercury_stone_bricks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/cracked_mercury_stone_bricks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/cracked_moon_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:cracked_moon_stone_bricks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/cracked_moon_stone_bricks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/cracked_permafrost_bricks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:cracked_permafrost_bricks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/cracked_permafrost_bricks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/cracked_venus_sandstone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:cracked_venus_sandstone_bricks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/cracked_venus_sandstone_bricks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/cracked_venus_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:cracked_venus_stone_bricks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/cracked_venus_stone_bricks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/cryo_freezer</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:cryo_freezer"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/cryo_freezer"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/cyan_flag</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:cyan_flag"
++              condition: "minecraft:block_state_property"
++              properties: {
++                half: "lower"
++              }
++            }
++          ]
++          name: "ad_astra:cyan_flag"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/cyan_flag"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/cyan_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:cyan_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/cyan_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/deepslate_calorite_ore</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:deepslate_calorite_ore"
++            }
++            {
++              type: "minecraft:item"
++              functions: [
++                {
++                  enchantment: "minecraft:fortune"
++                  formula: "minecraft:ore_drops"
++                  function: "minecraft:apply_bonus"
++                }
++                {
++                  function: "minecraft:explosion_decay"
++                }
++              ]
++              name: "ad_astra:raw_calorite"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/deepslate_calorite_ore"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/deepslate_desh_ore</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:deepslate_desh_ore"
++            }
++            {
++              type: "minecraft:item"
++              functions: [
++                {
++                  enchantment: "minecraft:fortune"
++                  formula: "minecraft:ore_drops"
++                  function: "minecraft:apply_bonus"
++                }
++                {
++                  function: "minecraft:explosion_decay"
++                }
++              ]
++              name: "ad_astra:raw_desh"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/deepslate_desh_ore"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/deepslate_ice_shard_ore</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:deepslate_ice_shard_ore"
++            }
++            {
++              type: "minecraft:item"
++              functions: [
++                {
++                  enchantment: "minecraft:fortune"
++                  formula: "minecraft:ore_drops"
++                  function: "minecraft:apply_bonus"
++                }
++                {
++                  function: "minecraft:explosion_decay"
++                }
++              ]
++              name: "ad_astra:ice_shard"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/deepslate_ice_shard_ore"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/deepslate_ostrum_ore</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:deepslate_ostrum_ore"
++            }
++            {
++              type: "minecraft:item"
++              functions: [
++                {
++                  enchantment: "minecraft:fortune"
++                  formula: "minecraft:ore_drops"
++                  function: "minecraft:apply_bonus"
++                }
++                {
++                  function: "minecraft:explosion_decay"
++                }
++              ]
++              name: "ad_astra:raw_ostrum"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/deepslate_ostrum_ore"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/desh_block</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:desh_block"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/desh_block"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/desh_cable</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:desh_cable"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/desh_cable"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/desh_factory_block</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:desh_factory_block"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/desh_factory_block"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/desh_fluid_pipe</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:desh_fluid_pipe"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/desh_fluid_pipe"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/desh_panel</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:desh_panel"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/desh_panel"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/desh_pillar</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:desh_pillar"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/desh_pillar"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/desh_plateblock</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:desh_plateblock"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/desh_plateblock"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/desh_plating</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:desh_plating"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/desh_plating"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/desh_plating_button</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:desh_plating_button"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/desh_plating_button"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/desh_plating_pressure_plate</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:desh_plating_pressure_plate"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/desh_plating_pressure_plate"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/desh_plating_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:desh_plating_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/desh_plating_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/desh_plating_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:desh_plating_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/desh_plating_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/desh_sliding_door</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:desh_sliding_door"
++              condition: "minecraft:block_state_property"
++              properties: {
++                part: "bottom"
++              }
++            }
++          ]
++          name: "ad_astra:desh_sliding_door"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/desh_sliding_door"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/earth_globe</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:earth_globe"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/earth_globe"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/encased_calorite_block</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:encased_calorite_block"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/encased_calorite_block"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/encased_desh_block</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:encased_desh_block"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/encased_desh_block"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/encased_etrium_block</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:encased_etrium_block"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/encased_etrium_block"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/encased_iron_block</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:encased_iron_block"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/encased_iron_block"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/encased_ostrum_block</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:encased_ostrum_block"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/encased_ostrum_block"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/encased_steel_block</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:encased_steel_block"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/encased_steel_block"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/energizer</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:energizer"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/energizer"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/etrionic_blast_furnace</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:etrionic_blast_furnace"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/etrionic_blast_furnace"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/etrium_block</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:etrium_block"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/etrium_block"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/etrium_factory_block</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:etrium_factory_block"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/etrium_factory_block"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/etrium_panel</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:etrium_panel"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/etrium_panel"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/etrium_plateblock</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:etrium_plateblock"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/etrium_plateblock"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/fluid_pipe_duct</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:fluid_pipe_duct"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/fluid_pipe_duct"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/fuel_refinery</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:fuel_refinery"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/fuel_refinery"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacian_button</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glacian_button"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacian_button"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacian_door</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:glacian_door"
++              condition: "minecraft:block_state_property"
++              properties: {
++                half: "lower"
++              }
++            }
++          ]
++          name: "ad_astra:glacian_door"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacian_door"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacian_fence</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glacian_fence"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacian_fence"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacian_fence_gate</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glacian_fence_gate"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacian_fence_gate"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacian_fur</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glacian_fur"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacian_fur"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacian_leaves</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glacian_leaves"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacian_leaves"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacian_log</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glacian_log"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacian_log"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacian_planks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glacian_planks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacian_planks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacian_pressure_plate</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glacian_pressure_plate"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacian_pressure_plate"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacian_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glacian_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacian_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacian_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glacian_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacian_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacian_trapdoor</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glacian_trapdoor"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacian_trapdoor"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacio_coal_ore</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:glacio_coal_ore"
++            }
++            {
++              type: "minecraft:item"
++              functions: [
++                {
++                  enchantment: "minecraft:fortune"
++                  formula: "minecraft:ore_drops"
++                  function: "minecraft:apply_bonus"
++                }
++                {
++                  function: "minecraft:explosion_decay"
++                }
++              ]
++              name: "minecraft:coal"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacio_coal_ore"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacio_cobblestone</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glacio_cobblestone"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacio_cobblestone"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacio_cobblestone_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glacio_cobblestone_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacio_cobblestone_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacio_cobblestone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glacio_cobblestone_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacio_cobblestone_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacio_copper_ore</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:glacio_copper_ore"
++            }
++            {
++              type: "minecraft:item"
++              functions: [
++                {
++                  add: false
++                  count: {
++                    type: "minecraft:uniform"
++                    max: 5
++                    min: 2
++                  }
++                  function: "minecraft:set_count"
++                }
++                {
++                  enchantment: "minecraft:fortune"
++                  formula: "minecraft:ore_drops"
++                  function: "minecraft:apply_bonus"
++                }
++                {
++                  function: "minecraft:explosion_decay"
++                }
++              ]
++              name: "minecraft:raw_copper"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacio_copper_ore"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacio_globe</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glacio_globe"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacio_globe"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacio_ice_shard_ore</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:glacio_ice_shard_ore"
++            }
++            {
++              type: "minecraft:item"
++              functions: [
++                {
++                  enchantment: "minecraft:fortune"
++                  formula: "minecraft:ore_drops"
++                  function: "minecraft:apply_bonus"
++                }
++                {
++                  function: "minecraft:explosion_decay"
++                }
++              ]
++              name: "ad_astra:ice_shard"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacio_ice_shard_ore"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacio_iron_ore</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:glacio_iron_ore"
++            }
++            {
++              type: "minecraft:item"
++              functions: [
++                {
++                  enchantment: "minecraft:fortune"
++                  formula: "minecraft:ore_drops"
++                  function: "minecraft:apply_bonus"
++                }
++                {
++                  function: "minecraft:explosion_decay"
++                }
++              ]
++              name: "minecraft:raw_iron"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacio_iron_ore"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacio_lapis_ore</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:glacio_lapis_ore"
++            }
++            {
++              type: "minecraft:item"
++              functions: [
++                {
++                  add: false
++                  count: {
++                    type: "minecraft:uniform"
++                    max: 9
++                    min: 4
++                  }
++                  function: "minecraft:set_count"
++                }
++                {
++                  enchantment: "minecraft:fortune"
++                  formula: "minecraft:ore_drops"
++                  function: "minecraft:apply_bonus"
++                }
++                {
++                  function: "minecraft:explosion_decay"
++                }
++              ]
++              name: "minecraft:lapis_lazuli"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacio_lapis_ore"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacio_pillar</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glacio_pillar"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacio_pillar"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacio_stone</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:glacio_stone"
++            }
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:survives_explosion"
++                }
++              ]
++              name: "ad_astra:glacio_cobblestone"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacio_stone"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacio_stone_brick_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glacio_stone_brick_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacio_stone_brick_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacio_stone_brick_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glacio_stone_brick_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacio_stone_brick_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacio_stone_brick_wall</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glacio_stone_brick_wall"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacio_stone_brick_wall"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacio_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glacio_stone_bricks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacio_stone_bricks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacio_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glacio_stone_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacio_stone_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glacio_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glacio_stone_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glacio_stone_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glowing_calorite_pillar</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glowing_calorite_pillar"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glowing_calorite_pillar"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glowing_desh_pillar</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glowing_desh_pillar"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glowing_desh_pillar"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glowing_iron_pillar</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glowing_iron_pillar"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glowing_iron_pillar"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glowing_ostrum_pillar</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glowing_ostrum_pillar"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glowing_ostrum_pillar"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/glowing_steel_pillar</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:glowing_steel_pillar"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/glowing_steel_pillar"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/gravity_normalizer</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:gravity_normalizer"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/gravity_normalizer"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/gray_flag</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:gray_flag"
++              condition: "minecraft:block_state_property"
++              properties: {
++                half: "lower"
++              }
++            }
++          ]
++          name: "ad_astra:gray_flag"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/gray_flag"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/gray_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:gray_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/gray_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/green_flag</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:green_flag"
++              condition: "minecraft:block_state_property"
++              properties: {
++                half: "lower"
++              }
++            }
++          ]
++          name: "ad_astra:green_flag"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/green_flag"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/green_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:green_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/green_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/infernal_spire_block</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:infernal_spire_block"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/infernal_spire_block"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/iron_factory_block</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:iron_factory_block"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/iron_factory_block"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/iron_panel</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:iron_panel"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/iron_panel"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/iron_pillar</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:iron_pillar"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/iron_pillar"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/iron_plateblock</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:iron_plateblock"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/iron_plateblock"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/iron_plating</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:iron_plating"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/iron_plating"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/iron_plating_button</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:iron_plating_button"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/iron_plating_button"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/iron_plating_pressure_plate</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:iron_plating_pressure_plate"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/iron_plating_pressure_plate"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/iron_plating_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:iron_plating_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/iron_plating_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/iron_plating_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:iron_plating_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/iron_plating_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/iron_sliding_door</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:iron_sliding_door"
++              condition: "minecraft:block_state_property"
++              properties: {
++                part: "bottom"
++              }
++            }
++          ]
++          name: "ad_astra:iron_sliding_door"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/iron_sliding_door"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/launch_pad</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:launch_pad"
++              condition: "minecraft:block_state_property"
++              properties: {
++                part: "center"
++              }
++            }
++          ]
++          name: "ad_astra:launch_pad"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/launch_pad"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/light_blue_flag</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:light_blue_flag"
++              condition: "minecraft:block_state_property"
++              properties: {
++                half: "lower"
++              }
++            }
++          ]
++          name: "ad_astra:light_blue_flag"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/light_blue_flag"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/light_blue_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:light_blue_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/light_blue_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/light_gray_flag</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:light_gray_flag"
++              condition: "minecraft:block_state_property"
++              properties: {
++                half: "lower"
++              }
++            }
++          ]
++          name: "ad_astra:light_gray_flag"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/light_gray_flag"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/light_gray_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:light_gray_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/light_gray_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/lime_flag</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:lime_flag"
++              condition: "minecraft:block_state_property"
++              properties: {
++                half: "lower"
++              }
++            }
++          ]
++          name: "ad_astra:lime_flag"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/lime_flag"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/lime_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:lime_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/lime_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/magenta_flag</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:magenta_flag"
++              condition: "minecraft:block_state_property"
++              properties: {
++                half: "lower"
++              }
++            }
++          ]
++          name: "ad_astra:magenta_flag"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/magenta_flag"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/magenta_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:magenta_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/magenta_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/marked_iron_pillar</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:marked_iron_pillar"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/marked_iron_pillar"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mars_cobblestone</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mars_cobblestone"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mars_cobblestone"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mars_cobblestone_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mars_cobblestone_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mars_cobblestone_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mars_cobblestone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mars_cobblestone_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mars_cobblestone_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mars_diamond_ore</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:mars_diamond_ore"
++            }
++            {
++              type: "minecraft:item"
++              functions: [
++                {
++                  enchantment: "minecraft:fortune"
++                  formula: "minecraft:ore_drops"
++                  function: "minecraft:apply_bonus"
++                }
++                {
++                  function: "minecraft:explosion_decay"
++                }
++              ]
++              name: "minecraft:diamond"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mars_diamond_ore"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mars_globe</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mars_globe"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mars_globe"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mars_ice_shard_ore</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:mars_ice_shard_ore"
++            }
++            {
++              type: "minecraft:item"
++              functions: [
++                {
++                  enchantment: "minecraft:fortune"
++                  formula: "minecraft:ore_drops"
++                  function: "minecraft:apply_bonus"
++                }
++                {
++                  function: "minecraft:explosion_decay"
++                }
++              ]
++              name: "ad_astra:ice_shard"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mars_ice_shard_ore"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mars_iron_ore</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:mars_iron_ore"
++            }
++            {
++              type: "minecraft:item"
++              functions: [
++                {
++                  enchantment: "minecraft:fortune"
++                  formula: "minecraft:ore_drops"
++                  function: "minecraft:apply_bonus"
++                }
++                {
++                  function: "minecraft:explosion_decay"
++                }
++              ]
++              name: "minecraft:raw_iron"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mars_iron_ore"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mars_ostrum_ore</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:mars_ostrum_ore"
++            }
++            {
++              type: "minecraft:item"
++              functions: [
++                {
++                  enchantment: "minecraft:fortune"
++                  formula: "minecraft:ore_drops"
++                  function: "minecraft:apply_bonus"
++                }
++                {
++                  function: "minecraft:explosion_decay"
++                }
++              ]
++              name: "ad_astra:raw_ostrum"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mars_ostrum_ore"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mars_pillar</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mars_pillar"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mars_pillar"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mars_sand</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mars_sand"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mars_sand"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mars_stone</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:mars_stone"
++            }
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:survives_explosion"
++                }
++              ]
++              name: "ad_astra:mars_cobblestone"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mars_stone"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mars_stone_brick_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mars_stone_brick_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mars_stone_brick_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mars_stone_brick_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mars_stone_brick_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mars_stone_brick_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mars_stone_brick_wall</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mars_stone_brick_wall"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mars_stone_brick_wall"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mars_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mars_stone_bricks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mars_stone_bricks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mars_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mars_stone_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mars_stone_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mars_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mars_stone_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mars_stone_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mercury_cobblestone</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mercury_cobblestone"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mercury_cobblestone"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mercury_cobblestone_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mercury_cobblestone_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mercury_cobblestone_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mercury_cobblestone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mercury_cobblestone_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mercury_cobblestone_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mercury_globe</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mercury_globe"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mercury_globe"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mercury_iron_ore</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:mercury_iron_ore"
++            }
++            {
++              type: "minecraft:item"
++              functions: [
++                {
++                  enchantment: "minecraft:fortune"
++                  formula: "minecraft:ore_drops"
++                  function: "minecraft:apply_bonus"
++                }
++                {
++                  function: "minecraft:explosion_decay"
++                }
++              ]
++              name: "minecraft:raw_iron"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mercury_iron_ore"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mercury_pillar</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mercury_pillar"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mercury_pillar"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mercury_stone</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:mercury_stone"
++            }
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:survives_explosion"
++                }
++              ]
++              name: "ad_astra:mercury_cobblestone"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mercury_stone"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mercury_stone_brick_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mercury_stone_brick_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mercury_stone_brick_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mercury_stone_brick_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mercury_stone_brick_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mercury_stone_brick_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mercury_stone_brick_wall</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mercury_stone_brick_wall"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mercury_stone_brick_wall"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mercury_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mercury_stone_bricks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mercury_stone_bricks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mercury_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mercury_stone_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mercury_stone_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/mercury_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:mercury_stone_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/mercury_stone_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/moon_cheese_ore</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:moon_cheese_ore"
++            }
++            {
++              type: "minecraft:item"
++              functions: [
++                {
++                  enchantment: "minecraft:fortune"
++                  formula: "minecraft:ore_drops"
++                  function: "minecraft:apply_bonus"
++                }
++                {
++                  function: "minecraft:explosion_decay"
++                }
++              ]
++              name: "ad_astra:cheese"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/moon_cheese_ore"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/moon_cobblestone</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:moon_cobblestone"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/moon_cobblestone"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/moon_cobblestone_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:moon_cobblestone_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/moon_cobblestone_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/moon_cobblestone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:moon_cobblestone_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/moon_cobblestone_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/moon_deepslate</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:moon_deepslate"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/moon_deepslate"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/moon_desh_ore</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:moon_desh_ore"
++            }
++            {
++              type: "minecraft:item"
++              functions: [
++                {
++                  enchantment: "minecraft:fortune"
++                  formula: "minecraft:ore_drops"
++                  function: "minecraft:apply_bonus"
++                }
++                {
++                  function: "minecraft:explosion_decay"
++                }
++              ]
++              name: "ad_astra:raw_desh"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/moon_desh_ore"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/moon_globe</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:moon_globe"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/moon_globe"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/moon_ice_shard_ore</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:moon_ice_shard_ore"
++            }
++            {
++              type: "minecraft:item"
++              functions: [
++                {
++                  enchantment: "minecraft:fortune"
++                  formula: "minecraft:ore_drops"
++                  function: "minecraft:apply_bonus"
++                }
++                {
++                  function: "minecraft:explosion_decay"
++                }
++              ]
++              name: "ad_astra:ice_shard"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/moon_ice_shard_ore"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/moon_iron_ore</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:moon_iron_ore"
++            }
++            {
++              type: "minecraft:item"
++              functions: [
++                {
++                  enchantment: "minecraft:fortune"
++                  formula: "minecraft:ore_drops"
++                  function: "minecraft:apply_bonus"
++                }
++                {
++                  function: "minecraft:explosion_decay"
++                }
++              ]
++              name: "minecraft:raw_iron"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/moon_iron_ore"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/moon_pillar</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:moon_pillar"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/moon_pillar"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/moon_sand</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:moon_sand"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/moon_sand"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/moon_stone</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:moon_stone"
++            }
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:survives_explosion"
++                }
++              ]
++              name: "ad_astra:moon_cobblestone"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/moon_stone"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/moon_stone_brick_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:moon_stone_brick_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/moon_stone_brick_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/moon_stone_brick_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:moon_stone_brick_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/moon_stone_brick_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/moon_stone_brick_wall</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:moon_stone_brick_wall"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/moon_stone_brick_wall"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/moon_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:moon_stone_bricks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/moon_stone_bricks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/moon_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:moon_stone_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/moon_stone_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/moon_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:moon_stone_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/moon_stone_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/nasa_workbench</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:nasa_workbench"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/nasa_workbench"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/orange_flag</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:orange_flag"
++              condition: "minecraft:block_state_property"
++              properties: {
++                half: "lower"
++              }
++            }
++          ]
++          name: "ad_astra:orange_flag"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/orange_flag"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/orange_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:orange_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/orange_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/ostrum_block</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:ostrum_block"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/ostrum_block"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/ostrum_factory_block</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:ostrum_factory_block"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/ostrum_factory_block"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/ostrum_fluid_pipe</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:ostrum_fluid_pipe"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/ostrum_fluid_pipe"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/ostrum_panel</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:ostrum_panel"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/ostrum_panel"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/ostrum_pillar</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:ostrum_pillar"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/ostrum_pillar"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/ostrum_plateblock</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:ostrum_plateblock"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/ostrum_plateblock"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/ostrum_plating</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:ostrum_plating"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/ostrum_plating"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/ostrum_plating_button</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:ostrum_plating_button"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/ostrum_plating_button"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/ostrum_plating_pressure_plate</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:ostrum_plating_pressure_plate"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/ostrum_plating_pressure_plate"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/ostrum_plating_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:ostrum_plating_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/ostrum_plating_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/ostrum_plating_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:ostrum_plating_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/ostrum_plating_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/ostrum_sliding_door</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:ostrum_sliding_door"
++              condition: "minecraft:block_state_property"
++              properties: {
++                part: "bottom"
++              }
++            }
++          ]
++          name: "ad_astra:ostrum_sliding_door"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/ostrum_sliding_door"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/oxygen_distributor</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:oxygen_distributor"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/oxygen_distributor"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/oxygen_loader</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:oxygen_loader"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/oxygen_loader"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/oxygen_sensor</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:oxygen_sensor"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/oxygen_sensor"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/permafrost</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:permafrost"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/permafrost"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/permafrost_brick_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:permafrost_brick_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/permafrost_brick_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/permafrost_brick_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:permafrost_brick_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/permafrost_brick_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/permafrost_brick_wall</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:permafrost_brick_wall"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/permafrost_brick_wall"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/permafrost_bricks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:permafrost_bricks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/permafrost_bricks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/permafrost_pillar</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:permafrost_pillar"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/permafrost_pillar"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/permafrost_tiles</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:permafrost_tiles"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/permafrost_tiles"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/pink_flag</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:pink_flag"
++              condition: "minecraft:block_state_property"
++              properties: {
++                half: "lower"
++              }
++            }
++          ]
++          name: "ad_astra:pink_flag"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/pink_flag"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/pink_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:pink_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/pink_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/polished_conglomerate</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:polished_conglomerate"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/polished_conglomerate"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/polished_glacio_stone</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:polished_glacio_stone"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/polished_glacio_stone"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/polished_glacio_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:polished_glacio_stone_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/polished_glacio_stone_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/polished_glacio_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:polished_glacio_stone_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/polished_glacio_stone_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/polished_mars_stone</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:polished_mars_stone"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/polished_mars_stone"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/polished_mars_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:polished_mars_stone_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/polished_mars_stone_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/polished_mars_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:polished_mars_stone_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/polished_mars_stone_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/polished_mercury_stone</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:polished_mercury_stone"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/polished_mercury_stone"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/polished_mercury_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:polished_mercury_stone_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/polished_mercury_stone_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/polished_mercury_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:polished_mercury_stone_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/polished_mercury_stone_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/polished_moon_stone</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:polished_moon_stone"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/polished_moon_stone"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/polished_moon_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:polished_moon_stone_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/polished_moon_stone_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/polished_moon_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:polished_moon_stone_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/polished_moon_stone_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/polished_permafrost</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:polished_permafrost"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/polished_permafrost"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/polished_permafrost_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:polished_permafrost_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/polished_permafrost_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/polished_permafrost_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:polished_permafrost_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/polished_permafrost_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/polished_venus_stone</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:polished_venus_stone"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/polished_venus_stone"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/polished_venus_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:polished_venus_stone_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/polished_venus_stone_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/polished_venus_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:polished_venus_stone_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/polished_venus_stone_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/purple_flag</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:purple_flag"
++              condition: "minecraft:block_state_property"
++              properties: {
++                half: "lower"
++              }
++            }
++          ]
++          name: "ad_astra:purple_flag"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/purple_flag"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/purple_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:purple_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/purple_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/radio</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:radio"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/radio"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/raw_calorite_block</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:raw_calorite_block"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/raw_calorite_block"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/raw_desh_block</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:raw_desh_block"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/raw_desh_block"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/raw_ostrum_block</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:raw_ostrum_block"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/raw_ostrum_block"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/red_flag</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:red_flag"
++              condition: "minecraft:block_state_property"
++              properties: {
++                half: "lower"
++              }
++            }
++          ]
++          name: "ad_astra:red_flag"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/red_flag"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/red_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:red_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/red_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/reinforced_door</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:reinforced_door"
++              condition: "minecraft:block_state_property"
++              properties: {
++                part: "bottom"
++              }
++            }
++          ]
++          name: "ad_astra:reinforced_door"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/reinforced_door"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/sky_stone</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:sky_stone"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/sky_stone"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/small_black_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:small_black_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/small_black_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/small_blue_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:small_blue_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/small_blue_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/small_brown_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:small_brown_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/small_brown_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/small_cyan_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:small_cyan_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/small_cyan_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/small_gray_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:small_gray_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/small_gray_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/small_green_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:small_green_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/small_green_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/small_light_blue_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:small_light_blue_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/small_light_blue_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/small_light_gray_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:small_light_gray_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/small_light_gray_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/small_lime_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:small_lime_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/small_lime_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/small_magenta_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:small_magenta_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/small_magenta_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/small_orange_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:small_orange_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/small_orange_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/small_pink_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:small_pink_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/small_pink_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/small_purple_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:small_purple_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/small_purple_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/small_red_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:small_red_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/small_red_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/small_white_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:small_white_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/small_white_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/small_yellow_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:small_yellow_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/small_yellow_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/solar_panel</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:solar_panel"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/solar_panel"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/steel_block</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:steel_block"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/steel_block"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/steel_cable</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:steel_cable"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/steel_cable"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/steel_door</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:steel_door"
++              condition: "minecraft:block_state_property"
++              properties: {
++                half: "lower"
++              }
++            }
++          ]
++          name: "ad_astra:steel_door"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/steel_door"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/steel_factory_block</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:steel_factory_block"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/steel_factory_block"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/steel_panel</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:steel_panel"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/steel_panel"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/steel_pillar</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:steel_pillar"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/steel_pillar"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/steel_plateblock</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:steel_plateblock"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/steel_plateblock"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/steel_plating</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:steel_plating"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/steel_plating"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/steel_plating_button</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:steel_plating_button"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/steel_plating_button"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/steel_plating_pressure_plate</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:steel_plating_pressure_plate"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/steel_plating_pressure_plate"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/steel_plating_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:steel_plating_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/steel_plating_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/steel_plating_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:steel_plating_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/steel_plating_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/steel_sliding_door</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:steel_sliding_door"
++              condition: "minecraft:block_state_property"
++              properties: {
++                part: "bottom"
++              }
++            }
++          ]
++          name: "ad_astra:steel_sliding_door"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/steel_sliding_door"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/steel_trapdoor</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:steel_trapdoor"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/steel_trapdoor"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/stripped_glacian_log</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:stripped_glacian_log"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/stripped_glacian_log"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/strophar_cap</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:strophar_cap"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/strophar_cap"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/strophar_door</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:strophar_door"
++              condition: "minecraft:block_state_property"
++              properties: {
++                half: "lower"
++              }
++            }
++          ]
++          name: "ad_astra:strophar_door"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/strophar_door"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/strophar_fence</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:strophar_fence"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/strophar_fence"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/strophar_fence_gate</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:strophar_fence_gate"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/strophar_fence_gate"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/strophar_ladder</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:strophar_ladder"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/strophar_ladder"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/strophar_mushroom</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:strophar_mushroom"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/strophar_mushroom"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/strophar_planks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:strophar_planks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/strophar_planks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/strophar_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:strophar_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/strophar_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/strophar_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:strophar_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/strophar_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/strophar_stem</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:strophar_stem"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/strophar_stem"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/strophar_trapdoor</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:strophar_trapdoor"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/strophar_trapdoor"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/vent</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:vent"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/vent"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/venus_calorite_ore</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:venus_calorite_ore"
++            }
++            {
++              type: "minecraft:item"
++              functions: [
++                {
++                  enchantment: "minecraft:fortune"
++                  formula: "minecraft:ore_drops"
++                  function: "minecraft:apply_bonus"
++                }
++                {
++                  function: "minecraft:explosion_decay"
++                }
++              ]
++              name: "ad_astra:raw_calorite"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/venus_calorite_ore"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/venus_coal_ore</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:venus_coal_ore"
++            }
++            {
++              type: "minecraft:item"
++              functions: [
++                {
++                  enchantment: "minecraft:fortune"
++                  formula: "minecraft:ore_drops"
++                  function: "minecraft:apply_bonus"
++                }
++                {
++                  function: "minecraft:explosion_decay"
++                }
++              ]
++              name: "minecraft:coal"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/venus_coal_ore"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/venus_cobblestone</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:venus_cobblestone"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/venus_cobblestone"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/venus_cobblestone_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:venus_cobblestone_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/venus_cobblestone_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/venus_cobblestone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:venus_cobblestone_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/venus_cobblestone_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/venus_diamond_ore</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:venus_diamond_ore"
++            }
++            {
++              type: "minecraft:item"
++              functions: [
++                {
++                  enchantment: "minecraft:fortune"
++                  formula: "minecraft:ore_drops"
++                  function: "minecraft:apply_bonus"
++                }
++                {
++                  function: "minecraft:explosion_decay"
++                }
++              ]
++              name: "minecraft:diamond"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/venus_diamond_ore"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/venus_globe</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:venus_globe"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/venus_globe"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/venus_gold_ore</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:venus_gold_ore"
++            }
++            {
++              type: "minecraft:item"
++              functions: [
++                {
++                  enchantment: "minecraft:fortune"
++                  formula: "minecraft:ore_drops"
++                  function: "minecraft:apply_bonus"
++                }
++                {
++                  function: "minecraft:explosion_decay"
++                }
++              ]
++              name: "minecraft:raw_gold"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/venus_gold_ore"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/venus_pillar</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:venus_pillar"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/venus_pillar"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/venus_sand</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:venus_sand"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/venus_sand"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/venus_sandstone</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:venus_sandstone"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/venus_sandstone"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/venus_sandstone_brick_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:venus_sandstone_brick_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/venus_sandstone_brick_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/venus_sandstone_brick_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:venus_sandstone_brick_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/venus_sandstone_brick_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/venus_sandstone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:venus_sandstone_bricks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/venus_sandstone_bricks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/venus_stone</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      entries: [
++        {
++          type: "minecraft:alternatives"
++          children: [
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:match_tool"
++                  predicate: {
++                    predicates: {
++                      minecraft:enchantments: [
++                        {
++                          enchantments: "minecraft:silk_touch"
++                          levels: {
++                            min: 1
++                          }
++                        }
++                      ]
++                    }
++                  }
++                }
++              ]
++              name: "ad_astra:venus_stone"
++            }
++            {
++              type: "minecraft:item"
++              conditions: [
++                {
++                  condition: "minecraft:survives_explosion"
++                }
++              ]
++              name: "ad_astra:venus_cobblestone"
++            }
++          ]
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/venus_stone"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/venus_stone_brick_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:venus_stone_brick_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/venus_stone_brick_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/venus_stone_brick_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:venus_stone_brick_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/venus_stone_brick_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/venus_stone_brick_wall</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:venus_stone_brick_wall"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/venus_stone_brick_wall"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/venus_stone_bricks</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:venus_stone_bricks"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/venus_stone_bricks"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/venus_stone_slab</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:venus_stone_slab"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/venus_stone_slab"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/venus_stone_stairs</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:venus_stone_stairs"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/venus_stone_stairs"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/water_pump</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:water_pump"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/water_pump"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/white_flag</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:white_flag"
++              condition: "minecraft:block_state_property"
++              properties: {
++                half: "lower"
++              }
++            }
++          ]
++          name: "ad_astra:white_flag"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/white_flag"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/white_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:white_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/white_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/yellow_flag</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          conditions: [
++            {
++              block: "ad_astra:yellow_flag"
++              condition: "minecraft:block_state_property"
++              properties: {
++                half: "lower"
++              }
++            }
++          ]
++          name: "ad_astra:yellow_flag"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/yellow_flag"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra/blocks/yellow_industrial_lamp</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra:yellow_industrial_lamp"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++  random_sequence: "ad_astra:blocks/yellow_industrial_lamp"
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra_giselle_addon/blocks/automation_nasa_workbench</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra_giselle_addon:automation_nasa_workbench"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra_giselle_addon/blocks/fuel_loader</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra_giselle_addon:fuel_loader"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra_giselle_addon/blocks/gravity_normalizer</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra_giselle_addon:gravity_normalizer"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++}
+
+```
+
+
+</details>
+
+<details>
+<summary>minecraft/loot_table/ad_astra_giselle_addon/blocks/rocket_sensor</summary>
+
+```diff
++{
++  type: "minecraft:block"
++  pools: [
++    {
++      bonus_rolls: 0
++      conditions: [
++        {
++          condition: "minecraft:survives_explosion"
++        }
++      ]
++      entries: [
++        {
++          type: "minecraft:item"
++          name: "ad_astra_giselle_addon:rocket_sensor"
++        }
++      ]
++      rolls: 1
++    }
++  ]
++}
+
+```
+
+
+</details>
 
 <details>
 <summary>minecraft/loot_table/advancedperipherals/blocks/distance_detector</summary>
