@@ -50,6 +50,8 @@ RecipeViewerEvents.removeEntriesCompletely('item', allthemods => {
     allthemods.remove(/mekmm:.*rolling_mill.*/)
 
     allthemods.remove("supplementaries:faucet")
+
+    allthemods.remove('ars_elemental:glyph_nullify_defense')
 })
 
 // RecipeViewerEvents.removeEntriesCompletely('mekanism:chemical', allthemods => {
