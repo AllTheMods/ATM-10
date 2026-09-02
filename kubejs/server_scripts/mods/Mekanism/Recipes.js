@@ -151,26 +151,6 @@ ServerEvents.recipes(allthemods => {
   })
 
   //mekCrushing({item: 'mod:item', count: 0}, {item/tag: 'mod:item/tag', count: 0}, 'id');
-  mekCrushing(
-    {item: 'silentgear:blaze_gold_dust'},
-    {item: 'silentgear:blaze_gold_ingot'},
-    'blaze_gold_ingot_to_dust'
-  )
-  mekCrushing(
-    {item: 'silentgear:azure_electrum_dust'},
-    {item: 'silentgear:azure_electrum_ingot'},
-    'azure_electrum_ingot_to_dust'
-  )
-  mekCrushing(
-    {item: 'silentgear:crimson_steel_dust'},
-    {item: 'silentgear:crimson_steel_ingot'},
-    'crimson_steel_ingot_to_dust'
-  )
-  mekCrushing(
-    {item:'extendedae:entro_dust'},
-    {item:'extendedae:entro_crystal'},
-    'entro_crystal_to_dust'
-  )
   mekCrushing({item:'irons_spellbooks:raw_mithril', count:4}, {tag:'c:ores/mithril'}, 'mithril_ore_to_raw')
     
   //mekEnriching(output{item: 'mod:item', count: 0}, input{item/tag: 'mod:item/tag', count: 0}, 'id');

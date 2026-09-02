@@ -2,11 +2,6 @@ const inputResource = [
   {material: 'unobtainium', out3: null, modID: 'allthemodium:'},
   {material: 'vibranium', out3: null, modID: 'allthemodium:'},
   {material: 'allthemodium', out3: null, modID: 'allthemodium:'},
-  {material: 'crimson_iron', out3: null, modID: 'silentgear:'},
-  {material: 'azure_silver', out3: null, modID: 'silentgear:'},
-  {material: 'blaze_gold', out3: null, modID: 'silentgear:'},
-  {material: 'azure_electrum', out3: null, modID: 'silentgear:'},
-  {material: 'crimson_steel', out3: null, modID: 'silentgear:'},
 ]
 
 ServerEvents.recipes(allthemods => {
