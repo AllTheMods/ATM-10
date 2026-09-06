@@ -35,7 +35,7 @@
 	quest.2782EA80C1C74EBD.quest_desc: ["Yaratık Ezici, etki alanındaki canlıları &lkatleder&r, ganimetlerini toplar ve canlılardan düşen &aTecrübeyi&r &aÖz&r'e dönüştürür. İsterseniz bu tecrübeyi Yaratık Ezici'ye Ganimet büyüsü eklemek için de harcayabilirsiniz.\\n\\nPatronlar ve çağırıcıya yerleştirilemeyen yaratıklar Yaratık Ezici için kara listeye alınmıştır. Bunlar &lyok edilmek&r yerine işlem başına 75 hasar alırlar.\\n\\nBu makine Menzil Eklentilerini destekler."]
 	quest.2782EA80C1C74EBD.quest_subtitle: "Aynı Zamanda Sonsuz Gateway Kırıcı"
 	quest.287B47E27EBC2C18.quest_desc: ["Büyü Fabrikası temelde otomatik bir Büyü Masasıdır. Ekipman/Kitaplar ve &aÖz&r sağlandığında, o eşyayı rastgele bir şeyle büyüler. Bu makine, eşyaları ve kitapları büyüleme potansiyelini artırmak için doğrudan üzerindeki tanklardan sıvı kullanabilir."]
-	quest.28B3591BFC0FA08B.quest_desc: ["Wither İnşa Edici, adından da anlaşılacağı üzere Wither inşa eder. ATM Star tarifi için Wither Pusulası yapımında kullanılır.\\n\\n&8Wither'ların makineyi patlatmasını önlemek için Wither İnşa Edici'ı wither geçirmez bir camla kaplamak isteyebilirsiniz."]
+	quest.28B3591BFC0FA08B.quest_desc: ["Wither İnşa Edici, adından da anlaşılacağı üzere Wither inşa eder. ATM Yıldızı tarifi için Wither Pusulası yapımında kullanılır.\\n\\n&8Wither'ların makineyi patlatmasını önlemek için Wither İnşa Edici'yi wither geçirmez bir camla kaplamak isteyebilirsiniz."]
 	quest.2CCFEE98FE3B2E97.quest_desc: ["Bu makineler blok koyma/kırma işlemlerini otomatikleştirmek için kullanılır. Bu, özellikle Lateks'i otomatikleştirirken çok kullanışlıdır."]
 	quest.2CCFEE98FE3B2E97.title: "Bloklar"
 	quest.2DC012EF21FB359E.quest_desc: ["Büyü Çıkarıcı, eşyalardan büyüleri otomatik olarak çıkarabilir. Büyünün bir Kitaba aktarılmasını sağlayabilir veya büyünün &aÖz&r'e dönüştürülmesini sağlayabilirsiniz."]
@@ -74,16 +74,16 @@
 	quest.4DB5DD6E20619B4D.quest_desc: ["Makineleri mevcuttan daha gelişmiş hale getirmek için kullanılır. 4 Eklenti aşaması ve özel olarak Menzil için 8 tane daha aşama vardır."]
 	quest.4F3EF1574F31A7E2.quest_desc: ["Durağanlık Odası canlıları etki alanında sabit tutar. Sabitlenen canlılar aynı zamanda makine tarafından iyileştirilir. Daha hızlı iyileşme için Menzil ve Hız Eklentileri ekleyebilirsiniz."]
 	quest.538186D01429F05F.quest_desc: [
-		"Bu görevde, &cİksir Demleyici&r'ı otomatikleştirmek için AE2 kullanmaya odaklanacağız. İlk olarak, şöyle bir düzenek kurun:"
+		"Bu görevde, &cİksir Demleyici'yi&r otomatikleştirmek için AE2 kullanmaya odaklanacağız. İlk olarak, şöyle bir düzenek kurun:"
 		"{image:atm:textures/questpics/industrialforegoing/potionbrewerdemonstration.png width:175 height:200 align:center}"
 		"(Yaratıcı Mod Enerji Hücresi, ana ağınız için temsilci görevi görür)"
 		"{@pagebreak}"
-		"&cİksir Demleyici&r'ı &1Su&r ve &6Blaze Powder&r ile doldurmak için bir &9ME Dışa Aktarma Veriyolu&r veya &9ME Arayüz&r'e ihtiyacımız olacak. &6Blaze Powder&r yakıt olarak kullanılacaktır. Cam şişeleri henüz sisteme vermeyin, aksi takdirde ağınız Su Şişeleri ile dolar."
+		"&cİksir Demleyici'yi&r &1Su&r ve &6Blaze Powder&r ile doldurmak için bir &9ME Dışa Aktarma Veriyolu&r veya &9ME Arayüz&r'e ihtiyacımız olacak. &6Blaze Powder&r yakıt olarak kullanılacaktır. Cam şişeleri henüz sisteme vermeyin, aksi takdirde ağınız Su Şişeleri ile dolar."
 		"{@pagebreak}"
 		"Bir sonraki adım bir &5Gelişmiş Desen Sağlayıcı&r elde etmek olacaktır. Nasıl kullanılacağı hakkında daha fazla bilgi edinmek için Extended \\& Advanced AE bölümüne göz atın. Ardından bir şablon kodlamamız gerekecek. Modular Bees için Royal Treats odaklı &4İyileştirme İksiri&r üretimi buna güzel bir örnektir. Şablonu şöyle ayarlayın: 3 &4İyileştirme İksiri&r üretmek için 3 Glass Bottle, 1 Nether Yumrusu ve 1 Glistering Melon Slice. Burada &5Gelişmiş Sağlayıcı&r'ın sunduğu iki özel yeteneği de kullanacağız. İlki, eşyaları belirli bir yöne iletme özelliğidir. Bunu Glass Bottle'ları makinenin ÜST tarafına aktarmak için kullanacağız. Şablonu oluşturmak üzere &5Gelişmiş Desen Kodlayıcı&r kullanın:"
 		"{image:atm:textures/questpics/industrialforegoing/advanced_pattern.png width:200 height:100 align:center}"
 		"{@pagebreak}"
-		"Ardından, &5Gelişmiş Sağlayıcı&r'da Filtreed Import'u etkinleştirmeliyiz. Bu, &5Gelişmiş Sağlayıcı&r'ın yalnızca o anda aktif olan üretim işleriyle eşleşen öğeleri kabul etmesini sağlayacaktır. Bu, iksirleri vaktinden önce kabul etmeyeceği anlamına gelir. Ayrıca, özellikle aynı sağlayıcıyı kullanabilecek kadar büyük üretim işlerinde buna yardımcı olması için İşleme Eklentileri da ekleyebilirsiniz.\\n\\nSon olarak, İksir Demleyici'ın yan yüzeylerini şu şekilde yapılandırmanız gerekecektir:"
+		"Ardından, &5Gelişmiş Sağlayıcı&r'da Filtered Import'u etkinleştirmeliyiz. Bu, &5Gelişmiş Sağlayıcı&r'ın yalnızca o anda aktif olan üretim işleriyle eşleşen öğeleri kabul etmesini sağlayacaktır. Bu, iksirleri vaktinden önce kabul etmeyeceği anlamına gelir. Ayrıca, özellikle aynı sağlayıcıyı kullanabilecek kadar büyük üretim işlerinde buna yardımcı olması için İşleme Eklentileri de ekleyebilirsiniz.\\n\\nSon olarak, İksir Demleyici'nin yan yüzeylerini şu şekilde yapılandırmanız gerekecektir:"
 		"{image:atm:textures/questpics/industrialforegoing/blaze_input.png width:125 height:100 align:center}"
 		"{image:atm:textures/questpics/industrialforegoing/bottle_input.png width:125 height:100 align:center}"
 		"{image:atm:textures/questpics/industrialforegoing/brewing_input.png width:125 height:100 align:center}"
