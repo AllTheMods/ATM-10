@@ -78,9 +78,9 @@
 		"{image:atm:textures/questpics/industrialforegoing/potionbrewerdemonstration.png width:175 height:200 align:center}"
 		"(Yaratıcı Mod Enerji Hücresi, ana ağınız için temsilci görevi görür)"
 		"{@pagebreak}"
-		"&cİksir Demleyici'yi&r &1Su&r ve &6Blaze Powder&r ile doldurmak için bir &9ME Dışa Aktarma Veriyolu&r veya &9ME Arayüz&r'e ihtiyacımız olacak. &6Blaze Powder&r yakıt olarak kullanılacaktır. Cam şişeleri henüz sisteme vermeyin, aksi takdirde ağınız Su Şişeleri ile dolar."
+		"&cİksir Demleyici'yi&r &1Su&r ve &6Blaze Tozu&r ile doldurmak için bir &9ME Dışa Aktarma Veriyolu&r veya &9ME Arayüz&r'e ihtiyacımız olacak. &6Blaze Tozu&r yakıt olarak kullanılacaktır. Cam şişeleri henüz sisteme vermeyin, aksi takdirde ağınız Su Şişeleri ile dolar."
 		"{@pagebreak}"
-		"Bir sonraki adım bir &5Gelişmiş Desen Sağlayıcı&r elde etmek olacaktır. Nasıl kullanılacağı hakkında daha fazla bilgi edinmek için Extended \\& Advanced AE bölümüne göz atın. Ardından bir şablon kodlamamız gerekecek. Modular Bees için Royal Treats odaklı &4İyileştirme İksiri&r üretimi buna güzel bir örnektir. Şablonu şöyle ayarlayın: 3 &4İyileştirme İksiri&r üretmek için 3 Glass Bottle, 1 Nether Yumrusu ve 1 Glistering Melon Slice. Burada &5Gelişmiş Sağlayıcı&r'ın sunduğu iki özel yeteneği de kullanacağız. İlki, eşyaları belirli bir yöne iletme özelliğidir. Bunu Glass Bottle'ları makinenin ÜST tarafına aktarmak için kullanacağız. Şablonu oluşturmak üzere &5Gelişmiş Desen Kodlayıcı&r kullanın:"
+		"Bir sonraki adım bir &5Gelişmiş Desen Sağlayıcı&r elde etmek olacaktır. Nasıl kullanılacağı hakkında daha fazla bilgi edinmek için Extended \\& Advanced AE bölümüne göz atın. Ardından bir şablon kodlamamız gerekecek. Modular Bees için Royal Treats odaklı &4İyileştirme İksiri&r üretimi buna güzel bir örnektir. Şablonu şöyle ayarlayın: 3 &4İyileştirme İksiri&r üretmek için 3 Cam Şişe, 1 Nether Yumrusu ve 1 Parlayan Karpuz Dilimi. Burada &5Gelişmiş Sağlayıcı&r'ın sunduğu iki özel yeteneği de kullanacağız. İlki, eşyaları belirli bir yöne iletme özelliğidir. Bunu Cam Şişeleri makinenin ÜST tarafına aktarmak için kullanacağız. Şablonu oluşturmak üzere &5Gelişmiş Desen Kodlayıcı&r kullanın:"
 		"{image:atm:textures/questpics/industrialforegoing/advanced_pattern.png width:200 height:100 align:center}"
 		"{@pagebreak}"
 		"Ardından, &5Gelişmiş Sağlayıcı&r'da Filtreli İçe Aktarmayı etkinleştirmeliyiz. Bu, &5Gelişmiş Sağlayıcı&r'ın yalnızca o anda aktif olan üretim işleriyle eşleşen öğeleri kabul etmesini sağlayacaktır. Bu, iksirleri vaktinden önce kabul etmeyeceği anlamına gelir. Ayrıca, özellikle aynı sağlayıcıyı kullanabilecek kadar büyük üretim işlerinde buna yardımcı olması için İşleme Eklentileri de ekleyebilirsiniz.\\n\\nSon olarak, İksir Demleyici'nin yan yüzeylerini şu şekilde yapılandırmanız gerekecektir:"
@@ -92,7 +92,7 @@
 		"{image:atm:textures/questpics/industrialforegoing/blaze_input_for_interface.png width:125 height:100 align:center}"
 		"{image:atm:textures/questpics/industrialforegoing/water_for_interface.png width:125 height:100 align:center}"
 		"{@pagebreak}"
-		"İsteğe bağlı olarak, &5Gelişmiş Sağlayıcı&r ile &cBrewer&r arasına bir Transfer Label yerleştirebilirsiniz.\\n\\nBu düzenekten hala kafanız karıştıysa veya bunun yerine bir video izlemeyi tercih ederseniz, ChosenArchitect'ten buraya bağladığım videoya göz atın:"
+		"İsteğe bağlı olarak, &5Gelişmiş Sağlayıcı&r ile &cİksir Demleyici&r arasına bir Transfer Label yerleştirebilirsiniz.\\n\\nBu düzenekten hala kafanız karıştıysa veya bunun yerine bir video izlemeyi tercih ederseniz, ChosenArchitect'ten buraya bağladığım videoya göz atın:"
 		"{\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://youtu.be/DOW4xkxqp6g?si=paZ2xFKyycPumqaS&t=427\"},\"color\":\"blue\",\"text\":\"VİDEO BAĞLANTISI BURADA\",\"underlined\":true} "
 	]
 	quest.538186D01429F05F.quest_subtitle: "AE2 Kullanımı"
@@ -124,7 +124,7 @@
 	quest.79D48F8F31B152C3.title: "&bIndustrial Foregoing &#27AEB9Ruhlar"
 	quest.7B4AF35313D7D779.quest_subtitle: "Kademe: &64"
 	quest.7B4AF35313D7D779.title: "&6Supreme Makine Kasası"
-	quest.7CB4D47ABC295B92.quest_desc: ["İksir üretir. Standart bir İksir Tezgahına benzer şekilde yakıt olarak Blaze Powder gerektirir ve şişeleri kullanır. Ancak bir İksir Tezgahından farklı olarak bu şişeleri otomatik olarak suyla doldurabilir.\n\nMakineye kısa bir genel bakış sunduğum diğer görevlerin aksine, bazı konularda bir hayli hantal ve kafa karıştırıcı olduğundan, bu makineyi otomatikleştirmek için başka bir görevde kurulum rehberi sağlayacağım."]
+	quest.7CB4D47ABC295B92.quest_desc: ["İksir üretir. Standart bir İksir Tezgâhına benzer şekilde yakıt olarak Blaze Tozu gerektirir ve şişeleri kullanır. Ancak bir İksir Tezgâhından farklı olarak bu şişeleri otomatik olarak suyla doldurabilir.\n\nMakineye kısa bir genel bakış sunduğum diğer görevlerin aksine, bazı konularda bir hayli hantal ve kafa karıştırıcı olduğundan, bu makineyi otomatikleştirmek için başka bir görevde kurulum rehberi sağlayacağım."]
 	quest.7E39FB9F3E973009.quest_subtitle: "Hayır, Mekanism Kimyasalı değil, Wither Sütü"
 	quest.7E39FB9F3E973009.title: "Eter Gazı"
 	quest.7EA218A489641684.quest_desc: ["&bIndustrial Foregoing&r geliştiricisi Buuz135 ruhların depolanabilir olmasını istememişti. Ancak mod geliştiricisi Ultramega bunu depolanabilir hale getirdi.\\n\\nİpucu: Dışa aktarıcının tüm ruhları Ruh Borusu'na dökmesini engellemek için Düzenleyici Yükseltmesi kullanın."]
