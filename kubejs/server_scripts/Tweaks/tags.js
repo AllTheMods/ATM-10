@@ -114,6 +114,13 @@ ServerEvents.tags('item', allthemods => {
 	"#alltheores:ore_hammers"
   ])
 
+  // No reliquified artifacts in accessories slots
+    allthemods.remove("accessories:belt", ["#artifacts:slot/belt"])
+    allthemods.remove("accessories:hand", ["#artifacts:slot/hands"])
+    allthemods.remove("accessories:hat", ["#artifacts:slot/head", "#artifacts:slot/face", "#artifacts:slot/all"])
+    allthemods.remove("accessories:necklace", ["#artifacts:slot/necklace"])
+    allthemods.remove("accessories:shoes", ["#artifacts:slot/feet"])
+
   // Overdrive
   allthemods.add("industrialization_overdrive:multi_processing_array_blacklist", [
     "modern_industrialization:auto_forge",
