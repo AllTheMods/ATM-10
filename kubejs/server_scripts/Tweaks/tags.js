@@ -131,12 +131,14 @@ ServerEvents.tags('item', allthemods => {
   
   // Trial Vault Repeatability for Iron's Spellbooks Boss Keys
   allthemods.add("repeatable_trial_vaults:can_reset_trial_vaults", [
-	"irons_spellbooks:decrepit_key",
-	"irons_spellbooks:bone_key"
-  ])
-  
-  allthemods.add("c:sandstone/venus_sandstone", ["ad_astra:venus_sandstone"])
-})
+    "irons_spellbooks:decrepit_key",
+    "irons_spellbooks:bone_key"
+  ]);
+
+  allthemods.remove("reliquified_artifacts:anglers_hat_valuables", ["#c:raw_materials"]);
+
+  allthemods.add("c:sandstone/venus_sandstone", ["ad_astra:venus_sandstone"]);
+});
 
 ServerEvents.tags('entity_type', allthemods => {
 
