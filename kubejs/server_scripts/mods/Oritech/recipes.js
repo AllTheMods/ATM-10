@@ -94,6 +94,26 @@
         // Cheaty alloys
         allthemods.remove({id: 'oritech:crafting/alloy/steel'})
         allthemods.remove({id: 'oritech:crafting/alloy/electrum'})
+
+		 // Alternate Tainted Refinery Recipe
+		allthemods.custom({
+		  "type": "oritech:particle_collision",
+		  "ingredients": [
+			{
+			  "item": "oritech:refinery_block"
+			},
+			{
+			  "item": "deeperdarker:soul_crystal"
+			}
+		  ],
+		  "results": [
+			{
+			  "count": 1,
+			  "id": "oritech:tainted_refinery_block"
+			}
+		  ],
+		  "time": 6000
+		})
 		
 		// Resolve conflict between Infused Alloy and Redstone Alloy
 		allthemods.custom({
