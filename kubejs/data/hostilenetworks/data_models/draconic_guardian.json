@@ -1,0 +1,44 @@
+{
+  "entity": "draconicevolution:draconic_guardian",
+  "variants": [],
+  "name": {
+    "translate": "entity.draconicevolution.draconic_guardian",
+    "color": "#CC00CC"
+  },
+  "display": {
+    "y_offset": 0.5,
+    "scale": 0.25
+  },
+  "sim_cost": 40960,
+  "input": {
+    "item": "hostilenetworks:prediction_matrix"
+  },
+  "base_drop": {
+    "id": "hostilenetworks:end_prediction",
+    "count": 1
+  },
+  "trivia": "hostilenetworks.trivia.draconic_guardian",
+  "fabricator_drops": [
+    {
+      "id": "draconicevolution:small_chaos_frag",
+      "count": 3
+    },
+    {
+      "id": "draconicevolution:dragon_heart",
+      "count": 1
+    }
+  ],
+  "data_gained": {
+    "faulty": 25,
+    "basic": 50,
+    "advanced": 75,
+    "superior": 100
+  },
+  "required_data": {
+    "faulty": 0,
+    "basic": 1,
+    "advanced": 100,
+    "superior": 500,
+    "self_aware": 1000
+  }
+}
