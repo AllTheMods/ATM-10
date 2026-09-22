@@ -114,6 +114,13 @@ ServerEvents.tags('item', allthemods => {
 	"#alltheores:ore_hammers"
   ])
 
+  // No reliquified artifacts in accessories slots
+    allthemods.remove("accessories:belt", ["#artifacts:slot/belt"])
+    allthemods.remove("accessories:hand", ["#artifacts:slot/hands"])
+    allthemods.remove("accessories:hat", ["#artifacts:slot/head", "#artifacts:slot/face", "#artifacts:slot/all"])
+    allthemods.remove("accessories:necklace", ["#artifacts:slot/necklace"])
+    allthemods.remove("accessories:shoes", ["#artifacts:slot/feet"])
+
   // Overdrive
   allthemods.add("industrialization_overdrive:multi_processing_array_blacklist", [
     "modern_industrialization:auto_forge",
@@ -124,12 +131,14 @@ ServerEvents.tags('item', allthemods => {
   
   // Trial Vault Repeatability for Iron's Spellbooks Boss Keys
   allthemods.add("repeatable_trial_vaults:can_reset_trial_vaults", [
-	"irons_spellbooks:decrepit_key",
-	"irons_spellbooks:bone_key"
-  ])
-  
-  allthemods.add("c:sandstone/venus_sandstone", ["ad_astra:venus_sandstone"])
-})
+    "irons_spellbooks:decrepit_key",
+    "irons_spellbooks:bone_key"
+  ]);
+
+  allthemods.remove("reliquified_artifacts:anglers_hat_valuables", ["#c:raw_materials"]);
+
+  allthemods.add("c:sandstone/venus_sandstone", ["ad_astra:venus_sandstone"]);
+});
 
 ServerEvents.tags('entity_type', allthemods => {
 
@@ -165,6 +174,7 @@ ServerEvents.tags('entity_type', allthemods => {
     
   allthemods.add('allthemods:jank_blacklist', [
     "@iceandfire",
+    '@shiny',
     'ars_nouveau:animated_block',
     'artifacts:mimic',
     'create:package',
@@ -194,6 +204,11 @@ ServerEvents.tags('entity_type', allthemods => {
   allthemods.add('ars_additions:source_spawner_denylist', '#allthemods:jank_blacklist')
   allthemods.add('oritech:spawner_blacklist', '#allthemods:jank_blacklist')
   allthemods.add('occultism:soul_shattered_deny_list', '#allthemods:jank_blacklist')  
+  
+  allthemods.add('neovitae:deny_imprisonment', [
+	"#c:capturing_not_supported",
+	"#apothic_spawners:blacklisted_from_spawners"
+  ])
 
 })
 
