@@ -261,14 +261,17 @@ KubeJSTweaks.beforeRecipes(event => {
       entry.renameKey("secondaryOutput", "secondary_output", false)
       entry.renameKey("secondaryChance", "secondary_chance", false)
       let ing = entry.json().get("input").remove("ingredient")
+      if (ing == null) return
       entry.json().add("input", ing)
     })
 
   event.getEntry(["mekanism:crushing/venus_sandstone_to_venus_sand", "mekanism:enriching/ice_shard_or_to_ice_shards"])
     .forEach(entry => {
       let ing = entry.json().get("input").remove("ingredient")
+      if (ing == null) return
       entry.json().add("input", ing)
       let input = entry.json().get("input")
+      if (input == null) return
       let tag = input.get("tag")
       if (tag != null) {
         if (tag.getAsString().startsWith("forge:")) {
