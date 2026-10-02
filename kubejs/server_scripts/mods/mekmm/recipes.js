@@ -10,10 +10,7 @@ ServerEvents.recipes(allthemods => {
     allthemods.remove({id: 'mekmm:ambient_gas_collector'})
 
     allthemods.remove({id: 'mekmm:enriching/enriched/carbon'})
-    allthemods.remove({id: 'mekmm:processing/silver/slurry/dirty/from_raw_block'})
-    allthemods.remove({id: 'mekmm:processing/silver/slurry/dirty/from_raw_ore'})
-    allthemods.remove({id: 'mekmm:processing/silver/slurry/dirty/from_ore'})
-    allthemods.remove({id: 'mekmm:processing/silver/slurry/clean'})
+    allthemods.remove({id: /mekmm:processing\/silver\/.*/})
 
     allthemods.remove({id: 'mekmm:reaction/empty_crystal'})
     allthemods.remove({id: 'mekmm:oxidizing/uu_matter'})
