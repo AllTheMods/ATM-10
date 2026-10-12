@@ -1,27 +1,43 @@
+[discord]
+	#Enable Discord Rich Presence
+	discord = true
+
 [packmode]
 	#ATM = 0 SLOP = 1 SKY = 2 MAGIC = 3 EXPERT = 4 GRAVITAS = 5 LITE = 6 AOA = 7 MON = 8
+	#Supplies the pack identity for anything left blank in the pack section
 	# Default: 0
 	# Range: 0 ~ 8
 	enable = 0
 
-[discord]
-	#Enable Discord Rich Prescence
-	discord = false
+[pack]
+	#Target of the CurseForge button on the Discord Rich Presence card
+	#Leave blank for no CurseForge button
+	curseforge_url = "https://www.curseforge.com/minecraft/modpacks/all-the-mods-10"
+	#Pack name shown in the window title and on the branding lines
+	#Leave blank to take it from the packmode profile
+	display_name = "All The Mods 10"
 
-[packversionmaj]
-	#Pack Release Version Format : X
-	# Default: 1
-	# Range: 0 ~ 32768
-	major = 1
+	[pack.discord]
+		#Asset key or image URL for the small corner icon on the card
+		#Leave blank for no corner icon
+		small_image = ""
+		#Lines shown instead of the plain menu line while the player sits in the menu
+		#One is picked at random and swapped for another every minute
+		#Leave empty to always show the plain menu line
+		idle_messages = ["Getting coffee", "Making a sandwich", "Reading the changelog", "Looking for the right button", "Doomscrolling"]
+		#Asset key or image URL for the main image on the card
+		#Leave blank to take it from the packmode profile
+		large_image = "atm10"
+		#Discord application the Rich Presence connects to
+		#Leave at 0 to take it from the packmode profile
+		# Default: 0
+		# Range: 0 ~ 9223372036854775807
+		application_id = 1252859134282432572
 
-[packversionmin]
-	#Pack Minor Version : X
-	# Default: 0
-	# Range: 0 ~ 32768
-	minor = 0
-
-[packversionminrev]
-	#Pack Minor Version Revision : X
-	# Default: 0
-	# Range: 0 ~ 32768
-	minorrev = 0
+	[pack.window]
+		#16x16 window icon, read from the allthetweaks folder next to this file
+		#Leave blank to use the bundled icon
+		icon_16 = ""
+		#32x32 window icon, read from the allthetweaks folder next to this file
+		#Leave blank to use the bundled icon
+		icon_32 = ""
