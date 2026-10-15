@@ -114,7 +114,7 @@ ServerEvents.tags('item', allthemods => {
 	"#alltheores:ore_hammers",
 	"sophisticatedstorage:packing_tape",
 	"sophisticatedstorage:super_packing_tape",
-	"ars_nouveau:dowsing_rod
+	"ars_nouveau:dowsing_rod"
   ])
 
   // No reliquified artifacts in accessories slots
