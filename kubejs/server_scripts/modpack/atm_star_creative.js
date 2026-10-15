@@ -162,6 +162,25 @@ ServerEvents.recipes(allthemods => {
                 F: 'ironjetpacks:jetpack[ironjetpacks:jetpack_id="ironjetpacks:unobtainium"]'
             }
         ).id('allthemods:ironjetpacks_creative_jetpack')
+		
+	//Hex Casting
+	
+	    allthemods.recipes.kubejs.shaped('hexcasting:creative_unlocker',
+		    [
+                'LMI',
+                'VAV',
+                'ICX'
+            ],
+            {
+                A: '#allthetweaks:atm_star',
+                L: 'allthehexcasting:lustral_allay',
+                I: 'allthehexcasting:indomitable_allay',
+                X: 'allthehexcasting:alembicated_allay',
+                M: 'hexcasting:amethyst_edified_leaves',
+                V: 'hexcasting:aventurine_edified_leaves',
+                C: 'hexcasting:citrine_edified_leaves'
+			}
+		).id('allthemods:hexcasting/creative_unlocker')
 
     //Mekanism
 

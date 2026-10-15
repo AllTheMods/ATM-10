@@ -1,0 +1,305 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hex_casting"
+	group: "02FE661031A105D8"
+	icon: {
+		id: "hexcasting:charged_amethyst"
+	}
+	id: "7FD94A26E97F0312"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2C2C6981D753E12D"
+			rewards: [
+				{
+					count: 4
+					id: "06E74A8279536D55"
+					item: {
+						count: 1
+						id: "hexcasting:charged_amethyst"
+					}
+					type: "item"
+				}
+				{
+					id: "5A9D4479FCAD5F68"
+					item: {
+						components: {
+							"patchouli:book": "hexcasting:thehexbook"
+						}
+						count: 1
+						id: "patchouli:guide_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "hexcasting:root"
+				criterion: ""
+				icon: {
+					id: "minecraft:amethyst_shard"
+				}
+				id: "0C2F0D0B3305018D"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17AA9C2923FD8901"]
+			id: "272396C4931446C9"
+			rewards: [{
+				count: 2
+				id: "55BA6339E170A105"
+				item: {
+					count: 1
+					id: "hexcasting:charged_amethyst"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "33C56F9C3336F610"
+				item: { count: 1, id: "hexcasting:focus" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2C2C6981D753E12D"]
+			id: "17AA9C2923FD8901"
+			rewards: [{
+				id: "5354D6C49ADCA95E"
+				item: {
+					count: 1
+					id: "hexcasting:charged_amethyst"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "42E8189501FAB7D1"
+				item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(hexcasting:staves)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["17AA9C2923FD8901"]
+			id: "5B4D6082DEE8D5FA"
+			tasks: [{
+				id: "316A8AE9FA54BC1C"
+				item: { components: { "ftbfiltersystem:filter": "or(component(fuzzy:{\"hexcasting:op_id\":\"hexcasting:brainsweep\"})component(fuzzy:{\"hexcasting:op_id\":\"hexcasting:craft/battery\"})component(fuzzy:{\"hexcasting:op_id\":\"hexcasting:create_lava\"})component(fuzzy:{\"hexcasting:op_id\":\"hexcasting:dispel_rain\"})component(fuzzy:{\"hexcasting:op_id\":\"hexcasting:flight\"})component(fuzzy:{\"hexcasting:op_id\":\"hexcasting:lightning\"})component(fuzzy:{\"hexcasting:op_id\":\"hexcasting:potion/absorption\"})component(fuzzy:{\"hexcasting:op_id\":\"hexcasting:potion/haste\"})component(fuzzy:{\"hexcasting:op_id\":\"hexcasting:potion/night_vision\"})component(fuzzy:{\"hexcasting:op_id\":\"hexcasting:potion/regeneration\"})component(fuzzy:{\"hexcasting:op_id\":\"hexcasting:potion/strength\"})component(fuzzy:{\"hexcasting:op_id\":\"hexcasting:sentinel/create/great\"})component(fuzzy:{\"hexcasting:op_id\":\"hexcasting:summon_rain\"})component(fuzzy:{\"hexcasting:op_id\":\"hexcasting:teleport/great\"}))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5B4D6082DEE8D5FA"]
+			id: "125781B02E962C64"
+			tasks: [{
+				advancement: "hexcasting:y_u_no_cast_angy"
+				criterion: ""
+				id: "7920A132CBC0494E"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["125781B02E962C64"]
+			id: "101043287981CA62"
+			size: 2.0d
+			tasks: [{
+				advancement: "hexcasting:enlightenment"
+				criterion: ""
+				id: "3E4D5706E4382EC8"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2C2C6981D753E12D"]
+			id: "287D19A473FD946A"
+			tasks: [{
+				id: "3B547B6266B45B5B"
+				item: { count: 1, id: "hexcasting:amethyst_sconce" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["101043287981CA62"]
+			id: "7D5C55122ABF2B64"
+			tasks: [{
+				id: "2386CF23A12B7C34"
+				item: { count: 1, id: "hexcasting:quenched_allay_shard" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7D5C55122ABF2B64"]
+			id: "598C7370CB398651"
+			tasks: [{
+				id: "0325A5FC6B111D79"
+				item: { count: 1, id: "hexcasting:quenched_allay" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["101043287981CA62"]
+			id: "05F9B13D60145000"
+			tasks: [{
+				id: "4A57D83D7F72B421"
+				item: { components: { "ftbfiltersystem:filter": "item(hexcasting:battery)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["598C7370CB398651"]
+			id: "73658E216F5674FF"
+			tasks: [{
+				id: "3C33EC2BA0221123"
+				item: { count: 1, id: "allthehexcasting:lustral_allay" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["73658E216F5674FF"]
+			id: "302FCA86513D13A9"
+			tasks: [{
+				id: "1DE84C48C0ACC7D4"
+				item: { count: 1, id: "allthehexcasting:indomitable_allay" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["302FCA86513D13A9"]
+			id: "4DC6D5942BBD179D"
+			tasks: [{
+				id: "1262E99FF469E1FD"
+				item: { count: 1, id: "allthehexcasting:alembicated_allay" }
+				type: "item"
+			}]
+			x: 10.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4DC6D5942BBD179D"]
+			id: "6DAF117D1A7BBA22"
+			size: 2.0d
+			tasks: [{
+				id: "7D584F4E041A61D6"
+				item: { count: 1, id: "hexcasting:creative_unlocker" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["101043287981CA62"]
+			id: "06EC4C5F3C9B8B2F"
+			rewards: [{
+				count: 16
+				id: "5D57A6F38D36BD5D"
+				item: {
+					count: 1
+					id: "hexcasting:slate"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5991F86BB92BBE9E"
+				item: { components: { "ftbfiltersystem:filter": "item_tag(hexcasting:impeti)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["4DC6D5942BBD179D"]
+			id: "4C7364B6B9C66DD2"
+			rewards: [{
+				count: 4
+				id: "38C0FD30B109DA5C"
+				item: {
+					count: 1
+					id: "hexcasting:akashic_bookshelf"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "526D4362BCF57FF3"
+					item: { count: 1, id: "hexcasting:akashic_record" }
+					type: "item"
+				}
+				{
+					id: "756A2E2786A4C0A4"
+					item: { count: 1, id: "hexcasting:akashic_bookshelf" }
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["272396C4931446C9"]
+			id: "1E72A022E553D217"
+			tasks: [{
+				id: "5387BBACD748FCC4"
+				item: { count: 1, id: "hexcasting:spellbook" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["101043287981CA62"]
+			id: "65FCDF5AA251D637"
+			tasks: [{
+				id: "03F249D8CC77842A"
+				item: { count: 1, id: "hexcasting:artifact" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["16170AE0456AD85C"]
+			id: "371EF1A8ACC46ADA"
+			tasks: [{
+				id: "398D917052DBB9E8"
+				item: { count: 1, id: "allthehexcasting:allthemodium_lens" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["17AA9C2923FD8901"]
+			id: "16170AE0456AD85C"
+			tasks: [{
+				id: "3DBC34F43274445F"
+				item: { count: 1, id: "hexcasting:lens" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+	]
+}
