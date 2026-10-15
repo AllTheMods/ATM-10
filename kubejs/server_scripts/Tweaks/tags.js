@@ -111,7 +111,10 @@ ServerEvents.tags('item', allthemods => {
     "modern_industrialization:steel_hammer",
     "modern_industrialization:netherite_hammer",
     "modern_industrialization:diamond_hammer",
-	"#alltheores:ore_hammers"
+	"#alltheores:ore_hammers",
+	"sophisticatedstorage:packing_tape",
+	"sophisticatedstorage:super_packing_tape",
+	"ars_nouveau:dowsing_rod
   ])
 
   // No reliquified artifacts in accessories slots
