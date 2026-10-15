@@ -11,7 +11,7 @@ dingDongSound = "entity.experience_orb.pickup"
 #Enable log supressor
 logSuppressorEnabled = true
 #A list of word sequences that if a log message starts with will be stopped.
-logSuppressorStartsWithMessages = ["Encountered unknown"]
+logSuppressorStartsWithMessages = ["Encountered unknown", "Could not equip item "]
 #A list of word sequences that if a log message ends with will be stopped.
 logSuppressorEndsWithMessages = []
 #A list of word sequences that if contained in a log message will be stopped.
