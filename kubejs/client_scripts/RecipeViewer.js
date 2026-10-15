@@ -99,6 +99,7 @@ RecipeViewerEvents.removeEntries('item', allthemods => {
         "ae2:creative_storage_cell",
         "mysticalagriculture:creative_soulium_dagger",
         "modularrouters:creative_module",
+        "modern_industrialization:replicator",
         "modern_industrialization:creative_tank",
         "modern_industrialization:creative_storage_unit",
         "pneumaticcraft:creative_upgrade",
