@@ -226,6 +226,60 @@ ServerEvents.recipes(allthemods => {
     //addInfustion('mysticalagriculture:silicon_seeds', 'ae2:silicon', 'mysticalagriculture:prudentium_essence')
     //addInfustion('mysticalagriculture:steel_seeds', 'alltheores:steel_ingot', 'mysticalagriculture:imperium_essence')
 
+     /*
+    Sometimes a combination of mods, like Astral Sorcery and Apothic enchanting, add NBT data to items. 
+    Mystical Agriculture uses rather strict NBT recipes, so your soul jars receiving these NBT tags suddenly make it so the recipe stops working.
+    This removes the strict NBT recipes and readds them while just keeping track of the actual required NBT for the recipe.
+    */
+    function replaceSoulInfusion(essence, soulType, soulQty) { // example: replaceSoulInfusion('tertium', 'rabbit', 6)
+        //remove recipe of 'soul_type'
+        allthemods.remove({id: `mysticalagriculture:seed/infusion/${soulType}`})
+
+        //create an ingredient with NBT data: {Souls: ... , Type: ...} with souls being a string that represents a double
+        let soulJar = Ingredient.of(`mysticalagriculture:soul_jar[mysticalagriculture:soul_jar={souls:${soulQty}.0d,type:"mysticalagriculture:${soulType}"}]`)        
+        essence = `mysticalagriculture:${essence}_essence` // convert essence into full modded item name for essence
+        let seed = `mysticalagriculture:${soulType}_seeds` // convert soulType into full modded item name for seed
+
+        //atm custom infusion recipe that mimics the real Mystical Agriculture recipe
+        allthemods.custom({
+                type: 'mysticalagriculture:infusion',
+                input: { item: 'mysticalagriculture:soulium_seed_base' },
+                ingredients: [
+                    soulJar,
+                    { item: essence },
+                    soulJar,
+                    { item: essence },
+                    soulJar,
+                    { item: essence },
+                    soulJar,
+                    { item: essence }
+                ],
+                result: { id: seed }
+            }).id(seed.replace(':', ':infusion/'))
+    }
+
+    //iterate for every soul jar based seed... not sure if there's an easier way, the KubeJS wiki is unfinished...
+    replaceSoulInfusion('tertium', 'rabbit', 6)
+    replaceSoulInfusion('imperium', 'enderman', 8)
+    replaceSoulInfusion('tertium', 'phantom', 6)
+    replaceSoulInfusion('imperium', 'breeze', 4)
+    replaceSoulInfusion('prudentium', 'pig', 8)
+    replaceSoulInfusion('prudentium', 'chicken', 8)
+    replaceSoulInfusion('prudentium', 'slime', 12)
+    replaceSoulInfusion('prudentium', 'cow', 8)
+    replaceSoulInfusion('prudentium', 'squid', 6)
+    replaceSoulInfusion('prudentium', 'sheep', 8)
+    replaceSoulInfusion('prudentium', 'armadillo', 6)
+    replaceSoulInfusion('supremium', 'wither_skeleton', 8)
+    replaceSoulInfusion('tertium', 'spider', 10)
+    replaceSoulInfusion('tertium', 'skeleton', 10)
+    replaceSoulInfusion('prudentium', 'fish', 6)
+    replaceSoulInfusion('tertium', 'zombie', 10)
+    replaceSoulInfusion('prudentium', 'turtle', 6)
+    replaceSoulInfusion('tertium', 'creeper', 10)
+    replaceSoulInfusion('imperium', 'blaze', 10)
+    replaceSoulInfusion('imperium', 'ghast', 4)
+
     allthemods.custom(
         {
             type: "mysticalagriculture:soul_extraction",
