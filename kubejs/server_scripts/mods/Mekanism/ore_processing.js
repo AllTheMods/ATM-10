@@ -125,6 +125,14 @@ ServerEvents.recipes(allthemods => {
             }
         ).id(id)
     }
+  allthemods.remove({ id: `mekmm:processing/silver/slurry/dirty/from_raw_block`})
+  allthemods.remove({ id: `mekmm:processing/silver/slurry/dirty/from_raw_ore`})
+  allthemods.remove({ id: `mekmm:processing/silver/slurry/dirty/from_ore`})
+  allthemods.remove({ id: `mekmm:processing/silver/slurry/clean`})
+  allthemods.remove({ id: `mekmm:processing/silver/crystal/from_slurry`})
+  allthemods.remove({ id: `mekmm:processing/silver/shard/from_crystal`})
+  allthemods.remove({ id: `mekmm:processing/silver/dirty_dust/from_clump`})
+  allthemods.remove({ id: `mekmm:processing/silver/dust/from_dirty_dust`})
   allthemods.remove({ id: `xycraft_machines:compat/mek/processing/aluminum/slurry/dirty/from_raw_block`})
   allthemods.remove({ id: `xycraft_machines:compat/mek/processing/aluminum/slurry/dirty/from_raw_ore`})
   allthemods.remove({ id: `xycraft_machines:compat/mek/processing/aluminum/slurry/dirty/from_ore`})
