@@ -1,0 +1,74 @@
+{
+    "tooltip.solcarrot.hearty.not_eaten": "Ainda não comido! Qual será o gosto?",
+    "tooltip.solcarrot.hearty.eaten": "Comido: Ajudou a adicionar corações",
+    "tooltip.solcarrot.cheap.eaten": "Comido: Sem efeito perceptível",
+    "tooltip.solcarrot.cheap": "Este alimento não é nutritivo o bastante para melhorar sua vida.",
+    "tooltip.solcarrot.disabled.blacklist": "Este alimento está na lista-negra e portanto não pode melhorar sua vida.",
+    "tooltip.solcarrot.disabled.whitelist": "Este alimento não está na lista-branca e portanto não pode melhorar sua vida.",
+    "tooltip.solcarrot.disabled.eaten": "Comido: Sem efeito perceptível",
+
+    "command.solcarrot.foodlist.no_permissions": "Você não tem as permissões necessárias para aplicar este comando a outros jogadores!",
+
+    "command.solcarrot.foodlist.size.desc.foods_eaten.singular": "Você comeu um alimento único!",
+    "command.solcarrot.foodlist.size.desc.foods_eaten.plural": "Você comeu %s alimentos únicos!",
+    "command.solcarrot.foodlist.size.desc.milestone.max": "Infelizmente você não pode ganhar mais vida experimentando novos alimentos.",
+    "command.solcarrot.foodlist.size.desc.milestone.more": "Você precisa de mais %s para aumentar sua vida máxima.",
+
+    "command.solcarrot.foodlist.clear.success": "Lista de alimentos reiniciada!",
+
+    "command.solcarrot.foodlist.sync.success": "Lista de alimentos sincronizada!",
+
+    "message.solcarrot.chat_wrapper": "[SoL: Carrot] %s",
+    "message.solcarrot.hearts.singular": "um coração",
+    "message.solcarrot.hearts.plural": "%s corações",
+    "message.solcarrot.milestone_achieved": "Que sabor único! Você ganhou %s!",
+    "message.solcarrot.finished.chat": "Seu desejo de buscar alimentos únicos finalmente está satisfeito.",
+    "message.solcarrot.finished.hotbar": "Você ganhou %s. Seu desejo de buscar alimentos únicos finalmente está satisfeito.",
+
+    "item.solcarrot.food_book": "Livro de Alimentos",
+
+    "gui.solcarrot.food_book.stats": "Visão Geral",
+    "gui.solcarrot.food_book.eaten_foods": "Já Experimentados: %s",
+    "gui.solcarrot.food_book.uneaten_foods": "Ainda Não Experimentados: %s",
+    "gui.solcarrot.food_book.config": "Configuração",
+
+    "gui.solcarrot.food_book.fraction": "%1$s/%2$s",
+
+    "gui.solcarrot.food_book.stats.foods_tasted": "Alimentos Experimentados",
+    "gui.solcarrot.food_book.stats.hearts_gained": "Corações Ganhos",
+    "gui.solcarrot.food_book.stats.tooltip.progress": "Faltam %s para o Próximo Marco",
+    "gui.solcarrot.food_book.stats.tooltip.progress.max": "Marco Mais Alto Alcançado!",
+    "gui.solcarrot.food_book.stats.tooltip.previous_milestone": "Último Marco: %s",
+    "gui.solcarrot.food_book.stats.tooltip.next_milestone": "Próximo Marco: %s",
+    "gui.solcarrot.food_book.stats.tooltip.total_foods": "%s Alimentos no Total",
+    "gui.solcarrot.food_book.stats.tooltip.foods_tasted": "Alimentos Experimentados: %s",
+    "gui.solcarrot.food_book.stats.tooltip.hearts_per_milestone.singular": "1 Coração por Marco",
+    "gui.solcarrot.food_book.stats.tooltip.hearts_per_milestone.plural": "%s Corações por Marco",
+
+    "gui.solcarrot.food_book.config.minimum_food_value": "Valor Mínimo de Alimento",
+    "gui.solcarrot.food_book.config.tooltip.minimum_food_value": "O valor mínimo de fome que os alimentos precisam fornecer para contar nos marcos.",
+    "gui.solcarrot.food_book.config.hearty_fraction": "Alimentos Nutritivos",
+    "gui.solcarrot.food_book.config.tooltip.hearty_fraction": "De %1$s alimentos, %2$s são nutritivos o bastante para melhorar sua vida.",
+    "gui.solcarrot.food_book.config.eaten_cheap_foods": "Alimentos Sem Graça Experimentados",
+    "gui.solcarrot.food_book.config.tooltip.eaten_cheap_foods": "Dos %1$s alimentos que não são nutritivos o bastante para melhorar sua vida, você comeu %2$s.",
+    "gui.solcarrot.food_book.config.blacklist": "Alimentos na Lista-negra",
+    "gui.solcarrot.food_book.config.whitelist": "Alimentos na Lista-branca",
+    "gui.solcarrot.food_book.config.tooltip.blacklist": "Quantos alimentos foram desativados pela lista-negra.",
+    "gui.solcarrot.food_book.config.tooltip.whitelist": "Quantos alimentos a lista-branca permite.",
+
+    "config.solcarrot.base_hearts": "Corações Base",
+    "config.solcarrot.hearts_per_milestone": "Corações por Marco",
+    "config.solcarrot.milestones": "Marcos",
+    "config.solcarrot.is_food_tooltip_enabled": "Ativar Tooltip de Alimento",
+    "config.solcarrot.should_show_progress_above_hotbar": "Mostrar Progresso Acima da Barra Rápida",
+    "config.solcarrot.should_show_uneaten_foods": "Mostrar Alimentos Não Comidos",
+    "config.solcarrot.should_play_milestone_sounds": "Ativar Sons de Marco",
+    "config.solcarrot.should_spawn_intermediate_particles": "Ativar Partículas Intermediárias",
+    "config.solcarrot.should_spawn_milestone_particles": "Ativar Partículas de Marco",
+    "config.solcarrot.food_blacklist": "Lista-negra",
+    "config.solcarrot.food_whitelist": "Lista-branca (desativa a lista-negra)",
+    "config.solcarrot.minimum_food_value": "Valor Mínimo de Alimento",
+    "config.solcarrot.reset_on_death": "Reiniciar ao Morrer",
+
+    "solcarrot.networking.food_list_message.failed": "Falha ao sincronizar a lista de alimentos! %s"
+}

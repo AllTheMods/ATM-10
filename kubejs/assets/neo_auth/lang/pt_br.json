@@ -1,0 +1,54 @@
+{
+    "gui.neo_auth.button.auth": "Autenticação",
+    "gui.neo_auth.button.auth.tooltip": "Olá, %s!",
+    "gui.neo_auth.button.relogin": "Refazer Login",
+
+    "gui.neo_auth.error.generic": "Algo deu errado! Volte e tente novamente.",
+    "gui.neo_auth.error.notPurchased": "A conta não comprou o Minecraft!",
+    "gui.neo_auth.error.timeout": "Tempo esgotado! Volte e tente novamente.",
+
+    "gui.neo_auth.toast.greeting": "Olá, %s!",
+
+    "gui.neo_auth.method.title": "Escolha um método de login",
+    "gui.neo_auth.method.greeting": "Olá, %s!",
+    "gui.neo_auth.method.button.microsoft": "Microsoft",
+    "gui.neo_auth.method.button.microsoft.selectAccount": "Ctrl + clique para escolher a conta",
+    "gui.neo_auth.method.button.mojang": "Mojang (ou legado)",
+    "gui.neo_auth.method.button.mojang.unavailable": "Indisponível, clique para saber mais",
+    "gui.neo_auth.method.button.offline": "Offline",
+
+    "gui.neo_auth.microsoft.title": "Entrar via Microsoft",
+    "gui.neo_auth.microsoft.browser": "Agora você pode fechar esta janela e voltar ao Minecraft!",
+    "gui.neo_auth.microsoft.status.checkBrowser": "Verifique seu navegador...",
+    "gui.neo_auth.microsoft.status.linkCopied": "Link copiado para a área de transferência! Abra-o no seu navegador.",
+    "gui.neo_auth.microsoft.status.msAccessToken": "Obtendo token de acesso da Microsoft...",
+    "gui.neo_auth.microsoft.status.xboxAccessToken": "Obtendo token de acesso do Xbox...",
+    "gui.neo_auth.microsoft.status.xboxXstsToken": "Obtendo token XSTS do Xbox...",
+    "gui.neo_auth.microsoft.status.mcAccessToken": "Obtendo token de acesso do Minecraft...",
+    "gui.neo_auth.microsoft.status.mcProfile": "Buscando seu perfil do Minecraft...",
+    "gui.neo_auth.microsoft.warning.title": "Aviso! Opções não padrão para autenticação Microsoft",
+    "gui.neo_auth.microsoft.warning.body": "Se você não fez esta alteração, isso pode vazar o token da sua conta. Deseja continuar mesmo assim?",
+    "gui.neo_auth.microsoft.warning.accept": "Eu sei o que estou fazendo",
+    "gui.neo_auth.microsoft.warning.cancel": "Voltar para a segurança",
+    "gui.neo_auth.microsoft.button.copyLink": "Copiar o link para a área de transferência",
+    "gui.neo_auth.microsoft.button.copyLink.tooltip": "Use isto se o link não abrir automaticamente.",
+
+    "gui.neo_auth.mojang.title": "Entrar via Mojang (Legado)",
+
+    "neo_auth.configuration.title": "Config do NeoAuth",
+    "neo_auth.configuration.buttons": "Botão de Autenticação",
+    "neo_auth.configuration.xPos": "Coordenada X",
+    "neo_auth.configuration.yPos": "Coordenada Y",
+    "neo_auth.configuration.draggable": "Pode Arrastar?",
+
+    "neo_auth.configuration.microsoft": "Microsoft",
+    "neo_auth.configuration.authorizeUrl": "URL de Autorização OAuth2",
+    "neo_auth.configuration.xboxXstsUrl": "URL de Autorização XSTS do Xbox",
+    "neo_auth.configuration.clientId": "ID de Cliente OAuth2",
+    "neo_auth.configuration.tokenUrl": "URL de Token de Acesso OAuth2",
+    "neo_auth.configuration.xboxAuthUrl": "URL de Autenticação do Xbox",
+    "neo_auth.configuration.prompt": "Prompt de Interação",
+    "neo_auth.configuration.mcAuthUrl": "URL de Autenticação do Minecraft",
+    "neo_auth.configuration.port": "Porta de URL de Retorno OAuth2",
+    "neo_auth.configuration.mcProfileUrl": "URL de Perfil do Minecraft"
+}
