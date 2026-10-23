@@ -25,12 +25,12 @@
     "attribute.name.generic.luck.desc": "Aumenta a probabilidade de coisas boas acontecerem.",
     "attribute.name.generic.max_health.desc": "Quantos pontos de vida você pode ter.",
     "attribute.name.generic.movement_speed.desc": "Velocidade de movimento ao caminhar.",
+    "attribute.name.player.entity_interaction_range.desc": "A que distância você pode interagir com entidades, em blocos.",
+    "attribute.name.generic.gravity.desc": "Aceleração em direção ao chão, em blocos/s²",
 
-    "neoforge.entity_reach.desc": "A que distância você pode interagir com entidades, em blocos.",
-    "neoforge.entity_gravity.desc": "Aceleração em direção ao chão, em blocos/s².",
     "neoforge.name_tag_distance.desc": "A que distância outro jogador deve estar para ver seu nome.",
-    "neoforge.block_reach.desc": "A que distância você pode interagir com blocos, em blocos.",
-    "neoforge.step_height.desc": "Quantos blocos você pode subir sem pular.",
+    "attribute.name.player.block_interaction_range.desc": "A que distância você pode interagir com blocos, em blocos.",
+    "attribute.name.generic.step_height.desc": "Quantos blocos você pode subir sem pular.",
     "neoforge.swim_speed.desc": "A velocidade com que você nada, em relação ao normal.",
 
     "button.apothic_attributes.hide_unchanged": "Ocultar Atributos Inalterados",
@@ -97,7 +97,7 @@
     "apothic_attributes:dodge_chance.desc": "Chance de se esquivar de um ataque corpo a corpo ou de um projétil.",
 
     "apothic_attributes:elytra_flight": "Voo com Élitro",
-    "apothic_attributes:elytra_flight.desc": "Se você pode voar como se estivesse usando Elitros.",
+    "apothic_attributes:elytra_flight.desc": "Se você pode voar como se estivesse usando élitros.",
 
     "apothic_attributes:creative_flight": "Voo Criativo",
     "apothic_attributes:creative_flight.desc": "Se você pode voar como se estivesse no Modo Criativo.",
@@ -134,7 +134,6 @@
     "effect.minecraft.poison.desc": "Inflige periodicamente dano não letal.",
     "effect.minecraft.regeneration.desc": "Faz com que você regenere vida ao longo do tempo.",
 
-    "comment_id": "Damage Sources",
 
     "death.attack.apothic_attributes:bleeding": "%1$s sangrou até morrer",
     "death.attack.apothic_attributes:bleeding.item": "%1$s sangrou até morrer devido a %3$s de %2$s",
@@ -183,13 +182,13 @@
 
     "item.minecraft.potion.effect.minecraft.levitation": "Poção de Levitação",
     "item.minecraft.splash_potion.effect.minecraft.levitation": "Poção Arremessável de Levitação",
-    "item.minecraft.lingering_potion.effect.minecraft.levitation": "Poção Persistente de Levitação",
+    "item.minecraft.lingering_potion.effect.minecraft.levitation": "Poção Prolongada de Levitação",
     "item.minecraft.tipped_arrow.effect.minecraft.levitation": "Flecha de Levitação",
 
-    "item.minecraft.potion.effect.apothic_attributes.sundering": "Poção Ruptura",
-    "item.minecraft.splash_potion.effect.apothic_attributes.sundering": "Poção Arremessável Ruptura",
-    "item.minecraft.lingering_potion.effect.apothic_attributes.sundering": "Poção Persistente Ruptura",
-    "item.minecraft.tipped_arrow.effect.apothic_attributes.sundering": "Flecha Ruptura",
+    "item.minecraft.potion.effect.apothic_attributes.sundering": "Poção de Ruptura",
+    "item.minecraft.splash_potion.effect.apothic_attributes.sundering": "Poção Arremessável de Ruptura",
+    "item.minecraft.lingering_potion.effect.apothic_attributes.sundering": "Poção Prolongada de Ruptura",
+    "item.minecraft.tipped_arrow.effect.apothic_attributes.sundering": "Flecha de Ruptura",
 
     "item.minecraft.potion.effect.apothic_attributes.knowledge": "Poção do Conhecimento das Eras",
     "item.minecraft.splash_potion.effect.apothic_attributes.knowledge": "Poção Arremessável do Conhecimento das Eras",

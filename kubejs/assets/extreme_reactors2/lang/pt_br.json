@@ -1,6 +1,6 @@
 {
-    "_comment": "Extreme Reactors 2 Language File - Portuguese (Brazil)",
-    "_comment": "@author SAMUELPV, PrincessStellar",
+    "_comment": "Extreme Reactors 2 Language File - English",
+    "_comment": "@author Erogenous Beef, ZeroNoRyouki, ABookFreak",
     "_comment": "-- please don't translate the _comment lines ! --",
 
     "itemGroup.bigreactors.general": "Extreme Reactors",
@@ -47,7 +47,7 @@
     "item.bigreactors.benitoite_crystal": "Benitoíta (BaTiSi3O9)",
 
     "_comment": "Items - miscellanea",
-    "item.bigreactors.wrench": "Chave Inglesa Extrema",
+    "item.bigreactors.wrench": "Chave-Inglesa Extrema",
     "item.bigreactors.steam_bucket": "Balde de Vapor",
     "item.bigreactors.yellorium_bucket": "Balde de Yellório",
     "item.bigreactors.cyanite_bucket": "Balde de Cianita",
@@ -272,7 +272,7 @@
     "gui.bigreactors.reactor.controller.coolantbar.tooltip.value2a": "  @1",
     "gui.bigreactors.reactor.controller.coolantbar.tooltip.value2b": " / @2",
     "gui.bigreactors.reactor.controller.coolantbar.tooltip.value3a": "  @3",
-    "gui.bigreactors.reactor.controller.coolantbar.tooltip.value3b": "% cheio",
+    "gui.bigreactors.reactor.controller.coolantbar.tooltip.value3b": "% full (cheio)",
     "gui.bigreactors.reactor.controller.coolantbar.tooltip.body": "O calor do revestimento superaquecerá o refrigerante neste tanque e gerará vapor.",
 
     "gui.bigreactors.reactor.controller.vaporbar.tooltip.title": "Tanque de Fluido de Vapor",
@@ -280,7 +280,7 @@
     "gui.bigreactors.reactor.controller.vaporbar.tooltip.value2a": "  @1",
     "gui.bigreactors.reactor.controller.vaporbar.tooltip.value2b": " / @2",
     "gui.bigreactors.reactor.controller.vaporbar.tooltip.value3a": "  @3",
-    "gui.bigreactors.reactor.controller.vaporbar.tooltip.value3b": "% cheio",
+    "gui.bigreactors.reactor.controller.vaporbar.tooltip.value3b": "% full (cheio)",
     "gui.bigreactors.reactor.controller.vaporbar.tooltip.body": "O refrigerante superaquecido será bombeado para este tanque e deve ser extraído usando Portas de Fluido.",
 
     "gui.bigreactors.reactor.controller.vaporratio.tooltip.title": "Saída de Vapor",
@@ -309,10 +309,10 @@
     "gui.bigreactors.reactor.solidaccessport.directionoutput.tooltip.body": "Define a porta de acesso para o modo de saída.",
 
     "gui.bigreactors.reactor.solidaccessport.dumpfuel.tooltip.title": "Ejetar Combustível",
-    "gui.bigreactors.reactor.solidaccessport.dumpfuel.tooltip.body": "Ejeta o combustível contido no Reator, colocando as barras nas portas de acesso sólido do Reator.",
+    "gui.bigreactors.reactor.solidaccessport.dumpfuel.tooltip.body": "Ejeta o combustível contido no Reator, colocando os lingotes nas portas de acesso sólido do Reator.",
 
     "gui.bigreactors.reactor.solidaccessport.dumpwaste.tooltip.title": "Ejetar Resíduo",
-    "gui.bigreactors.reactor.solidaccessport.dumpwaste.tooltip.body": "Ejeta os resíduos contidos no Reator, colocando as barras nas portas de acesso sólido do Reator.",
+    "gui.bigreactors.reactor.solidaccessport.dumpwaste.tooltip.body": "Ejeta os resíduos contidos no Reator, colocando os lingotes nas portas de acesso sólido do Reator.",
 
     "gui.bigreactors.reactor.fluidaccessport.directioninput.tooltip.title": "Modo de Entrada",
     "gui.bigreactors.reactor.fluidaccessport.directioninput.tooltip.body": "Define a porta de injeção para o modo de entrada.",
@@ -453,7 +453,7 @@
     "gui.bigreactors.turbine.redstoneport.sensortype.inputflowregulator.whileon.label": "Com sinal:",
     "gui.bigreactors.turbine.redstoneport.sensortype.inputflowregulator.whileoff.label": "Sem sinal:",
     "gui.bigreactors.turbine.redstoneport.sensortype.inputflowregulator.setto.label": "Definir para:",
-    "gui.bigreactors.turbine.redstoneport.sensortype.inputflowregulator.settolevel.label": "Definir a taxa de fluxo com base na força do sinal (0 = 0% e 15 = 100%)",
+    "gui.bigreactors.turbine.redstoneport.sensortype.inputflowregulator.settolevel.label": "Definir a taxa de fluxo com base na força do sinal (0 = 0% até 15 = 100%)",
     "gui.bigreactors.turbine.redstoneport.sensortype.inputflowregulator.insertby.label": "Inserir por:",
     "gui.bigreactors.turbine.redstoneport.sensortype.inputflowregulator.retractby.label": "Retrair por:",
 
@@ -518,7 +518,7 @@
     "gui.bigreactors.energizer.powerport.directionoutput.tooltip.body": "Define esta Porta de Energia para o modo de saída.",
 
     "gui.bigreactors.generator.chargingport.eject.tooltip.title": "Ejeção Manual",
-    "gui.bigreactors.generator.chargingport.eject.tooltip.body": "Ejeta manualmente o item do slot de entrada e o coloca no slot de saída.",
+    "gui.bigreactors.generator.chargingport.eject.tooltip.body": "Ejeta manualmente o item do espaço de entrada e o coloca no espaço de saída.",
 
     "gui.bigreactors.generator.fluidport.directioninput.tooltip.title": "Modo de Entrada",
     "gui.bigreactors.generator.fluidport.directioninput.tooltip.body": "Define esta Porta de Fluido para o modo de entrada.",
@@ -672,4 +672,3 @@
     "compat.bigreactors.jei.coolantmappings.recipecategory.title": "Fluido <=> Refrigerante",
     "compat.bigreactors.jei.vapormappings.recipecategory.title": "Fluido <=> Vapor"
 }
-
