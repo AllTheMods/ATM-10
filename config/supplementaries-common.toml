@@ -113,6 +113,11 @@
 		#Allows chaining 2 crystal displays, letting one power the other to its left IF its own power exceeds 10. Given power will be its own divided by 10. Note that to work the decimal display must NOT have power directly behind it. Doing so will override the behavior to non chaining mode
 		chaining = true
 
+	[redstone.grouper]
+		enabled = true
+		#Lets groupers compare entities on their sides when both sides are air or liquid. Same entity type gives weak power. Full power needs an exact match: same dropped item or item frame item, same mob variant, villager profession or name tag
+		compare_entities = true
+
 [functional]
 	fodder = true
 	hourglass = true
@@ -131,6 +136,8 @@
 		#Also disables compat blocks such as supplementaries Farmers Delight rope tomatoes and Decorative blocks rope chandeliers.
 		#Also reminder that you can disable any item from any mod with a recipe (datapack) + JEI hide
 		enabled = true
+		#Leads can be tied to ropes
+		lead_knots = true
 
 	[functional.jar]
 		enabled = true
@@ -261,7 +268,22 @@
 
 		[functional.cannon.plunderer]
 			enabled = true
+			#Galleons are automatically disabled if 'rope' feature is disabled
 			galleon = true
+			#When a raid finds no land to spawn a wave on (village surrounded by water) vanilla just cancels it. With this on the whole wave spawns on open water instead, riding boats steered by plunderers
+			naval_raid_when_no_land = true
+			#Chance for some of a raid wave pillagers to arrive on boats from open water near the village instead of on land. Each boat carries a plunderer at the helm, which takes the place of one of the wave pillagers, and one more pillager. Raid size is unchanged. Set to 0 to disable
+			# Default: 0.4
+			# Range: 0.0 ~ 1.0
+			naval_raid_chance = 0.4
+			#Boats on the first wave
+			# Default: 1
+			# Range: 0 ~ 8
+			naval_raid_min_boats = 1
+			#Boats on the last wave. Waves in between scale linearly. Never more than the wave has pillagers to fill them
+			# Default: 2
+			# Range: 0 ~ 8
+			naval_raid_max_boats = 2
 
 	[functional.present]
 		enabled = true
@@ -306,12 +328,11 @@
 	feather_block = true
 	statue = true
 	doormat = true
-	flint_block = true
+	flint_block = false
 	fine_wood = true
 	candle_holder = true
 	fire_pit = true
 	wicker_fence = true
-	brittlestone = true
 
 	[building.sconce]
 		enabled = true
@@ -324,6 +345,8 @@
 		#Interaction mode for blackboards
 		#Allowed Values: BOTH, GUI, MANUAL
 		interaction_mode = "BOTH"
+		#Opening a blackboard gui also shows up to a 3x3 of connected blackboards so you can draw on all of them at once
+		connected_gui = true
 
 	[building.gravel_bricks]
 		enabled = true
@@ -415,6 +438,7 @@
 
 	[building.globe]
 		enabled = true
+		#Sepia globes are automatically disabled if 'antique_ink' feature is disabled
 		sepia_globe = true
 		#Displays current coordinates when using a globe
 		show_coordinates = true
@@ -480,6 +504,13 @@
 
 	[building.gold_bars]
 		enabled = true
+
+	[building.pignata]
+		enabled = true
+		#Ticks a pignata takes to heal one heart of damage
+		# Default: 10
+		# Range: 1 ~ 1000
+		heal_interval = 10
 
 [tools]
 	candy = true
@@ -587,13 +618,25 @@
 		cooldown = true
 
 		[tools.bomb.blue_bomb]
-			#Bomb explosion radius (damage depends on this)
-			# Default: 5.15
+			#Blue bomb explosion radius. Same blast as a normal bomb, just a bit bigger
+			# Default: 3.0
 			# Range: 0.1 ~ 10.0
 			explosion_radius = 5.15
-			#Do bombs break blocks like tnt?
+			#Do blue bombs break blocks like tnt?
 			#Allowed Values: ALL, WEAK, NONE
 			break_blocks = "WEAK"
+			#How many baby bombs a blue bomb scatters when it goes off. Set to 0 to turn it into a plain, bigger bomb
+			# Default: 5
+			# Range: 0 ~ 32
+			split_count = 5
+			#Explosion radius of the baby bombs scattered by a blue bomb
+			# Default: 1.2
+			# Range: 0.1 ~ 10.0
+			baby_explosion_radius = 1.2
+			#Seconds of fire baby bombs set nearby entities on fire for. 0 to disable
+			# Default: 5
+			# Range: 0 ~ 100
+			baby_fire_duration = 5
 
 	[tools.slingshot]
 		enabled = true
@@ -667,7 +710,7 @@
 	[tweaks.placeable_sticks]
 		#Allow placeable sticks
 		sticks = true
-		#Allow placeable blaze rods
+		#Allow placeable blaze and breeze rods
 		blaze_rods = true
 
 	[tweaks.placeable_gunpowder]
