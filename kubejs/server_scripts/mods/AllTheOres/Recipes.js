@@ -9,6 +9,10 @@ ServerEvents.recipes(allthemods => {
   allthemods.shapeless('9x minecraft:snow_block', ['allthecompressed:snow_1x'])
   allthemods.shapeless('allthecompressed:snow_1x', ['9x minecraft:snow_block']).id(`allthecompressed:compress/snow_1x_manual_only`)
 
+  allthemods.remove({ id: 'allthecompressed:compress/copper_alloy_block_1x' })
+  allthemods.replaceInput({ id: 'alltheores:crafting/hammer/steel/dust_from_ingot' }, '#c:ingots/steel',
+    Ingredient.of('#c:ingots/steel').except('#c:ingots/biosteel'))
+
   // Fix fluorite recipe conflict
   allthemods.remove({ id: 'alltheores:processing/fluorite/dust/from_ore' })
 
