@@ -1,3 +1,412 @@
 {
+	quest.00A6020BC979947F.quest_desc: ["Avec votre &9broyeur maride&r tout juste invoqué, vous pouvez décomposer un éclat d'écho et un lingot d'iesnium qui, combinés à une poche d'encre luisante, donnent de la craie cyan."]
+	quest.00A6020BC979947F.title: "&3Craie cyan"
+	quest.03250A0202C25E80.quest_desc: ["Une fois que vous avez tué le démon &9Marid libéré&r invoqué avec l'&4attraction de Tibira&r, vous pouvez utiliser l'&9essence de Marid&r qu'il lâche pour fabriquer la craie de couleur la plus « haute » : la craie bleue."]
+	quest.03250A0202C25E80.title: "&9Craie bleue"
+	quest.06B9D8973E9C6A2C.quest_desc: ["Vous vous demandez peut-être : pourquoi un objet d'Ars Nouveau dans le chapitre Occultism ? C'est grâce à Ars Ocultas, qui relie les deux mods. En particulier, les esprits, comme notre broyeur foliot, peuvent travailler dans ces jarres. Vous pouvez même y envoyer des objets par tuyau pour que les esprits s'en occupent, et ils les sortiront dans les inventaires adjacents (la face du dessous de la jarre est l'endroit le plus fiable d'après mes essais). S'ils ne peuvent pas les mettre dans un inventaire, ils les lâcheront dans le monde."]
+	quest.06B9D8973E9C6A2C.quest_subtitle: "Les esprits peuvent travailler dans les jarres de confinement"
+	quest.06B9D8973E9C6A2C.title: "Ars Ocultas : jarres à esprits"
+	quest.08697EB269B011FD.quest_desc: [
+		"Avec le &dContact de Ronaza&r, vous pouvez améliorer votre &bbol rituel en iesnium&r en calice eldritch. Utilisé dans un rituel, il réduit le temps nécessaire... à zéro."
+		""
+		"Oui, le calice eldritch fait que tous les rituels se terminent instantanément !"
+	]
+	quest.08697EB269B011FD.title: "Calice eldritch"
+	quest.0A25276925EB0CBA.quest_desc: [
+		"Une fois que vous avez rassemblé toutes les craies colorées et la craie de fondation, vous pouvez accomplir le deuxième rituel de type &dsans démon&r, le &dContact de Ronaza&r. C'est le rituel ultime, qui utilise tout ce que vous avez appris jusqu'ici !"
+		""
+		"Ses usages sont limités, mais tout ce qui est créé avec ce rituel est surpuissant !"
+	]
+	quest.0A25276925EB0CBA.quest_subtitle: "Avec ce trésor sacré, j'invoque..."
+	quest.0A25276925EB0CBA.title: "&dContact de Ronaza"
+	quest.0B3EA604C5172D98.quest_desc: [
+		"Pour préciser quel &9ami&r &c&mdémon&r on veut invoquer, il faut fabriquer un &blivre de lien&r spécifique.\\n\\nPour ça, il faut purifier de la teinture noire dans du &dfeu spirituel&r pour obtenir de l'encre purifiée. Avec elle, on va fabriquer notre premier livre de lien, qui invoquera un démon &aFoliot&r."
+		""
+		"Sinon, vous pouvez fabriquer un livre de lien vide, qu'on pourra teindre plus tard selon le niveau de rituel nécessaire."
+	]
+	quest.0B3EA604C5172D98.title: "&bLivres de &dlien"
+	quest.0BD6365534BF04D5.quest_desc: [
+		"Avec la craie vert clair, il est temps de plonger dans les &5rituels de possession&r. Ces rituels sont un peu différents des autres, car ils demandent tous un sacrifice vivant, en général de petites créatures comme des poules, des abeilles, des chauves-souris, etc. Mais plus les rituels se compliquent, plus les sacrifices demandés sont gros."
+		""
+		"Même si vous avez placé tous les objets nécessaires et le livre de lien dans le bol sacrificiel doré, le rituel ne commencera pas tant que vous n'aurez pas tué le sacrifice au-dessus des runes."
+		""
+		"Il est recommandé de fabriquer un objet pour capturer les créatures, comme une gemme d'âme vide, une jarre, un outil d'emprisonnement de créature ou un capteur quantique !"
+		""
+		"Le premier niveau de &5rituels de possession&r est l'&eappât de Heidryn&r, qui ne sert qu'à obtenir des objets banals comme des crânes de squelette et de la pierre de l'End. Vous pouvez donc passer directement au deuxième niveau de rituel, l'&aenvoûtement d'Ihagan&r."
+	]
+	quest.0BD6365534BF04D5.quest_subtitle: "Qui vous allez appeler ?"
+	quest.0BD6365534BF04D5.title: "&aEnvoûtement d'Ihagan"
+	quest.0D18BBB04693885A.quest_desc: ["La liaison supérieure de Strigeor est le deuxième niveau des &6rituels d'infusion&r. Elle sert à beaucoup de choses, mais celles qu'il nous faut surtout sont la pioche infusée et la pâte grise."]
+	quest.0D18BBB04693885A.quest_subtitle: "Le rituel « à tout faire »"
+	quest.0D18BBB04693885A.title: "&aLiaison supérieure de Strigeor"
+	quest.0F412542271B6254.quest_desc: ["Avant d'aller plus loin avec &dOccultism&r, il est temps d'apprendre à améliorer chaque type de pentacle. Chaque pentacle s'appuie sur le précédent du même type.\\n\\nAu lieu de construire un pentacle séparé pour chaque niveau de rituel (par ex. un pentacle pour invoquer des &aDjinns&r et un autre pour les &aFoliots&r), un seul pentacle peut gérer plusieurs niveaux de rituels. Par exemple, l'&9attraction incitée de Fatma&r s'appuie sur tous les pentacles d'invocation précédents.\\n\\nPour cette raison, je conseille de prévoir 4 zones de 19x19, une par pentacle : une pour l'invocation, une pour l'infusion, une pour la possession, une pour les rituels divers (sauvages et eldritch)."]
+	quest.0F412542271B6254.title: "Avant-propos sur les pentacles"
+	quest.11A0593C0E2E6A35.quest_desc: ["Avec la &econtrainte spectrale d'Eziveus&r, on peut imprégner une foule de blocs naturels pour former de la &2pâte de nature&r. Combine cette pâte avec de la craie blanche impure pour créer de la craie verte."]
+	quest.11A0593C0E2E6A35.title: "&2Craie verte"
+	quest.145C8235BCCB9BA8.quest_desc: [
+		"Pour réunir toutes les craies, il faudra invoquer et tuer un &cAfrit&r pas très amical."
+		""
+		"Même si ce n'est pas un &5rituel de possession&r, il faut un sacrifice vivant pour ce rituel. Ici, on va sacrifier une vache. Désolé, Marguerite !"
+	]
+	quest.145C8235BCCB9BA8.quest_subtitle: "R.I.P. Marguerite"
+	quest.145C8235BCCB9BA8.title: "&cCraie rouge"
+	quest.172D2A634E849562.quest_desc: ["Comme on peut récolter de l'&ciesnium&r, on peut faire appel aux démons pour travailler pour nous dans les mines... je veux dire... nous aider à récolter des minerais. Absolument pas exploiter des démons ou quoi que ce soit.\\n\\nPour ça, il faut créer un &dpuits de mine dimensionnel&r pour accéder au monde minier des démons. Il vous faudra aussi un démon mineur enfermé dans une lampe, à placer dans le puits pour qu'il fonctionne. N'importe quel niveau valide cette quête, mais les niveaux supérieurs vont plus vite et ont plus de chances de miner de l'iesnium pour vous.\\n\\nLes puits ne sortent pas les objets tout seuls. Il faudra les extraire avec des entonnoirs, des démons transporteurs ou une autre méthode, comme des tuyaux à objets. Les objets au-delà de sa limite de stockage sont détruits."]
+	quest.172D2A634E849562.title: "&cMinage démoniaque"
+	quest.1848F431D0380DA9.quest_desc: [
+		"Comme la fonction de réparation de craie de la &aliaison supérieure de Strigeor&r, le &cconfinement permanent de Sevira&r peut réparer des objets grâce à la puissance d'un démon Afrit."
+		""
+		"Ce rituel peut réparer à peu près tout : les &edémons mineurs&r, les outils et les armures peuvent tous retrouver leur durabilité d'origine !"
+		""
+		"Tous les objets réparés avec ce rituel gardent leurs propriétés d'origine (affixes, enchantements, etc.), alors pas d'inquiétude pour vos précieux enchantements !"
+	]
+	quest.1848F431D0380DA9.quest_subtitle: "De la durabilité (presque) gratuite !"
+	quest.1848F431D0380DA9.title: "Réparer des objets"
+	quest.1B5177A774FCEF64.quest_desc: ["Avant de demander l'aide de nos amis démons, il faut créer l'objet le plus important pour les rituels : la &acraie&r.\\n\\nIl faut plusieurs couleurs de craie, et les rituels de haut niveau en demandent plusieurs pour s'activer. Pour commencer, la &bcraie blanche&r est la plus facile à obtenir.\\n\\nCommencez par mettre de l'autrepierre dans un four et des bûches de l'Autre Monde dans du &dfeu spirituel&r. Avec les objets obtenus, vous pourrez fabriquer la craie blanche impure.\\n\\nPour purifier n'importe quelle craie, jetez-la simplement dans du &dfeu spirituel&r. Utiliser la craie purifiée sur le sol dessine de jolis symboles &mdémoniaques&r. Ils sont pénibles à retirer, à moins bien sûr de vous fabriquer la &abrosse à craie&r. Faites-le, ça vaut le coup."]
+	quest.1B5177A774FCEF64.title: "Préparer un rituel : la &ecraie"
+	quest.1BDB369FD243D4C6.quest_desc: [
+		"Sans doute l'objet le plus utile qu'on puisse créer dans Occultism : l'&benclume en iesnium&r est une version surpuissante de l'enclume du jeu de base."
+		""
+		"Créée avec la &9tour inversée d'Uphyxes&r, elle :"
+		""
+		"- Est incassable."
+		"- Augmente d'un niveau le niveau max de tous les enchantements de ce qu'on combine dessus."
+		"- Coûte moitié moins d'XP qu'annoncé (arrondi à l'inférieur : si c'est 25, ça coûtera 12)."
+		"- A une hausse du coût en expérience plus faible quand on modifie plusieurs fois le même objet."
+		"- Augmente le niveau d'XP max auquel on peut modifier les objets (le moment où elle dit « Trop cher ! »)."
+	]
+	quest.1DE0F289821F55D1.quest_desc: ["Maintenant qu'on a un broyeur foliot, on peut &mutiliser&r lui demander poliment de broyer de la &epierre de l'End&r, de l'&9obsidienne&r et de la &7calcite&r pour nous. On s'en servira pour faire de nouvelles craies !"]
+	quest.1DE0F289821F55D1.title: "&aÀ la craie"
+	quest.1EB887F8072439A3.quest_desc: ["Après avoir utilisé l'&9attraction incitée de Fatma&r pour invoquer un &9broyeur maride&r ou l'&aappel d'Ophyx&r pour invoquer un &abroyeur djinn&r, vous pouvez transformer la glace, la glace compacte et la glace bleue en versions broyées, et vous en servir pour créer de la craie bleu clair."]
+	quest.1EB887F8072439A3.title: "&bCraie bleu clair"
+	quest.2960FFE0C53DFEB1.quest_desc: [
+		"Le &cconfinement permanent de Sevira&r est le troisième niveau des &6rituels d'infusion&r. Il sert surtout à créer le niveau suivant de craie de fondation : la craie noire."
+		""
+		"Il sert aussi à créer quelques objets qui accélèrent énormément la préparation et l'exécution des rituels."
+	]
+	quest.2960FFE0C53DFEB1.quest_subtitle: "Le rituel « à faire encore plus de tout »"
+	quest.2960FFE0C53DFEB1.title: "&cConfinement permanent de Sevira"
+	quest.29C83B00AC4AFC23.quest_desc: [
+		"Maintenant que vous êtes arrivé jusqu'ici, vous vous demandez peut-être : et ensuite ? Eh bien, il reste plein de choses à explorer dans Occultism !"
+		""
+		"Vous pouvez voir la liste complète de tous les rituels et objets dans votre &6dictionnaire des esprits&r ; essaie de parcourir les résultats de tous les rituels pour voir si quelque chose vous intéresse !"
+		""
+		"Si ce n'est pas déjà fait, vous pourriez aménager et décorer quatre zones de rituel séparées : une pour les invocations, une pour les possessions, une pour les infusions, et une pour les rituels divers (surtout sauvages et eldritch)."
+		""
+		"Il y a toujours de nouvelles façons d'utiliser chaque fonction, même la plus banale en apparence, pour profiter au maximum du modpack. Bons rituels !"
+	]
+	quest.29C83B00AC4AFC23.title: "Et ensuite ?"
+	quest.2A3683BF7E50EF83.quest_desc: [
+		"Jusqu'ici, la plupart des objets qu'il nous fallait de l'&3Autre Monde&r demandaient juste du feu spirituel. Mais il faudra l'aide du &3Troisième Œil&r pour trouver le minerai de l'&3Autre Monde&r."
+		""
+		"Il nous faudra aussi une pioche spéciale pour pouvoir le miner. Pour ça, il faut infuser un démon dans une &dtête de pioche accordée aux esprits&r pour créer une pioche capable de casser ce nouveau type de minerai."
+	]
+	quest.2A3683BF7E50EF83.title: "Les outils du métier : la pioche infusée"
+	quest.2A5004EB99AE4F96.quest_desc: [
+		"Il reste d'autres objets de l'Autre Monde à récolter, et manger un &cfruit du rêve démoniaque&r chaque fois qu'il faut l'effet &7Troisième Œil&r devient pénible."
+		""
+		"C'est à ça que servent les &dlunettes de l'Autre Monde&r ! Une fois équipées (même dans votre emplacement Curios), elles donnent l'effet Troisième Œil !"
+	]
+	quest.2A5004EB99AE4F96.quest_subtitle: "Arrêtez de manger ce fruit !"
+	quest.2A5004EB99AE4F96.title: "Les outils du métier : les lunettes spectrales"
+	quest.2AD68066C1948C90.quest_desc: [
+		"Ce premier &ebroyeur foliot&r était cool, mais si je vous disais que vous pouvez invoquer un démon qui vous donne 6 poudres par minerai brut broyé ?"
+		""
+		"Le &9broyeur maride&r fait exactement ça. Pour en invoquer un, il faut utiliser l'&9attraction incitée de Fatma&r."
+	]
+	quest.2AD68066C1948C90.quest_subtitle: "Invocation maximale"
+	quest.2AD68066C1948C90.title: "&9Attraction incitée de Fatma"
+	quest.2CF96A264EB5522C.quest_desc: [
+		"La &9tour inversée d'Uphyxes&r est le niveau maximum des &6rituels d'infusion&r. Elle a moins d'usages que les trois autres niveaux, mais reste nécessaire pour la « fin de partie » d'Occultism."
+		""
+		"Elle sert surtout à créer la poudre de dragonyst, l'ingrédient principal de la craie magenta."
+	]
+	quest.2CF96A264EB5522C.quest_subtitle: "Infusion maximale"
+	quest.2CF96A264EB5522C.title: "&9Tour inversée d'Uphyxes"
+	quest.2E68E1D96B25336D.quest_desc: ["Après avoir combattu quelques piglins zombifiés possédés par des démons, invoqués par la &6convocation ouverte d'Odus&r, vous pouvez utiliser la viande démoniaque qu'ils lâchent pour fabriquer de la craie rose."]
+	quest.2E68E1D96B25336D.title: "&dCraie rose"
+	quest.2FD22502E6481269.quest_desc: ["Avec le &dContact de Ronaza&r, vous pouvez améliorer votre gemme d'âme pour créer une gemme de trinité. C'est en gros une version renforcée de la gemme d'âme, qui peut capturer de plus grands ennemis, même si elle ne peut toujours pas contenir la plupart des boss."]
+	quest.2FD22502E6481269.title: "Gemme de trinité"
+	quest.30C5B597610F4AFB.quest_desc: ["Le premier et plus important objet à fabriquer avec la contrainte spectrale d'Eziveus est la poudre de fragment de recherche. Combinée à des émeraudes broyées, elle sert à créer de la craie vert clair !"]
+	quest.30C5B597610F4AFB.title: "&aCraie vert clair"
+	quest.33106E24A3B5DDD8.quest_desc: [
+		"L'étape suivante de votre aventure sera de trouver du &eminerai d'iesnium&r dans le Nether."
+		""
+		"Sans l'effet &3Troisième Œil&r, il ressemble exactement à de la netherrack. Pensez à bien équiper vos &dlunettes de l'Autre Monde&r !"
+		""
+		"Pour localiser le minerai, essaie une &abaguette de divination&r. Il faut d'abord l'accorder à la netherrack, puis maintenir le clic droit pour l'utiliser. Après quelques secondes, une particule partira dans la direction du minerai d'iesnium le plus proche. On ne peut miner ce minerai qu'avec la &dpioche infusée&r !"
+		""
+		"Comme on ne peut pas doubler la poudre de ce minerai avec les méthodes habituelles, utilisez votre broyeur foliot pour doubler vos lingots par minerai brut !"
+		""
+		"Note : si vous ne voyez pas la particule, vérifiez que les particules sont activées dans vos réglages !"
+		""
+		"{image:atm:textures/questpics/occultism/iesniumexample.png width:200 height:175 align:1}"
+	]
+	quest.33106E24A3B5DDD8.title: "&cIesnium : le minerai de l'Autre Monde"
+	quest.3543563DF036D461.quest_desc: ["Pour créer de la poudre de dragonyst, il faut accomplir la &9tour inversée d'Uphyxes&r. Mais pour créer de la craie magenta, il faut aussi des matériaux qu'on ne peut obtenir qu'avec le &9broyeur maride&r."]
+	quest.3543563DF036D461.title: "&#AD00C8Craie magenta"
+	quest.367E891A50991436.quest_desc: ["Avec le &cconfinement permanent de Sevira&r, on peut combiner plusieurs matériaux de Wither et de la netherite pour créer trois poudres de witherite. Avec elles, on peut se fabriquer la plus haute forme de craie de fondation : la craie noire."]
+	quest.367E891A50991436.title: "Craie noire"
+	quest.38A1295878B68F83.quest_desc: [
+		"Non, pas ce genre-là."
+		""
+		"Les &cdémons Afrit&r sont des démons du &cfeu&r. Ce sont des démons plus évolués : certains sont amicaux, d'autres... non. Tout dépend de la force avec laquelle le rituel peut contrôler l'&cAfrit&r."
+		""
+		"Comme on n'a pas encore accès à la craie rouge, on ne peut invoquer qu'un démon &9libéré&r, ce qui veut dire qu'il ne peut pas être contrôlé et qu'il sera violent."
+	]
+	quest.38A1295878B68F83.quest_subtitle: "Des démons brûlants !"
+	quest.38A1295878B68F83.title: "&6Conjuration ouverte de Kandar"
+	quest.39647A2473F6F7D7.quest_desc: [
+		"L'étape suivante, c'est une incursion dans les &6rituels d'infusion&r. Ces rituels servent à imprégner des objets de la magie des démons."
+		""
+		"Le premier niveau des &6rituels d'infusion&r est la &econtrainte spectrale d'Eziveus&r. On va utiliser ce rituel pour créer plusieurs objets dont vous aurez besoin tout au long du mod."
+		""
+		"Il est recommandé de faire ce rituel dans une zone séparée du premier, car les trois grands types de rituels s'appuient chacun sur le niveau précédent."
+	]
+	quest.39647A2473F6F7D7.quest_subtitle: "Saupoudrez un peu de Poudre de Démon™ dessus !"
+	quest.39647A2473F6F7D7.title: "&eContrainte spectrale d'Eziveus"
+	quest.3D41D0092D94636B.quest_desc: [
+		"Et si je vous disais que le fruit du démon est inflammable ?"
+		""
+		"Lancer notre &cfruit du rêve démoniaque&r par terre et y mettre le feu crée du &dfeu spirituel&r. C'est comme ça qu'on transformera certains objets de l'Overworld en matériaux de l'&9Autre Monde&r."
+		""
+		"Et en plus, c'est joli."
+	]
+	quest.3D41D0092D94636B.title: "Les flammes de &9l'Autre Monde"
+	quest.429B5A81DF6C43FE.quest_desc: [
+		"La &6convocation ouverte d'Odus&r sert à faire entrer un démon &cAfrit&r dans un cochon. Comme ce rituel se fait sans craie rouge, il n'est assez puissant que pour invoquer un démon &9libéré&r."
+		""
+		"Plus précisément, ce rituel crée un piglin zombifié possédé par un &cAfrit&r, qui lâche de la viande démoniaque, utilisée pour fabriquer de la craie rose"
+		""
+		"&4ATTENTION : IL FAUDRA PEUT-ÊTRE LE FAIRE PLUSIEURS FOIS POUR AVOIR ASSEZ DE VIANDE DÉMONIAQUE."
+	]
+	quest.429B5A81DF6C43FE.quest_subtitle: "Comme c'est... charnel..."
+	quest.429B5A81DF6C43FE.title: "&6Convocation ouverte d'Odus"
+	quest.42F50CE7FE715583.quest_desc: [
+		"Pour augmenter le nombre de piles que peut contenir votre stockage magique, il faut fabriquer des &dstabilisateurs de stockage&r."
+		""
+		"Une fois fabriqués, ils doivent pointer directement vers la matrice dimensionnelle de votre actionneur de stockage, pas vers la base. Ils peuvent être jusqu'à 5 blocs de distance, mais doivent avoir une ligne de vue dégagée vers la matrice."
+		""
+		"Quand vous voulez passer à un stabilisateur de niveau supérieur, le casser ne détruit pas les objets stockés. Mais vous ne pourrez plus ajouter d'objets à votre stockage tant qu'il n'est pas remplacé ou amélioré."
+		""
+		"Voici ci-dessous un exemple d'installation simple !"
+		""
+		"{image:atm:textures/questpics/occultism/storageupgradeexample.png width:200 height:150 align:1}"
+	]
+	quest.42F50CE7FE715583.title: "&aAméliorer notre stockage magique"
+	quest.47358ADC1470C82A.quest_desc: [
+		"Le &cfruit du rêve démoniaque&r est parfaitement bon pour la santé. Il y a peut-être quelques effets secondaires à connaître."
+		""
+		"Quand vous en mangez un, vous avez une chance d'obtenir l'effet &3Troisième Œil&r, qui vous permet de voir dans &9l'Autre Monde&r. Certains objets du monde ne sont peut-être pas ce qu'ils semblent être, et il vous faudra cette « vision » pour trouver certains objets nécessaires à la progression."
+		""
+		"Ou vous pouvez y mettre le feu et éviter d'avoir à en trouver la plupart. C'est vous qui vois."
+	]
+	quest.47358ADC1470C82A.quest_subtitle: "Préparez-vous pour un trip"
 	quest.47358ADC1470C82A.title: "&cFruit du rêve du démon"
+	quest.4ABACE222E647E2C.quest_desc: ["L'autel sacrificiel est un autre outil d'Ars Ocultas, axé cette fois sur l'automatisation des sacrifices.\\n\\nCet autel se place sous votre bol central et permet de remplacer les sacrifices par de la source d'une jarre de source proche, si une jarre de confinement contenant le futur sacrifice est aussi à proximité."]
+	quest.4ABACE222E647E2C.quest_subtitle: "La source remplace le sacrifice"
+	quest.4C873491F6F0FFAF.quest_desc: [
+		"Avec le &dfeu spirituel&r, on peut transformer plusieurs matériaux de l'Overworld en leurs variantes de l'Autre Monde. Vous pouvez aussi trouver plusieurs matériaux de l'Autre Monde en étant sous l'effet du &bTroisième Œil&r et en explorant le monde. Vous pourriez être surpris de ce que vous trouvez. Pour faciliter les choses, il y a des recettes pour les matériaux de base : il suffit de les jeter dans le &dfeu spirituel&r."
+		""
+		"L'&bandésite&r se transforme en &3autrepierre&r, qui permet d'allumer un &dfeu spirituel&r permanent."
+		""
+		"Les &apousses de chêne&r se transforment en &9pousses de chêne&r, mais ce ne sont pas les mêmes. Une fois grandes, elles ressemblent exactement à un chêne normal. Mais sous l'effet du &bTroisième Œil&r, vous pourrez récolter la variante de l'Autre Monde."
+		""
+		"Si vous avez du mal à récupérer les bûches (si elles deviennent des bûches de chêne normales même avec le &bTroisième Œil&r), essaie de les récolter par le haut."
+		""
+		"Les &ediamants&r se transforment en &dgemmes accordées aux esprits&r, utilisées dans plusieurs recettes dont on aura besoin plus tard."
+	]
+	quest.4C873491F6F0FFAF.title: "Conversions par &dfeu spirituel&r"
+	quest.4CE571F942461909.quest_desc: [
+		"La sacoche rituelle est pratique, mais poser tous les blocs prend du temps. Maintenant que vous pouvez faire le rituel du &cconfinement permanent de Sevira&r, vous pouvez créer la sacoche rituelle artisanale !"
+		""
+		"La sacoche rituelle artisanale fonctionne presque comme la normale, sauf qu'elle pose instantanément tous les éléments nécessaires au rituel, et qu'un clic droit sur le bol doré efface toutes les runes de craie et récupère tous les autres objets (crânes, bougies et cristaux) pour les remettre dans la sacoche."
+		""
+		"Non, elle ne restaure pas la durabilité de la craie."
+	]
+	quest.4CE571F942461909.title: "Les outils du métier : la sacoche rituelle artisanale"
+	quest.4DF0D7B85065ADC9.quest_subtitle: "Hache et tranche !"
+	quest.4DF0D7B85065ADC9.title: "Les outils du métier : le couteau de boucher"
+	quest.4F35D04721DFC9FF.quest_desc: [
+		"Le premier type de rituel qu'on va faire est le &9rituel d'invocation&r. Ces rituels servent à invoquer différents démons utiles qui vous aideront à broyer, faire fondre et plus encore, à mesure que vous passez aux niveaux de rituel supérieurs."
+		""
+		"Pour notre premier rituel, on veut invoquer un démon &abroyeur foliot&r. Ce démon broiera des objets pour nous, ce qui sera nécessaire pour fabriquer certaines craies de plus haut niveau !"
+		""
+		"Pour commencer, combine votre livre non lié avec votre &adictionnaire des esprits&r dans une grille d'artisanat. Ça lie un démon au livre, ce dont on a besoin pour le rituel."
+		""
+		"En parlant de votre dictionnaire des esprits, il est temps de l'ouvrir ! À gauche, clique sur l'onglet &dPentacles&r puis sur &bCercle d'Aviar&r. Il faudra peut-être avancer en lisant un peu. Il y a aussi un moyen de cliquer sur « Mark All As Read » (tout marquer comme lu) pour tout débloquer dans le livre."
+		""
+		"C'est ce qu'on va utiliser pour invoquer notre nouvel ami. À droite, vous pouvez cliquer sur l'œil en bas à gauche de l'image pour afficher un contour du rituel dans le monde. Super pratique !"
+		""
+		"Une fois le rituel multibloc terminé, pose 4 bols sacrificiels (ou plus pour les futurs rituels) n'importe où dans un rayon horizontal de 8 blocs autour du bol sacrificiel central, et placez les objets nécessaires dessus. Dès que vous posez votre livre lié dans le bol sacrificiel doré, le rituel commence !"
+		""
+		"Voici à quoi ressemblera le rituel."
+		""
+		"{image:atm:textures/questpics/occultism/aviarcirclenew.png width:200 height:200 align:1}"
+	]
+	quest.4F35D04721DFC9FF.quest_subtitle: "Cercle d'Aviar"
+	quest.4F35D04721DFC9FF.title: "&bNotre premier &drituel"
+	quest.5316DF321B45D2CA.quest_desc: ["Bienvenue dans &dOccultism&r !\\n\\nCe mod veut aider le joueur de plein de façons en faisant appel aux &c&mdémons&r &besprits&r ! Pas d'inquiétude, la plupart sont amicaux. &oLa plupart&r.\\n\\nPour commencer, il vous faut des &agraines du fruit du démon&r."]
+	quest.5316DF321B45D2CA.title: "&dRêver de &cdémons"
+	quest.53DEA3DFEDC4809E.quest_desc: [
+		"Pas d'inquiétude, c'est le dernier de la série de rituels d'Abras. Il sert à invoquer un démon &9Marid&r, mais même avec de la craie rouge, il n'est pas assez puissant pour &9lier&r le démon. Ça veut dire que, malheureusement, il va falloir le combattre."
+		""
+		"Ce rituel utilise un trident comme sacrifice, ce qui est déroutant car la plupart des sacrifices sont des créatures vivantes. Donc au lieu de tuer une créature sur le cercle de rituel terminé, il suffit de lancer le trident sur le bol central pour lancer le rituel."
+	]
+	quest.53DEA3DFEDC4809E.quest_subtitle: "C'est un oiseau ? C'est un avion ? Non, c'est un &9Marid&r libéré !"
+	quest.53DEA3DFEDC4809E.title: "&4Attraction de Tibira"
+	quest.54378277B8D28B1D.quest_desc: ["Une alternative à la craie arc-en-ciel, pour ceux qui préfèrent les couleurs de la craie de fondation.\\n\\nMême fonction que la craie arc-en-ciel, sauf que toutes les runes alternent entre les couleurs de la craie de fondation."]
+	quest.56EC79AF11B0869E.quest_desc: ["L'&9adjuration de Xeovrenth&r est le niveau maximum des &5rituels de possession&r. Il n'a que deux usages : créer de l'essence de cruauté, l'ingrédient principal de la craie marron, et créer un golem en iesnium, en gros un golem de fer immortel qui fait plus de dégâts."]
+	quest.56EC79AF11B0869E.quest_subtitle: "Possession maximale"
+	quest.56EC79AF11B0869E.title: "&9Adjuration de Xeovrenth"
+	quest.57282D7E31EE61EE.quest_desc: [
+		"Une fois que vous avez quelques &aminerais d'iesnium bruts&r, vous voudrez sans doute utiliser les premiers lingots pour fabriquer une &dpioche en iesnium&r. Elle mine l'iesnium comme la pioche infusée, et dure beaucoup plus longtemps."
+		""
+		"Rendez-vous service et fabriquez-en une !"
+	]
+	quest.57282D7E31EE61EE.title: "&aLa pioche de l'Autre Monde&r"
+	quest.5831B3192C0E8C56.quest_desc: [
+		"Vous voulez accéder à votre stockage à distance ? On peut le faire avec le &etrou de ver stable&r ou l'&aaccesseur de stockage&r."
+		""
+		"Pour utiliser le &etrou de ver stable&r, faites Maj + clic sur un &dactionneur de stockage&r pour le lier. Vous pouvez ensuite poser le trou de ver pour qu'il serve d'autre point d'accès au stockage."
+		""
+		"L'&aaccesseur de stockage&r se lie de la même façon, mais sert de télécommande sans fil qui marche même entre dimensions !"
+	]
+	quest.5831B3192C0E8C56.title: "&aAccès à distance"
+	quest.5ACE97EE75813006.quest_desc: [
+		"C'est la principale source d'infos sur les &drituels&r. Voici les bases :"
+		""
+		"&lNiveaux de rituels&r :"
+		""
+		"Les rituels ont (en gros) quatre niveaux selon la puissance du démon invoqué. Le premier niveau est le &eFoliot&r, puis le &aDjinn&r, l'&cAfrit&r et le &9Marid&r. Certains rituels sont entre deux niveaux, comme le niveau &6Afrit libéré&r."
+		""
+		"T&lypes de rituels&r :"
+		""
+		"Il y a cinq grands types de rituels, mais seuls quatre sont nécessaires pour progresser. Les trois principaux sont les &9rituels d'invocation&r, les &5rituels de possession&r et les &6rituels d'infusion&r. Chacun sera expliqué la première fois qu'il apparaît dans ces quêtes. Le quatrième type est une sorte de &drituel&r &dsans démon&r : il utilise des éléments des trois autres types pour réaliser une action spéciale sans utiliser directement de démon."
+		""
+		"Le cinquième type, les &erituels de familier&r, n'est pas nécessaire pour progresser. Mais il permet d'invoquer des amis utiles pour vous aider !"
+		""
+		"&lCraies&r :"
+		""
+		"Il y a deux types de craies : les craies de fondation et les craies colorées."
+		""
+		"Les craies de fondation servent dans chaque rituel, et chaque niveau supérieur est d'une teinte plus foncée, de la craie blanche à la craie noire."
+		""
+		"Les craies colorées sont les plus utilisées, mais leur couleur n'indique pas directement leur puissance, contrairement aux craies de fondation."
+	]
+	quest.5ACE97EE75813006.title: "Les bases des rituels"
+	quest.5AE80FF518B1BBA6.quest_desc: [
+		"Marre de trimballer craies, bougies, crânes et cristaux ? Fabriquez simplement une sacoche rituelle !"
+		""
+		"Avec accroupi + clic droit, la sacoche rituelle en main, vous pouvez la remplir de tous les matériaux nécessaires pour dessiner un cercle de rituel."
+		""
+		"Une fois la sacoche remplie, faites simplement un clic droit sur n'importe quel bloc d'aperçu pour commencer à poser (lentement) et automatiquement toutes les runes du rituel choisi."
+		""
+		"Si une craie dans le sac tombe sous 40 % de durabilité, la lueur d'enchantement de l'objet disparaît pour signaler qu'il est peut-être temps de réparer ou de remplacer certaines craies."
+	]
+	quest.5AE80FF518B1BBA6.quest_subtitle: "Le rituel de poche !"
+	quest.5AE80FF518B1BBA6.title: "Les outils du métier : la sacoche rituelle"
+	quest.5FE507DAEE770507.quest_desc: ["Vous ne voulez pas d'un &9broyeur maride&r pour la &bcraie bleu clair&r ? Alors contentez-vous d'un &abroyeur djinn&r. L'&aappel d'Ophyx&r sert à invoquer des &adjinns&r. Y compris un mari ou une épouse démoniaque. Les &adjinns&r broient les minerais plus efficacement que les foliots, mais moins que les &cAfrits&r ou les &9Marids&r. Ils peuvent aussi broyer la glace sans la faire fondre."]
+	quest.5FE507DAEE770507.quest_subtitle: "Un autre chemin pour le bleu clair"
+	quest.5FE507DAEE770507.title: "&aAppel d'Ophyx"
+	quest.61999669BDE127F9.quest_desc: [
+		"Si vous ne l'avez pas encore remarqué, faire et refaire les rituels encore et encore use beaucoup vos craies."
+		""
+		"Si vous avez peur que votre craie casse, mais que vous n'avez pas envie de refaire tout le rituel pour en créer une nouvelle, ce rituel est fait pour vous !"
+		""
+		"Grâce à la puissance d'un &adjinn&r, vous pouvez réparer complètement une craie de n'importe quelle couleur !"
+		""
+		"Sinon, vous pouvez utiliser quelque chose comme l'&aEternal Stella&r du mod Forbidden Arcanus pour préserver vos craies pour toujours !"
+	]
+	quest.61999669BDE127F9.quest_subtitle: "Vous cassez, &mnous&r les démons réparons !"
+	quest.61999669BDE127F9.title: "Réparation de craie"
+	quest.6581D4AF1A6DE230.quest_desc: ["Les démons aiment les bougies. Je crois.\\n\\nPour presque chaque rituel d'invocation de nos amis, il vous faudra des bougies. Vous pouvez fabriquer le &acouteau de boucher&r et tuer des cochons, des vaches, des moutons, des chevaux, ou même les lamas de marchand pour obtenir du &asuif&r et les fabriquer. D'ailleurs, vous devriez vraiment trouver les lamas de marchand. Il paraît qu'ils font de bonnes bougies. &mJe ne viens absolument pas de l'inventer&r.\\n\\nSinon, les bougies du jeu de base marchent aussi !\\n\\nLes &9cristaux accordés aux esprits&r servent aussi dans plusieurs rituels, alors autant en faire maintenant !"]
+	quest.6581D4AF1A6DE230.title: "Préparer un rituel : les &abougies"
+	quest.666EA8B8F13EB292.quest_desc: ["Cet objet sert à capturer des créatures pour les transporter ou les stocker. Il est aussi nécessaire pour l'&6étoile ATM&r."]
+	quest.666EA8B8F13EB292.title: "&dGemme d'âme vide"
+	quest.67884BFA27870CCE.quest_desc: [
+		"L'&dappel libéré d'Osorin&r est le deuxième niveau des &drituels sans démon&r. Le premier niveau ne sert pas du tout à progresser : il sert juste à ressusciter les familiers et à transformer les vex en allays."
+		""
+		"Ce rituel sert à créer plein de blocs, d'objets et de matériaux assez rares qu'on ne pourrait pas obtenir autrement (ou difficilement)."
+	]
+	quest.67884BFA27870CCE.quest_subtitle: "Pour ceux d'entre nous qui ne raffolent pas des chambres d'épreuve"
+	quest.67884BFA27870CCE.title: "&dAppel libéré d'Osorin"
+	quest.690B89D23134B624.quest_desc: [
+		"Prenez vos craies, tracez votre rituel du &dcontact de Ronaza&r et préparez-vous à créer la craie ULTIME !"
+		""
+		"Au lieu de trimballer une série complète de 16 craies, vous pouvez utiliser la craie arc-en-ciel pour peindre une rune qui change de couleur et qui compte comme n'importe laquelle d'entre elles !"
+	]
+	quest.690B89D23134B624.title: "Craie &zarc-en-ciel&r"
+	quest.6C1BBA559963B3DF.quest_desc: [
+		"Le &adictionnaire des esprits&r sert de guide pour &dOccultism&r. Vous devrez absolument le fabriquer si vous voulez continuer avec ce mod !"
+		""
+		"Le dictionnaire contient un guide façon quêtes, si vous préférez le lire plutôt que de faire ces quêtes !"
+		""
+		"Vous aurez aussi besoin du livre pour fabriquer plusieurs choses du pack, alors vous n'avez pas vraiment le choix. :)"
+	]
+	quest.6C1BBA559963B3DF.title: "Petit livre des &cdémons"
+	quest.6CC5FE34778F0DFA.quest_desc: [
+		"Vous allez forcément avoir trop d'objets dans ce modpack. C'est comme ça, et si vous n'avez pas encore réglé votre problème de stockage, le &dstockage dimensionnel&r est peut-être fait pour vous !"
+		""
+		"Pour commencer avec cette solution de stockage magique, il faut fabriquer l'&dactionneur de stockage dimensionnel&r et le poser dans le monde. Il agit comme une boîte de Shulker : si vous le cassez, il ne perd aucun des objets stockés dedans."
+		""
+		"Par défaut, il a 128 emplacements, et chaque emplacement contient jusqu'à 16 piles d'un objet, sauf les objets avec des données &5NBT&r. Ceux-là ne s'empilent pas et prennent un emplacement entier, alors pense à les laisser de côté !"
+		""
+		"Si vous ne savez pas quels objets ont des données NBT, vous pouvez toujours aller voir la quête « NBT and You » dans la série de quêtes du stockage pour en savoir plus sur le NBT !"
+	]
+	quest.6CC5FE34778F0DFA.title: "Stockage &c&mdémoniaque&r &dmagique&r !"
+	quest.6CCDEEDA2C99DA66.quest_desc: ["Cette quête a été écrite par l'&6équipe AllTheMods&r ou un &2contributeur de la communauté&r pour les modpacks AllTheMods. \\n\\nComme tous les packs &6AllTheMods&r sont sous licence &eTous droits réservés&r, cette quête ne peut pas être utilisée dans un pack public non publié par l'&6équipe AllTheMods&r sans autorisation explicite. \\n\\nCette quête est volontairement cachée ; si vous la voyez, c'est que vous êtes en mode édition."]
+	quest.6FEED25FFAC4101F.quest_desc: ["Avec le &alien supérieur de Strigeor&r, vous pouvez créer de la pâte grise. Étalez-la sur une craie blanche impure pour créer une craie grise."]
+	quest.6FEED25FFAC4101F.title: "&8Craie grise"
+	quest.6FFFAE334DFAAAAB.quest_desc: [
+		"Comme vous l'avez sûrement remarqué, les rituels ont tendance à être... un peu lents. Mais plus maintenant ! Avec le &cconfinement permanent de Sevira&r, vous pouvez créer le &bbol rituel en iesnium&r."
+		""
+		"Utilisé à la place d'un bol rituel doré, il réduit fortement la durée d'un rituel, en la ramenant au quart de sa durée d'origine !"
+	]
+	quest.6FFFAE334DFAAAAB.quest_subtitle: "Rituels ultrarapides !"
+	quest.6FFFAE334DFAAAAB.title: "Bol rituel en iesnium"
+	quest.74130EB1E4B8586D.quest_desc: ["Avec l'&aenvoûtement d'Ihagan&r, vous pouvez sacrifier un allay, une chauve-souris, une abeille ou un perroquet pour invoquer une &6abeille possédée&r. Une fois vaincue, elle lâche du miel maudit, l'ingrédient principal de la craie orange !"]
+	quest.74130EB1E4B8586D.title: "&6Craie orange"
+	quest.78ECC28DD4BA9696.quest_desc: [
+		"Même si on peut obtenir la plupart des matériaux de l'&dautre monde&r avec le feu spirituel, on peut aussi utiliser des &9baguettes de divination&r pour les localiser."
+		""
+		"D'abord, il faut accorder la baguette au matériau que vous cherchez. Par exemple, si vous chassez de l'&8autre pierre&r, vous pouvez utiliser la baguette sur de l'&aandésite&r pour vous aider à localiser l'autre pierre dans le monde."
+		""
+		"Une fois accordée à un matériau, maintenez le clic droit avec la baguette en main : une particule part dans la direction du matériau le plus proche auquel elle est accordée."
+		""
+		"Il faudra quand même être sous l'effet du &3troisième œil&r pour pouvoir récolter le bloc de l'autre monde."
+	]
+	quest.78ECC28DD4BA9696.quest_subtitle: "Chasser les matériaux de l'&dautre monde&r"
+	quest.78ECC28DD4BA9696.title: "Les outils du métier : la baguette de divination"
+	quest.7BCD4A425CF6199B.quest_desc: ["Après avoir tué la chèvre de la miséricorde invoquée par l'&9adjuration de Xeovrenth&r, vous vous retrouvez avec une essence de cruauté en plus. Combinez-la avec des fèves de cacao pour créer de la craie marron."]
+	quest.7BCD4A425CF6199B.title: "&#4E2C00Craie marron"
+	quest.7F09F8F98C13F11B.quest_desc: [
+		"Qu'est-ce qu'un rituel démoniaque sans &csacrifice&r ! :D\\n\\nLa plupart du temps, les démons veulent juste des objets, donc pas besoin d'avoir peur pour l'instant. Par contre, si vous avez une vache préférée, vous pouvez vous inquiéter. Désolé, Marguerite.\\n\\nLes &abols sacrificiels&r servent à poser les objets nécessaires aux rituels. On peut les placer n'importe où dans le rituel, tant qu'ils ne recouvrent aucune des craies nécessaires."
+		""
+		"Pour l'instant, il ne vous en faudra que quatre, mais plus tard il vous faudra jusqu'à dix bols par rituel !\\n\\nLe &6bol rituel doré&r se place au milieu du rituel pour l'activer, et demande généralement un livre de liaison pour le rituel."
+	]
+	quest.7F09F8F98C13F11B.title: "Préparer un rituel : les &6bols"
+	quest.7F59941D62E672B0.quest_desc: [
+		"Occultism propose bien plus que des démons pour broyer vos minerais !"
+		""
+		"Il y a des démons qui peuvent déplacer des choses pour vous, couper du bois, et plus encore !!"
+		""
+		"Il y a aussi des moyens d'invoquer des amis sympas appelés &dfamiliers&r, qui donnent des bonus spéciaux et se battent même pour vous ! Pensez à regarder les &drituels de familiers&r dans votre livre guide !"
+	]
+	quest.7F59941D62E672B0.title: "&dFamiliers"
+	task.036759CF4EEFFC7D.title: "Tous droits réservés"
+	task.0446B7C6DBB5DDF9.title: "Bols rituels dorés"
+	task.05A43D4098C30ED1.title: "Calices eldritch"
+	task.0EE813C344409F59.title: "Bougies"
+	task.10037D5225C2D20E.title: "Bols rituels en iesnium"
+	task.1709A45C149125F1.title: "Tous droits réservés"
+	task.2C5C6F411E2F0CAF.title: "N'importe quel #c:dusts/netherite"
+	task.31290830C6767E5B.title: "Trous de ver stables"
+	task.348A7E3E3A3D324E.title: "Oui, je l'ai lu et je ne l'oublierai surtout pas !"
+	task.3621D48E2CFAF2C2.title: "N'importe quel #c:wools"
+	task.3A9C5AE548810FA6.title: "Bols sacrificiels"
+	task.523951BF097BA61F.title: "N'importe quel #c:dusts/emerald"
+	task.53DE943DF951696B.title: "Démon mineur"
+	task.5A70EA7F9D922945.title: "Stabilisateurs de stockage dimensionnel"
+	task.67C1DF1704EBF6AF.title: "Comprendre les améliorations de pentacle"
+	task.6C3887D42B6B2122.title: "Familiers"
 }
