@@ -21,6 +21,12 @@ function initAnnouncements() {
   addAnnouncement("5.0", "Removed mods: Modular Machinery Reborn, use Modern Industrialization");
   addAnnouncement("5.3", Text.of("We are preparing to ").append(Text.red("REMOVE")).append(" mod ").append(Text.blue("Hyperbox")).append(", be ready when updating to version 6.0+"));
   addAnnouncement("5.5", Text.of("We just launched ").append(Text.green("All The Mons (ATM10 + Cobblemon)").clickOpenUrl("https://www.curseforge.com/minecraft/modpacks/all-the-mons").hover(Text.translatable("mco.notification.visitUrl.buttonText.default"))).append(" for public beta testing!"));
+  addAnnouncement("7.0", "Replaced Embeddium with Sodium");
+  addAnnouncement("7.2", "Added mod: Invasive Optimizations");
+  addAnnouncement("8.0", "Added mods: Neo Vitae and Auroral");
+  addAnnouncement("8.1", "Added mods: Ad Astra, Giselle Addon, and Logistics Networks");
+  addAnnouncement("8.2", "Added mods: Create Copycats+ and Just Enough Stuff");
+  addAnnouncement("8.3", "Added mod: Astral Sorcery");
 }
 
 ServerEvents.loaded(event => {
