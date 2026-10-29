@@ -11,11 +11,6 @@ ServerEvents.recipes(allthemods => {
   allthemods.replaceInput({ id: /^minecraft:dye_[a-z_]+_carpet$/ }, '#minecraft:wool_carpets',
     Ingredient.of('#minecraft:wool_carpets').except('#securitycraft:reinforced/wool_carpets'));
 
-  allthemods.shaped('utilitarian:redstone_clock', [' R ', 'RSR', ' R '], {
-    R: 'minecraft:redstone',
-    S: 'minecraft:chiseled_stone_bricks'
-  });
-
   allthemods.remove({ id: 'utilitarian:tiny_fuel/coal' });
   allthemods.remove({ id: 'utilitarian:tiny_fuel/charcoal' });
 });
