@@ -141,6 +141,8 @@ ServerEvents.tags('item', allthemods => {
   allthemods.remove("reliquified_artifacts:anglers_hat_valuables", ["#c:raw_materials"]);
 
   allthemods.add("c:sandstone/venus_sandstone", ["ad_astra:venus_sandstone"]);
+  
+  allthemods.add("c:foods/pork", ["minecraft:porkchop"])
 });
 
 ServerEvents.tags('entity_type', allthemods => {
