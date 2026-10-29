@@ -1,4 +1,8 @@
 ServerEvents.recipes(allthemods => {
+    allthemods.shaped('3x minecraft:paper', ['RR', 'RR'], { R: 'actuallyadditions:rice' }).id('actuallyadditions:rice_paper')
+    allthemods.replaceInput({ id: 'actuallyadditions:tagged_slime_block' }, '#c:slime_balls',
+        Ingredient.of('#c:slime_balls').except(['industrialforegoing:pink_slime', 'undergarden:goo_ball']))
+        
     allthemods.custom(
         {
             "type": "farmingforblockheads:market",

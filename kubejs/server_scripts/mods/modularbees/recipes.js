@@ -14,6 +14,13 @@ ServerEvents.recipes(allthemods => {
   allthemods.remove({ id: 'modularbees:modular_feeder' })
   allthemods.remove({ id: 'modularbees:modular_overclocker' })
 
+  allthemods.custom({
+    type: 'modularbees:treater_food',
+    boost: 1.15,
+    food: { tag: 'c:buckets/honey' },
+    output: { count: 1, id: 'minecraft:bucket' }
+  }).id('modularbees:treater/honey_bucket')
+
   allthemods.recipes.modularbees.overclocker_electrode('modularbees:electrode_gold', 1.8);
   allthemods.recipes.modularbees.overclocker_electrode('modularbees:electrode_netherite', 2.25);
 

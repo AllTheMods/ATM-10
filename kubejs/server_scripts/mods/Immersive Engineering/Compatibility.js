@@ -55,6 +55,8 @@ ServerEvents.recipes(allthemods => {
 
   allthemods.replaceInput({ id: 'immersiveengineering:crafting/toolupgrade_revolver_bayonet' }, 'immersiveengineering:sword_steel', 'mekanismtools:steel_sword')
   allthemods.remove({id: "immersiveengineering:crafting/ingot_uranium_to_storage_uranium"})
+  allthemods.replaceInput({ id: 'immersiveengineering:crafting/ingot_steel_to_storage_steel' }, '#c:ingots/steel',
+    Ingredient.of('#c:ingots/steel').except('#c:ingots/biosteel'))
 
   function cloche(crop, mod, soil) {
     if (soil === undefined){soil = 'minecraft:dirt'}

@@ -2,6 +2,8 @@
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
 ServerEvents.recipes(allthemods => {
+    allthemods.remove({ id: 'productivebees:honey_bucket' })
+    allthemods.remove({ id: 'productivebees:honey_bucket_from_block' })
     allthemods.remove({ output: 'productivelib:upgrade_productivity_4' })
     allthemods.shaped('productivelib:upgrade_productivity_4', [
         'UHU',
