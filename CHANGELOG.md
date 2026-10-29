@@ -4,6 +4,8 @@
 In-depth changelog of the new versions of the pack.
 
 _Note: use some browser extension like [Markdown Viewer](https://chromewebstore.google.com/detail/markdown-viewer/ckkdlimhmcjmikdlpkmbgfkaikojcbjk) if changelog is too big._
+## 📦 [8.4] - 🗓️ 2026-10-29
+
 ## 📦 [8.3] - 🗓️ 2026-10-15
 
 ## 📦 [8.2] - 🗓️ 2026-09-22
@@ -166,3 +168,4 @@ _Note: use some browser extension like [Markdown Viewer](https://chromewebstore.
 [8.1]: ./changelogs/CHANGELOG-ATM10-8.0-8.1.md
 [8.2]: ./changelogs/CHANGELOG-ATM10-8.1-8.2.md
 [8.3]: ./changelogs/CHANGELOG-ATM10-8.2-8.3.md
+[8.4]: ./changelogs/CHANGELOG-ATM10-8.3-8.4.md
