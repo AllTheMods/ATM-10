@@ -1,0 +1,19 @@
+{
+    "mekanisticrouters.guiText.popup.chemical.direction": "§a§nDireção de Transferência§r\n\nAqui você pode controlar se o roteador envia químicos para o tanque ou puxa químicos do tanque.",
+    "mekanisticrouters.guiText.popup.chemical.maxTransfer": "§a§nTransferência Máxima§r\n\nEsta é a quantidade máxima de químicos que o roteador tentará transferir em uma operação.\n\nNote que a taxa de transferência ainda é limitada pelo número de Melhorias de Transferência Química no roteador, bem como pela taxa de transferência do tanque externo (se houver um). Portanto, este número deve ser considerado um limite em vez de uma meta.",
+
+    "mekanisticrouters.itemText.chemical.maxTransfer": "Taxa de Químicos: Até %s mB / operação",
+    "mekanisticrouters.guiText.tooltip.chemicalTransferTooltip": "§bTransferência Máxima de Químicos\nO máximo (em mB) que será tentado em uma operação.\nIsso ainda é limitado pela taxa de transferência geral do roteador (Melhorias de Velocidade e Transferência Química)",
+
+    "item.mekanisticrouters.chemical_module_mk2": "Módulo Químico Mk2",
+    "item.mekanisticrouters.chemical_module_mk1": "Módulo Químico Mk1",
+    "item.mekanisticrouters.chemical_refill_module": "Módulo de Recarga Química",
+    "item.mekanisticrouters.chemical_upgrade": "Melhoria de Transferência Química",
+
+    "mekanisticrouters.itemText.usage.item.chemical_upgrade": "Aumenta a quantidade de fluido que um roteador pode transferir (em cada direção) em %d mB/tique",
+    "mekanisticrouters.itemText.usage.item.chemical_module_mk1": "Transfere químicos para dentro ou fora do roteador de/para um bloco adjacente na direção do módulo.\n• O buffer do roteador deve ter um item de recipiente de químicos dentro.",
+    "mekanisticrouters.itemText.usage.item.chemical_module_mk2": "Transfere químicos para dentro ou fora do roteador de/para qualquer bloco próximo.\n• O buffer do roteador deve ter um item de recipiente de químicos dentro.\n• Pode transferir de/para tanques.",
+    "mekanisticrouters.itemText.usage.item.chemical_refill_module": "Recarrega sem fio itens de recipiente de químicos (como Jetpacks) no inventário de um jogador.",
+
+    "mekanisticrouters.guiText.popup.chemical_refill.control": "§a§CMódulo de Recarga Química§r\n\nAqui você pode definir: \n- Com qual seção do inventário do jogador deve-se interagir.\n\nO filtro controla quais itens podem receber produtos químicos deste módulo."
+}
