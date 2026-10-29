@@ -1,0 +1,38 @@
+{
+	quest.104EBBC08B4733F5.quest_desc: ["La &dchambre de simulation&r est la machine principale de HNN.\\n\\nUne fois alimentée, elle lance des simulations basées sur le &bmodèle de données&r placé dedans. L'énergie nécessaire dépend aussi du &bmodèle de données&r placé dedans, et s'affiche dans l'infobulle du &bmodèle&r. \\n\\nLa machine a aussi besoin d'au moins une &9matrice de prédiction&r pour lancer une simulation.\\n\\nLes simulations ont deux modes.\\n\\n&a&lEntraînement :&r\\nLe &bmodèle de données&r gagne des données, sans produire de &eprédictions généralisées&r ni de &dprédictions de créature&r. Coûte plus d'&cénergie Forge&r que l'&2&linférence&r.\\n\\n&2&lInférence :&r\\nLe résultat de la simulation est déposé dans la matrice, sans que le &bmodèle de données&r gagne de données.\\n\\nLes simulations produisent toujours une sorte de &eprédiction généralisée&r, utilisable dans diverses recettes. Elle varie selon l'origine de la créature du modèle de données.\\n\\nSi la simulation réussit, vous recevez une &dprédiction de créature&r basée sur le modèle. Plus le niveau du modèle de données est élevé, plus le taux de réussite d'une simulation est grand.\\n\\nPlus rapide que l'&a&lentraînement&r."]
+	quest.104EBBC08B4733F5.title: "&aSimuler des morts"
+	quest.10E8BC20D406D9FB.quest_subtitle: "Fabrique divers matériaux du Nether"
+	quest.12AE2856444996F6.quest_desc: ["Cette quête a été créée par le personnel de &6AllTheMods&r ou un contributeur de la communauté &2Community contributor&r pour être utilisée dans les modpacks AllTheMods.\\n\\nComme tous les packs &6AllTheMods&r sont sous licence &eTous droits réservés&r, cette quête ne peut être utilisée dans aucun pack public non publié par l'équipe &6AllTheMods&r sans autorisation explicite.\\n\\nCette quête est intentionnellement masquée. Si vous la voyez, c'est que vous êtes en mode édition."]
+	quest.14B3542ECB59869C.quest_desc: ["Le &5fabricateur de butin&r est la machine qui vous donne le délicieux butin des prédictions de créature.\\n\\nAvec de l'énergie et une prédiction de créature réussie, vous pouvez choisir quel objet vous voulez obtenir du modèle de données de cette créature. La machine se souvient de votre choix, elle peut donc être automatisée.\\n\\nExemples de prédictions de créature :\\n\\n- &dEnder Dragons&r pour des &dœufs de dragon\\n - &2Zombies&r pour du fer\\n - &0Withers&r pour des &5étoiles du Nether"]
+	quest.14B3542ECB59869C.title: "Créer du &dbutin"
+	quest.14F7F256DA863280.quest_subtitle: "Fabrique divers matériaux de la Twilight Forest"
+	quest.2559201BCF5D497C.quest_subtitle: "Fabrique divers matériaux de l'Overworld"
+	quest.34CD54347E9821B5.quest_desc: ["Une fois votre premier modèle de données fabriqué, il faut le faire monter de niveau pour qu'il soit utile.\\n\\nLes modèles de données commencent au premier niveau : &7défectueux&r. Il faut au moins le monter au niveau &abasique&r pour pouvoir lancer des simulations dessus !\\n\\nUne fois placé dans l'apprenant profond, l'affichage vous indique combien de morts sont nécessaires pour monter de niveau. Vous pouvez aussi voir cette info dans l'infobulle du modèle lui-même."]
+	quest.34CD54347E9821B5.title: "Faire monter les modèles de données de niveau"
+	quest.37EBB8E0D6E5F821.quest_desc: [
+		"&6Hostile Neural Networks&r (HNN en abrégé) est un mod basé sur la simulation de morts de monstres pour obtenir du butin !\\n\\nPour ça, vous allez collecter des « données » sur les monstres, puis lancer des simulations à partir de ces données pour créer leur butin !\\n"
+		"{image:atm:textures/questpics/hnn.png width:150 height:150 align:center}"
+	]
+	quest.37EBB8E0D6E5F821.title: "Bienvenue dans &9Hostile Neural Networks&r !"
+	quest.3E3CBDCEAB0FF28F.quest_desc: ["L'&9apprenant profond&r est l'un des composants de base de HNN.\\n\\nAvec cet objet, un clic droit ouvre un affichage où ranger des &6modèles de données&r pour collecter des données en tuant des monstres.\\n\\nChaque apprenant contient 4 modèles de données, et tant qu'il est quelque part dans votre inventaire, il collecte des données pour les modèles qu'il contient !\\n\\nNote : vous pouvez avoir plusieurs apprenants profonds dans votre inventaire, les morts comptent pour tous les modèles de tous les apprenants."]
+	quest.3E3CBDCEAB0FF28F.quest_subtitle: "L'affichage d'apprentissage"
+	quest.3E3CBDCEAB0FF28F.title: "&aÉtudier les monstres"
+	quest.3F3F3174BD9D03BD.quest_desc: [
+		"Le &dcentre &5de données&r est une multistructure de 7x7x7 qui combine les fonctions de la &dchambre de simulation&r et du &5fabricateur de butin&r d'une façon unique.\\n\\nIl peut gérer 25 &bmodèles de données &6conscients&r en même temps, avec les mêmes effets que les simulations en &2&linférence&r, à une différence près :\\n\\nAu lieu de produire des prédictions de créature, le &dcentre &5de données&r produit directement le butin, avec les mêmes modes possibles que le &5fabricateur de butin&r."
+		"{@pagebreak}"
+		"Pour construire la multistructure, le sol (première couche) doit être en obsidienne (regarde la tâche « obsidiennes » pour voir quelles formes d'obsidienne le &dcentre &5de données&r accepte).\\n\\nLes murs et le plafond doivent être en verre teinté noir. Le contrôleur peut remplacer un bloc du bas d'un mur, et les ports d'E/S peuvent remplacer du verre teinté noir."
+		"{image:atm:textures/questpics/hnn/datacenterintheend.png width:100 height:100 align:center}"
+	]
+	quest.3F3F3174BD9D03BD.quest_subtitle: "Aucune IA générative n'a été utilisée pour faire cette quête"
+	quest.3F3F3174BD9D03BD.title: "Le &dcentre &5de données"
+	quest.4092E914B24C52A7.quest_subtitle: "Fabrique divers matériaux de Starlight"
+	quest.58C2ABED43B2EA61.quest_desc: ["Les &9cadres de modèle&r sont le point de départ pour créer des modèles de données.\\n\\nPour commencer à collecter des données sur une créature précise, fabriquez-en un puis faites un &9clic droit&r sur la créature voulue. Si c'est bien fait, le cadre de modèle se transforme en modèle de données de cette créature.\\n\\nPour collecter des données sur cette créature, placez le nouveau modèle de données dans un &aapprenant profond&r, puis tuez cette créature avec l'apprenant profond dans votre inventaire."]
+	quest.58C2ABED43B2EA61.quest_subtitle: "« Collecter des données »"
+	quest.58C2ABED43B2EA61.title: "&9Modéliser les créatures"
+	quest.5A23107C363A209E.quest_subtitle: "Fabrique divers matériaux de l'End"
+	task.15D2A03410859443.title: "Tous droits réservés"
+	task.5392CADA51B80879.title: "Verre teinté noir"
+	task.6B580F95A2E5A465.title: "Tous droits réservés"
+	task.6B84DAA99028ACEA.title: "Obsidiennes"
+	task.7F17E48ACE65C84E.title: "Modèles de données"
+}

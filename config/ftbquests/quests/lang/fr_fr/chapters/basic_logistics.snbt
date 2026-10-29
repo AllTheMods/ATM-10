@@ -1,7 +1,145 @@
 {
+	quest.034F2CDF0830254B.quest_desc: [
+		"Fonctionne exactement comme l'importateur d'objets : mettez l'&eimportateur de fluide&r sur un réservoir contenant du liquide. Puis l'&einterface de fluide&r là où vous voulez l'envoyer, et reliez-les avec des câbles logiques. Enfin, une carte de variable comme avant ! \\n\\nIl peut aussi tirer des liquides jusqu'à la limite des entiers. \\n\\nIl ne pose ni ne prend de sources de fluide dans le monde, il déplace seulement les fluides d'un réservoir à un autre."
+		"{image:atm:textures/questpics/logistics/id_fluid.png width:200 height:50 align:center}"
+	]
+	quest.034F2CDF0830254B.title: "&eImportation de fluides"
+	quest.03C40D6A5D722543.quest_desc: ["Les cartes de variable sont nécessaires pour lancer des interactions comme l'importation d'objets. On les met dans l'un des emplacements de l'importateur. \\n\\nEnsuite, vous pouvez tout modifier avec le bouton +. Vous pouvez changer la quantité importée, l'emplacement d'objet, le canal, pratiquement tout avec cette seule carte. \\n\\nSi, comme moi, vous voulez juste déplacer des objets sans rien de compliqué, mettez-la et changez éventuellement la limite de quantité déplacée."]
+	quest.046C417B2ADF3AA7.quest_desc: ["Les cartes ont leurs limites. L'extraction d'objets ne peut extraire que 8 objets par opération. L'extraction de fluide seulement 5 seaux. Et Dieu sait combien pour les produits chimiques et l'énergie. \\n\\nC'est du &2&lMinecraft&r moddé, ces limites ne suffiront pas, il faut les surcadencer. \\n\\nMettez des overclockers en haut à droite de la carte et ça augmentera la quantité qu'elle peut transférer !"]
+	quest.046C417B2ADF3AA7.quest_subtitle: "Max : 4"
+	quest.06767BA0AFE8C1EE.quest_desc: ["1... 2... il y a aussi un 4 quelque part. \\n\\nPour choisir un nombre, mettez l'objet, puis faites un clic gauche ou droit pour changer la quantité. Avec Maj, ça change de 10 en 10. Une fois le nombre choisi, mettez-le dans une carte ! \\n\\nElle attendra alors que ce nombre d'objets soit présent pour commencer à les prendre. Elle laissera aussi cette quantité dans le premier inventaire."]
+	quest.0BB562FB44B0AAA7.quest_desc: ["Les cartes ne sont pas les seules à avoir des limites, alors elles ne sont pas non plus les seules à avoir des overclockers ! \\n\\nCeux-ci se mettent dans le &cnœud&r lui-même, en bas à droite, et accélèrent ses opérations."]
+	quest.0BB562FB44B0AAA7.quest_subtitle: "Max : 8"
+	quest.1834B5C1F8435D7A.quest_desc: [
+		"Les tuyaux mécaniques sont la façon dont &5&lMeka&r fait circuler les fluides.\\n\\nCertaines machines de &5&lMeka&r ont besoin de fluides, comme le séparateur électrolytique qui a besoin d'eau, ou les usines d'évaporation pour faire du lithium."
+		"{image:atm:textures/questpics/logistics/meka_pipe.png width:200 height:50 align:center}"
+	]
+	quest.1834B5C1F8435D7A.quest_subtitle: "Fluides"
+	quest.1C70D739CE464E25.quest_desc: ["Fonctionne exactement comme les &2cartes d'objets&r : il faut des cartes d'extraction et d'insertion. Mais cette fois, on prend dans des réservoirs contenant des &9fluides&r pour les mettre dans un autre réservoir. Non, ça ne déplace pas de sources de &9fluide&r dans le monde."]
+	quest.1C70D739CE464E25.title: "&9Carte de fluide"
+	quest.230582AAFC0A1632.quest_desc: ["Cette quête a été créée par le personnel de &6AllTheMods&r ou un contributeur de la communauté &2Community contributor&r pour être utilisée dans les modpacks AllTheMods.\\n\\nComme tous les packs &6AllTheMods&r sont sous licence &eTous droits réservés&r, cette quête ne peut être utilisée dans aucun pack public non publié par l'équipe &6AllTheMods&r sans autorisation explicite.\\n\\nCette quête est intentionnellement masquée. Si vous la voyez, c'est que vous êtes en mode édition."]
+	quest.2329AA0AFBEF1E13.quest_desc: [
+		"&e&lPipez&r est le mod de &f&llogistique&r le plus simple. Si simple que tout le mod tient sur cette page de quêtes, avec encore de la place pour d'autres mods !"
+		""
+		"Attachez le tuyau voulu là où vous voulez déplacer des objets, et utilisez la clé à tuyau pour choisir quelle face tire, pousse ou ne se connecte pas."
+		""
+		"Les autres clés marchent aussi avec &e&lPipez&r !"
+		""
+		"(Peut faire ramer en grande quantité, mais toujours moins que les tuyaux de &5&lMekanism&r.)"
+	]
+	quest.2329AA0AFBEF1E13.title: "&l&ePipez"
+	quest.2A6900E87DE8BAE0.quest_desc: ["Le filtre de mod est un autre filtre plutôt basique. Vous y mettez des objets et il fonctionne en liste blanche ou en liste noire. Mais au lieu de ne concerner que cet objet, il concerne tous les objets du même mod. \\n\\nUne gemme d'Apotheosis n'autorise que les objets d'Apotheosis. Un alliage de Mekanism n'autorise que les objets de Mekanism. Et ainsi de suite."]
+	quest.2A976D41F79C34B1.quest_desc: ["&e&lPipez&r a sa propre façon de filtrer les objets, mais il faut au moins une amélioration avancée. Avec une amélioration avancée, vous pouvez cliquer sur le bouton Ajouter pour ajouter des filtres. \\nVous pouvez alors mettre dans le filtre : un objet, un tag ou du NBT. \\n\\nVous pouvez aussi y ajouter un filtre de destination. Pour le régler, faites accroupi + clic droit sur un inventaire avec. \\n\\nIl faudra aussi choisir liste blanche ou liste noire : seulement ce qui est filtré, ou tout sauf ce qui est filtré."]
+	quest.2F4458E9921DEB86.quest_desc: [
+		"Ces &e&lPipez&r existent surtout à cause de &5&lMekanism&r. &5&lMekanism&r ajoute le dernier état de la matière sous forme de &agaz&r. Le &agaz&r ne peut être transporté par aucun autre &e&lPipez&r, alors pour déplacer de l'hydrogène ou du lithium, il vous faut des &atuyaux à gaz&r. \\n\\n(J'ai toujours eu du mal à savoir si un objet de &5&lMekanism&r est un &agaz&r, un &bfluide&r ou même un type d'infusion. Dans une machine, elle peut indiquer &agaz&r ou &bfluide&r, ce qui peut vous aider. Sinon, regarde dans JEI les autres recettes qui l'utilisent !)"
+		"{image:atm:textures/questpics/logistics/pipez_gas.png width:200 height:50 align:center}"
+	]
 	quest.2F4458E9921DEB86.title: "&aTuyau de gaz"
+	quest.3065EA195D0A36BA.quest_desc: ["Les tags sont un élément très important pour regrouper les objets dans Minecraft. Alors bien sûr, on peut en profiter pour les filtres ! \\n\\nVous pouvez mettre un objet et choisir un tag, ou si vous le connaissez, le taper vous-même. \\n\\nTrès utile, par exemple pour sortir l'équipement d'un système avec le tag des outils. \\n\\n(Vous pouvez aussi trouver les tags avec la commande /kubejs hand, qui montre les tags de l'objet dans votre main.)"]
+	quest.308935C85364B04D.quest_desc: ["Comme chaque carte garde ses propres données, changer sans arrêt les réglages de chaque carte peut être pénible. Alors clonons-les plutôt ! \\n\\nClic gauche sur une carte avec le cloneur pour copier ses données, puis clic droit sur une carte pour lui donner ces données !"]
+	quest.30DE4F5BC3EDB555.quest_desc: [
+		"Les transporteurs logistiques sont ce qu'utilise &5&lMeka&r pour déplacer objets et blocs sur une distance. \\n\\nIl faut les configurer pour tirer ou pousser vers des inventaires comme des coffres ou des tiroirs."
+		"{image:atm:textures/questpics/logistics/meka_transporter.png width:200 height:50 align:center}"
+	]
+	quest.30DE4F5BC3EDB555.quest_subtitle: "Blocs + objets"
+	quest.316B513FE568EF57.quest_desc: [
+		"La chaleur est un autre élément de &5&lMekanism&r : elle alimente beaucoup de machines et de multistructures. Les usines d'évaporation thermique et les réacteurs à fusion utilisent tous les deux la chaleur. Et ce sont les conducteurs qui servent à la déplacer !"
+		"{image:atm:textures/questpics/logistics/meka_conductor.png width:200 height:50 align:center}"
+	]
+	quest.316B513FE568EF57.quest_subtitle: "Chaleur"
+	quest.33433A443B65D252.quest_desc: [
+		"&bEau&r=&bbleu&r, &bEau&r=&bfluide&r, donc &bbleu&r=&bfluide&r\\n\\nBeaucoup de mods ont leurs propres &bfluides&r, et même Minecraft a les siens, avec l'&beau&r et la &clave&r. Vous aurez sans doute besoin de déplacer ces &bfluides&r, et un bon moyen est d'utiliser des &btuyaux à fluide&r. \\n\\nOn peut les relier à des éviers pour transporter de l'&beau&r infinie !"
+		"{image:atm:textures/questpics/logistics/pipez_fluid.png width:200 height:50 align:center}"
+	]
 	quest.33433A443B65D252.title: "&bTuyau de fluide"
+	quest.34CFE1439262AA72.quest_desc: [
+		"&5&lMekanism&r est un énorme mod technologique très populaire, alors bien sûr il a sa propre &llogistique&r."
+		""
+		"Les différentes machines sont exigeantes sur leurs configurations, qu'il faut changer dans leur interface pour bien déplacer les objets. Ensuite, vous pouvez utiliser les &5&ltuyaux Meka&r pour déplacer tout ce qu'il faut !"
+		""
+		"Mais attends, ils ne marchent pas que pour &5&lMekanism&r ! Ils marchent aussi pour plein d'autres machines ! Il suffit de les configurer avec une clé pour pousser et tirer."
+		""
+		"(Ils peuvent faire un peu ramer en grande quantité, alors fais attention.)"
+	]
+	quest.34CFE1439262AA72.title: "&5&lMekanism"
+	quest.36836AD948F96B9F.quest_desc: [
+		"Le plus simple des plus simples &e&ltuyaux&r : le &etuyau à objets&r. \\n\\nIl déplace des objets d'un inventaire à un autre. D'un coffre à un autre, d'une ferme à un système, ou même d'une carrière à un four. \\n\\nTrès simple : reliez les &etuyaux&r à ce que vous voulez déplacer, et utilisez votre clé pour choisir de quelle face il tire."
+		"{image:atm:textures/questpics/logistics/pipez_item.png width:200 height:50 align:center}"
+	]
 	quest.36836AD948F96B9F.title: "&eTuyau d'item"
+	quest.47768B1FFD57D56E.quest_desc: ["Vous ne détestez pas devoir tirer de la &4redstone&r partout ? Si on peut avoir des FE sans fil, pourquoi pas de la &4redstone&r sans fil ? Enfin c'est possible grâce à &c&lLaserIO&r. Vous pouvez faire entrer un &4signal de redstone&r avec la &4carte&r, puis utiliser une &4carte de sortie&r pour faire sortir le &4signal&r ailleurs !"]
+	quest.47768B1FFD57D56E.title: "&4Carte de redstone"
+	quest.47A2BEFB11F4D581.quest_desc: ["Le filtre basique est plutôt... facile à utiliser ! Mettez-y simplement des objets et ils sont filtrés. \\n\\nVous pouvez choisir liste blanche (n'autoriser que ces objets) ou liste noire (refuser uniquement ces objets). \\n\\nVous pouvez aussi choisir de tenir compte des données NBT ou non. Tenir compte des NBT veut dire avoir les mêmes enchantements, la même durabilité, ou même les mêmes créatures à l'intérieur de l'objet. Sinon, il accepte cet objet quelles que soient ses NBT."]
+	quest.493D04D954E4FBA0.quest_desc: [
+		"&5&lMekanism&r est un mod technologique... pourquoi êtes-vous surpris qu'il faille de l'énergie pour ses machines ?"
+		"{image:atm:textures/questpics/logistics/meka_cable.png width:200 height:50 align:center}"
+	]
+	quest.493D04D954E4FBA0.quest_subtitle: "Énergie"
+	quest.4BC2D7FCDD792DBA.quest_desc: [
+		"Parce que les objets, blocs et fluides normaux de &2&lMinecraft&r ne suffisaient pas. Ni la chaleur et l'énergie ajoutées. \\n\\nLe reste de &5&lMekanism&r se déplace avec des tubes pressurisés. Surtout les gaz : si vous utilisez &5&lMekanism&r, vous utiliserez des gaz comme l'hydrogène et l'oxygène. \\nLes types d'infusion sont similaires, comme l'infusion de charbon et de redstone. Les boues servent au traitement des minerais. \\nEt les pigments de teinture sont l'essence de la couleur : tout objet teint peut être modifié avec cette partie de &5&lMekanism&r."
+		"{image:atm:textures/questpics/logistics/meka_tube.png width:200 height:50 align:center}"
+	]
+	quest.4BC2D7FCDD792DBA.quest_subtitle: "Gaz et plus"
+	quest.4C41FD926F31180B.quest_desc: ["Pour déplacer des &2objets&r avec &c&lLaserIO&r, il vous faut des &2cartes d'objets&r. \\n\\nRéglez-en une sur Extraire et mettez-la sur la face du &cnœud laser&r d'où vous voulez importer. Puis règle l'autre sur Insérer et mettez-la sur la face vers laquelle vous voulez exporter les objets. \\n\\nIl y a plusieurs réglages possibles pour l'extraction, pour choisir l'ordre de destination des objets s'il y a plusieurs endroits. Le tourniquet extrait les objets dans un ordre précis au lieu de l'inventaire le plus proche d'abord."]
+	quest.4C41FD926F31180B.title: "&2Carte d'objets"
+	quest.4FBAB3A0FBF8CE2F.quest_desc: [
+		"Pourquoi s'inquiéter de ce qu'on déplace quand on peut tout déplacer ! Les &5Pipez universels&r font encore moins de distinctions que les &cPipez d'énergie&r. Ils peuvent déplacer des &eobjets&r, des &bfluides&r ou de l'&cénergie&r."
+		"{image:atm:textures/questpics/logistics/pipez_universal.png width:200 height:50 align:center}"
+	]
 	quest.4FBAB3A0FBF8CE2F.title: "&5Tuyau universel"
+	quest.52F85CED20C8B1E9.quest_desc: ["L'&eénergie&r doit bien circuler d'une façon ou d'une autre, de préférence là où on le veut. Déplacez-la exactement comme les &2objets&r, les &9fluides&r et les &5produits chimiques&r !"]
+	quest.52F85CED20C8B1E9.title: "&eCarte d'énergie"
+	quest.53EC96FA0E7C4ED4.quest_desc: [
+		"Tout mod technologique a besoin d'&cénergie&r, que ce soit des FE, des RF ou autre chose ! Les &cPipez d'énergie&r ne font pas de distinction, ils transportent, c'est tout ! \\n\\nCertaines machines ont des ports d'E/S d'&cénergie&r stricts, alors vérifie bien !"
+		"{image:atm:textures/questpics/logistics/pipez_energy.png width:200 height:50 align:center}"
+	]
 	quest.53EC96FA0E7C4ED4.title: "&cTuyau d'énergie"
+	quest.5C0F6B1C93A52113.quest_desc: ["Voici le vrai cœur de &c&lLaserIO&r ! Les &cnœuds laser&r sont là où vont réellement les cartes pour fonctionner. \\n\\nIls déplacent les objets depuis n'importe quel inventaire adjacent dans les 4 directions cardinales, plus le haut et le bas. Pour aller vers des inventaires plus éloignés, il faut un second &cnœud&r et les relier avec la clé : accroupi + clic droit sur le 1er, puis clic droit sur le 2e. \\n\\nVous mettez les cartes dans les emplacements de la bonne direction, et vous pouvez aussi y mettre des overclockers de nœud pour qu'il travaille plus vite."]
+	quest.5F1218CF8EFC607B.quest_desc: [
+		"&c&lLaserIO&r est la suite, par DireWolf, de la &llogistique&r d'&a&lEnderIO&r."
+		""
+		"Tout tourne autour du déplacement d'objets avec des &clasers&r ! Qui n'aime pas les &clasers&r ?!"
+		""
+		"Et tout commence avec la puce logique."
+	]
+	quest.5F1218CF8EFC607B.title: "&c&lLaser IO"
+	quest.6112956E19017D2D.quest_desc: ["Les câbles logiques sont différents des autres &e&lPipez&r ou &5&ltuyaux Meka&r. Les autres tuyaux agissent comme des entonnoirs : les objets passent d'un inventaire au tuyau, puis au second inventaire. Les câbles logiques sautent l'intermédiaire, ce qui évite aussi beaucoup de lag. \\n\\nIls servent juste à relier les importateurs et les interfaces."]
+	quest.617695A9CA45D88F.quest_desc: ["En utilisant &c&lLaserIO&r pour la &llogistique&r, vous pouvez vous retrouver avec BEAUCOUP de cartes. Chacune prend un emplacement dans votre inventaire, ça peut vite devenir encombré. Si seulement il y avait un rangement pour les cartes... ah attends, il y en a un : le porte-cartes ! \\n\\nVous pouvez y ranger plusieurs cartes, et quand vous ouvrez un nœud laser, le porte-cartes s'ouvre aussi, comme un second inventaire. Très pratique !"]
+	quest.6718043D0F2D1830.quest_desc: ["On a demandé à DireWolf de faire une extension de ses cartes pour qu'elles marchent avec &5&lMekanism&r et ses... autres états de la matière. Tout ce que les tubes pressurisés transportent, ces cartes le transportent aussi : gaz, types d'infusion et pigments."]
+	quest.6718043D0F2D1830.title: "&5Carte chimique"
+	quest.6A962535CD68713E.quest_desc: ["Les &e&lPipez&r déplacent plus ! \\n\\nToutes les améliorations augmentent la quantité déplacée par les &e&lPipez&r et donnent plus d'options pour le &e&ltuyau&r. \\n\\nL'amélioration de base permet l'activation par redstone avec les &e&lPipez&r, de changer la distribution (le plus proche d'abord, le plus loin d'abord, à tour de rôle ou au hasard) et d'ajouter des filtres.\\n\\nLes améliorations améliorée, avancée et ultime n'apportent rien de nouveau, elles déplacent juste plus !"]
+	quest.6CD60A9D88227005.quest_desc: ["Vous avez déjà voulu faire passer un tuyau entre des blocs ? Permettez-moi de vous présenter les &3étiquettes de transfert&r. Les &3étiquettes de transfert&r marchent pour les objets et les fluides.\\n\\n&lMode d'emploi&r\\n\\nVous pouvez poser des &3étiquettes&r sur des blocs par accroupi + clic droit.\\nVous pouvez interagir avec l'&3étiquette&r en tenant une autre &3étiquette&r ou un &#FFAC3Baccès d'étiquette&r et en faisant un clic droit sur l'&3étiquette&r posée.\\nVous pouvez retirer l'&3étiquette&r posée par un clic gauche sur l'&3étiquette&r en tenant une autre &3étiquette&r ou un &#FFAC3Baccès d'étiquette&r.\\nVous pouvez accéder aux &3étiquettes&r à travers les blocs avec l'&#FFAC3Baccès d'étiquette&r.\\n\\\\n&lAccélération&r\\n\\nVous pouvez accélérer les &3étiquettes&r en ajoutant le même type d'&3étiquette&r dans les emplacements de quantité ou de vitesse."]
+	quest.6CD60A9D88227005.quest_subtitle: "Quand il faut faire passer un tuyau entre vos blocs"
+	quest.6CD60A9D88227005.title: "&3&lÉtiquettes de transfert"
+	quest.6CD7D99AA102A5C3.quest_desc: ["&n&f&lLogistique&r : \\nun système pour déplacer, gérer et stocker des objets ou des ressources. \\n\\nDans Minecraft moddé, c'est pareil : déplacer des objets ! Avec les mods, il vous faudra des objets par milliers, et si vous voulez l'&6&létoile&r, on parle de millions ! Il faudra donc déplacer des objets depuis des usines, des machines, des fermes, et surtout des coffres. C'est à ça que sert la &l&flogistique&r."]
+	quest.6CD7D99AA102A5C3.title: "&lLogistique"
+	quest.6E05B62A40D5A891.quest_desc: [
+		"&3&lIntegrated Dynamics&r, c'est avant tout de la &f&llogistique&r ! C'est pratiquement la définition de la &llogistique&r."
+		""
+		"Tout tourne autour du déplacement, de la gestion et du stockage d'objets. Vous n'aurez peut-être même pas besoin de la clé à molette, tellement c'est bien conçu ! Prenez-en une quand même, au cas où."
+		""
+		"(La solution de tuyaux qui lague le moins, elle est recommandée.)"
+	]
+	quest.6E05B62A40D5A891.title: "&3&lIntegrated Dynamics"
+	quest.6F152402756DA35E.quest_desc: [
+		"Pour que ça marche, pose l'importateur d'objets sur l'inventaire d'où vous voulez tirer les objets. Ensuite, pose l'interface sur le second inventaire et reliez-les avec des câbles logiques. Puis mettez la carte de variable dans l'importateur et modifiez-la comme vous voulez. \\n\\nOn peut la régler pour importer des objets jusqu'à la limite des entiers (plus de 2 milliards)."
+		"{image:atm:textures/questpics/logistics/id_item.png width:200 height:50 align:center}"
+	]
+	quest.6F152402756DA35E.title: "&fImportation d'objets"
+	quest.76CECFB244F39F18.quest_desc: [
+		"Collez simplement un &3importateur d'énergie&r sur une source d'énergie et reliez-le à une &3interface d'énergie&r avec des câbles logiques ! Mettez et modifiez les cartes de variable et vous déplacerez de l'énergie comme un pro ! \\n\\nJe dois dire que j'ai eu des problèmes d'importation ou d'exportation avec les Flux Plugs et Flux Points, alors faites-y attention."
+		"{image:atm:textures/questpics/logistics/id_energy.png width:200 height:50 align:center}"
+	]
+	quest.76CECFB244F39F18.title: "&3Importation d'énergie"
+	quest.7BC8F50A89A3BE1A.quest_desc: ["Elles servent juste à relier les &cnœuds laser&r entre eux et aux connecteurs. Pas très important, je voulais juste rester dans le thème des clés. \\n\\nElle sert aussi de clé pour d'autres réglages !"]
+	quest.7EE27C3908008E20.quest_desc: ["Si vous devez tirer vos &cnœuds laser&r sur une longue distance, essaie les connecteurs ! Utilisez simplement la clé comme d'habitude."]
+	task.2BA7FC10243AA011.title: "Tubes pressurisés"
+	task.337725ECA2C04090.title: "Transporteurs logiques"
+	task.4448DE84ABA737BE.title: "Câbles universels"
+	task.48A30B08A090BD75.title: "Clés"
+	task.48CF7A7622423DEA.title: "Améliorations de tuyau"
+	task.4CCB830CFDD43B5E.title: "Tous droits réservés"
+	task.5B7926B511000F1F.title: "Tuyaux mécaniques"
+	task.5E4B74F97BDED243.title: "Tous droits réservés"
+	task.79E961F671475850.title: "Conducteurs thermodynamiques"
 }
