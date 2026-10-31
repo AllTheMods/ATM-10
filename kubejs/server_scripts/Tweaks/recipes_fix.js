@@ -353,6 +353,24 @@ KubeJSTweaks.beforeRecipes(event => {
         }
       }
     })
+  
+    if (Platform.getInfo("mysticalagriculture").version == "8.0.29") { // bump if MA didn't fix yet on newer version
+      event.getEntry(["mysticalagriculture:seed/infusion/rock_crystal"])
+        .forEach(entry => {
+          let ingredients = entry.json().get("ingredients")
+          let rockCrystalIndexes = []
+          let index = 0
+          ingredients.forEach(ing => {
+            if (ing.get("component").asString == "material") {
+              rockCrystalIndexes.push(index)
+            }
+            index++
+          })
+          rockCrystalIndexes.forEach(idx => {
+            ingredients.set(idx, {"item": "astralsorcery:rock_crystal"})
+          })
+        })
+    }
 
   console.log(`Fixing recipes took ${timer.stop().elapsed("milliseconds")} ms...`)
 })
