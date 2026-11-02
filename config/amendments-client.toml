@@ -1,0 +1,143 @@
+[general]
+	tooltip_hints = true
+	#Makes dynamically generated assets depend on texture packs too and not just vanilla files
+	texture_pack_support = false
+	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
+	dynamic_assets_generation_mode = "CACHED"
+
+[sign]
+	#Gives signs a pixel consistent model and texture. Also affects other mods. This also makes them use a Block Model, making them render much much much faster than as block entities
+	pixel_consistent = true
+	#A scalar multiplier that will be applied to sign text making it brighter, supposedly more legible
+	# Default: 1.2
+	# Range: 0.0 ~ 5.0
+	text_color_multiplier = 1.2
+	#A list of sign blocks that will NOT be affected by the pixel consistent sign setting
+	sign_blacklist = []
+
+[projectiles]
+	#Makes snowballs render in 3D
+	snowball_3d = true
+	#Makes slimeballs render in 3D (supplementaries only)
+	slimeball_3d = true
+	#Makes ghast & blazes fireballs render in 3D
+	fireball_3d = true
+	#Makes ghast & blazes fireballs leave a trail of particles when moving
+	ghast_fireball_trail = true
+	#Makes dragon fireballs leave a trail of particles when moving
+	dragon_fireball_trail = true
+	#Makes 3D charges tumble in the air when moving
+	charges_tumble = true
+	#Makes 3D snowballs and slimeballs (supp compat) tumble in the air when moving
+	projectiles_tumble = false
+
+	[projectiles.dragon_fireball]
+		#Makes dragon's breath particles emissive to better match new visuals
+		dragon_breath_emissive = true
+
+[lily_pad]
+	#set to 0 tho have lilypads at the same exact position as vanilla.negative numbers will place them in their own blockspace right below avoiding any clipping.best of both worlds at default as its barely within its space
+	# Default: -0.016625
+	# Range: -1.0 ~ 1.0
+	y_offset = -0.016625
+
+[bell]
+	#Visually attach chains and ropes to bells
+	chain_attachment = true
+
+[brewing_stand]
+	#Colors the brewing stand potion texture depending on the potions it's brewing.
+	#If using a resource pack add tint index from 0 to 3 to the 3 potion layers
+	brewing_stand_colors = true
+
+[arrows]
+	#Makes tipped arrows show their colors when loaded with a crossbow
+	crossbows_colors = true
+
+[buckets]
+	#Axolotl buckets show the color of the axolotl inside
+	axolotl_variants = true
+
+[tripwire_hook]
+	#Makes hooks render faster using a block model instead of tile renderer. Cost is that animated and enchanted items will appear static
+	fast_hooks = false
+
+[hanging_sign]
+	#Scale of items on hanging signs (unit is in pixel they would occupy). Set to 8 to better match the pixels on the sign
+	# Default: 10.0
+	# Range: 0.0 ~ 32.0
+	item_pixel_scale = 10.0
+	#Makes signs swing!
+	swinging_signs = true
+	#Signs have visual attachment to walls and fences
+	sign_attachment = true
+
+	[hanging_sign.swing_physics]
+		frequency = 0.6000000238418579
+		collision_considers_entity_hitbox = true
+		collision_inertia = 1.0
+		collision_force = 15.0
+		min_angle = 0.7999999523162842
+		max_angle = 60.0
+		damping = 0.5249999761581421
+
+[lantern]
+	#Makes wall lantern use a simple block model instead of the animated tile entity renderer. This will make them render much faster but will also remove the animationNote that this option only affect lanterns close by as the one far away render as fast by default
+	fast_lanterns = false
+	#Shades swinging wall lanterns like an item instead of like a block. Makes them look the same on every wall, but loses ambient occlusion
+	entity_shading = true
+	#Size lanterns when held in hand
+	# Default: 0.625
+	# Range: 0.0 ~ 2.0
+	lantern_item_size = 0.625
+	#Gives a special animation to lanterns when held in hand
+	lantern_item_holding = true
+	#Makes lantern holding animation have the arm angled more upwards. Looks better if you have dynamic lights on
+	lantern_item_holding_up = false
+
+	[lantern.swing_physics]
+		frequency = 0.6000000238418579
+		collision_considers_entity_hitbox = true
+		collision_inertia = 1.0
+		collision_force = 15.0
+		min_angle = 0.7999999523162842
+		max_angle = 60.0
+		damping = 0.5249999761581421
+
+[cauldron]
+	#Gives a unique texture to potion cauldrons
+	potion_texture = true
+
+[jukebox]
+	#Use the new jukebox model
+	new_model = true
+	#Makes jukebox disc spin while playing
+	disc_spin = true
+
+[misc]
+	#Gives a special animation to torches when held in hand
+	torch_item_holding = false
+	#Size lanterns when held in hand
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	torch_item_size = 1.0
+	#Renders a flame particle on top of held torches
+	torch_item_flame = false
+	#Gives a special animation to supplementaries candle holders when held in hand
+	candle_holder_item_holding = true
+	#Size lanterns when held in hand
+	# Default: 0.625
+	# Range: 0.0 ~ 2.0
+	handle_holder_item_size = 0.625
+	#Makes Torch and Lantern holding animation be fixed, not changing with player facing
+	fixed_holding_animations = false
+	#Prevents campfire smoke from rendering if there is a solid block above it
+	campfire_smoke_through_blocks = false
+	#Gives the villager trade buttons the same look loom and stonecutter buttons have
+	villager_trade_buttons = true
+	#Makes the selected hotbar slot slide to its new position. Higher is faster, 0 for vanilla behavior
+	# Default: 2.5
+	# Range: 0.0 ~ 5.0
+	hotbar_slot_animation_speed = 2.5
+	#If the hotbar slot animation wraps around the edges
+	hotbar_slot_animation_wrap = true
