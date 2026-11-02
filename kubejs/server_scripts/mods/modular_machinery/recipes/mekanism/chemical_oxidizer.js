@@ -17,6 +17,7 @@ ServerEvents.recipes(allthemods => {
         '#c:storage_blocks/coal' : ['mekanism:carbon', 90],
         'productivebees:configurable_honeycomb[productivebees:bee_type="productivebees:lithium"]' : ['mekanism:lithium', 10],
         '#c:dusts/sulfur' : ['mekanism:sulfur_dioxide', 100],
+        '#c:storage_blocks/sulfur' : ['mekanism:sulfur_dioxide', 900],
         '#c:fuels/bio' : ['mekanism:bio', 5],
         '#c:dusts/refined_obsidian' : ['mekanism:refined_obsidian', 10],
         'productivebees:configurable_comb[productivebees:bee_type="productivebees:wasted_radioactive"]' : ['mekanism:nuclear_waste', 200],
