@@ -36,6 +36,9 @@ ServerEvents.tags('item', allthemods => {
         'mysticalagriculture:sky_steel_essence',
         'mysticalagriculture:xychorium_gem_essence'
       ])
+
+    allthemods.removeAllTagsFrom('mysticalagriculture:yellorium_essence');
+    allthemods.removeAllTagsFrom('mysticalagriculture:yellorium_seeds');
 })
 
 ServerEvents.tags('block', allthemods => {
@@ -51,6 +54,8 @@ ServerEvents.tags('block', allthemods => {
         allthemods.add('ae2:growth_acceleratable', seeds.replace('seeds', 'crop'))
         allthemods.add('minecraft:sword_efficient', seeds.replace('seeds', 'crop'))
     }
+
+    allthemods.removeAllTagsFrom('mysticalagriculture:yellorium_seeds');
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
