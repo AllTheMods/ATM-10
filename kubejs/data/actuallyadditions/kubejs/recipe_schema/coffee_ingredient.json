@@ -1,0 +1,28 @@
+{
+  "keys": [
+    {
+      "name": "ingredient",
+      "role": "input",
+      "type": "ingredient"
+    },
+    {
+      "name": "max_amplifier",
+      "type": "non_negative_int"
+    },
+    {
+      "name": "effects",
+      "type": {
+        "type": "list",
+        "component": "actuallyadditions:effect"
+      },
+      "default_optional": true
+    },
+    {
+      "name": "extra_text",
+      "role": "other",
+      "type": "optional_string",
+      "default_optional": true
+    }
+  ],
+  "unique": ["ingredient"]
+}

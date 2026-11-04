@@ -1,0 +1,22 @@
+{
+  "keys": [
+    {
+      "name": "result",
+      "role": "output",
+      "type": {
+        "type": "list",
+        "component": {
+          "type": "kubejstweaks:codec",
+          "class": "de.ellpeck.actuallyadditions.mod.crafting.CrushingRecipe$Serializer",
+          "field": "RESULT_CODEC"
+        }
+      }
+    },
+    {
+      "name": "ingredient",
+      "role": "input",
+      "type": "ingredient"
+    }
+  ],
+  "unique": ["result"]
+}

@@ -1,0 +1,22 @@
+{
+  "actuallyadditions:effect": {
+    "type": "custom_object",
+    "keys": [
+      {
+        "name": "effect",
+        "component": {
+          "type": "registry_element",
+          "registry": "mob_effect"
+        }
+      },
+      {
+        "name": "duration",
+        "component": "ticks"
+      },
+      {
+        "name": "amplifier",
+        "component": "non_negative_int"
+      }
+    ]
+  }
+}

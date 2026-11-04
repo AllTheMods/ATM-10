@@ -1,0 +1,22 @@
+{
+  "keys": [
+    {
+      "name": "result",
+      "role": "output",
+      "type": "fluid_stack"
+    },
+    {
+      "name": "ingredient",
+      "role": "input",
+      "type": "fluid_stack"
+    },
+    {
+      "name": "time",
+      "type": "ticks",
+      "optional": 100,
+      "always_write": true,
+      "function_names": ["duration"]
+    }
+  ],
+  "unique": ["result"]
+}
