@@ -21,6 +21,9 @@ RecipeViewerEvents.removeEntriesCompletely('item', allthemods => {
         allthemods.remove(`allthecompressed:greg_star_block_${i}x`)
     }
 
+    allthemods.remove('mysticalagriculture:yellorium_essence');
+    allthemods.remove('mysticalagriculture:yellorium_seeds');
+
     //allthemods.remove('relics:researching_table')
     allthemods.remove("extradisks:infinite_chemical_storage_block")
     allthemods.remove("extradisks:infinite_chemical_storage_disk")
