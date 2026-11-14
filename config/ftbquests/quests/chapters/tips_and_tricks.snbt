@@ -616,5 +616,175 @@
 			x: -2.5d
 			y: 3.0d
 		}
+		{
+			icon: { id: "tombstone:book_of_recycling" }
+			id: "5F8B53354BCA4474"
+			rewards: [{
+				command: "/advancement grant @s only tombstone:adventure/use_recycling"
+				id: "6D39C30EA3FC45AF"
+				permission_level: 2
+				type: "command"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "1A23B6B9F69A4473"
+					item: { count: 1, id: "tombstone:grave_dust" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1L
+					id: "A47CF3E51BE74964"
+					item: { count: 1, id: "minecraft:warped_fungus" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1L
+					id: "61E41A64EEB74F22"
+					item: { count: 1, id: "minecraft:crimson_fungus" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1L
+					id: "2F5ED678D4E04E34"
+					item: { count: 1, id: "minecraft:book" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1L
+					id: "E0BF2E7ACB3E4331"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:dusts/glowstone)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1L
+					id: "67CC54D953274C61"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:dusts/redstone)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5F8B53354BCA4474"]
+			icon: { id: "tombstone:book_of_recycling" }
+			id: "E6861E48F2134892"
+			rewards: [{
+				command: "/advancement grant @s only tombstone:adventure/recycler"
+				id: "7EB03F12B9AE4CA6"
+				permission_level: 2
+				type: "command"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "1140C9CD9D5D478C"
+					item: { count: 1, id: "tombstone:grave_dust" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1L
+					id: "48F3D46423BD4825"
+					item: { count: 1, id: "minecraft:warped_fungus" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1L
+					id: "B808DD39E67443E3"
+					item: { count: 1, id: "minecraft:crimson_fungus" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1L
+					id: "0DBDDCC5A13D468C"
+					item: { count: 1, id: "minecraft:book" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1L
+					id: "BAF5DCAF338C4B83"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:dusts/glowstone)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1L
+					id: "E4883E71E2114904"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:dusts/redstone)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["E6861E48F2134892"]
+			icon: { id: "tombstone:book_of_recycling" }
+			id: "00CD26939D0B4C1A"
+			rewards: [{
+				command: "/advancement grant @s only tombstone:adventure/master_recycler"
+				id: "7ADD1B1714E14F23"
+				permission_level: 2
+				type: "command"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "9998BCA98F9E4C34"
+					item: { count: 1, id: "tombstone:grave_dust" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1L
+					id: "B80F7A5CBE4B4CBC"
+					item: { count: 1, id: "minecraft:warped_fungus" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1L
+					id: "053D10E4A0EA4DE4"
+					item: { count: 1, id: "minecraft:crimson_fungus" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1L
+					id: "D2049228324A4381"
+					item: { count: 1, id: "minecraft:book" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1L
+					id: "157B0578F0444315"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:dusts/glowstone)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 1L
+					id: "22B28D1ED4BC49C9"
+					item: { components: { "ftbfiltersystem:filter": "ftbfiltersystem:item_tag(c:dusts/redstone)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 4.0d
+		}
 	]
 }
