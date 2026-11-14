@@ -62,14 +62,6 @@
 					}
 					type: "item"
 				}
-				{
-					id: "36B3216FDAEEB975"
-					item: {
-						count: 1
-						id: "neovitae:guide_book"
-					}
-					type: "item"
-				}
 			]
 			shape: "diamond"
 			size: 2.0d
@@ -1490,12 +1482,12 @@
 			tasks: [
 				{
 					id: "11AED8DCC5C22989"
-					item: { count: 1, id: "neovitae:corrupted_dust" }
+					item: { count: 1, id: "neovitae:base_spiritus_soul_raw" }
 					type: "item"
 				}
 				{
 					id: "2C9BEF4CE764A2D0"
-					item: { count: 1, id: "neovitae:iron_gravel" }
+					item: { count: 1, id: "neovitae:raw_crystal_shard" }
 					type: "item"
 				}
 			]
@@ -1653,7 +1645,7 @@
 		{
 			dependencies: ["24C0619EB4A13CA3"]
 			icon: {
-				id: "neovitae:spike_trap"
+				id: "neovitae:orb_filling_link"
 			}
 			id: "1BBABB2106D321A4"
 			optional: true
@@ -1684,7 +1676,7 @@
 			size: 1.0d
 			tasks: [{
 				id: "104DD51150FAB5DB"
-				item: { count: 1, id: "neovitae:spike_trap" }
+				item: { count: 1, id: "neovitae:orb_filling_link" }
 				type: "item"
 			}]
 			x: 18.0d
@@ -1837,7 +1829,7 @@
 		{
 			dependencies: ["2E22A601DC126B7B"]
 			icon: {
-				id: "neovitae:prismatic_spiritus_gem"
+				id: "neovitae:spiritus_gem_petty"
 			}
 			id: "11721D2D8F03C20F"
 			rewards: [{
@@ -1849,7 +1841,7 @@
 			size: 1.0d
 			tasks: [{
 				id: "6CE4F15AD8879BD4"
-				item: { count: 1, id: "neovitae:prismatic_spiritus_gem" }
+				item: { count: 1, id: "neovitae:spiritus_gem_petty" }
 				type: "item"
 			}]
 			x: 12.0d
@@ -1858,7 +1850,7 @@
 		{
 			dependencies: ["298458E916F65407"]
 			icon: {
-				id: "neovitae:routing_conduit"
+				id: "neovitae:spira_infernalis"
 			}
 			id: "1CBBEFE4A84ABA45"
 			optional: true
@@ -1871,7 +1863,7 @@
 			size: 1.0d
 			tasks: [{
 				id: "74356350DFFF7E48"
-				item: { count: 1, id: "neovitae:routing_conduit" }
+				item: { count: 1, id: "neovitae:spira_infernalis" }
 				type: "item"
 			}]
 			x: 22.0d
@@ -1883,7 +1875,7 @@
 				"3EC65211B94462DA"
 			]
 			icon: {
-				id: "neovitae:prismatic_spiritus_gem"
+				id: "neovitae:spirit_accumulator"
 			}
 			id: "332F3C08E4014F63"
 			rewards: [{
@@ -1906,7 +1898,7 @@
 				"3CA324BE8531F253"
 			]
 			icon: {
-				id: "neovitae:prismatic_spiritus_gem"
+				id: "neovitae:spiritus_gem_greater"
 			}
 			id: "29B003254299103C"
 			optional: true
@@ -2209,7 +2201,7 @@
 		{
 			dependencies: ["09DEA44456CD5010"]
 			icon: {
-				id: "neovitae:mine_key"
+				id: "neovitae:simple_key"
 			}
 			id: "2C178EF05E31AE9A"
 			rewards: [{
@@ -2295,7 +2287,7 @@
 		{
 			dependencies: ["419DB4A2A5A5FC58"]
 			icon: {
-				id: "neovitae:daemonium_animaris_spawn_egg"
+				id: "neovitae:animus_mote"
 			}
 			id: "3EC65211B94462DA"
 			optional: true
