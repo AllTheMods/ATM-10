@@ -334,7 +334,48 @@ mobDropsEnabled = true
 		#Determines if almost destroyed charms stay displayed in the hud
 		keepAlmostDestroyedDisplayed = true
 		#List of hostile entities that are not supposed to have mob charms registered for them
-		entityBlockList = ["minecraft:ender_dragon", "minecraft:wither"]
+		entityBlockList = [
+			"minecraft:ender_dragon",
+			"minecraft:wither",
+			"twilightforest:rising_zombie",
+			"shiny:shiny_blaze",
+			"shiny:shiny_bogged",
+			"shiny:shiny_breeze",
+			"shiny:shiny_cave_spider",
+			"shiny:shiny_creeper",
+			"shiny:shiny_drowned",
+			"shiny:shiny_elder_guardian",
+			"shiny:shiny_enderman",
+			"shiny:shiny_endermite",
+			"shiny:shiny_evoker",
+			"shiny:shiny_ghast",
+			"shiny:shiny_guardian",
+			"shiny:shiny_hoglin",
+			"shiny:shiny_husk",
+			"shiny:shiny_illusioner",
+			"shiny:shiny_magma_cube",
+			"shiny:shiny_phantom",
+			"shiny:shiny_piglin",
+			"shiny:shiny_piglin_brute",
+			"shiny:shiny_pillager",
+			"shiny:shiny_ravager",
+			"shiny:shiny_shulker",
+			"shiny:shiny_silverfish",
+			"shiny:shiny_skeleton",
+			"shiny:shiny_slime",
+			"shiny:shiny_spider",
+			"shiny:shiny_stray",
+			"shiny:shiny_vex",
+			"shiny:shiny_vindicator",
+			"shiny:shiny_warden",
+			"shiny:shiny_witch",
+			"shiny:shiny_wither",
+			"shiny:shiny_wither_skeleton",
+			"shiny:shiny_zoglin",
+			"shiny:shiny_zombie",
+			"shiny:shiny_zombie_villager",
+			"shiny:shiny_zombified_piglin",
+		]
 
 	#Mob Charm Fragment Settings
 	[items.mobCharmFragment]
