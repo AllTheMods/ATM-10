@@ -1481,9 +1481,13 @@
 			shape: "hexagon"
 			size: 1.3d
 			tasks: [{
+				icon: { id: "forbidden_arcanus:hephaestus_forge_tier_1" }
 				id: "1C210EEEF2D7C052"
-				item: { count: 1, id: "forbidden_arcanus:hephaestus_forge_tier_1" }
-				type: "item"
+				observation_type: "block_tag"
+				observe_type: 1
+				timer: 0L
+				to_observe: "#forbidden_arcanus:hephaestus_forges"
+				type: "observation"
 			}]
 			x: 17.0d
 			y: 0.0d

@@ -632,9 +632,10 @@
 					id: "forbidden_arcanus:hephaestus_forge_tier_1"
 				}
 				id: "39FEA97553B2367A"
-				observe_type: 0
+				observation_type: "block_tag"
+				observe_type: 1
 				timer: 0L
-				to_observe: "forbidden_arcanus:hephaestus_forge_tier_1"
+				to_observe: "#forbidden_arcanus:hephaestus_forges"
 				type: "observation"
 			}]
 			x: 11.0d
