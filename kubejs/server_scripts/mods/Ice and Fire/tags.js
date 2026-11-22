@@ -3,6 +3,8 @@
 
 ServerEvents.tags('item', allthemods => {
     allthemods.add('c:wither_bones', 'iceandfire:witherbone')
+    allthemods.add('c:storage_blocks/sapphire', 'iceandfire:sapphire_block')
+    allthemods.add('c:storage_blocks', 'iceandfire:sapphire_block')
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

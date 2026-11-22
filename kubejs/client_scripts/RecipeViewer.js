@@ -54,6 +54,12 @@ RecipeViewerEvents.removeEntriesCompletely('item', allthemods => {
 
     allthemods.remove("supplementaries:faucet")
     allthemods.remove("supplementaries:flint_block")
+    allthemods.remove("oritech:silicon_block")
+    allthemods.remove([
+        'iceandfire:copper_sword', 'iceandfire:copper_pickaxe', 'iceandfire:copper_axe', 'iceandfire:copper_shovel', 'iceandfire:copper_hoe',
+        'iceandfire:armor_copper_metal_helmet', 'iceandfire:armor_copper_metal_chestplate', 'iceandfire:armor_copper_metal_leggings', 'iceandfire:armor_copper_metal_boots',
+        'pamhc2foodextended:chocolatemilkitem', 'pamhc2foodextended:carrotjuiceitem', 'pamhc2foodextended:chickennoodlesoupitem', 'pamhc2foodextended:powdereddonutitem'
+    ])
 
     allthemods.remove('ars_elemental:glyph_nullify_defense')
 })

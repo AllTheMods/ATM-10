@@ -19,6 +19,7 @@ ServerEvents.recipes(allthemods => {
     recipe.set("ingredients", temp_array)
     recipe.set("result", recipe.get("result").withCount(10))
   })
+  allthemods.shaped('5x handcrafted:wood_plate', ['# #', '###'], { '#': '#minecraft:wooden_slabs' }).id('handcrafted:wood_plate')
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

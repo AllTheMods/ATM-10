@@ -6,7 +6,9 @@ ServerEvents.recipes(allthemods => {
   ], {
     A: '#c:ingots/iron', 
     B: '#c:glass_blocks',  //arg 3: the mapping object
-    C: 'minecraft:end_crystal'   
+    C: 'minecraft:end_crystal'
   }
   )
+
+  allthemods.remove({ id: 'deimos:deimosgeneratedcrafting0' })
 })

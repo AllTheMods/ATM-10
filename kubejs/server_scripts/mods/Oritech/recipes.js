@@ -113,6 +113,14 @@
 		    ],
 		    "time": 1080
 		}).id("oritech:foundry/alloy/compat/enderio/redstonealloy")
+
+		allthemods.remove({ id: 'oritech:silicon_blockblock' })
+
+		allthemods.shaped('oritech:tech_door', ['PP', 'PR', 'PP'], { P: '#c:plates/steel', R: '#c:dusts/redstone' }).id('oritech:crafting/techdoor')
+
+		allthemods.replaceInput({ id: 'oritech:biomass_blockblockinv' }, '#c:storage_blocks/biomass', 'oritech:biomass_block')
+		allthemods.replaceInput({ id: 'oritech:silicon_blockblockinv' }, '#c:storage_blocks/silicon', 'oritech:silicon_block')
+		allthemods.replaceInput({ id: 'oritech:plutonium_dustblockinv' }, '#c:dusts/plutonium', 'oritech:plutonium_dust')
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

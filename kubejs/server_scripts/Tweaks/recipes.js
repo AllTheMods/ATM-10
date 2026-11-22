@@ -79,7 +79,7 @@ ServerEvents.recipes(allthemods => {
             '9x mysticalagriculture:honey_essence'
         ]
     )
-    allthemods.shaped("minecraft:crafting_table", ['XX','XX'], {X: "#minecraft:planks"}).id("minecraft:crafting_table")
+    allthemods.shaped("minecraft:crafting_table", ['XX','XX'], {X: Ingredient.of('#minecraft:planks').except('#allthemods:planks_with_crafting_table')}).id("minecraft:crafting_table")
 
     //soy sauce from unified tag
     allthemods.custom({
