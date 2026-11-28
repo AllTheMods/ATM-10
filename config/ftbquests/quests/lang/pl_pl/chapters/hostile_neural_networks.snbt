@@ -1,0 +1,38 @@
+{
+	quest.104EBBC08B4733F5.quest_desc: ["&dSimulation Chamber&r to główna maszyna w HNN.\\n\\nPo zasileniu uruchamia symulacje na podstawie umieszczonego w środku &bData Model&r. Wymagana energia zależy również od umieszczonego &bData Model&r i można ją sprawdzić w opisie przedmiotu &bModel&r.\\n\\nMaszyna potrzebuje też co najmniej jednego &9Prediction Matrix&r, aby przeprowadzić symulację.\\n\\nSymulacje mają dwa tryby.\\n\\n&a&lTraining:&r\\n&bData Model&r zdobywa dane, ale nie powstają żadne &eGeneralized Predictions&r ani &dMob Predictions&r. Kosztuje więcej &cForge Energy&r niż &2&lInference&r.\\n\\n&2&lInference:&r\\nWynik symulacji trafi do Prediction Matrix, a &bData Model&r nie zdobędzie żadnych danych.\\n\\nSymulacje zawsze wytwarzają jakiś rodzaj &eGeneralized Prediction&r, który można wykorzystać w różnych recepturach. Różnią się one również w zależności od pochodzenia moba z Data Model.\\n\\nJeśli symulacja się powiedzie, otrzymasz &dMob Prediction&r na podstawie modelu. Im wyższy poziom użytego Data Model, tym większa szansa na powodzenie symulacji.\\n\\nSzybciej niż &a&lTraining&r."]
+	quest.104EBBC08B4733F5.title: "&aSymulowanie Śmierci"
+	quest.10E8BC20D406D9FB.quest_subtitle: "Wytwarza różne materiały z Netheru"
+	quest.12AE2856444996F6.quest_desc: ["To zadanie zostało stworzone przez &6Ekipę AllTheMods&r lub &2współtwórcę ze społeczności&r na potrzeby paczek AllTheMods.\\n\\nPonieważ wszystkie paczki &6AllTheMods&r są objęte licencją &eAll Rights Reserved&r, to zadanie nie może być używane w żadnych publicznych paczkach niewydanych przez &6Ekipę AllTheMods&r bez wyraźnej zgody.\\n\\nTo zadanie jest celowo ukryte; jeśli to widzisz, jesteś w trybie edycji."]
+	quest.14B3542ECB59869C.quest_desc: ["&5Loot Fabricator&r to maszyna, dzięki której zdobędziesz słodki, słodki łup z Mob Predictions.\\n\\nPo zasileniu i dostarczeniu udanej Mob Prediction będziesz mógł wybrać, jaki przedmiot chcesz otrzymać z Data Model danego moba. Maszyna zapamięta Twój wybór, więc można ją zautomatyzować.\\n\\nPrzykłady Mob Predictions:\\n\\n- &dEnder Dragons&r dają &dDragon Eggs\\n - &2Zombies&r dają Iron\\n - &0Withers&r dają &5Nether Stars"]
+	quest.14B3542ECB59869C.title: "Tworzenie &dŁupów"
+	quest.14F7F256DA863280.quest_subtitle: "Wytwarza różne materiały z Twilight Forest"
+	quest.2559201BCF5D497C.quest_subtitle: "Wytwarza różne materiały z Overworld"
+	quest.34CD54347E9821B5.quest_desc: ["Gdy stworzysz swój pierwszy Data Model, będziesz musiał go ulepszyć, aby był przydatny.\\n\\nData Models zaczynają od pierwszego poziomu: &7Faulty&r. Musisz podnieść go przynajmniej do &aBasic&r, jeśli chcesz przeprowadzać na nim symulacje!\\n\\nPo umieszczeniu w Deep Learner HUD pokaże Ci, ile zabójstw potrzeba do awansu. Te informacje znajdziesz też w opisie samego modelu."]
+	quest.34CD54347E9821B5.title: "Ulepszanie Data Models"
+	quest.37EBB8E0D6E5F821.quest_desc: [
+		"&6Hostile Neural Networks&r (w skrócie HNN) to mod oparty na symulowaniu zabijania mobów dla łupów!\\n\\nAby to zrobić, będziesz zbierać „dane” o mobach, a następnie uruchamiać na ich podstawie symulacje, które wytworzą ich drop.\\n"
+		"{image:atm:textures/questpics/hnn.png width:150 height:150 align:center}"
+	]
+	quest.37EBB8E0D6E5F821.title: "Witaj w &9Hostile Neural Networks&r!"
+	quest.3E3CBDCEAB0FF28F.quest_desc: ["&9Deep Learner&r to jeden z podstawowych elementów HNN.\\n\\nKlikając tym przedmiotem prawym przyciskiem myszy, otworzysz HUD i zapiszesz w nim &6Data Models&r, aby zbierać dane podczas zabijania mobów.\\n\\nKażdy Learner pomieści 4 Data Models, a dopóki masz go gdziekolwiek w ekwipunku, będzie zbierał dane dla umieszczonych w nim modeli!\\n\\nUwaga: W ekwipunku możesz mieć wiele przedmiotów Deep Learner, a zabójstwa zostaną zliczone dla wszystkich Data Models we wszystkich przedmiotach Learner."]
+	quest.3E3CBDCEAB0FF28F.quest_subtitle: "HUD nauki"
+	quest.3E3CBDCEAB0FF28F.title: "&aNauka Mobów"
+	quest.3F3F3174BD9D03BD.quest_desc: [
+		"&dData &5Center&r to multiblok 7x7x7, który w wyjątkowy sposób łączy funkcje &dSimulation Chamber&r i &5Loot Fabricator&r.\\n\\nPotrafi obsłużyć jednocześnie 25 &6Self Aware &bData Models&r, z takimi samymi efektami jak symulacje &2&lInference&r, z jedną różnicą:\\n\\nZamiast wytwarzać Mob Predictions, &dData &5Center&r wytwarza łup bezpośrednio, w tych samych trybach co &5Loot Fabricator&r."
+		"{@pagebreak}"
+		"Aby zbudować multiblok, podłoga (pierwsza warstwa) musi być zrobiona z Obsidian (sprawdź zadanie Obsidians, aby zobaczyć, jakie rodzaje Obsidian akceptuje &dData &5Center&r).\\n\\nŚciany i sufit multibloku muszą być zrobione z Black Stained Glass. Kontroler może zastąpić jeden blok dolnej ściany, a IO Ports mogą zastąpić Black Stained Glass."
+		"{image:atm:textures/questpics/hnn/datacenterintheend.png width:100 height:100 align:center}"
+	]
+	quest.3F3F3174BD9D03BD.quest_subtitle: "Przy tym zadaniu nie użyto generatywnej AI"
+	quest.3F3F3174BD9D03BD.title: "&dData &5Center"
+	quest.4092E914B24C52A7.quest_subtitle: "Wytwarza różne materiały ze Starlight"
+	quest.58C2ABED43B2EA61.quest_desc: ["&9Model Frameworks&r to punkt wyjścia do tworzenia Data Models.\\n\\nAby zacząć zbierać dane o konkretnym mobie, wytwórz jeden z nich, a następnie &9kliknij prawym przyciskiem myszy&r moba, o którym chcesz zebrać dane. Jeśli zrobisz to prawidłowo, Model Framework zamieni się w Data Model moba, w którego kliknąłeś.\\n\\nAby zbierać dane o tym mobie, umieść nowo utworzony Data Model w &aDeep Learner&r, a następnie zacznij zabijać właśnie tego moba, mając Deep Learner w ekwipunku."]
+	quest.58C2ABED43B2EA61.quest_subtitle: "„Zbieranie danych”"
+	quest.58C2ABED43B2EA61.title: "&9Modelowanie Mobów"
+	quest.5A23107C363A209E.quest_subtitle: "Wytwarza różne materiały z Endu"
+	task.15D2A03410859443.title: "AllRightsReserved"
+	task.5392CADA51B80879.title: "Black Stained Glass"
+	task.6B580F95A2E5A465.title: "AllRightsReserved"
+	task.6B84DAA99028ACEA.title: "Obsidians"
+	task.7F17E48ACE65C84E.title: "Data Models"
+}

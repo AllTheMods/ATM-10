@@ -1,0 +1,472 @@
+{
+	quest.007A11C49E06F15F.quest_desc: ["Można je wytworzyć. \\n\\n&9Crafting Component Blueprint&r to jeden z najważniejszych przedmiotów &9Blueprint&r. \\n\\nPomaga &6Engineer's Workbench&r wytwarzać małe części mechaniczne taniej niż w Crafting Tables. \\n\\nMożna go też użyć do wytwarzania wyjątkowych przedmiotów, takich jak Light Bulbs i Circuits!"]
+	quest.007A11C49E06F15F.title: "&9Crafting Components Blueprints "
+	quest.04DD3F761C210822.quest_desc: [
+		"&c&lCrude Blast Furnace&r to nasz bardzo prosty (i prymitywny) sposób na produkcję &8Steel&r. \\n\\nMusisz wrzucić do niego &7Iron Ingot&r i &0Charcoal&r albo &0Coke&r. \\n\\nWypalenie każdego &8Steel Ingot&r trwa 60 sekund. &0Charcoal&r daje nam 15 sekund, a &0Coke&r całe 60 sekund. Można je też mnożyć w postaci bloków. \\n\\nDostajemy też Slag... jest raczej bezużyteczny."
+		"{@pagebreak}"
+		"Ta struktura to kolejne 3x3x3, tym razem z &cBlast Bricks&r."
+		"{image:atm:textures/questpics/immersive/immersive_crude1.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_crude2.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_crude3.png width:100 height:100 align:center}"
+		"Znowu klikamy prawym przyciskiem myszy środkowy blok z przodu naszym zaufanym &6Hammer&r!"
+		"{image:atm:textures/questpics/immersive/immersive_crude.png width:100 height:100 align:center}"
+	]
+	quest.04DD3F761C210822.title: "&l&cCrude Blast Furnace"
+	quest.063241B72BB3403E.quest_desc: ["&0&lHeavy Plated Shield&r używa się tak jak zwykłej tarczy: trzymasz go w drugiej ręce i bronisz się nim. \\n&0&lHeavy Plated Shield&r ma znacznie większą wytrzymałość i chroni przed większymi obrażeniami. \\n\\nAch, i ma ulepszenia! Można je dodać w &6Engineer's Workbench&r. \\n\\nTarcza może pomieścić 2 ulepszenia."]
+	quest.063241B72BB3403E.title: "&8&lHeavy Plated Shield"
+	quest.066B8A75B299AED8.quest_desc: [
+		"&9&lSqueezer&r to prosta maszyna, która wyciska &eprzedmioty&r, aby uzyskać inne &eprzedmioty&r lub &bpłyny&r. \\n\\nPrzez 2 porty z tyłu możemy &9wprowadzać &eprzedmioty&r. Aby wyprowadzić &eprzedmioty&r &6na zewnątrz&r, użyjemy portu po prawej stronie Barrels. Port poniżej &6wyprowadza &bpłyny&r. \\n\\nNajczęściej będzie służyć do wyciskania Plant Oil z Crop Seeds, takich jak Wheat Seeds czy Hemp Seeds! \\n\\nNiektóre nasiona dają więcej oleju - sprawdź &6Guide&r, aby zobaczyć, ile daje każde. \\n\\n&9&lSqueezer&r jest też potrzebny, aby zdobyć &0HOP Graphite Dust&r z 8 &0Coke Dust&r."
+		"{@pagebreak}"
+		"Dosłownie identyczny początek jak przy &2&lFermenter&r."
+		"{image:atm:textures/questpics/immersive/immersive_squeezer1.png width:100 height:100 align:center}"
+		"Tak samo jak przy &2&lFermenter&r, tylko zamiast Cauldrons użyj Barrels!"
+		"{image:atm:textures/questpics/immersive/immersive_squeezer2.png width:100 height:100 align:center}"
+		"Nad Barrel między &eLight Engineering Block&r a &4Redstone Engineering Block&r postaw Piston. Na pozostałych 3 Barrels postaw &8Steel Fence&r!"
+		"{image:atm:textures/questpics/immersive/immersive_squeezer3.png width:100 height:100 align:center}"
+		"Bardzo proste - kliknij &6Hammer&r prawym przyciskiem Barrel pod Piston."
+		"{image:atm:textures/questpics/immersive/immersive_squeezer.png width:100 height:100 align:center}"
+	]
+	quest.066B8A75B299AED8.title: "&9&lSqueezer"
+	quest.0A7B0D0B81E138DE.quest_desc: ["&e&lEngineer's Toolbox&r działa jak podzielony Shulker. \\n\\nMa sekcje: Food, do której można włożyć tylko jedzenie. Tools, w której mieszczą się narzędzia &8&lIE&r lub inne, tylko nie &bBuckets&r. &cWiring&r, w której mogą być &cWires&r, &cConnectors&r lub &cRelays&r. I Anything, która nie wybrzydza. Postaraj się być bardziej jak sekcja Anything! \\n\\nNiektórych przedmiotów jednak nie da się w niej przechowywać, na przykład &bBuckets pełnych płynów&r czy Accumulator Backpacks. \\n\\nMożesz kliknąć prawym przyciskiem myszy z Shiftem, aby postawić &e&lToolbox&r i sprawić, że będzie działać jak skrzynia, a potem zrobić to samo, aby go podnieść."]
+	quest.0A7B0D0B81E138DE.title: "&e&lEngineer's Toolbox"
+	quest.0ACC0092A8F722C6.quest_desc: ["Większość maszyn w &8&lIE&r potrzebuje do pracy &cenergii&r, a &cWires&r są sposobem na jej przesyłanie! \\n\\n&cWires&r podłącza się, klikając prawym przyciskiem jedną część za pomocą &cWire Coil&r, a potem drugą część tym samym &cCoil&r. Nic nie może blokować drogi, bo inaczej się nie połączą. \\n\\nAby zabrać &cWires&r, możemy zniszczyć to, do czego są podłączone, albo użyć naszych zaufanych &6Wire Cutters&r! \\n\\nRóżne poziomy &cWires&r wpływają na to, ile przesyłają - najwięcej &5HV&r."]
+	quest.0ACC0092A8F722C6.title: "&cWire Coils"
+	quest.0AE6AD813928DE4F.quest_desc: ["External Heater można używać z piecami, takimi jak te z &2&lVanilla&r, ale nie z &c&lCrude Blast Furnace&r! \\n\\nPobiera &cenergię&r od dołu i zamienia ją w ciepło. \\n\\nCiepło wychodzi z pozostałych stron, do sąsiednich bloków. \\n\\nTechnicznie jest używany do &4&lImproved Blast Furnace&r, przy wytwarzaniu Preheaters, ale tego nie liczę!"]
+	quest.0D212038C0A45E0B.quest_desc: ["Casull Cartridges to domyślne pociski. Zadają 5 serc obrażeń i tyle! \\n\\nArmor Piercing Cartridges mają większą szansę zignorować punkty pancerza. Idealne przeciwko mobom takim jak Bulwark. \\n\\nBuckshot Shells zamiast jednego pocisku wystrzelą ich wiele. Najlepiej używać z bliska! \\n\\nSilver Cartridges działają jak Casull Cartridges, ale zadają większe obrażenia nieumarłym: Zombies i Skeletons!"]
+	quest.0D212038C0A45E0B.title: "Common Projectiles"
+	quest.0D2D1F99945BA209.quest_desc: ["Powinien zakładać Twój &8&lHeavy Plated Shield&r, gdy dwukrotnie naciśniesz S... z naciskiem na „powinien”. \\n\\nPamiętaj, że &8&lIE&r wciąż jest w becie! Tworzenie modów zajmuje dużo czasu i wysiłku, miej to na uwadze!"]
+	quest.0F14270F0A718C01.quest_desc: ["&cMagma&r - 1300 K \\n&cLawa&r - 1300 K \\n&aUran&r - 2000 K"]
+	quest.0F14270F0A718C01.title: "&cWarm Items"
+	quest.13471E64CDE49D27.quest_desc: [
+		"&a&lRefinery&r bierze 2 &bpłyny&r, łączy je i rafinuje w 1 lepszy &bpłyn&r! \\n\\n2 &bpłyny&r można &9wprowadzać&r przez porty po lewej i prawej stronie. Płyn wyjściowy wychodzi przez port z przodu. \\n\\nMożesz też używać &bwiader&r, aby wlewać &bpłyny&r do zbiorników! Nie zapomnij kliknąć prawym przyciskiem &a&lRefinery&r, aby otworzyć jej GUI. Tam musimy włożyć Catalyst, aby uruchomić maszynę. \\nOprócz Catalyst potrzebuje &cenergii&r, którą można dostarczyć przez port z tyłu!"
+		"{@pagebreak}"
+		"Na początek zrób linię z 5 &bFluid Pipes&r. Pośrodku postaw &eLight Engineering Block&r po jednej stronie, a &7Heavy Engineering Block&r po drugiej. Obok pozostałych &bFluid Pipes&r postaw &8Steel Scaffolding&r."
+		"{image:atm:textures/questpics/immersive/immersive_refinery1.png width:150 height:100 align:center}"
+		"Postaw więcej Engineering Blocks na poprzednich. Na prawo od &7Heavy Engineering Block&r pomiń 1 blok i postaw &4Redstone Engineering Block&r. Obok &eLight Engineering Block&r postaw 2 kwadraty 2x2 z &7Iron Sheetmetal&r."
+		"{image:atm:textures/questpics/immersive/immersive_refinery2.png width:150 height:100 align:center}"
+		"Teraz jeszcze kilka &7Iron Sheetmetal&r!"
+		"{image:atm:textures/questpics/immersive/immersive_refinery3.png width:150 height:100 align:center}"
+		"Tym razem musimy kliknąć prawym przyciskiem górny &7Heavy Engineering Block&r naszym &6Hammer&r."
+		"{image:atm:textures/questpics/immersive/immersive_refinery.png width:100 height:100 align:center}"
+	]
+	quest.13471E64CDE49D27.title: "&l&aRefinery"
+	quest.135A16EDEEE27FA9.quest_desc: ["Wszystko związane z &cWires&r i &cenergią&r w &8&lIE&r ma poziomy. &6Low Voltage&r (&6LV&r), &eMedium Voltage&r (&eMV&r) i &5High Voltage&r (&5HV&r). \\n\\nIm wyższe napięcie, tym więcej &cenergii&r można przesłać i wykorzystać. Niektóre maszyny wymagają wyższego napięcia. \\n\\nAby przesyłać między różnymi napięciami, potrzebujesz &cTransformers&r - zajrzyj do ich zadania!"]
+	quest.135A16EDEEE27FA9.title: "Poziomy Napięcia"
+	quest.13AF35A3108B02AF.quest_desc: ["Muszę biec szybko!"]
+	quest.1759A4E2AF0D2C88.quest_desc: ["Pomyśl o &eLight Engineering Block&r, tylko że wszystkie jego składniki są znacznie trudniejsze do zrobienia! \\n\\nPo pierwsze potrzebujemy &eElectrum&r, czyli stopu &eGold&r i &7Silver&r wytwarzanego w &6&lAlloy Kiln&r. \\n\\nPo drugie potrzebujemy 4 &8Steel Sheetmetal&r, które tak jak &7Iron Sheetmetal&r wymagają połączenia 4 &8Plates&r. \\n\\nPo trzecie &8Steel Mechanical Components&r, które wytwarza się z jednego &6Copper Ingot&r i 4 &8Steel Plates&r w Crafting Table albo taniej w &6Engineer's Workbench&r."]
+	quest.1759A4E2AF0D2C88.title: "&7Heavy Engineering Block"
+	quest.18A9392BBCF5A871.quest_desc: ["Jak w każdym modzie z maszynami, &8&lImmersive Engineering&r potrzebuje sposobu na przenoszenie &eprzedmiotów&r, &bpłynów&r i nie tylko! \\n\\nWiększość maszyn ma domyślnie ustawione &6wyjścia&r i &9wejścia&r, ale można je skonfigurować, na przykład za pomocą &6Engineer's Screwdriver&r! Możesz też potrzebować &6Engineer's Hammer&r, ale to coś innego."]
+	quest.18A9392BBCF5A871.title: "&8&lImmersive Engineering&r Logistyka"
+	quest.1A13039D6302ADA5.quest_desc: ["Możesz zajrzeć do poprzednich zadań, aby dowiedzieć się, jak zbudować niektóre z nich: &7Iron Mechanical Components&r w &eLight Engineering Blocks&r i &8Steel Sheetmetal&r w &7Heavy Engineering Blocks&r. \\n&eElectrum Coils&r będą jednak trochę inne... \\n\\n&eElectrum Coils&r wymagają Iron Ingot i 8 MV Wire Coils. Aby zdobyć MV Wire Coils, musimy pociąć trochę &eElectrum&r za pomocą Engineer's Wire Cutters."]
+	quest.1A13039D6302ADA5.title: "&6Generator Block"
+	quest.1A3F053E0F693002.quest_desc: ["Advanced Lubrication System działa jak Unbreaking dla naszych &8Drill Heads&r i &8Buzzsaw Blades&r. \\n\\nPodczas używania będą tracić mniej wytrzymałości."]
+	quest.1A3F053E0F693002.quest_subtitle: "Przestań się śmiać z jego nazwy!"
+	quest.1A6A383B4EF26B20.quest_desc: ["&4&lMining Drill&r nie daje wielkiego wyboru: mamy &7Iron Drill Head&r lub &8Steel Drill Head&r. \\n\\n&7Iron Drill Heads&r kopią na obszarze 2x2 na poziomie &7Iron Pickaxe&r. Zadają też 6 obrażeń i mają mniejszą wytrzymałość niż... \\n\\n&8Steel Drill Heads&r kopią na obszarze 3x3 na tym samym poziomie co &bDiamond Pickaxe&r. Zadają 7 obrażeń i mają większą wytrzymałość!"]
+	quest.1A6A383B4EF26B20.title: "&8Drill Heads"
+	quest.1A8F2408970BFCCF.quest_desc: ["&eElectrum&r to stop wykonany ze &ezłota&r i &7Silver&r. \\n\\nPo nazwie możesz się domyślić, że jest używany masowo we wszystkim, co związane z elektrycznością. Wires, Connectors, Transformers itd.!"]
+	quest.1A8F2408970BFCCF.title: "&eElectrum Ingot&r"
+	quest.1BF02D43986ABB03.quest_desc: ["&eBelts&r występują w różnych kształtach, rozmiarach i zastosowaniach! \\n\\nPo pierwsze, wszystkie &eConveyor Belts&r można wytworzyć z &8Steel Scaffolding&r, aby dodać im osłony. &eCovered Belts&r sprawiają, że &eprzedmioty&r nie mogą być podnoszone przez graczy, gdy na nich leżą. \\n\\nPierwszą i najprostszą wersją &eBelt&r jest &eVertical Belt&r. Po prostu unosi &eprzedmioty&r do góry! \\n\\n&eSplitting Belts&r... dzielą kierunki, w których jadą &eprzedmioty&r. Zmienia się to z każdym &eprzedmiotem&r: 1 w lewo, 1 w prawo, 1 w lewo, 1 w prawo. \\n\\n&eDropping Belts&r upuszczają &eprzedmioty&r do ekwipunku pod sobą, a jeśli jest wolne miejsce, po prostu upuszczą &eprzedmioty&r. Można je skonfigurować za pomocą &4Redstone&r, aby nie upuszczały &eprzedmiotów&r. \\n\\nOstatni to &eExtracting Belt&r, który automatycznie wyciąga &eprzedmioty&r z ekwipunków i kładzie je na swoim &eBelt&r. Można ich też używać z niektórymi maszynami!"]
+	quest.1BF02D43986ABB03.title: "Rodzaje &eBelts"
+	quest.1C76E244AE3582E6.quest_desc: [
+		"&5&lAssembler&r, w przeciwieństwie do większości maszyn, działa głównie w swoim GUI. \\n\\nKliknij maszynę prawym przyciskiem i ustaw 3 receptury, wkładając je do siatek na górze ekranu. Kolejność, w jakiej się znajdują, to kolejność ich priorytetu. \\n\\nMożesz &9wprowadzać &eprzedmioty&r z &eBelts&r, a &6wyjdą&r tylnymi &aBelts&r. Możesz też &6wprowadzać &bpłyny&r, które posłużą do napełniania &bwiader&r lub &bzbiorników&r używanych przy wytwarzaniu! \\n\\nMusisz też zasilić go &cenergią&r od góry."
+		"{@pagebreak}"
+		"Postaw 2 równoległe linie po 3 &8Steel Scaffolding&r z jednym blokiem odstępu między nimi. Pomiędzy nimi, na środku, postaw &eLight Engineering Block&r, a wokół niego &4Redstone Engineering Blocks&r."
+		"{image:atm:textures/questpics/immersive/immersive_assembler1.png width:100 height:100 align:center}"
+		"Po stronach z &4Redstone Engineering Blocks&r postaw &7Iron Sheetmetal&r. Następnie nad &eLight Engineering Block&r oczywiście potrzebujemy kolejny. Potem postaw &eConveyor Belts&r prowadzące do &eLight Engineering Block&r i przez niego!"
+		"{image:atm:textures/questpics/immersive/immersive_assemble2.png width:100 height:100 align:center}"
+		"Ta część może być myląca, patrząc tylko na obrazek: postaw &7Iron Sheetmetal Slabs&r na wcześniej postawionych &7Iron Sheetmetal&r. Następnie pomiędzy nimi postaw pełne &7Iron Sheetmetal&r."
+		"{image:atm:textures/questpics/immersive/immersive_assembler3.png width:100 height:100 align:center}"
+		"Aby zbudować nasz &5&lAssembler&r, kliknij prawym przyciskiem pierwszy &eConveyor Belt&r naszym ukochanym &6Hammer&r!"
+		"{image:atm:textures/questpics/immersive/immersive_assembler.png width:100 height:100 align:center}"
+	]
+	quest.1C76E244AE3582E6.title: "&5&lAssembler"
+	quest.1D4E7F548431263A.quest_desc: ["To zdecydowanie najprostszy z tych bloków do zrobienia. \\n\\nŻelazo i &4redstone&r zdobędziesz w zwykłej rozgrywce &2&lVanilla&r, jedynym „trudnym” przedmiotem jest &7Iron Sheetmetal&r."]
+	quest.1D4E7F548431263A.title: "&4Redstone Engineering Block"
+	quest.1F7DA060792D716A.quest_desc: [
+		"&d&lMixer&r jest jak te, których Twoja mama lub babcia używa do mieszania jajek z mąką i cukrem, aby upiec jakiś pyszny smakołyk! \\n\\n&d&lMixer&r miesza &eprzedmioty&r i &bpłyny&r. Aby wprowadzić &bpłyny&r, użyj portu po lewej stronie &d&lMixer&r. Aby dać mu &eprzedmioty&r, użyj portów z tyłu. \\n\\nDo pracy potrzebuje &cenergii&r wprowadzonej przez port na górze, z przodu &d&lMixer&r. \\n\\nGdy coś zmiesza, wynik wyjdzie portem z przodu maszyny!"
+		"{@pagebreak}"
+		"Pierwsza warstwa &d&lMixer&r jest zbudowana jak symbol Wi-Fi! Najpierw &eLight Engineering Block&r, potem &bFluid Pipes&r i &8Steel Scaffolding&r."
+		"{image:atm:textures/questpics/immersive/immersive_mixer1.png width:100 height:100 align:center}"
+		"Nad naszym &eLight Engineering Block&r postawimy kolejny, a jeden na lewo od nowo postawionego. Na skrajnym prawym &8Scaffolding&r postawimy &4Redstone Engineering Block&r. Potem z tyłu naszej maszyny postawimy kwadrat 2x2 z &7Iron Sheetmetal&r."
+		"{image:atm:textures/questpics/immersive/immersive_mixer2.png width:100 height:100 align:center}"
+		"Na trzecim &eLight Engineering Block&r postawimy pojedynczy &8Steel Fence&r, a na prawo od niego będzie czwarty &eLight Engineering Block&r."
+		"{image:atm:textures/questpics/immersive/immersive_mixer3.png width:100 height:100 align:center}"
+		"Aby stworzyć &d&lMixer&r, kliknij prawym przyciskiem &7Iron Sheetmetal&r między naszym &eLight Engineering Block&r a &4Redstone Engineering Block&r za pomocą &6Engineer's Hammer&r!"
+		"{image:atm:textures/questpics/immersive/immersive_mixer.png width:100 height:100 align:center}"
+	]
+	quest.1F7DA060792D716A.title: "&l&dMixer"
+	quest.1FA44E8FEE004AB4.quest_desc: ["Hemp Rope i &8Steel Cables&r umieszcza się jak zwykłe &cWires&r na &cConnectors &fi &cRelays&r, ale nie przesyłają &cenergii&r. \\n\\nSłużą natomiast do dekoracji albo do używania &6&lEngineer's Skyhook&r!"]
+	quest.1FA44E8FEE004AB4.title: "Bezpieczne dla Użytkowników &6&lSkyhook&r!"
+	quest.2224AA108FC006F3.quest_desc: ["Revolver Speedloader nie jest tak naprawdę ulepszeniem, lecz osobnym przedmiotem, który pomaga. \\n\\nNapełnij go nabojami tak jak &d&lRevolver&r, a potem, gdy będziesz musiał przeładować &d&lRevolver&r, wystarczy kliknąć prawym przyciskiem z nim w ręku, aby natychmiast przeładować!"]
+	quest.2224AA108FC006F3.quest_subtitle: "Strzeliłem 6 razy? A może tylko 5?"
+	quest.2262AB9F934165D0.quest_desc: ["Nie obchodzi mnie, jak to zdobędziesz, po prostu musisz to zdobyć! \\n\\n&8&lImmersive Engineering&r dodaje dla &8Steel&r znacznie więcej zastosowań niż proste budowle - prawie wszystko będzie wymagać &8Steel&r do wytworzenia! \\n\\nGłównie narzędzia, części mechaniczne i bloki budowlane. Wiele z nich robi się z &8Steel Plates&r lub &8Scaffolding&r. \\n\\nBędziesz potrzebować dużo, ale &l&cCrude Blast Furnace&r i &l&6Alloy Kiln&r nie da się zautomatyzować, więc możemy potrzebować... "]
+	quest.2262AB9F934165D0.title: "&8Steel Ingot"
+	quest.231E0C0A9B0C0509.quest_desc: ["Ten można przymocować do Twojego &c&lAccumulator Backpack&r. \\n\\nGdy &c&lBackpack&r jest założony, pobliskie &eprzedmioty&r będą wsysane do Twojego ekwipunku!"]
+	quest.23FDFA44A162023A.quest_desc: ["&6Engineer's Workbench&r to niezbędny blok potrzebny do wielu receptur i ulepszeń. \\n\\nMożemy go używać z &9Blueprints&r do wytwarzania specjalnych przedmiotów, których nie da się zrobić gdzie indziej. Włóż &9Blueprints&r do lewego slotu, a nasze &eskładniki&r do prawych slotów.\\n\\nAlbo możemy wrzucić do niego nasze narzędzia, aby dodać do nich ulepszenia, na przykład do Revolver czy Mining Drill! \\n\\nPoza tym, gdy dodasz &eprzedmioty&r i &9Blueprints&r, możesz je zobaczyć na samym &6bloku&r, całkiem fajne!"]
+	quest.23FDFA44A162023A.title: "&6Engineer's Workbench"
+	quest.251464B43353D4C6.quest_desc: ["Nasza ukochana Garden Cloche! To automatyczna farma, a z tym zadaniem jest prosta w użyciu! \\n\\nNa początek potrzebuje &cenergii &6wprowadzonej&r z lewej, prawej lub góry! \\n\\nPotem potrzebuje &9wody&r z tylnego portu (spróbuj użyć &9Sink&r). \\n\\nNastępnie musimy wprowadzić nasze nasiona, Farmland i opcjonalny nawóz przez &6wejście &eprzedmiotów&r na dole! \\n\\nPotrzebuje odpowiedniego Farmland dla nasion - wszystko to możesz sprawdzić, klikając Cloche prawym przyciskiem, aby zobaczyć jej GUI! \\n\\nGdy ma już wszystko, szybko wyhoduje i zbierze Twoje uprawy, a następnie &6wyprowadzi&r je z przodu kopuły. \\n\\nOstatnie uwagi: zachowa oryginalne nasiona i Farmland i nie zużyje ich, Dirt zostanie zamieniony w Farmland, a nawozy to Sulfur, Slag, Nitrate i Industrial Fertilizer."]
+	quest.252A24CED69C1882.quest_desc: ["Thermoelectric Generator, który będę po prostu nazywać Thermo, to wyjątkowy generator. \\n\\nSam z siebie nic nie robi, musimy umieścić bloki lub płyny o różnych temperaturach po różnych stronach Thermo. \\n\\nIm większa różnica temperatur, tym więcej energii wytwarza!"]
+	quest.252A24CED69C1882.title: "Energia z Temperatury"
+	quest.257C80468B080B3C.quest_desc: ["Electromagnet to wersja Absorption Hopper z &8&lIE&r. \\n\\nNo, prawie! Nie przechowuje &eprzedmiotów&r, tylko przesuwa je jak najbliżej górnej ściany Electromagnet. \\n\\nMożna go użyć, aby przenosić je na &eBelts&r lub do lejków! \\n\\nDo działania wymaga jednak &cenergii&r."]
+	quest.27FA2DB7839172BB.quest_desc: ["&c&lBackpack&r domyślnie ładuje tylko &eprzedmioty&r w Twojej ręce i zbroję, którą nosisz. Ale co, jeśli chcemy ładować więcej! \\n\\nWtedy potrzebujemy Induction Charger! Po jego podłączeniu każdy &eprzedmiot&r w Twoim ekwipunku, który może przyjąć ładunek, zostanie naładowany."]
+	quest.288406DE6DA31BA6.quest_desc: ["Wiele rzeczy potrzebuje &cenergii&r, szczególnie w &8&lIE&r. Na początek będziemy potrzebować &6Engineer's Wire Cutters&r! \\n\\nMożesz nimi przycinać Plates na &cWires&r, które potem można nawinąć na &cCoils&r, gotowe do użycia. \\n\\nSłużą też do zdejmowania &cWires&r z &cConnectors&r."]
+	quest.288406DE6DA31BA6.title: "&8&lImmersive Engineering&r Moc!"
+	quest.28847A536C38EEA0.quest_desc: ["&cTransformers&r służą do przechodzenia z połączeń &6LV&r na połączenia &eMV&r. Mały &cConnector&r jest &6LV&r, a większy &eMV&r! \\n\\nJeśli chcesz przejść z &eMV&r na &5HV&r, potrzebujemy &5HV Transformer&r. Działają tak samo jak drugi &cTransformer&r, tylko mniejszy &cConnector&r jest &eMV&r, a większy &5HV&r! \\n\\nNie, nie da się przejść z &6LV&r na &5HV&r z pominięciem &eMV&r!"]
+	quest.28847A536C38EEA0.quest_subtitle: "Reżyseria Michael Bay"
+	quest.28847A536C38EEA0.title: "&cTransformers"
+	quest.28E99A6E17E86709.quest_desc: ["Przesyłanie &bpłynów&r jest niezbędną częścią &8&lIE&r, pomyśl tylko o Creosote Oil i Plant Oil! \\n\\n&bFluid Pipes&r to nasz podstawowy sposób przesyłania &bpłynów&r, a jeśli chcesz szybciej, sprawdź &bFluid Pumps&r. \\n\\n&bFluid Pipes&r, podobnie jak Energy Connectors, określają, gdzie &9wprowadzać&r i &6wyprowadzać&r, na podstawie tego, do czego są podłączone. Niektóre maszyny potrzebują &4sygnałów redstone&r, aby &6wyprowadzać&r do &bFluid Pipes&r, jak &b&lTank&r! \\n\\nZa pomocą &6Engineer's Hammer&r możemy zmienić, do czego łączą się &bPipes&r, a także użyć &8Steel Scaffolding&r, aby je zakryć, lub barwnika, aby je zabarwić!"]
+	quest.28E99A6E17E86709.title: "Przesyłanie &bPłynów"
+	quest.29C9F8719DA63D8D.quest_desc: ["&2&lBuzzsaw&r działa podobnie do &4&lMining Drill&r, tylko na &2drzewa&r! \\n\\nWymaga &2Bio-Diesel&r jako paliwa, a jak go zdobyć, też tu nie wyjaśnię! \\n\\nI jakiegoś &8Sawblade&r. Możesz go zamontować w górnym slocie &6Engineer's Workbench&r. \\n\\nWystarczy zniszczyć pnie na &2drzewie&r, a każdy pień, liść i Birds Nest spadnie razem z nim! Możesz przytrzymać Shift, aby nie niszczyć wszystkiego, co jest połączone. \\n\\n&2&lBuzzsaw&r zadaje też 10 obrażeń! Cóż, po co w ogóle używać miecza? Ach tak, &8Saws&r mają wytrzymałość i potrzebują &2Bio-Diesel&r. \\n\\n&2&lBuzzsaw&r pomieści 1 &8Blade&r lub &8Disk&r i 2 ulepszenia."]
+	quest.29C9F8719DA63D8D.title: "&2&lBuzzsaw"
+	quest.2A1BFB2E0F1F3312.quest_desc: ["&dEnd Rod&r zadaje 10 obrażeń i trafia Endermen. \\n&5Enderpearls&r nie trafiają w moby, tylko teleportują Cię znacznie dalej po wystrzeleniu. \\n&3Trident&r działa jak zwykły rzut &3Trident&r i zadaje 8 obrażeń. \\n&cBlaze Rods&r zadają 10 obrażeń i podpalają moby!"]
+	quest.2A1BFB2E0F1F3312.title: "Amunicja do &5&lRailgun&r z &2&lMinecraft"
+	quest.2E89A03BA809634E.quest_desc: ["Można je kupić wyłącznie od Gunsmiths. \\n\\nSpecialized Projectiles to pociski, które robią wyjątkowe rzeczy! \\n\\nHoming, Explosive i Flares trzeba wytwarzać za pomocą tych &9Blueprints&r."]
+	quest.2E89A03BA809634E.title: "&9Specialized Projectiles Blueprints "
+	quest.2E9D1131DC21CC5B.quest_desc: ["&lIndustrial Foregoing&r ma elegancki futurystyczny wygląd, &5&lMekanism&r ma nudny, współczesny, a &8&lImmersive Engineering&r idzie w znacznie bardziej retro! \\n\\nWszystko jest &6brązowe&r, &7szare&r i &8ciemnoszare&r! \\n\\nCała modyfikacja zaczyna się od &6Engineer's Hammer&r. Można nimi robić Plates, Dust albo po prostu budować nasze multibloki! \\n\\nSwoją drogą, mówiłem już, że będziemy ich budować w tej modyfikacji mnóstwo? Mam nadzieję, że je polubisz!"]
+	quest.2E9D1131DC21CC5B.title: "&8&lImmersive Engineering"
+	quest.2F19529214CA9559.quest_desc: ["To jak Thorns, ale bez obrażeń, tylko dezorientuje napastników. \\n\\nNa moby działa tylko na chwilę, ale na graczy jest znacznie skuteczniejszy (i bardziej irytujący)!"]
+	quest.2F19529214CA9559.quest_subtitle: "Blitz?"
+	quest.2F8D117F802FEAF0.quest_desc: ["Commandos to lekkie jednostki. \\n\\nMają 12 serc i żadnej zbroi. \\n\\nIch bronią jest &d&lRevolver&r i Shield trzymany w drugiej ręce. \\n\\nPo śmierci upuszczają części Revolver z różnymi statystykami, podobnie jak w Apotheosis!"]
+	quest.2F8D117F802FEAF0.title: "Commando"
+	quest.30EA16BB8C169F86.quest_desc: ["Ten to połączenie &6miedzi&r i &7Tin&r! \\n\\nW &7&lModern Industrialization&r jest używany mnóstwo! Ale w &8&lIE&r... niezbyt często..."]
+	quest.30EA16BB8C169F86.title: "&6Bronze Ingot"
+	quest.31324A6F96CAC112.quest_desc: ["&bFluid Pumps&r nie służą tylko do Bottlers, można ich też używać do przenoszenia &bpłynów&r... szybciej! \\n\\nZa pomocą &6Engineer's Hammer&r możemy ustawić strony &bFluid Pump&r jako &9wejścia&r i &6wyjścia&r. \\n\\nPotem możemy go zasilić &4redstone&r lub &cenergią&r, przy czym &cenergia&r przenosi &bpłyny&r znacznie szybciej niż &4redstone&r."]
+	quest.31324A6F96CAC112.title: "&bFluid Pump"
+	quest.320EE52EB022FAD3.quest_desc: ["To ciekawy przypadek! \\n\\n&bFluid Outlets&r można ustawić tak, aby &9wprowadzały &bpłyny&r, a następnie stawiały te &bpłyny&r jako bloki źródłowe obok stron &6wyjścia&r! \\n\\nTo znaczy, że możemy zautomatyzować stawianie &9wody&r, &clawy&r lub praktycznie dowolnych &bpłynów&r! "]
+	quest.320EE52EB022FAD3.title: "&bFluid Outlet"
+	quest.32384DE59539557D.quest_desc: [
+		"&4&lCrusher&r to bardzo niebezpieczna i głośna maszyna. \\n\\nMożesz &9wprowadzać &eprzedmioty&r (lub moby) przez górne kraty, a ona &4&lzmiażdży&r je na ich drop. \\n\\nBardzo się przydaje, zwłaszcza do zamiany surowych rud w pył. Jeśli użyjemy bloków surowej rudy, da nam więcej pyłu niż &6Hammer&r, a niektóre mają szansę dać zupełnie nowy rodzaj pyłu! \\n\\nCały drop wychodzi z dolnego przedniego bloku, automatycznie &6wyrzucany&r. Potrzebuje też &cenergii&r wprowadzonej od górnej prawej strony."
+		"{@pagebreak}"
+		"&4&lCrusher&r jest dość duży, musimy ułożyć taki układ z &8Steel Scaffolding&r i &eLight Engineering Blocks&r. Kierunek, w którym zwrócone są &eLight Engineering Blocks&r, to przód!"
+		"{image:atm:textures/questpics/immersive/immersive_crusher1.png width:100 height:150 align:center}"
+		"Na nasze 3 &eLight Engineering Blocks&r postawimy 3 kolejne. Postawimy też &4Redstone Engineering Block&r i &eLight Engineering Block&r po lewej stronie. Następnie połóż kolejny &eLight Block&r pośrodku i otocz go &8Steel Fences&r."
+		"{image:atm:textures/questpics/immersive/immersive_crusher2.png width:100 height:100 align:center}"
+		"Na koniec wrzucamy 9 Hoppers na &8Steel Fences&r i na środek!"
+		"{image:atm:textures/questpics/immersive/immersive_crusher3.png width:100 height:100 align:center}"
+		"Musisz uderzyć środkowy &8Fence&r, aby utworzyć multiblok."
+		"{image:atm:textures/questpics/immersive/immersive_crusher.png width:100 height:100 align:center}"
+	]
+	quest.32384DE59539557D.title: "&l&4Crusher"
+	quest.33732EE8110A0911.quest_desc: ["Dev &8&lIE&r zapomniał, że &4&lMining Drill&r można też używać do wydobywania, więc w ostatniej chwili dodał Fortune III. \\n\\nJest nim Rock Softening Acid."]
+	quest.340F93695FFF8D76.quest_desc: ["Dzięki temu &b&lChemical Thrower&r będzie bardziej Chemical Shooter. \\n\\nZasięg zostanie zwiększony, ale szerokość strumienia zmniejszona. Dzięki temu jest celniejszy!"]
+	quest.341BB1353A1E45EA.quest_desc: ["Gun Turrets działają jak &d&lRevolver&r z komputerowym mózgiem! \\n\\nPotrzebują &cenergii&r od spodu i &4sygnału redstone&r, aby się włączyć. Albo użyj na nich &6Engineer's Screwdriver&r, aby były zawsze włączone. \\n\\nUżywają tej samej amunicji co &d&lRevolver&r, także Speciality Projectiles! Możesz &9wprowadzać&r do nich pociski i &6wyprowadzać&r łuski albo po prostu wyrzucać je przyciskiem Expel Casing. \\n\\nZanim zacznie strzelać, musimy ustawić jej namierzanie. Po pierwsze, nie zaatakuje osoby, która ją postawiła. Mamy też pasek tekstowy, w którym możemy dodać nazwę dowolnego gracza lub moba. Dzięki temu będą oszczędzeni! \\n\\nDomyślnie jest ustawiona na Blacklist - jeśli jest na Blacklist, oznacza to, że strzela do tego, co jest na liście. Dalej mamy Animals, czyli pasywne moby. Players oznacza tylko graczy. Neutral to wszystkie neutralne moby i Villagers. Spokojnie, zawsze będzie celować we wrogie moby!"]
+	quest.34D09336FA3E272A.quest_desc: ["Chemthrower Turret ma dokładnie takie samo namierzanie jak Gun Turret, więc więcej informacji znajdziesz tam! \\n\\nPodobnie jak Gun Turret, Chemthrower Turret potrzebuje &cenergii&r ze swoich portów. Będzie też potrzebował &bpłynów&r doprowadzonych rurami, aby je przechowywać i wystrzeliwać. &9Wprowadzaj &bpłyny&r rurami, ponieważ nie możesz go napełnić &bwiadrami&r, tylko &brurami&r. \\n\\nChemthrower Turret ma pojemność 4 000 mB, czyli 4 &bwiadra&r. Możesz też nacisnąć przycisk, aby podpalić wyrzucane &bpłyny&r. Podpali to łatwopalne &bpłyny&r!"]
+	quest.35E399D88D2EDCB6.quest_desc: ["Dzięki temu ulepszeniu każdy, kto Cię zaatakuje, 1. zostanie ogłuszony, co zatrzyma go na sekundę, 2. odniesie obrażenia i 3. straci wszystkie pociski. \\n\\nMoim zdaniem warto to ulepszenie mieć!"]
+	quest.35E399D88D2EDCB6.quest_subtitle: "Starcie?"
+	quest.36EB83BB41A9E621.quest_desc: [
+		"&b&lTank&r jest jak &l&eSilo&r, ale na &bpłyny&r! \\n\\nMoże pomieścić tylko 1 rodzaj &bpłynu&r, ale aż 512 wiader tego &bpłynu&r. \\n\\nMożesz &9wprowadzać &bpłyn&r od góry lub od dołu, ale &6wyprowadzać&r go możesz tylko od dołu."
+		"{@pagebreak}"
+		"&b&lTank&r buduje się podobnie jak &e&lSilo&r - zacznij od naszych Treated Fences i pojedynczego &7Iron Sheetmetal&r."
+		"{image:atm:textures/questpics/immersive/immersive_tank1.png width:125 height:100 align:center}"
+		"Teraz budujemy puste w środku kwadraty z &7Iron Sheetmetals&r nad naszymi Fences, tym razem na wysokość 3 bloków."
+		"{image:atm:textures/questpics/immersive/immersive_tank2.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_tank3.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_tank4.png width:100 height:100 align:center}"
+		"Następnie zamknij całość wypełnionym kwadratem z &7Iron Sheetmetal&r!"
+		"{image:atm:textures/questpics/immersive/immersive_tank5.png width:100 height:100 align:center}"
+		"Kliknij prawym przyciskiem myszy ten sam blok co w przypadku &e&lSilo&r, aby utworzyć nasz &b&lTank&r."
+		"{image:atm:textures/questpics/immersive/immersive_tank.png width:100 height:120 align:center}"
+	]
+	quest.36EB83BB41A9E621.title: "&b&lTank"
+	quest.373668AE257A7A94.quest_desc: ["High Explosive Cartridges wystrzeliwują materiały wybuchowe w Twoich wrogów, wysadzając wszystko w pobliżu jak TNT! \\n\\nDragon's Breath Shells działają jak Buckshot, ale pociski są teraz w ogniu!!!!! \\n\\nPhial Cartridges nakładają Potion Effects zależnie od mikstury użytej do ich wytworzenia. \\n\\nFlare Shells działają jak fajerwerki w kuszy. \\n\\nHoming Cartridges celują w moba, który jest najbliżej Ciebie... miejmy nadzieję, że to groźny mob. \\n\\nWolfpack Shells są jak Buckshot Shells, ale pociski są teraz Homing Cartridges!"]
+	quest.373668AE257A7A94.title: "Specjalistyczne Pociski"
+	quest.38C98FCB6A2D4226.quest_desc: ["Miniture Telsa Coil działa jak zaklęcie Thorns. \\n\\nKażdy, kto uderzy Cię, gdy masz na sobie &c&lBackpack&r, zostanie porażony. Otrzyma obrażenia i dostanie efekt!"]
+	quest.38F01BAEC74D5D68.quest_desc: ["To to samo, co drugi Preheater, po prostu chciałem, żeby było symetrycznie :D."]
+	quest.39DAC0592300992A.quest_desc: ["&9Metal Press Mold Blueprints&r można wytworzyć. \\n\\n&7&lMetal Press Multiblock&r zautomatyzuje tworzenie &7Metal Plates&r i &eprzedmiotów&r. \\n\\nAby prasować &7metale&r, potrzebujemy form. \\n\\nŻeby je zrobić, potrzebujemy tych &9Blueprints&r!"]
+	quest.39DAC0592300992A.title: "&9Metal Press Molds Blueprints "
+	quest.3A4A8EAA3022C7BA.quest_desc: ["Water Wheels to jedne z maszyn, których możemy użyć z Kinetic Dynamo. \\n\\nSą dużo bardziej kompaktowe, ale też drogie w porównaniu z Windmill. \\n\\nAby ich używać, potrzebujesz &9Wody&r płynącej po Waterwheel. Im więcej &9Wody&r wokół niego, tym szybciej się obraca. Pamiętaj tylko, żeby &9Woda&r nie płynęła w 2 różnych kierunkach! \\n\\nDzięki kompaktowości możemy umieścić 3 Waterwheels na 1 Kinetic Dynamo, aby uzyskać jeszcze więcej energii."]
+	quest.3DE14F16F3109229.quest_desc: ["Łącząc 8 desek dowolnego drewna z &7Bucket of Creosote Oil&r, otrzymamy Treated Wood! \\n\\nTreated Wood jest używane w prawie każdym przedmiocie z &8&lIE&r, a także w większości prostych maszyn. \\n\\nNajważniejsze są &6Engineer's Workbenches&r! Dadzą nam mnóstwo nowych receptur."]
+	quest.3DE14F16F3109229.title: "Treated Wood"
+	quest.3E32450DBB7529AA.quest_desc: ["&eItem Batcher&r działa trochę jak kolejka do rollercoastera. \\n\\nRollercoaster nie ruszy, dopóki wszystkie miejsca nie zostaną zajęte! Tak samo &eBatcher&r nie wyda (&6Output&r) &eprzedmiotów&r, dopóki nie zostanie spełniony ustawiony filtr i ilość. \\n\\nIdealny do rzeczy takich jak przetwarzanie rud w &5&lMekanism&r, które wymaga określonych ilości &eprzedmiotów&r na wejściu (&9Input&r), inaczej powstanie wąskie gardło."]
+	quest.3E32450DBB7529AA.title: "&eItem Batcher"
+	quest.3E89034E0CB8D687.quest_desc: ["Wooden Crates działają jak Barrels... ale takie z &2&lMinecraft&r, czyli skrzynie otwierane z dowolnej strony! \\n\\nMają 27 miejsc, a kliknięcie ich prawym przyciskiem myszy z Shiftem za pomocą &6Engineer's Hammer&r (kilka razy) zamyka je szczelnie! Dzięki temu można je zniszczyć i zachować &eprzedmioty&r w środku. \\n\\nMożesz też edytować tekst Crate, aby zmienić jej nazwę tak jak w kowadle. \\n\\nReinforced Crate działa dokładnie tak samo jak zwykła, tylko nie da się jej wysadzić!"]
+	quest.3E89034E0CB8D687.title: "Przechowywanie &ePrzedmiotów"
+	quest.3ED40CC40458087E.quest_desc: ["&c&lAccumulator Backpack&r sam z siebie niewiele robi - musimy włożyć do niego &cAccumulator&r, żeby mieć z niego pożytek! Dowolny &cAccumulator&r, nie jest wybredny! \\n\\nGdy włożysz &cAccumulator&r w &6Engineer's Workbench&r, możesz go naładować. Po naładowaniu będzie dostarczał &cenergię&r przedmiotom w Twojej ręce i zbroi, którą nosisz. \\n\\nMożesz go nosić w slocie Back w Curios, w slocie Chestplate albo połączyć go z Chestplate w Crafting Table. \\n\\nBackpack pomieści 1 &cAccumulator&r i 3 ulepszenia."]
+	quest.3ED40CC40458087E.title: "&c&lAccumulator Backpack"
+	quest.3EDDF96EA5056D28.quest_desc: ["&6Copper&r i &7Nickel&r dadzą &6Constantan&r! \\nTen stop jest używany całkiem często w &8&lIE&r, zwłaszcza w maszynach i przedmiotach wykorzystujących ciepło i metal, jak generatory."]
+	quest.3EDDF96EA5056D28.title: "&6Constantan Ingot"
+	quest.3EE95747CA6DFB1A.quest_desc: [
+		"&7&lMetal Press&r to nasz najlepszy przyjaciel przy wszystkich recepturach z &7metalami&r! \\n\\nTo bardzo proste: umieszczamy formy na prasie, podłączamy &cenergię&r od góry i wrzucamy nasze &eprzedmioty&r na &eConveyor Belts&r. \\n\\nNasze &eprzedmioty&r przejdą przez prasę, zostaną &7&lsprasowane&r i staną się nowym &eprzedmiotem&r, który dalej jedzie po &eBelt&r! \\n\\nMożna w ten sposób robić &cWires&r, &7Plates&r, &8Rods&r i... &2Melon Slices&r?"
+		"{@pagebreak}"
+		"Pierwsza warstwa jest bardzo prosta: po prostu &8Steel Scaffolding&r i obie strony &4Redstone Engineering Block&r."
+		"{image:atm:textures/questpics/immersive/immersive_press1.png width:150 height:75 align:center}"
+		"Następnie umieszczamy Piston, skierowany w dół, nad &4Redstone Engineering Block&r i dodajemy obok niego dwa Conveyor Belts."
+		"{image:atm:textures/questpics/immersive/immersive_press2.png width:125 height:100 align:center}"
+		"Potem umieszczamy pojedynczy &7Heavy Engineering Block&r nad naszym Piston!"
+		"{image:atm:textures/questpics/immersive/immersive_press3.png width:100 height:100 align:center}"
+		"Na koniec klikamy Piston prawym przyciskiem myszy z Engineer's Hammer w ręce!"
+	]
+	quest.3EE95747CA6DFB1A.title: "&l&7Metal Press"
+	quest.407C2D00F22BD89D.quest_desc: ["To ulepszenie daje miejsce na 6 kolejnych pocisków! Łącznie będzie ich 14."]
+	quest.4104C5D003D4705A.quest_desc: [
+		"Kolejny multiblok, który używa &eBelts&r, widzę pewien schemat. Najpierw musimy ustawić &9Blueprint&r. Kliknij prawym przyciskiem myszy &6&lAutomated Workbench&r, aby otworzyć jego GUI, i umieść &9Blueprint&r w skrajnym prawym slocie. \\n\\nPotem możemy przepuszczać nasze &eprzedmioty&r przez &eBelts&r, aby były używane w recepturach, jeśli to możliwe. \\n\\nNastępnie wytworzony &eprzedmiot&r (oraz &eprzedmioty&r, które przypadkiem trafiły na &eBelts&r) wyjedzie z &eBelts&r. \\n\\nPrzydaje się to do automatyzacji produkcji pocisków, &0HOP Graphite&r i &7Mechanical Components&r."
+		"{@pagebreak}"
+		"Wiele z tych konstrukcji zaczynamy od kształtów z &8Steel Scaffolding&r, tym razem jest to linia po przekątnej. W mniejszym rogu umieścimy &7Heavy Engineering Block&r. W większym rogu umieścimy 2 &eLight Engineering Blocks&r i &4Redstone Engineering Block&r."
+		"{image:atm:textures/questpics/immersive/immersive_automated1.png width:100 height:100 align:center}"
+		"Następnie umieścimy więcej &eLight Engineering&r i &7Heavy Engineering Blocks&r na wierzchu ich poprzedników. Nad &4Redstone Engineering Block&r i &8Steel Scaffolding&r po jego lewej umieścimy Treated Wood Slabs. W pozostałym miejscu umieścimy &eConveyor Belts&r w kolejności pokazanej na obrazku."
+		"{image:atm:textures/questpics/immersive/immersive_automated2.png width:100 height:100 align:center}"
+		"Aby uzyskać nasz &6&lAutomated Workbench&r, uderz lewy Treated Wood Slab za pomocą &6Engineer's Hammer&r!"
+		"{image:atm:textures/questpics/immersive/immersive_automated.png width:100 height:100 align:center}"
+	]
+	quest.4104C5D003D4705A.title: "&l&6Automated Workbench"
+	quest.41B99DBD03EB74FF.quest_desc: [
+		"Uwierz mi, ten multiblok nie kłamie, gdy mówi, że jest ulepszony! \\n\\nMożna go zautomatyzować tak, aby przyjmował przedmioty (&9Input&r) od góry, a wydawał je (&6Output&r) z przednich i tylnych slotów. \\n\\nMożemy też dodać Preheaters po jego lewej i prawej stronie! \\n\\nDzięki temu wszystkiemu jest znacznie szybszy i oczywiście bardziej wydajny!"
+		"{@pagebreak}"
+		"Wreszcie coś innego! Zaczniesz od podstawy 3x3x3 z &4Reinforced Blast Bricks&r."
+		"{image:atm:textures/questpics/immersive/immersive_blast1.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_blast2.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_blast3.png width:100 height:100 align:center}"
+		"Następnie umieść Hopper na górze środkowego bloku."
+		"{image:atm:textures/questpics/immersive/immersive_blast4.png width:100 height:125 align:center}"
+		"Teraz kliknij prawym przyciskiem myszy środkowy blok 2. warstwy z &6Engineer's Hammer&r."
+		"{image:atm:textures/questpics/immersive/immersive_blast.png width:100 height:150 align:center}"
+	]
+	quest.41B99DBD03EB74FF.title: "&l&4Improved Blast Furnace"
+	quest.4295C863C9A81F28.quest_desc: ["Telsa Coil to bardzo zabawna i żądna &cenergii&r obrona domu! \\n\\nNajpierw zasil ją &cenergią&r z dowolnego z jej portów. Potem albo daj jej &4sygnał redstone&r, aby ją włączyć, albo użyj &6Engineer's Screwdriver&r, aby była zawsze włączona! \\n\\nGdy jest włączona, aktywnie zużywa &cenergię&r, a kiedy mob zbliży się do niej, ogłuszy go i zrani! Raniąc moby, zużywa jednak więcej &cenergii&r. \\n\\nMożesz kliknąć prawym przyciskiem myszy z Shiftem za pomocą &6Engineer's Screwdriver&r, aby ustawić ją w tryb niskiego poboru mocy. Zużyje mniej &cenergii&r, ale będzie miała też mniejszy zasięg i zadawała mniej obrażeń!"]
+	quest.431C62A6F8ECB4EC.quest_desc: ["&7Aluminum Rod&r - 10 \\n&7Iron Rod&r - 16 \\n&8Steel Rod&r - 24 \\n&8Sawblade&r - 12 \\n&0Graphite Electrode&r - 30"]
+	quest.431C62A6F8ECB4EC.title: "Amunicja do &5&lRailgun&r z &8&lIE&r"
+	quest.442B1A1900BADAFC.quest_desc: ["Niektóre maszyny w &8&lIE&r nie są multiblokami, tylko pojedynczymi blokami! \\n\\nNie myśl jednak, że skoro składają się z 1 bloku, to nie są ważne! "]
+	quest.442B1A1900BADAFC.title: "Małe Maszyny"
+	quest.452EF09F6CB4AD99.quest_desc: ["&cRelays&r nie łączą &cWires&r z maszynami, tylko &cWires&r z kolejnymi &cWires&r! \\n\\n&cRelays&r działają, łącząc wiele &cWires&r w jednym miejscu, więc przyjmą całą &9wchodzącą &cenergię&r i wyślą ją przez &cConnectors&r do wszystkich podłączonych &6wyjść&r. \\n\\nPrzydaje się to, gdy masz jeden generator energii, którym chcesz zasilać wiele maszyn!"]
+	quest.452EF09F6CB4AD99.title: "&cRelays"
+	quest.458265FCD6B3068E.quest_desc: ["Wszyscy uwielbiali Crafting Stations z &lTinker's Construct&r i najwyraźniej twórcy &8&lIE&r też! \\n\\n&6Engineer's Crafting Table&r działa jak zwykły stół rzemieślniczy, z dodatkowymi 18 slotami na przechowywanie, a do tego zachowuje Twoje &eprzedmioty&r w siatce, gdy przestaniesz go przeglądać! \\n\\nCzegóż chcieć więcej!"]
+	quest.458265FCD6B3068E.title: "&6Engineer's Crafting Table"
+	quest.47656073894224AF.quest_desc: ["Tak, jest zupełnie jak te na gigantycznych pancernikach! \\n\\n&5&lRailgun&r to specjalna broń. Po pierwsze, używa specjalnej amunicji, a nie Cartridges jak Revolver. Po drugie, używa &cenergii&r i musi się naładować przed strzałem. \\n\\nAmunicją są &eprzedmioty&r z Twojego ekwipunku: &7Aluminum&r, &7Iron&r i &8Steel Rods&r, &0Graphite Electrodes&r, Sawblades, Enderpearls, Tridents, Blaze Rods i End Rods. \\n\\nUżyje tego, co masz w ekwipunku; aby zmienić, czym strzela, przytrzymaj Shift i przewijaj kółkiem. \\n\\nNastępnie potrzebuje &cenergii&r w środku, aby strzelać; aby ją naładować, możemy użyć dowolnego &cItem Charger&r, także tego dodanego przez &8&lImmersive Engineering&r! \\n\\nGdy mamy to wszystko, przytrzymaj prawy przycisk myszy, aż Railgun osiągnie poziom 99, po czym puść! \\n\\nUlepszenia &5&lRailgun&r to: Precision Scope i Heatsinks. \\n\\nMoże pomieścić 2 ulepszenia, co ma sens, bo więcej już by nie użył!"]
+	quest.47656073894224AF.title: "&5&lRailgun"
+	quest.47E32A084CAA1512.quest_desc: ["Można je wymienić u Villagera Gunsmith albo wytworzyć. \\n\\nBroń nie jest zbyt zabawna bez pocisków, więc wytwórzmy trochę! Żeby je jednak wytworzyć, potrzebujemy tego &9Blueprint&r."]
+	quest.47E32A084CAA1512.title: "&9Common Projectiles Blueprint"
+	quest.481735FE3164C8D5.quest_desc: ["&bBlue Ice&r- 200 K \\n&bPacked Ice&r- 240 K \\n&bIce&r- 260 K \\nŚnieg- 273 K \\n&9Woda&r- 300"]
+	quest.481735FE3164C8D5.title: "&bZimne Przedmioty"
+	quest.4AAB3899F530CC19.quest_desc: ["Chutes mogą przyjmować &eprzedmioty&r (i niektóre encje) i upuszczać je bez obaw o zniknięcie! \\n\\nUpuszczają też &eprzedmioty&r całkiem szybko. \\n\\nMożesz użyć &6Engineer's Hammer&r, aby wygiąć Chute i upuścić &eprzedmioty&r na &eBelt&r!"]
+	quest.4AAB3899F530CC19.quest_subtitle: "Bez Ladders?"
+	quest.4B42D962FE910CB3.quest_desc: ["Po dodaniu tego do Twojego &d&lRevolver&r Twoje pociski będą nakładać na trafione moby efekt ogłuszenia."]
+	quest.4BA2F4AC2A08C294.quest_desc: [
+		"Cóż to takiego? To tylko najtrudniejszy i najdroższy multiblok w &8&lImmersive Engineering&r. &c&lExcavator&r! \\n\\nTen gigantyczny kolos będzie automatycznie zbierał rudy i bloki z ziemi. \\n\\nZebrane przedmioty będą wydawane (&6Output&r) z portu z tyłu. Jeśli obok nie ma żadnego ekwipunku, wyrzuci przedmioty. \\n\\nTo także piekielnie żądna &cenergii&r maszyna, więc musisz zasilać ją przez Energy Ports po jej lewej stronie!"
+		"{@pagebreak}"
+		"Umieść &8Steel Block&r."
+		"{image:atm:textures/questpics/immersive/immersive_excavator1.png width:100 height:100 align:center}"
+		"Dodaj 3 &8Steel Scaffolding&r nad &8Steel Block&r i umieść 2 &8Steel Blocks&r na końcach."
+		"{image:atm:textures/questpics/immersive/immersive_excavator2.png width:175 height:100 align:center}"
+		"Potem umieść 3x3 &8Steel Scaffolding&r nad poprzednim &8Scaffolding&r oraz po jednym dodatkowym na każdym z &8Steel Blocks&r. Następnie za pomocą &8Steel Sheetmetal&r zrób obręcz wychodzącą z &8Scaffolding&r, wraz z &eLight Engineering Block&r i &8Radiator Block&r. "
+		"{image:atm:textures/questpics/immersive/immersive_excavator3.png width:150 height:100 align:center}"
+		"Nad &8Steel Scaffolding&r dodaj więcej, ze &8Steel Block&r pośrodku. Następnie przyłącz kolejne &8Steel Blocks&r do ich końców. Po jednej stronie będą 3 &eLight Engineering Blocks&r, a po drugiej 3 &7Heavy Engineering Blocks&r. Nad &eLight Engineering Block&r w ostatniej warstwie będzie kolejny. A nad &8Radiator Block&r będzie &4Redstone Engineering Block&r. Obok niego będzie kolejny &7Heavy Engineering Block&r, a reszta to &8Steel Sheetmetal&r."
+		"{image:atm:textures/questpics/immersive/immersive_excavator4.png width:150 height:100 align:center}"
+		"Teraz w środkowej części powtarzamy to, co robiliśmy poniżej połowy, więc teraz jest to po prostu &8Steel Scaffolding&r. Po stronie obok z &eLight Engineering Blocks&r będą jeszcze 3, tak samo z przypadkowym &eLight Engineering Block&r po drugiej stronie. Obok 3 &eLight Engineering Blocks&r będą 2 &8Radiator Blocks&r, a wszystko inne to &8Sheetmetal&r."
+		"{image:atm:textures/questpics/immersive/immersive_excavator5.png width:150 height:100 align:center}"
+		"Nad &8Steel Scaffolding&r będzie 1 &8Steel Block&r, a po nim 3 &8Scaffolding&r i kolejny &8Block&r."
+		"{image:atm:textures/questpics/immersive/immersive_excavator6.png width:150 height:100 align:center}"
+		"Wisienka na torcie, &8Steel Block&r!"
+		"{image:atm:textures/questpics/immersive/immersive_excavator7.png width:150 height:100 align:center}"
+		"Teraz wystarczy kliknąć prawym przyciskiem myszy &7Heavy Engineering Block&r z tyłu naszym &6Hammer&r, a stanie się potężnym &c&lExcavator&r!"
+		"{image:atm:textures/questpics/immersive/immersive_excavator.png width:125 height:100 align:center}"
+	]
+	quest.4BA2F4AC2A08C294.title: "&l&cExcavator"
+	quest.4BBF987FEF639801.quest_desc: [
+		"Stopy to połączenia 2 różnych metali. \\n\\nMetale zwykle nie są płynne w temperaturze pokojowej, więc musimy je trochę przetopić (dzięki, Mercury)! \\n\\nDodaj 2 metale do górnych slotów, a paliwo do pieca, np. &0Charcoal&r, do dolnego slotu. \\n\\nChwila... &8Steel&r to stop!"
+		"{@pagebreak}"
+		"&6&lAlloy Kiln&r to 2x2x2 z &6Kiln Bricks&r."
+		"{image:atm:textures/questpics/immersive/immersive_alloy1.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_alloy2.png width:100 height:100 align:center}"
+		"Następnie kliknij prawym przyciskiem myszy górny prawy blok z &6Engineer's Hammer&r, aby go utworzyć!"
+		"{image:atm:textures/questpics/immersive/immersive_alloy.png width:100 height:100 align:center}"
+	]
+	quest.4BBF987FEF639801.title: "&l&6Alloy Kiln"
+	quest.4C4C9ADAC6107F89.quest_desc: ["&eLight Engineering Block&r ma dość prostą recepturę. \\n\\nPotrzebujesz 1 &6Copper Ingot&r, którego nie powinienem tłumaczyć, bo to po prostu element &2&lVanilla&r. \\n\\n4 &7Ironsheetmetal&r, czyli po prostu 4 połączone ze sobą &7Iron Plates&r! \\n\\nPotrzebujesz też 4 &7Iron Mechanical Components&r, czyli albo 4 &7Iron Plates&r i &6Copper Ingot&r w Crafting Table, albo 2 &7Iron Plates&r i &6Copper Ingot&r w &6Engineer's Workbench&r."]
+	quest.4C4C9ADAC6107F89.title: "&eLight Engineering Block"
+	quest.4D193D60A3CAF435.quest_desc: [
+		"To generator, którego najprawdopodobniej będziesz używać, &2&lDiesel Generator&r! \\n\\nPaliwo wkładasz (&9Input&r) w dolnym lewym i prawym rogu &2&lDiesel Generator&r. Paliwem może być: Creosote Oil, Biodiesel i High-Cetane Biodiesel. Są podane od najgorszego do najlepszego! \\n\\n&2&lDiesel Generator&r spala paliwo i produkuje &cenergię&r, którą można wyprowadzić (&6Output&r) z 3 złączy z przodu."
+		"{@pagebreak}"
+		"Z tyłu &2&lDiesel Generator&r potrzebujemy 3 &8Radiator Blocks&r. Pośrodku będą &bFluid Pipes&r otoczone &8Steel Scaffolding&r. Z przodu będzie &6Generator Block&r, a obok niego 2 &bFluid Pipes&r."
+		"{image:atm:textures/questpics/immersive/immersive_diesel1.png width:100 height:150 align:center}"
+		"Nad 3 &8Radiator Blocks&r będą kolejne 3 &8Radiator Blocks&r! A nad &6Generator Block&r i &bFluid Pipes&r obok niego będą 3 &6Generator Blocks&r. Resztę wypełnią &7Heavy Engineering Blocks&r i pojedynczy &4Redstone Engineering Block&r."
+		"{image:atm:textures/questpics/immersive/immersive_diesel2.png width:100 height:100 align:center}"
+		"Na koniec potrzebujemy 3 kolejnych &8Radiator Blocks&r nad pozostałymi, a obok zrobimy krzyż z &7Heavy Engineering Blocks&r."
+		"{image:atm:textures/questpics/immersive/immersive_diesel3.png width:100 height:100 align:center}"
+		"Ostatni krok to kliknięcie prawym przyciskiem myszy środkowego i górnego &6Generator Block&r z &6Engineer's Hammer&r!"
+		"{image:atm:textures/questpics/immersive/immersive_diesel.png width:100 height:100 align:center}"
+	]
+	quest.4D193D60A3CAF435.title: "&2&lDiesel Generator"
+	quest.4D8190E94851C546.quest_desc: ["Live &cWires&r (&cWires&r przenoszące &cenergię&r to Live &cWires&r) zranią Cię, gdy użyjesz na nich &6&lSkyhook&r. \\n\\nChyba że zaizolujesz uchwyt!"]
+	quest.4E297778DCEEC963.quest_desc: ["Advanced Heatsinks to nasze jedyne ulepszenia wyłącznie dla &5&lRailgun&r. \\n\\nSprawią, że &5&lRailgun&r będzie ładował się znacznie szybciej!"]
+	quest.4E8860056D068610.quest_desc: ["Nie można ich wytworzyć, są za to ostatnimi ofertami wymiany u Machinist Villager. \\n\\n&0Graphite Electrodes&r służą jako paliwo do &8&lArc Furnace&r (a także do Fluorescent Lights). \\n\\nAby je zdobyć, potrzebujemy tego specjalnego &9Blueprint&r."]
+	quest.4E8860056D068610.title: "&9Arc Furnace Electrodes Blueprints "
+	quest.4F56BFE6E4716F6D.quest_desc: [
+		"&8&lArc Furnace&r to ogromna i bardzo pomocna maszyna. Sprawia, że większość innych maszyn jest zbędna! \\n\\nNa początek potrzebujesz doprowadzić &cenergię&r do gniazd z tyłu &8&lArc Furnace&r. Potem potrzebuje paliwa, czyli &0Graphite Electrodes&r. Można je włożyć tylko w jej GUI, nie da się ich zautomatyzować. \\n\\nNastępnie musisz wsadzić (&6Input&r) &eprzedmioty&r do górnych portów, blisko miejsca, gdzie są &0Graphite Electrodes&r. Gdy ma paliwo i zasilanie, przetopi niemal wszystko. Od &7Iron Rods&r po &7Iron Ingots&r, od &bFroststeel Helmets&r po &bFroststeel&r, od &eGold Pickaxes&r po &eGold&r! \\n\\nPrzetopione &eprzedmioty&r zostaną wydane (&6Output&r) z tyłu, pod gniazdami zasilania. \\n\\nMoże też robić stopy z metali!"
+		"{@pagebreak}"
+		"1. warstwa zaczyna się od litery U zrobionej z &8Steel Sheetmetal&r, ze środkiem z &7Heavy Engineering Block&r i końcówkami z &8Steel Blocks&r. Reszta to &8Steel Sheetmetal Slabs&r z jednym zabłąkanym &8Steel Scaffolding&r i Cauldron."
+		"{image:atm:textures/questpics/immersive/immersive_arc1.png width:100 height:100 align:center}"
+		"2. warstwa zaczyna się od tego, że nad &7Heavy Engineering Block&r i 2 blokami obok niego będą &eLight Engineering Blocks&r. Potem boki litery U będą z &7Heavy Engineering Blocks&r. Nad poprzednimi dojdą kolejne &8Steel Blocks&r. Potrzebujemy też 2x3 &4Reinforced Blast Bricks&r nad &8Slabs&r. Nie zapomnij o &4Redstone Engineering Block&r nad &8Scaffolding&r!"
+		"{image:atm:textures/questpics/immersive/immersive_arc2.png width:100 height:100 align:center}"
+		"3. ma więcej &8Steel Blocks&r, więcej &eLight Engineering Blocks&r i przedłużenie naszych &4Reinforced Blast Bricks&r. Potrzebujemy też 1 &8Steel Sheetmetal&r z każdej strony."
+		"{image:atm:textures/questpics/immersive/immersive_arc3.png width:100 height:100 align:center}"
+		"4. wymaga &eLight Engineering Block&r umieszczonego pośrodku nad pozostałymi. Obok niego będą 2 &8Steel Scaffolding&r. Dodamy też więcej &4Reinforced Blast Brick&r, ale tym razem o jeden blok krótsze!"
+		"{image:atm:textures/questpics/immersive/immersive_arc4.png width:100 height:100 align:center}"
+		"5. i ostatnia warstwa to po prostu 2 kolejne &8Steel Scaffolding&r na pozostałych. Potem &eLight Engineering Blocks&r nad poprzednim i w linii przed nim."
+		"{image:atm:textures/questpics/immersive/immersive_arc5.png width:100 height:100 align:center}"
+		"Na koniec kliknij prawym przyciskiem myszy Cauldron z &6Hammer&r, aby ukończyć budowę!"
+		"{image:atm:textures/questpics/immersive/immersive_arc.png width:100 height:100 align:center}"
+	]
+	quest.4F56BFE6E4716F6D.title: "&8&lArc Furnace"
+	quest.50326B1D6EE8FA0B.quest_desc: ["&cAccumulators&r to wersja baterii z &8&lIE&r. \\n\\nPrzechowują &cenergię&r: &6LV&r mieści 100 kFE, &eMV&r 1 MFE, a &5HV&r 4 MFE! \\n\\nDomyślnie mają górny slot, który pozwala tylko na &9Input&r, ale każdą stronę można zmienić za pomocą &6Engineer's Hammer&r na &9Input&r, &6Output&r lub żadne z nich."]
+	quest.50326B1D6EE8FA0B.title: "&cAccumulators"
+	quest.506F20AF8E857559.quest_desc: ["Kinetic Dynamo to generator, który wykorzystuje pęd do wytwarzania energii! \\n\\nAby zacząć wytwarzać energię, potrzebujesz Waterwheel lub Windmill przyłączonego do strony z gigantyczną dziurą! \\n\\nKinetic Dynamo nie ma wewnętrznego magazynu energii, tylko dostarcza energię do podłączonych bloków, takich jak Connectors czy Accumulators."]
+	quest.506F20AF8E857559.title: "Energia z Poruszających się Rzeczy!"
+	quest.50F1C4521D282C60.quest_desc: ["Bulwark to ciężkie jednostki wśród tych bojowników. \\n\\nMają 12 serc i 18 punktów pancerza! \\n\\nIch bronią jest &b&lChemthrower&r, a w drugiej ręce trzymają &8&lHeavy Plated Shield&r. \\n\\nJeśli jakimś cudem jednego zabijesz, zdobędziesz &aEmeralds&r i Masterwork Shader Bags!"]
+	quest.50F1C4521D282C60.title: "Bulwark"
+	quest.520904C106D7D93D.quest_desc: ["Dzięki nim &6&lSkyhook&r działa podobnie do Mace: zadasz dodatkowe obrażenia mobom, jeśli spadasz, gdy je uderzasz. \\n\\nW Bioshock Infinite nazywa się to Skystrike!"]
+	quest.520904C106D7D93D.quest_subtitle: "Naciśnij LPM, aby wykonać Skystrike"
+	quest.5218DAE147AC9F44.quest_desc: ["Blade Quiver pozwala nosić więcej &8Blades&r lub &8przedmiotów podobnych do ostrzy&r w &2&lBuzzsaw&r. \\n\\nAby przełączać się między &8Blades&r (lub &8przedmiotami podobnymi do ostrzy&r), przytrzymaj Shift i przewijaj kółkiem. \\n\\nPrzydaje się to do wymiany zniszczonych &8Blades&r, a nawet do przełączenia na &8Grinding Disks&r!"]
+	quest.553ADA7040B652CD.quest_desc: ["&4&lMining Drill&r, &2&lBuzzsaw&r i &b&lChemical Thrower&r zwykle mieszczą 1000 mB, czyli 1 wiadro &bFluid&r. \\n\\nZwykle nie znaczy zawsze! Z Large Tank mogą pomieścić 2000 mB, czyli 2 wiadra. \\n\\nNie brzmi to jak dużo, ale uwierz mi, że to dużo."]
+	quest.5585130028BB8298.quest_desc: ["Najprostsza broń, jaką znajdziemy w &6&lATM10&r, &d&lRevolver&r! \\n\\nKliknij prawym przyciskiem myszy z Shiftem, aby otworzyć &d&lRevolver&r, a następnie przenieś amunicję do slotów. Potem po prostu kliknij prawym przyciskiem myszy, aby strzelić! \\n\\nMożesz zastosować do niego 2 ulepszenia. Dostępne to: Bayonet, Speedloader, Extended Magazine, Amplifier Electron Tubes i Precision Scope. \\n\\n&d&lRevolver&r może mieć tylko 2 ulepszenia, ale Speedloader jest technicznie inny."]
+	quest.5585130028BB8298.quest_subtitle: "Czujesz się szczęściarzem, punku?"
+	quest.5585130028BB8298.title: "&d&lRevolver"
+	quest.56CE6CF9C99FB522.quest_desc: ["Do &8Radiators&r potrzebujemy zwykłego &8Steel Sheetmetal&r, &9Water Bucket&r, co jest nowością, oraz &6Constantan Plates&r. \\n\\n&6Constantan&r to stop wytwarzany przez połączenie &6Copper&r i &7Nickel&r w &l&6Alloy Kiln&r."]
+	quest.56CE6CF9C99FB522.title: "&8Radiator Block"
+	quest.56E30438AE512475.quest_desc: ["Rozpalmy te płomienie! \\n\\nPreheater to bardzo prosty dodatek do &l&4Improved Blast Furnace&r. \\n\\nPo prostu umieść je po lewej i prawej stronie &l&4Improved Blast Furnace&r. Następnie podłącz zasilanie do jego góry, a zacznie przyspieszać &l&4Improved Blast Furnace&r."]
+	quest.573C2242EAB85B49.quest_desc: [
+		"&0&lCoke Oven&r to sposób na zdobycie &0Coal Coke&r, zgadnij, z czego jest zrobiony! \\n\\nW &0&lOven&r możemy przetapiać kłody na &0Charcoal&r albo &0Coal&r i &0Coal Blocks&r na &0Coke&r! \\n\\nObie te receptury dadzą też Creosote Oil, oprócz normalnego wyniku."
+		"{@pagebreak}"
+		"&0&lCoke Oven&r to bardzo prosty multiblok, 3x3x3 z &0Coke Bricks&r."
+		"{image:atm:textures/questpics/immersive/immersive_coke1.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_coke2.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_coke3.png width:100 height:100 align:center}"
+		"Po prostu kliknij prawym przyciskiem myszy środkowy blok przedniej strony z &6Engineer's Hammer&r, aby go utworzyć."
+		"{image:atm:textures/questpics/immersive/immersive_coke.png width:100 height:100 align:center}"
+	]
+	quest.573C2242EAB85B49.title: "&l&8Coke Oven"
+	quest.586F6FD38CF85DCA.quest_desc: ["&4&lMining Drill&r robi to, co sugeruje nazwa: wydobywa! \\n\\nDziała jak kilof, potrzebuje tylko &8Drill Heads&r i &2Bio-Diesel&r. &8Drill Heads&r określają jego poziom wydobycia i mają wytrzymałość, więc trzeba je wymieniać. &8Drill Heads&r możesz przyłączyć w &6Engineer's Workbench&r, w górnym slocie. \\n\\n&2Bio-Diesel&r to &bLiquid Fuel&r z bardzo trudną recepturą... to temat na inne zadanie, my szukamy tylko tego, jak go zatankować! Możesz użyć &4&lDrill&r na dowolnym &bTank&r lub maszynie zawierającej &2Bio-Diesel&r, aby go napełnić. \\n\\n&4&lMining Drill&r kopie w obszarze 3x3 lub 2x2, chyba że podczas kopania trzymasz Shift! \\n\\nMożesz też bić nim moby, zadając tyle samo obrażeń co Netherite Sword, ale zużywa to paliwo i wytrzymałość. \\n\\n&4&lMining Drill&r może mieć 1 Drill Head i 3 ulepszenia."]
+	quest.586F6FD38CF85DCA.quest_subtitle: "Czy byłbyś tak uprzejmy?"
+	quest.586F6FD38CF85DCA.title: "&4&lMining Drill"
+	quest.591E6964ABCC638C.quest_desc: ["&eConveyor Belts&r służą do przenoszenia &eprzedmiotów&r (i niektórych istot). \\n\\nGdy &eprzedmioty&r spadną na &eBelts&r, taśmy je zatrzymają i przeniosą. Można je potem przenieść do różnych ekwipunków, a jeśli chcemy wyciągać z ekwipunków, potrzebujemy specjalnego rodzaju &eBelt&r! \\n\\nSposób, w jaki postawisz &eBelt&r, określa, dokąd przenosi, co można też zmienić za pomocą &6Engineer's Hammer&r! \\nMuszą być stawiane na blokach, ale co ciekawe, nie potrzebują bloków pod spodem, żeby się trzymać i działać!"]
+	quest.591E6964ABCC638C.quest_subtitle: "i niektórych istot!"
+	quest.591E6964ABCC638C.title: "Przenoszenie &ePrzedmiotów&r"
+	quest.598DE7CEDA864B50.quest_desc: ["Po co mieć tylko 1 zbiornik, skoro możemy mieć 3! \\n\\nTeraz możesz trzymać 3 różne &bpłyny&r w swoim &b&lChemical Thrower&r. Przytrzymaj Shift i przewijaj, aby między nimi przełączać. \\n\\nNie da się tego użyć z Large Tank..."]
+	quest.5A2A718C569F3C19.quest_desc: ["Przetapiając &0węgiel&r w &lCoke Oven&r, możemy zdobyć &0Coal Coke&r! Albo, jak ja to nazywam, po prostu &0Coke&r! \\n\\nTo właściwie po prostu &0węgiel&r, ale ma więcej zastosowań w &8&lIE&r. \\n\\nMożesz połączyć go z żelazem, aby uzyskać &7Steel&r, rozkruszyć na &0Coke Dust&r, który będzie potrzebny do &0Graphite&r, albo użyć jako paliwa do Blast Furnace."]
+	quest.5A2A718C569F3C19.title: "&8Coke&r"
+	quest.5C5546A5103BCF55.quest_desc: ["Ten ma strzelać chemikaliami, takimi jak &bpłyny&r lub gazy... ale u mnie tego nie robi. \\n\\nPrzynajmniej mieści 2 ulepszenia! Te działają!"]
+	quest.5C5546A5103BCF55.title: "&b&lChemical Thrower"
+	quest.5DE3F2A96715BA2E.quest_desc: [
+		"&e&lSilo&r to multiblok służący do przechowywania ogromnych ilości tylko jednego rodzaju &eprzedmiotu&r, jak szuflada. \\n\\nMożesz &9wkładać&r &eprzedmiot&r i jego duplikaty od górnej lub dolnej strony, ale aby &6wyciągać&r, musisz użyć dolnej strony! \\n\\nMieści 41 472 &eprzedmiotów&r, ale tylko tego samego rodzaju."
+		"{@pagebreak}"
+		"Najpierw układamy kwadrat z Treated Wood Fences, a na środku &7Iron Sheetmetal&r."
+		"{image:atm:textures/questpics/immersive/immersive_silo1.png width:125 height:100 align:center}"
+		"Następnie robimy pełny kwadrat z &7Iron Sheetmetal&r nad naszymi Fences, zostawiając środek pusty. Zrób to 5 razy!"
+		"{image:atm:textures/questpics/immersive/immersive_silo2.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_silo3.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_silo4.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_silo5.png width:100 height:100 align:center}"
+		"{image:atm:textures/questpics/immersive/immersive_silo6.png width:100 height:100 align:center}"
+		"Potem ostatnia warstwa, czyli cały kwadrat z &7Iron Sheetmetal&r, wraz z wypełnieniem środkowego bloku."
+		"{image:atm:textures/questpics/immersive/immersive_silo7.png width:100 height:100 align:center}"
+		"Potem kliknij prawym przyciskiem myszy środkowy &7Iron Sheetmetal&r na drugiej warstwie za pomocą &6Hammer&r, aby stworzyć nasz &e&lSilo&r!"
+		"{image:atm:textures/questpics/immersive/immersive_silo.png width:100 height:125 align:center}"
+	]
+	quest.5DE3F2A96715BA2E.title: "&l&eSilo"
+	quest.5E228ACA1B13AD04.quest_desc: ["Teraz strzela i wali!"]
+	quest.5EE1DF1C8F0C1FF9.quest_desc: [
+		"Po zbudowaniu &l&5Lightning Coil&r możemy sprawić, by piorun uderzał w &8Steel Fences&r, które zamienią go w &cenergię&r we własnym zbiorniku &cenergii&r. \\n\\nIm więcej &8Steel Fences&r, tym większa szansa na piorun! \\n\\nCiekawe, czy da się użyć innych modów do przywoływania piorunów?"
+		"{@pagebreak}"
+		"Aby okiełznać moc najbardziej niszczycielskiego żywiołu Matki Natury, zaczniemy od &5High-Voltage Coil Block&r. Następnie postaw &5HV Accumulators&r przylegające do &5High-Voltage Coil Block&r. W rogach postaw &8Steel Scaffolding&r."
+		"{image:atm:textures/questpics/immersive/immersive_lightning1.png width:100 height:100 align:center}"
+		"W następnej warstwie postaw kolejny &5High-Voltage Coil Block&r na poprzednim. Obok niego będą &eLight Engineering Blocks&r. W rogach będą zwykłe Treated Fences!"
+		"{image:atm:textures/questpics/immersive/immersive_lightning2.png width:100 height:100 align:center}"
+		"Teraz potrzebujemy trzeciego &5High-Voltage Coil Blocks&r nad pozostałymi, a wokół niego 8 &6Copper Coil Blocks&r."
+		"{image:atm:textures/questpics/immersive/immersive_lightning3.png width:100 height:100 align:center}"
+		"Potem kliknij prawym przyciskiem myszy &eLight Engineering Block&r od przedniej strony za pomocą &6Hammer&r, aby zamienić go w &5&lLightning Coil&r!"
+		"{image:atm:textures/questpics/immersive/immersive_lightning.png width:100 height:100 align:center}"
+		"Nie zrobiłem obrazka do tego kroku, ale potrzebujesz &8Steel Fences&r na szczycie &5&lLightning Coil&r, aby piorun w niego uderzał!"
+	]
+	quest.5EE1DF1C8F0C1FF9.title: "&5&lLightning Coil"
+	quest.5F4F7637044BD4F1.quest_desc: [
+		"&2&lFermenter&r przechowuje Twoje jedzenie (&eprzedmioty&r) i po jakimś czasie przekształca je w etanol. \\n\\nW &6Engineer's Manual&r znajdziesz listę &eprzedmiotów&r, które można wkładać do &2&lFermenter&r przez porty z tyłu i z lewej strony. \\n\\nJeśli użyjesz &6Honey Bottles&r, możesz &6wyciągnąć&r butelki z portu po prawej stronie. \\n\\n&2&lFermenter&r potrzebuje &cenergii&r, którą dostarczysz portem na górze &2&lFermenter&r! "
+		"{@pagebreak}"
+		"Dość prosty początek: zrób odwrócone n z &8Steel Scaffolding&r, wewnątrz niego umieść &bFluid Pipes&r, a w rogu &eLight Engineering Block&r."
+		"{image:atm:textures/questpics/immersive/immersive_fermenter1.png width:100 height:100 align:center}"
+		"Nad &eLight Engineering Block&r postaw kolejny. Po jego prawej, pomijając jeden blok, postaw &4Redstone Engineering Block&r. Po lewej od &eLight Engineering Block&r postawimy 2x2 Cauldrons."
+		"{image:atm:textures/questpics/immersive/immersive_fermenter2.png width:100 height:100 align:center}"
+		"Kolejny prosty krok: postaw &7Iron Sheetmetal&r nad wszystkimi Cauldrons!"
+		"{image:atm:textures/questpics/immersive/immersive_fermenter3.png width:100 height:100 align:center}"
+		"Kliknij prawym przyciskiem myszy Cauldron między &eLight Engineering Block&r a &4Redstone Engineering Block&r za pomocą &6Hammer&r."
+		"{image:atm:textures/questpics/immersive/immersive_fermenter.png width:100 height:100 align:center}"
+	]
+	quest.5F4F7637044BD4F1.title: "&l&2Fermenter"
+	quest.607D9B53C632DEDE.quest_desc: ["&bPipe Valves&r pomagają sortować i zatrzymywać przepływ &bpłynów&r! \\n\\nUżyte z &bFluid Pipes&r sprawią, że &bpłyn&r będzie płynął tylko w kierunku strzałek na &bPipe Valve&r. \\n\\nMożesz też podać mu &4sygnał redstone&r, a całkowicie zatrzyma przepływ &bpłynu&r!"]
+	quest.607D9B53C632DEDE.title: "&bPipe Valve"
+	quest.6140EAA6E042EF7C.quest_desc: ["&6&lSkyhook&r działa zarówno jako narzędzie, jak i broń. \\n\\nMożesz po prostu walić nim moby jak mieczem albo użyć go do poruszania się po bazie! \\n\\nGdy zbliżysz się do &cWire&r (&6LV&r, &eMV&r, &5HV&r, Insulated, Hemp, &8Steel&r, &4Redstone&r), możesz przytrzymać prawy przycisk myszy, aby się do nich zaczepić. Potem możesz się poruszać i zjeżdżać po &cWires&r! \\n\\nJeśli chcesz używać go na aktywnych &cWires&r, potrzebujesz ulepszeń! Takich jak: High Torque Motor, Insulated Grip i Heavy Impact Hooks. \\n\\nMieści 2 ulepszenia."]
+	quest.6140EAA6E042EF7C.quest_subtitle: "Booker catch!"
+	quest.6140EAA6E042EF7C.title: "&6&lEngineer's Skyhook"
+	quest.63F5314A1072FA05.quest_desc: [
+		"&e&lSawmill&r działa podobnie do &7&lMetal Press&r, używa &eConveyor Belts&r i wymaga dodatkowych przedmiotów. \\n\\nPracuje w 2 etapach: najpierw okorowuje kłody. Jeśli nie ma w sobie Sawblade, tylko okorowuje kłody. Drugi etap to cięcie kłody na deski, do czego potrzebny jest Sawblade. \\n\\nSawblades wytwarza się z ogromnej ilości &8Steel&r. Mają wytrzymałość, a aby je włożyć, kliknij prawym przyciskiem myszy sloty z tyłu Sawmill. Jeśli chcesz je wyjąć, wyłącz Sawmill za pomocą &4redstone&r, a potem kliknij prawym przyciskiem myszy z Shiftem miejsce, w które je włożyłeś. \\n\\nMusisz dostarczyć mu &cenergię&r na górze tylnej strony, a &9wkładać &eprzedmioty&r możesz przez &eConveyor Belts&r. &ePrzedmioty&r będą &6wychodzić&r tymi samymi &eBelts&r, ale Sawdust wychodzi z portu z przodu &e&lMachine&r."
+		"{@pagebreak}"
+		"Zrób kształt litery I z &8Steel Scaffolding&r (nie zapomnij o &7Heavy Engineering Block&r) i wypełnij jedną część &eLight Engineering Blocks&r, a drugą &7Iron Sheetmetal&r."
+		"{image:atm:textures/questpics/immersive/immersive_saw1.png width:150 height:100 align:center}"
+		"Postaw 3 kolejne &eLight Engineering Blocks&r na ich dolnych kolegach. Dodaj 1 &7Iron Sheetmetal&r na skrajnym lewym &7Iron Sheetmetal&r, a obok niego postaw &4Redstone Engineering Block&r. Obok górnego &7Iron Sheetmetal&r potrzebujemy kolejnego &7Heavy Engineering Block&r. Nie zapomnij dodać Conveyor Belts, bez nich go nie zbudujesz!"
+		"{image:atm:textures/questpics/immersive/immersive_saw2.png width:100 height:100 align:center}"
+		"Kliknij prawym przyciskiem myszy środkowy &7Iron Sheetmetal&r naszym Hammer!"
+		"{image:atm:textures/questpics/immersive/immersive_saw.png width:100 height:100 align:center}"
+	]
+	quest.63F5314A1072FA05.title: "&e&lSawmill"
+	quest.662DD269B027B6C8.quest_desc: ["Nie naładujesz swojego &c&lAccumulator Backpack&r bezprzewodowo... ale możesz naładować go &cprzewodowo&r! \\n\\nPo prostu przyczep Charging Antenna do swojego &c&lAccumulator Backpack&r i podejdź do dowolnych &cWires&r przesyłających &cenergię&r, a część z niej trafi do Twojego &c&lBackpack&r."]
+	quest.67940C0774E73217.quest_desc: ["&eItem Router&r będzie &9przyjmować &eprzedmioty&r i &6wydawać&r je w określone miejsca na podstawie filtrów ustawionych w jego interfejsie! \\n\\nMożna je ustawić na &eBelts&r, Crates lub inne ekwipunki."]
+	quest.67940C0774E73217.title: "&eItem Router"
+	quest.679E80EBB9A2AE7E.quest_desc: ["&bFluid Routers&r sortują i filtrują przepływające &bpłyny&r. \\n\\nMusisz ustawić konfigurację w jego interfejsie, aby wybrać filtry i stronę. Gdy to zrobisz, przyjmie wszystkie nadchodzące &bpłyny&r i wyśle je tam, gdzie je ustawisz!"]
+	quest.679E80EBB9A2AE7E.title: "&bFluid Router"
+	quest.67FB03BE6685AFE1.quest_desc: ["Żeby rozpocząć wojnę, trzeba najpierw ją wypowiedzieć! \\n\\nŻartuję, od razu przechodzimy do strzelania! Tu nie ma żadnej dyplomatycznej ściemy! \\n\\nNa początek zastrzel Pillagera z &d&lRevolver&r. \\n\\nSpowoduje to pojawianie się nowych i silniejszych Pillagerów!"]
+	quest.67FB03BE6685AFE1.title: "Atak i Obrona"
+	quest.6B2BD6F939136F50.quest_desc: ["Turntable jest dość prosty. Górna ściana z &7szarym&r kwadratem to część ruchoma. \\n\\nPozostałe ściany to &4Redstone Ports&r, do których podajesz &4sygnał redstone&r, aby go aktywować. \\n\\nPo aktywacji obraca dowolny blok przymocowany do górnej ściany. \\n\\nMożesz potrzebować użyć na nim &6Engineer's Hammer&r, aby zmienić sposób obracania!"]
+	quest.6BD348735C27BB44.quest_desc: [
+		"&b&lBottling Machine&r napełni każdy &eprzedmiot&r, który przejedzie obok na &eBelt&r. \\n\\nUżyj portów z tyłu, aby napełnić &b&lMachine&r &bpłynami&r. Poznasz, że działa, gdy zbiornik będzie pełen tego &bpłynu&r! \\n\\nGdy potem &bBucket&r, &bTank&r lub dowolny &bFluid Storage&r nadjedzie &eBelt&r, zostanie napełniony tym &bpłynem&r! \\n\\n&bBucket&r, &bTank&r czy cokolwiek innego pojedzie dalej &eBelts&r pełne tego &bpłynu&r! \\n\\nA tak przy okazji, jak wszystko w życiu, &b&lBottling Machine&r potrzebuje &cenergii&r w portach na górze tylnej strony!"
+		"{@pagebreak}"
+		"Na początek zrób trójkąt z &8Steel Scaffolding&r. Potem wypełnij otwory &7Iron Sheetmetal&r, &4Redstone Engineering Block&r i &eLight Engineering Block&r."
+		"{image:atm:textures/questpics/immersive/immersive_bottler1.png width:100 height:100 align:center}"
+		"Teraz dodaj &eConveyor Belt&r wzdłuż przedniej strony. Następnie dodaj drugi &7Iron Sheetmetal&r po drugiej stronie, obok niego &bFluid Pump&r, a na poprzednim &eLight Engineering Block&r!"
+		"{image:atm:textures/questpics/immersive/immersive_bottler2.png width:100 height:100 align:center}"
+		"Po prostu użyj &6Hammer&r na środkowym &eConveyor Belt&r i BUM, gotowe!"
+		"{image:atm:textures/questpics/immersive/immersive_bottler.png width:100 height:100 align:center}"
+	]
+	quest.6BD348735C27BB44.title: "&b&lBottling Machine"
+	quest.6D42D0102D1CBC19.quest_desc: ["Additional Augers to Sharpness... tylko dla &4&lDrill&r! \\n\\nAha, i możesz mieć 3 naraz, dla skumulowanej mocy."]
+	quest.6F3C82072672FD17.quest_desc: ["To zadanie zostało stworzone przez &6Ekipę AllTheMods&r lub &2współtwórcę społeczności&r na potrzeby paczek AllTheMods. \\n\\nPonieważ wszystkie paczki &6AllTheMods&r są objęte licencją &eAll Rights Reserved&r, to zadanie nie może być używane w żadnych publicznych paczkach niewydanych przez &6AllTheMods Team&r bez wyraźnej zgody. \\n\\nTo zadanie jest celowo ukryte - jeśli to widzisz, jesteś w trybie edycji."]
+	quest.7060290E107D92AB.quest_desc: ["Wiele rzeczy będzie potrzebować &cenergii&r, w tym niektóre &eprzedmioty&r, których nie da się postawić, jak &5&lRailgun&r! Jak więc je naładować? \\n\\nCharging Station to nasz człowiek do tego zadania! \\n\\nPo prostu &6doprowadź &cenergię&r z tyłu lub od dołu, a będzie gotowa do ładowania każdego &eprzedmiotu&r włożonego do środka! \\n\\nDotyczy to &5&lRailguns&r, &cAccumulators&r i rzeczy z innych modów! Nie naładuje jednak pobliskich bloków..."]
+	quest.72CE46D28C9E7452.quest_desc: ["Precision Scope można używać zarówno z &5&lRailgun&r, jak i z &d&lRevolver&r. \\n\\nZ &d&lRevolver&r i &5&lRailgun&r możesz wcisnąć środkowy przycisk myszy, aby użyć Scope, a potem przewijać, aby dostosować powiększenie."]
+	quest.73110103EF23BFDF.quest_desc: ["Mieszanka &6Copper&r i &7Zinc&r. \\n\\nNie ma zbyt wielu zastosowań w &8&lIE&r... Chyba można z tego zrobić Signs..."]
+	quest.73110103EF23BFDF.title: "&6Brass Ingot"
+	quest.763AE58CF620695E.quest_desc: ["Ten &9Blueprint&r, jak wiele innych, można wytworzyć. \\n\\n&8&lImmersive Engineering&r ma własne Banner Patterns! \\n\\nAby je wytworzyć, potrzebujesz jednak &9Blueprints&r."]
+	quest.763AE58CF620695E.title: "&9Banner Patterns Blueprints "
+	quest.767E4FC03B6F6534.quest_desc: ["Invar Ingots powstają z &7żelaza&r i &7niklu&r. \\n\\nJak wiele z tych stopów, nie są przydatne w &8&lIE&r."]
+	quest.767E4FC03B6F6534.title: "&7Invar Ingot"
+	quest.7744BEC5CD328262.quest_desc: ["Aby kopać bloki &bpod wodą&r, potrzebujesz tego ulepszenia. \\n\\nDaje też Aqua Affinity! (To znaczy, że przebywanie w &bWodzie&r nie spowalnia kopania.)"]
+	quest.78DA970F97002975.quest_desc: ["Barrels to proste sposoby przechowywania &bpłynów&r. \\n\\nSą Wooden Barrels i Metal Barrels. Drewniane mogą przechowywać tylko zimne i chłodne &bpłyny&r, nie ciepłe &bpłyny&r ani gazy. Metalowe Barrels mogą przechowywać wszystkie rodzaje &bpłynów&r i gazów. \\n\\nOba rodzaje Barrels mieszczą 12 wiader &bpłynu&r. Automatycznie &9przyjmują&r od góry i &6wydają&r na dole, ale można to zmienić."]
+	quest.78DA970F97002975.title: "Przechowywanie &bPłynów"
+	quest.79BEECD4E545793F.quest_desc: ["Razor Wire działa jak Cobwebs... tylko ostrzejszy! \\n\\nRazor Wire rani i spowalnia wszystko, co próbuje przez niego przejść, łącznie z nami! \\n\\nMożemy go bezpiecznie rozmontować za pomocą &6Engineer's Wirecutters&r. \\n\\nAlbo użyć &6LV &cWires&r, aby zadawał więcej obrażeń i wywoływał efekt ogłuszenia!"]
+	quest.7A1E3E7E2DF17AD2.quest_desc: ["Pierwszy to &8Sawblade&r. Służy do ścinania &2drzew&r. Zetnie każdą kłodę i każdy liść &2drzewa&r nad ściętą kłodą. \\n\\nDrugi to &8Rockcutter Blade&r. Ten nie niszczy &2drzew&r, tylko działa jak kilof z Silk Touch. Zniszczy Stone i da Stone zamiast Cobble. \\n\\nTrzeci to &8Grinding Disk&r. Nie niszczy &2drzew&r ani Stone, tylko &7bloki metalowe&r! Dobry do &8Steel Scaffolding&r i zdrapywania utleniania z &6miedzi&r!"]
+	quest.7A1E3E7E2DF17AD2.title: "Amunicja do &2&lBuzzsaw&r"
+	quest.7A41038180C06B00.quest_desc: ["&cConnectors&r służą do... no, łączenia! Łączą &cWires&r od maszyn, do &cAccumulators&r, do generatorów, od praktycznie wszystkiego! \\n\\nTo, czy &cConnector &9przyjmuje &flub &6wydaje&r, zależy od konfiguracji tego, do czego jest przymocowany! \\n\\nMają też własny wewnętrzny magazyn &cenergii&r, a jego pojemność zależy od poziomu napięcia."]
+	quest.7A41038180C06B00.title: "&cConnectors"
+	quest.7AE85F4FF4DDF4F2.quest_desc: ["Windmill to kolejna opcja, której możemy użyć z Kinetic Dynamo! \\n\\nBędą się automatycznie obracać, a z ich prędkości dostajemy energię, więc większa prędkość to więcej energii. \\n\\nJak zdobyć prędkość? Po pierwsze, potrzebuje miejsca przed sobą. Im mniej bloków przed nim, tym szybciej się kręci! \\n\\nKolejnym czynnikiem prędkości są Windmill Sails. Możesz dodać łącznie 8 Windmill Sails, klikając prawym przyciskiem myszy środkowy Windmill Block z Sails w ręku."]
+	quest.7B447E986493AD6B.quest_desc: ["&7Creosote Oil&r jest produktem ubocznym &lCoke Oven&r. \\n\\nGłównie posłuży do wytwarzania Treated Wood, podstawowego bloku budowlanego &8&lIE&r. \\n\\nBędziesz jej potrzebować także do innego płynu później, ale zajmiemy się tym, gdy do tego dojdziemy."]
+	quest.7B447E986493AD6B.title: "&7Creosote Oil"
+	quest.7B9672C4FCFFB887.quest_desc: ["Te &9Blueprints&r można wytworzyć i, rany, jakie są tanie! \\n\\nWarning Signs to bardzo proste dekoracje, które możemy zrobić z &7Metal Plates&r, barwników i tego &9Blueprint&r."]
+	quest.7B9672C4FCFFB887.title: "&9Warning Signs Blueprints "
+	quest.7FE273141D3DFFFD.quest_desc: ["Fusilier to średnia jednostka nowych Pillagers! \\n\\nMają 12 serc i brak zbroi. \\n\\nIch bronią jest &5&lRailgun&r ładowany przez noszony przez nich Accumulator Backpack! \\n\\nPo śmierci wypadają z nich &aEmeralds&r i &7Iron Rods&r."]
+	quest.7FE273141D3DFFFD.title: "Fusilier"
+	task.02B26D0D73E5E361.title: "Belts"
+	task.0837FA64B9C50048.title: "Amunicja do Buzzsaw"
+	task.0B62C759781950A1.title: "Amunicja do IE Railgun"
+	task.0CD67A3D64E9B49B.title: "Druty Dekoracyjne"
+	task.0D7C60D7BFBD8CF0.title: "AllRightsReserved"
+	task.15795AB2872E2DEE.title: "Chutes"
+	task.173B725A839DEEAA.title: "Common Projectiles"
+	task.20D0DB49AFA7976F.title: "Dowolny Accumulator"
+	task.4025792887CB9BE2.title: "Wire Coils"
+	task.43FDC45CF464047E.title: "Ciepłe Przedmioty"
+	task.440F173D6B5EE74E.title: "Relays"
+	task.529FFD7D692AEFA5.title: "Specjalistyczne Pociski"
+	task.5580FF146C9E7EA0.title: "Barrels"
+	task.56D7513E9D02F900.title: "Drill Heads"
+	task.59DC19A11848EFE1.title: "Connectors"
+	task.5CEB2D56A9EA74D0.title: "Zimne Przedmioty"
+	task.603A16080675C348.title: "AllRightsReserved"
+	task.79F67E07C28F8E97.title: "Amunicja do Minecraft Railgun"
+	task.7FED013A7F667CC6.title: "Crates"
+}
