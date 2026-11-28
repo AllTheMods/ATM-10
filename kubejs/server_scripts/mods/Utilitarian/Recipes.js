@@ -2,8 +2,13 @@
 // As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
 
 ServerEvents.recipes(allthemods => {
-  allthemods.replaceInput({ id: /^utilitarian:utility\/redying\/[a-z_]+_stained_glass$/ }, '#c:glass_blocks/cheap',
-    Ingredient.of('#c:glass_blocks/cheap').except(['connectedglass:borderless_glass', 'connectedglass:clear_glass', 'connectedglass:scratched_glass']));
+  const glassColours = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray',
+    'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black']
+  glassColours.forEach(colour => {
+    allthemods.replaceInput({ id: `utilitarian:utility/redying/${colour}_stained_glass` }, '#c:glass_blocks/cheap',
+      Ingredient.of('#c:glass_blocks/cheap').except(['connectedglass:borderless_glass', 'connectedglass:clear_glass',
+        'connectedglass:scratched_glass', `minecraft:${colour}_stained_glass`]))
+  })
   allthemods.replaceInput({ id: /^utilitarian:utility\/redying\/[a-z_]+_stained_glass_pane$/ }, '#c:glass_panes',
     Ingredient.of('#c:glass_panes').except(['connectedglass:borderless_glass_pane', 'connectedglass:clear_glass_pane', 'connectedglass:scratched_glass_pane']));
   allthemods.replaceInput({ id: /^utilitarian:utility\/redying\/[a-z_]+_candle$/ }, '#minecraft:candles',
@@ -13,6 +18,7 @@ ServerEvents.recipes(allthemods => {
 
   allthemods.remove({ id: 'utilitarian:tiny_fuel/coal' });
   allthemods.remove({ id: 'utilitarian:tiny_fuel/charcoal' });
+  allthemods.remove({ id: 'utilitarian:utility/green_dye' });
 });
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

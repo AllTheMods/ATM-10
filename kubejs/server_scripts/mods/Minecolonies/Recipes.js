@@ -70,6 +70,11 @@ if (Platform.isLoaded('minecolonies')) {
         event.replaceInput({ input: 'minecolonies:yogurt', mod:'minecolonies' }, 'minecolonies:yogurt', '#c:yogurt' )
 //Tortillas replacement
         event.replaceInput({ input: 'minecolonies:tortillas', mod:'minecolonies' }, 'minecolonies:tortillas', '#c:tortilla' )
+
+        event.shapeless('minecolonies:yogurt', ['#c:milk', '#c:milk', '#c:sugar']).id('minecolonies:yogurt')
+        event.replaceInput({ id: 'minecolonies:soy_yogurt' }, '#c:milk', '#c:milk/soymilk')
+        event.replaceInput({ id: 'minecolonies:soysauce' }, '#c:crops/soybean',
+            Ingredient.of('#c:crops/soybean').except('pamhc2crops:soybeanitem'))
     })
 }
 

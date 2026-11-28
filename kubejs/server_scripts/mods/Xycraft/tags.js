@@ -17,6 +17,16 @@ ServerEvents.tags('item', event => {
             console.log(`tag= c:ores/xychorium_${colour} and item= xycraft_world:xychorium_ore_${substrate}_${colour}`)
         })
     })
+
+    const dyeColours = ['white', 'orange', 'magenta', 'light_blue', 'yellow', 'lime', 'pink', 'gray',
+        'light_gray', 'cyan', 'purple', 'blue', 'brown', 'green', 'red', 'black']
+    dyeColours.forEach(colour => {
+        event.remove(`c:dyed/${colour}`, /^xycraft_world:glass_viewer_rgb_/)
+        event.add(`c:dyed/${colour}`, [
+            `xycraft_world:glass_viewer_rgb_${colour}`,
+            `xycraft_world:glass_viewer_rgb_glowing_${colour}`
+        ])
+    })
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

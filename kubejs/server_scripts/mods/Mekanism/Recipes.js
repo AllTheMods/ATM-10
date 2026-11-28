@@ -190,6 +190,8 @@ ServerEvents.recipes(allthemods => {
   mekOxidizing({item:'mekanism:osmium', count:200}, 'c:ingots/osmium')
   mekOxidizing({item:'mekanism:osmium', count:1800}, 'c:storage_blocks/osmium')
 
+  allthemods.remove({ id: 'mekanism:sulfur_dye' })
+
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.
