@@ -1,0 +1,219 @@
+[general]
+	#Defines the length of a day (both daytime & nighttime obviously) for the mod's internal logic. NOTE: This does NOT CHANGE HOW LONG A DAY IN MC IS! It is only to provide potential compatibility for mods that do provide such functionality.
+	# Default: 24000
+	# Range: 1000 ~ 400000
+	dayLength = 24000
+	#If set to 'true', the player will receive an AstralSorcery Tome when they join the server for the first time.
+	giveTomeOnJoin = false
+
+[perks]
+	#Sets the max level for the perk tree levels.
+	# Default: 30
+	# Range: 1 ~ 100
+	perkLevelCap = 30
+
+		[perks.root.vicio]
+			#Experience multiplier for any exp gained from this root perk.
+			# Default: 1.0
+			# Range: 0.01 ~ 20.0
+			expMultiplier = 1.0
+
+		[perks.root.discidia]
+			#Experience multiplier for any exp gained from this root perk.
+			# Default: 1.0
+			# Range: 0.01 ~ 20.0
+			expMultiplier = 1.0
+			#The time in ticks after which the combat duration is considered excessively long and apply a penalty on exp gained. Might want to adjust this higher for very combat focused modpacks.
+			# Default: 2400
+			# Range: > 1
+			extendedCombatDuration = 2400
+
+		[perks.root.aevitas]
+			#Experience multiplier for any exp gained from this root perk.
+			# Default: 1.0
+			# Range: 0.01 ~ 20.0
+			expMultiplier = 1.0
+
+		[perks.root.armara]
+			#Experience multiplier for any exp gained from this root perk.
+			# Default: 1.0
+			# Range: 0.01 ~ 20.0
+			expMultiplier = 1.0
+			#The time in ticks after which the combat duration is considered excessively long and apply a penalty on exp gained. Might want to adjust this higher for very combat focused modpacks.
+			# Default: 2400
+			# Range: > 1
+			extendedCombatDuration = 2400
+
+		[perks.root.evorsio]
+			#Experience multiplier for any exp gained from this root perk.
+			# Default: 1.0
+			# Range: 0.01 ~ 20.0
+			expMultiplier = 1.0
+
+	[perks.key_damage_armor]
+		#Percentage of damage dealt that gets instead converted to durability damage towards armors.
+		# Default: 0.05000000074505806
+		# Range: 0.0 ~ 1.0
+		damageConversionPerArmor = 0.05000000074505806
+
+	[perks.key_disarm]
+		#Defines the chance per hit to make the target drop a piece of armor.
+		# Default: 0.10000000149011612
+		# Range: 0.0 ~ 1.0
+		disarmChance = 0.10000000149011612
+
+	[perks.key_projectile_proximity]
+		#Distance after which no additional damage is granted anymore
+		# Default: 100.0
+		# Range: 4.0 ~ 32767.0
+		distanceCap = 100.0
+		#The maximum damage multiplier obtainable right in front of the shooter.
+		# Default: 2.5
+		# Range: 0.05000000074505806 ~ 50.0
+		additionalDamageMultiplier = 2.5
+
+	[perks.key_last_breath]
+		#Maximum additional multiplier to damage dealt, the lower hp gets, from 0 to this value when health reaches 0.
+		# Default: 3.0
+		# Range: 0.1 ~ 50.0
+		damageMultiplier = 3.0
+		#Maximum additional multiplier to dig speed, the lower hp gets, from 0 to this value when health reaches 0.
+		# Default: 2.0
+		# Range: 0.1 ~ 50.0
+		digSpeedMultiplier = 2.0
+
+	[perks.key_no_armor]
+		#Damage taken multiplier when only wearing 1 armor piece.
+		# Default: 0.7
+		# Range: 0.1 ~ 1.0
+		damageTakenMultiplier = 0.7
+
+	[perks.key_grow_plants]
+		#Chance per tick to try to run growth tick on a nearby plant. Can surpass 100% with perk effect for potentially multiple ticks.
+		# Default: 1.0
+		# Range: 0.0 ~ 50.0
+		chance = 1.0
+		#Radius in which to try to grow nearby plants.
+		# Default: 3
+		# Range: 1 ~ 16
+		radius = 3
+
+	[perks.key_cull_attack]
+		#The health percentage at how low the target's relative health needs to be for it to be killed by the culling attack.
+		# Default: 0.15
+		# Range: 0.0 ~ 1.0
+		cullHealthPercentage = 0.15
+
+	[perks.key_projectile_distance]
+		#Distance at and after which the full 'additionalDamageMultiplier' is applied.
+		# Default: 192.0
+		# Range: 4.0 ~ 32767.0
+		distanceCap = 192.0
+		#The maximum damage multiplier obtainable at max distance.
+		# Default: 1.5
+		# Range: 0.05000000074505806 ~ 50.0
+		additionalDamageMultiplier = 1.5
+
+	[perks.key_mend_armor]
+		#The chance (1 in x) to repair an armor piece per tick. This is modified by the perk effect increase modifiers.
+		# Default: 800
+		# Range: > 1
+		chanceToRepair = 800
+
+	[perks.key_cheat_death]
+		#Cooldown in ticks after cheat death from this perk procs.
+		# Default: 1800
+		# Range: > 0
+		cooldownTicks = 1800
+
+	[perks.key_damage_effects]
+		#Chance to apply a negative effect to the target on hit.
+		# Default: 0.2
+		# Range: 0.0 ~ 1.0
+		effectApplicationChance = 0.2
+
+[enchantment_amulet]
+	#Defines the chance to roll a 2nd-enchantment-manipulating roll on the amulet. Value defines a percent chance from 0% to 100%. Setting this to 0 also prevents a 3rd roll
+	# Default: 0.8
+	# Range: 0.0 ~ 1.0
+	chance2nd = 0.8
+	#Defines the chance to roll a 3rd-enchantment-manipulation roll on the amulet. Value defines a percent chance from 0% to 100%.
+	# Default: 0.25
+	# Range: 0.0 ~ 1.0
+	chance3rd = 0.25
+	#Defines the chance the roll will be +2 instead of +1 to existing enchantment/to enchantment/to all enchantments.
+	# Default: 0.15
+	# Range: 0.0 ~ 1.0
+	chance2Level = 0.15
+	#Defines the chance the amulet-roll 'to all existing enchantments' will appear.
+	# Default: 0.02
+	# Range: 0.0 ~ 1.0
+	chanceToAll = 0.02
+	#Defines the chance the amulet roll 'to <encahntment>' will appear. (Don't mistake this for 'to exsting <enchantment>'!)
+	# Default: 0.35
+	# Range: 0.0 ~ 1.0
+	chanceToNonExisting = 0.35
+
+	[tiles.tree_beacon]
+		#Radius of the tree beacon
+		# Default: 12.0
+		# Range: 3.0 ~ 32.0
+		range = 12.0
+		#If blocks < pivot, it gets faster the more blocks are stored. If > pivot, it gets slower the more blocks are stored.
+		# Default: 300
+		# Range: 100 ~ 2000
+		production_pivot = 300
+		#Chance (1 in x) per tick to harvest/generate drops of one of the block stored
+		# Default: 15
+		# Range: 2 ~ 500
+		harvest_chance = 15
+		#Chance (1 in x) per tick to break and remove one of the blocks stored; 0 never breaks blocks.
+		# Default: 800
+		# Range: > 0
+		break_chance = 800
+		#Weight multiplier for log blocks when picking a block to harvest. Only applies for newly captured trees after changing this value.
+		# Default: 2
+		# Range: 1 ~ 200
+		log_weight = 2
+
+[artifact]
+	#Sets the minimum delay between potential artifact triggers.
+	# Default: 240
+	# Range: 20 ~ 10000
+	triggerDelay = 240
+	#Define the chance (1 in X) per second for the artifact to start a trigger after the delay is over.
+	# Default: 20
+	# Range: 1 ~ 10000
+	triggerChance = 20
+	#Sets the default delay between artifact pulses, before stability.
+	# Default: 800
+	# Range: 20 ~ 10000
+	pulseDelay = 800
+	#The minimum amount of conditions a artifact may need to stabilize.
+	# Default: 4
+	# Range: 1 ~ 100
+	artifactConditionCountMin = 4
+	#The maximum amount of conditions a artifact may need to stabilize.
+	# Default: 6
+	# Range: 1 ~ 100
+	artifactConditionCountMax = 6
+	#When a new condition is added to an artifact, this defines the chance that a negative effect is added to the artifact.
+	# Default: 0.4000000059604645
+	# Range: 0.0 ~ 1.0
+	negativeEffectGainChance = 0.4000000059604645
+	#When adding a new condition, this defines the lower bound chance that fulfilling the chain of conditions will trigger that condition's positive effect.
+	# Default: 0.20000000298023224
+	# Range: 0.0 ~ 1.0
+	positiveEffectChanceMin = 0.20000000298023224
+	#When adding a new condition, this defines the upper bound chance that fulfilling the chain of conditions will trigger that condition's positive effect.
+	# Default: 0.550000011920929
+	# Range: 0.0 ~ 1.0
+	positiveEffectChanceMax = 0.550000011920929
+	#When adding a new negative effct, this defines the lower bound chance that a pulse triggers this effect.
+	# Default: 0.30000001192092896
+	# Range: 0.0 ~ 1.0
+	negativeEffectChanceMin = 0.30000001192092896
+	#When adding a new negative effct, this defines the uppre bound chance that a pulse triggers this effect.
+	# Default: 0.699999988079071
+	# Range: 0.0 ~ 1.0
+	negativeEffectChanceMax = 0.699999988079071
